@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure proper scrolling */
+html, body {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100%;
+  height: auto;
+}
+
+/* Force scrolling on all pages */
+body {
+  overflow-y: scroll !important;
+}
+
+/* Ensure content can expand */
+* {
+  box-sizing: border-box;
+}
