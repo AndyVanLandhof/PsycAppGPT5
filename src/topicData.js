@@ -13,6 +13,34 @@ export const topicData = {
     ]
   },
 
+  "soul-mind-body": {
+    id: "soul-mind-body",
+    title: "Soul, Mind and Body",
+    component: "Philosophy",
+    description: "Explore dualism, materialism, and the mind-body problem in Plato, Aristotle, and Descartes.",
+    difficulty: "Medium",
+    subTopics: [
+      { id: "plato-soul", title: "Plato's View of the Soul" },
+      { id: "aristotle-soul", title: "Aristotle's View of the Soul" },
+      { id: "descartes", title: "Descartes' Dualism" },
+      { id: "materialism", title: "Materialist Critiques" }
+    ]
+  },
+
+  "nature-attributes-god": {
+    id: "nature-attributes-god",
+    title: "Nature or Attributes of God",
+    component: "Philosophy",
+    description: "Examine the classical attributes of God: omnipotence, omniscience, benevolence, eternity, and free will.",
+    difficulty: "Medium",
+    subTopics: [
+      { id: "omnipotence", title: "Omnipotence" },
+      { id: "omniscience", title: "Omniscience" },
+      { id: "benevolence", title: "Benevolence" },
+      { id: "eternity", title: "Eternity and Free Will" }
+    ]
+  },
+
   "arguments-existence-god": {
     id: "arguments-existence-god",
     title: "Arguments for the Existence of God",
@@ -27,9 +55,9 @@ export const topicData = {
     ]
   },
 
-  "evil-suffering": {
-    id: "evil-suffering",
-    title: "Evil and Suffering",
+  "problem-of-evil": {
+    id: "problem-of-evil",
+    title: "Problem of Evil",
     component: "Philosophy",
     description: "Explore how evil challenges belief in a benevolent God.",
     difficulty: "Hard",
@@ -234,6 +262,19 @@ export const topicData = {
       { id: "miracles", title: "Miracles and Authority" },
       { id: "resurrection", title: "Resurrection and Salvation" },
       { id: "liberation", title: "Liberation Theology & Ethics" }
+    ]
+  },
+
+  "practices-identity": {
+    id: "practices-identity",
+    title: "Practices Shaping Religious Identity",
+    component: "Christianity",
+    description: "Explore worship, sacraments, and community practices that shape Christian identity.",
+    difficulty: "Medium",
+    subTopics: [
+      { id: "worship", title: "Worship and Liturgy" },
+      { id: "sacraments", title: "Sacraments" },
+      { id: "community", title: "Community and Fellowship" }
     ]
   },
 

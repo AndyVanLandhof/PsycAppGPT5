@@ -1,10 +1,21 @@
 import fitz  # PyMuPDF
 import re
 import json
+import sys
 
 PDF_FILENAME = "OCR Religious Studies - Revision Guide.pdf"  # <-- Change this if needed
 TXT_FILENAME = "revision_guide_extracted.txt"
 JSON_FILENAME = "revision_guide_chunks.json"
+
+# Allow command-line argument for PDF filename
+if len(sys.argv) > 1:
+    PDF_FILENAME = sys.argv[1]
+    if PDF_FILENAME.lower().endswith('.pdf'):
+        base = PDF_FILENAME[:-4]
+    else:
+        base = PDF_FILENAME
+    TXT_FILENAME = base + "_extracted.txt"
+    JSON_FILENAME = base + "_chunks.json"
 
 def extract_text_with_headings(pdf_path, txt_path):
     doc = fitz.open(pdf_path)

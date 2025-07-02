@@ -37,7 +37,17 @@ function TopicDetail({ topic, onBack }) {
     return <TimedEssay topic={topic} onBack={() => setActiveView(null)} />;
   }
   if (activeView === "socratic") {
-    return <SocraticDialogue topic={sub?.title || topic.title} duration={10} />;
+    return (
+      <div>
+        <button
+          className="text-blue-600 underline mb-4"
+          onClick={() => setActiveView(null)}
+        >
+          ← Back to Study Methods
+        </button>
+        <SocraticDialogue topic={sub?.title || topic.title} duration={10} />
+      </div>
+    );
   }
 
   return (

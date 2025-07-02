@@ -9,6 +9,7 @@ import VaultTester from './components/VaultTester';
 import ConceptMapView from './components/ConceptMapView';
 import MasterConceptMapView from './components/MasterConceptMapView';
 import SocraticDialogue from './components/SocraticDialogue';
+import OCRComparisonPage from './components/OCRComparisonPage';
 import {
   BookOpen, Brain, Heart, Cross, Globe,
   Settings, BarChart3
@@ -147,6 +148,10 @@ function App() {
     );
   }
 
+  if (view === 'ocr-comparison') {
+    return <OCRComparisonPage onBack={() => setView('home')} />;
+  }
+
   // Home view
   return (
     <div className="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
@@ -189,19 +194,13 @@ function App() {
           >
             🧪 Test Vault Integration
           </button>
-          {/* Beta: Arguments for the Existence of God Concept Map */}
+        </div>
+        <div className="flex justify-center mt-12">
           <button
-            onClick={() => setView('arguments-existence-map')}
-            className="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 font-semibold transition-colors"
+            className="px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-lg hover:from-green-700 hover:to-blue-700 font-semibold shadow-lg"
+            onClick={() => setView('ocr-comparison')}
           >
-            🧪 Beta: Arguments for the Existence of God Concept Map
-          </button>
-          {/* Beta: Socratic Dialogue for Kantian Ethics */}
-          <button
-            onClick={() => setView('socratic-kantian-ethics')}
-            className="px-6 py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 font-semibold transition-colors"
-          >
-            💬 Beta: Socratic Dialogue (Kantian Ethics)
+            See OCR Spec vs App Topics
           </button>
         </div>
       </div>
