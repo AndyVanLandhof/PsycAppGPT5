@@ -124,11 +124,45 @@ Remember: Base your response on the OCR revision materials above.`;
     return callAI(enhancedPrompt, model, { useVault: false });
   };
 
+  // Get AI response using public sources (OCR curriculum + academic knowledge)
+  const callAIWithPublicSources = async (prompt, topic, subTopic, model = "ChatGPT") => {
+    const enhancedPrompt = `You are an expert OCR Religious Studies tutor with deep knowledge of the H573 curriculum. The student is studying ${subTopic || topic} and asks: "${prompt}"
+
+Please provide a comprehensive, accurate answer using:
+
+1. **OCR H573 Religious Studies Curriculum Knowledge:**
+   - Official OCR specification content
+   - Standard A-Level religious studies concepts
+   - Required knowledge for H573 exam
+
+2. **Academic Sources and Scholars:**
+   - Well-known philosophers, theologians, and scholars in this field
+   - Key texts and publications relevant to ${subTopic || topic}
+   - Current academic understanding and debates
+
+3. **Educational Focus:**
+   - Content suitable for A-Level students
+   - Clear explanations with examples
+   - Links to exam requirements where relevant
+   - Balanced perspectives and critiques
+
+4. **Specific Requirements:**
+   - Include relevant dates, names, and key concepts
+   - Provide context for why ideas are important
+   - Connect to broader religious studies themes
+   - Address potential exam questions
+
+Focus on accuracy, educational value, and depth appropriate for A-Level Religious Studies students.`;
+
+    return callAI(enhancedPrompt, model, { useVault: false });
+  };
+
   return {
     callAI,
     callAIWithVault,
     callAIForExam,
     callAIForRevision,
+    callAIWithPublicSources,
     isLoading: false // You can wire this into a true loading state if needed
   };
 }

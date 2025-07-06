@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ReactFlow, { MiniMap, Controls, Background } from 'react-flow-renderer';
-import masterPhilosophyConceptMap from '../data/masterPhilosophyConceptMap';
-import masterEthicsConceptMap from '../data/masterEthicsConceptMap';
-import masterChristianityConceptMap from '../data/masterChristianityConceptMap';
+import { nodes as masterPhilosophyNodes, edges as masterPhilosophyEdges } from '../data/masterPhilosophyConceptMap';
+import { nodes as masterEthicsNodes, edges as masterEthicsEdges } from '../data/masterEthicsConceptMap';
+import { nodes as masterChristianityNodes, edges as masterChristianityEdges } from '../data/masterChristianityConceptMap';
 import 'react-flow-renderer/dist/style.css';
 
 function MasterConceptMapView({ onBack, componentType = 'philosophy' }) {
@@ -13,13 +13,13 @@ function MasterConceptMapView({ onBack, componentType = 'philosophy' }) {
   const getConceptMapData = () => {
     switch (componentType.toLowerCase()) {
       case 'philosophy':
-        return masterPhilosophyConceptMap;
+        return { nodes: masterPhilosophyNodes, edges: masterPhilosophyEdges };
       case 'ethics':
-        return masterEthicsConceptMap;
+        return { nodes: masterEthicsNodes, edges: masterEthicsEdges };
       case 'christianity':
-        return masterChristianityConceptMap;
+        return { nodes: masterChristianityNodes, edges: masterChristianityEdges };
       default:
-        return masterPhilosophyConceptMap;
+        return { nodes: masterPhilosophyNodes, edges: masterPhilosophyEdges };
     }
   };
 

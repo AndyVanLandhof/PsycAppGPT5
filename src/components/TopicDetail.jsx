@@ -5,6 +5,15 @@ import StudyContent from "./StudyContent";
 import QuizView from "./QuizView";
 import SocraticDialogue from "./SocraticDialogue";
 import { UserCog } from "lucide-react";
+import ConceptMapView from "./ConceptMapView";
+import { nodes as cosmologicalNodes, edges as cosmologicalEdges } from '../data/cosmologicalArgumentConceptMap';
+import { nodes as teleologicalNodes, edges as teleologicalEdges } from '../data/teleologicalArgumentConceptMap';
+import { nodes as ontologicalNodes, edges as ontologicalEdges } from '../data/ontologicalArgumentConceptMap';
+import { nodes as ancientPhilosophyNodes, edges as ancientPhilosophyEdges } from '../data/ancientPhilosophyConceptMap';
+import { nodes as religiousExperienceNodes, edges as religiousExperienceEdges } from '../data/religiousExperienceConceptMap';
+import { nodes as problemOfEvilNodes, edges as problemOfEvilEdges } from '../data/problemOfEvilConceptMap';
+import { nodes as naturalLawNodes, edges as naturalLawEdges } from '../data/naturalLawConceptMap';
+import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } from '../data/augustineTeachingsConceptMap';
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
@@ -46,6 +55,103 @@ function TopicDetail({ topic, onBack }) {
           ← Back to Study Methods
         </button>
         <SocraticDialogue topic={sub?.title || topic.title} duration={10} />
+      </div>
+    );
+  }
+  if (activeView === "conceptmap") {
+    // Philosophy concept maps
+    if (sub?.id === 'cosmological') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: cosmologicalNodes, edges: cosmologicalEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    if (sub?.id === 'teleological') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: teleologicalNodes, edges: teleologicalEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    if (sub?.id === 'ontological') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: ontologicalNodes, edges: ontologicalEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    if (sub?.id === 'ancient-philosophical-influences') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: ancientPhilosophyNodes, edges: ancientPhilosophyEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    if (sub?.id === 'religious-experience') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: religiousExperienceNodes, edges: religiousExperienceEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    if (sub?.id === 'problem-of-evil') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: problemOfEvilNodes, edges: problemOfEvilEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    // Ethics concept maps
+    if (sub?.id === 'natural-law') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: naturalLawNodes, edges: naturalLawEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    // Christianity concept maps
+    if (sub?.id === 'augustines-teachings') {
+      return (
+        <ConceptMapView 
+          conceptMapData={{ nodes: augustineTeachingsNodes, edges: augustineTeachingsEdges }} 
+          onBack={() => setActiveView(null)}
+          topic={topic.title}
+          subTopic={sub.title}
+        />
+      );
+    }
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <button className="text-blue-600 underline mb-4" onClick={() => setActiveView(null)}>
+          ← Back to Study Methods
+        </button>
+        <div className="bg-white rounded-lg shadow-lg p-8 mt-8 text-center">
+          <div className="text-2xl mb-2">🗺️</div>
+          <div className="font-semibold text-gray-800">Concept Map Coming Soon</div>
+          <div className="text-sm text-gray-600 mt-2">No concept map available for {sub?.title || 'this sub-topic'} yet.</div>
+        </div>
       </div>
     );
   }
@@ -147,6 +253,17 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-2xl mb-2">🧔‍♂️</div>
                   <div className="font-semibold text-yellow-800">Socratic Method</div>
                   <div className="text-xs text-gray-600 mt-1">Discuss this topic</div>
+                </div>
+              </button>
+              {/* Concept Map Pane */}
+              <button
+                onClick={() => setActiveView("conceptmap")}
+                className="border border-pink-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-pink-50 bg-gray-50"
+              >
+                <div className="text-center">
+                  <div className="text-2xl mb-2">🗺️</div>
+                  <div className="font-semibold text-pink-800">Concept Map</div>
+                  <div className="text-xs text-gray-600 mt-1">Visualise this sub-topic</div>
                 </div>
               </button>
             </div>

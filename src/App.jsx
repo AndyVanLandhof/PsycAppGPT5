@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import argumentsExistenceGodConceptMap from './data/argumentsExistenceGodConceptMap';
+import { nodes as argumentsExistenceNodes, edges as argumentsExistenceEdges } from './data/argumentsExistenceGodConceptMap';
 
 const allTopics = Object.values(topicData);
 const getTopicsByComponent = (comp) => allTopics.filter(t => t.component === comp);
@@ -75,7 +75,10 @@ function App() {
         >
           ← Back to App
         </button>
-        <ConceptMapView />
+        <ConceptMapView 
+          topic="Ancient Philosophy"
+          subTopic="Overview"
+        />
       </div>
     );
   }
@@ -129,7 +132,11 @@ function App() {
         >
           ← Back to App
         </button>
-        <ConceptMapView conceptMapData={argumentsExistenceGodConceptMap} />
+        <ConceptMapView 
+          conceptMapData={{ nodes: argumentsExistenceNodes, edges: argumentsExistenceEdges }} 
+          topic="Arguments for the Existence of God"
+          subTopic="Overview"
+        />
       </div>
     );
   }

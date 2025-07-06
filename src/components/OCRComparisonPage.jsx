@@ -199,7 +199,7 @@ const ocrSpec = [
 ];
 
 const getAppTopicsByComponent = (component) => {
-  // Custom mapping for Philosophy to align Evil and Suffering, Nature of God, and Miracles
+  // Custom mapping for Philosophy to align Problem of Evil and Miracles
   if (component === 'Philosophy') {
     const appTopics = Object.values(topicData)
       .filter(t => t.component === component);
@@ -209,10 +209,10 @@ const getAppTopicsByComponent = (component) => {
       'Soul, Mind and Body',
       'Arguments for the Existence of God',
       'Religious Experience',
-      'Evil and Suffering',
+      'Problem of Evil',
       'Nature or Attributes of God',
       'Religious Language',
-      'Miracles'
+      'Miracles' // Miracles is only in the app, not OCR spec
     ];
     // Map custom order to app topics
     return customOrder.map(title => {
@@ -254,19 +254,55 @@ const OCRComparisonPage = ({ onBack }) => {
                 {section.topics.map((ocrTopic, idx) => {
                   const appTopics = getAppTopicsByComponent(section.component);
                   let appTopic = appTopics[idx] || {};
-                  // Special handling for Philosophy: add note for Miracles
-                  let extraNote = null;
-                  if (section.component === 'Philosophy' && ocrTopic.title === 'Religious experience') {
-                    // If Miracles is a separate topic, suggest integration
+                  // For Philosophy, after the last OCR topic, add Miracles row if present in app
+                  if (section.component === 'Philosophy' && idx === section.topics.length - 1) {
+                    // Render the last OCR topic row as normal
+                    const lastRow = (
+                      <tr key={ocrTopic.title} className="align-top">
+                        <td className="p-3 border-b border-gray-200 w-1/2">
+                          <div className="font-semibold">{ocrTopic.title}</div>
+                          <ul className="list-disc ml-5 text-sm">
+                            {ocrTopic.subTopics.map(st => (
+                              <li key={st}>{st}</li>
+                            ))}
+                          </ul>
+                        </td>
+                        <td className="p-3 border-b border-gray-200 w-1/2">
+                          <div className="font-semibold">{appTopic.title || <span className="italic text-gray-400">(No direct match)</span>}</div>
+                          <ul className="list-disc ml-5 text-sm">
+                            {(appTopic.subTopics || []).map(st => (
+                              <li key={st}>{st}</li>
+                            ))}
+                          </ul>
+                        </td>
+                      </tr>
+                    );
+                    // Now add Miracles row if present in app
                     const miraclesTopic = appTopics.find(t => t.title === 'Miracles');
                     if (miraclesTopic) {
-                      extraNote = (
-                        <div className="mt-2 text-xs text-blue-700">
-                          <strong>Note:</strong> The app includes 'Miracles' as a separate topic. This could be integrated under 'Religious Experience' or 'Arguments for the Existence of God' to match the OCR spec structure.
-                        </div>
-                      );
+                      return [
+                        lastRow,
+                        <tr key="miracles-app-only" className="align-top">
+                          <td className="p-3 border-b border-gray-200 w-1/2">
+                            <span className="italic text-gray-400">(No direct OCR topic)</span>
+                          </td>
+                          <td className="p-3 border-b border-gray-200 w-1/2">
+                            <div className="font-semibold">{miraclesTopic.title}</div>
+                            <ul className="list-disc ml-5 text-sm">
+                              {(miraclesTopic.subTopics || []).map(st => (
+                                <li key={st}>{st}</li>
+                              ))}
+                            </ul>
+                            <div className="mt-2 text-xs text-blue-700">
+                              <strong>Note:</strong> 'Miracles' is not a standalone OCR topic, but is included in the app for additional depth and revision focus. It could be integrated under 'Religious Experience' or 'Arguments for the Existence of God' for strict OCR alignment.
+                            </div>
+                          </td>
+                        </tr>
+                      ];
                     }
+                    return lastRow;
                   }
+                  // Default row rendering
                   return (
                     <tr key={ocrTopic.title} className="align-top">
                       <td className="p-3 border-b border-gray-200 w-1/2">
@@ -284,7 +320,6 @@ const OCRComparisonPage = ({ onBack }) => {
                             <li key={st}>{st}</li>
                           ))}
                         </ul>
-                        {extraNote}
                       </td>
                     </tr>
                   );

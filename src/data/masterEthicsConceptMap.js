@@ -374,4 +374,4 @@ const edges = [
   }
 ];
 
-export default { nodes, edges }; 
+export { nodes, edges }; 

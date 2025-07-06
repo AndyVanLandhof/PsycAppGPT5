@@ -35,4 +35,4 @@ const edges = [
   { id: "e11", source: "dawkins", target: "ontological", label: "modern critique", data: { rationale: "Modern atheists challenge the ontological argument." } },
 ];
 
-export default { nodes, edges }; 
+export { nodes, edges }; 
