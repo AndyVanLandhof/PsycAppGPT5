@@ -625,5 +625,63 @@ export const themeMap = {
     "Atheist critiques",
     "Scientific atheism",
     "Responses to new atheism"
-  ]
+  ],
+  // --- ADDED PHILOSOPHY SUBTOPIC KEYS (curriculum-aligned themes) ---
+  "plato-soul": [
+    "The soul as the essential and immaterial part of a human",
+    "The soul's relationship to the body (temporarily united)",
+    "The tripartite soul (reason, spirit, appetite)",
+    "The immortality of the soul and the cycle of rebirth",
+    "The role of the soul in knowledge and learning (anamnesis)"
+  ],
+  "aristotle-soul": [
+    "The soul as the 'form' of the body",
+    "The soul as the principle of life and activity",
+    "The inseparability of soul and body",
+    "The hierarchy of souls (nutritive, sensitive, rational)",
+    "The Prime Mover and the soul's final cause"
+  ],
+  "descartes": [
+    "Substance dualism: mind and body as distinct substances",
+    "Cogito ergo sum and the nature of the mind",
+    "Mind-body interaction and the pineal gland",
+    "Criticisms of Descartes (Ryle's 'category error')",
+    "The influence of Descartes on later philosophy"
+  ],
+  "materialism": [
+    "The mind and consciousness as physical/material phenomena",
+    "The rejection of the soul as a spiritual substance",
+    "Behaviourism and identity theory",
+    "Functionalism and the brain as a computer",
+    "Critiques of dualism from materialist perspectives"
+  ],
+  "omnipotence": [
+    "Classical definitions of omnipotence",
+    "Paradoxes of omnipotence (e.g., stone paradox)",
+    "Omnipotence and logical possibility",
+    "Omnipotence and free will",
+    "Process theology and limitations on divine power"
+  ],
+  "omniscience": [
+    "Classical definitions of omniscience",
+    "Omniscience and foreknowledge",
+    "Omniscience and human free will",
+    "Middle knowledge (Molinism)",
+    "Critiques and philosophical challenges"
+  ],
+  "benevolence": [
+    "The meaning of divine benevolence",
+    "Benevolence and the problem of evil",
+    "Benevolence in classical theism",
+    "Benevolence and justice",
+    "Critiques of divine benevolence"
+  ],
+  "eternity": [
+    "God as eternal (timeless vs everlasting)",
+    "The relationship between eternity and omniscience",
+    "Divine foreknowledge and human free will",
+    "Theological determinism vs libertarian free will",
+    "Philosophical debates on God and time"
+  ],
+  // --- ETHICS & CHRISTIANITY PLACEHOLDERS (to be filled in next step) ---
 };

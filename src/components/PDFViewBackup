@@ -1,0 +1,49 @@
+// Robust mapping for topic/type aliases and subtopics to actual folder names
+const topicFolderMap = {
+  // Top-level topics
+  christianity: "Christianity",
+  ethics: "Ethics",
+  philosophy: "Philosophy",
+  // Philosophy subtopics
+  "ancient philosophical influences": "Philosophy",
+  "arguments for the existence of god": "Philosophy",
+  "problem of evil": "Philosophy",
+  "religious experience": "Philosophy",
+  "language, truth and logic": "Philosophy",
+  "ontological argument": "Philosophy",
+  "cosmological argument": "Philosophy",
+  "teleological argument": "Philosophy",
+  // Christianity subtopics
+  "developments in christian thought": "Christianity",
+  "jesus": "Christianity",
+  "sexism and god-talk": "Christianity",
+  "myth of christian uniqueness": "Christianity",
+  // Ethics subtopics
+  "kantian ethics": "Ethics",
+  "natural law": "Ethics",
+  "practical ethics": "Ethics",
+  // Add more as needed
+};
+const typeFolderMap = {
+  core: "Core",
+  additional: "Additional",
+  // Add more aliases as needed
+};
+
+// Use this in your StudyContent component:
+const handleViewPDF = (reference) => {
+  // Defensive: support both old and new reference shapes
+  const topicKey = reference.metadata?.topic?.toLowerCase();
+  const topicFolder = topicFolderMap[topicKey] || reference.metadata?.topic;
+  const typeFolder = typeFolderMap[reference.metadata?.type?.toLowerCase()] || reference.metadata?.type;
+  let pdfUrl = reference.pdfUrl;
+  if (!pdfUrl && reference.source && reference.metadata) {
+    pdfUrl = `/vault/${topicFolder}/${typeFolder}/${reference.source}`;
+  }
+  setSelectedPDF({
+    url: pdfUrl,
+    page: reference.page,
+    title: reference.title || reference.source
+  });
+  setShowPDFViewer(true);
+};

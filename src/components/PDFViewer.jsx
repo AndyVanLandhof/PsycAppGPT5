@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, Download, ZoomIn, ZoomOut, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
@@ -7,29 +7,35 @@ import 'react-pdf/dist/Page/TextLayer.css';
 // Set workerSrc for pdfjs
 pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
 
-function PDFViewer({ pdfUrl, pageNumber, onClose }) {
-  const [currentPage, setCurrentPage] = useState(pageNumber || 1);
-  const [zoom, setZoom] = useState(1.0);
+export default function PDFViewer({ pdfUrl, pageNumber = 1, onClose }) {
+  const [currentPage, setCurrentPage] = useState(pageNumber);
   const [numPages, setNumPages] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [zoom, setZoom] = useState(1.0);
   const [error, setError] = useState(null);
 
-  const handleZoomIn = () => {
-    setZoom(prev => Math.min(prev + 0.2, 3.0));
+  useEffect(() => {
+    setCurrentPage(pageNumber);
+  }, [pageNumber, pdfUrl]);
+
+  useEffect(() => {
+    console.log("PDFViewer loading:", pdfUrl);
+  }, [pdfUrl]);
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+    setError(null);
+    setCurrentPage(page => Math.max(1, Math.min(page, numPages)));
   };
 
-  const handleZoomOut = () => {
-    setZoom(prev => Math.max(prev - 0.2, 0.5));
+  const onDocumentLoadError = (err) => {
+    setError('Failed to load PDF.');
+    console.error('PDF load error:', err);
   };
 
-  const handlePreviousPage = () => {
-    setCurrentPage(prev => Math.max(prev - 1, 1));
-  };
-
-  const handleNextPage = () => {
-    setCurrentPage(prev => (numPages ? Math.min(prev + 1, numPages) : prev + 1));
-  };
-
+  const handleZoomIn = () => setZoom(z => Math.min(z + 0.2, 3.0));
+  const handleZoomOut = () => setZoom(z => Math.max(z - 0.2, 0.5));
+  const handlePreviousPage = () => setCurrentPage(p => Math.max(p - 1, 1));
+  const handleNextPage = () => setCurrentPage(p => (numPages ? Math.min(p + 1, numPages) : p + 1));
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = pdfUrl;
@@ -37,19 +43,6 @@ function PDFViewer({ pdfUrl, pageNumber, onClose }) {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
-
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-    setLoading(false);
-    setError(null);
-    // Clamp currentPage to valid range
-    setCurrentPage(page => Math.max(1, Math.min(page, numPages)));
-  };
-
-  const onDocumentLoadError = (err) => {
-    setError('Failed to load PDF.');
-    setLoading(false);
   };
 
   return (
@@ -66,38 +59,19 @@ function PDFViewer({ pdfUrl, pageNumber, onClose }) {
             </span>
           </div>
           <div className="flex items-center gap-2">
-            {/* Zoom Controls */}
-            <button
-              onClick={handleZoomOut}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-              title="Zoom Out"
-            >
+            <button onClick={handleZoomOut} className="p-2 hover:bg-gray-100 rounded-lg" title="Zoom Out">
               <ZoomOut className="w-4 h-4" />
             </button>
             <span className="text-sm text-gray-600 min-w-[60px] text-center">
               {Math.round(zoom * 100)}%
             </span>
-            <button
-              onClick={handleZoomIn}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-              title="Zoom In"
-            >
+            <button onClick={handleZoomIn} className="p-2 hover:bg-gray-100 rounded-lg" title="Zoom In">
               <ZoomIn className="w-4 h-4" />
             </button>
-            {/* Download */}
-            <button
-              onClick={handleDownload}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-              title="Download PDF"
-            >
+            <button onClick={handleDownload} className="p-2 hover:bg-gray-100 rounded-lg" title="Download PDF">
               <Download className="w-4 h-4" />
             </button>
-            {/* Close */}
-            <button
-              onClick={onClose}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-              title="Close"
-            >
+            <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-lg" title="Close">
               <X className="w-4 h-4" />
             </button>
           </div>
@@ -135,7 +109,7 @@ function PDFViewer({ pdfUrl, pageNumber, onClose }) {
           <button
             onClick={handlePreviousPage}
             disabled={currentPage <= 1}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <ChevronLeft className="w-4 h-4" />
             Previous
@@ -146,7 +120,7 @@ function PDFViewer({ pdfUrl, pageNumber, onClose }) {
           <button
             onClick={handleNextPage}
             disabled={numPages ? currentPage >= numPages : false}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
             <ChevronRight className="w-4 h-4" />
@@ -156,5 +130,3 @@ function PDFViewer({ pdfUrl, pageNumber, onClose }) {
     </div>
   );
 }
-
-export default PDFViewer; 
