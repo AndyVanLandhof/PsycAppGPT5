@@ -124,19 +124,19 @@ Remember: Base your response on the OCR revision materials above.`;
     return callAI(enhancedPrompt, model, { useVault: false });
   };
 
-  // Get AI response using public sources (OCR curriculum + academic knowledge)
+  // Get AI response using public sources (AQA Psychology 7182 curriculum + academic knowledge)
   const callAIWithPublicSources = async (prompt, topic, subTopic, model = "ChatGPT") => {
-    const enhancedPrompt = `You are an expert OCR Religious Studies tutor with deep knowledge of the H573 curriculum. The student is studying ${subTopic || topic} and asks: "${prompt}"
+    const enhancedPrompt = `You are an expert AQA Psychology tutor with deep knowledge of the AQA Psychology 7182 curriculum. The student is studying ${subTopic || topic} and asks: "${prompt}"
 
 Please provide a comprehensive, accurate answer using:
 
-1. **OCR H573 Religious Studies Curriculum Knowledge:**
-   - Official OCR specification content
-   - Standard A-Level religious studies concepts
-   - Required knowledge for H573 exam
+1. **AQA Psychology 7182 Curriculum Knowledge:**
+   - Official AQA specification content
+   - Standard A-Level psychology concepts
+   - Required knowledge for the 7182 exam
 
 2. **Academic Sources and Scholars:**
-   - Well-known philosophers, theologians, and scholars in this field
+   - Well-known psychologists, researchers, and scholars in this field
    - Key texts and publications relevant to ${subTopic || topic}
    - Current academic understanding and debates
 
@@ -149,10 +149,10 @@ Please provide a comprehensive, accurate answer using:
 4. **Specific Requirements:**
    - Include relevant dates, names, and key concepts
    - Provide context for why ideas are important
-   - Connect to broader religious studies themes
+   - Connect to broader psychology themes
    - Address potential exam questions
 
-Focus on accuracy, educational value, and depth appropriate for A-Level Religious Studies students.`;
+Focus on accuracy, educational value, and depth appropriate for AQA Psychology 7182 A-Level students.`;
 
     return callAI(enhancedPrompt, model, { useVault: false });
   };

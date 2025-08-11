@@ -14,6 +14,7 @@ import { nodes as religiousExperienceNodes, edges as religiousExperienceEdges } 
 import { nodes as problemOfEvilNodes, edges as problemOfEvilEdges } from '../data/problemOfEvilConceptMap';
 import { nodes as naturalLawNodes, edges as naturalLawEdges } from '../data/naturalLawConceptMap';
 import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } from '../data/augustineTeachingsConceptMap';
+import StudySession from "./StudySession";
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
@@ -35,6 +36,9 @@ function TopicDetail({ topic, onBack }) {
 
   if (activeView === "study") {
     return <StudyContent {...sharedProps} />;
+  }
+  if (activeView === "study-session") {
+    return <StudySession {...sharedProps} />;
   }
   if (activeView === "flashcards") {
     return <FlashcardView {...sharedProps} />;
@@ -157,7 +161,7 @@ function TopicDetail({ topic, onBack }) {
   }
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800 min-h-screen">
+    <div className="bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <button className="text-blue-600 underline mb-4" onClick={onBack}>
           ← Back to Topics
@@ -212,6 +216,16 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-2xl mb-2">📘</div>
                   <div className="font-semibold text-green-800">Study Content</div>
                   <div className="text-xs text-gray-600 mt-1">AI-powered explanations</div>
+                </div>
+              </button>
+              <button
+                onClick={() => setActiveView("study-session")}
+                className="border border-emerald-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-emerald-50 bg-gray-50"
+              >
+                <div className="text-center">
+                  <div className="text-2xl mb-2">🎯</div>
+                  <div className="font-semibold text-emerald-800">Active Recall Session</div>
+                  <div className="text-xs text-gray-600 mt-1">AO1 → AO3 → Scenario</div>
                 </div>
               </button>
               <button

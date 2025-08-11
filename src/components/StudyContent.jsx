@@ -48,8 +48,69 @@ const parseAIResponse = (response) => {
   }
 };
 
+// Map AQA JSON keys to UI keys
+const normalizeStudyResponseShape = (obj) => {
+  if (!obj || typeof obj !== 'object') return obj;
+  const hasAQAKeys = (
+    'ao1_summary' in obj || 'ao2_application' in obj || 'ao1_key_studies' in obj || 'ao3_strengths' in obj || 'ao3_limitations' in obj
+  );
+  if (!hasAQAKeys) return obj;
+  const summary = obj.ao1_summary || '';
+  const application = obj.ao2_application ? [obj.ao2_application] : [];
+  const studies = Array.isArray(obj.ao1_key_studies) ? obj.ao1_key_studies : [];
+  const strengths = Array.isArray(obj.ao3_strengths) ? obj.ao3_strengths : [];
+  const limitations = Array.isArray(obj.ao3_limitations) ? obj.ao3_limitations : [];
+  const pitfalls = Array.isArray(obj.exam_pitfalls) ? obj.exam_pitfalls : [];
+
+  return {
+    comprehensiveSummary: summary,
+    practicalExamples: [...application, ...pitfalls],
+    keyInsights: [...studies],
+    scholarlyPerspectives: [...strengths, ...limitations]
+  };
+};
+
+// Map all topic IDs to their top-level subject folder
+const topicIdToFolder = {
+  // Philosophy
+  "ancient-philosophical-influences": "Philosophy",
+  "soul-mind-body": "Philosophy",
+  "nature-attributes-god": "Philosophy",
+  "arguments-existence-god": "Philosophy",
+  "problem-of-evil": "Philosophy",
+  "religious-experience": "Philosophy",
+  "religious-language": "Philosophy",
+  "miracles": "Philosophy",
+  // Ethics
+  "natural-law": "Ethics",
+  "situation-ethics": "Ethics",
+  "kantian-ethics": "Ethics",
+  "utilitarianism": "Ethics",
+  "euthanasia": "Ethics",
+  "business-ethics": "Ethics",
+  // Christianity
+  "christian-beliefs": "Christianity",
+  "jesus-christ": "Christianity",
+  "christian-practices": "Christianity",
+  "gender-sexuality": "Christianity",
+  "death-afterlife": "Christianity",
+  "religious-pluralism": "Christianity",
+  "liberation-theology": "Christianity",
+  // Add more as needed
+};
+const typeFolderMap = {
+  core: "Core",
+  additional: "Additional",
+  // Add more aliases as needed
+};
+
+function getTopLevelFolder(topicId) {
+  return topicIdToFolder[topicId] || "Philosophy"; // Default to Philosophy if not found
+}
+
 function StudyContent({ topic, onBack }) {
   const subTopic = topic.subTopic;
+  // Use per-subtopic themes from themeMap
   const themes = themeMap[subTopic?.id] || [];
   const [selectedTheme, setSelectedTheme] = useState(null);
   const [customQuestion, setCustomQuestion] = useState("");
@@ -64,12 +125,16 @@ function StudyContent({ topic, onBack }) {
   const [showPDFViewer, setShowPDFViewer] = useState(false);
   const [selectedPDF, setSelectedPDF] = useState(null);
 
-  const { callAIWithVault } = useAIService();
-  const { getClickableReferences } = useVaultService();
+  const { callAIWithVault, callAIWithPublicSources } = useAIService();
+  const { getClickableReferences, isVaultLoaded, getRelevantContext } = useVaultService();
   const { speak, playPreparedAudio, audioReady, audioLoading: ttsAudioLoading, audioError: ttsAudioError, pause, stop, ttsState } = useElevenLabsTTS();
 
-  // Get vault references for the current topic
-  const vaultReferences = getClickableReferences(topic.title, subTopic.title, includeAdvanced);
+  // Only get vault references for non-AQA topics
+  let vaultReferences = [];
+  const isAQA = ["Compulsory", "Option 1", "Option 2", "Option 3"].includes(topic.component);
+  if (!isAQA) {
+    vaultReferences = getClickableReferences(topic.title, subTopic.title, includeAdvanced);
+  }
 
   // Reset active audio section when audio ends
   useEffect(() => {
@@ -79,72 +144,76 @@ function StudyContent({ topic, onBack }) {
   }, [ttsState]);
 
   const handleSubmit = async () => {
-    const prompt = `You are an expert A-Level Religious Studies teacher helping a student understand a sub-topic. Your goal is to provide comprehensive, detailed explanations that would be suitable for A-Level exam preparation.
+    // New AQA Psychology prompt
+    const basePrompt = `You are an expert AQA Psychology teacher creating study content for AQA Psychology 7182 students.
 
 TOPIC: ${topic.title}
-SUB-TOPIC: ${subTopic.title}
-FOCUS: ${selectedTheme || customQuestion}
+SUB-TOPIC: ${topic.subTopic.title}
+${selectedTheme ? `THEME: ${selectedTheme}` : ""}
 
-Provide a comprehensive, detailed response that includes:
+Respond ONLY with valid JSON in the format below. Do not include any extra text, markdown, or commentary.
 
-1. **Comprehensive Summary** (300-500 words): A thorough explanation of the concept including:
-   - Historical context and background
-   - Key definitions and terminology
-   - Detailed explanation of the main ideas
-   - How it fits into the broader topic area
-   - Significance and implications
+Output the following sections:
+- AO1 Summary: Concise summary of the topic (knowledge and understanding)
+- AO2 Application: Example of applying the topic to a scenario, case study, or data (application)
+- AO1 Key Studies: List and explain 2-3 key studies (with researcher and year)
+- AO3 Strengths: 2-3 strengths of the theory/model (analysis/evaluation)
+- AO3 Limitations: 2-3 limitations of the theory/model (analysis/evaluation)
+- Exam Pitfalls: Common mistakes students make on this topic
 
-2. **Practical Examples** (3-5 detailed examples): Specific, real-world applications including:
-   - Contemporary examples and case studies
-   - Historical examples where relevant
-   - How the concept applies in different contexts
-   - Examples that demonstrate the practical significance
-
-3. **Key Insights** (4-6 insights): Important points for understanding including:
-   - Critical analysis and evaluation
-   - Different interpretations and viewpoints
-   - Why these points are significant for A-Level study
-   - Connections to other topics in the course
-
-4. **Scholarly Perspectives** (3-5 perspectives): Academic viewpoints including:
-   - Different philosophical/theological positions
-   - Strengths and weaknesses of various approaches
-   - How scholars have debated or developed the concept
-   - Contemporary academic discussions
-
-IMPORTANT: You MUST respond with ONLY valid JSON in the exact format below. Do not include any markdown formatting, code blocks, or additional text. Make each section substantial and detailed - aim for A-Level depth and complexity.
-
+Return in this JSON format:
 {
-  "comprehensiveSummary": "A detailed, comprehensive explanation (300-500 words) covering historical context, key definitions, main ideas, significance, and implications...",
-  "practicalExamples": ["Detailed example 1 with explanation", "Detailed example 2 with explanation", "Detailed example 3 with explanation", "Detailed example 4 with explanation"],
-  "keyInsights": ["Detailed insight 1 with analysis", "Detailed insight 2 with analysis", "Detailed insight 3 with analysis", "Detailed insight 4 with analysis", "Detailed insight 5 with analysis"],
-  "scholarlyPerspectives": ["Detailed scholarly perspective 1 with evaluation", "Detailed scholarly perspective 2 with evaluation", "Detailed scholarly perspective 3 with evaluation", "Detailed scholarly perspective 4 with evaluation"]
-}`;
+  "ao1_summary": "...",
+  "ao2_application": "...",
+  "ao1_key_studies": ["...", "..."],
+  "ao3_strengths": ["...", "..."],
+  "ao3_limitations": ["...", "..."],
+  "exam_pitfalls": ["...", "..."]
+}
+`;
 
     setIsLoading(true);
     try {
-      const result = await callAIWithVault(
-        prompt, 
-        topic.title, 
-        subTopic.title, 
-        { includeAdditional: includeAdvanced }
-      );
+      // For AQA Psychology, always use public AI sources
+      let result;
+      if (isAQA) {
+        result = await callAIWithPublicSources(
+          basePrompt,
+          topic.title,
+          subTopic.title
+        );
+      } else {
+        const vaultReady = isVaultLoaded && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
+        if (vaultReady) {
+          result = await callAIWithVault(
+            basePrompt, 
+            topic.title, 
+            subTopic.title, 
+            { includeAdditional: includeAdvanced }
+          );
+        } else {
+          result = await callAIWithPublicSources(
+            basePrompt,
+            topic.title,
+            subTopic.title
+          );
+        }
+      }
+      console.log('AI raw response:', result);
       const parsed = parseAIResponse(result);
+      const normalized = normalizeStudyResponseShape(parsed);
       if (customQuestion && !selectedTheme) {
-        // Show popup for custom questions
-        setPopupResponse(parsed);
+        setPopupResponse(normalized);
         setShowPopup(true);
       } else {
-        // Show regular response for theme-based questions
-        setResponse(parsed);
+        setResponse(normalized);
       }
     } catch (err) {
-      console.error('Error in handleSubmit:', err);
+      console.error('Error in handleSubmit:', err, result);
+      // Show the raw AI response as a fallback
       const errorResponse = { 
-        comprehensiveSummary: "Error parsing response. Please try again.", 
-        practicalExamples: [], 
-        keyInsights: [], 
-        scholarlyPerspectives: [] 
+        error: "Failed to parse AI response.",
+        raw: result
       };
       if (customQuestion && !selectedTheme) {
         setPopupResponse(errorResponse);
@@ -157,17 +226,34 @@ IMPORTANT: You MUST respond with ONLY valid JSON in the exact format below. Do n
     }
   };
 
+  // Replace the handleViewPDF function with robust logic
   const handleViewPDF = (reference) => {
+    // Try to get topicId from reference metadata, fallback to topic.id or subTopic.id
+    const topicId = reference?.metadata?.topicId || topic?.id || subTopic?.id;
+    const topLevelFolder = getTopLevelFolder(topicId);
+
+    // Use the correct filename from the reference or its metadata
+    const pdfFileName = reference?.pdfFileName || reference?.metadata?.pdfFileName || reference?.source || reference?.filename;
+
+    if (!pdfFileName) {
+      alert("No PDF filename found for this reference.");
+      return;
+    }
+
+    // Build the correct path
+    const pdfPath = `/vault/${topLevelFolder}/Core/${pdfFileName}`;
+
+    // Open the PDF at the correct page (implement your PDF viewer logic here)
     setSelectedPDF({
-      url: reference.pdfUrl,
-      page: reference.page,
-      title: reference.title
+      path: pdfPath,
+      page: reference.page || reference.pageNumber || 1,
+      title: pdfFileName,
     });
     setShowPDFViewer(true);
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+    <div className="bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-center">
           Ask AI About This Topic
@@ -377,6 +463,13 @@ IMPORTANT: You MUST respond with ONLY valid JSON in the exact format below. Do n
             )}
           </div>
         )}
+        {response?.error && (
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4 mt-6">
+            <h3 className="text-red-700 font-semibold mb-2">AI Response (Raw Output)</h3>
+            <pre className="text-xs text-gray-800 whitespace-pre-wrap break-all">{response.raw}</pre>
+            <p className="text-xs text-gray-500 mt-2">The AI response could not be parsed as JSON. Please check your prompt or try again.</p>
+          </div>
+        )}
       </div>
 
       {/* Popup Modal for Custom Questions */}
@@ -486,7 +579,7 @@ IMPORTANT: You MUST respond with ONLY valid JSON in the exact format below. Do n
 
       {showPDFViewer && selectedPDF && (
         <PDFViewer
-          pdfUrl={selectedPDF.url}
+          pdfUrl={selectedPDF.path}
           pageNumber={selectedPDF.page}
           onClose={() => {
             setShowPDFViewer(false);

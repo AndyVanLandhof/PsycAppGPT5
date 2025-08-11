@@ -99,7 +99,7 @@ export const useVaultService = () => {
     const isQuizOrFlashcard = opts.quiz || opts.flashcards;
     const difficultyInstructions = isQuizOrFlashcard ? `\n\nFor quizzes/flashcards:\n- Use ONLY the provided OCR and Revision Guide materials below. Do NOT use general knowledge or invent content.\n- Reference specific details, arguments, quotes, or scholars from the materials above.\n- The first 3 questions/flashcards should be easy, the next 3 medium, the last 4 hard (for quizzes; for flashcards, scale difficulty similarly).\n- Each explanation must reference the source material.\n` : '';
 
-    return `IMPORTANT: You are an expert A-Level Religious Studies teacher. Use the following OCR-approved materials as your ONLY reference for providing comprehensive, detailed responses suitable for A-Level exam preparation.${difficultyInstructions}
+    return `IMPORTANT: You are an expert A-Level Psychology teacher. Use the following AQA Psychology materials as your ONLY reference for providing comprehensive, detailed responses suitable for A-Level exam preparation.${difficultyInstructions}
 
 --- BEGIN OCR/REVISION GUIDE MATERIALS ---
 ${contextSection}
@@ -112,10 +112,11 @@ Remember: Do not use general knowledge. Only use the provided OCR and Revision G
 
   // Get clickable references for UI display
   const getClickableReferences = (topic, subTopic, includeAdditional = false) => {
+    if (!topic || !subTopic) return [];
     const relevantContexts = getRelevantContext(topic, subTopic, includeAdditional);
-    
+    if (!Array.isArray(relevantContexts)) return [];
     return relevantContexts
-      .slice(0, 8) // Increased from 5 to 8 to show more comprehensive coverage
+      .slice(0, 8)
       .map((context, index) => ({
         id: context.id,
         content: context.content,
@@ -123,7 +124,7 @@ Remember: Do not use general knowledge. Only use the provided OCR and Revision G
         page: context.page,
         title: context.title,
         metadata: context.metadata,
-        pdfUrl: `/vault/${topic.toLowerCase()}/${context.metadata.type}/${context.source}`,
+        pdfUrl: context.pdfUrl || `/vault/${topic.toLowerCase()}/${context.metadata.type}/${context.source}`,
         referenceNumber: index + 1
       }));
   };

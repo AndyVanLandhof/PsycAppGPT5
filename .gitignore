@@ -1,3 +1,18 @@
-node_modules
-node_modules
-public/vault/**/*.pdf
+# Node/Vite
+node_modules/
+dist/
+.vite/
+.DS_Store
+
+# Env
+.env
+.env.*
+
+# Editor
+*.log
+*.local
+.vscode/
+.idea/
+
+# Build outputs
+coverage/

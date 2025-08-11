@@ -269,9 +269,9 @@ function EthicsDashboard({ onBack }) {
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Ethics Storage Dashboard
+              AQA Psychology 7182 Dashboard
             </h1>
-            <p className="text-gray-600 mt-2">View and manage all your stored Ethics study content</p>
+            <p className="text-gray-600 mt-2">View and manage all your stored AQA Psychology study content</p>
           </div>
           <button
             onClick={onBack}

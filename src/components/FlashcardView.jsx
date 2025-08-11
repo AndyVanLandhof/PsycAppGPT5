@@ -2,8 +2,102 @@ import React, { useState, useEffect } from 'react';
 import { useAIService } from "../hooks/useAIService";
 import { useVaultService } from "../hooks/useVaultService";
 import { useElevenLabsTTS } from "../hooks/useElevenLabsTTS";
-import { Loader2, Volume2, Pause, StopCircle, ChevronLeft, ChevronRight, RotateCcw, Shuffle, History, Play, Download, Save, FileText } from "lucide-react";
+import { Loader2, Volume2, Pause, StopCircle, ChevronLeft, ChevronRight, RotateCcw, Shuffle, History, Play, Download, Save, FileText, Calendar, Clock, Target } from "lucide-react";
 import jsPDF from 'jspdf';
+
+// Spaced Repetition System (SM-2 Algorithm)
+class SRS {
+  constructor() {
+    this.examDate = new Date('2026-05-01'); // May 2026 exam
+  }
+
+  // Calculate days until exam
+  getDaysUntilExam() {
+    const today = new Date();
+    const timeDiff = this.examDate.getTime() - today.getTime();
+    return Math.ceil(timeDiff / (1000 * 3600 * 24));
+  }
+
+  // SM-2 Algorithm for spaced repetition
+  calculateNextReview(card, quality) {
+    // quality: 0-5 (0=complete blackout, 5=perfect response)
+    const { repetitions = 0, easeFactor = 2.5, interval = 0 } = card;
+    
+    let newEaseFactor = easeFactor;
+    let newInterval = interval;
+    let newRepetitions = repetitions;
+
+    if (quality >= 3) {
+      // Successful recall
+      if (repetitions === 0) {
+        newInterval = 1;
+      } else if (repetitions === 1) {
+        newInterval = 6;
+      } else {
+        newInterval = Math.round(interval * easeFactor);
+      }
+      newRepetitions = repetitions + 1;
+    } else {
+      // Failed recall - reset
+      newInterval = 1;
+      newRepetitions = 0;
+    }
+
+    // Adjust ease factor
+    newEaseFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+    newEaseFactor = Math.max(1.3, newEaseFactor); // Minimum ease factor
+
+    const nextReview = new Date();
+    nextReview.setDate(nextReview.getDate() + newInterval);
+
+    return {
+      repetitions: newRepetitions,
+      easeFactor: newEaseFactor,
+      interval: newInterval,
+      nextReview: nextReview,
+      lastReviewed: new Date()
+    };
+  }
+
+  // Check if card is due for review
+  isCardDue(card) {
+    if (!card.nextReview) return true;
+    const today = new Date();
+    return today >= new Date(card.nextReview);
+  }
+
+  // Get due cards from a set of cards
+  getDueCards(cards) {
+    return cards.filter(card => this.isCardDue(card));
+  }
+
+  // Get cards due today
+  getCardsDueToday(cards) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    return cards.filter(card => {
+      if (!card.nextReview) return true;
+      const reviewDate = new Date(card.nextReview);
+      return reviewDate >= today && reviewDate < tomorrow;
+    });
+  }
+
+  // Get cards due this week
+  getCardsDueThisWeek(cards) {
+    const today = new Date();
+    const weekFromNow = new Date(today);
+    weekFromNow.setDate(weekFromNow.getDate() + 7);
+
+    return cards.filter(card => {
+      if (!card.nextReview) return true;
+      const reviewDate = new Date(card.nextReview);
+      return reviewDate >= today && reviewDate <= weekFromNow;
+    });
+  }
+}
 
 function FlashcardView({ topic, onBack }) {
   const [allFlashcards, setAllFlashcards] = useState([]);
@@ -24,6 +118,13 @@ function FlashcardView({ topic, onBack }) {
   const [storedSummaries, setStoredSummaries] = useState([]);
   const [showStoredSummaries, setShowStoredSummaries] = useState(false);
   
+  // Spaced Repetition System
+  const [srs] = useState(new SRS());
+  const [srsCards, setSrsCards] = useState([]);
+  const [showSrsStats, setShowSrsStats] = useState(false);
+  const [srsMode, setSrsMode] = useState(false); // true = SRS mode, false = regular mode
+  const [qualityRating, setQualityRating] = useState(null); // 0-5 rating for SRS
+  
   // Stats for current session
   const [sessionStats, setSessionStats] = useState({
     correct: 0,
@@ -36,7 +137,7 @@ function FlashcardView({ topic, onBack }) {
   const { createVaultPrompt, getRelevantContext, isVaultLoaded, vaultLoaded } = useVaultService();
   const { speak, playPreparedAudio, audioReady, audioLoading, audioError, pause, stop, ttsState } = useElevenLabsTTS();
 
-  // Load session history and stored summaries from localStorage on mount
+  // Load session history, stored summaries, and SRS cards from localStorage on mount
   useEffect(() => {
     const savedHistory = localStorage.getItem(`flashcard-history-${topic.subTopic.id}`);
     if (savedHistory) {
@@ -47,7 +148,20 @@ function FlashcardView({ topic, onBack }) {
     if (savedSummaries) {
       setStoredSummaries(JSON.parse(savedSummaries));
     }
+
+    // Load SRS cards
+    const savedSrsCards = localStorage.getItem(`srs-cards-${topic.subTopic.id}`);
+    if (savedSrsCards) {
+      setSrsCards(JSON.parse(savedSrsCards));
+    }
   }, [topic.subTopic.id]);
+
+  // Save SRS cards to localStorage whenever they change
+  useEffect(() => {
+    if (srsCards.length > 0) {
+      localStorage.setItem(`srs-cards-${topic.subTopic.id}`, JSON.stringify(srsCards));
+    }
+  }, [srsCards, topic.subTopic.id]);
 
   // Reset active audio section when audio ends
   useEffect(() => {
@@ -56,12 +170,16 @@ function FlashcardView({ topic, onBack }) {
     }
   }, [ttsState]);
 
-  // Only generate flashcards after vault is loaded
+    // Only generate flashcards after vault is loaded
   useEffect(() => {
     if (vaultLoaded) {
-      generateFlashcards();
+      if (srsMode) {
+        loadSrsCards();
+      } else {
+        generateFlashcards();
+      }
     }
-  }, [vaultLoaded]);
+  }, [vaultLoaded, srsMode]);
 
   const extractFirstJson = (text) => {
     // Regex to find the first {...} JSON block
@@ -74,7 +192,39 @@ function FlashcardView({ topic, onBack }) {
 
   const generateFlashcards = async () => {
     setIsLoading(true);
-    const basePrompt = `You are an expert A-Level Religious Studies teacher creating flashcards for OCR H573 students.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nCreate EXACTLY 5 flashcards that are SPECIFICALLY about \"${topic.subTopic.title}\". Each flashcard should test understanding of key concepts, definitions, arguments, philosophers, or important details that are directly related to this sub-topic.\n\nReturn in this JSON format:\n{\n  \"flashcards\": [\n    {\n      \"question\": \"A specific question about ${topic.subTopic.title} based on the OCR materials\",\n      \"answer\": \"The correct answer referencing specific OCR content and key concepts\",\n      \"explanation\": \"Detailed explanation of why this is important for understanding ${topic.subTopic.title} and how it relates to OCR content\"\n    }\n  ]\n}\n`;
+    // New AQA Psychology prompt
+    const basePrompt = `You are an expert AQA Psychology teacher creating flashcards for AQA Psychology 7182 students.
+
+TOPIC: ${topic.title}
+SUB-TOPIC: ${topic.subTopic.title}
+
+Create EXACTLY 5 flashcards for high-velocity revision. Each flashcard should be one of the following types:
+- AO1: Test recall of a key term, definition, or concept
+- AO1 (Findings): Ask for findings from a named study and ALWAYS include in the answer: researcher(s) + year, sample/method/measure, and a precise key result (number, percentage, correlation, region/volume change)
+- AO2: Ask for application of a theory/model to a short scenario (1–2 sentences)
+- AO3: Ask for a specific strength or limitation of a theory/model and support with a brief piece of evidence (named study or clear reason)
+
+Rules:
+- Avoid vague stems like "Describe findings". Prefer: "What did [Researcher, Year] find about X?", "Name two findings from [Study]", "Which mechanism explains X? Define and give evidence."
+- Keep questions concise and exam-focused. Answers should be <= 30 words, precise, and evidence-anchored when applicable.
+- If the sub-topic mentions plasticity or trauma, include mechanisms of functional recovery (e.g., axonal sprouting, denervation supersensitivity, recruitment of homologous areas) and at least one supporting study where possible.
+
+Examples:
+Front: Define: Cognitive Dissonance | Back: Mental conflict when beliefs contradict... (AO1)
+Front: What did Milgram (1963) find about obedience? | Back: 65% to 450V; signs of extreme stress (AO1 findings)
+Front: Apply WMM to a dual-task driving-and-audio scenario | Back: Separate stores allow concurrent tasks unless both use phonological loop (AO2)
+Front: One strength of the WMM (Baddeley & Hitch)? | Back: Dual-task evidence supports separate stores (AO3)
+
+Return in this JSON format:
+{
+  "flashcards": [
+    {
+      "question": "A concise question about ${topic.subTopic.title}",
+      "answer": "The correct answer (definition, finding incl. study/year/stat if applicable, application, or explanation)",
+      "ao": "AO1" | "AO2" | "AO3"
+    }
+  ]
+}`;
     try {
       const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { flashcards: true });
       const result = await callAIWithVault(
@@ -101,7 +251,17 @@ function FlashcardView({ topic, onBack }) {
         console.warn('[Flashcards][Fallback] Using fallback flashcards (AI returned <5 flashcards)');
         setSessionFlashcards(generateFallbackFlashcards());
       } else {
-        setSessionFlashcards(flashcards.slice(0, 5));
+        const selectedCards = flashcards.slice(0, 5);
+        setSessionFlashcards(selectedCards);
+        
+        // Add new cards to SRS if not already present
+        if (!srsMode) {
+          const existingQuestions = srsCards.map(card => card.question);
+          const newCards = selectedCards.filter(card => !existingQuestions.includes(card.question));
+          if (newCards.length > 0) {
+            addCardsToSrs(newCards);
+          }
+        }
       }
       setCurrentIndex(0);
       setUserAnswer('');
@@ -286,6 +446,22 @@ function FlashcardView({ topic, onBack }) {
   const handleAssessment = (result) => {
     setAssessment(result);
     setStep(4);
+    
+    // Convert assessment to SRS quality rating
+    let quality;
+    if (result === 'correct') {
+      quality = 5; // Perfect response
+    } else if (result === 'partial') {
+      quality = 3; // Hard time, but recalled
+    } else {
+      quality = 1; // Complete blackout
+    }
+    
+    // Update SRS if in SRS mode
+    if (srsMode) {
+      handleSrsAssessment(quality);
+      return;
+    }
     
     // Save current user answer and assessment
     const updatedAnswers = [...userAnswers];
@@ -476,6 +652,96 @@ function FlashcardView({ topic, onBack }) {
       });
     }
     doc.save(`flashcard-summary-${summary.subTopic}-${new Date(summary.timestamp).toISOString().split('T')[0]}.pdf`);
+  };
+
+  // SRS Functions
+  const loadSrsCards = () => {
+    const dueCards = srs.getDueCards(srsCards);
+    if (dueCards.length === 0) {
+      // No cards due, generate new ones
+      generateFlashcards();
+      return;
+    }
+    
+    // Load due cards for review
+    setSessionFlashcards(dueCards.slice(0, 10)); // Limit to 10 cards per session
+    setCurrentIndex(0);
+    setUserAnswer('');
+    setStep(1);
+    setAssessment('');
+    setSessionComplete(false);
+    setShowSummary(false);
+    setSessionStats({ correct: 0, partial: 0, incorrect: 0, total: dueCards.length });
+    setUserAnswers([]);
+    setUserAssessments([]);
+    setIsLoading(false);
+  };
+
+  const addCardsToSrs = (cards) => {
+    const newSrsCards = cards.map(card => ({
+      ...card,
+      repetitions: 0,
+      easeFactor: 2.5,
+      interval: 0,
+      nextReview: null,
+      lastReviewed: null
+    }));
+    
+    setSrsCards(prev => [...prev, ...newSrsCards]);
+  };
+
+  const updateSrsCard = (cardIndex, quality) => {
+    const card = sessionFlashcards[cardIndex];
+    const updatedCard = {
+      ...card,
+      ...srs.calculateNextReview(card, quality)
+    };
+    
+    setSrsCards(prev => prev.map(c => 
+      c.question === card.question ? updatedCard : c
+    ));
+  };
+
+  const getSrsStats = () => {
+    const totalCards = srsCards.length;
+    const dueToday = srs.getCardsDueToday(srsCards).length;
+    const dueThisWeek = srs.getCardsDueThisWeek(srsCards).length;
+    const daysUntilExam = srs.getDaysUntilExam();
+    
+    return {
+      totalCards,
+      dueToday,
+      dueThisWeek,
+      daysUntilExam
+    };
+  };
+
+  const handleSrsAssessment = (quality) => {
+    // Update the SRS card with the quality rating
+    updateSrsCard(currentIndex, quality);
+    
+    // Update session stats
+    const newStats = { ...sessionStats };
+    if (quality >= 4) {
+      newStats.correct++;
+    } else if (quality >= 2) {
+      newStats.partial++;
+    } else {
+      newStats.incorrect++;
+    }
+    setSessionStats(newStats);
+    
+    // Move to next card
+    if (currentIndex < sessionFlashcards.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+      setUserAnswer('');
+      setStep(1);
+      setAssessment('');
+      setQualityRating(null);
+    } else {
+      setSessionComplete(true);
+      setShowSummary(true);
+    }
   };
 
   if (!isVaultLoaded()) {
@@ -781,6 +1047,45 @@ function FlashcardView({ topic, onBack }) {
             )}
           </div>
         </div>
+
+        {/* SRS Stats Display */}
+        {showSrsStats && srsCards.length > 0 && (
+          <div className="bg-white border rounded-lg shadow-sm p-6 mb-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+              <Target className="w-5 h-5 text-purple-600" />
+              Spaced Repetition Stats
+            </h3>
+            {(() => {
+              const stats = getSrsStats();
+              return (
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
+                    <div className="text-2xl font-bold text-blue-600">{stats.totalCards}</div>
+                    <div className="text-sm text-blue-700">Total Cards</div>
+                  </div>
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
+                    <div className="text-2xl font-bold text-green-600">{stats.dueToday}</div>
+                    <div className="text-sm text-green-700">Due Today</div>
+                  </div>
+                  <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 text-center">
+                    <div className="text-2xl font-bold text-orange-600">{stats.dueThisWeek}</div>
+                    <div className="text-sm text-orange-700">Due This Week</div>
+                  </div>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-4 text-center">
+                    <div className="text-2xl font-bold text-purple-600">{stats.daysUntilExam}</div>
+                    <div className="text-sm text-purple-700">Days Until Exam</div>
+                  </div>
+                </div>
+              );
+            })()}
+            <div className="mt-4 pt-4 border-t border-gray-200">
+              <p className="text-sm text-gray-600">
+                <strong>SRS Mode:</strong> Cards are shown at optimal intervals for long-term retention. 
+                {srsMode ? ' You are currently in SRS mode.' : ' Switch to SRS mode to review due cards.'}
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
@@ -1004,7 +1309,7 @@ function FlashcardView({ topic, onBack }) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Back To Button */}
         <button 
@@ -1023,6 +1328,29 @@ function FlashcardView({ topic, onBack }) {
             <p className="text-gray-600">Test your knowledge with AI-generated flashcards</p>
           </div>
           <div className="flex gap-3">
+            {/* SRS Mode Toggle */}
+            <button
+              onClick={() => setSrsMode(!srsMode)}
+              className={`px-4 py-2 rounded-lg transition-colors font-semibold ${
+                srsMode 
+                  ? 'bg-green-600 text-white hover:bg-green-700' 
+                  : 'bg-blue-600 text-white hover:bg-blue-700'
+              }`}
+            >
+              {srsMode ? 'SRS Mode' : 'Regular Mode'}
+            </button>
+            
+            {/* SRS Stats Button */}
+            {srsCards.length > 0 && (
+              <button
+                onClick={() => setShowSrsStats(!showSrsStats)}
+                className="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors font-semibold"
+              >
+                <Target className="w-4 h-4 inline mr-2" />
+                SRS Stats
+              </button>
+            )}
+            
             {sessionHistory.length > 0 && (
               <button
                 onClick={() => setShowHistory(true)}
@@ -1296,24 +1624,51 @@ function FlashcardView({ topic, onBack }) {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                <button
-                  onClick={() => handleAssessment('correct')}
-                  className="bg-green-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-green-600 transition-colors"
-                >
-                  Got it Right ✓
-                </button>
-                <button
-                  onClick={() => handleAssessment('partial')}
-                  className="bg-orange-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
-                >
-                  Partially Right ~
-                </button>
-                <button
-                  onClick={() => handleAssessment('incorrect')}
-                  className="bg-red-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-red-600 transition-colors"
-                >
-                  Got it Wrong ✗
-                </button>
+                {srsMode ? (
+                  // SRS Quality Rating Buttons
+                  <>
+                    <button
+                      onClick={() => handleSrsAssessment(5)}
+                      className="bg-green-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-green-600 transition-colors"
+                    >
+                      Perfect (5) ✓
+                    </button>
+                    <button
+                      onClick={() => handleSrsAssessment(3)}
+                      className="bg-orange-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+                    >
+                      Hard (3) ~
+                    </button>
+                    <button
+                      onClick={() => handleSrsAssessment(1)}
+                      className="bg-red-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-red-600 transition-colors"
+                    >
+                      Again (1) ✗
+                    </button>
+                  </>
+                ) : (
+                  // Regular Assessment Buttons
+                  <>
+                    <button
+                      onClick={() => handleAssessment('correct')}
+                      className="bg-green-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-green-600 transition-colors"
+                    >
+                      Got it Right ✓
+                    </button>
+                    <button
+                      onClick={() => handleAssessment('partial')}
+                      className="bg-orange-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+                    >
+                      Partially Right ~
+                    </button>
+                    <button
+                      onClick={() => handleAssessment('incorrect')}
+                      className="bg-red-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-red-600 transition-colors"
+                    >
+                      Got it Wrong ✗
+                    </button>
+                  </>
+                )}
               </div>
             </div>
           )}

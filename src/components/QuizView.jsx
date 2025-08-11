@@ -19,6 +19,8 @@ function QuizView({ topic, onBack }) {
   const [activeAudioSection, setActiveAudioSection] = useState(null);
   const [mode, setMode] = useState(null); // 'blind' or 'show'
   const [quizStarted, setQuizStarted] = useState(false);
+  const [isGeneratingSummary, setIsGeneratingSummary] = useState(false);
+  const [detailedSummary, setDetailedSummary] = useState(null); // { answers: [{ index, detailed, sources: [{file, page}]}] }
   
   // Stats for current quiz
   const [quizStats, setQuizStats] = useState({
@@ -68,9 +70,125 @@ function QuizView({ topic, onBack }) {
     return null;
   };
 
+  // Normalize AI output questions into app format: { question, options, correctAnswer, explanation }
+  const normalizeQuestionsFromAI = (rawQuestions = []) => {
+    const methodFlawPool = [
+      'Low ecological validity',
+      'Demand characteristics',
+      'Researcher bias',
+      'Small or biased sample',
+      'Lack of random assignment',
+      'Social desirability bias',
+      'Lack of control',
+      'Confounding variables',
+      'Low reliability',
+      'Poor operationalization'
+    ];
+    const shuffle = (arr) => {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    };
+
+    const normalized = [];
+    for (const q of rawQuestions) {
+      const questionText = typeof q.question === 'string' ? q.question : '';
+      const explanationText = typeof q.explanation === 'string' ? q.explanation : '';
+      const type = q.type || (Array.isArray(q.options) ? 'mcq' : 'mcq');
+
+      if (type === 'mcq' && Array.isArray(q.options) && Number.isInteger(q.answer)) {
+        normalized.push({
+          question: questionText,
+          options: q.options.slice(0, 4),
+          correctAnswer: Math.max(0, Math.min(3, q.answer)),
+          explanation: explanationText
+        });
+        continue;
+      }
+
+      if (type === 'truefalse' && typeof q.answer === 'boolean') {
+        const options = ['True', 'False'];
+        const correctIndex = q.answer ? 0 : 1;
+        normalized.push({
+          question: questionText,
+          options,
+          correctAnswer: correctIndex,
+          explanation: explanationText
+        });
+        continue;
+      }
+
+      if (type === 'methodflaw' && typeof q.answer === 'string' && q.answer.trim().length > 0) {
+        // Ensure the provided answer is included, add plausible distractors, and shuffle
+        const answerStr = q.answer.trim();
+        const pool = methodFlawPool.filter((p) => p.toLowerCase() !== answerStr.toLowerCase());
+        const distractors = shuffle(pool).slice(0, 3);
+        let options = [answerStr, ...distractors];
+        options = shuffle(options);
+        const correctIndex = options.findIndex(o => o.toLowerCase() === answerStr.toLowerCase());
+        normalized.push({
+          question: questionText,
+          options,
+          correctAnswer: correctIndex >= 0 ? correctIndex : 0,
+          explanation: explanationText
+        });
+        continue;
+      }
+
+      // Fallback: if options/answer present in a different shape
+      if (Array.isArray(q.options) && (Number.isInteger(q.correctAnswer) || Number.isInteger(q.answer))) {
+        normalized.push({
+          question: questionText,
+          options: q.options.slice(0, 4),
+          correctAnswer: Number.isInteger(q.correctAnswer) ? q.correctAnswer : q.answer,
+          explanation: explanationText
+        });
+      }
+    }
+
+    // Ensure exactly 10 by truncating or padding with simple placeholders if needed
+    return normalized;
+  };
+
   const generateQuiz = async () => {
     setIsLoading(true);
-    const basePrompt = `You are an expert A-Level Religious Studies teacher creating a quiz for OCR H573 students.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nCreate EXACTLY 10 multiple choice questions that are SPECIFICALLY about \"${topic.subTopic.title}\". Each question should test understanding of key concepts, definitions, arguments, philosophers, or important details that are directly related to this sub-topic.\n\nDo NOT mention reference numbers (e.g., Reference 3) in the question or options. Only mention references in the explanation if needed.\n\nReturn in this JSON format:\n{\n  \"questions\": [\n    {\n      \"question\": \"A specific question about ${topic.subTopic.title} based on the OCR materials\",\n      \"options\": [\n        \"Option A\",\n        \"Option B\", \n        \"Option C\",\n        \"Option D\"\n      ],\n      \"correctAnswer\": 0,\n      \"explanation\": \"Detailed explanation referencing specific OCR content and why this is correct\"\n    }\n  ]\n}\n`;
+    // New AQA Psychology prompt
+    const basePrompt = `You are an expert AQA Psychology teacher creating a quiz for AQA Psychology 7182 students.
+
+TOPIC: ${topic.title}
+SUB-TOPIC: ${topic.subTopic.title}
+
+Create EXACTLY 10 multiple-choice questions (MCQs) suitable for A-Level students, each with 4 options:
+- 1 correct answer
+- 3 plausible but incorrect distractors
+
+Coverage:
+- AO1: Knowledge and understanding (terms, theories, named studies with year)
+- AO2: Application (short scenario/data-based)
+- AO3: Analysis/evaluation (methodological critique or comparative judgement)
+
+Requirements:
+- Each question must be concise and unambiguous
+- Options must be mutually exclusive and credible
+- Avoid “all of the above” or “none of the above”
+- Do NOT include phrases like "according to the materials", "based on the materials", or similar meta-references in the question text
+- Where relevant, include named study + year in the correct answer’s explanation
+- Base questions ONLY on the provided OCR/Revision Guide references
+
+Return in this JSON format:
+{
+  "questions": [
+    {
+      "question": "A clear MCQ about ${topic.subTopic.title}",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": 0, // index (0-3) of the correct option
+      "ao": "AO1" | "AO2" | "AO3",
+      "explanation": "1–2 sentence rationale referencing the provided materials"
+    }
+  ]
+}`;
     try {
       const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { quiz: true });
       const result = await callAIWithVault(
@@ -92,13 +210,17 @@ function QuizView({ topic, onBack }) {
         setIsLoading(false);
         return;
       }
-      const quizQuestions = parsed.questions || [];
-      if (quizQuestions.length < 10) {
-        console.warn('[Quiz][Fallback] Using fallback questions (AI returned <10 questions)');
-        setQuestions(generateFallbackQuestions());
-      } else {
-        setQuestions(quizQuestions.slice(0, 10));
+      const quizQuestions = Array.isArray(parsed.questions) ? parsed.questions : [];
+      let normalized = normalizeQuestionsFromAI(quizQuestions);
+      if (normalized.length < 10) {
+        console.warn('[Quiz] Normalized fewer than 10 questions; topping up with fallbacks');
+        const fallback = generateFallbackQuestions();
+        // Append fallback until we have 10
+        for (let i = 0; i < fallback.length && normalized.length < 10; i++) {
+          normalized.push(fallback[i]);
+        }
       }
+      setQuestions(normalized.slice(0, 10));
       setCurrentQuestionIndex(0);
       setUserAnswers([]);
       setQuizComplete(false);
@@ -296,10 +418,10 @@ function QuizView({ topic, onBack }) {
         // In Blind Test, immediately advance to next question (no feedback delay)
         setCurrentQuestionIndex(currentQuestionIndex + 1);
       } else {
-        // In Show the Answers, show feedback for 1.5s
+        // In Show the Answers, show feedback for 8s
         setTimeout(() => {
           setCurrentQuestionIndex(currentQuestionIndex + 1);
-        }, 1500);
+        }, 8000);
       }
     } else {
       if (mode === 'blind') {
@@ -309,7 +431,7 @@ function QuizView({ topic, onBack }) {
         setTimeout(() => {
           setQuizComplete(true);
           setShowResults(true);
-        }, 1500);
+        }, 8000);
       }
     }
   };
@@ -321,6 +443,16 @@ function QuizView({ topic, onBack }) {
   };
 
   const saveQuiz = () => {
+    // Validate questions and userAnswers
+    if (!Array.isArray(questions) || questions.length === 0) {
+      alert("Cannot save quiz: No questions available.");
+      return;
+    }
+    if (!Array.isArray(userAnswers) || userAnswers.length !== questions.length) {
+      alert("Cannot save quiz: Answers are missing or mismatched.");
+      return;
+    }
+
     const quiz = {
       id: Date.now(),
       timestamp: new Date().toISOString(),
@@ -339,8 +471,13 @@ function QuizView({ topic, onBack }) {
 
     const updatedHistory = [quiz, ...quizHistory].slice(0, 20); // Keep last 20 quizzes
     setQuizHistory(updatedHistory);
-    localStorage.setItem(`quiz-history-${topic.subTopic.id}`, JSON.stringify(updatedHistory));
-    
+    try {
+      localStorage.setItem(`quiz-history-${topic.subTopic.id}`, JSON.stringify(updatedHistory));
+    } catch (err) {
+      console.error('Failed to save quiz history:', err);
+      alert('Failed to save quiz. Your browser storage may be full or unavailable.');
+      return;
+    }
     // Return to main quiz view
     setQuizComplete(false);
     setShowResults(false);
@@ -421,6 +558,60 @@ function QuizView({ topic, onBack }) {
     doc.save(`quiz-results-${topic.subTopic.title}-${new Date().toISOString().split('T')[0]}.pdf`);
   };
 
+  // Generate detailed answer summary with references from the vault
+  const generateDetailedSummary = async () => {
+    try {
+      setIsGeneratingSummary(true);
+      // Prepare a compact JSON of questions with the correct answer text
+      const compact = questions.map((q, idx) => ({
+        index: idx + 1,
+        question: q.question,
+        correct: Array.isArray(q.options) && Number.isInteger(q.correctAnswer) ? q.options[q.correctAnswer] : ''
+      }));
+      const basePrompt = `You are an expert AQA Psychology teacher.
+
+Create a DETAILED ANSWER SUMMARY for the following MCQs using ONLY the OCR/Revision Guide references provided below. For each question, provide:
+- A 2–3 sentence evidence-based explanation that justifies the correct option
+- A list of sources with file name and page number, extracted from the REFERENCE headers (e.g., "AQA Psychology For A Level Year 1 & AS 2nd ED.pdf", page as shown)
+
+QUESTIONS (with correct answers):
+${JSON.stringify(compact, null, 2)}
+
+Return ONLY this JSON:
+{
+  "answers": [
+    {
+      "index": 1,
+      "detailed": "...",
+      "sources": [ { "file": "...pdf", "page": 34 } ]
+    }
+  ]
+}`;
+      const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { quiz: true });
+      const result = await callAIWithVault(
+        vaultPrompt,
+        topic.title,
+        topic.subTopic.title,
+        { includeAdditional: true }
+      );
+      let parsed;
+      try {
+        const jsonStr = extractFirstJson(result);
+        if (!jsonStr) throw new Error('No JSON found in AI output');
+        parsed = JSON.parse(jsonStr);
+      } catch (e) {
+        console.warn('[Quiz][Summary Parse Error]', e);
+        setDetailedSummary(null);
+        return;
+      }
+      setDetailedSummary(parsed);
+    } catch (err) {
+      console.error('[Quiz] Failed to generate detailed summary', err);
+    } finally {
+      setIsGeneratingSummary(false);
+    }
+  };
+
   const deleteStoredQuiz = (quizId) => {
     const updatedQuizzes = storedQuizzes.filter(quiz => quiz.id !== quizId);
     setStoredQuizzes(updatedQuizzes);
@@ -475,6 +666,16 @@ function QuizView({ topic, onBack }) {
 
   // Utility to clean 'Reference X' from questions and options
   const cleanReferenceMentions = (text) => text.replace(/\s*Reference\s*\d+\.?/gi, '').replace(/\(\s*Reference\s*\d+\s*\)/gi, '').trim();
+
+  // Utility to remove meta-phrases like "according to the materials"
+  const cleanMaterialPhrases = (text) => (
+    (text || '')
+      .replace(/,?\s*\(?\s*according to the materials\s*\)?/gi, '')
+      .replace(/,?\s*\(?\s*based on the materials\s*\)?/gi, '')
+      .replace(/,?\s*\(?\s*using the materials\s*\)?/gi, '')
+      .replace(/\s{2,}/g, ' ')
+      .trim()
+  );
 
   if (!quizStarted) {
     return (
@@ -893,6 +1094,21 @@ function QuizView({ topic, onBack }) {
                       <p className="text-blue-700 text-sm">{cleanExplanation(question.explanation)}</p>
                     ) : null}
                   </div>
+
+                  {detailedSummary && Array.isArray(detailedSummary.answers) && detailedSummary.answers.find(a => a.index === index + 1) && (
+                    <div className="mt-3 bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h6 className="font-medium text-green-800 mb-2">Detailed Answer (Vault-Sourced):</h6>
+                      <p className="text-green-800 text-sm">
+                        {detailedSummary.answers.find(a => a.index === index + 1)?.detailed}
+                      </p>
+                      <div className="mt-2 text-sm text-green-900">
+                        <span className="font-medium">Sources:</span>{' '}
+                        {(detailedSummary.answers.find(a => a.index === index + 1)?.sources || [])
+                          .map(s => `${s.file} - Page ${s.page}`)
+                          .join('; ')}
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -920,6 +1136,13 @@ function QuizView({ topic, onBack }) {
                   >
                     <Download className="w-4 h-4" />
                     Export Results
+                  </button>
+                  <button
+                    onClick={generateDetailedSummary}
+                    disabled={isGeneratingSummary}
+                    className={`flex items-center gap-2 px-6 py-3 rounded-lg transition-all font-semibold ${isGeneratingSummary ? 'bg-gray-300 text-gray-600' : 'bg-emerald-600 text-white hover:bg-emerald-700'}`}
+                  >
+                    {isGeneratingSummary ? 'Generating…' : 'Detailed Summary (with References)'}
                   </button>
                   <button
                     onClick={deleteQuiz}
@@ -955,7 +1178,7 @@ function QuizView({ topic, onBack }) {
   const currentQuestion = questions[currentQuestionIndex];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {onBack && (
           <div className="flex justify-center mb-6">
@@ -1015,18 +1238,7 @@ function QuizView({ topic, onBack }) {
           </div>
         </div>
 
-        {/* Stats */}
-        {quizStats.total > 0 && (
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-6">
-            <div className="flex justify-between items-center text-sm">
-              <span className="text-gray-600 font-medium">Quiz Progress: {getSuccessRate()}%</span>
-              <div className="flex gap-4">
-                <span className="text-green-600 font-medium">✓ {quizStats.correct}</span>
-                <span className="text-red-500 font-medium">✗ {quizStats.incorrect}</span>
-              </div>
-            </div>
-          </div>
-        )}
+        {/* Removed Quiz Progress stats (✓/✗) */}
 
         {/* Question */}
         <div className="bg-white border rounded-lg shadow-sm p-8 mb-6">
@@ -1091,7 +1303,7 @@ function QuizView({ topic, onBack }) {
 
           <div className="mb-8">
             <h2 className="text-lg font-semibold text-gray-700 mb-3">Question:</h2>
-            <p className="text-xl text-gray-800 leading-relaxed">{cleanReferenceMentions(currentQuestion.question)}</p>
+            <p className="text-xl text-gray-800 leading-relaxed">{cleanMaterialPhrases(cleanReferenceMentions(currentQuestion.question))}</p>
           </div>
 
           <div className="space-y-3">
@@ -1102,32 +1314,20 @@ function QuizView({ topic, onBack }) {
                 disabled={userAnswers[currentQuestionIndex] !== undefined}
                 className={`w-full p-4 text-left border rounded-lg transition-all ${
                   userAnswers[currentQuestionIndex] === index
-                    ? index === currentQuestion.correctAnswer
-                      ? 'bg-green-50 border-green-300 ring-2 ring-green-400'
-                      : 'bg-red-50 border-red-300 ring-2 ring-red-400'
+                    ? 'bg-blue-50 border-blue-300 ring-2 ring-blue-400'
                     : 'bg-gray-50 border-gray-200 hover:bg-gray-100 hover:border-gray-300'
                 } ${userAnswers[currentQuestionIndex] !== undefined ? 'cursor-default' : 'cursor-pointer'}`}
               >
                 <div className="flex items-center gap-3">
                   <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold ${
                     userAnswers[currentQuestionIndex] === index
-                      ? index === currentQuestion.correctAnswer
-                        ? 'bg-green-500 border-green-500 text-white'
-                        : 'bg-red-500 border-red-500 text-white'
+                      ? 'bg-blue-500 border-blue-500 text-white'
                       : 'bg-white border-gray-300 text-gray-700'
                   }`}>
                     {String.fromCharCode(65 + index)}
                   </div>
                   <span className="text-gray-800">{cleanReferenceMentions(option)}</span>
-                  {userAnswers[currentQuestionIndex] === index && (
-                    <div className="ml-auto">
-                      {index === currentQuestion.correctAnswer ? (
-                        <CheckCircle className="w-6 h-6 text-green-600" />
-                      ) : (
-                        <XCircle className="w-6 h-6 text-red-600" />
-                      )}
-                    </div>
-                  )}
+                  {/* Removed tick/cross feedback here */}
                 </div>
               </button>
             ))}

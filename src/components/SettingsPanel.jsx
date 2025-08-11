@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 function SettingsPanel() {
   const [openAIKey, setOpenAIKey] = useState("");
   const [claudeKey, setClaudeKey] = useState("");
+  const [elevenLabsKey, setElevenLabsKey] = useState("");
   const [voiceId, setVoiceId] = useState("");
   const [voiceName, setVoiceName] = useState("");
   const [voices, setVoices] = useState([]);
@@ -11,6 +12,7 @@ function SettingsPanel() {
   useEffect(() => {
     setOpenAIKey(localStorage.getItem("openai-key") || "");
     setClaudeKey(localStorage.getItem("claude-key") || "");
+    setElevenLabsKey(localStorage.getItem("elevenlabs-key") || "");
     setVoices(JSON.parse(localStorage.getItem("elevenlabs-voices") || "[]"));
     setSelectedVoiceId(localStorage.getItem("elevenlabs-voice-id") || "");
   }, []);
@@ -18,6 +20,7 @@ function SettingsPanel() {
   const saveKeys = () => {
     localStorage.setItem("openai-key", openAIKey);
     localStorage.setItem("claude-key", claudeKey);
+    localStorage.setItem("elevenlabs-key", elevenLabsKey);
   };
 
   const addVoice = () => {
@@ -65,6 +68,16 @@ function SettingsPanel() {
           type="text"
           value={claudeKey}
           onChange={(e) => setClaudeKey(e.target.value)}
+          className="w-full px-3 py-2 border rounded"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">ElevenLabs API Key</label>
+        <input
+          type="text"
+          value={elevenLabsKey}
+          onChange={(e) => setElevenLabsKey(e.target.value)}
           className="w-full px-3 py-2 border rounded"
         />
       </div>

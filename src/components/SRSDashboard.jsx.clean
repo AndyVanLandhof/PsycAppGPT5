@@ -1,0 +1,1557 @@
+import React, { useState, useEffect } from 'react';
+import { Clock, CheckCircle, AlertCircle, Calendar, TrendingUp, Play, RefreshCw, Target } from 'lucide-react';
+import psychologyTopics from '../psychologyTopics';
+import { useVaultService } from '../hooks/useVaultService';
+import { useAIService } from '../hooks/useAIService';
+
+// SRS Algorithm Class (SM-2)
+class SRS {
+  constructor() {
+    this.examDate = new Date('2026-05-01');
+  }
+
+  getDaysUntilExam() {
+    const today = new Date();
+    const timeDiff = this.examDate.getTime() - today.getTime();
+    return Math.ceil(timeDiff / (1000 * 3600 * 24));
+  }
+
+  calculateNextReview(card, quality) {
+    let { repetitions, easeFactor, interval } = card;
+    
+    // If quality is 3 or higher, the card is considered "passed"
+    if (quality >= 3) {
+      // Increase repetitions
+      repetitions = repetitions + 1;
+      
+      // Calculate new interval
+      if (repetitions === 1) {
+        interval = 1; // 1 day
+      } else if (repetitions === 2) {
+        interval = 6; // 6 days
+      } else {
+        interval = Math.round(interval * easeFactor);
+      }
+      
+      // Update ease factor
+      easeFactor = Math.max(1.3, easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02)));
+    } else {
+      // Failed - reset repetitions and interval
+      repetitions = 0;
+      interval = 1;
+      
+      // Slightly decrease ease factor
+      easeFactor = Math.max(1.3, easeFactor - 0.2);
+    }
+    
+    // Calculate next review date
+    const nextReview = new Date();
+    nextReview.setDate(nextReview.getDate() + interval);
+    
+    return {
+      repetitions,
+      easeFactor,
+      interval,
+      nextReview: nextReview.toISOString()
+    };
+  }
+
+  isCardDue(card) {
+    if (!card.nextReview) return true;
+    const today = new Date();
+    const nextReview = new Date(card.nextReview);
+    return today >= nextReview;
+  }
+
+  getDueCards(cards) {
+    return cards.filter(card => this.isCardDue(card));
+  }
+
+  getCardsDueToday(cards) {
+    const today = new Date();
+    return cards.filter(card => {
+      if (!card.nextReview) return true;
+      const nextReview = new Date(card.nextReview);
+      return today.toDateString() === nextReview.toDateString();
+    });
+  }
+
+  getCardsDueThisWeek(cards) {
+    const today = new Date();
+    const weekFromNow = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+    return cards.filter(card => {
+      if (!card.nextReview) return true;
+      const nextReview = new Date(card.nextReview);
+      return nextReview <= weekFromNow;
+    });
+  }
+}
+
+// SRS Manager Class
+class SRSManager {
+  constructor() {
+    this.examDate = new Date('2026-05-01');
+  }
+
+  // Get all SRS cards for a topic
+  getTopicSrsCards(topicId) {
+    const topic = psychologyTopics[topicId];
+    const allCards = [];
+    
+    topic.subTopics.forEach(subTopic => {
+      const cards = JSON.parse(localStorage.getItem(`srs-cards-${subTopic.id}`) || '[]');
+      cards.forEach(card => {
+        allCards.push({
+          ...card,
+          topicId,
+          subTopicId: subTopic.id,
+          subTopicTitle: subTopic.title
+        });
+      });
+    });
+    
+    return allCards;
+  }
+
+  // Get all SRS cards across all topics
+  getAllSrsCards() {
+    const allCards = [];
+    
+    Object.keys(psychologyTopics).forEach(topicId => {
+      const topicCards = this.getTopicSrsCards(topicId);
+      allCards.push(...topicCards);
+    });
+    
+    return allCards;
+  }
+
+  // Check if a card is due for review
+  isCardDue(card) {
+    if (!card.nextReview) return true;
+    const today = new Date();
+    const nextReview = new Date(card.nextReview);
+    return today >= nextReview;
+  }
+
+  // Get due cards for a topic
+  getDueCards(topicId) {
+    const cards = this.getTopicSrsCards(topicId);
+    return cards.filter(card => this.isCardDue(card));
+  }
+
+  // Get due cards for a subtopic
+  getSubTopicDueCards(subTopicId) {
+    const cards = JSON.parse(localStorage.getItem(`srs-cards-${subTopicId}`) || '[]');
+    return cards.filter(card => this.isCardDue(card));
+  }
+
+  // Get all cards for a subtopic
+  getSubTopicCards(subTopicId) {
+    return JSON.parse(localStorage.getItem(`srs-cards-${subTopicId}`) || '[]');
+  }
+
+  // Get all due cards across all topics
+  getAllDueCards() {
+    const allCards = this.getAllSrsCards();
+    return allCards.filter(card => this.isCardDue(card));
+  }
+
+  // Calculate topic progress
+  calculateTopicProgress(topicId) {
+    const cards = this.getTopicSrsCards(topicId);
+    if (cards.length === 0) return { total: 0, mature: 0, due: 0, progress: 0 };
+    
+    const matureCards = cards.filter(card => 
+      card.repetitions >= 3 && card.interval >= 7
+    ).length;
+    
+    const dueCards = this.getDueCards(topicId).length;
+    const progress = Math.round((matureCards / cards.length) * 100);
+    
+    return {
+      total: cards.length,
+      mature: matureCards,
+      due: dueCards,
+      progress
+    };
+  }
+
+  // Get last review date for a topic
+  getLastReviewDate(topicId) {
+    const cards = this.getTopicSrsCards(topicId);
+    if (cards.length === 0) return null;
+    
+    const lastReviewedCards = cards.filter(card => card.lastReviewed);
+    if (lastReviewedCards.length === 0) return null;
+    
+    const lastReview = new Date(Math.max(...lastReviewedCards.map(card => new Date(card.lastReviewed))));
+    return lastReview;
+  }
+
+  // Format time since last review
+  formatTimeSince(date) {
+    if (!date) return 'Never reviewed';
+    
+    const now = new Date();
+    const diffTime = Math.abs(now - date);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    
+    if (diffDays === 0) return 'Today';
+    if (diffDays === 1) return 'Yesterday';
+    if (diffDays < 7) return `${diffDays} days ago`;
+    if (diffDays < 30) return `${Math.floor(diffDays / 7)} weeks ago`;
+    return `${Math.floor(diffDays / 30)} months ago`;
+  }
+
+  // Get days until exam
+  getDaysUntilExam() {
+    const today = new Date();
+    const timeDiff = this.examDate.getTime() - today.getTime();
+    return Math.ceil(timeDiff / (1000 * 3600 * 24));
+  }
+
+  // Get overall SRS stats
+  getOverallStats() {
+    const allCards = this.getAllSrsCards();
+    const dueCards = this.getAllDueCards();
+    const matureCards = allCards.filter(card => 
+      card.repetitions >= 3 && card.interval >= 7
+    ).length;
+    
+    return {
+      totalCards: allCards.length,
+      dueCards: dueCards.length,
+      matureCards,
+      overallProgress: allCards.length > 0 ? Math.round((matureCards / allCards.length) * 100) : 0
+    };
+  }
+}
+
+function SRSDashboard({ onBack }) {
+  const [topicsData, setTopicsData] = useState({});
+  const [selectedTopic, setSelectedTopic] = useState(null);
+  const [srsCards, setSrsCards] = useState([]);
+  const [currentCardIndex, setCurrentCardIndex] = useState(0);
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [userAnswer, setUserAnswer] = useState('');
+  const [sessionStats, setSessionStats] = useState({ perfect: 0, hard: 0, again: 0, total: 0 });
+  const [sessionComplete, setSessionComplete] = useState(false);
+  const [showSummary, setShowSummary] = useState(false);
+  const [isGeneratingCards, setIsGeneratingCards] = useState(false);
+  const [generationProgress, setGenerationProgress] = useState({ current: 0, total: 0, message: '' });
+  const [showAddCardsModal, setShowAddCardsModal] = useState(false);
+  const [showLockModal, setShowLockModal] = useState(false);
+  const [showAdminArea, setShowAdminArea] = useState(false);
+  const [adminCards, setAdminCards] = useState({});
+  const [adminFilters, setAdminFilters] = useState({ topic: 'all', subtopic: 'all', status: 'all' });
+  const [allTopicsData, setAllTopicsData] = useState({});
+  const [overallStats, setOverallStats] = useState({});
+  const [navigationFilters, setNavigationFilters] = useState({ topic: 'all', subtopic: 'all' });
+
+  const srsManager = new SRSManager();
+  const { callAI } = useAIService();
+  const { createVaultPrompt } = useVaultService();
+
+  useEffect(() => {
+    loadAllTopicsData();
+    loadAdminCards();
+  }, []);
+
+  const loadAllTopicsData = () => {
+    const topicsData = {};
+    
+    Object.keys(psychologyTopics).forEach(topicId => {
+      const topic = psychologyTopics[topicId];
+      const progress = srsManager.calculateTopicProgress(topicId);
+      const lastReview = srsManager.getLastReviewDate(topicId);
+      const dueCards = srsManager.getDueCards(topicId);
+      
+      topicsData[topicId] = {
+        ...topic,
+        progress,
+        lastReview,
+        dueCards,
+        hasCards: progress.total > 0
+      };
+    });
+    
+    setAllTopicsData(topicsData);
+    setOverallStats(srsManager.getOverallStats());
+  };
+
+  const startTopicSession = (topicId) => {
+    const dueCards = srsManager.getDueCards(topicId);
+    if (dueCards.length === 0) {
+      alert('No cards due for review in this topic!');
+      return;
+    }
+    
+    setSelectedTopic(psychologyTopics[topicId]);
+    setSrsCards(dueCards);
+    setCurrentCardIndex(0);
+    setShowAnswer(false);
+    setUserAnswer('');
+    setSessionStats({ perfect: 0, hard: 0, again: 0, total: 0 });
+    setSessionComplete(false);
+    setShowSummary(false);
+  };
+
+  const startSubTopicSession = (topicId, subTopicId) => {
+    const topic = psychologyTopics[topicId];
+    const subTopic = topic.subTopics.find(st => st.id === subTopicId);
+    const cards = JSON.parse(localStorage.getItem(`srs-cards-${subTopicId}`) || '[]');
+    const dueCards = cards.filter(card => srsManager.isCardDue(card));
+    
+    if (dueCards.length === 0) {
+      alert('No cards due for review in this subtopic!');
+      return;
+    }
+    
+    setSelectedTopic({
+      ...topic,
+      subTopic: subTopic
+    });
+    setSrsCards(dueCards);
+    setCurrentCardIndex(0);
+    setShowAnswer(false);
+    setUserAnswer('');
+    setSessionStats({ perfect: 0, hard: 0, again: 0, total: 0 });
+    setSessionComplete(false);
+    setShowSummary(false);
+  };
+
+  const handleAssessment = (quality) => {
+    const currentCard = srsCards[currentCardIndex];
+    
+    // Update SRS card
+    const updatedCard = { ...currentCard };
+    const srs = new SRS();
+    const { repetitions, easeFactor, interval, nextReview } = srs.calculateNextReview(currentCard, quality);
+    
+    updatedCard.repetitions = repetitions;
+    updatedCard.easeFactor = easeFactor;
+    updatedCard.interval = interval;
+    updatedCard.nextReview = nextReview;
+    updatedCard.lastReviewed = new Date().toISOString();
+    
+    // Save updated card
+    const topicCards = JSON.parse(localStorage.getItem(`srs-cards-${currentCard.subTopicId}`) || '[]');
+    const cardIndex = topicCards.findIndex(card => card.id === currentCard.id);
+    if (cardIndex !== -1) {
+      topicCards[cardIndex] = updatedCard;
+      localStorage.setItem(`srs-cards-${currentCard.subTopicId}`, JSON.stringify(topicCards));
+    }
+    
+    // Update session stats
+    setSessionStats(prev => ({
+      ...prev,
+      [quality === 5 ? 'perfect' : quality === 3 ? 'hard' : 'again']: prev[quality === 5 ? 'perfect' : quality === 3 ? 'hard' : 'again'] + 1,
+      total: prev.total + 1
+    }));
+    
+    // Check if session is complete
+    if (currentCardIndex === srsCards.length - 1) {
+      setSessionComplete(true);
+      setShowSummary(true);
+    } else {
+      // Move to next card
+      setCurrentCardIndex(prev => prev + 1);
+      setShowAnswer(false);
+      setUserAnswer('');
+    }
+  };
+
+  const getProgressColor = (progress) => {
+    if (progress >= 80) return 'text-green-600';
+    if (progress >= 60) return 'text-blue-600';
+    if (progress >= 40) return 'text-yellow-600';
+    return 'text-red-600';
+  };
+
+  const getProgressBarColor = (progress) => {
+    if (progress >= 80) return 'bg-green-500';
+    if (progress >= 60) return 'bg-blue-500';
+    if (progress >= 40) return 'bg-yellow-500';
+    return 'bg-red-500';
+  };
+
+  const getDueStatusIcon = (dueCount) => {
+    if (dueCount === 0) return <CheckCircle className="w-4 h-4 text-green-600" />;
+    if (dueCount <= 3) return <Clock className="w-4 h-4 text-yellow-600" />;
+    return <AlertCircle className="w-4 h-4 text-red-600" />;
+  };
+
+  const extractFirstJson = (text) => {
+    const startIndex = text.indexOf('{');
+    if (startIndex === -1) return null;
+    
+    let braceCount = 0;
+    let endIndex = startIndex;
+    
+    for (let i = startIndex; i < text.length; i++) {
+      if (text[i] === '{') braceCount++;
+      if (text[i] === '}') braceCount--;
+      if (braceCount === 0) {
+        endIndex = i;
+        break;
+      }
+    }
+    
+    return text.substring(startIndex, endIndex + 1);
+  };
+
+  const generateRealCardsFromVault = async (topicId, subTopicId) => {
+    const topic = psychologyTopics[topicId];
+    const subTopic = topic.subTopics.find(st => st.id === subTopicId);
+    
+    if (!subTopic) return [];
+
+    const basePrompt = `You are an expert AQA Psychology teacher creating flashcards for AQA Psychology 7182 students.
+
+TOPIC: ${topic.title}
+SUB-TOPIC: ${subTopic.title}
+
+Create EXACTLY 12 flashcards for high-velocity revision. Each flashcard should be one of the following types:
+- AO1: Test recall of a key term, definition, or concept
+- AO1 (Findings): Ask for findings from a named study and ALWAYS include in the answer: researcher(s) + year, sample/method/measure, and a precise key result (number, percentage, correlation, region/volume change)
+- AO2: Ask for application of a theory/model to a short scenario (1–2 sentences)
+- AO3: Ask for a specific strength or limitation of a theory/model and support with a brief piece of evidence (named study or clear reason)
+
+CRITICAL FLASHCARD RULES:
+- NEVER include the answer or key terms in the question itself
+- Questions should test recall, not recognition
+- Avoid questions like "What is the definition of conformity?" - instead ask "What type of social influence involves changing behavior to fit in with a group?"
+- For studies, don't ask "What did Asch find?" - instead ask "What percentage of participants conformed to obviously wrong answers in the line judgment study?"
+- Questions must require the student to recall information, not just recognize it
+
+IMPORTANT QUALITY REQUIREMENTS:
+1. CORE CONTENT FOCUS: Prioritize content that appears frequently in AQA exams (2019-2024). Focus on:
+   - Key studies that are commonly tested (e.g., Asch, Milgram, Ainsworth, Baddeley)
+   - Core theories and models that are fundamental to the topic
+   - Evaluation points that are standard in mark schemes
+   - Definitions and concepts that appear in specification
+
+2. A-LEVEL DIFFICULTY: Ensure questions match A-Level standard:
+   - Not too basic (avoid simple recall of obvious facts)
+   - Not too advanced (avoid postgraduate-level complexity)
+   - Require understanding, not just memorization
+   - Test application and evaluation skills appropriately
+
+3. EXAM FOCUS: Questions should mirror actual exam questions:
+   - Use command words like "Define", "Explain", "Evaluate", "Apply"
+   - Require specific, precise answers
+   - Test AO1 knowledge, AO2 application, and AO3 evaluation appropriately
+
+Rules:
+- Use ONLY the provided vault materials below. Do NOT use general knowledge or invent content.
+- Reference specific details, arguments, studies, or scholars from the materials.
+- Keep questions concise and exam-focused. Answers should be <= 30 words, precise, and evidence-anchored when applicable.
+- If the sub-topic mentions plasticity or trauma, include mechanisms of functional recovery and at least one supporting study where possible.
+- CRITICAL: Provide ONLY the direct answer. Do NOT include phrases like "According to the vault", "Based on the materials", "Reference shows", or any citations. Give the answer as if it's a direct fact.
+- CRITICAL: Do NOT mention vault materials, references, or sources in the answer. Just state the answer clearly and directly.
+- CRITICAL: Do NOT include ANY reference numbers like "(Reference 2)", "(Reference 3, Page 36)", or similar citations in the answer.
+- CRITICAL: Do NOT include page numbers, reference numbers, or any citation format in the answer.
+- CRITICAL: The answer should be a clean, direct statement without any parenthetical references or citations.
+- CRITICAL: Use proper capitalization. Do not capitalize "the" unnecessarily in questions or answers.
+
+Return in this JSON format:
+{
+  "flashcards": [
+    {
+      "question": "A concise question about ${subTopic.title}",
+      "answer": "The correct answer (definition, finding incl. study/year/stat if applicable, application, or explanation)",
+      "ao": "AO1" | "AO2" | "AO3",
+      "difficulty": "easy" | "medium" | "hard",
+      "exam_frequency": "high" | "medium" | "low"
+    }
+  ]
+}`;
+
+    try {
+      console.log('[SRS] Starting card generation for:', subTopic.title);
+      const vaultPrompt = createVaultPrompt(basePrompt, topic.title, subTopic.title, true, { flashcards: true });
+      console.log('[SRS] Vault prompt created, calling AI...');
+      const result = await callAI(vaultPrompt);
+      console.log('[SRS] AI response received, length:', result?.length || 0);
+      
+      const jsonStr = extractFirstJson(result);
+      if (!jsonStr) {
+        console.warn('[SRS] No JSON found in AI output for', subTopic.title);
+        console.warn('[SRS] Raw AI response:', result);
+        return [];
+      }
+      
+      const parsed = JSON.parse(jsonStr);
+      const flashcards = parsed.flashcards || [];
+      
+      if (flashcards.length === 0) {
+        console.warn('[SRS] No flashcards generated for', subTopic.title);
+        return [];
+      }
+
+      // Quality test the flashcards
+      const qualityTestedCards = await qualityTestFlashcards(flashcards, topic.title, subTopic.title);
+      
+      if (qualityTestedCards.length === 0) {
+        console.warn('[SRS] All cards failed quality test for', subTopic.title);
+        return [];
+      }
+
+      // Convert to SRS format
+      return qualityTestedCards.map((card, index) => ({
+        id: `srs-${subTopicId}-${Date.now()}-${index}`,
+        question: card.question,
+        answer: card.answer,
+        ao: card.ao,
+        difficulty: card.difficulty,
+        exam_frequency: card.exam_frequency,
+        repetitions: 0,
+        easeFactor: 2.5,
+        interval: 1,
+        nextReview: new Date().toISOString(),
+        lastReviewed: null
+      }));
+
+    } catch (error) {
+      console.error('[SRS] Error generating cards for', subTopic.title, error);
+      return [];
+    }
+  };
+
+  const qualityTestFlashcards = async (flashcards, topicTitle, subTopicTitle) => {
+    if (!flashcards || flashcards.length === 0) return [];
+
+    const qualityPrompt = `You are an expert AQA Psychology examiner and teacher. Review these flashcards for quality and A-Level appropriateness.
+
+TOPIC: ${topicTitle}
+SUB-TOPIC: ${subTopicTitle}
+
+QUALITY CRITERIA:
+1. FLASHCARD DESIGN: Does the question properly test recall without giving away the answer?
+   - REJECT if the answer or key terms appear in the question
+   - REJECT if it's a recognition question (e.g., "What is the definition of X?")
+   - ACCEPT if it requires actual recall (e.g., "What type of social influence involves changing behavior to fit in?")
+
+2. CORE CONTENT: Does the card test frequently examined content?
+   - High frequency: Core studies, key theories, standard evaluation points
+   - Medium frequency: Important concepts, specific findings
+   - Low frequency: Obscure details, rarely tested content
+
+3. A-LEVEL DIFFICULTY: Is the difficulty appropriate for A-Level?
+   - Too easy: Basic recall, obvious facts, GCSE-level content
+   - Too hard: Postgraduate concepts, overly complex analysis
+   - Just right: Requires understanding, application, evaluation
+
+4. EXAM RELEVANCE: Does it mirror actual exam questions?
+   - Command words appropriate (Define, Explain, Evaluate, Apply)
+   - Answer length and specificity suitable
+   - AO1/AO2/AO3 balance correct
+
+5. CONTENT ACCURACY: Is the content factually correct and from the vault materials?
+
+REVIEW EACH CARD AND RETURN ONLY THE CARDS THAT PASS ALL CRITERIA:
+
+${flashcards.map((card, index) => `
+CARD ${index + 1}:
+Question: ${card.question}
+Answer: ${card.answer}
+AO: ${card.ao}
+Difficulty: ${card.difficulty || 'not specified'}
+Exam Frequency: ${card.exam_frequency || 'not specified'}
+`).join('\n')}
+
+Return in this JSON format with ALL cards scored:
+{
+  "scored_cards": [
+    {
+      "question": "The question",
+      "answer": "The answer", 
+      "ao": "AO1" | "AO2" | "AO3",
+      "difficulty": "easy" | "medium" | "hard",
+      "exam_frequency": "high" | "medium" | "low",
+      "quality_score": 1-10,
+      "reason": "Brief reason for score"
+    }
+  ]
+}
+
+Score each card 1-10 and return ALL cards with their scores. We will select the top 8 highest-scoring cards.`;
+
+    try {
+      const result = await callAI(qualityPrompt);
+      const jsonStr = extractFirstJson(result);
+      
+      if (!jsonStr) {
+        console.warn('[SRS] No JSON found in quality test result');
+        return flashcards; // Return original cards if quality test fails
+      }
+      
+      const parsed = JSON.parse(jsonStr);
+      const scoredCards = parsed.scored_cards || [];
+      
+      if (scoredCards.length === 0) {
+        console.warn('[SRS] No scored cards returned from quality test');
+        return flashcards; // Return original cards if quality test fails
+      }
+      
+      // Sort cards by quality score (highest first) and select top 8
+      const sortedCards = scoredCards.sort((a, b) => (b.quality_score || 0) - (a.quality_score || 0));
+      const topCards = sortedCards.slice(0, 8);
+      
+      console.log(`[SRS] Quality test: Selected top ${topCards.length}/${scoredCards.length} cards for ${subTopicTitle}`);
+      console.log(`[SRS] Quality scores: ${topCards.map(card => card.quality_score).join(', ')}`);
+      
+      return topCards;
+      
+    } catch (error) {
+      console.error('[SRS] Quality test error:', error);
+      return flashcards; // Return original cards if quality test fails
+    }
+  };
+
+  const addSampleCardsToTopic = async (topicId) => {
+    setIsGeneratingCards(true);
+    const topic = psychologyTopics[topicId];
+    const totalSubTopics = topic.subTopics.length;
+    
+    try {
+      setGenerationProgress({ current: 0, total: totalSubTopics, message: 'Starting generation...' });
+      
+      // Generate real cards for each sub-topic
+      for (let i = 0; i < topic.subTopics.length; i++) {
+        const subTopic = topic.subTopics[i];
+        setGenerationProgress({ 
+          current: i + 1, 
+          total: totalSubTopics, 
+          message: `Generating cards for ${subTopic.title}...` 
+        });
+        
+        const realCards = await generateRealCardsFromVault(topicId, subTopic.id);
+        
+        if (realCards.length > 0) {
+          localStorage.setItem(`srs-cards-${subTopic.id}`, JSON.stringify(realCards));
+          console.log(`[SRS] Generated ${realCards.length} top-quality cards for ${subTopic.title} (selected from 12 generated)`);
+        } else {
+          console.warn(`[SRS] No quality cards generated for ${subTopic.title}, using sample cards as fallback`);
+          // Fallback to sample cards if GPT generation fails
+          import('../utils/srsCardGenerator.js').then(module => {
+            const sampleCards = module.generateSampleSrsCards(subTopic.id, 8);
+            localStorage.setItem(`srs-cards-${subTopic.id}`, JSON.stringify(sampleCards));
+            console.log(`[SRS] Used ${sampleCards.length} sample cards as fallback for ${subTopic.title}`);
+          }).catch(error => {
+            console.error('[SRS] Error importing sample card generator:', error);
+            // Create basic fallback cards
+            const basicCards = [
+              {
+                id: `card-${subTopic.id}-1`,
+                question: `What is a key concept in ${subTopic.title}?`,
+                answer: "This is a fallback answer. Please regenerate cards for better content.",
+                repetitions: 0,
+                easeFactor: 2.5,
+                interval: 1,
+                nextReview: new Date().toISOString(),
+                lastReviewed: null
+              }
+            ];
+            localStorage.setItem(`srs-cards-${subTopic.id}`, JSON.stringify(basicCards));
+            console.log(`[SRS] Used basic fallback cards for ${subTopic.title}`);
+          });
+        }
+      }
+      
+      setGenerationProgress({ current: totalSubTopics, total: totalSubTopics, message: 'Generation complete!' });
+      loadAllTopicsData(); // Refresh the data
+      setShowAddCardsModal(false);
+    } catch (error) {
+      console.error('[SRS] Error adding cards to topic', error);
+      alert('Error generating cards. Please try again.');
+    } finally {
+      setIsGeneratingCards(false);
+      setGenerationProgress({ current: 0, total: 0, message: '' });
+    }
+  };
+
+  const addSampleCardsToAllTopics = async () => {
+    setIsGeneratingCards(true);
+    try {
+      for (const topicId of Object.keys(psychologyTopics)) {
+        await addSampleCardsToTopic(topicId);
+      }
+      alert('Real cards generated from vault for all topics!');
+    } catch (error) {
+      console.error('[SRS] Error adding cards to all topics', error);
+      alert('Error generating cards for some topics. Please try again.');
+    } finally {
+      setIsGeneratingCards(false);
+    }
+  };
+
+  const resetAllSrsCards = () => {
+    if (window.confirm('Are you sure you want to reset ALL SRS cards? This will delete all progress and cannot be undone.')) {
+      Object.keys(psychologyTopics).forEach(topicId => {
+        const topic = psychologyTopics[topicId];
+        topic.subTopics.forEach(subTopic => {
+          localStorage.removeItem(`srs-cards-${subTopic.id}`);
+        });
+      });
+      loadAllTopicsData(); // Refresh the data
+      alert('All SRS cards have been reset!');
+    }
+  };
+
+  const lockAllCards = () => {
+    if (window.confirm('Are you sure you want to PERMANENTLY LOCK all SRS cards? This will prevent any future regeneration and cannot be undone.')) {
+      Object.keys(psychologyTopics).forEach(topicId => {
+        const topic = psychologyTopics[topicId];
+        topic.subTopics.forEach(subTopic => {
+          const existingCards = JSON.parse(localStorage.getItem(`srs-cards-${subTopic.id}`) || '[]');
+          if (existingCards.length > 0) {
+            const lockedCards = existingCards.map(card => ({
+              ...card,
+              locked: true,
+              locked_date: new Date().toISOString(),
+              version: '1.0',
+              source: 'vault-generated'
+            }));
+            localStorage.setItem(`srs-cards-${subTopic.id}`, JSON.stringify(lockedCards));
+          }
+        });
+      });
+      loadAllTopicsData(); // Refresh the data
+      alert('All SRS cards have been PERMANENTLY LOCKED! They cannot be regenerated.');
+      setShowLockModal(false);
+    }
+  };
+
+  const checkIfCardsAreLocked = () => {
+    let lockedCount = 0;
+    let totalCount = 0;
+    
+    Object.keys(psychologyTopics).forEach(topicId => {
+      const topic = psychologyTopics[topicId];
+      topic.subTopics.forEach(subTopic => {
+        const existingCards = JSON.parse(localStorage.getItem(`srs-cards-${subTopic.id}`) || '[]');
+        if (existingCards.length > 0) {
+          totalCount += existingCards.length;
+          lockedCount += existingCards.filter(card => card.locked).length;
+        }
+      });
+    });
+    
+    return { lockedCount, totalCount };
+  };
+
+  // Load all cards for admin review
+  const loadAdminCards = () => {
+    const allCards = {};
+    
+    Object.keys(psychologyTopics).forEach(topicId => {
+      const topic = psychologyTopics[topicId];
+      allCards[topicId] = {
+        title: topic.title,
+        subTopics: {}
+      };
+      
+      topic.subTopics.forEach(subTopic => {
+        const cards = JSON.parse(localStorage.getItem(`srs-cards-${subTopic.id}`) || '[]');
+        console.log(`[Admin] Loading cards for ${subTopic.id}:`, cards.length, 'cards');
+        if (cards.length > 0) {
+          console.log(`[Admin] Sample card for ${subTopic.id}:`, cards[0]);
+        }
+        allCards[topicId].subTopics[subTopic.id] = {
+          title: subTopic.title,
+          cards: cards,
+          count: cards.length,
+          locked: cards.length > 0 && cards.every(card => card.locked)
+        };
+      });
+    });
+    
+    console.log('[Admin] Total cards loaded:', allCards);
+    setAdminCards(allCards);
+  };
+
+  // Filter admin cards based on current filters
+  const getFilteredAdminCards = () => {
+    const filtered = {};
+    
+    Object.keys(adminCards).forEach(topicId => {
+      if (adminFilters.topic !== 'all' && topicId !== adminFilters.topic) return;
+      
+      const topic = adminCards[topicId];
+      filtered[topicId] = {
+        title: topic.title,
+        subTopics: {}
+      };
+      
+      Object.keys(topic.subTopics).forEach(subTopicId => {
+        if (adminFilters.subtopic !== 'all' && subTopicId !== adminFilters.subtopic) return;
+        
+        const subTopic = topic.subTopics[subTopicId];
+        if (adminFilters.status === 'locked' && !subTopic.locked) return;
+        if (adminFilters.status === 'unlocked' && subTopic.locked) return;
+        
+        filtered[topicId].subTopics[subTopicId] = subTopic;
+      });
+    });
+    
+    return filtered;
+  };
+
+  // Approve/reject individual cards
+  const toggleCardApproval = (topicId, subTopicId, cardIndex) => {
+    const newAdminCards = { ...adminCards };
+    const card = newAdminCards[topicId].subTopics[subTopicId].cards[cardIndex];
+    card.approved = !card.approved;
+    setAdminCards(newAdminCards);
+    
+    // Update localStorage
+    localStorage.setItem(`srs-cards-${subTopicId}`, JSON.stringify(newAdminCards[topicId].subTopics[subTopicId].cards));
+  };
+
+  // Approve all cards at once
+  const approveAllCards = () => {
+    if (window.confirm('Approve ALL cards? This will mark all generated cards as approved.')) {
+      const newAdminCards = { ...adminCards };
+      
+      Object.keys(newAdminCards).forEach(topicId => {
+        const topic = newAdminCards[topicId];
+        Object.keys(topic.subTopics).forEach(subTopicId => {
+          const subTopic = topic.subTopics[subTopicId];
+          subTopic.cards.forEach(card => {
+            card.approved = true;
+          });
+          
+          // Update localStorage
+          localStorage.setItem(`srs-cards-${subTopicId}`, JSON.stringify(subTopic.cards));
+        });
+      });
+      
+      setAdminCards(newAdminCards);
+      alert('All cards have been approved!');
+    }
+  };
+
+  // Lock approved cards only
+  const lockApprovedCards = () => {
+    if (window.confirm('Lock only approved cards? This will remove any unapproved cards permanently.')) {
+      Object.keys(adminCards).forEach(topicId => {
+        const topic = adminCards[topicId];
+        Object.keys(topic.subTopics).forEach(subTopicId => {
+          const subTopic = topic.subTopics[subTopicId];
+          const approvedCards = subTopic.cards.filter(card => card.approved);
+          
+          if (approvedCards.length > 0) {
+            const lockedCards = approvedCards.map(card => ({
+              ...card,
+              locked: true,
+              locked_date: new Date().toISOString(),
+              version: '1.0',
+              source: 'vault-generated'
+            }));
+            localStorage.setItem(`srs-cards-${subTopicId}`, JSON.stringify(lockedCards));
+          } else {
+            localStorage.removeItem(`srs-cards-${subTopicId}`);
+          }
+        });
+      });
+      
+      loadAdminCards();
+      loadAllTopicsData();
+      alert('Approved cards have been locked!');
+    }
+  };
+
+  // Navigation function to scroll to specific topic section
+  const scrollToTopic = (topicId) => {
+    const topicElement = document.getElementById(`topic-${topicId}`);
+    if (topicElement) {
+      topicElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  // Admin Area View
+  if (showAdminArea) {
+    const filteredCards = getFilteredAdminCards();
+    
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+        <div className="max-w-7xl mx-auto">
+          {/* Header */}
+          <div className="flex justify-between items-center mb-6">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-800">SRS Admin Area</h1>
+              <p className="text-gray-600">Review and approve all generated cards</p>
+            </div>
+            <div className="space-x-4">
+              <button
+                onClick={approveAllCards}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              >
+                ✅ Approve All Cards
+              </button>
+              <button
+                onClick={lockApprovedCards}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+              >
+                🔒 Lock Approved Cards
+              </button>
+              <button
+                onClick={() => {
+                  setShowAdminArea(false);
+                  loadAllTopicsData();
+                }}
+                className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700"
+              >
+                ← Back to Dashboard
+              </button>
+            </div>
+          </div>
+
+          {/* Filters */}
+          <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Topic</label>
+                <select
+                  value={adminFilters.topic}
+                  onChange={(e) => setAdminFilters({...adminFilters, topic: e.target.value})}
+                  className="w-full p-2 border border-gray-300 rounded-lg"
+                >
+                  <option value="all">All Topics</option>
+                  {Object.keys(adminCards).map(topicId => (
+                    <option key={topicId} value={topicId}>{adminCards[topicId].title}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Status</label>
+                <select
+                  value={adminFilters.status}
+                  onChange={(e) => setAdminFilters({...adminFilters, status: e.target.value})}
+                  className="w-full p-2 border border-gray-300 rounded-lg"
+                >
+                  <option value="all">All Status</option>
+                  <option value="locked">Locked</option>
+                  <option value="unlocked">Unlocked</option>
+                </select>
+              </div>
+              <div className="md:col-span-2">
+                <button
+                  onClick={() => {
+                    console.log('[Admin] Refresh button clicked');
+                    loadAdminCards();
+                  }}
+                  className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                >
+                  🔄 Refresh Data
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Debug Info */}
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
+            <h3 className="font-semibold text-yellow-800 mb-2">Debug Information</h3>
+            <p className="text-sm text-yellow-700">
+              Total topics: {Object.keys(filteredCards).length} | 
+              Total subtopics: {Object.keys(filteredCards).reduce((sum, topicId) => 
+                sum + Object.keys(filteredCards[topicId].subTopics).length, 0
+              )} | 
+              Total cards: {Object.keys(filteredCards).reduce((sum, topicId) => 
+                sum + Object.keys(filteredCards[topicId].subTopics).reduce((subSum, subTopicId) => 
+                  subSum + filteredCards[topicId].subTopics[subTopicId].count, 0
+                ), 0
+              )}
+            </p>
+          </div>
+
+          {/* Cards Review */}
+          <div className="space-y-6">
+            {Object.keys(filteredCards).map(topicId => {
+              const topic = filteredCards[topicId];
+              return (
+                <div key={topicId} className="bg-white rounded-lg shadow-sm p-6">
+                  <h2 className="text-2xl font-bold text-gray-800 mb-4">{topic.title}</h2>
+                  
+                  {Object.keys(topic.subTopics).map(subTopicId => {
+                    const subTopic = topic.subTopics[subTopicId];
+                    return (
+                      <div key={subTopicId} className="mb-8">
+                        <div className="flex justify-between items-center mb-4">
+                          <h3 className="text-xl font-semibold text-gray-700">{subTopic.title}</h3>
+                          <div className="flex items-center space-x-4">
+                            <span className="text-sm text-gray-500">
+                              {subTopic.count} cards • {subTopic.locked ? '🔒 Locked' : '🔓 Unlocked'}
+                            </span>
+                          </div>
+                        </div>
+                        
+                        {subTopic.cards.length === 0 ? (
+                          <p className="text-gray-500 italic">No cards generated yet</p>
+                        ) : (
+                          <div className="grid gap-4">
+                            {subTopic.cards.map((card, index) => (
+                              <div key={card.id} className={`border rounded-lg p-4 ${card.approved ? 'border-green-300 bg-green-50' : 'border-gray-300'}`}>
+                                <div className="flex justify-between items-start mb-3">
+                                  <div className="flex-1">
+                                    <div className="flex items-center space-x-2 mb-2">
+                                      <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">{card.ao || 'N/A'}</span>
+                                      <span className="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">{card.difficulty || 'N/A'}</span>
+                                      <span className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">{card.exam_frequency || 'N/A'}</span>
+                                    </div>
+                                    <h4 className="font-semibold text-gray-800 mb-2">Question:</h4>
+                                    <p className="text-gray-700 mb-3">{card.question}</p>
+                                    <h4 className="font-semibold text-gray-800 mb-2">Answer:</h4>
+                                    <p className="text-gray-700">{card.answer}</p>
+                                  </div>
+                                  <div className="ml-4">
+                                    <button
+                                      onClick={() => toggleCardApproval(topicId, subTopicId, index)}
+                                      className={`px-3 py-1 rounded text-sm font-medium ${
+                                        card.approved 
+                                          ? 'bg-green-600 text-white hover:bg-green-700' 
+                                          : 'bg-gray-300 text-gray-700 hover:bg-gray-400'
+                                      }`}
+                                    >
+                                      {card.approved ? '✓ Approved' : 'Approve'}
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (selectedTopic && srsCards.length > 0) {
+    const currentCard = srsCards[currentCardIndex];
+    
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+        <div className="max-w-4xl mx-auto">
+          {/* Header */}
+          <div className="flex justify-between items-center mb-6">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-800">
+                SRS Review: {selectedTopic.title}
+              </h1>
+              <p className="text-gray-600">
+                Card {currentCardIndex + 1} of {srsCards.length} • {currentCard.subTopicTitle}
+              </p>
+            </div>
+            <button
+              onClick={() => {
+                setSelectedTopic(null);
+                setSrsCards([]);
+                loadAllTopicsData();
+              }}
+              className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700"
+            >
+              ← Back to Dashboard
+            </button>
+          </div>
+
+          {/* Session Stats */}
+          <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
+            <div className="flex justify-around text-center">
+              <div>
+                <div className="text-2xl font-bold text-green-600">{sessionStats.perfect}</div>
+                <div className="text-sm text-gray-600">Perfect</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-yellow-600">{sessionStats.hard}</div>
+                <div className="text-sm text-gray-600">Hard</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-red-600">{sessionStats.again}</div>
+                <div className="text-sm text-gray-600">Again</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-blue-600">{sessionStats.total}</div>
+                <div className="text-sm text-gray-600">Total</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card */}
+          <div className="bg-white rounded-lg shadow-sm p-8 mb-6">
+            <div className="mb-6">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Question:</h2>
+              <p className="text-lg text-gray-700">{currentCard.question}</p>
+            </div>
+
+            {!showAnswer ? (
+              <div className="space-y-4">
+                <textarea
+                  value={userAnswer}
+                  onChange={(e) => setUserAnswer(e.target.value)}
+                  placeholder="Type your answer here..."
+                  className="w-full p-4 border border-gray-300 rounded-lg resize-none h-32"
+                />
+                <button
+                  onClick={() => setShowAnswer(true)}
+                  className="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                >
+                  Show Answer
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">Your Answer:</h3>
+                  <p className="text-gray-700 bg-gray-50 p-3 rounded">{userAnswer || 'No answer provided'}</p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">Correct Answer:</h3>
+                  <p className="text-gray-700 bg-green-50 p-3 rounded">{currentCard.answer}</p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">How well did you know this?</h3>
+                  <div className="grid grid-cols-3 gap-4">
+                    <button
+                      onClick={() => handleAssessment(1)}
+                      className="py-3 px-4 bg-red-500 text-white rounded-lg hover:bg-red-600"
+                    >
+                      Again (1)
+                    </button>
+                    <button
+                      onClick={() => handleAssessment(3)}
+                      className="py-3 px-4 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
+                    >
+                      Hard (3)
+                    </button>
+                    <button
+                      onClick={() => handleAssessment(5)}
+                      className="py-3 px-4 bg-green-500 text-white rounded-lg hover:bg-green-600"
+                    >
+                      Perfect (5)
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Session Summary */}
+          {showSummary && (
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">Session Complete!</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-green-600">{sessionStats.perfect}</div>
+                  <div className="text-sm text-gray-600">Perfect</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-yellow-600">{sessionStats.hard}</div>
+                  <div className="text-sm text-gray-600">Hard</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-red-600">{sessionStats.again}</div>
+                  <div className="text-sm text-gray-600">Again</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-600">{sessionStats.total}</div>
+                  <div className="text-sm text-gray-600">Total</div>
+                </div>
+              </div>
+              <div className="mt-6 text-center">
+                <button
+                  onClick={() => {
+                    setSelectedTopic(null);
+                    setSrsCards([]);
+                    loadAllTopicsData();
+                  }}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                >
+                  Back to Dashboard
+                </button>
+              </div>
+            </div>
+                  )}
+
+        {/* Lock Cards Modal */}
+        {showLockModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">🔒 Permanently Lock SRS Cards</h3>
+              
+              {(() => {
+                const { lockedCount, totalCount } = checkIfCardsAreLocked();
+                return (
+                  <div className="space-y-4">
+                    <div className="p-3 bg-yellow-50 rounded-lg">
+                      <p className="text-sm text-yellow-800 mb-2">
+                        <strong>⚠️ WARNING:</strong> This action is PERMANENT and cannot be undone.
+                      </p>
+                      <p className="text-sm text-yellow-800">
+                        Once locked, cards cannot be regenerated or modified. Only SRS progress (intervals, repetitions) will continue to update.
+                      </p>
+                    </div>
+                    
+                    <div className="p-3 bg-blue-50 rounded-lg">
+                      <p className="text-sm text-blue-800">
+                        <strong>Current Status:</strong> {lockedCount} of {totalCount} cards are locked
+                      </p>
+                      {totalCount === 0 && (
+                        <p className="text-sm text-red-600 mt-2">
+                          No cards found. Generate cards first before locking.
+                        </p>
+                      )}
+                    </div>
+                    
+                    <div className="flex justify-end gap-3">
+                      <button
+                        onClick={() => setShowLockModal(false)}
+                        className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        onClick={lockAllCards}
+                        disabled={totalCount === 0}
+                        className={`px-4 py-2 rounded ${
+                          totalCount === 0 
+                            ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                            : 'bg-purple-600 text-white hover:bg-purple-700'
+                        }`}
+                      >
+                        🔒 Lock All Cards Permanently
+                      </button>
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="flex justify-between items-center mb-8">
+          <div>
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Spaced Repetition Dashboard
+            </h1>
+            <p className="text-gray-600 mt-2">
+              Review your flashcards systematically across all topics
+            </p>
+          </div>
+          <div className="space-x-4">
+            <button
+              onClick={() => setShowAdminArea(true)}
+              className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+            >
+              🔧 Admin Area
+            </button>
+            {onBack && (
+              <button
+                onClick={onBack}
+                className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+              >
+                ← Back to Study Methods
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Navigation Dropdowns */}
+        <div className="bg-white border rounded-lg shadow-sm p-4 mb-6">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold text-gray-800">Quick Navigation</h3>
+            <span className="text-sm text-gray-500">Jump to specific topics</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Topic</label>
+              <select
+                value={navigationFilters.topic}
+                onChange={(e) => {
+                  const topicId = e.target.value;
+                  setNavigationFilters({ topic: topicId, subtopic: 'all' });
+                }}
+                className="w-full p-2 border border-gray-300 rounded-lg"
+              >
+                <option value="all">All Topics</option>
+                {Object.keys(allTopicsData).map(topicId => (
+                  <option key={topicId} value={topicId}>{allTopicsData[topicId].title}</option>
+                ))}
+              </select>
+            </div>
+            <div className="flex items-end">
+              <button
+                onClick={() => {
+                  if (navigationFilters.topic !== 'all') {
+                    scrollToTopic(navigationFilters.topic);
+                  }
+                }}
+                disabled={navigationFilters.topic === 'all'}
+                className={`w-full px-4 py-2 rounded-lg font-medium ${
+                  navigationFilters.topic === 'all'
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                }`}
+              >
+                📍 Go to Topic
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Overall Stats */}
+        <div className="bg-white border rounded-lg shadow-sm p-6 mb-8">
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+              <TrendingUp className="w-6 h-6 text-blue-600" />
+              Overall SRS Progress
+            </h2>
+            <div className="flex gap-2">
+              <button
+                onClick={() => setShowAddCardsModal(true)}
+                className="px-3 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700"
+              >
+                Generate Cards
+              </button>
+              <button
+                onClick={() => setShowLockModal(true)}
+                className="px-3 py-1 bg-purple-600 text-white rounded text-sm hover:bg-purple-700"
+              >
+                Lock All Cards
+              </button>
+              <button
+                onClick={resetAllSrsCards}
+                className="px-3 py-1 bg-red-600 text-white rounded text-sm hover:bg-red-700"
+              >
+                Reset All Cards
+              </button>
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="text-4xl font-bold text-blue-600">
+                {overallStats.totalCards}
+              </div>
+              <div className="text-sm text-gray-600">Total Cards</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="text-4xl font-bold text-green-600">
+                {overallStats.matureCards}
+              </div>
+              <div className="text-sm text-gray-600">Mature Cards</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="text-4xl font-bold text-orange-600">
+                {overallStats.dueCards}
+              </div>
+              <div className="text-sm text-gray-600">Due Today</div>
+            </div>
+            
+            <div className="text-center">
+              <div className={`text-4xl font-bold ${getProgressColor(overallStats.overallProgress)}`}>
+                {overallStats.overallProgress}%
+              </div>
+              <div className="text-sm text-gray-600">Overall Progress</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Topics Grid */}
+        <div className="space-y-4">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Topics</h2>
+            {Object.entries(allTopicsData).map(([topicId, topic]) => (
+              <div 
+                key={topicId}
+                id={`topic-${topicId}`}
+                className="bg-white border rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow"
+              >
+                <div className="flex justify-between items-start mb-3">
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800">{topic.title}</h3>
+                    <p className="text-sm text-gray-600">{topic.component}</p>
+                  </div>
+                  {getDueStatusIcon(topic.dueCards.length)}
+                </div>
+                
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center text-sm">
+                    <span className="text-gray-600">Cards:</span>
+                    <span className="font-semibold">{topic.progress.total}</span>
+                  </div>
+                  <div className="flex justify-between items-center text-sm">
+                    <span className="text-gray-600">Due:</span>
+                    <span className={`font-semibold ${topic.dueCards.length > 0 ? 'text-orange-600' : 'text-green-600'}`}>
+                      {topic.dueCards.length}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center text-sm">
+                    <span className="text-gray-600">Last Review:</span>
+                    <span className="text-gray-500">
+                      {srsManager.formatTimeSince(topic.lastReview)}
+                    </span>
+                  </div>
+                </div>
+                
+                {topic.hasCards ? (
+                  <div className="mt-3 space-y-2">
+                    {psychologyTopics[topicId].subTopics.map(subTopic => {
+                      const subTopicCards = srsManager.getSubTopicCards(subTopic.id);
+                      const subTopicDue = srsManager.getSubTopicDueCards(subTopic.id);
+                      const subTopicProgress = subTopicCards.length > 0 
+                        ? Math.round((subTopicCards.filter(card => card.repetitions >= 3).length / subTopicCards.length) * 100)
+                        : 0;
+                      
+                      return (
+                        <div key={subTopic.id} className="border rounded-lg p-2 bg-gray-50">
+                          <div className="flex justify-between items-center mb-1">
+                            <h4 className="font-medium text-gray-800 text-sm">{subTopic.title}</h4>
+                            <span className="text-xs text-gray-500">{subTopicCards.length} cards</span>
+                          </div>
+                          <div className="flex justify-between items-center mb-2">
+                            <span className="text-xs text-gray-600">Due: {subTopicDue.length}</span>
+                            <span className="text-xs text-gray-600">{subTopicProgress}%</span>
+                          </div>
+                          <div className="flex gap-1">
+                            <button
+                              onClick={() => startSubTopicSession(topicId, subTopic.id)}
+                              disabled={subTopicDue.length === 0}
+                              className={`flex-1 py-1 px-2 rounded text-xs font-medium transition-colors ${
+                                subTopicDue.length > 0
+                                  ? 'bg-blue-500 text-white hover:bg-blue-600'
+                                  : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                              }`}
+                            >
+                              {subTopicDue.length > 0 ? (
+                                <>
+                                  <Play className="w-3 h-3 inline mr-1" />
+                                  Review {subTopicDue.length}
+                                </>
+                              ) : (
+                                'No Cards Due'
+                              )}
+                            </button>
+                            {subTopicCards.length === 0 && (
+                              <button
+                                onClick={() => addSampleCardsToTopic(topicId)}
+                                disabled={isGeneratingCards}
+                                className="py-1 px-2 rounded text-xs font-medium bg-green-500 text-white hover:bg-green-600 disabled:bg-gray-300"
+                                title="Generate cards for this topic"
+                              >
+                                Generate
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div className="mt-3">
+                    <button
+                      onClick={() => addSampleCardsToTopic(topicId)}
+                      disabled={isGeneratingCards}
+                      className="w-full py-2 px-4 rounded-lg font-medium bg-green-600 text-white hover:bg-green-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
+                    >
+                      {isGeneratingCards ? 'Generating...' : 'Generate Cards for This Topic'}
+                    </button>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Add Cards Modal */}
+        {showAddCardsModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+              {isGeneratingCards && (
+                <div className="mb-4 p-3 bg-blue-50 rounded-lg">
+                  <div className="text-sm font-semibold text-blue-800 mb-2">
+                    {generationProgress.message}
+                  </div>
+                  <div className="w-full bg-blue-200 rounded-full h-2">
+                    <div 
+                      className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                      style={{ width: `${(generationProgress.current / generationProgress.total) * 100}%` }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-blue-600 mt-1">
+                    {generationProgress.current} of {generationProgress.total} sub-topics
+                  </div>
+                </div>
+              )}
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Generate Real SRS Cards</h3>
+              <p className="text-gray-600 mb-4">
+                Generate real flashcards from your vault content for systematic spaced repetition:
+              </p>
+              <button
+                onClick={addSampleCardsToAllTopics}
+                disabled={isGeneratingCards}
+                className={`w-full p-3 rounded mb-3 ${
+                  isGeneratingCards 
+                    ? 'bg-gray-400 cursor-not-allowed' 
+                    : 'bg-blue-600 hover:bg-blue-700'
+                } text-white`}
+              >
+                {isGeneratingCards ? 'Generating & Quality Testing Cards...' : 'Generate Quality-Tested Cards for ALL Topics'}
+              </button>
+              <div className="space-y-2 max-h-60 overflow-y-auto">
+                {Object.entries(allTopicsData).map(([topicId, topic]) => (
+                  <button
+                    key={topicId}
+                    onClick={() => {
+                      console.log('[SRS] Individual topic button clicked:', topicId);
+                      setShowAddCardsModal(false); // Close modal first
+                      addSampleCardsToTopic(topicId);
+                    }}
+                    disabled={isGeneratingCards}
+                    className={`w-full text-left p-3 border rounded transition-colors ${
+                      isGeneratingCards 
+                        ? 'opacity-50 cursor-not-allowed bg-gray-100' 
+                        : 'hover:bg-blue-50 border-blue-200'
+                    }`}
+                  >
+                    <div className="font-semibold text-gray-800">{topic.title}</div>
+                    <div className="text-sm text-gray-600">{topic.component}</div>
+                    <div className="text-xs text-gray-500 mt-1">
+                      {isGeneratingCards ? 'Generating...' : 'Click to generate cards for this topic'}
+                    </div>
+                  </button>
+                ))}
+              </div>
+              <div className="mt-4 flex justify-end">
+                <button
+                  onClick={() => setShowAddCardsModal(false)}
+                  className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default SRSDashboard; 

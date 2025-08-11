@@ -248,6 +248,48 @@ Please provide a comprehensive answer using standard OCR H573 Religious Studies 
     }
   };
 
+  // Add a function to generate the AQA Psychology concept map prompt
+  const getAqaConceptMapPrompt = (topic, subTopic) => `You are an expert AQA Psychology teacher. Create a concept map for the topic "${topic}"${subTopic ? `, sub-topic "${subTopic}"` : ''}.
+
+Show links between:
+- Theories and supporting studies
+- Competing/alternative explanations
+- Methodological and ethical considerations
+- Different approaches (e.g., Behaviourist, Cognitive, Biological)
+
+For each node, include:
+- Name (theory, study, approach, or key concept)
+- Type (theory, study, approach, ethical issue, etc)
+
+For each edge, include:
+- Source and target
+- Relationship type ("supports", "criticizes", "alternative", "ethical issue", etc)
+
+If relevant, also provide a comparative table of approaches (rows: approaches, columns: key features, strengths, limitations).
+
+Return in this JSON format:
+{
+  "nodes": [
+    { "id": "milgram", "label": "Milgram (1963)", "type": "study" },
+    { "id": "agency-theory", "label": "Agency Theory", "type": "theory" },
+    ...
+  ],
+  "edges": [
+    { "source": "milgram", "target": "agency-theory", "type": "supports" },
+    { "source": "zimbardo", "target": "milgram", "type": "alternative" },
+    { "source": "milgram", "target": "ethics", "type": "ethical issue" },
+    ...
+  ],
+  "comparativeTable": {
+    "headers": ["Approach", "Key Features", "Strengths", "Limitations"],
+    "rows": [
+      ["Behaviourist", "Learning via conditioning", "Scientific, objective", "Ignores cognition"],
+      ["Cognitive", "Information processing", "Explains memory", "Reductionist"],
+      ...
+    ]
+  }
+}`;
+
   React.useEffect(() => {
     if (!selected) return;
     const onKeyDown = (e) => {

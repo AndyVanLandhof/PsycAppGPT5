@@ -1,5 +1,5 @@
 import React from 'react';
-import { topicData } from '../topicData';
+import psychologyTopics from '../psychologyTopics';
 
 const ocrSpec = [
   {
@@ -201,7 +201,7 @@ const ocrSpec = [
 const getAppTopicsByComponent = (component) => {
   // Custom mapping for Philosophy to align Problem of Evil and Miracles
   if (component === 'Philosophy') {
-    const appTopics = Object.values(topicData)
+    const appTopics = Object.values(psychologyTopics)
       .filter(t => t.component === component);
     // Custom order for Philosophy topics to match OCR spec
     const customOrder = [
@@ -224,7 +224,7 @@ const getAppTopicsByComponent = (component) => {
     });
   }
   // Default for other components
-  return Object.values(topicData)
+  return Object.values(psychologyTopics)
     .filter(t => t.component === component)
     .map(t => ({
       title: t.title,

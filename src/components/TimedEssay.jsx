@@ -29,23 +29,33 @@ function TimedEssay({ topic, onComplete, onBack }) {
 
   const generateQuestion = async () => {
     try {
-      const prompt = `Generate an authentic OCR H573 A-Level Religious Studies exam question for the topic "${topic.title}" in the ${topic.component} component.
+      const prompt = `Generate an authentic AQA Psychology 7182 A-Level exam question for the topic "${topic.title}" in the ${topic.component} component.
 
 Requirements:
-- Follow OCR H573 past paper format exactly
-- Include proper mark allocation (40 marks for full essay questions)
-- Provide assessment objectives breakdown (AO1: Knowledge & Understanding, AO2: Analysis & Evaluation)
-- Include authentic guidance phrases used in OCR papers
-- Question should test both knowledge and critical analysis
-- Time limit should be 45-50 minutes (standard for 40-mark questions)
+- Use AQA Psychology 7182 past paper format
+- Mark allocation: 16 marks (short, highly structured essay)
+- Use command words such as: "Outline and evaluate...", "Discuss...", "Assess..."
+- Question should require both AO1 (describe theory/study) and AO3 (evaluate, critique, compare)
+- Provide a brief guidance section for students
+- Time limit: 16 minutes
 
 Format your response as JSON:
 {
-  "question": "The actual exam question text",
-  "marks": 40,
-  "timeLimit": 45,
-  "guidance": ["Guidance point 1", "Guidance point 2"],
-  "assessmentObjectives": ["AO1 expectations", "AO2 expectations"]
+  "question": "The actual exam question text (e.g., 'Outline and evaluate the Multi-Store Model of Memory.')",
+  "marks": 16,
+  "timeLimit": 16,
+  "guidance": [
+    "Introduction: Define key terms and outline the theory",
+    "AO1: Describe the theory or study in detail",
+    "AO3: Strengths, limitations, comparisons, methodological critique",
+    "Conclusion: Balanced judgment or brief summary",
+    "Each paragraph = 1 AO1 + 1 AO3 (aim for 3-4 paragraphs)"
+  ],
+  "assessmentObjectives": [
+    "AO1: Accurate description of theory/study, use of key terms",
+    "AO3: Critical evaluation, strengths, limitations, comparisons, methodological critique"
+  ],
+  "commandWords": ["Outline and evaluate", "Discuss", "Assess"]
 }`;
 
       const response = await callAI(prompt, 'You are an OCR A-Level Religious Studies examiner creating authentic past paper questions.');
@@ -279,7 +289,7 @@ Provide detailed feedback in JSON format:
                   
                   <div className="space-y-2">
                     <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                      OCR H573 Timed Essay
+                      Psychology Timed Essay
                     </h1>
                     <p className="text-xl text-gray-600">
                       {topic.component}: {topic.title}
