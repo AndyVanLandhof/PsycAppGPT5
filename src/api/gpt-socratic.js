@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   const { topic, chatHistory } = await req.json();
-  const apiKey = process.env.OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY';
+  const apiKey = (typeof process !== 'undefined' && process.env && process.env.OPENAI_API_KEY) || (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_OPENAI_API_KEY) || '';
   const prompt = `You are a Psychology teacher. The topic is: ${topic}.
 The conversation so far is: ${chatHistory.map(m => `${m.role}: ${m.content}`).join('\n')}
 Ask the student one question at a time about this topic. Focus on weaknesses, ethical issues, or comparisons to test their AO3 (evaluation) understanding. Do not provide direct answers; always respond with a probing question or a follow-up that challenges their thinking. Conclude the session when the student demonstrates clear, critical understanding.`;

@@ -1,9 +1,10 @@
 import json
 import openai
 from pathlib import Path
+import os
 
-# 🔑 Replace this with your actual OpenAI API key
-openai.api_key = "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"
+# Load from environment to avoid committing secrets
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 
 def load_chunks(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:

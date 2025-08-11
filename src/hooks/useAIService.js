@@ -1,8 +1,18 @@
 import { useVaultService } from './useVaultService';
 
 export function useAIService() {
-  const OPENAI_API_KEY = "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";         // 🔁 Replace with your OpenAI key
-  const ANTHROPIC_API_KEY = "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";  // 🔁 Replace with your Claude key
+  // Load API keys from localStorage or environment; never hardcode secrets in the repo
+  const OPENAI_API_KEY =
+    (typeof window !== 'undefined' && localStorage.getItem('openai-key')) ||
+    (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_OPENAI_API_KEY) ||
+    (typeof process !== 'undefined' && process.env && process.env.OPENAI_API_KEY) ||
+    '';
+
+  const ANTHROPIC_API_KEY =
+    (typeof window !== 'undefined' && localStorage.getItem('anthropic-key')) ||
+    (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_ANTHROPIC_API_KEY) ||
+    (typeof process !== 'undefined' && process.env && process.env.ANTHROPIC_API_KEY) ||
+    '';
 
   const { createVaultPrompt, getExamContext, getRevisionContext } = useVaultService();
 
