@@ -15,6 +15,9 @@ export function useElevenLabsTTS() {
   const blockedAudioBlobRef = useRef(null);
   const [audioReady, setAudioReady] = useState(false);
   const preparedAudioBlobsRef = useRef([]);
+  const preparedParaEndsRef = useRef([]); // parallel to blobs: true if end of paragraph
+  const cancelPlaybackRef = useRef(false);
+  const isPlayingRef = useRef(false);
   const [audioLoading, setAudioLoading] = useState(false);
   const [audioError, setAudioError] = useState(false);
 
@@ -31,28 +34,39 @@ export function useElevenLabsTTS() {
       .substring(0, MAX_CHUNK_LENGTH);
   }
 
-  // Smarter chunking: split by sentence, force split if needed
+  // Paragraph-first chunking: split by paragraph, then sentences to satisfy maxLen
   function chunkText(text, maxLen = CHUNK_SIZE) {
-    const sentences = text.match(/[^.!?\n]+[.!?\n]+|[^.!?\n]+$/g) || [text];
-    const chunks = [];
-    let current = "";
-    for (const sentence of sentences) {
-      if ((current + sentence).length > maxLen && current.length > 0) {
-        chunks.push(current.trim());
-        current = sentence;
-      } else if (sentence.length > maxLen) {
-        // Force split long sentence
-        for (let i = 0; i < sentence.length; i += maxLen) {
-          chunks.push(sentence.substring(i, i + maxLen));
+    const paragraphs = text.split(/\n\s*\n+/); // blank-line separated
+    const outChunks = [];
+    const outParaEnds = [];
+    for (const para of paragraphs) {
+      const trimmed = para.trim();
+      if (!trimmed) continue;
+      const sentences = trimmed.match(/[^.!?\n]+[.!?\n]+|[^.!?\n]+$/g) || [trimmed];
+      let current = "";
+      const thisParaChunks = [];
+      for (const sentence of sentences) {
+        if ((current + sentence).length > maxLen && current.length > 0) {
+          thisParaChunks.push(current.trim());
+          current = sentence;
+        } else if (sentence.length > maxLen) {
+          // Force split very long sentence
+          for (let i = 0; i < sentence.length; i += maxLen) {
+            thisParaChunks.push(sentence.substring(i, i + maxLen));
+          }
+          current = "";
+        } else {
+          current += sentence;
         }
-        current = "";
-      } else {
-        current += sentence;
+      }
+      if (current.trim().length > 0) thisParaChunks.push(current.trim());
+      for (let i = 0; i < thisParaChunks.length; i++) {
+        outChunks.push(thisParaChunks[i]);
+        outParaEnds.push(i === thisParaChunks.length - 1); // only last chunk of paragraph marks para end
       }
     }
-    if (current.trim().length > 0) chunks.push(current.trim());
-    console.log(`[TTS] Chunked text into ${chunks.length} chunk(s):`, chunks);
-    return chunks;
+    console.log(`[TTS] Chunked paragraphs into ${outChunks.length} chunk(s)`);
+    return { chunks: outChunks, paraEnds: outParaEnds };
   }
 
   // Retry logic with exponential backoff and timeout
@@ -186,7 +200,7 @@ export function useElevenLabsTTS() {
     }
 
     // Chunked TTS logic
-    const chunks = text.length > CHUNK_SIZE ? chunkText(text, CHUNK_SIZE) : [text];
+    const { chunks, paraEnds } = text.length > CHUNK_SIZE ? chunkText(text, CHUNK_SIZE) : { chunks: [text], paraEnds: [true] };
     setTtsState("playing");
     try {
       const audioBlobs = [];
@@ -198,6 +212,7 @@ export function useElevenLabsTTS() {
         audioBlobs.push(audioBlob);
       }
       preparedAudioBlobsRef.current = audioBlobs;
+      preparedParaEndsRef.current = paraEnds;
       setAudioReady(true);
       setAudioLoading(false);
     } catch (err) {
@@ -209,8 +224,11 @@ export function useElevenLabsTTS() {
 
   // Play prepared audio sequence (user gesture)
   const playPreparedAudio = useCallback(async () => {
+    if (isPlayingRef.current) return; // prevent re-entrant plays
     if (!audioReady || preparedAudioBlobsRef.current.length === 0) return;
     setTtsState("playing");
+    isPlayingRef.current = true;
+    cancelPlaybackRef.current = false;
     for (let i = 0; i < preparedAudioBlobsRef.current.length; i++) {
       const audioUrl = URL.createObjectURL(preparedAudioBlobsRef.current[i]);
       const audio = new Audio(audioUrl);
@@ -218,6 +236,7 @@ export function useElevenLabsTTS() {
       try {
         await new Promise((resolve, reject) => {
           audio.onended = resolve;
+          audio.onpause = resolve;
           audio.onerror = reject;
           audio.play();
         });
@@ -226,10 +245,19 @@ export function useElevenLabsTTS() {
         break;
       }
       URL.revokeObjectURL(audioUrl);
+      // Pause only at paragraph boundaries (1s)
+      if (preparedParaEndsRef.current[i]) {
+        await new Promise(res => setTimeout(res, 1000));
+      }
+      if (cancelPlaybackRef.current) {
+        break;
+      }
     }
     setTtsState("idle");
+    isPlayingRef.current = false;
     setAudioReady(false);
     preparedAudioBlobsRef.current = [];
+    preparedParaEndsRef.current = [];
   }, [audioReady]);
 
   const pause = () => {
@@ -247,12 +275,17 @@ export function useElevenLabsTTS() {
   };
 
   const stop = () => {
+    cancelPlaybackRef.current = true;
     if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-      setTtsState("idle");
+      try {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      } catch (_) {}
       audioRef.current = null;
     }
+    setTtsState("idle");
+    isPlayingRef.current = false;
+    setAudioReady(false);
   };
 
   return {

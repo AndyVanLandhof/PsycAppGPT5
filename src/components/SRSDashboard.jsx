@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import psychologyTopics from '../psychologyTopics';
+import { useAIService } from '../hooks/useAIService';
 
 function isCardDue(card) {
   if (!card || !card.nextReview) return true;
@@ -32,6 +33,15 @@ function formatSince(date) {
   return `${Math.floor(days / 30)} months ago`;
 }
 
+function getNextDueDate(cards) {
+  const future = cards
+    .map(c => c.nextReview ? new Date(c.nextReview) : null)
+    .filter(d => d && d.getTime() > Date.now())
+    .map(d => d.getTime());
+  if (future.length === 0) return null;
+  return new Date(Math.min(...future));
+}
+
 function summarizeTopic(topicId) {
   const topic = psychologyTopics[topicId];
   let total = 0;
@@ -47,11 +57,13 @@ function summarizeTopic(topicId) {
 function sm2Next(card, quality) {
   let repetitions = card.repetitions || 0;
   let easeFactor = card.easeFactor || 2.5;
-  let interval = card.interval || 0;
+  let interval = card.interval || 0; // days
+  let minutesOffset = 0; // for same-day lapses
 
   if (quality >= 3) {
     repetitions = repetitions + 1;
-    if (repetitions === 1) interval = 1;
+    // Slightly longer first step than classic SM-2 (2 days instead of 1)
+    if (repetitions === 1) interval = 2;
     else if (repetitions === 2) interval = 6;
     else interval = Math.round(interval * easeFactor);
     easeFactor = Math.max(
@@ -59,19 +71,28 @@ function sm2Next(card, quality) {
       easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
     );
   } else {
+    // Lapses: bring back same day to reinforce
     repetitions = 0;
-    interval = 1;
+    interval = 1; // keep canonical day interval for records
     easeFactor = Math.max(1.3, easeFactor - 0.2);
+    minutesOffset = quality === 1 ? 10 : 60; // 10 min for 1, 60 min for 2
   }
 
-  const nextReview = new Date();
-  nextReview.setDate(nextReview.getDate() + interval);
+  let nextReview;
+  if (minutesOffset > 0) {
+    nextReview = new Date(Date.now() + minutesOffset * 60000);
+  } else {
+    nextReview = new Date();
+    nextReview.setDate(nextReview.getDate() + interval);
+  }
   return { repetitions, easeFactor, interval, nextReview: nextReview.toISOString() };
 }
 
 export default function SRSDashboard({ onBack }) {
   const [navigationFilters, setNavigationFilters] = useState({ topic: 'all' });
   const [session, setSession] = useState(null); // { topicId, subTopic, cards, index, showAnswer, stats }
+  const [deepDive, setDeepDive] = useState({ open: false, loading: false, content: '' });
+  const { callAIWithVault } = useAIService();
 
   const allTopicsData = useMemo(() => {
     const out = {};
@@ -104,7 +125,23 @@ export default function SRSDashboard({ onBack }) {
       index: 0,
       showAnswer: false,
       userAnswer: '',
-      stats: { perfect: 0, hard: 0, again: 0, total: 0 }
+      stats: { perfect: 0, hard: 0, again: 0, total: 0 },
+      mode: 'review'
+    });
+  };
+
+  const startPracticeSession = (topicId, subTopic) => {
+    const cards = getSubTopicCards(subTopic.id);
+    if (cards.length === 0) return;
+    setSession({
+      topicId,
+      subTopic,
+      cards,
+      index: 0,
+      showAnswer: false,
+      userAnswer: '',
+      stats: { perfect: 0, hard: 0, again: 0, total: 0 },
+      mode: 'practice'
     });
   };
 
@@ -114,18 +151,30 @@ export default function SRSDashboard({ onBack }) {
     let history = [...(current.reviewHistory || []), { date: new Date().toISOString(), quality }];
     if (history.length > 50) history = history.slice(-50);
 
-    const updated = {
-      ...current,
-      ...sm2Next(current, quality),
-      lastReviewed: new Date().toISOString(),
-      reviewHistory: history
-    };
-
-    // Persist to localStorage
+    let updated;
     const lsCards = getSubTopicCards(session.subTopic.id);
     const idx = lsCards.findIndex(c => c.id === current.id);
-    if (idx !== -1) lsCards[idx] = { ...lsCards[idx], ...updated };
-    localStorage.setItem(`srs-cards-${session.subTopic.id}`, JSON.stringify(lsCards));
+
+    if (session.mode === 'practice') {
+      // Practice-only: record history but DO NOT change SRS scheduling fields
+      updated = { ...current, reviewHistory: history };
+      if (idx !== -1) lsCards[idx] = { ...lsCards[idx], reviewHistory: history };
+      localStorage.setItem(`srs-cards-${session.subTopic.id}`, JSON.stringify(lsCards));
+    } else {
+      // Review mode: normal SM-2 scheduling
+      updated = {
+        ...current,
+        ...sm2Next(current, quality),
+        lastReviewed: new Date().toISOString(),
+        reviewHistory: history
+      };
+      if (idx !== -1) lsCards[idx] = { ...lsCards[idx], ...updated };
+      localStorage.setItem(`srs-cards-${session.subTopic.id}`, JSON.stringify(lsCards));
+    }
+
+    // Update in-session copy so History panel reflects latest attempt
+    const newCards = [...session.cards];
+    newCards[session.index] = updated;
 
     const isLast = session.index === session.cards.length - 1;
     const bucket = quality >= 4 ? 'perfect' : quality === 3 ? 'hard' : 'again';
@@ -139,7 +188,7 @@ export default function SRSDashboard({ onBack }) {
       setSession(null);
       return;
     }
-    setSession(s => ({ ...s, index: s.index + 1, showAnswer: false, userAnswer: '', stats: nextStats }));
+    setSession(s => ({ ...s, cards: newCards, index: s.index + 1, showAnswer: false, userAnswer: '', stats: nextStats }));
   };
 
   if (session) {
@@ -180,6 +229,34 @@ export default function SRSDashboard({ onBack }) {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Correct Answer:</h3>
                   <p className="text-gray-700 bg-green-50 p-3 rounded">{card.answer}</p>
+                  <div className="mt-3">
+                    <button
+                      onClick={async () => {
+                        setDeepDive({ open: true, loading: true, content: '' });
+                        const prompt = `Provide a concise 6–8 line deep-dive explanation for: "${card.question}"\nFocus: AQA A-Level Psychology (${session.subTopic.title}).\nInclude: key concept, brief elaboration, 1 study or example, and a practical takeaway.`;
+                        const text = await callAIWithVault(prompt, psychologyTopics[session.topicId].title, session.subTopic.title, { includeAdditional: false });
+                        setDeepDive({ open: true, loading: false, content: String(text || '').trim() });
+                      }}
+                      className="px-3 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 text-sm"
+                    >
+                      Deep Dive
+                    </button>
+                    {deepDive.open && (
+                      <div className="mt-3 border border-purple-200 bg-purple-50 rounded p-3">
+                        <div className="flex justify-between items-center mb-2">
+                          <h4 className="text-sm font-semibold text-purple-800">Deep Dive</h4>
+                          <button onClick={() => setDeepDive({ open: false, loading: false, content: '' })} className="text-xs text-purple-700 underline">Close</button>
+                        </div>
+                        {deepDive.loading ? (
+                          <div className="text-sm text-gray-600">Generating...</div>
+                        ) : (
+                          <div className="whitespace-pre-wrap text-gray-800 text-sm leading-6 max-h-64 overflow-y-auto">
+                            {deepDive.content}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
                 <div>
                   <div className="flex items-center justify-between mb-2">
@@ -204,30 +281,43 @@ export default function SRSDashboard({ onBack }) {
                   </div>
                   <div className="mt-3">
                     <button
-                      onClick={() => setSession(s => ({ ...s, showHistory: !s?.showHistory }))}
-                      className="text-xs text-blue-700 underline"
+                      onClick={() => setSession(s => ({ ...s, showHistoryModal: true }))}
+                      className="text-base font-semibold text-blue-700 underline"
                     >
-                      {session?.showHistory ? 'Hide History' : 'History'}
+                      History
                     </button>
-                    {session?.showHistory && Array.isArray(card.reviewHistory) && card.reviewHistory.length > 0 && (
-                      <div className="mt-2 border rounded bg-gray-50 p-2">
-                        <div className="text-xs text-gray-700 mb-1 font-semibold">Last attempts</div>
-                        <ul className="text-xs text-gray-700 space-y-1">
-                          {card.reviewHistory.slice(-5).reverse().map((r, i) => (
-                            <li key={i} className="flex justify-between">
-                              <span>{new Date(r.date).toLocaleDateString()}</span>
-                              <span>Score: {r.quality}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
                   </div>
                 </div>
               </div>
             )}
           </div>
         </div>
+        {/* History Modal */}
+        {session.showHistoryModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-xl font-bold text-gray-800">Attempt History</h3>
+                <button onClick={() => setSession(s => ({ ...s, showHistoryModal: false }))} className="text-gray-500 hover:text-gray-700">✕</button>
+              </div>
+              {Array.isArray(card.reviewHistory) && card.reviewHistory.length > 0 ? (
+                <div className="space-y-2 max-h-64 overflow-y-auto">
+                  {card.reviewHistory.slice().reverse().map((r, i) => (
+                    <div key={i} className="flex justify-between items-center p-2 border rounded">
+                      <span className="text-sm text-gray-700">{new Date(r.date).toLocaleString()}</span>
+                      <span className="text-sm font-semibold text-blue-700">Score: {r.quality}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-sm text-gray-600">No attempts recorded yet for this card.</div>
+              )}
+              <div className="mt-4 text-right">
+                <button onClick={() => setSession(s => ({ ...s, showHistoryModal: false }))} className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700">Close</button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
@@ -296,6 +386,7 @@ export default function SRSDashboard({ onBack }) {
                   const cards = getSubTopicCards(st.id);
                   const due = cards.filter(isCardDue);
                   const last = formatSince(getLastReviewDate(cards));
+                  const nextDueAt = getNextDueDate(cards);
                   return (
                     <div key={st.id} className="border rounded-lg p-2 bg-gray-50">
                       <div className="flex justify-between items-center mb-1">
@@ -306,6 +397,12 @@ export default function SRSDashboard({ onBack }) {
                         <span>Due: {due.length}</span>
                         <span>Last Review: {last}</span>
                       </div>
+                      {cards.length > 0 && (
+                        <div className="flex justify-between items-center mb-2 text-xs text-gray-600">
+                          <span>Next Due: {nextDueAt ? new Date(nextDueAt).toLocaleString() : (due.length > 0 ? 'Now' : 'Not scheduled')}</span>
+                          <span></span>
+                        </div>
+                      )}
                       <div className="flex gap-1">
                         <button
                           onClick={() => startSubTopicSession(tid, st)}
@@ -313,6 +410,14 @@ export default function SRSDashboard({ onBack }) {
                           className={`flex-1 py-1 px-2 rounded text-xs font-medium ${due.length > 0 ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
                         >
                           {due.length > 0 ? `Review ${due.length}` : 'No Cards Due'}
+                        </button>
+                        <button
+                          onClick={() => startPracticeSession(tid, st)}
+                          disabled={cards.length === 0}
+                          className={`py-1 px-2 rounded text-xs font-medium ${cards.length > 0 ? 'bg-white text-blue-700 border border-blue-300 hover:bg-blue-50' : 'bg-gray-200 text-gray-400 cursor-not-allowed'}`}
+                          title="Practice any card (does not affect due scheduling)"
+                        >
+                          Practice Any Card
                         </button>
                       </div>
                     </div>
@@ -323,6 +428,27 @@ export default function SRSDashboard({ onBack }) {
           ))}
         </div>
       </div>
+        {/* Deep Dive Modal */}
+        {deepDive.open && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg p-6 max-w-xl w-full mx-4">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-xl font-bold text-gray-800">Deep Dive</h3>
+                <button onClick={() => setDeepDive({ open: false, loading: false, content: '' })} className="text-gray-500 hover:text-gray-700">✕</button>
+              </div>
+              {deepDive.loading ? (
+                <div className="text-sm text-gray-600">Generating...</div>
+              ) : (
+                <div className="whitespace-pre-wrap text-gray-800 text-sm leading-6" style={{ maxHeight: '60vh', overflowY: 'auto' }}>
+                  {deepDive.content}
+                </div>
+              )}
+              <div className="mt-4 text-right">
+                <button onClick={() => setDeepDive({ open: false, loading: false, content: '' })} className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700">Close</button>
+              </div>
+            </div>
+          </div>
+        )}
     </div>
   );
 }

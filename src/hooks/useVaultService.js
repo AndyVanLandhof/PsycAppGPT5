@@ -1,24 +1,10 @@
 import { useState, useEffect } from 'react';
 import { vaultLoader } from '../utils/vaultLoader';
 
-// Vault structure mapping
+// Vault is AQA Psychology only; remove PRE structure
 const VAULT_STRUCTURE = {
-  christianity: {
-    core: 'Christianity/Core',
-    additional: 'Christianity/Additional'
-  },
-  ethics: {
-    core: 'Ethics/Core',
-    additional: 'Ethics/Additional'
-  },
-  philosophy: {
-    core: 'Philosophy/Core',
-    additional: 'Philosophy/Additional'
-  },
-  general: 'General',
-  examBoard: 'Exam Board Materials',
-  revisionEssays: 'Revision & Essays',
-  notes: 'Notes'
+  psychology: 'AQA Psychology',
+  general: 'General'
 };
 
 export const useVaultService = () => {
@@ -63,26 +49,13 @@ export const useVaultService = () => {
 
   // Create a comprehensive prompt with vault context
   const createVaultPrompt = (basePrompt, topic, subTopic, includeAdditional = false, opts = {}) => {
-    // Get up to 10 most relevant chunks from all sources
-    const relevantContexts = getRelevantContext(topic, subTopic, includeAdditional).slice(0, 10);
+    // Get up to 12 most relevant chunks (AQA Psych only)
+    const relevantContexts = getRelevantContext(topic, subTopic, includeAdditional).slice(0, 12);
 
-    // Always try to include up to 5 relevant Revision Guide chunks if available
-    let revisionGuideChunks = [];
-    if (vaultLoader.isLoaded && vaultLoader.vaultData['revisionEssays']) {
-      revisionGuideChunks = vaultLoader.vaultData['revisionEssays']
-        .filter(chunk =>
-          chunk.source && chunk.source.toLowerCase().includes('revision guide') &&
-          (chunk.content?.toLowerCase().includes(subTopic.toLowerCase()) ||
-           chunk.title?.toLowerCase().includes(subTopic.toLowerCase()) ||
-           chunk.metadata?.subtopic?.toLowerCase().includes(subTopic.toLowerCase()))
-        )
-        .slice(0, 5);
-    }
-
-    // Combine and deduplicate by chunk id
-    const allContexts = [...revisionGuideChunks, ...relevantContexts].filter(
+    // Deduplicate by chunk id
+    const allContexts = [...relevantContexts].filter(
       (chunk, idx, arr) => arr.findIndex(c => c.id === chunk.id) === idx
-    ).slice(0, 15);
+    ).slice(0, 12);
 
     if (allContexts.length === 0) {
       console.warn('[Vault Service] No relevant context found for:', topic, subTopic);
@@ -97,17 +70,17 @@ export const useVaultService = () => {
 
     // If this is for a quiz or flashcards, add stricter instructions and difficulty progression
     const isQuizOrFlashcard = opts.quiz || opts.flashcards;
-    const difficultyInstructions = isQuizOrFlashcard ? `\n\nFor quizzes/flashcards:\n- Use ONLY the provided OCR and Revision Guide materials below. Do NOT use general knowledge or invent content.\n- Reference specific details, arguments, quotes, or scholars from the materials above.\n- The first 3 questions/flashcards should be easy, the next 3 medium, the last 4 hard (for quizzes; for flashcards, scale difficulty similarly).\n- Each explanation must reference the source material.\n` : '';
+    const difficultyInstructions = isQuizOrFlashcard ? `\n\nFor quizzes/flashcards:\n- Use ONLY the provided AQA Psychology materials below. Do NOT use general knowledge or invent content.\n- Reference specific details, studies, or theories from the materials above.\n- Vary difficulty appropriately across cards/questions.\n` : '';
 
     return `IMPORTANT: You are an expert A-Level Psychology teacher. Use the following AQA Psychology materials as your ONLY reference for providing comprehensive, detailed responses suitable for A-Level exam preparation.${difficultyInstructions}
 
---- BEGIN OCR/REVISION GUIDE MATERIALS ---
+ --- BEGIN AQA PSYCHOLOGY MATERIALS ---
 ${contextSection}
 --- END MATERIALS ---
 
 INSTRUCTIONS: ${basePrompt}
 
-Remember: Do not use general knowledge. Only use the provided OCR and Revision Guide materials above. Reference the material in every answer.`;
+Remember: Do not use general knowledge. Only use the provided AQA Psychology materials above. Do not mention sources in answers.`;
   };
 
   // Get clickable references for UI display

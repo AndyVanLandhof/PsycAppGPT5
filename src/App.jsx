@@ -3,6 +3,7 @@ import psychologyTopics from './psychologyTopics';
 import TopicDetail from './components/TopicDetail';
 import SettingsPanel from './components/SettingsPanel';
 import VaultTester from './components/VaultTester';
+import BedtimeStory from './components/BedtimeStory';
 import ExamPractice from './components/ExamPractice';
 import ProgressDashboard from './components/ProgressDashboard';
 import SRSDashboard from './components/SRSDashboard';
@@ -97,6 +98,9 @@ function App() {
   if (view === 'progress-dashboard') {
     return <ProgressDashboard onBack={() => setView('home')} />;
   }
+  if (view === 'bedtime-story') {
+    return <BedtimeStory onBack={() => setView('home')} />;
+  }
 
   if (view === 'srs-dashboard') {
     return <SRSDashboard onBack={() => setView('home')} />;
@@ -136,6 +140,12 @@ function App() {
           >
             <TrendingUp className="w-5 h-5" />
             Progress Dashboard
+          </button>
+          <button
+            onClick={() => setView('bedtime-story')}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
+            🌙 Bedtime Story (Beta)
           </button>
           <button
             onClick={() => setView('srs-dashboard')}
