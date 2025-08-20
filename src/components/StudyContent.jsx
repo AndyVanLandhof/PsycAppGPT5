@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { themeMap } from "../data/themeMap";
 import { useAIService } from "../hooks/useAIService";
 import { useVaultService } from "../hooks/useVaultService";
@@ -129,12 +129,19 @@ function StudyContent({ topic, onBack }) {
   const { getClickableReferences, isVaultLoaded, getRelevantContext } = useVaultService();
   const { speak, playPreparedAudio, audioReady, audioLoading: ttsAudioLoading, audioError: ttsAudioError, pause, stop, ttsState } = useElevenLabsTTS();
 
-  // Only get vault references for non-AQA topics
-  let vaultReferences = [];
+  // Detect AQA components (original behavior)
   const isAQA = ["Compulsory", "Option 1", "Option 2", "Option 3"].includes(topic.component);
-  if (!isAQA) {
-    vaultReferences = getClickableReferences(topic.title, subTopic.title, includeAdvanced);
-  }
+
+  // Defer vault reference computation until after we have a response and the vault is loaded
+  const vaultReferences = useMemo(() => {
+    try {
+      if (!response) return [];
+      if (!isVaultLoaded()) return [];
+      return getClickableReferences(topic.title, subTopic.title, includeAdvanced);
+    } catch (_) {
+      return [];
+    }
+  }, [response, includeAdvanced, topic.title, subTopic.title, isVaultLoaded, getClickableReferences]);
 
   // Reset active audio section when audio ends
   useEffect(() => {
@@ -173,9 +180,9 @@ Return in this JSON format:
 `;
 
     setIsLoading(true);
+    let result = null;
     try {
       // For AQA Psychology, always use public AI sources
-      let result;
       if (isAQA) {
         result = await callAIWithPublicSources(
           basePrompt,
@@ -183,7 +190,7 @@ Return in this JSON format:
           subTopic.title
         );
       } else {
-        const vaultReady = isVaultLoaded && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
+        const vaultReady = isVaultLoaded() && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
         if (vaultReady) {
           result = await callAIWithVault(
             basePrompt, 
@@ -228,26 +235,17 @@ Return in this JSON format:
 
   // Replace the handleViewPDF function with robust logic
   const handleViewPDF = (reference) => {
-    // Try to get topicId from reference metadata, fallback to topic.id or subTopic.id
-    const topicId = reference?.metadata?.topicId || topic?.id || subTopic?.id;
-    const topLevelFolder = getTopLevelFolder(topicId);
-
-    // Use the correct filename from the reference or its metadata
-    const pdfFileName = reference?.pdfFileName || reference?.metadata?.pdfFileName || reference?.source || reference?.filename;
-
-    if (!pdfFileName) {
-      alert("No PDF filename found for this reference.");
+    // Prefer the explicit pdfUrl provided by the vault service
+    const pdfPath = reference?.pdfUrl || (reference?.source ? `/vault/${reference.source}` : null);
+    if (!pdfPath) {
+      alert("No PDF path found for this reference.");
       return;
     }
-
-    // Build the correct path
-    const pdfPath = `/vault/${topLevelFolder}/Core/${pdfFileName}`;
-
-    // Open the PDF at the correct page (implement your PDF viewer logic here)
+    const title = reference?.title || reference?.source || 'Source Document';
     setSelectedPDF({
       path: pdfPath,
-      page: reference.page || reference.pageNumber || 1,
-      title: pdfFileName,
+      page: reference?.page || reference?.pageNumber || 1,
+      title
     });
     setShowPDFViewer(true);
   };
@@ -357,7 +355,22 @@ Return in this JSON format:
                 
                 <div className="pr-16">
                   {section.key === "comprehensiveSummary" && (
-                    <p className="text-gray-800 leading-relaxed">{response[section.key]}</p>
+                    <>
+                      <p className="text-gray-800 leading-relaxed">{response[section.key]}</p>
+                      {vaultReferences.length > 0 && (
+                        <div className="mt-3">
+                          <a
+                            href={`${vaultReferences[0].pdfUrl}${vaultReferences[0].page ? `#page=${vaultReferences[0].page}` : ''}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                            Open textbook: {vaultReferences[0].source}{vaultReferences[0].page ? ` (p. ${vaultReferences[0].page})` : ''}
+                          </a>
+                        </div>
+                      )}
+                    </>
                   )}
                   {Array.isArray(response[section.key]) && (
                     <ul className="list-disc ml-5 text-gray-800 space-y-2">
@@ -501,7 +514,22 @@ Return in this JSON format:
                   
                   <div className="pr-16">
                     {section === "comprehensiveSummary" && (
-                      <p className="text-gray-700 leading-relaxed">{popupResponse[section]}</p>
+                      <>
+                        <p className="text-gray-700 leading-relaxed">{popupResponse[section]}</p>
+                        {vaultReferences.length > 0 && (
+                          <div className="mt-3">
+                            <a
+                              href={`${vaultReferences[0].pdfUrl}${vaultReferences[0].page ? `#page=${vaultReferences[0].page}` : ''}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Open textbook: {vaultReferences[0].source}{vaultReferences[0].page ? ` (p. ${vaultReferences[0].page})` : ''}
+                            </a>
+                          </div>
+                        )}
+                      </>
                     )}
                     {Array.isArray(popupResponse[section]) && (
                       <ul className="list-disc ml-5 text-gray-700 space-y-2">

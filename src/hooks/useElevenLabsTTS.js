@@ -2,8 +2,12 @@ import { useState, useRef, useCallback } from "react";
 import { toast } from 'react-toastify';
 
 export function useElevenLabsTTS() {
-  // Prefer key from localStorage, fallback to hardcoded value
-  const ELEVENLABS_API_KEY = localStorage.getItem("elevenlabs-key") || "sk_19ca25b5ba5e9dd84ee253c6c10db87bc157e408efe560b2";
+  // Prefer key from localStorage, fallback to env variables; never hardcode secrets
+  const ELEVENLABS_API_KEY =
+    localStorage.getItem("elevenlabs-key") ||
+    (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_ELEVENLABS_API_KEY) ||
+    (typeof process !== 'undefined' && process.env && process.env.ELEVENLABS_API_KEY) ||
+    "";
   const [ttsState, setTtsState] = useState("idle"); // "idle" | "playing" | "paused" | "error"
   const audioRef = useRef(null);
   const CHUNK_SIZE = 800; // characters per chunk
