@@ -37,7 +37,7 @@ export function getProgressStatus(topicState = {}, thresholds = DEFAULT_THRESHOL
 
   // Not reached Reinforce yet
   if (!hasLearned) {
-    return { phase: "Learn", message: "Start with Learn", color: "blue", rScore, examScore };
+    return { phase: "Learn", message: "", color: "blue", rScore, examScore };
   }
 
   // Learned but no Reinforce scores yet

@@ -255,9 +255,11 @@ function TopicDetail({ topic, onBack }) {
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">
               <h2 className="text-xl font-semibold text-purple-700">Progressive Learning</h2>
-              <div className="mt-1 flex justify-center">
-                <StatusBadge message={status.message} color={status.color} />
-              </div>
+              {status.message ? (
+                <div className="mt-1 flex justify-center">
+                  <StatusBadge message={status.message} color={status.color} />
+                </div>
+              ) : null}
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Learn Column */}
