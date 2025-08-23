@@ -150,12 +150,6 @@ function App() {
             SRS Dashboard
           </button>
           <button
-            onClick={() => setView('vault-tester')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            🧪 Vault Tester
-          </button>
-          <button
             onClick={() => setView('topic-progress-demo')}
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
@@ -167,13 +161,13 @@ function App() {
         <Section title="Option 1" topics={getTopicsByComponent('Option 1')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
         <Section title="Option 2" topics={getTopicsByComponent('Option 2')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
         <Section title="Option 3" topics={getTopicsByComponent('Option 3')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-        {/* Exam Practice Button */}
+        {/* Tools */}
         <div className="flex justify-center mt-12">
           <button
-            onClick={() => setView('exam-practice')}
-            className="px-10 py-5 text-2xl bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg font-bold hover:from-orange-700 hover:to-red-700 transition-all duration-300 transform hover:scale-105"
+            onClick={() => setView('vault-tester')}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
-            📝 Exam Practice
+            🧪 Vault Tester
           </button>
         </div>
       </div>
