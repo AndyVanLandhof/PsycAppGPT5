@@ -70,11 +70,11 @@ function sm2Next(card, quality) {
       1.3,
       easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
     );
-  } else {
+    } else {
     // Lapses: bring back same day to reinforce
-    repetitions = 0;
+      repetitions = 0;
     interval = 1; // keep canonical day interval for records
-    easeFactor = Math.max(1.3, easeFactor - 0.2);
+      easeFactor = Math.max(1.3, easeFactor - 0.2);
     minutesOffset = quality === 1 ? 10 : 60; // 10 min for 1, 60 min for 2
   }
 
@@ -291,7 +291,7 @@ export default function SRSDashboard({ onBack }) {
               </div>
             )}
           </div>
-        </div>
+                </div>
         {/* History Modal */}
         {session.showHistoryModal && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -299,7 +299,7 @@ export default function SRSDashboard({ onBack }) {
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-gray-800">Attempt History</h3>
                 <button onClick={() => setSession(s => ({ ...s, showHistoryModal: false }))} className="text-gray-500 hover:text-gray-700">✕</button>
-              </div>
+                    </div>
               {Array.isArray(card.reviewHistory) && card.reviewHistory.length > 0 ? (
                 <div className="space-y-2 max-h-64 overflow-y-auto">
                   {card.reviewHistory.slice().reverse().map((r, i) => (
@@ -308,19 +308,19 @@ export default function SRSDashboard({ onBack }) {
                       <span className="text-sm font-semibold text-blue-700">Score: {r.quality}</span>
                     </div>
                   ))}
-                </div>
+                    </div>
               ) : (
                 <div className="text-sm text-gray-600">No attempts recorded yet for this card.</div>
               )}
               <div className="mt-4 text-right">
                 <button onClick={() => setSession(s => ({ ...s, showHistoryModal: false }))} className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700">Close</button>
-              </div>
+                  </div>
             </div>
           </div>
         )}
-      </div>
-    );
-  }
+    </div>
+  );
+}
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
@@ -366,14 +366,14 @@ export default function SRSDashboard({ onBack }) {
           </div>
         </div>
 
-        <div className="space-y-4">
+          <div className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">Topics</h2>
           {Object.entries(allTopicsData).map(([tid, topic]) => (
             <div key={tid} id={`topic-${tid}`} className="bg-white border rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow">
               <div className="flex justify-between items-start mb-2">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">{topic.title}</h3>
-                  <p className="text-sm text-gray-600">{topic.component}</p>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800">{topic.title}</h3>
+                    <p className="text-sm text-gray-600">{topic.component}</p>
                 </div>
                 <div className="text-right">
                   <div className="text-sm text-gray-600">Cards</div>
@@ -401,7 +401,7 @@ export default function SRSDashboard({ onBack }) {
                         <div className="flex justify-between items-center mb-2 text-xs text-gray-600">
                           <span>Next Due: {nextDueAt ? new Date(nextDueAt).toLocaleString() : (due.length > 0 ? 'Now' : 'Not scheduled')}</span>
                           <span></span>
-                        </div>
+                      </div>
                       )}
                       <div className="flex gap-1">
                         <button
@@ -424,10 +424,10 @@ export default function SRSDashboard({ onBack }) {
                   );
                 })}
               </div>
-            </div>
-          ))}
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
         {/* Deep Dive Modal */}
         {deepDive.open && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -435,7 +435,7 @@ export default function SRSDashboard({ onBack }) {
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-gray-800">Deep Dive</h3>
                 <button onClick={() => setDeepDive({ open: false, loading: false, content: '' })} className="text-gray-500 hover:text-gray-700">✕</button>
-              </div>
+                  </div>
               {deepDive.loading ? (
                 <div className="text-sm text-gray-600">Generating...</div>
               ) : (

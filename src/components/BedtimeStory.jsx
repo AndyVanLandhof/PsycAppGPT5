@@ -1,12 +1,15 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import psychologyTopics from '../psychologyTopics';
 import { useAIService } from '../hooks/useAIService';
 import { useElevenLabsTTS } from '../hooks/useElevenLabsTTS';
 
-export default function BedtimeStory({ onBack }) {
+export default function BedtimeStory({ onBack, topic: topicProp, subTopic: subTopicProp }) {
   const topicEntries = useMemo(() => Object.entries(psychologyTopics), []);
-  const [topicId, setTopicId] = useState(topicEntries[0]?.[0] || 'memory');
-  const [subTopicId, setSubTopicId] = useState(psychologyTopics[topicEntries[0]?.[0]]?.subTopics?.[0]?.id || 'multi-store-model');
+  const hasLockedSelection = !!(topicProp && subTopicProp);
+  const initialTopicId = topicProp?.id || topicEntries[0]?.[0] || 'memory';
+  const initialSubId = subTopicProp?.id || psychologyTopics[initialTopicId]?.subTopics?.[0]?.id || '';
+  const [topicId, setTopicId] = useState(initialTopicId);
+  const [subTopicId, setSubTopicId] = useState(initialSubId);
   const [story, setStory] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -16,23 +19,34 @@ export default function BedtimeStory({ onBack }) {
   const [playArmed, setPlayArmed] = useState(false);
 
   const topic = psychologyTopics[topicId];
-  const subTopic = topic.subTopics.find(st => st.id === subTopicId);
+  const subTopic = topic?.subTopics?.find(st => st.id === subTopicId);
+  const topicTitle = topicProp?.title || topic?.title || '';
+  const subTopicTitle = subTopicProp?.title || subTopic?.title || '';
+
+  const cacheKey = hasLockedSelection
+    ? `bedtime-story-${topicTitle}-${subTopicTitle}`
+    : `bedtime-story-${subTopicId}`;
 
   const loadCached = () => {
-    const cached = localStorage.getItem(`bedtime-story-${subTopicId}`);
+    const cached = localStorage.getItem(cacheKey);
     if (cached) setStory(cached);
   };
+
+  useEffect(() => {
+    loadCached();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cacheKey]);
 
   const generateStory = async () => {
     setLoading(true);
     setError('');
     try {
-      const prompt = `Write a calm, narrative 'bedtime story' lesson for AQA Psychology 7182.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${subTopic.title}\n\nOpeners (pick one, vary naturally):\n- "Hi Phoebe,"\n- "Good evening Phoebe,"\n- "Hello Phoebe,"\n- "Poodle Pops, what's up?"\n\nStyle & Goals:\n- Start with a short, relatable anecdote/scenario (2–3 sentences) — not "once upon a time" — to hook attention.\n- Then teach in a friendly story voice with concrete, everyday examples.\n- Include 2–3 key ideas, 1–2 named studies (with researcher and year and one key finding), and a brief recap at the end.\n- Keep everything accurate and exam-aligned but easy to follow and soothing.\n- Length target: 750–900 words (~5–6 minutes).\n- Do NOT include citations, page numbers, brackets, or references.\n- Output plain text only (no markdown/code fences).`;
+      const prompt = `Write a calm, narrative 'bedtime story' lesson for AQA Psychology 7182.\n\nTOPIC: ${topicTitle}\nSUB-TOPIC: ${subTopicTitle}\n\nOpeners (pick one, vary naturally):\n- "Hi Phoebe,"\n- "Good evening Phoebe,"\n- "Hello Phoebe,"\n- "Poodle Pops, what's up?"\n\nStyle & Goals:\n- Start with a short, relatable anecdote/scenario (2–3 sentences) — not "once upon a time" — to hook attention.\n- Then teach in a friendly story voice with concrete, everyday examples.\n- Include 2–3 key ideas, 1–2 named studies (with researcher and year and one key finding), and a brief recap at the end.\n- Keep everything accurate and exam-aligned but easy to follow and soothing.\n- Length target: 750–900 words (~5–6 minutes).\n- Do NOT include citations, page numbers, brackets, or references.\n- Output plain text only (no markdown/code fences).`;
 
-      const text = await callAIWithVault(prompt, topic.title, subTopic.title, { includeAdditional: false });
+      const text = await callAIWithVault(prompt, topicTitle, subTopicTitle, { includeAdditional: false });
       const clean = String(text || '').replace(/^```[a-z]*\n?|```$/g, '').trim();
       setStory(clean);
-      localStorage.setItem(`bedtime-story-${subTopicId}`, clean);
+      localStorage.setItem(cacheKey, clean);
     } catch (e) {
       setError('Failed to generate story. Please try again.');
     } finally {
@@ -69,42 +83,56 @@ export default function BedtimeStory({ onBack }) {
         </div>
 
         <div className="bg-white border rounded-lg shadow-sm p-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Topic</label>
-              <select
-                value={topicId}
-                onChange={(e) => {
-                  const newId = e.target.value;
-                  setTopicId(newId);
-                  setSubTopicId(psychologyTopics[newId].subTopics[0]?.id || '');
-                  setStory('');
-                }}
-                className="w-full p-2 border rounded"
-              >
-                {topicEntries.map(([id, t]) => (
-                  <option key={id} value={id}>{t.title}</option>
-                ))}
-              </select>
+          {hasLockedSelection ? (
+            <div className="flex items-center justify-between">
+              <div className="text-sm text-gray-700">
+                <div><span className="font-semibold">Topic:</span> {topicTitle}</div>
+                <div><span className="font-semibold">Subtopic:</span> {subTopicTitle}</div>
+              </div>
+              <div className="flex items-end gap-2">
+                <button onClick={generateStory} disabled={loading} className={`px-4 py-2 rounded text-white ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'}`}>
+                  {loading ? 'Generating…' : 'Generate Story'}
+                </button>
+              </div>
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Subtopic</label>
-              <select
-                value={subTopicId}
-                onChange={(e) => { setSubTopicId(e.target.value); setStory(''); }}
-                className="w-full p-2 border rounded"
-              >
-                {topic.subTopics.map(st => (
-                  <option key={st.id} value={st.id}>{st.title}</option>
-                ))}
-              </select>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Topic</label>
+                <select
+                  value={topicId}
+                  onChange={(e) => {
+                    const newId = e.target.value;
+                    setTopicId(newId);
+                    setSubTopicId(psychologyTopics[newId].subTopics[0]?.id || '');
+                    setStory('');
+                  }}
+                  className="w-full p-2 border rounded"
+                >
+                  {topicEntries.map(([id, t]) => (
+                    <option key={id} value={id}>{t.title}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Subtopic</label>
+                <select
+                  value={subTopicId}
+                  onChange={(e) => { setSubTopicId(e.target.value); setStory(''); }}
+                  className="w-full p-2 border rounded"
+                >
+                  {topic?.subTopics?.map(st => (
+                    <option key={st.id} value={st.id}>{st.title}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="flex items-end gap-2">
+                <button onClick={generateStory} disabled={loading} className={`px-4 py-2 rounded text-white ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'}`}>
+                  {loading ? 'Generating…' : 'Generate Story'}
+                </button>
+              </div>
             </div>
-            <div className="flex items-end gap-2">
-              <button onClick={generateStory} disabled={loading} className={`px-4 py-2 rounded text-white ${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'}`}>
-                {loading ? 'Generating…' : 'Generate Story'}
-              </button>
-            </div>
-          </div>
+          )}
           {error && <div className="mt-3 text-sm text-red-600">{error}</div>}
         </div>
 

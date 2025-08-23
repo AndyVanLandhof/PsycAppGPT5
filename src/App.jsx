@@ -12,6 +12,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from 'react';
 import './utils/srsCardGenerator';
+import TopicPage from './pages/TopicPage.jsx';
 
 // Helper: group topics by component
 const getTopicsByComponent = (comp) =>
@@ -106,6 +107,10 @@ function App() {
     return <SRSDashboard onBack={() => setView('home')} />;
   }
 
+  if (view === 'topic-progress-demo') {
+    return <TopicPage topicId="social-influence" title="Social Influence" onBack={() => setView('home')} />;
+  }
+
   if (view === 'topic-detail' && selectedTopic) {
     return <TopicDetail topic={selectedTopic} onBack={() => setView('home')} />;
   }
@@ -159,6 +164,12 @@ function App() {
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
             🧪 Vault Tester
+          </button>
+          <button
+            onClick={() => setView('topic-progress-demo')}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
+            🧭 Topic Progress Demo
           </button>
         </div>
         {/* Sections: Compulsory and Options */}

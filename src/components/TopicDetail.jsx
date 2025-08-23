@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import FlashcardView from "./FlashcardView";
-import TimedEssay from "./TimedEssay";
 import StudyContent from "./StudyContent";
 import QuizView from "./QuizView";
 import SocraticDialogue from "./SocraticDialogue";
@@ -15,10 +14,18 @@ import { nodes as problemOfEvilNodes, edges as problemOfEvilEdges } from '../dat
 import { nodes as naturalLawNodes, edges as naturalLawEdges } from '../data/naturalLawConceptMap';
 import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } from '../data/augustineTeachingsConceptMap';
 import StudySession from "./StudySession";
+import useTopicProgress from '../progress/useTopicProgress.js';
+import StatusBadge from '../progress/StatusBadge.jsx';
+import BedtimeStory from "./BedtimeStory";
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
   const [activeView, setActiveView] = useState(null);
+  const [selectedStage, setSelectedStage] = useState('Learn');
+  const [selectedOption, setSelectedOption] = useState('study');
+
+  const progressId = `${topic.id}:${selectedSubTopic || ''}`;
+  const { status, actions } = useTopicProgress(progressId);
 
   const sub = topic.subTopics.find((s) => s.id === selectedSubTopic);
   const sharedProps = {
@@ -34,6 +41,44 @@ function TopicDetail({ topic, onBack }) {
     }
   };
 
+  const startSelected = () => {
+    if (!selectedSubTopic) return;
+    if (selectedStage === 'Learn') {
+      if (selectedOption === 'study') {
+        actions.recordLearnAccess('study');
+        setActiveView('study');
+      } else if (selectedOption === 'conceptMap') {
+        actions.recordLearnAccess('conceptMap');
+        setActiveView('conceptmap');
+      } else if (selectedOption === 'audioStory') {
+        actions.recordLearnAccess('audioStory');
+        setActiveView('bedtime-story');
+      } else if (selectedOption === 'socratic') {
+        setActiveView('socratic');
+      }
+      return;
+    }
+    if (selectedStage === 'Reinforce') {
+      if (selectedOption === 'flashcards') {
+        setActiveView('flashcards');
+      } else if (selectedOption === 'quiz') {
+        setActiveView('quiz');
+      } else if (selectedOption === 'socratic') {
+        setActiveView('socratic');
+      } else if (selectedOption === 'activeRecall') {
+        setActiveView('study-session');
+      }
+      return;
+    }
+    if (selectedStage === 'Exam') {
+      if (selectedOption === 'essay') {
+        setActiveView('essay');
+      } else if (selectedOption === 'pastPaper') {
+        alert('Past Paper practice is available from the home page (Exam Practice).');
+      }
+    }
+  };
+
   if (activeView === "study") {
     return <StudyContent {...sharedProps} />;
   }
@@ -46,9 +91,7 @@ function TopicDetail({ topic, onBack }) {
   if (activeView === "quiz") {
     return <QuizView {...sharedProps} />;
   }
-  if (activeView === "essay") {
-    return <TimedEssay topic={topic} onBack={() => setActiveView(null)} />;
-  }
+  // Removed Timed Essay for AQA Psychology
   if (activeView === "socratic") {
     return (
       <div>
@@ -60,6 +103,15 @@ function TopicDetail({ topic, onBack }) {
         </button>
         <SocraticDialogue topic={sub?.title || topic.title} duration={10} />
       </div>
+    );
+  }
+  if (activeView === "bedtime-story") {
+    return (
+      <BedtimeStory
+        onBack={() => setActiveView(null)}
+        topic={{ id: topic.id, title: topic.title }}
+        subTopic={{ id: sub?.id, title: sub?.title }}
+      />
     );
   }
   if (activeView === "conceptmap") {
@@ -199,6 +251,103 @@ function TopicDetail({ topic, onBack }) {
               ))}
             </div>
           </div>
+          {/* Progressive Learning Panel */}
+          <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+            <div className="text-center">
+              <h2 className="text-xl font-semibold text-purple-700">Progressive Learning</h2>
+              <div className="mt-1 flex justify-center">
+                <StatusBadge message={status.message} color={status.color} />
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Learn Column */}
+              <div className={`border rounded-lg p-4 ${selectedStage === 'Learn' ? 'ring-2 ring-blue-400' : ''}`}>
+                <div className="font-semibold mb-2">Learn</div>
+                <div className="space-y-2">
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='study' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='study'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('study'); }} />
+                      <span>Study Content</span>
+                    </span>
+                    <span>📘</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='conceptMap' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='conceptMap'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('conceptMap'); }} />
+                      <span>Concept Map</span>
+                    </span>
+                    <span>🗺️</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='socratic' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='socratic'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('socratic'); }} />
+                      <span>Socratic Method</span>
+                    </span>
+                    <span>🧔‍♂️</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='audioStory' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='audioStory'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('audioStory'); }} />
+                      <span>Bedtime Story</span>
+                    </span>
+                    <span>🌙</span>
+                  </label>
+                </div>
+              </div>
+              {/* Reinforce Column */}
+              <div className={`border rounded-lg p-4 ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
+                <div className="font-semibold mb-2">Reinforce</div>
+                <div className="space-y-2">
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='flashcards' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='flashcards'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }} />
+                      <span>Flashcards</span>
+                    </span>
+                    <span>🔁</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='quiz' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='quiz'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('quiz'); }} />
+                      <span>Quiz</span>
+                    </span>
+                    <span>🧠</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='activeRecall' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='activeRecall'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('activeRecall'); }} />
+                      <span>Active Recall</span>
+                    </span>
+                    <span>🎯</span>
+                  </label>
+                </div>
+                <div className="text-xs text-gray-600 mt-2">Reinforce score: {Number.isFinite(status.rScore) ? `${status.rScore}%` : '—'}</div>
+              </div>
+              {/* Exam Column */}
+              <div className={`border rounded-lg p-4 ${selectedStage === 'Exam' ? 'ring-2 ring-blue-400' : ''}`}>
+                <div className="font-semibold mb-2">Examine</div>
+                <div className="space-y-2">
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Exam' && selectedOption==='essay' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="exam-option" checked={selectedStage==='Exam' && selectedOption==='essay'} onChange={() => { setSelectedStage('Exam'); setSelectedOption('essay'); }} />
+                      <span>Timed Essay</span>
+                    </span>
+                    <span>📝</span>
+                  </label>
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Exam' && selectedOption==='pastPaper' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                    <span className="flex items-center gap-2">
+                      <input type="radio" name="exam-option" checked={selectedStage==='Exam' && selectedOption==='pastPaper'} onChange={() => { setSelectedStage('Exam'); setSelectedOption('pastPaper'); }} />
+                      <span>Past Paper</span>
+                    </span>
+                    <span>📄</span>
+                  </label>
+                </div>
+                <div className="text-xs text-gray-600 mt-2">Exam score: {Number.isFinite(status.examScore) ? `${status.examScore}%` : '—'}</div>
+              </div>
+            </div>
+            <div className="flex justify-end">
+              <button className="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800" onClick={startSelected}>Start</button>
+            </div>
+          </div>
           {/* Choose Your Study Method */}
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">
@@ -229,6 +378,16 @@ function TopicDetail({ topic, onBack }) {
                 </div>
               </button>
               <button
+                onClick={() => { actions.recordLearnAccess('audioStory'); setActiveView("bedtime-story"); }}
+                className="border border-indigo-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-indigo-50 bg-gray-50"
+              >
+                <div className="text-center">
+                  <div className="text-2xl mb-2">🌙</div>
+                  <div className="font-semibold text-indigo-800">Bedtime Story</div>
+                  <div className="text-xs text-gray-600 mt-1">5–6 min narrated lesson</div>
+                </div>
+              </button>
+              <button
                 onClick={() => setActiveView("quiz")}
                 className="border border-blue-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-blue-50 bg-gray-50"
               >
@@ -246,16 +405,6 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-2xl mb-2">🔁</div>
                   <div className="font-semibold text-purple-800">Flashcards</div>
                   <div className="text-xs text-gray-600 mt-1">Review key concepts</div>
-                </div>
-              </button>
-              <button
-                onClick={() => setActiveView("essay")}
-                className="border border-orange-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-orange-50 bg-gray-50"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">📝</div>
-                  <div className="font-semibold text-orange-800">Timed Essay</div>
-                  <div className="text-xs text-gray-600 mt-1">Practice writing</div>
                 </div>
               </button>
               {/* Socratic Method Pane */}
