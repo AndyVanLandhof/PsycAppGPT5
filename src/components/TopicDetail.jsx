@@ -15,8 +15,10 @@ import { nodes as naturalLawNodes, edges as naturalLawEdges } from '../data/natu
 import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } from '../data/augustineTeachingsConceptMap';
 import StudySession from "./StudySession";
 import useTopicProgress from '../progress/useTopicProgress.js';
-import StatusBadge from '../progress/StatusBadge.jsx';
+import { DEFAULT_THRESHOLDS, computeReinforceScore } from '../progress/progressLogic.js';
+// Removed status badge display under Progressive Learning
 import BedtimeStory from "./BedtimeStory";
+import ExamineDashboard from "../examine/ExamineDashboard.jsx";
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
@@ -25,7 +27,36 @@ function TopicDetail({ topic, onBack }) {
   const [selectedOption, setSelectedOption] = useState('study');
 
   const progressId = `${topic.id}:${selectedSubTopic || ''}`;
-  const { status, actions } = useTopicProgress(progressId);
+  const { topicState, status, actions } = useTopicProgress(progressId);
+  const thresholds = DEFAULT_THRESHOLDS;
+
+  // Guidance message for current subtopic
+  const hasLearned = !!(topicState?.learn?.study || topicState?.learn?.audioStory || topicState?.learn?.conceptMap);
+  const currentRScore = computeReinforceScore(topicState?.reinforce || {});
+  let guidance = { text: '', colorCls: 'bg-gray-100 text-gray-700 border-gray-200' };
+  if (!hasLearned || currentRScore === null || currentRScore < thresholds.lowReinforce) {
+    guidance = { text: 'Keep Learning', colorCls: 'bg-red-100 text-red-800 border-red-200' };
+  } else if (currentRScore < thresholds.midReinforce) {
+    guidance = { text: 'Keep Reinforcing', colorCls: 'bg-amber-100 text-amber-800 border-amber-200' };
+  } else {
+    guidance = { text: 'Ready for Exams in this Sub-Topic', colorCls: 'bg-indigo-100 text-indigo-800 border-indigo-200' };
+  }
+
+  // Determine if ALL subtopics of this topic are exam-ready
+  const allSubtopicsReady = (() => {
+    try {
+      const raw = localStorage.getItem('jaimie-progress-v1');
+      const store = raw ? JSON.parse(raw) : {};
+      return (topic.subTopics || []).every((st) => {
+        const key = `${topic.id}:${st.id}`;
+        const t = store[key];
+        const rs = computeReinforceScore(t?.reinforce || {});
+        return typeof rs === 'number' && rs >= thresholds.examReady;
+      });
+    } catch (_) {
+      return false;
+    }
+  })();
 
   const sub = topic.subTopics.find((s) => s.id === selectedSubTopic);
   const sharedProps = {
@@ -255,15 +286,11 @@ function TopicDetail({ topic, onBack }) {
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">
               <h2 className="text-xl font-semibold text-purple-700">Progressive Learning</h2>
-              {status.message ? (
-                <div className="mt-1 flex justify-center">
-                  <StatusBadge message={status.message} color={status.color} />
-                </div>
-              ) : null}
+              <div className={`mt-2 inline-block text-xs px-2 py-1 rounded-full border ${guidance.colorCls}`}>{guidance.text}</div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
               {/* Learn Column */}
-              <div className={`border rounded-lg p-4 ${selectedStage === 'Learn' ? 'ring-2 ring-blue-400' : ''}`}>
+              <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Learn' ? 'ring-2 ring-blue-400' : ''}`}>
                 <div className="font-semibold mb-2">Learn</div>
                 <div className="space-y-2">
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='study' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
@@ -271,14 +298,14 @@ function TopicDetail({ topic, onBack }) {
                       <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='study'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('study'); }} />
                       <span>Study Content</span>
                     </span>
-                    <span>📘</span>
+                    <span className="flex items-center gap-1">{topicState?.learn?.study ? <span title="Completed">✅</span> : null}<span>📘</span></span>
                   </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='conceptMap' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
+                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='audioStory' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
-                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='conceptMap'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('conceptMap'); }} />
-                      <span>Concept Map</span>
+                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='audioStory'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('audioStory'); }} />
+                      <span>Bedtime Story</span>
                     </span>
-                    <span>🗺️</span>
+                    <span className="flex items-center gap-1">{topicState?.learn?.audioStory ? <span title="Completed">✅</span> : null}<span>🌙</span></span>
                   </label>
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='socratic' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
@@ -287,19 +314,26 @@ function TopicDetail({ topic, onBack }) {
                     </span>
                     <span>🧔‍♂️</span>
                   </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='audioStory' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='audioStory'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('audioStory'); }} />
-                      <span>Bedtime Story</span>
-                    </span>
-                    <span>🌙</span>
-                  </label>
                 </div>
               </div>
               {/* Reinforce Column */}
-              <div className={`border rounded-lg p-4 ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
+              <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
                 <div className="font-semibold mb-2">Reinforce</div>
                 <div className="space-y-2">
+                  {/* Meter only */}
+                  <div className="flex items-center text-xs">
+                    <div className="flex-1 h-2 bg-gray-100 rounded overflow-hidden">
+                      <div className={`h-full ${Number.isFinite(currentRScore) ? 'bg-blue-600' : 'bg-gray-300'}`} style={{ width: `${Number.isFinite(currentRScore) ? currentRScore : 0}%` }} />
+                    </div>
+                    <div className="ml-2 text-gray-600">{Number.isFinite(currentRScore) ? `${currentRScore}%` : '—'}</div>
+                  </div>
+                  {/* Last results */}
+                  <div className="text-xs text-gray-600">
+                    Flashcards: {Number.isFinite(topicState?.reinforce?.flashAvgPct) ? `${topicState.reinforce.flashAvgPct}%` : '—'} • Quiz: {Number.isFinite(topicState?.reinforce?.quizAvgPct) ? `${topicState.reinforce.quizAvgPct}%` : '—'}
+                  </div>
+                  <div className="text-xs text-gray-600">
+                    Sessions: Flashcards ×{topicState?.reinforce?.flashAttempts || 0} • Quiz ×{topicState?.reinforce?.quizAttempts || 0}
+                  </div>
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='flashcards' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
                       <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='flashcards'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }} />
@@ -322,34 +356,31 @@ function TopicDetail({ topic, onBack }) {
                     <span>🎯</span>
                   </label>
                 </div>
-                <div className="text-xs text-gray-600 mt-2">Reinforce score: {Number.isFinite(status.rScore) ? `${status.rScore}%` : '—'}</div>
               </div>
-              {/* Exam Column */}
-              <div className={`border rounded-lg p-4 ${selectedStage === 'Exam' ? 'ring-2 ring-blue-400' : ''}`}>
-                <div className="font-semibold mb-2">Examine</div>
-                <div className="space-y-2">
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Exam' && selectedOption==='essay' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="exam-option" checked={selectedStage==='Exam' && selectedOption==='essay'} onChange={() => { setSelectedStage('Exam'); setSelectedOption('essay'); }} />
-                      <span>Timed Essay</span>
-                    </span>
-                    <span>📝</span>
-                  </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Exam' && selectedOption==='pastPaper' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="exam-option" checked={selectedStage==='Exam' && selectedOption==='pastPaper'} onChange={() => { setSelectedStage('Exam'); setSelectedOption('pastPaper'); }} />
-                      <span>Past Paper</span>
-                    </span>
-                    <span>📄</span>
-                  </label>
-                </div>
-                <div className="text-xs text-gray-600 mt-2">Exam score: {Number.isFinite(status.examScore) ? `${status.examScore}%` : '—'}</div>
-              </div>
+              {/* Exam Column removed; exams will be in a separate page */}
             </div>
-            <div className="flex justify-end">
+            <div className="flex items-center justify-between">
               <button className="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800" onClick={startSelected}>Start</button>
+              <button
+                disabled={!allSubtopicsReady}
+                onClick={() => setActiveView('examine')}
+                className={`px-4 py-2 rounded-lg font-semibold ${allSubtopicsReady ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-500 cursor-not-allowed'}`}
+                title={allSubtopicsReady ? 'Begin exam practice for this topic' : 'Make all sub-topics exam-ready to unlock'}
+              >
+                Start Examining
+              </button>
             </div>
           </div>
+
+          {/* Examine Section */}
+          {activeView === 'examine' && (
+            <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+              <div className="text-center">
+                <h2 className="text-xl font-semibold text-purple-700">Examine</h2>
+              </div>
+              <ExamineDashboard topicId={topic.id} topicTitle={topic.title} />
+            </div>
+          )}
           {/* Choose Your Study Method */}
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">

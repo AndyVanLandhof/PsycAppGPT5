@@ -7,11 +7,13 @@ import ExamPractice from './components/ExamPractice';
 import ProgressDashboard from './components/ProgressDashboard';
 import SRSDashboard from './components/SRSDashboard';
 import { BookOpen, Settings, TrendingUp, RefreshCw } from 'lucide-react';
+import { resetAllProgressStorage } from './progress/progressLogic.js';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from 'react';
 import './utils/srsCardGenerator';
 import TopicPage from './pages/TopicPage.jsx';
+import ExaminePage from './pages/ExaminePage.jsx';
 
 // Helper: group topics by component
 const getTopicsByComponent = (comp) =>
@@ -107,6 +109,10 @@ function App() {
     return <TopicPage topicId="social-influence" title="Social Influence" onBack={() => setView('home')} />;
   }
 
+  if (view === 'examine-demo') {
+    return <ExaminePage topicId="biopsychology" title="Biopsychology" onBack={() => setView('home')} />;
+  }
+
   if (view === 'topic-detail' && selectedTopic) {
     return <TopicDetail topic={selectedTopic} onBack={() => setView('home')} />;
   }
@@ -154,6 +160,23 @@ function App() {
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
             🧭 Topic Progress Demo
+          </button>
+          <button
+            onClick={() => setView('examine-demo')}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
+            🧪 Examine Demo
+          </button>
+          <button
+            onClick={() => {
+              if (confirm('Reset ALL progress for all topics? This cannot be undone.')) {
+                resetAllProgressStorage();
+              }
+            }}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
+            title="Clears all progressive tracking data"
+          >
+            ♻️ Reset All Progress
           </button>
         </div>
         {/* Sections: Compulsory and Options */}

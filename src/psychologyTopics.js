@@ -94,6 +94,19 @@ const psychologyTopics = {
       { id: "inferential-testing", title: "Inferential testing" }
     ]
   },
+  "psychopathology": {
+    id: "psychopathology",
+    title: "Psychopathology",
+    component: "Compulsory",
+    description: "Definitions, explanations and treatments of abnormality.",
+    difficulty: "Medium",
+    subTopics: [
+      { id: "definitions-abnormality", title: "Definitions of abnormality" },
+      { id: "phobias", title: "Phobias: characteristics, explanations and treatments" },
+      { id: "depression", title: "Depression: characteristics, explanations and treatments" },
+      { id: "ocd", title: "OCD: characteristics, explanations and treatments" }
+    ]
+  },
   "issues-and-debates": {
     id: "issues-and-debates",
     title: "Issues and Debates in Psychology",

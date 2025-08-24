@@ -17,7 +17,7 @@ export function useAIService() {
   const { createVaultPrompt, getExamContext, getRevisionContext } = useVaultService();
 
   const callAI = async (prompt, model = "ChatGPT", options = {}) => {
-    const { topic, subTopic, includeAdditional = false, useVault = true } = options;
+    const { topic, subTopic, includeAdditional = false, useVault = true, modelName } = options;
     
     let finalPrompt = prompt;
     
@@ -57,7 +57,7 @@ export function useAIService() {
           Authorization: `Bearer ${OPENAI_API_KEY}`
         },
         body: JSON.stringify({
-          model: "gpt-4o",
+          model: modelName || "gpt-4o",
           messages: [{ role: "user", content: finalPrompt }],
           temperature: 0.7
         })
@@ -135,7 +135,7 @@ Remember: Base your response on the OCR revision materials above.`;
   };
 
   // Get AI response using public sources (AQA Psychology 7182 curriculum + academic knowledge)
-  const callAIWithPublicSources = async (prompt, topic, subTopic, model = "ChatGPT") => {
+  const callAIWithPublicSources = async (prompt, topic, subTopic, modelName = "gpt-4o") => {
     const enhancedPrompt = `You are an expert AQA Psychology tutor with deep knowledge of the AQA Psychology 7182 curriculum. The student is studying ${subTopic || topic} and asks: "${prompt}"
 
 Please provide a comprehensive, accurate answer using:
@@ -164,7 +164,7 @@ Please provide a comprehensive, accurate answer using:
 
 Focus on accuracy, educational value, and depth appropriate for AQA Psychology 7182 A-Level students.`;
 
-    return callAI(enhancedPrompt, model, { useVault: false });
+    return callAI(enhancedPrompt, "ChatGPT", { useVault: false, modelName });
   };
 
   return {

@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* AQA exam-like typography for Examine modals */
+.exam-paper {
+  @apply bg-white text-gray-900;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.4;
+}
+.exam-paper h1, .exam-paper h2, .exam-paper h3 { font-family: 'Times New Roman', Times, serif; }
+.exam-meta { @apply text-sm text-gray-700; }
+.exam-stem { @apply text-base; }
+.exam-marks { @apply text-gray-700 italic; }
+.exam-block { @apply border border-gray-300 rounded p-4; }
 
 /* Ensure proper scrolling */
 html, body {

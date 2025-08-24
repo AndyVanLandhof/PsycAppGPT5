@@ -161,12 +161,15 @@ ${selectedTheme ? `THEME: ${selectedTheme}` : ""}
 Respond ONLY with valid JSON in the format below. Do not include any extra text, markdown, or commentary.
 
 Output the following sections:
-- AO1 Summary: Concise summary of the topic (knowledge and understanding)
+- AO1 Summary: 200–300 words; concise but thorough summary of the topic (knowledge and understanding)
 - AO2 Application: Example of applying the topic to a scenario, case study, or data (application)
 - AO1 Key Studies: List and explain 2-3 key studies (with researcher and year)
 - AO3 Strengths: 2-3 strengths of the theory/model (analysis/evaluation)
 - AO3 Limitations: 2-3 limitations of the theory/model (analysis/evaluation)
 - Exam Pitfalls: Common mistakes students make on this topic
+
+Constraints:
+- Ensure "ao1_summary" is between 200 and 300 words (strictly).
 
 Return in this JSON format:
 {
