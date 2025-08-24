@@ -16,7 +16,7 @@ const app = express();
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization', 'x-openai-key']
 }));
 app.use(express.json());
 
@@ -24,6 +24,12 @@ app.get('/test', (req, res) => res.send('Test OK'));
 
 app.post('/api/gpt-socratic', async (req, res) => {
   const { topic, chatHistory } = req.body;
+  const headerKey = (req.headers['x-openai-key'] || '').toString().trim();
+  const envKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '';
+  const OPENAI_API_KEY = (headerKey && headerKey.startsWith('sk-')) ? headerKey : envKey;
+  if (!OPENAI_API_KEY || !OPENAI_API_KEY.startsWith('sk-')) {
+    return res.status(500).json({ reply: 'Missing or invalid OpenAI API key. Add it in Settings (client) or set OPENAI_API_KEY in .env and restart.' });
+  }
   const systemPrompt = `You are a Socratic Method tutor for A-Level Religious Studies student aged 17. The topic is: ${topic}.
 
 Your job is to help the student think deeply and clarify their ideas through a friendly, supportive, and adaptive dialogue.
@@ -58,7 +64,7 @@ Examples:
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY'}`,
+        'Authorization': `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
@@ -68,6 +74,10 @@ Examples:
       }),
     });
     const data = await response.json();
+    if (!response.ok) {
+      const msg = data?.error?.message || 'OpenAI API error.';
+      return res.status(500).json({ reply: `OpenAI error: ${msg}` });
+    }
     const reply = data.choices?.[0]?.message?.content || 'Sorry, I could not generate a response.';
     res.json({ reply });
   } catch (err) {

@@ -50,9 +50,10 @@ const SocraticDialogue = ({ topic = "Situation Ethics", duration = 10 }) => {
 
   // Call GPT backend
   const getSocraticResponse = async (topic, chatHistory) => {
+    const key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
     const response = await fetch('/api/gpt-socratic', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...(key ? { 'x-openai-key': key } : {}) },
       body: JSON.stringify({ topic, chatHistory })
     });
     const data = await response.json();

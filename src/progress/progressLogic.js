@@ -74,3 +74,14 @@ export function getProgressStatus(topicState = {}, thresholds = DEFAULT_THRESHOL
 }
 
 
+
+// Clear all stored topic progress from localStorage
+export function resetAllProgressStorage() {
+  try {
+    // Keep this in sync with STORAGE_KEY in useTopicProgress.js
+    localStorage.removeItem('jaimie-progress-v1');
+  } catch (_) {
+    // ignore
+  }
+}
+

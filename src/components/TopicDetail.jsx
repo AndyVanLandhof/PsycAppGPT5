@@ -320,20 +320,6 @@ function TopicDetail({ topic, onBack }) {
               <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
                 <div className="font-semibold mb-2">Reinforce</div>
                 <div className="space-y-2">
-                  {/* Meter only */}
-                  <div className="flex items-center text-xs">
-                    <div className="flex-1 h-2 bg-gray-100 rounded overflow-hidden">
-                      <div className={`h-full ${Number.isFinite(currentRScore) ? 'bg-blue-600' : 'bg-gray-300'}`} style={{ width: `${Number.isFinite(currentRScore) ? currentRScore : 0}%` }} />
-                    </div>
-                    <div className="ml-2 text-gray-600">{Number.isFinite(currentRScore) ? `${currentRScore}%` : '—'}</div>
-                  </div>
-                  {/* Last results */}
-                  <div className="text-xs text-gray-600">
-                    Flashcards: {Number.isFinite(topicState?.reinforce?.flashAvgPct) ? `${topicState.reinforce.flashAvgPct}%` : '—'} • Quiz: {Number.isFinite(topicState?.reinforce?.quizAvgPct) ? `${topicState.reinforce.quizAvgPct}%` : '—'}
-                  </div>
-                  <div className="text-xs text-gray-600">
-                    Sessions: Flashcards ×{topicState?.reinforce?.flashAttempts || 0} • Quiz ×{topicState?.reinforce?.quizAttempts || 0}
-                  </div>
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='flashcards' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
                       <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='flashcards'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }} />
@@ -355,6 +341,22 @@ function TopicDetail({ topic, onBack }) {
                     </span>
                     <span>🎯</span>
                   </label>
+                  {/* Reinforce progress information moved below the Reinforce options */}
+                  <div className="mt-2 space-y-2">
+                    <div className="text-xs font-medium text-gray-700">Reinforce Progress</div>
+                    <div className="flex items-center text-xs">
+                      <div className="flex-1 h-2 bg-gray-100 rounded overflow-hidden">
+                        <div className={`${Number.isFinite(currentRScore) ? 'bg-blue-600' : 'bg-gray-300'}`} style={{ width: `${Number.isFinite(currentRScore) ? currentRScore : 0}%`, height: '100%' }} />
+                      </div>
+                      <div className="ml-2 text-gray-600">{Number.isFinite(currentRScore) ? `${currentRScore}%` : '—'}</div>
+                    </div>
+                    <div className="text-xs text-gray-600">
+                      Flashcards: {Number.isFinite(topicState?.reinforce?.flashAvgPct) ? `${topicState.reinforce.flashAvgPct}%` : '—'} • Quiz: {Number.isFinite(topicState?.reinforce?.quizAvgPct) ? `${topicState.reinforce.quizAvgPct}%` : '—'}
+                    </div>
+                    <div className="text-xs text-gray-600">
+                      Sessions: Flashcards ×{topicState?.reinforce?.flashAttempts || 0} • Quiz ×{topicState?.reinforce?.quizAttempts || 0}
+                    </div>
+                  </div>
                 </div>
               </div>
               {/* Exam Column removed; exams will be in a separate page */}
