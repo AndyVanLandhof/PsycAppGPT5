@@ -24,7 +24,7 @@ function safeParseJson(text) {
 
 export default function ExaminePage({ topicId, title, onBack }) {
   const { actions } = useTopicProgress(topicId);
-  const { callAIWithPublicSources } = useAIService();
+  const { callAIWithPublicSources, callAIJsonOnly } = useAIService();
   const [mode, setMode] = useState(null); // 'mcq' | 'short' | 'scenario' | 'essay'
   const [startedAt, setStartedAt] = useState(null);
   const [elapsed, setElapsed] = useState(0);
@@ -56,28 +56,45 @@ export default function ExaminePage({ topicId, title, onBack }) {
         </div>
 
         {!mode && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="border rounded-lg p-4 bg-white">
-              <div className="font-semibold">MCQ Drill</div>
-              <div className="text-sm text-gray-600">5 quick multiple-choice questions.</div>
-              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('mcq')}>Start</button>
+          <>
+            <div className="border rounded-lg p-4 bg-white space-y-3">
+              <div className="font-semibold">About AQA Exam Question Types</div>
+              <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+                <li><span className="font-medium">MCQ (1 mark):</span> Identify/recall, methods, or application. 4 options, 1 correct.</li>
+                <li><span className="font-medium">Short answers (2–6 marks):</span> Define/identify (2), outline two (4), explain with example (3–4), brief methods/ethics/data tasks.</li>
+                <li><span className="font-medium">Scenario / Application (6 marks):</span> Apply a theory/model to a novel stem; link stem details to correct concepts.</li>
+                <li><span className="font-medium">Essay (16 marks):</span> Discuss/evaluate a theory/approach; balanced AO1 knowledge and AO3 evaluation.</li>
+              </ul>
+              <div className="font-semibold">Assessment Objectives (Psychology)</div>
+              <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+                <li><span className="font-medium">AO1:</span> Knowledge & understanding — accurate terms, definitions, descriptions.</li>
+                <li><span className="font-medium">AO2:</span> Application — use knowledge in context (scenarios, data, cases).</li>
+                <li><span className="font-medium">AO3:</span> Analysis & evaluation — strengths/limitations, methods, issues & debates.</li>
+              </ul>
             </div>
-            <div className="border rounded-lg p-4 bg-white">
-              <div className="font-semibold">Short Answers</div>
-              <div className="text-sm text-gray-600">6 items, 2–6 marks each.</div>
-              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('short')}>Start</button>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="border rounded-lg p-4 bg-white">
+                <div className="font-semibold">MCQ Drill</div>
+                <div className="text-sm text-gray-600">5 quick multiple-choice questions.</div>
+                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('mcq')}>Start</button>
+              </div>
+              <div className="border rounded-lg p-4 bg-white">
+                <div className="font-semibold">Short Answers</div>
+                <div className="text-sm text-gray-600">6 items, 2–6 marks each.</div>
+                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('short')}>Start</button>
+              </div>
+              <div className="border rounded-lg p-4 bg-white">
+                <div className="font-semibold">Scenario / Application</div>
+                <div className="text-sm text-gray-600">1–2 items, 6–12 marks total.</div>
+                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('scenario')}>Start</button>
+              </div>
+              <div className="border rounded-lg p-4 bg-white">
+                <div className="font-semibold">Essay</div>
+                <div className="text-sm text-gray-600">One 16-mark essay question.</div>
+                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('essay')}>Start</button>
+              </div>
             </div>
-            <div className="border rounded-lg p-4 bg-white">
-              <div className="font-semibold">Scenario / Application</div>
-              <div className="text-sm text-gray-600">1–2 items, 6–12 marks total.</div>
-              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('scenario')}>Start</button>
-            </div>
-            <div className="border rounded-lg p-4 bg-white">
-              <div className="font-semibold">Essay</div>
-              <div className="text-sm text-gray-600">One 16-mark essay question.</div>
-              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('essay')}>Start</button>
-            </div>
-          </div>
+          </>
         )}
 
         {mode === 'mcq' && <MCQDrill topicId={topicId} title={title} timer={config.timers.mcq} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
@@ -187,11 +204,12 @@ Return JSON ONLY: { questions: [ { question: string, options: string[4], correct
       if (ranRef.current) return; ranRef.current = true;
       const style = await getAqaStyleExamplesCached();
       const cues = (style.short || []).slice(0,2).join('\n');
+      const sys = 'You are an AQA 7182 question writer. Respond in strict JSON only.';
       const prompt = `Create 6 short-answer questions (2–6 marks each) for AQA Psychology topic: ${title}.
 Style cues (do not copy text, only phrasing format):\n${cues}
 Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
       try {
-        const text = await callAIWithPublicSources(prompt, title, null);
+        const text = await callAIJsonOnly(prompt, sys, 'gpt-4o-mini');
         const parsed = safeParseJson(text);
         const got = Array.isArray(parsed?.items) ? parsed.items.slice(0,6) : [];
         if (got.length === 6) setItems(got);

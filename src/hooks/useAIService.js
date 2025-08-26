@@ -49,27 +49,49 @@ export function useAIService() {
         return data?.content?.[0]?.text || "Claude did not return a valid response.";
       }
 
-      // Default to OpenAI
-      const response = await fetch("https://api.openai.com/v1/chat/completions", {
+      // Default to OpenAI via backend proxy
+      const key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
+      const response = await fetch("/api/ai", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${OPENAI_API_KEY}`
+          ...(key ? { 'x-openai-key': key } : {})
         },
         body: JSON.stringify({
-          model: modelName || "gpt-4o",
+          model: modelName || "gpt-4o-mini",
           messages: [{ role: "user", content: finalPrompt }],
-          temperature: 0.7
+          temperature: 0.7,
+          max_tokens: 800
         })
       });
 
       const data = await response.json();
       console.log("[OpenAI raw]", data);
+      if (!response.ok) {
+        throw new Error(data?.error || 'OpenAI proxy error');
+      }
       return data?.choices?.[0]?.message?.content || "ChatGPT did not return a valid response.";
     } catch (err) {
       console.error("[AI Error]", err);
       return "Something went wrong. Please try again.";
     }
+  };
+
+  // Strict JSON-only helper (no educational wrapper). Optionally pass a system prompt.
+  const callAIJsonOnly = async (userPrompt, systemPrompt = null, modelName = "gpt-4o-mini") => {
+    const key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
+    const messages = [];
+    if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
+    messages.push({ role: 'user', content: userPrompt });
+    const response = await fetch('/api/ai', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...(key ? { 'x-openai-key': key } : {}) },
+      body: JSON.stringify({ model: modelName, messages, temperature: 0.2, max_tokens: 800, response_format: { type: 'json_object' } })
+    });
+    const data = await response.json();
+    console.log('[OpenAI raw]', data);
+    if (!response.ok) throw new Error(data?.error || 'OpenAI proxy error');
+    return data?.choices?.[0]?.message?.content || '';
   };
 
   // Enhanced AI call with vault context
@@ -173,6 +195,7 @@ Focus on accuracy, educational value, and depth appropriate for AQA Psychology 7
     callAIForExam,
     callAIForRevision,
     callAIWithPublicSources,
+    callAIJsonOnly,
     isLoading: false // You can wire this into a true loading state if needed
   };
 }

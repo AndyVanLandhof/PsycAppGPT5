@@ -1,11 +1,12 @@
 // Attempts to load style exemplars from past paper extracts in /public/vault/PastPapers/*_extracted.txt
 // Falls back to built-in templates if fetch fails.
 
+// In Vite, assets under public/ are served at the root, so omit "/public"
 const candidateFiles = [
-  '/public/vault/PastPapers/AQA-71821-QP-JUN19_extracted.txt',
-  '/public/vault/PastPapers/AQA-71821-QP-JUN22_extracted.txt',
-  '/public/vault/PastPapers/AQA-71822-QP-JUN19_extracted.txt',
-  '/public/vault/PastPapers/AQA-71822-QP-JUN22_extracted.txt'
+  '/vault/PastPapers/AQA-71821-QP-JUN19_extracted.txt',
+  '/vault/PastPapers/AQA-71821-QP-JUN22_extracted.txt',
+  '/vault/PastPapers/AQA-71822-QP-JUN19_extracted.txt',
+  '/vault/PastPapers/AQA-71822-QP-JUN22_extracted.txt'
 ];
 
 export async function getAqaStyleExamples() {

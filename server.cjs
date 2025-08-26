@@ -67,7 +67,7 @@ Examples:
         'Authorization': `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-4o-mini',
         messages,
         max_tokens: 200,
         temperature: 0.7,
@@ -83,6 +83,35 @@ Examples:
   } catch (err) {
     console.error('OpenAI API error:', err);
     res.status(500).json({ reply: 'Error contacting OpenAI API.' });
+  }
+});
+
+// Generic AI proxy: POST /api/ai { model, messages, temperature }
+app.post('/api/ai', async (req, res) => {
+  const { model = 'gpt-4o-mini', messages = [], temperature = 0.7, max_tokens = 800, response_format = null } = req.body || {};
+  const headerKey = (req.headers['x-openai-key'] || '').toString().trim();
+  const envKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '';
+  const OPENAI_API_KEY = (headerKey && headerKey.startsWith('sk-')) ? headerKey : envKey;
+  if (!OPENAI_API_KEY || !OPENAI_API_KEY.startsWith('sk-')) {
+    return res.status(401).json({ error: 'Missing or invalid OpenAI API key. Add in Settings or server .env' });
+  }
+  try {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${OPENAI_API_KEY}`,
+      },
+      body: JSON.stringify({ model, messages, temperature, max_tokens, ...(response_format ? { response_format } : {}) })
+    });
+    const data = await response.json();
+    if (!response.ok) {
+      return res.status(response.status).json({ error: data?.error?.message || 'OpenAI error' });
+    }
+    res.json(data);
+  } catch (e) {
+    console.error('AI proxy error', e);
+    res.status(500).json({ error: 'Proxy error' });
   }
 });
 
