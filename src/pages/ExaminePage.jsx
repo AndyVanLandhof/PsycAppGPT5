@@ -59,17 +59,19 @@ export default function ExaminePage({ topicId, title, onBack }) {
           <>
             <div className="border rounded-lg p-4 bg-white space-y-3">
               <div className="font-semibold">About AQA Exam Question Types</div>
+              <p className="text-sm text-gray-700">Here’s what to expect in each mode and how to approach it. Skim this once, then jump into practice — the tiles below start each drill.</p>
               <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-                <li><span className="font-medium">MCQ (1 mark):</span> Identify/recall, methods, or application. 4 options, 1 correct.</li>
-                <li><span className="font-medium">Short answers (2–6 marks):</span> Define/identify (2), outline two (4), explain with example (3–4), brief methods/ethics/data tasks.</li>
-                <li><span className="font-medium">Scenario / Application (6 marks):</span> Apply a theory/model to a novel stem; link stem details to correct concepts.</li>
-                <li><span className="font-medium">Essay (16 marks):</span> Discuss/evaluate a theory/approach; balanced AO1 knowledge and AO3 evaluation.</li>
+                <li><span className="font-medium">MCQ (1 mark each):</span> Quick checks of core knowledge and simple applications. You’ll pick 1 of 4 options; the wrong ones are plausible, so read the stem carefully and rule out distractors.</li>
+                <li><span className="font-medium">Short answers (2–6 marks):</span> Short, focused tasks. For <em>define/identify (2)</em>, give a crisp definition and key feature. For <em>outline two (4)</em>, make two distinct points. For <em>explain with example (3–4)</em>, give a clear idea and a brief, relevant example.</li>
+                <li><span className="font-medium">Scenario / Application (6 marks):</span> You’ll get a short story/data. Name the correct concepts and connect them explicitly to details in the stem — not generic statements.</li>
+                <li><span className="font-medium">Essay (16 marks):</span> A “Discuss/Evaluate” style response. Aim for accurate AO1 (clear, concise knowledge) and balanced AO3 (strengths/limits, methods, issues & debates). A simple plan works: intro → 2–3 developed paragraphs → brief conclusion.</li>
               </ul>
               <div className="font-semibold">Assessment Objectives (Psychology)</div>
+              <p className="text-sm text-gray-700">Keep these in mind while you practise — most questions reward a mix.</p>
               <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-                <li><span className="font-medium">AO1:</span> Knowledge & understanding — accurate terms, definitions, descriptions.</li>
-                <li><span className="font-medium">AO2:</span> Application — use knowledge in context (scenarios, data, cases).</li>
-                <li><span className="font-medium">AO3:</span> Analysis & evaluation — strengths/limitations, methods, issues & debates.</li>
+                <li><span className="font-medium">AO1:</span> Knowledge & understanding — accurate terms, definitions, descriptions, key studies.</li>
+                <li><span className="font-medium">AO2:</span> Application — use your knowledge in context (scenario details, data, cases) and make the link explicit.</li>
+                <li><span className="font-medium">AO3:</span> Analysis & evaluation — strengths/limitations, methodological issues, comparisons, and issues & debates where relevant.</li>
               </ul>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
