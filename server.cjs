@@ -8,6 +8,8 @@ process.on('unhandledRejection', (reason, promise) => {
 // server.cjs
 // To use: create a .env file with OPENAI_API_KEY=sk-... in your project root
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 // const fetch = require('node-fetch'); // Not needed in Node 18+
 const cors = require('cors');
 require('dotenv').config();
@@ -24,7 +26,7 @@ app.get('/test', (req, res) => res.send('Test OK'));
 
 app.post('/api/gpt-socratic', async (req, res) => {
   const { topic, chatHistory } = req.body;
-  const headerKey = (req.headers['x-openai-key'] || '').toString().trim();
+  const headerKey = (req.headers['x-openai-key'] || '').toString().trim().replace(/^['"]|['"]$/g, '');
   const envKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '';
   const OPENAI_API_KEY = (headerKey && headerKey.startsWith('sk-')) ? headerKey : envKey;
   if (!OPENAI_API_KEY || !OPENAI_API_KEY.startsWith('sk-')) {
@@ -112,6 +114,111 @@ app.post('/api/ai', async (req, res) => {
   } catch (e) {
     console.error('AI proxy error', e);
     res.status(500).json({ error: 'Proxy error' });
+  }
+});
+
+// Generate a small bank for a topic (short answers) in one call
+app.post('/api/generate-bank', async (req, res) => {
+  const { topic = 'biopsychology', kind = 'short', count = 12, save = false, append = false } = req.body || {};
+  const headerKey = (req.headers['x-openai-key'] || '').toString().trim();
+  const envKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '';
+  const OPENAI_API_KEY = (headerKey && headerKey.startsWith('sk-')) ? headerKey : envKey;
+  if (!OPENAI_API_KEY || !OPENAI_API_KEY.startsWith('sk-')) {
+    return res.status(401).json({ error: 'Missing or invalid OpenAI API key.' });
+  }
+  const system = 'You are an AQA 7182 Psychology question writer. Respond in strict JSON only.';
+  let user = '';
+  if (kind === 'short') {
+    user = `Create ${count} short-answer questions (2–6 marks) for AQA Psychology topic: ${topic}.
+Mix of: define/identify (2), outline two (4), explain with example (3–4), quick methods/ethics/data.
+Return JSON as { items: [ { prompt: string, max: 2|3|4|6, markscheme: string[] } ] }.`;
+  } else if (kind === 'mcq') {
+    user = `Create ${count} MCQs (1 mark each) for AQA Psychology topic: ${topic}.
+Return JSON as { questions: [ { question: string, options: string[4], correctIndex: 0|1|2|3 } ] }.`;
+  } else if (kind === 'scenario') {
+    user = `Create ${Math.ceil(count/2)} scenario/application questions (6 marks) for AQA Psychology topic: ${topic}.
+Return JSON as { items: [ { prompt: string, max: 6, markscheme: string[] } ] }.`;
+  } else {
+    user = `Create ${Math.min(count, 2)} essay stems (16 marks) for AQA Psychology topic: ${topic}.
+Return JSON as { items: [ { prompt: string } ] }.`;
+  }
+
+  try {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${OPENAI_API_KEY}` },
+      body: JSON.stringify({
+        model: 'gpt-4o-mini',
+        response_format: { type: 'json_object' },
+        temperature: 0.2,
+        max_tokens: 1200,
+        messages: [ { role: 'system', content: system }, { role: 'user', content: user } ]
+      })
+    });
+    const data = await response.json();
+    if (!response.ok) return res.status(response.status).json({ error: data?.error?.message || 'OpenAI error' });
+    let saved = null;
+    let parsedOk = true;
+    let parseError = null;
+    const content = data?.choices?.[0]?.message?.content || '{}';
+    let parsed = null;
+    try {
+      parsed = JSON.parse(content);
+    } catch (e) {
+      parsedOk = false;
+      parseError = e?.message || String(e);
+    }
+    try {
+      if (save) {
+        const outDir = path.join(__dirname, 'public', 'banks');
+        fs.mkdirSync(outDir, { recursive: true });
+        const outPath = path.join(outDir, `${topic}_${kind}.json`);
+        if (parsedOk) {
+          if (append && fs.existsSync(outPath)) {
+            try {
+              const existing = JSON.parse(fs.readFileSync(outPath, 'utf8')) || {};
+              if (kind === 'mcq') {
+                const oldQs = Array.isArray(existing.questions) ? existing.questions : [];
+                const newQs = Array.isArray(parsed.questions) ? parsed.questions : [];
+                const merged = [...oldQs, ...newQs];
+                const uniq = [];
+                const seen = new Set();
+                for (const q of merged) {
+                  const key = (q?.question || '').trim();
+                  if (key && !seen.has(key)) { seen.add(key); uniq.push(q); }
+                }
+                fs.writeFileSync(outPath, JSON.stringify({ questions: uniq }, null, 2), 'utf8');
+              } else {
+                const oldItems = Array.isArray(existing.items) ? existing.items : [];
+                const newItems = Array.isArray(parsed.items) ? parsed.items : [];
+                const merged = [...oldItems, ...newItems];
+                const uniq = [];
+                const seen = new Set();
+                for (const it of merged) {
+                  const key = (it?.prompt || '').trim();
+                  if (key && !seen.has(key)) { seen.add(key); uniq.push(it); }
+                }
+                fs.writeFileSync(outPath, JSON.stringify({ items: uniq }, null, 2), 'utf8');
+              }
+            } catch (e) {
+              fs.writeFileSync(outPath, JSON.stringify(parsed, null, 2), 'utf8');
+            }
+          } else {
+            fs.writeFileSync(outPath, JSON.stringify(parsed, null, 2), 'utf8');
+          }
+        } else {
+          // Fallback: save raw content so user can inspect
+          fs.writeFileSync(outPath, JSON.stringify({ raw: content }, null, 2), 'utf8');
+        }
+        saved = `/banks/${topic}_${kind}.json`;
+      }
+    } catch (e) {
+      parseError = parseError || e?.message || String(e);
+    }
+    return res.json({ ok: true, saved, parsedOk, parseError });
+  } catch (e) {
+    console.error('generate-bank error', e);
+    return res.status(500).json({ error: 'Proxy error' });
   }
 });
 

@@ -4,6 +4,7 @@ import { useAIService } from '../hooks/useAIService.js';
 import { getTopicConfig } from '../examine/config.js';
 import { gradeFromPercent } from '../exam/score.js';
 import { getAqaStyleExamplesCached } from '../examine/aqaStyle.js';
+// Question bank utilities are not needed while modes are disabled
 
 function percentToGrade(pct) {
   const n = Number(pct) || 0;
@@ -24,7 +25,6 @@ function safeParseJson(text) {
 
 export default function ExaminePage({ topicId, title, onBack }) {
   const { actions } = useTopicProgress(topicId);
-  const { callAIWithPublicSources, callAIJsonOnly } = useAIService();
   const [mode, setMode] = useState(null); // 'mcq' | 'short' | 'scenario' | 'essay'
   const [startedAt, setStartedAt] = useState(null);
   const [elapsed, setElapsed] = useState(0);
@@ -55,54 +55,52 @@ export default function ExaminePage({ topicId, title, onBack }) {
           )}
         </div>
 
-        {!mode && (
-          <>
-            <div className="border rounded-lg p-4 bg-white space-y-3">
-              <div className="font-semibold">About AQA Exam Question Types</div>
-              <p className="text-sm text-gray-700">Here’s what to expect in each mode and how to approach it. Skim this once, then jump into practice — the tiles below start each drill.</p>
-              <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-                <li><span className="font-medium">MCQ (1 mark each):</span> Quick checks of core knowledge and simple applications. You’ll pick 1 of 4 options; the wrong ones are plausible, so read the stem carefully and rule out distractors.</li>
-                <li><span className="font-medium">Short answers (2–6 marks):</span> Short, focused tasks. For <em>define/identify (2)</em>, give a crisp definition and key feature. For <em>outline two (4)</em>, make two distinct points. For <em>explain with example (3–4)</em>, give a clear idea and a brief, relevant example.</li>
-                <li><span className="font-medium">Scenario / Application (6 marks):</span> You’ll get a short story/data. Name the correct concepts and connect them explicitly to details in the stem — not generic statements.</li>
-                <li><span className="font-medium">Essay (16 marks):</span> A “Discuss/Evaluate” style response. Aim for accurate AO1 (clear, concise knowledge) and balanced AO3 (strengths/limits, methods, issues & debates). A simple plan works: intro → 2–3 developed paragraphs → brief conclusion.</li>
-              </ul>
-              <div className="font-semibold">Assessment Objectives (Psychology)</div>
-              <p className="text-sm text-gray-700">Keep these in mind while you practise — most questions reward a mix.</p>
-              <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-                <li><span className="font-medium">AO1:</span> Knowledge & understanding — accurate terms, definitions, descriptions, key studies.</li>
-                <li><span className="font-medium">AO2:</span> Application — use your knowledge in context (scenario details, data, cases) and make the link explicit.</li>
-                <li><span className="font-medium">AO3:</span> Analysis & evaluation — strengths/limitations, methodological issues, comparisons, and issues & debates where relevant.</li>
-              </ul>
+        <div className="border rounded-lg p-4 bg-white space-y-3">
+          <div className="font-semibold">Assessment Objectives (Psychology)</div>
+          <p className="text-sm text-gray-700">Keep these in mind while you practise — most questions reward a mix.</p>
+          <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+            <li><span className="font-medium">AO1:</span> Knowledge & understanding — accurate terms, definitions, descriptions, key studies.</li>
+            <li><span className="font-medium">AO2:</span> Application — use your knowledge in context (scenario details, data, cases) and make the link explicit.</li>
+            <li><span className="font-medium">AO3:</span> Analysis & evaluation — strengths/limitations, methodological issues, comparisons, and issues & debates where relevant.</li>
+          </ul>
+          <div className="font-semibold">About AQA Exam Question Types</div>
+          <p className="text-sm text-gray-700">Here’s what to expect in each mode and how to approach it. Skim this once, then jump into practice — the tiles below start each drill.</p>
+          <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+            <li><span className="font-medium">MCQ (1 mark each):</span> Quick checks of core knowledge and simple applications. You’ll pick 1 of 4 options; the wrong ones are plausible, so read the stem carefully and rule out distractors.</li>
+            <li><span className="font-medium">Short answers (2–6 marks):</span> Short, focused tasks. For <em>define/identify (2)</em>, give a crisp definition and key feature. For <em>outline two (4)</em>, make two distinct points. For <em>explain with example (3–4)</em>, give a clear idea and a brief, relevant example.</li>
+            <li><span className="font-medium">Scenario / Application (6 marks):</span> You’ll get a short story/data. Name the correct concepts and connect them explicitly to details in the stem — not generic statements.</li>
+            <li><span className="font-medium">Essay (16 marks):</span> A “Discuss/Evaluate” style response. Aim for accurate AO1 (clear, concise knowledge) and balanced AO3 (strengths/limits, methods, issues & debates). A simple plan works: intro → 2–3 developed paragraphs → brief conclusion.</li>
+          </ul>
+        </div>
+        {false && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="border rounded-lg p-4 bg-white">
+              <div className="font-semibold">MCQ Drill</div>
+              <div className="text-sm text-gray-600">5 quick multiple-choice questions.</div>
+              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('mcq')}>Start</button>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="border rounded-lg p-4 bg-white">
-                <div className="font-semibold">MCQ Drill</div>
-                <div className="text-sm text-gray-600">5 quick multiple-choice questions.</div>
-                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('mcq')}>Start</button>
-              </div>
-              <div className="border rounded-lg p-4 bg-white">
-                <div className="font-semibold">Short Answers</div>
-                <div className="text-sm text-gray-600">6 items, 2–6 marks each.</div>
-                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('short')}>Start</button>
-              </div>
-              <div className="border rounded-lg p-4 bg-white">
-                <div className="font-semibold">Scenario / Application</div>
-                <div className="text-sm text-gray-600">1–2 items, 6–12 marks total.</div>
-                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('scenario')}>Start</button>
-              </div>
-              <div className="border rounded-lg p-4 bg-white">
-                <div className="font-semibold">Essay</div>
-                <div className="text-sm text-gray-600">One 16-mark essay question.</div>
-                <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('essay')}>Start</button>
-              </div>
+            <div className="border rounded-lg p-4 bg-white">
+              <div className="font-semibold">Short Answers</div>
+              <div className="text-sm text-gray-600">6 items, 2–6 marks each.</div>
+              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('short')}>Start</button>
             </div>
-          </>
+            <div className="border rounded-lg p-4 bg-white">
+              <div className="font-semibold">Scenario / Application</div>
+              <div className="text-sm text-gray-600">1–2 items, 6–12 marks total.</div>
+              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('scenario')}>Start</button>
+            </div>
+            <div className="border rounded-lg p-4 bg-white">
+              <div className="font-semibold">Essay</div>
+              <div className="text-sm text-gray-600">One 16-mark essay question.</div>
+              <button className="mt-3 px-3 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700" onClick={() => startMode('essay')}>Start</button>
+            </div>
+          </div>
         )}
 
-        {mode === 'mcq' && <MCQDrill topicId={topicId} title={title} timer={config.timers.mcq} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
-        {mode === 'short' && <ShortAnswers topicId={topicId} title={title} timer={config.timers.short} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
-        {mode === 'scenario' && <ScenarioMode topicId={topicId} title={title} timer={config.timers.scenario} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
-        {mode === 'essay' && <EssayMode topicId={topicId} title={title} timer={config.timers.essay} onBack={() => setMode(null)} onScored={(pct) => actions.recordTimedEssay(pct)} />}
+        {false && <MCQDrill topicId={topicId} title={title} timer={config.timers.mcq} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
+        {false && <ShortAnswers topicId={topicId} title={title} timer={config.timers.short} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
+        {false && <ScenarioMode topicId={topicId} title={title} timer={config.timers.scenario} onBack={() => setMode(null)} onScored={(pct) => actions.recordQuizResult(pct)} />}
+        {false && <EssayMode topicId={topicId} title={title} timer={config.timers.essay} onBack={() => setMode(null)} onScored={(pct) => actions.recordTimedEssay(pct)} />}
       </div>
     </div>
   );
@@ -112,7 +110,6 @@ export default function ExaminePage({ topicId, title, onBack }) {
     const [idx, setIdx] = useState(0);
     const [answers, setAnswers] = useState([]); // indices
     const [done, setDone] = useState(false);
-    const { callAIWithPublicSources } = useAIService();
     const ranRef = useRef(false);
     // autosave
     const key = `exam-mcq-${topicId}`;
@@ -125,21 +122,15 @@ export default function ExaminePage({ topicId, title, onBack }) {
 
     useEffect(() => { (async () => {
       if (ranRef.current) return; ranRef.current = true;
-      const style = await getAqaStyleExamplesCached();
-      const cues = (style.mcq || []).slice(0,2).join('\n');
-      const prompt = `Create 5 multiple-choice questions (MCQs) for AQA Psychology topic: ${title}.
-Style cues (do not copy text, only phrasing format):\n${cues}
-Return JSON ONLY: { questions: [ { question: string, options: string[4], correctIndex: 0-3 } ] }.`;
-      try {
-        const text = await callAIWithPublicSources(prompt, title, null);
-        const parsed = safeParseJson(text);
-        const got = Array.isArray(parsed?.questions) ? parsed.questions.slice(0,5) : [];
-        if (got.length === 5) setQs(got);
-        else setQs(defaultMcq(title));
-      } catch (_) {
+      // Prefer bank; fallback to AI
+      await ensureHydratedFromPublic(topicId, 'mcq');
+      const picked = sample({ topic: topicId, mode: 'mcq', n: 5 });
+      if (picked.length) {
+        setQs(picked.map(q => ({ question: q.stem, options: q.choices, correctIndex: q.answer })));
+      } else {
         setQs(defaultMcq(title));
       }
-    })(); }, [title]);
+    })(); }, [title, topicId]);
 
     useEffect(() => {
       try { sessionStorage.setItem(key, JSON.stringify({ qs, answers, idx })); } catch (_) {}
@@ -195,7 +186,6 @@ Return JSON ONLY: { questions: [ { question: string, options: string[4], correct
     const [items, setItems] = useState([]);
     const [answers, setAnswers] = useState({});
     const [result, setResult] = useState(null);
-    const { callAIWithPublicSources } = useAIService();
     const ranRef = useRef(false);
     const key = `exam-short-${topicId}`;
     useEffect(() => {
@@ -204,22 +194,14 @@ Return JSON ONLY: { questions: [ { question: string, options: string[4], correct
 
     useEffect(() => { (async () => {
       if (ranRef.current) return; ranRef.current = true;
-      const style = await getAqaStyleExamplesCached();
-      const cues = (style.short || []).slice(0,2).join('\n');
-      const sys = 'You are an AQA 7182 question writer. Respond in strict JSON only.';
-      const prompt = `Create 6 short-answer questions (2–6 marks each) for AQA Psychology topic: ${title}.
-Style cues (do not copy text, only phrasing format):\n${cues}
-Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
-      try {
-        const text = await callAIJsonOnly(prompt, sys, 'gpt-4o-mini');
-        const parsed = safeParseJson(text);
-        const got = Array.isArray(parsed?.items) ? parsed.items.slice(0,6) : [];
-        if (got.length === 6) setItems(got);
-        else setItems(defaultShort());
-      } catch (_) {
+      await ensureHydratedFromPublic(topicId, 'short');
+      const picked = sample({ topic: topicId, mode: 'short', n: 6 });
+      if (picked.length) {
+        setItems(picked.map(q => ({ prompt: q.stem, max: q.marks, markscheme: q.indicative })));
+      } else {
         setItems(defaultShort());
       }
-    })(); }, [title]);
+    })(); }, [title, topicId]);
     useEffect(() => { try { sessionStorage.setItem(key, JSON.stringify({ items, answers })); } catch(_){} }, [items, answers]);
 
     const submit = async () => {
@@ -245,7 +227,18 @@ Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
       }
     };
 
-    if (!items.length) return <div className="bg-white border rounded p-4">Loading questions…</div>;
+    if (!items.length) {
+      return (
+        <div className="bg-white border rounded p-4 space-y-2">
+          <div className="font-semibold">Loading questions…</div>
+          <button className="px-3 py-2 rounded bg-gray-100 hover:bg-gray-200 text-sm" onClick={async ()=>{
+            await ensureHydratedFromPublic(topicId, 'short');
+            const picked = sample({ topic: topicId, mode: 'short', n: 6 });
+            if (picked.length) setItems(picked.map(q => ({ prompt: q.stem, max: q.marks, markscheme: q.indicative })));
+          }}>Retry loading from bank</button>
+        </div>
+      );
+    }
     if (result) return (
       <div className="bg-white border rounded p-4 space-y-3">
         <div className="font-semibold">Short Answers Results</div>
@@ -258,11 +251,15 @@ Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
       <div className="bg-white border rounded p-4 space-y-4">
         {items.map((it, i) => (
           <div key={i} className="space-y-2">
-            <div className="text-sm font-medium">Q{i+1}. {it.prompt} <span className="text-gray-500">(max {it.max} marks)</span></div>
+            <div className="text-sm font-medium">Q{i+1}. {it?.prompt || `Short-answer question ${i+1}`} <span className="text-gray-500">(max {it?.max ?? 4} marks)</span></div>
             <textarea className="w-full border rounded p-2" rows="3" value={answers[i]||''} onChange={(e)=> setAnswers({ ...answers, [i]: e.target.value })} />
           </div>
         ))}
-        <div className="flex justify-end">
+        <div className="flex justify-between items-center">
+          <button className="px-3 py-2 rounded bg-gray-100 hover:bg-gray-200" onClick={async ()=>{
+            const bank = await loadBank(topicId, 'short');
+            if (bank && Array.isArray(bank.items) && bank.items.length) setItems(bank.items.slice(0,6));
+          }}>Reload from bank</button>
           <button className="px-3 py-2 rounded bg-green-600 text-white hover:bg-green-700" onClick={submit}>Submit</button>
         </div>
       </div>
@@ -273,28 +270,20 @@ Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
     const [items, setItems] = useState([]);
     const [answers, setAnswers] = useState({});
     const [result, setResult] = useState(null);
-    const { callAIWithPublicSources } = useAIService();
     const ranRef = useRef(false);
     const key = `exam-scenario-${topicId}`;
     useEffect(() => { try { const rec = JSON.parse(sessionStorage.getItem(key)); if (rec && rec.items) { setItems(rec.items); setAnswers(rec.answers||{}); } } catch(_){} }, []);
 
     useEffect(() => { (async () => {
       if (ranRef.current) return; ranRef.current = true;
-      const style = await getAqaStyleExamplesCached();
-      const cues = (style.scenario || []).slice(0,2).join('\n');
-      const prompt = `Create 2 scenario/application questions (6 marks each) for AQA Psychology topic: ${title}.
-Style cues (do not copy text, only phrasing format):\n${cues}
-Return JSON ONLY as { items: [ { prompt: string, max: number } ] }.`;
-      try {
-        const text = await callAIWithPublicSources(prompt, title, null);
-        const parsed = safeParseJson(text);
-        const got = Array.isArray(parsed?.items) ? parsed.items.slice(0,2) : [];
-        if (got.length === 2) setItems(got);
-        else setItems(defaultScenario());
-      } catch (_) {
+      await ensureHydratedFromPublic(topicId, 'scenario');
+      const picked = sample({ topic: topicId, mode: 'scenario', n: 2 });
+      if (picked.length) {
+        setItems(picked.map(q => ({ prompt: q.stem, max: q.marks, markscheme: q.indicative })));
+      } else {
         setItems(defaultScenario());
       }
-    })(); }, [title]);
+    })(); }, [title, topicId]);
     useEffect(() => { try { sessionStorage.setItem(key, JSON.stringify({ items, answers })); } catch(_){} }, [items, answers]);
 
     const submit = async () => {

@@ -14,6 +14,7 @@ import { useEffect } from 'react';
 import './utils/srsCardGenerator';
 import TopicPage from './pages/TopicPage.jsx';
 import ExaminePage from './pages/ExaminePage.jsx';
+import BankGenerator from './pages/BankGenerator.jsx';
 
 // Helper: group topics by component
 const getTopicsByComponent = (comp) =>
@@ -113,6 +114,10 @@ function App() {
     return <ExaminePage topicId="biopsychology" title="Biopsychology" onBack={() => setView('home')} />;
   }
 
+  if (view === 'bank-generator') {
+    return <BankGenerator onBack={() => setView('home')} />;
+  }
+
   if (view === 'topic-detail' && selectedTopic) {
     return <TopicDetail topic={selectedTopic} onBack={() => setView('home')} />;
   }
@@ -191,6 +196,12 @@ function App() {
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
             🧪 Vault Tester
+          </button>
+          <button
+            onClick={() => setView('bank-generator')}
+            className="flex items-center gap-1 text-base px-3 py-1 ml-3 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
+            🧰 Bank Generator
           </button>
         </div>
       </div>

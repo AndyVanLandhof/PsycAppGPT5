@@ -50,12 +50,14 @@ export function useAIService() {
       }
 
       // Default to OpenAI via backend proxy
-      const key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
+      let key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
+      key = String(key).trim().replace(/^['"]|['"]$/g, ''); // strip quotes/spaces
+      const isValidKey = /^sk-/.test(key) && !/(REPLA|YOUR_OPENAI_API_KEY)/i.test(key) && key.length > 20;
       const response = await fetch("/api/ai", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          ...(key ? { 'x-openai-key': key } : {})
+          ...(isValidKey ? { 'x-openai-key': key } : {})
         },
         body: JSON.stringify({
           model: modelName || "gpt-4o-mini",
@@ -68,12 +70,12 @@ export function useAIService() {
       const data = await response.json();
       console.log("[OpenAI raw]", data);
       if (!response.ok) {
-        throw new Error(data?.error || 'OpenAI proxy error');
+        throw new Error(data?.error || (isValidKey ? 'OpenAI proxy error' : 'Missing/invalid OpenAI API key. Add it in Settings or server .env and reload.'));
       }
       return data?.choices?.[0]?.message?.content || "ChatGPT did not return a valid response.";
     } catch (err) {
       console.error("[AI Error]", err);
-      return "Something went wrong. Please try again.";
+      return `Error: ${err?.message || 'Something went wrong. Please try again.'}`;
     }
   };
 

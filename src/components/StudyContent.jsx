@@ -151,12 +151,13 @@ function StudyContent({ topic, onBack }) {
   }, [ttsState]);
 
   const handleSubmit = async () => {
-    // New AQA Psychology prompt
+    // New AQA Psychology prompt (robust to missing sub-topics/themes)
+    const subTitle = (topic?.subTopic && topic.subTopic.title) ? topic.subTopic.title : topic.title;
+    const themeLine = selectedTheme ? `\nTHEME: ${selectedTheme}` : '';
+    const subLine = subTitle ? `\nSUB-TOPIC: ${subTitle}` : '';
     const basePrompt = `You are an expert AQA Psychology teacher creating study content for AQA Psychology 7182 students.
 
-TOPIC: ${topic.title}
-SUB-TOPIC: ${topic.subTopic.title}
-${selectedTheme ? `THEME: ${selectedTheme}` : ""}
+TOPIC: ${topic.title}${subLine}${themeLine}
 
 Respond ONLY with valid JSON in the format below. Do not include any extra text, markdown, or commentary.
 
@@ -190,22 +191,22 @@ Return in this JSON format:
         result = await callAIWithPublicSources(
           basePrompt,
           topic.title,
-          subTopic.title
+          subTopic?.title || topic.title
         );
       } else {
         const vaultReady = isVaultLoaded() && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
         if (vaultReady) {
           result = await callAIWithVault(
-            basePrompt, 
+            basePrompt,
             topic.title, 
-            subTopic.title, 
+            subTopic?.title || topic.title, 
             { includeAdditional: includeAdvanced }
           );
         } else {
           result = await callAIWithPublicSources(
             basePrompt,
             topic.title,
-            subTopic.title
+            subTopic?.title || topic.title
           );
         }
       }
@@ -327,20 +328,25 @@ Return in this JSON format:
             />
           </div>
 
-          <button
-            onClick={handleSubmit}
-            disabled={isLoading || (!customQuestion && !selectedTheme)}
-            className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold transition-all duration-200"
-          >
-            {isLoading ? (
-              <div className="flex items-center justify-center gap-2">
-                <Loader2 className="w-5 h-5 animate-spin" />
-                Generating Response...
-              </div>
-            ) : (
-              "Ask AI"
-            )}
-          </button>
+          {(() => {
+            const canAsk = !!customQuestion || (themes.length === 0) || !!selectedTheme;
+            return (
+              <button
+                onClick={handleSubmit}
+                disabled={isLoading || !canAsk}
+                className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold transition-all duration-200"
+              >
+                {isLoading ? (
+                  <div className="flex items-center justify-center gap-2">
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                    Generating Response...
+                  </div>
+                ) : (
+                  "Ask AI"
+                )}
+              </button>
+            );
+          })()}
         </div>
 
         {response && (
