@@ -21,22 +21,15 @@ const getTopicsByComponent = (comp) =>
   Object.values(psychologyTopics).filter(t => t.component === comp);
 
 function TopicCard({ topic, onClick }) {
-  const difficultyColor = {
-    Easy: 'bg-green-100 text-green-800',
-    Medium: 'bg-yellow-100 text-yellow-800',
-    Hard: 'bg-red-100 text-red-800',
-  }[topic.difficulty] || 'bg-gray-100 text-gray-800';
-
   return (
     <div
-      className="bg-white border rounded-lg shadow-sm p-4 cursor-pointer hover:shadow-md transition"
+      className="bg-white border rounded-lg shadow-sm p-4 cursor-pointer hover:shadow-md transition h-full"
       onClick={onClick}
     >
-      <div className="flex justify-between items-start">
-        <h3 className="font-semibold text-md">{topic.title}</h3>
-        <span className={`text-xs px-2 py-1 rounded ${difficultyColor}`}>{topic.difficulty}</span>
+      <div className="flex items-start min-h-[3rem]">
+        <h3 className="font-semibold text-md clamp-2">{topic.title}</h3>
       </div>
-      <p className="text-sm text-gray-600 mt-2">{topic.description}</p>
+      <p className="text-sm text-gray-600 mt-2 clamp-2 min-h-[2.5rem]">{topic.description}</p>
     </div>
   );
 }
@@ -47,7 +40,7 @@ function Section({ title, topics, setTopic }) {
       <div className="text-center flex items-center justify-center gap-2 text-purple-700 font-semibold text-2xl">
         {title}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 items-stretch">
         {topics.map((topic) => (
           <TopicCard key={topic.id} topic={topic} onClick={() => setTopic(topic.id)} />
         ))}

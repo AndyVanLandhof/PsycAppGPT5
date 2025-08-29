@@ -70,6 +70,25 @@ const normalizeStudyResponseShape = (obj) => {
   };
 };
 
+// Convert a long paragraph into bullet items
+const splitTextToBullets = (text) => {
+  if (!text || typeof text !== 'string') return [];
+  const t = text.trim();
+  // If the text already contains bullets, split by common bullet markers
+  if (t.includes('\n- ') || t.includes('•') || t.includes('\n* ')) {
+    return t
+      .split(/\n[-*]\s+|•\s+/)
+      .map(s => s.trim())
+      .filter(Boolean);
+  }
+  // Otherwise, split into sentences for a readable bullet list
+  return t
+    .replace(/\s+/g, ' ')
+    .split(/(?<=[.!?])\s+/)
+    .map(s => s.trim())
+    .filter(Boolean);
+};
+
 // Map all topic IDs to their top-level subject folder
 const topicIdToFolder = {
   // Philosophy
@@ -365,7 +384,11 @@ Return in this JSON format:
                 <div className="pr-16">
                   {section.key === "comprehensiveSummary" && (
                     <>
-                      <p className="text-gray-800 leading-relaxed">{response[section.key]}</p>
+                      <ul className="list-disc ml-5 text-gray-800 space-y-2">
+                        {splitTextToBullets(response[section.key]).map((item, idx) => (
+                          <li key={idx} className="leading-relaxed">{item}</li>
+                        ))}
+                      </ul>
                       {vaultReferences.length > 0 && (
                         <div className="mt-3">
                           <a
@@ -524,7 +547,11 @@ Return in this JSON format:
                   <div className="pr-16">
                     {section === "comprehensiveSummary" && (
                       <>
-                        <p className="text-gray-700 leading-relaxed">{popupResponse[section]}</p>
+                        <ul className="list-disc ml-5 text-gray-700 space-y-2">
+                          {splitTextToBullets(popupResponse[section]).map((item, idx) => (
+                            <li key={idx} className="leading-relaxed">{item}</li>
+                          ))}
+                        </ul>
                         {vaultReferences.length > 0 && (
                           <div className="mt-3">
                             <a

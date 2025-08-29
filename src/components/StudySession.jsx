@@ -44,15 +44,13 @@ function StudySession({ topic, onBack }) {
   };
 
   const startSession = async () => {
+    // Enter AO1 recall phase; prefetch AO1 summary in the background
     setPhase('ao1-prompt');
-    setLoading(true);
     try {
       const p = buildAO1SummaryPrompt(topic.title, topic.subTopic.title);
-      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title, 'ChatGPT');
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
       setAo1Text(res);
-    } finally {
-      setLoading(false);
-    }
+    } catch (_) {}
   };
 
   const markUserRecall = async () => {
@@ -90,7 +88,7 @@ Rules:
 - Return ONLY the JSON, no other text`;
 
       console.log('[AO1 Marking] Sending prompt:', feedbackPrompt);
-      const res = await callAIWithPublicSources(feedbackPrompt, topic.title, topic.subTopic.title, 'ChatGPT');
+      const res = await callAIWithPublicSources(feedbackPrompt, topic.title, topic.subTopic.title);
       console.log('[AO1 Marking] Raw AI response:', res);
       
       let feedback;
@@ -178,7 +176,7 @@ Rules:
     setAo3Text('');
     try {
       const p = buildAO3EvaluationPrompt(topic.title, topic.subTopic.title);
-      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title, 'ChatGPT');
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
       setAo3Text(res);
     } catch (e) {
       setAo3Text('Sorry, failed to load AO3 evaluation. Please try again.');
@@ -194,7 +192,7 @@ Rules:
     setScenario({ scenario: 'Preparing scenario…', model: '' });
     try {
       const p = buildScenarioPrompt(topic.title, topic.subTopic.title);
-      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title, 'ChatGPT');
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
       const scen = {
         scenario: res.split('Answer:')[0]?.replace('Scenario:', '').trim() || res,
         model: res.includes('Answer:') ? res.split('Answer:')[1].trim() : ''
@@ -211,7 +209,7 @@ Rules:
     setLoading(true);
     try {
       const p = buildMarkschemeCheckerPrompt('Apply the topic scenario', userAnswer || scenarioAnswer);
-      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title, 'ChatGPT');
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
       let json;
       try { json = JSON.parse(res); } catch { json = { mark: null, improvements: [res.slice(0, 300)] }; }
       setMarking(json);
@@ -229,10 +227,19 @@ Rules:
           <div className="bg-white rounded-lg shadow p-8 text-center space-y-4">
             <h2 className="text-2xl font-bold">Study Session</h2>
             <p className="text-gray-600">{topic.title} — {topic.subTopic.title}</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
-              <div className="p-3 bg-blue-50 rounded border border-blue-200 flex items-center gap-2"><BookOpen className="w-4 h-4"/> AO1 recall</div>
-              <div className="p-3 bg-purple-50 rounded border border-purple-200 flex items-center gap-2"><Target className="w-4 h-4"/> AO3 PEEL</div>
-              <div className="p-3 bg-green-50 rounded border border-green-200 flex items-center gap-2"><Clock className="w-4 h-4"/> Scenario + quick mark</div>
+            <div className="grid grid-cols-1 gap-4 text-base text-left">
+              <div className="p-4 bg-blue-50 rounded border border-blue-200">
+                <div className="flex items-center gap-2 text-lg font-semibold"><BookOpen className="w-5 h-5"/> AO1 recall</div>
+                <p className="mt-2 text-sm md:text-base text-blue-800">Recall core terms, theories and studies accurately. Tests knowledge/understanding (AO1).</p>
+              </div>
+              <div className="p-4 bg-green-50 rounded border border-green-200">
+                <div className="flex items-center gap-2 text-lg font-semibold"><Clock className="w-5 h-5"/> Scenario (AO2) + quick mark</div>
+                <p className="mt-2 text-sm md:text-base text-green-800">Apply concepts to a novel scenario and explain them in context. Tests application (AO2).</p>
+              </div>
+              <div className="p-4 bg-purple-50 rounded border border-purple-200">
+                <div className="flex items-center gap-2 text-lg font-semibold"><Target className="w-5 h-5"/> AO3 PEEL</div>
+                <p className="mt-2 text-sm md:text-base text-purple-800"><span className="font-medium">PEEL</span>: Point • Evidence • Explain • Link. Tests analysis and evaluation (AO3).</p>
+              </div>
             </div>
             <button onClick={startSession} className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 font-semibold">
               <Play className="w-4 h-4 inline mr-2"/> Start Session
@@ -262,7 +269,7 @@ Rules:
               {loading && (
                 <div className="flex items-center gap-2 text-xs text-gray-500">
                   <Loader2 className="w-4 h-4 animate-spin"/>
-                  Analyzing your recall…
+                  {userAnswer.trim() ? 'Analyzing your recall…' : 'Preparing…'}
                 </div>
               )}
             </div>
@@ -330,7 +337,7 @@ Rules:
               className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-blue-50 border border-blue-200 p-3 rounded"
               dangerouslySetInnerHTML={{ __html: formatBold(formatBullets(ao1Text || (loading ? 'Loading…' : 'No summary available.'))) }}
             />
-            <button onClick={generateAO3} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: AO3 PEEL</button>
+            <button onClick={generateScenario} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: Scenario</button>
           </div>
         </div>
       </div>
@@ -343,12 +350,11 @@ Rules:
         <div className="max-w-3xl mx-auto p-6">
           <button onClick={() => setPhase('ao1-reveal')} className="text-blue-600 underline mb-4">← Back</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h3 className="font-semibold">AO3 Evaluation (PEEL x5)</h3>
-            <div 
-              className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-purple-50 border border-purple-200 p-3 rounded"
-              dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text || (loading ? 'Loading…' : 'No AO3 content yet.'))) }}
-            />
-            <button onClick={generateScenario} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: Scenario</button>
+            <h3 className="font-semibold">Apply to Scenario</h3>
+            <div className="text-sm bg-green-50 border border-green-200 p-3 rounded"><strong>Scenario:</strong> {scenario?.scenario}</div>
+            <textarea value={scenarioAnswer} onChange={(e)=>setScenarioAnswer(e.target.value)} rows={6} className="w-full border rounded p-3" placeholder="Write your applied answer..."/>
+            <button onClick={markScenario} disabled={!scenarioAnswer.trim() || loading} className="px-4 py-2 bg-green-600 text-white rounded disabled:opacity-50">Quick Mark</button>
+            {loading && <div className="flex items-center gap-2 text-xs text-gray-500"><Loader2 className="w-4 h-4 animate-spin"/>Preparing…</div>}
           </div>
         </div>
       </div>
@@ -361,11 +367,12 @@ Rules:
         <div className="max-w-3xl mx-auto p-6">
           <button onClick={() => setPhase('scenario')} className="text-blue-600 underline mb-4">← Back</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h3 className="font-semibold">Apply to Scenario</h3>
-            <div className="text-sm bg-green-50 border border-green-200 p-3 rounded"><strong>Scenario:</strong> {scenario?.scenario}</div>
-            <textarea value={scenarioAnswer} onChange={(e)=>setScenarioAnswer(e.target.value)} rows={6} className="w-full border rounded p-3" placeholder="Write your applied answer..."/>
-            <button onClick={markScenario} disabled={!scenarioAnswer.trim() || loading} className="px-4 py-2 bg-green-600 text-white rounded disabled:opacity-50">Quick Mark</button>
-            {loading && <div className="flex items-center gap-2 text-xs text-gray-500"><Loader2 className="w-4 h-4 animate-spin"/>Preparing…</div>}
+            <h3 className="font-semibold">AO3 Evaluation (PEEL x5)</h3>
+            <div 
+              className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-purple-50 border border-purple-200 p-3 rounded"
+              dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text || (loading ? 'Loading…' : 'No AO3 content yet.'))) }}
+            />
+            <button onClick={generateAO3} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: AO3 PEEL</button>
           </div>
         </div>
       </div>
