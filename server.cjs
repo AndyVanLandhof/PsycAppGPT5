@@ -91,24 +91,56 @@ Examples:
 // Generic AI proxy: POST /api/ai { model, messages, temperature }
 app.post('/api/ai', async (req, res) => {
   const { model = 'gpt-4o-mini', messages = [], temperature = 0.7, max_tokens = 800, response_format = null } = req.body || {};
-  const headerKey = (req.headers['x-openai-key'] || '').toString().trim();
-  const envKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '';
+  // Sanitize provided keys (quotes/newlines/spaces)
+  const rawHeaderKey = (req.headers['x-openai-key'] || '').toString();
+  const headerKey = rawHeaderKey.trim().replace(/^['"]|['"]$/g, '');
+  const envKeyRaw = (process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_API_KEY || '').toString();
+  const envKey = envKeyRaw.trim().replace(/^['"]|['"]$/g, '');
   const OPENAI_API_KEY = (headerKey && headerKey.startsWith('sk-')) ? headerKey : envKey;
   if (!OPENAI_API_KEY || !OPENAI_API_KEY.startsWith('sk-')) {
     return res.status(401).json({ error: 'Missing or invalid OpenAI API key. Add in Settings or server .env' });
   }
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    const payloadBase = { model, messages, temperature, max_tokens };
+    const payloadWithFormat = { ...payloadBase, ...(response_format ? { response_format } : {}) };
+    let response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${OPENAI_API_KEY}`,
+        'Accept': 'application/json'
       },
-      body: JSON.stringify({ model, messages, temperature, max_tokens, ...(response_format ? { response_format } : {}) })
+      body: JSON.stringify(payloadWithFormat)
     });
-    const data = await response.json();
+    let data = null;
+    try { data = await response.json(); } catch (_) {
+      const text = await response.text().catch(()=>'');
+      data = { error: text || 'Unknown error' };
+    }
     if (!response.ok) {
-      return res.status(response.status).json({ error: data?.error?.message || 'OpenAI error' });
+      const message = (data && data.error && (data.error.message || data.error)) || 'OpenAI error';
+      // Retry without response_format if model/param not supported
+      if (/pattern|response_format|unsupported|invalid/i.test(String(message))) {
+        response = await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${OPENAI_API_KEY}`,
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(payloadBase)
+        });
+        try { data = await response.json(); } catch (_) {
+          const text = await response.text().catch(()=>'');
+          data = { error: text || 'Unknown error' };
+        }
+        if (!response.ok) {
+          const message2 = (data && data.error && (data.error.message || data.error)) || 'OpenAI error';
+          return res.status(response.status).json({ error: message2 });
+        }
+        return res.json(data);
+      }
+      return res.status(response.status).json({ error: message });
     }
     res.json(data);
   } catch (e) {

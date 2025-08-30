@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import psychologyTopics from './psychologyTopics';
 import TopicDetail from './components/TopicDetail';
 import SettingsPanel from './components/SettingsPanel';
+import TaughtContent from './pages/TaughtContent.jsx';
 import VaultTester from './components/VaultTester';
 import ExamPractice from './components/ExamPractice';
 import ProgressDashboard from './components/ProgressDashboard';
 import SRSDashboard from './components/SRSDashboard';
-import { BookOpen, Settings, TrendingUp, RefreshCw } from 'lucide-react';
+import { BookOpen, Settings, TrendingUp, RefreshCw, Brain, FlaskConical, Users, Heart, Layers, Scale, Landmark, ScrollText, Microscope, Flame, Fingerprint, GraduationCap, Activity, Sun, Globe, Feather, Pill, Briefcase, Crown, Eye, Infinity, PieChart, Building, Sparkles, Quote, Leaf, Moon } from 'lucide-react';
 import { resetAllProgressStorage } from './progress/progressLogic.js';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -15,21 +16,79 @@ import './utils/srsCardGenerator';
 import TopicPage from './pages/TopicPage.jsx';
 import ExaminePage from './pages/ExaminePage.jsx';
 import BankGenerator from './pages/BankGenerator.jsx';
+import Planner from './pages/Planner.jsx';
+import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
+import { topicData as rsTopicsAll } from './topicData.js';
 
 // Helper: group topics by component
-const getTopicsByComponent = (comp) =>
-  Object.values(psychologyTopics).filter(t => t.component === comp);
+const getTopicsByComponent = (comp, topicsSrc) =>
+  Object.values(topicsSrc).filter(t => t.component === comp);
 
 function TopicCard({ topic, onClick }) {
+  const iconEl = (() => {
+    const curr = getSelectedCurriculum() || 'aqa-psych';
+    const baseSize = 'w-6 h-6 md:w-7 md:h-7';
+    const colorWrap = curr === 'ocr-rs' ? 'bg-yellow-100' : 'bg-indigo-50';
+    const colorIcon = curr === 'ocr-rs' ? 'text-yellow-700' : 'text-indigo-600';
+    const cls = `${baseSize} ${colorIcon}`;
+    if (curr === 'ocr-rs') {
+      switch (topic.id) {
+        // Philosophy
+        case 'ancient-philosophical-influences': return <div className={`p-1 rounded-full ${colorWrap}`}><ScrollText className={cls}/></div>;
+        case 'soul-mind-body': return <div className={`p-1 rounded-full ${colorWrap}`}><Brain className={cls}/></div>;
+        case 'nature-attributes-god': return <div className={`p-1 rounded-full ${colorWrap}`}><Sun className={cls}/></div>;
+        case 'arguments-existence-god': return <div className={`p-1 rounded-full ${colorWrap}`}><Infinity className={cls}/></div>;
+        case 'problem-of-evil': return <div className={`p-1 rounded-full ${colorWrap}`}><Flame className={cls}/></div>;
+        case 'religious-experience': return <div className={`p-1 rounded-full ${colorWrap}`}><Eye className={cls}/></div>;
+        case 'religious-language': return <div className={`p-1 rounded-full ${colorWrap}`}><Quote className={cls}/></div>;
+        case 'miracles': return <div className={`p-1 rounded-full ${colorWrap}`}><Sparkles className={cls}/></div>;
+
+        // Ethics
+        case 'natural-law': return <div className={`p-1 rounded-full ${colorWrap}`}><Leaf className={cls}/></div>;
+        case 'situation-ethics': return <div className={`p-1 rounded-full ${colorWrap}`}><Heart className={cls}/></div>;
+        case 'kantian-ethics': return <div className={`p-1 rounded-full ${colorWrap}`}><Scale className={cls}/></div>;
+        case 'utilitarianism': return <div className={`p-1 rounded-full ${colorWrap}`}><PieChart className={cls}/></div>;
+        case 'euthanasia': return <div className={`p-1 rounded-full ${colorWrap}`}><Pill className={cls}/></div>;
+        case 'business-ethics': return <div className={`p-1 rounded-full ${colorWrap}`}><Briefcase className={cls}/></div>;
+        case 'sexual-ethics': return <div className={`p-1 rounded-full ${colorWrap}`}><Heart className={cls}/></div>;
+
+        // Christianity
+        case 'augustine': return <div className={`p-1 rounded-full ${colorWrap}`}><Feather className={cls}/></div>;
+        case 'death-afterlife': return <div className={`p-1 rounded-full ${colorWrap}`}><Moon className={cls}/></div>;
+        case 'knowledge-god': return <div className={`p-1 rounded-full ${colorWrap}`}><Eye className={cls}/></div>;
+        case 'jesus-christ': return <div className={`p-1 rounded-full ${colorWrap}`}><Crown className={cls}/></div>;
+        case 'practices-identity': return <div className={`p-1 rounded-full ${colorWrap}`}><Landmark className={cls}/></div>;
+        case 'pluralism': return <div className={`p-1 rounded-full ${colorWrap}`}><Globe className={cls}/></div>;
+        case 'gender': return <div className={`p-1 rounded-full ${colorWrap}`}><Users className={cls}/></div>;
+        case 'secularism': return <div className={`p-1 rounded-full ${colorWrap}`}><Building className={cls}/></div>;
+
+        default: return <div className={`p-1 rounded-full ${colorWrap}`}><BookOpen className={cls}/></div>;
+      }
+    }
+    switch (topic.id) {
+      case 'biopsychology': return <div className={`p-1 rounded-full ${colorWrap}`}><Brain className={cls}/></div>;
+      case 'research-methods': return <div className={`p-1 rounded-full ${colorWrap}`}><Microscope className={cls}/></div>;
+      case 'social-influence': return <div className={`p-1 rounded-full ${colorWrap}`}><Users className={cls}/></div>;
+      case 'attachment': return <div className={`p-1 rounded-full ${colorWrap}`}><Heart className={cls}/></div>;
+      case 'approaches-in-psychology': return <div className={`p-1 rounded-full ${colorWrap}`}><Layers className={cls}/></div>;
+      case 'memory': return <div className={`p-1 rounded-full ${colorWrap}`}><GraduationCap className={cls}/></div>;
+      case 'psychopathology': return <div className={`p-1 rounded-full ${colorWrap}`}><Activity className={cls}/></div>;
+      case 'issues-and-debates': return <div className={`p-1 rounded-full ${colorWrap}`}><Scale className={cls}/></div>;
+      case 'forensic-psychology': return <div className={`p-1 rounded-full ${colorWrap}`}><Fingerprint className={cls}/></div>;
+      case 'aggression': return <div className={`p-1 rounded-full ${colorWrap}`}><Flame className={cls}/></div>;
+      default: return <div className={`p-1 rounded-full ${colorWrap}`}><BookOpen className={cls}/></div>;
+    }
+  })();
   return (
     <div
-      className="bg-white border rounded-lg shadow-sm p-4 cursor-pointer hover:shadow-md transition h-full"
+      className="bg-white border rounded-lg shadow-sm p-4 cursor-pointer hover:shadow-md transition h-full relative"
       onClick={onClick}
     >
-      <div className="flex items-start min-h-[3rem]">
-        <h3 className="font-semibold text-md clamp-2">{topic.title}</h3>
+      <div className="absolute top-2 right-2">{iconEl}</div>
+      <div className="flex items-start min-h-[3.5rem]">
+        <h3 className="font-semibold text-lg md:text-xl clamp-2">{topic.title}</h3>
       </div>
-      <p className="text-sm text-gray-600 mt-2 clamp-2 min-h-[2.5rem]">{topic.description}</p>
+      <p className="text-base text-gray-700 mt-2 clamp-2 min-h-[3rem]">{topic.description}</p>
     </div>
   );
 }
@@ -37,7 +96,7 @@ function TopicCard({ topic, onClick }) {
 function Section({ title, topics, setTopic }) {
   return (
     <div className="space-y-4 mt-8">
-      <div className="text-center flex items-center justify-center gap-2 text-purple-700 font-semibold text-2xl">
+      <div className="text-center flex items-center justify-center gap-2 text-purple-700 font-semibold text-3xl md:text-4xl">
         {title}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 items-stretch">
@@ -52,12 +111,37 @@ function Section({ title, topics, setTopic }) {
 function App() {
   const [view, setView] = useState('home');
   const [selectedTopicId, setSelectedTopicId] = useState(null);
+  const [curriculum, setCurriculum] = useState(() => getSelectedCurriculum() || null);
 
-  const selectedTopic = psychologyTopics[selectedTopicId] || null;
+  // Determine topics source
+  const psychTopicsAll = psychologyTopics;
+  const topicsSrc = curriculum === 'ocr-rs' ? rsTopicsAll : psychTopicsAll;
+
+  const selectedTopic = topicsSrc[selectedTopicId] || null;
 
   useEffect(() => {
     document.title = "Psyc Tutor";
   }, []);
+
+  const chooseCurriculum = (id) => {
+    setCurriculum(id);
+    setSelectedCurriculum(id);
+  };
+
+  if (!curriculum) {
+    return (
+      <div className={`min-h-screen bg-gradient-to-br ${curriculum==='ocr-rs' ? 'from-blue-100 via-blue-50 to-blue-200' : 'from-pink-200 via-pink-100 to-pink-300'} flex items-center justify-center p-6`}>
+        <div className="bg-white rounded-2xl shadow-xl p-10 w-full max-w-xl space-y-6 text-center">
+          <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Choose your subject</h1>
+          <p className="text-gray-600">Pick a curriculum to continue. You can change this later in Settings.</p>
+          <div className="grid grid-cols-1 gap-4">
+            <button onClick={() => chooseCurriculum('aqa-psych')} className="w-full px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold">AQA Psychology 7182</button>
+            <button onClick={() => chooseCurriculum('ocr-rs')} className="w-full px-6 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold">OCR Religious Studies H573</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (view === 'vault-tester') {
     return (
@@ -82,9 +166,20 @@ function App() {
         >
           ← Back to Home
         </button>
-        <SettingsPanel />
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Curriculum</label>
+          <div className="flex gap-2">
+            <button onClick={() => chooseCurriculum('aqa-psych')} className={`px-3 py-1 rounded border ${curriculum==='aqa-psych'?'bg-blue-600 text-white border-blue-600':'bg-white'}`}>AQA Psychology</button>
+            <button onClick={() => chooseCurriculum('ocr-rs')} className={`px-3 py-1 rounded border ${curriculum==='ocr-rs'?'bg-purple-600 text-white border-purple-600':'bg-white'}`}>OCR RS</button>
+          </div>
+        </div>
+        <SettingsPanel onOpenTaught={() => setView('taught-content')} />
       </div>
     );
+  }
+
+  if (view === 'taught-content') {
+    return <TaughtContent onBack={() => setView('settings')} />;
   }
 
   if (view === 'exam-practice') {
@@ -111,91 +206,99 @@ function App() {
     return <BankGenerator onBack={() => setView('home')} />;
   }
 
+  if (view === 'planner') {
+    return <Planner onBack={() => setView('home')} />;
+  }
+
   if (view === 'topic-detail' && selectedTopic) {
     return <TopicDetail topic={selectedTopic} onBack={() => setView('home')} />;
   }
 
-  // Home view: show AQA Psychology dashboard
+  // Home view: show dashboard for selected curriculum
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-100 to-pink-300">
+    <div className={`min-h-screen bg-gradient-to-br ${curriculum==='ocr-rs' ? 'from-blue-100 via-blue-50 to-blue-200' : 'from-pink-200 via-pink-100 to-pink-300'}`}>
       <ToastContainer position="top-right" autoClose={3500} hideProgressBar={false} newestOnTop closeOnClick pauseOnFocusLoss draggable pauseOnHover />
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Title & Description */}
-        <div className="text-center space-y-3">
-          <h1 className="text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent flex justify-center items-center gap-3">
-            <BookOpen className="w-9 h-9" />
-            AQA Psychology 7182
-          </h1>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">
-            Master the AQA Psychology 7182 curriculum with AI-enhanced revision materials powered by your own study notes and public internet resources. Upload your PDFs and get personalised content! 🚀
-          </p>
+        <div className="text-center space-y-5">
+          <div className="flex justify-center items-center gap-3">
+            <BookOpen className="w-10 h-10" />
+            <h1 className="inline-block text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-[1.2] pb-1">
+              {curriculum === 'ocr-rs' ? 'OCR Religious Studies H573' : 'AQA Psychology 7182'}
+            </h1>
+          </div>
+          <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
         </div>
-        {/* Settings Button */}
-        <div className="flex flex-wrap justify-center items-center gap-4">
+        {/* Top-left quick switch */}
+        <div className="flex justify-start items-center">
           <button
-            onClick={() => setView('settings')}
+            onClick={() => { setSelectedCurriculum(null); setCurriculum(null); setView('home'); }}
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
-            <Settings className="w-5 h-5" />
-            Settings
-          </button>
-          <button
-            onClick={() => setView('progress-dashboard')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            <TrendingUp className="w-5 h-5" />
-            Progress Dashboard
-          </button>
-          <button
-            onClick={() => setView('srs-dashboard')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            <RefreshCw className="w-5 h-5" />
-            SRS Dashboard
-          </button>
-          <button
-            onClick={() => setView('topic-progress-demo')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            🧭 Topic Progress Demo
-          </button>
-          <button
-            onClick={() => setView('examine-demo')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            🧪 Examine Demo
-          </button>
-          <button
-            onClick={() => {
-              if (confirm('Reset ALL progress for all topics? This cannot be undone.')) {
-                resetAllProgressStorage();
-              }
-            }}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
-            title="Clears all progressive tracking data"
-          >
-            ♻️ Reset All Progress
+            ↩︎ Switch Subject
           </button>
         </div>
         {/* Sections: Compulsory and Options */}
-        <Section title="Compulsory Content" topics={getTopicsByComponent('Compulsory')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-        <Section title="Option 1" topics={getTopicsByComponent('Option 1')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-        <Section title="Option 2" topics={getTopicsByComponent('Option 2')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-        <Section title="Option 3" topics={getTopicsByComponent('Option 3')} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-        {/* Tools */}
-        <div className="flex justify-center mt-12">
-          <button
-            onClick={() => setView('vault-tester')}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            🧪 Vault Tester
-          </button>
-          <button
-            onClick={() => setView('bank-generator')}
-            className="flex items-center gap-1 text-base px-3 py-1 ml-3 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            🧰 Bank Generator
-          </button>
+        {curriculum === 'ocr-rs' ? (
+          <>
+            <Section title="Philosophy" topics={getTopicsByComponent('Philosophy', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Ethics" topics={getTopicsByComponent('Ethics', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Christianity" topics={getTopicsByComponent('Christianity', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+          </>
+        ) : (
+          <>
+            <Section title="Compulsory Content" topics={getTopicsByComponent('Compulsory', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Option 1" topics={getTopicsByComponent('Option 1', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Option 2" topics={getTopicsByComponent('Option 2', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Option 3" topics={getTopicsByComponent('Option 3', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+          </>
+        )}
+        {/* Tools & Setup */}
+        <div className="mt-12">
+          <div className="text-center text-purple-700 font-semibold text-2xl mb-3">Tools & Setup</div>
+          <div className="flex flex-wrap justify-center items-center gap-3">
+            <button
+              onClick={() => setView('settings')}
+              className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+            >
+              <Settings className="w-5 h-5" />
+              Settings
+            </button>
+            {curriculum !== 'ocr-rs' ? (
+              <button onClick={() => setView('progress-dashboard')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">
+                <TrendingUp className="w-5 h-5" /> Progress Dashboard
+              </button>
+            ) : (
+              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">
+                <TrendingUp className="w-5 h-5" /> Progress Dashboard (soon)
+              </button>
+            )}
+            {curriculum !== 'ocr-rs' ? (
+              <button onClick={() => setView('srs-dashboard')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">
+                <RefreshCw className="w-5 h-5" /> SRS Dashboard
+              </button>
+            ) : (
+              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">
+                <RefreshCw className="w-5 h-5" /> SRS Dashboard (soon)
+              </button>
+            )}
+            {curriculum !== 'ocr-rs' ? (
+              <button onClick={() => setView('topic-progress-demo')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧭 Topic Progress Demo</button>
+            ) : (
+              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">🧭 Topic Progress Demo (soon)</button>
+            )}
+            <button onClick={() => setView('examine-demo')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Examine Demo</button>
+            <button onClick={() => setView('planner')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🗓️ Planner</button>
+            <button onClick={() => setView('vault-tester')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Vault Tester</button>
+            <button onClick={() => setView('bank-generator')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧰 Bank Generator</button>
+            <button
+              onClick={() => { if (confirm('Reset ALL progress for all topics? This cannot be undone.')) { resetAllProgressStorage(); } }}
+              className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
+              title="Clears all progressive tracking data"
+            >
+              ♻️ Reset All Progress
+            </button>
+          </div>
         </div>
       </div>
     </div>

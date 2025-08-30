@@ -8,7 +8,7 @@ export function useElevenLabsTTS() {
     (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_ELEVENLABS_API_KEY) ||
     (typeof process !== 'undefined' && process.env && process.env.ELEVENLABS_API_KEY) ||
     "";
-  const [ttsState, setTtsState] = useState("idle"); // "idle" | "playing" | "paused" | "error"
+  const [ttsState, setTtsState] = useState("idle"); // "idle" | "preparing" | "playing" | "paused" | "error"
   const audioRef = useRef(null);
   const CHUNK_SIZE = 800; // characters per chunk
   const MAX_CHUNK_LENGTH = 2500; // ElevenLabs hard limit
@@ -194,6 +194,9 @@ export function useElevenLabsTTS() {
 
     if (!ELEVENLABS_API_KEY || !effectiveVoiceId) {
       console.warn("❌ Missing ElevenLabs API key or voice ID");
+      setAudioLoading(false);
+      setAudioError(true);
+      toast.error("ElevenLabs not configured. Add API key and Voice ID in Settings.");
       return;
     }
 
@@ -205,11 +208,11 @@ export function useElevenLabsTTS() {
 
     // Chunked TTS logic
     const { chunks, paraEnds } = text.length > CHUNK_SIZE ? chunkText(text, CHUNK_SIZE) : { chunks: [text], paraEnds: [true] };
-    setTtsState("playing");
+    setTtsState("preparing");
     try {
       const audioBlobs = [];
       for (let i = 0; i < chunks.length; i++) {
-        setTtsState(`playing-chunk-${i+1}-of-${chunks.length}`);
+        setTtsState(`preparing-chunk-${i+1}-of-${chunks.length}`);
         console.log(`[TTS] Requesting chunk ${i+1}/${chunks.length}:`, chunks[i]);
         const audioBlob = await fetchWithRetry(chunks[i], effectiveVoiceId);
         console.log(`[TTS] Received audio blob for chunk ${i+1}: size ${audioBlob.size}`);
@@ -219,6 +222,7 @@ export function useElevenLabsTTS() {
       preparedParaEndsRef.current = paraEnds;
       setAudioReady(true);
       setAudioLoading(false);
+      setTtsState("idle");
     } catch (err) {
       console.error("[TTS] ElevenLabs playback error", err);
       setTtsState("error");

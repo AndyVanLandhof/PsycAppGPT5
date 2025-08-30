@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Loader2, Clock, BookOpen, Target, CheckCircle, Play } from 'lucide-react';
+import { getSelectedCurriculum } from '../config/curricula';
 import { useAIService } from '../hooks/useAIService';
 import { buildAO1SummaryPrompt, buildAO3EvaluationPrompt, buildScenarioPrompt, buildMarkschemeCheckerPrompt } from '../prompts/index';
 
 function StudySession({ topic, onBack }) {
+  const curriculum = getSelectedCurriculum() || 'aqa-psych';
   const [phase, setPhase] = useState('intro');
   const [userAnswer, setUserAnswer] = useState('');
   const [ao1Text, setAo1Text] = useState('');
@@ -234,12 +236,14 @@ Rules:
               </div>
               <div className="p-4 bg-green-50 rounded border border-green-200">
                 <div className="flex items-center gap-2 text-lg font-semibold"><Clock className="w-5 h-5"/> Scenario (AO2) + quick mark</div>
-                <p className="mt-2 text-sm md:text-base text-green-800">Apply concepts to a novel scenario and explain them in context. Tests application (AO2).</p>
+                <p className="mt-2 text-sm md:text-base text-green-800">Apply concepts to a novel scenario and explain them in context. Tests application {curriculum==='ocr-rs' ? '(AO2 analysis/evaluation)' : '(AO2)'}.</p>
               </div>
-              <div className="p-4 bg-purple-50 rounded border border-purple-200">
-                <div className="flex items-center gap-2 text-lg font-semibold"><Target className="w-5 h-5"/> AO3 PEEL</div>
-                <p className="mt-2 text-sm md:text-base text-purple-800"><span className="font-medium">PEEL</span>: Point • Evidence • Explain • Link. Tests analysis and evaluation (AO3).</p>
-              </div>
+              {curriculum !== 'ocr-rs' && (
+                <div className="p-4 bg-purple-50 rounded border border-purple-200">
+                  <div className="flex items-center gap-2 text-lg font-semibold"><Target className="w-5 h-5"/> AO3 PEEL</div>
+                  <p className="mt-2 text-sm md:text-base text-purple-800"><span className="font-medium">PEEL</span>: Point • Evidence • Explain • Link. Tests analysis and evaluation (AO3).</p>
+                </div>
+              )}
             </div>
             <button onClick={startSession} className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 font-semibold">
               <Play className="w-4 h-4 inline mr-2"/> Start Session
@@ -367,12 +371,22 @@ Rules:
         <div className="max-w-3xl mx-auto p-6">
           <button onClick={() => setPhase('scenario')} className="text-blue-600 underline mb-4">← Back</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h3 className="font-semibold">AO3 Evaluation (PEEL x5)</h3>
-            <div 
-              className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-purple-50 border border-purple-200 p-3 rounded"
-              dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text || (loading ? 'Loading…' : 'No AO3 content yet.'))) }}
-            />
-            <button onClick={generateAO3} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: AO3 PEEL</button>
+            {curriculum !== 'ocr-rs' ? (
+              <>
+                <h3 className="font-semibold">AO3 Evaluation (PEEL x5)</h3>
+                <div 
+                  className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-purple-50 border border-purple-200 p-3 rounded"
+                  dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text || (loading ? 'Loading…' : 'No AO3 content yet.'))) }}
+                />
+                <button onClick={generateAO3} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: AO3 PEEL</button>
+              </>
+            ) : (
+              <div className="text-center">
+                <CheckCircle className="w-10 h-10 text-green-600 mx-auto"/>
+                <h3 className="font-semibold mt-2">Scenario complete</h3>
+                <button onClick={onBack} className="mt-3 px-4 py-2 bg-blue-600 text-white rounded">Back to Topic</button>
+              </div>
+            )}
           </div>
         </div>
       </div>

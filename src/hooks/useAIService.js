@@ -16,6 +16,15 @@ export function useAIService() {
 
   const { createVaultPrompt, getExamContext, getRevisionContext } = useVaultService();
 
+  const getSelectedOpenAIModel = (fallback) => {
+    try {
+      const saved = (typeof window !== 'undefined' && localStorage.getItem('openai-model')) || '';
+      return (fallback || 'gpt-4o-mini') && (saved || fallback || 'gpt-4o-mini');
+    } catch (_) {
+      return fallback || 'gpt-4o-mini';
+    }
+  };
+
   const callAI = async (prompt, model = "ChatGPT", options = {}) => {
     const { topic, subTopic, includeAdditional = false, useVault = true, modelName } = options;
     
@@ -60,14 +69,21 @@ export function useAIService() {
           ...(isValidKey ? { 'x-openai-key': key } : {})
         },
         body: JSON.stringify({
-          model: modelName || "gpt-4o-mini",
+          model: modelName || getSelectedOpenAIModel('gpt-4o-mini'),
           messages: [{ role: "user", content: finalPrompt }],
           temperature: 0.7,
           max_tokens: 800
         })
       });
 
-      const data = await response.json();
+      let data = null;
+      try {
+        data = await response.json();
+      } catch (e) {
+        // If server returned a non-JSON body (e.g., plain text error), synthesize an error object
+        const text = await response.text().catch(() => '');
+        data = { error: text || e?.message || 'Unknown error' };
+      }
       console.log("[OpenAI raw]", data);
       if (!response.ok) {
         throw new Error(data?.error || (isValidKey ? 'OpenAI proxy error' : 'Missing/invalid OpenAI API key. Add it in Settings or server .env and reload.'));
@@ -85,26 +101,42 @@ export function useAIService() {
     const messages = [];
     if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
     messages.push({ role: 'user', content: userPrompt });
-    const response = await fetch('/api/ai', {
+    let response = await fetch('/api/ai', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...(key ? { 'x-openai-key': key } : {}) },
-      body: JSON.stringify({ model: modelName, messages, temperature: 0.2, max_tokens: 800, response_format: { type: 'json_object' } })
+      body: JSON.stringify({ model: modelName || getSelectedOpenAIModel('gpt-4o-mini'), messages, temperature: 0.2, max_tokens: 1600, response_format: { type: 'json_object' } })
     });
-    const data = await response.json();
+    let data = null;
+    try { data = await response.json(); } catch (_) { data = { error: (await response.text().catch(()=>'')).trim() }; }
     console.log('[OpenAI raw]', data);
-    if (!response.ok) throw new Error(data?.error || 'OpenAI proxy error');
+    if (response.ok && data?.choices?.[0]?.message?.content) return data.choices[0].message.content;
+    const errMsg = (data && (data.error || data.message)) || '';
+    const shouldRetry = !response.ok && /pattern|response_format|unsupported|invalid/i.test(String(errMsg));
+    if (shouldRetry) {
+      response = await fetch('/api/ai', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...(key ? { 'x-openai-key': key } : {}) },
+        body: JSON.stringify({ model: modelName || getSelectedOpenAIModel('gpt-4o-mini'), messages, temperature: 0.2, max_tokens: 1600 })
+      });
+      try { data = await response.json(); } catch (_) { data = { error: (await response.text().catch(()=>'')).trim() }; }
+      console.log('[OpenAI raw retry]', data);
+      if (!response.ok) throw new Error(data?.error || 'OpenAI proxy error');
+      return data?.choices?.[0]?.message?.content || '';
+    }
+    if (!response.ok) throw new Error(errMsg || 'OpenAI proxy error');
     return data?.choices?.[0]?.message?.content || '';
   };
 
   // Enhanced AI call with vault context
   const callAIWithVault = async (prompt, topic, subTopic, options = {}) => {
-    const { includeAdditional = false, model = "ChatGPT" } = options;
-    
+    const { includeAdditional = false, model = "ChatGPT", modelName } = options;
+    // Use plain text mode for Bedtime Story and other narrative outputs; Study Content handles JSON separately
     return callAI(prompt, model, {
       topic,
       subTopic,
       includeAdditional,
-      useVault: true
+      useVault: true,
+      modelName: modelName || getSelectedOpenAIModel('gpt-4o-mini')
     });
   };
 
@@ -130,7 +162,7 @@ INSTRUCTIONS: ${prompt}
 Remember: Base your response on the OCR exam materials above.`;
     }
     
-    return callAI(enhancedPrompt, model, { useVault: false });
+    return callAI(enhancedPrompt, model, { useVault: false, modelName: getSelectedOpenAIModel('gpt-4o-mini') });
   };
 
   // Get revision/essay-specific AI response
@@ -155,11 +187,11 @@ INSTRUCTIONS: ${prompt}
 Remember: Base your response on the OCR revision materials above.`;
     }
     
-    return callAI(enhancedPrompt, model, { useVault: false });
+    return callAI(enhancedPrompt, model, { useVault: false, modelName: getSelectedOpenAIModel('gpt-4o-mini') });
   };
 
   // Get AI response using public sources (AQA Psychology 7182 curriculum + academic knowledge)
-  const callAIWithPublicSources = async (prompt, topic, subTopic, modelName = "gpt-4o") => {
+  const callAIWithPublicSources = async (prompt, topic, subTopic, modelName = "gpt-4o-mini") => {
     const enhancedPrompt = `You are an expert AQA Psychology tutor with deep knowledge of the AQA Psychology 7182 curriculum. The student is studying ${subTopic || topic} and asks: "${prompt}"
 
 Please provide a comprehensive, accurate answer using:
@@ -188,7 +220,7 @@ Please provide a comprehensive, accurate answer using:
 
 Focus on accuracy, educational value, and depth appropriate for AQA Psychology 7182 A-Level students.`;
 
-    return callAI(enhancedPrompt, "ChatGPT", { useVault: false, modelName });
+    return callAIJsonOnly(enhancedPrompt, null, modelName || getSelectedOpenAIModel('gpt-4o-mini'));
   };
 
   return {

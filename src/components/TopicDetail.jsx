@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import FlashcardView from "./FlashcardView";
 import StudyContent from "./StudyContent";
 import QuizView from "./QuizView";
@@ -14,6 +14,7 @@ import { nodes as problemOfEvilNodes, edges as problemOfEvilEdges } from '../dat
 import { nodes as naturalLawNodes, edges as naturalLawEdges } from '../data/naturalLawConceptMap';
 import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } from '../data/augustineTeachingsConceptMap';
 import StudySession from "./StudySession";
+import { logPlannerEvent } from "../progress/plannerEvents";
 import useTopicProgress from '../progress/useTopicProgress.js';
 import { DEFAULT_THRESHOLDS, computeReinforceScore } from '../progress/progressLogic.js';
 // Removed status badge display under Progressive Learning
@@ -29,6 +30,7 @@ function TopicDetail({ topic, onBack }) {
   const progressId = `${topic.id}:${selectedSubTopic || ''}`;
   const { topicState, status, actions } = useTopicProgress(progressId);
   const thresholds = DEFAULT_THRESHOLDS;
+  // Bedtime story preloading disabled
 
   // Guidance message for current subtopic
   const hasLearned = !!(topicState?.learn?.study || topicState?.learn?.audioStory || topicState?.learn?.conceptMap);
@@ -75,17 +77,18 @@ function TopicDetail({ topic, onBack }) {
   const startSelected = () => {
     if (!selectedSubTopic) return;
     if (selectedStage === 'Learn') {
-      if (selectedOption === 'study') {
-        actions.recordLearnAccess('study');
-        setActiveView('study');
-      } else if (selectedOption === 'conceptMap') {
+      // Bedtime story background preload disabled
+      if (selectedOption === 'conceptMap') {
         actions.recordLearnAccess('conceptMap');
-        setActiveView('conceptmap');
+        setActiveView('timed-30');
       } else if (selectedOption === 'audioStory') {
         actions.recordLearnAccess('audioStory');
-        setActiveView('bedtime-story');
+        setActiveView('timed-bedtime');
       } else if (selectedOption === 'socratic') {
-        setActiveView('socratic');
+        setActiveView('timed-socratic');
+      } else if (selectedOption === 'study') {
+        actions.recordLearnAccess('study');
+        setActiveView('timed-30');
       }
       return;
     }
@@ -113,6 +116,18 @@ function TopicDetail({ topic, onBack }) {
   if (activeView === "study") {
     return <StudyContent {...sharedProps} />;
   }
+  if (activeView === "timed-30") {
+    return (
+      <TimedLearnWrapper
+        title="Learning Session"
+        minutes={30}
+        onBack={() => setActiveView(null)}
+        onCompletePrompt={() => { try { logPlannerEvent({ phase:'learn', topicId: topic.id, subId: sub?.id, theme: sub?.title, curriculum: null }); } catch(_){}; setActiveView('reinforce-prompt'); }}
+      >
+        <StudyContent {...sharedProps} />
+      </TimedLearnWrapper>
+    );
+  }
   if (activeView === "study-session") {
     return <StudySession {...sharedProps} />;
   }
@@ -136,6 +151,20 @@ function TopicDetail({ topic, onBack }) {
       </div>
     );
   }
+  if (activeView === "timed-socratic") {
+    return (
+      <TimedLearnWrapper
+        title="Socratic Method"
+        minutes={10}
+        onBack={() => setActiveView(null)}
+        onCompletePrompt={() => { try { logPlannerEvent({ phase:'learn', topicId: topic.id, subId: sub?.id, theme: sub?.title, curriculum: null }); } catch(_){}; setActiveView('reinforce-prompt'); }}
+      >
+        <div className="mb-4">
+          <SocraticDialogue topic={sub?.title || topic.title} duration={10} />
+        </div>
+      </TimedLearnWrapper>
+    );
+  }
   if (activeView === "bedtime-story") {
     return (
       <BedtimeStory
@@ -143,6 +172,22 @@ function TopicDetail({ topic, onBack }) {
         topic={{ id: topic.id, title: topic.title }}
         subTopic={{ id: sub?.id, title: sub?.title }}
       />
+    );
+  }
+  if (activeView === "timed-bedtime") {
+    return (
+      <TimedLearnWrapper
+        title="Bedtime Story"
+        minutes={6}
+        onBack={() => setActiveView(null)}
+        onCompletePrompt={() => { try { logPlannerEvent({ phase:'learn', topicId: topic.id, subId: sub?.id, theme: sub?.title, curriculum: null }); } catch(_){}; setActiveView('reinforce-prompt'); }}
+      >
+        <BedtimeStory
+          onBack={() => setActiveView(null)}
+          topic={{ id: topic.id, title: topic.title }}
+          subTopic={{ id: sub?.id, title: sub?.title }}
+        />
+      </TimedLearnWrapper>
     );
   }
   if (activeView === "conceptmap") {
@@ -244,7 +289,7 @@ function TopicDetail({ topic, onBack }) {
   }
 
   return (
-    <div className="bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800 min-h-screen">
+    <div className={`bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800 min-h-screen`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <button className="text-blue-600 underline mb-4" onClick={onBack}>
           ← Back to Topics
@@ -383,6 +428,19 @@ function TopicDetail({ topic, onBack }) {
               <ExamineDashboard topicId={topic.id} topicTitle={topic.title} />
             </div>
           )}
+          {activeView === 'reinforce-prompt' && (
+            <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+              <div className="text-center">
+                <h2 className="text-xl font-semibold text-purple-700">Great work! Ready to Reinforce?</h2>
+                <p className="text-sm text-gray-600 mt-1">Choose one to continue your learning pathway.</p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <button onClick={() => setActiveView('flashcards')} className="border rounded-lg p-4 hover:bg-purple-50">🔁 Flashcards</button>
+                <button onClick={() => setActiveView('quiz')} className="border rounded-lg p-4 hover:bg-blue-50">🧠 Quiz</button>
+                <button onClick={() => setActiveView('study-session')} className="border rounded-lg p-4 hover:bg-emerald-50">🎯 Active Recall</button>
+              </div>
+            </div>
+          )}
           {/* Choose Your Study Method */}
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">
@@ -473,3 +531,49 @@ function TopicDetail({ topic, onBack }) {
 }
 
 export default TopicDetail;
+
+// Timed learning wrapper for Progressive Learning sessions
+function TimedLearnWrapper({ title, minutes, onBack, onCompletePrompt, children }) {
+  const [remaining, setRemaining] = useState(minutes * 60);
+  const [done, setDone] = useState(false);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    intervalRef.current = setInterval(() => {
+      setRemaining((r) => {
+        if (r <= 1) {
+          clearInterval(intervalRef.current);
+          setDone(true);
+          return 0;
+        }
+        return r - 1;
+      });
+    }, 1000);
+    return () => clearInterval(intervalRef.current);
+  }, []);
+
+  const mm = String(Math.floor(remaining / 60)).padStart(2, '0');
+  const ss = String(remaining % 60).padStart(2, '0');
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        <button className="text-blue-600 underline" onClick={onBack}>← Back</button>
+        <div className="mt-3 bg-white rounded-lg shadow p-4 flex items-center justify-between">
+          <div className="font-semibold text-gray-800">{title}</div>
+          <div className={`text-lg font-mono px-3 py-1 rounded ${done ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-800'}`}>{mm}:{ss}</div>
+        </div>
+        <div className="mt-4">
+          {children}
+        </div>
+        {done && (
+          <div className="mt-6 bg-white rounded-lg border p-4 text-center">
+            <div className="font-semibold text-gray-800">Session complete</div>
+            <p className="text-sm text-gray-600 mt-1">Nice work. Continue with Reinforce to consolidate learning.</p>
+            <button onClick={onCompletePrompt} className="mt-3 px-4 py-2 bg-indigo-600 text-white rounded">Go to Reinforce</button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-function SettingsPanel() {
+function SettingsPanel({ onOpenTaught }) {
   const [openAIKey, setOpenAIKey] = useState("");
   const [claudeKey, setClaudeKey] = useState("");
   const [elevenLabsKey, setElevenLabsKey] = useState("");
+  const [model, setModel] = useState("gpt-4o-mini");
   const [voiceId, setVoiceId] = useState("");
   const [voiceName, setVoiceName] = useState("");
   const [voices, setVoices] = useState([]);
@@ -15,12 +16,14 @@ function SettingsPanel() {
     setElevenLabsKey(localStorage.getItem("elevenlabs-key") || "");
     setVoices(JSON.parse(localStorage.getItem("elevenlabs-voices") || "[]"));
     setSelectedVoiceId(localStorage.getItem("elevenlabs-voice-id") || "");
+    setModel(localStorage.getItem("openai-model") || "gpt-4o-mini");
   }, []);
 
   const saveKeys = () => {
     localStorage.setItem("openai-key", openAIKey);
     localStorage.setItem("claude-key", claudeKey);
     localStorage.setItem("elevenlabs-key", elevenLabsKey);
+    localStorage.setItem("openai-model", model);
   };
 
   const addVoice = () => {
@@ -70,6 +73,19 @@ function SettingsPanel() {
           onChange={(e) => setClaudeKey(e.target.value)}
           className="w-full px-3 py-2 border rounded"
         />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">OpenAI Model</label>
+        <select
+          value={model}
+          onChange={(e) => setModel(e.target.value)}
+          className="w-full px-3 py-2 border rounded"
+        >
+          <option value="gpt-4o-mini">gpt-4o-mini (fast, cheap)</option>
+          <option value="gpt-4o">gpt-4o (higher quality)</option>
+          <option value="gpt-4o-reasoning">gpt-4o-reasoning (structured tasks)</option>
+        </select>
       </div>
 
       <div>
@@ -143,6 +159,16 @@ function SettingsPanel() {
           </li>
         ))}
       </ul>
+
+      {/* Taught Content section */}
+      <h2 className="text-xl font-bold text-gray-800 mt-6">📚 Taught Content</h2>
+      <p className="text-sm text-gray-600">Mark topics/sub-themes as taught to prioritise them in the weekly planner.</p>
+      <button
+        onClick={onOpenTaught}
+        className="mt-2 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+      >
+        Open
+      </button>
     </div>
   );
 }

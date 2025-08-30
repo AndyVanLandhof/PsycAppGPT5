@@ -37,6 +37,24 @@ export default function BedtimeStory({ onBack, topic: topicProp, subTopic: subTo
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cacheKey]);
 
+  // If preloaded flag is set for this topic/subtopic and story exists, prepare audio automatically
+  useEffect(() => {
+    try {
+      const preloadRaw = localStorage.getItem('bedtime-preload');
+      if (!preloadRaw) return;
+      const info = JSON.parse(preloadRaw);
+      if (info && info.topicTitle === topicTitle && info.subTopicTitle === subTopicTitle && story) {
+        // Prepare audio in background if not ready
+        if (!audioReady && !audioLoading) {
+          (async () => {
+            try { await speak(story); } catch(_) {}
+          })();
+        }
+        localStorage.removeItem('bedtime-preload');
+      }
+    } catch(_) {}
+  }, [story, audioReady, audioLoading, speak, topicTitle, subTopicTitle]);
+
   const generateStory = async () => {
     setLoading(true);
     setError('');

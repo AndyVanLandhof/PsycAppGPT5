@@ -1,11 +1,22 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { DEFAULT_THRESHOLDS, getProgressStatus } from './progressLogic.js';
+import { getSelectedCurriculum } from '../config/curricula.js';
 
-const STORAGE_KEY = 'jaimie-progress-v1';
+const BASE_KEY = 'jaimie-progress-v1';
+const legacyKey = 'jaimie-progress-v1';
+const currentKey = () => {
+  try {
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    return `progress:${curr}:${BASE_KEY}`;
+  } catch (_) {
+    return legacyKey;
+  }
+};
 
 function safeLoadAll() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const key = currentKey();
+    const raw = localStorage.getItem(key);
     if (!raw) return {};
     const parsed = JSON.parse(raw);
     return typeof parsed === 'object' && parsed !== null ? parsed : {};
@@ -17,10 +28,26 @@ function safeLoadAll() {
 
 function safeSaveAll(data) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    const key = currentKey();
+    localStorage.setItem(key, JSON.stringify(data));
   } catch (e) {
     console.warn('Progress storage save failed; ignoring', e);
   }
+}
+
+// One-time migration: if Psych selected and legacy key exists but namespaced key missing, copy it
+function migrateIfNeeded() {
+  try {
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    const namespaced = currentKey();
+    const hasNamespaced = !!localStorage.getItem(namespaced);
+    const hasLegacy = !!localStorage.getItem(legacyKey);
+    if (curr === 'aqa-psych' && !hasNamespaced && hasLegacy) {
+      const raw = localStorage.getItem(legacyKey);
+      localStorage.setItem(namespaced, raw);
+      console.info('[Progress] Migrated legacy progress to namespaced key');
+    }
+  } catch (_) {}
 }
 
 function createDefaultState() {
@@ -36,7 +63,7 @@ export function useTopicProgress(topicId, thresholds = DEFAULT_THRESHOLDS) {
   const thresholdsRef = useRef(thresholds);
   thresholdsRef.current = thresholds;
 
-  const [allProgress, setAllProgress] = useState(() => safeLoadAll());
+  const [allProgress, setAllProgress] = useState(() => { migrateIfNeeded(); return safeLoadAll(); });
 
   // Ensure the topic state exists
   const topicState = useMemo(() => {
@@ -137,11 +164,7 @@ export function useTopicProgress(topicId, thresholds = DEFAULT_THRESHOLDS) {
 
   // Keep localStorage in sync if other tabs modify it
   useEffect(() => {
-    const onStorage = (e) => {
-      if (e.key === STORAGE_KEY) {
-        setAllProgress(safeLoadAll());
-      }
-    };
+    const onStorage = () => { setAllProgress(safeLoadAll()); };
     window.addEventListener('storage', onStorage);
     return () => window.removeEventListener('storage', onStorage);
   }, []);

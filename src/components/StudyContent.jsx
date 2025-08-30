@@ -5,6 +5,8 @@ import { useVaultService } from "../hooks/useVaultService";
 import { useElevenLabsTTS } from "../hooks/useElevenLabsTTS";
 import { Loader2, Volume2, Pause, StopCircle, X, FileText, ExternalLink, Play } from "lucide-react";
 import PDFViewer from "./PDFViewer";
+import { logPlannerEvent } from "../progress/plannerEvents";
+import { getSelectedCurriculum } from "../config/curricula";
 
 // Robust JSON parsing function to handle various GPT response formats
 const parseAIResponse = (response) => {
@@ -144,8 +146,8 @@ function StudyContent({ topic, onBack }) {
   const [showPDFViewer, setShowPDFViewer] = useState(false);
   const [selectedPDF, setSelectedPDF] = useState(null);
 
-  const { callAIWithVault, callAIWithPublicSources } = useAIService();
-  const { getClickableReferences, isVaultLoaded, getRelevantContext } = useVaultService();
+  const { callAIWithVault, callAIWithPublicSources, callAIJsonOnly } = useAIService();
+  const { getClickableReferences, isVaultLoaded, getRelevantContext, createVaultPrompt } = useVaultService();
   const { speak, playPreparedAudio, audioReady, audioLoading: ttsAudioLoading, audioError: ttsAudioError, pause, stop, ttsState } = useElevenLabsTTS();
 
   // Detect AQA components (original behavior)
@@ -170,6 +172,7 @@ function StudyContent({ topic, onBack }) {
   }, [ttsState]);
 
   const handleSubmit = async () => {
+    try { logPlannerEvent({ phase: 'learn', topicId: topic.id, subId: topic.subTopic.id, theme: (themeMap[topic.subTopic.id]?.[0] || topic.subTopic.title), curriculum: null }); } catch(_){ }
     // New AQA Psychology prompt (robust to missing sub-topics/themes)
     const subTitle = (topic?.subTopic && topic.subTopic.title) ? topic.subTopic.title : topic.title;
     const themeLine = selectedTheme ? `\nTHEME: ${selectedTheme}` : '';
@@ -207,20 +210,33 @@ Return in this JSON format:
     try {
       // For AQA Psychology, always use public AI sources
       if (isAQA) {
+        // AQA: use public sources path with strict JSON
         result = await callAIWithPublicSources(
           basePrompt,
           topic.title,
           subTopic?.title || topic.title
         );
       } else {
+        // OCR/Other: if vault is ready, inject vault references and request strict JSON
         const vaultReady = isVaultLoaded() && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
         if (vaultReady) {
-          result = await callAIWithVault(
+          const enhancedPrompt = createVaultPrompt(
             basePrompt,
-            topic.title, 
-            subTopic?.title || topic.title, 
-            { includeAdditional: includeAdvanced }
+            topic.title,
+            subTopic?.title || topic.title,
+            includeAdvanced
           );
+          try {
+            result = await callAIJsonOnly(enhancedPrompt, null, "gpt-4o-mini");
+          } catch (_) {
+            // Fallback to non-JSON vault call if needed
+            result = await callAIWithVault(
+              basePrompt,
+              topic.title,
+              subTopic?.title || topic.title,
+              { includeAdditional: includeAdvanced }
+            );
+          }
         } else {
           result = await callAIWithPublicSources(
             basePrompt,
@@ -274,7 +290,7 @@ Return in this JSON format:
   };
 
   return (
-    <div className="bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800 min-h-screen">
+    <div className={`bg-gradient-to-br ${((getSelectedCurriculum&&getSelectedCurriculum())==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800 min-h-screen`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent text-center">
           Ask AI About This Topic

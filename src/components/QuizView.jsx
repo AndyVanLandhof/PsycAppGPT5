@@ -1178,7 +1178,7 @@ Return ONLY this JSON:
   const currentQuestion = questions[currentQuestionIndex];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800">
+    <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {onBack && (
           <div className="flex justify-center mb-6">

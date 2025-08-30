@@ -1,5 +1,6 @@
 // Vault Loader Utility
 // This handles loading your JSON chunk files from the vault structure
+import { getSelectedCurriculum } from '../config/curricula';
 
 const VAULT_BASE_PATH = './src/utils/vault'; // Updated to point to the vault folder within the app
 
@@ -25,15 +26,30 @@ export class VaultLoader {
   constructor() {
     this.vaultData = {};
     this.isLoaded = false;
+    this.currentBase = null; // '/vault/aqa-psych' or '/vault/ocr-rs' or '/vault'
   }
 
   // Load all vault data dynamically via manifest
   async loadVault() {
     try {
       console.log('[Vault] Loading vault data via manifest...');
+      // Determine base path by selected curriculum
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      // For AQA Psychology, assets live directly under /vault; OCR RS lives under /vault/ocr-rs
+      const base = curr === 'ocr-rs' ? '/vault/ocr-rs' : '/vault';
+      // If base changed, reset state so we reload
+      if (this.currentBase !== base) {
+        this.vaultData = {};
+        this.isLoaded = false;
+        this.currentBase = base;
+      }
 
-      // Fetch manifest generated under public/vault/manifest.json
-      const manifestRes = await fetch('/vault/manifest.json');
+      // Fetch manifest generated under public/vault/manifest.json (AQA) or /vault/ocr-rs/manifest.json (OCR)
+      let manifestRes = await fetch(`${base}/manifest.json`);
+      if (!manifestRes.ok) {
+        console.warn(`[Vault] No manifest at ${base}/manifest.json. Trying legacy /vault/manifest.json`);
+        manifestRes = await fetch('/vault/manifest.json');
+      }
       if (!manifestRes.ok) {
         console.warn('[Vault] No manifest.json found. Falling back to previous static loader.');
         // Back-compat: use old static structure as a last resort
@@ -42,21 +58,51 @@ export class VaultLoader {
         this.isLoaded = true;
         return this.vaultData;
       }
-      const manifest = await manifestRes.json(); // array of relative paths like "PastPapers/File_chunks.json"
+      // Read as text first (Safari-safe), strip BOM, then JSON.parse
+      let manifest = [];
+      try {
+        const rawText = await manifestRes.text();
+        const cleanText = rawText.replace(/^\uFEFF/, '').trim();
+        manifest = JSON.parse(cleanText);
+      } catch (e) {
+        console.error('[Vault] Failed to parse manifest.json text');
+        manifest = [];
+      }
+      if (!Array.isArray(manifest)) {
+        console.warn('[Vault] Manifest is not an array. Using empty list.');
+        manifest = [];
+      }
 
       // Fetch all files listed in manifest
       const allChunks = [];
       const results = await Promise.allSettled(
         manifest.map(async relPath => {
-          const url = `/vault/${relPath}`;
-          const res = await fetch(url);
-          if (!res.ok) return [];
-          const data = await res.json();
-          // Derive folderPath and filename for conversion
-          const lastSlash = relPath.lastIndexOf('/');
-          const folderPath = lastSlash === -1 ? '' : relPath.substring(0, lastSlash);
-          const filename = lastSlash === -1 ? relPath : relPath.substring(lastSlash + 1);
-          return this.convertChunksFormat(data, folderPath, filename);
+          try {
+            const safeRel = typeof relPath === 'string' ? relPath : String(relPath || '');
+            if (!safeRel) return [];
+            // Encode each path segment to handle spaces and special characters (Safari-safe)
+            const encodedRelPath = safeRel
+              .split('/')
+              .map(seg => encodeURIComponent(seg))
+              .join('/');
+            const url = `${this.currentBase ? this.currentBase : '/vault'}/${encodedRelPath}`;
+            // console.debug('[Vault] Fetching', url);
+            const res = await fetch(url);
+            if (!res.ok) return [];
+            // Read as text first then parse to avoid Safari JSON.parse edge cases
+            const rawText = await res.text();
+            const cleanText = rawText.replace(/^\uFEFF/, '').trim();
+            let data = [];
+            try { data = JSON.parse(cleanText); } catch (_) { return []; }
+            // Derive folderPath and filename for conversion
+            const lastSlash = safeRel.lastIndexOf('/');
+            const folderPath = lastSlash === -1 ? '' : safeRel.substring(0, lastSlash);
+            const filename = lastSlash === -1 ? safeRel : safeRel.substring(lastSlash + 1);
+            return this.convertChunksFormat(data, folderPath, filename);
+          } catch (err) {
+            console.warn('[Vault] Failed to load', relPath, err);
+            return [];
+          }
         })
       );
 
@@ -147,16 +193,21 @@ export class VaultLoader {
         title = this.extractTitleFromContent(chunk.text);
       }
       if (content && content.length > 2) {
-        const pdfRelative = `${folderPath ? folderPath + '/' : ''}${filename.replace('_chunks.json', '.pdf')}`;
+        const base = this.currentBase ? this.currentBase : '/vault';
+        const pdfRelativeRaw = `${folderPath ? folderPath + '/' : ''}${filename.replace('_chunks.json', '.pdf')}`;
+        const pdfRelative = pdfRelativeRaw
+          .split('/')
+          .map(seg => encodeURIComponent(seg))
+          .join('/');
         const convertedChunk = {
-          id: `${folderPath}-${filename}-${i}`,
+          id: `vault/${folderPath ? folderPath : ''}${folderPath ? '-' : ''}${filename}-${i}`,
           content,
           source: filename.replace('_chunks.json', '.pdf'),
           page,
           title,
-          pdfUrl: `/vault/${pdfRelative}`,
+          pdfUrl: `${base}/${pdfRelative}`,
           metadata: {
-            topic: 'psychology',
+            topic: this.currentBase && this.currentBase.includes('ocr-rs') ? 'religious-studies' : 'psychology',
             subtopic: this.extractSubtopicFromPath(folderPath || '', filename),
             type: this.extractTypeFromPath(folderPath || '')
           }
@@ -207,11 +258,18 @@ export class VaultLoader {
       return [];
     }
 
-    // Aggregate all chunks across categories
+    // Aggregate all chunks across categories and de-duplicate by id
     const chunks = [];
+    const seenIds = new Set();
     Object.values(this.vaultData).forEach(val => {
       if (Array.isArray(val)) {
-        chunks.push(...val);
+        for (const c of val) {
+          const cid = c && c.id ? String(c.id) : null;
+          if (cid && !seenIds.has(cid)) {
+            seenIds.add(cid);
+            chunks.push(c);
+          }
+        }
       }
     });
     console.log('[Vault][Debug] Total chunks to search:', chunks.length);
@@ -290,8 +348,14 @@ export class VaultLoader {
     searchTerms.forEach(term => {
       if (content.includes(term)) {
         score += 10;
-        const occurrences = (content.match(new RegExp(term, 'g')) || []).length;
-        score += Math.min(occurrences * 2, 10);
+        // Escape regex metacharacters to avoid invalid pattern errors
+        try {
+          const safe = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const occurrences = (content.match(new RegExp(safe, 'g')) || []).length;
+          score += Math.min(occurrences * 2, 10);
+        } catch (_) {
+          // If regex fails for any reason, skip occurrence boosting
+        }
       }
       if (title.includes(term)) score += 8;
       if (subtopic.includes(term)) score += 6;

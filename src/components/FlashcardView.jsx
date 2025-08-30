@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useAIService } from "../hooks/useAIService";
 import { useVaultService } from "../hooks/useVaultService";
 import { useElevenLabsTTS } from "../hooks/useElevenLabsTTS";
+import { getSelectedCurriculum } from "../config/curricula";
+import { logPlannerEvent } from "../progress/plannerEvents";
 import { Loader2, Volume2, Pause, StopCircle, ChevronLeft, ChevronRight, RotateCcw, Shuffle, History, Play, Download, Save, FileText, Calendar, Clock, Target } from "lucide-react";
 import jsPDF from 'jspdf';
 
@@ -139,18 +141,19 @@ function FlashcardView({ topic, onBack }) {
 
   // Load session history, stored summaries, and SRS cards from localStorage on mount
   useEffect(() => {
-    const savedHistory = localStorage.getItem(`flashcard-history-${topic.subTopic.id}`);
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    const savedHistory = localStorage.getItem(`${curr}:flashcard-history-${topic.subTopic.id}`);
     if (savedHistory) {
       setSessionHistory(JSON.parse(savedHistory));
     }
     
-    const savedSummaries = localStorage.getItem(`flashcard-summaries-${topic.subTopic.id}`);
+    const savedSummaries = localStorage.getItem(`${curr}:flashcard-summaries-${topic.subTopic.id}`);
     if (savedSummaries) {
       setStoredSummaries(JSON.parse(savedSummaries));
     }
 
     // Load SRS cards
-    const savedSrsCards = localStorage.getItem(`srs-cards-${topic.subTopic.id}`);
+    const savedSrsCards = localStorage.getItem(`${curr}:srs-cards-${topic.subTopic.id}`);
     if (savedSrsCards) {
       setSrsCards(JSON.parse(savedSrsCards));
     }
@@ -159,7 +162,8 @@ function FlashcardView({ topic, onBack }) {
   // Save SRS cards to localStorage whenever they change
   useEffect(() => {
     if (srsCards.length > 0) {
-      localStorage.setItem(`srs-cards-${topic.subTopic.id}`, JSON.stringify(srsCards));
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      localStorage.setItem(`${curr}:srs-cards-${topic.subTopic.id}`, JSON.stringify(srsCards));
     }
   }, [srsCards, topic.subTopic.id]);
 
@@ -419,7 +423,8 @@ Return in this JSON format:
 
     const updatedHistory = [session, ...sessionHistory].slice(0, 20); // Keep last 20 sessions
     setSessionHistory(updatedHistory);
-    localStorage.setItem(`flashcard-history-${topic.subTopic.id}`, JSON.stringify(updatedHistory));
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    localStorage.setItem(`${curr}:flashcard-history-${topic.subTopic.id}`, JSON.stringify(updatedHistory));
     
     // Return to main flashcard view
     setSessionComplete(false);
@@ -485,6 +490,7 @@ Return in this JSON format:
       setTimeout(() => {
         setSessionComplete(true);
         saveSession();
+        try { logPlannerEvent({ phase: 'reinforce', topicId: topic.id, subId: topic.subTopic.id, theme: topic.subTopic.title, curriculum: null }); } catch(_){ }
       }, 2000);
     } else {
       // Auto-advance after 2 seconds
@@ -614,7 +620,8 @@ Return in this JSON format:
 
     const updatedSummaries = [summary, ...storedSummaries].slice(0, 50); // Keep last 50 summaries
     setStoredSummaries(updatedSummaries);
-    localStorage.setItem(`flashcard-summaries-${topic.subTopic.id}`, JSON.stringify(updatedSummaries));
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    localStorage.setItem(`${curr}:flashcard-summaries-${topic.subTopic.id}`, JSON.stringify(updatedSummaries));
   };
 
   // Delete stored summary
@@ -1309,7 +1316,7 @@ Return in this JSON format:
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-200 text-gray-800">
+    <div className={`min-h-screen bg-gradient-to-br ${((getSelectedCurriculum&&getSelectedCurriculum())==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Back To Button */}
         <button 
