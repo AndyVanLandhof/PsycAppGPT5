@@ -18,6 +18,7 @@ import ExaminePage from './pages/ExaminePage.jsx';
 import BankGenerator from './pages/BankGenerator.jsx';
 import QuizLab from './pages/QuizLab.jsx';
 import QuizBankReview from './pages/QuizBankReview.jsx';
+import VaultDirectory from './pages/VaultDirectory.jsx';
 import Planner from './pages/Planner.jsx';
 import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
 import { topicData as rsTopicsAll } from './topicData.js';
@@ -214,6 +215,9 @@ function App() {
   if (view === 'quiz-review') {
     return <QuizBankReview onBack={() => setView('home')} />;
   }
+  if (view === 'vault-directory') {
+    return <VaultDirectory onBack={() => setView('home')} />;
+  }
 
   if (view === 'planner') {
     return <Planner onBack={() => setView('home')} />;
@@ -302,6 +306,7 @@ function App() {
             <button onClick={() => setView('bank-generator')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧰 Bank Generator</button>
             <button onClick={() => setView('quiz-lab')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Quiz Lab</button>
             <button onClick={() => setView('quiz-review')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📋 Quiz Bank Review</button>
+            <button onClick={() => setView('vault-directory')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📂 Vault Directory</button>
             <button
               onClick={() => { if (confirm('Reset ALL progress for all topics? This cannot be undone.')) { resetAllProgressStorage(); } }}
               className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
