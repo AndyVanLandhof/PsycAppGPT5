@@ -177,6 +177,56 @@ app.post('/api/save-quiz-bank', async (req, res) => {
   }
 });
 
+// List saved quiz banks
+app.get('/api/list-quiz-banks', async (req, res) => {
+  try {
+    const baseDir = path.join(__dirname, 'public', 'banks', 'quizzes');
+    if (!fs.existsSync(baseDir)) return res.json({ items: [] });
+    const items = [];
+    const walk = (dir, rel) => {
+      const entries = fs.readdirSync(dir, { withFileTypes: true });
+      for (const ent of entries) {
+        const full = path.join(dir, ent.name);
+        const relPath = path.join(rel, ent.name);
+        if (ent.isDirectory()) {
+          walk(full, relPath);
+        } else if (ent.isFile() && ent.name.endsWith('.json')) {
+          // relPath format: <curriculum>/<topicId>/<subId>_<set>.json
+          const parts = relPath.split(path.sep);
+          if (parts.length >= 3) {
+            const curriculum = parts[0];
+            const topicId = parts[1];
+            const file = parts[2];
+            const m = file.match(/^(.*)_([AB])\.json$/);
+            if (m) {
+              const subId = m[1];
+              const set = m[2];
+              let count = null;
+              try {
+                const data = JSON.parse(fs.readFileSync(full, 'utf8'));
+                count = Array.isArray(data.questions) ? data.questions.length : null;
+              } catch (_) {}
+              items.push({
+                curriculum,
+                topicId,
+                subId,
+                set,
+                count,
+                path: `/banks/quizzes/${relPath.replace(/\\/g,'/')}`
+              });
+            }
+          }
+        }
+      }
+    };
+    walk(baseDir, '');
+    res.json({ items });
+  } catch (e) {
+    console.error('list-quiz-banks error', e);
+    res.status(500).json({ error: 'List failed' });
+  }
+});
+
 // Generate a small bank for a topic (short answers) in one call
 app.post('/api/generate-bank', async (req, res) => {
   const { topic = 'biopsychology', kind = 'short', count = 12, save = false, append = false } = req.body || {};
