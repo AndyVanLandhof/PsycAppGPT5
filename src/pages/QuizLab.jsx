@@ -180,6 +180,47 @@ Return ONLY this JSON:
     }
   };
 
+  const runBuildAll = async () => {
+    setLoading(true);
+    setError('');
+    try {
+      const entries = Object.entries(psychologyTopics);
+      for (const [tid, t] of entries) {
+        for (const st of (t.subTopics || [])) {
+          // eslint-disable-next-line no-await-in-loop
+          setParsed([{ question: `Building ${t.title} / ${st.title}…`, options: [], correctAnswer: 0, explanation: '' }]);
+          const topicTitle = t.title;
+          const subTitle = st.title;
+          const base = unifiedPrompt(topicTitle, subTitle);
+          const promptWithVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
+          // Set A
+          // eslint-disable-next-line no-await-in-loop
+          const rawA = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+          const jsonA = extractFirstJson(rawA);
+          if (!jsonA) throw new Error(`No JSON in Set A for ${tid}/${st.id}`);
+          const dataA = JSON.parse(jsonA);
+          const itemsA = sanitize(dataA, subTitle);
+          // eslint-disable-next-line no-await-in-loop
+          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: 'aqa-psych', topicId: tid, subId: st.id, set: 'A', bank: { questions: itemsA } }) });
+          // Set B
+          // eslint-disable-next-line no-await-in-loop
+          const rawB = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+          const jsonB = extractFirstJson(rawB);
+          if (!jsonB) throw new Error(`No JSON in Set B for ${tid}/${st.id}`);
+          const dataB = JSON.parse(jsonB);
+          const itemsB = sanitize(dataB, subTitle);
+          // eslint-disable-next-line no-await-in-loop
+          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: 'aqa-psych', topicId: tid, subId: st.id, set: 'B', bank: { questions: itemsB } }) });
+        }
+      }
+      alert('Built and saved A/B sets for all sub-topics.');
+    } catch (e) {
+      setError(e?.message || String(e));
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
       <div className="max-w-5xl mx-auto px-4 py-8 space-y-6">
@@ -222,6 +263,7 @@ Return ONLY this JSON:
           <div>
             <button onClick={run} disabled={loading} className={`px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-blue-600 hover:bg-blue-700'}`}>{loading? 'Generating…' : 'Generate Quiz'}</button>
             <button onClick={runBatchSave} disabled={loading} className={`ml-2 px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-emerald-600 hover:bg-emerald-700'}`}>{loading? 'Saving…' : 'Build & Save A/B'}</button>
+            <button onClick={runBuildAll} disabled={loading} className={`ml-2 px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-purple-600 hover:bg-purple-700'}`}>{loading? 'Running…' : 'Build All (A/B)'} </button>
           </div>
         </div>
         {error && (
