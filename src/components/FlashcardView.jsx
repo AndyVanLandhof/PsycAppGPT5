@@ -194,6 +194,136 @@ function FlashcardView({ topic, onBack }) {
     return null;
   };
 
+  // Quality helpers: align Q↔A entities and tighten phrasing
+  const extractStudyRef = (text) => {
+    const m = String(text || '').match(/([A-Z][a-z]+)\s*\(((?:19|20)\d{2})\)/);
+    return m ? { name: m[1], year: m[2], label: `${m[1]} (${m[2]})` } : null;
+  };
+
+  const escapeRegExp = (s) => String(s || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  const toTitleCase = (s) => {
+    const ACRONYMS = new Set(['STM','LTM','WMM','MSM','EWT','AQA','AO1','AO2','AO3','RM']);
+    const LOWER = new Set(['of','and','in','to','the','for','a','an','on','at','by','or']);
+    return String(s || '')
+      .split(/\s+/)
+      .map((w, i) => {
+        const bare = w.replace(/[^a-z0-9]/gi,'');
+        if (ACRONYMS.has(bare.toUpperCase())) return bare.toUpperCase();
+        if (i > 0 && LOWER.has(bare.toLowerCase())) return bare.toLowerCase();
+        return bare.charAt(0).toUpperCase() + bare.slice(1);
+      })
+      .join(' ');
+  };
+
+  const deriveSubjectFromAnswer = (answer, originalQuestion, fallback) => {
+    const a = String(answer || '').toLowerCase();
+    const q = String(originalQuestion || '').toLowerCase();
+    // Animal studies heuristics
+    if ((/harlow/i.test(answer) || /rhesus|monkey/.test(a)) && (a.includes('cloth') || a.includes('wire') || a.includes('comfort'))) {
+      return 'contact comfort in rhesus monkeys';
+    }
+    if ((/harlow/i.test(answer) || /monkey|maternal/.test(a)) && (a.includes('maternal deprivation') || a.includes('aggress') || a.includes('socially'))) {
+      return 'long-term effects of maternal deprivation';
+    }
+    if (/lorenz/i.test(answer) || /gosling|geese/.test(a) || /imprinting/.test(a)) {
+      if (a.includes('critical period')) return 'the critical period for imprinting in goslings';
+      return a.includes('gosling') || a.includes('geese') ? 'imprinting in goslings' : 'imprinting';
+    }
+    // Extract specific tail from question if present
+    const m = q.match(/about\s+([^?]+)\??$/);
+    if (m && m[1]) return m[1].trim();
+    return fallback;
+  };
+
+  const chooseAuxForSubject = (subject) => {
+    const s = String(subject || '').toLowerCase();
+    if (/(findings|studies|results|data|children|processes|effects|implications)\b/.test(s)) return 'do';
+    if (/(\w+s\b)/.test(s)) return 'do';
+    return 'does';
+  };
+
+  const enforceQuality = (cards) => {
+    return cards.map((c) => {
+      const ao = String(c.ao || '').toUpperCase();
+      let q = String(c.question || '').trim();
+      const a = String(c.answer || '').trim();
+      const ref = extractStudyRef(a) || extractStudyRef(q);
+
+      if (ao.includes('AO1')) {
+        // Canonicalize AO1
+        if (ref) {
+          // Always prefer canonical findings question; pick a specific subject derived from answer
+          const subject = deriveSubjectFromAnswer(a, q, topic.subTopic.title);
+          q = `What did ${ref.label} find about ${subject}?`;
+        } else {
+          // If question already starts with an interrogative, keep it (normalize punctuation)
+          const interrogative = /^(what|which|who|how|when|where|why)\b/i.test(q);
+          if (interrogative) {
+            q = q.replace(/^\s*define\s*:?\s*/i, '').trim();
+            q = q.replace(/\?+\s*$/,'?');
+          } else {
+            // Transform any "Define ..." or generic into a clean interrogative
+            let term = q.replace(/^\s*define\s*:?\s*/i, '').trim();
+            term = term.replace(/^what\s+is\s+/i, '').trim();
+            if (!term) term = topic.subTopic.title;
+            q = `What is ${term}?`;
+          }
+        }
+      } else if (ao.includes('AO3')) {
+        // If answer cites a study, align Q to that study
+        if (ref) {
+          q = `Give one limitation or strength of ${ref.label} and why it matters.`;
+        }
+      } else if (ao.includes('AO2')) {
+        // Prefer concise application phrasing; avoid prefixes like Scenario/Apply
+        const rest = q.replace(/^\s*(scenario|apply)\s*:?\s*/i, '').trim().replace(/[.\s]+$/,'');
+        if (ref) {
+          q = `What is one implication of ${ref.label} for ${topic.subTopic.title}?`;
+        } else if (rest) {
+          const idx = rest.toLowerCase().indexOf(' to ');
+          if (idx > 0) {
+            const lhs = rest.slice(0, idx).trim();
+            const rhs = rest.slice(idx + 4).trim();
+            const aux = chooseAuxForSubject(lhs);
+            q = `How ${aux} ${lhs} apply to ${rhs}?`;
+          } else {
+            q = `How does ${topic.subTopic.title} apply to ${rest}?`;
+          }
+        } else {
+          q = `How does ${topic.subTopic.title} apply in practice?`;
+        }
+      }
+      // Final cleanup: remove any lingering command-style prefixes
+      q = q.replace(/^\s*Define\s*:?\s*/i, '').replace(/^\s*Scenario\s*:?\s*/i, '').trim();
+      // Normalize trailing punctuation: drop trailing periods/exclamations then ensure single ? for questions
+      q = q.replace(/[.!\u2026]+\s*$/,'');
+      if (ao.includes('AO1') || ao.includes('AO2')) {
+        if (!/\?$/.test(q)) q = q + '?';
+        q = q.replace(/\?+\s*$/,'?');
+      }
+      // Collapse malformed endings like '.?' or '?.' to a single '?'
+      q = q.replace(/[.!\u2026]+\?$/,'?').replace(/\?\s*[.!\u2026]+$/,'?');
+      // Normalize formal terms to canonical casing from topic titles
+      const canonSub = toTitleCase(topic?.subTopic?.title || '');
+      const canonTop = toTitleCase(topic?.title || '');
+      if (canonSub) {
+        const subRe = new RegExp(`\\b${escapeRegExp(canonSub)}\\b`, 'gi');
+        q = q.replace(subRe, canonSub);
+      }
+      if (canonTop) {
+        const topRe = new RegExp(`\\b${escapeRegExp(canonTop)}\\b`, 'gi');
+        q = q.replace(topRe, canonTop);
+      }
+      // Also fix common lowercased variants of known subtopic words in-place (e.g., 'maternal deprivation')
+      if (canonSub && canonSub.toLowerCase() !== canonSub) {
+        const subLower = new RegExp(`\\b${escapeRegExp(canonSub.toLowerCase())}\\b`, 'gi');
+        q = q.replace(subLower, canonSub);
+      }
+      return { ...c, question: q, answer: a };
+    });
+  };
+
   const generateFlashcards = async () => {
     setIsLoading(true);
     // New AQA Psychology prompt
@@ -202,7 +332,12 @@ function FlashcardView({ topic, onBack }) {
 TOPIC: ${topic.title}
 SUB-TOPIC: ${topic.subTopic.title}
 
-Create EXACTLY 5 flashcards for high-velocity revision. Each flashcard should be one of the following types:
+Create EXACTLY 5 flashcards for high-velocity revision with THIS DISTRIBUTION:
+- 3 x AO1 (at least one must be AO1 Findings from a named study with specific stat/detail)
+- 1 x AO2 (apply to a 1–2 sentence scenario)
+- 1 x AO3 (one specific strength or limitation with brief evidence)
+
+Each flashcard must be one of the following types:
 - AO1: Test recall of a key term, definition, or concept
 - AO1 (Findings): Ask for findings from a named study and ALWAYS include in the answer: researcher(s) + year, sample/method/measure, and a precise key result (number, percentage, correlation, region/volume change)
 - AO2: Ask for application of a theory/model to a short scenario (1–2 sentences)
@@ -251,17 +386,42 @@ Return in this JSON format:
         return;
       }
       const flashcards = parsed.flashcards || [];
-      if (flashcards.length < 5) {
+
+      // Enforce distribution: 3 AO1, 1 AO2, 1 AO3 (progressive learning weighting)
+      const selectWithDistribution = (cards) => {
+        const byAO = { AO1: [], AO2: [], AO3: [] };
+        for (const c of cards) {
+          const tag = String(c.ao || '').toUpperCase();
+          if (tag.includes('AO1')) byAO.AO1.push(c);
+          else if (tag.includes('AO2')) byAO.AO2.push(c);
+          else if (tag.includes('AO3')) byAO.AO3.push(c);
+        }
+        const pick = [];
+        // 3 AO1
+        pick.push(...byAO.AO1.slice(0, 3));
+        // 1 AO2
+        if (byAO.AO2.length > 0) pick.push(byAO.AO2[0]);
+        // 1 AO3
+        if (byAO.AO3.length > 0) pick.push(byAO.AO3[0]);
+        // If short, top up with any remaining
+        if (pick.length < 5) {
+          const remaining = cards.filter(c => !pick.includes(c));
+          pick.push(...remaining.slice(0, 5 - pick.length));
+        }
+        return pick.slice(0, 5);
+      };
+
+      const selected = enforceQuality(selectWithDistribution(flashcards));
+      if (selected.length < 5) {
         console.warn('[Flashcards][Fallback] Using fallback flashcards (AI returned <5 flashcards)');
         setSessionFlashcards(generateFallbackFlashcards());
       } else {
-        const selectedCards = flashcards.slice(0, 5);
-        setSessionFlashcards(selectedCards);
+        setSessionFlashcards(selected);
         
         // Add new cards to SRS if not already present
         if (!srsMode) {
           const existingQuestions = srsCards.map(card => card.question);
-          const newCards = selectedCards.filter(card => !existingQuestions.includes(card.question));
+          const newCards = selected.filter(card => !existingQuestions.includes(card.question));
           if (newCards.length > 0) {
             addCardsToSrs(newCards);
           }

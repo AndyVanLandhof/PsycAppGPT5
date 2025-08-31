@@ -70,6 +70,180 @@ function QuizView({ topic, onBack }) {
     return null;
   };
 
+  // Keyword hints per sub-topic for validation
+  const getKeywordsForSubTopic = (subTitle) => {
+    const t = String(subTitle || '').toLowerCase();
+    if (t.includes('social learning') || t.includes('bandura')) {
+      return ['Bandura', 'Bobo', 'modelling', 'modeling', 'imitation', 'vicarious', 'reinforcement', 'identification', 'mediational', 'attention', 'retention', 'reproduction', 'motivation', 'observational learning'];
+    }
+    if (t.includes('religious experience') || t.includes('otto') || t.includes('william james') || t.includes('james')) {
+      return ['Otto', 'William James', 'numinous', 'mysterium tremendum', 'fascinans', 'ineffable', 'noetic', 'passive', 'transient', 'veridical', 'Swinburne', 'principle of credulity', 'principle of testimony'];
+    }
+    if (t.includes('memory')) {
+      return ['STM', 'short-term', 'LTM', 'long-term', 'encoding', 'capacity', 'duration', 'Baddeley', 'Miller', 'Peterson'];
+    }
+    if (t.includes('attachment')) {
+      return ['Bowlby', 'Ainsworth', 'Strange Situation', 'secure', 'insecure', 'privation', 'deprivation'];
+    }
+    // Generic: derive from title tokens
+    const stop = new Set(['the','and','of','in','to','for','a','an','on','at','by','or','from','with','within','approaches','topic','subtopic','studies','study']);
+    const base = (subTitle || '').split(/[^a-zA-Z0-9]+/).filter(w => w && w.length > 2 && !stop.has(w.toLowerCase()));
+    return base;
+  };
+
+  const curatedSLTQuestions = () => ([
+    {
+      question: 'Which term in Social Learning Theory refers to learning by watching others? ',
+      options: ['Classical conditioning', 'Operant conditioning', 'Observational learning', 'Habituation'],
+      correctAnswer: 2,
+      explanation: 'Bandura proposed observational learning: behaviour is learned by observing models and the consequences they receive.'
+    },
+    {
+      question: 'In Bandura et al. (1961), children who observed an aggressive model were more likely to…',
+      options: ['Avoid toys', 'Show aggressive acts to the Bobo doll', 'Cry frequently', 'Ignore the model'],
+      correctAnswer: 1,
+      explanation: 'Exposure to the aggressive adult increased imitative aggression toward the Bobo doll.'
+    },
+    {
+      question: 'Vicarious reinforcement means that behaviour is…',
+      options: ['Reinforced by direct rewards only', 'Reduced by punishment only', 'Influenced by observing someone else being rewarded', 'Unaffected by consequences'],
+      correctAnswer: 2,
+      explanation: 'Observers are more likely to imitate behaviours that they see being rewarded in models.'
+    },
+    {
+      question: 'Which is NOT one of Bandura’s mediational processes?',
+      options: ['Attention', 'Retention', 'Reproduction', 'Extinction'],
+      correctAnswer: 3,
+      explanation: 'Mediational processes are attention, retention, reproduction and motivation.'
+    },
+    {
+      question: 'Identification in SLT is more likely when the model is…',
+      options: ['Dissimilar and low status', 'Similar and high status', 'Unfamiliar and low status', 'Unrelated and anonymous'],
+      correctAnswer: 1,
+      explanation: 'People identify with models they perceive as similar, attractive or with high status, increasing imitation.'
+    },
+    {
+      question: 'Which finding best supports SLT from Bandura’s 1963 film model study?',
+      options: ['No effect of models on behaviour', 'Equal aggression after non-aggressive model', 'Imitation occurred after viewing filmed aggression', 'Punishment always prevented imitation'],
+      correctAnswer: 2,
+      explanation: 'Children imitated aggression even when it was seen in film/cartoon models.'
+    },
+    {
+      question: '“Mediational processes” in SLT are best described as…',
+      options: ['Innate reflexes', 'Cognitive factors between stimulus and response', 'Only external rewards', 'Biological drives only'],
+      correctAnswer: 1,
+      explanation: 'Attention, retention, reproduction, motivation mediate observation and imitation.'
+    },
+    {
+      question: 'Self-efficacy in SLT refers to…',
+      options: ['Belief that one can perform the behaviour', 'Belief that others can perform it', 'General intelligence', 'Emotional arousal'],
+      correctAnswer: 0,
+      explanation: 'Higher self-efficacy increases likelihood of attempting and imitating behaviour.'
+    },
+    {
+      question: 'Compared to behaviourism, SLT specifically adds the idea of…',
+      options: ['Unconscious conflict', 'Maturation', 'Learning via observation of models', 'Psychic determinism'],
+      correctAnswer: 2,
+      explanation: 'SLT extends conditioning by including observational learning and cognition.'
+    },
+    {
+      question: 'Which scenario best illustrates vicarious punishment?',
+      options: ['Model gets told off; observer imitates anyway', 'Model gets punished; observer is less likely to imitate', 'Observer is punished after imitation', 'Observer is rewarded after imitation'],
+      correctAnswer: 1,
+      explanation: 'Seeing a model punished reduces observer’s likelihood to imitate the behaviour.'
+    },
+    {
+      question: 'According to SLT, imitation is most likely when…',
+      options: ['The behaviour is complex and unrehearsed', 'The model is disliked and low status', 'The observer expects similar rewards', 'The observer is very young only'],
+      correctAnswer: 2,
+      explanation: 'Expectancy of similar outcomes (vicarious reinforcement) increases imitation.'
+    },
+    {
+      question: 'A teacher praises a student’s helpfulness in front of the class. SLT predicts classmates will…',
+      options: ['Become less helpful', 'Imitate helpful behaviour', 'Ignore social cues', 'Only act when directly rewarded later'],
+      correctAnswer: 1,
+      explanation: 'Observed rewards for a model can increase similar behaviour via vicarious reinforcement.'
+    }
+  ]);
+
+  const curatedREQuestions = () => ([
+    {
+      question: 'Which pair best captures Rudolf Otto’s description of the numinous?',
+      options: ['Rational and empirical', 'Mysterium tremendum et fascinans', 'Moral and legal', 'Subjective and illusory'],
+      correctAnswer: 1,
+      explanation: 'Otto argued religious experience is the numinous: awe/fear (tremendum) and attraction (fascinans).'
+    },
+    {
+      question: 'Which is NOT one of William James’s four characteristics?',
+      options: ['Ineffable', 'Noetic', 'Transient', 'Coercive'],
+      correctAnswer: 3,
+      explanation: 'James: ineffable, noetic, transient, passive. Coercive is not one of the four.'
+    },
+    {
+      question: 'James described mystical experiences as “noetic,” meaning they…',
+      options: ['Provide authoritative knowledge/insight', 'Cause physical healings only', 'Are irrational by nature', 'Are purely emotional without cognition'],
+      correctAnswer: 0,
+      explanation: 'Noetic indicates a sense of gaining knowledge or insight.'
+    },
+    {
+      question: 'According to Otto, “tremendum” refers to…',
+      options: ['The attractive pull of the holy', 'The awe/fear aspect of the holy', 'Ethical transformation', 'Logical proof of God'],
+      correctAnswer: 1,
+      explanation: 'Tremendum is the overwhelming awe/fear in the presence of the holy.'
+    },
+    {
+      question: 'According to Otto, “fascinans” refers to…',
+      options: ['The fear of divine judgement', 'The compelling attraction of the holy', 'The moral law within', 'An illusion of the senses'],
+      correctAnswer: 1,
+      explanation: 'Fascinans is the attractive, compelling element drawing one toward the holy.'
+    },
+    {
+      question: 'Which best states James’s stance on the validity of religious experience?',
+      options: ['Always false', 'Always true', 'Judge by fruits (effects) not roots (origins)', 'Only true if verified by science'],
+      correctAnswer: 2,
+      explanation: 'James recommended evaluating by practical outcomes rather than origins.'
+    },
+    {
+      question: 'James’s “passive” characteristic implies the subject…',
+      options: ['Controls the experience fully', 'Feels acted upon by a superior power', 'Engages in deliberate self-suggestion', 'Uses critical reasoning alone'],
+      correctAnswer: 1,
+      explanation: 'Passive: the subject experiences being grasped by something beyond their control.'
+    },
+    {
+      question: 'Which critique challenges the veridicality of religious experience?',
+      options: ['Swinburne’s testimony principle', 'Naturalistic/psychological explanations', 'James’s pragmatism', 'Otto’s numinous'],
+      correctAnswer: 1,
+      explanation: 'Naturalistic accounts (e.g., psychology, neurology) can explain experiences without positing the divine.'
+    },
+    {
+      question: 'Swinburne’s Principle of Credulity (later thinkers) suggests that…',
+      options: ['We should trust experiences as they seem unless we have reason to doubt', 'Only scientific experiences are credible', 'Religious experience is never reliable', 'Only group experiences count as evidence'],
+      correctAnswer: 0,
+      explanation: 'Credulity supports taking experiences at face value unless disconfirming reasons exist.'
+    },
+    {
+      question: 'The term “ineffable” in James’s account means…',
+      options: ['Easily expressible in language', 'Beyond expression in words', 'Entirely emotional', 'Entirely rational'],
+      correctAnswer: 1,
+      explanation: 'Ineffable: cannot be fully expressed linguistically.'
+    }
+  ]);
+
+  const looksDomainRelevant = (text, keywords) => {
+    const s = String(text || '').toLowerCase();
+    return keywords.some(k => s.includes(k.toLowerCase()));
+  };
+
+  const sanitizeQuestionText = (text) => {
+    let s = (text || '').trim();
+    s = s.replace(/\s*Reference\s*\d+\.?/gi, '');
+    s = s.replace(/[.!…]+\s*$/,'');
+    if (!/\?$/.test(s)) s += '?';
+    return s.replace(/\?+$/,'?');
+  };
+  const isGenericStem = (text) => /\b(key concept|important aspect|relate[s]? to the broader topic|best fits within)\b/i.test(String(text||''));
+  const rewriteGenericStem = (subTitle) => `Which of the following best describes ${subTitle}?`;
+
   // Normalize AI output questions into app format: { question, options, correctAnswer, explanation }
   const normalizeQuestionsFromAI = (rawQuestions = []) => {
     const methodFlawPool = [
@@ -100,7 +274,7 @@ function QuizView({ topic, onBack }) {
 
       if (type === 'mcq' && Array.isArray(q.options) && Number.isInteger(q.answer)) {
         normalized.push({
-          question: questionText,
+          question: sanitizeQuestionText(questionText),
           options: q.options.slice(0, 4),
           correctAnswer: Math.max(0, Math.min(3, q.answer)),
           explanation: explanationText
@@ -112,7 +286,7 @@ function QuizView({ topic, onBack }) {
         const options = ['True', 'False'];
         const correctIndex = q.answer ? 0 : 1;
         normalized.push({
-          question: questionText,
+          question: sanitizeQuestionText(questionText),
           options,
           correctAnswer: correctIndex,
           explanation: explanationText
@@ -140,7 +314,7 @@ function QuizView({ topic, onBack }) {
       // Fallback: if options/answer present in a different shape
       if (Array.isArray(q.options) && (Number.isInteger(q.correctAnswer) || Number.isInteger(q.answer))) {
         normalized.push({
-          question: questionText,
+          question: sanitizeQuestionText(questionText),
           options: q.options.slice(0, 4),
           correctAnswer: Number.isInteger(q.correctAnswer) ? q.correctAnswer : q.answer,
           explanation: explanationText
@@ -148,8 +322,72 @@ function QuizView({ topic, onBack }) {
       }
     }
 
-    // Ensure exactly 10 by truncating or padding with simple placeholders if needed
     return normalized;
+  };
+
+  // Ensure uniqueness by question stem and top-up from curated pool without repeats
+  const dedupeAndTopUp = (items, curatedPool) => {
+    const used = new Set();
+    const out = [];
+    const signature = (q) => String(q.question || '').trim().toLowerCase();
+    for (const it of items) {
+      const sig = signature(it);
+      if (!sig || used.has(sig)) continue;
+      used.add(sig);
+      out.push(it);
+    }
+    for (const c of curatedPool) {
+      if (out.length >= 10) break;
+      const sig = signature(c);
+      if (!used.has(sig)) { used.add(sig); out.push(c); }
+    }
+    return out.slice(0, 10);
+  };
+
+  // De-duplicate and pad options to 4 uniques; adjust correct index
+  const normalizeOptions = (q) => {
+    const sltDistractors = ['Classical conditioning', 'Operant conditioning', 'Habituation', 'Maturation', 'Reflexes'];
+    if (!Array.isArray(q.options)) return q;
+    const seen = new Set();
+    const uniq = [];
+    const origCorrectText = q.options[q.correctAnswer];
+    for (const opt of q.options) {
+      const key = String(opt || '').trim().toLowerCase();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      uniq.push(opt);
+    }
+    while (uniq.length < 4 && sltDistractors.length > 0) {
+      const next = sltDistractors.shift();
+      const key = next.toLowerCase();
+      if (!seen.has(key)) { uniq.push(next); seen.add(key); }
+    }
+    let correctIndex = uniq.findIndex(o => String(o).toLowerCase() === String(origCorrectText || '').toLowerCase());
+    if (correctIndex < 0) correctIndex = 0;
+    return { ...q, options: uniq.slice(0, 4), correctAnswer: correctIndex };
+  };
+
+  const alignExplanation = (q) => {
+    const questionText = String(q.question || '');
+    const options = Array.isArray(q.options) ? q.options : [];
+    const correctText = options[q.correctAnswer] || '';
+    let expl = String(q.explanation || '').trim();
+    const ensurePeriod = (s) => s.replace(/[.!?]*\s*$/,'').trim() + '.';
+    const hasKeyword = (a, b) => String(a).toLowerCase().includes(String(b).toLowerCase());
+    if (!expl) {
+      expl = `Correct answer: ${correctText}.`;
+    } else {
+      // If explanation misses the core wording of the correct option, append a tie-back sentence
+      const token = String(correctText).split(/[^a-zA-Z]+/).filter(w => w.length > 5)[0] || '';
+      if (token && !hasKeyword(expl, token)) {
+        expl = ensurePeriod(expl) + ' This corresponds to: ' + correctText + '.';
+      }
+    }
+    // Special reinforcement for mediational processes in SLT
+    if (/mediational\s+process/i.test(questionText) && !/(attention|retention|reproduction|motivation)/i.test(expl)) {
+      expl = ensurePeriod(expl) + ' Mediational processes are attention, retention, reproduction and motivation.';
+    }
+    return { ...q, explanation: expl };
   };
 
   const generateQuiz = async () => {
@@ -212,6 +450,27 @@ Return in this JSON format:
       }
       const quizQuestions = Array.isArray(parsed.questions) ? parsed.questions : [];
       let normalized = normalizeQuestionsFromAI(quizQuestions);
+      // Validate domain relevance; replace weak items with curated fallbacks where available
+      const kws = getKeywordsForSubTopic(topic.subTopic.title);
+      const isSLT = topic.subTopic.title.toLowerCase().includes('social learning') || topic.subTopic.title.toLowerCase().includes('bandura');
+      const isRE = topic.subTopic.title.toLowerCase().includes('religious experience') || topic.subTopic.title.toLowerCase().includes('otto') || topic.subTopic.title.toLowerCase().includes('william james') || topic.subTopic.title.toLowerCase().includes('james');
+      const curated = isSLT ? curatedSLTQuestions() : (isRE ? curatedREQuestions() : []);
+      const curatedIter = curated[Symbol.iterator]();
+      const isBadOption = (opt) => /religious|philosoph|ethical|historical/i.test(String(opt || ''));
+      const validated = normalized.map(item => {
+        const domainOk = looksDomainRelevant(item.question, kws) || looksDomainRelevant(item.explanation, kws) || (item.options || []).some(o => looksDomainRelevant(o, kws));
+        const optionsOk = Array.isArray(item.options) && item.options.length === 4 && item.options.every(o => !isBadOption(o));
+        const answerOk = Number.isInteger(item.correctAnswer) && item.correctAnswer >= 0 && item.correctAnswer < 4;
+        if (domainOk && optionsOk && answerOk && !isGenericStem(item.question)) return item;
+        if (domainOk && optionsOk && answerOk && isGenericStem(item.question)) {
+          return { ...item, question: sanitizeQuestionText(rewriteGenericStem(topic.subTopic.title)) };
+        }
+        const next = curatedIter.next();
+        return next.done ? item : next.value;
+      });
+      normalized = validated.map(normalizeOptions);
+      // De-duplicate and top-up from curated without repeats
+      normalized = dedupeAndTopUp(normalized, curated).map(alignExplanation);
       if (normalized.length < 10) {
         console.warn('[Quiz] Normalized fewer than 10 questions; topping up with fallbacks');
         const fallback = generateFallbackQuestions();
@@ -235,7 +494,38 @@ Return in this JSON format:
   };
 
   const generateFallbackQuestions = () => {
-    // Create topic-specific fallback questions based on the actual topic
+    // Curated fallbacks for key sub-topics
+    const sltFallback = curatedSLTQuestions();
+    const reFallback = curatedREQuestions();
+
+    // Psychology-first: detect SLT (Bandura)
+    const sub = String(topic.subTopic.title || '').toLowerCase();
+    if (sub.includes('social learning') || sub.includes('bandura')) {
+      const questions = [...sltFallback];
+      while (questions.length < 10) {
+        questions.push({
+          question: 'Which of the following best describes identification in SLT?',
+          options: ['Copying any adult', 'Imitating a model with whom one shares characteristics/status', 'Learning by trial and error', 'Innate reflex imitation'],
+          correctAnswer: 1,
+          explanation: 'Identification: imitation is more likely when the observer perceives similarity or status in the model.'
+        });
+      }
+      return questions.slice(0, 10);
+    }
+    if (sub.includes('religious experience') || sub.includes('otto') || sub.includes('william james') || sub.includes('james')) {
+      const questions = [...reFallback];
+      while (questions.length < 10) {
+        questions.push({
+          question: 'Which statement best fits James’s view of mystical experience?',
+          options: ['It is always delusional', 'It often carries a sense of insight (noetic quality)', 'It is primarily linguistic', 'It has no practical effects'],
+          correctAnswer: 1,
+          explanation: 'James emphasised the noetic quality and “fruits” (practical effects) of experiences.'
+        });
+      }
+      return questions.slice(0, 10);
+    }
+
+    // Legacy RS-specific fallbacks (kept for OCR RS pages)
     const topicSpecificQuestions = {
       'Philosophy of Religion': {
         'Religious Experience': [
@@ -354,29 +644,29 @@ Return in this JSON format:
       }
     };
 
-    // Get topic-specific questions or use generic ones
+    // Get topic-specific questions or use generic psychology ones
     const topicQuestions = topicSpecificQuestions[topic.title]?.[topic.subTopic.title] || [
       {
-        question: `What is a key concept in ${topic.subTopic.title}?`,
+        question: `Which key term is central to ${topic.subTopic.title}?`,
         options: [
-          "Understanding religious texts",
-          "Exploring philosophical concepts",
-          "Analyzing ethical dilemmas", 
-          "Studying historical events"
+          'A well-evidenced concept in this sub-topic',
+          'An unrelated pseudoscience',
+          'A historical curiosity',
+          'A purely moral slogan'
         ],
-        correctAnswer: 1,
-        explanation: `This sub-topic primarily focuses on exploring key concepts within ${topic.title}.`
+        correctAnswer: 0,
+        explanation: `${topic.subTopic.title} should be assessed with relevant, evidence-based content.`
       },
       {
-        question: `How does ${topic.subTopic.title} relate to the broader topic of ${topic.title}?`,
+        question: `Which option best fits within ${topic.title}?`,
         options: [
-          "It's completely separate",
-          "It provides foundational concepts",
-          "It's only tangentially related",
-          "It replaces other approaches"
+          'Evidence-based theories and studies',
+          'Unfalsifiable spiritual claims',
+          'Purely historical narratives',
+          'Random opinion polls'
         ],
-        correctAnswer: 1,
-        explanation: `This sub-topic provides foundational concepts that support the broader understanding of ${topic.title}.`
+        correctAnswer: 0,
+        explanation: `${topic.title} relies on empirical research and testable theories.`
       }
     ];
 
