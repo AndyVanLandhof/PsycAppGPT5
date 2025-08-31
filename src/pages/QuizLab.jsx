@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useAIService } from '../hooks/useAIService';
 import { useVaultService } from '../hooks/useVaultService';
+import psychologyTopics from '../psychologyTopics';
 
 export default function QuizLab({ onBack }) {
   const [raw, setRaw] = useState(null);
@@ -9,6 +10,9 @@ export default function QuizLab({ onBack }) {
   const [error, setError] = useState('');
   const { callAIJsonOnly } = useAIService();
   const { createVaultPrompt } = useVaultService();
+  const topicEntries = useMemo(() => Object.entries(psychologyTopics), []);
+  const [topicId, setTopicId] = useState(topicEntries[0]?.[0] || 'memory');
+  const [subId, setSubId] = useState(psychologyTopics[topicEntries[0]?.[0] || 'memory']?.subTopics?.[0]?.id || '');
 
   const unifiedPrompt = (topicTitle, subTitle) => `You are an expert AQA/OCR examiner generating multiple-choice questions.
 
@@ -107,8 +111,10 @@ Return ONLY this JSON:
     setRaw(null);
     setParsed(null);
     try {
-      const topicTitle = 'Approaches in Psychology';
-      const subTitle = 'Social Learning Theory (Bandura)';
+      const t = psychologyTopics[topicId];
+      const s = t?.subTopics?.find(st => st.id === subId);
+      const topicTitle = t?.title || 'Approaches in Psychology';
+      const subTitle = s?.title || 'Social Learning Theory (Bandura)';
       const base = unifiedPrompt(topicTitle, subTitle);
       const withVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
       const resp = await callAIJsonOnly(withVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
@@ -125,6 +131,55 @@ Return ONLY this JSON:
     }
   };
 
+  const saveBank = async (setLabel, items) => {
+    const payload = {
+      curriculum: 'aqa-psych',
+      topicId,
+      subId,
+      set: setLabel,
+      bank: { questions: items }
+    };
+    const res = await fetch('/api/save-quiz-bank', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) throw new Error(await res.text());
+    return res.json();
+  };
+
+  const runBatchSave = async () => {
+    setLoading(true);
+    setError('');
+    try {
+      const t = psychologyTopics[topicId];
+      const s = t?.subTopics?.find(st => st.id === subId);
+      const topicTitle = t?.title || '';
+      const subTitle = s?.title || '';
+      const base = unifiedPrompt(topicTitle, subTitle);
+      // Generate Set A
+      const withVaultA = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
+      const rawA = await callAIJsonOnly(withVaultA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const jsonA = extractFirstJson(rawA);
+      if (!jsonA) throw new Error('No JSON in Set A');
+      const dataA = JSON.parse(jsonA);
+      const itemsA = sanitize(dataA, subTitle);
+      await saveBank('A', itemsA);
+      // Generate Set B
+      const rawB = await callAIJsonOnly(withVaultA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const jsonB = extractFirstJson(rawB);
+      if (!jsonB) throw new Error('No JSON in Set B');
+      const dataB = JSON.parse(jsonB);
+      const itemsB = sanitize(dataB, subTitle);
+      await saveBank('B', itemsB);
+      alert('Saved Set A and Set B to banks/quizzes');
+    } catch (e) {
+      setError(e?.message || String(e));
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
       <div className="max-w-5xl mx-auto px-4 py-8 space-y-6">
@@ -134,9 +189,40 @@ Return ONLY this JSON:
             <button onClick={onBack} className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700">← Back</button>
           )}
         </div>
-        <p className="text-gray-700">Generates 10 MCQs for Social Learning Theory (Bandura) using a single, holistic instruction set with Vault context. Shows raw JSON and sanitized items.</p>
-        <div>
-          <button onClick={run} disabled={loading} className={`px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-blue-600 hover:bg-blue-700'}`}>{loading? 'Generating…' : 'Generate SLT Quiz'}</button>
+        <p className="text-gray-700">Generate 10 MCQs using a single, holistic instruction set with Vault context. Pick any Psychology topic/sub-topic, then inspect raw JSON and sanitized items below.</p>
+        <div className="bg-white border rounded p-3 flex flex-col gap-3 md:flex-row md:items-end">
+          <div className="flex-1">
+            <label className="block text-sm font-medium text-gray-700 mb-1">Topic</label>
+            <select
+              value={topicId}
+              onChange={(e) => {
+                const newId = e.target.value;
+                setTopicId(newId);
+                setSubId(psychologyTopics[newId]?.subTopics?.[0]?.id || '');
+              }}
+              className="w-full px-3 py-2 border rounded"
+            >
+              {topicEntries.map(([id, t]) => (
+                <option key={id} value={id}>{t.title}</option>
+              ))}
+            </select>
+          </div>
+          <div className="flex-1">
+            <label className="block text-sm font-medium text-gray-700 mb-1">Sub-Topic</label>
+            <select
+              value={subId}
+              onChange={(e) => setSubId(e.target.value)}
+              className="w-full px-3 py-2 border rounded"
+            >
+              {(psychologyTopics[topicId]?.subTopics || []).map(st => (
+                <option key={st.id} value={st.id}>{st.title}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <button onClick={run} disabled={loading} className={`px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-blue-600 hover:bg-blue-700'}`}>{loading? 'Generating…' : 'Generate Quiz'}</button>
+            <button onClick={runBatchSave} disabled={loading} className={`ml-2 px-6 py-2 rounded text-white ${loading? 'bg-gray-400':'bg-emerald-600 hover:bg-emerald-700'}`}>{loading? 'Saving…' : 'Build & Save A/B'}</button>
+          </div>
         </div>
         {error && (
           <div className="bg-red-50 border border-red-200 rounded p-3 text-red-700">{error}</div>

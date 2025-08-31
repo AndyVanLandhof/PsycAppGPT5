@@ -149,6 +149,34 @@ app.post('/api/ai', async (req, res) => {
   }
 });
 
+// Save a quiz bank to disk (client generates JSON, server persists)
+// Body: { curriculum: 'aqa-psych'|'ocr-rs', topicId: string, subId: string, set: 'A'|'B', bank: { questions: [...] } }
+app.post('/api/save-quiz-bank', async (req, res) => {
+  try {
+    const { curriculum = 'aqa-psych', topicId, subId, set = 'A', bank } = req.body || {};
+    if (!topicId || !subId || !bank || !Array.isArray(bank.questions)) {
+      return res.status(400).json({ error: 'Invalid payload. Require topicId, subId, bank.questions' });
+    }
+    const outDir = path.join(__dirname, 'public', 'banks', 'quizzes', curriculum, topicId);
+    fs.mkdirSync(outDir, { recursive: true });
+    const payload = {
+      version: 1,
+      savedAt: new Date().toISOString(),
+      curriculum,
+      topicId,
+      subId,
+      set,
+      questions: bank.questions
+    };
+    const outPath = path.join(outDir, `${subId}_${set}.json`);
+    fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), 'utf8');
+    return res.json({ ok: true, saved: `/banks/quizzes/${curriculum}/${topicId}/${subId}_${set}.json` });
+  } catch (e) {
+    console.error('save-quiz-bank error', e);
+    return res.status(500).json({ error: 'Save failed' });
+  }
+});
+
 // Generate a small bank for a topic (short answers) in one call
 app.post('/api/generate-bank', async (req, res) => {
   const { topic = 'biopsychology', kind = 'short', count = 12, save = false, append = false } = req.body || {};
