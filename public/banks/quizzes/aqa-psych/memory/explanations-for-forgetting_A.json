@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:25:55.007Z",
+  "savedAt": "2025-09-01T12:07:49.453Z",
   "curriculum": "aqa-psych",
   "topicId": "memory",
   "subId": "explanations-for-forgetting",
   "set": "A",
   "questions": [
     {
-      "question": "What does interference theory suggest about forgetting?",
+      "question": "What is proactive interference as described in the context of memory?",
       "options": [
-        "A) It occurs due to the decay of memory traces.",
-        "B) It is caused by the confusion between similar sets of information.",
-        "C) It is primarily due to the absence of retrieval cues.",
-        "D) It is a result of emotional state during recall."
+        "When new information prevents the recall of old information",
+        "When old information prevents the recall of new information",
+        "When information is lost due to decay over time",
+        "When cues are absent during recall"
       ],
       "correctAnswer": 1,
-      "explanation": "Interference theory posits that forgetting occurs when two sets of information become confused, particularly when they are similar. This corresponds to: B) It is caused by the confusion between similar sets of information.."
+      "explanation": "Proactive interference occurs when old learning interferes with the recall of more recent information. This corresponds to: When old information prevents the recall of new information."
     },
     {
-      "question": "In Martin's case, he confuses the French word for 'chair' with the Spanish word. This is an example of which type of interference?",
+      "question": "In Martin's case, he confuses the French word for 'chair' with the Spanish word. This scenario illustrates which type of interference?",
       "options": [
-        "A) Proactive interference",
-        "B) Retroactive interference",
-        "C) Cue-dependent forgetting",
-        "D) Trace decay"
+        "Proactive interference",
+        "Retroactive interference",
+        "Cue-dependent forgetting",
+        "Trace decay"
       ],
       "correctAnswer": 0,
-      "explanation": "Martin's confusion illustrates proactive interference, where old learning (French) interferes with the recall of new information (Spanish). This corresponds to: A) Proactive interference."
+      "explanation": "Martin's confusion between the two languages exemplifies proactive interference, where old learning (French) affects new learning (Spanish)"
     },
     {
-      "question": "What is retrieval failure in the context of memory?",
+      "question": "Which of the following best describes retrieval failure?",
       "options": [
-        "A) The inability to store information in long-term memory.",
-        "B) The inability to access a memory due to absent cues.",
-        "C) The overwriting of old memories with new information.",
-        "D) The decay of memory traces over time."
+        "The memory trace has disappeared",
+        "Old information prevents recall of new information",
+        "Information is available but not accessible due to absence of cues",
+        "New information overwrites old information"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Retrieval failure occurs when information is available in memory but cannot be accessed due to a lack of appropriate cues. This corresponds to: Information is available but not accessible due to absence of cues."
+    },
+    {
+      "question": "What role do cues play in retrieval failure?",
+      "options": [
+        "They enhance the decay of memory traces",
+        "They provide reminders that facilitate recall",
+        "They overwrite old memories",
+        "They have no effect on memory retrieval"
       ],
       "correctAnswer": 1,
-      "explanation": "Retrieval failure occurs when information is available in memory but cannot be accessed due to the absence of appropriate cues. This corresponds to: B) The inability to access a memory due to absent cues.."
+      "explanation": "Cues serve as reminders that can help facilitate the recall of information that is otherwise inaccessible. This corresponds to: They provide reminders that facilitate recall."
     },
     {
-      "question": "Natasha struggles to remember her lines during her drama performance, recalling lines from a different play instead. This scenario can be explained by which theory?",
+      "question": "According to Anderson (2000), how significant is interference in everyday forgetting?",
       "options": [
-        "A) Trace decay theory",
-        "B) Proactive interference",
-        "C) Retroactive interference",
-        "D) Cue-dependent forgetting"
+        "It is the primary cause of all forgetting",
+        "It plays a role but is relatively unimportant",
+        "It is the only explanation for forgetting",
+        "It is more significant than retrieval failure"
       ],
       "correctAnswer": 1,
-      "explanation": "Natasha's recall of lines from a different play suggests proactive interference, where previously learned material interferes with the recall of new material. This corresponds to: B) Proactive interference."
+      "explanation": "Anderson concluded that while interference does contribute to forgetting, it is not the most significant factor in everyday situations. This corresponds to: It plays a role but is relatively unimportant."
     },
     {
-      "question": "Which of the following is a limitation of interference theory?",
+      "question": "Natasha struggles to remember her lines during her drama performance, instead recalling lines from a different play. This scenario can be explained by which type of interference?",
       "options": [
-        "A) It cannot explain all instances of forgetting.",
-        "B) It is only applicable to verbal information.",
-        "C) It suggests that all memories are equally susceptible to interference.",
-        "D) It does not account for emotional factors in memory."
+        "Proactive interference",
+        "Retroactive interference",
+        "Cue-dependent forgetting",
+        "Trace decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natasha's recall of lines from a different play illustrates retroactive interference, where new learning (current play) interferes with the recall of previously learned material (old play)"
+    },
+    {
+      "question": "What is a methodological issue with research on interference as an explanation for forgetting?",
+      "options": [
+        "Interference effects are common in everyday life",
+        "Interference requires similar types of information to occur",
+        "Interference is always the primary cause of forgetting",
+        "Interference is easy to replicate in laboratory settings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Research indicates that interference effects are less common in everyday life, as they typically require similar types of information to lead to forgetting. This corresponds to: Interference requires similar types of information to occur."
+    },
+    {
+      "question": "Which of the following statements best describes the relationship between retrieval failure and cues?",
+      "options": [
+        "Cues are irrelevant to memory retrieval",
+        "Cues can enhance memory decay",
+        "Cues can aid in accessing memories that are available but not retrievable",
+        "Cues always guarantee successful recall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cues can help access memories that are available but not retrievable, highlighting the importance of context in memory recall. This corresponds to: Cues can aid in accessing memories that are available but not retrievable."
+    },
+    {
+      "question": "What is a limitation of the interference theory in explaining forgetting?",
+      "options": [
+        "It does not account for all types of forgetting",
+        "It is too simplistic",
+        "It cannot explain retrieval failure",
+        "It is only applicable in laboratory settings"
       ],
       "correctAnswer": 0,
-      "explanation": "A limitation of interference theory is that it cannot explain all instances of forgetting, as it requires specific conditions for interference to occur. This corresponds to: A) It cannot explain all instances of forgetting.."
+      "explanation": "Interference theory does not account for all types of forgetting, suggesting that other explanations, such as retrieval failure, are also necessary. This corresponds to: It does not account for all types of forgetting."
     },
     {
-      "question": "According to the retrieval failure theory, what can help improve recall?",
+      "question": "Which type of interference occurs when new learning disrupts the recall of previously learned information?",
       "options": [
-        "A) Studying in a different environment from where the material was learned.",
-        "B) Using cues that are contextually linked to the material.",
-        "C) Increasing the amount of information learned.",
-        "D) Reducing the emotional state during recall."
+        "Proactive interference",
+        "Retroactive interference",
+        "Cue-dependent forgetting",
+        "Trace decay"
       ],
       "correctAnswer": 1,
-      "explanation": "Retrieval failure theory suggests that using cues that are contextually linked to the material can significantly improve recall. This corresponds to: B) Using cues that are contextually linked to the material.."
-    },
-    {
-      "question": "Which of the following best describes retroactive interference?",
-      "options": [
-        "A) Old information prevents the recall of new information.",
-        "B) New information prevents the recall of old information.",
-        "C) Information is lost due to decay over time.",
-        "D) Information is forgotten due to lack of rehearsal."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Retroactive interference occurs when new learning interferes with the recall of previously learned information. This corresponds to: B) New information prevents the recall of old information.."
-    },
-    {
-      "question": "In the context of memory, what role do cues play in retrieval failure?",
-      "options": [
-        "A) They enhance the decay of memory traces.",
-        "B) They provide reminders that facilitate recall.",
-        "C) They prevent proactive interference.",
-        "D) They are irrelevant to memory retrieval."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Cues serve as reminders that can facilitate the recall of memories that are otherwise inaccessible due to retrieval failure. This corresponds to: B) They provide reminders that facilitate recall.."
-    },
-    {
-      "question": "What is a methodological issue with studies on interference theory?",
-      "options": [
-        "A) They often use artificial tasks that lack ecological validity.",
-        "B) They do not consider emotional factors in memory.",
-        "C) They rely solely on self-reported data.",
-        "D) They fail to differentiate between types of memory."
-      ],
-      "correctAnswer": 0,
-      "explanation": "A methodological issue with studies on interference theory is that they often use artificial tasks, which may lack ecological validity and not reflect real-life memory use. This corresponds to: A) They often use artificial tasks that lack ecological validity.."
-    },
-    {
-      "question": "Which does interference theory suggest about forgetting?",
-      "options": [
-        "A) It occurs due to the decay of memory traces.",
-        "B) It is caused by the confusion between similar sets of information.",
-        "C) It is primarily due to the absence of retrieval cues.",
-        "D) It is a result of emotional state during recall."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Interference theory posits that forgetting occurs when two sets of information become confused, particularly when they are similar. This corresponds to: B) It is caused by the confusion between similar sets of information.."
+      "explanation": "Retroactive interference occurs when new information interferes with the recall of previously learned information"
     }
   ]
 }

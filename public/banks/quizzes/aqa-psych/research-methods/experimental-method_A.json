@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:06:01.641Z",
+  "savedAt": "2025-09-01T12:58:05.971Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "experimental-method",
@@ -9,112 +9,112 @@
     {
       "question": "Which type of experiment involves manipulating the independent variable in a controlled environment to establish a causal relationship?",
       "options": [
-        "Field experiment",
-        "Natural experiment",
-        "Laboratory experiment",
-        "Quasi-experiment"
+        "A. Field experiment",
+        "B. Laboratory experiment",
+        "C. Natural experiment",
+        "D. Quasi-experiment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Laboratory experiments allow researchers to control variables and establish cause-and-effect relationships. This corresponds to: B. Laboratory experiment."
+    },
+    {
+      "question": "In Skinner's research (1953), what was the primary method used to investigate the effects of reinforcement on behavior?",
+      "options": [
+        "A. Naturalistic observation",
+        "B. Case study",
+        "C. Experimental method",
+        "D. Correlational study"
       ],
       "correctAnswer": 2,
-      "explanation": "Laboratory experiments are conducted in controlled environments, allowing researchers to manipulate the independent variable and measure its effect on the dependent variable"
+      "explanation": "Skinner used the experimental method, specifically the Skinner box, to manipulate reinforcement and measure behavior. This corresponds to: C. Experimental method."
     },
     {
-      "question": "In a study examining the effects of sleep deprivation on cognitive performance, researchers randomly assigned participants to either a sleep-deprived group or a control group. What type of experimental method is being used?",
+      "question": "A researcher conducts a study to determine if sleep deprivation affects cognitive performance. They randomly assign participants to either a sleep-deprived group or a control group. What type of experiment is this?",
       "options": [
-        "Natural experiment",
-        "Field experiment",
-        "Laboratory experiment",
-        "Quasi-experiment"
+        "A. Quasi-experiment",
+        "B. Field experiment",
+        "C. Laboratory experiment",
+        "D. Natural experiment"
       ],
       "correctAnswer": 2,
-      "explanation": "This scenario describes a laboratory experiment where participants are randomly assigned to conditions to measure the effects of sleep deprivation"
+      "explanation": "This is a laboratory experiment as it involves manipulation of the independent variable in a controlled setting. This corresponds to: C. Laboratory experiment."
     },
     {
-      "question": "What is a key characteristic of a field experiment compared to a laboratory experiment?",
+      "question": "What is a key characteristic of field experiments compared to laboratory experiments?",
       "options": [
-        "Higher control over variables",
-        "More naturalistic settings",
-        "Use of questionnaires",
-        "Focus on qualitative data"
+        "A. They are conducted in controlled environments.",
+        "B. They often have higher ecological validity.",
+        "C. They do not manipulate independent variables.",
+        "D. They are less expensive to conduct."
       ],
       "correctAnswer": 1,
-      "explanation": "Field experiments are conducted in naturalistic settings, which increases ecological validity compared to the controlled conditions of laboratory experiments. This corresponds to: More naturalistic settings."
+      "explanation": "Field experiments are conducted in natural settings, which often increases their ecological validity. This corresponds to: B. They often have higher ecological validity.."
     },
     {
-      "question": "Which of the following is a limitation of using laboratory experiments in psychological research?",
+      "question": "In a study examining the effects of a new teaching method on student performance, the researcher finds that students taught with the new method score higher on tests. What type of research method is primarily used here?",
       "options": [
-        "They lack control over variables.",
-        "They may produce artificial behavior.",
-        "They are difficult to replicate.",
-        "They do not allow for causal relationships."
+        "A. Observational study",
+        "B. Quasi-experiment",
+        "C. Laboratory experiment",
+        "D. Correlational study"
       ],
       "correctAnswer": 1,
-      "explanation": "Laboratory experiments may produce artificial behavior due to the controlled environment, which can limit the generalizability of the findings. This corresponds to: They may produce artificial behavior.."
+      "explanation": "This scenario suggests a quasi-experimental design as it compares groups without random assignment. This corresponds to: B. Quasi-experiment."
     },
     {
-      "question": "In Skinner's research using the Skinner box, what was the independent variable manipulated to observe its effects on behavior?",
+      "question": "Which of the following is a limitation of the experimental method?",
       "options": [
-        "The type of reinforcement",
-        "The time of day",
-        "The number of trials",
-        "The age of the rats"
+        "A. It allows for the establishment of causal relationships.",
+        "B. It can be difficult to replicate findings.",
+        "C. It may lack ecological validity.",
+        "D. It is always ethical."
       ],
-      "correctAnswer": 0,
-      "explanation": "Skinner manipulated the type of reinforcement (independent variable) to measure its effects on the rats' behavior (dependent variable)"
+      "correctAnswer": 2,
+      "explanation": "Experimental methods often lack ecological validity because they are conducted in controlled environments that may not reflect real-world settings. This corresponds to: C. It may lack ecological validity.."
     },
     {
-      "question": "A researcher conducts a study where they observe children's behavior in a playground without intervening. What type of observational method is being used?",
+      "question": "What is the primary purpose of using a control group in an experimental study?",
       "options": [
-        "Controlled observation",
-        "Naturalistic observation",
-        "Covert observation",
-        "Participant observation"
+        "A. To manipulate the independent variable",
+        "B. To measure the dependent variable",
+        "C. To compare the effects of the independent variable",
+        "D. To increase the sample size"
       ],
-      "correctAnswer": 1,
-      "explanation": "Naturalistic observation involves observing subjects in their natural environment without interference from the researcher"
+      "correctAnswer": 2,
+      "explanation": "A control group allows researchers to compare the effects of the independent variable against a baseline. This corresponds to: C. To compare the effects of the independent variable."
     },
     {
-      "question": "In a study comparing the effectiveness of two different therapies, researchers used both questionnaires and interviews to gather data. What is this approach called?",
+      "question": "In a laboratory experiment, a researcher measures the time it takes for participants to complete a task after being exposed to different levels of distraction. What is the independent variable in this study?",
       "options": [
-        "Single-method approach",
-        "Multi-method approach",
-        "Qualitative approach",
-        "Quantitative approach"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The multi-method approach combines different techniques, such as questionnaires and interviews, to gather comprehensive data"
-    },
-    {
-      "question": "What is a potential drawback of using self-report techniques like questionnaires in psychological research?",
-      "options": [
-        "They are time-consuming.",
-        "They can lead to social desirability bias.",
-        "They require a controlled environment.",
-        "They do not allow for qualitative data."
+        "A. The time taken to complete the task",
+        "B. The level of distraction",
+        "C. The participants' age",
+        "D. The type of task"
       ],
       "correctAnswer": 1,
-      "explanation": "Self-report techniques can lead to social desirability bias, where participants may respond in a way they think is more acceptable rather than truthfully. This corresponds to: They can lead to social desirability bias.."
+      "explanation": "The level of distraction is manipulated by the researcher, making it the independent variable. This corresponds to: B. The level of distraction."
     },
     {
-      "question": "Which of the following best describes a quasi-experiment?",
+      "question": "Which of the following best describes a natural experiment?",
       "options": [
-        "Manipulation of the independent variable in a lab",
-        "Comparison of naturally occurring groups",
-        "Random assignment to conditions",
-        "Use of self-report measures"
+        "A. The researcher manipulates the independent variable in a lab.",
+        "B. The researcher observes behavior in a natural setting without manipulation.",
+        "C. The independent variable is naturally occurring and not manipulated by the researcher.",
+        "D. The study is conducted in a controlled environment."
       ],
-      "correctAnswer": 1,
-      "explanation": "A quasi-experiment involves comparing naturally occurring groups without random assignment, often used when ethical or practical constraints exist. This corresponds to: Comparison of naturally occurring groups."
+      "correctAnswer": 2,
+      "explanation": "In a natural experiment, the independent variable is not manipulated by the researcher but occurs naturally. This corresponds to: C. The independent variable is naturally occurring and not manipulated by the researcher.."
     },
     {
-      "question": "In a study measuring the impact of a new teaching method on student performance, researchers found a significant improvement in test scores. What type of hypothesis might they have used?",
+      "question": "What is a potential ethical issue associated with experimental research?",
       "options": [
-        "Non-directional hypothesis",
-        "Directional hypothesis",
-        "Null hypothesis",
-        "Correlational hypothesis"
+        "A. Lack of control over variables",
+        "B. Deception of participants",
+        "C. Difficulty in replicating results",
+        "D. Low ecological validity"
       ],
       "correctAnswer": 1,
-      "explanation": "A directional hypothesis would predict a specific outcome, such as that the new teaching method would lead to improved test scores compared to the traditional method"
+      "explanation": "Deception can be an ethical concern in experiments, especially if participants are not fully informed about the nature of the study. This corresponds to: B. Deception of participants."
     }
   ]
 }

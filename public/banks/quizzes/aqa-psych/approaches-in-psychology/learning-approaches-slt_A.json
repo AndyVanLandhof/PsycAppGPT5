@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:31:41.688Z",
+  "savedAt": "2025-09-01T12:32:00.168Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "learning-approaches-slt",
   "set": "A",
   "questions": [
     {
-      "question": "What is the main concept of Bandura's social learning theory as proposed in 1977?",
+      "question": "What is the primary concept of Bandura's Social Learning Theory as proposed in 1977?",
       "options": [
-        "Learning occurs through direct reinforcement only.",
-        "Learning occurs through observation and imitation of role models.",
-        "Learning is solely a cognitive process.",
-        "Learning is based on genetic predispositions."
+        "Learning through direct reinforcement only",
+        "Learning through observation and imitation",
+        "Learning through classical conditioning",
+        "Learning through operant conditioning"
       ],
       "correctAnswer": 1,
-      "explanation": "Bandura's social learning theory emphasizes that individuals learn by observing the behaviors and outcomes of role models. This corresponds to: Learning occurs through observation and imitation of role models.."
+      "explanation": "Bandura's Social Learning Theory emphasizes that individuals learn by observing the behaviors of others and the outcomes of those behaviors. This corresponds to: Learning through observation and imitation."
     },
     {
-      "question": "In Bandura's 1961 study, what behavior did children imitate after observing an adult model?",
+      "question": "In Bandura's 1961 study, what behavior did children imitate after observing a model?",
       "options": [
-        "Helping behavior",
-        "Aggressive behavior",
-        "Pro-social behavior",
-        "Passive behavior"
+        "Aggressive behavior towards a doll",
+        "Cooperative behavior with peers",
+        "Calm behavior in stressful situations",
+        "Avoidance of aggressive models"
       ],
-      "correctAnswer": 1,
-      "explanation": "In Bandura's 1961 study, children imitated aggressive behavior after observing an adult model acting aggressively towards a Bobo doll"
+      "correctAnswer": 0,
+      "explanation": "In Bandura's 1961 study, children imitated aggressive behavior towards a doll after observing a model acting aggressively"
     },
     {
-      "question": "Which of the following best describes Learning approaches: Social Learning Theory (Bandura)?",
+      "question": "A child observes their parent showing affection by hugging and kissing. According to social learning theory, what is this an example of?",
       "options": [
+        "Operant conditioning",
         "Vicarious reinforcement",
         "Modelling",
-        "Operant conditioning",
-        "Cognitive dissonance"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This scenario illustrates modelling, where the child imitates the affectionate behavior observed in their parent"
-    },
-    {
-      "question": "Which of the following best describes 'vicarious reinforcement' in the context of social learning theory?",
-      "options": [
-        "Learning through direct rewards.",
-        "Learning by observing the consequences of others' actions.",
-        "Learning that occurs without any role models.",
-        "Learning that is solely cognitive."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Vicarious reinforcement refers to learning that occurs by observing the consequences of another person's behavior. This corresponds to: Learning by observing the consequences of others' actions.."
-    },
-    {
-      "question": "In a study where children were exposed to aggressive and non-aggressive models, what was the primary finding regarding the children's behavior?",
-      "options": [
-        "Children only imitate non-aggressive models.",
-        "Children exposed to aggressive models showed more aggression.",
-        "Children do not imitate any models.",
-        "Children's behavior was unaffected by the models."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The primary finding was that children exposed to aggressive models exhibited more aggressive behavior themselves. This corresponds to: Children exposed to aggressive models showed more aggression.."
-    },
-    {
-      "question": "A researcher finds that children who watch violent cartoons are more likely to exhibit aggressive behavior. This supports which aspect of social learning theory?",
-      "options": [
-        "The role of reinforcement",
-        "The importance of cognitive processes",
-        "The influence of observational learning",
-        "The impact of genetic factors"
+        "Classical conditioning"
       ],
       "correctAnswer": 2,
-      "explanation": "This finding supports the influence of observational learning, where children learn behaviors by watching others, in this case, violent cartoons"
+      "explanation": "This scenario illustrates modelling, where the child learns attachment behaviors by observing their parent's affectionate actions"
     },
     {
-      "question": "What methodological issue is often raised regarding Bandura's research on social learning?",
+      "question": "If a child learns to say 'thank you' after observing their parent receive a reward for the same behavior, which concept from social learning theory is illustrated?",
       "options": [
-        "The use of self-report measures",
-        "The ecological validity of the laboratory setting",
-        "The lack of control over variables",
-        "The sample size used in the study"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A common methodological issue is the ecological validity of Bandura's laboratory setting, which may not reflect real-world situations. This corresponds to: The ecological validity of the laboratory setting."
-    },
-    {
-      "question": "How does social learning theory differ from the behaviorist approach?",
-      "options": [
-        "Social learning theory ignores cognitive processes.",
-        "Social learning theory emphasizes observational learning.",
-        "Behaviorism focuses on internal mental processes.",
-        "Behaviorism includes vicarious reinforcement."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Social learning theory emphasizes observational learning and the role of cognitive processes, whereas behaviorism focuses primarily on direct reinforcement. This corresponds to: Social learning theory emphasizes observational learning.."
-    },
-    {
-      "question": "Which of the following terms refers to the process of identifying with a role model in social learning theory?",
-      "options": [
-        "Imitation",
         "Identification",
-        "Modelling",
-        "Reinforcement"
+        "Vicarious reinforcement",
+        "Classical conditioning",
+        "Operant conditioning"
       ],
       "correctAnswer": 1,
-      "explanation": "Identification refers to the process where individuals relate to and want to be like a role model, influencing their behavior"
+      "explanation": "This scenario demonstrates vicarious reinforcement, where the child learns behavior by observing the positive outcomes of the parent's actions"
     },
     {
-      "question": "In Bandura's social learning theory, what role do 'mediational processes' play?",
+      "question": "Which of the following is a methodological criticism of Bandura's research on social learning?",
       "options": [
-        "They are irrelevant to learning.",
-        "They determine the effectiveness of reinforcement.",
-        "They mediate between observation and imitation.",
-        "They are only applicable to cognitive learning."
+        "It lacked ecological validity",
+        "It was conducted in a natural setting",
+        "It used a large sample size",
+        "It focused on long-term behavior change"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A common criticism of Bandura's research is that it lacked ecological validity, as the laboratory setting may not reflect real-life situations"
+    },
+    {
+      "question": "How does social learning theory differ from the behaviorist approach in terms of learning?",
+      "options": [
+        "It emphasizes direct reinforcement only",
+        "It includes observational learning",
+        "It ignores the role of the environment",
+        "It focuses solely on internal processes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social learning theory incorporates observational learning, whereas the behaviorist approach primarily focuses on direct reinforcement and conditioning. This corresponds to: It includes observational learning."
+    },
+    {
+      "question": "In Bandura's social learning theory, what role do mediational processes play?",
+      "options": [
+        "They are irrelevant to learning",
+        "They determine the effectiveness of reinforcement",
+        "They influence the observation and imitation of behaviors",
+        "They replace the need for modeling"
       ],
       "correctAnswer": 2,
-      "explanation": "Mediational processes are cognitive factors that mediate between observing a behavior and imitating it, crucial for understanding social learning. This corresponds to: They mediate between observation and imitation.."
+      "explanation": "Mediational processes are crucial in social learning theory as they influence how individuals observe and imitate behaviors. This corresponds to: They influence the observation and imitation of behaviors."
+    },
+    {
+      "question": "A teenager starts smoking after seeing their peers do so and receiving social approval. This scenario illustrates which aspect of social learning theory?",
+      "options": [
+        "Identification",
+        "Vicarious reinforcement",
+        "Operant conditioning",
+        "Classical conditioning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario exemplifies vicarious reinforcement, where the teenager learns the behavior through observing the positive social outcomes for their peers"
+    },
+    {
+      "question": "What does Bandura's concept of reciprocal determinism suggest about behavior?",
+      "options": [
+        "Behavior is solely determined by genetics",
+        "Behavior is influenced by the environment and personal choices",
+        "Behavior is fixed and unchangeable",
+        "Behavior is only learned through direct experience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reciprocal determinism posits that behavior is influenced by both the environment and the individual's choices, highlighting a two-way interaction. This corresponds to: Behavior is influenced by the environment and personal choices."
+    },
+    {
+      "question": "Which of the following best describes the term 'identification' in the context of social learning theory?",
+      "options": [
+        "Learning through direct reinforcement",
+        "Desiring to be like a role model",
+        "Imitating behaviors without understanding",
+        "Avoiding behaviors seen in others"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In social learning theory, 'identification' refers to the desire to be like a role model, which can lead to the imitation of their behaviors. This corresponds to: Desiring to be like a role model."
     }
   ]
 }

@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:23:04.975Z",
+  "savedAt": "2025-09-01T12:02:33.283Z",
   "curriculum": "aqa-psych",
   "topicId": "social-influence",
   "subId": "resistance-to-social-influence",
   "set": "A",
   "questions": [
     {
-      "question": "In Asch's (1951) study on conformity, what was the effect of having a dissenter present on conformity rates?",
+      "question": "In Asch's (1951) study on conformity, what effect did the presence of a dissenting confederate have on conformity rates?",
       "options": [
-        "Conformity increased to 50%",
-        "Conformity decreased to 5.5%",
-        "Conformity remained unchanged",
-        "Conformity decreased to 33%"
+        "Increased conformity to 33%",
+        "Decreased conformity to 5.5%",
+        "Had no effect on conformity",
+        "Increased conformity to 50%"
       ],
       "correctAnswer": 1,
-      "explanation": "The presence of a dissenter who agreed with the participant broke the group's unanimity, leading to a significant decrease in conformity rates. This corresponds to: Conformity decreased to 5.5%."
+      "explanation": "The presence of a dissenting confederate decreased conformity rates from 33% to 5.5%. This corresponds to: Decreased conformity to 5.5%."
     },
     {
-      "question": "What is the primary explanation for resistance to social influence provided by the concept of social support?",
+      "question": "What is one explanation for resistance to social influence that involves the influence of others?",
       "options": [
-        "It increases personal responsibility",
-        "It provides a model for dissent",
-        "It enhances group pressure",
-        "It reduces individual confidence"
+        "Locus of control",
+        "Social support",
+        "Informational social influence",
+        "Normative social influence"
       ],
       "correctAnswer": 1,
-      "explanation": "Social support helps individuals resist social influence by providing a model for dissent, making it easier to stand up against majority pressure. This corresponds to: It provides a model for dissent."
+      "explanation": "Social support is an explanation for resistance to social influence, as it provides individuals with allies against conformity or obedience"
     },
     {
-      "question": "According to Milgram's (1963) research, how did the presence of disobedient peers affect obedience rates?",
+      "question": "In Milgram's (1963) obedience study, how did the presence of disobedient peers affect obedience rates?",
       "options": [
-        "Increased obedience to 100%",
+        "Increased obedience to 65%",
         "Decreased obedience to 10%",
         "Had no effect on obedience",
-        "Increased obedience to 50%"
+        "Increased obedience to 80%"
       ],
       "correctAnswer": 1,
-      "explanation": "Milgram found that the presence of disobedient peers significantly reduced the percentage of participants who fully obeyed authority. This corresponds to: Decreased obedience to 10%."
+      "explanation": "The presence of disobedient peers reduced the percentage of participants who were fully obedient to just 10%. This corresponds to: Decreased obedience to 10%."
     },
     {
-      "question": "In the context of locus of control, how do individuals with an internal locus of control typically respond to social influence?",
+      "question": "According to the concept of locus of control, individuals with which type of locus are more likely to resist social influence?",
       "options": [
-        "They are more likely to conform",
-        "They accept external pressures easily",
-        "They resist social influence",
-        "They are indifferent to authority"
+        "External locus of control",
+        "Internal locus of control",
+        "Situational locus of control",
+        "Normative locus of control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Individuals with an internal locus of control are more likely to resist social influence as they believe their actions are a result of their own abilities"
+    },
+    {
+      "question": "In a study by Hutchins and Este, what was found regarding individuals with a high internal locus of control?",
+      "options": [
+        "They are more susceptible to social influence",
+        "They are less able to resist coercion",
+        "They are more able to resist coercion",
+        "They conform more easily"
       ],
       "correctAnswer": 2,
-      "explanation": "Individuals with an internal locus of control believe they are responsible for their own actions, making them more likely to resist social influence. This corresponds to: They resist social influence."
+      "explanation": "Hutchins and Este found that individuals with a high internal locus of control were more able to resist coercion in a simulated interrogation. This corresponds to: They are more able to resist coercion."
     },
     {
-      "question": "Hutchins and Este's (1978) research indicated that individuals with a high internal locus of control were better at resisting what type of social influence?",
+      "question": "What did Allen and Levine's study suggest about the importance of social support in resisting conformity?",
       "options": [
-        "Normative social influence",
-        "Informational social influence",
-        "Peer pressure",
-        "Groupthink"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Their research showed that high internals were more capable of resisting coercion in a simulated interrogation, highlighting the role of locus of control. This corresponds to: Informational social influence."
-    },
-    {
-      "question": "Avtgis (1998) conducted a meta-analysis on locus of control and resistance to social influence. What was his key finding?",
-      "options": [
-        "No relationship was found",
-        "A significant relationship exists",
-        "Only external locus of control matters",
-        "Only internal locus of control matters"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Avtgis found a significant relationship between locus of control scores and resistance to social influence across various studies. This corresponds to: A significant relationship exists."
-    },
-    {
-      "question": "What limitation did Spector (1983) find regarding locus of control in resisting social influence?",
-      "options": [
-        "It is not applicable to all social situations",
-        "It only affects normative social influence",
-        "It is irrelevant in group settings",
-        "It has no impact on obedience"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Spector's findings indicated that an internal locus of control is significant in resisting normative social influence but not in resisting informational social influence. This corresponds to: It only affects normative social influence."
-    },
-    {
-      "question": "In the context of social support, what did Allen and Levine (1971) demonstrate about the validity of dissenting opinions?",
-      "options": [
-        "Only valid dissenters reduce conformity",
-        "Any dissenting opinion can reduce conformity",
-        "Dissent must be expert-based",
-        "Dissent has no effect on conformity"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Allen and Levine showed that social support can help individuals resist conformity even when the dissenting opinion is not particularly valid. This corresponds to: Any dissenting opinion can reduce conformity."
-    },
-    {
-      "question": "What role does social support play in resisting obedience according to Milgram's findings?",
-      "options": [
-        "It has no effect",
-        "It increases obedience rates",
-        "It acts as a role model for disobedience",
-        "It confuses participants"
+        "It is irrelevant to conformity",
+        "It is only effective if the supporter is valid",
+        "It helps individuals resist even if the support is not valid",
+        "It increases conformity rates"
       ],
       "correctAnswer": 2,
-      "explanation": "Milgram suggested that the presence of disobedient confederates acted as role models, making it more likely that real participants would also resist obedience. This corresponds to: It acts as a role model for disobedience."
+      "explanation": "Allen and Levine showed that social support helped people resist conformity even when the supporter was not particularly valid. This corresponds to: It helps individuals resist even if the support is not valid."
     },
     {
-      "question": "What is a key characteristic of individuals with an external locus of control in the context of social influence?",
+      "question": "What methodological limitation is associated with the concept of locus of control in resisting social influence?",
       "options": [
-        "They feel empowered to resist",
-        "They accept responsibility for their actions",
-        "They are more likely to conform",
-        "They challenge authority figures"
+        "It only applies to normative social influence",
+        "It is not applicable in real-world settings",
+        "It lacks empirical support",
+        "It is too broad and vague"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Spector found that an internal locus of control was significant in resisting normative social influence but not in resisting informational social influence. This corresponds to: It only applies to normative social influence."
+    },
+    {
+      "question": "How does the presence of social support impact an individual's ability to resist obedience according to Milgram's findings?",
+      "options": [
+        "It has no impact",
+        "It increases obedience",
+        "It decreases obedience",
+        "It only works in group settings"
       ],
       "correctAnswer": 2,
-      "explanation": "Individuals with an external locus of control tend to feel that their actions are determined by external factors, making them more susceptible to social influence. This corresponds to: They are more likely to conform."
+      "explanation": "Milgram suggested that the presence of disobedient confederates acted as role models, making it more likely that the real participant would also resist. This corresponds to: It decreases obedience."
+    },
+    {
+      "question": "What is a key characteristic of individuals with an external locus of control in relation to social influence?",
+      "options": [
+        "They take personal responsibility for their actions",
+        "They feel more empowered to resist influence",
+        "They believe their actions are determined by external factors",
+        "They are less likely to conform"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Individuals with an external locus of control tend to accept that what happens to them is determined by external factors, making them more susceptible to social influence. This corresponds to: They believe their actions are determined by external factors."
+    },
+    {
+      "question": "What role does breaking the unanimity of a group play in resisting conformity, as suggested by Asch's findings?",
+      "options": [
+        "It has no effect on conformity",
+        "It increases conformity rates",
+        "It makes it easier to resist conformity",
+        "It only works in large groups"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Breaking the unanimity of the group makes it easier for individuals to resist conformity, as shown by the significant drop in conformity rates when a dissenting confederate was present. This corresponds to: It makes it easier to resist conformity."
     }
   ]
 }

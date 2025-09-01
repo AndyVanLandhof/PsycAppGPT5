@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:04:19.171Z",
+  "savedAt": "2025-09-01T12:55:37.083Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "studying-the-brain",
   "set": "A",
   "questions": [
     {
-      "question": "What technique uses magnetic fields and radio waves to monitor blood flow in the brain, providing insights into brain activity?",
+      "question": "Which brain imaging technique uses magnetic fields and radio waves to monitor blood flow and brain activity?",
       "options": [
         "Electroencephalogram (EEG)",
-        "Functional Magnetic Resonance Imaging (fMRI)",
         "Event-Related Potentials (ERPs)",
-        "Post-Mortem Examinations"
+        "Functional Magnetic Resonance Imaging (fMRI)",
+        "Post-Mortem Examination"
       ],
-      "correctAnswer": 1,
-      "explanation": "fMRI measures changes in blood flow and oxygen consumption, reflecting brain activity. This corresponds to: Functional Magnetic Resonance Imaging (fMRI)."
+      "correctAnswer": 2,
+      "explanation": "Functional Magnetic Resonance Imaging (fMRI) measures changes in blood flow, reflecting brain activity"
     },
     {
       "question": "In Burnett et al. (2009), which brain region was found to be active when individuals felt guilty?",
       "options": [
-        "Broca's area",
-        "Medial prefrontal cortex",
-        "Hippocampus",
-        "Amygdala"
+        "Amygdala",
+        "Medial Prefrontal Cortex",
+        "Broca's Area",
+        "Wernicke's Area"
       ],
       "correctAnswer": 1,
       "explanation": "The medial prefrontal cortex is associated with social emotions, including guilt"
     },
     {
-      "question": "A researcher uses EEG to study brain activity during a memory task. What is a limitation of using EEG in this context?",
+      "question": "A researcher uses an EEG to study brain activity during a memory task. What is a limitation of using EEGs?",
       "options": [
         "High spatial resolution",
-        "Low temporal resolution",
-        "High cost",
-        "Requires invasive procedures"
-      ],
-      "correctAnswer": 1,
-      "explanation": "EEGs have poor spatial resolution, making it difficult to pinpoint exact brain activity locations. This corresponds to: Low temporal resolution."
-    },
-    {
-      "question": "Which method involves examining a person's brain after death to understand their mental processes during life?",
-      "options": [
-        "fMRI",
-        "EEG",
-        "ERPs",
-        "Post-Mortem Examinations"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Post-mortem examinations analyze brain structure to identify causes of behavioral deficits"
-    },
-    {
-      "question": "An experiment using fMRI shows increased activity in the visual cortex when participants view images. What is a methodological concern regarding this technique?",
-      "options": [
-        "It is too inexpensive",
-        "It has high temporal resolution",
-        "Interpretation can be complex",
-        "It is non-invasive"
+        "High temporal resolution",
+        "Poor spatial resolution",
+        "Expensive equipment"
       ],
       "correctAnswer": 2,
-      "explanation": "The interpretation of fMRI results can be complex and influenced by various factors. This corresponds to: Interpretation can be complex."
+      "explanation": "EEGs have poor spatial resolution, making it difficult to pinpoint the exact location of brain activity"
     },
     {
-      "question": "Which of the following is a key advantage of using Event-Related Potentials (ERPs) in brain research?",
+      "question": "Which method involves examining a person's brain after death to identify areas of damage?",
       "options": [
-        "High spatial resolution",
-        "Direct measurement of neuronal activity",
+        "Functional Magnetic Resonance Imaging (fMRI)",
+        "Electroencephalogram (EEG)",
+        "Event-Related Potentials (ERPs)",
+        "Post-Mortem Examination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Post-Mortem Examination involves analyzing brain tissue after death to understand neurological conditions"
+    },
+    {
+      "question": "A study using fMRI found that specific brain areas are activated during emotional processing. What is a methodological concern with fMRI studies?",
+      "options": [
         "Low cost",
-        "Non-invasive nature"
+        "Complex interpretation",
+        "High temporal resolution",
+        "Direct measurement of neuronal activity"
       ],
       "correctAnswer": 1,
-      "explanation": "ERPs provide direct measurements of neuronal activity, allowing for real-time analysis. This corresponds to: Direct measurement of neuronal activity."
+      "explanation": "fMRI interpretation is complex and can be affected by factors such as baseline tasks and temporal resolution. This corresponds to: Complex interpretation."
     },
     {
-      "question": "A study finds that participants show different brain activity patterns when lying compared to telling the truth. Which method is likely used to identify these patterns?",
+      "question": "Which of the following techniques directly measures electrical activity in the brain?",
       "options": [
-        "Post-Mortem Examinations",
+        "Functional Magnetic Resonance Imaging (fMRI)",
+        "Electroencephalogram (EEG)",
+        "Event-Related Potentials (ERPs)",
+        "Post-Mortem Examination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electroencephalograms (EEGs) use electrodes to detect electrical activity in the brain. This corresponds to: Electroencephalogram (EEG)."
+    },
+    {
+      "question": "In a study comparing fMRI and EEG, researchers found that fMRI provides a detailed view of brain structure. What is a disadvantage of fMRI?",
+      "options": [
+        "Invasive procedure",
+        "Poor temporal resolution",
+        "High spatial resolution",
+        "Direct measurement of brain activity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "fMRI has poor temporal resolution compared to EEG, which can measure brain activity in real time"
+    },
+    {
+      "question": "What is the primary focus of Event-Related Potentials (ERPs) in brain research?",
+      "options": [
+        "Blood flow changes",
+        "Electrical activity in response to stimuli",
+        "Structural brain abnormalities",
+        "Neurotransmitter levels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ERPs measure electrical activity in the brain in response to specific stimuli, providing insights into cognitive processes. This corresponds to: Electrical activity in response to stimuli."
+    },
+    {
+      "question": "A neuroscientist is interested in studying the brain areas involved in decision-making. Which method would be most suitable for observing real-time brain activity?",
+      "options": [
+        "Post-Mortem Examination",
         "Functional Magnetic Resonance Imaging (fMRI)",
         "Electroencephalogram (EEG)",
         "Event-Related Potentials (ERPs)"
       ],
-      "correctAnswer": 1,
-      "explanation": "fMRI is effective for identifying active brain areas during specific cognitive tasks, such as lying. This corresponds to: Functional Magnetic Resonance Imaging (fMRI)."
+      "correctAnswer": 2,
+      "explanation": "EEGs provide real-time measurements of electrical activity, making them suitable for studying decision-making processes. This corresponds to: Electroencephalogram (EEG)."
     },
     {
-      "question": "What is a significant disadvantage of using fMRI compared to EEG in brain studies?",
+      "question": "Which of the following is a key advantage of using post-mortem examinations in brain research?",
       "options": [
-        "fMRI has poor temporal resolution",
-        "EEG is more expensive",
-        "fMRI is invasive",
-        "EEG requires complex interpretation"
+        "Non-invasive",
+        "Direct measurement of brain activity",
+        "Detailed anatomical analysis",
+        "Real-time brain activity monitoring"
       ],
-      "correctAnswer": 0,
-      "explanation": "fMRI has poor temporal resolution, making it less effective for tracking rapid brain activity changes"
-    },
-    {
-      "question": "Which brain imaging technique is best suited for studying the timing of brain activity in response to stimuli?",
-      "options": [
-        "fMRI",
-        "EEG",
-        "ERPs",
-        "Post-Mortem Examinations"
-      ],
-      "correctAnswer": 1,
-      "explanation": "EEGs provide high temporal resolution, allowing researchers to track brain activity timing accurately"
-    },
-    {
-      "question": "In a study comparing fMRI and EEG, researchers find that fMRI provides detailed images of brain structure. What is a limitation of this detail?",
-      "options": [
-        "It is too simplistic",
-        "It lacks temporal resolution",
-        "It is too expensive",
-        "It is invasive"
-      ],
-      "correctAnswer": 1,
-      "explanation": "While fMRI provides detailed structural images, it lacks the temporal resolution needed for dynamic processes. This corresponds to: It lacks temporal resolution."
+      "correctAnswer": 2,
+      "explanation": "Post-mortem examinations allow for detailed anatomical analysis of brain structures, which can reveal insights into neurological disorders"
     }
   ]
 }

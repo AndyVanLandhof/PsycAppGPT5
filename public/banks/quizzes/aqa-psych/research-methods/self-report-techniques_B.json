@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:07:25.794Z",
+  "savedAt": "2025-09-01T13:02:15.541Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "self-report-techniques",
   "set": "B",
   "questions": [
     {
-      "question": "What is a key characteristic of self-report techniques in psychology?",
+      "question": "What is a primary characteristic of self-report techniques in psychology?",
       "options": [
         "They involve direct observation of behavior.",
         "They require participants to report their own thoughts and feelings.",
-        "They manipulate independent variables.",
+        "They use physiological measurements.",
         "They are always conducted in a laboratory."
       ],
       "correctAnswer": 1,
       "explanation": "Self-report techniques, such as questionnaires and interviews, require participants to provide their own accounts of their experiences and feelings. This corresponds to: They require participants to report their own thoughts and feelings.."
     },
     {
-      "question": "In the SRRS (Social Readjustment Rating Scale), how are life events quantified?",
+      "question": "In the SRRS (Social Readjustment Rating Scale), how are life events rated?",
       "options": [
-        "By assigning a score based on the number of events experienced.",
-        "By calculating the average stress level of participants.",
-        "By rating events on a scale of 1 to 10.",
-        "By comparing physiological responses."
-      ],
-      "correctAnswer": 0,
-      "explanation": "The SRRS quantifies life events by asking participants to indicate how many events they have experienced and assigning life change units to each event. This corresponds to: By assigning a score based on the number of events experienced.."
-    },
-    {
-      "question": "What is a common limitation of self-report techniques, such as the HSUP scale?",
-      "options": [
-        "They are always conducted in controlled environments.",
-        "Participants may interpret questions differently, affecting validity.",
-        "They cannot measure subjective experiences.",
-        "They require extensive training for researchers."
+        "On a scale of 1 to 10",
+        "By assigning life change units based on a reference event",
+        "Through open-ended responses",
+        "By comparing with physiological data"
       ],
       "correctAnswer": 1,
-      "explanation": "A limitation of self-report techniques like the HSUP scale is that participants may interpret items differently, which can lead to inflated or deflated stress scores. This corresponds to: Participants may interpret questions differently, affecting validity.."
+      "explanation": "The SRRS uses life change units assigned to various life events, with marriage as an arbitrary reference point of 500 units. This corresponds to: By assigning life change units based on a reference event."
     },
     {
-      "question": "Which of the following best describes social desirability bias in self-report techniques?",
+      "question": "A researcher uses the HSUP (Hassles and Uplifts Scale) to measure stress. Participants rate 117 hassles and 135 uplifts. What is a potential limitation of this self-report measure?",
       "options": [
-        "Participants may provide answers that reflect their true feelings.",
-        "Participants may answer in a way that they believe is more socially acceptable.",
-        "Participants are always honest in their responses.",
-        "Participants may not understand the questions."
+        "It is too objective.",
+        "It may lead to socially desirable responses.",
+        "It does not account for daily variations in stress.",
+        "It is not based on real-life experiences."
       ],
       "correctAnswer": 1,
-      "explanation": "Social desirability bias occurs when participants provide answers they believe are more socially acceptable rather than their true feelings. This corresponds to: Participants may answer in a way that they believe is more socially acceptable.."
+      "explanation": "Participants may respond in a socially desirable manner, which can skew the results and affect the validity of the findings. This corresponds to: It may lead to socially desirable responses.."
     },
     {
-      "question": "What is the main advantage of using self-report techniques to measure stress?",
-      "options": [
-        "They provide objective physiological data.",
-        "They allow for direct insight into personal experiences of stress.",
-        "They eliminate the need for participant interpretation.",
-        "They are less time-consuming than observational methods."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Self-report techniques are advantageous because they provide direct insight into individuals' personal experiences of stress. This corresponds to: They allow for direct insight into personal experiences of stress.."
-    },
-    {
-      "question": "In a study using the HSUP scale, participants rated their daily hassles and uplifts. What is a potential issue with this method?",
-      "options": [
-        "It lacks a clear scoring system.",
-        "It may not capture the full range of stress experiences.",
-        "It requires participants to recall events from memory.",
-        "It is too complex for most participants."
-      ],
-      "correctAnswer": 1,
-      "explanation": "A potential issue with the HSUP scale is that it may not capture the full range of stress experiences, as it focuses on specific hassles and uplifts. This corresponds to: It may not capture the full range of stress experiences.."
-    },
-    {
-      "question": "What is a methodological concern when using self-report measures like the SRRS?",
+      "question": "Which of the following is a methodological issue associated with self-report techniques?",
       "options": [
         "They are always reliable.",
-        "They can be influenced by participants' current mood.",
-        "They require extensive training for participants.",
-        "They do not allow for participant feedback."
+        "They can lead to demand characteristics.",
+        "They require no participant involvement.",
+        "They are less valid than observational methods."
       ],
       "correctAnswer": 1,
-      "explanation": "Self-report measures like the SRRS can be influenced by participants' current mood, which may affect the accuracy of their responses. This corresponds to: They can be influenced by participants' current mood.."
+      "explanation": "Self-report techniques can lead to demand characteristics, where participants alter their responses based on perceived expectations. This corresponds to: They can lead to demand characteristics.."
     },
     {
-      "question": "How does test-retest reliability apply to self-report techniques?",
+      "question": "What is a common method for assessing the reliability of self-report measures?",
       "options": [
-        "It assesses the consistency of scores over time.",
-        "It compares different observers' ratings.",
-        "It measures physiological responses.",
-        "It evaluates the clarity of questions."
+        "Inter-observer reliability",
+        "Test-retest reliability",
+        "Pilot studies",
+        "Random sampling"
       ],
-      "correctAnswer": 0,
-      "explanation": "Test-retest reliability assesses the consistency of scores for individuals when the same self-report measure is administered at different times. This corresponds to: It assesses the consistency of scores over time.."
+      "correctAnswer": 1,
+      "explanation": "Test-retest reliability involves repeating the same measure after a short interval to check for consistency in responses"
+    },
+    {
+      "question": "In a study using self-report techniques, participants may interpret questions differently. What is this phenomenon known as?",
+      "options": [
+        "Social desirability bias",
+        "Response bias",
+        "Interpretation bias",
+        "Demand characteristics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Interpretation bias occurs when participants have varying understandings of the questions, affecting the validity of their responses"
+    },
+    {
+      "question": "When using self-report techniques, what is a significant advantage of asking participants about their stress levels?",
+      "options": [
+        "It provides objective data.",
+        "It allows for a direct understanding of personal experiences.",
+        "It eliminates the need for ethical considerations.",
+        "It ensures high reliability."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques directly capture personal experiences, making them a valid way to measure subjective phenomena like stress. This corresponds to: It allows for a direct understanding of personal experiences.."
+    },
+    {
+      "question": "What is a potential drawback of using self-report measures like the SRRS?",
+      "options": [
+        "They are too complex for participants.",
+        "They may reflect illness rather than predict it.",
+        "They require extensive training for researchers.",
+        "They are always reliable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report measures may reflect existing conditions rather than predict future outcomes, which can limit their practical application. This corresponds to: They may reflect illness rather than predict it.."
+    },
+    {
+      "question": "Which type of self-report technique involves structured questions that limit the responses of participants?",
+      "options": [
+        "Unstructured interviews",
+        "Open-ended questionnaires",
+        "Closed questionnaires",
+        "Focus groups"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Closed questionnaires restrict responses to predefined options, making data analysis easier but potentially limiting depth of insight"
     },
     {
       "question": "What is a key difference between self-report techniques and observational methods?",
       "options": [
         "Self-report techniques are more objective.",
-        "Observational methods do not require participant input.",
-        "Self-report techniques measure behavior directly.",
+        "Observational methods require participants to reflect on their thoughts.",
+        "Self-report techniques rely on participant honesty.",
         "Observational methods are less time-consuming."
       ],
-      "correctAnswer": 1,
-      "explanation": "A key difference is that observational methods do not require participant input, while self-report techniques rely on individuals to provide their own accounts. This corresponds to: Observational methods do not require participant input.."
-    },
-    {
-      "question": "What is a potential bias in self-report measures that can affect the validity of findings?",
-      "options": [
-        "Observer bias.",
-        "Social desirability bias.",
-        "Sampling bias.",
-        "Confirmation bias."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Social desirability bias can affect the validity of findings in self-report measures, as participants may provide answers they think are more acceptable rather than their true feelings. This corresponds to: Social desirability bias.."
+      "correctAnswer": 2,
+      "explanation": "Self-report techniques depend on the honesty and self-awareness of participants, while observational methods do not require such introspection. This corresponds to: Self-report techniques rely on participant honesty.."
     }
   ]
 }

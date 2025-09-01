@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:08:44.586Z",
+  "savedAt": "2025-09-01T13:07:42.068Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "content-analysis",
   "set": "B",
   "questions": [
     {
-      "question": "What is the primary purpose of content analysis in psychological research?",
+      "question": "What is the primary aim of content analysis in psychological research?",
       "options": [
-        "To observe individuals directly",
+        "To observe participants directly",
         "To analyze the content of artifacts",
         "To conduct experiments",
         "To gather quantitative data"
       ],
       "correctAnswer": 1,
-      "explanation": "Content analysis is used to analyze the content of artifacts such as books, songs, or advertisements to draw conclusions about the themes present"
+      "explanation": "Content analysis involves analyzing materials produced by people, such as books or advertisements, to draw conclusions about their content. This corresponds to: To analyze the content of artifacts."
     },
     {
-      "question": "In a content analysis, what is meant by 'sampling method'?",
+      "question": "In a content analysis, which of the following is a key design decision?",
       "options": [
-        "The method of collecting qualitative data",
-        "The way material is selected for analysis",
-        "The process of coding themes",
-        "The technique for observing participants"
+        "Choosing a sample size",
+        "Determining the research hypothesis",
+        "Selecting behavioral categories",
+        "Conducting interviews"
       ],
-      "correctAnswer": 1,
-      "explanation": "Sampling method refers to how researchers decide which materials to include in their content analysis, such as selecting specific TV channels or types of advertisements. This corresponds to: The way material is selected for analysis."
+      "correctAnswer": 2,
+      "explanation": "Researchers must decide on the behavioral categories to use in a content analysis to systematically categorize the material. This corresponds to: Selecting behavioral categories."
     },
     {
-      "question": "A researcher conducts a content analysis of magazine advertisements and identifies categories such as 'romantic' and 'humorous'. What is this process called?",
+      "question": "A researcher conducts a content analysis of magazine advertisements to study gender representation. What is one potential issue they may face?",
       "options": [
-        "Data coding",
-        "Thematic analysis",
+        "High inter-observer reliability",
         "Observer bias",
-        "Sampling"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The process of identifying categories like 'romantic' and 'humorous' in content analysis is referred to as data coding"
-    },
-    {
-      "question": "A study found that different observers interpreted the same behavioral categories in a content analysis differently. This issue is known as what?",
-      "options": [
-        "Inter-observer reliability",
-        "Observer bias",
-        "Sampling error",
-        "Data validity"
+        "Limited access to materials",
+        "Excessive qualitative data"
       ],
       "correctAnswer": 1,
-      "explanation": "Observer bias occurs when different observers interpret categories differently, affecting the reliability of the findings in a content analysis"
+      "explanation": "Observer bias can affect the interpretation of behavioral categories, leading to different conclusions based on the observer's background"
     },
     {
-      "question": "In a content analysis of songs, a researcher categorizes lyrics into themes such as 'love' and 'loss'. What is a potential limitation of this approach?",
+      "question": "Which of the following best describes thematic analysis?",
       "options": [
-        "It provides rich qualitative data",
-        "It may lack inter-observer reliability",
-        "It is time-consuming",
-        "It cannot be replicated"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A limitation of content analysis is that it may lack inter-observer reliability if different researchers interpret the themes inconsistently"
-    },
-    {
-      "question": "When conducting a thematic analysis, what is the first step a researcher should take?",
-      "options": [
-        "Identify categories",
-        "Read the transcripts",
-        "Count the frequency of themes",
-        "Analyze the data quantitatively"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The first step in thematic analysis is to read the transcripts to understand the data before identifying any themes"
-    },
-    {
-      "question": "In a content analysis of media representations of mental health, researchers found recurring themes such as 'stereotyping' and 'control'. What does this illustrate about thematic analysis?",
-      "options": [
-        "It focuses on quantitative data",
-        "It identifies explicit themes",
+        "It focuses on counting occurrences of specific behaviors",
+        "It identifies and analyzes themes within qualitative data",
         "It requires predetermined categories",
-        "It is less descriptive than coding"
+        "It is less time-consuming than content analysis"
       ],
       "correctAnswer": 1,
-      "explanation": "Thematic analysis identifies explicit themes that recur in the data, providing a descriptive understanding of the content. This corresponds to: It identifies explicit themes."
+      "explanation": "Thematic analysis aims to identify and summarize themes that emerge from qualitative data, rather than relying on predetermined categories. This corresponds to: It identifies and analyzes themes within qualitative data."
     },
     {
-      "question": "What is a key difference between content analysis and thematic analysis?",
+      "question": "In a study using content analysis, researchers found that 70% of advertisements featured men in dominant roles. What type of data does this represent?",
       "options": [
-        "Content analysis is qualitative, while thematic analysis is quantitative",
-        "Content analysis involves coding, while thematic analysis focuses on emergent themes",
-        "Content analysis is less reliable than thematic analysis",
-        "Content analysis requires predetermined themes, while thematic analysis does not"
+        "Qualitative data",
+        "Quantitative data",
+        "Thematic data",
+        "Narrative data"
       ],
       "correctAnswer": 1,
-      "explanation": "Content analysis often involves coding predetermined categories, whereas thematic analysis focuses on identifying emergent themes from the data. This corresponds to: Content analysis involves coding, while thematic analysis focuses on emergent themes."
+      "explanation": "The percentage of advertisements featuring men in dominant roles is a quantitative measure derived from the content analysis. This corresponds to: Quantitative data."
     },
     {
-      "question": "A researcher uses a content analysis to study the portrayal of gender in advertisements. What methodological consideration is crucial for ensuring reliability?",
+      "question": "What is a methodological limitation of content analysis?",
       "options": [
-        "Using a single observer",
-        "Ensuring inter-rater reliability",
-        "Focusing solely on qualitative data",
-        "Limiting the sample size"
+        "It is always qualitative",
+        "It can impose meaning on behaviors",
+        "It requires direct observation",
+        "It is not suitable for large datasets"
       ],
       "correctAnswer": 1,
-      "explanation": "Ensuring inter-rater reliability is crucial in content analysis to confirm that different observers categorize the data consistently"
+      "explanation": "Content analysis may impose meaning on behaviors, which can affect the validity of the findings if the coding categories do not accurately represent the data. This corresponds to: It can impose meaning on behaviors."
     },
     {
-      "question": "In a qualitative content analysis of interviews about children's anxiety, what is a potential drawback of summarizing the data into themes?",
+      "question": "When conducting a content analysis, what is the first step a researcher should take?",
       "options": [
-        "It enhances the richness of the data",
-        "It may lose detailed descriptive flavor",
-        "It simplifies the coding process",
-        "It allows for easier replication"
+        "Identify themes",
+        "Read the transcripts",
+        "Tally the occurrences",
+        "Select a sample"
       ],
       "correctAnswer": 1,
-      "explanation": "Summarizing data into themes may result in a loss of the detailed descriptive flavor, which can affect the validity of the findings. This corresponds to: It may lose detailed descriptive flavor."
+      "explanation": "The researcher should first read the transcripts to familiarize themselves with the data before identifying potential categories"
+    },
+    {
+      "question": "In a thematic analysis, what is the process after marking up transcripts with codes?",
+      "options": [
+        "Count the frequency of codes",
+        "Review transcripts for emergent themes",
+        "Select predetermined categories",
+        "Conduct interviews with participants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After coding, the researcher reviews the transcripts to identify overarching themes that relate to the research question. This corresponds to: Review transcripts for emergent themes."
+    },
+    {
+      "question": "Which of the following statements about content analysis is true?",
+      "options": [
+        "It is a direct observation method",
+        "It can be affected by cultural bias",
+        "It always produces quantitative data",
+        "It is less reliable than interviews"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Content analysis can be affected by cultural bias, as different observers may interpret categories based on their own cultural backgrounds. This corresponds to: It can be affected by cultural bias."
+    },
+    {
+      "question": "What is one advantage of using content analysis in psychological research?",
+      "options": [
+        "It allows for direct interaction with participants",
+        "It can analyze large amounts of data efficiently",
+        "It eliminates observer bias",
+        "It always produces qualitative data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Content analysis can efficiently analyze large datasets, making it a practical method for studying trends in media and other artifacts. This corresponds to: It can analyze large amounts of data efficiently."
     }
   ]
 }

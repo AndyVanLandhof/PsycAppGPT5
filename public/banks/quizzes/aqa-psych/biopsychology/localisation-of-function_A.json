@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:05:02.237Z",
+  "savedAt": "2025-09-01T12:56:19.899Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "localisation-of-function",
   "set": "A",
   "questions": [
     {
-      "question": "Which area of the brain is primarily associated with language production, as identified by Paul Broca in 1861?",
+      "question": "Which area of the brain is primarily associated with speech production, as identified by Paul Broca in 1861?",
       "options": [
         "Wernicke's area",
         "Motor cortex",
@@ -18,103 +18,103 @@
       "explanation": "Broca's area is located in the left hemisphere and is crucial for speech production"
     },
     {
-      "question": "In Roger Sperry's split-brain research, participants were unable to verbally identify objects presented in which visual field?",
+      "question": "In the context of localisation of function, which part of the brain is responsible for processing visual information?",
       "options": [
-        "Right visual field",
-        "Left visual field",
-        "Both visual fields",
-        "Neither visual field"
+        "Auditory cortex",
+        "Visual cortex",
+        "Broca's area",
+        "Wernicke's area"
       ],
       "correctAnswer": 1,
-      "explanation": "Objects presented in the left visual field are processed by the right hemisphere, which lacks verbal capabilities"
+      "explanation": "The visual cortex is specifically responsible for processing visual stimuli"
     },
     {
-      "question": "A patient with damage to Wernicke's area would likely experience difficulties in which of the following?",
+      "question": "A patient with damage to Wernicke's area may struggle with which of the following?",
       "options": [
         "Understanding spoken language",
-        "Producing coherent speech",
+        "Producing speech",
         "Motor control",
         "Visual processing"
       ],
       "correctAnswer": 0,
-      "explanation": "Wernicke's area is responsible for language comprehension, so damage here affects understanding. This corresponds to: Understanding spoken language."
+      "explanation": "Wernicke's area is associated with language comprehension, so damage here affects understanding. This corresponds to: Understanding spoken language."
     },
     {
-      "question": "A study found that a patient with a left hemisphere stroke had difficulty with language tasks but could still sing. This supports which aspect of brain function?",
+      "question": "In a study on split-brain patients, Roger Sperry found that participants could name objects presented in which visual field?",
       "options": [
-        "Localisation of function",
-        "Hemispheric lateralisation",
-        "Neuroplasticity",
-        "Cortical specialisation"
+        "Left visual field",
+        "Right visual field",
+        "Both visual fields",
+        "Neither visual field"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Objects presented in the right visual field are processed by the left hemisphere, which controls speech"
+    },
+    {
+      "question": "A researcher presents an image to the left visual field of a split-brain patient. What is the expected outcome regarding the patient's ability to verbalize what they saw?",
+      "options": [
+        "They can verbalize it",
+        "They cannot verbalize it",
+        "They can draw it",
+        "They can write it down"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since the left visual field is processed by the right hemisphere, which lacks verbal capabilities, they cannot verbalize it"
+    },
+    {
+      "question": "A study shows that damage to the motor cortex results in impaired movement of which body part?",
+      "options": [
+        "Hands",
+        "Eyes",
+        "Ears",
+        "Stomach"
       ],
       "correctAnswer": 0,
-      "explanation": "This case illustrates localisation of function, where specific brain areas are responsible for specific tasks"
+      "explanation": "The motor cortex is responsible for voluntary movement, particularly in the hands and limbs"
     },
     {
-      "question": "Which of the following best describes the concept of hemispheric lateralisation?",
+      "question": "What methodological issue is often raised regarding the research on localisation of function in the brain?",
+      "options": [
+        "Use of animal studies",
+        "Small sample sizes",
+        "Lack of control groups",
+        "Ethical concerns"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Research involving brain surgery or damage raises ethical concerns regarding the treatment of participants"
+    },
+    {
+      "question": "Which of the following statements best reflects the concept of hemispheric lateralisation?",
       "options": [
         "Both hemispheres perform identical functions",
-        "Each hemisphere has specialised functions",
-        "The brain functions as a single unit",
-        "Only the left hemisphere is involved in cognitive tasks"
+        "The left hemisphere is responsible for language",
+        "The right hemisphere controls the left side of the body",
+        "All functions are shared equally between hemispheres"
       ],
       "correctAnswer": 1,
-      "explanation": "Hemispheric lateralisation refers to the idea that the two hemispheres of the brain have different roles. This corresponds to: Each hemisphere has specialised functions."
+      "explanation": "Hemispheric lateralisation indicates that the left hemisphere is primarily responsible for language processing. This corresponds to: The left hemisphere is responsible for language."
     },
     {
-      "question": "In a scenario where a patient with split-brain surgery is shown an image in their left visual field, what is the expected outcome?",
+      "question": "In the context of brain plasticity, what does functional recovery refer to?",
       "options": [
-        "They can describe the image",
-        "They can draw the image with their left hand",
-        "They can name the image",
-        "They cannot respond at all"
+        "The brain's ability to grow new neurons",
+        "The brain's ability to adapt after injury",
+        "The brain's ability to maintain homeostasis",
+        "The brain's ability to process information"
       ],
       "correctAnswer": 1,
-      "explanation": "The right hemisphere processes the image but cannot communicate verbally, so they can draw it with their left hand. This corresponds to: They can draw the image with their left hand."
+      "explanation": "Functional recovery refers to the brain's ability to reorganize and transfer functions from damaged areas to undamaged areas. This corresponds to: The brain's ability to adapt after injury."
     },
     {
-      "question": "One criticism of the localisation of function theory is that it may oversimplify brain function. This is an example of which evaluative point?",
+      "question": "What is a common criticism of the simplistic view of left-brained and right-brained functions?",
       "options": [
-        "Reductionism",
-        "Holism",
-        "Determinism",
-        "Functionalism"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Oversimplifying brain function to specific areas ignores the complex interactions between different brain regions. This corresponds to: Reductionism."
-    },
-    {
-      "question": "Research has shown that the brain can adapt and reorganise itself after injury. This phenomenon is known as what?",
-      "options": [
-        "Neurogenesis",
-        "Plasticity",
-        "Localisation",
-        "Lateralisation"
+        "It ignores the role of the spinal cord",
+        "It oversimplifies complex brain functions",
+        "It suggests one hemisphere is dominant",
+        "It does not consider neuroplasticity"
       ],
       "correctAnswer": 1,
-      "explanation": "Plasticity refers to the brain's ability to change and adapt as a result of experience or injury"
-    },
-    {
-      "question": "What is the primary function of the somatosensory cortex?",
-      "options": [
-        "Language processing",
-        "Visual processing",
-        "Touch sensation",
-        "Motor control"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The somatosensory cortex is responsible for processing sensory information from the body, particularly touch. This corresponds to: Touch sensation."
-    },
-    {
-      "question": "A patient with damage to the motor cortex may experience difficulties in which of the following?",
-      "options": [
-        "Understanding language",
-        "Producing speech",
-        "Physical movement",
-        "Visual recognition"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The motor cortex is responsible for planning and executing voluntary movements, so damage here affects physical movement"
+      "explanation": "This view oversimplifies the complex interactions and functions of both hemispheres in brain activity. This corresponds to: It oversimplifies complex brain functions."
     }
   ]
 }

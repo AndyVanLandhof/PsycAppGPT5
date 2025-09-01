@@ -1,57 +1,68 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:01:42.236Z",
+  "savedAt": "2025-09-01T12:41:34.708Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "comparing-approaches",
   "set": "B",
   "questions": [
     {
-      "question": "Which approach in psychology emphasizes the role of environmental influences on behavior, as seen in Bandura's study of social learning in 1961?",
+      "question": "Which approach in psychology asserts that human beings have free will and operate as active agents in determining their own development?",
       "options": [
         "Biological",
-        "Cognitive",
         "Behaviourist",
-        "Humanistic"
+        "Humanistic",
+        "Cognitive"
       ],
       "correctAnswer": 2,
-      "explanation": "The behaviourist approach focuses on how behavior is shaped by environmental factors, as demonstrated by Bandura's work on observational learning"
+      "explanation": "The humanistic approach emphasizes free will, contrasting with determinist perspectives"
     },
     {
-      "question": "In the context of the nature-nurture debate, what does a concordance rate of 69% in MZ twins suggest about the influence of genetics?",
+      "question": "In the context of the nature-nurture debate, what does the term 'environmental determinism' refer to?",
       "options": [
-        "Genetics are the sole determinant of behavior",
-        "Nurture has no impact on behavior",
+        "Genetic influences on behaviour",
+        "Learned behaviours from the environment",
+        "Unconscious drives influencing behaviour",
+        "Biological predispositions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Environmental determinism suggests that behaviour is shaped by external influences, such as learning experiences. This corresponds to: Learned behaviours from the environment."
+    },
+    {
+      "question": "A study found that identical twins had a concordance rate of 69% for reading ability. What does this suggest about the nature-nurture debate?",
+      "options": [
+        "Nature has no influence",
+        "Nurture is the sole factor",
         "Both nature and nurture play a role",
-        "Nurture is more influential than nature"
+        "Only environmental factors are significant"
       ],
       "correctAnswer": 2,
-      "explanation": "A concordance rate of 69% indicates a significant genetic influence, but the less than 100% concordance suggests that environmental factors also contribute. This corresponds to: Both nature and nurture play a role."
+      "explanation": "The 69% concordance rate indicates a strong genetic influence (nature) but also highlights the role of environmental factors (nurture). This corresponds to: Both nature and nurture play a role."
     },
     {
-      "question": "Which of the following best describes hard determinism as it relates to the psychodynamic approach?",
+      "question": "Which type of determinism is associated with the belief that unconscious forces drive behaviour?",
       "options": [
-        "Behavior is influenced by conscious choices",
-        "Behavior is determined by unconscious forces",
-        "Behavior is shaped by social learning",
-        "Behavior is a result of genetic predispositions"
+        "Biological determinism",
+        "Environmental determinism",
+        "Psychic determinism",
+        "Hard determinism"
       ],
-      "correctAnswer": 1,
-      "explanation": "Hard determinism in the psychodynamic approach posits that unconscious forces drive behavior, leaving little room for free will. This corresponds to: Behavior is determined by unconscious forces."
+      "correctAnswer": 2,
+      "explanation": "Psychic determinism is a key feature of the psychodynamic approach, emphasizing unconscious influences"
     },
     {
-      "question": "What is a key characteristic of soft determinism in psychology?",
+      "question": "How does the cognitive approach view the concept of determinism?",
       "options": [
-        "All behavior is predetermined",
-        "Choices are made within constraints",
-        "Behavior is solely a product of genetics",
-        "Behavior is entirely shaped by the environment"
+        "It supports hard determinism",
+        "It rejects all forms of determinism",
+        "It advocates soft determinism",
+        "It aligns with biological determinism"
       ],
-      "correctAnswer": 1,
-      "explanation": "Soft determinism suggests that while behavior is influenced by internal and external factors, individuals still have the capacity to make choices. This corresponds to: Choices are made within constraints."
+      "correctAnswer": 2,
+      "explanation": "The cognitive approach suggests that while we make choices, these are limited by our knowledge and experiences, thus supporting soft determinism. This corresponds to: It advocates soft determinism."
     },
     {
-      "question": "In a study examining the effects of reinforcement on behavior, a child learns to clean their room after receiving praise. This scenario illustrates which type of determinism?",
+      "question": "In a scenario where a child learns aggressive behaviour from an older sibling, which type of determinism is primarily at play?",
       "options": [
         "Biological determinism",
         "Environmental determinism",
@@ -59,62 +70,51 @@
         "Hard determinism"
       ],
       "correctAnswer": 1,
-      "explanation": "This scenario exemplifies environmental determinism, where behavior is shaped by external reinforcement"
+      "explanation": "The child's aggressive behaviour is learned through environmental influences, illustrating environmental determinism"
     },
     {
-      "question": "Which approach is most aligned with the concept of free will, asserting that individuals are active agents in their own development?",
+      "question": "What is a key criticism of reductionist approaches in psychology?",
       "options": [
-        "Behaviourist",
-        "Cognitive",
-        "Humanistic",
-        "Biological"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The humanistic approach emphasizes free will and the individual's capacity to shape their own life and decisions"
-    },
-    {
-      "question": "Which of the following is a limitation of reductionist approaches in psychology?",
-      "options": [
-        "They provide a comprehensive view of behavior",
-        "They ignore the complexity of human experience",
-        "They focus too much on environmental factors",
-        "They emphasize the role of free will"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Reductionist approaches often oversimplify behavior by ignoring the complex interplay of various factors, including social and emotional influences. This corresponds to: They ignore the complexity of human experience."
-    },
-    {
-      "question": "In the context of the free will-determinism debate, which statement reflects the view of the cognitive approach?",
-      "options": [
-        "All behavior is predetermined by genetics",
-        "Individuals have no control over their thoughts",
-        "Choices are influenced by prior knowledge and experiences",
-        "Behavior is solely a result of environmental conditioning"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The cognitive approach suggests that while choices are influenced by prior knowledge and experiences, individuals still have the ability to make decisions"
-    },
-    {
-      "question": "Which of the following best describes the interactionist approach to the nature-nurture debate?",
-      "options": [
-        "Nature and nurture are completely separate",
-        "Nature and nurture interact to shape behavior",
-        "Nurture is more important than nature",
-        "Nature is the sole determinant of behavior"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The interactionist approach posits that both genetic and environmental factors work together to influence behavior. This corresponds to: Nature and nurture interact to shape behavior."
-    },
-    {
-      "question": "What is a methodological issue associated with the use of deterministic explanations in psychology?",
-      "options": [
-        "They are too subjective",
-        "They can lead to ethical concerns about free will",
         "They ignore biological factors",
-        "They are difficult to test empirically"
+        "They oversimplify complex behaviours",
+        "They focus too much on free will",
+        "They lack empirical support"
       ],
       "correctAnswer": 1,
-      "explanation": "Deterministic explanations can raise ethical concerns, as they may imply that individuals lack control over their actions, challenging the notion of personal responsibility. This corresponds to: They can lead to ethical concerns about free will."
+      "explanation": "Reductionist approaches are often criticized for oversimplifying complex behaviours by breaking them down into basic components. This corresponds to: They oversimplify complex behaviours."
+    },
+    {
+      "question": "Which approach is most likely to emphasize the role of genetics in behaviour?",
+      "options": [
+        "Humanistic",
+        "Behaviourist",
+        "Biological",
+        "Cognitive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biological approach focuses on genetic influences and innate factors in determining behaviour"
+    },
+    {
+      "question": "What does the term 'holism' refer to in psychological approaches?",
+      "options": [
+        "Focusing on individual components of behaviour",
+        "Considering the whole person and their context",
+        "Emphasizing genetic factors only",
+        "Rejecting all forms of determinism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Holism involves looking at the whole individual and their environment rather than isolating specific factors. This corresponds to: Considering the whole person and their context."
+    },
+    {
+      "question": "Which of the following best describes 'reciprocal determinism' as proposed by Bandura?",
+      "options": [
+        "Behaviour is solely determined by genetics",
+        "Behaviour is influenced by environmental factors and also influences the environment",
+        "Behaviour is completely free and unconstrained",
+        "Behaviour is determined by unconscious drives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reciprocal determinism suggests a two-way interaction between behaviour and environmental influences. This corresponds to: Behaviour is influenced by environmental factors and also influences the environment."
     }
   ]
 }

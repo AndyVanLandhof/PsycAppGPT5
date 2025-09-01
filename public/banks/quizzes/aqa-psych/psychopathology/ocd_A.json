@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:22:02.560Z",
+  "savedAt": "2025-09-01T13:25:45.436Z",
   "curriculum": "aqa-psych",
   "topicId": "psychopathology",
   "subId": "ocd",
   "set": "A",
   "questions": [
     {
-      "question": "Which of the following is a key characteristic of obsessive-compulsive disorder (OCD)?",
+      "question": "Which of the following is a cognitive characteristic of OCD?",
       "options": [
-        "Compulsions to avoid social situations",
-        "Persistent intrusive thoughts",
-        "Extreme mood swings",
+        "Compulsive hand-washing",
+        "Intrusive thoughts",
+        "Avoidance of social situations",
         "Loss of interest in activities"
       ],
       "correctAnswer": 1,
-      "explanation": "OCD is characterized by persistent intrusive thoughts (obsessions) and repetitive behaviors (compulsions) aimed at reducing anxiety"
+      "explanation": "Intrusive thoughts are a key cognitive characteristic of OCD, where individuals experience unwanted and distressing thoughts"
     },
     {
-      "question": "In Nestadt et al.'s (2000) study, what was found regarding first-degree relatives of patients with OCD?",
+      "question": "In Nestadt et al.'s 2000 study, what was the increased risk of developing OCD for individuals with a first-degree relative who has the disorder?",
       "options": [
-        "They have a lower risk of developing OCD",
-        "They have a five-times greater risk of developing OCD",
-        "They have no increased risk of developing OCD",
-        "They have a higher risk of developing depression only"
+        "Two times greater",
+        "Three times greater",
+        "Five times greater",
+        "Ten times greater"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nestadt et al. found that individuals with a first-degree relative with OCD had a five-times greater risk of developing the disorder. This corresponds to: Five times greater."
+    },
+    {
+      "question": "What is the primary treatment approach for OCD based on the biological explanation?",
+      "options": [
+        "Cognitive Behaviour Therapy",
+        "Exposure and Response Prevention",
+        "Drug therapy",
+        "Systematic desensitisation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Drug therapy is a primary treatment for OCD based on the biological explanation, often involving medications that affect serotonin levels"
+    },
+    {
+      "question": "A patient with OCD is treated using exposure and response prevention (ERP). What does this treatment involve?",
+      "options": [
+        "Avoiding triggers of anxiety",
+        "Gradually exposing the patient to feared stimuli while preventing compulsive responses",
+        "Using medication to increase serotonin levels",
+        "Challenging irrational thoughts"
       ],
       "correctAnswer": 1,
-      "explanation": "Nestadt et al. found that individuals with a first-degree relative with OCD had a five-times greater risk of developing the disorder themselves. This corresponds to: They have a five-times greater risk of developing OCD."
+      "explanation": "ERP involves exposing the patient to their feared stimuli while preventing them from performing their compulsive behaviors. This corresponds to: Gradually exposing the patient to feared stimuli while preventing compulsive responses."
     },
     {
-      "question": "What is the primary focus of cognitive-behavioral therapy (CBT) in treating OCD?",
+      "question": "Which of the following best describes Beck's negative triad in relation to depression?",
       "options": [
-        "Increasing serotonin levels",
-        "Challenging irrational thoughts",
-        "Flooding patients with anxiety-provoking stimuli",
-        "Reinforcing compulsive behaviors"
-      ],
-      "correctAnswer": 1,
-      "explanation": "CBT for OCD focuses on challenging irrational thoughts and beliefs that contribute to obsessive-compulsive behaviors"
-    },
-    {
-      "question": "A patient with OCD is treated using exposure and response prevention (ERP). What is the main goal of this treatment?",
-      "options": [
-        "To increase serotonin levels",
-        "To prevent the performance of compulsive behaviors",
-        "To reinforce avoidance of anxiety-provoking stimuli",
-        "To eliminate all obsessive thoughts"
-      ],
-      "correctAnswer": 1,
-      "explanation": "ERP aims to expose patients to their feared stimuli while preventing them from engaging in compulsive behaviors, helping to reduce anxiety over time. This corresponds to: To prevent the performance of compulsive behaviors."
-    },
-    {
-      "question": "Which of the following is a limitation of the genetic explanation for OCD?",
-      "options": [
-        "It does not account for environmental factors",
-        "It is the only explanation for OCD",
-        "It has 100% concordance rates in identical twins",
-        "It is not supported by empirical evidence"
+        "Negative thoughts about self, world, and future",
+        "Increased serotonin levels",
+        "Avoidance of social situations",
+        "Compulsive behaviors to reduce anxiety"
       ],
       "correctAnswer": 0,
-      "explanation": "A limitation is that the genetic explanation does not account for environmental factors, as evidenced by the fact that concordance rates are never 100%. This corresponds to: It does not account for environmental factors."
+      "explanation": "Beck's negative triad describes a pattern of negative thinking about oneself, the world, and the future, which is central to his cognitive theory of depression. This corresponds to: Negative thoughts about self, world, and future."
     },
     {
-      "question": "According to the two-process model, how does an obsession in OCD typically develop?",
+      "question": "A meta-analysis of twin studies found that identical twins are more likely to both develop OCD than non-identical twins. What does this suggest?",
       "options": [
-        "Through genetic predisposition",
-        "By associating a neutral stimulus with anxiety",
-        "By increasing serotonin levels",
-        "Through social learning from peers"
+        "OCD is purely environmental",
+        "OCD has a genetic component",
+        "OCD is solely a learned behavior",
+        "OCD is not influenced by genetics"
       ],
       "correctAnswer": 1,
-      "explanation": "The two-process model suggests that an obsession develops when a neutral stimulus becomes associated with anxiety, leading to compulsive behaviors. This corresponds to: By associating a neutral stimulus with anxiety."
+      "explanation": "The higher concordance rates in identical twins suggest that there is a genetic component to OCD. This corresponds to: OCD has a genetic component."
     },
     {
-      "question": "What is a common side effect of drug treatments for OCD?",
+      "question": "One limitation of the biological explanation of OCD is that it does not account for which of the following?",
       "options": [
-        "Increased anxiety",
-        "Weight gain",
-        "Nausea",
-        "Improved social interactions"
+        "Environmental factors",
+        "Genetic predispositions",
+        "Neural mechanisms",
+        "Serotonin levels"
       ],
-      "correctAnswer": 2,
-      "explanation": "Common side effects of drug treatments for OCD, particularly SSRIs, can include nausea among other physical symptoms"
+      "correctAnswer": 0,
+      "explanation": "The biological explanation does not fully account for environmental factors, as evidenced by the fact that concordance rates are never 100%"
     },
     {
-      "question": "What methodological issue is associated with studies on the genetic basis of OCD?",
+      "question": "Which treatment for OCD is based on the cognitive approach and involves challenging irrational thoughts?",
+      "options": [
+        "Flooding",
+        "Cognitive Behaviour Therapy",
+        "Systematic desensitisation",
+        "Drug therapy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive Behaviour Therapy (CBT) involves challenging irrational thoughts and is a key treatment for OCD from a cognitive perspective"
+    },
+    {
+      "question": "In the context of OCD, what does the term 'diathesis-stress model' refer to?",
+      "options": [
+        "The interaction between genetic predisposition and environmental stressors",
+        "The effectiveness of drug therapy",
+        "The role of cognitive distortions",
+        "The process of systematic desensitisation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diathesis-stress model refers to the interaction between genetic predisposition and environmental stressors in the development of OCD"
+    },
+    {
+      "question": "What is a methodological issue with studies supporting the genetic basis of OCD?",
       "options": [
         "They often lack control groups",
-        "They rely solely on self-reported data",
-        "They do not consider the role of environmental factors",
-        "They are conducted only on children"
+        "They do not consider environmental factors",
+        "They are based solely on self-reports",
+        "They have small sample sizes"
       ],
-      "correctAnswer": 2,
-      "explanation": "A methodological issue is that many studies do not consider the role of environmental factors, which can also contribute to the development of OCD. This corresponds to: They do not consider the role of environmental factors."
-    },
-    {
-      "question": "What is the role of serotonin in the biological explanation of OCD?",
-      "options": [
-        "It is always elevated in patients with OCD",
-        "It is linked to the development of compulsive behaviors",
-        "Low levels of serotonin are associated with OCD",
-        "It has no impact on OCD symptoms"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The biological explanation suggests that low levels of serotonin are associated with OCD, leading to the use of SSRIs to increase serotonin levels"
-    },
-    {
-      "question": "Which treatment for OCD involves the use of a hierarchy of fears?",
-      "options": [
-        "Cognitive Behavioral Therapy",
-        "Exposure and Response Prevention",
-        "Systematic Desensitization",
-        "Drug Therapy"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Systematic desensitization involves creating a hierarchy of fears and gradually exposing the patient to these fears while teaching relaxation techniques"
+      "correctAnswer": 1,
+      "explanation": "Many studies supporting the genetic basis of OCD do not adequately consider environmental factors, which may also contribute to the disorder. This corresponds to: They do not consider environmental factors."
     }
   ]
 }

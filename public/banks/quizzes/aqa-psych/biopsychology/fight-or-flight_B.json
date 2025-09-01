@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:04:02.912Z",
+  "savedAt": "2025-09-01T12:53:02.762Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "fight-or-flight",
   "set": "B",
   "questions": [
     {
-      "question": "What is the initial physiological response activated by the hypothalamus during a stressor according to the fight or flight response?",
+      "question": "What is the first physiological response activated when a stressor is perceived, according to the fight or flight response?",
       "options": [
         "Activation of the parasympathetic nervous system",
         "Release of oxytocin",
         "Activation of the sympathetic nervous system",
-        "Inhibition of adrenaline release"
+        "Release of cortisol"
       ],
       "correctAnswer": 2,
-      "explanation": "The hypothalamus activates the sympathetic nervous system, which is responsible for the physiological arousal associated with the fight or flight response. This corresponds to: Activation of the sympathetic nervous system."
+      "explanation": "The sympathetic nervous system is activated by the hypothalamus when a stressor is perceived, initiating the fight or flight response. This corresponds to: Activation of the sympathetic nervous system."
     },
     {
       "question": "In the context of the fight or flight response, what role does adrenaline play?",
@@ -23,98 +23,98 @@
         "It reduces heart rate",
         "It promotes relaxation",
         "It increases heart rate and energy availability",
-        "It inhibits the sympathetic nervous system"
+        "It enhances immune response"
       ],
       "correctAnswer": 2,
-      "explanation": "Adrenaline increases heart rate and energy availability, facilitating the body's response to a perceived threat. This corresponds to: It increases heart rate and energy availability."
+      "explanation": "Adrenaline is released from the adrenal medulla and causes physiological changes such as increased heart rate and energy availability for the fight or flight response. This corresponds to: It increases heart rate and energy availability."
     },
     {
-      "question": "According to Taylor et al. (2000), what alternative response do females exhibit to stress compared to the traditional fight or flight response?",
+      "question": "According to Taylor et al. (2000), what alternative response do females exhibit under stress?",
       "options": [
-        "Freeze response",
+        "Fight or flight",
         "Tend and befriend",
-        "Aggressive confrontation",
-        "Avoidance"
+        "Freeze response",
+        "Aggressive confrontation"
       ],
       "correctAnswer": 1,
-      "explanation": "Taylor et al. proposed that females often respond to stress with a 'tend and befriend' strategy, which involves nurturing and social cooperation"
+      "explanation": "Taylor et al. proposed that females exhibit a 'tend and befriend' response to stress, which is influenced by the hormone oxytocin"
     },
     {
-      "question": "If a student feels their heart racing before an exam, which part of the nervous system is primarily responsible for this response?",
+      "question": "When a person experiences a stressful event, which part of the brain first activates the stress response?",
       "options": [
-        "Central nervous system",
-        "Parasympathetic nervous system",
-        "Sympathetic nervous system",
-        "Somatic nervous system"
+        "Cerebellum",
+        "Hypothalamus",
+        "Amygdala",
+        "Pituitary gland"
       ],
-      "correctAnswer": 2,
-      "explanation": "The sympathetic nervous system is activated in response to stress, leading to physiological changes such as increased heart rate"
+      "correctAnswer": 1,
+      "explanation": "The hypothalamus is the first part of the brain to activate the stress response by triggering the pituitary gland"
     },
     {
-      "question": "What physiological changes occur when the sympathetic nervous system is activated during the fight or flight response?",
+      "question": "A student feels an increased heart rate and 'butterflies' in their stomach before an exam. This is an example of which physiological response?",
       "options": [
-        "Decreased heart rate and increased digestion",
-        "Increased heart rate and decreased blood flow to muscles",
+        "Parasympathetic response",
+        "Fight or flight response",
+        "Tend and befriend response",
+        "Rest and digest response"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The student's increased heart rate and 'butterflies' are indicative of the fight or flight response activated by the sympathetic nervous system"
+    },
+    {
+      "question": "What is a potential limitation of early research on the fight or flight response?",
+      "options": [
+        "It included both male and female subjects",
+        "It focused solely on male animals",
+        "It considered the role of oxytocin",
+        "It measured long-term stress effects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early research often focused solely on male animals, which may overlook important differences in stress responses between genders. This corresponds to: It focused solely on male animals."
+    },
+    {
+      "question": "What physiological changes occur during the fight or flight response?",
+      "options": [
+        "Decreased heart rate and increased saliva production",
         "Increased heart rate and muscle tension",
-        "Decreased respiration and increased salivation"
+        "Reduced blood flow to muscles",
+        "Increased digestion and energy conservation"
       ],
-      "correctAnswer": 2,
-      "explanation": "Activation of the sympathetic nervous system leads to increased heart rate and muscle tension, preparing the body for a rapid response"
+      "correctAnswer": 1,
+      "explanation": "During the fight or flight response, physiological changes include increased heart rate and muscle tension to prepare the body for action"
     },
     {
       "question": "How does the parasympathetic nervous system function after a stressor has passed?",
       "options": [
-        "It maintains high levels of arousal",
-        "It returns the body to a resting state",
         "It enhances the fight or flight response",
-        "It activates the release of adrenaline"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The parasympathetic nervous system acts as a 'brake', reducing the physiological arousal caused by the sympathetic nervous system. This corresponds to: It returns the body to a resting state."
-    },
-    {
-      "question": "Lee and Harley (2012) found evidence for a genetic basis in gender differences in the fight or flight response. What gene is primarily associated with this?",
-      "options": [
-        "SRY gene",
-        "OXTR gene",
-        "CYP19 gene",
-        "MAOA gene"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The SRY gene, found on the male Y chromosome, is linked to the promotion of aggression and the fight or flight response"
-    },
-    {
-      "question": "What methodological issue is associated with early research on the fight or flight response?",
-      "options": [
-        "Over-reliance on female subjects",
-        "Neglecting hormonal fluctuations in females",
-        "Assuming all responses are identical across genders",
-        "Using outdated technology for measurement"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Early research often excluded females or did not account for hormonal fluctuations, leading to a potential misrepresentation of female stress responses. This corresponds to: Neglecting hormonal fluctuations in females."
-    },
-    {
-      "question": "What is the primary function of oxytocin in the context of stress responses in females?",
-      "options": [
-        "To enhance fight or flight responses",
-        "To promote relaxation and social bonding",
-        "To increase aggression",
-        "To inhibit the sympathetic nervous system"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Oxytocin is associated with promoting relaxation and social bonding, which can lead to the 'tend and befriend' response in females. This corresponds to: To promote relaxation and social bonding."
-    },
-    {
-      "question": "What is a key difference between the fight or flight response and the tend and befriend response?",
-      "options": [
-        "Fight or flight is only for males",
-        "Tend and befriend is a response to physical threats",
-        "Fight or flight is immediate, while tend and befriend is more social",
-        "Tend and befriend is a response to emotional threats only"
+        "It maintains the sympathetic state",
+        "It returns the body to a resting state",
+        "It increases adrenaline levels"
       ],
       "correctAnswer": 2,
-      "explanation": "The fight or flight response is immediate and physiological, while the tend and befriend response involves social behaviors and is more adaptive for females. This corresponds to: Fight or flight is immediate, while tend and befriend is more social."
+      "explanation": "The parasympathetic nervous system acts as a 'brake' to return the body to its resting state after the stressor has passed. This corresponds to: It returns the body to a resting state."
+    },
+    {
+      "question": "What is the role of the SRY gene in the fight or flight response according to Lee and Harley (2012)?",
+      "options": [
+        "It promotes the tend and befriend response",
+        "It directs male development and aggression",
+        "It inhibits adrenaline release",
+        "It regulates oxytocin levels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SRY gene, found on the male Y chromosome, directs male development and promotes aggression, which is linked to the fight or flight response. This corresponds to: It directs male development and aggression."
+    },
+    {
+      "question": "What physiological measure is often used to assess the fight or flight response through skin conductance?",
+      "options": [
+        "Heart rate variability",
+        "Electroencephalogram",
+        "Skin conductance response",
+        "Blood pressure monitoring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Skin conductance response is used to measure physiological arousal during stress, as sweating increases with the fight or flight response"
     }
   ]
 }

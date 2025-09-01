@@ -1,13 +1,24 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:03:12.257Z",
+  "savedAt": "2025-09-01T12:51:28.212Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "endocrine-system",
   "set": "A",
   "questions": [
     {
-      "question": "Which gland is often referred to as the 'master gland' of the endocrine system due to its role in regulating other glands?",
+      "question": "What is the primary function of the endocrine system in the human body?",
+      "options": [
+        "To transmit electrical signals",
+        "To regulate physiological processes through hormones",
+        "To control voluntary movements",
+        "To process sensory information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The endocrine system regulates physiological processes through the release of hormones into the bloodstream. This corresponds to: To regulate physiological processes through hormones."
+    },
+    {
+      "question": "Which gland is often referred to as the 'master gland' of the endocrine system?",
       "options": [
         "Adrenal gland",
         "Thyroid gland",
@@ -15,54 +26,32 @@
         "Pancreas"
       ],
       "correctAnswer": 2,
-      "explanation": "The pituitary gland is known as the 'master gland' because it controls the release of hormones from all other endocrine glands"
+      "explanation": "The pituitary gland is called the 'master gland' because it controls the release of hormones from other endocrine glands"
     },
     {
-      "question": "During a stressful event, which hormone is primarily released by the adrenal medulla to prepare the body for fight or flight?",
+      "question": "During a stressful event, which hormone is primarily released by the adrenal medulla?",
       "options": [
         "Cortisol",
-        "Adrenaline",
         "Thyroxine",
+        "Adrenaline",
         "Insulin"
       ],
-      "correctAnswer": 1,
-      "explanation": "Adrenaline is released from the adrenal medulla during stress, triggering physiological changes necessary for the fight or flight response"
+      "correctAnswer": 2,
+      "explanation": "Adrenaline is released from the adrenal medulla in response to stress, preparing the body for the fight or flight response"
     },
     {
-      "question": "In a scenario where a student feels their heart racing before an exam, which part of the nervous system is primarily activated?",
+      "question": "If a person experiences increased heart rate and heightened alertness due to a perceived threat, which system is primarily responsible for this response?",
       "options": [
         "Parasympathetic nervous system",
         "Somatic nervous system",
-        "Sympathetic nervous system",
-        "Central nervous system"
+        "Endocrine system",
+        "Sympathetic nervous system"
       ],
-      "correctAnswer": 2,
-      "explanation": "The sympathetic nervous system is activated in response to stress, leading to physiological arousal such as increased heart rate"
+      "correctAnswer": 3,
+      "explanation": "The sympathetic nervous system is responsible for physiological arousal during stress, working alongside the endocrine system"
     },
     {
-      "question": "What is the primary function of the endocrine system?",
-      "options": [
-        "To transmit electrical signals",
-        "To produce and secrete hormones",
-        "To control voluntary movements",
-        "To process sensory information"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The endocrine system's main function is to produce and secrete hormones that regulate various physiological processes in the body"
-    },
-    {
-      "question": "Which hormone is produced by the adrenal cortex in response to stress?",
-      "options": [
-        "Adrenaline",
-        "Cortisol",
-        "Thyroxine",
-        "Insulin"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Cortisol is produced by the adrenal cortex and is involved in the body's response to stress"
-    },
-    {
-      "question": "If a person is experiencing a 'sick' feeling in their stomach due to stress, which physiological response is likely occurring?",
+      "question": "In a scenario where a student feels 'butterflies' in their stomach before an exam, which physiological response is likely occurring?",
       "options": [
         "Rest and digest response",
         "Fight or flight response",
@@ -70,51 +59,62 @@
         "Metabolic rate decrease"
       ],
       "correctAnswer": 1,
-      "explanation": "The 'sick' feeling is associated with the fight or flight response, which involves physiological changes like increased heart rate and adrenaline release"
+      "explanation": "The feeling of 'butterflies' indicates activation of the fight or flight response, involving adrenaline release"
     },
     {
-      "question": "How does the endocrine system regulate hormone levels in the bloodstream?",
+      "question": "How does the endocrine system maintain stable hormone levels in the bloodstream?",
       "options": [
-        "Through nerve impulses",
-        "By feedback mechanisms",
-        "By direct electrical stimulation",
-        "Through muscle contractions"
+        "Through feedback mechanisms",
+        "By increasing hormone production constantly",
+        "By using nerve impulses",
+        "Through direct muscle action"
       ],
-      "correctAnswer": 1,
-      "explanation": "The endocrine system uses feedback mechanisms to regulate hormone levels, similar to how a thermostat controls temperature. This corresponds to: By feedback mechanisms."
+      "correctAnswer": 0,
+      "explanation": "The endocrine system uses feedback mechanisms to regulate hormone levels, similar to a thermostat controlling temperature. This corresponds to: Through feedback mechanisms."
     },
     {
-      "question": "Which of the following best describes the relationship between the endocrine system and the autonomic nervous system during stress?",
+      "question": "Which hormone produced by the thyroid gland affects metabolic rates and growth?",
       "options": [
-        "They function independently",
-        "They work in opposition",
-        "They work in parallel",
-        "They have no interaction"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The endocrine system and the autonomic nervous system work in parallel during stress, with the sympathetic nervous system activating the release of hormones. This corresponds to: They work in parallel."
-    },
-    {
-      "question": "What is the role of the hypothalamus in the endocrine system?",
-      "options": [
-        "To produce adrenaline",
-        "To regulate body temperature",
-        "To activate the pituitary gland",
-        "To control muscle movement"
+        "Adrenaline",
+        "Cortisol",
+        "Thyroxine",
+        "Insulin"
       ],
       "correctAnswer": 2,
-      "explanation": "The hypothalamus activates the pituitary gland, which then triggers the release of hormones from other glands in the endocrine system. This corresponds to: To activate the pituitary gland."
+      "explanation": "Thyroxine is produced by the thyroid gland and is crucial for regulating metabolic rates and growth"
     },
     {
-      "question": "Which of the following is a methodological issue when studying the effects of hormones on behavior?",
+      "question": "What is a methodological issue when studying the effects of hormones on behavior?",
       "options": [
-        "Hormones are always present in the body",
-        "Hormonal effects can vary widely between individuals",
-        "Hormones have no effect on behavior",
-        "Hormones are only produced in response to stress"
+        "Hormones can only be studied in isolation",
+        "Hormonal effects can vary greatly between individuals",
+        "Hormones have no impact on behavior",
+        "Hormones act only in the short term"
       ],
       "correctAnswer": 1,
-      "explanation": "Hormonal effects can vary widely between individuals, making it difficult to generalize findings across different populations"
+      "explanation": "Hormonal effects can vary greatly between individuals, making it difficult to generalize findings across populations"
+    },
+    {
+      "question": "In terms of response time, how does the endocrine system compare to the nervous system?",
+      "options": [
+        "Faster than the nervous system",
+        "Slower than the nervous system",
+        "Equally fast as the nervous system",
+        "Not comparable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The endocrine system acts more slowly than the nervous system, although it has widespread effects. This corresponds to: Slower than the nervous system."
+    },
+    {
+      "question": "What role does the hypothalamus play in the endocrine system?",
+      "options": [
+        "It produces adrenaline",
+        "It regulates the pituitary gland",
+        "It secretes insulin",
+        "It controls muscle movement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hypothalamus regulates the pituitary gland by sending releasing hormones that trigger hormone secretion. This corresponds to: It regulates the pituitary gland."
     }
   ]
 }

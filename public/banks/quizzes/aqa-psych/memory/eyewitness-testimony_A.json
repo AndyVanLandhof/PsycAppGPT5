@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:26:32.154Z",
+  "savedAt": "2025-09-01T12:11:01.808Z",
   "curriculum": "aqa-psych",
   "topicId": "memory",
   "subId": "eyewitness-testimony",
   "set": "A",
   "questions": [
     {
-      "question": "What did Loftus and Palmer (1974) find regarding the impact of leading questions on eyewitness testimony?",
+      "question": "What percentage of convictions overturned by DNA testing involved inaccurate eyewitness testimony, according to the Innocence Project?",
       "options": [
-        "Participants estimated higher speeds with the word 'smashed'",
-        "Participants recalled more details with the word 'hit'",
-        "Participants were less confident with leading questions",
-        "Participants showed no difference in speed estimates"
+        "72%",
+        "50%",
+        "85%",
+        "60%"
       ],
       "correctAnswer": 0,
-      "explanation": "The study showed that the wording of questions significantly influenced speed estimates, with 'smashed' leading to higher estimates. This corresponds to: Participants estimated higher speeds with the word 'smashed'."
+      "explanation": "The Innocence Project claims that 72% of convictions overturned by DNA testing involved eyewitness testimony that was not accurate"
     },
     {
-      "question": "In the context of eyewitness testimony, what is meant by 'post-event discussion'?",
+      "question": "In Loftus and Palmer's 1974 study, what was the average speed estimate when participants heard the word 'smashed'?",
       "options": [
-        "A conversation that occurs before the event",
-        "An interview conducted by police",
-        "A conversation between witnesses after the event",
-        "A method to enhance memory recall"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Post-event discussion refers to conversations between co-witnesses or interviewers that can alter a witness's memory. This corresponds to: A conversation between witnesses after the event."
-    },
-    {
-      "question": "How does anxiety affect eyewitness testimony according to research?",
-      "options": [
-        "It always improves recall accuracy",
-        "It has no effect on memory",
-        "It can lead to physiological arousal that may impair memory",
-        "It only affects children"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Research indicates that anxiety can lead to physiological arousal, which may impair the accuracy of eyewitness memory. This corresponds to: It can lead to physiological arousal that may impair memory."
-    },
-    {
-      "question": "In a scenario where a witness is asked leading questions, what is a potential outcome?",
-      "options": [
-        "The witness will always remember correctly",
-        "The witness's memory may be altered",
-        "The witness will provide more details",
-        "The witness will forget the event entirely"
+        "32 mph",
+        "41 mph",
+        "50 mph",
+        "36 mph"
       ],
       "correctAnswer": 1,
-      "explanation": "Leading questions can introduce misleading information that alters the witness's memory of the event. This corresponds to: The witness's memory may be altered."
+      "explanation": "Participants estimated an average speed of 41 mph when the word 'smashed' was used"
     },
     {
-      "question": "What is one criticism of Loftus and Palmer's (1974) study regarding ecological validity?",
+      "question": "How can leading questions affect eyewitness testimony according to research?",
       "options": [
-        "The study used real-life witnesses",
-        "The video of a car crash may not evoke real emotional responses",
-        "Participants were not aware of the study's aims",
-        "The sample size was too large"
+        "They improve memory recall.",
+        "They can alter the memory of events.",
+        "They have no effect on memory.",
+        "They only affect children."
       ],
       "correctAnswer": 1,
-      "explanation": "The use of a video may lack the emotional intensity of a real car crash, affecting the generalizability of the findings. This corresponds to: The video of a car crash may not evoke real emotional responses."
+      "explanation": "Leading questions can alter an individual's memory for events, as shown in various studies. This corresponds to: They can alter the memory of events.."
     },
     {
-      "question": "Which technique is NOT part of the cognitive interview?",
+      "question": "Mika witnessed a bank robbery and is interviewed. If police use the cognitive interview technique, which method could they employ?",
+      "options": [
+        "Encourage Mika to recall everything, even if it seems irrelevant.",
+        "Ask leading questions to guide his memory.",
+        "Limit the time for his responses.",
+        "Only focus on the most important details."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cognitive interview encourages witnesses to report everything they remember, even if it seems irrelevant. This corresponds to: Encourage Mika to recall everything, even if it seems irrelevant.."
+    },
+    {
+      "question": "What is a potential issue with Loftus and Palmer's study regarding ecological validity?",
+      "options": [
+        "Participants were not emotionally stimulated.",
+        "The study was conducted in a natural setting.",
+        "Participants had prior experience with car crashes.",
+        "The sample size was too large."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Viewing a car crash on video is less emotionally stimulating than experiencing a real crash, affecting ecological validity. This corresponds to: Participants were not emotionally stimulated.."
+    },
+    {
+      "question": "What is the term for a conversation between co-witnesses that may contaminate memory?",
+      "options": [
+        "Leading question",
+        "Post-event discussion",
+        "Cognitive interview",
+        "Misleading information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Post-event discussion refers to conversations between co-witnesses that can alter a witness's memory for the event"
+    },
+    {
+      "question": "In what way can anxiety affect eyewitness testimony according to research?",
+      "options": [
+        "It always improves memory accuracy.",
+        "It has no effect on memory.",
+        "It can lead to physiological arousal that may impair recall.",
+        "It only affects children."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anxiety can lead to physiological arousal, which may impair the accuracy of eyewitness testimony. This corresponds to: It can lead to physiological arousal that may impair recall.."
+    },
+    {
+      "question": "What is one technique used in the cognitive interview to enhance recall?",
       "options": [
         "Changing perspective",
-        "Report everything",
-        "Leading questions",
-        "Context reinstatement"
+        "Using leading questions",
+        "Limiting responses",
+        "Focusing on irrelevant details"
       ],
-      "correctAnswer": 2,
-      "explanation": "Leading questions are not part of the cognitive interview; instead, techniques aim to enhance memory recall"
+      "correctAnswer": 0,
+      "explanation": "Changing perspective is one technique in the cognitive interview that encourages witnesses to recall events from different viewpoints"
     },
     {
-      "question": "What effect can misleading information have on eyewitness testimony?",
+      "question": "What did Loftus and Palmer find regarding the word 'hit' compared to 'smashed' in their study?",
       "options": [
-        "It can enhance memory recall",
-        "It can lead to memory contamination",
-        "It has no effect on memory",
-        "It only affects children"
+        "Participants estimated higher speeds with 'hit'.",
+        "Participants estimated lower speeds with 'hit'.",
+        "There was no difference in speed estimates.",
+        "Participants remembered more details with 'hit'."
       ],
       "correctAnswer": 1,
-      "explanation": "Misleading information can contaminate a witness's memory, leading to inaccuracies in their testimony. This corresponds to: It can lead to memory contamination."
+      "explanation": "Participants estimated a lower average speed of 32 mph when the word 'hit' was used compared to 'smashed'. This corresponds to: Participants estimated lower speeds with 'hit'.."
     },
     {
-      "question": "What is a potential methodological issue with studies on eyewitness testimony?",
+      "question": "What is a methodological issue with the use of leading questions in eyewitness testimony research?",
       "options": [
-        "They often use real-life scenarios",
-        "They may involve demand characteristics",
-        "They always have a large sample size",
-        "They do not use leading questions"
+        "They are always accurate.",
+        "They may lead to demand characteristics.",
+        "They do not affect memory.",
+        "They are only applicable to children."
       ],
       "correctAnswer": 1,
-      "explanation": "Participants may guess the aims of the study, leading to demand characteristics that can skew results. This corresponds to: They may involve demand characteristics."
-    },
-    {
-      "question": "How does the cognitive interview aim to improve eyewitness testimony?",
-      "options": [
-        "By using leading questions",
-        "By encouraging witnesses to recall everything",
-        "By limiting the amount of information shared",
-        "By avoiding any discussion with witnesses"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The cognitive interview encourages witnesses to report everything they remember, which can improve the accuracy of their testimony. This corresponds to: By encouraging witnesses to recall everything."
-    },
-    {
-      "question": "What is one way that anxiety can impact eyewitness memory according to research?",
-      "options": [
-        "It always enhances memory recall",
-        "It can lead to physiological arousal that may impair memory",
-        "It has no measurable effects",
-        "It only affects adults"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Anxiety can cause physiological arousal, which may negatively impact the accuracy of eyewitness memory. This corresponds to: It can lead to physiological arousal that may impair memory."
+      "explanation": "Participants may guess the aims of the experiment, leading to demand characteristics that affect the validity of the results. This corresponds to: They may lead to demand characteristics.."
     }
   ]
 }

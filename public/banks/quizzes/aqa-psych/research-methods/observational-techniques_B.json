@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:06:49.218Z",
+  "savedAt": "2025-09-01T12:58:56.836Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "observational-techniques",
   "set": "B",
   "questions": [
     {
-      "question": "In a study investigating children's play behavior, researchers used a naturalistic observation method to record interactions in a playground setting. What is a key advantage of this observational technique?",
+      "question": "In a study examining children's play behavior, researchers used a structured observational technique to categorize types of play. What is the primary advantage of using structured observations?",
       "options": [
-        "High control over variables",
-        "Realistic behavior in a natural setting",
-        "Easier to replicate",
-        "Less time-consuming"
+        "A. They allow for greater flexibility in data collection.",
+        "B. They provide a systematic way to record behavior.",
+        "C. They eliminate the need for operational definitions.",
+        "D. They reduce the need for training observers."
       ],
       "correctAnswer": 1,
-      "explanation": "Naturalistic observation allows researchers to observe behavior in a real-world context, leading to more authentic data. This corresponds to: Realistic behavior in a natural setting."
+      "explanation": "Structured observations provide a systematic way to record behavior, which enhances reliability and validity. This corresponds to: B. They provide a systematic way to record behavior.."
     },
     {
-      "question": "A researcher uses a structured observation to study aggressive behavior in children during recess. What is a potential limitation of this method?",
+      "question": "A researcher observes a group of children playing in a park and records their interactions without intervening. This method is known as what type of observation?",
       "options": [
-        "It may not capture spontaneous behavior",
-        "It is too time-consuming",
-        "It lacks ecological validity",
-        "It requires extensive training"
+        "A. Controlled observation",
+        "B. Covert observation",
+        "C. Naturalistic observation",
+        "D. Participant observation"
       ],
-      "correctAnswer": 0,
-      "explanation": "Structured observations may miss spontaneous or unplanned behaviors, which can be crucial for understanding aggression. This corresponds to: It may not capture spontaneous behavior."
+      "correctAnswer": 2,
+      "explanation": "Naturalistic observation involves observing subjects in their natural environment without interference. This corresponds to: C. Naturalistic observation."
     },
     {
-      "question": "In a controlled observation, researchers recorded the frequency of aggressive acts in a classroom setting. What is a key feature of controlled observations?",
+      "question": "In a study on aggression, researchers used both self-reports and observational techniques. What was a key finding regarding the methods used?",
       "options": [
-        "They occur in natural environments",
-        "They allow for manipulation of variables",
-        "They are always covert",
-        "They require participant consent"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Controlled observations involve manipulation of the environment to observe specific behaviors under set conditions. This corresponds to: They allow for manipulation of variables."
-    },
-    {
-      "question": "A study on social interactions used both overt and covert observation methods. What is a primary difference between these two types of observation?",
-      "options": [
-        "Overt is more ethical than covert",
-        "Covert does not inform participants they are being observed",
-        "Overt is less reliable than covert",
-        "Covert observations are always structured"
+        "A. Self-reports showed less genetic influence than observational data.",
+        "B. Observational techniques indicated a greater environmental influence.",
+        "C. Both methods provided identical results.",
+        "D. Self-reports are always more reliable than observational techniques."
       ],
       "correctAnswer": 1,
-      "explanation": "In overt observations, participants are aware they are being observed, while in covert observations, they are not informed. This corresponds to: Covert does not inform participants they are being observed."
+      "explanation": "Observational ratings indicated a greater influence of environmental factors compared to self-reports. This corresponds to: B. Observational techniques indicated a greater environmental influence.."
     },
     {
-      "question": "In a study examining the effects of classroom layout on student engagement, researchers used time sampling to record behaviors. What is a potential drawback of this sampling method?",
+      "question": "During a study on classroom behavior, a researcher uses time sampling to record instances of off-task behavior. What is a potential limitation of this method?",
       "options": [
-        "It may miss behaviors that occur outside of the specified times",
-        "It is too subjective",
-        "It requires extensive training",
-        "It is less reliable than event sampling"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Time sampling may overlook behaviors that occur outside the predetermined observation intervals, potentially skewing results. This corresponds to: It may miss behaviors that occur outside of the specified times."
-    },
-    {
-      "question": "A researcher conducting a naturalistic observation of children playing found that boys were more aggressive than girls. What methodological issue could affect the validity of this finding?",
-      "options": [
-        "Observer bias",
-        "Lack of operational definitions",
-        "Inconsistent sampling methods",
-        "Limited sample size"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Observer bias can lead to subjective interpretations of behavior, affecting the validity of the findings regarding aggression"
-    },
-    {
-      "question": "In a study using participant observation, the researcher became involved in the group being studied. What is a potential advantage of this method?",
-      "options": [
-        "Increased objectivity",
-        "Deeper understanding of the context",
-        "Easier data collection",
-        "Higher reliability"
+        "A. It captures all instances of behavior.",
+        "B. It may miss important behaviors occurring outside the sampling intervals.",
+        "C. It requires extensive training for observers.",
+        "D. It is too subjective."
       ],
       "correctAnswer": 1,
-      "explanation": "Participant observation allows researchers to gain insights into the social dynamics and context of the group being studied. This corresponds to: Deeper understanding of the context."
+      "explanation": "Time sampling may miss important behaviors that occur outside the designated intervals, potentially leading to incomplete data. This corresponds to: B. It may miss important behaviors occurring outside the sampling intervals.."
     },
     {
-      "question": "A researcher conducting a covert observation of a public space recorded aggressive interactions without the participants' knowledge. What ethical consideration is most relevant in this scenario?",
+      "question": "A researcher conducting a study on social interactions in a café uses a coding frame to categorize behaviors. What is the purpose of using a coding frame in observational research?",
       "options": [
-        "Informed consent",
-        "Debriefing",
-        "Confidentiality",
-        "Right to withdraw"
+        "A. To ensure that all observers interpret behaviors consistently.",
+        "B. To allow for spontaneous observations without structure.",
+        "C. To eliminate the need for operational definitions.",
+        "D. To increase the variability of the data collected."
       ],
       "correctAnswer": 0,
-      "explanation": "Covert observations raise ethical concerns regarding informed consent, as participants are unaware they are being studied"
+      "explanation": "A coding frame helps ensure that all observers interpret behaviors consistently, enhancing the reliability of the data. This corresponds to: A. To ensure that all observers interpret behaviors consistently.."
     },
     {
-      "question": "In a study comparing overt and covert observational techniques, researchers found that overt observations yielded more accurate reports of behavior. What could explain this finding?",
+      "question": "In a study using participant observation, the researcher becomes part of the group being studied. What is a potential drawback of this method?",
       "options": [
-        "Participants may alter their behavior when aware of being observed",
-        "Covert observations are less reliable",
-        "Overt observations are more ethical",
-        "Covert observations are more structured"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Participants may change their behavior when they know they are being observed, potentially leading to less accurate data in covert observations. This corresponds to: Participants may alter their behavior when aware of being observed."
-    },
-    {
-      "question": "A researcher uses behavioral categories to structure their observations of aggressive behavior in children. What is a key benefit of using behavioral categories?",
-      "options": [
-        "Increases subjectivity",
-        "Enhances reliability of observations",
-        "Reduces the need for training",
-        "Limits the scope of behaviors observed"
+        "A. It allows for a more objective perspective.",
+        "B. It may introduce bias due to the researcher's involvement.",
+        "C. It eliminates ethical concerns.",
+        "D. It requires less time than other observational methods."
       ],
       "correctAnswer": 1,
-      "explanation": "Behavioral categories help to standardize observations, which can enhance the reliability and consistency of the data collected. This corresponds to: Enhances reliability of observations."
+      "explanation": "Participant observation may introduce bias as the researcher’s involvement can affect the behavior of the group being studied. This corresponds to: B. It may introduce bias due to the researcher's involvement.."
+    },
+    {
+      "question": "A researcher is interested in the effects of a new teaching method on student engagement. They decide to observe classes using overt observation. What is a key characteristic of overt observation?",
+      "options": [
+        "A. Participants are unaware they are being observed.",
+        "B. The researcher does not interact with participants.",
+        "C. Participants know they are being observed.",
+        "D. It is conducted in a controlled environment."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In overt observation, participants are aware they are being observed, which can influence their behavior. This corresponds to: C. Participants know they are being observed.."
+    },
+    {
+      "question": "In a study comparing two different observational techniques, researchers found that structured observations yielded more consistent results than unstructured observations. What does this suggest about the reliability of these methods?",
+      "options": [
+        "A. Structured observations are less reliable than unstructured.",
+        "B. Unstructured observations are more valid than structured.",
+        "C. Structured observations tend to have higher reliability.",
+        "D. Both methods have equal reliability."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Higher reliability in structured observations suggests that they provide more consistent results compared to unstructured methods. This corresponds to: C. Structured observations tend to have higher reliability.."
+    },
+    {
+      "question": "A researcher studying aggression uses observational techniques to assess behavior in a playground. What is a potential ethical concern with this method?",
+      "options": [
+        "A. It requires informed consent from participants.",
+        "B. It may lead to demand characteristics.",
+        "C. It is less reliable than self-report methods.",
+        "D. It does not require operational definitions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Observational techniques often require informed consent, especially when observing minors, to address ethical concerns. This corresponds to: A. It requires informed consent from participants.."
+    },
+    {
+      "question": "In a study on group dynamics, researchers used both participant and non-participant observations. What is a key difference between these two methods?",
+      "options": [
+        "A. Participant observation involves the researcher being part of the group.",
+        "B. Non-participant observation is more subjective.",
+        "C. Participant observation is less time-consuming.",
+        "D. Non-participant observation requires more training."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The key difference is that participant observation involves the researcher actively engaging with the group, while non-participant does not. This corresponds to: A. Participant observation involves the researcher being part of the group.."
     }
   ]
 }

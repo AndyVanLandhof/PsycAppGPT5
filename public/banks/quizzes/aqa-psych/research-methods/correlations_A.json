@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:07:44.764Z",
+  "savedAt": "2025-09-01T13:04:17.415Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "correlations",
@@ -12,109 +12,109 @@
         "Attachment types are very stable.",
         "Attachment types are not very stable.",
         "All attachment types are equally stable.",
-        "Attachment types only affect romantic relationships."
+        "Attachment types are only stable in secure attachments."
       ],
       "correctAnswer": 1,
       "explanation": "Fraley's findings indicate that low correlations challenge the notion of attachment stability. This corresponds to: Attachment types are not very stable.."
     },
     {
-      "question": "In a study measuring the relationship between anxiety levels and performance, researchers found a curvilinear correlation. What does this imply about the relationship?",
+      "question": "In a study measuring the relationship between anxiety and performance, which type of correlation would best describe the relationship where performance is optimal at moderate anxiety levels?",
       "options": [
-        "Anxiety has a linear relationship with performance.",
-        "Performance is best at moderate anxiety levels.",
-        "Higher anxiety always leads to better performance.",
-        "There is no relationship between anxiety and performance."
+        "Positive correlation",
+        "Negative correlation",
+        "Zero correlation",
+        "Curvilinear correlation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The relationship is curvilinear as performance is best at moderate anxiety, not a straight line. This corresponds to: Curvilinear correlation."
+    },
+    {
+      "question": "A researcher finds a correlation coefficient of -0.8 between stress levels and academic performance. What does this indicate?",
+      "options": [
+        "A strong positive relationship",
+        "A strong negative relationship",
+        "No relationship",
+        "A weak negative relationship"
       ],
       "correctAnswer": 1,
-      "explanation": "The curvilinear relationship suggests that moderate anxiety enhances performance, while too much or too little anxiety hinders it. This corresponds to: Performance is best at moderate anxiety levels.."
+      "explanation": "A correlation coefficient of -0.8 indicates a strong negative relationship between the two variables"
     },
     {
-      "question": "A researcher finds a correlation coefficient of +0.8 between two variables. What does this indicate?",
-      "options": [
-        "A strong negative relationship.",
-        "A weak positive relationship.",
-        "A strong positive relationship.",
-        "No relationship."
-      ],
-      "correctAnswer": 2,
-      "explanation": "A correlation coefficient of +0.8 indicates a strong positive relationship between the two variables. This corresponds to: A strong positive relationship.."
-    },
-    {
-      "question": "A study found a correlation of 0 between hours studied and exam scores. What can be inferred from this result?",
+      "question": "A psychologist conducts a study and finds a correlation of 0.0 between hours studied and exam scores. What can be inferred?",
       "options": [
         "Studying has no effect on exam scores.",
-        "There is a strong relationship between studying and scores.",
-        "Studying is the only factor affecting scores.",
-        "Exam scores are determined by other factors."
+        "Studying negatively affects exam scores.",
+        "There is no predictable relationship between studying and exam scores.",
+        "Studying positively affects exam scores."
       ],
-      "correctAnswer": 0,
-      "explanation": "A correlation of 0 suggests that there is no relationship between hours studied and exam scores. This corresponds to: Studying has no effect on exam scores.."
+      "correctAnswer": 2,
+      "explanation": "A correlation of 0.0 indicates no predictable relationship between the two variables. This corresponds to: There is no predictable relationship between studying and exam scores.."
     },
     {
-      "question": "What is a potential methodological issue with correlational research regarding attachment types and later relationships?",
+      "question": "In a study examining childhood attachment types and adult relationships, what methodological issue could affect the validity of the findings?",
       "options": [
-        "Correlational studies can establish causation.",
-        "Childhood attachment types are often based on retrospective classification.",
-        "Correlational studies require random sampling.",
-        "Correlational studies cannot use statistical analysis."
+        "Use of random sampling",
+        "Retrospective classification of childhood attachment",
+        "Longitudinal study design",
+        "Use of qualitative data"
       ],
       "correctAnswer": 1,
-      "explanation": "Retrospective classification may lead to inaccuracies in recalling childhood attachment types. This corresponds to: Childhood attachment types are often based on retrospective classification.."
+      "explanation": "Retrospective classification may lead to inaccuracies in recalling childhood attachment types. This corresponds to: Retrospective classification of childhood attachment."
+    },
+    {
+      "question": "What is a limitation of correlational research compared to experimental research?",
+      "options": [
+        "It cannot establish cause and effect.",
+        "It requires random allocation.",
+        "It is less reliable.",
+        "It cannot use statistical analysis."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correlational research cannot establish cause and effect, unlike experimental research. This corresponds to: It cannot establish cause and effect.."
+    },
+    {
+      "question": "If a researcher finds a correlation of +0.3 between two variables, what does this imply about their relationship?",
+      "options": [
+        "There is a strong positive relationship.",
+        "There is a weak positive relationship.",
+        "There is no relationship.",
+        "There is a strong negative relationship."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A correlation of +0.3 indicates a weak positive relationship between the two variables. This corresponds to: There is a weak positive relationship.."
+    },
+    {
+      "question": "In a study measuring the relationship between sleep duration and mood, the researcher finds a correlation of +0.5. What does this suggest?",
+      "options": [
+        "Longer sleep is associated with better mood.",
+        "Longer sleep is associated with worse mood.",
+        "There is no relationship between sleep and mood.",
+        "Mood has no effect on sleep."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A correlation of +0.5 suggests that longer sleep is associated with better mood. This corresponds to: Longer sleep is associated with better mood.."
+    },
+    {
+      "question": "What is the range of values for a correlation coefficient, and what does it signify?",
+      "options": [
+        "-1 to +1, indicating strength and direction of the relationship.",
+        "0 to +1, indicating only positive relationships.",
+        "-1 to 0, indicating negative relationships only.",
+        "0 to +1, indicating strength only."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correlation coefficient ranges from -1 to +1, indicating both the strength and direction of the relationship. This corresponds to: -1 to +1, indicating strength and direction of the relationship.."
     },
     {
       "question": "Which of the following best describes a zero correlation?",
       "options": [
-        "A perfect positive relationship.",
-        "A perfect negative relationship.",
-        "No predictable relationship between variables.",
-        "A strong relationship between two variables."
+        "A perfect positive relationship",
+        "A perfect negative relationship",
+        "No predictable relationship",
+        "A strong positive relationship"
       ],
       "correctAnswer": 2,
-      "explanation": "A zero correlation indicates that there is no predictable relationship between the two variables. This corresponds to: No predictable relationship between variables.."
-    },
-    {
-      "question": "In a study examining the relationship between childhood attachment and adult relationships, researchers found low correlations. What does this suggest about the determinism of attachment theory?",
-      "options": [
-        "Attachment experiences are deterministic.",
-        "Attachment experiences do not always determine future relationships.",
-        "All relationships are influenced by childhood attachment.",
-        "Attachment theory is universally applicable."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Low correlations challenge the deterministic view that past attachment experiences dictate future relationships. This corresponds to: Attachment experiences do not always determine future relationships.."
-    },
-    {
-      "question": "A researcher is analyzing the relationship between two continuous variables using a scattergram. What is this method called?",
-      "options": [
-        "Experimental design.",
-        "Observational study.",
-        "Correlation analysis.",
-        "Qualitative research."
-      ],
-      "correctAnswer": 2,
-      "explanation": "Analyzing the relationship between two continuous variables using a scattergram is known as correlation analysis. This corresponds to: Correlation analysis.."
-    },
-    {
-      "question": "If a study shows a correlation coefficient of -0.5, what does this indicate about the relationship between the two variables?",
-      "options": [
-        "A strong positive relationship.",
-        "A weak negative relationship.",
-        "A strong negative relationship.",
-        "No relationship."
-      ],
-      "correctAnswer": 2,
-      "explanation": "A correlation coefficient of -0.5 indicates a moderate to strong negative relationship between the two variables. This corresponds to: A strong negative relationship.."
-    },
-    {
-      "question": "What is a limitation of using correlations in psychological research?",
-      "options": [
-        "Correlations can establish cause and effect.",
-        "Correlations do not account for extraneous variables.",
-        "Correlations require a large sample size.",
-        "Correlations can only be positive."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Correlational research does not account for extraneous variables, making it difficult to establish causation. This corresponds to: Correlations do not account for extraneous variables.."
+      "explanation": "A zero correlation indicates that there is no predictable relationship between the two variables"
     }
   ]
 }

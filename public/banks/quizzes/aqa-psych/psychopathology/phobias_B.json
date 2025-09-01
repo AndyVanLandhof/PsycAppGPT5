@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:21:09.446Z",
+  "savedAt": "2025-09-01T13:24:32.065Z",
   "curriculum": "aqa-psych",
   "topicId": "psychopathology",
   "subId": "phobias",
@@ -11,66 +11,55 @@
       "options": [
         "Intense fear of a specific object",
         "Avoidance of the feared object",
-        "Depressed mood",
+        "Feeling of euphoria when exposed to the object",
         "High levels of anxiety"
       ],
       "correctAnswer": 2,
-      "explanation": "Depressed mood is a characteristic of depression, not phobias"
+      "explanation": "Phobias are characterized by intense fear, avoidance, and anxiety, not euphoria. This corresponds to: Feeling of euphoria when exposed to the object."
     },
     {
-      "question": "What does the two-process model of phobia acquisition include?",
+      "question": "According to the two-process model, which type of conditioning is primarily involved in the acquisition of phobias?",
       "options": [
-        "Only operant conditioning",
-        "Only classical conditioning",
-        "Both classical and operant conditioning",
-        "Cognitive restructuring"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The two-process model explains phobia acquisition through both classical and operant conditioning"
-    },
-    {
-      "question": "In systematic desensitisation, what is the purpose of the fear hierarchy?",
-      "options": [
-        "To expose the patient to their phobia immediately",
-        "To gradually expose the patient to increasing levels of fear",
-        "To eliminate all fears at once",
-        "To assess the patient's initial anxiety level"
+        "Operant conditioning",
+        "Classical conditioning",
+        "Observational learning",
+        "Cognitive conditioning"
       ],
       "correctAnswer": 1,
-      "explanation": "The fear hierarchy is used to gradually expose the patient to increasing levels of fear"
+      "explanation": "The two-process model states that phobias are acquired through classical conditioning"
     },
     {
-      "question": "A patient with arachnophobia is shown pictures of spiders, then videos, and finally a live spider. This treatment method is an example of:?",
+      "question": "In systematic desensitisation, what technique is used to help patients manage anxiety?",
       "options": [
         "Flooding",
-        "Systematic desensitisation",
-        "Cognitive restructuring",
-        "Operant conditioning"
+        "Relaxation techniques",
+        "Aversion therapy",
+        "Cognitive restructuring"
       ],
       "correctAnswer": 1,
-      "explanation": "This scenario illustrates systematic desensitisation through gradual exposure to the feared object"
+      "explanation": "Systematic desensitisation involves teaching relaxation techniques to manage anxiety"
+    },
+    {
+      "question": "A patient with a phobia of spiders is gradually exposed to pictures of spiders, then videos, and finally real spiders. This treatment is an example of:?",
+      "options": [
+        "Flooding",
+        "Cognitive Behaviour Therapy",
+        "Systematic desensitisation",
+        "Operant conditioning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This gradual exposure aligns with the principles of systematic desensitisation"
     },
     {
       "question": "Zinbarg et al (1992) found that systematic desensitisation was the most effective treatment for phobias. What is a potential limitation of this finding?",
       "options": [
-        "It lacks ecological validity",
-        "It is not applicable to all phobias",
-        "It relies solely on cognitive techniques",
-        "It is too expensive for most patients"
+        "It only applies to specific phobias",
+        "It lacks a control group",
+        "It may not be effective for all individuals",
+        "It is too expensive"
       ],
-      "correctAnswer": 1,
-      "explanation": "The effectiveness of systematic desensitisation may vary across different types of phobias. This corresponds to: It is not applicable to all phobias."
-    },
-    {
-      "question": "In the context of phobias, what does 'flooding' involve?",
-      "options": [
-        "Gradual exposure to the feared object",
-        "Immediate exposure to the feared object",
-        "Cognitive restructuring techniques",
-        "Relaxation training"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Flooding involves immediate exposure to the feared object to reduce anxiety"
+      "correctAnswer": 2,
+      "explanation": "While effective, systematic desensitisation may not work for everyone, limiting its generalizability. This corresponds to: It may not be effective for all individuals."
     },
     {
       "question": "A child develops a fear of dogs after being bitten. This fear can be explained by which of the following?",
@@ -78,43 +67,54 @@
         "Cognitive restructuring",
         "Operant conditioning",
         "Classical conditioning",
-        "Statistical infrequency"
+        "Social learning theory"
       ],
       "correctAnswer": 2,
-      "explanation": "The child's fear of dogs can be explained through classical conditioning, where the bite is associated with dogs"
+      "explanation": "The child's fear is a result of classical conditioning, where the dog (neutral stimulus) becomes associated with fear (unconditioned response)"
     },
     {
-      "question": "What is a common emotional characteristic of individuals with phobias?",
+      "question": "Which of the following best describes flooding as a treatment for phobias?",
       "options": [
-        "Euphoria",
-        "Anxiety",
-        "Depression",
-        "Calmness"
+        "Gradual exposure to feared stimuli",
+        "Immediate exposure to the feared object",
+        "Cognitive restructuring of irrational thoughts",
+        "Use of relaxation techniques"
       ],
       "correctAnswer": 1,
-      "explanation": "Individuals with phobias typically experience high levels of anxiety when confronted with their feared object"
+      "explanation": "Flooding involves immediate and intense exposure to the feared object or situation. This corresponds to: Immediate exposure to the feared object."
     },
     {
-      "question": "Which of the following is a criticism of flooding as a treatment for phobias?",
+      "question": "A therapist uses flooding to treat a patient with a phobia of heights. What is a potential ethical concern associated with this method?",
       "options": [
-        "It is time-consuming",
-        "It can cause emotional distress",
+        "It is too time-consuming",
+        "It may cause emotional distress",
         "It is ineffective",
-        "It requires a long-term commitment"
+        "It requires extensive training"
       ],
       "correctAnswer": 1,
-      "explanation": "Flooding can cause significant emotional distress for patients, raising ethical concerns about its use. This corresponds to: It can cause emotional distress."
+      "explanation": "Flooding can cause significant emotional distress, raising ethical concerns about patient welfare. This corresponds to: It may cause emotional distress."
     },
     {
-      "question": "What is the main goal of systematic desensitisation in treating phobias?",
+      "question": "In the context of phobias, what does the term 'fear hierarchy' refer to?",
       "options": [
-        "To eliminate all fears immediately",
-        "To teach relaxation techniques",
-        "To create a fear hierarchy",
-        "To associate the feared object with relaxation"
+        "A ranking of feared objects from least to most frightening",
+        "A list of cognitive distortions",
+        "A method of reinforcement",
+        "A type of cognitive therapy"
       ],
-      "correctAnswer": 3,
-      "explanation": "The main goal of systematic desensitisation is to help patients associate the feared object with relaxation instead of anxiety. This corresponds to: To associate the feared object with relaxation."
+      "correctAnswer": 0,
+      "explanation": "A fear hierarchy is a ranking of feared stimuli used in systematic desensitisation. This corresponds to: A ranking of feared objects from least to most frightening."
+    },
+    {
+      "question": "Which of the following is a cognitive characteristic of phobias?",
+      "options": [
+        "Avoidance behavior",
+        "Intense fear response",
+        "Irrational beliefs about the feared object",
+        "Physical symptoms of anxiety"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Irrational beliefs about the feared object are a cognitive characteristic of phobias"
     }
   ]
 }

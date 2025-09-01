@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:10:09.372Z",
+  "savedAt": "2025-09-01T13:09:22.927Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "data-handling-analysis",
   "set": "A",
   "questions": [
     {
-      "question": "What is the primary distinction between qualitative and quantitative data?",
+      "question": "Which of the following is a characteristic of qualitative data?",
       "options": [
-        "Qualitative data is numerical, while quantitative data is descriptive.",
-        "Qualitative data is descriptive, while quantitative data is numerical.",
-        "Qualitative data is collected through experiments, while quantitative data is collected through observations.",
-        "Qualitative data is always primary, while quantitative data is always secondary."
+        "Numerical values",
+        "Descriptive information",
+        "Statistical analysis",
+        "Standard deviation"
       ],
       "correctAnswer": 1,
-      "explanation": "Qualitative data is descriptive and focuses on understanding concepts, while quantitative data is numerical and focuses on measurement. This corresponds to: Qualitative data is descriptive, while quantitative data is numerical.."
+      "explanation": "Qualitative data is characterized by descriptive information rather than numerical values"
     },
     {
-      "question": "In a study measuring the effects of sleep on memory, researchers collect data on participants' sleep hours and their test scores. What type of data are they collecting?",
+      "question": "In a study measuring the effect of sleep on memory recall, researchers found a mean score of 75 and a median score of 70. What does this suggest about the data distribution?",
       "options": [
-        "Qualitative data",
-        "Quantitative data",
-        "Primary data",
-        "Secondary data"
+        "It is normally distributed",
+        "It is positively skewed",
+        "It is negatively skewed",
+        "It has no skew"
       ],
       "correctAnswer": 1,
-      "explanation": "The researchers are collecting quantitative data as they are measuring sleep hours and test scores numerically"
+      "explanation": "The mean being higher than the median suggests a positive skew in the data distribution. This corresponds to: It is positively skewed."
     },
     {
-      "question": "Which of the following is a measure of central tendency?",
+      "question": "What is the primary purpose of using a meta-analysis in psychological research?",
       "options": [
-        "Standard deviation",
-        "Range",
+        "To collect primary data",
+        "To analyze qualitative data",
+        "To synthesize findings from multiple studies",
+        "To conduct experiments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Meta-analysis is used to synthesize findings from multiple studies to draw broader conclusions"
+    },
+    {
+      "question": "If a researcher calculates a standard deviation of 5 for a set of test scores, what does this indicate?",
+      "options": [
+        "The scores are all identical",
+        "Scores are widely spread around the mean",
+        "Scores are clustered closely around the mean",
+        "The mean is 5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A standard deviation of 5 indicates that the scores are widely spread around the mean"
+    },
+    {
+      "question": "Which of the following is NOT a measure of central tendency?",
+      "options": [
         "Mean",
-        "Correlation coefficient"
+        "Median",
+        "Mode",
+        "Standard deviation"
       ],
-      "correctAnswer": 2,
-      "explanation": "The mean is a measure of central tendency that represents the average of a data set"
+      "correctAnswer": 3,
+      "explanation": "Standard deviation is a measure of dispersion, not a measure of central tendency"
     },
     {
-      "question": "If a researcher finds a correlation coefficient of -0.85 between two variables, what does this indicate?",
+      "question": "In a study, participants' responses were coded into themes for analysis. This method is known as:?",
       "options": [
-        "A strong positive correlation",
-        "A weak positive correlation",
-        "A strong negative correlation",
-        "No correlation"
+        "Content analysis",
+        "Quantitative analysis",
+        "Statistical testing",
+        "Experimental design"
       ],
-      "correctAnswer": 2,
-      "explanation": "A correlation coefficient of -0.85 indicates a strong negative correlation between the two variables"
+      "correctAnswer": 0,
+      "explanation": "Coding responses into themes is a key feature of content analysis"
     },
     {
-      "question": "In a study, participants are asked to rate their satisfaction on a scale from 1 to 10. What level of measurement is this?",
+      "question": "A researcher finds a correlation coefficient of -0.85 between stress levels and academic performance. What does this indicate?",
       "options": [
-        "Nominal",
-        "Ordinal",
-        "Interval",
-        "Ratio"
+        "A strong positive relationship",
+        "A weak negative relationship",
+        "A strong negative relationship",
+        "No relationship"
       ],
       "correctAnswer": 2,
-      "explanation": "The satisfaction ratings are measured on an interval scale, as the differences between points are meaningful"
+      "explanation": "A correlation coefficient of -0.85 indicates a strong negative relationship between stress levels and academic performance"
     },
     {
-      "question": "A researcher conducts a meta-analysis on previous studies about anxiety treatment. What type of data is primarily used in this analysis?",
+      "question": "What is a limitation of using secondary data in psychological research?",
       "options": [
-        "Primary data",
+        "It is always qualitative",
+        "It may not be relevant to the current study",
+        "It is more expensive to obtain",
+        "It is less reliable than primary data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secondary data may not be relevant to the current study, affecting its applicability. This corresponds to: It may not be relevant to the current study."
+    },
+    {
+      "question": "When conducting a sign test, what type of data is required?",
+      "options": [
         "Qualitative data",
-        "Quantitative data",
-        "Descriptive data"
+        "Nominal data",
+        "Ordinal data",
+        "Interval data"
       ],
       "correctAnswer": 2,
-      "explanation": "Meta-analysis primarily uses quantitative data collected from various studies to draw broader conclusions"
+      "explanation": "The sign test is used with ordinal data to determine differences between two related samples"
     },
     {
-      "question": "A researcher calculates the mean score of a group of participants who completed a test. If the mean is significantly affected by an outlier, what does this suggest about the data?",
+      "question": "In a controlled observation, which of the following is a key feature?",
       "options": [
-        "The data is normally distributed.",
-        "The data may be skewed.",
-        "The data is reliable.",
-        "The data is valid."
+        "Participants are unaware they are being observed",
+        "The environment is manipulated by the researcher",
+        "Data is collected through self-report",
+        "The study is conducted in a natural setting"
       ],
       "correctAnswer": 1,
-      "explanation": "If the mean is significantly affected by an outlier, it suggests that the data may be skewed, impacting its normal distribution. This corresponds to: The data may be skewed.."
-    },
-    {
-      "question": "In a study comparing two teaching methods, the researcher uses a sign test to analyze the data. When is the sign test appropriate?",
-      "options": [
-        "When data is nominal",
-        "When data is ordinal",
-        "When data is interval",
-        "When data is ratio"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The sign test is appropriate for analyzing ordinal data, particularly when comparing two related samples. This corresponds to: When data is ordinal."
-    },
-    {
-      "question": "What is a limitation of using secondary data in research?",
-      "options": [
-        "It is always qualitative.",
-        "It may not be relevant to the current study.",
-        "It is more expensive to collect.",
-        "It is less reliable than primary data."
-      ],
-      "correctAnswer": 1,
-      "explanation": "A limitation of using secondary data is that it may not be relevant to the current study, affecting the validity of the findings. This corresponds to: It may not be relevant to the current study.."
-    },
-    {
-      "question": "Which of the following best describes a normal distribution?",
-      "options": [
-        "It has a skewed shape.",
-        "It is symmetrical around the mean.",
-        "It has multiple peaks.",
-        "It is always positively skewed."
-      ],
-      "correctAnswer": 1,
-      "explanation": "A normal distribution is symmetrical around the mean, with most data points clustering around the center. This corresponds to: It is symmetrical around the mean.."
+      "explanation": "In controlled observations, the researcher manipulates the environment to observe effects on behavior. This corresponds to: The environment is manipulated by the researcher."
     }
   ]
 }

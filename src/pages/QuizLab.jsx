@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { useAIService } from '../hooks/useAIService';
 import { useVaultService } from '../hooks/useVaultService';
 import psychologyTopics from '../psychologyTopics';
+import { topicData as rsTopicsAll } from '../topicData';
 import { getSelectedCurriculum } from '../config/curricula';
 
 export default function QuizLab({ onBack }) {
@@ -12,10 +13,11 @@ export default function QuizLab({ onBack }) {
   const [statuses, setStatuses] = useState({});
   const { callAIJsonOnly } = useAIService();
   const { createVaultPrompt } = useVaultService();
-  const topicEntries = useMemo(() => Object.entries(psychologyTopics), []);
-  const [topicId, setTopicId] = useState(topicEntries[0]?.[0] || 'memory');
-  const [subId, setSubId] = useState(psychologyTopics[topicEntries[0]?.[0] || 'memory']?.subTopics?.[0]?.id || '');
   const curr = useMemo(() => (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych', []);
+  const topicsSrc = useMemo(() => (curr === 'ocr-rs' ? rsTopicsAll : psychologyTopics), [curr]);
+  const topicEntries = useMemo(() => Object.entries(topicsSrc), [topicsSrc]);
+  const [topicId, setTopicId] = useState(topicEntries[0]?.[0] || Object.keys(topicsSrc)[0]);
+  const [subId, setSubId] = useState(topicsSrc[topicEntries[0]?.[0] || Object.keys(topicsSrc)[0]]?.subTopics?.[0]?.id || '');
 
   const unifiedPrompt = (topicTitle, subTitle) => `You are an expert AQA/OCR examiner generating multiple-choice questions.
 
@@ -119,8 +121,8 @@ Return ONLY this JSON:
       const topicTitle = t?.title || 'Approaches in Psychology';
       const subTitle = s?.title || 'Social Learning Theory (Bandura)';
       const base = unifiedPrompt(topicTitle, subTitle);
-      const withVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
-      const resp = await callAIJsonOnly(withVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const prompt = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
+      const resp = await callAIJsonOnly(prompt, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       setRaw(resp);
       const json = extractFirstJson(resp);
       if (!json) throw new Error('No JSON in response');
@@ -155,21 +157,21 @@ Return ONLY this JSON:
     setLoading(true);
     setError('');
     try {
-      const t = psychologyTopics[topicId];
+      const t = topicsSrc[topicId];
       const s = t?.subTopics?.find(st => st.id === subId);
       const topicTitle = t?.title || '';
       const subTitle = s?.title || '';
       const base = unifiedPrompt(topicTitle, subTitle);
       // Generate Set A
-      const withVaultA = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
-      const rawA = await callAIJsonOnly(withVaultA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const promptA = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
+      const rawA = await callAIJsonOnly(promptA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       const jsonA = extractFirstJson(rawA);
       if (!jsonA) throw new Error('No JSON in Set A');
       const dataA = JSON.parse(jsonA);
       const itemsA = sanitize(dataA, subTitle);
       await saveBank('A', itemsA);
       // Generate Set B
-      const rawB = await callAIJsonOnly(withVaultA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const rawB = await callAIJsonOnly(promptA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       const jsonB = extractFirstJson(rawB);
       if (!jsonB) throw new Error('No JSON in Set B');
       const dataB = JSON.parse(jsonB);
@@ -217,7 +219,7 @@ Return ONLY this JSON:
     setLoading(true);
     setError('');
     try {
-      const entries = Object.entries(psychologyTopics);
+      const entries = Object.entries(topicsSrc);
       for (const [tid, t] of entries) {
         for (const st of (t.subTopics || [])) {
           // eslint-disable-next-line no-await-in-loop
@@ -225,7 +227,7 @@ Return ONLY this JSON:
           const topicTitle = t.title;
           const subTitle = st.title;
           const base = unifiedPrompt(topicTitle, subTitle);
-          const promptWithVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
+          const promptWithVault = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
           // Set A
           // eslint-disable-next-line no-await-in-loop
           const rawA = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));

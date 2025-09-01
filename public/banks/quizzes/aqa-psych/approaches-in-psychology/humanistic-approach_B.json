@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:01:03.313Z",
+  "savedAt": "2025-09-01T12:40:48.877Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "humanistic-approach",
   "set": "B",
   "questions": [
     {
-      "question": "According to Maslow's hierarchy of needs, which of the following needs must be met first before self-actualisation can be pursued?",
+      "question": "What is the highest level of Maslow's hierarchy of needs?",
       "options": [
-        "Self-esteem needs",
-        "Love and belongingness needs",
-        "Physiological needs",
-        "Safety and security needs"
+        "Self-esteem",
+        "Safety and security",
+        "Self-actualisation",
+        "Love and belongingness"
       ],
       "correctAnswer": 2,
-      "explanation": "Maslow's hierarchy states that physiological needs are the most basic and must be satisfied before higher-level needs can be addressed"
+      "explanation": "Self-actualisation represents the uppermost level of Maslow's hierarchy of needs"
     },
     {
-      "question": "Carl Rogers emphasized the importance of which concept in achieving personal growth?",
+      "question": "According to Rogers, what is necessary for personal growth to occur?",
       "options": [
-        "Self-actualisation",
-        "Conditions of worth",
-        "Defence mechanisms",
-        "Unconditional positive regard"
+        "Unconditional positive regard",
+        "Conditional positive regard",
+        "Self-esteem",
+        "Self-actualisation"
       ],
-      "correctAnswer": 3,
-      "explanation": "Rogers believed that unconditional positive regard is essential for individuals to overcome barriers to self-actualisation"
+      "correctAnswer": 0,
+      "explanation": "Rogers argued that unconditional positive regard is essential for personal growth and reducing incongruence"
     },
     {
-      "question": "In a scenario where a child feels loved only when they achieve good grades, this reflects which of Rogers' concepts?",
+      "question": "If a person experiences a significant gap between their ideal self and their actual self, what state do they experience?",
       "options": [
-        "Self-actualisation",
         "Congruence",
+        "Self-actualisation",
+        "Incongruence",
+        "Self-esteem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A significant gap between the ideal self and actual self leads to a state of incongruence"
+    },
+    {
+      "question": "A child feels loved only when they achieve good grades. This is an example of what concept in Rogers' theory?",
+      "options": [
+        "Unconditional positive regard",
+        "Self-actualisation",
         "Conditions of worth",
-        "Peak experiences"
+        "Congruence"
       ],
       "correctAnswer": 2,
       "explanation": "This scenario illustrates conditions of worth, where love is contingent upon meeting certain expectations"
     },
     {
-      "question": "What is the primary focus of the humanistic approach in psychology?",
+      "question": "What does the humanistic approach emphasize in contrast to the psychodynamic approach?",
       "options": [
-        "Unconscious motivations",
-        "Biological influences",
-        "Free will and personal growth",
-        "Cognitive processes"
+        "Determinism",
+        "Free will",
+        "Unconscious processes",
+        "Biological influences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The humanistic approach emphasizes free will, while the psychodynamic approach suggests behavior is determined by unconscious factors"
+    },
+    {
+      "question": "In what way does the humanistic approach differ from other psychological approaches regarding human behavior?",
+      "options": [
+        "It is entirely deterministic",
+        "It focuses on unconscious motives",
+        "It emphasizes self-determination",
+        "It relies on experimental methods"
       ],
       "correctAnswer": 2,
-      "explanation": "The humanistic approach emphasizes free will and the potential for personal growth and self-actualisation. This corresponds to: Free will and personal growth."
+      "explanation": "The humanistic approach emphasizes self-determination and free will, contrasting with more deterministic approaches. This corresponds to: It emphasizes self-determination."
     },
     {
-      "question": "Which of the following best describes the state of congruence according to Rogers?",
+      "question": "What is a key criticism of the humanistic approach regarding its research methods?",
       "options": [
-        "A gap between ideal self and actual self",
-        "A perfect alignment of self-concept and ideal self",
-        "The presence of conditions of worth",
-        "The absence of psychological barriers"
+        "It relies heavily on experimental testing",
+        "It uses case studies and lacks scientific rigor",
+        "It focuses too much on biological factors",
+        "It ignores the role of cognition"
       ],
       "correctAnswer": 1,
-      "explanation": "Congruence occurs when there is alignment between an individual's self-concept and their ideal self. This corresponds to: A perfect alignment of self-concept and ideal self."
+      "explanation": "A key criticism is that the humanistic approach relies on case studies, which do not allow for establishing cause and effect. This corresponds to: It uses case studies and lacks scientific rigor."
     },
     {
-      "question": "A client in therapy expresses feelings of worthlessness due to their upbringing. Which therapeutic approach would best address this issue?",
+      "question": "Which of the following best describes self-actualisation according to Maslow?",
       "options": [
-        "Cognitive-behavioural therapy",
-        "Psychoanalysis",
-        "Client-centred therapy",
-        "Behavioural therapy"
+        "Achieving basic physiological needs",
+        "Realizing one's full potential",
+        "Gaining social acceptance",
+        "Developing self-esteem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-actualisation is defined as realizing one's full potential and is the highest level in Maslow's hierarchy"
+    },
+    {
+      "question": "What role does 'congruence' play in Rogers' theory?",
+      "options": [
+        "It leads to conditions of worth",
+        "It is essential for self-actualisation",
+        "It is a sign of low self-esteem",
+        "It indicates a lack of personal growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Congruence between the self-concept and ideal self is essential for achieving self-actualisation. This corresponds to: It is essential for self-actualisation."
+    },
+    {
+      "question": "How does the humanistic approach view the influence of external factors on behavior?",
+      "options": [
+        "It denies any influence",
+        "It sees them as the sole determinants",
+        "It acknowledges them but emphasizes free will",
+        "It considers them irrelevant"
       ],
       "correctAnswer": 2,
-      "explanation": "Client-centred therapy focuses on providing unconditional positive regard to help clients overcome feelings of worthlessness"
-    },
-    {
-      "question": "One criticism of the humanistic approach is that it relies heavily on which type of research method?",
-      "options": [
-        "Experimental studies",
-        "Case studies",
-        "Surveys",
-        "Longitudinal studies"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The humanistic approach often uses case studies, which can limit the ability to establish cause-and-effect relationships"
-    },
-    {
-      "question": "Which of the following statements reflects a key difference between the humanistic and psychodynamic approaches?",
-      "options": [
-        "Both approaches emphasize free will.",
-        "The humanistic approach is more deterministic.",
-        "The psychodynamic approach focuses on unconscious processes.",
-        "Both approaches rely on experimental methods."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The psychodynamic approach emphasizes unconscious processes, while the humanistic approach advocates for free will. This corresponds to: The psychodynamic approach focuses on unconscious processes.."
-    },
-    {
-      "question": "According to Rogers, what is the role of the therapist in client-centred therapy?",
-      "options": [
-        "To analyze unconscious conflicts",
-        "To provide unconditional positive regard",
-        "To reinforce conditions of worth",
-        "To direct the client's thoughts"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Rogers believed that therapists should provide unconditional positive regard to facilitate client growth. This corresponds to: To provide unconditional positive regard."
-    },
-    {
-      "question": "What is the ultimate goal of self-actualisation as described by Maslow?",
-      "options": [
-        "To achieve personal satisfaction",
-        "To fulfill one's potential",
-        "To gain social acceptance",
-        "To meet basic needs"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Self-actualisation represents the fulfillment of one's potential and is the highest level in Maslow's hierarchy of needs. This corresponds to: To fulfill one's potential."
+      "explanation": "The humanistic approach acknowledges external influences but emphasizes that individuals have the free will to choose their responses. This corresponds to: It acknowledges them but emphasizes free will."
     }
   ]
 }

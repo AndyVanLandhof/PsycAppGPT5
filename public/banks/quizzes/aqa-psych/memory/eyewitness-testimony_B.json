@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:26:47.678Z",
+  "savedAt": "2025-09-01T12:11:29.957Z",
   "curriculum": "aqa-psych",
   "topicId": "memory",
   "subId": "eyewitness-testimony",
@@ -10,111 +10,111 @@
       "question": "What did Loftus and Palmer (1974) find regarding the impact of leading questions on eyewitness testimony?",
       "options": [
         "Participants estimated higher speeds with the word 'smashed'",
-        "Participants recalled more details with 'hit'",
-        "Participants were unaffected by question wording",
-        "Participants remembered fewer details with 'smashed'"
+        "Participants recalled more details with the word 'contacted'",
+        "Participants were less confident with leading questions",
+        "Participants showed no difference in speed estimates"
       ],
       "correctAnswer": 0,
-      "explanation": "The study found that the wording of leading questions influenced participants' speed estimates, with 'smashed' leading to higher estimates. This corresponds to: Participants estimated higher speeds with the word 'smashed'."
+      "explanation": "Loftus and Palmer found that the wording of leading questions significantly influenced participants' speed estimates, with 'smashed' leading to higher estimates. This corresponds to: Participants estimated higher speeds with the word 'smashed'."
     },
     {
-      "question": "In the context of eyewitness testimony, what is a leading question?",
+      "question": "In a study on eyewitness testimony, participants who were asked if they saw broken glass after being exposed to a car crash video were influenced by which factor?",
       "options": [
-        "A question that provides no context",
-        "A question that suggests a desired answer",
-        "A question that is open-ended",
-        "A question that is irrelevant to the event"
+        "The clarity of the video",
+        "The type of question asked",
+        "The time elapsed since the event",
+        "The number of witnesses present"
       ],
       "correctAnswer": 1,
-      "explanation": "A leading question is one that suggests to the witness what answer is desired or leads them to a specific answer. This corresponds to: A question that suggests a desired answer."
+      "explanation": "The type of question asked influenced participants' recollection, demonstrating how leading questions can alter memory"
     },
     {
-      "question": "How does post-event discussion potentially affect eyewitness testimony?",
+      "question": "How can post-event discussion affect eyewitness testimony?",
       "options": [
-        "It clarifies the witness's memory",
+        "It enhances memory recall",
         "It can contaminate a witness's memory",
-        "It has no effect on memory accuracy",
-        "It improves recall of details"
+        "It has no effect on memory",
+        "It improves the accuracy of details"
       ],
       "correctAnswer": 1,
-      "explanation": "Post-event discussion can lead to the contamination of a witness's memory for the event. This corresponds to: It can contaminate a witness's memory."
-    },
-    {
-      "question": "A study found that participants who viewed a car crash video and were asked leading questions later reported seeing broken glass. What does this illustrate about eyewitness testimony?",
-      "options": [
-        "The reliability of eyewitness memory",
-        "The effect of misleading information",
-        "The accuracy of recall under stress",
-        "The impact of physiological arousal"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This illustrates how misleading information can alter a witness's memory of an event. This corresponds to: The effect of misleading information."
+      "explanation": "Post-event discussion can lead to the incorporation of misleading information, contaminating the eyewitness's original memory. This corresponds to: It can contaminate a witness's memory."
     },
     {
       "question": "What is one methodological issue with Loftus and Palmer's (1974) study on leading questions?",
       "options": [
         "Participants were not matched for age",
         "The study lacked ecological validity",
-        "Participants were not debriefed",
-        "The sample size was too small"
+        "The sample size was too small",
+        "Participants were not debriefed"
       ],
       "correctAnswer": 1,
-      "explanation": "Viewing a car crash on video is less emotionally stimulating than experiencing a real crash, affecting ecological validity. This corresponds to: The study lacked ecological validity."
+      "explanation": "The study used a video of a car crash, which may not evoke the same emotional response as witnessing a real accident, affecting ecological validity. This corresponds to: The study lacked ecological validity."
     },
     {
       "question": "What is the cognitive interview designed to improve?",
       "options": [
-        "The accuracy of police reports",
-        "The effectiveness of police questioning",
-        "The reliability of eyewitness memory",
-        "The speed of police investigations"
+        "The reliability of eyewitness testimony",
+        "The speed of police interviews",
+        "The number of witnesses interviewed",
+        "The accuracy of police reports"
       ],
-      "correctAnswer": 1,
-      "explanation": "The cognitive interview is designed to improve the effectiveness of police interviewers when questioning witnesses. This corresponds to: The effectiveness of police questioning."
+      "correctAnswer": 0,
+      "explanation": "The cognitive interview is specifically designed to enhance the reliability and accuracy of eyewitness testimony. This corresponds to: The reliability of eyewitness testimony."
     },
     {
-      "question": "In a scenario where a witness discusses an event with others after it occurred, what is this phenomenon called?",
+      "question": "Which technique is NOT part of the cognitive interview?",
       "options": [
-        "Leading question",
-        "Post-event discussion",
-        "Cognitive interview",
-        "Misleading information"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This phenomenon is known as post-event discussion, which can affect the accuracy of eyewitness testimony"
-    },
-    {
-      "question": "What is one technique used in the cognitive interview to enhance recall?",
-      "options": [
-        "Encouraging witnesses to forget irrelevant details",
-        "Asking leading questions",
         "Changing perspective",
-        "Using closed questions"
+        "Report everything",
+        "Leading questions",
+        "Reinstating the context"
       ],
       "correctAnswer": 2,
-      "explanation": "Changing perspective encourages the interviewee to recall the event from different viewpoints, enhancing memory retrieval"
+      "explanation": "Leading questions are not part of the cognitive interview; instead, techniques aim to facilitate accurate recall"
     },
     {
-      "question": "What did research indicate about the long-term effects of leading questions on eyewitness testimony?",
+      "question": "In the context of eyewitness testimony, what does the term 'misleading information' refer to?",
       "options": [
-        "They have no long-term effects",
-        "They can alter memories over time",
-        "They only affect immediate recall",
-        "They improve memory accuracy"
+        "Accurate details provided by witnesses",
+        "Information that alters a witness's memory",
+        "The original memory of the event",
+        "The emotional state of the witness"
       ],
       "correctAnswer": 1,
-      "explanation": "Research suggests that leading questions may have a long-term effect on the accuracy of eyewitness testimony. This corresponds to: They can alter memories over time."
+      "explanation": "Misleading information refers to details that can distort a witness's memory of the event. This corresponds to: Information that alters a witness's memory."
     },
     {
-      "question": "What is a significant finding regarding the reliability of eyewitness testimony according to the Innocence Project?",
+      "question": "What was a key finding from the research on anxiety and eyewitness testimony?",
       "options": [
-        "Most eyewitnesses are accurate",
-        "72% of DNA exonerations involved inaccurate eyewitness testimony",
-        "Eyewitnesses always remember details correctly",
-        "Witnesses are more reliable under stress"
+        "Anxiety always improves memory recall",
+        "Anxiety has no effect on memory",
+        "High anxiety can impair memory accuracy",
+        "Anxiety only affects children’s memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Research indicates that high levels of anxiety can negatively impact the accuracy of eyewitness memory. This corresponds to: High anxiety can impair memory accuracy."
+    },
+    {
+      "question": "What is one criticism of the cognitive interview technique?",
+      "options": [
+        "It is too time-consuming",
+        "It is not based on psychological research",
+        "It increases the number of false memories",
+        "It is only effective for children"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One criticism of the cognitive interview is that it can be time-consuming, which may limit its practicality in real-world situations. This corresponds to: It is too time-consuming."
+    },
+    {
+      "question": "How does the Innocence Project highlight the importance of accurate eyewitness testimony?",
+      "options": [
+        "By claiming that 50% of convictions are based on eyewitness testimony",
+        "By showing that 72% of DNA exonerations involved inaccurate eyewitness testimony",
+        "By stating that eyewitness testimony is always reliable",
+        "By emphasizing the role of leading questions in trials"
       ],
       "correctAnswer": 1,
-      "explanation": "The Innocence Project claims that 72% of convictions overturned by DNA testing involved inaccurate eyewitness testimony. This corresponds to: 72% of DNA exonerations involved inaccurate eyewitness testimony."
+      "explanation": "The Innocence Project claims that a significant percentage of wrongful convictions overturned by DNA testing involved inaccurate eyewitness testimony. This corresponds to: By showing that 72% of DNA exonerations involved inaccurate eyewitness testimony."
     }
   ]
 }

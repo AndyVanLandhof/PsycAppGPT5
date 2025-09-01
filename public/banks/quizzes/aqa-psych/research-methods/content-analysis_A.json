@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:08:24.887Z",
+  "savedAt": "2025-09-01T13:07:25.486Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "content-analysis",
@@ -15,106 +15,106 @@
         "To gather quantitative data"
       ],
       "correctAnswer": 1,
-      "explanation": "Content analysis involves analyzing materials produced by people, such as books and advertisements, to draw conclusions about their content. This corresponds to: To analyze the content of artifacts."
+      "explanation": "Content analysis is used to analyze the content of artifacts such as books, songs, and advertisements"
     },
     {
-      "question": "In a content analysis of magazine advertisements, which of the following would be an appropriate sampling method?",
+      "question": "In a content analysis of magazine advertisements, which of the following would be an example of a behavioral category?",
       "options": [
-        "Random sampling of participants",
-        "Time sampling of advertisements",
-        "Stratified sampling of viewers",
-        "Event sampling of interviews"
+        "The number of advertisements",
+        "The type of products advertised",
+        "The age of the audience",
+        "The color scheme used"
       ],
       "correctAnswer": 1,
-      "explanation": "Time sampling involves selecting advertisements at specific intervals, which is relevant for analyzing their content systematically. This corresponds to: Time sampling of advertisements."
+      "explanation": "Behavioral categories in content analysis help categorize the type of content, such as the type of products advertised"
     },
     {
-      "question": "Which of the following is a potential limitation of content analysis?",
+      "question": "When conducting a content analysis, what is a key methodological decision regarding data collection?",
       "options": [
-        "It provides rich qualitative data",
-        "It is time-consuming",
-        "It allows for direct observation of behavior",
-        "It ensures high inter-observer reliability"
+        "Choosing a random sample of participants",
+        "Deciding on the sampling method for materials",
+        "Using only qualitative data",
+        "Limiting the analysis to one type of artifact"
       ],
       "correctAnswer": 1,
-      "explanation": "Content analysis can be time-consuming as it requires examining and re-examining large amounts of data to identify themes. This corresponds to: It is time-consuming."
+      "explanation": "Researchers must decide on the sampling method for materials, such as time sampling or event sampling. This corresponds to: Deciding on the sampling method for materials."
     },
     {
-      "question": "When conducting a thematic analysis, what is the first step a researcher should take?",
+      "question": "A researcher conducts a content analysis of children's television programs and identifies themes related to gender representation. What is a potential issue with this analysis?",
       "options": [
-        "Identify categories",
-        "Read the transcripts",
-        "Count the frequency of themes",
-        "Develop coding units"
+        "It cannot be replicated",
+        "It may suffer from observer bias",
+        "It lacks qualitative data",
+        "It is too simplistic"
       ],
       "correctAnswer": 1,
-      "explanation": "The first step in thematic analysis is to read the transcripts to understand the data before identifying themes"
+      "explanation": "Observer bias may affect the interpretation of themes, as different observers might interpret categories differently. This corresponds to: It may suffer from observer bias."
     },
     {
-      "question": "What is a key difference between content analysis and thematic analysis?",
-      "options": [
-        "Content analysis focuses on quantitative data, while thematic analysis focuses on qualitative data",
-        "Thematic analysis is less time-consuming than content analysis",
-        "Content analysis does not require coding",
-        "Thematic analysis uses predetermined categories"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Content analysis often involves quantifying data, while thematic analysis aims to identify qualitative themes without predetermined categories. This corresponds to: Content analysis focuses on quantitative data, while thematic analysis focuses on qualitative data."
-    },
-    {
-      "question": "In a content analysis of songs, which of the following could be a behavioral category?",
-      "options": [
-        "Romantic",
-        "Melodic",
-        "Popular",
-        "Length"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Behavioral categories in content analysis of songs could include themes like 'romantic', which helps categorize the content systematically"
-    },
-    {
-      "question": "What methodological issue can affect the reliability of content analysis?",
-      "options": [
-        "Observer bias",
-        "Lack of qualitative data",
-        "Limited sample size",
-        "Inability to categorize themes"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Observer bias can affect content analysis as different researchers may interpret behavioral categories differently based on their backgrounds"
-    },
-    {
-      "question": "In a study analyzing family involvement in adolescents' school experiences, what type of analysis was used?",
+      "question": "In a study analyzing the representation of mental health in newspapers, researchers find themes such as 'stereotyping' and 'control'. What does this exemplify?",
       "options": [
         "Quantitative analysis",
-        "Content analysis",
-        "Experimental analysis",
-        "Survey analysis"
+        "Thematic analysis",
+        "Experimental design",
+        "Case study methodology"
       ],
       "correctAnswer": 1,
-      "explanation": "The study by Joronen and Astedt-Kurki used qualitative content analysis to examine the role of family in adolescents' experiences"
+      "explanation": "This exemplifies thematic analysis, where themes are identified and described rather than counted"
     },
     {
-      "question": "Which of the following best describes the outcome of thematic analysis?",
+      "question": "Which of the following best describes a limitation of content analysis?",
       "options": [
-        "Quantitative data",
-        "Emergent themes",
-        "Statistical significance",
-        "Direct observations"
+        "It is time-consuming",
+        "It provides rich qualitative data",
+        "It allows for direct observation",
+        "It is always reliable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Content analysis can be time-consuming, especially when examining large amounts of data for themes. This corresponds to: It is time-consuming."
+    },
+    {
+      "question": "What is a significant difference between content analysis and thematic analysis?",
+      "options": [
+        "Content analysis is qualitative, while thematic analysis is quantitative",
+        "Thematic analysis focuses on emergent themes rather than predetermined categories",
+        "Content analysis is less time-consuming than thematic analysis",
+        "Thematic analysis is only used for visual data"
       ],
       "correctAnswer": 1,
-      "explanation": "Thematic analysis aims to identify emergent themes from qualitative data, summarizing the findings in a descriptive manner"
+      "explanation": "Thematic analysis focuses on emergent themes rather than using predetermined categories, which is a key difference from content analysis. This corresponds to: Thematic analysis focuses on emergent themes rather than predetermined categories."
     },
     {
-      "question": "What is a common criticism of content analysis regarding the data it produces?",
+      "question": "In a content analysis of interview transcripts about children's anxiety, what is the first step a researcher should take?",
       "options": [
-        "It is too detailed",
+        "Identify potential categories",
+        "Read the transcripts",
+        "Tally the number of examples",
+        "Develop themes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step is to read the transcripts to understand the content before identifying potential categories"
+    },
+    {
+      "question": "What is a potential drawback of using content analysis to study media representations?",
+      "options": [
+        "It is too subjective",
         "It lacks inter-observer reliability",
-        "It oversimplifies rich qualitative data",
-        "It is not publicly available"
+        "It may impose meaning on behaviors",
+        "It cannot be used for qualitative data"
       ],
       "correctAnswer": 2,
-      "explanation": "Content analysis can oversimplify rich qualitative data, losing its detailed descriptive flavor in the process of categorization. This corresponds to: It oversimplifies rich qualitative data."
+      "explanation": "Content analysis may impose meaning on behaviors, which can lead to a lack of validity in representing people's understanding. This corresponds to: It may impose meaning on behaviors."
+    },
+    {
+      "question": "In a content analysis, what does the term 'coding categories' refer to?",
+      "options": [
+        "The methods used to collect data",
+        "The themes identified in the analysis",
+        "The specific criteria used to categorize data",
+        "The number of artifacts analyzed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coding categories are the specific criteria used to categorize data in a content analysis"
     }
   ]
 }

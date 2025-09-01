@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:59:26.913Z",
+  "savedAt": "2025-09-01T12:35:36.654Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "cognitive-neuroscience",
@@ -18,7 +18,18 @@
       "explanation": "Broca's Area is located in the frontal lobe and is crucial for speech production"
     },
     {
-      "question": "What technique has allowed researchers to observe brain activity during cognitive tasks, such as those involving episodic and semantic memory?",
+      "question": "In the study by Tulving et al. (1994), which types of long-term memory were found to be located on opposite sides of the prefrontal cortex?",
+      "options": [
+        "Episodic and Procedural",
+        "Semantic and Procedural",
+        "Episodic and Semantic",
+        "Declarative and Non-declarative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tulving et al. demonstrated that episodic and semantic memories are processed in different areas of the prefrontal cortex"
+    },
+    {
+      "question": "What technique has allowed researchers to observe the neurological basis of mental processes in living brains?",
       "options": [
         "CT scans",
         "fMRI",
@@ -26,95 +37,84 @@
         "X-rays"
       ],
       "correctAnswer": 1,
-      "explanation": "Functional magnetic resonance imaging (fMRI) enables the observation of brain activity during specific tasks"
+      "explanation": "Functional Magnetic Resonance Imaging (fMRI) is a non-invasive technique used to study brain activity"
     },
     {
-      "question": "In a study by Tulving et al. (1994), which two types of long-term memory were found to be located on opposite sides of the prefrontal cortex?",
-      "options": [
-        "Episodic and procedural",
-        "Semantic and procedural",
-        "Episodic and semantic",
-        "Declarative and non-declarative"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Tulving et al. identified that episodic and semantic memories are processed in different areas of the prefrontal cortex"
-    },
-    {
-      "question": "Burnett et al. (2009) found that feelings of guilt activate which brain region associated with social emotions?",
+      "question": "Burnett et al. (2009) found that which brain region is active when people feel guilt?",
       "options": [
         "Amygdala",
         "Medial prefrontal cortex",
         "Hippocampus",
-        "Cerebellum"
+        "Occipital lobe"
       ],
       "correctAnswer": 1,
-      "explanation": "The medial prefrontal cortex is activated when individuals experience feelings of guilt"
+      "explanation": "The medial prefrontal cortex is associated with social emotions, including guilt"
     },
     {
-      "question": "A researcher uses fMRI to study the brain activity of participants while they perform a memory task. This method exemplifies which aspect of cognitive neuroscience?",
-      "options": [
-        "Cognitive modeling",
-        "Neuroimaging techniques",
-        "Behavioral observation",
-        "Case studies"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The use of fMRI is a neuroimaging technique that allows for the observation of brain activity during cognitive tasks. This corresponds to: Neuroimaging techniques."
-    },
-    {
-      "question": "A psychologist is examining the neurological basis of OCD and finds a link to the parahippocampal gyrus. This illustrates the application of cognitive neuroscience in understanding which aspect?",
-      "options": [
-        "Memory processing",
-        "Emotional regulation",
-        "Mental disorders",
-        "Social behavior"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The parahippocampal gyrus's link to OCD demonstrates how cognitive neuroscience can help understand mental disorders"
-    },
-    {
-      "question": "One limitation of using neuroimaging techniques like fMRI is that they can be expensive and require specialized equipment. This raises concerns about which methodological issue?",
-      "options": [
-        "Sample size",
-        "Generalizability",
-        "Ecological validity",
-        "Cost-effectiveness"
-      ],
-      "correctAnswer": 3,
-      "explanation": "The high cost and need for specialized equipment can limit the accessibility and generalizability of findings from neuroimaging studies. This corresponds to: Cost-effectiveness."
-    },
-    {
-      "question": "Cognitive neuroscience combines cognitive psychology with which other field to enhance the scientific basis of studying mental processes?",
+      "question": "Cognitive neuroscience combines cognitive psychology with which other field to enhance the scientific basis of study?",
       "options": [
         "Sociology",
         "Biology",
-        "Philosophy",
-        "Anthropology"
+        "Anthropology",
+        "Philosophy"
       ],
       "correctAnswer": 1,
-      "explanation": "Cognitive neuroscience merges cognitive psychology with biology to study the neural bases of cognitive functions"
+      "explanation": "Cognitive neuroscience merges cognitive psychology with biological principles to study mental processes. This corresponds to: Biology."
     },
     {
-      "question": "The development of 'brain fingerprinting' techniques aims to analyze brain wave patterns for what potential application?",
+      "question": "A researcher is studying the effects of brain damage on memory. They find that damage to the parahippocampal gyrus is linked to which mental disorder?",
       "options": [
-        "Detecting mental disorders",
-        "Improving memory recall",
-        "Determining truthfulness in eyewitnesses",
-        "Enhancing cognitive therapies"
+        "Anxiety",
+        "OCD",
+        "Depression",
+        "Schizophrenia"
       ],
-      "correctAnswer": 2,
-      "explanation": "Brain fingerprinting could be used to analyze brain wave patterns of eyewitnesses to assess their truthfulness in court. This corresponds to: Determining truthfulness in eyewitnesses."
+      "correctAnswer": 1,
+      "explanation": "The parahippocampal gyrus has been linked to the processing of unpleasant emotions, relevant to OCD"
     },
     {
-      "question": "The emergence of cognitive neuroscience has provided a credible scientific basis for the study of the mind. What does this imply about the methods used in this field?",
+      "question": "In a study assessing coping strategies, men were found to use which approach more frequently than women?",
       "options": [
-        "They are primarily qualitative.",
-        "They rely on subjective interpretations.",
-        "They produce reliable, objective data.",
-        "They focus on historical case studies."
+        "Emotion-focused coping",
+        "Avoidance tactics",
+        "Problem-focused coping",
+        "Cognitive appraisal"
       ],
       "correctAnswer": 2,
-      "explanation": "Cognitive neuroscience employs methods that yield reliable and objective data, enhancing the scientific credibility of psychological research. This corresponds to: They produce reliable, objective data.."
+      "explanation": "Research indicates that men are more likely to engage in problem-focused coping strategies"
+    },
+    {
+      "question": "What is a potential limitation of drug therapy for coping with stress, as noted in the literature?",
+      "options": [
+        "It is ineffective for all patients",
+        "It can lead to dependency",
+        "It requires extensive training",
+        "It is only suitable for short-term use"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drug therapy can lead to dependency and has side effects, which limits its long-term effectiveness. This corresponds to: It can lead to dependency."
+    },
+    {
+      "question": "Which method of coping with stress involves tackling the root causes directly and practically?",
+      "options": [
+        "Emotion-focused coping",
+        "Avoidance",
+        "Problem-focused coping",
+        "Cognitive appraisal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Problem-focused coping aims to directly address the source of stress, contrasting with emotion-focused methods"
+    },
+    {
+      "question": "The emergence of cognitive neuroscience has been significantly aided by advances in which technology?",
+      "options": [
+        "Neurotransmitter analysis",
+        "Brain imaging techniques",
+        "Genetic testing",
+        "Psychometric assessments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Advancements in brain imaging techniques like fMRI and PET scans have allowed for detailed study of cognitive functions"
     }
   ]
 }

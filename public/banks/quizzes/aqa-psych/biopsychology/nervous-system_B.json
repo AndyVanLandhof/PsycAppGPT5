@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:02:16.835Z",
+  "savedAt": "2025-09-01T12:42:07.903Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "nervous-system",
   "set": "B",
   "questions": [
     {
-      "question": "Which division of the nervous system is responsible for transmitting information from the CNS to muscles and glands?",
+      "question": "Which division of the nervous system is responsible for voluntary muscle movements?",
       "options": [
         "Central nervous system",
         "Peripheral nervous system",
         "Somatic nervous system",
         "Autonomic nervous system"
       ],
-      "correctAnswer": 1,
-      "explanation": "The peripheral nervous system relays nerve impulses from the CNS to the rest of the body"
+      "correctAnswer": 2,
+      "explanation": "The somatic nervous system transmits information from the CNS to muscles, enabling voluntary movements"
     },
     {
-      "question": "In a scenario where a person is startled by a loud noise, which part of the nervous system is primarily activated to prepare the body for a 'fight or flight' response?",
+      "question": "In a scenario where a person encounters a bear, which division of the nervous system is activated to prepare the body for a fight-or-flight response?",
       "options": [
         "Somatic nervous system",
         "Parasympathetic nervous system",
@@ -26,7 +26,7 @@
         "Central nervous system"
       ],
       "correctAnswer": 2,
-      "explanation": "The sympathetic nervous system is responsible for the immediate physiological changes associated with the fight or flight response"
+      "explanation": "The sympathetic nervous system is responsible for the fight-or-flight response, increasing heart rate and blood pressure"
     },
     {
       "question": "What is the primary function of the autonomic nervous system?",
@@ -34,87 +34,87 @@
         "Control voluntary movements",
         "Regulate involuntary bodily functions",
         "Process sensory information",
-        "Transmit signals to the brain"
+        "Transmit messages to the brain"
       ],
       "correctAnswer": 1,
-      "explanation": "The autonomic nervous system operates involuntarily, regulating internal bodily organs. This corresponds to: Regulate involuntary bodily functions."
+      "explanation": "The autonomic nervous system regulates involuntary bodily functions, such as heart rate and digestion. This corresponds to: Regulate involuntary bodily functions."
     },
     {
-      "question": "Which branch of the autonomic nervous system is responsible for calming the body after a stress response?",
+      "question": "Which part of the nervous system is primarily involved in relaying information from the body to the brain?",
+      "options": [
+        "Somatic nervous system",
+        "Central nervous system",
+        "Autonomic nervous system",
+        "Peripheral nervous system"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The peripheral nervous system relays nerve impulses from the body to the CNS and vice versa"
+    },
+    {
+      "question": "If a person is experiencing chronic stress, which system is activated after the initial fight-or-flight response?",
       "options": [
         "Sympathetic nervous system",
-        "Somatic nervous system",
         "Parasympathetic nervous system",
+        "HPA axis",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The HPA axis is activated in response to chronic stress, involving hormonal signals that sustain the stress response"
+    },
+    {
+      "question": "Which division of the nervous system is responsible for involuntary actions such as heart rate and digestion?",
+      "options": [
+        "Somatic nervous system",
+        "Central nervous system",
+        "Autonomic nervous system",
+        "Peripheral nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The autonomic nervous system controls involuntary bodily functions, including heart rate and digestion"
+    },
+    {
+      "question": "During a stressful event, which neurotransmitter is primarily involved in the fight-or-flight response?",
+      "options": [
+        "Dopamine",
+        "Serotonin",
+        "Adrenaline",
+        "Cortisol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adrenaline is released during the fight-or-flight response, preparing the body for immediate action"
+    },
+    {
+      "question": "In a study examining the effects of stress on the body, researchers found that prolonged activation of the sympathetic nervous system can lead to negative health outcomes. What is one potential negative effect?",
+      "options": [
+        "Increased energy",
+        "Lowered immune response",
+        "Improved cognitive performance",
+        "Enhanced digestion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prolonged activation of the sympathetic nervous system can impair immune response, leading to health issues. This corresponds to: Lowered immune response."
+    },
+    {
+      "question": "Which system is responsible for returning the body to a state of calm after a stress response?",
+      "options": [
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
+        "Somatic nervous system",
         "Central nervous system"
       ],
-      "correctAnswer": 2,
-      "explanation": "The parasympathetic nervous system dampens the stress response and helps the body return to a state of rest"
+      "correctAnswer": 1,
+      "explanation": "The parasympathetic nervous system helps to calm the body down after a stress response, reducing heart rate and blood pressure"
     },
     {
-      "question": "If a person experiences chronic stress, which system is activated after the initial fight or flight response subsides?",
+      "question": "What is a methodological issue in studying the effects of the autonomic nervous system on behavior?",
       "options": [
-        "HPA axis",
-        "Somatic nervous system",
-        "Sympathetic nervous system",
-        "Peripheral nervous system"
+        "Difficulty in measuring involuntary responses",
+        "Lack of control over environmental variables",
+        "Inability to replicate findings",
+        "Over-reliance on self-report measures"
       ],
       "correctAnswer": 0,
-      "explanation": "The HPA axis is activated to manage prolonged stress, involving hormonal signals from the hypothalamus, pituitary gland, and adrenal glands"
-    },
-    {
-      "question": "Which of the following statements about the central nervous system (CNS) is true?",
-      "options": [
-        "It includes the somatic nervous system",
-        "It is responsible for all complex commands and decisions",
-        "It operates involuntarily",
-        "It transmits information to and from internal organs"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The CNS, consisting of the brain and spinal cord, is the origin of all complex commands and decisions. This corresponds to: It is responsible for all complex commands and decisions."
-    },
-    {
-      "question": "In a study examining the effects of stress on the body, researchers found that the sympathetic nervous system increases heart rate. What is a potential downside of this response?",
-      "options": [
-        "Increased digestion",
-        "Lowered immune response",
-        "Enhanced cognitive performance",
-        "Reduced blood pressure"
-      ],
-      "correctAnswer": 1,
-      "explanation": "While the sympathetic nervous system prepares the body for action, it can impair immune function, which is a negative consequence of prolonged activation. This corresponds to: Lowered immune response."
-    },
-    {
-      "question": "Which division of the nervous system is involved in voluntary movements?",
-      "options": [
-        "Autonomic nervous system",
-        "Central nervous system",
-        "Somatic nervous system",
-        "Peripheral nervous system"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The somatic nervous system transmits information from receptor cells to the CNS and directs muscles to act, facilitating voluntary movements"
-    },
-    {
-      "question": "What role does the hypothalamus play in the stress response system?",
-      "options": [
-        "It releases neurotransmitters",
-        "It regulates voluntary movements",
-        "It activates the HPA axis",
-        "It transmits signals to muscles"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The hypothalamus activates the HPA axis by releasing corticotrophin-releasing hormone (CRH) in response to stress. This corresponds to: It activates the HPA axis."
-    },
-    {
-      "question": "Which of the following best describes the function of sensory neurons?",
-      "options": [
-        "Transmit signals from the CNS to muscles",
-        "Relay information from the body to the CNS",
-        "Process information in the brain",
-        "Regulate involuntary bodily functions"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Sensory neurons transmit information from receptor cells in the sense organs to the CNS. This corresponds to: Relay information from the body to the CNS."
+      "explanation": "Measuring involuntary responses of the autonomic nervous system can be challenging, making it difficult to obtain accurate data. This corresponds to: Difficulty in measuring involuntary responses."
     }
   ]
 }

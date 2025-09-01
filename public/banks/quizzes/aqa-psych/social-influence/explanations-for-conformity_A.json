@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:21:50.019Z",
+  "savedAt": "2025-09-01T11:35:30.828Z",
   "curriculum": "aqa-psych",
   "topicId": "social-influence",
   "subId": "explanations-for-conformity",
   "set": "A",
   "questions": [
     {
-      "question": "In Asch's (1956) study, what was the effect of increasing the size of the majority on conformity rates?",
+      "question": "In Asch's (1956) study on conformity, what was the effect of having a dissenter present during the task?",
       "options": [
-        "Conformity decreased",
-        "Conformity remained the same",
-        "Conformity increased",
-        "Conformity fluctuated"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Asch found that increasing the size of the majority led to an increase in conformity. This corresponds to: Conformity increased."
-    },
-    {
-      "question": "What is the primary motivation behind normative social influence?",
-      "options": [
-        "Desire for accuracy",
-        "Desire for social acceptance",
-        "Desire for independence",
-        "Desire for information"
+        "Increased conformity to 37%",
+        "Decreased conformity to 5%",
+        "No effect on conformity",
+        "Increased conformity to 25%"
       ],
       "correctAnswer": 1,
-      "explanation": "Normative social influence occurs when individuals conform to be accepted by the group. This corresponds to: Desire for social acceptance."
+      "explanation": "The presence of a dissenter who did not conform reduced conformity from 33% to just 5%. This corresponds to: Decreased conformity to 5%."
     },
     {
-      "question": "In a scenario where a participant conforms to a group's incorrect answer to avoid standing out, which type of conformity is being demonstrated?",
+      "question": "What is the primary difference between compliance and internalisation in the context of conformity?",
       "options": [
+        "Compliance involves a change in private beliefs, while internalisation does not",
+        "Internalisation involves a change in private beliefs, while compliance does not",
+        "Both involve a change in private beliefs",
+        "Neither involves a change in behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internalisation involves a change in private beliefs, while compliance is a superficial change in behavior. This corresponds to: Internalisation involves a change in private beliefs, while compliance does not."
+    },
+    {
+      "question": "According to Asch's (1956) findings, how does group size affect conformity?",
+      "options": [
+        "Conformity decreases with larger groups",
+        "Conformity increases with larger groups",
+        "Group size has no effect on conformity",
+        "Conformity is highest in groups of two"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Increasing the size of the majority increased conformity in Asch's study. This corresponds to: Conformity increases with larger groups."
+    },
+    {
+      "question": "In a scenario where Polly checks her friends' outfits before going out, which explanation for conformity is most applicable?",
+      "options": [
+        "Informational social influence",
+        "Normative social influence",
         "Internalisation",
-        "Identification",
-        "Compliance",
-        "Social influence"
+        "Identification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polly's behavior reflects normative social influence as she conforms to avoid standing out"
+    },
+    {
+      "question": "What effect does task difficulty have on conformity, according to Asch's research?",
+      "options": [
+        "It decreases conformity",
+        "It has no effect on conformity",
+        "It increases conformity",
+        "It only affects compliance"
       ],
       "correctAnswer": 2,
-      "explanation": "This scenario illustrates compliance, where the participant conforms superficially without changing their private beliefs"
+      "explanation": "Asch found that increasing task difficulty increased conformity levels among participants. This corresponds to: It increases conformity."
     },
     {
-      "question": "According to Smith et al. (2006), what was the average conformity rate found in collectivist cultures?",
+      "question": "Which of the following best describes the concept of informational social influence?",
+      "options": [
+        "Conforming to be accepted by others",
+        "Conforming due to a desire to be correct",
+        "Conforming to fit in with a group",
+        "Conforming to avoid punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Informational social influence occurs when individuals conform because they want to be correct. This corresponds to: Conforming due to a desire to be correct."
+    },
+    {
+      "question": "In a study where participants were asked to judge the length of lines, what was the average conformity rate found by Asch (1956)?",
       "options": [
         "25%",
         "31.2%",
         "37%",
-        "50%"
+        "5%"
       ],
       "correctAnswer": 2,
-      "explanation": "The average conformity rate for collectivist cultures was found to be 37%"
+      "explanation": "Asch found that participants conformed on 32% of critical trials, leading to an average conformity rate of 37%"
     },
     {
-      "question": "What effect does the presence of a dissenter have on conformity, as demonstrated in Asch's study?",
+      "question": "How does the presence of social support influence conformity, based on Asch's findings?",
       "options": [
-        "Increases conformity",
-        "Decreases conformity",
-        "Has no effect",
-        "Varies by individual"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The presence of a dissenter who provides the correct answer significantly decreased conformity levels. This corresponds to: Decreases conformity."
-    },
-    {
-      "question": "In a study where participants were asked to judge the length of lines, what was the conformity rate on critical trials according to Asch's findings?",
-      "options": [
-        "5%",
-        "25%",
-        "32%",
-        "37%"
+        "It has no effect on conformity",
+        "It increases conformity",
+        "It decreases conformity",
+        "It only affects compliance"
       ],
       "correctAnswer": 2,
-      "explanation": "Participants conformed on 32% of critical trials in Asch's study"
+      "explanation": "The introduction of an ally who also gave the right answer caused conformity levels to drop sharply. This corresponds to: It decreases conformity."
     },
     {
-      "question": "If a participant believes they have control over their decisions and is less likely to conform, which concept are they demonstrating?",
+      "question": "What is one methodological limitation of Asch's (1956) study on conformity?",
       "options": [
-        "Locus of control",
-        "Social support",
-        "Agentic state",
-        "Legitimacy of authority"
+        "It lacked ecological validity",
+        "It was conducted in a natural setting",
+        "It had a diverse sample",
+        "It measured long-term conformity"
       ],
       "correctAnswer": 0,
-      "explanation": "Individuals with an internal locus of control are more likely to resist social influence"
+      "explanation": "Asch's study lacked ecological validity as it was conducted in a controlled environment, which may not reflect real-world situations. This corresponds to: It lacked ecological validity."
     },
     {
-      "question": "What is a limitation of Asch's study regarding its ecological validity?",
+      "question": "Which factor is most likely to increase conformity according to Asch's research?",
       "options": [
-        "It used a laboratory setting",
-        "It involved a diverse sample",
-        "It measured long-term behavior",
-        "It had a high level of control"
+        "Presence of a dissenter",
+        "Smaller group size",
+        "Unanimity of the majority",
+        "Task simplicity"
       ],
-      "correctAnswer": 0,
-      "explanation": "Asch's study was conducted in a laboratory setting, which may not reflect real-world conformity behaviors. This corresponds to: It used a laboratory setting."
-    },
-    {
-      "question": "What does the term 'unanimity' refer to in the context of conformity?",
-      "options": [
-        "Agreement among all group members",
-        "Disagreement among group members",
-        "The presence of a majority",
-        "The absence of social support"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Unanimity refers to the agreement among all group members, which significantly affects conformity levels"
-    },
-    {
-      "question": "How does informational social influence differ from normative social influence?",
-      "options": [
-        "It leads to compliance",
-        "It leads to internalisation",
-        "It is based on social acceptance",
-        "It is based on the desire for information"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Informational social influence occurs when individuals conform to gain accurate information, unlike normative social influence which is driven by the desire for social acceptance. This corresponds to: It is based on the desire for information."
+      "correctAnswer": 2,
+      "explanation": "Asch found that conformity increased when the majority was unanimous in their responses. This corresponds to: Unanimity of the majority."
     }
   ]
 }

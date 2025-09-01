@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:59:59.325Z",
+  "savedAt": "2025-09-01T12:36:32.821Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "biological-approach",
   "set": "B",
   "questions": [
     {
-      "question": "Which neurotransmitter has been linked to increased aggression when found at low levels, according to Crockett et al. (2010)?",
+      "question": "Which neurotransmitter has been linked to increased aggression according to Crockett et al. (2010)?",
       "options": [
         "Dopamine",
         "Serotonin",
@@ -15,7 +15,7 @@
         "Acetylcholine"
       ],
       "correctAnswer": 1,
-      "explanation": "Crockett et al. (2010) found that low levels of serotonin are associated with increased aggressive behavior"
+      "explanation": "Crockett et al. found that low levels of serotonin are associated with increased aggressive behavior"
     },
     {
       "question": "In the context of the biological approach, what does the term 'genotype' refer to?",
@@ -26,95 +26,95 @@
         "The interaction between genes and environment"
       ],
       "correctAnswer": 1,
-      "explanation": "Genotype refers to the actual genetic makeup of an individual, as opposed to phenotype, which is the expression of those genes. This corresponds to: The genetic makeup of an individual."
+      "explanation": "Genotype refers to the actual genetic makeup of an individual, distinct from phenotype, which is how these genes are expressed. This corresponds to: The genetic makeup of an individual."
     },
     {
-      "question": "A study found that identical twins raised apart still showed similarities in personality traits. This supports which aspect of the biological approach?",
+      "question": "A study found that identical twins raised apart showed differences in personality traits. This supports which aspect of the biological approach?",
       "options": [
-        "The role of environmental factors",
-        "The influence of neurochemistry",
-        "The genetic basis of behavior",
-        "The impact of learning experiences"
+        "The influence of environmental factors",
+        "The importance of neurochemistry",
+        "The role of genetic inheritance",
+        "The significance of learned behavior"
       ],
-      "correctAnswer": 2,
-      "explanation": "The similarities in personality traits among identical twins raised apart suggest a strong genetic influence on behavior. This corresponds to: The genetic basis of behavior."
-    },
-    {
-      "question": "What is the primary focus of cognitive neuroscience within the biological approach?",
-      "options": [
-        "The study of learned behaviors",
-        "The interaction between cognitive processes and biological systems",
-        "The role of unconscious drives",
-        "The influence of social factors on behavior"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Cognitive neuroscience focuses on how cognitive processes are linked to biological systems, particularly brain functions. This corresponds to: The interaction between cognitive processes and biological systems."
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates that while genetics play a role, environmental factors also significantly influence the expression of personality traits. This corresponds to: The influence of environmental factors."
     },
     {
       "question": "Which of the following best describes the relationship between genotype and phenotype?",
       "options": [
-        "Genotype is influenced by environmental factors, while phenotype is not",
-        "Genotype is the genetic makeup, while phenotype is how these genes are expressed",
-        "Phenotype is inherited, while genotype is acquired",
-        "There is no relationship between genotype and phenotype"
+        "Genotype is influenced by environmental factors, while phenotype is fixed",
+        "Genotype is the genetic code, while phenotype is the expression of that code",
+        "Phenotype can only be observed in identical twins",
+        "Genotype and phenotype are identical in all individuals"
       ],
       "correctAnswer": 1,
-      "explanation": "Genotype is the genetic makeup of an individual, while phenotype refers to the expression of those genes through observable traits. This corresponds to: Genotype is the genetic makeup, while phenotype is how these genes are expressed."
+      "explanation": "Genotype is the genetic code inherited from parents, while phenotype is how that genetic code is expressed in observable traits. This corresponds to: Genotype is the genetic code, while phenotype is the expression of that code."
     },
     {
-      "question": "A researcher finds that a specific gene variant is more common in individuals with depression. This finding suggests what about the biological approach?",
+      "question": "What is a limitation of the biological approach regarding human behavior?",
       "options": [
-        "It emphasizes the role of environmental factors",
-        "It supports the idea of a genetic basis for behavior",
-        "It ignores the influence of learning",
-        "It is deterministic in nature"
+        "It ignores the role of genetics",
+        "It is overly deterministic",
+        "It does not consider neurochemistry",
+        "It fails to account for evolutionary influences"
       ],
       "correctAnswer": 1,
-      "explanation": "The association of a gene variant with depression supports the biological approach's emphasis on a genetic basis for behavior. This corresponds to: It supports the idea of a genetic basis for behavior."
+      "explanation": "The biological approach is criticized for being overly deterministic, suggesting behavior is solely governed by genetic factors without considering environmental influences. This corresponds to: It is overly deterministic."
     },
     {
-      "question": "One limitation of the biological approach is that it is often considered deterministic. What does this mean?",
+      "question": "Which of the following studies supports the idea that genetic factors influence mate preferences?",
       "options": [
-        "It suggests behavior is solely influenced by environmental factors",
-        "It implies that behavior is governed by genetic factors beyond individual control",
-        "It denies the role of cognitive processes",
-        "It overlooks the importance of social influences"
+        "Bandura's Bobo Doll experiment",
+        "Buss's study on human mate preferences",
+        "Pavlov's classical conditioning research",
+        "Skinner's operant conditioning experiments"
       ],
       "correctAnswer": 1,
-      "explanation": "Determinism in the biological approach means that it views behavior as being controlled by genetic factors, which can overlook the role of environmental influences. This corresponds to: It implies that behavior is governed by genetic factors beyond individual control."
+      "explanation": "Buss's study demonstrated universal similarities in mate preferences across cultures, suggesting a genetic basis for these behaviors. This corresponds to: Buss's study on human mate preferences."
     },
     {
-      "question": "In Buss's study on mate preferences, what does the finding of universal similarities across cultures suggest?",
+      "question": "A researcher is studying the impact of serotonin levels on mood disorders. This aligns with which aspect of the biological approach?",
       "options": [
-        "Cultural factors are the primary influence on mate selection",
-        "Genetic factors may play a role in mate preferences",
-        "Learning experiences shape mate preferences",
-        "Individual differences are more significant than genetic similarities"
+        "The role of environmental factors",
+        "The influence of neurochemistry",
+        "The significance of learned behavior",
+        "The importance of social learning"
       ],
       "correctAnswer": 1,
-      "explanation": "The universal similarities in mate preferences across cultures suggest that genetic factors may influence these behaviors. This corresponds to: Genetic factors may play a role in mate preferences."
+      "explanation": "This scenario highlights the biological approach's focus on neurochemistry, specifically how neurotransmitter levels can affect behavior and mood. This corresponds to: The influence of neurochemistry."
     },
     {
-      "question": "What is a key criticism of the biological approach regarding its explanation of behavior?",
+      "question": "What does the biological approach suggest about the expression of an individual's genotype?",
       "options": [
-        "It overemphasizes the role of cognitive processes",
-        "It ignores the influence of genetics",
-        "It can be too simplistic by not considering environmental factors",
-        "It fails to provide empirical evidence"
+        "It is solely determined by genetic factors",
+        "It is influenced by environmental interactions",
+        "It remains constant throughout life",
+        "It is irrelevant to psychological functioning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The biological approach posits that while genotype is inherited, phenotype—the expression of genotype—is significantly influenced by environmental factors. This corresponds to: It is influenced by environmental interactions."
+    },
+    {
+      "question": "Which of the following best describes Biological approach (genetics, neurochemistry, genotype/phenotype)?",
+      "options": [
+        "Conditioning",
+        "Schema",
+        "Evolution",
+        "Reinforcement"
       ],
       "correctAnswer": 2,
-      "explanation": "A key criticism is that the biological approach can be overly simplistic, as it often neglects the mediating effects of environmental influences on behavior. This corresponds to: It can be too simplistic by not considering environmental factors."
+      "explanation": "The biological approach incorporates evolutionary concepts to explain behaviors that may have adaptive significance, such as aggression and mate selection"
     },
     {
-      "question": "Which one neurotransmitter has been linked to increased aggression when found at low levels, according to Crockett et al. (2010)?",
+      "question": "How does the biological approach differ from the behaviorist approach regarding the nature vs. nurture debate?",
       "options": [
-        "Dopamine",
-        "Serotonin",
-        "Norepinephrine",
-        "Acetylcholine"
+        "Both approaches emphasize genetic factors equally",
+        "The biological approach focuses on genetics, while behaviorism emphasizes learning",
+        "Both approaches ignore environmental influences",
+        "The biological approach is more deterministic than behaviorism"
       ],
       "correctAnswer": 1,
-      "explanation": "Crockett et al. (2010) found that low levels of serotonin are associated with increased aggressive behavior"
+      "explanation": "The biological approach argues that behavior is primarily influenced by genetic inheritance, while behaviorism posits that behavior is learned through environmental interactions. This corresponds to: The biological approach focuses on genetics, while behaviorism emphasizes learning."
     }
   ]
 }

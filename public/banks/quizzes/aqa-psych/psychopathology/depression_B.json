@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:21:40.071Z",
+  "savedAt": "2025-09-01T13:25:09.322Z",
   "curriculum": "aqa-psych",
   "topicId": "psychopathology",
   "subId": "depression",
   "set": "B",
   "questions": [
     {
-      "question": "Which of the following is a cognitive characteristic of depression as outlined by Beck's negative triad?",
+      "question": "What are the three components of Beck's negative triad in relation to depression?",
       "options": [
-        "Negative view of self",
-        "Increased energy levels",
-        "Positive outlook on future",
-        "High self-esteem"
+        "Self, World, Future",
+        "Thoughts, Feelings, Behaviors",
+        "Biological, Psychological, Social",
+        "Past, Present, Future"
       ],
       "correctAnswer": 0,
-      "explanation": "Beck's negative triad identifies a negative view of self as a key cognitive characteristic of depression"
+      "explanation": "Beck's negative triad includes negative views of the self, the world, and the future, which contribute to the development of depression. This corresponds to: Self, World, Future."
     },
     {
-      "question": "In Ellis's ABC model, what does the 'B' stand for?",
+      "question": "In the cognitive approach to depression, which model emphasizes the role of irrational beliefs?",
       "options": [
-        "Beliefs",
-        "Behavior",
-        "Biology",
-        "Bipolar"
-      ],
-      "correctAnswer": 0,
-      "explanation": "In Ellis's ABC model, 'B' stands for beliefs, which are the irrational thoughts that lead to emotional distress"
-    },
-    {
-      "question": "A patient presents with persistent feelings of sadness and a lack of interest in activities they once enjoyed. This is indicative of which characteristic of depression?",
-      "options": [
-        "Emotional",
-        "Cognitive",
-        "Behavioral",
-        "Social"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The persistent feelings of sadness represent an emotional characteristic of depression"
-    },
-    {
-      "question": "Which treatment for depression involves challenging irrational thoughts?",
-      "options": [
-        "Systematic desensitization",
-        "Cognitive Behaviour Therapy (CBT)",
-        "Flooding",
-        "Drug therapy"
+        "Beck's negative triad",
+        "Ellis's ABC model",
+        "Cognitive Behavioral Therapy",
+        "Systematic Desensitization"
       ],
       "correctAnswer": 1,
-      "explanation": "Cognitive Behaviour Therapy (CBT) is designed to challenge and change irrational thoughts associated with depression"
+      "explanation": "Ellis's ABC model focuses on how irrational beliefs lead to emotional and behavioral consequences, particularly in depression"
     },
     {
-      "question": "A study found that patients receiving CBT showed significant improvement in their depressive symptoms compared to those receiving no treatment. What does this suggest about CBT?",
+      "question": "A patient believes they will never be happy again and that their life is worthless. This reflects which aspect of Beck's negative triad?",
+      "options": [
+        "Negative self-view",
+        "Negative world view",
+        "Negative future view",
+        "All of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The patient's belief about never being happy again reflects a negative view of the future, which is a key component of Beck's negative triad. This corresponds to: Negative future view."
+    },
+    {
+      "question": "Which treatment method is based on challenging irrational thoughts in depression?",
+      "options": [
+        "Systematic Desensitization",
+        "Cognitive Behavioral Therapy",
+        "Flooding",
+        "Drug Therapy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive Behavioral Therapy (CBT) involves challenging and changing irrational thoughts to help treat depression"
+    },
+    {
+      "question": "A study found that patients receiving CBT showed significant improvement in depressive symptoms compared to those receiving no treatment. What does this suggest about CBT?",
       "options": [
         "It is ineffective",
         "It is a valid treatment",
         "It is only effective for mild depression",
-        "It has no long-term benefits"
+        "It requires medication to work"
       ],
       "correctAnswer": 1,
-      "explanation": "The significant improvement in depressive symptoms suggests that CBT is a valid treatment for depression. This corresponds to: It is a valid treatment."
+      "explanation": "The significant improvement in symptoms suggests that CBT is a valid treatment for depression, demonstrating its effectiveness. This corresponds to: It is a valid treatment."
     },
     {
-      "question": "What is a methodological issue with using self-report measures in studies of depression?",
+      "question": "Which of the following is a cognitive characteristic of depression?",
       "options": [
-        "They are too expensive",
-        "They may lack validity due to social desirability bias",
-        "They are time-consuming",
-        "They require trained professionals"
+        "Increased energy",
+        "Negative thoughts",
+        "Social withdrawal",
+        "Increased appetite"
       ],
       "correctAnswer": 1,
-      "explanation": "Self-report measures may lack validity due to social desirability bias, as participants might not report their true feelings. This corresponds to: They may lack validity due to social desirability bias."
+      "explanation": "Negative thoughts are a key cognitive characteristic of depression, reflecting the distorted thinking patterns associated with the disorder"
+    },
+    {
+      "question": "In a scenario where a patient has a negative view of themselves and feels hopeless about their future, which cognitive model would best explain their condition?",
+      "options": [
+        "Behavioral model",
+        "Biological model",
+        "Beck's negative triad",
+        "Humanistic model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beck's negative triad explains the patient's negative self-view and hopelessness about the future as central to their depression"
+    },
+    {
+      "question": "What is a limitation of the cognitive approach to explaining depression?",
+      "options": [
+        "It ignores biological factors",
+        "It is too simplistic",
+        "It does not consider environmental influences",
+        "All of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cognitive approach may overlook biological factors, making it a limitation as it presents a potentially incomplete explanation of depression. This corresponds to: It ignores biological factors."
     },
     {
       "question": "Which of the following is a behavioral characteristic of depression?",
       "options": [
-        "Increased appetite",
+        "Increased motivation",
         "Social withdrawal",
-        "High energy",
-        "Optimism about the future"
+        "Optimism",
+        "High energy levels"
       ],
       "correctAnswer": 1,
-      "explanation": "Social withdrawal is a common behavioral characteristic associated with depression"
+      "explanation": "Social withdrawal is a common behavioral characteristic of depression, where individuals tend to isolate themselves from others"
     },
     {
-      "question": "In the context of depression, what does the term 'failure to function adequately' refer to?",
+      "question": "A patient undergoing CBT is taught to identify and challenge their negative thoughts. What is the primary goal of this process?",
       "options": [
-        "Inability to maintain relationships",
-        "Statistical rarity of symptoms",
-        "Deviation from social norms",
-        "Presence of negative thoughts"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Failure to function adequately refers to an individual's inability to perform daily activities and maintain relationships. This corresponds to: Inability to maintain relationships."
-    },
-    {
-      "question": "A patient with depression is prescribed an SSRI to increase serotonin levels. What does this indicate about the biological approach to treating depression?",
-      "options": [
-        "It focuses on cognitive restructuring",
-        "It emphasizes environmental factors",
-        "It targets neurotransmitter imbalances",
-        "It uses exposure therapy"
+        "To increase medication adherence",
+        "To improve social skills",
+        "To change negative thought patterns",
+        "To enhance physical health"
       ],
       "correctAnswer": 2,
-      "explanation": "The prescription of an SSRI indicates that the biological approach targets neurotransmitter imbalances, specifically serotonin. This corresponds to: It targets neurotransmitter imbalances."
-    },
-    {
-      "question": "What is a limitation of drug therapy for treating depression?",
-      "options": [
-        "It is always effective",
-        "It can have side effects",
-        "It requires no professional supervision",
-        "It is a long-term solution"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A limitation of drug therapy is that it can have side effects, which may deter some patients from continuing treatment"
+      "explanation": "The primary goal of identifying and challenging negative thoughts in CBT is to change negative thought patterns that contribute to depression"
     }
   ]
 }

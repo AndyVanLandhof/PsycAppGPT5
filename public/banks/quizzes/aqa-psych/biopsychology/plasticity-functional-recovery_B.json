@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:05:46.519Z",
+  "savedAt": "2025-09-01T12:57:44.036Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "plasticity-functional-recovery",
   "set": "B",
   "questions": [
     {
-      "question": "What is brain plasticity?",
+      "question": "What is the primary function of Broca's area in the brain?",
       "options": [
-        "The brain's ability to remain unchanged",
-        "The brain's ability to change and adapt due to experience",
-        "The brain's inability to recover from trauma",
-        "The brain's fixed structure throughout life"
+        "Language comprehension",
+        "Speech production",
+        "Visual processing",
+        "Motor coordination"
       ],
       "correctAnswer": 1,
-      "explanation": "Brain plasticity refers to the brain's ability to change and adapt as a result of experience and new learning. This corresponds to: The brain's ability to change and adapt due to experience."
+      "explanation": "Broca's area is primarily responsible for speech production, and damage to this area can lead to Broca's aphasia"
     },
     {
-      "question": "Which area of the brain is primarily associated with language production?",
+      "question": "In the context of brain plasticity, what does the term 'functional recovery' refer to?",
       "options": [
-        "Wernicke's area",
-        "Broca's area",
-        "Motor cortex",
-        "Somatosensory cortex"
+        "The brain's ability to create new neurons",
+        "The redistribution of functions to undamaged areas after trauma",
+        "The process of learning new skills",
+        "The brain's adaptation during childhood only"
       ],
       "correctAnswer": 1,
-      "explanation": "Broca's area is primarily responsible for language production, and damage to this area can lead to Broca's aphasia"
+      "explanation": "Functional recovery refers to the brain's ability to transfer functions from damaged areas to undamaged areas after trauma. This corresponds to: The redistribution of functions to undamaged areas after trauma."
     },
     {
-      "question": "In a study by Schneider et al. (2014), what factor was found to influence recovery after brain trauma?",
+      "question": "Which study provided evidence for the brain's ability to adapt and change due to experience?",
+      "options": [
+        "Hubel & Wiesel (1963)",
+        "Corkin et al. (1989)",
+        "Schneider et al. (2014)",
+        "Danelli et al. (2013)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hubel & Wiesel (1963) demonstrated that the brain can adapt and change in response to visual experiences"
+    },
+    {
+      "question": "Lotta's grandmother has suffered a stroke affecting her speech. Which type of recovery might she experience due to brain plasticity?",
+      "options": [
+        "Increased fluency in speech",
+        "Loss of motor function",
+        "Redistribution of language functions",
+        "Permanent speech impairment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Due to brain plasticity, Lotta's grandmother might experience a redistribution of language functions to undamaged areas of the brain"
+    },
+    {
+      "question": "What factor has been shown to influence the rate of recovery after brain trauma, according to Schneider et al. (2014)?",
       "options": [
         "Age",
         "Gender",
         "Cognitive reserve",
-        "Physical fitness"
+        "Physical health"
       ],
       "correctAnswer": 2,
-      "explanation": "Schneider et al. (2014) found that cognitive reserve, which relates to educational level, significantly influences recovery after brain trauma"
+      "explanation": "Schneider et al. (2014) found that cognitive reserve, such as education level, significantly influences recovery rates after brain trauma"
     },
     {
-      "question": "Lotta's grandmother has suffered a stroke affecting her speech. What type of aphasia is she likely experiencing?",
+      "question": "What is a methodological issue often associated with studies on brain plasticity?",
       "options": [
-        "Wernicke's aphasia",
-        "Global aphasia",
-        "Broca's aphasia",
-        "Anomic aphasia"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Due to damage to Broca's area, Lotta's grandmother is likely experiencing Broca's aphasia, characterized by difficulty in speech production"
-    },
-    {
-      "question": "What is functional recovery in the context of brain trauma?",
-      "options": [
-        "The brain's ability to remain unchanged",
-        "The redistribution of functions to undamaged areas",
-        "The permanent loss of brain functions",
-        "The inability to adapt to new experiences"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Functional recovery refers to the brain's ability to redistribute or transfer functions usually performed by damaged areas to other undamaged areas. This corresponds to: The redistribution of functions to undamaged areas."
-    },
-    {
-      "question": "After a stroke, physiotherapy may enhance recovery due to which brain characteristic?",
-      "options": [
-        "Neurogenesis",
-        "Plasticity",
-        "Localization",
-        "Hemispheric lateralization"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Physiotherapy may enhance recovery by promoting brain plasticity, allowing the brain to adapt and form new neural pathways"
-    },
-    {
-      "question": "What methodological issue can affect the generalizability of findings on brain plasticity from animal studies?",
-      "options": [
+        "Lack of longitudinal data",
+        "Over-reliance on animal studies",
         "Small sample sizes",
-        "Differences in species",
-        "Lack of control groups",
-        "Short duration of studies"
+        "Inconsistent definitions of plasticity"
       ],
       "correctAnswer": 1,
-      "explanation": "Findings from animal studies may not generalize to humans due to significant differences in brain structure and function across species. This corresponds to: Differences in species."
+      "explanation": "Many studies on brain plasticity, such as those by Hubel & Wiesel, often rely on animal studies, which may not fully generalize to human brain function. This corresponds to: Over-reliance on animal studies."
     },
     {
-      "question": "What did Hubel and Wiesel (1963) demonstrate regarding brain plasticity?",
+      "question": "Which of the following is an experiential factor that may enhance brain plasticity?",
       "options": [
-        "The brain's functions are fixed",
-        "Sensory deprivation can lead to changes in the visual cortex",
-        "All brain functions are localized",
-        "Plasticity only occurs in children"
+        "Age",
+        "Meditation",
+        "Gender",
+        "Physical exhaustion"
       ],
       "correctAnswer": 1,
-      "explanation": "Hubel and Wiesel (1963) demonstrated that sensory deprivation can lead to changes in the visual cortex, highlighting brain plasticity"
+      "explanation": "Experiential factors like meditation have been shown to enhance brain plasticity and functional recovery"
     },
     {
-      "question": "Which factor is associated with reduced functional recovery in older adults after brain trauma?",
+      "question": "What is one limitation of using case studies to investigate functional recovery in the brain?",
       "options": [
-        "Higher cognitive reserve",
-        "Increased age",
-        "Greater physical fitness",
-        "Better social support"
+        "They provide quantitative data",
+        "They are often not generalizable",
+        "They require large sample sizes",
+        "They lack detail"
       ],
       "correctAnswer": 1,
-      "explanation": "Research indicates that functional recovery tends to decrease with age, making older adults less likely to fully recover from brain trauma. This corresponds to: Increased age."
+      "explanation": "Case studies often focus on individual cases, which can limit the generalizability of findings to the wider population. This corresponds to: They are often not generalizable."
     },
     {
-      "question": "What is a potential benefit of engaging in activities like learning new skills after brain trauma?",
+      "question": "According to Elbert et al. (2001), how does age affect functional recovery after brain damage?",
       "options": [
-        "It has no effect on recovery",
-        "It can enhance brain plasticity",
-        "It may worsen recovery",
-        "It only benefits younger individuals"
+        "Younger individuals recover faster",
+        "Older individuals recover faster",
+        "Age has no effect",
+        "Recovery is the same for all ages"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Elbert et al. (2001) found that younger individuals tend to recover from brain damage more effectively than older individuals. This corresponds to: Younger individuals recover faster."
+    },
+    {
+      "question": "What is one potential outcome of damage to the motor cortex?",
+      "options": [
+        "Increased speech fluency",
+        "Paralysis on the opposite side of the body",
+        "Enhanced cognitive abilities",
+        "Improved sensory perception"
       ],
       "correctAnswer": 1,
-      "explanation": "Engaging in activities such as learning new skills can enhance brain plasticity, promoting recovery after brain trauma. This corresponds to: It can enhance brain plasticity."
+      "explanation": "Damage to the motor cortex can lead to paralysis or motor impairments on the opposite side of the body due to its control over movement. This corresponds to: Paralysis on the opposite side of the body."
     }
   ]
 }

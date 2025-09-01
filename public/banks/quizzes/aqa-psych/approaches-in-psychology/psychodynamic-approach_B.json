@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:00:30.988Z",
+  "savedAt": "2025-09-01T12:38:27.514Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "psychodynamic-approach",
@@ -12,35 +12,35 @@
         "Id, Ego, Superego",
         "Conscious, Unconscious, Preconscious",
         "Self, Ideal Self, Real Self",
-        "Pleasure Principle, Reality Principle, Morality Principle"
+        "Drive, Ego, Superego"
       ],
       "correctAnswer": 0,
-      "explanation": "The psychodynamic approach posits that personality is structured into the Id, Ego, and Superego, each playing a distinct role in human behavior. This corresponds to: Id, Ego, Superego."
+      "explanation": "The psychodynamic approach posits that personality is structured into three parts: the Id, Ego, and Superego. This corresponds to: Id, Ego, Superego."
     },
     {
-      "question": "Which psychosexual stage is characterized by the development of sexual identity and relationships?",
+      "question": "Which of the following is a defence mechanism that involves pushing distressing thoughts into the unconscious?",
       "options": [
-        "Oral",
+        "Repression",
+        "Displacement",
+        "Denial",
+        "Projection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Repression is a defence mechanism that involves unconsciously blocking unacceptable thoughts and feelings"
+    },
+    {
+      "question": "According to Freud, which psychosexual stage occurs first in development?",
+      "options": [
         "Anal",
         "Phallic",
+        "Oral",
         "Genital"
       ],
-      "correctAnswer": 3,
-      "explanation": "The Genital stage is the final stage in Freud's psychosexual development, where individuals develop mature sexual relationships"
+      "correctAnswer": 2,
+      "explanation": "The Oral stage is the first psychosexual stage in Freud's theory, occurring from birth to about 18 months"
     },
     {
-      "question": "In the context of the psychodynamic approach, what is repression?",
-      "options": [
-        "A conscious decision to forget",
-        "An unconscious mechanism to reduce anxiety",
-        "A method of behavioral conditioning",
-        "A cognitive distortion of reality"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Repression is a defense mechanism that involves unconsciously blocking out painful or anxiety-inducing thoughts and memories. This corresponds to: An unconscious mechanism to reduce anxiety."
-    },
-    {
-      "question": "Veronica often feels guilty after binge eating and uses purging as a coping mechanism. Which structure of personality is likely in conflict here?",
+      "question": "Veronica often feels guilty after overeating and sometimes forces herself to be sick. Which structure of personality is likely in conflict here?",
       "options": [
         "Id",
         "Ego",
@@ -48,73 +48,73 @@
         "Conscious"
       ],
       "correctAnswer": 2,
-      "explanation": "Veronica's guilt suggests that her Superego, which represents moral standards, is in conflict with her Id's impulses to indulge in binge eating"
+      "explanation": "Veronica's guilt suggests that her Superego, which represents moral standards, is in conflict with her Id's desires for immediate gratification"
     },
     {
-      "question": "Freud's psychosexual stages suggest that fixation at a stage can affect adult personality. Which stage is associated with issues of control and order?",
+      "question": "During which psychosexual stage does a child develop sexual identity and begin to identify with the same-sex parent?",
       "options": [
-        "Oral",
-        "Anal",
+        "Latency",
         "Phallic",
-        "Latency"
+        "Genital",
+        "Anal"
       ],
       "correctAnswer": 1,
-      "explanation": "The Anal stage is associated with control and order, and fixation can lead to traits such as obsessiveness or messiness in adulthood"
+      "explanation": "The Phallic stage, occurring between ages 3 and 6, is when children develop their sexual identity and experience the Oedipus or Electra complex"
     },
     {
-      "question": "Which of the following is a methodological criticism of Freud's psychodynamic theory?",
+      "question": "A child who is fixated at the oral stage may exhibit which of the following adult behaviours?",
       "options": [
-        "It is based on empirical research",
-        "It lacks scientific rigor and is difficult to test",
-        "It overemphasizes biological factors",
-        "It ignores the role of social learning"
+        "Overeating or smoking",
+        "Excessive orderliness",
+        "Aggressiveness",
+        "Dependency"
       ],
-      "correctAnswer": 1,
-      "explanation": "Freud's theories are often criticized for their lack of empirical support and difficulty in being scientifically tested. This corresponds to: It lacks scientific rigor and is difficult to test."
+      "correctAnswer": 0,
+      "explanation": "Adults fixated at the oral stage may engage in behaviours such as overeating or smoking, reflecting unresolved conflicts from that stage"
     },
     {
-      "question": "What role do defense mechanisms play according to the psychodynamic approach?",
+      "question": "One criticism of the psychodynamic approach is that it relies heavily on case studies. What is a methodological issue associated with this?",
       "options": [
-        "They are conscious strategies to cope with stress",
-        "They are unconscious strategies to reduce anxiety",
-        "They are learned behaviors from the environment",
-        "They are cognitive distortions of reality"
+        "Lack of generalizability",
+        "High reliability",
+        "Low validity",
+        "Overemphasis on biological factors"
       ],
-      "correctAnswer": 1,
-      "explanation": "Defense mechanisms are unconscious strategies used by the Ego to protect against anxiety and maintain psychological balance. This corresponds to: They are unconscious strategies to reduce anxiety."
+      "correctAnswer": 0,
+      "explanation": "Case studies often lack generalizability because they focus on individual cases, making it difficult to apply findings to broader populations. This corresponds to: Lack of generalizability."
     },
     {
-      "question": "In Freud's theory, which defense mechanism involves redirecting emotions from a threatening target to a safer one?",
+      "question": "Freud's theory suggests that unresolved conflicts during psychosexual stages can lead to personality issues. What is this concept called?",
       "options": [
+        "Fixation",
+        "Transference",
         "Repression",
-        "Displacement",
-        "Denial",
         "Projection"
       ],
-      "correctAnswer": 1,
-      "explanation": "Displacement involves shifting emotional responses from the original source of anxiety to a more acceptable target"
+      "correctAnswer": 0,
+      "explanation": "Fixation occurs when a person becomes stuck at a particular psychosexual stage due to unresolved conflicts, affecting their adult personality"
     },
     {
-      "question": "How does the psychodynamic approach explain the development of personality?",
+      "question": "Which defence mechanism involves attributing one's own unacceptable feelings to others?",
       "options": [
-        "Through genetic inheritance",
-        "Through social learning and reinforcement",
-        "Through unconscious conflicts during psychosexual stages",
-        "Through cognitive development stages"
+        "Denial",
+        "Projection",
+        "Displacement",
+        "Repression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Projection is a defence mechanism where individuals attribute their own unacceptable thoughts or feelings to someone else"
+    },
+    {
+      "question": "How does the psychodynamic approach explain the role of the unconscious in behaviour?",
+      "options": [
+        "It has no influence on behaviour.",
+        "It drives all conscious actions.",
+        "It contains repressed memories that influence behaviour.",
+        "It is solely responsible for decision-making."
       ],
       "correctAnswer": 2,
-      "explanation": "The psychodynamic approach posits that personality develops through unconscious conflicts experienced during the psychosexual stages. This corresponds to: Through unconscious conflicts during psychosexual stages."
-    },
-    {
-      "question": "Which psychosexual stage is primarily focused on the pleasure derived from oral activities such as sucking and biting?",
-      "options": [
-        "Anal",
-        "Oral",
-        "Phallic",
-        "Latency"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The Oral stage is the first stage in Freud's psychosexual development, focusing on pleasure from oral activities"
+      "explanation": "The psychodynamic approach posits that the unconscious contains repressed memories and desires that can significantly influence an individual's behaviour. This corresponds to: It contains repressed memories that influence behaviour.."
     }
   ]
 }

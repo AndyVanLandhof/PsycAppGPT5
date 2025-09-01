@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:05:15.670Z",
+  "savedAt": "2025-09-01T12:56:34.580Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "localisation-of-function",
   "set": "B",
   "questions": [
     {
-      "question": "Which area of the brain is primarily associated with speech production, as identified by Broca in 1861?",
+      "question": "Which area of the brain is primarily associated with language production, as identified by Paul Broca in 1861?",
       "options": [
         "Wernicke's area",
         "Motor cortex",
@@ -15,106 +15,106 @@
         "Somatosensory cortex"
       ],
       "correctAnswer": 2,
-      "explanation": "Broca's area is located in the left hemisphere and is crucial for speech production"
+      "explanation": "Broca's area is located in the left hemisphere and is crucial for language production"
     },
     {
-      "question": "In Roger Sperry's split-brain research, what was demonstrated about the left hemisphere's function?",
+      "question": "In Roger Sperry's split-brain research, what was found regarding the processing of visual information presented to the right visual field?",
       "options": [
-        "It controls the left hand",
-        "It processes visual information from the right visual field",
-        "It is responsible for emotional responses",
-        "It regulates motor functions of the left leg"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Sperry's research showed that the left hemisphere processes information from the right visual field. This corresponds to: It processes visual information from the right visual field."
-    },
-    {
-      "question": "A patient with damage to Wernicke's area is likely to experience difficulties in which area?",
-      "options": [
-        "Understanding language",
-        "Producing speech",
-        "Motor control",
-        "Visual processing"
+        "Participants could verbally identify the object",
+        "Participants could not identify the object",
+        "Participants could only identify the object with their left hand",
+        "Participants could identify the object but not describe it"
       ],
       "correctAnswer": 0,
+      "explanation": "Visual information in the right visual field is processed by the left hemisphere, which is responsible for speech. This corresponds to: Participants could verbally identify the object."
+    },
+    {
+      "question": "A patient with damage to Wernicke's area would likely experience difficulty in which of the following?",
+      "options": [
+        "Producing speech",
+        "Understanding language",
+        "Controlling movement",
+        "Processing visual information"
+      ],
+      "correctAnswer": 1,
       "explanation": "Wernicke's area is associated with language comprehension, so damage here affects understanding. This corresponds to: Understanding language."
     },
     {
-      "question": "If a patient has a stroke affecting the motor cortex, which function is most likely to be impaired?",
+      "question": "A researcher presents an object to the left visual field of a split-brain participant. What is the expected outcome regarding the participant's ability to respond?",
       "options": [
-        "Speech production",
-        "Sensory perception",
-        "Movement control",
-        "Visual processing"
+        "They can verbally identify the object",
+        "They can select the object with their right hand",
+        "They can select the object with their left hand",
+        "They cannot respond at all"
       ],
       "correctAnswer": 2,
-      "explanation": "The motor cortex is responsible for controlling voluntary movements, so impairment would affect movement. This corresponds to: Movement control."
-    },
-    {
-      "question": "In a study, a participant could not name an object presented in their left visual field. What does this suggest about their brain function?",
-      "options": [
-        "The right hemisphere is dominant for language",
-        "The left hemisphere is responsible for visual processing",
-        "The left hemisphere controls speech",
-        "The right hemisphere processes language"
-      ],
-      "correctAnswer": 2,
-      "explanation": "This indicates that the left hemisphere, which is responsible for speech, did not receive the visual input. This corresponds to: The left hemisphere controls speech."
-    },
-    {
-      "question": "What methodological issue is often raised regarding Sperry's split-brain research?",
-      "options": [
-        "Lack of control over variables",
-        "Small sample size",
-        "Ethical concerns regarding informed consent",
-        "Use of animal subjects"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Sperry's research often involved a small number of participants, which limits the generalizability of the findings. This corresponds to: Small sample size."
+      "explanation": "The left visual field is processed by the right hemisphere, which does not control speech but can control the left hand. This corresponds to: They can select the object with their left hand."
     },
     {
       "question": "Which of the following best describes the concept of localisation of function in the brain?",
       "options": [
         "All brain areas work together for all functions",
-        "Specific functions are located in specific areas of the brain",
-        "The brain's functions are random and not localized",
-        "Only the left hemisphere is involved in language"
+        "Specific areas of the brain are responsible for specific functions",
+        "The brain functions as a single unit without specialisation",
+        "Brain functions are equally distributed across both hemispheres"
       ],
       "correctAnswer": 1,
-      "explanation": "Localisation of function posits that different areas of the brain are responsible for different functions. This corresponds to: Specific functions are located in specific areas of the brain."
+      "explanation": "Localisation of function suggests that different brain areas are specialised for different tasks. This corresponds to: Specific areas of the brain are responsible for specific functions."
     },
     {
-      "question": "A patient with damage to the left hemisphere may struggle with which of the following tasks?",
+      "question": "In a study of a patient with damage to the motor cortex, which function would most likely be impaired?",
       "options": [
-        "Recognizing faces",
-        "Understanding spoken language",
-        "Balancing on one leg",
-        "Interpreting visual stimuli"
+        "Language comprehension",
+        "Movement control",
+        "Visual processing",
+        "Emotional regulation"
       ],
       "correctAnswer": 1,
-      "explanation": "Damage to the left hemisphere can impair language comprehension, affecting the ability to understand spoken language. This corresponds to: Understanding spoken language."
+      "explanation": "The motor cortex is responsible for controlling voluntary movements, so damage here would impair movement. This corresponds to: Movement control."
     },
     {
-      "question": "What is a criticism of the simplistic view of left-brain versus right-brain functions?",
+      "question": "What methodological issue is often raised regarding the generalisation of findings from split-brain research?",
       "options": [
-        "It ignores the role of the corpus callosum",
-        "It overemphasizes the role of the right hemisphere",
-        "It suggests that brain functions are completely separate",
-        "It does not account for brain plasticity"
+        "The sample size is too large",
+        "The participants are not representative of the general population",
+        "The research lacks ethical considerations",
+        "The tasks used are too simplistic"
       ],
-      "correctAnswer": 3,
-      "explanation": "The simplistic view fails to recognize that the brain is plastic and that both hemispheres can adapt and share functions. This corresponds to: It does not account for brain plasticity."
+      "correctAnswer": 1,
+      "explanation": "Participants in split-brain studies often have unique neurological conditions, making generalisation difficult. This corresponds to: The participants are not representative of the general population."
     },
     {
-      "question": "Which technique is commonly used to study the localisation of brain functions?",
+      "question": "Which of the following statements about Broca's and Wernicke's areas is true?",
       "options": [
-        "fMRI",
-        "CT scan",
-        "X-ray",
-        "Ultrasound"
+        "Both are located in the right hemisphere",
+        "Broca's area is responsible for language production, while Wernicke's area is for comprehension",
+        "Both areas are involved in emotional processing",
+        "Broca's area is involved in visual processing"
       ],
-      "correctAnswer": 0,
-      "explanation": "Functional magnetic resonance imaging (fMRI) is a technique that measures brain activity by detecting changes associated with blood flow"
+      "correctAnswer": 1,
+      "explanation": "Broca's area is linked to language production, while Wernicke's area is associated with understanding language. This corresponds to: Broca's area is responsible for language production, while Wernicke's area is for comprehension."
+    },
+    {
+      "question": "What does the term 'cortical specialisation' refer to in the context of brain function?",
+      "options": [
+        "The brain's ability to recover from injury",
+        "The idea that different brain areas perform different tasks",
+        "The equal distribution of functions across the brain",
+        "The process of learning new skills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cortical specialisation is synonymous with localisation of function, where specific areas are dedicated to specific tasks. This corresponds to: The idea that different brain areas perform different tasks."
+    },
+    {
+      "question": "How does the concept of brain plasticity challenge traditional views of localisation of function?",
+      "options": [
+        "It suggests that brain functions are fixed and cannot change",
+        "It indicates that brain areas can adapt and take on new functions after damage",
+        "It confirms that each hemisphere has distinct and unchangeable roles",
+        "It implies that all brain functions are equally distributed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Brain plasticity shows that the brain can reorganise itself, suggesting a more dynamic view of function than strict localisation. This corresponds to: It indicates that brain areas can adapt and take on new functions after damage."
     }
   ]
 }

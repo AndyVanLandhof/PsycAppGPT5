@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:02:34.100Z",
+  "savedAt": "2025-09-01T12:44:06.293Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "neurons-synaptic-transmission",
@@ -12,109 +12,109 @@
         "They decrease the likelihood of neuron firing",
         "They increase the likelihood of neuron firing",
         "They inhibit synaptic transmission",
-        "They break down enzymes in the synaptic cleft"
+        "They block receptor sites"
       ],
       "correctAnswer": 1,
-      "explanation": "Excitatory neurotransmitters increase the likelihood that an excitatory signal is sent to the postsynaptic cell, making it more likely to fire. This corresponds to: They increase the likelihood of neuron firing."
+      "explanation": "Excitatory neurotransmitters, like acetylcholine, act as 'on switches' that increase the likelihood of an excitatory signal being sent to the postsynaptic cell. This corresponds to: They increase the likelihood of neuron firing."
     },
     {
       "question": "In synaptic transmission, what occurs when an inhibitory neurotransmitter binds to a postsynaptic receptor?",
       "options": [
         "The postsynaptic neuron is more likely to fire",
         "An excitatory post-synaptic potential is generated",
-        "An inhibitory post-synaptic potential is generated",
-        "The presynaptic neuron is activated"
+        "The postsynaptic neuron is less likely to fire",
+        "The synaptic cleft is widened"
       ],
       "correctAnswer": 2,
-      "explanation": "Binding of an inhibitory neurotransmitter results in an inhibitory post-synaptic potential (IPSP), making it less likely that the postsynaptic cell will fire. This corresponds to: An inhibitory post-synaptic potential is generated."
+      "explanation": "Binding of an inhibitory neurotransmitter results in an inhibitory postsynaptic potential (IPSP), making it less likely for the postsynaptic neuron to fire. This corresponds to: The postsynaptic neuron is less likely to fire."
     },
     {
-      "question": "Which of the following best describes the process of summation in synaptic transmission?",
+      "question": "What is the process called that determines whether a neuron will fire based on the sum of excitatory and inhibitory inputs?",
       "options": [
-        "The total of excitatory and inhibitory inputs determines if a neuron fires",
-        "Only excitatory inputs are considered",
-        "Only inhibitory inputs are considered",
-        "It refers to the release of neurotransmitters into the synaptic cleft"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Summation is the process where the net result of excitatory and inhibitory inputs determines whether the neuron will fire. This corresponds to: The total of excitatory and inhibitory inputs determines if a neuron fires."
-    },
-    {
-      "question": "In a scenario where a presynaptic neuron fires rapidly, what type of summation is likely occurring?",
-      "options": [
-        "Spatial summation",
-        "Temporal summation",
-        "Inhibitory summation",
-        "Neurotransmitter breakdown"
+        "Transmission",
+        "Summation",
+        "Inhibition",
+        "Excitation"
       ],
       "correctAnswer": 1,
-      "explanation": "Temporal summation occurs when a large number of excitatory post-synaptic potentials are generated at the same synapse by a series of high-frequency action potentials"
+      "explanation": "The net result of excitatory and inhibitory inputs is known as summation, which determines whether the neuron will fire"
     },
     {
-      "question": "A patient experiences increased anxiety due to a deficiency in GABA. What role does GABA play in the nervous system?",
+      "question": "A researcher observes that a participant's heart rate increases after being startled. This response is primarily mediated by which neurotransmitter?",
       "options": [
-        "It acts as an excitatory neurotransmitter",
-        "It regulates excitement and acts as an anxiety reducer",
-        "It increases heart rate",
-        "It enhances synaptic transmission"
-      ],
-      "correctAnswer": 1,
-      "explanation": "GABA is an inhibitory neurotransmitter that regulates excitement in the nervous system, acting as a natural form of anxiety reducer. This corresponds to: It regulates excitement and acts as an anxiety reducer."
-    },
-    {
-      "question": "A researcher conducts an experiment where participants are shown images to test their responses. If they can only verbally respond to images presented to one visual field, what does this suggest about hemispheric lateralization?",
-      "options": [
-        "Both hemispheres process information equally",
-        "Only the left hemisphere is involved in verbal responses",
-        "Only the right hemisphere processes visual information",
-        "The corpus callosum is fully functional"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This suggests that the left hemisphere is primarily responsible for verbal responses, highlighting the lateralization of function. This corresponds to: Only the left hemisphere is involved in verbal responses."
-    },
-    {
-      "question": "In a study of synaptic transmission, participants show a delay in response when inhibitory neurotransmitters are activated. What does this indicate about the role of inhibitory neurotransmitters?",
-      "options": [
-        "They speed up neural transmission",
-        "They have no effect on neural transmission",
-        "They slow down the likelihood of neuron firing",
-        "They enhance excitatory signals"
+        "Serotonin",
+        "GABA",
+        "Noradrenaline",
+        "Acetylcholine"
       ],
       "correctAnswer": 2,
-      "explanation": "Inhibitory neurotransmitters decrease the likelihood of neuron firing, which can lead to a delay in response. This corresponds to: They slow down the likelihood of neuron firing."
+      "explanation": "Noradrenaline is involved in the autonomic nervous system and is responsible for increasing heart rate during stress responses"
     },
     {
-      "question": "Research on split brain patients indicates that results cannot always be generalized due to small sample sizes. What is a methodological issue related to this?",
+      "question": "In a study, participants are shown a word in their right visual field and asked to name it. This demonstrates which aspect of hemispheric lateralization?",
       "options": [
-        "The findings are too complex to understand",
-        "The sample may not represent the wider population",
-        "The research methods are outdated",
-        "The results are always consistent across studies"
+        "Right hemisphere dominance for language",
+        "Left hemisphere dominance for language",
+        "Bilateral processing",
+        "Visual-spatial processing"
       ],
       "correctAnswer": 1,
-      "explanation": "Small sample sizes limit the ability to generalize findings, making it difficult to create nomothetic theories. This corresponds to: The sample may not represent the wider population."
+      "explanation": "The left hemisphere is typically dominant for language processing, allowing participants to verbally name words presented in the right visual field. This corresponds to: Left hemisphere dominance for language."
     },
     {
-      "question": "When evaluating the role of neurotransmitters in behavior, what is a potential limitation of focusing solely on biological explanations?",
+      "question": "Research on split-brain patients has shown that they can draw an object presented to their left visual field but cannot name it. This suggests what about the right hemisphere?",
       "options": [
-        "They ignore environmental influences",
-        "They are too simplistic",
-        "They are always accurate",
-        "They do not consider genetic factors"
+        "It is responsible for language production",
+        "It is involved in visual processing",
+        "It controls motor functions",
+        "It has no role in visual perception"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This finding indicates that while the right hemisphere can process visual information, it lacks the language capabilities typically associated with the left hemisphere. This corresponds to: It is involved in visual processing."
+    },
+    {
+      "question": "Which neurotransmitter is primarily responsible for calming the nervous system and inducing sleep?",
+      "options": [
+        "Acetylcholine",
+        "Noradrenaline",
+        "Serotonin",
+        "GABA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "GABA acts as an inhibitory neurotransmitter that regulates excitement in the nervous system, thus calming it and promoting sleep"
+    },
+    {
+      "question": "In a scenario where a person experiences anxiety and their GABA levels are low, what effect would this have on their nervous system?",
+      "options": [
+        "Increased excitability",
+        "Decreased heart rate",
+        "Enhanced relaxation",
+        "Reduced synaptic transmission"
       ],
       "correctAnswer": 0,
-      "explanation": "Focusing solely on biological explanations can overlook the significant impact of environmental influences on behavior. This corresponds to: They ignore environmental influences."
+      "explanation": "Low GABA levels would lead to increased excitability in the nervous system, contributing to heightened anxiety"
     },
     {
-      "question": "Which is the primary function of excitatory neurotransmitters such as acetylcholine?",
+      "question": "What methodological issue arises from using split-brain patients to study hemispheric lateralization?",
       "options": [
-        "They decrease the likelihood of neuron firing",
-        "They increase the likelihood of neuron firing",
-        "They inhibit synaptic transmission",
-        "They break down enzymes in the synaptic cleft"
+        "Small sample sizes limit generalizability",
+        "Participants may have confounding variables",
+        "The procedure is ethically questionable",
+        "Results are often inconsistent"
       ],
-      "correctAnswer": 1,
-      "explanation": "Excitatory neurotransmitters increase the likelihood that an excitatory signal is sent to the postsynaptic cell, making it more likely to fire. This corresponds to: They increase the likelihood of neuron firing."
+      "correctAnswer": 0,
+      "explanation": "The small sample sizes in split-brain research limit the ability to generalize findings to the wider population. This corresponds to: Small sample sizes limit generalizability."
+    },
+    {
+      "question": "What is the role of the synaptic cleft in synaptic transmission?",
+      "options": [
+        "It allows neurotransmitters to be released",
+        "It connects sensory and motor neurons",
+        "It prevents neurotransmitter binding",
+        "It facilitates the electrical impulse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The synaptic cleft is the gap between neurons where neurotransmitters are released and travel to bind with receptors on the postsynaptic neuron. This corresponds to: It allows neurotransmitters to be released."
     }
   ]
 }

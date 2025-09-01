@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:28:10.135Z",
+  "savedAt": "2025-09-01T12:25:16.751Z",
   "curriculum": "aqa-psych",
   "topicId": "attachment",
   "subId": "explanations-of-attachment",
   "set": "B",
   "questions": [
     {
-      "question": "Which of the following best describes Bowlby's monotropic theory of attachment?",
+      "question": "What does Bowlby's monotropic theory of attachment emphasize?",
       "options": [
-        "It suggests that attachment is learned through conditioning.",
-        "It proposes that infants form one primary attachment figure.",
-        "It emphasizes the role of multiple attachments.",
-        "It states that attachment is solely a cultural phenomenon."
+        "The importance of multiple attachments",
+        "The role of the father",
+        "The significance of a primary attachment figure",
+        "The influence of cultural factors"
       ],
-      "correctAnswer": 1,
-      "explanation": "Bowlby's monotropic theory posits that infants form a single primary attachment figure, which is crucial for their development. This corresponds to: It proposes that infants form one primary attachment figure.."
+      "correctAnswer": 2,
+      "explanation": "Bowlby's monotropic theory emphasizes the importance of a primary attachment figure, suggesting that infants form one strong attachment that is crucial for their development. This corresponds to: The significance of a primary attachment figure."
     },
     {
-      "question": "In Ainsworth's Strange Situation, which type of attachment is characterized by high levels of anxiety and resistance to the caregiver?",
+      "question": "In Ainsworth's Strange Situation, which type of attachment is characterized by high levels of anxiety and resistance to comfort from the caregiver?",
       "options": [
         "Secure attachment",
         "Insecure-avoidant attachment",
@@ -26,95 +26,95 @@
         "Disorganized attachment"
       ],
       "correctAnswer": 2,
-      "explanation": "Insecure-resistant attachment is marked by anxiety and ambivalence towards the caregiver, as observed in Ainsworth's Strange Situation"
+      "explanation": "Insecure-resistant attachment is characterized by high levels of anxiety and ambivalence towards the caregiver, often resisting comfort when it is offered"
     },
     {
-      "question": "A study found that children raised in institutions showed significant emotional and social difficulties. This supports which of Bowlby's theories?",
+      "question": "A study found that infants raised in institutions showed signs of attachment difficulties. This supports which of Bowlby's theories?",
       "options": [
-        "Learning theory of attachment",
+        "Learning theory",
         "Monotropic theory",
-        "Maternal deprivation hypothesis",
-        "Internal working model"
+        "Maternal deprivation",
+        "Cultural variations"
       ],
       "correctAnswer": 2,
-      "explanation": "Bowlby's maternal deprivation hypothesis suggests that prolonged separation from the primary caregiver can lead to emotional and social difficulties"
+      "explanation": "The findings support Bowlby's theory of maternal deprivation, which posits that a lack of a primary caregiver can lead to attachment difficulties"
     },
     {
-      "question": "A researcher observes that a child who has a secure attachment style tends to have better social skills in adulthood. This supports which concept?",
+      "question": "Which of the following best describes the concept of the internal working model in Bowlby's attachment theory?",
       "options": [
-        "Critical period",
-        "Internal working model",
-        "Operant conditioning",
-        "Reciprocity"
+        "A model of attachment behaviors",
+        "A framework for understanding relationships based on early experiences",
+        "A method for measuring attachment styles",
+        "A theory of cultural variations in attachment"
       ],
       "correctAnswer": 1,
-      "explanation": "The internal working model suggests that early attachment experiences shape future relationships and social competence"
+      "explanation": "The internal working model is a framework that influences how individuals perceive and interact in relationships based on their early attachment experiences. This corresponds to: A framework for understanding relationships based on early experiences."
     },
     {
-      "question": "In a study comparing attachment styles across cultures, researchers found that Japanese children exhibited higher rates of insecure-resistant attachment. This finding suggests what about attachment theory?",
+      "question": "In a study comparing attachment styles across cultures, researchers found that Japanese children exhibited higher levels of insecure-resistant attachment. What could this indicate?",
       "options": [
-        "It is universally applicable.",
-        "It may be culturally biased.",
-        "It is irrelevant to child development.",
-        "It only applies to Western cultures."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The higher rates of insecure-resistant attachment in Japanese children may indicate cultural bias in attachment theory, as attachment styles can vary across cultures. This corresponds to: It may be culturally biased.."
-    },
-    {
-      "question": "Which of the following is a limitation of the learning theory of attachment?",
-      "options": [
-        "It ignores the role of biological factors.",
-        "It overemphasizes the importance of the primary caregiver.",
-        "It does not account for cultural variations.",
-        "It is based solely on animal studies."
+        "Cultural bias in attachment theory",
+        "Universal attachment behaviors",
+        "The effectiveness of Western parenting styles",
+        "The irrelevance of attachment styles"
       ],
       "correctAnswer": 0,
-      "explanation": "The learning theory of attachment is criticized for ignoring biological factors, such as innate attachment behaviors proposed by Bowlby. This corresponds to: It ignores the role of biological factors.."
+      "explanation": "This finding may indicate cultural bias in attachment theory, suggesting that attachment behaviors and their interpretations can vary significantly across cultures"
     },
     {
-      "question": "What methodological issue is often associated with Ainsworth's Strange Situation?",
+      "question": "Which of the following best describes classical conditioning as it relates to attachment?",
       "options": [
-        "It lacks ecological validity.",
-        "It is too simplistic.",
-        "It does not consider the father's role.",
-        "It is culturally biased."
+        "Learning through observation",
+        "Learning through reinforcement",
+        "Learning through association",
+        "Learning through imitation"
       ],
-      "correctAnswer": 0,
-      "explanation": "The Strange Situation has been criticized for lacking ecological validity, as it may not accurately reflect attachment behaviors in natural settings. This corresponds to: It lacks ecological validity.."
+      "correctAnswer": 2,
+      "explanation": "Classical conditioning involves learning through association, where a neutral stimulus becomes associated with an unconditioned stimulus to elicit a conditioned response"
     },
     {
-      "question": "Which of the following statements about the critical period in Bowlby's theory is true?",
+      "question": "A researcher observes that a child shows distress when their caregiver leaves but is easily comforted upon their return. This child likely has what type of attachment?",
       "options": [
-        "It is a time when children can form multiple attachments.",
-        "It is a sensitive period for forming attachments.",
-        "It is irrelevant to attachment development.",
-        "It only applies to Western cultures."
+        "Insecure-avoidant",
+        "Insecure-resistant",
+        "Secure",
+        "Disorganized"
       ],
-      "correctAnswer": 1,
-      "explanation": "Bowlby's critical period refers to a sensitive time frame during which infants are most receptive to forming attachments. This corresponds to: It is a sensitive period for forming attachments.."
+      "correctAnswer": 2,
+      "explanation": "The child's behavior indicates a secure attachment, characterized by distress when the caregiver leaves and comfort upon their return"
     },
     {
-      "question": "According to Rothbaum et al. (2000), how does cultural context influence attachment styles?",
+      "question": "What is a limitation of the learning theory of attachment?",
       "options": [
-        "All cultures value independence equally.",
-        "Cultural values shape the definition of competence in attachment.",
-        "Attachment styles are universal across all cultures.",
-        "Cultural context has no impact on attachment."
+        "It ignores the role of genetics",
+        "It does not account for emotional bonds",
+        "It overemphasizes the importance of feeding",
+        "It lacks empirical support"
       ],
-      "correctAnswer": 1,
-      "explanation": "Rothbaum et al. argue that cultural values influence how attachment is expressed and understood, highlighting the need for culturally relevant theories. This corresponds to: Cultural values shape the definition of competence in attachment.."
+      "correctAnswer": 2,
+      "explanation": "A limitation of the learning theory is that it overemphasizes the importance of feeding in attachment formation, neglecting the emotional bonds that develop through sensitive caregiving"
     },
     {
-      "question": "Which animal study provided evidence for the importance of a primary attachment figure in attachment development?",
+      "question": "Which animal study provided evidence for the importance of comfort over food in attachment formation?",
       "options": [
-        "Harlow's monkey study",
         "Lorenz's imprinting study",
+        "Harlow's rhesus monkey study",
         "Ainsworth's Strange Situation",
         "Bowlby's maternal deprivation study"
       ],
-      "correctAnswer": 0,
-      "explanation": "Harlow's study with rhesus monkeys demonstrated the significance of a primary attachment figure, as the monkeys preferred a soft surrogate mother over a wire one. This corresponds to: Harlow's monkey study."
+      "correctAnswer": 1,
+      "explanation": "Harlow's rhesus monkey study demonstrated that infant monkeys preferred a soft, comforting surrogate mother over a wire mother that provided food, highlighting the importance of comfort in attachment"
+    },
+    {
+      "question": "What does the critical period in Bowlby's attachment theory refer to?",
+      "options": [
+        "The time frame for developing multiple attachments",
+        "The optimal time for forming a primary attachment",
+        "The period when attachment behaviors are most observable",
+        "The age at which children become independent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The critical period refers to the optimal time frame for forming a primary attachment, typically within the first few years of life. This corresponds to: The optimal time for forming a primary attachment."
     }
   ]
 }

@@ -1,98 +1,43 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:09:48.981Z",
+  "savedAt": "2025-09-01T13:09:02.927Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "scientific-processes",
   "set": "B",
   "questions": [
     {
-      "question": "What type of experiment involves manipulating the independent variable in a controlled environment to observe its effect on the dependent variable?",
+      "question": "What type of experiment involves manipulation of an independent variable in a controlled environment to establish cause and effect?",
       "options": [
-        "Laboratory experiment",
         "Field experiment",
+        "Laboratory experiment",
         "Natural experiment",
         "Quasi-experiment"
       ],
-      "correctAnswer": 0,
-      "explanation": "A laboratory experiment is conducted in a controlled environment where the researcher manipulates the independent variable"
+      "correctAnswer": 1,
+      "explanation": "Laboratory experiments are conducted in controlled settings, allowing researchers to manipulate the independent variable and measure its effect on the dependent variable"
     },
     {
-      "question": "In a study examining the relationship between sleep duration and academic performance, researchers found a correlation coefficient of +0.75. What does this indicate?",
-      "options": [
-        "A strong positive relationship",
-        "A strong negative relationship",
-        "No relationship",
-        "A weak positive relationship"
-      ],
-      "correctAnswer": 0,
-      "explanation": "A correlation coefficient of +0.75 indicates a strong positive relationship between sleep duration and academic performance"
-    },
-    {
-      "question": "Joanna is conducting a questionnaire to assess the experiences of girls in Uganda regarding homework. To ensure reliability, which method could she use?",
+      "question": "In Joanna's research on girls in Uganda, which method could she use to ensure her questionnaire is reliable?",
       "options": [
         "Pilot study",
-        "Test-retest method",
-        "Random sampling",
+        "Naturalistic observation",
+        "Case study",
         "Content analysis"
       ],
-      "correctAnswer": 1,
-      "explanation": "The test-retest method involves asking the same questions again after a period to check for consistency in responses"
+      "correctAnswer": 0,
+      "explanation": "A pilot study allows Joanna to test her questionnaire on a small group before full deployment, helping to identify any issues with reliability"
     },
     {
-      "question": "Which observational technique involves the researcher being part of the group being studied?",
+      "question": "What is a key limitation of self-report techniques such as questionnaires?",
       "options": [
-        "Covert observation",
-        "Overt observation",
-        "Participant observation",
-        "Non-participant observation"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Participant observation requires the researcher to engage with the group being studied, providing deeper insights"
-    },
-    {
-      "question": "In a study using a questionnaire, if the questions are ambiguous and lead to varied interpretations, what issue does this primarily affect?",
-      "options": [
-        "Reliability",
-        "Validity",
-        "Generalizability",
-        "Sampling bias"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Ambiguous questions can lead to misunderstandings, affecting the validity of the data collected"
-    },
-    {
-      "question": "What is a key limitation of using self-report techniques like questionnaires?",
-      "options": [
-        "They are time-consuming",
-        "They may suffer from social desirability bias",
+        "They are always qualitative",
+        "They can be influenced by demand characteristics",
         "They require a large sample size",
-        "They cannot provide qualitative data"
+        "They are time-consuming"
       ],
       "correctAnswer": 1,
-      "explanation": "Self-report techniques can be influenced by social desirability bias, where respondents answer in a way they think is favorable. This corresponds to: They may suffer from social desirability bias."
-    },
-    {
-      "question": "What is the primary purpose of conducting a pilot study in psychological research?",
-      "options": [
-        "To test the hypothesis",
-        "To identify potential issues in the research design",
-        "To gather data for analysis",
-        "To ensure ethical standards are met"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A pilot study helps researchers identify and rectify potential issues in the research design before the main study. This corresponds to: To identify potential issues in the research design."
-    },
-    {
-      "question": "In a naturalistic observation, what is the primary advantage compared to controlled observation?",
-      "options": [
-        "Higher reliability",
-        "Greater ecological validity",
-        "Easier data collection",
-        "Less researcher bias"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Naturalistic observations have greater ecological validity as they occur in real-world settings, reflecting genuine behavior"
+      "explanation": "Self-report techniques can be influenced by demand characteristics, where participants alter their responses based on perceived expectations. This corresponds to: They can be influenced by demand characteristics."
     },
     {
       "question": "Which sampling technique involves selecting participants based on specific characteristics to ensure representation?",
@@ -103,18 +48,73 @@
         "Systematic sampling"
       ],
       "correctAnswer": 1,
-      "explanation": "Stratified sampling ensures that subgroups within a population are represented proportionally in the sample"
+      "explanation": "Stratified sampling involves dividing the population into subgroups and selecting participants from each subgroup to ensure representation"
     },
     {
-      "question": "What is the main difference between a directional hypothesis and a non-directional hypothesis?",
+      "question": "In a study examining the relationship between study time and exam scores, which method would best analyze the data?",
       "options": [
-        "Directional hypotheses predict the direction of the effect, while non-directional do not",
-        "Directional hypotheses are always tested in experiments",
-        "Non-directional hypotheses are more specific",
-        "Directional hypotheses require larger samples"
+        "Experimental method",
+        "Correlational analysis",
+        "Case study",
+        "Content analysis"
       ],
-      "correctAnswer": 0,
-      "explanation": "A directional hypothesis specifies the expected direction of the relationship, whereas a non-directional hypothesis does not. This corresponds to: Directional hypotheses predict the direction of the effect, while non-directional do not."
+      "correctAnswer": 1,
+      "explanation": "Correlational analysis is used to examine the relationship between two co-variables, such as study time and exam scores"
+    },
+    {
+      "question": "What is one strength of using observational techniques in psychological research?",
+      "options": [
+        "They provide quantitative data",
+        "They allow for manipulation of variables",
+        "They can capture natural behavior",
+        "They eliminate ethical concerns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Observational techniques can capture natural behavior in real-world settings, enhancing ecological validity. This corresponds to: They can capture natural behavior."
+    },
+    {
+      "question": "Which type of validity assesses whether a study's findings can be generalized to real-world settings?",
+      "options": [
+        "Internal validity",
+        "External validity",
+        "Face validity",
+        "Construct validity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "External validity refers to the extent to which findings can be generalized beyond the study's specific conditions"
+    },
+    {
+      "question": "In a study where participants are asked to recall a list of words, what type of data is being collected?",
+      "options": [
+        "Qualitative data",
+        "Quantitative data",
+        "Primary data",
+        "Secondary data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Quantitative data is numerical and can be measured, such as the number of words recalled by participants"
+    },
+    {
+      "question": "What is the purpose of a pilot study in psychological research?",
+      "options": [
+        "To collect final data",
+        "To test the feasibility of the research design",
+        "To ensure ethical approval",
+        "To analyze results statistically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pilot study tests the feasibility of the research design and identifies any issues before the main study is conducted. This corresponds to: To test the feasibility of the research design."
+    },
+    {
+      "question": "What is a potential issue with using a questionnaire that includes leading questions?",
+      "options": [
+        "Increased reliability",
+        "Decreased validity",
+        "Higher response rates",
+        "Improved clarity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leading questions can bias responses, thus decreasing the validity of the data collected. This corresponds to: Decreased validity."
     }
   ]
 }

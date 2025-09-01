@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:31:02.372Z",
+  "savedAt": "2025-09-01T12:30:43.387Z",
   "curriculum": "aqa-psych",
   "topicId": "approaches-in-psychology",
   "subId": "learning-approaches-behaviourism",
@@ -12,35 +12,35 @@
         "Mental processes",
         "Observable behaviour",
         "Emotional responses",
-        "Cognitive development"
+        "Biological factors"
       ],
       "correctAnswer": 1,
-      "explanation": "The behaviourist approach focuses solely on observable behaviour, rejecting the study of mental processes"
+      "explanation": "The behaviourist approach is primarily concerned with studying observable behaviour rather than mental processes"
     },
     {
       "question": "In Pavlov's classical conditioning experiment, what was the unconditioned stimulus?",
       "options": [
         "The bell",
         "The food",
-        "The salivation response",
+        "The salivation",
         "The dog"
       ],
       "correctAnswer": 1,
       "explanation": "In Pavlov's experiment, the food was the unconditioned stimulus that naturally elicited a salivation response"
     },
     {
-      "question": "Which type of reinforcement involves avoiding an unpleasant experience?",
+      "question": "According to Skinner's operant conditioning, what is positive reinforcement?",
       "options": [
-        "Positive reinforcement",
-        "Negative reinforcement",
-        "Punishment",
-        "Conditioned response"
+        "Avoiding an unpleasant experience",
+        "Receiving a reward for a behaviour",
+        "Punishing undesirable behaviour",
+        "Ignoring a behaviour"
       ],
       "correctAnswer": 1,
-      "explanation": "Negative reinforcement occurs when a behaviour is strengthened by the removal of an unpleasant stimulus"
+      "explanation": "Positive reinforcement involves receiving a reward when a certain behaviour is performed, increasing the likelihood of that behaviour being repeated. This corresponds to: Receiving a reward for a behaviour."
     },
     {
-      "question": "A child receives praise from their parent for eating vegetables. This is an example of which type of conditioning?",
+      "question": "A child receives praise from their parents for eating vegetables. This is an example of which type of conditioning?",
       "options": [
         "Classical conditioning",
         "Operant conditioning",
@@ -48,73 +48,73 @@
         "Cognitive learning"
       ],
       "correctAnswer": 1,
-      "explanation": "This scenario illustrates operant conditioning, where the child is reinforced for a specific behaviour (eating vegetables)"
+      "explanation": "This scenario illustrates operant conditioning, where the child is reinforced for a specific behaviour (eating vegetables) through praise"
     },
     {
-      "question": "What did Skinner's research demonstrate about operant conditioning?",
+      "question": "What is a methodological limitation of the behaviourist approach?",
       "options": [
-        "Learning occurs through observation",
-        "Behaviour is shaped by its consequences",
-        "All behaviour is innate",
-        "Conditioning is irrelevant to behaviour"
+        "Focus on mental processes",
+        "Use of lab studies",
+        "Neglect of biological factors",
+        "Overemphasis on social influences"
       ],
       "correctAnswer": 1,
-      "explanation": "Skinner's research showed that behaviour is shaped by its consequences, highlighting the role of reinforcement and punishment"
+      "explanation": "The behaviourist approach often relies on lab studies, which may lack ecological validity and not reflect real-world behaviours. This corresponds to: Use of lab studies."
     },
     {
-      "question": "In a study, a rat learns to press a lever to receive food. This is an example of which conditioning?",
+      "question": "In the context of flavour-flavour learning, what does this principle suggest about food preferences?",
       "options": [
-        "Classical conditioning",
-        "Operant conditioning",
-        "Social learning",
-        "Cognitive learning"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This scenario exemplifies operant conditioning, where the rat learns to perform a behaviour to receive a reward"
-    },
-    {
-      "question": "One criticism of the behaviourist approach is that it ignores which aspect of human experience?",
-      "options": [
-        "Biological influences",
-        "Cognitive processes",
-        "Social interactions",
-        "Emotional responses"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The behaviourist approach is criticized for neglecting cognitive processes, focusing solely on observable behaviour"
-    },
-    {
-      "question": "Flavour-flavour learning suggests that we develop food preferences based on what?",
-      "options": [
-        "Innate tastes",
-        "Social influences",
-        "Associations with liked flavours",
-        "Nutritional value"
+        "Food preferences are innate",
+        "Food preferences are learned through social interactions",
+        "Food preferences develop through association with liked flavours",
+        "Food preferences are solely based on nutritional value"
       ],
       "correctAnswer": 2,
-      "explanation": "Flavour-flavour learning indicates that we prefer new foods due to their association with flavours we already enjoy. This corresponds to: Associations with liked flavours."
+      "explanation": "Flavour-flavour learning suggests that we develop a preference for new foods through their association with flavours we already like. This corresponds to: Food preferences develop through association with liked flavours."
     },
     {
-      "question": "What is a methodological strength of Skinner's research on operant conditioning?",
+      "question": "A rat learns to press a lever to receive food in a Skinner box. What type of conditioning is this an example of?",
       "options": [
-        "Use of self-report measures",
-        "Controlled laboratory settings",
-        "Longitudinal studies",
-        "Naturalistic observations"
+        "Classical conditioning",
+        "Operant conditioning",
+        "Social learning",
+        "Cognitive learning"
       ],
       "correctAnswer": 1,
-      "explanation": "Skinner's use of controlled laboratory settings allows for high levels of control and objectivity in measuring behaviour"
+      "explanation": "This scenario exemplifies operant conditioning, where behaviour is shaped by its consequences, such as receiving food"
     },
     {
-      "question": "According to behaviourists, what is the nature of human behaviour?",
+      "question": "What does the behaviourist approach suggest about human behaviour?",
       "options": [
-        "Innate and instinctual",
-        "Learned through experience",
-        "Unconscious and repressed",
-        "Cognitive and rational"
+        "It is primarily influenced by genetics",
+        "It is learned through experience",
+        "It is determined by unconscious processes",
+        "It is shaped by cognitive processes"
       ],
       "correctAnswer": 1,
-      "explanation": "Behaviourists argue that all human behaviour is learned through experiences, viewing individuals as 'blank slates'"
+      "explanation": "The behaviourist approach posits that all human behaviour is learned rather than inborn, viewing individuals as 'blank slates'. This corresponds to: It is learned through experience."
+    },
+    {
+      "question": "What is a criticism of the behaviourist approach regarding the concept of free will?",
+      "options": [
+        "It overemphasizes free will",
+        "It denies the existence of free will",
+        "It supports the idea of free will",
+        "It is neutral on free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach suggests that behaviour is conditioned by external factors, implying that individuals do not have true free will. This corresponds to: It denies the existence of free will."
+    },
+    {
+      "question": "In operant conditioning, what is the effect of punishment on behaviour?",
+      "options": [
+        "It increases the likelihood of behaviour",
+        "It has no effect on behaviour",
+        "It decreases the likelihood of behaviour",
+        "It reinforces positive behaviour"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Punishment is intended to decrease the likelihood of a behaviour being repeated by providing an unpleasant consequence. This corresponds to: It decreases the likelihood of behaviour."
     }
   ]
 }

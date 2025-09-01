@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:22:18.069Z",
+  "savedAt": "2025-09-01T13:26:02.597Z",
   "curriculum": "aqa-psych",
   "topicId": "psychopathology",
   "subId": "ocd",
@@ -9,112 +9,112 @@
     {
       "question": "Which of the following is a key characteristic of obsessive-compulsive disorder (OCD)?",
       "options": [
-        "A: Excessive happiness",
-        "B: Compulsive behaviors",
+        "A: Excessive mood swings",
+        "B: Recurrent intrusive thoughts",
         "C: Social withdrawal",
         "D: Memory loss"
       ],
       "correctAnswer": 1,
-      "explanation": "Compulsive behaviors, such as hand-washing or checking, are a defining feature of OCD. This corresponds to: B: Compulsive behaviors."
+      "explanation": "Recurrent intrusive thoughts, known as obsessions, are a defining feature of OCD. This corresponds to: B: Recurrent intrusive thoughts."
     },
     {
-      "question": "In Nestadt et al.'s 2000 study, what was found regarding first-degree relatives of individuals with OCD?",
+      "question": "In Nestadt et al.'s 2000 study, what was the increased risk of developing OCD for individuals with a first-degree relative who has the disorder?",
       "options": [
-        "A: They have a lower risk of developing OCD",
-        "B: They have a five-times greater risk of developing OCD",
-        "C: They show no genetic link to OCD",
-        "D: They are less likely to have OCD than the general population"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Nestadt et al. found that first-degree relatives of individuals with OCD have a five-times greater risk of developing the disorder. This corresponds to: B: They have a five-times greater risk of developing OCD."
-    },
-    {
-      "question": "Which treatment for OCD involves preventing patients from performing their compulsive behaviors while exposing them to their feared stimuli?",
-      "options": [
-        "A: Systematic desensitisation",
-        "B: Flooding",
-        "C: Exposure and response prevention",
-        "D: Cognitive Behaviour Therapy"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Exposure and response prevention (ERP) is a treatment that combines exposure to feared stimuli with prevention of compulsive behavior. This corresponds to: C: Exposure and response prevention."
-    },
-    {
-      "question": "A patient with OCD believes that if they do not wash their hands repeatedly, something terrible will happen. This belief is an example of which cognitive characteristic?",
-      "options": [
-        "A: Negative triad",
-        "B: Catastrophizing",
-        "C: Irrational thought",
-        "D: Cognitive distortion"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The belief that failing to wash hands will lead to disaster reflects an irrational thought characteristic of OCD. This corresponds to: C: Irrational thought."
-    },
-    {
-      "question": "What is a limitation of the genetic explanation of OCD as suggested by the concordance rates in twin studies?",
-      "options": [
-        "A: They are always 100%",
-        "B: They are never 100%",
-        "C: They are only applicable to males",
-        "D: They ignore environmental factors"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The fact that concordance rates for OCD are never 100% suggests that environmental factors also play a role in the disorder. This corresponds to: B: They are never 100%."
-    },
-    {
-      "question": "According to Beck's negative triad, which of the following is NOT a component of this cognitive model?",
-      "options": [
-        "A: Negative view of self",
-        "B: Negative view of the world",
-        "C: Negative view of the future",
-        "D: Positive view of others"
+        "A: Two times greater",
+        "B: Three times greater",
+        "C: Four times greater",
+        "D: Five times greater"
       ],
       "correctAnswer": 3,
-      "explanation": "Beck's negative triad includes negative views of self, the world, and the future, but not a positive view of others. This corresponds to: D: Positive view of others."
+      "explanation": "Nestadt et al. found that individuals with a first-degree relative with OCD had a five-times greater risk of developing the disorder. This corresponds to: D: Five times greater."
     },
     {
-      "question": "A patient with OCD is treated with SSRIs to increase serotonin levels. What is a potential side effect of this drug treatment?",
+      "question": "What is the primary focus of cognitive-behavioral therapy (CBT) in treating OCD?",
       "options": [
-        "A: Increased anxiety",
-        "B: Weight gain",
-        "C: Hallucinations",
-        "D: Memory loss"
+        "A: Increasing serotonin levels",
+        "B: Challenging irrational thoughts",
+        "C: Systematic desensitization",
+        "D: Flooding"
       ],
       "correctAnswer": 1,
-      "explanation": "Weight gain is a common side effect associated with selective serotonin reuptake inhibitors (SSRIs) used in treating OCD. This corresponds to: B: Weight gain."
+      "explanation": "CBT focuses on challenging and changing irrational thoughts that contribute to OCD. This corresponds to: B: Challenging irrational thoughts."
     },
     {
-      "question": "What methodological issue arises from the reliance on twin studies to support the genetic explanation of OCD?",
+      "question": "A patient with OCD is treated using exposure and response prevention (ERP). What is the main goal of this treatment?",
       "options": [
-        "A: They only include identical twins",
-        "B: They do not account for shared environments",
-        "C: They are too small in sample size",
-        "D: They ignore psychological factors"
+        "A: To increase serotonin levels",
+        "B: To prevent compulsive behaviors",
+        "C: To enhance social skills",
+        "D: To improve memory function"
       ],
       "correctAnswer": 1,
-      "explanation": "Twin studies may not adequately account for shared environmental factors that could influence the development of OCD. This corresponds to: B: They do not account for shared environments."
+      "explanation": "ERP aims to expose patients to their feared stimuli while preventing them from performing their compulsive behaviors. This corresponds to: B: To prevent compulsive behaviors."
     },
     {
       "question": "Which of the following best describes the two-process model in relation to OCD?",
       "options": [
         "A: It focuses solely on genetic factors",
-        "B: It explains OCD as a learned behavior through classical and operant conditioning",
-        "C: It emphasizes the role of neurotransmitters",
-        "D: It is based on cognitive distortions"
+        "B: It emphasizes the role of classical conditioning",
+        "C: It ignores environmental influences",
+        "D: It is only applicable to phobias"
       ],
       "correctAnswer": 1,
-      "explanation": "The two-process model explains OCD as a learned behavior through classical conditioning and maintained by operant conditioning. This corresponds to: B: It explains OCD as a learned behavior through classical and operant conditioning."
+      "explanation": "The two-process model emphasizes that initial learning occurs through classical conditioning, leading to the development of OCD. This corresponds to: B: It emphasizes the role of classical conditioning."
     },
     {
-      "question": "What is a common criticism of drug treatments for OCD?",
+      "question": "What is a limitation of the genetic explanation for OCD as highlighted by research findings?",
       "options": [
-        "A: They are always effective",
-        "B: They do not address underlying causes",
-        "C: They are too expensive",
-        "D: They have no side effects"
+        "A: It cannot explain the role of environmental factors",
+        "B: It is based solely on self-reported data",
+        "C: It has 100% concordance rates in twins",
+        "D: It does not consider treatment effectiveness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The genetic explanation has limitations as concordance rates are never 100%, indicating that environmental factors also play a role. This corresponds to: A: It cannot explain the role of environmental factors."
+    },
+    {
+      "question": "Which of the following is a potential side effect of drug treatments for OCD?",
+      "options": [
+        "A: Increased anxiety",
+        "B: Weight gain",
+        "C: Insomnia",
+        "D: All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Drug treatments for OCD can lead to various side effects, including increased anxiety, weight gain, and insomnia. This corresponds to: D: All of the above."
+    },
+    {
+      "question": "According to the diathesis-stress model, how do genetic factors relate to OCD?",
+      "options": [
+        "A: They are the sole cause of OCD",
+        "B: They act as a predisposing factor",
+        "C: They have no relevance",
+        "D: They only affect children"
       ],
       "correctAnswer": 1,
-      "explanation": "A common criticism is that drug treatments may not address the underlying psychological causes of OCD. This corresponds to: B: They do not address underlying causes."
+      "explanation": "The diathesis-stress model suggests that genetic factors predispose individuals to OCD, but environmental factors also contribute. This corresponds to: B: They act as a predisposing factor."
+    },
+    {
+      "question": "What is one strength of using drug treatments for OCD?",
+      "options": [
+        "A: They are always effective",
+        "B: They can be easily administered",
+        "C: They have no side effects",
+        "D: They eliminate the need for therapy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One strength of drug treatments is that they can be easily administered, providing a convenient option for patients. This corresponds to: B: They can be easily administered."
+    },
+    {
+      "question": "Which approach to explaining OCD focuses on the role of learned behaviors?",
+      "options": [
+        "A: Biological approach",
+        "B: Cognitive approach",
+        "C: Behavioral approach",
+        "D: Humanistic approach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The behavioral approach explains OCD through learned behaviors, particularly through classical and operant conditioning. This corresponds to: C: Behavioral approach."
     }
   ]
 }

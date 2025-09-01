@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:11:14.227Z",
+  "savedAt": "2025-09-01T13:21:58.884Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "inferential-testing",
   "set": "B",
   "questions": [
     {
-      "question": "Which statistical test would be appropriate for analyzing the difference in coffee preferences between males and females, given that the data is nominal?",
+      "question": "In a study examining the effect of sleep deprivation on cognitive performance, researchers used a Mann-Whitney test to analyze the data. What type of data is most appropriate for this test?",
       "options": [
-        "Mann-Whitney",
+        "Nominal",
+        "Ordinal",
+        "Interval",
+        "Ratio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Mann-Whitney test is used for ordinal data, which ranks the data points rather than measuring them on a scale"
+    },
+    {
+      "question": "A researcher is testing whether there is a significant difference in test scores between two different teaching methods. If the data is normally distributed, which inferential test should the researcher use?",
+      "options": [
         "Chi-Squared",
-        "Wilcoxon",
-        "Pearson's r"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The Chi-Squared test is suitable for nominal data to assess differences in frequencies across categories"
-    },
-    {
-      "question": "In a study comparing two groups of participants on their reaction times, which inferential test should be used if the same participants are tested under both conditions?",
-      "options": [
-        "Unrelated t-test",
-        "Related t-test",
         "Mann-Whitney",
-        "Chi-Squared"
+        "Unrelated t-test",
+        "Wilcoxon"
       ],
-      "correctAnswer": 1,
-      "explanation": "The related t-test is used when the same participants are involved in both conditions"
+      "correctAnswer": 2,
+      "explanation": "The unrelated t-test is appropriate for comparing means between two independent groups when the data is normally distributed"
     },
     {
-      "question": "A researcher finds a significant result with a p-value of 0.03. What does this indicate about the findings?",
-      "options": [
-        "The result is not significant at p < 0.01",
-        "The result is significant at p < 0.05",
-        "The result is significant at p < 0.10",
-        "The result is not significant at p < 0.05"
-      ],
-      "correctAnswer": 1,
-      "explanation": "A p-value of 0.03 indicates significance at the 0.05 level, meaning the null hypothesis can be rejected. This corresponds to: The result is significant at p < 0.05."
-    },
-    {
-      "question": "In a study using the Mann-Whitney test, researchers found a U value of 15 with a critical value of 20. What can be concluded?",
+      "question": "In a study with two groups of participants, one receiving a new therapy and the other receiving standard treatment, the results showed a p-value of 0.03. What does this indicate?",
       "options": [
         "The results are not significant",
-        "The results are significant",
-        "The data is normally distributed",
-        "The sample sizes are equal"
+        "There is a significant difference at p < 0.05",
+        "The results are significant at p < 0.01",
+        "The null hypothesis is accepted"
       ],
       "correctAnswer": 1,
-      "explanation": "Since the U value of 15 is less than the critical value of 20, the results are significant"
+      "explanation": "A p-value of 0.03 indicates a significant difference at the 0.05 level, suggesting the new therapy may be effective. This corresponds to: There is a significant difference at p < 0.05."
     },
     {
-      "question": "When conducting a Chi-Squared test, which of the following is a necessary condition for the data?",
+      "question": "A researcher conducts a Chi-Squared test to examine the relationship between gender and coffee preference. What type of data is being analyzed?",
       "options": [
-        "Data must be ordinal",
+        "Ordinal",
+        "Nominal",
+        "Interval",
+        "Ratio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Chi-Squared test is used for nominal data, which categorizes participants into groups without a numerical value"
+    },
+    {
+      "question": "In a psychological study, participants' scores on a stress questionnaire are compared before and after a relaxation intervention using a related t-test. What is a key assumption of this test?",
+      "options": [
         "Data must be nominal",
-        "Data must be interval",
-        "Data must be ratio"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The Chi-Squared test requires nominal data to assess differences in frequencies across categories. This corresponds to: Data must be nominal."
-    },
-    {
-      "question": "A researcher uses a Wilcoxon test to analyze data from a study with 10 participants. What type of design is likely being used?",
-      "options": [
-        "Independent groups design",
-        "Matched pairs design",
-        "Repeated measures design",
-        "Cross-sectional design"
+        "Data must be independent",
+        "Data must be normally distributed",
+        "Data must be ordinal"
       ],
       "correctAnswer": 2,
-      "explanation": "The Wilcoxon test is used for related samples, indicating a repeated measures design"
+      "explanation": "The related t-test assumes that the differences between paired observations are normally distributed. This corresponds to: Data must be normally distributed."
     },
     {
-      "question": "In a study comparing two independent groups, if the data is ordinal, which statistical test should be used?",
+      "question": "A researcher finds a significant result using a Wilcoxon test with a p-value of 0.04. What type of error could occur if the null hypothesis is incorrectly rejected?",
       "options": [
-        "Pearson's r",
-        "Mann-Whitney",
-        "Related t-test",
-        "Chi-Squared"
+        "Type I error",
+        "Type II error",
+        "Sampling error",
+        "Measurement error"
       ],
-      "correctAnswer": 1,
-      "explanation": "The Mann-Whitney test is appropriate for comparing two independent groups with ordinal data"
+      "correctAnswer": 0,
+      "explanation": "A Type I error occurs when the null hypothesis is rejected when it is actually true, which is a risk when p < 0.05"
     },
     {
-      "question": "What is a Type I error in the context of inferential statistics?",
+      "question": "In a study comparing the effectiveness of two diets, the researcher uses Spearman's rho to analyze the data. What type of relationship is this test assessing?",
       "options": [
-        "Failing to reject a false null hypothesis",
-        "Rejecting a true null hypothesis",
-        "Accepting a false alternative hypothesis",
-        "Failing to detect a true effect"
+        "Causal relationship",
+        "Linear relationship",
+        "Monotonic relationship",
+        "No relationship"
       ],
-      "correctAnswer": 1,
-      "explanation": "A Type I error occurs when a true null hypothesis is incorrectly rejected, leading to a false positive. This corresponds to: Rejecting a true null hypothesis."
+      "correctAnswer": 2,
+      "explanation": "Spearman's rho assesses the strength and direction of a monotonic relationship between two variables"
     },
     {
-      "question": "Which of the following statements about the Spearman's rho test is true?",
+      "question": "A researcher uses a sign test to analyze the data from a repeated measures design. What is a key characteristic of this test?",
       "options": [
-        "It is used for nominal data",
-        "It assesses the strength of a linear relationship",
+        "It requires interval data",
+        "It is a parametric test",
         "It is a non-parametric test",
-        "It requires normally distributed data"
+        "It assumes normal distribution"
       ],
       "correctAnswer": 2,
-      "explanation": "Spearman's rho is a non-parametric test used to assess the strength of a relationship between two variables. This corresponds to: It is a non-parametric test."
+      "explanation": "The sign test is a non-parametric test used for analyzing differences in repeated measures data. This corresponds to: It is a non-parametric test."
     },
     {
-      "question": "If a researcher uses an unrelated t-test and finds a significant result, what does this imply about the two groups being compared?",
+      "question": "In a study examining the association between exercise frequency and mood, a researcher calculates a Chi-Squared statistic. What is a critical factor for using this test?",
       "options": [
-        "They are dependent on each other",
-        "They are significantly different",
-        "They are the same",
-        "They have a correlation"
+        "Data must be continuous",
+        "Data must be independent",
+        "Data must be normally distributed",
+        "Data must be ordinal"
       ],
       "correctAnswer": 1,
-      "explanation": "A significant result from an unrelated t-test indicates that the two independent groups are significantly different. This corresponds to: They are significantly different."
+      "explanation": "The Chi-Squared test requires that the data be independent, meaning no participant can belong to more than one category. This corresponds to: Data must be independent."
+    },
+    {
+      "question": "A researcher finds that the critical value for a Mann-Whitney test is 15, but their calculated value is 20. What can the researcher conclude?",
+      "options": [
+        "The results are significant",
+        "The results are not significant",
+        "The null hypothesis is accepted",
+        "The test is invalid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the calculated value exceeds the critical value, the results are not significant, indicating no difference between groups"
     }
   ]
 }

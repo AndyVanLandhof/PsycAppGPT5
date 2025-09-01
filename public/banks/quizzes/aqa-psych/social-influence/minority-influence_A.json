@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:23:48.587Z",
+  "savedAt": "2025-09-01T12:03:54.334Z",
   "curriculum": "aqa-psych",
   "topicId": "social-influence",
   "subId": "minority-influence",
   "set": "A",
   "questions": [
     {
-      "question": "Which of the following factors is essential for minority influence to be effective, according to Wood et al. (1994)?",
+      "question": "In Nemeth and Brilmayer's (1987) study, what was found to be effective in influencing majority opinion?",
       "options": [
+        "Consistent refusal to change position",
+        "Showing flexibility in arguments",
+        "Expressing strong emotional appeals",
+        "Using majority arguments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The study found that a confederate who showed flexibility by compromising had an influence on the group, unlike those who refused to change their position. This corresponds to: Showing flexibility in arguments."
+    },
+    {
+      "question": "According to Wood et al. (1994), what factor is crucial for minority influence to be effective?",
+      "options": [
+        "Majority agreement",
         "Consistency",
-        "Flexibility",
-        "Commitment",
-        "All of the above"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Wood et al. (1994) found that minorities who were especially consistent were most influential, highlighting the importance of consistency, commitment, and flexibility. This corresponds to: All of the above."
-    },
-    {
-      "question": "In Nemeth and Brilmayer's (1987) study, what was the effect of a confederate who showed flexibility during discussions?",
-      "options": [
-        "No influence",
-        "Increased influence",
-        "Decreased influence",
-        "Immediate acceptance"
+        "Emotional appeal",
+        "Group size"
       ],
       "correctAnswer": 1,
-      "explanation": "The confederate who compromised and showed flexibility exerted influence on the rest of the group, unlike those who remained rigid. This corresponds to: Increased influence."
+      "explanation": "Wood et al. found that minorities who were especially consistent were most influential in changing majority opinions. This corresponds to: Consistency."
     },
     {
-      "question": "What is the 'snowball effect' in the context of minority influence as described by Xie et al. (2011)?",
+      "question": "In a social norms marketing campaign, DeJong et al. (2009) found that students did not report lower alcohol consumption despite receiving normative information. What does this suggest?",
       "options": [
-        "A gradual increase in majority support",
-        "A sudden shift in opinion after reaching a tipping point",
-        "The initial resistance to minority views",
-        "The process of internalising minority beliefs"
+        "Social norms interventions are always effective",
+        "Social norms interventions have limitations",
+        "Students are resistant to social influence",
+        "Majority influence is always stronger"
       ],
       "correctAnswer": 1,
-      "explanation": "Xie et al. (2011) discovered that once a minority reaches about 10% of the population, it can lead to a sudden shift in majority opinion, known as the snowball effect. This corresponds to: A sudden shift in opinion after reaching a tipping point."
+      "explanation": "The findings indicate that not all social norms interventions are able to produce the desired social change, highlighting their limitations. This corresponds to: Social norms interventions have limitations."
     },
     {
-      "question": "In a scenario where a minority group advocates for environmental policies, what might limit their influence according to the materials?",
+      "question": "What is the 'snowball effect' in the context of minority influence?",
       "options": [
-        "High levels of commitment",
-        "Perceived deviance from the majority",
-        "Flexibility in arguments",
-        "Consistent messaging"
+        "A gradual increase in minority opinion",
+        "A sudden shift in majority opinion",
+        "The process of internalization",
+        "The role of social norms"
       ],
       "correctAnswer": 1,
-      "explanation": "Minorities may be seen as 'deviant' by the majority, which can limit their influence as the majority may avoid aligning with them to not appear deviant. This corresponds to: Perceived deviance from the majority."
+      "explanation": "The snowball effect refers to the tipping point where a small percentage of committed individuals can shift majority opinion significantly. This corresponds to: A sudden shift in majority opinion."
     },
     {
-      "question": "DeJong et al. (2009) tested social norms marketing campaigns but found that students did not report lower alcohol consumption. What does this suggest about social norms interventions?",
+      "question": "Mackie (1987) argues that the majority view leads to greater processing of information. What is the implication of this for minority influence?",
       "options": [
-        "They are always effective",
-        "They can have limitations",
-        "They are only effective with minorities",
-        "They require majority support"
+        "Minority views are always more persuasive",
+        "Majority views are less scrutinized",
+        "Minority views are ignored",
+        "Dissent is always welcomed"
       ],
       "correctAnswer": 1,
-      "explanation": "The findings suggest that not all social norms interventions are able to produce social change, indicating limitations in their effectiveness. This corresponds to: They can have limitations."
+      "explanation": "Mackie's argument suggests that the majority view prompts more careful consideration, potentially undermining the effectiveness of minority influence. This corresponds to: Majority views are less scrutinized."
     },
     {
-      "question": "What does Mackie (1987) argue about the processing of minority messages compared to majority messages?",
+      "question": "What is a key characteristic of minority influence that distinguishes it from majority influence?",
       "options": [
-        "Minority messages are processed more deeply",
-        "Majority messages are ignored",
-        "Majority messages lead to greater processing",
-        "Minority messages are always persuasive"
+        "It leads to immediate social change",
+        "It relies on emotional appeals",
+        "It creates a conversion process",
+        "It is always accepted by the majority"
       ],
       "correctAnswer": 2,
-      "explanation": "Mackie (1987) argues that the majority creates greater message processing because individuals feel the need to understand differing views from the majority. This corresponds to: Majority messages lead to greater processing."
+      "explanation": "Minority influence creates a conversion process where individuals scrutinize the minority's message, leading to deeper and longer-lasting change. This corresponds to: It creates a conversion process."
     },
     {
-      "question": "What is a methodological issue highlighted by Nemeth (2010) regarding the acceptance of dissenting views?",
+      "question": "In the context of social influence, what does the term 'social cryptomnesia' refer to?",
       "options": [
-        "Dissent is always welcomed",
-        "Dissent leads to group harmony",
-        "People may appear tolerant but become irritated by persistent dissent",
-        "Dissent is always effective"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Nemeth (2010) claims that while people may accept the principle of dissent, they often become irritated by dissenting views that persist, which can hinder effective influence. This corresponds to: People may appear tolerant but become irritated by persistent dissent."
-    },
-    {
-      "question": "According to the materials, what is a key characteristic of the conversion process in minority influence?",
-      "options": [
-        "Superficial agreement",
-        "Internalisation of the minority's viewpoint",
-        "Immediate compliance",
-        "Majority dominance"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The conversion process involves individuals scrutinising the minority's message, leading to a deeper and longer-lasting internalisation of their viewpoint. This corresponds to: Internalisation of the minority's viewpoint."
-    },
-    {
-      "question": "What role does flexibility play in minority influence, based on Nemeth and Brilmayer's (1987) findings?",
-      "options": [
-        "It is ineffective",
-        "It can enhance influence if shown at the right time",
-        "It always leads to majority acceptance",
-        "It is less important than consistency"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Nemeth and Brilmayer (1987) found that flexibility can enhance influence, particularly when shown later in negotiations, rather than appearing to 'cave in' early. This corresponds to: It can enhance influence if shown at the right time."
-    },
-    {
-      "question": "What is social cryptomnesia in the context of social change?",
-      "options": [
-        "Forgetting the origins of a social norm",
-        "Remembering the minority's influence",
-        "Recognising the majority's past beliefs",
-        "Internalising minority views"
+        "Forgetting the source of a new belief",
+        "The process of internalizing majority views",
+        "The resistance to minority influence",
+        "The immediate acceptance of majority views"
       ],
       "correctAnswer": 0,
-      "explanation": "Social cryptomnesia occurs when individuals forget that the current majority view was once a minority position, illustrating how social change can be perceived over time. This corresponds to: Forgetting the origins of a social norm."
+      "explanation": "Social cryptomnesia occurs when individuals forget that the current majority view was once a minority position, illustrating the dynamics of social change. This corresponds to: Forgetting the source of a new belief."
+    },
+    {
+      "question": "What did Nemeth (2010) suggest about the value of dissent in decision-making?",
+      "options": [
+        "It leads to confusion and conflict",
+        "It enhances creativity and decision quality",
+        "It is often ignored by the majority",
+        "It creates a sense of harmony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nemeth argued that dissent opens the mind, leading to better decision-making and more creative solutions, despite initial resistance. This corresponds to: It enhances creativity and decision quality."
+    },
+    {
+      "question": "What does the augmentation principle refer to in the context of minority influence?",
+      "options": [
+        "The need for majority support",
+        "The importance of flexibility",
+        "The commitment shown by minorities",
+        "The role of social norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The augmentation principle highlights that when minorities show commitment to their position, they are more likely to influence the majority. This corresponds to: The commitment shown by minorities."
+    },
+    {
+      "question": "According to the AQA materials, what is a limitation of minority influence?",
+      "options": [
+        "It leads to immediate social change",
+        "It is often perceived as deviant",
+        "It requires majority support",
+        "It is always effective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Minorities are often seen as deviant, which limits their influence as the majority may avoid aligning with them to not be perceived as deviant themselves. This corresponds to: It is often perceived as deviant."
     }
   ]
 }

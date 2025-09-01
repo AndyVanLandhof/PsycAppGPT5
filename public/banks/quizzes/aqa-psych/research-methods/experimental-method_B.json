@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:06:16.143Z",
+  "savedAt": "2025-09-01T12:58:19.945Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "experimental-method",
@@ -9,112 +9,112 @@
     {
       "question": "Which type of experiment involves manipulating the independent variable in a controlled environment to establish a causal relationship?",
       "options": [
-        "A. Field experiment",
-        "B. Laboratory experiment",
-        "C. Natural experiment",
-        "D. Quasi-experiment"
+        "Field experiment",
+        "Laboratory experiment",
+        "Natural experiment",
+        "Quasi-experiment"
       ],
       "correctAnswer": 1,
-      "explanation": "Laboratory experiments are conducted in controlled environments where the researcher manipulates the independent variable. This corresponds to: B. Laboratory experiment."
+      "explanation": "Laboratory experiments are conducted in controlled environments, allowing researchers to manipulate the independent variable and measure its effect on the dependent variable"
     },
     {
-      "question": "In Skinner's research (1953), what was the primary method used to investigate the effects of reinforcement on behavior?",
+      "question": "In a study examining the effects of sleep deprivation on cognitive performance, researchers randomly assigned participants to either a sleep-deprived group or a control group. What type of experimental method is being used?",
       "options": [
-        "A. Naturalistic observation",
-        "B. Case study",
-        "C. Experimental method",
-        "D. Correlational study"
+        "Field experiment",
+        "Natural experiment",
+        "Laboratory experiment",
+        "Quasi-experiment"
       ],
       "correctAnswer": 2,
-      "explanation": "Skinner utilized the experimental method, specifically the Skinner box, to explore the causal relationship between reinforcement and behavior. This corresponds to: C. Experimental method."
+      "explanation": "This scenario describes a laboratory experiment where participants are randomly assigned to conditions, allowing for control over variables"
     },
     {
-      "question": "A researcher conducts a study to determine if sleep deprivation affects cognitive performance. They randomly assign participants to either a sleep-deprived group or a control group. What type of experimental design is being used?",
+      "question": "What is a key advantage of using the experimental method in psychological research?",
       "options": [
-        "A. Quasi-experiment",
-        "B. Field experiment",
-        "C. Laboratory experiment",
-        "D. Natural experiment"
-      ],
-      "correctAnswer": 2,
-      "explanation": "This scenario describes a laboratory experiment where the independent variable (sleep deprivation) is manipulated in a controlled setting. This corresponds to: C. Laboratory experiment."
-    },
-    {
-      "question": "Which of the following is a limitation of laboratory experiments?",
-      "options": [
-        "A. High ecological validity",
-        "B. Low control over variables",
-        "C. Demand characteristics",
-        "D. Naturalistic observation"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Laboratory experiments often suffer from demand characteristics, where participants may alter their behavior due to the awareness of being studied. This corresponds to: C. Demand characteristics."
-    },
-    {
-      "question": "In a study examining the impact of a new teaching method on student performance, the researcher uses pre- and post-tests to measure outcomes. What is the dependent variable in this study?",
-      "options": [
-        "A. The teaching method",
-        "B. The students' performance",
-        "C. The pre-test scores",
-        "D. The post-test scores"
+        "High ecological validity",
+        "Ability to establish cause and effect",
+        "Low demand characteristics",
+        "Rich qualitative data"
       ],
       "correctAnswer": 1,
-      "explanation": "The dependent variable is the students' performance, which is measured by comparing pre- and post-test scores. This corresponds to: B. The students' performance."
+      "explanation": "The experimental method allows researchers to manipulate variables and establish causal relationships, which is a fundamental strength of this approach. This corresponds to: Ability to establish cause and effect."
     },
     {
-      "question": "What is a key characteristic of field experiments compared to laboratory experiments?",
+      "question": "In Milgram's (1963) study on obedience, participants were deceived about the true nature of the experiment. What methodological issue does this raise?",
       "options": [
-        "A. Higher control over variables",
-        "B. Conducted in natural settings",
-        "C. Always use random sampling",
-        "D. Focus on qualitative data"
+        "Lack of ecological validity",
+        "Ethical concerns regarding deception",
+        "Low reliability of findings",
+        "Inability to replicate results"
       ],
       "correctAnswer": 1,
-      "explanation": "Field experiments are conducted in natural settings, which can enhance ecological validity compared to laboratory experiments. This corresponds to: B. Conducted in natural settings."
+      "explanation": "The use of deception in Milgram's study raises ethical concerns, as participants were not fully informed about the nature of the research. This corresponds to: Ethical concerns regarding deception."
     },
     {
-      "question": "A researcher wants to study the effects of a new drug on anxiety levels. They assign participants to either receive the drug or a placebo. What type of experimental method is being employed?",
+      "question": "Which of the following is NOT a type of experimental method?",
       "options": [
-        "A. Quasi-experiment",
-        "B. Natural experiment",
-        "C. Laboratory experiment",
-        "D. Field experiment"
+        "Laboratory experiment",
+        "Field experiment",
+        "Naturalistic observation",
+        "Quasi-experiment"
       ],
       "correctAnswer": 2,
-      "explanation": "This scenario describes a laboratory experiment where the independent variable (drug vs. placebo) is manipulated in a controlled environment. This corresponds to: C. Laboratory experiment."
+      "explanation": "Naturalistic observation is a non-experimental method, while the other options are types of experimental methods"
     },
     {
-      "question": "Which of the following best describes a quasi-experiment?",
+      "question": "A researcher conducts a study where they observe the behavior of children in a playground without intervening. What type of observational method is being used?",
       "options": [
-        "A. Random assignment to conditions",
-        "B. Manipulation of the independent variable",
-        "C. Use of pre-existing groups",
-        "D. Conducted in a controlled environment"
+        "Controlled observation",
+        "Covert observation",
+        "Naturalistic observation",
+        "Participant observation"
       ],
       "correctAnswer": 2,
-      "explanation": "Quasi-experiments involve the use of pre-existing groups rather than random assignment to conditions. This corresponds to: C. Use of pre-existing groups."
+      "explanation": "Naturalistic observation involves observing behavior in its natural environment without interference from the researcher"
     },
     {
-      "question": "What is a potential ethical issue in experimental research?",
+      "question": "What is a limitation of laboratory experiments in psychological research?",
       "options": [
-        "A. High reliability",
-        "B. Informed consent",
-        "C. Low ecological validity",
-        "D. Use of control groups"
+        "High ecological validity",
+        "Low control over variables",
+        "Demand characteristics may influence behavior",
+        "Inability to measure dependent variables"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Laboratory experiments may produce demand characteristics, where participants alter their behavior due to the experimental setting. This corresponds to: Demand characteristics may influence behavior."
+    },
+    {
+      "question": "In a quasi-experiment, the independent variable is typically based on what?",
+      "options": [
+        "Random assignment",
+        "Natural occurrences",
+        "Manipulated conditions",
+        "Participant characteristics"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Quasi-experiments involve independent variables that are based on participant characteristics, such as age or gender, rather than being manipulated by the researcher"
+    },
+    {
+      "question": "A researcher is interested in the relationship between study time and exam performance. They find a positive correlation between the two variables. What can be concluded?",
+      "options": [
+        "Study time causes better exam performance",
+        "Better exam performance causes more study time",
+        "There is a relationship between study time and exam performance",
+        "Study time and exam performance are unrelated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A positive correlation indicates a relationship between study time and exam performance, but it does not establish causation. This corresponds to: There is a relationship between study time and exam performance."
+    },
+    {
+      "question": "Which of the following best describes the role of the dependent variable in an experimental study?",
+      "options": [
+        "It is manipulated by the researcher",
+        "It is measured to assess the effect of the independent variable",
+        "It is kept constant throughout the study",
+        "It is the variable that is not controlled"
       ],
       "correctAnswer": 1,
-      "explanation": "Informed consent is a critical ethical consideration, as participants must be fully aware of the nature of the study and their involvement. This corresponds to: B. Informed consent."
-    },
-    {
-      "question": "In an experiment, if the researcher finds that increasing the amount of study time improves test scores, what can be concluded?",
-      "options": [
-        "A. There is a correlation between study time and test scores",
-        "B. Study time is the only factor affecting test scores",
-        "C. A causal relationship exists between study time and test scores",
-        "D. Test scores do not depend on study time"
-      ],
-      "correctAnswer": 2,
-      "explanation": "If the researcher manipulated study time and observed changes in test scores, a causal relationship can be inferred from the experimental design. This corresponds to: C. A causal relationship exists between study time and test scores."
+      "explanation": "The dependent variable is the outcome that is measured to assess the effect of the manipulation of the independent variable. This corresponds to: It is measured to assess the effect of the independent variable."
     }
   ]
 }

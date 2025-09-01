@@ -1,13 +1,24 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:03:28.430Z",
+  "savedAt": "2025-09-01T12:51:42.046Z",
   "curriculum": "aqa-psych",
   "topicId": "biopsychology",
   "subId": "endocrine-system",
   "set": "B",
   "questions": [
     {
-      "question": "Which gland is known as the 'master gland' of the endocrine system, controlling the release of hormones from other glands?",
+      "question": "What is the primary function of the endocrine system?",
+      "options": [
+        "To transmit nerve impulses",
+        "To regulate physiological processes through hormones",
+        "To control voluntary movements",
+        "To process sensory information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The endocrine system regulates physiological processes through the release of hormones into the bloodstream. This corresponds to: To regulate physiological processes through hormones."
+    },
+    {
+      "question": "Which gland is known as the 'master gland' of the endocrine system?",
       "options": [
         "Adrenal gland",
         "Thyroid gland",
@@ -15,32 +26,32 @@
         "Pancreas"
       ],
       "correctAnswer": 2,
-      "explanation": "The pituitary gland is referred to as the 'master gland' because it regulates the activity of other endocrine glands"
+      "explanation": "The pituitary gland is referred to as the 'master gland' because it controls the release of hormones from other endocrine glands"
     },
     {
-      "question": "During a stressful event, which part of the brain activates the pituitary gland to trigger the fight or flight response?",
-      "options": [
-        "Cerebellum",
-        "Hypothalamus",
-        "Amygdala",
-        "Cortex"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The hypothalamus activates the pituitary gland, initiating the fight or flight response"
-    },
-    {
-      "question": "In a scenario where a student feels anxious before exams, which hormone is primarily released to prepare the body for a fight or flight response?",
+      "question": "During a stressful event, which hormone is primarily released from the adrenal medulla?",
       "options": [
         "Cortisol",
-        "Adrenaline",
         "Thyroxine",
+        "Adrenaline",
         "Insulin"
       ],
-      "correctAnswer": 1,
-      "explanation": "Adrenaline is released from the adrenal medulla during stress, leading to physiological changes necessary for the fight or flight response"
+      "correctAnswer": 2,
+      "explanation": "Adrenaline is released from the adrenal medulla in response to stress, preparing the body for the fight or flight response"
     },
     {
-      "question": "What physiological changes occur in the body due to the release of adrenaline during the fight or flight response?",
+      "question": "In a scenario where a student feels anxious before an exam, which part of the nervous system is activated first?",
+      "options": [
+        "Parasympathetic nervous system",
+        "Somatic nervous system",
+        "Sympathetic nervous system",
+        "Central nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sympathetic nervous system is activated first, leading to physiological arousal in response to the perceived threat of the exam"
+    },
+    {
+      "question": "What physiological changes occur due to the release of adrenaline?",
       "options": [
         "Decreased heart rate",
         "Increased metabolic rate",
@@ -48,73 +59,62 @@
         "Increased digestive activity"
       ],
       "correctAnswer": 1,
-      "explanation": "Adrenaline increases heart rate and metabolic rate, preparing the body for immediate physical action. This corresponds to: Increased metabolic rate."
+      "explanation": "Adrenaline triggers physiological changes such as increased heart rate and metabolic rate, preparing the body for action. This corresponds to: Increased metabolic rate."
     },
     {
-      "question": "How does the endocrine system regulate hormone levels in the bloodstream?",
+      "question": "How does the endocrine system maintain stable hormone levels in the bloodstream?",
       "options": [
-        "Through synaptic transmission",
-        "Via feedback mechanisms",
-        "By direct nerve stimulation",
-        "Using neurotransmitters"
+        "Through feedback mechanisms",
+        "By increasing hormone production continuously",
+        "By using nerve impulses",
+        "Through random secretion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The endocrine system uses feedback mechanisms to regulate hormone levels, similar to a thermostat controlling temperature. This corresponds to: Through feedback mechanisms."
+    },
+    {
+      "question": "If a person is exposed to bright light in the morning, which type of external factor helps regulate their circadian rhythm?",
+      "options": [
+        "Endogenous pacemaker",
+        "Exogenous zeitgeber",
+        "Hormonal feedback",
+        "Sympathetic response"
       ],
       "correctAnswer": 1,
-      "explanation": "The endocrine system uses feedback mechanisms to regulate hormone levels, similar to a thermostat. This corresponds to: Via feedback mechanisms."
+      "explanation": "Bright light acts as an exogenous zeitgeber, helping to reset the body's internal clock and regulate circadian rhythms"
     },
     {
-      "question": "If a person is experiencing chronic stress, which hormone is likely to be consistently elevated in their bloodstream?",
+      "question": "Which of the following statements best describes the relationship between the endocrine system and the autonomic nervous system during stress?",
       "options": [
-        "Adrenaline",
-        "Cortisol",
-        "Thyroxine",
-        "Insulin"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Cortisol is often elevated during chronic stress, affecting various physiological processes"
-    },
-    {
-      "question": "Which of the following statements best describes the relationship between the autonomic nervous system and the endocrine system during stress?",
-      "options": [
-        "They operate independently of each other.",
-        "They work in parallel to regulate physiological responses.",
-        "The autonomic nervous system inhibits the endocrine system.",
-        "The endocrine system is faster than the autonomic nervous system."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The autonomic nervous system and the endocrine system work together to manage physiological responses during stress. This corresponds to: They work in parallel to regulate physiological responses.."
-    },
-    {
-      "question": "What is the primary function of the adrenal cortex in the endocrine system?",
-      "options": [
-        "To release adrenaline",
-        "To produce cortisol",
-        "To regulate metabolism",
-        "To control reproductive hormones"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The adrenal cortex produces cortisol, which is involved in the body's stress response. This corresponds to: To produce cortisol."
-    },
-    {
-      "question": "In the context of the endocrine system, what is a potential limitation of relying solely on hormonal responses to stress?",
-      "options": [
-        "Hormones act too quickly.",
-        "Hormonal responses are not widespread.",
-        "Hormonal effects can be long-lasting and may not be easily reversible.",
-        "Hormones only affect one organ."
+        "They operate independently",
+        "They work in opposition to each other",
+        "They work in parallel to produce physiological arousal",
+        "They have no effect on each other"
       ],
       "correctAnswer": 2,
-      "explanation": "Hormonal effects can be prolonged, which may lead to issues if the stressor persists, as the body remains in a heightened state. This corresponds to: Hormonal effects can be long-lasting and may not be easily reversible.."
+      "explanation": "The endocrine system and the autonomic nervous system work in parallel during stress to produce physiological arousal necessary for the fight or flight response. This corresponds to: They work in parallel to produce physiological arousal."
     },
     {
-      "question": "Which hormone is primarily responsible for increasing heart rate and preparing the body for action during the fight or flight response?",
+      "question": "What is a potential limitation of relying solely on the endocrine system for physiological responses?",
       "options": [
-        "Cortisol",
+        "It acts too quickly",
+        "It has limited effects on the body",
+        "It operates slower than the nervous system",
+        "It only affects one organ at a time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The endocrine system acts more slowly than the nervous system, which can be a limitation in situations requiring immediate responses. This corresponds to: It operates slower than the nervous system."
+    },
+    {
+      "question": "Which hormone is produced by the adrenal cortex in response to stress?",
+      "options": [
         "Adrenaline",
+        "Cortisol",
         "Thyroxine",
         "Insulin"
       ],
       "correctAnswer": 1,
-      "explanation": "Adrenaline is the key hormone that increases heart rate and prepares the body for immediate action"
+      "explanation": "Cortisol is produced by the adrenal cortex in response to stress, helping to regulate various bodily functions"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:29:09.718Z",
+  "savedAt": "2025-09-01T12:26:16.012Z",
   "curriculum": "aqa-psych",
   "topicId": "attachment",
   "subId": "cultural-variations",
   "set": "A",
   "questions": [
     {
-      "question": "In Van Ijzendoorn and Kroonenberg's meta-analysis (1988), which type of attachment was found to be the most common across all cultures studied?",
+      "question": "In Van Ijzendoorn and Kroonenberg's meta-analysis (1988), which attachment type was found to be the most common across all cultures studied?",
       "options": [
-        "Insecure-resistant",
         "Insecure-avoidant",
+        "Insecure-resistant",
         "Secure",
         "Disorganized"
       ],
@@ -18,103 +18,103 @@
       "explanation": "Secure attachment was identified as the most common classification in every country examined"
     },
     {
-      "question": "Which cultural group was found to have higher levels of insecure-resistant attachment according to Van Ijzendoorn and Kroonenberg's findings?",
+      "question": "According to Van Ijzendoorn and Kroonenberg (1988), which cultural group displayed higher levels of insecure-resistant attachment?",
       "options": [
-        "American",
-        "German",
-        "Japanese",
-        "British"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Japan, classified as a collectivist culture, displayed higher levels of insecure-resistant attachment. This corresponds to: Japanese."
-    },
-    {
-      "question": "In a scenario where a child from Germany exhibits higher levels of insecure-avoidant attachment, what might this reflect about the cultural childrearing practices?",
-      "options": [
-        "More nurturing practices",
-        "Less emotional availability",
-        "Higher levels of maternal deprivation",
-        "More collectivist values"
+        "Germany",
+        "Japan",
+        "USA",
+        "Sweden"
       ],
       "correctAnswer": 1,
-      "explanation": "The higher levels of insecure-avoidant attachment in Germany may reflect less emotional availability in childrearing practices"
+      "explanation": "Japan, classified as a collectivist culture, showed higher levels of insecure-resistant attachment"
     },
     {
-      "question": "What did Van Ijzendoorn and Kroonenberg conclude about the global pattern of attachment types?",
+      "question": "In the context of cultural variations, what did Van Ijzendoorn and Kroonenberg find regarding intra-cultural differences?",
       "options": [
-        "It varies significantly by culture",
-        "It is predominantly insecure",
-        "It supports the idea of innate attachment",
-        "It is influenced solely by environmental factors"
-      ],
-      "correctAnswer": 2,
-      "explanation": "They concluded that the global pattern supports the idea that secure attachment is innate and biologically determined. This corresponds to: It supports the idea of innate attachment."
-    },
-    {
-      "question": "What was a significant finding regarding intra-cultural differences in attachment from Van Ijzendoorn and Kroonenberg's research?",
-      "options": [
-        "They were less than inter-cultural differences",
-        "They were equal to inter-cultural differences",
-        "They were more than inter-cultural differences",
-        "They were non-existent"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The variation within cultures was found to be 1.5 times greater than the variation between cultures. This corresponds to: They were more than inter-cultural differences."
-    },
-    {
-      "question": "If a child from a collectivist culture shows a strong attachment to their mother, what might this suggest about the nature of attachment in that culture?",
-      "options": [
-        "Attachment is not important",
-        "Attachment is biologically determined",
-        "Attachment varies significantly",
-        "Attachment is solely based on individual experiences"
+        "They were smaller than inter-cultural differences.",
+        "They were larger than inter-cultural differences.",
+        "They were non-existent.",
+        "They were equal to inter-cultural differences."
       ],
       "correctAnswer": 1,
-      "explanation": "This suggests that attachment may be biologically determined, as secure attachment is common across cultures. This corresponds to: Attachment is biologically determined."
+      "explanation": "The intra-cultural differences were found to be 1.5 times greater than the variation between cultures. This corresponds to: They were larger than inter-cultural differences.."
     },
     {
-      "question": "What methodological issue did Van Ijzendoorn and Kroonenberg face in their meta-analysis of attachment studies?",
+      "question": "An infant raised in a collectivist culture may be expected to display which type of attachment according to cultural variations in attachment?",
+      "options": [
+        "Insecure-avoidant",
+        "Secure",
+        "Disorganized",
+        "Insecure-resistant"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Infants in collectivist cultures, such as Japan and Israel, often display higher levels of insecure-resistant attachment"
+    },
+    {
+      "question": "If a researcher finds that a child from Germany exhibits insecure-avoidant attachment, what might this indicate about cultural childrearing practices?",
+      "options": [
+        "They promote independence.",
+        "They encourage close bonds.",
+        "They are indifferent.",
+        "They are overly protective."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Higher rates of insecure-avoidant attachment in Germany may reflect cultural practices that promote independence. This corresponds to: They promote independence.."
+    },
+    {
+      "question": "What methodological issue is associated with Van Ijzendoorn and Kroonenberg's research on cultural variations in attachment?",
       "options": [
         "Small sample sizes",
         "Use of the Strange Situation",
-        "Lack of cultural representation",
-        "Inconsistent definitions of attachment"
+        "Lack of longitudinal data",
+        "Cultural bias in samples"
       ],
       "correctAnswer": 1,
-      "explanation": "The use of the Strange Situation may have biased the findings towards American/British cultural norms"
+      "explanation": "The use of the Strange Situation may introduce bias, as it is based on Western cultural norms"
     },
     {
-      "question": "Which cultural practice might explain the higher rates of insecure-avoidant attachment found in Germany?",
+      "question": "Which of the following statements best reflects the conclusion drawn by Van Ijzendoorn and Kroonenberg regarding attachment?",
       "options": [
-        "Close physical contact",
-        "Encouragement of independence",
-        "Emphasis on emotional expression",
-        "Collectivist parenting styles"
+        "Attachment styles are entirely culturally determined.",
+        "Secure attachment is universally beneficial for development.",
+        "Insecure attachments are more common in collectivist cultures.",
+        "Cultural practices have no impact on attachment."
       ],
       "correctAnswer": 1,
-      "explanation": "The emphasis on encouraging independence in German childrearing may lead to higher rates of insecure-avoidant attachment. This corresponds to: Encouragement of independence."
+      "explanation": "The conclusion supports that secure attachment is the 'norm' and best for healthy social and emotional development. This corresponds to: Secure attachment is universally beneficial for development.."
     },
     {
-      "question": "In the context of cultural variations in attachment, what does the term 'cultural relativism' imply?",
+      "question": "What is a potential effect of institutionalization on a child like Anca, who was adopted after living in an institution?",
       "options": [
-        "All cultures have the same attachment styles",
-        "Attachment styles are universal",
-        "Behaviors must be understood within their cultural context",
-        "Attachment is solely determined by biology"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Cultural relativism suggests that behaviors, including attachment styles, cannot be judged without considering the cultural context. This corresponds to: Behaviors must be understood within their cultural context."
-    },
-    {
-      "question": "What does the continuity hypothesis suggest about securely attached infants?",
-      "options": [
-        "They will have insecure relationships in adulthood",
-        "They will develop trust and confidence as adults",
-        "They will struggle with social interactions",
-        "They will have no impact on future relationships"
+        "Increased IQ",
+        "Type D disinhibited attachment",
+        "Enhanced social skills",
+        "Secure attachment"
       ],
       "correctAnswer": 1,
-      "explanation": "The continuity hypothesis posits that securely attached infants are likely to become emotionally secure and socially confident adults. This corresponds to: They will develop trust and confidence as adults."
+      "explanation": "Anca may display signs of Type D disinhibited attachment due to her early experiences in an institution"
+    },
+    {
+      "question": "What does the concept of cultural relativism suggest about attachment styles?",
+      "options": [
+        "They are universally applicable.",
+        "They should be understood within cultural contexts.",
+        "They are solely biological.",
+        "They are irrelevant to development."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cultural relativism emphasizes that behavior, including attachment styles, must be viewed in the context of the originating culture. This corresponds to: They should be understood within cultural contexts.."
+    },
+    {
+      "question": "In terms of attachment, what does the continuity hypothesis suggest about securely attached infants?",
+      "options": [
+        "They will likely become insecure adults.",
+        "They will develop trust and confidence later in life.",
+        "They will struggle with social relationships.",
+        "They will have no impact on adult relationships."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The continuity hypothesis posits that emotionally secure infants tend to become emotionally secure and socially confident adults. This corresponds to: They will develop trust and confidence later in life.."
     }
   ]
 }

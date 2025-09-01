@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:29:55.335Z",
+  "savedAt": "2025-09-01T12:26:52.650Z",
   "curriculum": "aqa-psych",
   "topicId": "attachment",
   "subId": "maternal-deprivation",
@@ -9,60 +9,27 @@
     {
       "question": "What is the main consequence of maternal deprivation according to Bowlby's theory (1944)?",
       "options": [
+        "Development of affectionless psychopathy",
         "Increased intelligence",
-        "Affectionless psychopathy",
         "Enhanced social skills",
         "Improved emotional regulation"
       ],
-      "correctAnswer": 1,
-      "explanation": "Bowlby argued that maternal deprivation can lead to affectionless psychopathy, characterized by a lack of guilt and empathy"
+      "correctAnswer": 0,
+      "explanation": "Bowlby argued that maternal deprivation can lead to affectionless psychopathy, characterized by a lack of guilt and empathy. This corresponds to: Development of affectionless psychopathy."
     },
     {
-      "question": "In Bowlby's study of 44 juvenile thieves, how many showed characteristics of affectionless psychopathy?",
+      "question": "In Bowlby's 1944 study of juvenile thieves, how many of the affectionless psychopaths had experienced prolonged separation from their mothers?",
       "options": [
         "2",
         "12",
         "14",
         "44"
       ],
-      "correctAnswer": 2,
-      "explanation": "Bowlby found that 14 of the juvenile thieves exhibited characteristics of affectionless psychopathy"
-    },
-    {
-      "question": "What did Hilda Lewis (1954) find regarding maternal deprivation and offending behavior?",
-      "options": [
-        "It was a strong predictor",
-        "It had no correlation",
-        "It was a poor predictor",
-        "It caused all offending behavior"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Lewis found that maternal deprivation was a poor predictor of future offending and the ability to form close relationships. This corresponds to: It was a poor predictor."
-    },
-    {
-      "question": "Joe was taken from his parents at six months and adopted at seven. How might Bowlby's theory explain his difficulties?",
-      "options": [
-        "He had a secure attachment",
-        "He likely experienced maternal deprivation",
-        "He had a strong bond with his adoptive parents",
-        "He was never separated from his mother"
-      ],
       "correctAnswer": 1,
-      "explanation": "Bowlby's theory suggests that Joe's difficulties may stem from maternal deprivation experienced in his early life. This corresponds to: He likely experienced maternal deprivation."
+      "explanation": "Out of the 14 juvenile thieves classified as affectionless psychopaths, 12 had experienced prolonged separation from their mothers"
     },
     {
-      "question": "What does Michael Rutter (1981) criticize about Bowlby's definition of maternal deprivation?",
-      "options": [
-        "It is too broad",
-        "It lacks clarity between deprivation and privation",
-        "It is overly simplistic",
-        "It ignores environmental factors"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Rutter criticized Bowlby for not clearly distinguishing between deprivation (loss of an attachment) and privation (never forming an attachment). This corresponds to: It lacks clarity between deprivation and privation."
-    },
-    {
-      "question": "According to Bowlby, what is the critical period for the effects of maternal deprivation?",
+      "question": "According to Bowlby's maternal deprivation theory, what is the critical period for the development of emotional bonds?",
       "options": [
         "First year of life",
         "First two years of life",
@@ -70,10 +37,54 @@
         "First ten years of life"
       ],
       "correctAnswer": 1,
-      "explanation": "Bowlby suggested that the critical period for maternal deprivation effects is within the first two years of life"
+      "explanation": "Bowlby suggested that the critical period for forming emotional bonds is within the first two years of life"
     },
     {
-      "question": "What percentage of women in Bifulco et al.'s (1992) study experienced mental health issues after maternal separation?",
+      "question": "Joe was taken from his parents at six months and adopted at seven. How might Bowlby's theory explain his difficulties with relationships?",
+      "options": [
+        "He likely formed a strong attachment",
+        "He may have experienced maternal deprivation",
+        "He had a stable upbringing",
+        "He was never separated from his mother"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's theory suggests that Joe's difficulties may stem from maternal deprivation experienced in early childhood. This corresponds to: He may have experienced maternal deprivation."
+    },
+    {
+      "question": "What did Hilda Lewis (1954) find regarding maternal deprivation and future offending?",
+      "options": [
+        "It was a strong predictor",
+        "It had no correlation",
+        "It was a poor predictor",
+        "It was the only factor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lewis found that maternal deprivation was a poor predictor of future offending, suggesting other factors may be involved. This corresponds to: It was a poor predictor."
+    },
+    {
+      "question": "What term did Michael Rutter (1981) use to differentiate between lack of attachment and loss of attachment?",
+      "options": [
+        "Deprivation",
+        "Privation",
+        "Separation",
+        "Attachment disorder"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rutter used the term 'privation' to refer to situations where a child fails to develop an attachment bond"
+    },
+    {
+      "question": "Bowlby's theory suggests that maternal deprivation can lead to which of the following outcomes?",
+      "options": [
+        "Increased academic success",
+        "Emotional maladjustment",
+        "Enhanced resilience",
+        "Improved social relationships"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's theory posits that maternal deprivation can lead to emotional maladjustment later in life"
+    },
+    {
+      "question": "In Bifulco et al.'s (1992) study, what percentage of women who experienced maternal separation later developed mental health issues?",
       "options": [
         "15%",
         "25%",
@@ -81,40 +92,29 @@
         "45%"
       ],
       "correctAnswer": 1,
-      "explanation": "Bifulco found that about 25% of women who experienced maternal separation later had depression or anxiety disorders"
+      "explanation": "Bifulco found that about 25% of women who experienced separation from their mothers developed depression or anxiety disorders"
     },
     {
-      "question": "What methodological issue is raised regarding Bowlby's theory of maternal deprivation?",
+      "question": "What methodological issue did Rutter highlight regarding Bowlby's definition of deprivation?",
       "options": [
-        "It lacks empirical support",
-        "It does not consider other factors",
-        "It is based solely on observational data",
-        "It is too complex to test"
+        "It was too broad",
+        "It lacked clarity",
+        "It was too specific",
+        "It was overly simplistic"
       ],
       "correctAnswer": 1,
-      "explanation": "Bowlby's theory is criticized for not considering other factors, such as socioeconomic status, that may contribute to later offending. This corresponds to: It does not consider other factors."
+      "explanation": "Rutter criticized Bowlby for not clearly distinguishing between the formation and loss of attachment bonds. This corresponds to: It lacked clarity."
     },
     {
-      "question": "What is the term used by Rutter to describe the failure to develop an attachment bond?",
-      "options": [
-        "Deprivation",
-        "Privation",
-        "Separation",
-        "Attachment failure"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Rutter used the term 'privation' to refer to situations where a child fails to develop an attachment bond with a caregiver"
-    },
-    {
-      "question": "How did Bowlby's research influence child care practices in hospitals?",
+      "question": "What impact did Bowlby's research have on childrearing practices in hospitals?",
       "options": [
         "Encouraged longer separations",
-        "Promoted parental visits",
-        "Discouraged parental involvement",
+        "Discouraged parental visits",
+        "Promoted parental involvement",
         "Increased isolation of children"
       ],
-      "correctAnswer": 1,
-      "explanation": "Bowlby's work led to significant changes in hospital practices, promoting parental visits to reduce the impact of separation on children. This corresponds to: Promoted parental visits."
+      "correctAnswer": 2,
+      "explanation": "Bowlby's work led to significant changes, promoting greater parental involvement in the care of children in hospitals. This corresponds to: Promoted parental involvement."
     }
   ]
 }

@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:24:07.903Z",
+  "savedAt": "2025-09-01T12:04:16.037Z",
   "curriculum": "aqa-psych",
   "topicId": "social-influence",
   "subId": "minority-influence",
   "set": "B",
   "questions": [
     {
-      "question": "In Nemeth and Brilmayer's (1987) study, what factor was found to enhance the effectiveness of a minority influence in a jury situation?",
+      "question": "Which of the following factors is essential for minority influence to be effective according to Wood et al. (1994)?",
       "options": [
-        "Consistency",
         "Flexibility",
-        "Commitment",
-        "Majority support"
+        "Group size",
+        "Task difficulty",
+        "Proximity"
       ],
-      "correctAnswer": 1,
-      "explanation": "The study found that a confederate who showed flexibility by compromising had a greater influence on the group compared to one who remained rigid"
+      "correctAnswer": 0,
+      "explanation": "Wood et al. found that minorities who were especially consistent were most influential, highlighting the importance of consistency. This corresponds to: Flexibility."
     },
     {
-      "question": "According to Wood et al. (1994), what characteristic of minorities is most influential in changing majority opinions?",
+      "question": "In Nemeth and Brilmayer's (1987) study, what was the effect of a confederate who showed flexibility during discussions?",
       "options": [
-        "Flexibility",
-        "Commitment",
-        "Consistency",
-        "Visibility"
+        "No influence on the group",
+        "Increased group cohesion",
+        "Greater influence on group members",
+        "Immediate acceptance of the majority view"
       ],
       "correctAnswer": 2,
-      "explanation": "Wood et al. found that minorities who were especially consistent were the most influential in changing majority opinions. This corresponds to: Consistency."
+      "explanation": "The confederate who compromised and showed flexibility exerted influence on the rest of the group, unlike those who did not. This corresponds to: Greater influence on group members."
     },
     {
-      "question": "In a scenario where a minority group advocates for environmental policies, what process might lead to the majority adopting these views?",
+      "question": "What does the term 'social cryptomnesia' refer to in the context of social change?",
       "options": [
-        "Compliance",
-        "Internalisation",
-        "Identification",
-        "Conformity"
+        "Forgetting the origins of a social norm",
+        "The process of internalising minority views",
+        "Resistance to majority influence",
+        "The role of dissent in decision-making"
       ],
-      "correctAnswer": 1,
-      "explanation": "The majority may internalise the minority's views after scrutinising their arguments, leading to a deeper acceptance of the new position. This corresponds to: Internalisation."
+      "correctAnswer": 0,
+      "explanation": "Social cryptomnesia occurs when people forget that the current majority view was once a minority position. This corresponds to: Forgetting the origins of a social norm."
     },
     {
-      "question": "What is the 'snowball effect' in the context of minority influence?",
+      "question": "In a scenario where a minority group advocates for environmental policies, which factor would most likely enhance their influence according to the minority influence theory?",
       "options": [
-        "A gradual increase in minority numbers",
-        "A sudden shift in majority opinion",
-        "A decrease in dissenting views",
-        "An increase in conformity"
+        "Lack of commitment",
+        "Inconsistency in messaging",
+        "Demonstrating flexibility",
+        "Avoiding confrontation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Demonstrating flexibility allows the minority to adapt their arguments, making them more persuasive to the majority"
+    },
+    {
+      "question": "DeJong et al. (2009) found that social norms marketing campaigns did not reduce alcohol consumption among students. What does this suggest about social norms interventions?",
+      "options": [
+        "They are always effective",
+        "They can sometimes fail to produce change",
+        "They only work in certain demographics",
+        "They are more effective than minority influence"
       ],
       "correctAnswer": 1,
-      "explanation": "The snowball effect refers to a tipping point where a small percentage of committed minority opinion holders can lead to a significant shift in majority views. This corresponds to: A sudden shift in majority opinion."
+      "explanation": "The findings suggest that not all social norms interventions are capable of producing social change, indicating limitations in their effectiveness. This corresponds to: They can sometimes fail to produce change."
+    },
+    {
+      "question": "According to Nemeth (2010), what is a common reaction of the majority towards dissenting views?",
+      "options": [
+        "Acceptance and encouragement",
+        "Irritation and discomfort",
+        "Increased creativity",
+        "Enhanced decision-making quality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nemeth argues that while people may appear tolerant of dissent, they often become irritated by persistent dissenting views. This corresponds to: Irritation and discomfort."
     },
     {
       "question": "Mackie (1987) argues that the majority's views lead to greater processing of information. What is the implication of this for minority influence?",
       "options": [
-        "Minorities are always more persuasive",
-        "Majorities are less likely to consider minority views",
-        "Minorities must be more consistent",
-        "Majorities ignore dissenting opinions"
+        "Minority views are always more persuasive",
+        "Majority views are less scrutinised",
+        "Minority views are often ignored",
+        "Majority influence is less effective"
       ],
-      "correctAnswer": 1,
-      "explanation": "Mackie's argument suggests that the majority's differing views prompt more careful consideration, potentially undermining the influence of minorities. This corresponds to: Majorities are less likely to consider minority views."
+      "correctAnswer": 2,
+      "explanation": "Mackie's argument suggests that people do not invest time in processing minority messages, making them less influential. This corresponds to: Minority views are often ignored."
     },
     {
-      "question": "What challenge do minorities face when trying to influence the majority, as highlighted in the AQA materials?",
+      "question": "What is the 'snowball effect' in the context of minority influence?",
       "options": [
-        "Being perceived as deviant",
-        "Lack of visibility",
-        "Insufficient numbers",
-        "Inconsistent messaging"
+        "A gradual increase in majority support for a minority view",
+        "The immediate acceptance of minority views",
+        "A decrease in group cohesion",
+        "The process of internalisation"
       ],
       "correctAnswer": 0,
-      "explanation": "Minorities are often seen as deviant, which limits their influence as the majority may avoid aligning with them to not appear deviant themselves. This corresponds to: Being perceived as deviant."
+      "explanation": "The snowball effect refers to the phenomenon where a small minority gradually gains support until it becomes the majority view. This corresponds to: A gradual increase in majority support for a minority view."
     },
     {
-      "question": "What did Xie et al. (2011) discover about the necessary percentage of committed individuals needed to influence the majority?",
+      "question": "What did Xie et al. (2011) discover about the percentage of committed opinion holders necessary to influence the majority?",
       "options": [
         "5%",
         "10%",
-        "15%",
-        "20%"
+        "25%",
+        "50%"
       ],
       "correctAnswer": 1,
-      "explanation": "Xie et al. found that just 10% of committed individuals could 'tip' the majority into accepting the minority position"
+      "explanation": "Xie et al. found that just 10% of committed opinion holders could 'tip' the majority into accepting the minority position"
     },
     {
-      "question": "How does the concept of social cryptomnesia relate to social change?",
+      "question": "What is a key challenge that minorities face when attempting to influence social change?",
       "options": [
-        "People forget the origins of majority views",
-        "Majorities resist change",
-        "Minorities are always remembered",
-        "Dissent is quickly forgotten"
+        "Being perceived as deviant",
+        "Lack of commitment",
+        "Overwhelming majority support",
+        "Inconsistency in messaging"
       ],
       "correctAnswer": 0,
-      "explanation": "Social cryptomnesia occurs when people forget that the current majority view was once a minority position, illustrating how social change can be normalized over time. This corresponds to: People forget the origins of majority views."
-    },
-    {
-      "question": "What is a methodological issue associated with studying minority influence, as discussed in the AQA materials?",
-      "options": [
-        "Lack of real-world application",
-        "Overemphasis on laboratory settings",
-        "Insufficient sample sizes",
-        "Inconsistent definitions of minority"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Many studies on minority influence are conducted in laboratory settings, which may not accurately reflect real-world dynamics of social influence. This corresponds to: Overemphasis on laboratory settings."
-    },
-    {
-      "question": "What role does commitment play in minority influence according to the AQA materials?",
-      "options": [
-        "It leads to immediate compliance",
-        "It enhances the perceived legitimacy of the minority",
-        "It is irrelevant to the process",
-        "It creates a sense of urgency"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Commitment is crucial as it enhances the perceived legitimacy of the minority's position, making it more likely for the majority to consider their views"
+      "explanation": "Minorities are often seen as deviant, which limits their influence as the majority may avoid aligning with them to not appear deviant themselves. This corresponds to: Being perceived as deviant."
     }
   ]
 }

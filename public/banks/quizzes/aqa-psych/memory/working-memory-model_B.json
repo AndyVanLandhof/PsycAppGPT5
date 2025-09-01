@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T10:25:34.600Z",
+  "savedAt": "2025-09-01T12:06:00.965Z",
   "curriculum": "aqa-psych",
   "topicId": "memory",
   "subId": "working-memory-model",
   "set": "B",
   "questions": [
     {
-      "question": "What does the working memory model propose about short-term memory?",
+      "question": "What does the working memory model (WMM) propose about short-term memory?",
       "options": [
         "It is a single store.",
         "It consists of multiple stores.",
-        "It relies solely on rehearsal.",
-        "It has unlimited capacity."
+        "It relies heavily on rehearsal.",
+        "It is identical to long-term memory."
       ],
       "correctAnswer": 1,
-      "explanation": "The working memory model suggests that short-term memory is divided into multiple stores, such as the phonological loop and visuo-spatial sketchpad. This corresponds to: It consists of multiple stores.."
+      "explanation": "The WMM suggests that short-term memory is divided into multiple stores, such as the phonological loop and visuo-spatial sketchpad. This corresponds to: It consists of multiple stores.."
     },
     {
-      "question": "In the case study of KF (Shallice and Washington, 1974), what type of information could KF recall and process?",
+      "question": "In the case study of KF (Shallice and Washington, 1974), what type of information could KF recall effectively?",
       "options": [
-        "Visual information",
         "Verbal information",
-        "Both visual and verbal information",
-        "Neither visual nor verbal information"
+        "Visual information",
+        "Both verbal and visual information",
+        "Neither verbal nor visual information"
       ],
-      "correctAnswer": 0,
-      "explanation": "KF could recall and process visual information but had difficulty with verbal information, indicating an impairment in the articulatory loop"
+      "correctAnswer": 1,
+      "explanation": "KF could recall and process visual information but had difficulty recalling words verbally, indicating an impairment in the articulatory loop"
     },
     {
-      "question": "How does the working memory model differ from the multi-store model regarding rehearsal?",
+      "question": "According to the WMM, which component is responsible for processing visual and spatial information?",
       "options": [
-        "Rehearsal is essential in both models.",
-        "Rehearsal is the only process in the working memory model.",
-        "Rehearsal is less emphasized in the working memory model.",
-        "Rehearsal is not mentioned in either model."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The working memory model places less emphasis on rehearsal compared to the multi-store model, allowing for other processes to explain memory retention. This corresponds to: Rehearsal is less emphasized in the working memory model.."
-    },
-    {
-      "question": "If a student is solving a math problem and holds intermediate results in mind, which component of the working memory model are they using?",
-      "options": [
-        "Episodic buffer",
         "Central executive",
         "Phonological loop",
-        "Visuo-spatial sketchpad"
+        "Visuo-spatial sketchpad",
+        "Episodic buffer"
       ],
-      "correctAnswer": 1,
-      "explanation": "The central executive is responsible for managing and coordinating the different components of working memory during complex tasks"
+      "correctAnswer": 2,
+      "explanation": "The visuo-spatial sketchpad is specifically responsible for processing visual and spatial information in the working memory model"
+    },
+    {
+      "question": "If a student is trying to remember a complex math problem while also listening to music, which component of the WMM is likely being used?",
+      "options": [
+        "Episodic buffer",
+        "Phonological loop",
+        "Visuo-spatial sketchpad",
+        "Central executive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The central executive manages the allocation of resources and attention, which is necessary when multitasking, such as solving a math problem while listening to music"
     },
     {
       "question": "What is a limitation of the central executive in the working memory model?",
       "options": [
-        "It has a clearly defined function.",
-        "It is well-supported by empirical evidence.",
-        "It is too vague and simplistic.",
-        "It is easy to test experimentally."
+        "It is too complex to measure.",
+        "It has a limited capacity.",
+        "It is well-defined and understood.",
+        "It is the most researched component."
       ],
-      "correctAnswer": 2,
-      "explanation": "Critics argue that the central executive is too vague and simplistic, making it difficult to design tasks to test its function effectively. This corresponds to: It is too vague and simplistic.."
+      "correctAnswer": 0,
+      "explanation": "The central executive is often criticized for being too vague and simplistic, making it difficult to design tasks to empirically test its functions. This corresponds to: It is too complex to measure.."
     },
     {
-      "question": "Which component of the working memory model was added by Baddeley in 2000?",
+      "question": "How does the WMM differ from the multi-store model (MSM) regarding rehearsal?",
       "options": [
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
-        "Central executive",
-        "Episodic buffer"
+        "Rehearsal is the only process in WMM.",
+        "WMM does not emphasize rehearsal as much as MSM.",
+        "Both models emphasize rehearsal equally.",
+        "WMM suggests rehearsal is unnecessary."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The WMM allows for other processes to explain how information enters long-term memory, unlike the MSM which heavily emphasizes rehearsal. This corresponds to: WMM does not emphasize rehearsal as much as MSM.."
+    },
+    {
+      "question": "In the WMM, what role does the episodic buffer play?",
+      "options": [
+        "It processes auditory information.",
+        "It integrates information from different stores.",
+        "It is responsible for visual processing.",
+        "It manages attention."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The episodic buffer integrates information from the phonological loop, visuo-spatial sketchpad, and long-term memory. This corresponds to: It integrates information from different stores.."
+    },
+    {
+      "question": "A researcher finds that participants struggle to perform a verbal task while simultaneously completing a visual task. What does this suggest about the WMM?",
+      "options": [
+        "It supports the idea of a single store for STM.",
+        "It indicates that the phonological loop and visuo-spatial sketchpad can work simultaneously.",
+        "It suggests that the central executive has unlimited capacity.",
+        "It supports the idea of separate stores for different types of information."
       ],
       "correctAnswer": 3,
-      "explanation": "The episodic buffer was added to the working memory model by Baddeley in 2000 to integrate information from different sources"
+      "explanation": "The difficulty in performing both tasks simultaneously suggests that the phonological loop and visuo-spatial sketchpad are separate stores with limited capacity. This corresponds to: It supports the idea of separate stores for different types of information.."
     },
     {
-      "question": "In a scenario where a person is trying to remember a phone number while simultaneously writing it down, which two components of the working memory model are likely being used?",
+      "question": "What evidence does the case study of KF provide for the working memory model?",
       "options": [
-        "Phonological loop and episodic buffer",
-        "Visuo-spatial sketchpad and central executive",
-        "Phonological loop and visuo-spatial sketchpad",
-        "Central executive and episodic buffer"
-      ],
-      "correctAnswer": 2,
-      "explanation": "The phonological loop helps with verbal information like the phone number, while the visuo-spatial sketchpad aids in the physical act of writing. This corresponds to: Phonological loop and visuo-spatial sketchpad."
-    },
-    {
-      "question": "What does the working memory model suggest about the nature of short-term memory compared to the multi-store model?",
-      "options": [
-        "It is unitary and simple.",
-        "It is complex and multi-faceted.",
-        "It relies solely on auditory information.",
-        "It has a fixed duration."
+        "It supports the idea of a unitary short-term memory.",
+        "It shows that short-term memory is made up of multiple stores.",
+        "It indicates that rehearsal is essential for memory.",
+        "It suggests that memory is a holistic process."
       ],
       "correctAnswer": 1,
-      "explanation": "The working memory model indicates that short-term memory is complex and consists of multiple components, unlike the unitary view of the multi-store model. This corresponds to: It is complex and multi-faceted.."
+      "explanation": "KF's ability to process visual information but not verbal information supports the WMM's claim that short-term memory consists of multiple stores. This corresponds to: It shows that short-term memory is made up of multiple stores.."
     },
     {
-      "question": "Which of the following is a methodological issue associated with studying the central executive?",
-      "options": [
-        "It is easy to define and measure.",
-        "It lacks empirical support.",
-        "It is too complex to study.",
-        "It is universally accepted."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The central executive's vague definition makes it challenging to gather empirical evidence to support its existence and function. This corresponds to: It lacks empirical support.."
-    },
-    {
-      "question": "According to the working memory model, which component is primarily responsible for processing auditory information?",
+      "question": "Which of the following components of the WMM is primarily responsible for auditory information?",
       "options": [
         "Visuo-spatial sketchpad",
         "Episodic buffer",
-        "Phonological loop",
-        "Central executive"
+        "Central executive",
+        "Phonological loop"
       ],
-      "correctAnswer": 2,
-      "explanation": "The phonological loop is responsible for processing auditory information, such as sounds and verbal material"
+      "correctAnswer": 3,
+      "explanation": "The phonological loop is responsible for processing auditory information in the working memory model"
     }
   ]
 }

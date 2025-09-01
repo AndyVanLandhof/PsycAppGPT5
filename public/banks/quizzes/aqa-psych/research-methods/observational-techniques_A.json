@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T11:06:31.589Z",
+  "savedAt": "2025-09-01T12:58:38.750Z",
   "curriculum": "aqa-psych",
   "topicId": "research-methods",
   "subId": "observational-techniques",
   "set": "A",
   "questions": [
     {
-      "question": "In a study on children's play behavior, researchers observed children in a playground setting without intervening. This is an example of which type of observational technique?",
+      "question": "In a study examining children's play behavior, researchers used naturalistic observation to record interactions without interference. What is a key advantage of this observational technique?",
       "options": [
-        "Controlled observation",
-        "Naturalistic observation",
-        "Covert observation",
-        "Participant observation"
+        "A. High control over variables",
+        "B. High ecological validity",
+        "C. Ability to establish cause and effect",
+        "D. Low observer bias"
       ],
       "correctAnswer": 1,
-      "explanation": "Naturalistic observation involves observing behavior in its natural environment without manipulation"
+      "explanation": "Naturalistic observation provides high ecological validity as it captures behavior in a natural setting. This corresponds to: B. High ecological validity."
     },
     {
-      "question": "A researcher uses a checklist to record instances of aggressive behavior in a classroom. This method is an example of which observational design?",
+      "question": "A researcher is studying aggressive behavior in children using structured observations with predefined behavioral categories. What is a potential limitation of this method?",
       "options": [
-        "Event sampling",
-        "Time sampling",
-        "Structured observation",
-        "Unstructured observation"
+        "A. It lacks objectivity",
+        "B. It may miss spontaneous behaviors",
+        "C. It is time-consuming",
+        "D. It requires extensive training"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Structured observations may miss spontaneous behaviors that do not fit into predefined categories. This corresponds to: B. It may miss spontaneous behaviors."
+    },
+    {
+      "question": "In a study on classroom behavior, researchers used participant observation to gather data. What is a disadvantage of this approach?",
+      "options": [
+        "A. Observer bias may influence results",
+        "B. It provides quantitative data",
+        "C. It lacks depth of understanding",
+        "D. It is less time-consuming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Participant observation can lead to observer bias, as the researcher may become too involved in the group being studied. This corresponds to: A. Observer bias may influence results."
+    },
+    {
+      "question": "Which of the following best describes covert observation?",
+      "options": [
+        "A. Participants are aware they are being observed",
+        "B. Observations are conducted in a controlled environment",
+        "C. Participants are unaware they are being observed",
+        "D. Observers interact with participants during the study"
       ],
       "correctAnswer": 2,
-      "explanation": "Structured observation uses systems like checklists to organize and categorize observed behaviors"
+      "explanation": "Covert observation involves observing participants without their knowledge, minimizing the influence of demand characteristics. This corresponds to: C. Participants are unaware they are being observed."
     },
     {
-      "question": "In a study examining social interactions, a researcher records behaviors every 10 minutes. This method is known as:?",
+      "question": "A researcher conducting a study on social interactions in a café uses time sampling to record behaviors. What is a key benefit of this technique?",
       "options": [
-        "Event sampling",
-        "Time sampling",
-        "Naturalistic observation",
-        "Covert observation"
+        "A. It captures all behaviors in detail",
+        "B. It reduces the amount of data collected",
+        "C. It allows for a broader range of behaviors to be recorded",
+        "D. It ensures all behaviors are equally represented"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Time sampling helps ensure that a variety of behaviors are recorded systematically over time. This corresponds to: D. It ensures all behaviors are equally represented."
+    },
+    {
+      "question": "In observational research, inter-observer reliability is crucial. What does this term refer to?",
+      "options": [
+        "A. The consistency of observations between different observers",
+        "B. The accuracy of a single observer's recordings",
+        "C. The ability to replicate a study's findings",
+        "D. The use of multiple observation techniques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inter-observer reliability assesses the consistency of observations made by different observers, ensuring data accuracy. This corresponds to: A. The consistency of observations between different observers."
+    },
+    {
+      "question": "A study using overt observation found that participants altered their behavior when they knew they were being watched. What methodological issue does this highlight?",
+      "options": [
+        "A. Observer bias",
+        "B. Demand characteristics",
+        "C. Low ecological validity",
+        "D. Lack of operational definitions"
       ],
       "correctAnswer": 1,
-      "explanation": "Time sampling involves observing and recording behavior at predetermined intervals"
+      "explanation": "Demand characteristics occur when participants change their behavior due to awareness of being observed, affecting the study's validity. This corresponds to: B. Demand characteristics."
     },
     {
-      "question": "A researcher observes a group of children playing while remaining hidden from view to avoid influencing their behavior. This is an example of:?",
+      "question": "In a study on aggression, researchers used both self-report and observational techniques. What is a potential issue with relying solely on self-reports?",
       "options": [
-        "Overt observation",
-        "Covert observation",
-        "Participant observation",
-        "Naturalistic observation"
+        "A. They provide qualitative data",
+        "B. They may be influenced by social desirability bias",
+        "C. They are time-consuming to analyze",
+        "D. They lack depth of understanding"
       ],
       "correctAnswer": 1,
-      "explanation": "Covert observation is when the participants are unaware they are being observed, reducing demand characteristics"
+      "explanation": "Self-reports can be affected by social desirability bias, where participants may not provide truthful responses. This corresponds to: B. They may be influenced by social desirability bias."
     },
     {
-      "question": "In a study on aggression, researchers found that observational ratings indicated less genetic influence compared to self-reports. This highlights which methodological issue?",
+      "question": "What is the primary difference between participant and non-participant observation?",
       "options": [
-        "Observer bias",
-        "Demand characteristics",
-        "Subjectivity in self-reports",
-        "Inter-observer reliability"
+        "A. Participant observation involves the researcher being part of the group",
+        "B. Non-participant observation is always covert",
+        "C. Participant observation is less time-consuming",
+        "D. Non-participant observation provides richer data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In participant observation, the researcher actively engages with the group being studied, while in non-participant observation, they remain an outsider. This corresponds to: A. Participant observation involves the researcher being part of the group."
+    },
+    {
+      "question": "When conducting observational research, what is the purpose of using behavioral categories?",
+      "options": [
+        "A. To ensure all behaviors are recorded",
+        "B. To simplify data analysis",
+        "C. To increase the reliability of observations",
+        "D. To reduce the time spent observing"
       ],
       "correctAnswer": 2,
-      "explanation": "The difference in findings suggests that self-reports may be more subjective, leading to inconsistencies in data. This corresponds to: Subjectivity in self-reports."
-    },
-    {
-      "question": "A researcher conducting a naturalistic observation of children in a park notes that they often play in groups. This finding can be evaluated for:?",
-      "options": [
-        "Reliability",
-        "Validity",
-        "Generalizability",
-        "Ethical considerations"
-      ],
-      "correctAnswer": 1,
-      "explanation": "While naturalistic observations can provide valid insights, they may lack reliability due to uncontrolled variables. This corresponds to: Validity."
-    },
-    {
-      "question": "Which of the following is a limitation of using participant observation in research?",
-      "options": [
-        "High ecological validity",
-        "Potential for observer bias",
-        "Increased control over variables",
-        "Structured data collection"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Participant observation can lead to observer bias as the researcher may become too involved in the group being studied. This corresponds to: Potential for observer bias."
-    },
-    {
-      "question": "In a study using structured observations, researchers must ensure that behavioral categories are:?",
-      "options": [
-        "Ambiguous",
-        "Operationalized clearly",
-        "Subjective",
-        "Unrelated to the research aim"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Clear operationalization of behavioral categories is essential to ensure consistency and reliability in data collection. This corresponds to: Operationalized clearly."
-    },
-    {
-      "question": "A researcher conducting a controlled observation of classroom behavior uses a coding frame to categorize student interactions. This approach is beneficial because it:?",
-      "options": [
-        "Reduces the need for ethical considerations",
-        "Increases the subjectivity of data",
-        "Enhances reliability of observations",
-        "Limits the scope of behaviors observed"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Using a coding frame enhances reliability by providing a consistent method for categorizing behaviors. This corresponds to: Enhances reliability of observations."
-    },
-    {
-      "question": "In observational studies, inter-observer reliability is important because it ensures:?",
-      "options": [
-        "The study is conducted in a natural setting",
-        "Different observers record behaviors consistently",
-        "The research is ethically sound",
-        "Participants are unaware of the observation"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Inter-observer reliability assesses the consistency of observations between different researchers, enhancing the study's credibility. This corresponds to: Different observers record behaviors consistently."
+      "explanation": "Behavioral categories help increase the reliability of observations by providing clear definitions for what is being recorded. This corresponds to: C. To increase the reliability of observations."
     }
   ]
 }
