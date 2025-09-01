@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:43:54.994Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "definitions",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What term is used in the New Testament to describe miracles, indicating their significance beyond mere events?",
+      "options": [
+        "Wonders",
+        "Signs",
+        "Tricks",
+        "Acts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'signs' is used in John's Gospel to suggest that miracles point to Jesus' divinity"
+    },
+    {
+      "question": "According to R. Bultmann, what should be stripped from the original teachings of Jesus to understand their moral values?",
+      "options": [
+        "Miracles",
+        "Parables",
+        "Historical context",
+        "Cultural influences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bultmann argues that the supernatural elements surrounding Jesus' teachings reflect a pre-scientific worldview and should be removed. This corresponds to: Miracles."
+    },
+    {
+      "question": "In the context of miracles, what does the term 'low Christology' refer to?",
+      "options": [
+        "Jesus as a divine being",
+        "Jesus as a political liberator",
+        "Understanding miracles as parables",
+        "Jesus as a teacher of wisdom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Low Christology interprets Jesus' miracles as parables that illustrate deeper truths about creation and redemption. This corresponds to: Understanding miracles as parables."
+    },
+    {
+      "question": "What is the significance of the Resurrection in Christianity according to the historical claims made in the New Testament?",
+      "options": [
+        "It is a myth",
+        "It is a moral lesson",
+        "It is a miracle involving the suspension of natural laws",
+        "It is a cultural tradition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Resurrection is viewed as a miracle that, if it occurred as recorded, would involve the suspension of natural laws, indicating divine intervention. This corresponds to: It is a miracle involving the suspension of natural laws."
+    },
+    {
+      "question": "What is a methodological issue associated with the investigation of miracles at Lourdes?",
+      "options": [
+        "Lack of historical evidence",
+        "Bias in medical investigations",
+        "Cultural interpretations",
+        "Overemphasis on supernatural explanations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The authentication process at Lourdes involves extensive medical investigations, which may be influenced by biases regarding the supernatural. This corresponds to: Bias in medical investigations."
+    },
+    {
+      "question": "How do some theologians interpret the miracles of Jesus in relation to the nature of God?",
+      "options": [
+        "As mere tricks",
+        "As signs of divine power",
+        "As historical inaccuracies",
+        "As cultural myths"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The miracles are seen as signs that reveal deeper truths about the nature of God and His kingdom. This corresponds to: As signs of divine power."
+    },
+    {
+      "question": "What is a common critique of Bultmann's approach to the interpretation of miracles?",
+      "options": [
+        "It ignores historical context",
+        "It overemphasizes supernatural elements",
+        "It dismisses moral teachings",
+        "It lacks empirical evidence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Bultmann's approach may overlook the historical context and significance of miracles in the early Christian tradition. This corresponds to: It ignores historical context."
+    },
+    {
+      "question": "What does the term 'mighty works' in the New Testament suggest about the nature of miracles?",
+      "options": [
+        "They are simply magical acts",
+        "They indicate a deeper reality about God",
+        "They are irrelevant to faith",
+        "They are only historical events"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mighty works' suggests that miracles are not just events but signify deeper truths about God's nature and reality. This corresponds to: They indicate a deeper reality about God."
+    },
+    {
+      "question": "What evidence is often cited to support the claim that miracles justify religious experiences, such as those at Lourdes?",
+      "options": [
+        "Personal testimonies",
+        "Historical documents",
+        "Medical investigations",
+        "Cultural traditions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Church accepts events as miracles after thorough medical investigations find no other explanations, supporting the authenticity of religious experiences"
+    },
+    {
+      "question": "What is a key argument for the existence of God based on historical evidence of miracles?",
+      "options": [
+        "Miracles are always documented",
+        "Miracles are often explained scientifically",
+        "Historical evidence suggests divine intervention in human affairs",
+        "Miracles are universally accepted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The argument posits that historical evidence of miracles, particularly in connection with human needs and prayers, supports the probability of God's existence. This corresponds to: Historical evidence suggests divine intervention in human affairs."
+    }
+  ]
+}

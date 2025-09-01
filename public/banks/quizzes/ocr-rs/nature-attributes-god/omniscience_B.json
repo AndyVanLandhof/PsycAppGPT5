@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:19:34.925Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "omniscience",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Swinburne, how does omniscience relate to God's knowledge of future events?",
+      "options": [
+        "God knows all future events as they are predetermined.",
+        "God knows all future events that are predictable by physical laws.",
+        "God does not know any future events.",
+        "God knows future events but cannot intervene."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne suggests that God's knowledge may include all future events that are predictable by physical laws, but does not extend to free decisions made by humans. This corresponds to: God knows all future events that are predictable by physical laws.."
+    },
+    {
+      "question": "What is Boethius' view on God's knowledge of future events?",
+      "options": [
+        "God knows the future through conditional necessity.",
+        "God has no knowledge of the future.",
+        "God's knowledge of the future is limited to what is logically possible.",
+        "God knows the future because it is fixed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Boethius argues that God sees everything in a simultaneous present and knows future events through conditional necessity, preserving human free will. This corresponds to: God knows the future through conditional necessity.."
+    },
+    {
+      "question": "How does the concept of a timeless God conflict with the traditional view of God in classical theism?",
+      "options": [
+        "It suggests God cannot know the past.",
+        "It implies God cannot interact with creation.",
+        "It denies God's omnipotence.",
+        "It limits God's benevolence."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A timeless God, as proposed by Boethius, raises issues regarding God's ability to interact with creation, which is a key aspect of classical theism. This corresponds to: It implies God cannot interact with creation.."
+    },
+    {
+      "question": "In the context of omniscience, what does the term 'middle knowledge' refer to?",
+      "options": [
+        "God's knowledge of all past events only.",
+        "God's knowledge of all future events only.",
+        "God's knowledge of what could have happened under different circumstances.",
+        "God's knowledge of all logical possibilities."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Middle knowledge is the view that God knows not only everything that happens but also everything that might have happened if different choices had been made. This corresponds to: God's knowledge of what could have happened under different circumstances.."
+    },
+    {
+      "question": "If God's omniscience includes knowing all future events, what philosophical problem does this raise regarding human free will?",
+      "options": [
+        "It suggests humans have no free will.",
+        "It implies God's knowledge is limited.",
+        "It indicates God cannot intervene in human affairs.",
+        "It shows that God is not benevolent."
+      ],
+      "correctAnswer": 0,
+      "explanation": "If God knows all future events, it raises the question of whether humans can truly have free will, as their choices may seem predetermined. This corresponds to: It suggests humans have no free will.."
+    },
+    {
+      "question": "Swinburne's view of God's omniscience allows for what aspect of human experience?",
+      "options": [
+        "The inevitability of human choices.",
+        "The unpredictability of human decisions.",
+        "The fixed nature of future events.",
+        "The absence of divine intervention."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne's perspective allows for human free choices, suggesting that while God knows the past and present, the future remains open to human decisions. This corresponds to: The unpredictability of human decisions.."
+    },
+    {
+      "question": "What is a key criticism of Boethius' view on God's knowledge and free will?",
+      "options": [
+        "It does not account for God's benevolence.",
+        "It sacrifices God's immanence.",
+        "It limits God's omnipotence.",
+        "It denies the existence of free will."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Boethius' view sacrifices the immanence of God, as it suggests God cannot interact with creation or respond to human actions. This corresponds to: It sacrifices God's immanence.."
+    },
+    {
+      "question": "How does Lady Philosophy's argument regarding God's eternity resolve the conflict between omniscience and free will?",
+      "options": [
+        "By suggesting God is timeless and cannot know the future.",
+        "By proposing that God's knowledge is limited to the present.",
+        "By asserting that God's eternity is a simultaneous possession of infinite life.",
+        "By claiming that God does not intervene in time."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lady Philosophy argues that God's eternity as a simultaneous possession of infinite life allows for both omniscience and human free will to coexist. This corresponds to: By asserting that God's eternity is a simultaneous possession of infinite life.."
+    },
+    {
+      "question": "What methodological issue arises when discussing God's omniscience and human free will?",
+      "options": [
+        "The lack of empirical evidence for God's existence.",
+        "The difficulty in defining omniscience.",
+        "The challenge of reconciling divine attributes.",
+        "The ambiguity of free will definitions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The challenge of reconciling divine attributes, such as omniscience and free will, raises methodological issues in understanding the nature of God. This corresponds to: The challenge of reconciling divine attributes.."
+    }
+  ]
+}

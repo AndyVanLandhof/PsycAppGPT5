@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:27:48.742Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "teleological",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What analogy did William Paley use to support the teleological argument?",
+      "options": [
+        "A watch",
+        "A tree",
+        "A river",
+        "A mountain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paley argued that just as a watch implies a watchmaker, the complexity of the world implies a designer"
+    },
+    {
+      "question": "According to Paley, what does the observation of natural organisms suggest?",
+      "options": [
+        "They evolved randomly",
+        "They are fit for purpose",
+        "They are purely accidental",
+        "They are illusions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Paley concluded that all natural bodies are suitably designed for their purposes, indicating a designer. This corresponds to: They are fit for purpose."
+    },
+    {
+      "question": "What is one of Hume's criticisms of the teleological argument?",
+      "options": [
+        "The world is like a watch",
+        "The analogy is not suitable",
+        "Design is evident in chaos",
+        "All things are fit for purpose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume challenged the analogy by arguing that the world is not necessarily like a watch and may resemble a complex natural object. This corresponds to: The analogy is not suitable."
+    },
+    {
+      "question": "In the context of the teleological argument, what does the Epicurean hypothesis suggest?",
+      "options": [
+        "Design implies a designer",
+        "Randomness explains the universe",
+        "Everything is predetermined",
+        "Nature is chaotic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Epicurean hypothesis posits that given infinite time, particles can combine in every possible way, leading to a stable universe without a designer. This corresponds to: Randomness explains the universe."
+    },
+    {
+      "question": "If a modern teleological argument incorporates evolution, what does it suggest about design?",
+      "options": [
+        "Design is irrelevant",
+        "Design is a result of natural selection",
+        "Design is purely accidental",
+        "Design is a myth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern teleological arguments may argue that the appearance of design in organisms is a result of natural selection rather than direct creation. This corresponds to: Design is a result of natural selection."
+    },
+    {
+      "question": "How might the anthropic principle relate to the teleological argument?",
+      "options": [
+        "It denies the existence of God",
+        "It supports random chance",
+        "It combines design with evolution",
+        "It rejects observation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The anthropic principle suggests that the universe's conditions allow for life, which can be interpreted as a combination of design and evolutionary processes. This corresponds to: It combines design with evolution."
+    },
+    {
+      "question": "What is a potential weakness of the teleological argument when considering evolution?",
+      "options": [
+        "It relies solely on observation",
+        "It ignores the concept of chance",
+        "It cannot explain complexity",
+        "It assumes a benevolent designer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the teleological argument does not adequately address the challenge of chance, as evolution can produce complexity without a designer. This corresponds to: It ignores the concept of chance."
+    },
+    {
+      "question": "What logical fallacy might be present in the teleological argument?",
+      "options": [
+        "Post hoc reasoning",
+        "Circular reasoning",
+        "Hasty generalization",
+        "False dichotomy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The teleological argument may fall into post hoc reasoning by assuming that because design is observed, it must have a designer"
+    },
+    {
+      "question": "What does Hume argue about the nature of the universe in relation to the teleological argument?",
+      "options": [
+        "It is perfectly designed",
+        "It is chaotic and random",
+        "It is a product of divine intervention",
+        "It is a reflection of human perception"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume contends that the universe could be explained by randomness rather than a divine designer, challenging the teleological argument. This corresponds to: It is chaotic and random."
+    },
+    {
+      "question": "What aspect of Paley's argument is often defended by modern proponents of the teleological argument?",
+      "options": [
+        "Irreducible complexity",
+        "Random chance",
+        "Materialism",
+        "A priori reasoning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Modern defenders of the teleological argument may invoke the concept of irreducible complexity to argue that certain biological structures are too complex to have arisen by chance"
+    }
+  ]
+}

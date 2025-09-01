@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:45:05.921Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "hume",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is Hume's primary argument against the credibility of miracles as presented in his writings?",
+      "options": [
+        "Miracles contradict natural laws",
+        "Miracles are always reported by unreliable witnesses",
+        "Miracles can be explained by psychological phenomena",
+        "Miracles are too rare to be credible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume argues that miracles contradict natural laws, which he believes are established through consistent experience"
+    },
+    {
+      "question": "In his critique of miracles, what does Hume suggest about the nature of human testimony?",
+      "options": [
+        "It is always reliable",
+        "It is often exaggerated",
+        "It is infallible",
+        "It is based on divine inspiration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume suggests that human testimony is often exaggerated and not a reliable basis for believing in miracles. This corresponds to: It is often exaggerated."
+    },
+    {
+      "question": "According to Hume, what is the relationship between the frequency of miracles and their credibility?",
+      "options": [
+        "More frequent miracles are more credible",
+        "Less frequent miracles are more credible",
+        "All miracles are equally credible",
+        "Miracles should not be considered at all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume argues that the rarity of miracles makes them less credible, as they are not supported by consistent experience. This corresponds to: Less frequent miracles are more credible."
+    },
+    {
+      "question": "If a person claims to have witnessed a miracle, how would Hume likely respond based on his critique?",
+      "options": [
+        "He would accept their testimony as valid",
+        "He would require scientific evidence",
+        "He would question the reliability of their experience",
+        "He would consider it a divine sign"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume would question the reliability of their experience, emphasizing that personal testimony is often flawed. This corresponds to: He would question the reliability of their experience."
+    },
+    {
+      "question": "In what way does Hume's critique of miracles challenge the traditional understanding of divine intervention?",
+      "options": [
+        "It supports the idea of divine intervention",
+        "It suggests divine intervention is common",
+        "It argues that divine intervention is improbable",
+        "It claims divine intervention is necessary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume argues that divine intervention is improbable due to the conflict with established natural laws. This corresponds to: It argues that divine intervention is improbable."
+    },
+    {
+      "question": "What methodological issue does Hume's critique of miracles highlight regarding the nature of evidence?",
+      "options": [
+        "Evidence must be subjective",
+        "Evidence should be based on personal experience",
+        "Evidence must be consistent and repeatable",
+        "Evidence can be anecdotal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume's critique emphasizes that evidence for miracles should be consistent and repeatable, aligning with scientific standards. This corresponds to: Evidence must be consistent and repeatable."
+    },
+    {
+      "question": "How does Hume's view on miracles compare to the views of those who support the existence of miracles?",
+      "options": [
+        "Hume believes miracles are common",
+        "Supporters argue miracles are scientifically proven",
+        "Hume emphasizes skepticism while supporters emphasize faith",
+        "Both agree on the nature of evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume emphasizes skepticism towards miracles, while supporters often rely on faith and personal testimony. This corresponds to: Hume emphasizes skepticism while supporters emphasize faith."
+    },
+    {
+      "question": "What does Hume argue is a more plausible explanation for reported miracles?",
+      "options": [
+        "Divine intervention",
+        "Psychological phenomena",
+        "Natural occurrences",
+        "Supernatural forces"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume suggests that psychological phenomena, such as wishful thinking or deception, provide more plausible explanations for reported miracles"
+    },
+    {
+      "question": "What is the Epicurean hypothesis that Hume references in his critique of miracles?",
+      "options": [
+        "The universe is designed by a creator",
+        "Randomness can explain the order of the universe",
+        "Miracles are a result of divine will",
+        "All events are predetermined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Epicurean hypothesis posits that given infinite time, particles can combine in every possible way, leading to the current state of the universe without a designer. This corresponds to: Randomness can explain the order of the universe."
+    },
+    {
+      "question": "According to Hume, why is it problematic to use analogies, such as comparing the world to a watch, in arguments for miracles?",
+      "options": [
+        "Analogies are always valid",
+        "Analogies can mislead understanding",
+        "Analogies simplify complex ideas",
+        "Analogies are based on personal beliefs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume argues that analogies can mislead understanding, as the world may not share the same characteristics as a designed object like a watch"
+    }
+  ]
+}

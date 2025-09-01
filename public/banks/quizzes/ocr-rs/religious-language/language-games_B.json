@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:42:49.799Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "language-games",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does Wittgenstein mean by 'language games'?",
+      "options": [
+        "They are fixed rules for language use.",
+        "They are contexts in which language is used meaningfully.",
+        "They are games played by children to learn language.",
+        "They are universal rules applicable to all languages."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein argues that language operates within specific contexts or 'games' where meaning is derived from the rules agreed upon by participants. This corresponds to: They are contexts in which language is used meaningfully.."
+    },
+    {
+      "question": "According to Wittgenstein, how does the concept of 'lebensform' relate to language?",
+      "options": [
+        "It refers to the biological basis of language.",
+        "It indicates that language is a form of life shaped by social practices.",
+        "It suggests that language is purely cognitive.",
+        "It implies that language has a universal meaning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein describes 'lebensform' as the way language is intertwined with the forms of life and social practices of its users. This corresponds to: It indicates that language is a form of life shaped by social practices.."
+    },
+    {
+      "question": "How does Wittgenstein's idea of language games respond to the challenge of Logical Positivism?",
+      "options": [
+        "It asserts that all religious statements are meaningless.",
+        "It shows that religious language is only meaningful within its own context.",
+        "It provides empirical evidence for religious claims.",
+        "It denies the existence of God."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein's language games suggest that religious statements gain meaning from the context in which they are used, countering the Logical Positivist view that they are meaningless. This corresponds to: It shows that religious language is only meaningful within its own context.."
+    },
+    {
+      "question": "What is a key criticism of Wittgenstein's language games from a religious perspective?",
+      "options": [
+        "They provide too much objective meaning to religious statements.",
+        "They remove objective meaning from religious statements.",
+        "They validate all forms of religious language equally.",
+        "They are too focused on cognitive aspects of language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some religious individuals argue that Wittgenstein's approach undermines the objective meaning of religious statements by suggesting they are context-dependent. This corresponds to: They remove objective meaning from religious statements.."
+    },
+    {
+      "question": "Which of the following best illustrates Wittgenstein's concept of language games?",
+      "options": [
+        "A chess player making a legal move.",
+        "A scientist conducting an experiment.",
+        "A poet writing a sonnet.",
+        "A teacher grading a test."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chess player making a legal move exemplifies how language operates within specific rules and contexts, similar to how language games function. This corresponds to: A chess player making a legal move.."
+    },
+    {
+      "question": "How does Normal Malcolm's view support Wittgenstein's language games?",
+      "options": [
+        "It emphasizes the universality of language.",
+        "It highlights the contextual nature of language use.",
+        "It argues for a cognitive approach to language.",
+        "It dismisses the importance of context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Malcolm's view that language is contextual aligns with Wittgenstein's idea that meaning is derived from the specific language game being played. This corresponds to: It highlights the contextual nature of language use.."
+    },
+    {
+      "question": "What is a methodological issue with Wittgenstein's language games approach?",
+      "options": [
+        "It lacks empirical verification.",
+        "It is too rigid in its definitions.",
+        "It does not account for cognitive aspects of language.",
+        "It assumes all language is non-cognitive."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A methodological issue is that Wittgenstein's approach does not provide a means for empirical verification of religious claims, which is a key concern for critics. This corresponds to: It lacks empirical verification.."
+    },
+    {
+      "question": "In what way does Wittgenstein's language games concept differ from Aquinas' cognitive approach?",
+      "options": [
+        "Wittgenstein believes language is fixed and universal.",
+        "Aquinas argues that language is context-dependent.",
+        "Wittgenstein suggests that only insiders can understand religious language.",
+        "Aquinas supports the idea of language games."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wittgenstein's view implies that understanding religious language requires being part of the specific language game, contrasting with Aquinas' cognitive approach. This corresponds to: Wittgenstein suggests that only insiders can understand religious language.."
+    },
+    {
+      "question": "What does Wittgenstein mean by saying 'don't ask for the meaning, ask for the use'?",
+      "options": [
+        "Meaning is fixed and unchanging.",
+        "The use of language determines its meaning.",
+        "Language has no practical application.",
+        "Words have universal meanings."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein emphasizes that the way words are used in context is what gives them meaning, rather than seeking a fixed definition. This corresponds to: The use of language determines its meaning.."
+    },
+    {
+      "question": "How does Wittgenstein's language games concept challenge traditional views of religious language?",
+      "options": [
+        "It affirms the objective truth of religious statements.",
+        "It suggests that religious language is only meaningful within specific contexts.",
+        "It provides a universal framework for understanding all language.",
+        "It denies the existence of any form of religious language."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein's concept challenges traditional views by asserting that the meaning of religious language is context-dependent and not universally applicable. This corresponds to: It suggests that religious language is only meaningful within specific contexts.."
+    }
+  ]
+}

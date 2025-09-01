@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:09:05.029Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "impact",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which theologian is central to the foundation of liberation theology, influenced by Marxism?",
+      "options": [
+        "Gustavo Gutierrez",
+        "John Hick",
+        "Rudolf Bultmann",
+        "David Kramer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gustavo Gutierrez is recognized as a key figure in liberation theology, emphasizing the need for praxis to address structural inequality"
+    },
+    {
+      "question": "What does liberation theology argue is the ultimate form of alienation?",
+      "options": [
+        "Structural sin",
+        "Individual sin",
+        "Capitalism",
+        "Marxism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Liberation theology posits that structural sin is the ultimate form of alienation, affecting every member of society"
+    },
+    {
+      "question": "According to liberation theology, what should the Church focus on in addition to individual sins?",
+      "options": [
+        "Personal salvation",
+        "Social sin",
+        "Ritual practices",
+        "Doctrinal purity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liberation theology emphasizes that the Church must challenge social sin alongside individual sins"
+    },
+    {
+      "question": "In the context of liberation theology, how is Marxism viewed?",
+      "options": [
+        "As a complete ideology",
+        "As an instrument for methodology",
+        "As a rival theology",
+        "As irrelevant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liberation theologians view Marxism as an 'instrument' that aids the methodology of liberation theology. This corresponds to: As an instrument for methodology."
+    },
+    {
+      "question": "If a Christian community engages with Marxist ideologies, what might some argue about the Church's identity?",
+      "options": [
+        "It becomes more inclusive",
+        "It risks losing its distinctiveness",
+        "It strengthens its teachings",
+        "It aligns with secular beliefs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some Christians argue that engaging with Marxist ideologies risks the Church losing its distinctiveness and suggests that truth is found outside Christian revelation. This corresponds to: It risks losing its distinctiveness."
+    },
+    {
+      "question": "What is a potential limitation of liberation theology when addressing social issues?",
+      "options": [
+        "It ignores individual experiences",
+        "It is overly reliant on Marxism",
+        "It lacks scriptural basis",
+        "It is too focused on Western perspectives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation is that liberation theology may be overly reliant on Marxism, potentially limiting its scope and inclusivity. This corresponds to: It is overly reliant on Marxism."
+    },
+    {
+      "question": "How does John Hick's pluralistic hypothesis relate to the understanding of God in different religions?",
+      "options": [
+        "It asserts Christianity is superior",
+        "It emphasizes cultural conditioning",
+        "It denies the existence of God",
+        "It promotes a single path to salvation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's pluralistic hypothesis suggests that each world faith is a culturally conditioned way to experience the Ultimate Reality. This corresponds to: It emphasizes cultural conditioning."
+    },
+    {
+      "question": "What does the hermeneutic of suspicion in liberation theology encourage?",
+      "options": [
+        "Literal interpretation of texts",
+        "A Marxist reading of biblical texts",
+        "Rejection of all ideologies",
+        "Focus on individual salvation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hermeneutic of suspicion encourages a Marxist reading of biblical texts to address the needs of an alienated society"
+    },
+    {
+      "question": "What is a methodological concern regarding the application of liberation theology?",
+      "options": [
+        "It lacks historical context",
+        "It may not resonate with all Christian communities",
+        "It is too focused on individualism",
+        "It ignores feminist perspectives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A methodological concern is that liberation theology may not resonate with all Christian communities, limiting its effectiveness. This corresponds to: It may not resonate with all Christian communities."
+    },
+    {
+      "question": "In what way does feminist theology seek to transform Christian thought?",
+      "options": [
+        "By reinforcing traditional roles",
+        "By correcting androcentrism",
+        "By rejecting all male perspectives",
+        "By promoting exclusivity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Feminist theology aims to correct the androcentrism in Christian thought, seeking more inclusive interpretations of the tradition. This corresponds to: By correcting androcentrism."
+    }
+  ]
+}

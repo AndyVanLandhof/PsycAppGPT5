@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:13:28.634Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "util-objections",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is a common criticism of Bentham's utilitarianism regarding its approach to individual rights?",
+      "options": [
+        "It prioritizes happiness over justice.",
+        "It ignores the consequences of actions.",
+        "It fails to consider the majority's happiness.",
+        "It is too focused on quantitative measures."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham's utilitarianism is often criticized for prioritizing the greatest happiness for the greatest number, potentially sacrificing individual rights in the process. This corresponds to: It prioritizes happiness over justice.."
+    },
+    {
+      "question": "In a scenario where a utilitarian approach suggests sacrificing one innocent person to save five others, what is a key objection raised against this view?",
+      "options": [
+        "It is too rigid and does not allow for exceptions.",
+        "It fails to account for long-term consequences.",
+        "It undermines the moral integrity of individuals.",
+        "It is based on subjective interpretations of happiness."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that utilitarianism undermines moral integrity by justifying harmful actions against individuals for the sake of greater overall happiness. This corresponds to: It undermines the moral integrity of individuals.."
+    },
+    {
+      "question": "What is a methodological issue often highlighted in critiques of utilitarianism?",
+      "options": [
+        "It relies on empirical data that is often biased.",
+        "It assumes that happiness can be quantified.",
+        "It overlooks cultural differences in moral reasoning.",
+        "It fails to consider emotional responses."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics point out that utilitarianism's assumption that happiness can be quantified is a methodological flaw, as it simplifies complex human experiences. This corresponds to: It assumes that happiness can be quantified.."
+    },
+    {
+      "question": "Which philosopher is known for the criticism that utilitarianism can lead to a 'slippery slope' of moral reasoning?",
+      "options": [
+        "John Stuart Mill",
+        "Peter Singer",
+        "Jeremy Bentham",
+        "Immanuel Kant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peter Singer has argued that utilitarianism can lead to a slippery slope where increasingly harmful actions are justified in the name of greater good"
+    },
+    {
+      "question": "In the context of utilitarianism, what does the term 'simple subjectivism' refer to?",
+      "options": [
+        "The belief that moral truths are universal.",
+        "The idea that moral judgments are based on individual feelings.",
+        "The view that happiness is the only intrinsic good.",
+        "The assumption that all actions can be measured by their outcomes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Simple subjectivism posits that moral judgments are based on individual feelings, which is a critique of utilitarianism's objective approach to happiness. This corresponds to: The idea that moral judgments are based on individual feelings.."
+    },
+    {
+      "question": "What is a significant objection to Mill's version of utilitarianism compared to Bentham's?",
+      "options": [
+        "It is less concerned with individual rights.",
+        "It emphasizes qualitative differences in pleasures.",
+        "It does not account for the consequences of actions.",
+        "It is more focused on quantitative measures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill's utilitarianism introduces the idea of qualitative differences in pleasures, which is a significant departure from Bentham's purely quantitative approach. This corresponds to: It emphasizes qualitative differences in pleasures.."
+    },
+    {
+      "question": "Which of the following best describes a criticism of utilitarianism related to justice?",
+      "options": [
+        "It fails to provide a clear decision-making process.",
+        "It can justify actions that are intuitively unjust.",
+        "It does not consider the distribution of happiness.",
+        "It overlooks the importance of individual autonomy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that utilitarianism can justify actions that violate justice, as it may endorse sacrificing individual rights for the sake of overall happiness. This corresponds to: It can justify actions that are intuitively unjust.."
+    },
+    {
+      "question": "What is a common objection to utilitarianism regarding its treatment of minority rights?",
+      "options": [
+        "It prioritizes the majority's happiness at the expense of minorities.",
+        "It fails to recognize the importance of cultural context.",
+        "It assumes all individuals have equal capacity for happiness.",
+        "It does not account for emotional well-being."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilitarianism is often criticized for prioritizing the happiness of the majority, potentially neglecting the rights and well-being of minority groups. This corresponds to: It prioritizes the majority's happiness at the expense of minorities.."
+    },
+    {
+      "question": "In utilitarian ethics, what is a potential issue with the 'greatest happiness principle'?",
+      "options": [
+        "It is too vague to apply in real-life situations.",
+        "It can lead to the neglect of long-term consequences.",
+        "It assumes that happiness is the only measure of morality.",
+        "It does not account for the complexity of human emotions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The greatest happiness principle is criticized for assuming that happiness is the sole measure of morality, which can oversimplify ethical dilemmas. This corresponds to: It assumes that happiness is the only measure of morality.."
+    },
+    {
+      "question": "Which one of the following is a common criticism of Bentham's utilitarianism regarding its approach to individual rights?",
+      "options": [
+        "It prioritizes happiness over justice.",
+        "It ignores the consequences of actions.",
+        "It fails to consider the majority's happiness.",
+        "It is too focused on quantitative measures."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham's utilitarianism is often criticized for prioritizing the greatest happiness for the greatest number, potentially sacrificing individual rights in the process. This corresponds to: It prioritizes happiness over justice.."
+    }
+  ]
+}

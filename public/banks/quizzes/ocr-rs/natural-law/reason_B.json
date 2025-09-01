@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:51:02.052Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "reason",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary role of reason in ethics according to the view that ethics is subjective?",
+      "options": [
+        "To provide objective ethical facts",
+        "To allow for ethical reasoning",
+        "To eliminate personal biases",
+        "To enforce moral laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The view suggests that ethical reasoning is possible even if there are no objective ethical facts. This corresponds to: To allow for ethical reasoning."
+    },
+    {
+      "question": "In the context of ethical judgments, what does universalizability imply?",
+      "options": [
+        "Ethical judgments must apply to all situations",
+        "Ethical judgments must be accepted by all rational agents",
+        "Ethical judgments are subjective",
+        "Ethical judgments are based on personal preferences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Universalizability requires that a judgment must be acceptable from a universal point of view. This corresponds to: Ethical judgments must be accepted by all rational agents."
+    },
+    {
+      "question": "According to the materials, what is a flaw in the argument for universalizability in ethical judgments?",
+      "options": [
+        "It assumes all ethical judgments are rational",
+        "It conflates rationality with universal validity",
+        "It ignores the role of emotions in ethics",
+        "It fails to account for cultural differences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The argument slides from a limited sense of rational judgment to a stronger sense of universal validity. This corresponds to: It conflates rationality with universal validity."
+    },
+    {
+      "question": "A philosopher argues that ethical principles must be accepted by all rational agents. This reflects which ethical concept?",
+      "options": [
+        "Egoism",
+        "Utilitarianism",
+        "Universalizability",
+        "Relativism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates the concept of universalizability, where ethical principles must be universally accepted"
+    },
+    {
+      "question": "If two rational agents disagree on an ethical judgment, what does this imply about their judgments?",
+      "options": [
+        "They are both correct",
+        "One is irrational",
+        "They cannot be rational judgments",
+        "They are based on personal preferences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The disagreement suggests that if they cannot accept each other's judgments, those judgments cannot be rational. This corresponds to: They cannot be rational judgments."
+    },
+    {
+      "question": "What does the concept of biocentric egalitarianism advocate?",
+      "options": [
+        "Humans have superior rights over animals",
+        "All living things have equal intrinsic worth",
+        "Ethics is subjective",
+        "Only rational beings deserve moral consideration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biocentric egalitarianism posits that all organisms have an equal right to live and flourish. This corresponds to: All living things have equal intrinsic worth."
+    },
+    {
+      "question": "What is a methodological issue with Kantian ethics as discussed in the materials?",
+      "options": [
+        "It relies too heavily on empirical evidence",
+        "It assumes all individuals have the same moral reasoning",
+        "It lacks a rational justification for its premises",
+        "It is too focused on individual autonomy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant's ethics is criticized for lacking a rational justification for its foundational premise. This corresponds to: It lacks a rational justification for its premises."
+    },
+    {
+      "question": "How does the contract view of ethics limit the scope of ethical consideration?",
+      "options": [
+        "It includes all living beings",
+        "It excludes non-reciprocal relationships",
+        "It is based on universal principles",
+        "It emphasizes emotional reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The contract view limits ethics to those capable of reciprocating, excluding beings like animals. This corresponds to: It excludes non-reciprocal relationships."
+    },
+    {
+      "question": "What is the implication of the statement that ethics must be universal according to the materials?",
+      "options": [
+        "Ethics is inherently subjective",
+        "Ethics should be based on personal experiences",
+        "Ethics cannot be justified by sectional interests",
+        "Ethics is determined by cultural norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This implies that ethical judgments must transcend individual or group interests to be valid. This corresponds to: Ethics cannot be justified by sectional interests."
+    },
+    {
+      "question": "What does the failure of deep ecology to provide persuasive answers about individual living beings suggest?",
+      "options": [
+        "It is a strong ethical theory",
+        "It lacks a clear framework for individual rights",
+        "It is universally accepted",
+        "It prioritizes human interests over ecological concerns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The failure indicates that deep ecology struggles to justify the intrinsic worth of individual organisms. This corresponds to: It lacks a clear framework for individual rights."
+    }
+  ]
+}

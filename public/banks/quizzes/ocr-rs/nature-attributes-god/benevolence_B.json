@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:23:19.106Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "benevolence",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does the term 'omnibenevolence' imply about God's nature?",
+      "options": [
+        "God is all-powerful",
+        "God is all-knowing",
+        "God is all-loving",
+        "God is eternal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Omnibenevolence refers to God's attribute of being all-loving, suggesting a constant and active force of compassion and fairness. This corresponds to: God is all-loving."
+    },
+    {
+      "question": "According to the problem of evil, which of the following questions challenges the concept of God's omnibenevolence?",
+      "options": [
+        "How can God be all-powerful and not stop evil?",
+        "How can God be all-knowing and not predict evil?",
+        "How can God be eternal and interact with time?",
+        "How can God be just and allow suffering?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The problem of evil raises the question of how an all-powerful God can allow evil to exist, thus challenging the nature of God's benevolence. This corresponds to: How can God be all-powerful and not stop evil?."
+    },
+    {
+      "question": "If God is omnibenevolent, what does this suggest about the existence of hell according to some interpretations?",
+      "options": [
+        "Hell is a place God created for punishment",
+        "Hell is a self-imposed state by individuals",
+        "Hell does not exist",
+        "Hell is a temporary state of suffering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some argue that hell reflects a choice made by individuals rather than a direct action of God, aligning with the concept of free will. This corresponds to: Hell is a self-imposed state by individuals."
+    },
+    {
+      "question": "Which philosopher's view suggests that God's benevolence may need to be understood differently due to the existence of evil?",
+      "options": [
+        "Aquinas",
+        "Boethius",
+        "Anselm",
+        "Epicurus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Epicurus first articulated the problem of evil, questioning how an omnibenevolent God could allow suffering"
+    },
+    {
+      "question": "In the context of divine attributes, which of the following best describes the relationship between omnibenevolence and justice?",
+      "options": [
+        "They are always in conflict",
+        "They can coexist if understood correctly",
+        "Justice negates benevolence",
+        "Benevolence is irrelevant to justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coexistence of omnibenevolence and justice suggests that God's actions, even when punitive, can still reflect a loving nature. This corresponds to: They can coexist if understood correctly."
+    },
+    {
+      "question": "What is a potential conflict between God's omniscience and omnibenevolence?",
+      "options": [
+        "God cannot know the future",
+        "God may choose not to intervene",
+        "God is not all-powerful",
+        "God's love is conditional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If God is all-knowing, the question arises as to why God would choose not to prevent evil, challenging the understanding of divine benevolence. This corresponds to: God may choose not to intervene."
+    },
+    {
+      "question": "Which attribute of God is considered fundamental in understanding the nature of God according to some theologians?",
+      "options": [
+        "Omnipotence",
+        "Omniscience",
+        "Omnibenevolence",
+        "Eternity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Omnibenevolence is often seen as the fundamental description of God, influencing interpretations of other divine attributes"
+    },
+    {
+      "question": "How does the concept of divine self-imposed limitation relate to God's benevolence?",
+      "options": [
+        "It suggests God is not truly omnipotent",
+        "It indicates God chooses to allow free will",
+        "It means God cannot judge human actions",
+        "It implies God is indifferent to suffering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divine self-imposed limitation suggests that God's benevolence allows for human free will, which can lead to suffering. This corresponds to: It indicates God chooses to allow free will."
+    },
+    {
+      "question": "What does the analogy of God as a diamond suggest about understanding divine attributes?",
+      "options": [
+        "God is simple and unchanging",
+        "God has multiple facets that can be examined",
+        "God is ultimately unknowable",
+        "God's attributes are contradictory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The analogy implies that understanding God requires examining different attributes, which can provide a more comprehensive view of divine nature. This corresponds to: God has multiple facets that can be examined."
+    },
+    {
+      "question": "Which of the following best describes the challenge posed by evil to theistic beliefs?",
+      "options": [
+        "It questions God's existence",
+        "It questions God's nature",
+        "It supports the idea of free will",
+        "It confirms the need for justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existence of evil challenges the nature of God, particularly the attributes of omnipotence and omnibenevolence. This corresponds to: It questions God's nature."
+    }
+  ]
+}

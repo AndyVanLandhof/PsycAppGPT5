@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:08:16.498Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "comparison",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is Aristotle's view on the relationship between the body and the soul?",
+      "options": [
+        "The soul is separate from the body.",
+        "The soul is the form of the body.",
+        "The body is a prison for the soul.",
+        "The soul exists independently."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle argues that the soul is not separate from the body but is the form that gives the body its essence and characteristics. This corresponds to: The soul is the form of the body.."
+    },
+    {
+      "question": "According to Plato, how do we gain true knowledge?",
+      "options": [
+        "Through empirical observation.",
+        "Through sensory experience.",
+        "Through reason and recollection of the Forms.",
+        "Through social interaction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato believes that true knowledge comes from using reason to access the immutable World of the Forms, rather than relying on deceptive senses. This corresponds to: Through reason and recollection of the Forms.."
+    },
+    {
+      "question": "In Aristotle's four causes, which cause is most closely associated with the purpose of an object?",
+      "options": [
+        "Material cause",
+        "Formal cause",
+        "Efficient cause",
+        "Final cause"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The final cause, or telos, refers to the purpose or end for which an object exists, which is a key aspect of Aristotle's explanation of change"
+    },
+    {
+      "question": "Plato's analogy of the cave illustrates which philosophical concept?",
+      "options": [
+        "The importance of empirical evidence.",
+        "The distinction between appearance and reality.",
+        "The necessity of the Prime Mover.",
+        "The hierarchy of being."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The analogy of the cave demonstrates Plato's belief that most people live in a world of appearances and must use reason to access true reality. This corresponds to: The distinction between appearance and reality.."
+    },
+    {
+      "question": "If a student argues that Aristotle's Prime Mover is inferred without evidence, which aspect of Aristotle's philosophy are they critiquing?",
+      "options": [
+        "His reliance on sensory experience.",
+        "His categorization of the four causes.",
+        "His understanding of the soul.",
+        "His concept of the Prime Mover."
+      ],
+      "correctAnswer": 3,
+      "explanation": "This critique highlights the methodological issue that while Aristotle's Prime Mover is a rational explanation for change, it lacks empirical verification. This corresponds to: His concept of the Prime Mover.."
+    },
+    {
+      "question": "A student claims that Plato's Form of the Good is essential for understanding goodness. Which argument supports this claim?",
+      "options": [
+        "It is based on empirical observations.",
+        "It provides a rational framework for morality.",
+        "It relies on sensory experiences.",
+        "It is a subjective interpretation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's Form of the Good serves as a rational foundation for understanding goodness, linking it to his theory of the Forms. This corresponds to: It provides a rational framework for morality.."
+    },
+    {
+      "question": "Which of the following best describes Aristotle's method of gaining knowledge?",
+      "options": [
+        "A priori reasoning.",
+        "A posteriori observation.",
+        "Intuitive understanding.",
+        "Revelation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle's approach is empirical, relying on a posteriori knowledge gained through observation and experience. This corresponds to: A posteriori observation.."
+    },
+    {
+      "question": "How does Aristotle's view of the soul differ from Plato's?",
+      "options": [
+        "Aristotle sees the soul as separate from the body.",
+        "Aristotle believes the soul is the essence of the body.",
+        "Aristotle denies the existence of the soul.",
+        "Aristotle views the soul as a prison for the body."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This comparison highlights the fundamental difference in their philosophies, with Aristotle's monism contrasting with Plato's dualism. This corresponds to: Aristotle believes the soul is the essence of the body.."
+    },
+    {
+      "question": "Which of the following is a strength of Plato's Theory of Forms?",
+      "options": [
+        "It is empirically verifiable.",
+        "It provides a clear explanation for change.",
+        "It offers a rational basis for understanding abstract concepts.",
+        "It is easily understood by all."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato's Theory of Forms offers a rational framework for understanding abstract concepts, though it faces critiques regarding its practicality. This corresponds to: It offers a rational basis for understanding abstract concepts.."
+    },
+    {
+      "question": "What is a key criticism of Aristotle's Prime Mover?",
+      "options": [
+        "It is too reliant on sensory experience.",
+        "It cannot explain the existence of change.",
+        "It lacks empirical evidence.",
+        "It is overly simplistic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Prime Mover is criticized for being an inferred concept without direct empirical evidence, raising questions about its validity. This corresponds to: It lacks empirical evidence.."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:39:15.022Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "psychology",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which philosopher argued that the idea of God is a human invention, projecting human qualities onto the divine?",
+      "options": [
+        "Ludwig Feuerbach",
+        "Sigmund Freud",
+        "Richard Dawkins",
+        "David Hay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ludwig Feuerbach argued that God is created in our image, reflecting human attributes"
+    },
+    {
+      "question": "According to Freud, what psychological condition does he associate with religious behavior?",
+      "options": [
+        "Neurosis",
+        "Hallucination",
+        "Delusion",
+        "Psychopathy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freud viewed religious behavior as a neurosis stemming from childhood insecurities"
+    },
+    {
+      "question": "What percentage of the population did David Hay suggest has experienced something resembling a religious experience?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "David Hay suggested that around 30% of the population has had a religious experience"
+    },
+    {
+      "question": "Richard Dawkins describes religious ideas as 'memes'. What does he suggest about these ideas?",
+      "options": [
+        "They are harmful to society",
+        "They are beneficial for survival",
+        "They are purely psychological",
+        "They are universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dawkins suggests that religious ideas are memes that have evolved to be useful for survival. This corresponds to: They are beneficial for survival."
+    },
+    {
+      "question": "Newberg and D'Aquili conducted experiments on meditating Buddhist monks. What did their findings suggest?",
+      "options": [
+        "Increased brain activity during meditation",
+        "Decreased emotional awareness",
+        "Hallucinatory experiences",
+        "Uniform brain patterns across all subjects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Their research indicated increased brain activity during meditation, linked to religious experiences"
+    },
+    {
+      "question": "Freud's view on religious experiences suggests they are caused by what type of desires?",
+      "options": [
+        "Conscious desires",
+        "Subconscious desires",
+        "Cultural desires",
+        "Social desires"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud argued that religious experiences are hallucinations caused by deep subconscious desires"
+    },
+    {
+      "question": "One criticism of Freud's psychological explanation of religious experiences is that it lacks what?",
+      "options": [
+        "Empirical support",
+        "Cultural relevance",
+        "Historical context",
+        "Scientific validity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Critics argue that Freud's theories cannot be scientifically tested, challenging their validity. This corresponds to: Scientific validity."
+    },
+    {
+      "question": "What methodological issue is often raised regarding the study of religious experiences?",
+      "options": [
+        "They are too public",
+        "They are too subjective",
+        "They are too diverse",
+        "They are too rare"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Religious experiences are private and subjective, making them difficult to study empirically. This corresponds to: They are too subjective."
+    },
+    {
+      "question": "Freud's explanation of conscience suggests it is shaped by what factors?",
+      "options": [
+        "Biological factors",
+        "Cultural factors",
+        "Psychological development",
+        "Religious teachings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freud posited that conscience is influenced by psychological development and upbringing"
+    },
+    {
+      "question": "What is a significant challenge to the intuitionist view of moral truths in relation to psychological explanations?",
+      "options": [
+        "They are universally accepted",
+        "They are scientifically verifiable",
+        "They are often disputed",
+        "They are self-evident"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intuitionism struggles with the fact that moral truths are often subject to significant disagreement. This corresponds to: They are often disputed."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:38:39.248Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "verification",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the main criticism of the strong verification principle proposed by the Vienna Circle?",
+      "options": [
+        "It is too flexible.",
+        "It is too rigid.",
+        "It allows for religious statements.",
+        "It is self-refuting."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The strong verification principle is criticized for being too rigid, as it classifies many meaningful historical claims as meaningless. This corresponds to: It is too rigid.."
+    },
+    {
+      "question": "According to A.J. Ayer's weak verification principle, which of the following statements would be considered meaningful?",
+      "options": [
+        "God exists.",
+        "Water boils at 100 degrees Celsius.",
+        "All humans are mortal.",
+        "The resurrection of Jesus is true."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer's weak verification principle states that a statement is meaningful if it can be verified in principle, such as the boiling point of water. This corresponds to: Water boils at 100 degrees Celsius.."
+    },
+    {
+      "question": "How does Richard Swinburne challenge the verification principle regarding religious statements?",
+      "options": [
+        "He argues they are always meaningless.",
+        "He uses the analogy of toys in a cupboard.",
+        "He states they can be verified in practice.",
+        "He claims they are tautological."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne uses the analogy of toys in a cupboard to illustrate that statements can be meaningful even if they cannot be empirically verified. This corresponds to: He uses the analogy of toys in a cupboard.."
+    },
+    {
+      "question": "What is a key argument made by John Hick against Ayer's rejection of religious statements?",
+      "options": [
+        "They are not verifiable in principle.",
+        "They can be verified at the end of life's journey.",
+        "They are always meaningless.",
+        "They are tautological."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that religious claims can be verified eschatologically, meaning they can be confirmed at the end of all things. This corresponds to: They can be verified at the end of life's journey.."
+    },
+    {
+      "question": "What does Ayer suggest about ethical statements in relation to the verification principle?",
+      "options": [
+        "They are always meaningful.",
+        "They are factually meaningless.",
+        "They can be verified in principle.",
+        "They are tautological."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer argues that ethical statements are factually meaningless because they cannot be verified by the senses. This corresponds to: They are factually meaningless.."
+    },
+    {
+      "question": "What is a methodological issue with the verification principle highlighted by critics?",
+      "options": [
+        "It is too broad.",
+        "It fails to account for historical claims.",
+        "It allows for subjective interpretations.",
+        "It is self-refuting."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the verification principle fails to account for historical claims, which cannot be verified through immediate sense experience. This corresponds to: It fails to account for historical claims.."
+    },
+    {
+      "question": "Which philosopher argued that the verification principle is self-refuting?",
+      "options": [
+        "A.J. Ayer",
+        "Richard Swinburne",
+        "John Hick",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A.J. Ayer pointed out that the verification principle itself is neither a tautology nor verifiable in principle, making it self-refuting"
+    },
+    {
+      "question": "What does the weak verification principle allow that the strong verification principle does not?",
+      "options": [
+        "Only empirical statements are meaningful.",
+        "Historical claims can be discussed.",
+        "All statements are meaningful.",
+        "Only tautological statements are meaningful."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The weak verification principle allows for historical claims to be considered meaningful if they can be verified in principle. This corresponds to: Historical claims can be discussed.."
+    },
+    {
+      "question": "What is the implication of Ayer's emotivism for ethical language?",
+      "options": [
+        "It conveys factual information.",
+        "It expresses emotional states.",
+        "It is always verifiable.",
+        "It is purely analytical."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer's emotivism suggests that ethical statements express emotional states rather than convey factual information. This corresponds to: It expresses emotional states.."
+    },
+    {
+      "question": "How does Ayer's view on the verification principle differ from that of the logical positivists?",
+      "options": [
+        "He rejects all forms of verification.",
+        "He accepts weak verification.",
+        "He only supports strong verification.",
+        "He believes all statements are meaningful."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer accepts weak verification, allowing statements to be meaningful if they can be verified in principle, unlike the strict criteria of the logical positivists. This corresponds to: He accepts weak verification.."
+    }
+  ]
+}

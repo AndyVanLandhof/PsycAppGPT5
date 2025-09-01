@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:19:11.662Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "omniscience",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Swinburne, what does omniscience entail regarding God's knowledge of the future?",
+      "options": [
+        "God knows everything that will happen",
+        "God knows everything that is logically possible to know",
+        "God knows only the past",
+        "God knows nothing about the future"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne defines omniscience as knowing everything that it is logically possible to know, which includes predictable future events but not free human decisions. This corresponds to: God knows everything that is logically possible to know."
+    },
+    {
+      "question": "How does Boethius' view of God's knowledge resolve the conflict between divine foreknowledge and human free will?",
+      "options": [
+        "By suggesting God knows the future by simple necessity",
+        "By claiming God does not know the future",
+        "By stating God knows the future through conditional necessity",
+        "By denying human free will altogether"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boethius argues that God knows human choices by conditional necessity, allowing for free will while maintaining divine foreknowledge. This corresponds to: By stating God knows the future through conditional necessity."
+    },
+    {
+      "question": "What is a key criticism of Boethius' view of God's eternity?",
+      "options": [
+        "It allows for human free will",
+        "It suggests God cannot interact with creation",
+        "It denies God's omniscience",
+        "It conflicts with the concept of divine benevolence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Boethius' timeless God cannot interact with creation, answer prayers, or form relationships with humans. This corresponds to: It suggests God cannot interact with creation."
+    },
+    {
+      "question": "In what way does Swinburne's model of God differ from Boethius' regarding omniscience?",
+      "options": [
+        "Swinburne denies God's omniscience",
+        "Swinburne allows for God's free choices",
+        "Swinburne believes God is timeless",
+        "Swinburne argues God cannot know the past"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne's view allows for God's free choices, suggesting that God's omniscience does not negate human free will. This corresponds to: Swinburne allows for God's free choices."
+    },
+    {
+      "question": "If God's omniscience is limited, what implication does this have for classical theism?",
+      "options": [
+        "It supports the idea of a timeless God",
+        "It contradicts the nature of God as traditionally understood",
+        "It enhances the concept of divine benevolence",
+        "It affirms human free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limited omniscience would conflict with the classical theistic view of God, who is traditionally understood to be all-knowing. This corresponds to: It contradicts the nature of God as traditionally understood."
+    },
+    {
+      "question": "If a philosopher argues that God's knowledge is like that of a chess Grand Master, what aspect of God's knowledge are they emphasizing?",
+      "options": [
+        "God's omnipotence",
+        "God's ability to predict human actions",
+        "God's timelessness",
+        "God's benevolence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This analogy emphasizes God's ability to predict human actions while allowing for human free will, similar to how a Grand Master anticipates a novice's moves"
+    },
+    {
+      "question": "In evaluating the conflict between omniscience and free will, what does Lady Philosophy suggest about God's eternity?",
+      "options": [
+        "It is a linear progression of time",
+        "It is a simultaneous possession of infinite life",
+        "It is irrelevant to human choices",
+        "It denies God's interaction with time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lady Philosophy argues that God's eternity is a simultaneous possession of infinite life, which helps resolve the conflict between omniscience and free will. This corresponds to: It is a simultaneous possession of infinite life."
+    },
+    {
+      "question": "What is a methodological issue raised by the discussion of divine attributes?",
+      "options": [
+        "The lack of empirical evidence for God's existence",
+        "The inconsistency in definitions of omniscience",
+        "The subjective interpretation of philosophical arguments",
+        "The reliance on historical texts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The discussion often lacks empirical evidence, making it difficult to substantiate claims about God's attributes. This corresponds to: The lack of empirical evidence for God's existence."
+    },
+    {
+      "question": "How does the concept of middle knowledge relate to God's omniscience?",
+      "options": [
+        "It suggests God knows only the past",
+        "It implies God knows all possible outcomes of human choices",
+        "It denies God's ability to know the future",
+        "It supports the idea of a timeless God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Middle knowledge posits that God knows not only what happens but also what could happen based on human choices, expanding the understanding of omniscience. This corresponds to: It implies God knows all possible outcomes of human choices."
+    },
+    {
+      "question": "What does the analogy of God as a diamond suggest about understanding divine attributes?",
+      "options": [
+        "God has no attributes",
+        "God's attributes are contradictory",
+        "God can be understood from multiple perspectives",
+        "God's attributes are irrelevant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The diamond analogy illustrates that God's attributes can be examined from different angles, providing a multifaceted understanding of divinity. This corresponds to: God can be understood from multiple perspectives."
+    }
+  ]
+}

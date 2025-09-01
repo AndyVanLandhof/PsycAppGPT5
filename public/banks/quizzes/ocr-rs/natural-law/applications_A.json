@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:52:45.125Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "applications",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Natural Law, as a moral theory, suggests that moral principles are derived from nature. Which of the following best describes this view?",
+      "options": [
+        "Moral absolutism",
+        "Moral relativism",
+        "Utilitarianism",
+        "Kantian ethics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Natural Law is often associated with moral absolutism, which holds that certain actions are intrinsically right or wrong based on natural laws"
+    },
+    {
+      "question": "In the context of Natural Law, which of the following is a primary focus when addressing modern ethical issues?",
+      "options": [
+        "Consequences of actions",
+        "Human nature and purpose",
+        "Cultural norms",
+        "Legal statutes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law emphasizes human nature and purpose as the basis for moral decision-making, rather than focusing solely on consequences or cultural norms"
+    },
+    {
+      "question": "A couple is considering cohabitation without marriage, which has become increasingly common. How might a Natural Law ethicist view this situation?",
+      "options": [
+        "It is morally acceptable as long as both partners consent.",
+        "It violates the natural purpose of marriage.",
+        "It is a personal choice that should not be judged.",
+        "It is acceptable if it leads to happiness."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Natural Law ethicist would likely argue that cohabitation violates the natural purpose of marriage, which is seen as a moral good. This corresponds to: It violates the natural purpose of marriage.."
+    },
+    {
+      "question": "Natural Law theory posits that moral truths are self-evident. What is a potential criticism of this view?",
+      "options": [
+        "It relies too heavily on subjective interpretations.",
+        "It does not account for cultural differences.",
+        "It is too rigid in its application.",
+        "It ignores the role of emotions in moral decision-making."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A criticism of Natural Law is that it may not account for cultural differences, leading to a lack of applicability in diverse societies. This corresponds to: It does not account for cultural differences.."
+    },
+    {
+      "question": "According to Natural Law, which of the following actions would be considered morally wrong?",
+      "options": [
+        "Helping a friend in need",
+        "Engaging in premarital sex",
+        "Volunteering for a charity",
+        "Donating to a cause"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law typically views premarital sex as morally wrong because it does not align with the natural purpose of sexual relations within marriage. This corresponds to: Engaging in premarital sex."
+    },
+    {
+      "question": "In a scenario where a business must decide whether to implement environmentally harmful practices for profit, how would a Natural Law approach guide their decision?",
+      "options": [
+        "Prioritize profit over environmental concerns.",
+        "Consider the long-term effects on human nature.",
+        "Follow legal regulations strictly.",
+        "Adopt a utilitarian approach to maximize happiness."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Natural Law approach would emphasize the importance of considering the long-term effects on human nature and the environment, rather than prioritizing profit. This corresponds to: Consider the long-term effects on human nature.."
+    },
+    {
+      "question": "Natural Law is often contrasted with which ethical theory that focuses on the consequences of actions?",
+      "options": [
+        "Kantian ethics",
+        "Virtue ethics",
+        "Utilitarianism",
+        "Divine command theory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural Law is contrasted with utilitarianism, which evaluates the morality of actions based on their outcomes rather than inherent moral principles"
+    },
+    {
+      "question": "Which of the following best illustrates the application of Natural Law to contemporary issues such as euthanasia?",
+      "options": [
+        "It supports euthanasia if it reduces suffering.",
+        "It opposes euthanasia as it contradicts the natural law of preserving life.",
+        "It allows euthanasia under strict regulations.",
+        "It is indifferent to the issue."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law typically opposes euthanasia, arguing that it contradicts the natural law of preserving life, which is seen as a fundamental moral principle. This corresponds to: It opposes euthanasia as it contradicts the natural law of preserving life.."
+    },
+    {
+      "question": "What is a key strength of Natural Law in addressing modern ethical dilemmas?",
+      "options": [
+        "It provides clear guidelines based on human nature.",
+        "It allows for flexibility in moral reasoning.",
+        "It prioritizes individual happiness.",
+        "It is universally accepted across cultures."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A strength of Natural Law is that it provides clear guidelines based on human nature, offering a consistent framework for addressing ethical dilemmas. This corresponds to: It provides clear guidelines based on human nature.."
+    },
+    {
+      "question": "In the context of Natural Law, how might the increasing acceptance of same-sex relationships be viewed?",
+      "options": [
+        "As a natural evolution of societal norms.",
+        "As a violation of natural law principles.",
+        "As a personal choice that should be respected.",
+        "As an irrelevant issue in moral discussions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law would likely view the increasing acceptance of same-sex relationships as a violation of its principles, which emphasize traditional definitions of marriage and sexual relations. This corresponds to: As a violation of natural law principles.."
+    }
+  ]
+}

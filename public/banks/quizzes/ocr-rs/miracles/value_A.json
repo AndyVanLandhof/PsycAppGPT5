@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:47:23.102Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "value",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following features of religious experiences, as identified by William James, is described as being beyond proper description?",
+      "options": [
+        "Ineffable",
+        "Noetic quality",
+        "Transient",
+        "Passivity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "James suggests that ineffability is a key characteristic of religious experiences, indicating they cannot be adequately expressed in words. This corresponds to: Ineffable."
+    },
+    {
+      "question": "In the context of miracles, how might a believer interpret an event as a miracle?",
+      "options": [
+        "As a natural occurrence",
+        "As a sign of divine intervention",
+        "As a coincidence",
+        "As a psychological phenomenon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Believers may view events as miracles when they perceive them as signs of divine intervention, reflecting their faith and understanding of the divine. This corresponds to: As a sign of divine intervention."
+    },
+    {
+      "question": "What is one methodological issue in studying miracles in religious practice?",
+      "options": [
+        "Lack of empirical evidence",
+        "Over-reliance on anecdotal accounts",
+        "Bias in religious texts",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Studying miracles often involves anecdotal evidence and subjective interpretations, leading to challenges in establishing empirical validity. This corresponds to: All of the above."
+    },
+    {
+      "question": "Which of the following best describes the 'noetic quality' of religious experiences as per William James?",
+      "options": [
+        "A sense of authority",
+        "A fleeting nature",
+        "A feeling of community",
+        "A physical sensation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The noetic quality refers to the deep and direct knowledge of God that individuals feel they gain during religious experiences. This corresponds to: A sense of authority."
+    },
+    {
+      "question": "When considering the impact of secularism on religious beliefs about miracles, what might be a significant concern?",
+      "options": [
+        "Increased belief in miracles",
+        "Reduction in the perceived relevance of miracles",
+        "Greater community cohesion",
+        "Stronger adherence to traditional practices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secularism may lead to a reduction in the perceived relevance of miracles, as individuals increasingly rely on scientific explanations"
+    },
+    {
+      "question": "Which of the following is a key principle of James' conclusions about religious experiences?",
+      "options": [
+        "Pragmatism",
+        "Rationalism",
+        "Empiricism",
+        "Determinism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pragmatism is a key principle in James' understanding of religious experiences, emphasizing their practical effects and value in real life"
+    },
+    {
+      "question": "How might the concept of miracles influence the moral actions of believers?",
+      "options": [
+        "By encouraging skepticism",
+        "By reinforcing faith-based actions",
+        "By promoting secular ethics",
+        "By diminishing community ties"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Believers may feel encouraged to act morally in accordance with their faith, viewing miracles as affirmations of their beliefs. This corresponds to: By reinforcing faith-based actions."
+    },
+    {
+      "question": "What is a potential limitation of using personal testimonies in the study of miracles?",
+      "options": [
+        "They are universally accepted",
+        "They provide objective data",
+        "They can be biased and subjective",
+        "They are easily verifiable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Personal testimonies can be biased and subjective, making it difficult to draw objective conclusions about the nature of miracles. This corresponds to: They can be biased and subjective."
+    },
+    {
+      "question": "Which aspect of religious experiences does James argue is often transient?",
+      "options": [
+        "Ineffability",
+        "Noetic quality",
+        "Transience",
+        "Passivity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "James notes that religious experiences are typically transient, lasting a short time but potentially having long-lasting effects. This corresponds to: Transience."
+    },
+    {
+      "question": "In the context of miracles, how might a religious tradition respond to contemporary social issues?",
+      "options": [
+        "By rejecting all modern interpretations",
+        "By adapting teachings to address current challenges",
+        "By maintaining strict traditional views",
+        "By ignoring societal changes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Religious traditions may adapt their teachings about miracles to engage with contemporary social issues, reflecting their evolving understanding. This corresponds to: By adapting teachings to address current challenges."
+    }
+  ]
+}

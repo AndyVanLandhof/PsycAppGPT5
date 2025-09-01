@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:14:53.148Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "util-application",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following best describes the application of utilitarianism in the context of business ethics?",
+      "options": [
+        "Maximizing profit at all costs",
+        "Ensuring the greatest happiness for the greatest number",
+        "Prioritizing employee welfare over customer satisfaction",
+        "Focusing solely on legal compliance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism emphasizes actions that promote the greatest happiness for the majority, which can influence business decisions. This corresponds to: Ensuring the greatest happiness for the greatest number."
+    },
+    {
+      "question": "In a scenario where a hospital has one available organ for transplant and two patients need it, how would a utilitarian approach determine who receives the organ?",
+      "options": [
+        "The patient with the highest social status",
+        "The patient who will benefit the most in terms of quality of life",
+        "The patient who has been waiting the longest",
+        "The patient with the most family support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A utilitarian approach would prioritize the patient whose survival would result in the greatest overall happiness. This corresponds to: The patient who will benefit the most in terms of quality of life."
+    },
+    {
+      "question": "What is a key criticism of utilitarianism when applied to moral dilemmas, such as lying to a murderer?",
+      "options": [
+        "It is too rigid and does not consider consequences",
+        "It can justify harmful actions if they result in greater happiness",
+        "It ignores the importance of individual rights",
+        "It is too focused on emotions rather than logic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that utilitarianism can lead to morally questionable actions being justified if they produce a net benefit. This corresponds to: It can justify harmful actions if they result in greater happiness."
+    },
+    {
+      "question": "Which of the following scenarios illustrates the principle of utilitarianism in charity?",
+      "options": [
+        "Donating to a charity that supports a cause you are passionate about",
+        "Giving to a charity that helps the most people regardless of personal feelings",
+        "Supporting a charity that provides tax benefits",
+        "Choosing to donate only when it is convenient"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism would advocate for supporting the charity that maximizes benefits for the largest number of people. This corresponds to: Giving to a charity that helps the most people regardless of personal feelings."
+    },
+    {
+      "question": "In the context of utilitarianism, what is the significance of the 'greatest happiness principle'?",
+      "options": [
+        "It prioritizes individual rights over collective well-being",
+        "It serves as a guideline for evaluating the morality of actions",
+        "It emphasizes emotional responses in moral decision-making",
+        "It allows for absolute moral rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'greatest happiness principle' is central to utilitarianism, guiding actions based on their outcomes for overall happiness. This corresponds to: It serves as a guideline for evaluating the morality of actions."
+    },
+    {
+      "question": "How might a utilitarian approach differ from a deontological perspective when addressing ethical dilemmas?",
+      "options": [
+        "Utilitarianism focuses on the action itself, while deontology considers the consequences",
+        "Utilitarianism evaluates actions based on their outcomes, whereas deontology adheres to moral rules",
+        "Utilitarianism is more flexible than deontology",
+        "Utilitarianism prioritizes emotions over logic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism assesses the morality of actions based on their outcomes, contrasting with deontology's focus on adherence to moral duties. This corresponds to: Utilitarianism evaluates actions based on their outcomes, whereas deontology adheres to moral rules."
+    },
+    {
+      "question": "Which of the following best exemplifies a utilitarian calculation in public policy?",
+      "options": [
+        "Implementing a tax increase to fund public health initiatives",
+        "Reducing taxes to stimulate economic growth",
+        "Enforcing strict regulations on businesses",
+        "Promoting individual freedoms without restrictions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A utilitarian calculation would support policies that maximize public health benefits for the majority, even if it involves tax increases. This corresponds to: Implementing a tax increase to fund public health initiatives."
+    },
+    {
+      "question": "What is a common challenge faced by utilitarianism in real-world applications?",
+      "options": [
+        "It is too simplistic to address complex moral issues",
+        "It requires precise calculations of happiness",
+        "It often leads to inconsistent moral judgments",
+        "It disregards the importance of cultural differences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism can be criticized for its demand for precise calculations of happiness, which can be difficult to achieve in practice. This corresponds to: It requires precise calculations of happiness."
+    },
+    {
+      "question": "In utilitarian ethics, how is the concept of 'utility' typically defined?",
+      "options": [
+        "As the intrinsic value of an action",
+        "As the overall happiness or pleasure produced by an action",
+        "As the moral duty to act",
+        "As the legal implications of an action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In utilitarianism, 'utility' refers to the overall happiness or pleasure that results from an action, guiding moral decisions. This corresponds to: As the overall happiness or pleasure produced by an action."
+    },
+    {
+      "question": "Which of the following scenarios would a utilitarian likely support?",
+      "options": [
+        "A policy that benefits a small group at the expense of the majority",
+        "A law that restricts freedoms for the sake of public safety",
+        "A decision to prioritize environmental concerns over economic growth",
+        "A measure that maximizes overall societal welfare"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A utilitarian would support measures that maximize overall societal welfare, aligning with the principle of the greatest good for the greatest number. This corresponds to: A measure that maximizes overall societal welfare."
+    }
+  ]
+}

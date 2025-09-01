@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:38:18.000Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "verification",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does A.J. Ayer's weak verification principle suggest about statements that cannot be empirically verified?",
+      "options": [
+        "They are meaningless.",
+        "They can be verified in principle.",
+        "They are always true.",
+        "They are only meaningful if they are tautologies."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer's weak verification principle allows for statements to be considered meaningful if they can be verified in principle, even if they cannot be directly observed. This corresponds to: They can be verified in principle.."
+    },
+    {
+      "question": "According to Richard Swinburne, what analogy does he use to argue against the verification principle's dismissal of religious statements?",
+      "options": [
+        "The celestial city analogy.",
+        "The toys in the cupboard analogy.",
+        "The mountain on the moon analogy.",
+        "The historical events analogy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne's toys in the cupboard analogy illustrates that statements can have meaning even if they cannot be empirically verified. This corresponds to: The toys in the cupboard analogy.."
+    },
+    {
+      "question": "What is a key criticism of the strong verification principle proposed by the Vienna Circle?",
+      "options": [
+        "It is too flexible.",
+        "It fails to account for historical claims.",
+        "It allows for all statements to be meaningful.",
+        "It only applies to scientific statements."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the strong verification principle is too rigid, as it dismisses historical claims that cannot be verified through immediate observation. This corresponds to: It fails to account for historical claims.."
+    },
+    {
+      "question": "How does John Hick challenge Ayer's rejection of religious statements?",
+      "options": [
+        "By arguing that they are meaningless.",
+        "By suggesting they can be verified at the end of life.",
+        "By stating they are tautological.",
+        "By claiming they are a priori knowledge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick uses the parable of two travellers to argue that religious claims can be verified eschatologically, at the end of life's journey. This corresponds to: By suggesting they can be verified at the end of life.."
+    },
+    {
+      "question": "What does the verification principle imply about ethical statements, according to Ayer?",
+      "options": [
+        "They are always true.",
+        "They are factually meaningless.",
+        "They can be verified in principle.",
+        "They are analytic statements."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer argues that ethical statements are factually meaningless because they cannot be verified by the senses or through logical analysis. This corresponds to: They are factually meaningless.."
+    },
+    {
+      "question": "What methodological issue does the verification principle face regarding universal statements?",
+      "options": [
+        "They can be verified easily.",
+        "They are always true.",
+        "They cannot be verified in practice.",
+        "They are tautological."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Universal statements, such as 'all humans are mortal', cannot be verified in practice, which challenges the verification principle's criteria for meaningfulness. This corresponds to: They cannot be verified in practice.."
+    },
+    {
+      "question": "What is a significant limitation of Ayer's weak verification principle?",
+      "options": [
+        "It allows for all statements to be meaningful.",
+        "It is too rigid.",
+        "It can lead to any statement being considered verifiable in principle.",
+        "It dismisses ethical claims."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ayer later rejected his weak verification principle because it could imply that any statement, no matter how improbable, could be considered verifiable in principle. This corresponds to: It can lead to any statement being considered verifiable in principle.."
+    },
+    {
+      "question": "What does the verification principle suggest about the meaning of religious language?",
+      "options": [
+        "It is always meaningful.",
+        "It is only meaningful if it can be empirically verified.",
+        "It is meaningful in principle.",
+        "It is a priori knowledge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The verification principle posits that religious language is meaningless because it cannot be empirically verified through sense experience. This corresponds to: It is only meaningful if it can be empirically verified.."
+    },
+    {
+      "question": "Which philosopher argued that the verification principle fails its own test?",
+      "options": [
+        "A.J. Ayer.",
+        "Richard Swinburne.",
+        "John Hick.",
+        "David Hume."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A.J. Ayer acknowledged that the verification principle is self-refuting, as it cannot be verified in principle itself. This corresponds to: A.J. Ayer.."
+    },
+    {
+      "question": "What is the main argument of the logical positivists regarding statements about God?",
+      "options": [
+        "They are meaningful if they can be verified in principle.",
+        "They are meaningless as they cannot be empirically checked.",
+        "They are always true.",
+        "They are a priori knowledge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Logical positivists argue that statements about God are meaningless because they cannot be empirically verified through sense experience. This corresponds to: They are meaningless as they cannot be empirically checked.."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:15:12.492Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "util-application",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In the context of utilitarianism, which of the following best describes the principle of the greatest happiness?",
+      "options": [
+        "A. Maximizing individual rights",
+        "B. Promoting the greatest good for the greatest number",
+        "C. Upholding moral absolutes",
+        "D. Focusing on intentions rather than outcomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of the greatest happiness is central to utilitarianism, emphasizing the importance of maximizing overall happiness. This corresponds to: B. Promoting the greatest good for the greatest number."
+    },
+    {
+      "question": "A utilitarian approach to business ethics would most likely support which of the following actions?",
+      "options": [
+        "A. Paying employees the minimum wage to maximize profits",
+        "B. Investing in employee welfare to enhance productivity",
+        "C. Avoiding environmental regulations to reduce costs",
+        "D. Prioritizing shareholder profits over community impact"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism would advocate for actions that promote the greatest good, such as investing in employee welfare, which can lead to increased productivity. This corresponds to: B. Investing in employee welfare to enhance productivity."
+    },
+    {
+      "question": "Which scenario illustrates a potential conflict in utilitarian ethics?",
+      "options": [
+        "A. A doctor saving multiple lives by sacrificing one patient",
+        "B. A charity maximizing donations through emotional appeals",
+        "C. A business reducing prices to attract more customers",
+        "D. A government implementing policies for economic growth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The scenario of sacrificing one patient to save multiple lives highlights the ethical dilemmas utilitarianism can create regarding individual rights. This corresponds to: A. A doctor saving multiple lives by sacrificing one patient."
+    },
+    {
+      "question": "Which of the following criticisms is often directed at utilitarianism?",
+      "options": [
+        "A. It is too focused on individual rights",
+        "B. It can justify immoral actions if they result in greater happiness",
+        "C. It lacks a clear decision-making process",
+        "D. It is overly concerned with intentions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A common criticism of utilitarianism is that it can justify actions that are considered immoral if they lead to a greater overall happiness. This corresponds to: B. It can justify immoral actions if they result in greater happiness."
+    },
+    {
+      "question": "In utilitarianism, the concept of 'act utilitarianism' differs from 'rule utilitarianism' in that:?",
+      "options": [
+        "A. Act utilitarianism focuses on the consequences of individual actions",
+        "B. Rule utilitarianism ignores the consequences of actions",
+        "C. Act utilitarianism is more concerned with moral rules",
+        "D. Rule utilitarianism evaluates actions based on specific situations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Act utilitarianism evaluates the consequences of individual actions, while rule utilitarianism focuses on the adherence to rules that generally promote happiness. This corresponds to: A. Act utilitarianism focuses on the consequences of individual actions."
+    },
+    {
+      "question": "A utilitarian perspective on charity would suggest that individuals should donate based on:?",
+      "options": [
+        "A. Personal feelings of empathy",
+        "B. The potential impact of their donation on overall happiness",
+        "C. Social expectations and norms",
+        "D. The tax benefits associated with charitable giving"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism emphasizes rational decision-making based on the potential impact of actions, such as donations, on overall happiness. This corresponds to: B. The potential impact of their donation on overall happiness."
+    },
+    {
+      "question": "Which of the following best illustrates the application of utilitarianism in public policy?",
+      "options": [
+        "A. Implementing laws based on moral absolutes",
+        "B. Creating policies that maximize societal welfare",
+        "C. Prioritizing the needs of the wealthy",
+        "D. Enforcing strict regulations without consideration of outcomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism in public policy focuses on creating laws and regulations that maximize societal welfare and happiness. This corresponds to: B. Creating policies that maximize societal welfare."
+    },
+    {
+      "question": "One methodological issue with utilitarianism is that it can be difficult to:?",
+      "options": [
+        "A. Measure happiness objectively",
+        "B. Apply it consistently across different cultures",
+        "C. Justify its principles in legal contexts",
+        "D. Separate individual rights from collective good"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A significant methodological issue with utilitarianism is the challenge of measuring happiness objectively, which complicates ethical decision-making. This corresponds to: A. Measure happiness objectively."
+    },
+    {
+      "question": "Which of the following scenarios best exemplifies the principle of utilitarianism in healthcare?",
+      "options": [
+        "A. Allocating resources based on patient needs",
+        "B. Prioritizing treatment for patients with the highest social status",
+        "C. Distributing limited resources to maximize overall health outcomes",
+        "D. Providing equal treatment regardless of outcomes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilitarianism in healthcare would advocate for distributing resources in a way that maximizes overall health outcomes for the greatest number of people. This corresponds to: C. Distributing limited resources to maximize overall health outcomes."
+    },
+    {
+      "question": "Utilitarianism's focus on outcomes can lead to ethical dilemmas, particularly in which of the following areas?",
+      "options": [
+        "A. Environmental ethics",
+        "B. Personal relationships",
+        "C. Legal justice",
+        "D. All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Utilitarianism's focus on outcomes can create ethical dilemmas across various areas, including environmental ethics, personal relationships, and legal justice. This corresponds to: D. All of the above."
+    }
+  ]
+}

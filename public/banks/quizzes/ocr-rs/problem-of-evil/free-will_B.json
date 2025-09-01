@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:35:40.673Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "free-will",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to John Hick's theodicy, what is the purpose of evil in the world?",
+      "options": [
+        "To punish humanity",
+        "To develop character",
+        "To test faith",
+        "To demonstrate God's power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that evil serves as an opportunity for soul-making, helping individuals develop into God's likeness. This corresponds to: To develop character."
+    },
+    {
+      "question": "What does the term 'vale of soul-making' refer to in Hick's philosophy?",
+      "options": [
+        "A place of eternal punishment",
+        "A world designed for character development",
+        "A state of moral confusion",
+        "A realm of divine intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick describes the world as a 'vale of soul-making', emphasizing its role in human development through the experience of evil. This corresponds to: A world designed for character development."
+    },
+    {
+      "question": "In the context of free will, what does Hick mean by 'epistemic distance'?",
+      "options": [
+        "The gap in knowledge between humans and God",
+        "The distance between good and evil",
+        "The separation of body and mind",
+        "The divide between faith and reason"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hick's concept of epistemic distance refers to the necessary gap in knowledge that allows humans to exercise genuine free will. This corresponds to: The gap in knowledge between humans and God."
+    },
+    {
+      "question": "If a person experiences suffering and uses it to grow morally, which aspect of Hick's theodicy are they exemplifying?",
+      "options": [
+        "Instrumental good",
+        "Intrinsic good",
+        "Divine punishment",
+        "Moral relativism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates the idea of instrumental good, where suffering serves a purpose in moral development"
+    },
+    {
+      "question": "What is a potential criticism of Hick's view on free will and evil?",
+      "options": [
+        "It undermines the concept of divine justice",
+        "It fails to account for natural disasters",
+        "It suggests that all evil is beneficial",
+        "It does not allow for human agency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Hick's theodicy does not adequately address the existence of natural evil, such as disasters that cause suffering without moral agency. This corresponds to: It fails to account for natural disasters."
+    },
+    {
+      "question": "According to Augustine, how is sin transmitted among humans?",
+      "options": [
+        "Through divine intervention",
+        "By personal choice",
+        "By sexual intercourse",
+        "Through societal influence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine posits that sin is transmitted through sexual intercourse, linking it to the concept of original sin. This corresponds to: By sexual intercourse."
+    },
+    {
+      "question": "What does Augustine mean by 'Cupiditas' in his theological framework?",
+      "options": [
+        "Selfish desire",
+        "Divine love",
+        "Moral virtue",
+        "Spiritual enlightenment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cupiditas refers to selfish desire, which Augustine believes leads to human conflict and sin"
+    },
+    {
+      "question": "In Augustine's view, what is necessary for humans to overcome sin?",
+      "options": [
+        "Human effort alone",
+        "God's grace and Christ",
+        "Philosophical reasoning",
+        "Community support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argues that humans cannot overcome sin through their efforts alone; they require God's grace and the influence of Christ. This corresponds to: God's grace and Christ."
+    },
+    {
+      "question": "What is a key difference between Augustine's and Hick's views on the problem of evil?",
+      "options": [
+        "Augustine sees evil as a punishment, while Hick sees it as a developmental tool",
+        "Hick believes in original sin, while Augustine does not",
+        "Augustine emphasizes free will, while Hick denies it",
+        "Hick focuses on divine justice, while Augustine ignores it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine views evil primarily as a punishment for sin, whereas Hick interprets it as a necessary component for character development. This corresponds to: Augustine sees evil as a punishment, while Hick sees it as a developmental tool."
+    },
+    {
+      "question": "What does the term 'soul-making' imply in the context of Hick's theodicy?",
+      "options": [
+        "The process of achieving divine knowledge",
+        "The development of moral character through suffering",
+        "The attainment of eternal life",
+        "The rejection of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soul-making refers to the idea that individuals develop their moral character through experiences of suffering and evil. This corresponds to: The development of moral character through suffering."
+    }
+  ]
+}

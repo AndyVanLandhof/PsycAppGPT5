@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:27:06.530Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "cosmological",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of Aquinas' first three ways is primarily concerned with the concept of motion?",
+      "options": [
+        "The First Way",
+        "The Second Way",
+        "The Third Way",
+        "The Fourth Way"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The First Way argues that everything in motion must have been set in motion by something else, leading to the necessity of a first mover"
+    },
+    {
+      "question": "What is the main premise of the cosmological argument as proposed by Aquinas?",
+      "options": [
+        "Everything has a purpose",
+        "Everything must have a cause",
+        "The universe is an illusion",
+        "God is unknowable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' cosmological argument asserts that everything that begins to exist must have a cause, ultimately leading to the existence of a first cause, which is God. This corresponds to: Everything must have a cause."
+    },
+    {
+      "question": "In the context of the cosmological argument, what does 'a posteriori' reasoning rely on?",
+      "options": [
+        "Logical deduction",
+        "Empirical evidence",
+        "Mathematical proof",
+        "Intuition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'A posteriori' reasoning relies on empirical data and observations to argue for the existence of God, as seen in the cosmological argument. This corresponds to: Empirical evidence."
+    },
+    {
+      "question": "David Hume challenged the cosmological argument by questioning the necessity of a first cause. What is one of his key criticisms?",
+      "options": [
+        "The universe is eternal",
+        "God is not a necessary being",
+        "Causation is a human construct",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hume argued that the universe could be eternal and that our understanding of causation does not necessarily apply to the universe as a whole. This corresponds to: All of the above."
+    },
+    {
+      "question": "Copleston and Russell engaged in a famous debate regarding the cosmological argument. What was a key point of contention?",
+      "options": [
+        "The existence of multiple gods",
+        "The nature of causation",
+        "The morality of God",
+        "The role of faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Copleston defended the necessity of a first cause, while Russell questioned whether the universe needed an explanation beyond itself. This corresponds to: The nature of causation."
+    },
+    {
+      "question": "One criticism of the cosmological argument is that it jumps to the conclusion of a transcendent creator. What is this known as?",
+      "options": [
+        "Begging the question",
+        "Post hoc reasoning",
+        "False dichotomy",
+        "Straw man argument"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This criticism suggests that the argument assumes what it is trying to prove, which is a logical fallacy known as begging the question"
+    },
+    {
+      "question": "What does the term 'telos' refer to in the context of the cosmological argument?",
+      "options": [
+        "Cause",
+        "Effect",
+        "Purpose",
+        "Design"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In philosophical discussions, 'telos' refers to the purpose or end goal, which is often invoked in arguments for the existence of God"
+    },
+    {
+      "question": "Hume's challenge to the cosmological argument includes the assertion that we cannot infer the existence of God from the existence of the universe. What is this criticism called?",
+      "options": [
+        "The problem of evil",
+        "The fallacy of composition",
+        "The argument from design",
+        "The argument from contingency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume's fallacy of composition suggests that just because individual things in the universe have causes does not mean the universe itself must have a cause. This corresponds to: The fallacy of composition."
+    },
+    {
+      "question": "Which of the following best describes the nature of the cosmological argument?",
+      "options": [
+        "A priori",
+        "A posteriori",
+        "Deductive",
+        "Inductive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosmological argument is an a posteriori argument, as it is based on observation and experience of the universe"
+    },
+    {
+      "question": "What is a common objection to the cosmological argument regarding the nature of the universe?",
+      "options": [
+        "It is too complex",
+        "It is not observable",
+        "It may be infinite",
+        "It is inherently flawed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One objection is that the universe may be infinite and eternal, which challenges the need for a first cause as proposed by the cosmological argument. This corresponds to: It may be infinite."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:09:23.683Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "impact",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following best describes the relationship between liberation theology and Marxism as articulated by Gustavo Gutierrez?",
+      "options": [
+        "Marxism is the sole foundation of liberation theology.",
+        "Liberation theology completely rejects Marxist principles.",
+        "Marxism serves as an instrument for understanding liberation theology.",
+        "Liberation theology is a direct application of Marxist ideology."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gutierrez believes that Marxism influences liberation theology, but it is not the sole teacher; rather, it is an instrument that aids in understanding. This corresponds to: Marxism serves as an instrument for understanding liberation theology.."
+    },
+    {
+      "question": "In the context of liberation theology, what does the term 'structural sin' refer to?",
+      "options": [
+        "Individual acts of wrongdoing.",
+        "The inherent corruption of human nature.",
+        "Social inequalities that lead to collective suffering.",
+        "The rejection of God by society."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Structural sin refers to social inequalities that are embedded in society, leading to collective suffering, which liberation theology seeks to address. This corresponds to: Social inequalities that lead to collective suffering.."
+    },
+    {
+      "question": "According to liberation theology, what is the primary role of the Church in society?",
+      "options": [
+        "To maintain traditional doctrines.",
+        "To challenge social injustices and advocate for the oppressed.",
+        "To focus solely on individual salvation.",
+        "To avoid engagement with secular ideologies."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Liberation theology posits that the Church must actively challenge social injustices and advocate for the oppressed rather than remain passive. This corresponds to: To challenge social injustices and advocate for the oppressed.."
+    },
+    {
+      "question": "John Hick's pluralistic hypothesis suggests that all religions are attempts to understand what?",
+      "options": [
+        "The nature of God as absolute.",
+        "The Ultimate Reality through cultural lenses.",
+        "The historical context of religious texts.",
+        "The superiority of Christianity over other religions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that all religions are culturally conditioned attempts to understand the Ultimate Reality, emphasizing their shared goal rather than superiority. This corresponds to: The Ultimate Reality through cultural lenses.."
+    },
+    {
+      "question": "In the context of feminist theology, what is a significant critique of traditional Christian theology?",
+      "options": [
+        "It emphasizes the role of women in ministry.",
+        "It is free from cultural biases.",
+        "It has been shaped predominantly by male perspectives.",
+        "It promotes inclusivity in religious practices."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Feminist theology critiques traditional Christian theology for being shaped predominantly by male perspectives, leading to androcentrism. This corresponds to: It has been shaped predominantly by male perspectives.."
+    },
+    {
+      "question": "A study of liberation theology in Latin America highlighted the need for the Church to do what?",
+      "options": [
+        "Focus on individual piety.",
+        "Challenge both social and individual sins.",
+        "Avoid political engagement.",
+        "Emphasize doctrinal purity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The study emphasized that the Church must challenge both social and individual sins, reflecting the broader social context of liberation theology. This corresponds to: Challenge both social and individual sins.."
+    },
+    {
+      "question": "What methodological issue arises when comparing liberation theology with Marxism?",
+      "options": [
+        "Liberation theology is too focused on individual salvation.",
+        "Marxism fails to recognize the role of religion in social change.",
+        "Liberation theology lacks a clear theological framework.",
+        "Marxism is overly simplistic in its analysis of social structures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A methodological issue is that Marxism often fails to recognize how religion, including liberation theology, can serve as a vehicle for social change. This corresponds to: Marxism fails to recognize the role of religion in social change.."
+    },
+    {
+      "question": "What does the 'hermeneutic of suspicion' refer to in liberation theology?",
+      "options": [
+        "A method of interpreting biblical texts through a Marxist lens.",
+        "A rejection of all religious texts.",
+        "An approach that emphasizes traditional interpretations.",
+        "A focus on individual spiritual experiences."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'hermeneutic of suspicion' in liberation theology refers to interpreting biblical texts through a Marxist lens to address the needs of an alienated society. This corresponds to: A method of interpreting biblical texts through a Marxist lens.."
+    },
+    {
+      "question": "How does feminist theology aim to reshape the understanding of Christian tradition?",
+      "options": [
+        "By reinforcing traditional male perspectives.",
+        "By excluding women from theological discussions.",
+        "By correcting androcentrism and promoting women's contributions.",
+        "By focusing solely on historical texts."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Feminist theology seeks to correct the androcentrism of Christian tradition and highlight women's contributions, reshaping the understanding of theology. This corresponds to: By correcting androcentrism and promoting women's contributions.."
+    },
+    {
+      "question": "What is a key evaluative point regarding the uniqueness of Christianity in a pluralistic context?",
+      "options": [
+        "Christianity is the only true religion.",
+        "All religions are equally valid paths to salvation.",
+        "Christianity's uniqueness must be reinterpreted in light of other faiths.",
+        "Pluralism undermines the core tenets of Christianity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a pluralistic context, the uniqueness of Christianity must be reinterpreted to acknowledge the validity and richness of other faiths. This corresponds to: Christianity's uniqueness must be reinterpreted in light of other faiths.."
+    }
+  ]
+}

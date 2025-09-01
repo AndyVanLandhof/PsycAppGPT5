@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:44:16.050Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "definitions",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What term does John's Gospel use to describe Jesus' miracles, indicating they point to his divinity?",
+      "options": [
+        "Wonders",
+        "Signs",
+        "Mighty Works",
+        "Tricks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "John's Gospel uses the term 'sign' to suggest that miracles are indicators of Jesus' divine nature. This corresponds to: Signs."
+    },
+    {
+      "question": "According to the New Testament, how are miracles described in relation to Jesus' power?",
+      "options": [
+        "As mere tricks",
+        "As works of power and great wonder",
+        "As historical events",
+        "As parables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The New Testament describes miracles as works of power and great wonder, emphasizing their significance"
+    },
+    {
+      "question": "What does R. Bultmann argue about the nature of miracles in religious texts?",
+      "options": [
+        "They are literal events",
+        "They reflect a pre-scientific worldview",
+        "They are historical facts",
+        "They are always moral lessons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bultmann claims that miracles reflect a pre-scientific worldview and should be demythologized to reveal moral values. This corresponds to: They reflect a pre-scientific worldview."
+    },
+    {
+      "question": "In the context of Jesus' miracles, what does the term 'low Christology' suggest?",
+      "options": [
+        "Jesus was a divine being",
+        "Miracles are parables of creation and redemption",
+        "Miracles are merely tricks",
+        "Jesus was not divine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low Christology interprets Jesus' miracles as parables that illustrate deeper truths about creation and redemption. This corresponds to: Miracles are parables of creation and redemption."
+    },
+    {
+      "question": "A patient claims to have been cured of cancer after visiting Lourdes. What process validates this claim as a miracle?",
+      "options": [
+        "Immediate acceptance by the Church",
+        "Decades of investigation by doctors",
+        "Public testimony",
+        "Historical documentation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Church requires decades of investigation by doctors to validate claims of miracles at Lourdes"
+    },
+    {
+      "question": "If a miracle is declared at Lourdes, what does this imply about St Bernadette's experience?",
+      "options": [
+        "It was fabricated",
+        "It is considered genuine",
+        "It is irrelevant",
+        "It is a myth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A declared miracle at Lourdes supports the authenticity of St Bernadette's religious experience. This corresponds to: It is considered genuine."
+    },
+    {
+      "question": "What is a methodological issue in evaluating the historical evidence for Jesus' resurrection?",
+      "options": [
+        "It is universally accepted",
+        "It lacks eyewitness accounts",
+        "It is based on subjective interpretations",
+        "It is well-documented"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The historical evidence for the resurrection is often criticized for being based on subjective interpretations rather than conclusive proof. This corresponds to: It is based on subjective interpretations."
+    },
+    {
+      "question": "How does the concept of miracles challenge the scientific understanding of natural laws?",
+      "options": [
+        "They are easily explained",
+        "They require suspension of natural laws",
+        "They are universally accepted",
+        "They are irrelevant to science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Miracles are seen as events that require the suspension of natural laws, which poses a challenge to scientific understanding. This corresponds to: They require suspension of natural laws."
+    },
+    {
+      "question": "What does the term 'mighty works' imply about the nature of miracles in the New Testament?",
+      "options": [
+        "They are simply moral stories",
+        "They indicate divine intervention",
+        "They are historical inaccuracies",
+        "They are irrelevant to faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Mighty works' suggests that miracles indicate divine intervention and are significant to understanding God's nature. This corresponds to: They indicate divine intervention."
+    },
+    {
+      "question": "What is a key argument against viewing Jesus solely as a teacher of wisdom based on his miracles?",
+      "options": [
+        "Miracles were common at the time",
+        "They do not demonstrate divinity",
+        "They are often misunderstood",
+        "They suggest a unique divine status"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Jesus' miracles suggest a unique divine status, challenging the view of him as merely a teacher of wisdom. This corresponds to: They suggest a unique divine status."
+    }
+  ]
+}

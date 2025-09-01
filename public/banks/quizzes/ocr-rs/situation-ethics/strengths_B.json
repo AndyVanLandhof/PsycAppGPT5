@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:57:55.105Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "strengths",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of Situation Ethics as proposed by Joseph Fletcher in 1966?",
+      "options": [
+        "Legalism",
+        "Agape love",
+        "Utilitarianism",
+        "Deontological ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics emphasizes agape love as the central guiding principle for moral decision-making"
+    },
+    {
+      "question": "Which of the following is a strength of Situation Ethics?",
+      "options": [
+        "It provides clear rules for all situations.",
+        "It is flexible and adaptable to individual circumstances.",
+        "It is based on strict legalistic principles.",
+        "It prioritizes tradition over personal experience."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flexibility of Situation Ethics allows it to adapt to the unique circumstances of each situation, making it more applicable to real-life scenarios. This corresponds to: It is flexible and adaptable to individual circumstances.."
+    },
+    {
+      "question": "According to Situation Ethics, what is the ultimate aim of moral decisions?",
+      "options": [
+        "To follow established laws",
+        "To achieve the greatest happiness for the greatest number",
+        "To express agape love",
+        "To adhere to religious doctrines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ultimate aim in Situation Ethics is to express agape love in every moral decision"
+    },
+    {
+      "question": "What does Situation Ethics criticize about traditional ethical systems?",
+      "options": [
+        "Their reliance on empirical evidence",
+        "Their inflexibility and legalism",
+        "Their focus on emotional responses",
+        "Their lack of historical context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics criticizes traditional ethical systems for being too rigid and not allowing for personal judgment in moral situations. This corresponds to: Their inflexibility and legalism."
+    },
+    {
+      "question": "What is a key weakness of Situation Ethics identified by critics?",
+      "options": [
+        "It is too focused on legalistic principles.",
+        "It can lead to subjective interpretations of love.",
+        "It ignores the importance of community standards.",
+        "It is overly simplistic."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Situation Ethics can lead to subjective interpretations of what constitutes agape love, making it difficult to apply consistently. This corresponds to: It can lead to subjective interpretations of love.."
+    },
+    {
+      "question": "In a scenario where a person must choose between lying to protect a friend or telling the truth, how would a Situation Ethics approach guide their decision?",
+      "options": [
+        "Prioritize honesty above all else",
+        "Consider the consequences of each action",
+        "Follow the law strictly",
+        "Choose the option that best serves the community"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Situation Ethics approach would guide the person to consider the consequences of each action and choose the one that expresses agape love"
+    },
+    {
+      "question": "A critic of Situation Ethics argues that it lacks a clear framework for decision-making. What does this highlight about the theory?",
+      "options": [
+        "It is too rigid",
+        "It is overly complex",
+        "It can lead to moral ambiguity",
+        "It is universally applicable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The lack of a clear framework can lead to moral ambiguity, making it difficult for individuals to make consistent ethical decisions. This corresponds to: It can lead to moral ambiguity."
+    },
+    {
+      "question": "How does Situation Ethics compare to legalistic ethical theories?",
+      "options": [
+        "Both prioritize rules over love",
+        "Situation Ethics is more flexible than legalistic theories",
+        "Legalistic theories are more adaptable",
+        "Both ignore the consequences of actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics is more flexible than legalistic theories, allowing for personal judgment and the consideration of love in moral decisions"
+    },
+    {
+      "question": "What methodological issue is often raised against Situation Ethics?",
+      "options": [
+        "It is too focused on empirical data",
+        "It relies heavily on subjective interpretations",
+        "It does not consider cultural differences",
+        "It is based on outdated principles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reliance on subjective interpretations of love can lead to inconsistencies in moral decision-making. This corresponds to: It relies heavily on subjective interpretations."
+    },
+    {
+      "question": "Which of the following is a criticism of the application of Situation Ethics in real-life scenarios?",
+      "options": [
+        "It is too rigid",
+        "It can be impractical in complex situations",
+        "It does not consider emotional factors",
+        "It is too focused on community standards"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Situation Ethics can be impractical in complex situations where multiple factors must be considered. This corresponds to: It can be impractical in complex situations."
+    }
+  ]
+}

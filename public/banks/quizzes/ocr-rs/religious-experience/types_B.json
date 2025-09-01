@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:36:52.016Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "types",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What are the four common features of religious experiences identified by William James?",
+      "options": [
+        "Ineffable, noetic quality, transient, passivity",
+        "Rational, emotional, communal, transformative",
+        "Visions, voices, dreams, revelations",
+        "Physical, psychological, social, spiritual"
+      ],
+      "correctAnswer": 0,
+      "explanation": "James identified ineffability, noetic quality, transience, and passivity as key features of religious experiences. This corresponds to: Ineffable, noetic quality, transient, passivity."
+    },
+    {
+      "question": "Which type of religious experience involves a sudden, pivotal change in an individual's life, often described as a crisis experience?",
+      "options": [
+        "Volitional conversion",
+        "Self-surrender conversion",
+        "Mystical experience",
+        "Corporate experience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-surrender conversion is characterized by a sudden, pivotal change, as described by E.D. Starbuck"
+    },
+    {
+      "question": "According to William James, what is the significance of the transient nature of religious experiences?",
+      "options": [
+        "They are not real",
+        "They provide lasting effects",
+        "They are easily forgotten",
+        "They are often shared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James noted that while religious experiences are transient, their effects can be long-lasting. This corresponds to: They provide lasting effects."
+    },
+    {
+      "question": "Richard Swinburne's principle of credulity suggests that we should believe what appears to be the case unless there is evidence to the contrary. What does this imply about religious experiences?",
+      "options": [
+        "They are always subjective",
+        "They should be dismissed",
+        "They are likely genuine",
+        "They are only psychological phenomena"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Swinburne's principle of credulity supports the idea that religious experiences should be considered genuine unless proven otherwise. This corresponds to: They are likely genuine."
+    },
+    {
+      "question": "In the context of religious experiences, what does the term 'ineffable' mean?",
+      "options": [
+        "Easily described",
+        "Beyond proper description",
+        "Commonly experienced",
+        "Universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ineffable refers to experiences that are beyond proper description, a key feature of religious experiences according to James"
+    },
+    {
+      "question": "A study found that around 30% of people reported having experienced a powerful spiritual force. What does this suggest about the nature of religious experiences?",
+      "options": [
+        "They are rare",
+        "They are likely fabricated",
+        "They are common",
+        "They are only psychological"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The significant volume of reported experiences suggests that religious experiences are common among individuals. This corresponds to: They are common."
+    },
+    {
+      "question": "Freud's perspective on religious experiences suggests they are a form of what?",
+      "options": [
+        "Genuine divine encounters",
+        "Psychological neurosis",
+        "Cultural expressions",
+        "Social constructs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud viewed religious experiences as manifestations of psychological neurosis rather than genuine encounters with the divine"
+    },
+    {
+      "question": "What is a methodological criticism of using personal testimonies as evidence for the validity of religious experiences?",
+      "options": [
+        "They are universally accepted",
+        "They can be influenced by cultural context",
+        "They are always reliable",
+        "They provide objective data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Personal testimonies can vary greatly due to cultural influences, which may affect their reliability as evidence. This corresponds to: They can be influenced by cultural context."
+    },
+    {
+      "question": "How does the concept of corporate religious experiences differ from individual experiences?",
+      "options": [
+        "They are less impactful",
+        "They are shared by a group",
+        "They are always mystical",
+        "They are more subjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corporate religious experiences are characterized by being shared among a group of people, unlike individual experiences. This corresponds to: They are shared by a group."
+    },
+    {
+      "question": "What is a potential challenge to William James' view that religious experiences are psychological phenomena?",
+      "options": [
+        "They are always verifiable",
+        "They lack authority",
+        "They are universally experienced",
+        "They are only cultural expressions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James' argument faces criticism for suggesting that religious experiences lack authority, which challenges their validity. This corresponds to: They lack authority."
+    }
+  ]
+}

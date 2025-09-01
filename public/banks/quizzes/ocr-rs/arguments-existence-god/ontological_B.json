@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:28:49.599Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "ontological",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of Anselm's ontological argument as presented in his work Proslogion?",
+      "options": [
+        "The nature of faith",
+        "The existence of God",
+        "The morality of actions",
+        "The problem of evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anselm's ontological argument aims to prove the existence of God based on the definition of God as the greatest conceivable being"
+    },
+    {
+      "question": "According to Anselm, why must God exist in both the mind and reality?",
+      "options": [
+        "Because existence is a predicate",
+        "Because God is the greatest conceivable being",
+        "Because faith requires it",
+        "Because it is a logical necessity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anselm argues that if God is the greatest conceivable being, He must exist in both the mind and reality, as existence in reality is greater than existence solely in the mind. This corresponds to: Because God is the greatest conceivable being."
+    },
+    {
+      "question": "What is Gaunilo's main criticism of Anselm's ontological argument?",
+      "options": [
+        "It relies too heavily on empirical evidence",
+        "It can be used to define anything into existence",
+        "It does not consider the nature of faith",
+        "It is based on a posteriori reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gaunilo criticizes Anselm by arguing that one could define anything, such as a perfect island, into existence, which undermines the validity of the argument. This corresponds to: It can be used to define anything into existence."
+    },
+    {
+      "question": "Kant argues that existence is not a real predicate. What does this mean?",
+      "options": [
+        "Existence adds nothing to the concept of a being",
+        "Existence can only be proven through experience",
+        "Existence is a necessary condition for all beings",
+        "Existence is subjective and varies by belief"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kant claims that saying something exists does not add any characteristics to it, thus existence is not a determining predicate. This corresponds to: Existence adds nothing to the concept of a being."
+    },
+    {
+      "question": "In evaluating the ontological argument, which of the following is a key methodological issue raised by Kant?",
+      "options": [
+        "The reliance on empirical evidence",
+        "The ambiguity of the definition of God",
+        "The logical structure of the argument",
+        "The subjective nature of belief"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant challenges the ontological argument by questioning whether Anselm's definition of God as the greatest conceivable being is universally accepted. This corresponds to: The ambiguity of the definition of God."
+    },
+    {
+      "question": "If Anselm's argument is a priori, what does this imply about its nature?",
+      "options": [
+        "It relies on sensory experience",
+        "It is based on logical reasoning alone",
+        "It requires empirical evidence",
+        "It is contingent on historical context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A priori arguments, like Anselm's, are based solely on logic and reasoning, independent of sensory experience. This corresponds to: It is based on logical reasoning alone."
+    },
+    {
+      "question": "Which of the following best describes a potential logical fallacy in Anselm's argument?",
+      "options": [
+        "It assumes a common understanding of God",
+        "It relies on empirical evidence",
+        "It uses circular reasoning",
+        "It defines God too narrowly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A key criticism is that Anselm's argument assumes that everyone has a common understanding of God, which may not be the case. This corresponds to: It assumes a common understanding of God."
+    },
+    {
+      "question": "What is a significant strength of a priori arguments like Anselm's ontological argument?",
+      "options": [
+        "They provide empirical evidence",
+        "They are logically deductive",
+        "They rely on personal experience",
+        "They are universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A strength of a priori arguments is that they use logical deduction, aiming for certainty in their conclusions. This corresponds to: They are logically deductive."
+    },
+    {
+      "question": "In his response to Gaunilo, what does Anselm argue regarding the nature of existence?",
+      "options": [
+        "Existence is subjective",
+        "Existence is a necessary predicate",
+        "Existence can be imagined",
+        "Existence is irrelevant to the argument"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anselm argues that existence is a necessary predicate of God, as a God that does not exist would not be the greatest conceivable being"
+    },
+    {
+      "question": "How does Kant's critique of the ontological argument challenge its validity?",
+      "options": [
+        "By asserting that existence can be proven through experience",
+        "By claiming that existence does not add to the concept of a being",
+        "By arguing that definitions are subjective",
+        "By stating that logical reasoning is flawed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant's critique challenges the ontological argument by asserting that existence does not add any characteristics to the concept of a being, thus questioning the argument's validity. This corresponds to: By claiming that existence does not add to the concept of a being."
+    }
+  ]
+}

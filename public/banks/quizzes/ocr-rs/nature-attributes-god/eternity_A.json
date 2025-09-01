@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:23:44.814Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "eternity",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Boethius, how does God perceive time?",
+      "options": [
+        "As a linear progression of events",
+        "In a simultaneous present",
+        "As a series of past, present, and future",
+        "Through human experiences of time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boethius argues that God exists outside of time, perceiving all moments as a simultaneous present. This corresponds to: In a simultaneous present."
+    },
+    {
+      "question": "What is the main issue raised by Boethius regarding divine foreknowledge and human free will?",
+      "options": [
+        "God's omnipotence limits human choices",
+        "God's knowledge of the future contradicts free will",
+        "Human free will is an illusion",
+        "Divine benevolence is incompatible with justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boethius suggests that if God knows the future, it raises questions about the existence of human free will. This corresponds to: God's knowledge of the future contradicts free will."
+    },
+    {
+      "question": "William of Ockham's view on divine self-limitation suggests that God chooses to limit himself to allow what?",
+      "options": [
+        "His omnipotence",
+        "Human free will",
+        "Divine justice",
+        "Eternal knowledge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ockham argues that by self-limiting, God allows genuine human autonomy and free will. This corresponds to: Human free will."
+    },
+    {
+      "question": "In Swinburne's view, how does God's omniscience relate to human free will?",
+      "options": [
+        "It completely negates free will",
+        "It allows for conditional knowledge",
+        "It is irrelevant to human choices",
+        "It enforces divine predestination"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne posits that God's knowledge is conditional, allowing for human free will while maintaining divine omniscience. This corresponds to: It allows for conditional knowledge."
+    },
+    {
+      "question": "What does Boethius mean by 'providential knowledge'?",
+      "options": [
+        "Knowledge of all future events",
+        "Knowledge that is fixed and unchangeable",
+        "Knowledge of events as they occur",
+        "Knowledge that limits human freedom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boethius describes God's knowledge as providential, meaning God knows events as they happen rather than in advance. This corresponds to: Knowledge of events as they occur."
+    },
+    {
+      "question": "How does Anselm's view of God's eternity contribute to the discussion of free will?",
+      "options": [
+        "It denies human free will entirely",
+        "It suggests God limits his power to allow free will",
+        "It emphasizes God's indifference to human choices",
+        "It asserts that time is irrelevant to God's actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anselm argues that God's eternity allows for the possibility of human free will by suggesting God limits his power. This corresponds to: It suggests God limits his power to allow free will."
+    },
+    {
+      "question": "What is a potential criticism of Boethius' view on God's eternity?",
+      "options": [
+        "It makes God too immanent",
+        "It sacrifices God's ability to interact with creation",
+        "It denies the existence of time",
+        "It contradicts the concept of divine justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Boethius' view of God as outside of time may limit God's ability to interact meaningfully with creation. This corresponds to: It sacrifices God's ability to interact with creation."
+    },
+    {
+      "question": "What does the concept of 'indifference' in God's will imply according to Descartes?",
+      "options": [
+        "God has no freedom of choice",
+        "God's choices are predetermined",
+        "God's will is free and indifferent to outcomes",
+        "God's will is bound by moral laws"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Descartes argues that God's indifference allows for freedom of choice, meaning God can choose among multiple possibilities. This corresponds to: God's will is free and indifferent to outcomes."
+    },
+    {
+      "question": "How does the idea of divine self-limitation address the problem of evil?",
+      "options": [
+        "It eliminates the existence of evil",
+        "It allows for human autonomy in choosing good or evil",
+        "It suggests God is not omnipotent",
+        "It implies that evil is necessary for good"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divine self-limitation suggests that God allows humans the freedom to choose, which includes the potential for evil. This corresponds to: It allows for human autonomy in choosing good or evil."
+    },
+    {
+      "question": "What is a key difference between human and divine freedom as discussed in the materials?",
+      "options": [
+        "Human freedom is absolute, while divine freedom is limited",
+        "Divine freedom is characterized by indifference, while human freedom is not",
+        "Human freedom is determined by divine will",
+        "Divine freedom is constrained by moral laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The materials suggest that divine freedom includes an element of indifference, while human freedom is often seen as more constrained by knowledge and understanding. This corresponds to: Divine freedom is characterized by indifference, while human freedom is not."
+    }
+  ]
+}

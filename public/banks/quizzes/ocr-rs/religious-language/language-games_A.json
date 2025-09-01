@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:42:27.788Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "language-games",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does Wittgenstein argue about the meaning of language in his concept of language games?",
+      "options": [
+        "It is fixed and universal",
+        "It depends on context",
+        "It is always cognitive",
+        "It is irrelevant to philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein argues that the meaning of language is determined by its context and the rules of the specific language game being played. This corresponds to: It depends on context."
+    },
+    {
+      "question": "In Wittgenstein's language games, how does he illustrate the importance of context using examples?",
+      "options": [
+        "By comparing it to chess and football",
+        "By discussing the verification principle",
+        "By using the analogy of a builder",
+        "By referencing Aquinas' analogy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wittgenstein uses examples like chess and football to show that different games have different rules that govern the meaning of language. This corresponds to: By comparing it to chess and football."
+    },
+    {
+      "question": "How does Wittgenstein's concept of language games respond to the challenge posed by Logical Positivism regarding religious language?",
+      "options": [
+        "It affirms the cognitive nature of religious statements",
+        "It suggests religious statements are meaningless",
+        "It argues that religious language is meaningful within its own context",
+        "It denies the existence of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wittgenstein's language games suggest that religious language is meaningful within the context of the beliefs and practices of the religious community. This corresponds to: It argues that religious language is meaningful within its own context."
+    },
+    {
+      "question": "If a religious believer states 'God is love', how would Wittgenstein interpret this statement within his language games framework?",
+      "options": [
+        "As a literal truth",
+        "As a meaningful statement within the Christian language game",
+        "As a cognitive claim",
+        "As an irrelevant statement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein would interpret 'God is love' as meaningful within the context of the Christian language game, but not necessarily as a literal truth. This corresponds to: As a meaningful statement within the Christian language game."
+    },
+    {
+      "question": "A religious person might reject Wittgenstein's language games because they believe it removes what from religious statements?",
+      "options": [
+        "Cognitive meaning",
+        "Emotional significance",
+        "Historical context",
+        "Philosophical inquiry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Religious individuals may argue that Wittgenstein's approach undermines the objective cognitive meaning of religious statements"
+    },
+    {
+      "question": "In the context of Wittgenstein's language games, how might Normal Malcolm's view support the idea that language is contextual?",
+      "options": [
+        "By asserting that all language is cognitive",
+        "By emphasizing the fixed meanings of words",
+        "By arguing that understanding depends on the form of life",
+        "By denying the existence of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Malcolm's view that language is contextual aligns with Wittgenstein's idea that meaning is derived from the specific language game being played. This corresponds to: By arguing that understanding depends on the form of life."
+    },
+    {
+      "question": "What is a potential criticism of Wittgenstein's language games approach regarding the truth of religious statements?",
+      "options": [
+        "It allows for objective truth",
+        "It leads to relativism",
+        "It affirms the cognitive nature of all statements",
+        "It simplifies complex philosophical issues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A criticism of Wittgenstein's approach is that it may lead to relativism, where all interpretations are seen as equally valid, undermining the search for objective truth. This corresponds to: It leads to relativism."
+    },
+    {
+      "question": "How does Wittgenstein's idea of language games challenge traditional views of religious language?",
+      "options": [
+        "By asserting that all language is cognitive",
+        "By suggesting that religious language is only meaningful within its own context",
+        "By promoting a universal language",
+        "By denying the existence of God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein challenges traditional views by suggesting that religious language is meaningful only within the specific context of the beliefs and practices of a religious community. This corresponds to: By suggesting that religious language is only meaningful within its own context."
+    },
+    {
+      "question": "What analogy does Wittgenstein use to illustrate differing perspectives in language games?",
+      "options": [
+        "The swimmer and the boat",
+        "The duck-rabbit illustration",
+        "The builder and the architect",
+        "The chess player and the referee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein uses the duck-rabbit illustration to show how different perspectives can lead to different interpretations of the same statement"
+    },
+    {
+      "question": "Which philosopher argued that language, including religious language, is non-cognitive and context-dependent, similar to Wittgenstein's views?",
+      "options": [
+        "Aquinas",
+        "Ayer",
+        "Cupitt",
+        "Flew"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Don Cupitt argued that all language, including religious language, is non-cognitive and its meaning depends on the form of life in which it is used, aligning with Wittgenstein's ideas"
+    }
+  ]
+}

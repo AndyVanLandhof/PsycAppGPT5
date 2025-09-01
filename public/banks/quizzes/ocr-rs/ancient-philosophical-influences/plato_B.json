@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T13:48:33.838Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "plato",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does Plato's Theory of Forms suggest about the nature of reality?",
+      "options": [
+        "Reality is unchanging and perfect.",
+        "Reality is based solely on sensory experience.",
+        "Reality is a mere illusion.",
+        "Reality is subjective and varies by individual."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plato argues that the true reality consists of immutable and perfect Forms, which are only recognized through reason. This corresponds to: Reality is unchanging and perfect.."
+    },
+    {
+      "question": "According to Plato, what is the role of the Form of the Good in understanding other Forms?",
+      "options": [
+        "It is irrelevant to understanding Forms.",
+        "It illuminates and enables the recognition of other Forms.",
+        "It is a flawed concept that confuses understanding.",
+        "It is only applicable to moral concepts."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Form of the Good is essential as it illuminates all other Forms, allowing them to be understood through reason. This corresponds to: It illuminates and enables the recognition of other Forms.."
+    },
+    {
+      "question": "In Plato's Allegory of the Cave, what do the shadows on the wall represent?",
+      "options": [
+        "The true Forms.",
+        "The material world and sensory experiences.",
+        "The philosopher's understanding.",
+        "The essence of goodness."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shadows represent the deceptive appearances of the material world, which are mere imitations of the true Forms. This corresponds to: The material world and sensory experiences.."
+    },
+    {
+      "question": "If a student argues that Plato's Forms are impractical for understanding new inventions, which criticism are they highlighting?",
+      "options": [
+        "The Third Man Argument.",
+        "The problem of new inventions.",
+        "The argument from recollection.",
+        "The family resemblance theory."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This criticism points out that Plato's belief in unchanging Forms does not account for the existence of new inventions. This corresponds to: The problem of new inventions.."
+    },
+    {
+      "question": "What is the essence of Plato's dualism regarding the soul and body?",
+      "options": [
+        "The body is superior to the soul.",
+        "The soul is eternal and separate from the body.",
+        "The body and soul are identical.",
+        "The body is the only reality."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's dualism posits that the soul is the essential part of us, capable of accessing the eternal Forms, while the body is transient and unreliable. This corresponds to: The soul is eternal and separate from the body.."
+    },
+    {
+      "question": "A philosopher argues that Plato's Forms are too abstract to be useful in empirical studies. What type of criticism is this?",
+      "options": [
+        "A methodological criticism.",
+        "An ethical criticism.",
+        "A logical criticism.",
+        "A metaphysical criticism."
+      ],
+      "correctAnswer": 0,
+      "explanation": "This criticism addresses the practical application of Plato's theory, suggesting it detracts from empirical scientific study. This corresponds to: A methodological criticism.."
+    },
+    {
+      "question": "Which philosopher proposed the family resemblance theory as a critique of Plato's Forms?",
+      "options": [
+        "Aristotle",
+        "Wittgenstein",
+        "Socrates",
+        "Heraclitus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein rejected the idea of a single Form for many objects, suggesting instead that there are overlapping characteristics"
+    },
+    {
+      "question": "What is the Third Man Argument in relation to Plato's Theory of Forms?",
+      "options": [
+        "It supports the existence of Forms.",
+        "It critiques the need for an additional Form to explain similarities.",
+        "It argues for the empirical study of reality.",
+        "It emphasizes the importance of sensory experience."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Third Man Argument suggests that if Forms are needed to explain similarities, it leads to an infinite regress of Forms. This corresponds to: It critiques the need for an additional Form to explain similarities.."
+    },
+    {
+      "question": "How does Plato's view of knowledge differ from empirical learning?",
+      "options": [
+        "Knowledge is learned through experience.",
+        "Knowledge is innate and recollected from the Forms.",
+        "Knowledge is subjective and varies by individual.",
+        "Knowledge is irrelevant to understanding reality."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato argues that knowledge is not learned but recollected by the soul from its prior experience of the Forms. This corresponds to: Knowledge is innate and recollected from the Forms.."
+    },
+    {
+      "question": "In comparing Plato's Form of the Good with Aristotle's Prime Mover, which aspect of the Prime Mover is emphasized?",
+      "options": [
+        "It is a reflection of the Forms.",
+        "It is pure actuality and cannot be acted upon.",
+        "It is dependent on the material world.",
+        "It is a flawed concept."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle's Prime Mover is characterized as pure actuality, contrasting with Plato's more abstract Form of the Good. This corresponds to: It is pure actuality and cannot be acted upon.."
+    }
+  ]
+}

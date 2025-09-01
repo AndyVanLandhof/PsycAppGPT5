@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:02:21.834Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "challenges",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is one of Kant's main criticisms of the ontological argument regarding existence?",
+      "options": [
+        "It is an analytic statement",
+        "It is a synthetic statement",
+        "It is a contradiction",
+        "It is a universal law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant argues that all statements about existence must be synthetic, requiring external evidence for verification. This corresponds to: It is a synthetic statement."
+    },
+    {
+      "question": "In Kantian ethics, what does the term 'categorical imperative' refer to?",
+      "options": [
+        "A moral duty based on personal inclination",
+        "A command that applies universally",
+        "A subjective moral guideline",
+        "A hypothetical scenario"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The categorical imperative is a command that applies universally, guiding moral actions regardless of personal desires"
+    },
+    {
+      "question": "Kant's ethical theory is often criticized for its absolutist nature. What does this mean?",
+      "options": [
+        "It allows flexibility in moral decisions",
+        "It does not consider outcomes",
+        "It is based on emotions",
+        "It is subjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant's ethics is absolutist as it does not allow flexibility based on circumstances, focusing solely on the action itself. This corresponds to: It does not consider outcomes."
+    },
+    {
+      "question": "Which of the following is a key feature of Kant's view on moral duties?",
+      "options": [
+        "They are based on emotions",
+        "They are determined by the consequences",
+        "They are rational and universal",
+        "They vary by situation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics emphasizes that moral duties are rational and universal, derived from the categorical imperative. This corresponds to: They are rational and universal."
+    },
+    {
+      "question": "In the context of Kantian ethics, what is a criticism regarding the treatment of emotions?",
+      "options": [
+        "Emotions are essential for moral decision-making",
+        "Emotions can lead to inconsistent moral duties",
+        "Emotions should dictate moral actions",
+        "Emotions are irrelevant to ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics is criticized for rejecting emotions, as they can lead to inconsistent moral duties and decisions. This corresponds to: Emotions can lead to inconsistent moral duties."
+    },
+    {
+      "question": "What is one of the postulates Kant argues must be assumed for morality to exist?",
+      "options": [
+        "The existence of a perfect society",
+        "The existence of God",
+        "The existence of absolute truths",
+        "The existence of universal laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant postulates the existence of God as necessary for ensuring that the highest good is achieved and virtue is rewarded"
+    },
+    {
+      "question": "Kant's example of a murderer asking for the location of a victim illustrates which aspect of his ethics?",
+      "options": [
+        "The importance of outcomes",
+        "The necessity of telling the truth",
+        "The role of emotions in ethics",
+        "The flexibility of moral duties"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This example illustrates Kant's belief that one must tell the truth, as lying would violate the categorical imperative. This corresponds to: The necessity of telling the truth."
+    },
+    {
+      "question": "How does Kantian ethics view the concept of treating people as ends in themselves?",
+      "options": [
+        "It is a secondary concern",
+        "It is essential to moral actions",
+        "It is irrelevant to ethical decisions",
+        "It is only applicable in business ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes the importance of treating people as ends in themselves, not merely as means to an end. This corresponds to: It is essential to moral actions."
+    },
+    {
+      "question": "What is a common criticism of Kant's categorical imperative regarding its application?",
+      "options": [
+        "It is too flexible",
+        "It is too subjective",
+        "It lacks practical applicability",
+        "It is based on emotions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that the categorical imperative lacks practical applicability in real-life situations where moral dilemmas are complex. This corresponds to: It lacks practical applicability."
+    },
+    {
+      "question": "What does Kant mean by 'ought implies can' in his ethical theory?",
+      "options": [
+        "Moral duties are optional",
+        "Moral duties must be achievable",
+        "Moral duties are based on desires",
+        "Moral duties are universal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Ought implies can' means that for a moral duty to exist, individuals must have the ability to fulfill that duty. This corresponds to: Moral duties must be achievable."
+    }
+  ]
+}

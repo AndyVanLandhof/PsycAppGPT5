@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:48:30.885Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "aquinas",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Aquinas, which of the following is NOT one of the five primary precepts?",
+      "options": [
+        "Preservation of innocent life",
+        "To reproduce",
+        "To accumulate wealth",
+        "To worship God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas identifies five primary precepts, which include preservation of life, reproduction, education, living in an ordered society, and worshiping God. This corresponds to: To accumulate wealth."
+    },
+    {
+      "question": "Aquinas' primary precept of 'education, particularly education of the young' emphasizes which aspect of human nature?",
+      "options": [
+        "Intellectual growth",
+        "Social interaction",
+        "Spiritual fulfillment",
+        "Economic success"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas argues that humans are intellectual creatures, and it is natural for us to learn, highlighting the importance of education. This corresponds to: Intellectual growth."
+    },
+    {
+      "question": "In the context of Aquinas' Natural Law, which secondary precept can be deduced from the primary precept of 'preservation of life'?",
+      "options": [
+        "Killing in self-defense is permissible",
+        "All forms of euthanasia are acceptable",
+        "Abortion is morally acceptable",
+        "Contraception is always wrong"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From the primary precept of preserving life, one can deduce that killing in self-defense may be permissible, reflecting the flexibility of secondary precepts. This corresponds to: Killing in self-defense is permissible."
+    },
+    {
+      "question": "Aquinas believes that the primary precepts are fixed and universal. What does this imply about secondary precepts?",
+      "options": [
+        "They are absolute and unchanging",
+        "They can vary based on circumstances",
+        "They are irrelevant to moral decision-making",
+        "They are derived from divine law only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While primary precepts are fixed, secondary precepts can change based on how the primary precepts apply in specific situations. This corresponds to: They can vary based on circumstances."
+    },
+    {
+      "question": "Which of the following best describes the relationship between Aquinas' primary and secondary precepts?",
+      "options": [
+        "Secondary precepts are more general than primary precepts",
+        "Primary precepts are derived from human law",
+        "Secondary precepts are applications of primary precepts",
+        "Primary precepts are subjective and flexible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Secondary precepts are specific applications that can be deduced from the more general primary precepts. This corresponds to: Secondary precepts are applications of primary precepts."
+    },
+    {
+      "question": "Consider a scenario where a person must choose between saving a life or following a law that prohibits intervention. According to Aquinas, what should guide their decision?",
+      "options": [
+        "The law of the land",
+        "Personal beliefs",
+        "The primary precept of preserving life",
+        "Cultural norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In this scenario, the primary precept of preserving life should guide the decision, reflecting the importance of natural law"
+    },
+    {
+      "question": "Critics argue that Aquinas' Natural Law is too rigid. What aspect of his theory allows for some flexibility?",
+      "options": [
+        "The absolute nature of primary precepts",
+        "The variability of secondary precepts",
+        "The fixed human nature",
+        "The rejection of moral absolutes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The secondary precepts can change based on circumstances, allowing for flexibility in moral decision-making. This corresponds to: The variability of secondary precepts."
+    },
+    {
+      "question": "Aquinas' belief in a fixed human nature suggests what about moral behavior?",
+      "options": [
+        "It is entirely subjective",
+        "It is influenced by cultural factors",
+        "It is determined by our rational nature",
+        "It is irrelevant to ethical considerations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argues that our fixed human nature, made in the image of God, guides us toward fulfilling the primary precepts. This corresponds to: It is determined by our rational nature."
+    },
+    {
+      "question": "Which of the following statements aligns with Aquinas' view on the purpose of marriage?",
+      "options": [
+        "Marriage is solely for companionship",
+        "Marriage serves no moral purpose",
+        "Marriage has both generative and unitive functions",
+        "Marriage is irrelevant to reproduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas views marriage as important for both generating new life and uniting the couple, which are inseparable purposes. This corresponds to: Marriage has both generative and unitive functions."
+    },
+    {
+      "question": "How does Aquinas' concept of synderesis relate to the primary precepts?",
+      "options": [
+        "It is a fixed law that cannot change",
+        "It provides innate knowledge of good and evil",
+        "It is only applicable to believers",
+        "It contradicts the idea of natural law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Synderesis refers to the innate knowledge of good and evil that informs our understanding of the primary precepts. This corresponds to: It provides innate knowledge of good and evil."
+    }
+  ]
+}

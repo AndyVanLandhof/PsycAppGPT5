@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:10:10.637Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "plato-soul",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does Plato argue about the relationship between the soul and the body?",
+      "options": [
+        "The soul is the same as the body",
+        "The soul is separate from the body",
+        "The body is more important than the soul",
+        "The soul is a metaphor for emotions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato is described as a dualist, arguing that the soul is a separate and essential part of us that can reason, unlike the impermanent body. This corresponds to: The soul is separate from the body."
+    },
+    {
+      "question": "In Plato's analogy of the charioteer, what do the two horses represent?",
+      "options": [
+        "The body and the soul",
+        "Reason and emotions",
+        "Knowledge and ignorance",
+        "Good and evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The charioteer represents reason, while the two horses symbolize spirit (emotions) and physical appetites, illustrating the struggle for harmony in the soul. This corresponds to: Reason and emotions."
+    },
+    {
+      "question": "How does Plato support his view of the soul through the argument from recollection?",
+      "options": [
+        "By stating that knowledge is learned through experience",
+        "By suggesting that the soul recalls knowledge from the World of the Forms",
+        "By claiming that the body is the source of all knowledge",
+        "By arguing that the soul does not exist before birth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato uses the argument from recollection to assert that the soul has innate knowledge from its previous existence in the World of the Forms. This corresponds to: By suggesting that the soul recalls knowledge from the World of the Forms."
+    },
+    {
+      "question": "If a teenager reacts angrily when denied permission to attend a party, which aspect of Plato's theory is illustrated?",
+      "options": [
+        "The harmony of the soul",
+        "The dominance of bodily desires over reason",
+        "The pre-existence of the soul",
+        "The importance of the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario exemplifies how bodily desires can overpower reason, leading to disharmony in the soul, as described by Plato. This corresponds to: The dominance of bodily desires over reason."
+    },
+    {
+      "question": "What is the main criticism of Plato's dualism compared to Aristotle's view?",
+      "options": [
+        "Plato's view is more empirically based",
+        "Aristotle believes the soul cannot exist without the body",
+        "Plato's theory is more scientifically supported",
+        "Aristotle argues for the pre-existence of the soul"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle criticizes Plato's dualism by asserting that the soul is not a separate substance and cannot exist independently of the body. This corresponds to: Aristotle believes the soul cannot exist without the body."
+    },
+    {
+      "question": "What does Plato mean when he describes the body as a prison for the soul?",
+      "options": [
+        "The body is more important than the soul",
+        "The soul is trapped by physical desires",
+        "The body and soul are identical",
+        "The soul has no influence on the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato suggests that the body limits the soul's ability to access true knowledge, similar to prisoners being chained in a cave. This corresponds to: The soul is trapped by physical desires."
+    },
+    {
+      "question": "Which example does Plato use to illustrate the argument from knowledge?",
+      "options": [
+        "The charioteer analogy",
+        "The analogy of the cave",
+        "Socrates' questioning of an enslaved boy",
+        "The wax seal metaphor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato uses Socrates' interaction with an enslaved boy to demonstrate that knowledge is recollected by the soul rather than learned. This corresponds to: Socrates' questioning of an enslaved boy."
+    },
+    {
+      "question": "What is a key difference between Plato's and Aristotle's views on the soul?",
+      "options": [
+        "Plato believes the soul is the form of the body",
+        "Aristotle argues for the pre-existence of the soul",
+        "Plato sees the soul as separate from the body",
+        "Aristotle believes the soul is immaterial"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato's dualism posits that the soul is a separate entity from the body, while Aristotle views the soul as inseparable from the body. This corresponds to: Plato sees the soul as separate from the body."
+    },
+    {
+      "question": "How does Aristotle's view of the soul differ from Plato's in terms of existence after death?",
+      "options": [
+        "Aristotle believes the soul exists after death",
+        "Plato believes the soul ceases to exist at death",
+        "Both philosophers agree on the soul's immortality",
+        "Aristotle argues the soul does not exist after death"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aristotle argues that the soul comes into existence at birth and ceases to exist at death, contrasting with Plato's belief in the soul's immortality. This corresponds to: Aristotle argues the soul does not exist after death."
+    },
+    {
+      "question": "What methodological issue is raised when comparing Plato's dualism to materialism?",
+      "options": [
+        "Materialism is more empirically verifiable",
+        "Dualism lacks a scientific basis",
+        "Both views are equally supported by evidence",
+        "Materialism is based on metaphysical assumptions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Materialism, which explains consciousness through physical interactions, is often seen as more empirically verifiable than Plato's dualist perspective. This corresponds to: Dualism lacks a scientific basis."
+    }
+  ]
+}

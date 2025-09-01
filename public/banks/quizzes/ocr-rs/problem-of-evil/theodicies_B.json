@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:34:49.464Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "theodicies",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of Irenaean theodicies regarding the existence of evil?",
+      "options": [
+        "Evil is a punishment for sin",
+        "Evil is an opportunity for character development",
+        "Evil is an illusion",
+        "Evil is a test of faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Irenaean theodicies view evil as a means for individuals to develop their characters, emphasizing soul-making rather than soul-deciding. This corresponds to: Evil is an opportunity for character development."
+    },
+    {
+      "question": "According to John Hick, what is necessary for genuine free will?",
+      "options": [
+        "Complete knowledge of God's plan",
+        "The absence of any consequences",
+        "The possibility of negative outcomes",
+        "A predetermined moral framework"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hick argues that true freedom includes the possibility of negative consequences, which is essential for a genuine relationship with God. This corresponds to: The possibility of negative outcomes."
+    },
+    {
+      "question": "In Hick's view, what does the term 'instrumental good' refer to?",
+      "options": [
+        "Goodness that is inherent",
+        "Goodness that serves a purpose",
+        "Goodness that is universally accepted",
+        "Goodness that is temporary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick describes instrumental good as something that is good for a purpose, specifically in the context of soul-making. This corresponds to: Goodness that serves a purpose."
+    },
+    {
+      "question": "What does the evidential problem of evil argue?",
+      "options": [
+        "Evil is necessary for free will",
+        "Evil contradicts the existence of an all-powerful God",
+        "Evil is a result of human choices",
+        "Evil is a test of faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil posits that the observable presence of evil in the world is sufficient to argue against the existence of an all-powerful God. This corresponds to: Evil contradicts the existence of an all-powerful God."
+    },
+    {
+      "question": "How does Augustine's view of evil differ from that of Irenaean theodicies?",
+      "options": [
+        "Augustine sees evil as a privation",
+        "Augustine believes evil is necessary for soul-making",
+        "Augustine denies the existence of evil",
+        "Augustine views evil as a test of faith"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine's perspective defines evil as a privation, contrasting with Irenaean theodicies that see evil as a means for character development. This corresponds to: Augustine sees evil as a privation."
+    },
+    {
+      "question": "What assumption does the logical problem of evil make about God's power?",
+      "options": [
+        "God's power is absolute",
+        "God's power is limited by human free will",
+        "God's power is irrelevant to the existence of evil",
+        "God's power is conditional on human actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The logical problem of evil assumes that God's power may be limited due to the gift of free will to humans. This corresponds to: God's power is limited by human free will."
+    },
+    {
+      "question": "What is a potential methodological issue with the evidential problem of evil?",
+      "options": [
+        "It assumes we fully understand God's nature",
+        "It relies on subjective interpretations of evil",
+        "It overlooks the role of free will",
+        "It fails to consider historical context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The evidential problem of evil assumes a complete understanding of God's nature and decision-making, which may not be accurate. This corresponds to: It assumes we fully understand God's nature."
+    },
+    {
+      "question": "How does Hick's concept of 'epistemic distance' relate to the problem of evil?",
+      "options": [
+        "It suggests God is indifferent to human suffering",
+        "It implies humans cannot understand God's reasons for allowing evil",
+        "It argues that evil is necessary for divine intervention",
+        "It states that humans must seek knowledge to eliminate evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's idea of epistemic distance indicates that the gap in knowledge between God and humanity allows for the existence of evil as part of human development. This corresponds to: It implies humans cannot understand God's reasons for allowing evil."
+    },
+    {
+      "question": "What is the primary aim of theodicies in the context of the problem of evil?",
+      "options": [
+        "To deny the existence of evil",
+        "To justify God's actions or inactions",
+        "To promote human suffering",
+        "To eliminate free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Theodicies propose justifications for divine actions or inactions in the face of evil, attempting to reconcile the existence of evil with the nature of God. This corresponds to: To justify God's actions or inactions."
+    },
+    {
+      "question": "What does Augustine's concept of original perfection imply about the nature of evil?",
+      "options": [
+        "Evil is a necessary part of creation",
+        "Evil is a result of human choices",
+        "Evil is a deviation from God's original plan",
+        "Evil is an illusion created by humans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine's idea of original perfection suggests that evil arises as a deviation from the perfect creation intended by God. This corresponds to: Evil is a deviation from God's original plan."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:01:32.250Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "autonomy",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Kantian ethics, what is the fundamental principle that underlies moral autonomy?",
+      "options": [
+        "Utilitarianism",
+        "Respect for autonomy",
+        "Social contract theory",
+        "Ethical egoism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes respect for autonomy as a basic moral principle, highlighting the capacity to choose and act on one's own decisions"
+    },
+    {
+      "question": "In the context of Kantian ethics, which of the following best describes autonomy?",
+      "options": [
+        "The ability to follow societal norms",
+        "The capacity to choose and act on one's own decisions",
+        "The freedom to act without consequences",
+        "The obligation to obey authority"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Autonomy in Kantian ethics refers specifically to the capacity of rational and self-aware beings to make their own choices. This corresponds to: The capacity to choose and act on one's own decisions."
+    },
+    {
+      "question": "If a person is unable to make decisions for themselves, what does Kantian ethics suggest should guide actions taken on their behalf?",
+      "options": [
+        "Personal feelings of the caregiver",
+        "What would be in their best interests",
+        "Societal expectations",
+        "The desires of the majority"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics suggests that actions taken on behalf of those unable to decide should focus on what is in their best interests. This corresponds to: What would be in their best interests."
+    },
+    {
+      "question": "Which of the following scenarios illustrates a violation of autonomy according to Kantian ethics?",
+      "options": [
+        "A person chooses to donate an organ",
+        "A person is coerced into making a decision",
+        "A person decides to end their life",
+        "A person receives medical treatment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics posits that autonomy is violated when individuals are forced to make decisions against their will. This corresponds to: A person is coerced into making a decision."
+    },
+    {
+      "question": "In Kantian ethics, why is killing a person who does not choose to die considered a grave violation?",
+      "options": [
+        "It leads to greater happiness",
+        "It respects societal norms",
+        "It undermines the person's autonomy",
+        "It fulfills a moral obligation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Killing someone who does not choose to die is seen as a serious violation of autonomy, which is a core principle in Kantian ethics. This corresponds to: It undermines the person's autonomy."
+    },
+    {
+      "question": "Diane Pretty's case in 2002 raised questions about autonomy in the context of euthanasia. What was the court's ruling regarding her autonomy argument?",
+      "options": [
+        "It was fully supported",
+        "It was partially supported",
+        "It was rejected",
+        "It was ignored"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The court rejected Diane Pretty's argument that her autonomy included the right to take her own life, highlighting the complexities of autonomy in legal contexts. This corresponds to: It was rejected."
+    },
+    {
+      "question": "Which ethical theory contrasts with Kantian ethics by not placing the same emphasis on autonomy?",
+      "options": [
+        "Virtue ethics",
+        "Utilitarianism",
+        "Social contract theory",
+        "Divine command theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism contrasts with Kantian ethics as it does not prioritize autonomy for its own sake, focusing instead on the outcomes of actions"
+    },
+    {
+      "question": "What is a potential methodological issue when applying Kantian ethics to real-life scenarios?",
+      "options": [
+        "It is too flexible",
+        "It may overlook individual circumstances",
+        "It is too focused on outcomes",
+        "It lacks a clear definition of autonomy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A methodological issue with Kantian ethics is that it may overlook individual circumstances, leading to rigid applications of moral principles"
+    },
+    {
+      "question": "How does Kantian ethics view the relationship between morality and religion?",
+      "options": [
+        "They are identical",
+        "Morality is independent of religion",
+        "Religion dictates moral laws",
+        "Morality is derived from religious texts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics posits that morality is a matter of reason and conscience, separate from religious faith. This corresponds to: Morality is independent of religion."
+    },
+    {
+      "question": "According to Kantian ethics, what is the role of rationality in moral decision-making?",
+      "options": [
+        "It is irrelevant",
+        "It is a tool for achieving happiness",
+        "It is essential for determining moral duties",
+        "It complicates moral reasoning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rationality is essential in Kantian ethics for determining moral duties and ensuring that actions can be universalized. This corresponds to: It is essential for determining moral duties."
+    }
+  ]
+}

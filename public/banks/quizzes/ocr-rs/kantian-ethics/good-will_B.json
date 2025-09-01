@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:59:23.623Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "good-will",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Kant, what is the only thing that is intrinsically good?",
+      "options": [
+        "A good intention",
+        "Courage",
+        "Wealth",
+        "Pleasure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kant argues that the only thing that is truly and intrinsically good is a 'good will'. This corresponds to: A good intention."
+    },
+    {
+      "question": "What does Kant mean by 'duty for duty's sake'?",
+      "options": [
+        "Acting to achieve happiness",
+        "Acting based on personal desires",
+        "Acting out of a sense of moral obligation",
+        "Acting to avoid punishment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant emphasizes that we should act out of a sense of duty, not for any reward or personal gain. This corresponds to: Acting out of a sense of moral obligation."
+    },
+    {
+      "question": "In Kantian ethics, which of the following is NOT a characteristic of a good will?",
+      "options": [
+        "Motivated by duty",
+        "Independent of consequences",
+        "Guided by emotions",
+        "Always good"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant states that a good will is not guided by emotions, as they can change frequently"
+    },
+    {
+      "question": "If a shopkeeper treats customers well solely for profit, how does Kant view this action?",
+      "options": [
+        "It is a morally good act",
+        "It is a duty-based act",
+        "It lacks a good will",
+        "It is commendable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant would argue that the shopkeeper's motive is wrong, as they are not acting out of duty. This corresponds to: It lacks a good will."
+    },
+    {
+      "question": "Kant's categorical imperative emphasizes treating people as what?",
+      "options": [
+        "Means to an end",
+        "Ends in themselves",
+        "Objects of desire",
+        "Instruments for happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant insists that we must treat people as ends in themselves, respecting their dignity"
+    },
+    {
+      "question": "A person believes that lying is acceptable if it leads to a good outcome. How would Kant evaluate this belief?",
+      "options": [
+        "It is morally acceptable",
+        "It contradicts the categorical imperative",
+        "It aligns with duty",
+        "It is a common ethical view"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant would argue that lying is self-contradictory and undermines the moral value of truth-telling. This corresponds to: It contradicts the categorical imperative."
+    },
+    {
+      "question": "What is one of the three postulates Kant argues must be assumed for morality to exist?",
+      "options": [
+        "That happiness is the highest good",
+        "That we have free will",
+        "That emotions guide moral decisions",
+        "That consequences determine morality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant argues that free will is essential for moral responsibility and the ability to fulfill duties. This corresponds to: That we have free will."
+    },
+    {
+      "question": "Kant's view on moral duties is that they are what?",
+      "options": [
+        "Relative to circumstances",
+        "Absolute and objective",
+        "Dependent on outcomes",
+        "Flexible based on emotions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics is characterized by its absolute and objective moral duties"
+    },
+    {
+      "question": "Kant's ethical framework is often criticized for being too what?",
+      "options": [
+        "Complex",
+        "Abstract",
+        "Practical",
+        "Flexible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Kantian ethics is too abstract to be useful in practical ethical decision-making"
+    },
+    {
+      "question": "In a situation where telling the truth could harm a friend, what might a Kantian ethicist argue?",
+      "options": [
+        "Lying is justified",
+        "Truth-telling is a duty",
+        "Emotions should guide decisions",
+        "Consequences are paramount"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant would argue that truth-telling is a moral duty, regardless of the emotional consequences involved. This corresponds to: Truth-telling is a duty."
+    }
+  ]
+}

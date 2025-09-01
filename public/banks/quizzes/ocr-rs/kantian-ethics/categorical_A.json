@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:00:09.408Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "categorical",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is a categorical imperative according to Kant?",
+      "options": [
+        "A command that depends on outcomes",
+        "A command that must be followed unconditionally",
+        "A suggestion based on personal preference",
+        "A rule that varies by situation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A categorical imperative is an unconditional command that must be followed regardless of the consequences. This corresponds to: A command that must be followed unconditionally."
+    },
+    {
+      "question": "Which of the following is NOT one of Kant's formulations of the categorical imperative?",
+      "options": [
+        "Universal law",
+        "Persons as ends",
+        "Kingdom of ends",
+        "Hypothetical law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hypothetical law is not one of Kant's formulations; he proposed universal law, persons as ends, and kingdom of ends"
+    },
+    {
+      "question": "According to Kant, what is the primary motive behind moral actions?",
+      "options": [
+        "Consequences of the action",
+        "Personal desires",
+        "Duty for duty's sake",
+        "Social approval"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant emphasizes that moral actions should be motivated by a sense of duty rather than personal gain or social acceptance. This corresponds to: Duty for duty's sake."
+    },
+    {
+      "question": "In a scenario where someone considers lying to protect a friend, what would Kant argue?",
+      "options": [
+        "Lying is acceptable if it serves a good outcome",
+        "Lying is always wrong regardless of the situation",
+        "Lying can be justified if it is a common practice",
+        "Lying is permissible if it does not harm anyone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant would argue that lying is morally wrong as it cannot be universalized without contradiction. This corresponds to: Lying is always wrong regardless of the situation."
+    },
+    {
+      "question": "If a person believes they can lie without consequences, what Kantian principle are they violating?",
+      "options": [
+        "Universal law",
+        "Hypothetical imperative",
+        "Moral relativism",
+        "Autonomy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They are violating the principle of universal law, as lying cannot be made a universal law without leading to chaos"
+    },
+    {
+      "question": "What does Kant mean by treating people as ends in themselves?",
+      "options": [
+        "Using people for personal gain",
+        "Respecting individuals' rights and dignity",
+        "Ignoring others' needs",
+        "Prioritizing group interests over individual rights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant insists that we must treat individuals with respect and dignity, recognizing their intrinsic value. This corresponds to: Respecting individuals' rights and dignity."
+    },
+    {
+      "question": "Kant's categorical imperative is criticized for being too abstract. What is a potential issue with this?",
+      "options": [
+        "It does not consider emotional factors",
+        "It is too focused on outcomes",
+        "It relies on subjective interpretations",
+        "It is based on hypothetical scenarios"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Kant's approach overlooks the importance of emotional factors in moral decision-making. This corresponds to: It does not consider emotional factors."
+    },
+    {
+      "question": "Philippa Foot challenges Kant's categorical imperatives by emphasizing what aspect of moral reasoning?",
+      "options": [
+        "The importance of universal laws",
+        "The role of desires and motives",
+        "The necessity of absolute duties",
+        "The significance of rationality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Foot argues that Kant's framework lacks an adequate explanation of our motives and desires, which are crucial for moral action. This corresponds to: The role of desires and motives."
+    },
+    {
+      "question": "In Kantian ethics, what is the significance of the 'Kingdom of ends' formulation?",
+      "options": [
+        "It emphasizes individual autonomy",
+        "It suggests a hypothetical perfect society",
+        "It focuses on the consequences of actions",
+        "It prioritizes societal norms over individual rights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Kingdom of ends' asks us to consider how our actions would be viewed in a society where everyone treats others as ends. This corresponds to: It suggests a hypothetical perfect society."
+    },
+    {
+      "question": "What is a key difference between categorical and hypothetical imperatives according to Kant?",
+      "options": [
+        "Categorical imperatives depend on personal desires",
+        "Hypothetical imperatives are absolute commands",
+        "Categorical imperatives apply universally regardless of outcomes",
+        "Hypothetical imperatives are unconditional"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Categorical imperatives are unconditional and apply universally, while hypothetical imperatives depend on desired outcomes. This corresponds to: Categorical imperatives apply universally regardless of outcomes."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:00:24.826Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "categorical",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is a categorical imperative according to Kant?",
+      "options": [
+        "A command that depends on the outcome",
+        "A command that must be followed unconditionally",
+        "A suggestion based on personal preference",
+        "A rule that varies by situation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A categorical imperative is a command that logically must be followed and does not depend on the end results. This corresponds to: A command that must be followed unconditionally."
+    },
+    {
+      "question": "Which of the following is NOT one of Kant's formulations of the categorical imperative?",
+      "options": [
+        "Universal law",
+        "Persons as ends",
+        "Kingdom of ends",
+        "Hypothetical law"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kant's formulations include universal law, persons as ends, and Kingdom of ends, but not hypothetical law"
+    },
+    {
+      "question": "In Kantian ethics, what does the principle of autonomy refer to?",
+      "options": [
+        "The ability to act based on emotions",
+        "The ability to rationally determine moral duties",
+        "The ability to follow societal norms",
+        "The ability to ignore moral laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of autonomy in Kantian ethics emphasizes that humans can rationally determine their moral duties. This corresponds to: The ability to rationally determine moral duties."
+    },
+    {
+      "question": "If a person believes they can lie without consequence, which formulation of the categorical imperative are they violating?",
+      "options": [
+        "Universal law",
+        "Persons as ends",
+        "Kingdom of ends",
+        "Hypothetical imperative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By believing they can lie without consequence, they are violating the universal law, as lying cannot be universalized"
+    },
+    {
+      "question": "According to Kant, why is it irrational to reject the categorical imperative?",
+      "options": [
+        "It leads to chaos in society",
+        "It contradicts personal desires",
+        "It undermines moral consistency",
+        "It is too complex to understand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rejecting the categorical imperative undermines moral consistency, as valid moral reasons must apply universally. This corresponds to: It undermines moral consistency."
+    },
+    {
+      "question": "Kant's view on morality is best described as which of the following?",
+      "options": [
+        "Consequentialist",
+        "Deontological",
+        "Relativist",
+        "Utilitarian"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics is deontological, meaning it is duty-based and focuses on the morality of actions rather than their consequences"
+    },
+    {
+      "question": "A scenario where someone lies to protect a friend's feelings presents a conflict between which two moral considerations in Kantian ethics?",
+      "options": [
+        "Duty and loyalty",
+        "Truth and happiness",
+        "Autonomy and community",
+        "Justice and mercy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates a conflict between the duty to tell the truth and the loyalty to a friend. This corresponds to: Duty and loyalty."
+    },
+    {
+      "question": "What is a common criticism of Kantian ethics regarding its application in real-life situations?",
+      "options": [
+        "It is too flexible",
+        "It ignores emotional factors",
+        "It is too focused on consequences",
+        "It is overly simplistic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Kantian ethics is too abstract and does not adequately account for emotional factors in moral decision-making. This corresponds to: It ignores emotional factors."
+    },
+    {
+      "question": "Which of the following best describes the term 'duty for duty's sake' in Kantian ethics?",
+      "options": [
+        "Acting based on personal gain",
+        "Acting out of obligation without regard for outcomes",
+        "Acting based on societal expectations",
+        "Acting to achieve the greatest happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Duty for duty's sake' means acting out of obligation, emphasizing the purity of motive rather than the consequences. This corresponds to: Acting out of obligation without regard for outcomes."
+    },
+    {
+      "question": "Kant argues that moral laws must apply to all rational beings. This reflects which aspect of his ethical theory?",
+      "options": [
+        "Moral relativism",
+        "Universalizability",
+        "Utilitarianism",
+        "Hypothetical imperatives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant's emphasis on universalizability means that moral laws must be applicable to all rational beings at all times"
+    }
+  ]
+}

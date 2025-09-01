@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:48:10.267Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "aquinas",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the first primary precept identified by Aquinas in his Natural Law theory?",
+      "options": [
+        "To reproduce",
+        "To worship God",
+        "Preservation of innocent life",
+        "To live in an ordered society"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argues that preserving life is a fundamental aspect of human purpose. This corresponds to: Preservation of innocent life."
+    },
+    {
+      "question": "According to Aquinas, which of the following is a secondary precept derived from the primary precept of preserving life?",
+      "options": [
+        "Killing a fellow human is wrong",
+        "Education is essential",
+        "Marriage is important",
+        "Worshiping God is necessary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The secondary precept deduced from the primary precept of preserving life is that killing is morally wrong. This corresponds to: Killing a fellow human is wrong."
+    },
+    {
+      "question": "In the context of Aquinas' Natural Law, what does the term 'telos' refer to?",
+      "options": [
+        "Moral law",
+        "Purpose",
+        "Human nature",
+        "Secondary precepts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Telos refers to the purpose or end goal that human beings are meant to achieve according to Aquinas"
+    },
+    {
+      "question": "If a society prioritizes education of the young, which primary precept is being fulfilled according to Aquinas?",
+      "options": [
+        "To reproduce",
+        "To live in an ordered society",
+        "To worship God",
+        "Education, particularly education of the young"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aquinas emphasizes the importance of education as a primary precept reflecting our intellectual nature. This corresponds to: Education, particularly education of the young."
+    },
+    {
+      "question": "Aquinas suggests that secondary precepts can change based on what factors?",
+      "options": [
+        "Cultural norms and scientific advancements",
+        "Religious beliefs and traditions",
+        "Personal opinions and preferences",
+        "Historical events and laws"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas acknowledges that secondary precepts may adapt as society evolves and new insights emerge. This corresponds to: Cultural norms and scientific advancements."
+    },
+    {
+      "question": "In a scenario where a person must choose between preserving life and acting in self-defense, which principle might Aquinas' Doctrine of Double Effect apply to?",
+      "options": [
+        "Preservation of innocent life",
+        "To reproduce",
+        "To live in an ordered society",
+        "To worship God"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Doctrine of Double Effect allows for the possibility of justifying actions that may conflict with the primary precept of preserving life. This corresponds to: Preservation of innocent life."
+    },
+    {
+      "question": "Critics argue that Aquinas' Natural Law is too rigid. What aspect of his theory supports this critique?",
+      "options": [
+        "The absolute nature of primary precepts",
+        "The flexibility of secondary precepts",
+        "The role of synderesis",
+        "The emphasis on eudaimonia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fixed nature of primary precepts can be seen as inflexible, leading to criticisms of Natural Law as outdated. This corresponds to: The absolute nature of primary precepts."
+    },
+    {
+      "question": "How does Aquinas' view of human nature differ from existentialist perspectives like that of Sartre?",
+      "options": [
+        "Aquinas believes in a fixed human nature with a clear purpose",
+        "Sartre believes in a fixed human nature with a clear purpose",
+        "Both agree on the flexibility of human nature",
+        "Aquinas rejects the idea of purpose altogether"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas holds that human beings have an essential nature and purpose, contrasting with Sartre's belief that humans create their own essence. This corresponds to: Aquinas believes in a fixed human nature with a clear purpose."
+    },
+    {
+      "question": "Which of the following best describes the relationship between primary and secondary precepts in Aquinas' Natural Law?",
+      "options": [
+        "Primary precepts are absolute and universal, while secondary precepts are flexible and context-dependent",
+        "Both primary and secondary precepts are absolute",
+        "Secondary precepts are more important than primary precepts",
+        "Primary precepts can change while secondary precepts are fixed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas asserts that primary precepts are fixed, whereas secondary precepts can vary based on specific circumstances. This corresponds to: Primary precepts are absolute and universal, while secondary precepts are flexible and context-dependent."
+    },
+    {
+      "question": "What is the significance of the synderesis rule in Aquinas' Natural Law?",
+      "options": [
+        "It defines the secondary precepts",
+        "It provides innate knowledge of good and evil",
+        "It is a fixed law",
+        "It is irrelevant to moral decision-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The synderesis rule is crucial as it reflects our innate understanding of good and evil, guiding moral actions. This corresponds to: It provides innate knowledge of good and evil."
+    }
+  ]
+}

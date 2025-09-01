@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:09:53.961Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "bentham-hedonic",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary focus of Bentham's utilitarianism as described in his ethical framework?",
+      "options": [
+        "Maximizing pleasure",
+        "Minimizing pain",
+        "Achieving equality",
+        "Promoting justice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham's utilitarianism emphasizes maximizing pleasure as the intrinsic good"
+    },
+    {
+      "question": "Which of the following is NOT one of the seven factors in Bentham's hedonic calculus?",
+      "options": [
+        "Purity",
+        "Richness",
+        "Justice",
+        "Duration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Justice is not one of the seven factors; the correct factors include Purity, Richness, and Duration"
+    },
+    {
+      "question": "In a scenario where stealing a loaf of bread saves a starving family, what does Bentham's act utilitarianism suggest?",
+      "options": [
+        "Stealing is always wrong",
+        "Stealing is justified if it produces greater happiness",
+        "The law must be followed",
+        "Pleasure must be calculated first"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bentham's act utilitarianism allows for stealing if it results in a greater balance of good over evil. This corresponds to: Stealing is justified if it produces greater happiness."
+    },
+    {
+      "question": "What does Bentham mean by 'everyone is to count as one and no one as more than one'?",
+      "options": [
+        "All pleasures are equal",
+        "Only majority opinions matter",
+        "Minorities have no rights",
+        "Pleasure must be quantified"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This phrase emphasizes the equality of all individuals in the calculation of pleasure and pain. This corresponds to: All pleasures are equal."
+    },
+    {
+      "question": "Which of the following best describes a criticism of Bentham's utilitarianism?",
+      "options": [
+        "It is too focused on qualitative aspects of pleasure",
+        "It can justify morally questionable actions",
+        "It is too simplistic",
+        "It ignores the consequences of actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A significant criticism is that Bentham's utilitarianism could theoretically justify actions like gang rape if they produce pleasure. This corresponds to: It can justify morally questionable actions."
+    },
+    {
+      "question": "What is the main advantage of using the hedonic calculus in moral decision-making?",
+      "options": [
+        "It simplifies complex decisions",
+        "It provides a clear mathematical approach to ethics",
+        "It guarantees moral correctness",
+        "It eliminates subjective judgment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hedonic calculus offers a systematic method to quantify pleasure and pain in ethical decisions. This corresponds to: It provides a clear mathematical approach to ethics."
+    },
+    {
+      "question": "In what way does act utilitarianism differ from rule utilitarianism?",
+      "options": [
+        "Act utilitarianism applies general rules",
+        "Rule utilitarianism focuses on individual actions",
+        "Act utilitarianism considers each situation individually",
+        "Rule utilitarianism ignores consequences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Act utilitarianism evaluates each situation on a case-by-case basis, unlike rule utilitarianism which follows established rules. This corresponds to: Act utilitarianism considers each situation individually."
+    },
+    {
+      "question": "According to Bentham, what is the intrinsic good that should be maximized?",
+      "options": [
+        "Happiness",
+        "Pleasure",
+        "Wealth",
+        "Knowledge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bentham identifies pleasure as the one intrinsic good that should be maximized in ethical considerations"
+    },
+    {
+      "question": "What is a potential drawback of applying the hedonic calculus in real-life situations?",
+      "options": [
+        "It is too simplistic",
+        "It can be time-consuming and complex",
+        "It lacks empirical support",
+        "It is too focused on individual pleasure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The complexity of weighing all factors in the hedonic calculus can make it impractical for quick decision-making. This corresponds to: It can be time-consuming and complex."
+    },
+    {
+      "question": "Which of the following terms is associated with Bentham's approach to utilitarianism?",
+      "options": [
+        "Qualitative view of pleasure",
+        "Swine ethic",
+        "Higher pleasures",
+        "Non-harm principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'swine ethic' is often used to critique Bentham's focus on base pleasures"
+    }
+  ]
+}

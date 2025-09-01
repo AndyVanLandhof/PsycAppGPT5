@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:10:46.894Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "plato-soul",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does Plato argue about the relationship between the soul and the body?",
+      "options": [
+        "The soul is the same as the body.",
+        "The soul is separate from the body.",
+        "The body is more important than the soul.",
+        "The soul cannot exist without the body."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato is described as a dualist, arguing that the soul is a separate, essential part of us that can reason, distinct from the body. This corresponds to: The soul is separate from the body.."
+    },
+    {
+      "question": "In Plato's charioteer analogy, what does the charioteer represent?",
+      "options": [
+        "The body",
+        "The soul",
+        "Reason",
+        "Emotions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the analogy, the charioteer represents reason, which controls the two horses of spirit (emotions) and physical appetites"
+    },
+    {
+      "question": "According to Plato, how does the soul gain knowledge?",
+      "options": [
+        "Through experience",
+        "By recollecting knowledge from the World of the Forms",
+        "From the body",
+        "Through sensory perception"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato argues that the soul recalls knowledge from its previous existence in the World of the Forms, a process known as anamnesis. This corresponds to: By recollecting knowledge from the World of the Forms."
+    },
+    {
+      "question": "A student argues that Plato's view of the soul is outdated because it relies on the existence of the World of the Forms. What type of criticism is this?",
+      "options": [
+        "Empirical",
+        "Philosophical",
+        "Historical",
+        "Logical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This criticism is empirical as it challenges the validity of Plato's metaphysical claims based on observable evidence. This corresponds to: Philosophical."
+    },
+    {
+      "question": "What is a key difference between Plato's and Aristotle's views on the soul?",
+      "options": [
+        "Plato believes the soul exists after death, while Aristotle does not.",
+        "Aristotle believes the soul is separate from the body, while Plato does not.",
+        "Plato sees the soul as the form of the body, while Aristotle does not.",
+        "Aristotle argues that the soul is eternal, while Plato does not."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plato's dualism posits that the soul exists separately from the body and continues after death, while Aristotle argues that the soul ceases to exist with the body. This corresponds to: Plato believes the soul exists after death, while Aristotle does not.."
+    },
+    {
+      "question": "What does Plato's analogy of the cave illustrate about the soul?",
+      "options": [
+        "The soul is imprisoned by the body.",
+        "The body is more important than the soul.",
+        "Knowledge is gained through sensory experience.",
+        "The soul is identical to the body."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The analogy of the cave illustrates that the body acts as a prison for the soul, which longs to escape to access true knowledge in the World of the Forms. This corresponds to: The soul is imprisoned by the body.."
+    },
+    {
+      "question": "In Plato's view, what is the role of reason in achieving harmony within the soul?",
+      "options": [
+        "To suppress emotions",
+        "To control bodily desires",
+        "To enhance physical capabilities",
+        "To ignore sensory perceptions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato suggests that when reason controls the emotions and bodily desires, the soul achieves harmony, leading to a balanced existence. This corresponds to: To control bodily desires."
+    },
+    {
+      "question": "How does Plato's argument from recollection support his view of the soul?",
+      "options": [
+        "It shows that knowledge is learned through experience.",
+        "It suggests that the soul has innate knowledge from the World of the Forms.",
+        "It proves that the body is more reliable than the soul.",
+        "It indicates that the soul is not distinct from the body."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's argument from recollection posits that the soul has innate knowledge from its prior existence in the World of the Forms, supporting the idea of a separate soul. This corresponds to: It suggests that the soul has innate knowledge from the World of the Forms.."
+    },
+    {
+      "question": "What is a potential weakness of Plato's dualism when compared to Aristotle's view?",
+      "options": [
+        "Plato's view is more empirically verifiable.",
+        "Aristotle's view lacks a metaphysical foundation.",
+        "Plato's reliance on the World of the Forms is difficult to substantiate.",
+        "Aristotle's view is too simplistic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato's reliance on the existence of the World of the Forms makes his dualism difficult to substantiate empirically, unlike Aristotle's more observable approach. This corresponds to: Plato's reliance on the World of the Forms is difficult to substantiate.."
+    },
+    {
+      "question": "What does Plato believe happens to the soul after death?",
+      "options": [
+        "It ceases to exist.",
+        "It is reborn into another body.",
+        "It returns to the World of the Forms.",
+        "It merges with the body."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato believes that after death, the soul escapes the body and returns to the World of the Forms, where it can access true knowledge. This corresponds to: It returns to the World of the Forms.."
+    }
+  ]
+}

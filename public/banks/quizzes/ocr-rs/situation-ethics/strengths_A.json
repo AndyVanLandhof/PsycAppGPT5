@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:57:36.325Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "strengths",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is one of the key principles of Situation Ethics as proposed by Joseph Fletcher in 1966?",
+      "options": [
+        "Legalism",
+        "Agape love",
+        "Antinomianism",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Agape love is central to Situation Ethics, emphasizing love as the guiding principle in ethical decision-making"
+    },
+    {
+      "question": "Which of the following is a strength of Situation Ethics?",
+      "options": [
+        "It provides strict rules for ethical behavior.",
+        "It is flexible and adaptable to individual circumstances.",
+        "It is based on absolute moral laws.",
+        "It prioritizes tradition over personal judgment."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics is praised for its flexibility, allowing individuals to make decisions based on love rather than rigid rules. This corresponds to: It is flexible and adaptable to individual circumstances.."
+    },
+    {
+      "question": "In Situation Ethics, what does the term 'agape' refer to?",
+      "options": [
+        "A form of legalism",
+        "Selfish love",
+        "Unconditional love",
+        "Conditional love based on circumstances"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Agape refers to unconditional love, which is the foundation of ethical decision-making in Situation Ethics"
+    },
+    {
+      "question": "What is a criticism of Situation Ethics regarding its application in real-life scenarios?",
+      "options": [
+        "It is too rigid and inflexible.",
+        "It can lead to subjective interpretations of love.",
+        "It ignores the importance of community standards.",
+        "It relies too heavily on legalistic principles."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Situation Ethics can lead to subjective interpretations of love, making it difficult to apply consistently across different situations. This corresponds to: It can lead to subjective interpretations of love.."
+    },
+    {
+      "question": "Which of the following is a weakness of Situation Ethics?",
+      "options": [
+        "It is overly simplistic and lacks depth.",
+        "It is too complex for practical use.",
+        "It is based on universal moral laws.",
+        "It does not consider individual circumstances."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Situation Ethics is often criticized for being overly simplistic, as it may not adequately address the complexities of moral dilemmas. This corresponds to: It is overly simplistic and lacks depth.."
+    },
+    {
+      "question": "How does Situation Ethics compare to legalistic ethical systems?",
+      "options": [
+        "It emphasizes strict adherence to laws.",
+        "It prioritizes love over legal rules.",
+        "It is based on historical precedents.",
+        "It requires consensus from the community."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics prioritizes love as the guiding principle, contrasting with legalistic systems that emphasize strict adherence to laws. This corresponds to: It prioritizes love over legal rules.."
+    },
+    {
+      "question": "What methodological issue is often raised against Situation Ethics?",
+      "options": [
+        "It relies on empirical evidence.",
+        "It is too abstract and lacks practical application.",
+        "It is based on a clear set of rules.",
+        "It does not consider emotional factors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A common criticism is that Situation Ethics is too abstract, making it challenging to apply in practical situations. This corresponds to: It is too abstract and lacks practical application.."
+    },
+    {
+      "question": "Which philosopher is most closely associated with the development of Situation Ethics?",
+      "options": [
+        "Immanuel Kant",
+        "Joseph Fletcher",
+        "John Stuart Mill",
+        "Aristotle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Joseph Fletcher is the philosopher who developed the concept of Situation Ethics in the 1960s"
+    },
+    {
+      "question": "What does Situation Ethics suggest about moral decision-making?",
+      "options": [
+        "It should always follow established laws.",
+        "It should be based on the consequences of actions.",
+        "It should prioritize love in each unique situation.",
+        "It should rely on historical ethical theories."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics advocates for moral decision-making that prioritizes love in each unique situation rather than adhering to fixed laws. This corresponds to: It should prioritize love in each unique situation.."
+    },
+    {
+      "question": "What is one potential consequence of applying Situation Ethics in a community setting?",
+      "options": [
+        "Increased adherence to traditional values.",
+        "Greater conflict due to differing interpretations of love.",
+        "Stronger community bonds through shared ethical standards.",
+        "Uniformity in moral decision-making."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying Situation Ethics can lead to greater conflict in a community due to differing interpretations of what constitutes love in moral decisions. This corresponds to: Greater conflict due to differing interpretations of love.."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:15:00.697Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "omnipotence",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Aquinas, what does God's omnipotence entail?",
+      "options": [
+        "God can do all things, including the logically impossible",
+        "God can only do what is logically possible",
+        "God can create a stone he cannot lift",
+        "God can change the past"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas argues that God's omnipotence is limited to what is logically possible, rejecting the idea of logically impossible tasks. This corresponds to: God can only do what is logically possible."
+    },
+    {
+      "question": "What is the main issue with the proposition that God can do anything?",
+      "options": [
+        "It conflicts with the idea of free will",
+        "It raises questions about God's benevolence",
+        "It suggests God can lie",
+        "It implies God can create a square circle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The proposition that God can do anything leads to contradictions, such as the logically impossible task of creating a square circle. This corresponds to: It implies God can create a square circle."
+    },
+    {
+      "question": "In the context of omnipotence, what does Swinburne argue?",
+      "options": [
+        "God's omnipotence is unlimited",
+        "God can do the logically impossible",
+        "God's omnipotence is limited to logical possibilities",
+        "God cannot perform miracles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Swinburne asserts that God's omnipotence is confined to what is logically possible, rejecting the notion of doing the logically impossible. This corresponds to: God's omnipotence is limited to logical possibilities."
+    },
+    {
+      "question": "If God is omnipotent, why does evil exist according to the problem of evil?",
+      "options": [
+        "God is not benevolent",
+        "God is not omnipotent",
+        "Evil is an illusion",
+        "God has relinquished his power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The problem of evil raises the question of how an omnipotent God can allow evil to exist, suggesting that perhaps God is not omnipotent"
+    },
+    {
+      "question": "What does the conflict between omnipotence and benevolence suggest?",
+      "options": [
+        "God is not all-powerful",
+        "God is not all-loving",
+        "Definitions of these attributes may need to change",
+        "Evil does not exist as we think it does"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The conflict between God's omnipotence and benevolence suggests that our understanding of these attributes may need to be re-evaluated. This corresponds to: Definitions of these attributes may need to change."
+    },
+    {
+      "question": "How does Descartes view God's omnipotence?",
+      "options": [
+        "It is limited by logical possibilities",
+        "It includes the ability to do the logically impossible",
+        "It is a contradiction",
+        "It is irrelevant to the existence of evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes argues that God's omnipotence includes the ability to do the logically impossible, as God is not bound by human logic. This corresponds to: It includes the ability to do the logically impossible."
+    },
+    {
+      "question": "What is a potential issue with defining omnipotence as 'power over everything'?",
+      "options": [
+        "It suggests God can do anything",
+        "It limits God's ability to intervene",
+        "It raises questions about God's nature",
+        "It conflicts with the concept of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Defining omnipotence as 'power over everything' can lead to the problematic interpretation that God can do anything, including the logically impossible. This corresponds to: It limits God's ability to intervene."
+    },
+    {
+      "question": "What does the term 'Pantokrator' imply about God's omnipotence?",
+      "options": [
+        "God has no limitations",
+        "God's power is limited to logical possibilities",
+        "God is all-loving",
+        "God's power is arbitrary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The term 'Pantokrator' translates to 'Almighty', suggesting that God's omnipotence implies no limitations on His power. This corresponds to: God has no limitations."
+    },
+    {
+      "question": "What does the problem of evil challenge in relation to God's attributes?",
+      "options": [
+        "The existence of God",
+        "The nature of God's omnipotence",
+        "The concept of free will",
+        "The validity of religious texts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The problem of evil challenges the coherence of God's attributes, particularly the compatibility of omnipotence and benevolence with the existence of evil. This corresponds to: The nature of God's omnipotence."
+    },
+    {
+      "question": "What is a methodological issue when discussing God's omnipotence?",
+      "options": [
+        "It is too abstract to define",
+        "It leads to contradictions",
+        "It cannot be empirically tested",
+        "It is based on subjective interpretations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The discussion of God's omnipotence often lacks empirical evidence, making it difficult to substantiate claims about God's nature. This corresponds to: It cannot be empirically tested."
+    }
+  ]
+}

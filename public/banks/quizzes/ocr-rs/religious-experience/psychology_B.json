@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:39:33.212Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "psychology",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which philosopher argued that the idea of God is a human invention, projecting human qualities onto a divine figure?",
+      "options": [
+        "Ludwig Feuerbach",
+        "Sigmund Freud",
+        "Richard Dawkins",
+        "David Hay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ludwig Feuerbach claimed that we create God in our image, suggesting that all divine attributes reflect human nature"
+    },
+    {
+      "question": "According to Freud, what psychological condition does he associate with religious behavior?",
+      "options": [
+        "Neurosis",
+        "Hallucination",
+        "Delusion",
+        "Psychopathy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freud argued that religious behavior is a neurosis stemming from childhood insecurities"
+    },
+    {
+      "question": "In a study by Newberg and D'Aquili, what was observed in the brains of meditating Buddhist monks?",
+      "options": [
+        "Increased activity in the 'causal operator'",
+        "Decreased brain activity",
+        "No significant changes",
+        "Increased emotional responses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Newberg and D'Aquili found increased activity in the 'causal operator' during meditation, indicating neuropsychological mechanisms at work"
+    },
+    {
+      "question": "David Hay suggested that approximately what percentage of the population has experienced something resembling a religious experience?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "David Hay estimated that around 30% of the population has had experiences resembling religious encounters"
+    },
+    {
+      "question": "Freud's view on religious experiences suggests they are primarily a result of what psychological process?",
+      "options": [
+        "Cognitive dissonance",
+        "Subconscious desires",
+        "Social conditioning",
+        "Cultural influences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud posited that religious experiences are hallucinations caused by deep subconscious desires, similar to dreams"
+    },
+    {
+      "question": "Richard Dawkins refers to religious ideas as what, suggesting they spread like a virus?",
+      "options": [
+        "Cultural memes",
+        "Psychological constructs",
+        "Evolutionary traits",
+        "Social norms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dawkins describes religious ideas as 'memes', which are ideas that evolve and replicate within our brains. This corresponds to: Cultural memes."
+    },
+    {
+      "question": "One methodological issue with psychological explanations of religious experiences is that they often rely on what type of data?",
+      "options": [
+        "Quantitative data",
+        "Subjective experiences",
+        "Experimental results",
+        "Longitudinal studies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Psychological explanations often depend on subjective experiences, making it difficult to generalize findings across different individuals"
+    },
+    {
+      "question": "Freud's theories on religious experiences have been criticized for lacking what scientific quality?",
+      "options": [
+        "Empirical support",
+        "Falsifiability",
+        "Cultural relevance",
+        "Practical application"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Freud's theories cannot be falsified, leading to claims that they do not adhere to scientific standards. This corresponds to: Falsifiability."
+    },
+    {
+      "question": "What is a common criticism of the psychological explanations for religious experiences regarding their universality?",
+      "options": [
+        "They apply to all cultures equally",
+        "They ignore individual differences",
+        "They are too focused on biological factors",
+        "They lack historical context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that psychological explanations often overlook individual differences, which can vary widely across cultures. This corresponds to: They ignore individual differences."
+    },
+    {
+      "question": "Which type of religious experience is characterized by a profound sense of unity with the divine?",
+      "options": [
+        "Conversion experience",
+        "Mystical experience",
+        "Corporate experience",
+        "Illusory experience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mystical experiences involve a deep sense of unity with a greater power, distinguishing them from other types of religious experiences"
+    }
+  ]
+}

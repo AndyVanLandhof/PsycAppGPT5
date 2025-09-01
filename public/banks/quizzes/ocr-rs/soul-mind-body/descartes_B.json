@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:12:54.644Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "descartes",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the main argument Descartes uses to support his substance dualism regarding the mind and body?",
+      "options": [
+        "The mind is divisible like the body",
+        "The mind can be doubted while the existence of the 'I' cannot",
+        "The body is immaterial",
+        "The mind is a physical entity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes argues that while the body can be doubted, the existence of the thinking 'I' cannot, supporting his view that the mind is a separate substance. This corresponds to: The mind can be doubted while the existence of the 'I' cannot."
+    },
+    {
+      "question": "According to Descartes, where does the interaction between the mind and body occur?",
+      "options": [
+        "In the cerebral cortex",
+        "In the pineal gland",
+        "In the spinal cord",
+        "In the hypothalamus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes believed that the pineal gland was the point of interaction between the immaterial mind and the physical body. This corresponds to: In the pineal gland."
+    },
+    {
+      "question": "Which of the following best describes Descartes' famous phrase 'Cogito, ergo sum'?",
+      "options": [
+        "I think, therefore I am",
+        "I feel, therefore I exist",
+        "I see, therefore I know",
+        "I act, therefore I am"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This phrase encapsulates Descartes' assertion that the act of thinking is proof of one's existence. This corresponds to: I think, therefore I am."
+    },
+    {
+      "question": "In the context of Descartes' dualism, what does the term 'divisibility' refer to?",
+      "options": [
+        "The mind can be divided into parts",
+        "The body can be divided into parts",
+        "The soul is indivisible",
+        "The mind and body are identical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes argues that the body is divisible, while the mind is indivisible, supporting the idea that they are different substances. This corresponds to: The body can be divided into parts."
+    },
+    {
+      "question": "How does the concept of 'qualia' challenge Descartes' dualism?",
+      "options": [
+        "It supports the idea of a non-physical mind",
+        "It suggests consciousness can be fully explained by neuroscience",
+        "It highlights the first-person nature of conscious experience",
+        "It denies the existence of the body"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Qualia emphasize that conscious experiences are subjective and cannot be fully captured by third-person scientific explanations. This corresponds to: It highlights the first-person nature of conscious experience."
+    },
+    {
+      "question": "What is a key criticism of Descartes' dualism related to the interaction problem?",
+      "options": [
+        "It lacks empirical support",
+        "It assumes the mind is physical",
+        "It suggests the mind and body are identical",
+        "It fails to explain how a non-physical mind interacts with a physical body"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Critics argue that if the mind is non-physical, it is unclear how it can influence physical actions in the body. This corresponds to: It fails to explain how a non-physical mind interacts with a physical body."
+    },
+    {
+      "question": "Gilbert Ryle's critique of Descartes' dualism is primarily based on which concept?",
+      "options": [
+        "The existence of the soul",
+        "The problem of interaction",
+        "Category error",
+        "Neuroscience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ryle argues that Descartes commits a category error by treating the mind as a separate entity rather than a description of behavior"
+    },
+    {
+      "question": "What methodological issue does Ryle's critique of Descartes' dualism highlight?",
+      "options": [
+        "The reliance on introspection",
+        "The lack of empirical evidence",
+        "The ambiguity of language",
+        "The complexity of the brain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ryle suggests that Descartes misuses language, leading to confusion about the nature of the mind and body. This corresponds to: The ambiguity of language."
+    },
+    {
+      "question": "What philosophical principle do materialists often invoke to argue against dualism?",
+      "options": [
+        "Ockham's Razor",
+        "Leibniz's Law",
+        "Cogito, ergo sum",
+        "The principle of sufficient reason"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materialists argue that Ockham's Razor supports their view by suggesting that we should not multiply entities beyond necessity, favoring simpler explanations"
+    },
+    {
+      "question": "Which of the following best describes Descartes' view of the mind?",
+      "options": [
+        "It is a physical entity",
+        "It is a spiritual substance",
+        "It is a social construct",
+        "It is a biological process"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes viewed the mind as a spiritual substance that is distinct from the physical body. This corresponds to: It is a spiritual substance."
+    }
+  ]
+}

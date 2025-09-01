@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:59:07.249Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "good-will",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Kant, what is the only thing that is intrinsically good?",
+      "options": [
+        "A good intention",
+        "Courage",
+        "Wealth",
+        "Happiness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kant argues that the only thing that is truly and intrinsically good is a 'good will'. This corresponds to: A good intention."
+    },
+    {
+      "question": "What does Kant mean by 'duty for duty's sake'?",
+      "options": [
+        "Acting for personal gain",
+        "Acting out of obligation",
+        "Acting based on emotions",
+        "Acting for societal approval"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant emphasizes that we should perform our duties purely out of a sense of obligation, not for any reward. This corresponds to: Acting out of obligation."
+    },
+    {
+      "question": "Which of the following best describes Kant's view on consequences in moral decision-making?",
+      "options": [
+        "Consequences are the most important factor",
+        "Consequences should be ignored",
+        "Consequences are secondary to intentions",
+        "Consequences are always predictable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant argues that intentions and actions matter more than consequences, which are not within our control. This corresponds to: Consequences are secondary to intentions."
+    },
+    {
+      "question": "In a scenario where a shopkeeper treats customers well solely for profit, how would Kant evaluate this action?",
+      "options": [
+        "It is morally good",
+        "It is morally neutral",
+        "It is morally wrong",
+        "It is a duty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant would argue that the shopkeeper's motive is wrong because it is based on self-interest rather than duty. This corresponds to: It is morally wrong."
+    },
+    {
+      "question": "If a person acts with good will but fails to achieve good outcomes, how does Kant view this?",
+      "options": [
+        "It is still morally valuable",
+        "It is morally worthless",
+        "It is irrelevant",
+        "It is a failure of duty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kant believes that even if good will achieves nothing, it remains morally valuable because of the intention behind the action. This corresponds to: It is still morally valuable."
+    },
+    {
+      "question": "What is one of the three postulates Kant argues must be assumed for morality to exist?",
+      "options": [
+        "That happiness is the highest good",
+        "That we have free will",
+        "That emotions guide our decisions",
+        "That consequences matter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant argues that for moral responsibility to exist, we must assume that human beings have free will. This corresponds to: That we have free will."
+    },
+    {
+      "question": "In Kantian ethics, how should we treat individuals according to the second formulation of the Categorical Imperative?",
+      "options": [
+        "As means to an end",
+        "As ends in themselves",
+        "As irrelevant",
+        "As tools for happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant's second formulation states we should treat people as ends in themselves, respecting their dignity"
+    },
+    {
+      "question": "A friend asks you to lie to cover for them. According to Kant, what should you do?",
+      "options": [
+        "Lie to help your friend",
+        "Tell the truth regardless of the outcome",
+        "Consider the consequences",
+        "Choose based on your feelings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant would argue that lying is self-contradictory and undermines the moral value of truth-telling. This corresponds to: Tell the truth regardless of the outcome."
+    },
+    {
+      "question": "What is a potential criticism of Kant's ethical system regarding practical decision-making?",
+      "options": [
+        "It is too focused on emotions",
+        "It ignores the importance of consequences",
+        "It is too flexible",
+        "It is too reliant on cultural norms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Kantian ethics is too abstract and does not adequately address the importance of consequences in moral decisions. This corresponds to: It ignores the importance of consequences."
+    },
+    {
+      "question": "How does Kant's view of morality relate to the existence of God?",
+      "options": [
+        "God is irrelevant to morality",
+        "God ensures moral duties are followed",
+        "God is necessary for morality to exist",
+        "God is a personal choice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant posits that the existence of God is necessary to ensure that the summum bonum occurs and that goodness is rewarded. This corresponds to: God is necessary for morality to exist."
+    }
+  ]
+}

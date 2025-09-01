@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:13:50.621Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "util-objections",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following is a common criticism of Bentham's utilitarianism?",
+      "options": [
+        "It ignores the distribution of happiness.",
+        "It is too focused on individual rights.",
+        "It requires a precise calculation of pleasure.",
+        "It promotes selfish behavior."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham's utilitarianism is often criticized for neglecting how happiness is distributed among individuals. This corresponds to: It ignores the distribution of happiness.."
+    },
+    {
+      "question": "In a scenario where a government must decide whether to implement a policy that benefits the majority but harms a minority, which objection to utilitarianism is most relevant?",
+      "options": [
+        "The 'tyranny of the majority' objection.",
+        "The 'slippery slope' argument.",
+        "The 'naturalistic fallacy'.",
+        "The 'is-ought' problem."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'tyranny of the majority' objection highlights the ethical issues when the happiness of the majority comes at the expense of the minority. This corresponds to: The 'tyranny of the majority' objection.."
+    },
+    {
+      "question": "Which philosopher is known for developing a more qualitative approach to utilitarianism compared to Bentham's quantitative method?",
+      "options": [
+        "John Stuart Mill",
+        "Peter Singer",
+        "Jeremy Bentham",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "John Stuart Mill is recognized for emphasizing the quality of pleasures over mere quantity in his utilitarian framework"
+    },
+    {
+      "question": "What is a significant methodological issue in utilitarianism regarding the measurement of happiness?",
+      "options": [
+        "Happiness is subjective and difficult to quantify.",
+        "Utilitarianism assumes all pleasures are equal.",
+        "It relies too heavily on empirical data.",
+        "It ignores the consequences of actions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The subjective nature of happiness makes it challenging to measure and compare across different individuals. This corresponds to: Happiness is subjective and difficult to quantify.."
+    },
+    {
+      "question": "In a study examining the effectiveness of utilitarian ethics in decision-making, what is a potential criticism regarding its application?",
+      "options": [
+        "It may lead to morally questionable outcomes.",
+        "It is too rigid and does not allow for exceptions.",
+        "It fails to consider long-term consequences.",
+        "It is overly complex for practical use."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilitarianism can justify actions that are morally questionable if they result in a net increase in happiness. This corresponds to: It may lead to morally questionable outcomes.."
+    },
+    {
+      "question": "Which of the following best describes a key objection to utilitarianism related to justice?",
+      "options": [
+        "It can justify actions that violate individual rights.",
+        "It fails to account for cultural differences.",
+        "It is too focused on the majority's happiness.",
+        "It does not consider emotional responses."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A major objection is that utilitarianism can justify actions that infringe on individual rights if they benefit the majority. This corresponds to: It can justify actions that violate individual rights.."
+    },
+    {
+      "question": "What is the 'slippery slope' argument against utilitarianism?",
+      "options": [
+        "It suggests that small changes can lead to significant moral consequences.",
+        "It argues that utilitarianism is too simplistic.",
+        "It claims that utilitarianism ignores the importance of intentions.",
+        "It posits that happiness cannot be measured."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'slippery slope' argument warns that accepting utilitarian principles may lead to increasingly problematic moral decisions. This corresponds to: It suggests that small changes can lead to significant moral consequences.."
+    },
+    {
+      "question": "Which of the following criticisms highlights the potential for utilitarianism to overlook minority rights?",
+      "options": [
+        "The 'tyranny of the majority'.",
+        "The 'naturalistic fallacy'.",
+        "The 'is-ought' problem.",
+        "The 'hedonic calculus'."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 'tyranny of the majority' criticism points out that utilitarianism can sacrifice the rights of the minority for the greater good. This corresponds to: The 'tyranny of the majority'.."
+    },
+    {
+      "question": "In evaluating utilitarianism, what is a common objection related to its practical application in real-world scenarios?",
+      "options": [
+        "It can be difficult to predict outcomes accurately.",
+        "It is too focused on individual happiness.",
+        "It does not consider the consequences of actions.",
+        "It assumes all individuals have the same preferences."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Utilitarianism often faces criticism for the challenge of accurately predicting the outcomes of actions, which is essential for its application. This corresponds to: It can be difficult to predict outcomes accurately.."
+    },
+    {
+      "question": "Which philosopher's work is often contrasted with utilitarianism due to its emphasis on duty and moral rules?",
+      "options": [
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "Jeremy Bentham",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Immanuel Kant's deontological ethics contrasts with utilitarianism by focusing on moral duties rather than the consequences of actions"
+    }
+  ]
+}

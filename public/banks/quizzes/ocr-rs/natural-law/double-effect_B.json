@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:51:58.042Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "double-effect",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does the doctrine of double effect primarily focus on?",
+      "options": [
+        "The outcome of an action",
+        "The intention behind an action",
+        "The moral status of the agent",
+        "The consequences of inaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The doctrine of double effect emphasizes the importance of the intention behind an action, distinguishing between intended and unintended effects"
+    },
+    {
+      "question": "In the context of Natural Law, how does Aquinas view the relationship between interior and exterior acts?",
+      "options": [
+        "Only exterior acts matter",
+        "Both must be good for an act to be moral",
+        "Interior acts are irrelevant",
+        "Exterior acts can justify bad interior motives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas argues that both the interior motive and the exterior action must be good for an act to be considered morally right. This corresponds to: Both must be good for an act to be moral."
+    },
+    {
+      "question": "According to the doctrine of double effect, which scenario would be considered morally permissible?",
+      "options": [
+        "A doctor administers a lethal dose of medication to end a patient's life",
+        "A doctor increases morphine to relieve pain, knowing it may hasten death",
+        "A nurse withholds food from a patient to end suffering",
+        "A physician performs surgery without consent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scenario where a doctor increases morphine to relieve pain aligns with the doctrine of double effect, as the intention is to alleviate suffering, not to cause death. This corresponds to: A doctor increases morphine to relieve pain, knowing it may hasten death."
+    },
+    {
+      "question": "What is a key criticism of the doctrine of double effect?",
+      "options": [
+        "It is too simplistic",
+        "It relies heavily on subjective interpretation of intention",
+        "It is universally accepted",
+        "It ignores the consequences of actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key criticism is that the doctrine relies on subjective interpretations of intention, which can vary greatly among individuals. This corresponds to: It relies heavily on subjective interpretation of intention."
+    },
+    {
+      "question": "In the case of Dr. David Moor, what principle supports his actions according to the doctrine of double effect?",
+      "options": [
+        "The sanctity of life",
+        "The intention to relieve suffering",
+        "The prohibition of killing",
+        "The necessity of consent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dr. Moor's actions are supported by the doctrine of double effect, as his primary intention was to relieve suffering, not to cause death. This corresponds to: The intention to relieve suffering."
+    },
+    {
+      "question": "How does the doctrine of double effect differentiate between active and passive euthanasia?",
+      "options": [
+        "It does not differentiate",
+        "It considers intention in both cases",
+        "It only applies to active euthanasia",
+        "It only applies to passive euthanasia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The doctrine applies to both active and passive euthanasia by focusing on the intention behind the action, rather than the action itself. This corresponds to: It considers intention in both cases."
+    },
+    {
+      "question": "What does the term 'passive euthanasia' refer to?",
+      "options": [
+        "Directly causing death",
+        "Withholding life-sustaining treatment",
+        "Administering lethal drugs",
+        "Assisting in suicide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Passive euthanasia refers to the withholding or withdrawal of life-sustaining treatment, allowing a patient to die naturally. This corresponds to: Withholding life-sustaining treatment."
+    },
+    {
+      "question": "What is a potential issue with applying the doctrine of double effect in medical practice?",
+      "options": [
+        "It is always clear what the intention is",
+        "It can lead to ethical dilemmas",
+        "It is universally accepted by all medical professionals",
+        "It simplifies complex moral decisions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A potential issue is that applying the doctrine can lead to ethical dilemmas, as intentions may not always be clear or agreed upon. This corresponds to: It can lead to ethical dilemmas."
+    },
+    {
+      "question": "According to Natural Law, what is the primary precept regarding life?",
+      "options": [
+        "To maximize happiness",
+        "To preserve life",
+        "To promote autonomy",
+        "To ensure justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law posits that the primary precept is to preserve life, viewing it as an intrinsic good"
+    },
+    {
+      "question": "In the context of the doctrine of double effect, what is meant by 'foreseen but unintended' consequences?",
+      "options": [
+        "Consequences that are ignored",
+        "Consequences that are planned",
+        "Consequences that are accepted as a side effect",
+        "Consequences that are always negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Foreseen but unintended' consequences refer to outcomes that are anticipated but not the primary intention of the action, which can be morally permissible under the doctrine. This corresponds to: Consequences that are accepted as a side effect."
+    }
+  ]
+}

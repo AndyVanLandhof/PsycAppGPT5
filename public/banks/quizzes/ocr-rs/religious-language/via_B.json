@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:41:21.768Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "via",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does the apophatic way (via negativa) assert about God?",
+      "options": [
+        "God can be described positively",
+        "God is beyond human comprehension",
+        "God is knowable through human language",
+        "God is a personal being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apophatic way claims that God is beyond description and can only be discussed in terms of what He is not. This corresponds to: God is beyond human comprehension."
+    },
+    {
+      "question": "According to Pseudo-Dionysius, why is the apophatic way preferred over the cataphatic way?",
+      "options": [
+        "It allows for personal connection with God",
+        "It preserves the mystery of God",
+        "It provides a clearer understanding of God",
+        "It is more widely accepted in religious communities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pseudo-Dionysius argues that apophatic language preserves the mystery of God, avoiding anthropomorphism. This corresponds to: It preserves the mystery of God."
+    },
+    {
+      "question": "In the context of Aquinas' analogy of attribution, how does he suggest we understand God's qualities?",
+      "options": [
+        "By using only negative language",
+        "By applying human attributes directly",
+        "By recognizing the proportionality of human and divine attributes",
+        "By denying any human understanding of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas' analogy of attribution suggests that we can understand God's qualities by recognizing the proportionality between human and divine attributes. This corresponds to: By recognizing the proportionality of human and divine attributes."
+    },
+    {
+      "question": "Aquinas' analogy of proper proportion suggests that:?",
+      "options": [
+        "God's attributes are identical to human attributes",
+        "Human language can fully describe God",
+        "God's attributes are similar but not identical to human attributes",
+        "God cannot be understood at all"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The analogy of proper proportion indicates that while God's attributes are similar to human attributes, they are not identical. This corresponds to: God's attributes are similar but not identical to human attributes."
+    },
+    {
+      "question": "If a believer uses the cataphatic way to describe God, which of the following statements might they make?",
+      "options": [
+        "God is unknowable",
+        "God is love",
+        "God is beyond description",
+        "God is infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cataphatic way uses positive language, such as 'God is love', to describe God's qualities"
+    },
+    {
+      "question": "A critic of the cataphatic way might argue that it risks:?",
+      "options": [
+        "Over-simplifying God's nature",
+        "Creating a more profound understanding of God",
+        "Encouraging mystical experiences",
+        "Preserving the mystery of God"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that the cataphatic way risks oversimplifying God's nature by using human terms to describe Him. This corresponds to: Over-simplifying God's nature."
+    },
+    {
+      "question": "How does Tillich view theological language in relation to symbols?",
+      "options": [
+        "It is entirely literal",
+        "It is almost entirely symbolic",
+        "It is exclusively negative",
+        "It is only effective through analogy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tillich argues that theological language is almost entirely symbolic, conveying deeper meanings beyond literal interpretations. This corresponds to: It is almost entirely symbolic."
+    },
+    {
+      "question": "Which of the following best describes the methodological issue with the analogy of attribution?",
+      "options": [
+        "It allows for too much ambiguity",
+        "It relies on univocal language",
+        "It does not account for human experience",
+        "It is too abstract for practical use"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The analogy of attribution can lead to ambiguity as it attempts to bridge human understanding with divine qualities. This corresponds to: It allows for too much ambiguity."
+    },
+    {
+      "question": "One strength of the apophatic way is that it:?",
+      "options": [
+        "Provides clear definitions of God",
+        "Avoids anthropomorphism",
+        "Encourages personal interpretations",
+        "Allows for a wide range of descriptions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apophatic way avoids anthropomorphism by refraining from using human-like descriptions of God"
+    },
+    {
+      "question": "Which statement reflects a weakness of the cataphatic way?",
+      "options": [
+        "It is too abstract",
+        "It can lead to misinterpretations of God's nature",
+        "It is universally accepted",
+        "It provides a comprehensive understanding of God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A weakness of the cataphatic way is that it can lead to misinterpretations of God's nature due to the subjective nature of human language"
+    }
+  ]
+}

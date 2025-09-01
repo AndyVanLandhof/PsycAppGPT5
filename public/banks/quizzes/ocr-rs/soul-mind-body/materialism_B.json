@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:14:21.861Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "materialism",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the main argument of materialists regarding the existence of the soul?",
+      "options": [
+        "The soul is an immaterial substance.",
+        "The soul is a metaphor for consciousness.",
+        "The soul is necessary for rational thought.",
+        "The soul can exist independently of the body."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Materialists argue that the concept of 'soul' is best understood metaphorically, as it describes consciousness or personhood rather than a real, immaterial entity. This corresponds to: The soul is a metaphor for consciousness.."
+    },
+    {
+      "question": "Which philosopher proposed the idea of substance dualism, distinguishing between material and spiritual substances?",
+      "options": [
+        "Aristotle",
+        "Gilbert Ryle",
+        "René Descartes",
+        "Richard Dawkins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "René Descartes proposed substance dualism, suggesting that mind and body are distinct substances, addressing the mind/soul and body problem"
+    },
+    {
+      "question": "According to materialists, how does neuroscience support their view on the mind?",
+      "options": [
+        "It shows that mental processes are independent of brain activity.",
+        "It identifies specific brain areas responsible for mental functions.",
+        "It proves the existence of a non-physical mind.",
+        "It suggests that consciousness is a separate entity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neuroscience has made significant progress in identifying brain areas responsible for functions like language and memory, supporting the materialist view that mental processes are linked to brain activity. This corresponds to: It identifies specific brain areas responsible for mental functions.."
+    },
+    {
+      "question": "What is the problem of interaction in relation to dualism?",
+      "options": [
+        "It questions how physical processes can affect non-physical entities.",
+        "It argues that the mind is a social construct.",
+        "It suggests that the body can exist without the mind.",
+        "It states that consciousness is a delusion."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The problem of interaction raises the question of how a non-physical mind or soul can interact with a physical body, highlighting a potential incompatibility between the two. This corresponds to: It questions how physical processes can affect non-physical entities.."
+    },
+    {
+      "question": "Gilbert Ryle criticized dualism by introducing the concept of category error. What does this imply?",
+      "options": [
+        "The mind is a physical entity.",
+        "The soul is a separate substance.",
+        "The mind cannot be understood as a separate entity from the body.",
+        "Consciousness is merely a byproduct of brain activity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ryle's category error suggests that the belief in a separate soul misrepresents how we understand the mind, similar to misunderstanding the concept of a university as separate from its components. This corresponds to: The mind cannot be understood as a separate entity from the body.."
+    },
+    {
+      "question": "What is one argument materialists use against dualism regarding consciousness?",
+      "options": [
+        "Consciousness can be fully explained by physical interactions.",
+        "Consciousness exists independently of the brain.",
+        "Consciousness is a first-person phenomenon.",
+        "Consciousness cannot be empirically investigated."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materialists argue that consciousness can be fully explained by physical or material interactions, rejecting the notion of a separate, immaterial soul. This corresponds to: Consciousness can be fully explained by physical interactions.."
+    },
+    {
+      "question": "How does Richard Dawkins differentiate between 'Soul One' and 'Soul Two'?",
+      "options": [
+        "Soul One is the intellect; Soul Two is a life force.",
+        "Soul One is a metaphor; Soul Two is a scientific explanation.",
+        "Soul One is a mystical entity; Soul Two is mental abilities.",
+        "Soul One is a physical process; Soul Two is a spiritual substance."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dawkins describes 'Soul One' as a mystical life force and 'Soul Two' as the intellect or mental abilities, arguing that the latter will eventually be explained scientifically. This corresponds to: Soul One is a mystical entity; Soul Two is mental abilities.."
+    },
+    {
+      "question": "What does the principle of Ockham's Razor suggest in the context of materialism?",
+      "options": [
+        "Dualism is a more complex explanation.",
+        "Materialism is the simplest explanation for consciousness.",
+        "The existence of the soul is necessary for understanding the mind.",
+        "Consciousness cannot be explained by physical processes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ockham's Razor suggests that one should not multiply entities beyond necessity, making materialism, which posits a single substance, a simpler explanation than dualism. This corresponds to: Materialism is the simplest explanation for consciousness.."
+    },
+    {
+      "question": "What is a key critique of materialism regarding the subjective experience of qualia?",
+      "options": [
+        "Qualia can be fully explained by brain chemistry.",
+        "Qualia are irrelevant to the understanding of consciousness.",
+        "Qualia represent first-person experiences that cannot be fully captured by third-person science.",
+        "Qualia support the existence of a separate soul."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that qualia, the subjective feel of experiences, represent first-person phenomena that cannot be adequately explained by third-person scientific methods. This corresponds to: Qualia represent first-person experiences that cannot be fully captured by third-person science.."
+    },
+    {
+      "question": "What does Susan Blackmore argue about consciousness?",
+      "options": [
+        "Consciousness is a real entity.",
+        "Consciousness is a delusion.",
+        "Consciousness is a product of the soul.",
+        "Consciousness can exist independently of the brain."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Susan Blackmore argues that consciousness is a delusion, suggesting that when we describe being conscious, we are searching for something that does not exist. This corresponds to: Consciousness is a delusion.."
+    }
+  ]
+}

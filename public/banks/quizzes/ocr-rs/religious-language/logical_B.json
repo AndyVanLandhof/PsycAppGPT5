@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:42:08.158Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "logical",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What principle did A.J. Ayer advocate for in relation to religious language in the 20th century?",
+      "options": [
+        "Verification Principle",
+        "Falsification Principle",
+        "Cognitive Dissonance",
+        "Analogy Theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A.J. Ayer used the Verification Principle to argue that religious language is meaningless because it cannot be empirically verified"
+    },
+    {
+      "question": "According to Anthony Flew, why is 'God-talk' considered meaningless?",
+      "options": [
+        "It is unverifiable",
+        "It is unfalsifiable",
+        "It lacks cognitive content",
+        "It is too vague"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flew argued that believers do not accept any basis by which their claims about God might be refuted, rendering them unfalsifiable and thus meaningless. This corresponds to: It is unfalsifiable."
+    },
+    {
+      "question": "In the context of verificationism, what does 'weak verification' refer to?",
+      "options": [
+        "Statements confirmed through direct observation",
+        "Statements confirmed through inductive reasoning",
+        "Statements that are always true",
+        "Statements that are never true"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weak verification involves statements that are confirmed through inductive reasoning, suggesting they are probably true based on past evidence. This corresponds to: Statements confirmed through inductive reasoning."
+    },
+    {
+      "question": "Richard Swinburne argued that some statements, although not verifiable, are still meaningful. Which example did he use?",
+      "options": [
+        "God loves me",
+        "Toys in the cupboard come alive",
+        "Water boils at 100 degrees",
+        "The sky is blue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne used the example of toys in the cupboard coming alive at night to illustrate that some unverifiable statements can still hold meaning. This corresponds to: Toys in the cupboard come alive."
+    },
+    {
+      "question": "What is the main critique of Flew's argument regarding the unfalsifiability of religious claims?",
+      "options": [
+        "It oversimplifies complex beliefs",
+        "It is too focused on empirical evidence",
+        "It ignores the role of faith",
+        "It lacks logical consistency"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Flew's view oversimplifies complex religious beliefs that may not conform to strict empirical or falsifiable standards. This corresponds to: It oversimplifies complex beliefs."
+    },
+    {
+      "question": "Wittgenstein's concept of language games suggests that religious language is meaningful within what context?",
+      "options": [
+        "Scientific inquiry",
+        "Cognitive frameworks",
+        "Cultural practices",
+        "Philosophical debates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wittgenstein proposed that religious language gains meaning through the specific language games and forms of life within cultural contexts. This corresponds to: Cultural practices."
+    },
+    {
+      "question": "How does the Parable of the Celestial City illustrate John Hick's view on verification?",
+      "options": [
+        "It shows that God can be empirically verified",
+        "It suggests that belief in God can be verified eschatologically",
+        "It argues that all religious claims are unfalsifiable",
+        "It demonstrates the limitations of language games"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's Parable of the Celestial City illustrates that if religious belief is true, it can be verified eschatologically, thus supporting his verificationist perspective. This corresponds to: It suggests that belief in God can be verified eschatologically."
+    },
+    {
+      "question": "What is a key difference between Aquinas' cognitive approach and Wittgenstein's non-cognitive approach to religious language?",
+      "options": [
+        "Aquinas focuses on empirical evidence, while Wittgenstein does not",
+        "Aquinas uses analogy, while Wittgenstein uses language games",
+        "Aquinas denies the existence of God, while Wittgenstein affirms it",
+        "Aquinas emphasizes faith, while Wittgenstein emphasizes reason"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' cognitive approach relies on analogy to convey meaning in religious language, whereas Wittgenstein's non-cognitive approach emphasizes the role of language games. This corresponds to: Aquinas uses analogy, while Wittgenstein uses language games."
+    },
+    {
+      "question": "What methodological issue arises from using the verification principle to assess religious language?",
+      "options": [
+        "It assumes all language is cognitive",
+        "It fails to account for non-cognitive meanings",
+        "It relies too heavily on empirical evidence",
+        "It does not consider historical context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A methodological issue with the verification principle is that it does not adequately account for non-cognitive meanings that may be present in religious language. This corresponds to: It fails to account for non-cognitive meanings."
+    },
+    {
+      "question": "Which principle did A.J. Ayer advocate for in relation to religious language in the 20th century?",
+      "options": [
+        "Verification Principle",
+        "Falsification Principle",
+        "Cognitive Dissonance",
+        "Analogy Theory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A.J. Ayer used the Verification Principle to argue that religious language is meaningless because it cannot be empirically verified"
+    }
+  ]
+}

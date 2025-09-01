@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:29:24.706Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "challenges",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which philosopher criticized both the teleological and cosmological arguments by stating that we lack sufficient experience to draw conclusions about the existence of God?",
+      "options": [
+        "David Hume",
+        "Thomas Aquinas",
+        "William Paley",
+        "J. Cottingham"
+      ],
+      "correctAnswer": 0,
+      "explanation": "David Hume argued that the uniqueness of the universe prevents us from making definitive conclusions about God's existence"
+    },
+    {
+      "question": "Aquinas' Fifth Way is primarily associated with which type of argument for the existence of God?",
+      "options": [
+        "Cosmological argument",
+        "Teleological argument",
+        "Moral argument",
+        "Ontological argument"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' Fifth Way is part of the teleological argument, which asserts that the order and purpose in the world imply a designer"
+    },
+    {
+      "question": "Hume's criticism of the cosmological argument suggests that it may jump to conclusions about a transcendent creator. What is this criticism primarily based on?",
+      "options": [
+        "The existence of chance",
+        "The nature of empirical evidence",
+        "The uniqueness of the universe",
+        "The problem of evil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume argued that the cosmological argument does not adequately justify the leap to a transcendent creator due to the uniqueness of the universe"
+    },
+    {
+      "question": "Which of the following is a challenge to the teleological argument regarding the existence of God?",
+      "options": [
+        "The problem of evil",
+        "The challenge of evolution",
+        "The existence of moral values",
+        "The concept of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The challenge of evolution suggests that complexity and design in nature can arise through natural processes rather than requiring a designer"
+    },
+    {
+      "question": "What is a key feature of a posteriori arguments for the existence of God?",
+      "options": [
+        "They rely on logical deduction",
+        "They are based on empirical observation",
+        "They are independent of experience",
+        "They are purely theoretical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A posteriori arguments, such as the teleological and cosmological arguments, rely on empirical data and observations of the world. This corresponds to: They are based on empirical observation."
+    },
+    {
+      "question": "Which philosopher's work suggests that arguments for the existence of God are often formed by those who already believe in God?",
+      "options": [
+        "David Hume",
+        "Thomas Aquinas",
+        "J. Cottingham",
+        "William Paley"
+      ],
+      "correctAnswer": 2,
+      "explanation": "J. Cottingham argues that such arguments are often made by believers attempting to rationalize their faith, which may limit their persuasive power"
+    },
+    {
+      "question": "According to Hume, why can arguments for the existence of God only be considered probable?",
+      "options": [
+        "They are based on a priori reasoning",
+        "They rely on insufficient empirical evidence",
+        "They are circular in nature",
+        "They assume a transcendent creator without proof"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume believed that these arguments are based on current evidence, which may not encompass all possible future evidence. This corresponds to: They rely on insufficient empirical evidence."
+    },
+    {
+      "question": "What logical issue does Hume raise regarding the cosmological argument?",
+      "options": [
+        "It assumes God is the only possible cause",
+        "It relies on subjective experience",
+        "It fails to account for the existence of evil",
+        "It does not explain the nature of God"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume criticized the cosmological argument for assuming that God is the only possible cause of the universe without sufficient justification. This corresponds to: It assumes God is the only possible cause."
+    },
+    {
+      "question": "What is one of the main criticisms of the teleological argument in relation to chance?",
+      "options": [
+        "It cannot explain moral values",
+        "It overlooks the role of natural selection",
+        "It assumes design without evidence",
+        "It is too reliant on a priori reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the teleological argument can be undermined by the theory of natural selection, which explains complexity without requiring a designer. This corresponds to: It overlooks the role of natural selection."
+    },
+    {
+      "question": "Which of the following best describes the nature of a priori arguments compared to a posteriori arguments in the context of God's existence?",
+      "options": [
+        "They are based on observation",
+        "They rely on logical deduction",
+        "They are more persuasive",
+        "They require empirical evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A priori arguments rely on logical deduction rather than empirical observation, contrasting with a posteriori arguments which are based on experience. This corresponds to: They rely on logical deduction."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:36:31.069Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "types",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is NOT one of the four features common to religious experiences identified by William James?",
+      "options": [
+        "Ineffable",
+        "Noetic quality",
+        "Transient",
+        "Rationality"
+      ],
+      "correctAnswer": 3,
+      "explanation": "William James identifies ineffability, noetic quality, transience, and passivity as features of religious experiences, but rationality is not included"
+    },
+    {
+      "question": "In William James' view, what is the significance of the transient nature of religious experiences?",
+      "options": [
+        "They are always fleeting and thus unreliable",
+        "They provide a lasting impact on the believer",
+        "They are often misinterpreted",
+        "They are not genuine experiences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James argues that while religious experiences are transient, their effects can be long-lasting, indicating their significance. This corresponds to: They provide a lasting impact on the believer."
+    },
+    {
+      "question": "What does Richard Swinburne's principle of credulity suggest regarding religious experiences?",
+      "options": [
+        "They should be dismissed unless proven otherwise",
+        "They should be accepted unless there is clear evidence to the contrary",
+        "They are inherently unreliable",
+        "They are only valid if shared by a group"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne's principle of credulity posits that we should accept what appears to be the case unless there is clear evidence against it. This corresponds to: They should be accepted unless there is clear evidence to the contrary."
+    },
+    {
+      "question": "According to William James, how do conversion experiences serve as evidence for the divine?",
+      "options": [
+        "They are always gradual and predictable",
+        "They often lead to significant life changes",
+        "They are based on cultural interpretations",
+        "They are primarily psychological phenomena"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James argues that conversion experiences are strong evidence for the divine due to their observable and life-changing effects. This corresponds to: They often lead to significant life changes."
+    },
+    {
+      "question": "A study found that 30% of people reported experiencing 'a powerful spiritual force'. What does this suggest about religious experiences?",
+      "options": [
+        "They are rare and thus less credible",
+        "They are common and may indicate a genuine phenomenon",
+        "They are purely psychological constructs",
+        "They are only valid in specific cultures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The significant volume of reported experiences suggests that religious experiences may indicate a genuine phenomenon rather than being rare or fabricated. This corresponds to: They are common and may indicate a genuine phenomenon."
+    },
+    {
+      "question": "Freud's perspective on religious experiences suggests they are a result of what psychological phenomenon?",
+      "options": [
+        "Wishful thinking",
+        "Genuine divine encounters",
+        "Cultural conditioning",
+        "Neurological anomalies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Freud argues that religious experiences stem from wishful thinking and subconscious desires rather than genuine encounters with the divine"
+    },
+    {
+      "question": "Caroline Franks Davis argues that religious experience can tip the balance in favor of the existence of God. What is a potential criticism of this cumulative argument?",
+      "options": [
+        "It relies too heavily on individual testimonies",
+        "It assumes all experiences are valid",
+        "It lacks empirical evidence",
+        "It is too vague in its conclusions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that relying on individual testimonies can weaken the argument, as personal experiences may not be universally valid or reliable. This corresponds to: It relies too heavily on individual testimonies."
+    },
+    {
+      "question": "What methodological issue is raised regarding the interpretation of religious experiences across different cultures?",
+      "options": [
+        "They are universally understood",
+        "They are often misreported",
+        "They can be influenced by cultural perceptions",
+        "They are always consistent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Differences in cultural background can lead to varied interpretations of religious experiences, raising questions about their reliability and validity. This corresponds to: They can be influenced by cultural perceptions."
+    },
+    {
+      "question": "Which type of religious experience is characterized by a shared experience among a group of people?",
+      "options": [
+        "Mystical experience",
+        "Conversion experience",
+        "Corporate religious experience",
+        "Individual religious experience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Corporate religious experiences are those that are shared by a group, as seen in events like Fatima or the Toronto Blessing"
+    },
+    {
+      "question": "What does the term 'ineffable' refer to in the context of religious experiences?",
+      "options": [
+        "Experiences that can be easily described",
+        "Experiences that are beyond proper description",
+        "Experiences that are universally accepted",
+        "Experiences that are scientifically validated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ineffable refers to experiences that are beyond proper description, highlighting the unique and profound nature of religious encounters"
+    }
+  ]
+}

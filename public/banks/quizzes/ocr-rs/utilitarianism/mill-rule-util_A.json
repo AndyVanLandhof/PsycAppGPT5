@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:12:27.459Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "mill-rule-util",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which version of utilitarianism does John Stuart Mill align with, emphasizing rules derived from past experiences?",
+      "options": [
+        "Act Utilitarianism",
+        "Weak Rule Utilitarianism",
+        "Strong Rule Utilitarianism",
+        "Preference Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill is best seen as a weak rule utilitarian, as he believes rules can be broken in exceptional cases. This corresponds to: Weak Rule Utilitarianism."
+    },
+    {
+      "question": "What is the primary focus of rule utilitarianism according to Mill?",
+      "options": [
+        "Maximizing individual pleasure",
+        "The common good of society",
+        "Strict adherence to moral absolutes",
+        "Personal happiness above all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rule utilitarianism aims at the greatest balance of good over evil with the common good of society as its starting point"
+    },
+    {
+      "question": "In the context of Mill's weak rule utilitarianism, what should one do in a moral dilemma?",
+      "options": [
+        "Always follow the rules",
+        "Revert to act utilitarianism",
+        "Ignore the rules entirely",
+        "Consult a moral authority"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In cases of moral dilemmas, Mill suggests reverting to act utilitarianism to assess the situation. This corresponds to: Revert to act utilitarianism."
+    },
+    {
+      "question": "According to Mill, what is the relationship between justice and social utility?",
+      "options": [
+        "Justice is irrelevant to utility",
+        "Justice is a higher moral requirement than utility",
+        "Justice is grounded in utility",
+        "Justice contradicts utilitarian principles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mill argues that justice is grounded on utility and is essential for personal happiness. This corresponds to: Justice is grounded in utility."
+    },
+    {
+      "question": "In a scenario where Jim must choose to kill one person to save many, which objection to utilitarianism is highlighted?",
+      "options": [
+        "Practicality Problem",
+        "Integrity Objection",
+        "Social Utility Argument",
+        "Hedonic Calculus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Integrity Objection emphasizes that utilitarianism can force individuals to act against their moral beliefs"
+    },
+    {
+      "question": "What does Bernard Williams argue about utilitarianism's impact on moral integrity?",
+      "options": [
+        "It enhances moral integrity",
+        "It has no effect on moral integrity",
+        "It violates moral integrity",
+        "It is irrelevant to moral integrity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Williams argues that utilitarianism can lead individuals to commit acts they find morally repulsive, violating their integrity. This corresponds to: It violates moral integrity."
+    },
+    {
+      "question": "Which of the following is a criticism of act utilitarianism compared to rule utilitarianism?",
+      "options": [
+        "It is too rigid",
+        "It lacks flexibility",
+        "It requires constant recalculation",
+        "It is too subjective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Act utilitarianism requires constant recalculation of consequences, which can be impractical in moral decision-making. This corresponds to: It requires constant recalculation."
+    },
+    {
+      "question": "How does Mill's view on happiness differ from Bentham's perspective?",
+      "options": [
+        "Mill focuses solely on pleasure",
+        "Mill distinguishes between higher and lower pleasures",
+        "Mill rejects utilitarianism altogether",
+        "Mill believes happiness is subjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill's understanding of happiness includes a distinction between higher and lower pleasures, unlike Bentham's focus on simple pleasure. This corresponds to: Mill distinguishes between higher and lower pleasures."
+    },
+    {
+      "question": "What is a potential issue with formulating rules in rule utilitarianism?",
+      "options": [
+        "Rules cannot be broken under any circumstances",
+        "Rules may not account for exceptional cases",
+        "Rules are too subjective",
+        "Rules are always absolute"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formulating rules may overlook exceptional cases where breaking a rule could lead to greater overall happiness. This corresponds to: Rules may not account for exceptional cases."
+    },
+    {
+      "question": "What does Mill suggest about the development of moral rules over time?",
+      "options": [
+        "They are fixed and unchangeable",
+        "They can be improved based on experience",
+        "They should be discarded",
+        "They are irrelevant to happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill argues that moral rules are not absolute but can admit continual improvement based on societal experiences. This corresponds to: They can be improved based on experience."
+    }
+  ]
+}

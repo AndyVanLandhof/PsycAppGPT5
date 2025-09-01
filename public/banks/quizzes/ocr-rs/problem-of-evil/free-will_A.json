@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:35:12.700Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "free-will",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to John Hick's theodicy, what is the primary purpose of evil in the world?",
+      "options": [
+        "To punish humanity",
+        "To test faith",
+        "To facilitate soul-making",
+        "To demonstrate God's power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hick argues that evil serves as an instrumental good, promoting character development and allowing humans to grow into God's likeness. This corresponds to: To facilitate soul-making."
+    },
+    {
+      "question": "Which concept describes the gap in knowledge between God and humanity, as proposed by John Hick?",
+      "options": [
+        "Epistemic distance",
+        "Moral evil",
+        "Original sin",
+        "Divine self-limitation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hick's idea of epistemic distance emphasizes that this gap allows humans to exercise genuine free will"
+    },
+    {
+      "question": "In the context of the problem of evil, what does the term 'vale of soul-making' refer to?",
+      "options": [
+        "A place of eternal suffering",
+        "A world designed for character development",
+        "A state of moral perfection",
+        "A theological debate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'vale of soul-making' is a term used by Hick to describe the world as a space for moral and spiritual growth through experiencing evil. This corresponds to: A world designed for character development."
+    },
+    {
+      "question": "If a person experiences suffering and uses it to develop their character, which aspect of Hick's theory does this illustrate?",
+      "options": [
+        "Instrumental good",
+        "Original sin",
+        "Divine justice",
+        "Moral evil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario exemplifies Hick's concept of instrumental good, where suffering serves a purpose in character development"
+    },
+    {
+      "question": "According to Augustine, what is the nature of sin in relation to human existence?",
+      "options": [
+        "A learned behavior",
+        "An ontological condition",
+        "A social construct",
+        "A divine punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine views sin as an ontological condition of human existence, suggesting that it is inherent to humanity"
+    },
+    {
+      "question": "What is a key difference between Augustine's and Hick's views on the purpose of evil?",
+      "options": [
+        "Augustine sees evil as a punishment, while Hick sees it as a means for growth",
+        "Both see evil as a test of faith",
+        "Hick denies the existence of evil",
+        "Augustine believes in universal salvation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine emphasizes evil as a punishment for sin, whereas Hick views it as an opportunity for soul-making and character development. This corresponds to: Augustine sees evil as a punishment, while Hick sees it as a means for growth."
+    },
+    {
+      "question": "What methodological issue can be raised regarding Hick's theodicy?",
+      "options": [
+        "It lacks empirical evidence",
+        "It relies too heavily on scripture",
+        "It does not account for all forms of evil",
+        "It is too simplistic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hick's theodicy can be criticized for lacking empirical evidence to support the idea that all evil serves a purpose in soul-making. This corresponds to: It lacks empirical evidence."
+    },
+    {
+      "question": "How does the concept of free will relate to the problem of evil in Hick's theory?",
+      "options": [
+        "Free will is irrelevant",
+        "Free will allows for genuine relationships with God",
+        "Free will is a source of suffering",
+        "Free will is predetermined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that free will is essential for genuine relationships with God, which also entails the possibility of choosing evil. This corresponds to: Free will allows for genuine relationships with God."
+    },
+    {
+      "question": "In Augustine's view, what role does original sin play in human behavior?",
+      "options": [
+        "It is a choice made by individuals",
+        "It leads to moral perfection",
+        "It causes a lack of free will",
+        "It is a societal issue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine posits that original sin results in a lack of free will, leading to inherent selfishness and moral conflict. This corresponds to: It causes a lack of free will."
+    },
+    {
+      "question": "What does the term 'soul-making' imply in the context of Hick's theodicy?",
+      "options": [
+        "The process of achieving moral perfection",
+        "The punishment of sin",
+        "The denial of free will",
+        "The inevitability of suffering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Soul-making refers to the process through which individuals develop their character and moral virtues in response to the challenges posed by evil. This corresponds to: The process of achieving moral perfection."
+    }
+  ]
+}

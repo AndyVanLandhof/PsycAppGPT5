@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:10:06.572Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "bentham-hedonic",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of Bentham's utilitarianism as outlined in his moral philosophy?",
+      "options": [
+        "Maximizing pleasure",
+        "Minimizing pain",
+        "Achieving equality",
+        "Promoting individual rights"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham's utilitarianism emphasizes maximizing pleasure as the intrinsic good"
+    },
+    {
+      "question": "Which of the following is NOT one of the seven factors in Bentham's hedonic calculus?",
+      "options": [
+        "Purity",
+        "Richness",
+        "Justice",
+        "Duration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Justice is not one of the seven factors in Bentham's hedonic calculus, which includes Purity, Richness, and Duration"
+    },
+    {
+      "question": "In a scenario where a person must decide whether to steal food to feed a starving family, which aspect of Bentham's utilitarianism is being applied?",
+      "options": [
+        "Act utilitarianism",
+        "Rule utilitarianism",
+        "Deontological ethics",
+        "Virtue ethics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates act utilitarianism, which evaluates the consequences of actions on a case-by-case basis"
+    },
+    {
+      "question": "According to Bentham, how should the pleasure and pain of individuals be considered in moral decision-making?",
+      "options": [
+        "Everyone counts as one",
+        "Majority rules",
+        "Higher pleasures are prioritized",
+        "Minorities are disregarded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bentham states that 'everyone is to count as one and no-one as more than one,' emphasizing strict equality in moral consideration. This corresponds to: Everyone counts as one."
+    },
+    {
+      "question": "What is a significant criticism of Bentham's version of utilitarianism?",
+      "options": [
+        "It is too flexible",
+        "It can justify immoral acts",
+        "It ignores the consequences",
+        "It is too simplistic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One criticism is that Bentham's focus on pleasure could theoretically justify immoral acts, such as gang rape. This corresponds to: It can justify immoral acts."
+    },
+    {
+      "question": "Which of the following best describes the hedonic calculus?",
+      "options": [
+        "A method for measuring moral worth",
+        "A way to quantify pleasure and pain",
+        "A philosophical debate",
+        "A legal framework for ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hedonic calculus is a method proposed by Bentham for quantifying pleasure and pain to assess moral actions. This corresponds to: A way to quantify pleasure and pain."
+    },
+    {
+      "question": "In the context of Bentham's utilitarianism, what does the term 'teleological' imply?",
+      "options": [
+        "Focus on intentions",
+        "Focus on consequences",
+        "Focus on rules",
+        "Focus on character"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Teleological refers to ethical theories that relate goodness to the ends or purposes of actions, which is central to Bentham's utilitarianism. This corresponds to: Focus on consequences."
+    },
+    {
+      "question": "How does act utilitarianism differ from rule utilitarianism?",
+      "options": [
+        "It applies general rules",
+        "It considers individual cases",
+        "It is more rigid",
+        "It ignores consequences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Act utilitarianism evaluates each situation individually, while rule utilitarianism applies general rules to determine moral actions. This corresponds to: It considers individual cases."
+    },
+    {
+      "question": "What is the significance of the term 'swine ethic' in relation to Bentham's utilitarianism?",
+      "options": [
+        "It refers to higher pleasures",
+        "It critiques the focus on base pleasures",
+        "It supports animal rights",
+        "It emphasizes moral equality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'swine ethic' critiques Bentham's focus on base pleasures, suggesting that life encompasses more than just physical satisfaction. This corresponds to: It critiques the focus on base pleasures."
+    },
+    {
+      "question": "Which of the following factors in the hedonic calculus assesses the likelihood of pleasure occurring?",
+      "options": [
+        "Purity",
+        "Certainty",
+        "Richness",
+        "Intensity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Certainty in the hedonic calculus refers to the likelihood that the pleasure will occur as a result of an action"
+    }
+  ]
+}

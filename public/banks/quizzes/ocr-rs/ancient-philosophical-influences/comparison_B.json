@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:08:37.617Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "comparison",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is Aristotle's view on the relationship between the body and the soul?",
+      "options": [
+        "The soul is separate from the body.",
+        "The soul is the form of the body.",
+        "The body is a prison for the soul.",
+        "The soul exists independently of the body."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle argues that the soul is the form of the body, meaning they are inseparable and the soul gives the body its characteristics. This corresponds to: The soul is the form of the body.."
+    },
+    {
+      "question": "Which of the following best describes Plato's epistemological approach?",
+      "options": [
+        "Empiricism through observation.",
+        "Rationalism through reason.",
+        "Materialism through physical evidence.",
+        "Dualism through separation of body and soul."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato is a rationalist who believes that knowledge comes from using reason and recollecting the World of the Forms. This corresponds to: Rationalism through reason.."
+    },
+    {
+      "question": "In Aristotle's four causes, which cause is most closely associated with the purpose of an object?",
+      "options": [
+        "Material cause",
+        "Formal cause",
+        "Efficient cause",
+        "Final cause"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The final cause, or telos, refers to the purpose or end for which an object exists"
+    },
+    {
+      "question": "If a student observes that a pencil appears bent in water, which philosopher's view does this scenario illustrate?",
+      "options": [
+        "Aristotle's empirical method.",
+        "Plato's distrust of the senses.",
+        "Descartes' dualism.",
+        "Hick's materialism."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates Plato's distrust of the senses, as he believed they can deceive us and prevent access to true knowledge. This corresponds to: Plato's distrust of the senses.."
+    },
+    {
+      "question": "Which of the following statements about Plato's Form of the Good is true?",
+      "options": [
+        "It is the essence of all Forms.",
+        "It is a physical object.",
+        "It can be observed in the material world.",
+        "It is irrelevant to understanding goodness."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plato's Form of the Good is considered the essence of all Forms and is essential to understanding goodness and badness. This corresponds to: It is the essence of all Forms.."
+    },
+    {
+      "question": "Aristotle's Prime Mover is characterized as which of the following?",
+      "options": [
+        "Immaterial and pure actuality.",
+        "Dependent on the material world.",
+        "A form that can be acted upon.",
+        "A physical entity that causes change."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Prime Mover is described as immaterial and pure actuality, meaning it cannot be acted upon and is the ultimate cause of motion. This corresponds to: Immaterial and pure actuality.."
+    },
+    {
+      "question": "A philosopher argues that the soul cannot exist without the body, using the wax seal analogy. Which philosopher does this represent?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Descartes",
+        "Hick"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This analogy is used by Aristotle to illustrate that the soul (form) and body (matter) are inseparable"
+    },
+    {
+      "question": "A student compares Plato's reliance on reason with Aristotle's empirical approach. Which of the following is a valid critique of Plato's method?",
+      "options": [
+        "It is based on observable evidence.",
+        "It relies too heavily on sensory experience.",
+        "It does not account for the material world.",
+        "It is too simplistic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A critique of Plato's method is that it does not account for the material world, as he believes true knowledge exists beyond it. This corresponds to: It does not account for the material world.."
+    },
+    {
+      "question": "In evaluating the strengths of Aristotle's Prime Mover, which of the following points is most relevant?",
+      "options": [
+        "It is empirically verifiable.",
+        "It provides a rational explanation for change.",
+        "It is universally accepted.",
+        "It is based on sensory experience."
+      ],
+      "correctAnswer": 1,
+      "explanation": "One strength of Aristotle's Prime Mover is that it offers a rational explanation for the constant change observed in the universe. This corresponds to: It provides a rational explanation for change.."
+    },
+    {
+      "question": "Which philosophical position does Plato's dualism most closely align with?",
+      "options": [
+        "Materialism",
+        "Empiricism",
+        "Rationalism",
+        "Naturalism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato's dualism aligns with rationalism, as he emphasizes the role of reason in understanding reality beyond the physical world"
+    }
+  ]
+}

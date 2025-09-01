@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:12:44.126Z",
+  "curriculum": "ocr-rs",
+  "topicId": "utilitarianism",
+  "subId": "mill-rule-util",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which version of utilitarianism does John Stuart Mill align with, emphasizing the importance of rules based on past experiences?",
+      "options": [
+        "Act Utilitarianism",
+        "Weak Rule Utilitarianism",
+        "Strong Rule Utilitarianism",
+        "Preference Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill is best seen as a weak rule utilitarian, as he believes rules can be broken in exceptional cases. This corresponds to: Weak Rule Utilitarianism."
+    },
+    {
+      "question": "What is the primary focus of Mill's weak rule utilitarianism?",
+      "options": [
+        "Maximizing pleasure",
+        "Following fixed rules",
+        "Balancing happiness over misery",
+        "Ensuring social utility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mill's weak rule utilitarianism aims at the balance of happiness over misery, allowing for exceptions to rules. This corresponds to: Balancing happiness over misery."
+    },
+    {
+      "question": "According to Mill, what is necessary for personal happiness?",
+      "options": [
+        "Selfishness",
+        "Cultivating fellow feeling",
+        "Strict adherence to rules",
+        "Maximizing individual pleasure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill argues that happiness is linked to cultivating a sense of unity with others and collective interests. This corresponds to: Cultivating fellow feeling."
+    },
+    {
+      "question": "In the context of utilitarianism, what does Bernard Williams argue regarding moral integrity?",
+      "options": [
+        "It is irrelevant to utilitarian calculations",
+        "It is essential for achieving happiness",
+        "It can be sacrificed for the greater good",
+        "It should always be prioritized over utility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Williams suggests that utilitarianism can violate moral integrity by compelling individuals to act against their moral beliefs. This corresponds to: It can be sacrificed for the greater good."
+    },
+    {
+      "question": "What is a key criticism of act utilitarianism that weak rule utilitarianism aims to address?",
+      "options": [
+        "It is too rigid",
+        "It ignores the consequences of actions",
+        "It can lead to unjust outcomes",
+        "It lacks empirical evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Weak rule utilitarianism seeks to avoid unjust outcomes by allowing for exceptions to rules in moral dilemmas. This corresponds to: It can lead to unjust outcomes."
+    },
+    {
+      "question": "How does Mill's view of justice differ from Bentham's perspective on utilitarianism?",
+      "options": [
+        "Mill prioritizes individual pleasure over social utility",
+        "Mill believes justice is essential for social utility",
+        "Bentham rejects the concept of justice entirely",
+        "Bentham's utilitarianism is more flexible than Mill's"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill argues that justice is a crucial component of social utility, while Bentham's approach is more focused on maximizing pleasure. This corresponds to: Mill believes justice is essential for social utility."
+    },
+    {
+      "question": "What methodological issue does J.L. Mackie raise against utilitarianism?",
+      "options": [
+        "It lacks a clear definition of happiness",
+        "It requires impractical calculations of consequences",
+        "It fails to consider individual rights",
+        "It is too focused on social utility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mackie argues that utilitarianism's reliance on calculating future consequences is impractical and undermines moral reasoning. This corresponds to: It requires impractical calculations of consequences."
+    },
+    {
+      "question": "What does Mill mean by the 'Golden Rule' in relation to utilitarianism?",
+      "options": [
+        "It is a principle for maximizing individual pleasure",
+        "It emphasizes the importance of social utility",
+        "It suggests that one should treat others as they wish to be treated",
+        "It is a strict rule that cannot be broken"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mill connects the Golden Rule to the ethics of utility, emphasizing empathy and consideration for others' happiness. This corresponds to: It suggests that one should treat others as they wish to be treated."
+    },
+    {
+      "question": "What is a potential consequence of adopting a strict rule utilitarian approach?",
+      "options": [
+        "Increased flexibility in moral decision-making",
+        "Greater consistency in ethical behavior",
+        "Potentially unjust outcomes in specific cases",
+        "A clearer understanding of happiness"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Strict rule utilitarianism may lead to unjust outcomes by not allowing for exceptions in morally complex situations. This corresponds to: Potentially unjust outcomes in specific cases."
+    },
+    {
+      "question": "According to Mill, how should rules be treated in the context of utilitarianism?",
+      "options": [
+        "They are absolute and unchangeable",
+        "They should be followed without question",
+        "They can be improved based on experience",
+        "They are irrelevant to moral decision-making"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mill argues that rules are not fixed but can be continually improved based on societal experiences and outcomes. This corresponds to: They can be improved based on experience."
+    }
+  ]
+}

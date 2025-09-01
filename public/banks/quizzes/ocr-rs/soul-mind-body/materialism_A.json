@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:13:55.449Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "materialism",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which philosopher proposed the idea of substance dualism, asserting that mind and body are distinct substances?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Descartes",
+        "Dawkins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Descartes proposed substance dualism as a solution to the mind/soul and body problem, distinguishing between material and spiritual substances"
+    },
+    {
+      "question": "What is the primary argument of materialists against the existence of a soul?",
+      "options": [
+        "The soul is a metaphor",
+        "The soul is necessary for consciousness",
+        "The soul interacts with the body",
+        "The soul is a spiritual substance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materialists argue that the concept of 'soul' is best understood metaphorically, as they reject the idea of a spiritual substance existing separately from the body. This corresponds to: The soul is a metaphor."
+    },
+    {
+      "question": "In the context of materialism, what does the term 'qualia' refer to?",
+      "options": [
+        "The physical brain processes",
+        "The subjective experience of consciousness",
+        "The interaction between mind and body",
+        "The rejection of spiritual substances"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Qualia refers to the subjective experiences of consciousness that dualists argue cannot be fully explained by physical interactions alone. This corresponds to: The subjective experience of consciousness."
+    },
+    {
+      "question": "How does R. Dawkins differentiate between 'Soul One' and 'Soul Two'?",
+      "options": [
+        "Soul One is the intellect, Soul Two is a life force",
+        "Soul One is a life force, Soul Two is the intellect",
+        "Both refer to the same concept",
+        "Neither exists in a materialist framework"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Soul One' is described as a mystical life force, while 'Soul Two' refers to intellectual abilities, which Dawkins believes will be explained through science. This corresponds to: Soul One is a life force, Soul Two is the intellect."
+    },
+    {
+      "question": "What critique does Gilbert Ryle offer against the dualist perspective?",
+      "options": [
+        "The mind is a category error",
+        "The soul cannot interact with the body",
+        "Consciousness is a delusion",
+        "Materialism oversimplifies human experience"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ryle argues that the belief in a separate soul is a category mistake, similar to asking where the university is after seeing its components. This corresponds to: The mind is a category error."
+    },
+    {
+      "question": "What is a key methodological issue raised by materialists regarding dualism?",
+      "options": [
+        "The complexity of the brain",
+        "The interaction problem",
+        "The existence of qualia",
+        "The simplicity of explanations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Materialists highlight the interaction problem, questioning how a non-physical mind can interact with a physical body, which seems incompatible"
+    },
+    {
+      "question": "According to materialists, how do mental processes relate to the brain?",
+      "options": [
+        "They are separate entities",
+        "They are fully explained by brain activity",
+        "They are influenced by spiritual substances",
+        "They cannot be empirically investigated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Materialists argue that mental processes can be fully explained by physical or material interactions within the brain. This corresponds to: They are fully explained by brain activity."
+    },
+    {
+      "question": "What does the principle of Ockham's Razor suggest in the context of materialism?",
+      "options": [
+        "Dualism is more complex",
+        "Materialism is the simplest explanation",
+        "The soul must exist",
+        "Consciousness is a delusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ockham's Razor suggests that the simplest explanation, which is materialism, should be preferred over dualism, which posits two distinct substances. This corresponds to: Materialism is the simplest explanation."
+    },
+    {
+      "question": "What does Susan Blackmore argue about consciousness?",
+      "options": [
+        "It is a real phenomenon",
+        "It is a delusion",
+        "It is linked to the soul",
+        "It cannot be explained by science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blackmore regards consciousness as a delusion, suggesting that our search for something extra in consciousness is misguided. This corresponds to: It is a delusion."
+    },
+    {
+      "question": "What is a potential limitation of materialism according to critics?",
+      "options": [
+        "It cannot explain all phenomena",
+        "It oversimplifies human experience",
+        "It ignores the role of the brain",
+        "It is too complex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that materialism fails to explain certain phenomena, such as the subjective experience of qualia, which dualism attempts to address. This corresponds to: It cannot explain all phenomena."
+    }
+  ]
+}

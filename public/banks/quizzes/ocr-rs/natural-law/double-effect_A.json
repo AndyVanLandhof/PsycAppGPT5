@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:51:37.774Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "double-effect",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary focus of the doctrine of double effect in Natural Law theory?",
+      "options": [
+        "The outcome of an action",
+        "The intention behind an action",
+        "The moral status of the act",
+        "The consequences of an omission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The doctrine of double effect emphasizes that the intention behind an action is crucial in determining its moral permissibility"
+    },
+    {
+      "question": "In the context of the doctrine of double effect, which scenario illustrates a permissible action according to Natural Law?",
+      "options": [
+        "A doctor intentionally administers a lethal dose of medication to end a patient's life.",
+        "A doctor increases morphine dosage to relieve pain, knowing it may hasten death.",
+        "A nurse withholds treatment to allow a patient to die.",
+        "A physician actively kills a patient to relieve suffering."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Increasing morphine to relieve pain, with the knowledge that it may hasten death, aligns with the doctrine of double effect as the intention is to alleviate suffering. This corresponds to: A doctor increases morphine dosage to relieve pain, knowing it may hasten death.."
+    },
+    {
+      "question": "According to Aquinas, what distinguishes a good act from a morally wrong act?",
+      "options": [
+        "The outcome of the act",
+        "The interior and exterior motives",
+        "The societal acceptance of the act",
+        "The legal status of the act"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas argues that both the interior motive and the exterior action must be good for an act to be considered morally right. This corresponds to: The interior and exterior motives."
+    },
+    {
+      "question": "Which of the following best describes passive euthanasia?",
+      "options": [
+        "Directly administering a lethal injection",
+        "Withholding life-sustaining treatment",
+        "Providing pain relief that may hasten death",
+        "Allowing a patient to die without intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Passive euthanasia involves withholding or withdrawing treatment that sustains life, distinguishing it from active euthanasia. This corresponds to: Withholding life-sustaining treatment."
+    },
+    {
+      "question": "In a case where a doctor administers pain relief knowing it may shorten a patient's life, what is the key factor in justifying this action?",
+      "options": [
+        "The patient's consent",
+        "The doctor's intention to relieve pain",
+        "The potential for recovery",
+        "The legal framework surrounding euthanasia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The justification lies in the doctor's intention to relieve pain, which aligns with the doctrine of double effect"
+    },
+    {
+      "question": "What is a common criticism of the doctrine of double effect?",
+      "options": [
+        "It is too simplistic in moral reasoning.",
+        "It relies heavily on subjective interpretations of intention.",
+        "It is universally accepted in all ethical frameworks.",
+        "It does not consider the consequences of actions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the doctrine's reliance on intention can lead to subjective interpretations, complicating moral assessments. This corresponds to: It relies heavily on subjective interpretations of intention.."
+    },
+    {
+      "question": "Which of the following scenarios best illustrates the principle of proportionalism in relation to the doctrine of double effect?",
+      "options": [
+        "A doctor chooses to withhold treatment to allow a terminally ill patient to die peacefully.",
+        "A doctor administers a drug that may cause death to relieve severe pain, believing the patient's suffering outweighs the risk.",
+        "A nurse decides to increase medication dosage without consulting the physician.",
+        "A physician performs surgery despite knowing it may lead to complications."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The scenario illustrates proportionalism by weighing the relief of suffering against the potential risk of hastening death. This corresponds to: A doctor administers a drug that may cause death to relieve severe pain, believing the patient's suffering outweighs the risk.."
+    },
+    {
+      "question": "In the context of Natural Law, how is the sanctity of life viewed in relation to euthanasia?",
+      "options": [
+        "It supports active euthanasia in all cases.",
+        "It prioritizes the quality of life over the sanctity of life.",
+        "It forbids both active and passive euthanasia.",
+        "It allows for euthanasia under strict conditions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural Law emphasizes the sanctity of life, leading to the conclusion that both active and passive euthanasia are morally wrong. This corresponds to: It forbids both active and passive euthanasia.."
+    },
+    {
+      "question": "What is a potential issue with distinguishing between ordinary and extraordinary means of treatment in medical ethics?",
+      "options": [
+        "It is universally agreed upon by all medical professionals.",
+        "Definitions of ordinary and extraordinary can vary significantly.",
+        "It simplifies ethical decision-making.",
+        "It is based solely on legal definitions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The definitions of what constitutes ordinary versus extraordinary treatment can vary widely among medical professionals, complicating ethical decisions. This corresponds to: Definitions of ordinary and extraordinary can vary significantly.."
+    },
+    {
+      "question": "Which is the primary focus of the doctrine of double effect in Natural Law theory?",
+      "options": [
+        "The outcome of an action",
+        "The intention behind an action",
+        "The moral status of the act",
+        "The consequences of an omission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The doctrine of double effect emphasizes that the intention behind an action is crucial in determining its moral permissibility"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T13:48:14.813Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "plato",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does Plato's Theory of Forms suggest about the objects we experience in the material world?",
+      "options": [
+        "They are perfect representations of reality.",
+        "They are poor imitations of true Forms.",
+        "They are entirely subjective.",
+        "They are the only reality."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato argued that the objects we encounter are merely fleeting examples of the true Forms that exist in the World of Forms. This corresponds to: They are poor imitations of true Forms.."
+    },
+    {
+      "question": "According to Plato, how do we come to know the Forms?",
+      "options": [
+        "Through empirical observation.",
+        "By relying on our senses.",
+        "Through recollection of innate knowledge.",
+        "By studying the material world."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plato believed that knowledge is recollected by the soul, which has previously witnessed the Forms before being incarnated. This corresponds to: Through recollection of innate knowledge.."
+    },
+    {
+      "question": "In Plato's allegory of the cave, what do the shadows on the wall represent?",
+      "options": [
+        "The true Forms.",
+        "The material world.",
+        "The essence of goodness.",
+        "The philosopher's knowledge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The shadows symbolize the deceptive appearances of reality that we perceive through our senses in the material world. This corresponds to: The material world.."
+    },
+    {
+      "question": "If a student argues that Plato's Theory of Forms is flawed because it requires an infinite regression of Forms, which criticism are they referencing?",
+      "options": [
+        "The Third Man Argument.",
+        "The Family Resemblance Theory.",
+        "The Argument from Recollection.",
+        "The Problem of New Inventions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Third Man Argument suggests that if Forms are needed to explain particulars, then a further Form is needed to explain the relationship between them. This corresponds to: The Third Man Argument.."
+    },
+    {
+      "question": "Which of the following is a strength of Plato's Essential Form of Good?",
+      "options": [
+        "It is empirically verifiable.",
+        "It provides a rational approach to understanding goodness.",
+        "It is universally accepted.",
+        "It is based on sensory experience."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's approach is supported by rationalism, which aligns with the theories of thinkers like Heraclitus and Pythagoras. This corresponds to: It provides a rational approach to understanding goodness.."
+    },
+    {
+      "question": "What is a key characteristic of Plato's Forms?",
+      "options": [
+        "They are mutable and change over time.",
+        "They are abstract and eternal.",
+        "They are based on empirical evidence.",
+        "They are subjective interpretations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's Forms are described as immutable, perfect, and eternal ideals that exist in the World of Forms. This corresponds to: They are abstract and eternal.."
+    },
+    {
+      "question": "How does Aristotle's Prime Mover differ from Plato's Form of the Good?",
+      "options": [
+        "It is a rational concept.",
+        "It is purely abstract and cannot be acted upon.",
+        "It is based on sensory experiences.",
+        "It is a reflection of the material world."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle's Prime Mover is characterized as pure actuality and completely abstract, unlike Plato's Form of the Good which is tied to moral goodness. This corresponds to: It is purely abstract and cannot be acted upon.."
+    },
+    {
+      "question": "What does the analogy of the chariot illustrate in Plato's view of the soul?",
+      "options": [
+        "The harmony of the soul when reason controls emotions.",
+        "The conflict between body and soul.",
+        "The importance of sensory experience.",
+        "The journey towards the World of Forms."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chariot analogy represents how reason (the charioteer) should control the spirit and appetites (the horses) for harmony in the soul. This corresponds to: The harmony of the soul when reason controls emotions.."
+    },
+    {
+      "question": "Which philosopher criticized Plato's Forms by suggesting that there are no single characteristics shared by all members of a category?",
+      "options": [
+        "Aristotle.",
+        "Wittgenstein.",
+        "Heraclitus.",
+        "Pythagoras."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein's Family Resemblance Theory argues against the idea of a single essence shared by all members of a category. This corresponds to: Wittgenstein.."
+    },
+    {
+      "question": "What is a potential weakness of Plato's Theory of Forms regarding new inventions?",
+      "options": [
+        "It lacks empirical support.",
+        "It requires the existence of Forms for every object.",
+        "It is too abstract to be practical.",
+        "It does not account for moral goodness."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato's belief in unchanging Forms implies that there must be a Form for every conceivable object, including those that are newly invented. This corresponds to: It requires the existence of Forms for every object.."
+    }
+  ]
+}

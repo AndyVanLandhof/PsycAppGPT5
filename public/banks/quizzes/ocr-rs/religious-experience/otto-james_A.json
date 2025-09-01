@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:37:23.439Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "otto-james",
+  "set": "A",
+  "questions": [
+    {
+      "question": "William James, in his work 'The Varieties of Religious Experience' (1902), identified four characteristics of mystical experiences. Which of the following is NOT one of those characteristics?",
+      "options": [
+        "Passive",
+        "Ineffable",
+        "Noetic",
+        "Permanent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "James identified mystical experiences as passive, ineffable, noetic, and transient, not permanent"
+    },
+    {
+      "question": "In 'The Varieties of Religious Experience', William James argues that religious experiences are primarily what type of phenomena?",
+      "options": [
+        "Cultural",
+        "Psychological",
+        "Philosophical",
+        "Historical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James argued that religious experiences are psychological phenomena that operate through the psyche"
+    },
+    {
+      "question": "According to William James, what is a significant effect of religious experiences on individuals?",
+      "options": [
+        "They provide empirical evidence of God.",
+        "They often lead to a sense of purpose and zest for life.",
+        "They are universally understood across cultures.",
+        "They eliminate all doubts about religious beliefs."
+      ],
+      "correctAnswer": 1,
+      "explanation": "James suggested that religious experiences provide individuals with a new zest for life and a sense of purpose. This corresponds to: They often lead to a sense of purpose and zest for life.."
+    },
+    {
+      "question": "William James described a conversion experience as one where a person's beliefs and identity become central to their consciousness. Which of the following best describes this process?",
+      "options": [
+        "A gradual shift in interests",
+        "A sudden and complete change in beliefs",
+        "An intellectual understanding of faith",
+        "A temporary emotional response"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James described conversion as a significant alteration in beliefs and way of life, centralizing religious identity. This corresponds to: A sudden and complete change in beliefs."
+    },
+    {
+      "question": "Richard Swinburne's principles of Testimony and Credulity support the validity of religious experiences. Which of the following best summarizes these principles?",
+      "options": [
+        "Religious experiences are subjective and unreliable.",
+        "People generally tell the truth about their experiences.",
+        "Religious experiences can be explained through psychological phenomena.",
+        "All religious experiences are equally valid."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne argues that people generally tell the truth about their experiences, supporting the credibility of religious testimonies. This corresponds to: People generally tell the truth about their experiences.."
+    },
+    {
+      "question": "In a study of religious experiences, a participant describes feeling an overwhelming sense of peace and love during a moment of prayer. How might James categorize this experience?",
+      "options": [
+        "As a psychological neurosis",
+        "As a mystical experience",
+        "As a cultural phenomenon",
+        "As a philosophical inquiry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James would categorize this as a mystical experience, which often includes feelings of peace and love"
+    },
+    {
+      "question": "William James argued that religious experiences can be accessed through altered states of consciousness. Which analogy did he use to illustrate this point?",
+      "options": [
+        "Meditation and prayer",
+        "Drunkenness",
+        "Hypnosis",
+        "Dreaming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James compared mystical experiences to drunkenness, suggesting both involve altered states of consciousness"
+    },
+    {
+      "question": "Critics of William James argue that his conclusions about religious experiences are too vague. Which of the following is a methodological issue related to this critique?",
+      "options": [
+        "His reliance on empirical data",
+        "His focus on subjective accounts",
+        "His lack of historical context",
+        "His dismissal of scientific explanations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that James' focus on subjective accounts makes his conclusions less rigorous and more open to interpretation. This corresponds to: His focus on subjective accounts."
+    },
+    {
+      "question": "William James suggested that the subconscious plays a role in religious experiences. Which of the following best describes this aspect of his theory?",
+      "options": [
+        "Religious experiences are purely rational.",
+        "The subconscious may be active like in hypnosis.",
+        "Religious experiences are always conscious.",
+        "The subconscious has no relevance to religious experiences."
+      ],
+      "correctAnswer": 1,
+      "explanation": "James suggested that the subconscious may be active during religious experiences, similar to a hypnotic state. This corresponds to: The subconscious may be active like in hypnosis.."
+    },
+    {
+      "question": "William James emphasized the importance of the 'fruits' of religious experiences. Which of the following best describes what he meant by this?",
+      "options": [
+        "The immediate emotional response to the experience",
+        "The long-term effects and changes in behavior",
+        "The cultural significance of the experience",
+        "The theological implications of the experience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James highlighted that the long-term effects and changes in behavior resulting from religious experiences are crucial to understanding their significance"
+    }
+  ]
+}

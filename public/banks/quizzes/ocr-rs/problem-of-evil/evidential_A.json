@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:33:42.446Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "evidential",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does the evidential problem of evil primarily focus on?",
+      "options": [
+        "The logical inconsistency of God's attributes",
+        "The sheer amount and extent of evil and suffering",
+        "The historical context of evil",
+        "The philosophical implications of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil argues that the observable extent of evil and suffering in the world challenges the existence of an all-powerful, benevolent God. This corresponds to: The sheer amount and extent of evil and suffering."
+    },
+    {
+      "question": "Which of the following best describes the evidential problem of evil?",
+      "options": [
+        "It questions the logical consistency of God's attributes",
+        "It relies on empirical observations of suffering",
+        "It suggests that evil is a necessary part of free will",
+        "It denies the existence of evil altogether"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil is based on empirical observations and experiences of suffering in the world. This corresponds to: It relies on empirical observations of suffering."
+    },
+    {
+      "question": "In the context of the evidential problem of evil, what is a significant challenge posed to theistic beliefs?",
+      "options": [
+        "The existence of free will",
+        "The presence of natural disasters",
+        "The amount of suffering experienced by innocent beings",
+        "The historical accounts of evil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The evidential problem of evil highlights the suffering of innocent beings, such as children, as a key challenge to the belief in a benevolent God. This corresponds to: The amount of suffering experienced by innocent beings."
+    },
+    {
+      "question": "What is one implication of the evidential problem of evil for theistic belief systems?",
+      "options": [
+        "It supports the idea of universal salvation",
+        "It suggests that God may not be omnipotent",
+        "It confirms the existence of moral evil",
+        "It validates the concept of original sin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil implies that if God exists, He may not be omnipotent, as He does not prevent the extensive suffering observed in the world. This corresponds to: It suggests that God may not be omnipotent."
+    },
+    {
+      "question": "Which philosopher is associated with the idea that the sheer amount of evil challenges the existence of God?",
+      "options": [
+        "Augustine",
+        "Hick",
+        "Epicurus",
+        "Irenaeus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Epicurus is known for articulating the problem of evil, questioning how an all-powerful and all-good God could allow evil to exist"
+    },
+    {
+      "question": "What does the term 'epistemic distance' refer to in discussions of the problem of evil?",
+      "options": [
+        "The gap between human understanding and divine knowledge",
+        "The physical distance between humans and God",
+        "The historical context of evil",
+        "The emotional distance from suffering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epistemic distance refers to the idea that humans may not fully understand God's reasons for allowing evil and suffering. This corresponds to: The gap between human understanding and divine knowledge."
+    },
+    {
+      "question": "How does the evidential problem of evil challenge the concept of a benevolent God?",
+      "options": [
+        "It suggests that God is indifferent to suffering",
+        "It implies that evil is necessary for free will",
+        "It argues that suffering is an illusion",
+        "It denies the existence of moral evil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The evidential problem of evil suggests that if God is benevolent, He would not allow such extensive suffering to occur. This corresponds to: It suggests that God is indifferent to suffering."
+    },
+    {
+      "question": "Which of the following is a methodological issue related to the evidential problem of evil?",
+      "options": [
+        "The reliance on subjective experiences",
+        "The lack of historical evidence",
+        "The assumption of God's attributes",
+        "The dismissal of free will"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A methodological issue is the assumption that we fully understand God's attributes and decisions, which may not be the case. This corresponds to: The assumption of God's attributes."
+    },
+    {
+      "question": "What is one way the evidential problem of evil is addressed by theodicies?",
+      "options": [
+        "By denying the existence of evil",
+        "By providing justifications for God's inaction",
+        "By emphasizing the importance of free will",
+        "By arguing that suffering is an illusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Theodicies attempt to justify God's inaction in the face of evil by providing reasons for the existence of suffering. This corresponds to: By providing justifications for God's inaction."
+    },
+    {
+      "question": "Which aspect of the problem of evil poses a greater challenge to belief according to some scholars?",
+      "options": [
+        "The logical problem of evil",
+        "The evidential problem of evil",
+        "The historical context of evil",
+        "The philosophical implications of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some scholars argue that the evidential problem of evil, due to its reliance on observable suffering, poses a greater challenge to belief than the logical problem"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:58:27.055Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "examples",
+  "set": "A",
+  "questions": [
+    {
+      "question": "In a situation where a woman is considering an abortion due to the likelihood of severe disability in the fetus, which principle of Situation Ethics would most likely guide her decision?",
+      "options": [
+        "The sanctity of life",
+        "The principle of love",
+        "The law of double effect",
+        "The primary precepts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics prioritizes love and the most loving action in any given situation, which may lead to different conclusions than strict adherence to the sanctity of life. This corresponds to: The principle of love."
+    },
+    {
+      "question": "A doctor administers pain relief to a terminally ill patient, unintentionally causing death. How would a Situation Ethics proponent view this action?",
+      "options": [
+        "As morally wrong due to the outcome",
+        "As acceptable if motivated by love",
+        "As a violation of medical ethics",
+        "As an example of double effect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Situation Ethics, the intention behind the action is crucial; if the doctor acted out of love to relieve suffering, the action may be deemed acceptable. This corresponds to: As acceptable if motivated by love."
+    },
+    {
+      "question": "In a hypothetical scenario where a person must choose to save either a child or an elderly person from a runaway trolley, what would a Situation Ethics approach emphasize?",
+      "options": [
+        "The greater good for the majority",
+        "The inherent value of each life",
+        "The most loving action",
+        "The legal implications of the decision"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics focuses on the most loving action in a scenario, rather than strict rules or outcomes"
+    },
+    {
+      "question": "When evaluating the decision to break a promise to a dying billionaire in order to save lives, what key aspect of Situation Ethics is being applied?",
+      "options": [
+        "The principle of utility",
+        "The importance of personal integrity",
+        "The prioritization of love over rules",
+        "The concept of moral absolutism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In this scenario, the decision to prioritize saving lives reflects the Situation Ethics focus on love as the guiding principle. This corresponds to: The prioritization of love over rules."
+    },
+    {
+      "question": "How does Situation Ethics differ from Natural Law in its approach to moral dilemmas?",
+      "options": [
+        "It is more rigid and rule-based",
+        "It focuses on love rather than fixed laws",
+        "It emphasizes the sanctity of life",
+        "It is less concerned with outcomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics is more flexible and prioritizes love in decision-making, contrasting with Natural Law's adherence to fixed moral laws. This corresponds to: It focuses on love rather than fixed laws."
+    },
+    {
+      "question": "In the context of Situation Ethics, what would be a potential criticism of prioritizing love in moral decision-making?",
+      "options": [
+        "It can lead to subjective interpretations of love",
+        "It ignores the consequences of actions",
+        "It is too rigid and inflexible",
+        "It does not consider cultural differences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A criticism is that prioritizing love can lead to subjective interpretations, making it difficult to establish consistent moral guidelines. This corresponds to: It can lead to subjective interpretations of love."
+    },
+    {
+      "question": "If a person decides to assist a friend in committing a crime because they believe it is the most loving action, which aspect of Situation Ethics is being applied?",
+      "options": [
+        "The principle of double effect",
+        "The concept of apparent goods",
+        "The focus on personal relationships",
+        "The importance of legal standards"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates how Situation Ethics emphasizes personal relationships and love over legal or moral absolutes. This corresponds to: The focus on personal relationships."
+    },
+    {
+      "question": "In a case where a person must choose between lying to protect a friend or telling the truth, what would a Situation Ethics advocate likely prioritize?",
+      "options": [
+        "The truth as an absolute value",
+        "The potential consequences of lying",
+        "The loving action towards the friend",
+        "The legal implications of lying"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A Situation Ethics advocate would prioritize the loving action, which may involve lying to protect a friend. This corresponds to: The loving action towards the friend."
+    },
+    {
+      "question": "What is a key strength of Situation Ethics when applied to real-life moral dilemmas?",
+      "options": [
+        "It provides clear, absolute rules",
+        "It allows for flexibility based on circumstances",
+        "It emphasizes the importance of tradition",
+        "It focuses solely on outcomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A strength of Situation Ethics is its flexibility, allowing individuals to adapt their moral decisions based on the specific context and relationships involved. This corresponds to: It allows for flexibility based on circumstances."
+    },
+    {
+      "question": "In a scenario where a person must choose to either donate money to a charity or help a friend in need, how would Situation Ethics guide their decision?",
+      "options": [
+        "By emphasizing the greater good",
+        "By focusing on the most loving action",
+        "By adhering to moral laws",
+        "By considering societal expectations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics would guide the individual to choose the action that demonstrates the most love, regardless of societal expectations or rules. This corresponds to: By focusing on the most loving action."
+    }
+  ]
+}

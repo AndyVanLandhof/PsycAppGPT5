@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:24:05.649Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "eternity",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Boethius, how does God's eternity differ from human experience of time?",
+      "options": [
+        "God experiences time as a series of events",
+        "God exists outside of time, viewing all moments simultaneously",
+        "God's knowledge is limited to the present",
+        "God's actions are bound by temporal constraints"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boethius argues that God is outside of time, experiencing all moments in a simultaneous present rather than sequentially. This corresponds to: God exists outside of time, viewing all moments simultaneously."
+    },
+    {
+      "question": "What is the main issue raised by Boethius regarding divine foreknowledge and human free will?",
+      "options": [
+        "God's foreknowledge negates human free will",
+        "Human free will is absolute and unconditioned",
+        "God's knowledge is limited to conditional necessity",
+        "God's knowledge does not affect human choices"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Boethius suggests that if God knows everything in a simultaneous present, it raises questions about whether humans can truly act freely. This corresponds to: God's foreknowledge negates human free will."
+    },
+    {
+      "question": "William of Ockham's view on divine self-limitation suggests that God chooses to limit Himself to allow what?",
+      "options": [
+        "His omnipotence",
+        "Human free will",
+        "Divine justice",
+        "Eternal knowledge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ockham argues that God limits His power to allow genuine human autonomy, enabling free will. This corresponds to: Human free will."
+    },
+    {
+      "question": "In the context of divine attributes, what does Anselm's four-dimensionalist approach extend from Boethius's view?",
+      "options": [
+        "The nature of divine omnipotence",
+        "The relationship between divine knowledge and time",
+        "The concept of divine benevolence",
+        "The understanding of human morality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anselm's approach builds on Boethius's ideas by further exploring how God's knowledge interacts with temporal existence. This corresponds to: The relationship between divine knowledge and time."
+    },
+    {
+      "question": "If a person decides to change their mind about wearing a shirt, what dilemma does this present regarding God's omniscience?",
+      "options": [
+        "It shows that God cannot know the future",
+        "It implies God is surprised by human choices",
+        "It questions the nature of free will",
+        "It suggests God has limited knowledge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The scenario raises questions about whether human free will can coexist with God's omniscience, as God's knowledge of future choices may conflict with the concept of free will. This corresponds to: It questions the nature of free will."
+    },
+    {
+      "question": "Swinburne's view on omniscience suggests that God's knowledge is more compatible with what concept?",
+      "options": [
+        "Divine determinism",
+        "Human autonomy",
+        "Divine indifference",
+        "Eternal justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Swinburne argues that God's knowledge allows for human free will, addressing some criticisms of Boethius's perspective. This corresponds to: Human autonomy."
+    },
+    {
+      "question": "What is a potential criticism of Boethius's view of God's eternity?",
+      "options": [
+        "It allows for too much human freedom",
+        "It sacrifices God's immanence",
+        "It contradicts the concept of divine justice",
+        "It limits God's omnipotence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Boethius's view may lead to a God who cannot interact meaningfully with creation, thus sacrificing God's immanence. This corresponds to: It sacrifices God's immanence."
+    },
+    {
+      "question": "How does Anselm's understanding of God's knowledge relate to the concept of free will?",
+      "options": [
+        "It denies free will entirely",
+        "It suggests God limits His knowledge to allow free will",
+        "It affirms that God's knowledge does not determine human choices",
+        "It implies that humans are not truly free"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anselm's view suggests that God's knowledge does not dictate human choices, allowing for the possibility of free will. This corresponds to: It affirms that God's knowledge does not determine human choices."
+    },
+    {
+      "question": "What does the concept of divine self-limitation imply about God's nature?",
+      "options": [
+        "God is inherently powerless",
+        "God chooses to restrict His power for human benefit",
+        "God's omnipotence is absolute",
+        "God's knowledge is limited"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divine self-limitation suggests that God intentionally restricts His power to enable human free will and meaningful relationships. This corresponds to: God chooses to restrict His power for human benefit."
+    },
+    {
+      "question": "What is a key difference between human and divine freedom according to the materials?",
+      "options": [
+        "Human freedom is absolute, while divine freedom is limited",
+        "Divine freedom is characterized by indifference, while human freedom is not",
+        "Both types of freedom are identical",
+        "Human freedom is more constrained than divine freedom"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The materials indicate that divine freedom includes an element of indifference, which is not present in human freedom, especially when clarity of perception is involved. This corresponds to: Divine freedom is characterized by indifference, while human freedom is not."
+    }
+  ]
+}

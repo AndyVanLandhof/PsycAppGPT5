@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:54:55.007Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "agape",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the key principle of Joseph Fletcher's situation ethics?",
+      "options": [
+        "Agape love",
+        "Utilitarianism",
+        "Deontological ethics",
+        "Natural Law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fletcher's situation ethics is centered around the principle of agape, which is unconditional love. This corresponds to: Agape love."
+    },
+    {
+      "question": "According to Fletcher, what does agape love entail?",
+      "options": [
+        "Conditional love based on friendship",
+        "Unconditional love for all individuals",
+        "Love that prioritizes self-interest",
+        "Love that follows strict laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Agape is described as unconditional love for one's neighbour, distinct from other forms of love. This corresponds to: Unconditional love for all individuals."
+    },
+    {
+      "question": "In Fletcher's situation ethics, which of the following is NOT one of the four working principles?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Legalism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Legalism is not one of the four working principles; the principles are pragmatism, relativism, positivism, and personalism"
+    },
+    {
+      "question": "Fletcher argues that ethical decisions should be made relative to what?",
+      "options": [
+        "Absolute laws",
+        "Cultural norms",
+        "Individual circumstances",
+        "Religious texts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher's approach is relativistic, meaning decisions are made based on individual circumstances rather than absolute laws"
+    },
+    {
+      "question": "If a person is faced with a moral dilemma, how would Fletcher's situation ethics guide their decision?",
+      "options": [
+        "Follow the Ten Commandments",
+        "Choose the action that maximizes agape love",
+        "Consult a religious leader",
+        "Adhere to societal norms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher's situation ethics suggests that the most loving action, or agape love, should guide moral decisions. This corresponds to: Choose the action that maximizes agape love."
+    },
+    {
+      "question": "In a scenario where a person must choose between breaking a law or helping someone in need, what would Fletcher likely advocate?",
+      "options": [
+        "Follow the law strictly",
+        "Break the law if it serves agape",
+        "Consult religious texts",
+        "Seek community approval"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher would argue that breaking the law is acceptable if it serves the greater good of agape love. This corresponds to: Break the law if it serves agape."
+    },
+    {
+      "question": "What criticism might be leveled against Fletcher's situation ethics regarding its application?",
+      "options": [
+        "It is too rigid",
+        "It lacks a clear decision-making process",
+        "It is overly reliant on absolute laws",
+        "It can lead to subjective moral decisions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Critics argue that the rejection of absolute rules makes situation ethics too individualistic and subjective. This corresponds to: It can lead to subjective moral decisions."
+    },
+    {
+      "question": "How does Fletcher's view of conscience differ from traditional views?",
+      "options": [
+        "It is a noun",
+        "It is a verb",
+        "It is an absolute guide",
+        "It is irrelevant in decision-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher sees conscience as a verb, emphasizing the process of making decisions rather than a fixed set of rules. This corresponds to: It is a verb."
+    },
+    {
+      "question": "Fletcher's situation ethics is often described as principled relativism. What does this mean?",
+      "options": [
+        "There are no principles",
+        "One absolute principle exists but is applied relative to circumstances",
+        "All actions are equally valid",
+        "Principles are irrelevant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Principled relativism means that while agape love is the absolute principle, its application is relative to individual circumstances. This corresponds to: One absolute principle exists but is applied relative to circumstances."
+    },
+    {
+      "question": "What is a potential limitation of using agape as the sole ethical principle?",
+      "options": [
+        "It is too simplistic",
+        "It is too complex",
+        "It is universally accepted",
+        "It is easily measurable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Some argue that agape is too high a standard for personal relationships, which are often influenced by self-interest. This corresponds to: It is too simplistic."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:37:43.609Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-experience",
+  "subId": "otto-james",
+  "set": "B",
+  "questions": [
+    {
+      "question": "William James, in his work 'The Varieties of Religious Experience' (1902), identified how many characteristics common to mystical experiences?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "James identified four characteristics: passive, ineffable, noetic, and transient. This corresponds to: 4."
+    },
+    {
+      "question": "According to William James, what is the primary focus of studying religious experiences?",
+      "options": [
+        "Beliefs and practices",
+        "Psychological phenomena",
+        "Historical context",
+        "Rituals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James argued that studying religious experiences is essential as they represent the heart of religion. This corresponds to: Psychological phenomena."
+    },
+    {
+      "question": "In his analysis, William James suggested that religious experiences can be influenced by which of the following?",
+      "options": [
+        "Social norms",
+        "Drugs and alcohol",
+        "Cultural background",
+        "Educational level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James argued that drugs and alcohol can lower inhibitions, making individuals more receptive to divine experiences"
+    },
+    {
+      "question": "A person reports a sudden feeling of peace and insight during a meditation session. This aligns with which of James' characteristics of mystical experiences?",
+      "options": [
+        "Passive",
+        "Ineffable",
+        "Noetic",
+        "Transient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The experience provided insight or knowledge, which is what James referred to as 'noetic'"
+    },
+    {
+      "question": "William James compared mystical experiences to which state of consciousness to illustrate their nature?",
+      "options": [
+        "Dreaming",
+        "Waking",
+        "Drunkenness",
+        "Hypnosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "James drew an analogy with drunkenness, suggesting that both states can alter consciousness"
+    },
+    {
+      "question": "Which of the following best describes William James' view on the veridical nature of religious experiences?",
+      "options": [
+        "They are purely psychological phenomena.",
+        "They can prove the existence of God.",
+        "They have a significant impact on believers.",
+        "They are always shared experiences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "James believed that the transient impact of religious experiences on believers indicates their veridical nature. This corresponds to: They have a significant impact on believers.."
+    },
+    {
+      "question": "Which methodological issue can be raised against William James' approach to religious experiences?",
+      "options": [
+        "Lack of empirical evidence",
+        "Over-reliance on personal accounts",
+        "Neglect of cultural factors",
+        "Ignoring psychological explanations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James' reliance on personal accounts may lack empirical evidence, raising questions about the validity of his conclusions. This corresponds to: Over-reliance on personal accounts."
+    },
+    {
+      "question": "Richard Swinburne's principles of Testimony and Credulity support which aspect of religious experiences?",
+      "options": [
+        "They are inherently unreliable.",
+        "They should be dismissed as neurosis.",
+        "They can be considered valid evidence of the divine.",
+        "They are only meaningful in a cultural context."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Swinburne argues that the testimony of individuals experiencing the divine should be taken seriously as valid evidence. This corresponds to: They can be considered valid evidence of the divine.."
+    },
+    {
+      "question": "William James stated that religious experiences are primarily what type of phenomenon?",
+      "options": [
+        "Cultural",
+        "Psychological",
+        "Philosophical",
+        "Historical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James emphasized that religious experiences operate through the psyche, making them psychological phenomena"
+    },
+    {
+      "question": "In his analysis, James suggested that the effects of religious experiences often lead to what kind of change in individuals?",
+      "options": [
+        "Increased skepticism",
+        "Life-long transformation",
+        "Social isolation",
+        "Cognitive dissonance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James noted that the significant effects of religious experiences often result in life-long transformations for individuals"
+    }
+  ]
+}

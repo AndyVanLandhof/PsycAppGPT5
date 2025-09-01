@@ -121,7 +121,7 @@ Return ONLY this JSON:
       const topicTitle = t?.title || 'Approaches in Psychology';
       const subTitle = s?.title || 'Social Learning Theory (Bandura)';
       const base = unifiedPrompt(topicTitle, subTitle);
-      const prompt = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
+      const prompt = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
       const resp = await callAIJsonOnly(prompt, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       setRaw(resp);
       const json = extractFirstJson(resp);
@@ -163,7 +163,7 @@ Return ONLY this JSON:
       const subTitle = s?.title || '';
       const base = unifiedPrompt(topicTitle, subTitle);
       // Generate Set A
-      const promptA = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
+      const promptA = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
       const rawA = await callAIJsonOnly(promptA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       const jsonA = extractFirstJson(rawA);
       if (!jsonA) throw new Error('No JSON in Set A');
@@ -227,7 +227,7 @@ Return ONLY this JSON:
           const topicTitle = t.title;
           const subTitle = st.title;
           const base = unifiedPrompt(topicTitle, subTitle);
-          const promptWithVault = curr === 'aqa-psych' ? createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true }) : base;
+          const promptWithVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
           // Set A
           // eslint-disable-next-line no-await-in-loop
           const rawA = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));

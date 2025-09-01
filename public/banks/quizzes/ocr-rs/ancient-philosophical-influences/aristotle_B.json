@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:07:51.647Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "aristotle",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What are Aristotle's four causes?",
+      "options": [
+        "Material, Formal, Efficient, Final",
+        "Cause, Effect, Purpose, Matter",
+        "Form, Function, Change, Stability",
+        "Substance, Essence, Existence, Purpose"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aristotle identified four causes: material, formal, efficient, and final, which explain the existence and purpose of objects. This corresponds to: Material, Formal, Efficient, Final."
+    },
+    {
+      "question": "According to Aristotle, what is the final cause of a chair?",
+      "options": [
+        "To provide comfort",
+        "To be made of wood",
+        "To be aesthetically pleasing",
+        "To serve as a decoration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The final cause of a chair is to provide comfort, illustrating Aristotle's view that all objects have a purpose"
+    },
+    {
+      "question": "In Aristotle's view, what does the term 'telos' refer to?",
+      "options": [
+        "The material composition of an object",
+        "The ultimate purpose or aim of an object",
+        "The physical changes an object undergoes",
+        "The sensory experience of an object"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Telos' refers to the ultimate purpose or aim of an object, which is central to Aristotle's understanding of reality"
+    },
+    {
+      "question": "If a kettle is full of cold water, what does Aristotle say about its potential?",
+      "options": [
+        "It has the potential to boil",
+        "It has no potential",
+        "It is only cold",
+        "It is already hot"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aristotle would argue that the kettle has the potential to boil, illustrating the concept of change from potentiality to actuality. This corresponds to: It has the potential to boil."
+    },
+    {
+      "question": "How does Aristotle's empirical method differ from Plato's reliance on reason?",
+      "options": [
+        "Aristotle focuses on abstract ideals",
+        "Plato emphasizes sensory experience",
+        "Aristotle relies on observation and experience",
+        "Plato uses empirical evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aristotle's empirical method relies on observation and experience, contrasting with Plato's focus on abstract reasoning. This corresponds to: Aristotle relies on observation and experience."
+    },
+    {
+      "question": "What is the material cause of a statue, according to Aristotle?",
+      "options": [
+        "The artist who created it",
+        "The marble or stone it is made from",
+        "The purpose it serves",
+        "The design of the statue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The material cause of a statue is the marble or stone it is made from, which is essential for its existence"
+    },
+    {
+      "question": "In what way can Aristotle's four causes be seen as subjective?",
+      "options": [
+        "They are based on empirical evidence",
+        "They depend on individual perspectives of purpose",
+        "They are universally accepted",
+        "They are scientifically proven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle's claim that everything has a purpose can be subjective, as the perceived purpose may vary based on individual viewpoints. This corresponds to: They depend on individual perspectives of purpose."
+    },
+    {
+      "question": "What does Aristotle mean by 'efficient cause'?",
+      "options": [
+        "The material from which something is made",
+        "The purpose of an object",
+        "The agent or force that brings something into being",
+        "The design of an object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The efficient cause refers to the agent or force that brings an object into being, highlighting the process of change. This corresponds to: The agent or force that brings something into being."
+    },
+    {
+      "question": "How does Aristotle's view of change differ from Plato's?",
+      "options": [
+        "Aristotle believes in unchanging ideals",
+        "Plato focuses on sensory experiences",
+        "Aristotle sees change as a natural process",
+        "Plato denies the existence of change"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aristotle views change as a natural process, while Plato emphasizes the existence of unchanging ideals. This corresponds to: Aristotle sees change as a natural process."
+    },
+    {
+      "question": "What is the formal cause of a table, according to Aristotle?",
+      "options": [
+        "The wood it is made from",
+        "The design and structure of the table",
+        "The purpose of holding items",
+        "The carpenter who built it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formal cause of a table is its design and structure, which defines its characteristics and function. This corresponds to: The design and structure of the table."
+    }
+  ]
+}

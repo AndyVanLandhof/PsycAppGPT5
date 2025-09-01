@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:47:40.212Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "value",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following features of religious experiences, as identified by William James, is described as being beyond proper description?",
+      "options": [
+        "Ineffable",
+        "Noetic quality",
+        "Transient",
+        "Passivity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "James argues that ineffability is a key characteristic of religious experiences, indicating that they cannot be adequately expressed in words. This corresponds to: Ineffable."
+    },
+    {
+      "question": "In the context of religious practice, how might a believer interpret a miracle as a source of wisdom and authority?",
+      "options": [
+        "As a challenge to their faith",
+        "As a confirmation of their beliefs",
+        "As an irrelevant event",
+        "As a historical anomaly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Believers may view miracles as confirmations of their faith, reinforcing their religious identity and values. This corresponds to: As a confirmation of their beliefs."
+    },
+    {
+      "question": "What is one methodological issue when studying the impact of miracles on religious practice?",
+      "options": [
+        "Miracles are easily replicable",
+        "Miracles are subjective experiences",
+        "Miracles can be scientifically proven",
+        "Miracles are universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subjective nature of miracles makes them difficult to study empirically, as personal interpretations can vary widely. This corresponds to: Miracles are subjective experiences."
+    },
+    {
+      "question": "Which of the following best describes the 'noetic quality' of religious experiences according to William James?",
+      "options": [
+        "They are fleeting and temporary",
+        "They provide deep knowledge of God",
+        "They are difficult to describe",
+        "They involve a sense of control"
+      ],
+      "correctAnswer": 1,
+      "explanation": "James describes the noetic quality as a profound sense of gaining knowledge about God that surpasses ordinary understanding. This corresponds to: They provide deep knowledge of God."
+    },
+    {
+      "question": "A believer claims that witnessing a miracle strengthened their community's faith. This scenario illustrates which aspect of religious practice?",
+      "options": [
+        "The role of tradition",
+        "The impact of secularism",
+        "The influence of miracles",
+        "The importance of scripture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The believer's experience highlights how miracles can serve as significant events that reinforce communal beliefs and practices. This corresponds to: The influence of miracles."
+    },
+    {
+      "question": "What is a potential criticism of using miracles as evidence for the existence of God?",
+      "options": [
+        "They are universally accepted",
+        "They can be scientifically validated",
+        "They rely on subjective interpretation",
+        "They are easily replicated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The reliance on subjective interpretation raises questions about the validity of miracles as objective evidence for God's existence. This corresponds to: They rely on subjective interpretation."
+    },
+    {
+      "question": "According to James, which of the following is NOT a characteristic of religious experiences?",
+      "options": [
+        "Ineffable",
+        "Noetic quality",
+        "Permanent",
+        "Transient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "James states that religious experiences are typically transient, meaning they do not last permanently"
+    },
+    {
+      "question": "In what way can miracles influence the moral principles of a religious community?",
+      "options": [
+        "By promoting secularism",
+        "By challenging traditional beliefs",
+        "By reinforcing shared values",
+        "By diminishing the role of scripture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Miracles can reinforce shared values within a community, thereby strengthening moral principles aligned with those beliefs. This corresponds to: By reinforcing shared values."
+    },
+    {
+      "question": "Which aspect of religious experiences emphasizes the feeling of being acted upon by a higher power?",
+      "options": [
+        "Ineffable",
+        "Noetic quality",
+        "Transient",
+        "Passivity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "James describes passivity as a characteristic where the experiencer feels a sense of being influenced by a superior power"
+    },
+    {
+      "question": "How might the concept of miracles be viewed differently across various religious traditions?",
+      "options": [
+        "They are universally interpreted the same way",
+        "They are seen as irrelevant",
+        "They can have different meanings and significance",
+        "They are always scientifically explained"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different religious traditions may interpret miracles in unique ways, reflecting their specific beliefs and values. This corresponds to: They can have different meanings and significance."
+    }
+  ]
+}

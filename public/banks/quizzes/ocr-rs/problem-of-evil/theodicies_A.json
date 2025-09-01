@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:34:28.638Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "theodicies",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Irenaean theodicy, what is the primary purpose of evil in the world?",
+      "options": [
+        "To punish humans for their sins",
+        "To provide opportunities for character development",
+        "To demonstrate God's omnipotence",
+        "To test human faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Irenaean theodicy views evil as a means for soul-making, helping individuals develop their characters. This corresponds to: To provide opportunities for character development."
+    },
+    {
+      "question": "John Hick's concept of epistemic distance suggests that:?",
+      "options": [
+        "God's power is limited by human free will",
+        "Humans must experience suffering to understand God",
+        "God's existence is proven through the presence of evil",
+        "Evil is a necessary part of divine punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that the epistemic distance allows humans to use their free will fully, which includes experiencing suffering. This corresponds to: Humans must experience suffering to understand God."
+    },
+    {
+      "question": "The evidential problem of evil argues that:?",
+      "options": [
+        "Evil is a necessary condition for free will",
+        "The existence of evil contradicts the existence of an all-powerful God",
+        "Evil is merely a privation of good",
+        "Suffering is essential for soul-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil posits that the observable presence of evil challenges the belief in an all-powerful and benevolent God. This corresponds to: The existence of evil contradicts the existence of an all-powerful God."
+    },
+    {
+      "question": "In the context of Augustine's theodicy, how is evil defined?",
+      "options": [
+        "As a necessary part of human development",
+        "As a privation of good",
+        "As a punishment from God",
+        "As a test of faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine defines evil as a privation, meaning it is not a substance but a lack of good. This corresponds to: As a privation of good."
+    },
+    {
+      "question": "Hick's idea of the world as a 'vale of soul-making' implies that:?",
+      "options": [
+        "Suffering is inherently negative",
+        "Evil serves a greater purpose in human development",
+        "God intervenes to prevent evil",
+        "Evil is a result of human choices only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's concept suggests that the presence of evil is instrumental for the development of souls towards God's likeness. This corresponds to: Evil serves a greater purpose in human development."
+    },
+    {
+      "question": "If a believer argues that suffering is necessary for character development, which theodicy are they likely supporting?",
+      "options": [
+        "Augustinian theodicy",
+        "Irenaean theodicy",
+        "Process theodicy",
+        "Free will defense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This perspective aligns with Irenaean theodicy, which emphasizes the role of suffering in soul-making"
+    },
+    {
+      "question": "One criticism of the logical problem of evil is that it assumes:?",
+      "options": [
+        "Evil is necessary for free will",
+        "God's power is absolute and unrestricted",
+        "Humans can fully understand divine decisions",
+        "Suffering is always unjustified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The logical problem of evil assumes that God's omnipotence means He can prevent all evil, which may not account for human free will. This corresponds to: God's power is absolute and unrestricted."
+    },
+    {
+      "question": "Which of the following best describes the relationship between free will and evil in Hick's theodicy?",
+      "options": [
+        "Free will is irrelevant to the existence of evil",
+        "Evil is a punishment for misuse of free will",
+        "Free will allows for genuine choices, including the choice of evil",
+        "Evil is a necessary condition for divine intervention"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hick argues that true free will includes the possibility of choosing evil, which is essential for genuine relationships with God. This corresponds to: Free will allows for genuine choices, including the choice of evil."
+    },
+    {
+      "question": "A methodological issue with the evidential problem of evil is that it assumes:?",
+      "options": [
+        "All suffering is unjustified",
+        "God's existence can be fully understood",
+        "Evil serves no purpose",
+        "Humans are incapable of understanding divine reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil presupposes that humans can fully comprehend God's nature and decisions, which may not be valid. This corresponds to: God's existence can be fully understood."
+    },
+    {
+      "question": "Which theodicy argues that evil exists to help humanity grow into God's likeness?",
+      "options": [
+        "Augustinian theodicy",
+        "Irenaean theodicy",
+        "Process theodicy",
+        "Free will defense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Irenaean theodicy posits that evil is part of the process of developing into God's likeness, emphasizing growth through suffering"
+    }
+  ]
+}

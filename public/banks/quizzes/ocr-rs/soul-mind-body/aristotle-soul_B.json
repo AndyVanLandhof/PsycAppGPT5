@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:11:45.625Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "aristotle-soul",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Aristotle, what is the relationship between the soul and the body?",
+      "options": [
+        "The soul exists independently of the body",
+        "The soul is the form of the body",
+        "The body is a mere illusion",
+        "The soul is a spiritual substance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle posits that the soul cannot exist without the body and is the form that gives the body its characteristics. This corresponds to: The soul is the form of the body."
+    },
+    {
+      "question": "What example does Aristotle use to illustrate the inseparability of the body and soul?",
+      "options": [
+        "A sealed wax imprint",
+        "A living chicken",
+        "A chariot and horses",
+        "A mathematical equation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aristotle compares the body and soul to a wax seal, where the imprint (soul) cannot be separated from the wax (body). This corresponds to: A sealed wax imprint."
+    },
+    {
+      "question": "In Aristotle's view, which faculty of the soul is unique to humans?",
+      "options": [
+        "Vegetative",
+        "Appetitive",
+        "Rational",
+        "Instinctual"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aristotle identifies the rational faculty as the ability found only in human souls, distinguishing them from other living beings"
+    },
+    {
+      "question": "If Aristotle's view of the soul is correct, what implication does this have for the concept of an afterlife?",
+      "options": [
+        "The soul continues to exist after death",
+        "The soul ceases to exist at death",
+        "The soul is reborn in another body",
+        "The soul exists in a different realm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle argues that the soul comes into existence at birth and ceases to exist at death, negating the idea of an afterlife. This corresponds to: The soul ceases to exist at death."
+    },
+    {
+      "question": "What is a key criticism of Aristotle's view of the soul from a materialist perspective?",
+      "options": [
+        "It lacks empirical evidence",
+        "It contradicts Plato's theory",
+        "It overemphasizes the role of the body",
+        "It ignores emotional aspects of human experience"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materialists argue that Aristotle's view lacks empirical evidence and that all aspects of consciousness can be explained through physical interactions. This corresponds to: It lacks empirical evidence."
+    },
+    {
+      "question": "Aristotle's analogy of the living and dead chicken illustrates which concept?",
+      "options": [
+        "The dualism of body and soul",
+        "The formal cause of a living being",
+        "The material cause of existence",
+        "The impermanence of the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The analogy demonstrates how the living chicken has a soul that animates it, while the dead chicken lacks this formal cause. This corresponds to: The formal cause of a living being."
+    },
+    {
+      "question": "What does Aristotle mean by the term 'formal cause' in relation to the soul?",
+      "options": [
+        "The physical structure of the body",
+        "The essence that defines a being",
+        "The material components of existence",
+        "The spiritual aspect of life"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formal cause refers to the soul as the essence that gives the body its characteristics and purpose. This corresponds to: The essence that defines a being."
+    },
+    {
+      "question": "How does Aristotle's view of the soul differ from Plato's?",
+      "options": [
+        "Aristotle believes the soul is separate from the body",
+        "Plato sees the soul as the form of the body",
+        "Aristotle views the soul as inseparable from the body",
+        "Plato denies the existence of the soul"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unlike Plato, who sees the soul as a separate entity, Aristotle argues that the soul and body are inseparable and interdependent. This corresponds to: Aristotle views the soul as inseparable from the body."
+    },
+    {
+      "question": "What philosophical issue arises from the debate between dualism and materialism?",
+      "options": [
+        "The existence of the soul",
+        "The nature of reality",
+        "The role of emotions",
+        "The definition of knowledge"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The debate raises questions about whether the soul exists as a separate entity or if all mental processes can be explained through physical matter. This corresponds to: The existence of the soul."
+    },
+    {
+      "question": "According to Aristotle, what role does the soul play in the characteristics of a living being?",
+      "options": [
+        "It is the source of physical strength",
+        "It animates the body and defines its form",
+        "It provides spiritual guidance",
+        "It is irrelevant to the body's function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle asserts that the soul is essential as it animates the body and gives it its defining characteristics and form. This corresponds to: It animates the body and defines its form."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:58:43.926Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "examples",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In a scenario where a woman must choose between saving her child or a group of strangers in a burning building, which principle of Situation Ethics would guide her decision?",
+      "options": [
+        "Legalism",
+        "Agape love",
+        "Antinomianism",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics prioritizes agape love, suggesting that the most loving action should be taken, which in this case would likely be to save her child"
+    },
+    {
+      "question": "A man decides to steal food to feed his starving family. According to Situation Ethics, what justifies his action?",
+      "options": [
+        "The law of the land",
+        "The principle of agape love",
+        "Cultural norms",
+        "Personal happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In this scenario, the man's action is justified by the principle of agape love, as he is acting out of love for his family"
+    },
+    {
+      "question": "In a case where a terminally ill patient requests assisted suicide, how would a Situation Ethics approach evaluate this request?",
+      "options": [
+        "It would be deemed illegal",
+        "It would be evaluated based on the greatest happiness",
+        "It would focus on the patient's quality of life",
+        "It would prioritize the sanctity of life"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics would evaluate the request based on the patient's quality of life and the loving response to their suffering. This corresponds to: It would focus on the patient's quality of life."
+    },
+    {
+      "question": "Which of the following best describes a criticism of Situation Ethics when applied to real-life scenarios?",
+      "options": [
+        "It is too rigid",
+        "It can lead to subjective interpretations",
+        "It ignores emotional factors",
+        "It is overly simplistic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A common criticism is that Situation Ethics can lead to subjective interpretations of what constitutes the most loving action. This corresponds to: It can lead to subjective interpretations."
+    },
+    {
+      "question": "In a hypothetical situation where a doctor must decide whether to allocate a limited resource to a patient with a poor prognosis or a young child, what would a Situation Ethics approach prioritize?",
+      "options": [
+        "The patient's age",
+        "The potential for recovery",
+        "The doctor's personal beliefs",
+        "The hospital's policy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Situation Ethics approach would prioritize the potential for recovery, as it seeks to maximize love and benefit"
+    },
+    {
+      "question": "When evaluating a decision made under Situation Ethics, which factor is considered most important?",
+      "options": [
+        "Legal implications",
+        "Cultural norms",
+        "The outcome of the action",
+        "The intention behind the action"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Situation Ethics emphasizes the intention behind the action, focusing on love as the guiding principle"
+    },
+    {
+      "question": "In a scenario where a couple decides to have a child despite knowing potential genetic disorders, how would Situation Ethics justify their decision?",
+      "options": [
+        "By following societal expectations",
+        "By prioritizing their personal desires",
+        "By considering the love they will provide",
+        "By adhering to religious teachings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Their decision would be justified by the love they intend to provide for the child, aligning with the principle of agape love. This corresponds to: By considering the love they will provide."
+    },
+    {
+      "question": "Which of the following is a limitation of applying Situation Ethics to complex moral dilemmas?",
+      "options": [
+        "It is too flexible",
+        "It requires extensive knowledge of laws",
+        "It can lead to unpredictable outcomes",
+        "It is based on absolute moral rules"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A limitation is that the flexible nature of Situation Ethics can lead to unpredictable outcomes, making it difficult to apply consistently. This corresponds to: It can lead to unpredictable outcomes."
+    },
+    {
+      "question": "In a case where a person lies to protect a friend from harm, how would Situation Ethics evaluate this action?",
+      "options": [
+        "It is always wrong to lie",
+        "It is justified if it promotes love",
+        "It is acceptable only in extreme cases",
+        "It must be reported to authorities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics would justify the lie if it promotes love and protects the friend, emphasizing the context of the action. This corresponds to: It is justified if it promotes love."
+    },
+    {
+      "question": "How does Situation Ethics differ from legalistic approaches to ethics in real-life scenarios?",
+      "options": [
+        "It is more focused on rules",
+        "It emphasizes love over law",
+        "It ignores the consequences of actions",
+        "It is less adaptable to change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics emphasizes love over law, contrasting with legalistic approaches that prioritize strict adherence to rules. This corresponds to: It emphasizes love over law."
+    }
+  ]
+}

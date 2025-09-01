@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:53:04.438Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "applications",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Natural Law, as a moral theory, suggests that moral principles are derived from nature. Which of the following best describes its application to modern ethical issues?",
+      "options": [
+        "A: It allows for flexibility in moral decision-making.",
+        "B: It emphasizes absolute moral truths based on human nature.",
+        "C: It prioritizes individual preferences over universal laws.",
+        "D: It rejects the idea of a moral framework altogether."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law emphasizes that moral truths are absolute and derived from human nature, which can be applied to modern ethical issues. This corresponds to: B: It emphasizes absolute moral truths based on human nature.."
+    },
+    {
+      "question": "In a scenario where a couple is considering cohabitation without marriage, how might Natural Law apply to their decision?",
+      "options": [
+        "A: Cohabitation is always morally wrong.",
+        "B: Cohabitation can be justified if it aligns with natural purposes.",
+        "C: Natural Law has no relevance to personal relationships.",
+        "D: Cohabitation is encouraged as a trial for marriage."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law would suggest that cohabitation could be justified if it aligns with the natural purposes of relationships, such as procreation and companionship. This corresponds to: B: Cohabitation can be justified if it aligns with natural purposes.."
+    },
+    {
+      "question": "Which of the following is a criticism of Natural Law when applied to contemporary ethical dilemmas?",
+      "options": [
+        "A: It is too rigid and does not account for individual circumstances.",
+        "B: It is too flexible and allows for too many interpretations.",
+        "C: It is based solely on religious beliefs.",
+        "D: It ignores the importance of societal norms."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A common criticism of Natural Law is that its rigid adherence to absolute moral truths can overlook the complexities of individual circumstances. This corresponds to: A: It is too rigid and does not account for individual circumstances.."
+    },
+    {
+      "question": "Natural Law theory posits that moral laws are universal. How does this perspective influence debates on issues like premarital sex?",
+      "options": [
+        "A: It supports premarital sex as a personal choice.",
+        "B: It categorically opposes premarital sex based on natural law.",
+        "C: It allows for premarital sex if it leads to marriage.",
+        "D: It is indifferent to the issue of premarital sex."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law typically categorically opposes premarital sex, viewing it as contrary to the natural purposes of human sexuality. This corresponds to: B: It categorically opposes premarital sex based on natural law.."
+    },
+    {
+      "question": "In the context of Natural Law, how might one evaluate the increasing acceptance of cohabitation in society?",
+      "options": [
+        "A: It is a sign of moral decline.",
+        "B: It aligns with the natural law principle of companionship.",
+        "C: It has no impact on moral evaluations.",
+        "D: It is a positive development for personal freedom."
+      ],
+      "correctAnswer": 1,
+      "explanation": "From a Natural Law perspective, the increasing acceptance of cohabitation could be evaluated positively if it aligns with the natural purpose of companionship. This corresponds to: B: It aligns with the natural law principle of companionship.."
+    },
+    {
+      "question": "Which philosopher is most closely associated with the development of Natural Law theory?",
+      "options": [
+        "A: Jeremy Bentham",
+        "B: Thomas Aquinas",
+        "C: John Stuart Mill",
+        "D: Immanuel Kant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thomas Aquinas is a key figure in the development of Natural Law theory, emphasizing its basis in human nature. This corresponds to: B: Thomas Aquinas."
+    },
+    {
+      "question": "How does Natural Law address the issue of animal rights in modern ethical discussions?",
+      "options": [
+        "A: It completely disregards animal rights.",
+        "B: It recognizes animals as having intrinsic value based on their nature.",
+        "C: It only considers human interests.",
+        "D: It promotes animal rights as equal to human rights."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law can recognize animals as having intrinsic value based on their nature, influencing discussions on animal rights. This corresponds to: B: It recognizes animals as having intrinsic value based on their nature.."
+    },
+    {
+      "question": "What is a potential limitation of applying Natural Law to modern ethical issues such as abortion?",
+      "options": [
+        "A: It provides clear guidelines for moral decision-making.",
+        "B: It may not consider the complexities of individual circumstances.",
+        "C: It is universally accepted across all cultures.",
+        "D: It is based on subjective interpretations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation of Natural Law is that it may not adequately address the complexities and individual circumstances surrounding issues like abortion. This corresponds to: B: It may not consider the complexities of individual circumstances.."
+    },
+    {
+      "question": "In Natural Law, the concept of 'natural purposes' is crucial. Which of the following best describes this concept?",
+      "options": [
+        "A: It refers to the subjective desires of individuals.",
+        "B: It denotes the inherent functions and goals of human life.",
+        "C: It is a flexible guideline for moral behavior.",
+        "D: It is irrelevant to ethical decision-making."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concept of 'natural purposes' in Natural Law refers to the inherent functions and goals of human life, guiding moral behavior. This corresponds to: B: It denotes the inherent functions and goals of human life.."
+    },
+    {
+      "question": "How might Natural Law be applied to the issue of euthanasia in modern ethical debates?",
+      "options": [
+        "A: It supports euthanasia as a personal choice.",
+        "B: It categorically opposes euthanasia based on the sanctity of life.",
+        "C: It allows euthanasia under certain circumstances.",
+        "D: It is indifferent to the issue of euthanasia."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law typically categorically opposes euthanasia, viewing it as contrary to the sanctity of life and natural law principles. This corresponds to: B: It categorically opposes euthanasia based on the sanctity of life.."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:45:26.432Z",
+  "curriculum": "ocr-rs",
+  "topicId": "miracles",
+  "subId": "hume",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is Hume's primary argument against the credibility of miracles as presented in his writings?",
+      "options": [
+        "Miracles violate natural laws",
+        "Miracles are always reported by unreliable witnesses",
+        "Miracles can be explained by psychological phenomena",
+        "Miracles are too rare to be credible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume argues that miracles violate natural laws, which he believes are established through consistent experience"
+    },
+    {
+      "question": "In which year did David Hume publish his critiques of miracles?",
+      "options": [
+        "1751",
+        "1776",
+        "1748",
+        "1788"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume's critiques of miracles were published in 1776, notably in his work 'An Enquiry Concerning Human Understanding'"
+    },
+    {
+      "question": "Hume argues that the testimony of witnesses to miracles is often unreliable because:?",
+      "options": [
+        "They are often biased",
+        "They lack sufficient experience",
+        "They are usually uneducated",
+        "They are often motivated by personal gain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume suggests that witnesses to miracles are often biased, which undermines the reliability of their testimonies. This corresponds to: They are often biased."
+    },
+    {
+      "question": "Consider a scenario where a person claims to have witnessed a miracle. According to Hume, what should be the first step in evaluating this claim?",
+      "options": [
+        "Accept the claim if it is widely reported",
+        "Investigate the character of the witness",
+        "Compare it to known natural laws",
+        "Look for alternative explanations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume would argue that the first step should be to compare the claim to known natural laws, as miracles are defined as violations of these laws. This corresponds to: Compare it to known natural laws."
+    },
+    {
+      "question": "Hume's critique of miracles suggests that they are improbable because they rely on:?",
+      "options": [
+        "Historical documentation",
+        "Personal experience",
+        "Cultural beliefs",
+        "Scientific evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume argues that miracles rely on personal experience, which is subjective and cannot be universally verified"
+    },
+    {
+      "question": "One of Hume's challenges to the concept of miracles is that they often contradict established natural laws. This critique can be seen as a methodological issue because:?",
+      "options": [
+        "It assumes all natural laws are absolute",
+        "It relies on anecdotal evidence",
+        "It dismisses the possibility of divine intervention",
+        "It overlooks historical context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume's critique assumes that all natural laws are absolute, which may not account for the complexities of divine action. This corresponds to: It assumes all natural laws are absolute."
+    },
+    {
+      "question": "Hume's argument against miracles can be compared to which of the following philosophical positions?",
+      "options": [
+        "Rationalism",
+        "Empiricism",
+        "Idealism",
+        "Existentialism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume's skepticism about miracles aligns with empiricism, as he emphasizes evidence from experience over faith or belief"
+    },
+    {
+      "question": "According to Hume, the improbability of miracles suggests that:?",
+      "options": [
+        "They are likely to occur in religious contexts",
+        "They should be accepted as true if reported by many",
+        "They are more likely to be fabrications than truths",
+        "They can be explained through scientific inquiry"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hume posits that the improbability of miracles makes it more likely that they are fabrications rather than actual occurrences. This corresponds to: They are more likely to be fabrications than truths."
+    },
+    {
+      "question": "Hume's critique of miracles emphasizes the importance of which type of evidence?",
+      "options": [
+        "Testimonial evidence",
+        "Scientific evidence",
+        "Philosophical reasoning",
+        "Historical evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume emphasizes scientific evidence as crucial, arguing that miracles must be evaluated against established natural laws"
+    },
+    {
+      "question": "What is a key reason Hume provides for rejecting the credibility of miracles?",
+      "options": [
+        "They are often reported in religious texts",
+        "They contradict human experience",
+        "They are too complex to understand",
+        "They are always associated with negative outcomes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume argues that miracles contradict human experience, which leads to their rejection as credible events. This corresponds to: They contradict human experience."
+    }
+  ]
+}

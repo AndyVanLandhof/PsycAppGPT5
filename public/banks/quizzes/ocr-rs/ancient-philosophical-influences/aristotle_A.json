@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:07:32.077Z",
+  "curriculum": "ocr-rs",
+  "topicId": "ancient-philosophical-influences",
+  "subId": "aristotle",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What are Aristotle's four causes?",
+      "options": [
+        "Material, Formal, Efficient, Final",
+        "Cause, Effect, Purpose, Matter",
+        "Form, Function, Change, Stability",
+        "Substance, Essence, Action, Result"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aristotle proposed that all things have four causes: material, formal, efficient, and final. This corresponds to: Material, Formal, Efficient, Final."
+    },
+    {
+      "question": "According to Aristotle, what is the final cause of a chair?",
+      "options": [
+        "To be made of wood",
+        "To provide a comfortable place to sit",
+        "To be aesthetically pleasing",
+        "To be durable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The final cause of a chair is its purpose, which is to provide a comfortable place for us to sit. This corresponds to: To provide a comfortable place to sit."
+    },
+    {
+      "question": "In Aristotle's view, what does the term 'telos' refer to?",
+      "options": [
+        "The material composition of an object",
+        "The ultimate purpose or aim of something",
+        "The process of change",
+        "The physical characteristics of an object"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Telos' refers to the ultimate purpose or aim of an object or being, as explained through Aristotle's four causes. This corresponds to: The ultimate purpose or aim of something."
+    },
+    {
+      "question": "If a kettle is full of cold water, what does Aristotle's concept of potentiality suggest?",
+      "options": [
+        "It is currently hot",
+        "It has the potential to become hot",
+        "It is not useful",
+        "It is in a state of decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Aristotle, the kettle has the potential to become hot, illustrating the concept of potentiality. This corresponds to: It has the potential to become hot."
+    },
+    {
+      "question": "How does Aristotle's empirical method differ from Plato's reliance on reason?",
+      "options": [
+        "Aristotle focuses on abstract ideals",
+        "Plato emphasizes sensory experience",
+        "Aristotle bases knowledge on observation",
+        "Plato dismisses the physical world"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aristotle's empirical method relies on observation and sensory experience, contrasting with Plato's focus on abstract reasoning. This corresponds to: Aristotle bases knowledge on observation."
+    },
+    {
+      "question": "What is a criticism of Aristotle's four causes regarding subjective interpretation?",
+      "options": [
+        "They are too simplistic",
+        "They do not account for change",
+        "The purpose of an object may vary by perspective",
+        "They ignore empirical evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A criticism is that the purpose of an object may depend on individual perspectives, making the interpretation of telos subjective. This corresponds to: The purpose of an object may vary by perspective."
+    },
+    {
+      "question": "What does Aristotle mean by the term 'efficient cause'?",
+      "options": [
+        "The material from which something is made",
+        "The purpose of an object",
+        "The agent or force that brings something into being",
+        "The form or essence of an object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The efficient cause refers to the agent or force that brings something into existence, one of Aristotle's four causes. This corresponds to: The agent or force that brings something into being."
+    },
+    {
+      "question": "In the context of Aristotle's four causes, what is the material cause of a wooden table?",
+      "options": [
+        "The design of the table",
+        "The wood used to make it",
+        "The purpose of holding items",
+        "The craftsmanship involved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The material cause of a wooden table is the wood itself, which is the physical matter from which it is made. This corresponds to: The wood used to make it."
+    },
+    {
+      "question": "How does Aristotle's view of change (motus) relate to his four causes?",
+      "options": [
+        "Change is irrelevant to understanding objects",
+        "Change is explained through the four causes",
+        "Change contradicts the idea of purpose",
+        "Change is only a physical phenomenon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle uses the four causes to explain change (motus) as a process from potentiality to actuality. This corresponds to: Change is explained through the four causes."
+    },
+    {
+      "question": "What is the significance of Aristotle's claim that everything has a purpose?",
+      "options": [
+        "It aligns with existentialist views",
+        "It provides a framework for evaluating objects",
+        "It dismisses empirical evidence",
+        "It is universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aristotle's claim that everything has a purpose offers a framework for evaluating whether objects fulfill their intended roles. This corresponds to: It provides a framework for evaluating objects."
+    }
+  ]
+}

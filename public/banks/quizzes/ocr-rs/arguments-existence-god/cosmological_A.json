@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:26:45.052Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "cosmological",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of Aquinas' first three ways is primarily concerned with the concept of motion?",
+      "options": [
+        "The First Way",
+        "The Second Way",
+        "The Third Way",
+        "The Fourth Way"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The First Way argues from motion, suggesting that everything in motion must have been set in motion by something else"
+    },
+    {
+      "question": "What is the main premise of the cosmological argument as proposed by Aquinas?",
+      "options": [
+        "Everything has a purpose",
+        "Everything must have a cause",
+        "The universe is an illusion",
+        "God is the only necessary being"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosmological argument posits that everything must have a cause, leading to the conclusion of a first cause, which is God"
+    },
+    {
+      "question": "In the context of the cosmological argument, what does the term 'contingent being' refer to?",
+      "options": [
+        "A being that exists necessarily",
+        "A being that relies on another for existence",
+        "A being that is eternal",
+        "A being that has no purpose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A contingent being is one that depends on something else for its existence, contrasting with a necessary being. This corresponds to: A being that relies on another for existence."
+    },
+    {
+      "question": "David Hume challenged the cosmological argument by questioning the assumption of causation. What was one of his key criticisms?",
+      "options": [
+        "The universe is infinite",
+        "Cause and effect cannot be observed",
+        "The existence of God is self-evident",
+        "All effects have multiple causes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hume argued that the universe could be infinite and that we cannot assume that everything must have a cause, challenging the cosmological argument. This corresponds to: The universe is infinite."
+    },
+    {
+      "question": "Copleston and Russell engaged in a famous debate regarding the cosmological argument. What was Russell's main objection?",
+      "options": [
+        "The universe is not contingent",
+        "The universe requires a cause",
+        "The existence of God is not necessary",
+        "Causation is a human construct"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Russell argued that the existence of the universe does not necessitate a cause, thus challenging the cosmological argument. This corresponds to: The existence of God is not necessary."
+    },
+    {
+      "question": "Which of the following is a strength of the cosmological argument?",
+      "options": [
+        "It relies on empirical evidence",
+        "It is based on logical reasoning",
+        "It provides a definitive proof of God",
+        "It is universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cosmological argument is based on logical reasoning about causation, which many find compelling. This corresponds to: It is based on logical reasoning."
+    },
+    {
+      "question": "One criticism of the cosmological argument is that it jumps to the conclusion of a transcendent creator. What does this imply?",
+      "options": [
+        "It lacks sufficient evidence",
+        "It is universally accepted",
+        "It is based on empirical data",
+        "It is a logical necessity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that the cosmological argument does not provide enough evidence to justify the leap to a transcendent creator. This corresponds to: It lacks sufficient evidence."
+    },
+    {
+      "question": "What is a potential logical fallacy found in the cosmological argument?",
+      "options": [
+        "Begging the question",
+        "Post hoc reasoning",
+        "False dichotomy",
+        "Ad hominem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cosmological argument may commit the fallacy of begging the question by assuming what it seeks to prove"
+    },
+    {
+      "question": "Aquinas' cosmological argument is classified as which type of argument?",
+      "options": [
+        "A priori",
+        "A posteriori",
+        "Deductive",
+        "Inductive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' cosmological argument is an a posteriori argument, relying on observation and experience to infer the existence of God"
+    },
+    {
+      "question": "Which of the following best describes the nature of the cosmological argument?",
+      "options": [
+        "It is based on the design of the universe",
+        "It focuses on the existence of evil",
+        "It examines the cause of the universe",
+        "It relies on moral reasoning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cosmological argument specifically examines the cause of the universe, arguing that everything that exists has a cause. This corresponds to: It examines the cause of the universe."
+    }
+  ]
+}

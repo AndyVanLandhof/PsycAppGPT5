@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:55:46.070Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "principles",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following is NOT one of Fletcher's four working principles in Situation Ethics?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Determinism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Determinism is not one of the four working principles; the correct principles are pragmatism, relativism, positivism, and personalism"
+    },
+    {
+      "question": "Fletcher's principle of pragmatism suggests that ethical decisions should be based on what?",
+      "options": [
+        "Theoretical ideals",
+        "Practical outcomes",
+        "Absolute laws",
+        "Historical precedents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pragmatism emphasizes that ethical decisions must work in practice and lead to positive outcomes. This corresponds to: Practical outcomes."
+    },
+    {
+      "question": "In Situation Ethics, what does the principle of personalism emphasize?",
+      "options": [
+        "The importance of laws",
+        "The significance of individual people",
+        "The necessity of universal rules",
+        "The role of tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Personalism focuses on placing people at the center of ethical decision-making rather than rigid laws. This corresponds to: The significance of individual people."
+    },
+    {
+      "question": "A couple is considering whether to break a law to help a friend in need. According to Situation Ethics, which principle would guide their decision?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relativism suggests that the right action depends on the context, such as the need to help a friend"
+    },
+    {
+      "question": "If a person believes that love is the only intrinsic good, which of Fletcher's propositions are they aligning with?",
+      "options": [
+        "Love is the ruling norm",
+        "Love and justice are the same",
+        "Love wills the neighbor's good",
+        "Love is the goal of the act"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This aligns with the first proposition that states love is the only thing that is intrinsically good. This corresponds to: Love is the ruling norm."
+    },
+    {
+      "question": "In a situation where a person must choose between two actions, one legal and one illegal, Situation Ethics would suggest they choose based on which principle?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relativism indicates that the decision should depend on the specific context and the application of love"
+    },
+    {
+      "question": "Critics argue that Situation Ethics is too subjective. This criticism primarily targets which of Fletcher's principles?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relativistic nature of Situation Ethics can lead to subjective interpretations of what love requires in different situations. This corresponds to: Relativism."
+    },
+    {
+      "question": "Fletcher's principle of positivism suggests that ethical decisions should begin with what?",
+      "options": [
+        "A rational analysis",
+        "A positive commitment to love",
+        "An established law",
+        "A historical precedent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positivism emphasizes starting with a positive commitment to love rather than relying solely on reason"
+    },
+    {
+      "question": "When evaluating the effectiveness of Situation Ethics in a real-life scenario, which principle would most directly address the outcome of the action?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pragmatism focuses on whether the action leads to practical and positive outcomes in real-life situations"
+    },
+    {
+      "question": "Which of the following best describes the relationship between love and justice in Fletcher's Situation Ethics?",
+      "options": [
+        "They are completely separate",
+        "Justice is a form of love",
+        "Love is more important than justice",
+        "Justice overrides love"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher argues that love and justice are the same; justice is love distributed fairly. This corresponds to: Justice is a form of love."
+    }
+  ]
+}

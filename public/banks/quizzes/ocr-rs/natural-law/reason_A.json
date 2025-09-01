@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:50:42.102Z",
+  "curriculum": "ocr-rs",
+  "topicId": "natural-law",
+  "subId": "reason",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does Kant argue is the basis of moral law in ethics?",
+      "options": [
+        "Divine command",
+        "Human reason",
+        "Cultural norms",
+        "Social contracts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant believes that the moral law is a product of human reason, emphasizing the importance of rationality in ethical decision-making"
+    },
+    {
+      "question": "According to Kant, what is the significance of the categorical imperative?",
+      "options": [
+        "It is a guideline for personal happiness",
+        "It determines the legality of actions",
+        "It provides a universal moral law",
+        "It reflects societal norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The categorical imperative serves as a universal moral law that all rational beings should follow, according to Kant. This corresponds to: It provides a universal moral law."
+    },
+    {
+      "question": "In the context of Kantian ethics, what does autonomy refer to?",
+      "options": [
+        "Dependence on societal rules",
+        "The ability to make free moral choices",
+        "Following religious doctrines",
+        "Adhering to cultural traditions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Autonomy in Kantian ethics refers to the ability of individuals to make free moral choices based on reason. This corresponds to: The ability to make free moral choices."
+    },
+    {
+      "question": "A person believes that ethical decisions should be made based on universal principles rather than personal interests. This perspective aligns with which ethical theory?",
+      "options": [
+        "Utilitarianism",
+        "Kantian ethics",
+        "Virtue ethics",
+        "Relativism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This perspective aligns with Kantian ethics, which emphasizes universalizable judgments and the role of reason in ethical decision-making"
+    },
+    {
+      "question": "If a person acts ethically because they believe it will lead to personal gain, which aspect of Kant's ethics are they neglecting?",
+      "options": [
+        "The role of emotions",
+        "The importance of duty",
+        "The significance of consequences",
+        "The influence of culture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics stresses that actions should be taken out of duty and moral obligation, not for personal gain. This corresponds to: The importance of duty."
+    },
+    {
+      "question": "Which of the following best describes Role of Reason in Ethics?",
+      "options": [
+        "Emotional considerations",
+        "Cultural influences",
+        "Legal implications",
+        "Religious beliefs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Kant's focus on rationality may overlook the role of emotions in ethical decision-making. This corresponds to: Emotional considerations."
+    },
+    {
+      "question": "What is a common criticism of the application of Kantian ethics in real-life situations?",
+      "options": [
+        "It is too flexible",
+        "It lacks clear guidelines",
+        "It can lead to rigid moral judgments",
+        "It is overly subjective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics can lead to rigid moral judgments, as it emphasizes strict adherence to universal laws without considering context. This corresponds to: It can lead to rigid moral judgments."
+    },
+    {
+      "question": "In Kantian ethics, which of the following would be considered an unethical action?",
+      "options": [
+        "Helping a friend in need",
+        "Lying to protect someone's feelings",
+        "Following the law",
+        "Donating to charity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lying to protect someone's feelings is considered unethical in Kantian ethics, as it violates the principle of truthfulness and duty"
+    },
+    {
+      "question": "Which philosopher's ideas are closely associated with the concept of moral autonomy in ethics?",
+      "options": [
+        "Aristotle",
+        "Kant",
+        "Mill",
+        "Hume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant is closely associated with the concept of moral autonomy, emphasizing the role of reason in ethical decision-making"
+    },
+    {
+      "question": "Kant's ethical theory is often contrasted with which other ethical approach that focuses on outcomes?",
+      "options": [
+        "Deontology",
+        "Virtue ethics",
+        "Utilitarianism",
+        "Natural law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant's deontological ethics is often contrasted with utilitarianism, which focuses on the consequences of actions"
+    }
+  ]
+}

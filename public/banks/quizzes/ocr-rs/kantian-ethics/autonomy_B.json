@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:01:48.672Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "autonomy",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Kantian ethics, what is the primary basis for moral decision-making?",
+      "options": [
+        "Consequences of actions",
+        "Autonomy and rationality",
+        "Emotional responses",
+        "Cultural norms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes that moral actions must be based on autonomy and the capacity to act according to rational principles. This corresponds to: Autonomy and rationality."
+    },
+    {
+      "question": "In the context of Kantian ethics, which scenario best illustrates the violation of autonomy?",
+      "options": [
+        "A person chooses to donate an organ",
+        "A patient is coerced into surgery",
+        "A child decides to eat vegetables",
+        "A friend offers advice on a decision"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coercing a patient into surgery undermines their ability to make autonomous decisions, which is central to Kantian ethics. This corresponds to: A patient is coerced into surgery."
+    },
+    {
+      "question": "What does Kant argue about the act of killing someone who does not choose to die?",
+      "options": [
+        "It is sometimes permissible",
+        "It respects their autonomy",
+        "It is a grave violation of autonomy",
+        "It is morally neutral"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kant argues that killing someone who does not choose to die is a serious violation of their autonomy, as it disregards their fundamental right to choose life. This corresponds to: It is a grave violation of autonomy."
+    },
+    {
+      "question": "Which of the following best describes the Kantian view on moral autonomy?",
+      "options": [
+        "It is irrelevant to moral actions",
+        "It is a basic moral principle",
+        "It is secondary to utilitarian outcomes",
+        "It is only applicable to rational beings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics posits that respect for autonomy is a fundamental moral principle that underpins ethical decision-making. This corresponds to: It is a basic moral principle."
+    },
+    {
+      "question": "Diane Pretty's court case in 2002 raised issues about autonomy in relation to which ethical principle?",
+      "options": [
+        "Utilitarianism",
+        "Kantian ethics",
+        "Virtue ethics",
+        "Social contract theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diane Pretty's case highlighted the conflict between her desire for autonomy and the legal restrictions on assisted dying, relevant to Kantian ethics"
+    },
+    {
+      "question": "What is a potential criticism of Kantian ethics regarding autonomy?",
+      "options": [
+        "It allows for too much personal freedom",
+        "It may ignore emotional factors in decision-making",
+        "It is too focused on consequences",
+        "It does not consider cultural differences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Kantian ethics may overlook the importance of emotional factors in moral decision-making, which can be crucial for understanding autonomy. This corresponds to: It may ignore emotional factors in decision-making."
+    },
+    {
+      "question": "In Kantian ethics, which of the following is considered a necessary condition for moral autonomy?",
+      "options": [
+        "Ability to feel emotions",
+        "Capacity to make rational choices",
+        "Influence of societal norms",
+        "Desire for happiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics asserts that moral autonomy requires the capacity to make rational choices, distinguishing autonomous beings from those who cannot"
+    },
+    {
+      "question": "How does Kantian ethics view the relationship between autonomy and moral responsibility?",
+      "options": [
+        "They are unrelated",
+        "Autonomy diminishes responsibility",
+        "Autonomy is essential for moral responsibility",
+        "Moral responsibility is independent of autonomy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics holds that autonomy is essential for moral responsibility, as individuals must be capable of making rational choices to be held accountable"
+    },
+    {
+      "question": "What is a key difference between Kantian ethics and utilitarianism regarding autonomy?",
+      "options": [
+        "Kantian ethics prioritizes outcomes",
+        "Utilitarianism disregards individual rights",
+        "Kantian ethics focuses on emotional responses",
+        "Utilitarianism values rationality above all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key difference is that Kantian ethics prioritizes respect for individual autonomy, while utilitarianism may sacrifice individual rights for greater overall happiness. This corresponds to: Utilitarianism disregards individual rights."
+    },
+    {
+      "question": "Which ethical theory argues that individuals should not be compelled to act against their will?",
+      "options": [
+        "Kantian ethics",
+        "Utilitarianism",
+        "Social contract theory",
+        "Virtue ethics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kantian ethics asserts that individuals should have the freedom to make their own decisions without coercion, emphasizing the importance of autonomy"
+    }
+  ]
+}

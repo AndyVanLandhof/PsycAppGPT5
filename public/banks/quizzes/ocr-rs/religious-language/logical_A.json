@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:41:48.124Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "logical",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which philosopher argued that religious language is meaningless because it is unfalsifiable, stating that believers do not accept any basis for refutation?",
+      "options": [
+        "A. Richard Swinburne",
+        "B. Anthony Flew",
+        "C. Ludwig Wittgenstein",
+        "D. A.J. Ayer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anthony Flew argued that God-talk is meaningless as believers do not allow any conditions under which their claims could be proven false. This corresponds to: B. Anthony Flew."
+    },
+    {
+      "question": "What does A.J. Ayer's verification principle suggest about religious statements?",
+      "options": [
+        "A. They are always true.",
+        "B. They are meaningful only if they can be empirically verified.",
+        "C. They can be understood through language games.",
+        "D. They are inherently cognitive."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ayer's verification principle posits that a statement is only meaningful if it can be empirically verified. This corresponds to: B. They are meaningful only if they can be empirically verified.."
+    },
+    {
+      "question": "In the context of verificationism, what is the difference between strong and weak verification?",
+      "options": [
+        "A. Strong verification requires empirical evidence, while weak verification relies on inductive reasoning.",
+        "B. Strong verification is based on historical evidence, while weak verification is based on logical reasoning.",
+        "C. Strong verification is always true, while weak verification is sometimes false.",
+        "D. Strong verification is subjective, while weak verification is objective."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Strong verification requires direct empirical evidence, whereas weak verification allows for inductive reasoning based on past evidence. This corresponds to: A. Strong verification requires empirical evidence, while weak verification relies on inductive reasoning.."
+    },
+    {
+      "question": "According to Richard Swinburne, what is a significant critique of the verification principle?",
+      "options": [
+        "A. It cannot account for historical claims.",
+        "B. It is too focused on empirical evidence.",
+        "C. It fails to recognize the meaningfulness of unverifiable statements.",
+        "D. It is too simplistic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Swinburne argues that many meaningful discussions, such as those in history and theoretical physics, cannot be verified even weakly. This corresponds to: C. It fails to recognize the meaningfulness of unverifiable statements.."
+    },
+    {
+      "question": "What parable did Anthony Flew use to illustrate his point about unfalsifiable claims?",
+      "options": [
+        "A. The Parable of the Road",
+        "B. The Parable of the Celestial City",
+        "C. The Parable of the Explorers",
+        "D. The Parable of the Gardener"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flew used the Parable of the Explorers to demonstrate how unfalsifiable claims can lead to meaningless assertions. This corresponds to: C. The Parable of the Explorers."
+    },
+    {
+      "question": "How does Ludwig Wittgenstein's concept of language games challenge the verification and falsification principles?",
+      "options": [
+        "A. It suggests that religious language is cognitive.",
+        "B. It posits that meaning is derived from the context of use rather than verification.",
+        "C. It argues that all language must be empirically verifiable.",
+        "D. It supports the idea that religious statements can be falsified."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wittgenstein's language games suggest that the meaning of statements, including religious ones, is determined by their use in specific contexts rather than by verification or falsification. This corresponds to: B. It posits that meaning is derived from the context of use rather than verification.."
+    },
+    {
+      "question": "What is a methodological issue with Flew's argument regarding the meaningfulness of religious language?",
+      "options": [
+        "A. It relies too heavily on empirical evidence.",
+        "B. It does not account for the subjective nature of belief.",
+        "C. It assumes all statements must be falsifiable to be meaningful.",
+        "D. It overlooks the role of language in shaping meaning."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flew's argument assumes that all meaningful statements must be falsifiable, which may not account for the subjective and non-cognitive aspects of religious language. This corresponds to: C. It assumes all statements must be falsifiable to be meaningful.."
+    },
+    {
+      "question": "In the falsification symposium, which thinker argued that believers modify their claims to avoid falsification, leading to meaningless assertions?",
+      "options": [
+        "A. Richard Swinburne",
+        "B. R.M. Hare",
+        "C. Anthony Flew",
+        "D. Basil Mitchell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anthony Flew argued that believers modify their claims in response to evidence, which makes their assertions unfalsifiable and thus meaningless. This corresponds to: C. Anthony Flew."
+    },
+    {
+      "question": "What does the term 'cognitive' refer to in the context of religious language, as discussed by Aquinas?",
+      "options": [
+        "A. Language that is subjective and personal.",
+        "B. Language that can be empirically verified.",
+        "C. Language that conveys factual information.",
+        "D. Language that is based on emotional experience."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cognitive language refers to statements that can be assessed for truth or falsity, which Aquinas believed applied to religious language through analogy. This corresponds to: C. Language that conveys factual information.."
+    },
+    {
+      "question": "Which one philosopher argued that religious language is meaningless because it is unfalsifiable, stating that believers do not accept any basis for refutation?",
+      "options": [
+        "A. Richard Swinburne",
+        "B. Anthony Flew",
+        "C. Ludwig Wittgenstein",
+        "D. A.J. Ayer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anthony Flew argued that God-talk is meaningless as believers do not allow any conditions under which their claims could be proven false. This corresponds to: B. Anthony Flew."
+    }
+  ]
+}

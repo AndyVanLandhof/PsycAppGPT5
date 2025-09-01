@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:54:39.740Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "agape",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the key principle of Joseph Fletcher's situation ethics?",
+      "options": [
+        "Agape love is the only intrinsic good",
+        "Justice is the highest moral standard",
+        "Absolute laws govern moral decisions",
+        "Consequences are irrelevant to ethics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fletcher's situation ethics is centered around the idea that agape love is the only thing that is intrinsically good. This corresponds to: Agape love is the only intrinsic good."
+    },
+    {
+      "question": "In Fletcher's situation ethics, how is agape love defined?",
+      "options": [
+        "As conditional love based on personal relationships",
+        "As unconditional love for all individuals",
+        "As a form of sexual love",
+        "As a legalistic approach to ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Agape is described as unconditional love for one's neighbour, distinct from other forms of love. This corresponds to: As unconditional love for all individuals."
+    },
+    {
+      "question": "According to Fletcher, what does the principle of relativism in situation ethics imply?",
+      "options": [
+        "Moral decisions are absolute and unchanging",
+        "Love is the only constant in ethical decision-making",
+        "Ethical decisions depend on individual circumstances",
+        "All actions are equally valid regardless of context"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Relativism in situation ethics means that ethical decisions are made relative to the specific circumstances of each situation. This corresponds to: Ethical decisions depend on individual circumstances."
+    },
+    {
+      "question": "If a person is faced with a moral dilemma, what does Fletcher suggest should guide their decision?",
+      "options": [
+        "A strict adherence to religious laws",
+        "The maximization of personal pleasure",
+        "The most loving action in that situation",
+        "The opinions of the majority"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher argues that the most loving action should guide moral decisions, emphasizing the importance of agape. This corresponds to: The most loving action in that situation."
+    },
+    {
+      "question": "In what way does Fletcher's view of conscience differ from traditional views?",
+      "options": [
+        "It is a noun representing fixed moral laws",
+        "It is a verb describing decision-making processes",
+        "It is irrelevant in moral decision-making",
+        "It is solely based on societal norms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher sees conscience as a verb, emphasizing the creative process of making decisions rather than a fixed set of rules. This corresponds to: It is a verb describing decision-making processes."
+    },
+    {
+      "question": "A couple decides to engage in premarital sex because they believe it will strengthen their relationship. How would Fletcher evaluate this decision?",
+      "options": [
+        "It is always wrong regardless of circumstances",
+        "It is acceptable if it is the most loving choice",
+        "It should be avoided at all costs",
+        "It is only permissible if sanctioned by law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher would evaluate the couple's decision based on whether it is the most loving choice in their specific situation. This corresponds to: It is acceptable if it is the most loving choice."
+    },
+    {
+      "question": "What criticism might be leveled against situation ethics regarding its application in moral decision-making?",
+      "options": [
+        "It is too rigid and inflexible",
+        "It can lead to subjective and individualistic decisions",
+        "It ignores the importance of love",
+        "It is overly reliant on absolute laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the rejection of absolute rules in situation ethics can lead to individualistic and subjective moral decisions. This corresponds to: It can lead to subjective and individualistic decisions."
+    },
+    {
+      "question": "How does Fletcher's situation ethics aim to balance legalism and antinomianism?",
+      "options": [
+        "By promoting strict adherence to laws",
+        "By advocating for complete freedom in moral choices",
+        "By establishing one absolute principle of love",
+        "By ignoring all ethical considerations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher's situation ethics seeks to provide a middle ground by establishing agape love as the absolute principle while allowing for relativism in application. This corresponds to: By establishing one absolute principle of love."
+    },
+    {
+      "question": "What is one potential limitation of using agape as the sole ethical principle in situation ethics?",
+      "options": [
+        "It is too simplistic and ignores complex moral issues",
+        "It is universally accepted across all cultures",
+        "It provides clear guidelines for all situations",
+        "It is based on outdated religious beliefs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One limitation is that agape may be too high a standard for personal relationships, often governed by self-interest. This corresponds to: It is too simplistic and ignores complex moral issues."
+    },
+    {
+      "question": "Fletcher argues that love and justice are the same thing. What does he mean by this?",
+      "options": [
+        "Justice is more important than love",
+        "Love must be distributed fairly",
+        "Justice is a legal concept unrelated to love",
+        "Love can be ignored in the name of justice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher believes that justice is love that is distributed, meaning that true justice involves acting out of love for others. This corresponds to: Love must be distributed fairly."
+    }
+  ]
+}

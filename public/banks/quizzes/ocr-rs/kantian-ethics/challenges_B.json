@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:02:42.147Z",
+  "curriculum": "ocr-rs",
+  "topicId": "kantian-ethics",
+  "subId": "challenges",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is one of Kant's main criticisms regarding the concept of existence in ontological arguments?",
+      "options": [
+        "Existence is a determining predicate",
+        "Existence must be proven synthetically",
+        "Existence is an analytic statement",
+        "Existence is irrelevant to moral duties"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant argues that existence is not a real or determining predicate, meaning it does not add to our understanding of a concept. This corresponds to: Existence must be proven synthetically."
+    },
+    {
+      "question": "In the context of Kantian ethics, what does the term 'categorical imperative' refer to?",
+      "options": [
+        "A moral obligation based on personal desires",
+        "A command that applies universally",
+        "A guideline for hypothetical situations",
+        "A principle that allows for exceptions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The categorical imperative is a command that applies universally, requiring actions to be considered as if they should be made a universal law"
+    },
+    {
+      "question": "Kant's ethical theory is often criticized for its lack of consideration for which aspect of moral decision-making?",
+      "options": [
+        "Rationality",
+        "Emotions",
+        "Universalizability",
+        "Autonomy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Kantian ethics is too rigid and does not account for emotions, which can play a significant role in moral decisions"
+    },
+    {
+      "question": "According to Kant, why is it wrong to make a lying promise?",
+      "options": [
+        "It leads to negative outcomes",
+        "It cannot be universalized",
+        "It violates personal autonomy",
+        "It is emotionally harmful"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant believes that making a lying promise cannot be universalized, as if everyone did so, the concept of a promise would become meaningless. This corresponds to: It cannot be universalized."
+    },
+    {
+      "question": "What is a key feature of Kant's view on moral duties?",
+      "options": [
+        "They are based on personal feelings",
+        "They are determined by societal norms",
+        "They are absolute and objective",
+        "They vary by situation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics is absolutist, meaning it holds that moral duties are absolute and do not change based on circumstances. This corresponds to: They are absolute and objective."
+    },
+    {
+      "question": "In a scenario where a murderer asks for the location of their next victim, what would Kant argue is the moral action?",
+      "options": [
+        "To lie to protect the victim",
+        "To tell the truth",
+        "To remain silent",
+        "To call the police"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant would argue that telling the truth is the moral action, as it aligns with the duty to uphold honesty, regardless of the consequences. This corresponds to: To tell the truth."
+    },
+    {
+      "question": "What does Kant mean by the phrase 'ought implies can'?",
+      "options": [
+        "Moral duties are subjective",
+        "Moral obligations are based on desires",
+        "One can only be held accountable for duties they can fulfill",
+        "Moral actions are determined by societal expectations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Ought implies can' means that for a moral duty to exist, the individual must have the ability to perform that duty. This corresponds to: One can only be held accountable for duties they can fulfill."
+    },
+    {
+      "question": "Which of the following is a criticism of Kantian ethics regarding its application to real-life situations?",
+      "options": [
+        "It is too flexible",
+        "It allows for emotional considerations",
+        "It can lead to morally questionable outcomes",
+        "It is based on hypothetical scenarios"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that Kantian ethics can lead to morally questionable outcomes, such as telling the truth to a murderer, which may not align with common moral intuitions. This corresponds to: It can lead to morally questionable outcomes."
+    },
+    {
+      "question": "Kant's ethical theory relies on the assumption of which three postulates for morality to function?",
+      "options": [
+        "Freedom, immortality, and God",
+        "Reason, emotion, and society",
+        "Autonomy, happiness, and justice",
+        "Duty, consequence, and virtue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kant argues that for absolute moral duties to exist, we must assume the existence of free will, an afterlife, and God. This corresponds to: Freedom, immortality, and God."
+    },
+    {
+      "question": "How does Kantian ethics view the treatment of individuals in business ethics?",
+      "options": [
+        "As means to an end",
+        "As objects of profit",
+        "As ends in themselves",
+        "As negotiable assets"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics emphasizes treating individuals as ends in themselves, which means respecting their dignity and rights in business practices"
+    }
+  ]
+}

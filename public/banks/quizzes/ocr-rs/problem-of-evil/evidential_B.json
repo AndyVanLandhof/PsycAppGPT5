@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:34:06.025Z",
+  "curriculum": "ocr-rs",
+  "topicId": "problem-of-evil",
+  "subId": "evidential",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does the evidential problem of evil primarily focus on?",
+      "options": [
+        "The logical inconsistency of God's attributes",
+        "The sheer amount and extent of evil and suffering",
+        "The existence of free will",
+        "The nature of divine benevolence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil uses observations of suffering to argue against the existence of an all-powerful and benevolent God. This corresponds to: The sheer amount and extent of evil and suffering."
+    },
+    {
+      "question": "Which of the following is an example of moral evil as discussed in the evidential problem of evil?",
+      "options": [
+        "Natural disasters causing suffering",
+        "Animals killing for survival",
+        "Terrorist attacks",
+        "Disease outbreaks"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Terrorist attacks are a clear example of moral evil, as they involve human actions that cause suffering"
+    },
+    {
+      "question": "According to the evidential problem of evil, why might the existence of suffering challenge the belief in God?",
+      "options": [
+        "It suggests God is not omnipotent",
+        "It indicates God is indifferent to suffering",
+        "It raises questions about the nature of evil",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The existence of suffering raises multiple challenges to the belief in an all-powerful and benevolent God, suggesting limitations in God's attributes. This corresponds to: All of the above."
+    },
+    {
+      "question": "What is a key assumption of the evidential problem of evil regarding God's knowledge?",
+      "options": [
+        "God does not know about evil",
+        "God knows about evil but allows it",
+        "God is unaware of human suffering",
+        "God created a perfect world"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem assumes that an omniscient God knows about all suffering and yet allows it to occur. This corresponds to: God knows about evil but allows it."
+    },
+    {
+      "question": "Which philosopher's view is often contrasted with the evidential problem of evil due to their belief in the necessity of suffering for development?",
+      "options": [
+        "Augustine",
+        "Hick",
+        "Epicurus",
+        "Irenaeus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's view suggests that suffering serves a purpose in human development, which contrasts with the evidential problem's focus on the existence of pointless suffering"
+    },
+    {
+      "question": "What does the term 'epistemic distance' refer to in the context of the problem of evil?",
+      "options": [
+        "The gap between human understanding and God's knowledge",
+        "The distance between moral and natural evil",
+        "The separation of God from human suffering",
+        "The difference in perceptions of evil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Epistemic distance refers to the gap between human understanding and God's knowledge, impacting how suffering is perceived"
+    },
+    {
+      "question": "How does the evidential problem of evil challenge theistic beliefs?",
+      "options": [
+        "By questioning the existence of free will",
+        "By highlighting the amount of suffering in the world",
+        "By suggesting God is not all-knowing",
+        "By denying the existence of evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem emphasizes the extensive suffering observed in the world, which challenges the belief in a benevolent and omnipotent God. This corresponds to: By highlighting the amount of suffering in the world."
+    },
+    {
+      "question": "Which of the following statements best reflects the evidential problem of evil's critique of God?",
+      "options": [
+        "God is not powerful enough to prevent evil",
+        "God does not care about human suffering",
+        "God's existence is incompatible with the amount of evil",
+        "God is limited by human free will"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The evidential problem argues that the sheer amount of evil and suffering observed is incompatible with the existence of an all-powerful and benevolent God. This corresponds to: God's existence is incompatible with the amount of evil."
+    },
+    {
+      "question": "What is one methodological issue with the evidential problem of evil?",
+      "options": [
+        "It relies solely on subjective experiences",
+        "It assumes a complete understanding of God's nature",
+        "It does not consider historical context",
+        "It overlooks the role of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidential problem assumes that humans fully understand God's nature and decisions, which may not be the case. This corresponds to: It assumes a complete understanding of God's nature."
+    },
+    {
+      "question": "Which aspect of the problem of evil is considered more challenging to belief according to some scholars?",
+      "options": [
+        "Logical problem of evil",
+        "Evidential problem of evil",
+        "Moral evil",
+        "Natural evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Some scholars argue that the evidential problem of evil, due to its focus on the extent of suffering, poses a greater challenge to belief than the logical problem"
+    }
+  ]
+}

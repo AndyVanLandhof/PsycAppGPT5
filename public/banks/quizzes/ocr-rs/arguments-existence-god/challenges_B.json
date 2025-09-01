@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:29:44.431Z",
+  "curriculum": "ocr-rs",
+  "topicId": "arguments-existence-god",
+  "subId": "challenges",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which philosopher criticized the teleological and cosmological arguments by stating that we cannot meaningfully speak of the design of the world due to insufficient experience?",
+      "options": [
+        "David Hume",
+        "Thomas Aquinas",
+        "William Paley",
+        "J. Cottingham"
+      ],
+      "correctAnswer": 0,
+      "explanation": "David Hume argued that our limited experience prevents us from drawing meaningful conclusions about the design of the world"
+    },
+    {
+      "question": "In the context of the cosmological argument, which of Aquinas' ways specifically addresses the concept of a first cause?",
+      "options": [
+        "First Way",
+        "Second Way",
+        "Third Way",
+        "Fifth Way"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas' First Way argues for the existence of a first cause, which is necessary to explain the existence of everything else"
+    },
+    {
+      "question": "Hume's criticism of the cosmological argument suggests that it may jump to conclusions about a transcendent creator without sufficient evidence. What is this criticism primarily focused on?",
+      "options": [
+        "The uniqueness of the universe",
+        "The nature of causation",
+        "The existence of chance",
+        "The role of empirical evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume's critique highlights that the cosmological argument may not adequately justify the leap from observed effects to a transcendent cause. This corresponds to: The nature of causation."
+    },
+    {
+      "question": "Which argument suggests that the complexity and purpose in nature imply a designer, as exemplified by the human eye?",
+      "options": [
+        "Cosmological Argument",
+        "Teleological Argument",
+        "Moral Argument",
+        "Ontological Argument"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Teleological Argument posits that the complexity and purpose observed in nature indicate the existence of a designer"
+    },
+    {
+      "question": "What challenge to the teleological argument is posed by the concept of chance?",
+      "options": [
+        "It suggests that design is an illusion.",
+        "It implies that complexity can arise without a designer.",
+        "It questions the existence of empirical evidence.",
+        "It supports the idea of a transcendent creator."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The challenge of chance argues that complexity in nature could arise without the need for a designer, undermining the teleological argument. This corresponds to: It implies that complexity can arise without a designer.."
+    },
+    {
+      "question": "Which of the following is a potential logical fallacy in the cosmological argument as critiqued by philosophers?",
+      "options": [
+        "Begging the question",
+        "False dichotomy",
+        "Post hoc reasoning",
+        "Ad hominem attack"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that the cosmological argument may beg the question by assuming the existence of a first cause without sufficient justification. This corresponds to: Begging the question."
+    },
+    {
+      "question": "What is a key difference between a priori and a posteriori arguments in the context of arguments for the existence of God?",
+      "options": [
+        "A priori arguments rely on observation, while a posteriori arguments do not.",
+        "A posteriori arguments are based on empirical evidence, while a priori arguments are not.",
+        "A priori arguments are more persuasive than a posteriori arguments.",
+        "A posteriori arguments require less faith than a priori arguments."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A posteriori arguments, such as the teleological and cosmological arguments, are based on empirical evidence, while a priori arguments are not. This corresponds to: A posteriori arguments are based on empirical evidence, while a priori arguments are not.."
+    },
+    {
+      "question": "In evaluating the teleological argument, what is one major criticism regarding the nature of the universe?",
+      "options": [
+        "It assumes a designer without evidence.",
+        "It relies too heavily on human perception.",
+        "It overlooks the role of evolution.",
+        "It fails to account for moral values."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The challenge of evolution suggests that the complexity observed in nature can be explained through natural processes rather than requiring a designer. This corresponds to: It overlooks the role of evolution.."
+    },
+    {
+      "question": "What does J. Cottingham suggest about arguments for the existence of God?",
+      "options": [
+        "They are universally convincing.",
+        "They are often based on prior belief.",
+        "They rely solely on empirical evidence.",
+        "They are independent of faith."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cottingham argues that such arguments are often formed by those who already believe in God, aiming to rationalize their faith. This corresponds to: They are often based on prior belief.."
+    },
+    {
+      "question": "Which of the following best describes Hume's view on the conclusions drawn from the teleological and cosmological arguments?",
+      "options": [
+        "They are definitive proofs of God's existence.",
+        "They are based on insufficient evidence.",
+        "They are universally accepted by philosophers.",
+        "They rely on a priori reasoning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume believed that the conclusions drawn from these arguments are only probable and not definitive due to insufficient evidence. This corresponds to: They are based on insufficient evidence.."
+    }
+  ]
+}

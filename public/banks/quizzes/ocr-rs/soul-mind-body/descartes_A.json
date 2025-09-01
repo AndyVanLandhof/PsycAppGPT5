@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:12:32.982Z",
+  "curriculum": "ocr-rs",
+  "topicId": "soul-mind-body",
+  "subId": "descartes",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the main argument Descartes uses to support his substance dualism regarding the mind and body?",
+      "options": [
+        "The mind is divisible like the body.",
+        "The mind can be doubted, but the existence of the 'I' cannot.",
+        "The body is immaterial and cannot think.",
+        "The mind and body are identical substances."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes argues that while one can doubt the existence of the body, the existence of the thinking 'I' is undeniable, supporting his view of dualism. This corresponds to: The mind can be doubted, but the existence of the 'I' cannot.."
+    },
+    {
+      "question": "According to Descartes, where is the link between the mind and body located?",
+      "options": [
+        "The cerebral cortex",
+        "The cerebellum",
+        "The pineal gland",
+        "The hippocampus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Descartes proposed that the pineal gland is the point of interaction between the immaterial mind and the physical body"
+    },
+    {
+      "question": "What philosophical principle does Descartes use to argue for the distinction between mind and body?",
+      "options": [
+        "Ockham's Razor",
+        "Leibniz's Law",
+        "The Principle of Sufficient Reason",
+        "The Law of Non-Contradiction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes employs Leibniz's Law, which states that if two objects are identical, they must share all properties; thus, differences imply distinct substances"
+    },
+    {
+      "question": "If a person can doubt their body but not their mind, what does this illustrate in Descartes' philosophy?",
+      "options": [
+        "The mind is a physical entity.",
+        "The body is more important than the mind.",
+        "The mind and body are the same.",
+        "The mind is a distinct substance."
+      ],
+      "correctAnswer": 3,
+      "explanation": "This scenario illustrates Descartes' argument that the mind is a distinct substance because it cannot be doubted like the body can. This corresponds to: The mind is a distinct substance.."
+    },
+    {
+      "question": "What is a key criticism of Descartes' dualism regarding the interaction between mind and body?",
+      "options": [
+        "It lacks empirical evidence.",
+        "It is too simplistic.",
+        "It relies on subjective experiences.",
+        "It assumes the mind is divisible."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Descartes' dualism lacks empirical evidence to support how a non-physical mind can interact with a physical body. This corresponds to: It lacks empirical evidence.."
+    },
+    {
+      "question": "Which of the following best describes Gilbert Ryle's criticism of Descartes' dualism?",
+      "options": [
+        "It is a category error.",
+        "It is scientifically proven.",
+        "It is a form of materialism.",
+        "It is overly complex."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ryle argues that Descartes' view of the mind as a separate entity is a category error, misunderstanding how we describe mental processes. This corresponds to: It is a category error.."
+    },
+    {
+      "question": "What example does Ryle use to illustrate a category error in Descartes' dualism?",
+      "options": [
+        "A boy watching a parade.",
+        "A person doubting their existence.",
+        "A stranger visiting a university.",
+        "A scientist studying the brain."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ryle uses the example of a stranger visiting a university and asking where the university is to illustrate the misunderstanding of the mind-body relationship. This corresponds to: A stranger visiting a university.."
+    },
+    {
+      "question": "What does Descartes' phrase 'Cogito, ergo sum' signify in his philosophy?",
+      "options": [
+        "The mind is a physical entity.",
+        "The body is separate from the mind.",
+        "Thinking is proof of existence.",
+        "The soul is the essence of being."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Cogito, ergo sum' means 'I think, therefore I am', indicating that the act of thinking is proof of one's existence and the distinct nature of the mind. This corresponds to: Thinking is proof of existence.."
+    },
+    {
+      "question": "What is one argument materialists use against Descartes' dualism?",
+      "options": [
+        "The mind cannot exist without the body.",
+        "The body is not a physical entity.",
+        "The mind is a separate substance.",
+        "The soul is essential for consciousness."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Materialists argue that the mind cannot exist independently of the body, challenging the dualist view that they are separate substances. This corresponds to: The mind cannot exist without the body.."
+    },
+    {
+      "question": "How does Descartes' view of the mind differ from materialist perspectives?",
+      "options": [
+        "The mind is a physical process.",
+        "The mind is a non-physical substance.",
+        "The mind is identical to the brain.",
+        "The mind is a social construct."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Descartes posits that the mind is a non-physical substance, contrasting with materialist views that equate the mind with physical brain processes. This corresponds to: The mind is a non-physical substance.."
+    }
+  ]
+}

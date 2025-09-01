@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:55:24.088Z",
+  "curriculum": "ocr-rs",
+  "topicId": "situation-ethics",
+  "subId": "principles",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is NOT one of Fletcher's four working principles in Situation Ethics?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Determinism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Determinism is not one of the principles; the correct principles are pragmatism, relativism, positivism, and personalism"
+    },
+    {
+      "question": "Fletcher's principle of personalism emphasizes which of the following?",
+      "options": [
+        "Rules over individuals",
+        "Individuals over rules",
+        "Theoretical ethics",
+        "Absolute laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Personalism focuses on placing individuals at the center of ethical decision-making rather than adhering strictly to rules. This corresponds to: Individuals over rules."
+    },
+    {
+      "question": "In Situation Ethics, what does the principle of pragmatism suggest?",
+      "options": [
+        "Theoretical solutions are sufficient",
+        "Practical outcomes are essential",
+        "Love is always absolute",
+        "Ethics should be based on tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pragmatism asserts that ethical decisions must lead to practical and positive outcomes. This corresponds to: Practical outcomes are essential."
+    },
+    {
+      "question": "A couple is considering whether to have premarital sex. According to Situation Ethics, their decision should primarily focus on which principle?",
+      "options": [
+        "Legalism",
+        "Agape love",
+        "Duty",
+        "Tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The couple should focus on agape love, which emphasizes unconditional love and the best outcome for all involved"
+    },
+    {
+      "question": "Fletcher's relativism suggests that ethical decisions should be made based on what?",
+      "options": [
+        "Fixed moral laws",
+        "Contextual factors",
+        "Universal truths",
+        "Historical precedents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relativism indicates that the right action depends on the specific context of each situation. This corresponds to: Contextual factors."
+    },
+    {
+      "question": "Which of the following best describes Fletcher's view on conscience?",
+      "options": [
+        "A noun that dictates moral rules",
+        "A verb that describes decision-making",
+        "An absolute guide to ethics",
+        "A fixed set of laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher views conscience as a verb, emphasizing the active process of making moral decisions rather than a static set of rules. This corresponds to: A verb that describes decision-making."
+    },
+    {
+      "question": "Fletcher argues that Situation Ethics is a form of principled relativism. What does this mean?",
+      "options": [
+        "There are no principles",
+        "One absolute principle exists",
+        "All actions are equally valid",
+        "Ethics is purely subjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Principled relativism means that while there is one absolute principle (agape love), the application of this principle varies by situation. This corresponds to: One absolute principle exists."
+    },
+    {
+      "question": "William Barclay criticizes Situation Ethics for being too demanding. What does he suggest is a potential risk?",
+      "options": [
+        "It encourages legalism",
+        "It may lead to selfishness",
+        "It simplifies moral decisions",
+        "It promotes strict adherence to tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barclay argues that without a framework of laws, the freedom in Situation Ethics can lead to selfishness or cruelty. This corresponds to: It may lead to selfishness."
+    },
+    {
+      "question": "In the context of Situation Ethics, how does the principle of positivism differ from natural law?",
+      "options": [
+        "It relies on human reason",
+        "It begins with a commitment to love",
+        "It is based on fixed moral laws",
+        "It emphasizes tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positivism starts with a belief in the importance of love, contrasting with natural law's reliance on reason to discover moral rules. This corresponds to: It begins with a commitment to love."
+    },
+    {
+      "question": "How does Fletcher's Situation Ethics address the relationship between love and justice?",
+      "options": [
+        "They are completely separate",
+        "Justice is a form of love",
+        "Love is more important than justice",
+        "Justice overrides love"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher posits that love and justice are the same; justice is love that is distributed fairly. This corresponds to: Justice is a form of love."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:41:02.727Z",
+  "curriculum": "ocr-rs",
+  "topicId": "religious-language",
+  "subId": "via",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does the apophatic way (via negativa) emphasize when discussing God?",
+      "options": [
+        "Describing God positively",
+        "Describing what God is not",
+        "Using analogies to explain God",
+        "Symbolic representations of God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apophatic way argues that the only legitimate way to talk about God is to say what He is not, such as 'God is infinite' or 'unknowable'. This corresponds to: Describing what God is not."
+    },
+    {
+      "question": "According to Pseudo-Dionysius, why is the apophatic way preferable to the cataphatic way?",
+      "options": [
+        "It allows for a clearer understanding of God",
+        "It preserves the mystery of God",
+        "It uses everyday language",
+        "It is more relatable to humans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pseudo-Dionysius argues that apophatic language preserves the mystery of God, avoiding anthropomorphism inherent in cataphatic descriptions. This corresponds to: It preserves the mystery of God."
+    },
+    {
+      "question": "In what way does Aquinas' analogy of attribution help in discussing God's nature?",
+      "options": [
+        "It uses negative statements",
+        "It allows for direct comparisons with human qualities",
+        "It provides a univocal understanding of God",
+        "It suggests that human language can describe God accurately"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' analogy of attribution allows for comparisons between God and human qualities, but it acknowledges that these comparisons are not direct. This corresponds to: It allows for direct comparisons with human qualities."
+    },
+    {
+      "question": "What is a key criticism of the cataphatic way (via positiva)?",
+      "options": [
+        "It is too abstract",
+        "It risks anthropomorphizing God",
+        "It is too simplistic",
+        "It is universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cataphatic way risks anthropomorphizing God by using human terms, which may misrepresent God's true nature. This corresponds to: It risks anthropomorphizing God."
+    },
+    {
+      "question": "How does Tillich view theological language?",
+      "options": [
+        "As entirely literal",
+        "As almost entirely symbolic",
+        "As primarily negative",
+        "As universally applicable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tillich argues that theological language is almost entirely symbolic, emphasizing the limitations of human language in describing God. This corresponds to: As almost entirely symbolic."
+    },
+    {
+      "question": "Moses Maimonides suggested that describing God through negation leads to what outcome?",
+      "options": [
+        "A clearer understanding of God",
+        "A misunderstanding of God's nature",
+        "A closer approximation of God's essence",
+        "A complete description of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maimonides claimed that by describing God only through what He is not, one can arrive closer to understanding God's essence. This corresponds to: A closer approximation of God's essence."
+    },
+    {
+      "question": "What is a methodological issue with using analogy to describe God?",
+      "options": [
+        "It is too vague",
+        "It requires univocal language",
+        "It is universally accepted",
+        "It does not allow for personal interpretation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that analogy requires translating terms into univocal language first, complicating the understanding of God's nature. This corresponds to: It requires univocal language."
+    },
+    {
+      "question": "What does the term 'equivocal' mean in the context of religious language?",
+      "options": [
+        "Words have the same meaning when applied to God",
+        "Words have different meanings when applied to God",
+        "Words are universally understood",
+        "Words are always negative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In religious language, 'equivocal' means that words used about God can have different meanings than when used in everyday contexts. This corresponds to: Words have different meanings when applied to God."
+    },
+    {
+      "question": "What is a strength of the apophatic way in discussing God?",
+      "options": [
+        "It provides clear definitions",
+        "It avoids misrepresentation of God's nature",
+        "It is easily understood by everyone",
+        "It allows for personal interpretations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The apophatic way avoids misrepresentation by emphasizing what God is not, thus maintaining the transcendence of God. This corresponds to: It avoids misrepresentation of God's nature."
+    },
+    {
+      "question": "Which of the following best describes the cataphatic way (via positiva)?",
+      "options": [
+        "It uses negative statements about God",
+        "It describes God using positive attributes",
+        "It avoids any description of God",
+        "It relies solely on symbolic language"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cataphatic way uses positive language to describe God's qualities, such as 'God is good' or 'God is loving'. This corresponds to: It describes God using positive attributes."
+    }
+  ]
+}

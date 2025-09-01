@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T14:23:00.734Z",
+  "curriculum": "ocr-rs",
+  "topicId": "nature-attributes-god",
+  "subId": "benevolence",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does the term 'omnibenevolence' imply about God's nature?",
+      "options": [
+        "God is all-powerful",
+        "God is all-loving",
+        "God is all-knowing",
+        "God is eternal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Omnibenevolence refers to God's attribute of being all-loving and compassionate towards creation. This corresponds to: God is all-loving."
+    },
+    {
+      "question": "According to the problem of evil, how does the existence of evil challenge the concept of God?",
+      "options": [
+        "It suggests God is not omnipotent",
+        "It implies God is not eternal",
+        "It indicates God is not just",
+        "It shows God is not omniscient"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The problem of evil raises questions about God's omnipotence, as it suggests that if God is all-powerful, He should be able to prevent evil. This corresponds to: It suggests God is not omnipotent."
+    },
+    {
+      "question": "In the context of divine attributes, what is a potential conflict between omnibenevolence and free will?",
+      "options": [
+        "God cannot know the future",
+        "God may allow suffering for greater good",
+        "God is not just",
+        "God is not eternal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existence of free will may necessitate that God allows suffering, which can conflict with the idea of an all-loving deity. This corresponds to: God may allow suffering for greater good."
+    },
+    {
+      "question": "Which of the following best describes the relationship between God's benevolence and justice?",
+      "options": [
+        "Benevolence is independent of justice",
+        "Justice is a form of benevolence",
+        "Benevolence contradicts justice",
+        "Justice is irrelevant to benevolence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "God's benevolence is often seen as linked to justice, where justice involves doing what is right, even if it includes punishment. This corresponds to: Justice is a form of benevolence."
+    },
+    {
+      "question": "What is a common argument against the coherence of God's omnibenevolence?",
+      "options": [
+        "God cannot be eternal",
+        "Evil exists in the world",
+        "God is not all-knowing",
+        "God does not intervene in human affairs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existence of evil poses a challenge to the belief in an all-loving God, as it raises questions about why such a God would allow suffering. This corresponds to: Evil exists in the world."
+    },
+    {
+      "question": "How does Aquinas view the relationship between God's justice and benevolence?",
+      "options": [
+        "Justice is more important than benevolence",
+        "Benevolence is a form of justice",
+        "Justice may involve punishment",
+        "Benevolence negates justice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argued that God's justice involves doing what is right, which may include punishment, thus linking justice with benevolence. This corresponds to: Justice may involve punishment."
+    },
+    {
+      "question": "Which philosopher's argument relates divine foreknowledge to human free will?",
+      "options": [
+        "Anselm",
+        "Boethius",
+        "Swinburne",
+        "Epicurus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boethius's argument connects divine foreknowledge with the concepts of eternity and human free will"
+    },
+    {
+      "question": "What is a methodological issue in discussing God's attributes, particularly benevolence?",
+      "options": [
+        "Lack of empirical evidence",
+        "Over-reliance on scripture",
+        "Inconsistency in definitions",
+        "Cultural bias in interpretations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The discussion of God's attributes often lacks empirical evidence, making it difficult to substantiate claims about His nature. This corresponds to: Lack of empirical evidence."
+    },
+    {
+      "question": "In what way might the concept of hell challenge the understanding of God's benevolence?",
+      "options": [
+        "It suggests God is not just",
+        "It implies God gives up on some people",
+        "It shows God is not omnipotent",
+        "It indicates God is not eternal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existence of hell raises questions about whether a benevolent God would allow eternal punishment, suggesting a limit to His compassion. This corresponds to: It implies God gives up on some people."
+    },
+    {
+      "question": "What does the analogy of God as a diamond suggest about understanding His attributes?",
+      "options": [
+        "God has only one attribute",
+        "God's attributes are contradictory",
+        "God can be understood from multiple perspectives",
+        "God's attributes are irrelevant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The diamond analogy illustrates that God's attributes can be examined from different angles, providing a multifaceted understanding of His nature. This corresponds to: God can be understood from multiple perspectives."
+    }
+  ]
+}
