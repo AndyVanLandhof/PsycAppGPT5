@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:15:44.770Z",
+  "curriculum": "aqa-psych",
+  "topicId": "learning-approaches",
+  "subId": "slt-bandura",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which process in SLT involves observing others?",
+      "options": [
+        "Vicarious reinforcement",
+        "Habituation",
+        "Classical conditioning",
+        "Priming"
+      ],
+      "answer": "Vicarious reinforcement",
+      "explanation": "In SLT, learning can occur by observing consequences for others."
+    }
+  ]
+}

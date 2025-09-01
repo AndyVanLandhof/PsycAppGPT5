@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { useAIService } from '../hooks/useAIService';
 import { useVaultService } from '../hooks/useVaultService';
 import psychologyTopics from '../psychologyTopics';
+import { getSelectedCurriculum } from '../config/curricula';
 
 export default function QuizLab({ onBack }) {
   const [raw, setRaw] = useState(null);
@@ -13,6 +14,7 @@ export default function QuizLab({ onBack }) {
   const topicEntries = useMemo(() => Object.entries(psychologyTopics), []);
   const [topicId, setTopicId] = useState(topicEntries[0]?.[0] || 'memory');
   const [subId, setSubId] = useState(psychologyTopics[topicEntries[0]?.[0] || 'memory']?.subTopics?.[0]?.id || '');
+  const curr = useMemo(() => (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych', []);
 
   const unifiedPrompt = (topicTitle, subTitle) => `You are an expert AQA/OCR examiner generating multiple-choice questions.
 
@@ -133,7 +135,7 @@ Return ONLY this JSON:
 
   const saveBank = async (setLabel, items) => {
     const payload = {
-      curriculum: 'aqa-psych',
+      curriculum: curr,
       topicId,
       subId,
       set: setLabel,
@@ -201,7 +203,7 @@ Return ONLY this JSON:
           const dataA = JSON.parse(jsonA);
           const itemsA = sanitize(dataA, subTitle);
           // eslint-disable-next-line no-await-in-loop
-          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: 'aqa-psych', topicId: tid, subId: st.id, set: 'A', bank: { questions: itemsA } }) });
+          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'A', bank: { questions: itemsA } }) });
           // Set B
           // eslint-disable-next-line no-await-in-loop
           const rawB = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
@@ -210,7 +212,7 @@ Return ONLY this JSON:
           const dataB = JSON.parse(jsonB);
           const itemsB = sanitize(dataB, subTitle);
           // eslint-disable-next-line no-await-in-loop
-          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: 'aqa-psych', topicId: tid, subId: st.id, set: 'B', bank: { questions: itemsB } }) });
+          await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'B', bank: { questions: itemsB } }) });
         }
       }
       alert('Built and saved A/B sets for all sub-topics.');
