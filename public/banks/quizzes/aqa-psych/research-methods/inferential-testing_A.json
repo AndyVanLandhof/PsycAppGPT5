@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:10:49.190Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "inferential-testing",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which statistical test is appropriate for analyzing the difference between two related samples?",
+      "options": [
+        "Mann-Whitney",
+        "Wilcoxon",
+        "Chi-Squared",
+        "Pearson's r"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Wilcoxon test is specifically designed for related samples, making it suitable for this scenario"
+    },
+    {
+      "question": "In a study examining the relationship between gender and coffee preference, which statistical test would be most appropriate?",
+      "options": [
+        "Mann-Whitney",
+        "Chi-Squared",
+        "Related t-test",
+        "Spearman's rho"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Chi-Squared test is suitable for nominal data and assesses associations between categorical variables"
+    },
+    {
+      "question": "If a researcher finds a p-value of 0.03, what can be concluded about the significance of their results?",
+      "options": [
+        "Results are not significant at p < 0.01",
+        "Results are significant at p < 0.05",
+        "Results are significant at p < 0.10",
+        "Results are not significant at p < 0.05"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A p-value of 0.03 indicates significance at the 0.05 level, meaning the results are statistically significant. This corresponds to: Results are significant at p < 0.05."
+    },
+    {
+      "question": "Which of the following is a Type I error in statistical testing?",
+      "options": [
+        "Failing to reject a false null hypothesis",
+        "Rejecting a true null hypothesis",
+        "Accepting a true alternative hypothesis",
+        "Failing to detect a true effect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Type I error occurs when a true null hypothesis is incorrectly rejected, leading to a false positive. This corresponds to: Rejecting a true null hypothesis."
+    },
+    {
+      "question": "In a study with two independent groups, which test would be appropriate if the data is ordinal?",
+      "options": [
+        "Pearson's r",
+        "Mann-Whitney",
+        "Related t-test",
+        "Chi-Squared"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Mann-Whitney test is suitable for comparing two independent groups with ordinal data"
+    },
+    {
+      "question": "A researcher uses a Chi-Squared test to analyze the relationship between two categorical variables. What is a key assumption of this test?",
+      "options": [
+        "Data must be normally distributed",
+        "Data must be independent",
+        "Data must be interval",
+        "Data must be paired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Chi-Squared test assumes that the data is independent, meaning no item can appear in more than one cell. This corresponds to: Data must be independent."
+    },
+    {
+      "question": "In a study comparing the effectiveness of two teaching methods, a researcher uses a related t-test. What type of design is this?",
+      "options": [
+        "Independent groups design",
+        "Repeated measures design",
+        "Matched pairs design",
+        "Cross-sectional design"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A related t-test is used in a repeated measures design where the same participants are tested under both conditions"
+    },
+    {
+      "question": "What is the critical value for a Mann-Whitney test with a sample size of 10 and an alpha level of 0.05?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The critical value for a Mann-Whitney test with 10 participants can be found in statistical tables, and for this scenario, it is 5"
+    },
+    {
+      "question": "Which of the following statements best describes a Type II error?",
+      "options": [
+        "Rejecting a true null hypothesis",
+        "Failing to reject a false null hypothesis",
+        "Accepting a false alternative hypothesis",
+        "Detecting a true effect"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Type II error occurs when a false null hypothesis is not rejected, leading to a false negative. This corresponds to: Failing to reject a false null hypothesis."
+    },
+    {
+      "question": "When should a researcher use Spearman's rho instead of Pearson's r?",
+      "options": [
+        "When data is normally distributed",
+        "When data is ordinal",
+        "When data is interval",
+        "When data is nominal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spearman's rho is used for ordinal data, while Pearson's r requires interval or ratio data. This corresponds to: When data is ordinal."
+    }
+  ]
+}

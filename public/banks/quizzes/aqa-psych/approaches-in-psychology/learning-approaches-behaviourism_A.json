@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:31:02.372Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "learning-approaches-behaviourism",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary focus of the behaviourist approach in psychology?",
+      "options": [
+        "Mental processes",
+        "Observable behaviour",
+        "Emotional responses",
+        "Cognitive development"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach focuses solely on observable behaviour, rejecting the study of mental processes"
+    },
+    {
+      "question": "In Pavlov's classical conditioning experiment, what was the unconditioned stimulus?",
+      "options": [
+        "The bell",
+        "The food",
+        "The salivation response",
+        "The dog"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Pavlov's experiment, the food was the unconditioned stimulus that naturally elicited a salivation response"
+    },
+    {
+      "question": "Which type of reinforcement involves avoiding an unpleasant experience?",
+      "options": [
+        "Positive reinforcement",
+        "Negative reinforcement",
+        "Punishment",
+        "Conditioned response"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negative reinforcement occurs when a behaviour is strengthened by the removal of an unpleasant stimulus"
+    },
+    {
+      "question": "A child receives praise from their parent for eating vegetables. This is an example of which type of conditioning?",
+      "options": [
+        "Classical conditioning",
+        "Operant conditioning",
+        "Social learning",
+        "Cognitive learning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates operant conditioning, where the child is reinforced for a specific behaviour (eating vegetables)"
+    },
+    {
+      "question": "What did Skinner's research demonstrate about operant conditioning?",
+      "options": [
+        "Learning occurs through observation",
+        "Behaviour is shaped by its consequences",
+        "All behaviour is innate",
+        "Conditioning is irrelevant to behaviour"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skinner's research showed that behaviour is shaped by its consequences, highlighting the role of reinforcement and punishment"
+    },
+    {
+      "question": "In a study, a rat learns to press a lever to receive food. This is an example of which conditioning?",
+      "options": [
+        "Classical conditioning",
+        "Operant conditioning",
+        "Social learning",
+        "Cognitive learning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario exemplifies operant conditioning, where the rat learns to perform a behaviour to receive a reward"
+    },
+    {
+      "question": "One criticism of the behaviourist approach is that it ignores which aspect of human experience?",
+      "options": [
+        "Biological influences",
+        "Cognitive processes",
+        "Social interactions",
+        "Emotional responses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach is criticized for neglecting cognitive processes, focusing solely on observable behaviour"
+    },
+    {
+      "question": "Flavour-flavour learning suggests that we develop food preferences based on what?",
+      "options": [
+        "Innate tastes",
+        "Social influences",
+        "Associations with liked flavours",
+        "Nutritional value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Flavour-flavour learning indicates that we prefer new foods due to their association with flavours we already enjoy. This corresponds to: Associations with liked flavours."
+    },
+    {
+      "question": "What is a methodological strength of Skinner's research on operant conditioning?",
+      "options": [
+        "Use of self-report measures",
+        "Controlled laboratory settings",
+        "Longitudinal studies",
+        "Naturalistic observations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Skinner's use of controlled laboratory settings allows for high levels of control and objectivity in measuring behaviour"
+    },
+    {
+      "question": "According to behaviourists, what is the nature of human behaviour?",
+      "options": [
+        "Innate and instinctual",
+        "Learned through experience",
+        "Unconscious and repressed",
+        "Cognitive and rational"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behaviourists argue that all human behaviour is learned through experiences, viewing individuals as 'blank slates'"
+    }
+  ]
+}

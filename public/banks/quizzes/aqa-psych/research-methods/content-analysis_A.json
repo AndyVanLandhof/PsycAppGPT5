@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:08:24.887Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "content-analysis",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary purpose of content analysis in psychological research?",
+      "options": [
+        "To observe behavior directly",
+        "To analyze the content of artifacts",
+        "To conduct experiments",
+        "To gather quantitative data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Content analysis involves analyzing materials produced by people, such as books and advertisements, to draw conclusions about their content. This corresponds to: To analyze the content of artifacts."
+    },
+    {
+      "question": "In a content analysis of magazine advertisements, which of the following would be an appropriate sampling method?",
+      "options": [
+        "Random sampling of participants",
+        "Time sampling of advertisements",
+        "Stratified sampling of viewers",
+        "Event sampling of interviews"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Time sampling involves selecting advertisements at specific intervals, which is relevant for analyzing their content systematically. This corresponds to: Time sampling of advertisements."
+    },
+    {
+      "question": "Which of the following is a potential limitation of content analysis?",
+      "options": [
+        "It provides rich qualitative data",
+        "It is time-consuming",
+        "It allows for direct observation of behavior",
+        "It ensures high inter-observer reliability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Content analysis can be time-consuming as it requires examining and re-examining large amounts of data to identify themes. This corresponds to: It is time-consuming."
+    },
+    {
+      "question": "When conducting a thematic analysis, what is the first step a researcher should take?",
+      "options": [
+        "Identify categories",
+        "Read the transcripts",
+        "Count the frequency of themes",
+        "Develop coding units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step in thematic analysis is to read the transcripts to understand the data before identifying themes"
+    },
+    {
+      "question": "What is a key difference between content analysis and thematic analysis?",
+      "options": [
+        "Content analysis focuses on quantitative data, while thematic analysis focuses on qualitative data",
+        "Thematic analysis is less time-consuming than content analysis",
+        "Content analysis does not require coding",
+        "Thematic analysis uses predetermined categories"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Content analysis often involves quantifying data, while thematic analysis aims to identify qualitative themes without predetermined categories. This corresponds to: Content analysis focuses on quantitative data, while thematic analysis focuses on qualitative data."
+    },
+    {
+      "question": "In a content analysis of songs, which of the following could be a behavioral category?",
+      "options": [
+        "Romantic",
+        "Melodic",
+        "Popular",
+        "Length"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Behavioral categories in content analysis of songs could include themes like 'romantic', which helps categorize the content systematically"
+    },
+    {
+      "question": "What methodological issue can affect the reliability of content analysis?",
+      "options": [
+        "Observer bias",
+        "Lack of qualitative data",
+        "Limited sample size",
+        "Inability to categorize themes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Observer bias can affect content analysis as different researchers may interpret behavioral categories differently based on their backgrounds"
+    },
+    {
+      "question": "In a study analyzing family involvement in adolescents' school experiences, what type of analysis was used?",
+      "options": [
+        "Quantitative analysis",
+        "Content analysis",
+        "Experimental analysis",
+        "Survey analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The study by Joronen and Astedt-Kurki used qualitative content analysis to examine the role of family in adolescents' experiences"
+    },
+    {
+      "question": "Which of the following best describes the outcome of thematic analysis?",
+      "options": [
+        "Quantitative data",
+        "Emergent themes",
+        "Statistical significance",
+        "Direct observations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thematic analysis aims to identify emergent themes from qualitative data, summarizing the findings in a descriptive manner"
+    },
+    {
+      "question": "What is a common criticism of content analysis regarding the data it produces?",
+      "options": [
+        "It is too detailed",
+        "It lacks inter-observer reliability",
+        "It oversimplifies rich qualitative data",
+        "It is not publicly available"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Content analysis can oversimplify rich qualitative data, losing its detailed descriptive flavor in the process of categorization. This corresponds to: It oversimplifies rich qualitative data."
+    }
+  ]
+}

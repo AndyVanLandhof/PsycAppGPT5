@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:09:11.938Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "case-studies",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is a key characteristic of case studies in psychology?",
+      "options": [
+        "They provide quantitative data only",
+        "They focus on large sample sizes",
+        "They involve detailed analysis of an individual or event",
+        "They are always conducted in a laboratory setting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Case studies provide a detailed and in-depth analysis of an individual, group, institution, or event. This corresponds to: They involve detailed analysis of an individual or event."
+    },
+    {
+      "question": "Which of the following is a limitation of using case studies in psychological research?",
+      "options": [
+        "They provide rich qualitative data",
+        "They can be subjectively interpreted by researchers",
+        "They are always longitudinal",
+        "They involve large sample sizes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Case studies can be subjectively interpreted by researchers, which may affect the validity of the findings. This corresponds to: They can be subjectively interpreted by researchers."
+    },
+    {
+      "question": "In the study of Henry Molaison (HM), what aspect of memory was primarily investigated?",
+      "options": [
+        "Short-term memory",
+        "Long-term memory",
+        "Working memory",
+        "Sensory memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Henry Molaison's case primarily investigated long-term memory, as he suffered from severe memory loss affecting this area"
+    },
+    {
+      "question": "What type of data do case studies typically provide?",
+      "options": [
+        "Only qualitative data",
+        "Only quantitative data",
+        "Both qualitative and quantitative data",
+        "No data at all"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Case studies can provide both qualitative data, such as detailed descriptions, and quantitative data, such as test scores. This corresponds to: Both qualitative and quantitative data."
+    },
+    {
+      "question": "Which of the following is an example of a case study focusing on a typical case?",
+      "options": [
+        "The London riots of 2011",
+        "The mass suicide led by Jim Jones",
+        "An elderly person's recollections of childhood",
+        "The case of Little Hans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An elderly person's recollections of childhood is an example of a case study focusing on a more typical case"
+    },
+    {
+      "question": "What methodological issue is associated with case studies of individuals with brain damage?",
+      "options": [
+        "They are always longitudinal",
+        "They cannot provide rich qualitative data",
+        "The traumatic process of brain injury may change behavior",
+        "They involve large sample sizes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The traumatic process of brain injury may change behavior, affecting the performance of individuals on certain tasks"
+    },
+    {
+      "question": "Freud's theory of the Oedipus complex was based on which type of research?",
+      "options": [
+        "Experimental studies",
+        "Surveys",
+        "Case studies",
+        "Meta-analyses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freud's theory was based on case studies, such as that of Little Hans"
+    },
+    {
+      "question": "What is a potential ethical issue associated with case studies?",
+      "options": [
+        "They always involve informed consent",
+        "They can lead to the disclosure of sensitive information",
+        "They are conducted in controlled environments",
+        "They require large participant groups"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Case studies can lead to the disclosure of sensitive information about individuals, raising ethical concerns. This corresponds to: They can lead to the disclosure of sensitive information."
+    },
+    {
+      "question": "Which of the following best describes the data collection methods used in case studies?",
+      "options": [
+        "Only interviews",
+        "Only observations",
+        "A combination of various methods",
+        "Only experiments"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Case studies often use a combination of methods such as interviews, observations, and tests to gather data. This corresponds to: A combination of various methods."
+    },
+    {
+      "question": "What is a common criticism of the generalizability of case studies?",
+      "options": [
+        "They are based on large samples",
+        "They focus on typical cases",
+        "They involve unique individuals or events",
+        "They provide quantitative data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Case studies often involve unique individuals or events, making it difficult to generalize findings to the wider population. This corresponds to: They involve unique individuals or events."
+    }
+  ]
+}

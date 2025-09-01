@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:07:06.003Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "self-report-techniques",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is a key feature of self-report techniques in psychological research?",
+      "options": [
+        "They involve direct observation of behavior.",
+        "They require participants to report their own thoughts and feelings.",
+        "They manipulate independent variables.",
+        "They are always conducted in a laboratory setting."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques require participants to provide information about their own experiences, thoughts, and feelings. This corresponds to: They require participants to report their own thoughts and feelings.."
+    },
+    {
+      "question": "In the Social Readjustment Rating Scale (SRRS) developed by Holmes and Rahe, how are life events quantified?",
+      "options": [
+        "By assigning a score based on the number of events experienced.",
+        "By calculating the average stress level of participants.",
+        "By using a scale of 1 to 10 for each event.",
+        "By comparing physiological responses to stress."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SRRS quantifies life events by assigning a score based on the number of events experienced, allowing for a total score to be calculated. This corresponds to: By assigning a score based on the number of events experienced.."
+    },
+    {
+      "question": "Kanner et al. developed the Hassles and Uplifts Scale (HSUP) to measure daily stress. What is a key feature of this scale?",
+      "options": [
+        "It focuses solely on major life events.",
+        "It includes both hassles and uplifts.",
+        "It uses physiological measures of stress.",
+        "It is only applicable to adults."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The HSUP includes both hassles and uplifts, allowing for a more balanced assessment of daily stressors. This corresponds to: It includes both hassles and uplifts.."
+    },
+    {
+      "question": "A researcher uses a self-report questionnaire to assess stress levels in a sample of students. What is a potential limitation of this method?",
+      "options": [
+        "It provides objective data.",
+        "Participants may respond in a socially desirable manner.",
+        "It requires no interpretation of responses.",
+        "It eliminates the need for ethical considerations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Participants may respond in a socially desirable manner, which can lead to biased results and affect the validity of the data collected. This corresponds to: Participants may respond in a socially desirable manner.."
+    },
+    {
+      "question": "When assessing the reliability of self-report measures, what method is commonly used?",
+      "options": [
+        "Inter-observer reliability.",
+        "Test-retest reliability.",
+        "Random sampling.",
+        "Counterbalancing."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Test-retest reliability is commonly used to assess the consistency of self-report measures by comparing scores over time. This corresponds to: Test-retest reliability.."
+    },
+    {
+      "question": "In a study using the HSUP scale, participants rate daily hassles on a scale of 1 to 3. What is a potential issue with this rating system?",
+      "options": [
+        "It is too complex for participants to understand.",
+        "It may lead to inflated scores due to subjective interpretation.",
+        "It does not allow for a comparison of uplifts.",
+        "It requires participants to recall events from the past year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The subjective interpretation of the rating scale may lead to inflated scores, as different participants may perceive the severity of hassles differently. This corresponds to: It may lead to inflated scores due to subjective interpretation.."
+    },
+    {
+      "question": "What is a methodological issue associated with self-report techniques like the SRRS?",
+      "options": [
+        "They are always conducted in controlled environments.",
+        "They can suffer from social desirability bias.",
+        "They provide purely qualitative data.",
+        "They require no participant involvement."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques can suffer from social desirability bias, where participants may answer in a way they believe is more socially acceptable rather than truthful. This corresponds to: They can suffer from social desirability bias.."
+    },
+    {
+      "question": "How does the validity of self-report measures like the SRRS and HSUP potentially get compromised?",
+      "options": [
+        "By using random sampling techniques.",
+        "Through the use of clear and specific questions.",
+        "Due to varying interpretations of the items by different individuals.",
+        "By ensuring all participants are from the same demographic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The validity of self-report measures can be compromised due to varying interpretations of the items, leading to inconsistent responses among participants. This corresponds to: Due to varying interpretations of the items by different individuals.."
+    },
+    {
+      "question": "What is a strength of using self-report techniques to measure stress?",
+      "options": [
+        "They provide objective physiological data.",
+        "They allow for direct insight into personal experiences.",
+        "They eliminate the need for participant consent.",
+        "They are less time-consuming than observational methods."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques allow for direct insight into personal experiences, making them a valid way to measure subjective phenomena like stress. This corresponds to: They allow for direct insight into personal experiences.."
+    },
+    {
+      "question": "In the context of self-report measures, what does the term 'operationalisation' refer to?",
+      "options": [
+        "The process of randomly assigning participants to groups.",
+        "The way in which variables are defined and measured.",
+        "The ethical considerations in conducting research.",
+        "The statistical analysis of collected data."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Operationalisation refers to the way in which variables are defined and measured in research, ensuring clarity and consistency in data collection. This corresponds to: The way in which variables are defined and measured.."
+    }
+  ]
+}

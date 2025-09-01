@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:31:20.183Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "learning-approaches-behaviourism",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of the behaviourist approach in psychology?",
+      "options": [
+        "Mental processes",
+        "Observable behaviour",
+        "Emotional responses",
+        "Biological factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach focuses solely on observable behaviour and rejects the study of mental processes"
+    },
+    {
+      "question": "In Pavlov's classical conditioning experiment, what was the unconditioned stimulus?",
+      "options": [
+        "The bell",
+        "The food",
+        "The salivation",
+        "The dog"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Pavlov's experiment, the food was the unconditioned stimulus that naturally elicited salivation"
+    },
+    {
+      "question": "A student hands in an essay to avoid being told off. This is an example of which type of reinforcement?",
+      "options": [
+        "Positive reinforcement",
+        "Negative reinforcement",
+        "Punishment",
+        "Conditioned response"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates negative reinforcement, where the student avoids an unpleasant consequence"
+    },
+    {
+      "question": "What did Skinner's research primarily demonstrate about operant conditioning?",
+      "options": [
+        "Learning through observation",
+        "Learning through association",
+        "Learning through rewards and punishments",
+        "Learning through innate responses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Skinner's research showed that behaviour is shaped by its consequences, specifically through rewards and punishments. This corresponds to: Learning through rewards and punishments."
+    },
+    {
+      "question": "Which of the following best describes the concept of 'flavour-flavour learning'?",
+      "options": [
+        "Learning to avoid certain foods",
+        "Developing a preference for new foods based on existing preferences",
+        "Conditioning through punishment",
+        "Associating sounds with food"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flavour-flavour learning refers to developing a preference for new foods due to their association with flavours we already like. This corresponds to: Developing a preference for new foods based on existing preferences."
+    },
+    {
+      "question": "A child is rewarded with praise for eating vegetables. This scenario illustrates which aspect of operant conditioning?",
+      "options": [
+        "Positive reinforcement",
+        "Negative reinforcement",
+        "Punishment",
+        "Conditioned response"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The praise serves as positive reinforcement, increasing the likelihood that the child will eat vegetables again"
+    },
+    {
+      "question": "What methodological issue is often associated with the behaviourist approach?",
+      "options": [
+        "Overemphasis on cognitive processes",
+        "Neglect of biological influences",
+        "Reliance on self-report data",
+        "Focus on subjective experiences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach is criticized for neglecting biological influences on behaviour, focusing solely on learned experiences. This corresponds to: Neglect of biological influences."
+    },
+    {
+      "question": "In the context of classical conditioning, what is a conditioned response?",
+      "options": [
+        "A natural reaction to a stimulus",
+        "A learned reaction to a previously neutral stimulus",
+        "An unlearned behaviour",
+        "A response to punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A conditioned response is a learned reaction that occurs in response to a previously neutral stimulus after conditioning. This corresponds to: A learned reaction to a previously neutral stimulus."
+    },
+    {
+      "question": "How does the behaviourist approach view the role of free will in human behaviour?",
+      "options": [
+        "It emphasizes free will",
+        "It denies the existence of free will",
+        "It suggests limited free will",
+        "It promotes the idea of conscious decision-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The behaviourist approach denies the existence of free will, suggesting that behaviour is conditioned by external stimuli. This corresponds to: It denies the existence of free will."
+    },
+    {
+      "question": "What is the main difference between classical conditioning and operant conditioning?",
+      "options": [
+        "One involves rewards, the other involves associations",
+        "One is passive, the other is active",
+        "One is for animals, the other is for humans",
+        "One is based on observation, the other on reinforcement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Classical conditioning is a passive process of learning through association, while operant conditioning is an active process shaped by rewards and punishments. This corresponds to: One is passive, the other is active."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:26:47.678Z",
+  "curriculum": "aqa-psych",
+  "topicId": "memory",
+  "subId": "eyewitness-testimony",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What did Loftus and Palmer (1974) find regarding the impact of leading questions on eyewitness testimony?",
+      "options": [
+        "Participants estimated higher speeds with the word 'smashed'",
+        "Participants recalled more details with 'hit'",
+        "Participants were unaffected by question wording",
+        "Participants remembered fewer details with 'smashed'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The study found that the wording of leading questions influenced participants' speed estimates, with 'smashed' leading to higher estimates. This corresponds to: Participants estimated higher speeds with the word 'smashed'."
+    },
+    {
+      "question": "In the context of eyewitness testimony, what is a leading question?",
+      "options": [
+        "A question that provides no context",
+        "A question that suggests a desired answer",
+        "A question that is open-ended",
+        "A question that is irrelevant to the event"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A leading question is one that suggests to the witness what answer is desired or leads them to a specific answer. This corresponds to: A question that suggests a desired answer."
+    },
+    {
+      "question": "How does post-event discussion potentially affect eyewitness testimony?",
+      "options": [
+        "It clarifies the witness's memory",
+        "It can contaminate a witness's memory",
+        "It has no effect on memory accuracy",
+        "It improves recall of details"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Post-event discussion can lead to the contamination of a witness's memory for the event. This corresponds to: It can contaminate a witness's memory."
+    },
+    {
+      "question": "A study found that participants who viewed a car crash video and were asked leading questions later reported seeing broken glass. What does this illustrate about eyewitness testimony?",
+      "options": [
+        "The reliability of eyewitness memory",
+        "The effect of misleading information",
+        "The accuracy of recall under stress",
+        "The impact of physiological arousal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This illustrates how misleading information can alter a witness's memory of an event. This corresponds to: The effect of misleading information."
+    },
+    {
+      "question": "What is one methodological issue with Loftus and Palmer's (1974) study on leading questions?",
+      "options": [
+        "Participants were not matched for age",
+        "The study lacked ecological validity",
+        "Participants were not debriefed",
+        "The sample size was too small"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Viewing a car crash on video is less emotionally stimulating than experiencing a real crash, affecting ecological validity. This corresponds to: The study lacked ecological validity."
+    },
+    {
+      "question": "What is the cognitive interview designed to improve?",
+      "options": [
+        "The accuracy of police reports",
+        "The effectiveness of police questioning",
+        "The reliability of eyewitness memory",
+        "The speed of police investigations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cognitive interview is designed to improve the effectiveness of police interviewers when questioning witnesses. This corresponds to: The effectiveness of police questioning."
+    },
+    {
+      "question": "In a scenario where a witness discusses an event with others after it occurred, what is this phenomenon called?",
+      "options": [
+        "Leading question",
+        "Post-event discussion",
+        "Cognitive interview",
+        "Misleading information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This phenomenon is known as post-event discussion, which can affect the accuracy of eyewitness testimony"
+    },
+    {
+      "question": "What is one technique used in the cognitive interview to enhance recall?",
+      "options": [
+        "Encouraging witnesses to forget irrelevant details",
+        "Asking leading questions",
+        "Changing perspective",
+        "Using closed questions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Changing perspective encourages the interviewee to recall the event from different viewpoints, enhancing memory retrieval"
+    },
+    {
+      "question": "What did research indicate about the long-term effects of leading questions on eyewitness testimony?",
+      "options": [
+        "They have no long-term effects",
+        "They can alter memories over time",
+        "They only affect immediate recall",
+        "They improve memory accuracy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Research suggests that leading questions may have a long-term effect on the accuracy of eyewitness testimony. This corresponds to: They can alter memories over time."
+    },
+    {
+      "question": "What is a significant finding regarding the reliability of eyewitness testimony according to the Innocence Project?",
+      "options": [
+        "Most eyewitnesses are accurate",
+        "72% of DNA exonerations involved inaccurate eyewitness testimony",
+        "Eyewitnesses always remember details correctly",
+        "Witnesses are more reliable under stress"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Innocence Project claims that 72% of convictions overturned by DNA testing involved inaccurate eyewitness testimony. This corresponds to: 72% of DNA exonerations involved inaccurate eyewitness testimony."
+    }
+  ]
+}

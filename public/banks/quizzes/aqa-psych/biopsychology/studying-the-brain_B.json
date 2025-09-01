@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:04:46.261Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "studying-the-brain",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does Functional Magnetic Resonance Imaging (fMRI) primarily measure in the brain?",
+      "options": [
+        "Neuronal activity",
+        "Blood flow",
+        "Electrical impulses",
+        "Neurotransmitter levels"
+      ],
+      "correctAnswer": 1,
+      "explanation": "fMRI measures changes in blood flow, reflecting brain activity and oxygen consumption"
+    },
+    {
+      "question": "In Burnett et al. (2009), which brain region was found to be active when individuals felt guilty?",
+      "options": [
+        "Amygdala",
+        "Medial prefrontal cortex",
+        "Broca's area",
+        "Wernicke's area"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial prefrontal cortex is associated with social emotions, including feelings of guilt"
+    },
+    {
+      "question": "An electroencephalogram (EEG) detects neuronal activity using what method?",
+      "options": [
+        "Magnetic fields",
+        "Radio waves",
+        "Electrodes on the scalp",
+        "Blood flow measurements"
+      ],
+      "correctAnswer": 2,
+      "explanation": "EEGs use electrodes placed on the scalp to directly detect neuronal activity beneath them. This corresponds to: Electrodes on the scalp."
+    },
+    {
+      "question": "A researcher uses fMRI to study brain activity during a memory task. What is a potential methodological issue they might face?",
+      "options": [
+        "Poor temporal resolution",
+        "High cost",
+        "Limited sample size",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "fMRI has poor temporal resolution, is expensive, and can lead to reduced sample sizes, impacting validity. This corresponds to: All of the above."
+    },
+    {
+      "question": "Which of the following is a key advantage of using post-mortem examinations in brain studies?",
+      "options": [
+        "Real-time brain activity monitoring",
+        "Direct observation of live brain functions",
+        "Comparison with neurotypical brains",
+        "Low cost of implementation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Post-mortem examinations allow researchers to compare damaged brains with neurotypical brains to identify differences. This corresponds to: Comparison with neurotypical brains."
+    },
+    {
+      "question": "What is a significant limitation of using EEGs compared to fMRI?",
+      "options": [
+        "Higher spatial resolution",
+        "Direct measurement of blood flow",
+        "Poor spatial resolution",
+        "More expensive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "EEGs have poor spatial resolution compared to fMRI, which can accurately localize brain activity"
+    },
+    {
+      "question": "In the context of studying the brain, what does the term 'localisation of function' refer to?",
+      "options": [
+        "The brain's ability to recover from injury",
+        "Specific brain areas being responsible for specific functions",
+        "The interaction between different brain regions",
+        "The overall structure of the brain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Localisation of function refers to the concept that specific areas of the brain are responsible for particular functions. This corresponds to: Specific brain areas being responsible for specific functions."
+    },
+    {
+      "question": "A study using event-related potentials (ERPs) measures brain responses to specific stimuli. What is a key advantage of this method?",
+      "options": [
+        "High spatial resolution",
+        "Direct observation of blood flow",
+        "Excellent temporal resolution",
+        "Low cost"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ERPs provide excellent temporal resolution, allowing researchers to track brain activity in response to stimuli over time"
+    },
+    {
+      "question": "Which technique is best suited for examining the brain's structure after death?",
+      "options": [
+        "fMRI",
+        "EEG",
+        "ERP",
+        "Post-mortem examination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Post-mortem examinations involve analyzing brain structure after death to identify abnormalities"
+    },
+    {
+      "question": "When comparing fMRI and EEG, which statement is true regarding their applications?",
+      "options": [
+        "Both provide high spatial resolution",
+        "fMRI is cheaper than EEG",
+        "EEG measures electrical activity while fMRI measures blood flow",
+        "Both are invasive techniques"
+      ],
+      "correctAnswer": 2,
+      "explanation": "EEG measures electrical activity in the brain, while fMRI measures blood flow, making them fundamentally different in application. This corresponds to: EEG measures electrical activity while fMRI measures blood flow."
+    }
+  ]
+}

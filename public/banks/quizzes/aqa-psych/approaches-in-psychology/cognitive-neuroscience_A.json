@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:59:13.495Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "cognitive-neuroscience",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which area of the brain is associated with speech production, as identified by Paul Broca in the 1860s?",
+      "options": [
+        "Wernicke's Area",
+        "Hippocampus",
+        "Broca's Area",
+        "Cerebellum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Broca's Area, located in the frontal lobe, is crucial for speech production"
+    },
+    {
+      "question": "What technique allows researchers to observe brain activity during cognitive tasks, as seen in Tulving et al.'s 1994 study?",
+      "options": [
+        "CT scans",
+        "fMRI",
+        "EEG",
+        "X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functional Magnetic Resonance Imaging (fMRI) enables the observation of brain activity during specific cognitive tasks"
+    },
+    {
+      "question": "In Burnett et al.'s 2009 study, which brain region was found to be active when individuals experience guilt?",
+      "options": [
+        "Amygdala",
+        "Medial prefrontal cortex",
+        "Hippocampus",
+        "Cerebellum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial prefrontal cortex is associated with social emotions, including guilt"
+    },
+    {
+      "question": "Cognitive neuroscience combines cognitive psychology with which other field to enhance the scientific basis of studying the mind?",
+      "options": [
+        "Biology",
+        "Sociology",
+        "Anthropology",
+        "Physics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cognitive neuroscience merges cognitive psychology with biology to study the brain's influence on mental processes"
+    },
+    {
+      "question": "A researcher uses fMRI to study the brain activity of participants while they recall episodic memories. This is an example of which approach?",
+      "options": [
+        "Behaviorist",
+        "Cognitive",
+        "Humanistic",
+        "Psychodynamic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario exemplifies the cognitive approach, focusing on internal mental processes and their neurological basis"
+    },
+    {
+      "question": "A study finds that the parahippocampal gyrus is linked to processing unpleasant emotions in individuals with OCD. What does this illustrate about cognitive neuroscience?",
+      "options": [
+        "It focuses solely on behavior.",
+        "It examines the biological basis of mental disorders.",
+        "It ignores brain structures.",
+        "It only uses theoretical models."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This finding illustrates how cognitive neuroscience links specific brain structures to mental disorders. This corresponds to: It examines the biological basis of mental disorders.."
+    },
+    {
+      "question": "What is a potential limitation of using neuroimaging techniques like fMRI in cognitive neuroscience research?",
+      "options": [
+        "They are too expensive.",
+        "They can only be used on animals.",
+        "They may not accurately reflect real-time brain activity.",
+        "They do not provide any data."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Neuroimaging techniques may not accurately reflect real-time brain activity due to the time lag in blood flow changes. This corresponds to: They may not accurately reflect real-time brain activity.."
+    },
+    {
+      "question": "Which of the following best describes the role of schemas in cognitive psychology?",
+      "options": [
+        "They are fixed responses to stimuli.",
+        "They are frameworks for organizing and interpreting information.",
+        "They are purely biological processes.",
+        "They are unconscious drives."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schemas are cognitive frameworks that help individuals organize and interpret information based on past experiences. This corresponds to: They are frameworks for organizing and interpreting information.."
+    },
+    {
+      "question": "In the context of cognitive neuroscience, what is 'brain fingerprinting' proposed to analyze?",
+      "options": [
+        "Memory recall accuracy",
+        "Brain wave patterns of eyewitnesses",
+        "Emotional responses to stimuli",
+        "Cognitive biases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Brain fingerprinting aims to analyze the brain wave patterns of eyewitnesses to determine the veracity of their statements"
+    },
+    {
+      "question": "What is a key advantage of using cognitive neuroscience methods in psychological research?",
+      "options": [
+        "They are less expensive than traditional methods.",
+        "They provide objective data about brain activity.",
+        "They eliminate the need for theoretical models.",
+        "They focus exclusively on behavior."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive neuroscience methods provide objective data about brain activity, enhancing the scientific understanding of mental processes. This corresponds to: They provide objective data about brain activity.."
+    }
+  ]
+}

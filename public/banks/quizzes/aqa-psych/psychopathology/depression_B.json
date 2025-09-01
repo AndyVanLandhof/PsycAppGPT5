@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:21:40.071Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "depression",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following is a cognitive characteristic of depression as outlined by Beck's negative triad?",
+      "options": [
+        "Negative view of self",
+        "Increased energy levels",
+        "Positive outlook on future",
+        "High self-esteem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beck's negative triad identifies a negative view of self as a key cognitive characteristic of depression"
+    },
+    {
+      "question": "In Ellis's ABC model, what does the 'B' stand for?",
+      "options": [
+        "Beliefs",
+        "Behavior",
+        "Biology",
+        "Bipolar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Ellis's ABC model, 'B' stands for beliefs, which are the irrational thoughts that lead to emotional distress"
+    },
+    {
+      "question": "A patient presents with persistent feelings of sadness and a lack of interest in activities they once enjoyed. This is indicative of which characteristic of depression?",
+      "options": [
+        "Emotional",
+        "Cognitive",
+        "Behavioral",
+        "Social"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The persistent feelings of sadness represent an emotional characteristic of depression"
+    },
+    {
+      "question": "Which treatment for depression involves challenging irrational thoughts?",
+      "options": [
+        "Systematic desensitization",
+        "Cognitive Behaviour Therapy (CBT)",
+        "Flooding",
+        "Drug therapy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive Behaviour Therapy (CBT) is designed to challenge and change irrational thoughts associated with depression"
+    },
+    {
+      "question": "A study found that patients receiving CBT showed significant improvement in their depressive symptoms compared to those receiving no treatment. What does this suggest about CBT?",
+      "options": [
+        "It is ineffective",
+        "It is a valid treatment",
+        "It is only effective for mild depression",
+        "It has no long-term benefits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The significant improvement in depressive symptoms suggests that CBT is a valid treatment for depression. This corresponds to: It is a valid treatment."
+    },
+    {
+      "question": "What is a methodological issue with using self-report measures in studies of depression?",
+      "options": [
+        "They are too expensive",
+        "They may lack validity due to social desirability bias",
+        "They are time-consuming",
+        "They require trained professionals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report measures may lack validity due to social desirability bias, as participants might not report their true feelings. This corresponds to: They may lack validity due to social desirability bias."
+    },
+    {
+      "question": "Which of the following is a behavioral characteristic of depression?",
+      "options": [
+        "Increased appetite",
+        "Social withdrawal",
+        "High energy",
+        "Optimism about the future"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social withdrawal is a common behavioral characteristic associated with depression"
+    },
+    {
+      "question": "In the context of depression, what does the term 'failure to function adequately' refer to?",
+      "options": [
+        "Inability to maintain relationships",
+        "Statistical rarity of symptoms",
+        "Deviation from social norms",
+        "Presence of negative thoughts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Failure to function adequately refers to an individual's inability to perform daily activities and maintain relationships. This corresponds to: Inability to maintain relationships."
+    },
+    {
+      "question": "A patient with depression is prescribed an SSRI to increase serotonin levels. What does this indicate about the biological approach to treating depression?",
+      "options": [
+        "It focuses on cognitive restructuring",
+        "It emphasizes environmental factors",
+        "It targets neurotransmitter imbalances",
+        "It uses exposure therapy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The prescription of an SSRI indicates that the biological approach targets neurotransmitter imbalances, specifically serotonin. This corresponds to: It targets neurotransmitter imbalances."
+    },
+    {
+      "question": "What is a limitation of drug therapy for treating depression?",
+      "options": [
+        "It is always effective",
+        "It can have side effects",
+        "It requires no professional supervision",
+        "It is a long-term solution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation of drug therapy is that it can have side effects, which may deter some patients from continuing treatment"
+    }
+  ]
+}

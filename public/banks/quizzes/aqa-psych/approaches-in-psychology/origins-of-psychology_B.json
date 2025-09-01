@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:30:46.041Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "origins-of-psychology",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Who is considered the father of experimental psychology, having established the first psychology lab in 1879?",
+      "options": [
+        "Wilhelm Wundt",
+        "John B. Watson",
+        "B.F. Skinner",
+        "Sigmund Freud"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wilhelm Wundt opened the first psychology lab in Leipzig, marking the beginning of scientific psychology"
+    },
+    {
+      "question": "What method did Wundt use to study the human mind systematically?",
+      "options": [
+        "Behaviorism",
+        "Introspection",
+        "Cognitive testing",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wundt pioneered the method of introspection to study the human mind under controlled conditions"
+    },
+    {
+      "question": "In the early 20th century, which psychologist criticized introspection for producing subjective data?",
+      "options": [
+        "Wilhelm Wundt",
+        "B.F. Skinner",
+        "John B. Watson",
+        "Carl Rogers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "John B. Watson criticized introspection, arguing that it produced subjective data that could not establish general laws"
+    },
+    {
+      "question": "A researcher conducts an experiment measuring reaction times to visual stimuli. This aligns with which of Wundt's contributions?",
+      "options": [
+        "Volkerpsychologie",
+        "Introspection",
+        "Structuralism",
+        "Cognitive psychology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wundt studied reaction times as part of his structuralist approach to understanding the human mind. This corresponds to: Structuralism."
+    },
+    {
+      "question": "Wundt's approach was later criticized for its inability to study which type of mental processes?",
+      "options": [
+        "Basic sensory processes",
+        "Higher mental processes",
+        "Behavioral responses",
+        "Cognitive functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wundt realized that higher mental processes, such as learning and emotions, could not be studied strictly through controlled experimentation"
+    },
+    {
+      "question": "Which of the following best describes Wundt's concept of Volkerpsychologie?",
+      "options": [
+        "Study of observable behavior",
+        "Cultural psychology",
+        "Experimental psychology",
+        "Cognitive neuroscience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Volkerpsychologie refers to Wundt's later recognition of the need to study cultural and social influences on behavior. This corresponds to: Cultural psychology."
+    },
+    {
+      "question": "A psychologist uses fMRI technology to study brain activity during memory tasks. This reflects which approach's advancement?",
+      "options": [
+        "Cognitive",
+        "Behaviorist",
+        "Biological",
+        "Humanistic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biological approach has advanced through technology, such as fMRI, to study physiological processes in real-time"
+    },
+    {
+      "question": "One criticism of Wundt's introspection is that it relies on self-reporting, which can lead to what methodological issue?",
+      "options": [
+        "Subjectivity",
+        "Generalizability",
+        "Reliability",
+        "Validity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Introspection is criticized for its subjectivity, making it difficult to establish objective scientific laws"
+    },
+    {
+      "question": "Kuhn argued that psychology lacks an accepted paradigm, suggesting it is still in which stage?",
+      "options": [
+        "Normal science",
+        "Pre-science",
+        "Applied science",
+        "Experimental science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kuhn's argument suggests that psychology's lack of a unified paradigm means it has not yet achieved the status of normal science. This corresponds to: Pre-science."
+    },
+    {
+      "question": "Wundt's focus on controlled experimental conditions primarily contributed to psychology being recognized as what?",
+      "options": [
+        "A branch of philosophy",
+        "A distinct science",
+        "A form of art",
+        "A social science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wundt's emphasis on controlled experimentation helped establish psychology as a distinct scientific discipline. This corresponds to: A distinct science."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:10:09.372Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "data-handling-analysis",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary distinction between qualitative and quantitative data?",
+      "options": [
+        "Qualitative data is numerical, while quantitative data is descriptive.",
+        "Qualitative data is descriptive, while quantitative data is numerical.",
+        "Qualitative data is collected through experiments, while quantitative data is collected through observations.",
+        "Qualitative data is always primary, while quantitative data is always secondary."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Qualitative data is descriptive and focuses on understanding concepts, while quantitative data is numerical and focuses on measurement. This corresponds to: Qualitative data is descriptive, while quantitative data is numerical.."
+    },
+    {
+      "question": "In a study measuring the effects of sleep on memory, researchers collect data on participants' sleep hours and their test scores. What type of data are they collecting?",
+      "options": [
+        "Qualitative data",
+        "Quantitative data",
+        "Primary data",
+        "Secondary data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The researchers are collecting quantitative data as they are measuring sleep hours and test scores numerically"
+    },
+    {
+      "question": "Which of the following is a measure of central tendency?",
+      "options": [
+        "Standard deviation",
+        "Range",
+        "Mean",
+        "Correlation coefficient"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The mean is a measure of central tendency that represents the average of a data set"
+    },
+    {
+      "question": "If a researcher finds a correlation coefficient of -0.85 between two variables, what does this indicate?",
+      "options": [
+        "A strong positive correlation",
+        "A weak positive correlation",
+        "A strong negative correlation",
+        "No correlation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A correlation coefficient of -0.85 indicates a strong negative correlation between the two variables"
+    },
+    {
+      "question": "In a study, participants are asked to rate their satisfaction on a scale from 1 to 10. What level of measurement is this?",
+      "options": [
+        "Nominal",
+        "Ordinal",
+        "Interval",
+        "Ratio"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The satisfaction ratings are measured on an interval scale, as the differences between points are meaningful"
+    },
+    {
+      "question": "A researcher conducts a meta-analysis on previous studies about anxiety treatment. What type of data is primarily used in this analysis?",
+      "options": [
+        "Primary data",
+        "Qualitative data",
+        "Quantitative data",
+        "Descriptive data"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Meta-analysis primarily uses quantitative data collected from various studies to draw broader conclusions"
+    },
+    {
+      "question": "A researcher calculates the mean score of a group of participants who completed a test. If the mean is significantly affected by an outlier, what does this suggest about the data?",
+      "options": [
+        "The data is normally distributed.",
+        "The data may be skewed.",
+        "The data is reliable.",
+        "The data is valid."
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the mean is significantly affected by an outlier, it suggests that the data may be skewed, impacting its normal distribution. This corresponds to: The data may be skewed.."
+    },
+    {
+      "question": "In a study comparing two teaching methods, the researcher uses a sign test to analyze the data. When is the sign test appropriate?",
+      "options": [
+        "When data is nominal",
+        "When data is ordinal",
+        "When data is interval",
+        "When data is ratio"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sign test is appropriate for analyzing ordinal data, particularly when comparing two related samples. This corresponds to: When data is ordinal."
+    },
+    {
+      "question": "What is a limitation of using secondary data in research?",
+      "options": [
+        "It is always qualitative.",
+        "It may not be relevant to the current study.",
+        "It is more expensive to collect.",
+        "It is less reliable than primary data."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation of using secondary data is that it may not be relevant to the current study, affecting the validity of the findings. This corresponds to: It may not be relevant to the current study.."
+    },
+    {
+      "question": "Which of the following best describes a normal distribution?",
+      "options": [
+        "It has a skewed shape.",
+        "It is symmetrical around the mean.",
+        "It has multiple peaks.",
+        "It is always positively skewed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A normal distribution is symmetrical around the mean, with most data points clustering around the center. This corresponds to: It is symmetrical around the mean.."
+    }
+  ]
+}

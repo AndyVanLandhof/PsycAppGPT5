@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:01:22.991Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "comparing-approaches",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which approach in psychology emphasizes the role of free will in human behavior?",
+      "options": [
+        "Biological",
+        "Behaviourist",
+        "Humanistic",
+        "Cognitive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The humanistic approach asserts that individuals have free will and are active agents in determining their own development"
+    },
+    {
+      "question": "In Bandura's social learning theory, what concept explains how individuals learn behaviors by observing others?",
+      "options": [
+        "Operant conditioning",
+        "Vicarious reinforcement",
+        "Classical conditioning",
+        "Reciprocal determinism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vicarious reinforcement refers to learning behaviors by observing the consequences others receive for their actions"
+    },
+    {
+      "question": "A study found that identical twins had a concordance rate of 69% for reading ability. What does this suggest about the nature-nurture debate?",
+      "options": [
+        "Nature is solely responsible",
+        "Nurture is solely responsible",
+        "Both nature and nurture play a role",
+        "There is no relationship"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 69% concordance rate indicates a strong genetic influence (nature) but also suggests that environmental factors (nurture) are significant since the rate is not 100%. This corresponds to: Both nature and nurture play a role."
+    },
+    {
+      "question": "Which type of determinism suggests that behavior is determined by unconscious forces?",
+      "options": [
+        "Biological determinism",
+        "Environmental determinism",
+        "Psychic determinism",
+        "Hard determinism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Psychic determinism is a key feature of the psychodynamic approach, positing that unconscious forces drive behavior"
+    },
+    {
+      "question": "Which approach is most aligned with the concept of hard determinism?",
+      "options": [
+        "Humanistic",
+        "Cognitive",
+        "Behaviourist",
+        "Social learning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The behaviourist approach sees all behavior as environmentally determined by external influences, aligning with hard determinism"
+    },
+    {
+      "question": "In the context of the nature-nurture debate, what does the interactionist approach suggest?",
+      "options": [
+        "Nature is more important than nurture",
+        "Nurture is more important than nature",
+        "Nature and nurture interact to shape behavior",
+        "Behavior is solely determined by genetics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The interactionist approach emphasizes that both genetic and environmental factors work together to influence behavior. This corresponds to: Nature and nurture interact to shape behavior."
+    },
+    {
+      "question": "Which of the following is a limitation of reductionist approaches in psychology?",
+      "options": [
+        "They provide a holistic view of behavior",
+        "They ignore the complexity of human behavior",
+        "They focus on observable behavior only",
+        "They are difficult to test scientifically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reductionist approaches often oversimplify complex behaviors, neglecting the interactions between various factors. This corresponds to: They ignore the complexity of human behavior."
+    },
+    {
+      "question": "Which psychological approach would argue that behavior is a result of learned associations through reinforcement?",
+      "options": [
+        "Cognitive",
+        "Biological",
+        "Behaviourist",
+        "Humanistic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The behaviourist approach focuses on how behavior is learned through classical and operant conditioning"
+    },
+    {
+      "question": "What is a key characteristic of soft determinism?",
+      "options": [
+        "All behavior is predetermined",
+        "Individuals have no control over their actions",
+        "Choices are made within the limits of knowledge and experience",
+        "Behavior is solely influenced by genetics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Soft determinism suggests that while behavior is influenced by external and internal factors, individuals still have the capacity to make choices. This corresponds to: Choices are made within the limits of knowledge and experience."
+    },
+    {
+      "question": "Which approach is most likely to emphasize the role of biological factors in determining behavior?",
+      "options": [
+        "Humanistic",
+        "Cognitive",
+        "Behaviourist",
+        "Biological"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The biological approach posits that much of our behavior is directed by innate biological influences, aligning with genetic determinism"
+    }
+  ]
+}

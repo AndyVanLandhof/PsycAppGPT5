@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:26:13.765Z",
+  "curriculum": "aqa-psych",
+  "topicId": "memory",
+  "subId": "explanations-for-forgetting",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is proactive interference as described in the context of forgetting?",
+      "options": [
+        "New learning prevents recall of old information",
+        "Old learning prevents recall of new information",
+        "Cues are absent during recall",
+        "Memory traces decay over time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Proactive interference occurs when old learning interferes with the recall of new information. This corresponds to: Old learning prevents recall of new information."
+    },
+    {
+      "question": "In Martin's case, he confuses the French word for 'chair' with the Spanish word. This scenario exemplifies which type of interference?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Retrieval failure",
+        "Trace decay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Martin's confusion illustrates proactive interference, where old knowledge (French) interferes with new learning (Spanish)"
+    },
+    {
+      "question": "Which of the following best describes retrieval failure?",
+      "options": [
+        "Memories are lost due to decay",
+        "Memories cannot be accessed due to lack of cues",
+        "New information overwrites old information",
+        "Old memories are forgotten due to interference"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retrieval failure occurs when information is available but cannot be accessed due to the absence of appropriate cues. This corresponds to: Memories cannot be accessed due to lack of cues."
+    },
+    {
+      "question": "A student studies for a language exam but recalls words from a different language. This is an example of which explanation for forgetting?",
+      "options": [
+        "Trace decay",
+        "Proactive interference",
+        "Retroactive interference",
+        "Cues"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The student's recall of words from a different language demonstrates retroactive interference, where new learning interferes with the recall of previously learned information"
+    },
+    {
+      "question": "According to Anderson (2000), what is a limitation of interference theory?",
+      "options": [
+        "It cannot explain all types of forgetting",
+        "It is too simplistic",
+        "It requires similar types of information",
+        "It is not applicable in everyday situations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anderson concluded that interference effects require similar types of information, limiting its applicability to everyday forgetting. This corresponds to: It requires similar types of information."
+    },
+    {
+      "question": "What role do cues play in retrieval failure?",
+      "options": [
+        "They enhance memory trace decay",
+        "They help access memories that are available but not accessible",
+        "They prevent proactive interference",
+        "They are irrelevant to memory recall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cues serve as reminders that can help access memories that are available but not accessible, thus reducing retrieval failure. This corresponds to: They help access memories that are available but not accessible."
+    },
+    {
+      "question": "In a study, participants were unable to recall information due to a lack of environmental cues. This scenario illustrates which explanation for forgetting?",
+      "options": [
+        "Proactive interference",
+        "Retrieval failure",
+        "Trace decay",
+        "Retroactive interference"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inability to recall information due to a lack of cues exemplifies retrieval failure, where memories are available but not accessible"
+    },
+    {
+      "question": "Which of the following is a criticism of interference theory?",
+      "options": [
+        "It is too complex",
+        "It does not account for all types of forgetting",
+        "It is only applicable in laboratory settings",
+        "It overemphasizes the role of cues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interference theory is criticized for not accounting for all types of forgetting, as it may not be a significant factor in everyday situations. This corresponds to: It does not account for all types of forgetting."
+    },
+    {
+      "question": "What is the primary difference between proactive and retroactive interference?",
+      "options": [
+        "Proactive interference involves new information, while retroactive involves old",
+        "Proactive interference is about forgetting, while retroactive is about recall",
+        "Proactive interference is when old learning affects new, retroactive is the opposite",
+        "There is no difference; they are the same"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proactive interference occurs when old learning affects the recall of new information, while retroactive interference occurs when new learning affects the recall of old information. This corresponds to: Proactive interference is when old learning affects new, retroactive is the opposite."
+    },
+    {
+      "question": "In the context of forgetting, what is the significance of cues?",
+      "options": [
+        "They are irrelevant to memory recall",
+        "They can enhance the recall of memories",
+        "They cause interference",
+        "They lead to trace decay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cues are significant as they can enhance the recall of memories by providing reminders that help access information that is otherwise not retrievable"
+    }
+  ]
+}

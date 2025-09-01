@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:23:26.355Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "resistance-to-social-influence",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In Asch's (1951) study on conformity, what was the effect of having a dissenter present on conformity rates?",
+      "options": [
+        "Conformity increased to 50%",
+        "Conformity decreased to 5.5%",
+        "Conformity remained unchanged",
+        "Conformity decreased to 33%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of a dissenter broke the unanimity of the group, leading to a significant decrease in conformity rates. This corresponds to: Conformity decreased to 5.5%."
+    },
+    {
+      "question": "What does the term 'locus of control' refer to in the context of resistance to social influence?",
+      "options": [
+        "The belief in external factors controlling outcomes",
+        "The ability to influence others' behavior",
+        "The tendency to conform to group norms",
+        "The acceptance of authority figures' demands"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Locus of control refers to whether individuals believe their outcomes are controlled by internal factors (personal effort) or external factors (outside influences). This corresponds to: The belief in external factors controlling outcomes."
+    },
+    {
+      "question": "According to Milgram's (1963) study, how did the presence of disobedient peers affect obedience rates?",
+      "options": [
+        "Obedience increased to 60%",
+        "Obedience decreased to 10%",
+        "Obedience remained at 65%",
+        "Obedience decreased to 30%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of disobedient peers acted as role models, significantly reducing the percentage of participants who fully obeyed. This corresponds to: Obedience decreased to 10%."
+    },
+    {
+      "question": "In a study by Hutchins and Esteq (1978), what was found regarding individuals with a high internal locus of control?",
+      "options": [
+        "They were more likely to conform",
+        "They were less able to resist coercion",
+        "They were more able to resist coercion",
+        "They showed no difference in resistance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Individuals with a high internal locus of control were found to be more capable of resisting coercion in a simulated interrogation. This corresponds to: They were more able to resist coercion."
+    },
+    {
+      "question": "What role does social support play in resisting social influence, as evidenced by Asch's findings?",
+      "options": [
+        "It has no effect on conformity",
+        "It increases conformity rates",
+        "It decreases conformity rates",
+        "It only affects obedience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Social support from a dissenter in Asch's study significantly decreased conformity rates, demonstrating its importance in resisting social influence. This corresponds to: It decreases conformity rates."
+    },
+    {
+      "question": "Avtgis (1998) conducted a meta-analysis on locus of control and resistance to social influence. What was a key finding?",
+      "options": [
+        "No relationship was found",
+        "A significant relationship was found",
+        "Only external locus of control was significant",
+        "Only internal locus of control was significant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Avtgis found a significant relationship between locus of control scores and resistance to social influence across various studies. This corresponds to: A significant relationship was found."
+    },
+    {
+      "question": "How does Spector's (1983) research contribute to our understanding of locus of control in resisting social influence?",
+      "options": [
+        "Internal locus is important for all types of influence",
+        "External locus is more important than internal",
+        "Internal locus is significant for normative but not informational influence",
+        "Locus of control has no impact on resistance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spector's research highlights that while an internal locus of control aids in resisting normative social influence, it does not significantly impact resistance to informational social influence. This corresponds to: Internal locus is significant for normative but not informational influence."
+    },
+    {
+      "question": "What is a limitation of the social support explanation for resistance to social influence?",
+      "options": [
+        "It only applies to conformity",
+        "It lacks real-world applicability",
+        "It does not account for dispositional factors",
+        "It is not supported by empirical evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The social support explanation primarily focuses on situational factors and may overlook the role of individual personality traits in resistance. This corresponds to: It does not account for dispositional factors."
+    },
+    {
+      "question": "In the context of resistance to social influence, what does the term 'agentic state' refer to?",
+      "options": [
+        "A state of personal responsibility",
+        "A state of obedience to authority",
+        "A state of independence from social norms",
+        "A state of conformity to group pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The agentic state refers to a psychological state where individuals see themselves as agents of an authority figure, leading to obedience. This corresponds to: A state of obedience to authority."
+    },
+    {
+      "question": "How does the presence of allies affect an individual's ability to resist social influence?",
+      "options": [
+        "It has no effect",
+        "It makes resistance more difficult",
+        "It increases confidence and ability to resist",
+        "It only affects conformity, not obedience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Having allies provides social support, which increases an individual's confidence and ability to resist both conformity and obedience pressures. This corresponds to: It increases confidence and ability to resist."
+    }
+  ]
+}

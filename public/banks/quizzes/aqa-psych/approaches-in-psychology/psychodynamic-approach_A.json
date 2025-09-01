@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:00:16.087Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "psychodynamic-approach",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What are the three structures of personality according to the psychodynamic approach?",
+      "options": [
+        "Id, Ego, Superego",
+        "Conscious, Unconscious, Preconscious",
+        "Self, Ideal Self, Real Self",
+        "Drive, Conflict, Resolution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The psychodynamic approach posits that personality is structured into the Id, Ego, and Superego, each playing a distinct role in human behavior. This corresponds to: Id, Ego, Superego."
+    },
+    {
+      "question": "Which of the following best describes the role of the unconscious in the psychodynamic approach?",
+      "options": [
+        "It is the part of the mind that is always accessible.",
+        "It contains repressed memories and drives that influence behavior.",
+        "It is solely responsible for rational thought.",
+        "It is a conscious decision-making process."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The unconscious holds repressed memories and drives that significantly influence an individual's behavior, according to the psychodynamic approach. This corresponds to: It contains repressed memories and drives that influence behavior.."
+    },
+    {
+      "question": "During which psychosexual stage does a child develop a sense of identity and begin to identify with their same-sex parent?",
+      "options": [
+        "Oral",
+        "Anal",
+        "Phallic",
+        "Genital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Phallic stage is characterized by the child's identification with the same-sex parent and the development of gender identity"
+    },
+    {
+      "question": "Veronica often feels guilty after binge eating and uses purging as a coping mechanism. Which defence mechanism is she primarily exhibiting?",
+      "options": [
+        "Repression",
+        "Denial",
+        "Displacement",
+        "Sublimation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Veronica's behavior reflects repression, as she is unconsciously pushing away her feelings of guilt and anxiety related to her eating habits"
+    },
+    {
+      "question": "What is the primary function of defence mechanisms in the psychodynamic approach?",
+      "options": [
+        "To enhance self-awareness",
+        "To reduce anxiety and protect the ego",
+        "To promote social learning",
+        "To facilitate cognitive development"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Defence mechanisms serve to reduce anxiety and protect the ego from distressing thoughts and feelings"
+    },
+    {
+      "question": "A child who is fixated at the anal stage may exhibit which of the following adult behaviors?",
+      "options": [
+        "Overly dependent on others",
+        "Obsessive cleanliness or messiness",
+        "Difficulty in forming relationships",
+        "Excessive aggression"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An anal fixation can lead to traits such as obsessive cleanliness or messiness in adulthood, reflecting the conflicts experienced during this stage"
+    },
+    {
+      "question": "Which of the following is a criticism of the psychodynamic approach?",
+      "options": [
+        "It relies heavily on empirical evidence.",
+        "It overemphasizes the role of conscious thought.",
+        "It lacks scientific rigor and is difficult to test.",
+        "It ignores the influence of biological factors."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A common criticism of the psychodynamic approach is its lack of scientific rigor, making it difficult to empirically test its theories. This corresponds to: It lacks scientific rigor and is difficult to test.."
+    },
+    {
+      "question": "Freud's theory suggests that unresolved conflicts during psychosexual stages can lead to what?",
+      "options": [
+        "Increased self-actualization",
+        "Psychological disorders in adulthood",
+        "Enhanced cognitive abilities",
+        "Improved social relationships"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud proposed that unresolved conflicts during the psychosexual stages can result in fixations that manifest as psychological disorders in adulthood"
+    },
+    {
+      "question": "What is the primary focus of the phallic stage in Freud's psychosexual development?",
+      "options": [
+        "Exploration of the world",
+        "Development of sexual identity and relationships",
+        "Learning control over bodily functions",
+        "Formation of attachment to caregivers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phallic stage focuses on the development of sexual identity and relationships, particularly through identification with the same-sex parent"
+    },
+    {
+      "question": "In the context of the psychodynamic approach, what does 'displacement' refer to?",
+      "options": [
+        "Redirecting emotions from the original source to a safer target",
+        "Ignoring the existence of unpleasant feelings",
+        "Pushing distressing thoughts into the unconscious",
+        "Transferring feelings to a different context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Displacement involves redirecting emotions from the original source of distress to a safer target, serving as a defence mechanism. This corresponds to: Redirecting emotions from the original source to a safer target."
+    }
+  ]
+}

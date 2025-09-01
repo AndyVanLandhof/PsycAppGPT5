@@ -9,6 +9,7 @@ export default function QuizLab({ onBack }) {
   const [parsed, setParsed] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [statuses, setStatuses] = useState({});
   const { callAIJsonOnly } = useAIService();
   const { createVaultPrompt } = useVaultService();
   const topicEntries = useMemo(() => Object.entries(psychologyTopics), []);
@@ -182,6 +183,36 @@ Return ONLY this JSON:
     }
   };
 
+  const buildForSubtopic = async (tid, tTitle, st) => {
+    const key = `${tid}/${st.id}`;
+    setStatuses(prev => ({ ...prev, [key]: 'running' }));
+    try {
+      const topicTitle = tTitle;
+      const subTitle = st.title;
+      const base = unifiedPrompt(topicTitle, subTitle);
+      const promptWithVault = createVaultPrompt(base, topicTitle, subTitle, true, { quiz: true });
+      // Set A
+      const rawA = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const jsonA = extractFirstJson(rawA);
+      if (!jsonA) throw new Error('No JSON in Set A');
+      const dataA = JSON.parse(jsonA);
+      const itemsA = sanitize(dataA, subTitle);
+      await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'A', bank: { questions: itemsA } }) });
+      // Set B
+      const rawB = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
+      const jsonB = extractFirstJson(rawB);
+      if (!jsonB) throw new Error('No JSON in Set B');
+      const dataB = JSON.parse(jsonB);
+      const itemsB = sanitize(dataB, subTitle);
+      await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'B', bank: { questions: itemsB } }) });
+      setStatuses(prev => ({ ...prev, [key]: 'saved' }));
+      // Optionally preview the last built items
+      setParsed(itemsB);
+    } catch (e) {
+      setStatuses(prev => ({ ...prev, [key]: `error: ${e?.message || String(e)}` }));
+    }
+  };
+
   const runBuildAll = async () => {
     setLoading(true);
     setError('');
@@ -293,6 +324,36 @@ Return ONLY this JSON:
             ))}
           </div>
         )}
+        <div className="bg-white border rounded p-3 space-y-3">
+          <h3 className="font-semibold">Per‑subtopic builder</h3>
+          {topicEntries.map(([tid, t]) => (
+            <div key={tid} className="border rounded p-3">
+              <div className="font-medium mb-2">{t.title}</div>
+              <ul className="space-y-2">
+                {(t.subTopics || []).map(st => {
+                  const key = `${tid}/${st.id}`;
+                  const status = statuses[key] || '';
+                  const isRunning = status === 'running';
+                  return (
+                    <li key={st.id} className="flex items-center justify-between">
+                      <span className="text-sm">{st.title}</span>
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => buildForSubtopic(tid, t.title, st)}
+                          disabled={isRunning}
+                          className={`px-3 py-1 rounded text-white ${isRunning ? 'bg-gray-400' : 'bg-emerald-600 hover:bg-emerald-700'}`}
+                        >
+                          {isRunning ? 'Building…' : 'Create & Save A/B'}
+                        </button>
+                        {status && <span className="text-xs text-gray-600">{status}</span>}
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

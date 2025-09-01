@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:59:26.913Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "cognitive-neuroscience",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which area of the brain is associated with speech production, as identified by Paul Broca in the 1860s?",
+      "options": [
+        "Wernicke's Area",
+        "Hippocampus",
+        "Broca's Area",
+        "Cerebellum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Broca's Area is located in the frontal lobe and is crucial for speech production"
+    },
+    {
+      "question": "What technique has allowed researchers to observe brain activity during cognitive tasks, such as those involving episodic and semantic memory?",
+      "options": [
+        "CT scans",
+        "fMRI",
+        "EEG",
+        "X-rays"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Functional magnetic resonance imaging (fMRI) enables the observation of brain activity during specific tasks"
+    },
+    {
+      "question": "In a study by Tulving et al. (1994), which two types of long-term memory were found to be located on opposite sides of the prefrontal cortex?",
+      "options": [
+        "Episodic and procedural",
+        "Semantic and procedural",
+        "Episodic and semantic",
+        "Declarative and non-declarative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tulving et al. identified that episodic and semantic memories are processed in different areas of the prefrontal cortex"
+    },
+    {
+      "question": "Burnett et al. (2009) found that feelings of guilt activate which brain region associated with social emotions?",
+      "options": [
+        "Amygdala",
+        "Medial prefrontal cortex",
+        "Hippocampus",
+        "Cerebellum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The medial prefrontal cortex is activated when individuals experience feelings of guilt"
+    },
+    {
+      "question": "A researcher uses fMRI to study the brain activity of participants while they perform a memory task. This method exemplifies which aspect of cognitive neuroscience?",
+      "options": [
+        "Cognitive modeling",
+        "Neuroimaging techniques",
+        "Behavioral observation",
+        "Case studies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of fMRI is a neuroimaging technique that allows for the observation of brain activity during cognitive tasks. This corresponds to: Neuroimaging techniques."
+    },
+    {
+      "question": "A psychologist is examining the neurological basis of OCD and finds a link to the parahippocampal gyrus. This illustrates the application of cognitive neuroscience in understanding which aspect?",
+      "options": [
+        "Memory processing",
+        "Emotional regulation",
+        "Mental disorders",
+        "Social behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The parahippocampal gyrus's link to OCD demonstrates how cognitive neuroscience can help understand mental disorders"
+    },
+    {
+      "question": "One limitation of using neuroimaging techniques like fMRI is that they can be expensive and require specialized equipment. This raises concerns about which methodological issue?",
+      "options": [
+        "Sample size",
+        "Generalizability",
+        "Ecological validity",
+        "Cost-effectiveness"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The high cost and need for specialized equipment can limit the accessibility and generalizability of findings from neuroimaging studies. This corresponds to: Cost-effectiveness."
+    },
+    {
+      "question": "Cognitive neuroscience combines cognitive psychology with which other field to enhance the scientific basis of studying mental processes?",
+      "options": [
+        "Sociology",
+        "Biology",
+        "Philosophy",
+        "Anthropology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive neuroscience merges cognitive psychology with biology to study the neural bases of cognitive functions"
+    },
+    {
+      "question": "The development of 'brain fingerprinting' techniques aims to analyze brain wave patterns for what potential application?",
+      "options": [
+        "Detecting mental disorders",
+        "Improving memory recall",
+        "Determining truthfulness in eyewitnesses",
+        "Enhancing cognitive therapies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brain fingerprinting could be used to analyze brain wave patterns of eyewitnesses to assess their truthfulness in court. This corresponds to: Determining truthfulness in eyewitnesses."
+    },
+    {
+      "question": "The emergence of cognitive neuroscience has provided a credible scientific basis for the study of the mind. What does this imply about the methods used in this field?",
+      "options": [
+        "They are primarily qualitative.",
+        "They rely on subjective interpretations.",
+        "They produce reliable, objective data.",
+        "They focus on historical case studies."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cognitive neuroscience employs methods that yield reliable and objective data, enhancing the scientific credibility of psychological research. This corresponds to: They produce reliable, objective data.."
+    }
+  ]
+}

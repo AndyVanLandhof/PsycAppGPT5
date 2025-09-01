@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:28:50.253Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "strange-situation",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What was the primary aim of Ainsworth et al.'s Strange Situation (1971)?",
+      "options": [
+        "To assess the cognitive development of infants",
+        "To systematically test the nature of attachment",
+        "To evaluate parenting styles",
+        "To measure infant intelligence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Strange Situation was designed to systematically test the nature of attachment in infants aged 9 to 18 months"
+    },
+    {
+      "question": "In Ainsworth's Strange Situation, which attachment type is characterized by infants who show little response to separation and do not seek proximity upon reunion?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Insecure-disorganised attachment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Insecure-avoidant attachment is characterized by a lack of response to separation and avoidance of the caregiver upon reunion"
+    },
+    {
+      "question": "During the Strange Situation, Anna is pleased to see her mother upon her return and quickly resumes playing. What attachment type does this behavior suggest?",
+      "options": [
+        "Insecure-avoidant",
+        "Insecure-resistant",
+        "Secure",
+        "Insecure-disorganised"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anna's behavior indicates secure attachment, as she seeks comfort from her mother and resumes exploration"
+    },
+    {
+      "question": "What did Main and Solomon (1986) identify as a fourth type of attachment in their analysis of the Strange Situation?",
+      "options": [
+        "Insecure-avoidant",
+        "Insecure-resistant",
+        "Secure",
+        "Insecure-disorganised"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Main and Solomon proposed the insecure-disorganised type D, characterized by inconsistent patterns of behavior"
+    },
+    {
+      "question": "In a study of Japanese infants using the Strange Situation, what was a significant finding regarding insecure attachment types?",
+      "options": [
+        "High rates of insecure-avoidant attachment",
+        "Low rates of secure attachment",
+        "High rates of insecure-resistant attachment",
+        "Equal rates of all attachment types"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The study found that Japanese infants showed high rates of insecure-resistant attachment, with 32% exhibiting this type"
+    },
+    {
+      "question": "What methodological strength did Ainsworth et al. (1978) demonstrate in their observations during the Strange Situation?",
+      "options": [
+        "High ecological validity",
+        "Inter-observer reliability",
+        "Longitudinal design",
+        "Naturalistic observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ainsworth et al. found almost perfect agreement among observers, indicating strong inter-observer reliability in their ratings"
+    },
+    {
+      "question": "Which cultural factor did Grossmann and Grossmann (1991) suggest might explain higher levels of insecure attachment in German infants?",
+      "options": [
+        "Increased maternal separation",
+        "Different childrearing practices",
+        "Higher levels of maternal affection",
+        "Increased social interaction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They suggested that German culture promotes keeping interpersonal distance, affecting attachment behaviors in the Strange Situation. This corresponds to: Different childrearing practices."
+    },
+    {
+      "question": "What is a potential limitation of Ainsworth's Strange Situation regarding its applicability across cultures?",
+      "options": [
+        "It lacks reliability",
+        "It is too complex for infants",
+        "It may be culture-bound",
+        "It does not measure attachment accurately"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Strange Situation has been criticized as a culture-bound test, potentially misrepresenting attachment types in different cultural contexts. This corresponds to: It may be culture-bound."
+    },
+    {
+      "question": "What behavior is typical of an insecure-resistant attachment type C during the Strange Situation?",
+      "options": [
+        "Avoiding contact with the caregiver",
+        "Showing intense distress upon separation",
+        "Exploring freely without concern",
+        "Ignoring the caregiver upon reunion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Insecure-resistant infants display immediate and intense distress when separated from their caregiver. This corresponds to: Showing intense distress upon separation."
+    },
+    {
+      "question": "What was a notable observation made by Ainsworth et al. regarding exploratory behavior in infants during the Strange Situation?",
+      "options": [
+        "It increased throughout the procedure",
+        "It was consistent across all infants",
+        "It declined from episode 2 onwards",
+        "It was unrelated to attachment type"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ainsworth et al. noted that exploratory behaviors declined in all infants from episode 2 onwards during the Strange Situation. This corresponds to: It declined from episode 2 onwards."
+    }
+  ]
+}

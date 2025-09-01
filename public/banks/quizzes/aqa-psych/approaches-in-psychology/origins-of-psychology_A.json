@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:30:32.313Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "origins-of-psychology",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Who is considered the father of experimental psychology, having opened the first psychology lab in 1879?",
+      "options": [
+        "Sigmund Freud",
+        "Wilhelm Wundt",
+        "John B. Watson",
+        "B.F. Skinner"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wilhelm Wundt opened the first psychology lab in Leipzig, marking the beginning of scientific psychology"
+    },
+    {
+      "question": "What method did Wundt use to study the human mind systematically?",
+      "options": [
+        "Behaviorism",
+        "Introspection",
+        "Cognitive testing",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wundt pioneered the method of introspection to study the human mind under controlled conditions"
+    },
+    {
+      "question": "In the context of Wundt's work, what does the term 'structuralism' refer to?",
+      "options": [
+        "The study of observable behavior",
+        "The breakdown of mental processes into basic elements",
+        "The analysis of cultural influences on behavior",
+        "The application of psychoanalytic theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Structuralism refers to Wundt's approach of breaking down behaviors into their basic elements. This corresponds to: The breakdown of mental processes into basic elements."
+    },
+    {
+      "question": "A researcher is studying reaction times in response to stimuli in a controlled environment. Which approach is this aligned with?",
+      "options": [
+        "Cognitive approach",
+        "Behaviorist approach",
+        "Humanistic approach",
+        "Wundt's experimental approach"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This aligns with Wundt's experimental approach, which focused on studying behaviors that could be strictly controlled"
+    },
+    {
+      "question": "Wundt's introspection was criticized for producing what type of data?",
+      "options": [
+        "Quantitative",
+        "Qualitative",
+        "Objective",
+        "Generalizable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Introspection produced qualitative data, which was subjective and difficult to measure objectively"
+    },
+    {
+      "question": "Which psychologist argued that psychology should only study observable phenomena, rejecting introspection?",
+      "options": [
+        "Wilhelm Wundt",
+        "B.F. Skinner",
+        "Carl Rogers",
+        "Albert Bandura"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B.F. Skinner, a behaviorist, argued that psychology should focus on observable behaviors rather than introspection"
+    },
+    {
+      "question": "Wundt's later realization that higher mental processes could not be studied experimentally led him to develop which field?",
+      "options": [
+        "Cognitive psychology",
+        "Behaviorism",
+        "Volkerpsychologie",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wundt referred to the study of higher mental processes that could not be controlled experimentally as Volkerpsychologie"
+    },
+    {
+      "question": "A psychologist uses fMRI technology to study brain activity during memory tasks. This reflects which approach's influence?",
+      "options": [
+        "Cognitive approach",
+        "Behaviorist approach",
+        "Biological approach",
+        "Humanistic approach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of fMRI technology reflects the influence of the biological approach in studying physiological processes"
+    },
+    {
+      "question": "Kuhn argued that psychology lacks an accepted paradigm, suggesting it is still in what stage?",
+      "options": [
+        "Normal science",
+        "Pre-science",
+        "Applied science",
+        "Experimental science"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kuhn suggested that psychology's lack of a unified paradigm means it is still considered pre-science"
+    },
+    {
+      "question": "Wundt's emphasis on controlled conditions in his lab was significant for the emergence of psychology as what?",
+      "options": [
+        "A philosophical discipline",
+        "A subjective field",
+        "A scientific discipline",
+        "An artistic endeavor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wundt's controlled conditions in his lab marked the emergence of psychology as a scientific discipline distinct from philosophy"
+    }
+  ]
+}

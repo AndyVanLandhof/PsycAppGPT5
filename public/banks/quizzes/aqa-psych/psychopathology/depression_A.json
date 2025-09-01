@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:21:25.931Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "depression",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is a cognitive characteristic of depression as outlined in Beck's negative triad?",
+      "options": [
+        "Negative view of self",
+        "Increased energy levels",
+        "Positive outlook on future",
+        "High self-esteem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beck's negative triad identifies a negative view of self as a key cognitive characteristic of depression"
+    },
+    {
+      "question": "In Ellis's ABC model, what does the 'B' stand for?",
+      "options": [
+        "Beliefs",
+        "Behavior",
+        "Biology",
+        "Bias"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Ellis's ABC model, 'B' stands for beliefs, which are the irrational thoughts that lead to emotional distress"
+    },
+    {
+      "question": "A patient exhibits feelings of hopelessness and a lack of interest in activities they once enjoyed. This is indicative of which characteristic of depression?",
+      "options": [
+        "Emotional",
+        "Cognitive",
+        "Behavioral",
+        "Physical"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Feelings of hopelessness and lack of interest are emotional characteristics commonly associated with depression"
+    },
+    {
+      "question": "A study found that cognitive behavioral therapy (CBT) significantly reduced symptoms of depression in patients. This supports which aspect of the cognitive approach?",
+      "options": [
+        "The role of genetics",
+        "The effectiveness of drug therapy",
+        "The importance of changing negative thoughts",
+        "The influence of social norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The effectiveness of CBT in reducing depression symptoms highlights the importance of changing negative thoughts as per the cognitive approach"
+    },
+    {
+      "question": "In a clinical trial, patients receiving CBT showed a 70% improvement in depressive symptoms compared to 30% in those receiving no treatment. What does this suggest about CBT?",
+      "options": [
+        "It is ineffective",
+        "It is a valid treatment",
+        "It is only effective for mild depression",
+        "It has no long-term benefits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The significant improvement in symptoms for patients receiving CBT suggests that it is a valid treatment for depression"
+    },
+    {
+      "question": "One limitation of the cognitive approach to depression is that it may not account for which factor?",
+      "options": [
+        "Genetic predispositions",
+        "Environmental influences",
+        "Cognitive distortions",
+        "Behavioral responses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cognitive approach may overlook genetic predispositions, which can also play a significant role in the development of depression"
+    },
+    {
+      "question": "Which of the following is a behavioral characteristic of depression?",
+      "options": [
+        "Increased social interaction",
+        "Withdrawal from social activities",
+        "Enhanced motivation",
+        "Improved concentration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Withdrawal from social activities is a common behavioral characteristic of individuals suffering from depression"
+    },
+    {
+      "question": "A patient diagnosed with depression is prescribed an SSRI to increase serotonin levels. This treatment aligns with which explanation of depression?",
+      "options": [
+        "Cognitive",
+        "Behavioral",
+        "Biological",
+        "Humanistic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of SSRIs to increase serotonin levels aligns with the biological explanation of depression"
+    },
+    {
+      "question": "Research indicates that cognitive distortions in depression can lead to a cycle of negative thinking. This supports which aspect of Beck's theory?",
+      "options": [
+        "The role of environmental factors",
+        "The influence of social learning",
+        "The maintenance of negative thoughts",
+        "The genetic basis of depression"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cycle of negative thinking supports Beck's theory regarding the maintenance of cognitive distortions in depression. This corresponds to: The maintenance of negative thoughts."
+    },
+    {
+      "question": "Which treatment method focuses on challenging irrational beliefs to alleviate symptoms of depression?",
+      "options": [
+        "Systematic desensitization",
+        "Flooding",
+        "Cognitive Behavioral Therapy",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cognitive Behavioral Therapy (CBT) focuses on challenging irrational beliefs to alleviate symptoms of depression"
+    }
+  ]
+}

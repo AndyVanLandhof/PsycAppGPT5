@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:28:31.138Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "strange-situation",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What was the primary aim of Ainsworth et al.'s Strange Situation (1971, 1978)?",
+      "options": [
+        "To assess the cognitive development of infants",
+        "To systematically test the nature of attachment",
+        "To evaluate parenting styles",
+        "To measure infant intelligence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Strange Situation aimed to systematically test the nature of attachment in infants aged 9 to 18 months"
+    },
+    {
+      "question": "In Ainsworth's Strange Situation, which attachment type is characterized by strong distress upon separation and conflicting behaviors upon reunion?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Insecure-disorganised attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The insecure-resistant attachment type is marked by immediate distress upon separation and conflicting behaviors upon reunion"
+    },
+    {
+      "question": "During the Strange Situation, which behavior is typical of securely attached infants?",
+      "options": [
+        "Avoiding the caregiver",
+        "Showing little response to separation",
+        "Seeking proximity and being easily soothed",
+        "Displaying extreme distress when left alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Securely attached infants seek proximity to their caregiver and are easily soothed upon reunion. This corresponds to: Seeking proximity and being easily soothed."
+    },
+    {
+      "question": "If a child shows little emotional response when their caregiver leaves and ignores them upon return, which attachment type do they likely exhibit?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Insecure-disorganised attachment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This behavior is indicative of insecure-avoidant attachment, where the child avoids social interaction with the caregiver"
+    },
+    {
+      "question": "What did Main and Solomon (1986) identify as a fourth type of attachment in their analysis of the Strange Situation?",
+      "options": [
+        "Insecure-avoidant",
+        "Insecure-resistant",
+        "Secure",
+        "Insecure-disorganised"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Main and Solomon proposed the insecure-disorganised type D, characterized by a lack of consistent attachment behaviors"
+    },
+    {
+      "question": "In a study of Japanese infants using the Strange Situation, what was a notable finding regarding attachment types?",
+      "options": [
+        "High rates of insecure-avoidant attachment",
+        "Similar rates of secure attachment to Ainsworth's findings",
+        "Low levels of distress during separation",
+        "Increased levels of secure attachment compared to American infants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The study found similar rates of secure attachment but no evidence of insecure-avoidant attachment among Japanese infants. This corresponds to: Similar rates of secure attachment to Ainsworth's findings."
+    },
+    {
+      "question": "What methodological strength is associated with Ainsworth's Strange Situation regarding observer ratings?",
+      "options": [
+        "High levels of participant bias",
+        "Low inter-observer reliability",
+        "Almost perfect agreement among observers",
+        "Lack of standardized procedures"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ainsworth et al. found almost perfect agreement (0.94) among observers when rating exploratory behavior, indicating high reliability. This corresponds to: Almost perfect agreement among observers."
+    },
+    {
+      "question": "What is a criticism of Ainsworth's Strange Situation regarding cultural bias?",
+      "options": [
+        "It is universally applicable across cultures",
+        "It may not account for different childrearing practices",
+        "It only applies to middle-class families",
+        "It lacks empirical support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Strange Situation is considered a culture-bound test, as it may not account for variations in childrearing practices across different cultures. This corresponds to: It may not account for different childrearing practices."
+    },
+    {
+      "question": "Which attachment type is characterized by a child who shows both a desire for closeness and resistance to being held?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Insecure-disorganised attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Insecure-resistant attachment is characterized by conflicting desires for intimacy and resistance to contact"
+    },
+    {
+      "question": "What behavior did Ainsworth et al. observe in infants during the Strange Situation that indicated attachment type?",
+      "options": [
+        "Exploratory behavior remained constant",
+        "Crying increased as separation episodes occurred",
+        "All infants displayed the same attachment behavior",
+        "Infants showed no response to the caregiver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ainsworth et al. noted that crying increased in all infants from episode 2 onwards, indicating attachment-related distress. This corresponds to: Crying increased as separation episodes occurred."
+    }
+  ]
+}

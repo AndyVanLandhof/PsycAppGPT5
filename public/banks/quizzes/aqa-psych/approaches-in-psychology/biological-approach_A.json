@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:59:42.664Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "biological-approach",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which neurotransmitter has been linked to increased aggression when present at low levels, according to Crockett et al. (2010)?",
+      "options": [
+        "Dopamine",
+        "Serotonin",
+        "Norepinephrine",
+        "GABA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Crockett et al. found that low levels of serotonin are associated with increased aggressive behavior"
+    },
+    {
+      "question": "What is the term for the genetic makeup of an individual, which influences their characteristics?",
+      "options": [
+        "Phenotype",
+        "Genotype",
+        "Allele",
+        "Chromosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The genotype refers to the actual genetic makeup of an individual, while the phenotype is how these genes are expressed"
+    },
+    {
+      "question": "In the context of the biological approach, how do genes and the environment interact to influence behavior?",
+      "options": [
+        "Genes determine behavior without environmental influence.",
+        "Environment solely shapes behavior without genetic influence.",
+        "Genotype is expressed as phenotype, influenced by the environment.",
+        "Behavior is entirely learned through conditioning."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biological approach posits that genotype interacts with the environment to produce the phenotype, which is the observable expression of genes. This corresponds to: Genotype is expressed as phenotype, influenced by the environment.."
+    },
+    {
+      "question": "Which of the following best describes the concept of phenotype?",
+      "options": [
+        "The genetic code of an organism",
+        "The observable characteristics of an organism",
+        "The potential for an organism's traits",
+        "The hereditary information passed from parents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenotype refers to the observable characteristics that result from the interaction of genotype with the environment. This corresponds to: The observable characteristics of an organism."
+    },
+    {
+      "question": "What methodological issue does the biological approach face regarding the determinism of behavior?",
+      "options": [
+        "It ignores the role of environmental factors.",
+        "It relies solely on self-report data.",
+        "It cannot be tested scientifically.",
+        "It assumes all behavior is learned."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The biological approach is criticized for being overly deterministic, as it suggests behavior is governed by genetic factors without considering environmental influences. This corresponds to: It ignores the role of environmental factors.."
+    },
+    {
+      "question": "Which study supports the idea that genetic factors influence mate preferences across cultures?",
+      "options": [
+        "Bandura's Bobo Doll Experiment",
+        "Buss's study on mate preferences",
+        "Pavlov's classical conditioning",
+        "Skinner's operant conditioning research"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Buss's study demonstrated universal similarities in mate preferences across 37 cultures, suggesting a genetic basis for these behaviors. This corresponds to: Buss's study on mate preferences."
+    },
+    {
+      "question": "How does the biological approach explain the relationship between aggression and neurotransmitters?",
+      "options": [
+        "Aggression is solely learned through observation.",
+        "Neurotransmitter imbalances can lead to aggressive behavior.",
+        "Aggression is a result of environmental conditioning.",
+        "All aggression is inherited."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The biological approach posits that imbalances in neurotransmitters, such as serotonin, can lead to increased aggression. This corresponds to: Neurotransmitter imbalances can lead to aggressive behavior.."
+    },
+    {
+      "question": "What is a limitation of the biological approach regarding its view on behavior?",
+      "options": [
+        "It overemphasizes environmental factors.",
+        "It is too simplistic and ignores environmental influences.",
+        "It does not consider genetic factors.",
+        "It lacks empirical support."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The biological approach is often criticized for being too simplistic, as it tends to overlook the mediating effects of the environment on behavior. This corresponds to: It is too simplistic and ignores environmental influences.."
+    },
+    {
+      "question": "Which of the following statements best describes the role of neurochemistry in the biological approach?",
+      "options": [
+        "It is unrelated to psychological functioning.",
+        "It plays a crucial role in understanding behavior through chemical changes.",
+        "It only influences physical health.",
+        "It is solely responsible for learned behaviors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The biological approach emphasizes the importance of neurochemistry in understanding behavior, particularly through chemical changes in the nervous system. This corresponds to: It plays a crucial role in understanding behavior through chemical changes.."
+    },
+    {
+      "question": "What does the biological approach suggest about the nature-nurture debate?",
+      "options": [
+        "Behavior is entirely determined by genetics.",
+        "Behavior is solely shaped by environmental experiences.",
+        "Both genetic and environmental factors interact to shape behavior.",
+        "Behavior is predetermined by cultural influences."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The biological approach argues that behavior results from an interaction between inherited genetic factors (nature) and environmental influences (nurture). This corresponds to: Both genetic and environmental factors interact to shape behavior.."
+    }
+  ]
+}

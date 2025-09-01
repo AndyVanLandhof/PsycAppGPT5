@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:28:10.135Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "explanations-of-attachment",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following best describes Bowlby's monotropic theory of attachment?",
+      "options": [
+        "It suggests that attachment is learned through conditioning.",
+        "It proposes that infants form one primary attachment figure.",
+        "It emphasizes the role of multiple attachments.",
+        "It states that attachment is solely a cultural phenomenon."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's monotropic theory posits that infants form a single primary attachment figure, which is crucial for their development. This corresponds to: It proposes that infants form one primary attachment figure.."
+    },
+    {
+      "question": "In Ainsworth's Strange Situation, which type of attachment is characterized by high levels of anxiety and resistance to the caregiver?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Disorganized attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Insecure-resistant attachment is marked by anxiety and ambivalence towards the caregiver, as observed in Ainsworth's Strange Situation"
+    },
+    {
+      "question": "A study found that children raised in institutions showed significant emotional and social difficulties. This supports which of Bowlby's theories?",
+      "options": [
+        "Learning theory of attachment",
+        "Monotropic theory",
+        "Maternal deprivation hypothesis",
+        "Internal working model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bowlby's maternal deprivation hypothesis suggests that prolonged separation from the primary caregiver can lead to emotional and social difficulties"
+    },
+    {
+      "question": "A researcher observes that a child who has a secure attachment style tends to have better social skills in adulthood. This supports which concept?",
+      "options": [
+        "Critical period",
+        "Internal working model",
+        "Operant conditioning",
+        "Reciprocity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The internal working model suggests that early attachment experiences shape future relationships and social competence"
+    },
+    {
+      "question": "In a study comparing attachment styles across cultures, researchers found that Japanese children exhibited higher rates of insecure-resistant attachment. This finding suggests what about attachment theory?",
+      "options": [
+        "It is universally applicable.",
+        "It may be culturally biased.",
+        "It is irrelevant to child development.",
+        "It only applies to Western cultures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The higher rates of insecure-resistant attachment in Japanese children may indicate cultural bias in attachment theory, as attachment styles can vary across cultures. This corresponds to: It may be culturally biased.."
+    },
+    {
+      "question": "Which of the following is a limitation of the learning theory of attachment?",
+      "options": [
+        "It ignores the role of biological factors.",
+        "It overemphasizes the importance of the primary caregiver.",
+        "It does not account for cultural variations.",
+        "It is based solely on animal studies."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The learning theory of attachment is criticized for ignoring biological factors, such as innate attachment behaviors proposed by Bowlby. This corresponds to: It ignores the role of biological factors.."
+    },
+    {
+      "question": "What methodological issue is often associated with Ainsworth's Strange Situation?",
+      "options": [
+        "It lacks ecological validity.",
+        "It is too simplistic.",
+        "It does not consider the father's role.",
+        "It is culturally biased."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Strange Situation has been criticized for lacking ecological validity, as it may not accurately reflect attachment behaviors in natural settings. This corresponds to: It lacks ecological validity.."
+    },
+    {
+      "question": "Which of the following statements about the critical period in Bowlby's theory is true?",
+      "options": [
+        "It is a time when children can form multiple attachments.",
+        "It is a sensitive period for forming attachments.",
+        "It is irrelevant to attachment development.",
+        "It only applies to Western cultures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's critical period refers to a sensitive time frame during which infants are most receptive to forming attachments. This corresponds to: It is a sensitive period for forming attachments.."
+    },
+    {
+      "question": "According to Rothbaum et al. (2000), how does cultural context influence attachment styles?",
+      "options": [
+        "All cultures value independence equally.",
+        "Cultural values shape the definition of competence in attachment.",
+        "Attachment styles are universal across all cultures.",
+        "Cultural context has no impact on attachment."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rothbaum et al. argue that cultural values influence how attachment is expressed and understood, highlighting the need for culturally relevant theories. This corresponds to: Cultural values shape the definition of competence in attachment.."
+    },
+    {
+      "question": "Which animal study provided evidence for the importance of a primary attachment figure in attachment development?",
+      "options": [
+        "Harlow's monkey study",
+        "Lorenz's imprinting study",
+        "Ainsworth's Strange Situation",
+        "Bowlby's maternal deprivation study"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Harlow's study with rhesus monkeys demonstrated the significance of a primary attachment figure, as the monkeys preferred a soft surrogate mother over a wire one. This corresponds to: Harlow's monkey study."
+    }
+  ]
+}

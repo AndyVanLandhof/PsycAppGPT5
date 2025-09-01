@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:11:52.326Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "definitions-abnormality",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which definition of abnormality considers behaviour that deviates from societal norms?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deviation from social norms defines abnormality as behaviour that violates the unwritten rules of how one ought to behave in society"
+    },
+    {
+      "question": "According to the statistical infrequency definition, which of the following behaviours would be considered abnormal?",
+      "options": [
+        "A behaviour exhibited by 10% of the population",
+        "A behaviour exhibited by 1% of the population",
+        "A behaviour that is widely accepted",
+        "A behaviour that is common in society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statistical infrequency defines abnormality as behaviours that are extremely rare, typically found in only a small percentage of the population. This corresponds to: A behaviour exhibited by 1% of the population."
+    },
+    {
+      "question": "Rob, a sixth form student, struggles to complete his homework due to hearing threatening voices. Which definition of abnormality best describes his situation?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rob's inability to cope with everyday tasks and his distress indicate that he is failing to function adequately. This corresponds to: Failure to function adequately."
+    },
+    {
+      "question": "Which of the following is a limitation of the statistical infrequency definition of abnormality?",
+      "options": [
+        "It does not consider cultural differences",
+        "It is too subjective",
+        "It relies on self-reports",
+        "It is too rigid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Statistical infrequency does not account for cultural relativism, meaning behaviours considered abnormal in one culture may be normal in another. This corresponds to: It does not consider cultural differences."
+    },
+    {
+      "question": "In the context of deviation from ideal mental health, which characteristic is NOT typically included?",
+      "options": [
+        "Self-actualisation",
+        "Realistic perception of the world",
+        "Ability to cope with stress",
+        "High levels of social anxiety"
+      ],
+      "correctAnswer": 3,
+      "explanation": "High levels of social anxiety would indicate a failure to meet the criteria for ideal mental health, rather than being a characteristic of it"
+    },
+    {
+      "question": "Martina has a phobia of spiders and experiences high anxiety when near them. Which definition of abnormality does her behaviour exemplify?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Martina's extreme reaction to spiders deviates from social norms regarding typical responses to harmless animals. This corresponds to: Deviation from social norms."
+    },
+    {
+      "question": "Which of the following is a strength of the failure to function adequately definition of abnormality?",
+      "options": [
+        "It is culturally relative",
+        "It considers the individual's perspective",
+        "It is easy to measure",
+        "It is universally applicable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This definition takes into account the individual's ability to cope with daily life, providing a more personal perspective on abnormality. This corresponds to: It considers the individual's perspective."
+    },
+    {
+      "question": "Which definition of abnormality is primarily concerned with the presence of symptoms listed in the DSM?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Deviation from ideal mental health focuses on the absence of certain criteria, which are often outlined in the DSM"
+    },
+    {
+      "question": "Rob's behaviour of hearing voices and feeling anxious could be evaluated using which definition of abnormality?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rob's experiences can be assessed through multiple definitions, highlighting the complexity of defining abnormality. This corresponds to: All of the above."
+    },
+    {
+      "question": "What is a common criticism of the deviation from social norms definition of abnormality?",
+      "options": [
+        "It is too subjective",
+        "It does not consider individual distress",
+        "It is culturally biased",
+        "It is too rigid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This definition may be culturally biased, as behaviours considered abnormal in one culture may be normal in another. This corresponds to: It is culturally biased."
+    }
+  ]
+}

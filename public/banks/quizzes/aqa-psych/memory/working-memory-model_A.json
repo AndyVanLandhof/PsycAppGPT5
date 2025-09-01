@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:25:12.382Z",
+  "curriculum": "aqa-psych",
+  "topicId": "memory",
+  "subId": "working-memory-model",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does the working memory model (WMM) propose about short-term memory?",
+      "options": [
+        "It is a single unitary store.",
+        "It consists of multiple stores.",
+        "It relies solely on rehearsal.",
+        "It has unlimited capacity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The WMM suggests that short-term memory is divided into multiple qualitatively different stores, unlike the multi-store model which views it as a single store. This corresponds to: It consists of multiple stores.."
+    },
+    {
+      "question": "In the case study of KF (Shallice and Washington, 1974), what specific memory impairment did he exhibit?",
+      "options": [
+        "Impaired visual memory",
+        "Impaired verbal memory",
+        "Impaired long-term memory",
+        "Intact auditory memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "KF could recall and process visual information but had trouble recalling words verbally, indicating an impairment in the articulatory loop. This corresponds to: Impaired verbal memory."
+    },
+    {
+      "question": "According to the WMM, which component is responsible for processing visual and spatial information?",
+      "options": [
+        "Central executive",
+        "Episodic buffer",
+        "Phonological loop",
+        "Visuo-spatial sketchpad"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The visuo-spatial sketchpad is specifically responsible for processing visual and spatial information in the working memory model"
+    },
+    {
+      "question": "If a student is solving a math problem and temporarily holds intermediate results in their mind, which component of the WMM are they using?",
+      "options": [
+        "Central executive",
+        "Episodic buffer",
+        "Phonological loop",
+        "Visuo-spatial sketchpad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The central executive manages and coordinates the information held in working memory while the student processes the math problem"
+    },
+    {
+      "question": "What is a limitation of the central executive in the working memory model?",
+      "options": [
+        "It has a limited capacity.",
+        "It is too vague and simplistic.",
+        "It is well-supported by empirical evidence.",
+        "It cannot be tested effectively."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that the central executive is too vague and simplistic, making it difficult to design tasks to test its functions. This corresponds to: It is too vague and simplistic.."
+    },
+    {
+      "question": "Which component of the WMM was added by Baddeley in 2000 to enhance the model?",
+      "options": [
+        "Phonological loop",
+        "Visuo-spatial sketchpad",
+        "Episodic buffer",
+        "Central executive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The episodic buffer was added to the working memory model by Baddeley in 2000 to integrate information from different stores"
+    },
+    {
+      "question": "In a study where participants are asked to remember a list of words while solving a puzzle, which aspect of the WMM is being tested?",
+      "options": [
+        "Capacity of the phonological loop",
+        "Function of the visuo-spatial sketchpad",
+        "Role of the central executive",
+        "Duration of the episodic buffer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario tests the role of the central executive in managing multiple tasks simultaneously"
+    },
+    {
+      "question": "How does the working memory model differ from the multi-store model regarding rehearsal?",
+      "options": [
+        "Rehearsal is the only process in WMM.",
+        "WMM does not emphasize rehearsal as much.",
+        "Both models emphasize rehearsal equally.",
+        "WMM suggests rehearsal is unnecessary."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The WMM allows for other processes beyond rehearsal to explain how information enters long-term memory, unlike the multi-store model. This corresponds to: WMM does not emphasize rehearsal as much.."
+    },
+    {
+      "question": "What methodological issue is associated with the case study of KF?",
+      "options": [
+        "It lacks ecological validity.",
+        "It is based on a single individual.",
+        "It has a large sample size.",
+        "It uses quantitative data."
+      ],
+      "correctAnswer": 1,
+      "explanation": "As a case study of a single individual, KF's findings may not be generalizable to the wider population. This corresponds to: It is based on a single individual.."
+    },
+    {
+      "question": "Which of the following best describes the episodic buffer in the working memory model?",
+      "options": [
+        "It stores visual information.",
+        "It integrates information from different stores.",
+        "It processes auditory information.",
+        "It is the main control system."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The episodic buffer integrates information from the phonological loop and visuo-spatial sketchpad, providing a more holistic view of working memory. This corresponds to: It integrates information from different stores.."
+    }
+  ]
+}

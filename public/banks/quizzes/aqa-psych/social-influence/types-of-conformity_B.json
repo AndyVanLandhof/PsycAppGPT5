@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:21:32.638Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "types-of-conformity",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What type of conformity involves a change in private beliefs as well as public behavior, as proposed by Kelman in 1958?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Social Influence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Internalisation occurs when an individual adopts the beliefs of a group both publicly and privately"
+    },
+    {
+      "question": "In Asch's (1951) study on conformity, which variable was found to significantly affect conformity rates?",
+      "options": [
+        "Group size",
+        "Gender of participants",
+        "Cultural background",
+        "Age of participants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Asch found that larger group sizes increased conformity rates, particularly when the group reached a size of three"
+    },
+    {
+      "question": "A student feels pressured to agree with their friends' opinions on a movie, even though they did not enjoy it. This is an example of which type of conformity?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Social Influence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates compliance, where the student publicly agrees to fit in with the group despite their private disagreement"
+    },
+    {
+      "question": "Which explanation for conformity suggests that individuals conform to be accepted by a group?",
+      "options": [
+        "Informational social influence",
+        "Normative social influence",
+        "Identification",
+        "Internalisation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Normative social influence occurs when individuals conform to be liked or accepted by others"
+    },
+    {
+      "question": "In a study, participants were more likely to conform when the task was difficult. What does this suggest about the nature of conformity?",
+      "options": [
+        "It is always negative",
+        "It is influenced by task difficulty",
+        "It is unrelated to group dynamics",
+        "It is a sign of weakness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This suggests that task difficulty can increase conformity as individuals may look to others for guidance when uncertain. This corresponds to: It is influenced by task difficulty."
+    },
+    {
+      "question": "What is a methodological issue with Asch's study on conformity?",
+      "options": [
+        "It lacked ecological validity",
+        "It was too diverse",
+        "It had too few participants",
+        "It was conducted in a natural setting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Asch's study lacked ecological validity as it was conducted in a controlled laboratory setting, which may not reflect real-world situations. This corresponds to: It lacked ecological validity."
+    },
+    {
+      "question": "Which type of conformity is characterized by an individual adopting a group's beliefs to fit in, but not necessarily believing them?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Social Influence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Identification involves adopting the group's beliefs to be accepted, but the individual may not fully internalize these beliefs"
+    },
+    {
+      "question": "A participant in a study conforms to a group's answer on a difficult task because they believe the group knows better. This is an example of which type of influence?",
+      "options": [
+        "Normative social influence",
+        "Informational social influence",
+        "Compliance",
+        "Identification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates informational social influence, where the individual conforms due to a belief that the group has more accurate information"
+    },
+    {
+      "question": "What did Zimbardo's research on conformity to social roles demonstrate?",
+      "options": [
+        "Conformity is always negative",
+        "Social roles can influence behavior",
+        "Conformity is unrelated to authority",
+        "All individuals conform equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zimbardo's research showed that social roles can significantly influence behavior, leading individuals to conform to expected roles. This corresponds to: Social roles can influence behavior."
+    },
+    {
+      "question": "In terms of resistance to social influence, what role does social support play?",
+      "options": [
+        "It decreases conformity",
+        "It has no effect",
+        "It increases conformity",
+        "It is irrelevant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Social support can decrease conformity by providing individuals with allies who share their views, making them feel more confident in resisting group pressure. This corresponds to: It decreases conformity."
+    }
+  ]
+}

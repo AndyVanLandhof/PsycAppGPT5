@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:09:30.727Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "scientific-processes",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What type of experiment involves manipulating an independent variable in a controlled environment to observe its effect on a dependent variable?",
+      "options": [
+        "Laboratory experiment",
+        "Field experiment",
+        "Natural experiment",
+        "Quasi-experiment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A laboratory experiment is characterized by the manipulation of an independent variable in a controlled setting"
+    },
+    {
+      "question": "In Joanna's research on girls in Uganda, which method could she use to ensure the reliability of her questionnaire?",
+      "options": [
+        "Inter-observer reliability",
+        "Test-retest method",
+        "Content analysis",
+        "Naturalistic observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The test-retest method involves administering the same questionnaire to the same participants at a later time to check for consistency in responses"
+    },
+    {
+      "question": "Which sampling technique involves selecting participants based on their availability at the time of the study?",
+      "options": [
+        "Random sampling",
+        "Stratified sampling",
+        "Opportunity sampling",
+        "Systematic sampling"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Opportunity sampling selects participants who are readily available, which can introduce bias"
+    },
+    {
+      "question": "What is a key limitation of using self-report techniques such as questionnaires?",
+      "options": [
+        "They are time-consuming",
+        "They can lead to demand characteristics",
+        "They require a large sample size",
+        "They are difficult to analyze"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques can lead to demand characteristics, where participants alter their responses based on perceived expectations. This corresponds to: They can lead to demand characteristics."
+    },
+    {
+      "question": "In a study examining the relationship between sleep duration and academic performance, what type of data analysis would be appropriate?",
+      "options": [
+        "Content analysis",
+        "Correlational analysis",
+        "Experimental analysis",
+        "Case study analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correlational analysis is used to examine the relationship between two co-variables, such as sleep duration and academic performance"
+    },
+    {
+      "question": "If Joanna's questionnaire has low reliability, what implication does this have for her research findings?",
+      "options": [
+        "The findings may lack ecological validity",
+        "The findings may not be generalizable",
+        "The findings may not be valid",
+        "The findings may be too complex"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Low reliability suggests that the results may not accurately reflect the true experiences of the participants, impacting the validity of the findings. This corresponds to: The findings may not be valid."
+    },
+    {
+      "question": "Which of the following is a strength of using observational techniques in psychological research?",
+      "options": [
+        "They are always ethical",
+        "They provide quantitative data",
+        "They can capture natural behavior",
+        "They eliminate all bias"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Observational techniques can capture natural behavior in real-world settings, enhancing ecological validity. This corresponds to: They can capture natural behavior."
+    },
+    {
+      "question": "What is the primary purpose of conducting a pilot study in psychological research?",
+      "options": [
+        "To gather qualitative data",
+        "To test the reliability of the research instruments",
+        "To ensure ethical standards are met",
+        "To increase sample size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A pilot study is conducted to test the reliability and validity of research instruments before the main study. This corresponds to: To test the reliability of the research instruments."
+    },
+    {
+      "question": "Which type of validity refers to the extent to which a study's findings can be generalized to real-world settings?",
+      "options": [
+        "Internal validity",
+        "External validity",
+        "Construct validity",
+        "Face validity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "External validity refers to the generalizability of study findings to real-world contexts"
+    },
+    {
+      "question": "What methodological issue arises from using a non-random sampling technique like opportunity sampling?",
+      "options": [
+        "Increased reliability",
+        "Reduced generalizability",
+        "Higher ecological validity",
+        "Greater control over variables"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opportunity sampling can lead to reduced generalizability because the sample may not represent the wider population"
+    }
+  ]
+}

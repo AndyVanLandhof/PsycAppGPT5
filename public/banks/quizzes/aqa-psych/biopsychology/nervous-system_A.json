@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:02:01.940Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "nervous-system",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which division of the nervous system is responsible for transmitting information from the CNS to muscles and glands?",
+      "options": [
+        "Central nervous system",
+        "Peripheral nervous system",
+        "Somatic nervous system",
+        "Autonomic nervous system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The peripheral nervous system relays nerve impulses from the CNS to the rest of the body"
+    },
+    {
+      "question": "In a scenario where a person is startled by a loud noise, which part of the nervous system is primarily activated to prepare the body for a 'fight or flight' response?",
+      "options": [
+        "Somatic nervous system",
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Central nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sympathetic nervous system is responsible for initiating the fight or flight response"
+    },
+    {
+      "question": "What is the main function of the somatic nervous system?",
+      "options": [
+        "Regulates involuntary bodily functions",
+        "Transmits sensory information to the CNS",
+        "Controls emotional responses",
+        "Regulates hormone release"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The somatic nervous system transmits information from receptor cells in the sense organs to the CNS. This corresponds to: Transmits sensory information to the CNS."
+    },
+    {
+      "question": "Which branch of the autonomic nervous system is responsible for slowing down the heart rate after a stress response?",
+      "options": [
+        "Sympathetic branch",
+        "Parasympathetic branch",
+        "Somatic branch",
+        "CNS branch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parasympathetic branch dampens the stress response by slowing the heartbeat"
+    },
+    {
+      "question": "If a person is experiencing chronic stress, which system is activated after the initial adrenaline surge?",
+      "options": [
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
+        "HPA axis",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The HPA axis is activated in response to ongoing stress, involving hormonal signals"
+    },
+    {
+      "question": "Which of the following statements accurately describes the central nervous system?",
+      "options": [
+        "It includes the brain and spinal cord",
+        "It controls voluntary muscle movements",
+        "It is part of the peripheral nervous system",
+        "It transmits sensory information only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The central nervous system comprises the brain and spinal cord. This corresponds to: It includes the brain and spinal cord."
+    },
+    {
+      "question": "In a study examining the effects of stress on the body, researchers found that prolonged activation of the HPA axis can impair cognitive performance. What does this suggest about the role of cortisol?",
+      "options": [
+        "It enhances cognitive function",
+        "It has no effect on cognition",
+        "It can impair cognitive performance",
+        "It only affects physical health"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The study highlights a negative effect of cortisol on cognitive performance during chronic stress. This corresponds to: It can impair cognitive performance."
+    },
+    {
+      "question": "Which division of the nervous system operates involuntarily and regulates internal bodily organs?",
+      "options": [
+        "Somatic nervous system",
+        "Central nervous system",
+        "Autonomic nervous system",
+        "Peripheral nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The autonomic nervous system operates involuntarily, managing internal bodily functions"
+    },
+    {
+      "question": "What is the primary role of the sympathetic nervous system during a stress response?",
+      "options": [
+        "To promote relaxation",
+        "To prepare the body for action",
+        "To regulate digestion",
+        "To enhance cognitive clarity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sympathetic nervous system prepares the body for action during a stress response. This corresponds to: To prepare the body for action."
+    },
+    {
+      "question": "In a scenario where a person is feeling relaxed after a stressful event, which part of the nervous system is likely active?",
+      "options": [
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
+        "Central nervous system",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parasympathetic nervous system is responsible for calming the body after stress"
+    }
+  ]
+}

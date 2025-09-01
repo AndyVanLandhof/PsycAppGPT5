@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:22:28.906Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "obedience",
+  "set": "A",
+  "questions": [
+    {
+      "question": "In Milgram's study (1963), what percentage of participants administered the maximum shock of 450V when the experimenter was present in the same room?",
+      "options": [
+        "35%",
+        "65%",
+        "48%",
+        "10%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Milgram found that 65% of participants obeyed to the maximum shock level when the experimenter was in the same room"
+    },
+    {
+      "question": "According to Tarnow's study (2000) on aviation accidents, what was a significant factor contributing to crashes?",
+      "options": [
+        "Excessive crew training",
+        "Lack of monitoring errors",
+        "Poor weather conditions",
+        "Pilot fatigue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tarnow found that excessive dependence on the captain's authority led to lack of monitoring errors in many accidents"
+    },
+    {
+      "question": "In a variation of Milgram's study, when participants were joined by two disobedient confederates, what was the effect on obedience levels?",
+      "options": [
+        "Obedience levels increased",
+        "Obedience levels decreased",
+        "Obedience levels remained the same",
+        "Obedience levels doubled"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of disobedient peers can liberate participants from the pressure to obey, leading to decreased obedience. This corresponds to: Obedience levels decreased."
+    },
+    {
+      "question": "What is one factor that has been shown to decrease obedience in Milgram's experiments?",
+      "options": [
+        "Proximity to authority",
+        "Presence of disobedient peers",
+        "High status of the location",
+        "Clear instructions from authority"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Milgram's variations showed that having disobedient peers significantly decreased obedience levels. This corresponds to: Presence of disobedient peers."
+    },
+    {
+      "question": "What does the term 'legitimacy of authority' refer to in the context of obedience?",
+      "options": [
+        "The moral justification for disobedience",
+        "The perceived right of an authority figure to give orders",
+        "The ability to resist authority",
+        "The influence of peer pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Legitimacy of authority refers to the perception that an authority figure has the right to issue commands, which can lead to higher obedience. This corresponds to: The perceived right of an authority figure to give orders."
+    },
+    {
+      "question": "In the context of obedience, how does the agentic state explain why individuals follow orders?",
+      "options": [
+        "They feel personally responsible for their actions",
+        "They believe they are acting on behalf of an authority figure",
+        "They are motivated by social approval",
+        "They fear punishment for disobedience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The agentic state suggests that individuals see themselves as agents executing the wishes of an authority figure, thus feeling less personal responsibility. This corresponds to: They believe they are acting on behalf of an authority figure."
+    },
+    {
+      "question": "What was the finding of Elms and Milgram's study regarding the Authoritarian Personality?",
+      "options": [
+        "No correlation with obedience",
+        "Higher F scale scores in obedient participants",
+        "Lower F scale scores in obedient participants",
+        "Equal F scale scores across all participants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Elms and Milgram found that participants who were obedient in Milgram's study scored higher on the F scale, indicating a relationship between Authoritarian Personality and obedience. This corresponds to: Higher F scale scores in obedient participants."
+    },
+    {
+      "question": "How does the situational context of Milgram's study affect the generalizability of its findings?",
+      "options": [
+        "It supports the idea that personality traits are the main cause of obedience",
+        "It suggests that obedience is easier to achieve in real-life situations",
+        "It indicates that laboratory settings may not reflect real-life obedience",
+        "It shows that obedience is solely based on individual differences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The laboratory setting of Milgram's study may not accurately reflect real-life situations, where obedience can be more complex and influenced by various factors. This corresponds to: It indicates that laboratory settings may not reflect real-life obedience."
+    },
+    {
+      "question": "What role does education level play in obedience according to Milgram's findings?",
+      "options": [
+        "Higher education leads to more obedience",
+        "Lower education leads to more obedience",
+        "Education has no effect on obedience",
+        "Education only affects compliance, not obedience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Milgram found that participants with lower levels of education tended to be more obedient than those with higher levels of education. This corresponds to: Lower education leads to more obedience."
+    },
+    {
+      "question": "What is one methodological issue with Milgram's study that critics often highlight?",
+      "options": [
+        "Lack of control over variables",
+        "Use of deception",
+        "Small sample size",
+        "Unrealistic setting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics often highlight the use of deception in Milgram's study, which raises ethical concerns about the treatment of participants"
+    }
+  ]
+}

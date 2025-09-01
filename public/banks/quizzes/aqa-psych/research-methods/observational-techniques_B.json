@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:06:49.218Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "observational-techniques",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In a study investigating children's play behavior, researchers used a naturalistic observation method to record interactions in a playground setting. What is a key advantage of this observational technique?",
+      "options": [
+        "High control over variables",
+        "Realistic behavior in a natural setting",
+        "Easier to replicate",
+        "Less time-consuming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Naturalistic observation allows researchers to observe behavior in a real-world context, leading to more authentic data. This corresponds to: Realistic behavior in a natural setting."
+    },
+    {
+      "question": "A researcher uses a structured observation to study aggressive behavior in children during recess. What is a potential limitation of this method?",
+      "options": [
+        "It may not capture spontaneous behavior",
+        "It is too time-consuming",
+        "It lacks ecological validity",
+        "It requires extensive training"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Structured observations may miss spontaneous or unplanned behaviors, which can be crucial for understanding aggression. This corresponds to: It may not capture spontaneous behavior."
+    },
+    {
+      "question": "In a controlled observation, researchers recorded the frequency of aggressive acts in a classroom setting. What is a key feature of controlled observations?",
+      "options": [
+        "They occur in natural environments",
+        "They allow for manipulation of variables",
+        "They are always covert",
+        "They require participant consent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Controlled observations involve manipulation of the environment to observe specific behaviors under set conditions. This corresponds to: They allow for manipulation of variables."
+    },
+    {
+      "question": "A study on social interactions used both overt and covert observation methods. What is a primary difference between these two types of observation?",
+      "options": [
+        "Overt is more ethical than covert",
+        "Covert does not inform participants they are being observed",
+        "Overt is less reliable than covert",
+        "Covert observations are always structured"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In overt observations, participants are aware they are being observed, while in covert observations, they are not informed. This corresponds to: Covert does not inform participants they are being observed."
+    },
+    {
+      "question": "In a study examining the effects of classroom layout on student engagement, researchers used time sampling to record behaviors. What is a potential drawback of this sampling method?",
+      "options": [
+        "It may miss behaviors that occur outside of the specified times",
+        "It is too subjective",
+        "It requires extensive training",
+        "It is less reliable than event sampling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Time sampling may overlook behaviors that occur outside the predetermined observation intervals, potentially skewing results. This corresponds to: It may miss behaviors that occur outside of the specified times."
+    },
+    {
+      "question": "A researcher conducting a naturalistic observation of children playing found that boys were more aggressive than girls. What methodological issue could affect the validity of this finding?",
+      "options": [
+        "Observer bias",
+        "Lack of operational definitions",
+        "Inconsistent sampling methods",
+        "Limited sample size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Observer bias can lead to subjective interpretations of behavior, affecting the validity of the findings regarding aggression"
+    },
+    {
+      "question": "In a study using participant observation, the researcher became involved in the group being studied. What is a potential advantage of this method?",
+      "options": [
+        "Increased objectivity",
+        "Deeper understanding of the context",
+        "Easier data collection",
+        "Higher reliability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Participant observation allows researchers to gain insights into the social dynamics and context of the group being studied. This corresponds to: Deeper understanding of the context."
+    },
+    {
+      "question": "A researcher conducting a covert observation of a public space recorded aggressive interactions without the participants' knowledge. What ethical consideration is most relevant in this scenario?",
+      "options": [
+        "Informed consent",
+        "Debriefing",
+        "Confidentiality",
+        "Right to withdraw"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Covert observations raise ethical concerns regarding informed consent, as participants are unaware they are being studied"
+    },
+    {
+      "question": "In a study comparing overt and covert observational techniques, researchers found that overt observations yielded more accurate reports of behavior. What could explain this finding?",
+      "options": [
+        "Participants may alter their behavior when aware of being observed",
+        "Covert observations are less reliable",
+        "Overt observations are more ethical",
+        "Covert observations are more structured"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Participants may change their behavior when they know they are being observed, potentially leading to less accurate data in covert observations. This corresponds to: Participants may alter their behavior when aware of being observed."
+    },
+    {
+      "question": "A researcher uses behavioral categories to structure their observations of aggressive behavior in children. What is a key benefit of using behavioral categories?",
+      "options": [
+        "Increases subjectivity",
+        "Enhances reliability of observations",
+        "Reduces the need for training",
+        "Limits the scope of behaviors observed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Behavioral categories help to standardize observations, which can enhance the reliability and consistency of the data collected. This corresponds to: Enhances reliability of observations."
+    }
+  ]
+}

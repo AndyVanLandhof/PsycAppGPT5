@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:58:43.824Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "cognitive-approach",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What does the information processing approach in cognitive psychology suggest about how information flows through the cognitive system?",
+      "options": [
+        "It is random and chaotic",
+        "It follows a sequence of stages",
+        "It is solely based on emotional responses",
+        "It is only applicable to computers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The information processing approach suggests that information flows through the cognitive system in a sequence of stages, including input, storage, and retrieval. This corresponds to: It follows a sequence of stages."
+    },
+    {
+      "question": "In Baddeley and Hitch's working memory model, which component was added in 2000?",
+      "options": [
+        "Phonological loop",
+        "Episodic buffer",
+        "Visuospatial sketchpad",
+        "Central executive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The episodic buffer was added to Baddeley and Hitch's working memory model in 2000 to account for the integration of information from different sources"
+    },
+    {
+      "question": "A student is trying to remember a list of words by grouping them into categories. This strategy is an example of which cognitive process?",
+      "options": [
+        "Encoding",
+        "Storage",
+        "Retrieval",
+        "Schema activation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Grouping words into categories is a form of encoding, where information is organized to facilitate memory retention"
+    },
+    {
+      "question": "Which of the following best describes the role of schemas in cognitive psychology?",
+      "options": [
+        "They are fixed and unchangeable",
+        "They help in the interpretation of information",
+        "They are irrelevant to memory processes",
+        "They only apply to visual information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schemas help in the interpretation of information by providing a framework for understanding new experiences based on prior knowledge. This corresponds to: They help in the interpretation of information."
+    },
+    {
+      "question": "A researcher uses a computer model to simulate human memory processes. What is a limitation of this approach?",
+      "options": [
+        "It accurately reflects human emotions",
+        "It can account for human error",
+        "It does not consider the role of motivation",
+        "It is too complex to understand"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One limitation of using computer models is that they do not consider the role of emotion and motivation, which are significant in human cognition. This corresponds to: It does not consider the role of motivation."
+    },
+    {
+      "question": "In cognitive psychology, what is the primary focus of research?",
+      "options": [
+        "Behavioral responses",
+        "Internal mental processes",
+        "Social influences",
+        "Biological factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive psychology primarily focuses on internal mental processes such as perception, memory, and problem-solving"
+    },
+    {
+      "question": "A child learns to imitate a peer's behavior after witnessing the positive reinforcement they receive. This scenario illustrates which cognitive concept?",
+      "options": [
+        "Vicarious reinforcement",
+        "Schema activation",
+        "Cognitive dissonance",
+        "Information processing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates vicarious reinforcement, where a child learns by observing the consequences of another's behavior"
+    },
+    {
+      "question": "Which of the following is a key difference between human information processing and computer processing?",
+      "options": [
+        "Humans process information faster",
+        "Computers do not make mistakes",
+        "Humans have unlimited memory capacity",
+        "Computers can understand emotions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key difference is that computers do not make mistakes, while human information processing is prone to errors and forgetting"
+    },
+    {
+      "question": "What is a common methodological issue in cognitive psychology research?",
+      "options": [
+        "Lack of theoretical models",
+        "Use of meaningless tasks",
+        "Overemphasis on biological factors",
+        "Neglect of social influences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many cognitive psychology studies use tasks that are relatively meaningless in real-life settings, which can limit ecological validity. This corresponds to: Use of meaningless tasks."
+    },
+    {
+      "question": "Which cognitive model is used to explain the process of memory retrieval?",
+      "options": [
+        "Multi-store model",
+        "Social learning theory",
+        "Behaviorist model",
+        "Humanistic model"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model of memory explains the process of memory retrieval as part of its framework for understanding memory"
+    }
+  ]
+}

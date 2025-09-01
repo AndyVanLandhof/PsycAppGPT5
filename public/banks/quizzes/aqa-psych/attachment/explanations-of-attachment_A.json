@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:27:44.947Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "explanations-of-attachment",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following best describes Bowlby's monotropic theory of attachment?",
+      "options": [
+        "It emphasizes multiple attachments",
+        "It suggests attachment is learned through conditioning",
+        "It proposes a single primary attachment figure",
+        "It focuses solely on the role of the father"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bowlby's monotropic theory posits that infants form one primary attachment figure, which is crucial for their development. This corresponds to: It proposes a single primary attachment figure."
+    },
+    {
+      "question": "In Ainsworth's Strange Situation, which type of attachment is characterized by high levels of anxiety and ambivalence towards the caregiver?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Disorganized attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Insecure-resistant attachment is marked by anxiety and ambivalence, where the child is clingy yet resistant to comfort"
+    },
+    {
+      "question": "A study found that children raised in institutions showed significant delays in social development. This supports which of Bowlby's theories?",
+      "options": [
+        "Learning theory",
+        "Monotropic theory",
+        "Maternal deprivation",
+        "Internal working model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bowlby's theory of maternal deprivation suggests that prolonged separation from the primary caregiver can lead to social and emotional difficulties"
+    },
+    {
+      "question": "Which of the following is a limitation of the learning theory of attachment?",
+      "options": [
+        "It ignores the role of genetics",
+        "It overemphasizes the importance of the primary caregiver",
+        "It does not account for cultural variations",
+        "It lacks empirical support"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The learning theory of attachment is criticized for ignoring genetic factors that may influence attachment behaviors. This corresponds to: It ignores the role of genetics."
+    },
+    {
+      "question": "In Lorenz's study of imprinting, what was the critical period for ducklings to form attachments?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "1 week",
+        "2 weeks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lorenz found that ducklings must imprint within 48 hours of hatching to form a lasting attachment"
+    },
+    {
+      "question": "A researcher found that children from collectivist cultures displayed different attachment styles compared to those from individualistic cultures. This suggests a limitation in which attachment theory?",
+      "options": [
+        "Learning theory",
+        "Bowlby's monotropic theory",
+        "Ainsworth's Strange Situation",
+        "Harlow's attachment theory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ainsworth's Strange Situation may not account for cultural variations in attachment styles, as it was developed based on Western norms"
+    },
+    {
+      "question": "Which of the following concepts is central to Bowlby's internal working model?",
+      "options": [
+        "Attachment is learned through reinforcement",
+        "Early attachments influence future relationships",
+        "Imprinting occurs during a critical period",
+        "Attachment styles are fixed and unchangeable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's internal working model suggests that early attachments shape an individual's expectations and interactions in future relationships. This corresponds to: Early attachments influence future relationships."
+    },
+    {
+      "question": "In Harlow's study with rhesus monkeys, what was the primary finding regarding attachment?",
+      "options": [
+        "Monkeys preferred the wire mother that provided food",
+        "Monkeys preferred the cloth mother that provided comfort",
+        "Monkeys showed no preference for either mother",
+        "Monkeys only attached to their biological mothers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harlow found that infant monkeys preferred the cloth mother for comfort over the wire mother that provided food, highlighting the importance of comfort in attachment. This corresponds to: Monkeys preferred the cloth mother that provided comfort."
+    },
+    {
+      "question": "Which of the following is a methodological issue associated with Ainsworth's Strange Situation?",
+      "options": [
+        "It lacks ecological validity",
+        "It is too simplistic",
+        "It does not measure attachment accurately",
+        "It is culturally biased"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Strange Situation has been criticized for lacking ecological validity, as it may not reflect real-life attachment behaviors. This corresponds to: It lacks ecological validity."
+    },
+    {
+      "question": "What is the primary focus of the learning theory of attachment?",
+      "options": [
+        "The role of genetics in attachment",
+        "The importance of the primary caregiver",
+        "The process of conditioning in forming attachments",
+        "The impact of cultural factors on attachment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The learning theory posits that attachment behaviors are learned through conditioning, emphasizing the role of experiences over innate factors. This corresponds to: The process of conditioning in forming attachments."
+    }
+  ]
+}

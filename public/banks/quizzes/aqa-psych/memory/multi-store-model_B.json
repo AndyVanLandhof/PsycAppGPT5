@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:24:51.076Z",
+  "curriculum": "aqa-psych",
+  "topicId": "memory",
+  "subId": "multi-store-model",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What are the three memory stores identified in the multi-store model of memory?",
+      "options": [
+        "Sensory memory, short-term memory, long-term memory",
+        "Short-term memory, working memory, long-term memory",
+        "Sensory memory, working memory, episodic memory",
+        "Short-term memory, procedural memory, long-term memory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model identifies sensory memory, short-term memory, and long-term memory as its three main stores. This corresponds to: Sensory memory, short-term memory, long-term memory."
+    },
+    {
+      "question": "In the multi-store model, what is the primary process that transfers information from short-term memory to long-term memory?",
+      "options": [
+        "Rehearsal",
+        "Encoding",
+        "Retrieval",
+        "Storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rehearsal is the primary process that facilitates the transfer of information from short-term memory to long-term memory in the multi-store model"
+    },
+    {
+      "question": "A researcher tests participants' short-term memory by asking them to repeat increasingly longer sequences of numbers. What is the likely outcome based on the multi-store model?",
+      "options": [
+        "Participants will recall all sequences correctly",
+        "Participants will recall a maximum of 5 to 9 items correctly",
+        "Participants will struggle with any sequence longer than 3 items",
+        "Participants will recall sequences based on visual memory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to the multi-store model, short-term memory has a limited capacity of between 5 and 9 items, which is likely the outcome of this research. This corresponds to: Participants will recall a maximum of 5 to 9 items correctly."
+    },
+    {
+      "question": "Which psychologist(s) first proposed the multi-store model of memory in 1968?",
+      "options": [
+        "Baddeley and Hitch",
+        "Shallice and Washington",
+        "Atkinson and Shiffrin",
+        "Miller"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The multi-store model of memory was first described by Richard Atkinson and Richard Shiffrin in 1968. This corresponds to: Atkinson and Shiffrin."
+    },
+    {
+      "question": "What methodological issue is often raised regarding the multi-store model of memory?",
+      "options": [
+        "It does not account for different types of long-term memory",
+        "It relies solely on case studies",
+        "It is based on outdated technology",
+        "It does not consider the role of emotions in memory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One methodological issue is that the multi-store model does not account for the different types of long-term memory, such as episodic and procedural memory. This corresponds to: It does not account for different types of long-term memory."
+    },
+    {
+      "question": "How does the multi-store model of memory differ from the working memory model regarding rehearsal?",
+      "options": [
+        "The multi-store model emphasizes rehearsal more than the working memory model",
+        "Both models emphasize rehearsal equally",
+        "The working memory model does not consider rehearsal",
+        "Rehearsal is irrelevant in both models"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model places a greater emphasis on rehearsal as a key process for transferring information to long-term memory compared to the working memory model. This corresponds to: The multi-store model emphasizes rehearsal more than the working memory model."
+    },
+    {
+      "question": "In the multi-store model, what is the role of sensory memory?",
+      "options": [
+        "To store information for long periods",
+        "To hold information briefly before it is processed",
+        "To encode information for retrieval",
+        "To facilitate rehearsal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sensory memory serves to hold information briefly before it is processed into short-term memory"
+    },
+    {
+      "question": "What evidence supports the multi-store model's claim about the capacity of short-term memory?",
+      "options": [
+        "The case study of KF",
+        "Miller's magic number",
+        "The serial position effect",
+        "The levels of processing theory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Miller's magic number suggests that the capacity of short-term memory is typically around 7 items, supporting the multi-store model's claims"
+    },
+    {
+      "question": "What is a limitation of the multi-store model regarding the nature of short-term memory?",
+      "options": [
+        "It suggests short-term memory is a single store",
+        "It does not explain long-term memory processes",
+        "It ignores sensory memory",
+        "It overemphasizes the role of rehearsal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A limitation is that the multi-store model suggests short-term memory is a single store, whereas evidence indicates it may consist of multiple components. This corresponds to: It suggests short-term memory is a single store."
+    },
+    {
+      "question": "According to the multi-store model, what happens to information that is not rehearsed?",
+      "options": [
+        "It is transferred to long-term memory",
+        "It is lost from short-term memory",
+        "It is stored in sensory memory",
+        "It is encoded for retrieval"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Information that is not rehearsed is typically lost from short-term memory according to the multi-store model. This corresponds to: It is lost from short-term memory."
+    }
+  ]
+}

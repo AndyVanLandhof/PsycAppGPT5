@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:02:34.100Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "neurons-synaptic-transmission",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the primary function of excitatory neurotransmitters such as acetylcholine?",
+      "options": [
+        "They decrease the likelihood of neuron firing",
+        "They increase the likelihood of neuron firing",
+        "They inhibit synaptic transmission",
+        "They break down enzymes in the synaptic cleft"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excitatory neurotransmitters increase the likelihood that an excitatory signal is sent to the postsynaptic cell, making it more likely to fire. This corresponds to: They increase the likelihood of neuron firing."
+    },
+    {
+      "question": "In synaptic transmission, what occurs when an inhibitory neurotransmitter binds to a postsynaptic receptor?",
+      "options": [
+        "The postsynaptic neuron is more likely to fire",
+        "An excitatory post-synaptic potential is generated",
+        "An inhibitory post-synaptic potential is generated",
+        "The presynaptic neuron is activated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Binding of an inhibitory neurotransmitter results in an inhibitory post-synaptic potential (IPSP), making it less likely that the postsynaptic cell will fire. This corresponds to: An inhibitory post-synaptic potential is generated."
+    },
+    {
+      "question": "Which of the following best describes the process of summation in synaptic transmission?",
+      "options": [
+        "The total of excitatory and inhibitory inputs determines if a neuron fires",
+        "Only excitatory inputs are considered",
+        "Only inhibitory inputs are considered",
+        "It refers to the release of neurotransmitters into the synaptic cleft"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Summation is the process where the net result of excitatory and inhibitory inputs determines whether the neuron will fire. This corresponds to: The total of excitatory and inhibitory inputs determines if a neuron fires."
+    },
+    {
+      "question": "In a scenario where a presynaptic neuron fires rapidly, what type of summation is likely occurring?",
+      "options": [
+        "Spatial summation",
+        "Temporal summation",
+        "Inhibitory summation",
+        "Neurotransmitter breakdown"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Temporal summation occurs when a large number of excitatory post-synaptic potentials are generated at the same synapse by a series of high-frequency action potentials"
+    },
+    {
+      "question": "A patient experiences increased anxiety due to a deficiency in GABA. What role does GABA play in the nervous system?",
+      "options": [
+        "It acts as an excitatory neurotransmitter",
+        "It regulates excitement and acts as an anxiety reducer",
+        "It increases heart rate",
+        "It enhances synaptic transmission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GABA is an inhibitory neurotransmitter that regulates excitement in the nervous system, acting as a natural form of anxiety reducer. This corresponds to: It regulates excitement and acts as an anxiety reducer."
+    },
+    {
+      "question": "A researcher conducts an experiment where participants are shown images to test their responses. If they can only verbally respond to images presented to one visual field, what does this suggest about hemispheric lateralization?",
+      "options": [
+        "Both hemispheres process information equally",
+        "Only the left hemisphere is involved in verbal responses",
+        "Only the right hemisphere processes visual information",
+        "The corpus callosum is fully functional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This suggests that the left hemisphere is primarily responsible for verbal responses, highlighting the lateralization of function. This corresponds to: Only the left hemisphere is involved in verbal responses."
+    },
+    {
+      "question": "In a study of synaptic transmission, participants show a delay in response when inhibitory neurotransmitters are activated. What does this indicate about the role of inhibitory neurotransmitters?",
+      "options": [
+        "They speed up neural transmission",
+        "They have no effect on neural transmission",
+        "They slow down the likelihood of neuron firing",
+        "They enhance excitatory signals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Inhibitory neurotransmitters decrease the likelihood of neuron firing, which can lead to a delay in response. This corresponds to: They slow down the likelihood of neuron firing."
+    },
+    {
+      "question": "Research on split brain patients indicates that results cannot always be generalized due to small sample sizes. What is a methodological issue related to this?",
+      "options": [
+        "The findings are too complex to understand",
+        "The sample may not represent the wider population",
+        "The research methods are outdated",
+        "The results are always consistent across studies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Small sample sizes limit the ability to generalize findings, making it difficult to create nomothetic theories. This corresponds to: The sample may not represent the wider population."
+    },
+    {
+      "question": "When evaluating the role of neurotransmitters in behavior, what is a potential limitation of focusing solely on biological explanations?",
+      "options": [
+        "They ignore environmental influences",
+        "They are too simplistic",
+        "They are always accurate",
+        "They do not consider genetic factors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Focusing solely on biological explanations can overlook the significant impact of environmental influences on behavior. This corresponds to: They ignore environmental influences."
+    },
+    {
+      "question": "Which is the primary function of excitatory neurotransmitters such as acetylcholine?",
+      "options": [
+        "They decrease the likelihood of neuron firing",
+        "They increase the likelihood of neuron firing",
+        "They inhibit synaptic transmission",
+        "They break down enzymes in the synaptic cleft"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excitatory neurotransmitters increase the likelihood that an excitatory signal is sent to the postsynaptic cell, making it more likely to fire. This corresponds to: They increase the likelihood of neuron firing."
+    }
+  ]
+}

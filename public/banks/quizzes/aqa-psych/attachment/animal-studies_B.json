@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:27:27.816Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "animal-studies",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What was the primary finding of Harlow's study on attachment in rhesus monkeys (1958)?",
+      "options": [
+        "Monkeys preferred the wire mother that fed them",
+        "Monkeys showed no preference for either mother",
+        "Monkeys preferred the cloth mother for comfort",
+        "Monkeys formed attachments based solely on food"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Harlow found that monkeys preferred the cloth mother for comfort over the wire mother that provided food"
+    },
+    {
+      "question": "In Schaffer and Emerson's study (1964), what did they find regarding infant attachment?",
+      "options": [
+        "Infants were most attached to the person who fed them",
+        "Infants showed attachment to multiple caregivers",
+        "Infants were primarily attached to their fathers",
+        "Infants did not form attachments at all"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schaffer and Emerson found that infants were not most attached to the person who fed them, indicating that attachment is not solely based on feeding. This corresponds to: Infants showed attachment to multiple caregivers."
+    },
+    {
+      "question": "What ethical concern arises from Harlow's study on attachment in monkeys?",
+      "options": [
+        "The study caused no harm to the monkeys",
+        "The monkeys were not observed in their natural habitat",
+        "The study created lasting emotional harm to the monkeys",
+        "The study was conducted without proper consent"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Harlow's study is criticized for causing lasting emotional harm, as the monkeys later struggled to form relationships with peers. This corresponds to: The study created lasting emotional harm to the monkeys."
+    },
+    {
+      "question": "What methodological issue is associated with using animal studies to understand human attachment?",
+      "options": [
+        "Animal studies provide a complete understanding of human behavior",
+        "Humans and animals are inherently different in moral and cognitive aspects",
+        "Animal studies are always ethically sound",
+        "Animal behavior is identical to human behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A methodological issue is that humans and animals differ significantly in moral and cognitive aspects, which limits the generalizability of animal studies to human attachment. This corresponds to: Humans and animals are inherently different in moral and cognitive aspects."
+    },
+    {
+      "question": "What did Lorenz's study on imprinting in geese (1935) demonstrate about attachment?",
+      "options": [
+        "Imprinting occurs only in mammals",
+        "Attachments can form without a critical period",
+        "Geese will imprint on any moving object",
+        "Imprinting is a learned behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lorenz demonstrated that geese imprint on the first moving object they encounter, typically their mother, highlighting the importance of a critical period. This corresponds to: Geese will imprint on any moving object."
+    },
+    {
+      "question": "How do animal studies contribute to our understanding of human attachment according to the AQA materials?",
+      "options": [
+        "They provide definitive conclusions applicable to humans",
+        "They serve as useful pointers but require human confirmation",
+        "They are irrelevant to human attachment",
+        "They show that attachment is solely based on feeding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Animal studies can provide insights into attachment processes, but findings must be confirmed through research involving humans. This corresponds to: They serve as useful pointers but require human confirmation."
+    },
+    {
+      "question": "What is a limitation of learning theory in explaining human attachment?",
+      "options": [
+        "It considers cognitive factors in attachment",
+        "It is based on studies with non-human animals",
+        "It includes emotional aspects of attachment",
+        "It is universally accepted among psychologists"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation of learning theory is that it is largely based on studies with non-human animals, which may not fully capture the complexities of human attachment. This corresponds to: It is based on studies with non-human animals."
+    },
+    {
+      "question": "What role does the SCN play in attachment behavior according to animal studies?",
+      "options": [
+        "It regulates feeding behavior",
+        "It influences sleep/wake cycles",
+        "It has no relevance to attachment",
+        "It is solely responsible for emotional bonding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SCN is involved in regulating sleep/wake cycles, which can indirectly affect attachment behaviors through overall health and well-being. This corresponds to: It influences sleep/wake cycles."
+    },
+    {
+      "question": "What finding did DeCoursey et al. (2000) reveal about the SCN in chipmunks?",
+      "options": [
+        "SCN destruction had no effect on behavior",
+        "Chipmunks became more social after SCN destruction",
+        "Chipmunks lost their sleep/wake cycle and became vulnerable",
+        "SCN is irrelevant to animal behavior"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DeCoursey et al. found that destroying the SCN connections in chipmunks led to the disappearance of their sleep/wake cycle, making them vulnerable to predators. This corresponds to: Chipmunks lost their sleep/wake cycle and became vulnerable."
+    },
+    {
+      "question": "What is a key difference between human and animal attachment behaviors?",
+      "options": [
+        "Human attachment is solely based on conditioning",
+        "Animal attachment is more complex than human attachment",
+        "Human attachment involves cognitive factors not present in animals",
+        "Animal attachment is influenced by social factors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Human attachment behaviors are influenced by cognitive factors, making them more complex than the attachment behaviors observed in animals. This corresponds to: Human attachment involves cognitive factors not present in animals."
+    }
+  ]
+}

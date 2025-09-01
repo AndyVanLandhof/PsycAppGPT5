@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:22:09.932Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "explanations-for-conformity",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In Asch's 1956 study, what was the primary reason participants conformed to the incorrect majority answer?",
+      "options": [
+        "To gain social approval",
+        "To avoid punishment",
+        "To express their true beliefs",
+        "To demonstrate independence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Participants conformed primarily due to normative social influence, seeking social approval from the group. This corresponds to: To gain social approval."
+    },
+    {
+      "question": "According to Asch's findings, how did increasing the size of the majority affect conformity rates?",
+      "options": [
+        "It decreased conformity",
+        "It had no effect",
+        "It increased conformity",
+        "It caused confusion among participants"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asch found that increasing the size of the majority led to higher rates of conformity among participants. This corresponds to: It increased conformity."
+    },
+    {
+      "question": "In a scenario where a participant is influenced by a group to answer incorrectly, which type of conformity is most likely occurring?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Social facilitation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates compliance, where the participant conforms publicly but may not privately agree with the group's answer"
+    },
+    {
+      "question": "If a participant in Asch's study had an ally who provided the correct answer, what was the effect on conformity levels?",
+      "options": [
+        "Conformity increased",
+        "Conformity decreased",
+        "Conformity remained unchanged",
+        "Conformity became unpredictable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of an ally who also gave the correct answer significantly reduced conformity levels from 33% to 5.5%. This corresponds to: Conformity decreased."
+    },
+    {
+      "question": "What is the main difference between normative social influence and informational social influence?",
+      "options": [
+        "Normative is about group acceptance; informational is about seeking correct information",
+        "Normative is always public; informational is always private",
+        "Normative leads to internalisation; informational leads to compliance",
+        "Normative is based on personal beliefs; informational is based on group beliefs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normative social influence is driven by the desire for acceptance, while informational social influence occurs when individuals seek accurate information. This corresponds to: Normative is about group acceptance; informational is about seeking correct information."
+    },
+    {
+      "question": "In a study where participants were asked to judge the length of lines, what effect did task difficulty have on conformity according to Asch?",
+      "options": [
+        "It decreased conformity",
+        "It increased conformity",
+        "It had no effect",
+        "It caused confusion among participants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Asch found that as task difficulty increased, conformity rates also increased, suggesting that uncertainty leads to greater reliance on the group. This corresponds to: It increased conformity."
+    },
+    {
+      "question": "How does the presence of social support influence an individual's likelihood to conform?",
+      "options": [
+        "It increases conformity",
+        "It decreases conformity",
+        "It has no effect",
+        "It creates confusion about the correct answer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Social support from an ally who provides the correct answer can significantly decrease conformity by breaking the majority's unanimity. This corresponds to: It decreases conformity."
+    },
+    {
+      "question": "Which of the following best describes internalisation in the context of conformity?",
+      "options": [
+        "Publicly conforming while privately disagreeing",
+        "Changing beliefs to align with the group",
+        "Following orders from an authority figure",
+        "Adopting a group's norms temporarily"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Internalisation involves a genuine change in beliefs to align with the group, resulting in private acceptance of the group's views. This corresponds to: Changing beliefs to align with the group."
+    },
+    {
+      "question": "What methodological issue is associated with Asch's conformity study?",
+      "options": [
+        "It lacked ecological validity",
+        "It was too complex for participants",
+        "It had a small sample size",
+        "It did not measure individual differences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Asch's study is often criticized for lacking ecological validity, as the artificial setting may not reflect real-world conformity situations. This corresponds to: It lacked ecological validity."
+    },
+    {
+      "question": "According to Smith et al. (2006), how do conformity rates differ between individualist and collectivist cultures?",
+      "options": [
+        "Collectivist cultures show lower conformity",
+        "Individualist cultures show higher conformity",
+        "Collectivist cultures show higher conformity",
+        "There is no difference in conformity rates"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Smith et al. found that collectivist cultures had higher average conformity rates (37%) compared to individualist cultures (25%). This corresponds to: Collectivist cultures show higher conformity."
+    }
+  ]
+}

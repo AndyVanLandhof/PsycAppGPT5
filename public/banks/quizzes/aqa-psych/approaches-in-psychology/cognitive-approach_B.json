@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:58:58.853Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "cognitive-approach",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What does the information processing approach in cognitive psychology suggest about how information flows through the cognitive system?",
+      "options": [
+        "It is random and unpredictable.",
+        "It flows in a sequence of stages including input, storage, and retrieval.",
+        "It only involves storage and retrieval.",
+        "It is solely based on emotional responses."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The information processing approach suggests that information flows through the cognitive system in a sequence of stages, including input, storage, and retrieval. This corresponds to: It flows in a sequence of stages including input, storage, and retrieval.."
+    },
+    {
+      "question": "Which model was first proposed by Baddeley and Hitch in 1974 and includes components for processing information?",
+      "options": [
+        "Multi-store model",
+        "Working memory model",
+        "Schema theory",
+        "Cognitive neuroscience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The working memory model was first proposed by Baddeley and Hitch in 1974 and includes components for processing information"
+    },
+    {
+      "question": "In a study where children observe adults interacting with toys, which cognitive variable is highlighted in Bandura's research on social learning?",
+      "options": [
+        "Imitation",
+        "Reinforcement",
+        "Memory",
+        "Attention"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bandura's research emphasizes imitation as children observe adults and then replicate their behavior"
+    },
+    {
+      "question": "A researcher finds that children who watch more violent television shows tend to exhibit more aggressive behavior. This supports which aspect of social learning theory?",
+      "options": [
+        "Vicarious reinforcement",
+        "Cognitive schemas",
+        "Information processing",
+        "Biological predisposition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This scenario illustrates vicarious reinforcement, where children learn behaviors by observing the consequences of others' actions"
+    },
+    {
+      "question": "A cognitive psychologist uses a computer model to simulate human memory processes. What is a key limitation of this approach?",
+      "options": [
+        "It accurately reflects human emotions.",
+        "It does not account for mistakes made by humans.",
+        "It is too complex to understand.",
+        "It ignores the role of schemas."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key limitation is that computer models do not make mistakes, unlike humans, which limits their appropriateness for explaining human thought. This corresponds to: It does not account for mistakes made by humans.."
+    },
+    {
+      "question": "Which of the following best describes the role of schemas in cognitive psychology?",
+      "options": [
+        "They are fixed and unchangeable.",
+        "They help individuals interpret and organize information.",
+        "They are irrelevant to memory processes.",
+        "They only apply to social learning."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schemas help individuals interpret and organize information, influencing how we perceive and respond to new experiences. This corresponds to: They help individuals interpret and organize information.."
+    },
+    {
+      "question": "In a study examining eyewitness testimony, researchers found that misleading information can alter a person's memory of an event. This finding highlights which aspect of cognitive psychology?",
+      "options": [
+        "The reliability of memory",
+        "The role of reinforcement",
+        "The importance of schemas",
+        "The influence of biological factors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This finding highlights the reliability of memory and how it can be influenced by external factors, such as misleading information"
+    },
+    {
+      "question": "What is a significant difference between human information processing and computer processing?",
+      "options": [
+        "Humans process information faster than computers.",
+        "Computers can forget information, while humans cannot.",
+        "Humans can make mistakes and ignore information, while computers do not.",
+        "Human processing is more logical than computer processing."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Humans can make mistakes and ignore information, which is a significant difference from how computers process information. This corresponds to: Humans can make mistakes and ignore information, while computers do not.."
+    },
+    {
+      "question": "Which cognitive approach model was added to by Baddeley in 2000, enhancing its complexity?",
+      "options": [
+        "Multi-store model",
+        "Episodic buffer",
+        "Working memory model",
+        "Information processing model"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Baddeley added the episodic buffer to the working memory model in 2000, enhancing its complexity"
+    },
+    {
+      "question": "A cognitive psychologist argues that understanding internal mental processes is essential for explaining behavior. Which approach does this statement align with?",
+      "options": [
+        "Behaviorist approach",
+        "Cognitive approach",
+        "Biological approach",
+        "Humanistic approach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This statement aligns with the cognitive approach, which emphasizes the importance of internal mental processes in understanding behavior"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:24:30.182Z",
+  "curriculum": "aqa-psych",
+  "topicId": "memory",
+  "subId": "multi-store-model",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What are the three memory stores identified in the multi-store model of memory proposed by Atkinson and Shiffrin in 1968?",
+      "options": [
+        "Sensory memory, short-term memory, long-term memory",
+        "Short-term memory, working memory, long-term memory",
+        "Sensory memory, working memory, episodic memory",
+        "Short-term memory, episodic memory, procedural memory"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model identifies sensory memory, short-term memory, and long-term memory as its three main stores. This corresponds to: Sensory memory, short-term memory, long-term memory."
+    },
+    {
+      "question": "In a study testing short-term memory, participants were asked to repeat sequences of numbers. What was the likely outcome regarding the capacity of short-term memory?",
+      "options": [
+        "Participants could recall up to 3 items",
+        "Participants could recall up to 5-9 items",
+        "Participants could recall an unlimited number of items",
+        "Participants could recall only 1 item"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to the multi-store model, the capacity of short-term memory is typically between 5 and 9 items. This corresponds to: Participants could recall up to 5-9 items."
+    },
+    {
+      "question": "Which of the following best describes the process of transferring information from short-term memory to long-term memory in the multi-store model?",
+      "options": [
+        "Rehearsal",
+        "Encoding",
+        "Retrieval",
+        "Storage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rehearsal is the process that helps transfer information from short-term memory to long-term memory in the multi-store model"
+    },
+    {
+      "question": "How does the multi-store model of memory explain the process of forgetting?",
+      "options": [
+        "Through interference",
+        "Through decay",
+        "Through retrieval failure",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The multi-store model suggests that forgetting can occur through interference, decay, and retrieval failure. This corresponds to: All of the above."
+    },
+    {
+      "question": "A student struggles to recall the multi-store model after learning about the working memory model. Which explanation for forgetting could apply to this situation?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Decay",
+        "Rehearsal failure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retroactive interference occurs when new information (working memory model) interferes with the recall of previously learned information (multi-store model)"
+    },
+    {
+      "question": "What is a key limitation of the multi-store model of memory regarding its explanation of short-term memory?",
+      "options": [
+        "It does not account for different types of short-term memory",
+        "It overemphasizes the role of rehearsal",
+        "It lacks empirical support",
+        "It does not explain long-term memory processes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model is criticized for not accounting for the different types of short-term memory, as shown by studies like KF. This corresponds to: It does not account for different types of short-term memory."
+    },
+    {
+      "question": "Which of the following statements about the multi-store model is true?",
+      "options": [
+        "It suggests that short-term memory is a single store",
+        "It emphasizes the role of the central executive",
+        "It includes the episodic buffer as a component",
+        "It was developed after the working memory model"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The multi-store model suggests that short-term memory is a single store, unlike the working memory model which includes multiple components. This corresponds to: It suggests that short-term memory is a single store."
+    },
+    {
+      "question": "In the context of the multi-store model, what is the primary function of sensory memory?",
+      "options": [
+        "To hold information for a long duration",
+        "To process and encode information",
+        "To briefly retain information from the environment",
+        "To retrieve information from long-term memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sensory memory's primary function is to briefly retain information from the environment before it is processed further"
+    },
+    {
+      "question": "What methodological issue is often raised regarding the multi-store model of memory?",
+      "options": [
+        "It relies too heavily on case studies",
+        "It does not consider emotional factors",
+        "It lacks a clear definition of memory stores",
+        "It is based on outdated technology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that the multi-store model relies too heavily on case studies, which may not provide a comprehensive understanding of memory processes. This corresponds to: It relies too heavily on case studies."
+    },
+    {
+      "question": "Which of the following is a key feature of the multi-store model of memory?",
+      "options": [
+        "It includes the episodic buffer",
+        "It describes memory as a series of stages",
+        "It emphasizes the role of working memory",
+        "It suggests that memory is a dynamic process"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The multi-store model describes memory as a series of stages, including sensory memory, short-term memory, and long-term memory. This corresponds to: It describes memory as a series of stages."
+    }
+  ]
+}

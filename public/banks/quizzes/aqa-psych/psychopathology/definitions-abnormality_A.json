@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:11:34.332Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "definitions-abnormality",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following definitions of abnormality is based on the idea that behaviours are considered abnormal if they are statistically rare?",
+      "options": [
+        "Deviation from social norms",
+        "Statistical infrequency",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statistical infrequency defines abnormality as behaviours that are extremely rare, contrasting with the more common behaviours in a population"
+    },
+    {
+      "question": "Rob, a sixth form student, is struggling to complete his homework due to hearing threatening voices. Which definition of abnormality best describes his situation?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rob's inability to cope with everyday tasks and the distress caused by his experiences indicate a failure to function adequately"
+    },
+    {
+      "question": "What is a key characteristic of the 'deviation from ideal mental health' definition of abnormality?",
+      "options": [
+        "It focuses on statistical rarity",
+        "It emphasizes cultural context",
+        "It identifies specific criteria for mental well-being",
+        "It considers social norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Deviation from ideal mental health outlines specific criteria that define mental well-being, such as self-actualization and autonomy. This corresponds to: It identifies specific criteria for mental well-being."
+    },
+    {
+      "question": "Martina has a severe phobia of spiders, experiencing high anxiety at the mere thought of them. Which definition of abnormality does her behaviour exemplify?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Martina's extreme reaction to spiders deviates from social norms regarding typical responses to harmless stimuli. This corresponds to: Deviation from social norms."
+    },
+    {
+      "question": "Which of the following is a limitation of using statistical infrequency as a definition of abnormality?",
+      "options": [
+        "It does not account for cultural differences",
+        "It can label high-functioning individuals as abnormal",
+        "It is too subjective",
+        "It relies on self-reports"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statistical infrequency may label individuals who are high-functioning but exhibit rare traits as abnormal, which can be misleading. This corresponds to: It can label high-functioning individuals as abnormal."
+    },
+    {
+      "question": "In the context of cultural relativism, why might a behaviour considered abnormal in one culture be seen as normal in another?",
+      "options": [
+        "Different statistical norms",
+        "Varied social expectations",
+        "Diverse mental health criteria",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cultural relativism suggests that behaviours must be understood within their cultural context, leading to varying definitions of normality. This corresponds to: All of the above."
+    },
+    {
+      "question": "Which definition of abnormality emphasizes the importance of an individual's ability to cope with everyday life?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Failure to function adequately focuses on whether an individual can manage daily tasks and live independently"
+    },
+    {
+      "question": "Robert, an eight-year-old boy, exhibits severe anxiety about attending school. Which definition of abnormality could be applied to assess his behaviour?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Robert's intense fear and inability to attend school indicate a failure to function adequately in a typical educational setting"
+    },
+    {
+      "question": "What is a potential drawback of the 'deviation from social norms' definition of abnormality?",
+      "options": [
+        "It is too rigid",
+        "It can lead to cultural bias",
+        "It lacks empirical support",
+        "It is overly subjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deviation from social norms can lead to cultural bias, as behaviours accepted in one culture may be deemed abnormal in another. This corresponds to: It can lead to cultural bias."
+    },
+    {
+      "question": "Which definition of abnormality is most likely to consider the context of behaviour when determining abnormality?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deviation from social norms takes into account the cultural and social context of behaviours, making it more context-sensitive"
+    }
+  ]
+}

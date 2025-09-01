@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:21:09.446Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "phobias",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following is NOT a characteristic of phobias?",
+      "options": [
+        "Intense fear of a specific object",
+        "Avoidance of the feared object",
+        "Depressed mood",
+        "High levels of anxiety"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Depressed mood is a characteristic of depression, not phobias"
+    },
+    {
+      "question": "What does the two-process model of phobia acquisition include?",
+      "options": [
+        "Only operant conditioning",
+        "Only classical conditioning",
+        "Both classical and operant conditioning",
+        "Cognitive restructuring"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The two-process model explains phobia acquisition through both classical and operant conditioning"
+    },
+    {
+      "question": "In systematic desensitisation, what is the purpose of the fear hierarchy?",
+      "options": [
+        "To expose the patient to their phobia immediately",
+        "To gradually expose the patient to increasing levels of fear",
+        "To eliminate all fears at once",
+        "To assess the patient's initial anxiety level"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fear hierarchy is used to gradually expose the patient to increasing levels of fear"
+    },
+    {
+      "question": "A patient with arachnophobia is shown pictures of spiders, then videos, and finally a live spider. This treatment method is an example of:?",
+      "options": [
+        "Flooding",
+        "Systematic desensitisation",
+        "Cognitive restructuring",
+        "Operant conditioning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates systematic desensitisation through gradual exposure to the feared object"
+    },
+    {
+      "question": "Zinbarg et al (1992) found that systematic desensitisation was the most effective treatment for phobias. What is a potential limitation of this finding?",
+      "options": [
+        "It lacks ecological validity",
+        "It is not applicable to all phobias",
+        "It relies solely on cognitive techniques",
+        "It is too expensive for most patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The effectiveness of systematic desensitisation may vary across different types of phobias. This corresponds to: It is not applicable to all phobias."
+    },
+    {
+      "question": "In the context of phobias, what does 'flooding' involve?",
+      "options": [
+        "Gradual exposure to the feared object",
+        "Immediate exposure to the feared object",
+        "Cognitive restructuring techniques",
+        "Relaxation training"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flooding involves immediate exposure to the feared object to reduce anxiety"
+    },
+    {
+      "question": "A child develops a fear of dogs after being bitten. This fear can be explained by which of the following?",
+      "options": [
+        "Cognitive restructuring",
+        "Operant conditioning",
+        "Classical conditioning",
+        "Statistical infrequency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The child's fear of dogs can be explained through classical conditioning, where the bite is associated with dogs"
+    },
+    {
+      "question": "What is a common emotional characteristic of individuals with phobias?",
+      "options": [
+        "Euphoria",
+        "Anxiety",
+        "Depression",
+        "Calmness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Individuals with phobias typically experience high levels of anxiety when confronted with their feared object"
+    },
+    {
+      "question": "Which of the following is a criticism of flooding as a treatment for phobias?",
+      "options": [
+        "It is time-consuming",
+        "It can cause emotional distress",
+        "It is ineffective",
+        "It requires a long-term commitment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flooding can cause significant emotional distress for patients, raising ethical concerns about its use. This corresponds to: It can cause emotional distress."
+    },
+    {
+      "question": "What is the main goal of systematic desensitisation in treating phobias?",
+      "options": [
+        "To eliminate all fears immediately",
+        "To teach relaxation techniques",
+        "To create a fear hierarchy",
+        "To associate the feared object with relaxation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main goal of systematic desensitisation is to help patients associate the feared object with relaxation instead of anxiety. This corresponds to: To associate the feared object with relaxation."
+    }
+  ]
+}

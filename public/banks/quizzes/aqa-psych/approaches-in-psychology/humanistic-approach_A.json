@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:00:47.724Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "humanistic-approach",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Maslow's hierarchy of needs, which of the following needs must be met first before an individual can pursue self-actualisation?",
+      "options": [
+        "Self-esteem needs",
+        "Love and belongingness needs",
+        "Physiological needs",
+        "Safety and security needs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maslow's hierarchy states that physiological needs are the most basic and must be satisfied before higher-level needs can be addressed"
+    },
+    {
+      "question": "Carl Rogers emphasized the importance of which concept in achieving personal growth?",
+      "options": [
+        "Conditions of worth",
+        "Unconditional positive regard",
+        "Self-actualisation",
+        "Deficiency needs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rogers believed that unconditional positive regard is essential for individuals to overcome barriers to self-actualisation"
+    },
+    {
+      "question": "In a scenario where a child feels loved only when they achieve good grades, this reflects which of Rogers' concepts?",
+      "options": [
+        "Self-actualisation",
+        "Congruence",
+        "Conditions of worth",
+        "Peak experiences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates conditions of worth, where love is contingent upon meeting certain expectations"
+    },
+    {
+      "question": "What is the term used by Rogers to describe a state where a person's self-concept aligns with their ideal self?",
+      "options": [
+        "Incongruence",
+        "Self-actualisation",
+        "Congruence",
+        "Conditions of worth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Congruence occurs when there is alignment between an individual's self-concept and their ideal self"
+    },
+    {
+      "question": "Which of the following is a key difference between the humanistic and psychodynamic approaches?",
+      "options": [
+        "Both emphasize the importance of childhood experiences",
+        "Humanistic psychology focuses on free will",
+        "Psychodynamic theory is based on self-actualisation",
+        "Both approaches rely heavily on experimental methods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The humanistic approach emphasizes free will, whereas the psychodynamic approach suggests behavior is determined by unconscious factors. This corresponds to: Humanistic psychology focuses on free will."
+    },
+    {
+      "question": "Which psychological barrier does Rogers believe can prevent individuals from achieving self-actualisation?",
+      "options": [
+        "Unconditional positive regard",
+        "Incongruence",
+        "Peak experiences",
+        "Deficiency needs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rogers argued that incongruence, or a significant gap between the self-concept and ideal self, can hinder self-actualisation"
+    },
+    {
+      "question": "A person who believes they can change their life circumstances through their choices exemplifies which aspect of the humanistic approach?",
+      "options": [
+        "Determinism",
+        "Self-actualisation",
+        "Free will",
+        "Conditions of worth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This belief in the ability to make choices reflects the humanistic perspective of free will"
+    },
+    {
+      "question": "What methodological criticism is often directed at the humanistic approach?",
+      "options": [
+        "Over-reliance on experimental data",
+        "Lack of scientific rigor",
+        "Focus on biological factors",
+        "Neglect of individual differences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The humanistic approach is criticized for its reliance on case studies and lack of experimental testing, which limits its scientific rigor. This corresponds to: Lack of scientific rigor."
+    },
+    {
+      "question": "Which of the following best describes self-actualisation according to Maslow?",
+      "options": [
+        "The fulfillment of basic physiological needs",
+        "The realization of one's potential",
+        "The need for love and belonging",
+        "The achievement of self-esteem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-actualisation is defined as the realization of one's potential and the desire to become the best version of oneself"
+    },
+    {
+      "question": "Rogers' client-centered therapy aims to provide which of the following to clients?",
+      "options": [
+        "Conditions of worth",
+        "Unconditional positive regard",
+        "Psychodynamic insight",
+        "Cognitive restructuring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Client-centered therapy focuses on providing unconditional positive regard to help clients overcome psychological barriers"
+    }
+  ]
+}

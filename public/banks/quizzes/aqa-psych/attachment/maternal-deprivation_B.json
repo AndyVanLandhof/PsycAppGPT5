@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:30:15.146Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "maternal-deprivation",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the main consequence of maternal deprivation according to Bowlby's theory (1944)?",
+      "options": [
+        "Development of affectionless psychopathy",
+        "Increased intelligence",
+        "Improved social skills",
+        "Enhanced emotional stability"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bowlby argued that maternal deprivation could lead to affectionless psychopathy, characterized by a lack of guilt and empathy. This corresponds to: Development of affectionless psychopathy."
+    },
+    {
+      "question": "In Bowlby's 1944 study of 44 juvenile thieves, how many showed characteristics of affectionless psychopathy?",
+      "options": [
+        "2",
+        "12",
+        "14",
+        "44"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bowlby found that 14 of the juvenile thieves exhibited characteristics of affectionless psychopathy"
+    },
+    {
+      "question": "What did Hilda Lewis (1954) find regarding maternal deprivation and offending behavior?",
+      "options": [
+        "It was a strong predictor of future offending",
+        "It had no correlation with offending",
+        "It was a poor predictor of future offending",
+        "It only affected males"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lewis found that maternal deprivation was a poor predictor of future offending and the ability to form close relationships. This corresponds to: It was a poor predictor of future offending."
+    },
+    {
+      "question": "Joe was taken from his parents at six months and adopted at seven. How might Bowlby's theory explain his difficulties with relationships?",
+      "options": [
+        "He likely formed a strong attachment",
+        "He may have experienced maternal deprivation",
+        "He had a supportive environment",
+        "He was never separated from his mother"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's theory suggests that Joe's difficulties may stem from maternal deprivation experienced in early childhood. This corresponds to: He may have experienced maternal deprivation."
+    },
+    {
+      "question": "According to Bowlby's theory, what is the critical period for the effects of maternal deprivation?",
+      "options": [
+        "First year of life",
+        "First two years",
+        "First five years",
+        "First ten years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby indicated that the critical period for the effects of maternal deprivation is the first two years of life"
+    },
+    {
+      "question": "What methodological criticism did Michael Rutter (1981) raise about Bowlby's theory?",
+      "options": [
+        "It lacked empirical evidence",
+        "It did not distinguish between deprivation and privation",
+        "It was too focused on maternal figures",
+        "It ignored the role of fathers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rutter criticized Bowlby for not clearly distinguishing between deprivation (loss of an attachment) and privation (failure to form an attachment). This corresponds to: It did not distinguish between deprivation and privation."
+    },
+    {
+      "question": "What percentage of women in Bifulco et al.'s (1992) study experienced depression after maternal separation?",
+      "options": [
+        "15%",
+        "25%",
+        "35%",
+        "45%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bifulco found that about 25% of women who experienced maternal separation later experienced depression or anxiety disorders"
+    },
+    {
+      "question": "What is a limitation of Bowlby's maternal deprivation theory regarding its predictive ability?",
+      "options": [
+        "It predicts all future behaviors accurately",
+        "It fails to account for other factors like poverty",
+        "It only applies to children with mothers",
+        "It is based solely on observational data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's theory is limited as it does not account for other factors, such as poverty, which may also explain later offending behavior. This corresponds to: It fails to account for other factors like poverty."
+    },
+    {
+      "question": "What did Bowlby suggest about the relationship between maternal deprivation and emotional maladjustment?",
+      "options": [
+        "It has no impact",
+        "It leads to improved emotional health",
+        "It increases the likelihood of maladjustment",
+        "It only affects boys"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bowlby suggested that prolonged maternal deprivation could lead to emotional maladjustment later in life. This corresponds to: It increases the likelihood of maladjustment."
+    },
+    {
+      "question": "How did Bowlby's research influence child care practices in hospitals?",
+      "options": [
+        "Encouraged longer separations from parents",
+        "Led to increased parental visits",
+        "Discouraged parental involvement",
+        "Promoted isolation of children"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bowlby's findings led to significant changes in hospital practices, promoting the importance of parental visits for children in care. This corresponds to: Led to increased parental visits."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:06:01.641Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "experimental-method",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which type of experiment involves manipulating the independent variable in a controlled environment to establish a causal relationship?",
+      "options": [
+        "Field experiment",
+        "Natural experiment",
+        "Laboratory experiment",
+        "Quasi-experiment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Laboratory experiments are conducted in controlled environments, allowing researchers to manipulate the independent variable and measure its effect on the dependent variable"
+    },
+    {
+      "question": "In a study examining the effects of sleep deprivation on cognitive performance, researchers randomly assigned participants to either a sleep-deprived group or a control group. What type of experimental method is being used?",
+      "options": [
+        "Natural experiment",
+        "Field experiment",
+        "Laboratory experiment",
+        "Quasi-experiment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario describes a laboratory experiment where participants are randomly assigned to conditions to measure the effects of sleep deprivation"
+    },
+    {
+      "question": "What is a key characteristic of a field experiment compared to a laboratory experiment?",
+      "options": [
+        "Higher control over variables",
+        "More naturalistic settings",
+        "Use of questionnaires",
+        "Focus on qualitative data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Field experiments are conducted in naturalistic settings, which increases ecological validity compared to the controlled conditions of laboratory experiments. This corresponds to: More naturalistic settings."
+    },
+    {
+      "question": "Which of the following is a limitation of using laboratory experiments in psychological research?",
+      "options": [
+        "They lack control over variables.",
+        "They may produce artificial behavior.",
+        "They are difficult to replicate.",
+        "They do not allow for causal relationships."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Laboratory experiments may produce artificial behavior due to the controlled environment, which can limit the generalizability of the findings. This corresponds to: They may produce artificial behavior.."
+    },
+    {
+      "question": "In Skinner's research using the Skinner box, what was the independent variable manipulated to observe its effects on behavior?",
+      "options": [
+        "The type of reinforcement",
+        "The time of day",
+        "The number of trials",
+        "The age of the rats"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Skinner manipulated the type of reinforcement (independent variable) to measure its effects on the rats' behavior (dependent variable)"
+    },
+    {
+      "question": "A researcher conducts a study where they observe children's behavior in a playground without intervening. What type of observational method is being used?",
+      "options": [
+        "Controlled observation",
+        "Naturalistic observation",
+        "Covert observation",
+        "Participant observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Naturalistic observation involves observing subjects in their natural environment without interference from the researcher"
+    },
+    {
+      "question": "In a study comparing the effectiveness of two different therapies, researchers used both questionnaires and interviews to gather data. What is this approach called?",
+      "options": [
+        "Single-method approach",
+        "Multi-method approach",
+        "Qualitative approach",
+        "Quantitative approach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The multi-method approach combines different techniques, such as questionnaires and interviews, to gather comprehensive data"
+    },
+    {
+      "question": "What is a potential drawback of using self-report techniques like questionnaires in psychological research?",
+      "options": [
+        "They are time-consuming.",
+        "They can lead to social desirability bias.",
+        "They require a controlled environment.",
+        "They do not allow for qualitative data."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-report techniques can lead to social desirability bias, where participants may respond in a way they think is more acceptable rather than truthfully. This corresponds to: They can lead to social desirability bias.."
+    },
+    {
+      "question": "Which of the following best describes a quasi-experiment?",
+      "options": [
+        "Manipulation of the independent variable in a lab",
+        "Comparison of naturally occurring groups",
+        "Random assignment to conditions",
+        "Use of self-report measures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A quasi-experiment involves comparing naturally occurring groups without random assignment, often used when ethical or practical constraints exist. This corresponds to: Comparison of naturally occurring groups."
+    },
+    {
+      "question": "In a study measuring the impact of a new teaching method on student performance, researchers found a significant improvement in test scores. What type of hypothesis might they have used?",
+      "options": [
+        "Non-directional hypothesis",
+        "Directional hypothesis",
+        "Null hypothesis",
+        "Correlational hypothesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A directional hypothesis would predict a specific outcome, such as that the new teaching method would lead to improved test scores compared to the traditional method"
+    }
+  ]
+}

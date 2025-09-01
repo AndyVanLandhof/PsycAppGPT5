@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:22:45.833Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "obedience",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In Milgram's study (1963), what percentage of participants administered the maximum shock of 450V when the experimenter was present in the same room?",
+      "options": [
+        "35%",
+        "65%",
+        "48%",
+        "75%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Milgram found that 65% of participants were willing to administer the maximum shock when the experimenter was present"
+    },
+    {
+      "question": "Tarnow's study (2000) on aviation accidents highlighted the dangers of what aspect of authority?",
+      "options": [
+        "Lack of monitoring",
+        "High education levels",
+        "Peer influence",
+        "Situational context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tarnow found that excessive dependence on the captain's authority led to lack of monitoring errors in aviation accidents"
+    },
+    {
+      "question": "What factor was found to decrease obedience in Milgram's variations when participants had disobedient peers?",
+      "options": [
+        "Increased proximity",
+        "Legitimacy of authority",
+        "Presence of allies",
+        "High status location"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Participants were less likely to continue obeying when they had peers who refused to follow orders, demonstrating the influence of disobedient models. This corresponds to: Presence of allies."
+    },
+    {
+      "question": "According to Fromm (1973), why might Milgram's findings on obedience be less surprising?",
+      "options": [
+        "Participants were aware of the scientific nature of the study",
+        "The setting was a real-life scenario",
+        "Participants had high levels of education",
+        "The experiment was conducted in a public space"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fromm suggested that the scientific context of Milgram's experiment made obedience more likely than in real-life situations. This corresponds to: Participants were aware of the scientific nature of the study."
+    },
+    {
+      "question": "In the context of obedience, what does the term 'agentic state' refer to?",
+      "options": [
+        "A state of personal responsibility",
+        "A psychological state where individuals see themselves as agents of authority",
+        "A condition of high education",
+        "A form of social influence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The agentic state is when individuals view themselves as acting on behalf of an authority figure, thus relinquishing personal responsibility. This corresponds to: A psychological state where individuals see themselves as agents of authority."
+    },
+    {
+      "question": "What was the effect of the location on obedience levels in Milgram's study?",
+      "options": [
+        "Obedience increased in a prestigious setting",
+        "Obedience decreased in a lower-status setting",
+        "Location had no effect",
+        "Obedience was higher in public locations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Milgram found that obedience levels dropped to 48% in a lower-status setting, indicating the impact of location on obedience. This corresponds to: Obedience decreased in a lower-status setting."
+    },
+    {
+      "question": "What is one methodological issue with Milgram's study regarding the generalization of findings?",
+      "options": [
+        "Participants were all male",
+        "The study was conducted in a laboratory",
+        "Participants were not informed about the study's purpose",
+        "The sample size was too small"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conducting the study in a laboratory setting may limit the generalizability of the findings to real-life situations. This corresponds to: The study was conducted in a laboratory."
+    },
+    {
+      "question": "What did Begue et al. (2014) find regarding political orientation and obedience in their replication of Milgram's study?",
+      "options": [
+        "Left-wing participants were more obedient",
+        "Right-wing participants showed lower obedience",
+        "Left-wing participants administered higher shocks",
+        "Right-wing participants administered lower shocks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Begue et al. found that participants identifying as left-wing were less likely to administer high levels of shocks, indicating a link between political orientation and obedience. This corresponds to: Right-wing participants showed lower obedience."
+    },
+    {
+      "question": "How does the presence of a legitimate authority figure influence obedience according to the research?",
+      "options": [
+        "It has no effect",
+        "It decreases obedience",
+        "It increases obedience",
+        "It only affects those with high education"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Research indicates that the presence of a legitimate authority figure significantly increases levels of obedience among individuals. This corresponds to: It increases obedience."
+    },
+    {
+      "question": "What is one consequence of individuals authorizing others to make judgments for them, as discussed in the context of obedience?",
+      "options": [
+        "Increased moral responsibility",
+        "Decreased likelihood of obedience",
+        "Disregard for personal moral values",
+        "Enhanced critical thinking"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When individuals authorize others to make judgments, they often disregard their own moral values, leading to higher levels of obedience to authority. This corresponds to: Disregard for personal moral values."
+    }
+  ]
+}

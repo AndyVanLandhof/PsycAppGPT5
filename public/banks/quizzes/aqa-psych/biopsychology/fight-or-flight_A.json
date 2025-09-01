@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:03:46.444Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "fight-or-flight",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the first physiological response activated when a stressor is perceived, according to the fight or flight response?",
+      "options": [
+        "Activation of the parasympathetic nervous system",
+        "Release of oxytocin",
+        "Activation of the sympathetic nervous system",
+        "Increase in cortisol levels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sympathetic nervous system is activated by the hypothalamus when a stressor is perceived, leading to the fight or flight response. This corresponds to: Activation of the sympathetic nervous system."
+    },
+    {
+      "question": "In the fight or flight response, which hormone is primarily responsible for physiological changes such as increased heart rate?",
+      "options": [
+        "Cortisol",
+        "Adrenaline",
+        "Oxytocin",
+        "Noradrenaline"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adrenaline is released from the adrenal medulla and triggers physiological changes necessary for the fight or flight response"
+    },
+    {
+      "question": "According to Taylor et al. (2000), what alternative response do females exhibit in stressful situations?",
+      "options": [
+        "Fight or flight",
+        "Tend and befriend",
+        "Freeze response",
+        "Aggressive response"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taylor et al. (2000) proposed that females often respond to stress with a 'tend and befriend' response, which is influenced by oxytocin"
+    },
+    {
+      "question": "If a student feels their heart racing and experiences 'butterflies' in their stomach before an exam, which part of the nervous system is primarily responsible for these sensations?",
+      "options": [
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Central nervous system",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sympathetic nervous system is activated during stressful situations, leading to physiological arousal such as increased heart rate and gastrointestinal sensations"
+    },
+    {
+      "question": "What is the role of the parasympathetic nervous system after a stressor has passed?",
+      "options": [
+        "To maintain high levels of arousal",
+        "To return the body to its resting state",
+        "To enhance the fight or flight response",
+        "To increase adrenaline production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parasympathetic nervous system acts as a 'brake', reducing the activities increased by the sympathetic system and returning the body to a resting state. This corresponds to: To return the body to its resting state."
+    },
+    {
+      "question": "Lee and Harley (2012) found evidence for a genetic basis for gender differences in the fight or flight response. What gene is primarily involved in promoting aggression in males?",
+      "options": [
+        "SRY gene",
+        "Oxytocin gene",
+        "Cortisol gene",
+        "Adrenaline gene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SRY gene, found on the male Y chromosome, directs male development and promotes aggression, influencing the fight or flight response"
+    },
+    {
+      "question": "Which of the following is a methodological issue related to early research on the fight or flight response?",
+      "options": [
+        "Focus on female subjects",
+        "Use of male animals exclusively",
+        "Inclusion of both genders",
+        "Longitudinal studies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early research often used male animals, ignoring potential differences in stress responses due to hormonal fluctuations in females, leading to beta bias. This corresponds to: Use of male animals exclusively."
+    },
+    {
+      "question": "What physiological change occurs when the sympathetic nervous system is activated during the fight or flight response?",
+      "options": [
+        "Decreased heart rate",
+        "Increased production of saliva",
+        "Dilation of pupils",
+        "Increased digestion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Activation of the sympathetic nervous system leads to physiological changes such as pupil dilation, which prepares the body for a fight or flight response. This corresponds to: Dilation of pupils."
+    },
+    {
+      "question": "What is the primary function of oxytocin in the context of stress responses in females?",
+      "options": [
+        "To increase heart rate",
+        "To enhance fight or flight response",
+        "To promote 'tend and befriend' behaviors",
+        "To suppress adrenaline release"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Oxytocin is associated with 'tend and befriend' behaviors in females, reducing the fight or flight response and promoting nurturing behaviors. This corresponds to: To promote 'tend and befriend' behaviors."
+    },
+    {
+      "question": "What is the baseline physiological response to stress before any acute stressor is perceived?",
+      "options": [
+        "Parasympathetic state",
+        "Sympathetic state",
+        "Rest and digest state",
+        "Fight or flight state"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The baseline physiological response is the parasympathetic state, which is the body's resting state before any stressor is perceived"
+    }
+  ]
+}

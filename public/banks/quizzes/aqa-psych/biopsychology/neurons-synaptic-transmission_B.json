@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:02:50.412Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "neurons-synaptic-transmission",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary role of neurotransmitters in synaptic transmission?",
+      "options": [
+        "To generate action potentials",
+        "To carry signals across the synaptic gap",
+        "To inhibit nerve impulses",
+        "To increase blood pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neurotransmitters are chemical messengers that carry signals across the synaptic gap to the receptor site on the postsynaptic cell. This corresponds to: To carry signals across the synaptic gap."
+    },
+    {
+      "question": "Which neurotransmitter is classified as an inhibitory neurotransmitter?",
+      "options": [
+        "Acetylcholine",
+        "Noradrenaline",
+        "Serotonin",
+        "Dopamine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Serotonin is an inhibitory neurotransmitter that decreases the likelihood of the postsynaptic neuron firing"
+    },
+    {
+      "question": "In synaptic transmission, what occurs when an excitatory neurotransmitter binds to a postsynaptic receptor?",
+      "options": [
+        "Inhibitory postsynaptic potential",
+        "Excitatory postsynaptic potential",
+        "Neurotransmitter reuptake",
+        "Vesicle fusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Binding of an excitatory neurotransmitter results in an excitatory postsynaptic potential (EPSP), making the postsynaptic cell more likely to fire"
+    },
+    {
+      "question": "In a scenario where a neuron receives both excitatory and inhibitory signals, what determines whether it will fire?",
+      "options": [
+        "The type of neurotransmitter",
+        "The strength of the action potential",
+        "The summation of EPSPs and IPSPs",
+        "The rate of neurotransmitter release"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The likelihood of the neuron firing is determined by the summation of excitatory and inhibitory synaptic inputs. This corresponds to: The summation of EPSPs and IPSPs."
+    },
+    {
+      "question": "A researcher observes that a participant's heart rate increases after exposure to a stressful stimulus. This response is primarily mediated by which neurotransmitter?",
+      "options": [
+        "GABA",
+        "Serotonin",
+        "Adrenaline",
+        "Acetylcholine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adrenaline is involved in the fight-or-flight response, which increases heart rate in response to stress"
+    },
+    {
+      "question": "During an experiment, a participant is shown a word in their right visual field and can verbally report it. This suggests which hemisphere is primarily responsible for language processing?",
+      "options": [
+        "Left hemisphere",
+        "Right hemisphere",
+        "Both hemispheres equally",
+        "Neither hemisphere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The left hemisphere is typically responsible for language processing, as evidenced by split-brain research"
+    },
+    {
+      "question": "Research on split-brain patients has shown that they may struggle to verbally identify objects presented to their left visual field. What does this suggest about hemispheric lateralization?",
+      "options": [
+        "Both hemispheres process language equally",
+        "The right hemisphere is responsible for verbal processing",
+        "The left hemisphere is dominant for language",
+        "Visual processing occurs only in the right hemisphere"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This finding indicates that the left hemisphere is dominant for language, limiting verbal identification from the right visual field"
+    },
+    {
+      "question": "One limitation of using split-brain patients to study hemispheric lateralization is the small sample size. What does this imply for the generalizability of the findings?",
+      "options": [
+        "Findings can be generalized to the general population",
+        "Findings may not represent the wider population",
+        "Findings are universally applicable",
+        "Findings are only relevant to split-brain patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The small sample size limits the ability to generalize findings to the broader population, as individual differences may not be accounted for. This corresponds to: Findings may not represent the wider population."
+    },
+    {
+      "question": "What is the process called when a neurotransmitter is reabsorbed by the presynaptic neuron after triggering an electrical pulse?",
+      "options": [
+        "Reuptake",
+        "Inhibition",
+        "Excitation",
+        "Degradation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reuptake is the process by which neurotransmitters are reabsorbed by the presynaptic neuron after synaptic transmission"
+    },
+    {
+      "question": "In synaptic transmission, what effect does GABA have on the postsynaptic neuron?",
+      "options": [
+        "Increases excitability",
+        "Decreases excitability",
+        "Has no effect",
+        "Increases action potential frequency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GABA acts as an inhibitory neurotransmitter, decreasing the likelihood of the postsynaptic neuron firing. This corresponds to: Decreases excitability."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:20:53.150Z",
+  "curriculum": "aqa-psych",
+  "topicId": "psychopathology",
+  "subId": "phobias",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is NOT a characteristic of phobias?",
+      "options": [
+        "Intense fear of a specific object",
+        "Avoidance of the feared object",
+        "Depressed mood",
+        "Physical symptoms like sweating"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Depressed mood is a characteristic of depression, not phobias"
+    },
+    {
+      "question": "According to the two-process model, which type of conditioning is primarily involved in the development of phobias?",
+      "options": [
+        "Operant conditioning",
+        "Classical conditioning",
+        "Social learning",
+        "Cognitive conditioning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two-process model suggests that phobias are developed through classical conditioning"
+    },
+    {
+      "question": "In systematic desensitisation, what is the purpose of the fear hierarchy?",
+      "options": [
+        "To gradually expose the patient to their fear",
+        "To eliminate all fears at once",
+        "To assess the severity of the phobia",
+        "To measure the patient's anxiety levels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fear hierarchy is used to gradually expose the patient to their fear, starting from the least anxiety-provoking situation"
+    },
+    {
+      "question": "Zinbarg et al (1992) found that which treatment was the most effective for phobias?",
+      "options": [
+        "Flooding",
+        "Cognitive Behaviour Therapy",
+        "Systematic desensitisation",
+        "Medication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Zinbarg et al (1992) concluded that systematic desensitisation was the most effective treatment for phobias"
+    },
+    {
+      "question": "A patient with arachnophobia is treated using flooding. What is the main principle behind this treatment?",
+      "options": [
+        "Gradual exposure to the fear",
+        "Immediate exposure to the fear",
+        "Cognitive restructuring",
+        "Relaxation techniques"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flooding involves immediate exposure to the feared object, which aims to reduce anxiety through prolonged confrontation"
+    },
+    {
+      "question": "A child develops a fear of dogs after being bitten. This is an example of which type of conditioning?",
+      "options": [
+        "Operant conditioning",
+        "Classical conditioning",
+        "Social learning",
+        "Cognitive conditioning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates classical conditioning, where the child associates dogs with the painful experience of being bitten"
+    },
+    {
+      "question": "A therapist uses systematic desensitisation to treat a patient with a fear of heights. What is the first step in this treatment?",
+      "options": [
+        "Introducing the patient to heights",
+        "Teaching relaxation techniques",
+        "Creating a fear hierarchy",
+        "Using flooding techniques"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step in systematic desensitisation is teaching the patient relaxation techniques to manage anxiety. This corresponds to: Teaching relaxation techniques."
+    },
+    {
+      "question": "One criticism of flooding as a treatment for phobias is that it can cause what?",
+      "options": [
+        "Immediate relief",
+        "Emotional distress",
+        "Long-term effectiveness",
+        "Cognitive restructuring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Flooding can cause significant emotional distress, which raises ethical concerns about its use"
+    },
+    {
+      "question": "When comparing systematic desensitisation and flooding, which treatment is generally considered more ethical?",
+      "options": [
+        "Flooding",
+        "Systematic desensitisation",
+        "Both are equally ethical",
+        "Neither is ethical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Systematic desensitisation is generally considered more ethical as it involves gradual exposure rather than immediate confrontation"
+    },
+    {
+      "question": "In the context of phobias, what does operant conditioning refer to?",
+      "options": [
+        "Learning through association",
+        "Learning through reinforcement and punishment",
+        "Learning through observation",
+        "Learning through cognitive processes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Operant conditioning involves learning through reinforcement and punishment, which can influence the maintenance of phobias"
+    }
+  ]
+}

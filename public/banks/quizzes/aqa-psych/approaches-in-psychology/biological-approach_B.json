@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:59:59.325Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "biological-approach",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which neurotransmitter has been linked to increased aggression when found at low levels, according to Crockett et al. (2010)?",
+      "options": [
+        "Dopamine",
+        "Serotonin",
+        "Norepinephrine",
+        "Acetylcholine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Crockett et al. (2010) found that low levels of serotonin are associated with increased aggressive behavior"
+    },
+    {
+      "question": "In the context of the biological approach, what does the term 'genotype' refer to?",
+      "options": [
+        "The observable characteristics of an individual",
+        "The genetic makeup of an individual",
+        "The influence of the environment on behavior",
+        "The interaction between genes and environment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genotype refers to the actual genetic makeup of an individual, as opposed to phenotype, which is the expression of those genes. This corresponds to: The genetic makeup of an individual."
+    },
+    {
+      "question": "A study found that identical twins raised apart still showed similarities in personality traits. This supports which aspect of the biological approach?",
+      "options": [
+        "The role of environmental factors",
+        "The influence of neurochemistry",
+        "The genetic basis of behavior",
+        "The impact of learning experiences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The similarities in personality traits among identical twins raised apart suggest a strong genetic influence on behavior. This corresponds to: The genetic basis of behavior."
+    },
+    {
+      "question": "What is the primary focus of cognitive neuroscience within the biological approach?",
+      "options": [
+        "The study of learned behaviors",
+        "The interaction between cognitive processes and biological systems",
+        "The role of unconscious drives",
+        "The influence of social factors on behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cognitive neuroscience focuses on how cognitive processes are linked to biological systems, particularly brain functions. This corresponds to: The interaction between cognitive processes and biological systems."
+    },
+    {
+      "question": "Which of the following best describes the relationship between genotype and phenotype?",
+      "options": [
+        "Genotype is influenced by environmental factors, while phenotype is not",
+        "Genotype is the genetic makeup, while phenotype is how these genes are expressed",
+        "Phenotype is inherited, while genotype is acquired",
+        "There is no relationship between genotype and phenotype"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Genotype is the genetic makeup of an individual, while phenotype refers to the expression of those genes through observable traits. This corresponds to: Genotype is the genetic makeup, while phenotype is how these genes are expressed."
+    },
+    {
+      "question": "A researcher finds that a specific gene variant is more common in individuals with depression. This finding suggests what about the biological approach?",
+      "options": [
+        "It emphasizes the role of environmental factors",
+        "It supports the idea of a genetic basis for behavior",
+        "It ignores the influence of learning",
+        "It is deterministic in nature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The association of a gene variant with depression supports the biological approach's emphasis on a genetic basis for behavior. This corresponds to: It supports the idea of a genetic basis for behavior."
+    },
+    {
+      "question": "One limitation of the biological approach is that it is often considered deterministic. What does this mean?",
+      "options": [
+        "It suggests behavior is solely influenced by environmental factors",
+        "It implies that behavior is governed by genetic factors beyond individual control",
+        "It denies the role of cognitive processes",
+        "It overlooks the importance of social influences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Determinism in the biological approach means that it views behavior as being controlled by genetic factors, which can overlook the role of environmental influences. This corresponds to: It implies that behavior is governed by genetic factors beyond individual control."
+    },
+    {
+      "question": "In Buss's study on mate preferences, what does the finding of universal similarities across cultures suggest?",
+      "options": [
+        "Cultural factors are the primary influence on mate selection",
+        "Genetic factors may play a role in mate preferences",
+        "Learning experiences shape mate preferences",
+        "Individual differences are more significant than genetic similarities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The universal similarities in mate preferences across cultures suggest that genetic factors may influence these behaviors. This corresponds to: Genetic factors may play a role in mate preferences."
+    },
+    {
+      "question": "What is a key criticism of the biological approach regarding its explanation of behavior?",
+      "options": [
+        "It overemphasizes the role of cognitive processes",
+        "It ignores the influence of genetics",
+        "It can be too simplistic by not considering environmental factors",
+        "It fails to provide empirical evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A key criticism is that the biological approach can be overly simplistic, as it often neglects the mediating effects of environmental influences on behavior. This corresponds to: It can be too simplistic by not considering environmental factors."
+    },
+    {
+      "question": "Which one neurotransmitter has been linked to increased aggression when found at low levels, according to Crockett et al. (2010)?",
+      "options": [
+        "Dopamine",
+        "Serotonin",
+        "Norepinephrine",
+        "Acetylcholine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Crockett et al. (2010) found that low levels of serotonin are associated with increased aggressive behavior"
+    }
+  ]
+}

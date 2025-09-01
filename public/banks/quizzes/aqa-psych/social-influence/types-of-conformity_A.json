@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:21:13.816Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "types-of-conformity",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Kelman (1958) identified three types of conformity. Which of the following is NOT one of these types?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Obedience"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Obedience is not one of the types of conformity identified by Kelman; the three types are internalisation, identification, and compliance"
+    },
+    {
+      "question": "In Asch's (1951) study on conformity, which variable was found to significantly affect the level of conformity among participants?",
+      "options": [
+        "Group size",
+        "Gender of participants",
+        "Age of participants",
+        "Cultural background"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Asch found that group size significantly affected conformity levels, with larger groups leading to higher rates of conformity"
+    },
+    {
+      "question": "A student decides to adopt the smoking habits of their peers to fit in with their social group. This is an example of which type of conformity?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Obedience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates identification, where the student adopts behaviors to be accepted by the group"
+    },
+    {
+      "question": "In a study where participants were asked to estimate the length of lines, those who conformed in a difficult task did so because they believed others knew more. This highlights which explanation for conformity?",
+      "options": [
+        "Normative social influence",
+        "Informational social influence",
+        "Identification",
+        "Compliance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates informational social influence, where individuals conform because they seek accurate information"
+    },
+    {
+      "question": "Which of the following factors was found to decrease conformity in Asch's studies?",
+      "options": [
+        "Increased group size",
+        "Unanimity among group members",
+        "Presence of a dissenting peer",
+        "Task difficulty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The presence of a dissenting peer reduced conformity, as it provided social support for the individual"
+    },
+    {
+      "question": "Which type of conformity involves a change in private beliefs as well as public behavior?",
+      "options": [
+        "Compliance",
+        "Identification",
+        "Internalisation",
+        "Obedience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Internalisation involves adopting the beliefs of a group both publicly and privately"
+    },
+    {
+      "question": "In a scenario where a participant conforms to a group opinion despite privately disagreeing, which type of conformity is being demonstrated?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Obedience"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario exemplifies compliance, where the individual conforms publicly but does not change their private beliefs"
+    },
+    {
+      "question": "A researcher finds that women conform more than men in male-oriented tasks. This finding suggests which of the following?",
+      "options": [
+        "Conformity is universal",
+        "Conformity is influenced by gender roles",
+        "Conformity is unrelated to task type",
+        "Men are always more dominant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The finding indicates that conformity can be influenced by the context of the task and the gender roles associated with it. This corresponds to: Conformity is influenced by gender roles."
+    },
+    {
+      "question": "Which of the following is a limitation of Asch's study on conformity?",
+      "options": [
+        "High ecological validity",
+        "Use of a diverse sample",
+        "Artificial task",
+        "Longitudinal design"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asch's study used an artificial task, which may not reflect real-life situations of conformity"
+    },
+    {
+      "question": "In the context of conformity, what does the term 'normative social influence' refer to?",
+      "options": [
+        "Conforming to gain accurate information",
+        "Conforming to be accepted by others",
+        "Conforming due to group pressure",
+        "Conforming to avoid punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Normative social influence refers to the tendency to conform in order to be accepted or liked by others. This corresponds to: Conforming to be accepted by others."
+    }
+  ]
+}

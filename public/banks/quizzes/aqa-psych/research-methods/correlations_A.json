@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:07:44.764Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "correlations",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Fraley (2002) found correlations between early attachment and later relationships ranging from .50 to .10. What does this suggest about the stability of attachment types?",
+      "options": [
+        "Attachment types are very stable.",
+        "Attachment types are not very stable.",
+        "All attachment types are equally stable.",
+        "Attachment types only affect romantic relationships."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fraley's findings indicate that low correlations challenge the notion of attachment stability. This corresponds to: Attachment types are not very stable.."
+    },
+    {
+      "question": "In a study measuring the relationship between anxiety levels and performance, researchers found a curvilinear correlation. What does this imply about the relationship?",
+      "options": [
+        "Anxiety has a linear relationship with performance.",
+        "Performance is best at moderate anxiety levels.",
+        "Higher anxiety always leads to better performance.",
+        "There is no relationship between anxiety and performance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The curvilinear relationship suggests that moderate anxiety enhances performance, while too much or too little anxiety hinders it. This corresponds to: Performance is best at moderate anxiety levels.."
+    },
+    {
+      "question": "A researcher finds a correlation coefficient of +0.8 between two variables. What does this indicate?",
+      "options": [
+        "A strong negative relationship.",
+        "A weak positive relationship.",
+        "A strong positive relationship.",
+        "No relationship."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A correlation coefficient of +0.8 indicates a strong positive relationship between the two variables. This corresponds to: A strong positive relationship.."
+    },
+    {
+      "question": "A study found a correlation of 0 between hours studied and exam scores. What can be inferred from this result?",
+      "options": [
+        "Studying has no effect on exam scores.",
+        "There is a strong relationship between studying and scores.",
+        "Studying is the only factor affecting scores.",
+        "Exam scores are determined by other factors."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A correlation of 0 suggests that there is no relationship between hours studied and exam scores. This corresponds to: Studying has no effect on exam scores.."
+    },
+    {
+      "question": "What is a potential methodological issue with correlational research regarding attachment types and later relationships?",
+      "options": [
+        "Correlational studies can establish causation.",
+        "Childhood attachment types are often based on retrospective classification.",
+        "Correlational studies require random sampling.",
+        "Correlational studies cannot use statistical analysis."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retrospective classification may lead to inaccuracies in recalling childhood attachment types. This corresponds to: Childhood attachment types are often based on retrospective classification.."
+    },
+    {
+      "question": "Which of the following best describes a zero correlation?",
+      "options": [
+        "A perfect positive relationship.",
+        "A perfect negative relationship.",
+        "No predictable relationship between variables.",
+        "A strong relationship between two variables."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A zero correlation indicates that there is no predictable relationship between the two variables. This corresponds to: No predictable relationship between variables.."
+    },
+    {
+      "question": "In a study examining the relationship between childhood attachment and adult relationships, researchers found low correlations. What does this suggest about the determinism of attachment theory?",
+      "options": [
+        "Attachment experiences are deterministic.",
+        "Attachment experiences do not always determine future relationships.",
+        "All relationships are influenced by childhood attachment.",
+        "Attachment theory is universally applicable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Low correlations challenge the deterministic view that past attachment experiences dictate future relationships. This corresponds to: Attachment experiences do not always determine future relationships.."
+    },
+    {
+      "question": "A researcher is analyzing the relationship between two continuous variables using a scattergram. What is this method called?",
+      "options": [
+        "Experimental design.",
+        "Observational study.",
+        "Correlation analysis.",
+        "Qualitative research."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Analyzing the relationship between two continuous variables using a scattergram is known as correlation analysis. This corresponds to: Correlation analysis.."
+    },
+    {
+      "question": "If a study shows a correlation coefficient of -0.5, what does this indicate about the relationship between the two variables?",
+      "options": [
+        "A strong positive relationship.",
+        "A weak negative relationship.",
+        "A strong negative relationship.",
+        "No relationship."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A correlation coefficient of -0.5 indicates a moderate to strong negative relationship between the two variables. This corresponds to: A strong negative relationship.."
+    },
+    {
+      "question": "What is a limitation of using correlations in psychological research?",
+      "options": [
+        "Correlations can establish cause and effect.",
+        "Correlations do not account for extraneous variables.",
+        "Correlations require a large sample size.",
+        "Correlations can only be positive."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correlational research does not account for extraneous variables, making it difficult to establish causation. This corresponds to: Correlations do not account for extraneous variables.."
+    }
+  ]
+}

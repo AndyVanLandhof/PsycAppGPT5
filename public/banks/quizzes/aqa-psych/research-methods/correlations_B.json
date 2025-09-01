@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:08:07.270Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "correlations",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Fraley (2002) found correlations between early attachment and later relationships ranging from .50 to .10. What does this suggest about the stability of attachment types?",
+      "options": [
+        "Attachment types are very stable.",
+        "Attachment types are not very stable.",
+        "All attachment types are equally stable.",
+        "Attachment types are only stable in secure attachments."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fraley's findings indicate that low correlations pose a challenge to the idea that attachment type is stable over time. This corresponds to: Attachment types are not very stable.."
+    },
+    {
+      "question": "In a study examining the relationship between anxiety and performance, researchers found that performance is best at moderate anxiety levels. This illustrates which type of correlation?",
+      "options": [
+        "Positive correlation",
+        "Negative correlation",
+        "Curvilinear correlation",
+        "Zero correlation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The relationship between anxiety and performance is curvilinear, indicating that both too high and too low anxiety can impair performance. This corresponds to: Curvilinear correlation."
+    },
+    {
+      "question": "A researcher is analyzing the relationship between hours studied and exam scores, finding a correlation coefficient of +0.75. What does this indicate?",
+      "options": [
+        "A weak positive relationship",
+        "A strong positive relationship",
+        "No relationship",
+        "A strong negative relationship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A correlation coefficient of +0.75 indicates a strong positive relationship between the two variables"
+    },
+    {
+      "question": "A study finds a correlation of -0.30 between social media use and academic performance. What can be inferred from this result?",
+      "options": [
+        "Increased social media use is associated with higher academic performance.",
+        "There is no relationship between social media use and academic performance.",
+        "Increased social media use is associated with lower academic performance.",
+        "Social media use has no impact on academic performance."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A negative correlation of -0.30 suggests that as social media use increases, academic performance tends to decrease. This corresponds to: Increased social media use is associated with lower academic performance.."
+    },
+    {
+      "question": "When using correlational research, which of the following is a significant limitation regarding causation?",
+      "options": [
+        "Correlations can only show relationships, not cause and effect.",
+        "Correlational studies are always biased.",
+        "Correlations are only useful for linear relationships.",
+        "Correlational studies cannot use statistical tests."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correlational research can identify relationships between variables but cannot establish causation. This corresponds to: Correlations can only show relationships, not cause and effect.."
+    },
+    {
+      "question": "In a meta-analysis of studies on early attachment and later relationships, Fraley (2002) found correlations as low as .10. What does this suggest about the reliability of attachment theory?",
+      "options": [
+        "Attachment theory is universally accepted.",
+        "Attachment theory may not reliably predict future relationships.",
+        "All studies support attachment theory.",
+        "Attachment types are always stable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The low correlations challenge the reliability of attachment theory in predicting later relationship outcomes. This corresponds to: Attachment theory may not reliably predict future relationships.."
+    },
+    {
+      "question": "Which of the following best describes the difference between a correlation and an experiment?",
+      "options": [
+        "Correlations manipulate variables, while experiments do not.",
+        "Experiments can establish cause and effect, while correlations cannot.",
+        "Correlations require random sampling, while experiments do not.",
+        "Experiments measure relationships, while correlations measure differences."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Experiments are designed to establish cause and effect relationships, whereas correlations only show associations between variables. This corresponds to: Experiments can establish cause and effect, while correlations cannot.."
+    },
+    {
+      "question": "In a study assessing the impact of childhood attachment on adult relationships, researchers relied on participants' memories of their childhood. What methodological issue does this present?",
+      "options": [
+        "It may lead to biased results due to inaccurate memories.",
+        "It ensures high reliability of the data collected.",
+        "It eliminates the need for longitudinal studies.",
+        "It guarantees that all participants have similar experiences."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Relying on participants' memories can introduce bias and inaccuracies, affecting the validity of the findings. This corresponds to: It may lead to biased results due to inaccurate memories.."
+    },
+    {
+      "question": "If a researcher finds a correlation coefficient of 0, what does this indicate about the relationship between the two variables studied?",
+      "options": [
+        "There is a strong positive relationship.",
+        "There is a strong negative relationship.",
+        "There is no relationship.",
+        "There is a curvilinear relationship."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A correlation coefficient of 0 indicates that there is no relationship between the two variables. This corresponds to: There is no relationship.."
+    },
+    {
+      "question": "Which of the following statements about correlation coefficients is true?",
+      "options": [
+        "They can only range from 0 to 1.",
+        "They indicate the strength and direction of a relationship.",
+        "They can only be positive.",
+        "They are only applicable in experimental research."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correlation coefficients range from -1 to +1 and indicate both the strength and direction of the relationship between two variables. This corresponds to: They indicate the strength and direction of a relationship.."
+    }
+  ]
+}

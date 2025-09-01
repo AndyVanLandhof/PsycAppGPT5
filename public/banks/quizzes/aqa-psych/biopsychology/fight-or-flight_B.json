@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:04:02.912Z",
+  "curriculum": "aqa-psych",
+  "topicId": "biopsychology",
+  "subId": "fight-or-flight",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the initial physiological response activated by the hypothalamus during a stressor according to the fight or flight response?",
+      "options": [
+        "Activation of the parasympathetic nervous system",
+        "Release of oxytocin",
+        "Activation of the sympathetic nervous system",
+        "Inhibition of adrenaline release"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hypothalamus activates the sympathetic nervous system, which is responsible for the physiological arousal associated with the fight or flight response. This corresponds to: Activation of the sympathetic nervous system."
+    },
+    {
+      "question": "In the context of the fight or flight response, what role does adrenaline play?",
+      "options": [
+        "It reduces heart rate",
+        "It promotes relaxation",
+        "It increases heart rate and energy availability",
+        "It inhibits the sympathetic nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adrenaline increases heart rate and energy availability, facilitating the body's response to a perceived threat. This corresponds to: It increases heart rate and energy availability."
+    },
+    {
+      "question": "According to Taylor et al. (2000), what alternative response do females exhibit to stress compared to the traditional fight or flight response?",
+      "options": [
+        "Freeze response",
+        "Tend and befriend",
+        "Aggressive confrontation",
+        "Avoidance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Taylor et al. proposed that females often respond to stress with a 'tend and befriend' strategy, which involves nurturing and social cooperation"
+    },
+    {
+      "question": "If a student feels their heart racing before an exam, which part of the nervous system is primarily responsible for this response?",
+      "options": [
+        "Central nervous system",
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sympathetic nervous system is activated in response to stress, leading to physiological changes such as increased heart rate"
+    },
+    {
+      "question": "What physiological changes occur when the sympathetic nervous system is activated during the fight or flight response?",
+      "options": [
+        "Decreased heart rate and increased digestion",
+        "Increased heart rate and decreased blood flow to muscles",
+        "Increased heart rate and muscle tension",
+        "Decreased respiration and increased salivation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Activation of the sympathetic nervous system leads to increased heart rate and muscle tension, preparing the body for a rapid response"
+    },
+    {
+      "question": "How does the parasympathetic nervous system function after a stressor has passed?",
+      "options": [
+        "It maintains high levels of arousal",
+        "It returns the body to a resting state",
+        "It enhances the fight or flight response",
+        "It activates the release of adrenaline"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parasympathetic nervous system acts as a 'brake', reducing the physiological arousal caused by the sympathetic nervous system. This corresponds to: It returns the body to a resting state."
+    },
+    {
+      "question": "Lee and Harley (2012) found evidence for a genetic basis in gender differences in the fight or flight response. What gene is primarily associated with this?",
+      "options": [
+        "SRY gene",
+        "OXTR gene",
+        "CYP19 gene",
+        "MAOA gene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The SRY gene, found on the male Y chromosome, is linked to the promotion of aggression and the fight or flight response"
+    },
+    {
+      "question": "What methodological issue is associated with early research on the fight or flight response?",
+      "options": [
+        "Over-reliance on female subjects",
+        "Neglecting hormonal fluctuations in females",
+        "Assuming all responses are identical across genders",
+        "Using outdated technology for measurement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early research often excluded females or did not account for hormonal fluctuations, leading to a potential misrepresentation of female stress responses. This corresponds to: Neglecting hormonal fluctuations in females."
+    },
+    {
+      "question": "What is the primary function of oxytocin in the context of stress responses in females?",
+      "options": [
+        "To enhance fight or flight responses",
+        "To promote relaxation and social bonding",
+        "To increase aggression",
+        "To inhibit the sympathetic nervous system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxytocin is associated with promoting relaxation and social bonding, which can lead to the 'tend and befriend' response in females. This corresponds to: To promote relaxation and social bonding."
+    },
+    {
+      "question": "What is a key difference between the fight or flight response and the tend and befriend response?",
+      "options": [
+        "Fight or flight is only for males",
+        "Tend and befriend is a response to physical threats",
+        "Fight or flight is immediate, while tend and befriend is more social",
+        "Tend and befriend is a response to emotional threats only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The fight or flight response is immediate and physiological, while the tend and befriend response involves social behaviors and is more adaptive for females. This corresponds to: Fight or flight is immediate, while tend and befriend is more social."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:21:50.019Z",
+  "curriculum": "aqa-psych",
+  "topicId": "social-influence",
+  "subId": "explanations-for-conformity",
+  "set": "A",
+  "questions": [
+    {
+      "question": "In Asch's (1956) study, what was the effect of increasing the size of the majority on conformity rates?",
+      "options": [
+        "Conformity decreased",
+        "Conformity remained the same",
+        "Conformity increased",
+        "Conformity fluctuated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Asch found that increasing the size of the majority led to an increase in conformity. This corresponds to: Conformity increased."
+    },
+    {
+      "question": "What is the primary motivation behind normative social influence?",
+      "options": [
+        "Desire for accuracy",
+        "Desire for social acceptance",
+        "Desire for independence",
+        "Desire for information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Normative social influence occurs when individuals conform to be accepted by the group. This corresponds to: Desire for social acceptance."
+    },
+    {
+      "question": "In a scenario where a participant conforms to a group's incorrect answer to avoid standing out, which type of conformity is being demonstrated?",
+      "options": [
+        "Internalisation",
+        "Identification",
+        "Compliance",
+        "Social influence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario illustrates compliance, where the participant conforms superficially without changing their private beliefs"
+    },
+    {
+      "question": "According to Smith et al. (2006), what was the average conformity rate found in collectivist cultures?",
+      "options": [
+        "25%",
+        "31.2%",
+        "37%",
+        "50%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The average conformity rate for collectivist cultures was found to be 37%"
+    },
+    {
+      "question": "What effect does the presence of a dissenter have on conformity, as demonstrated in Asch's study?",
+      "options": [
+        "Increases conformity",
+        "Decreases conformity",
+        "Has no effect",
+        "Varies by individual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The presence of a dissenter who provides the correct answer significantly decreased conformity levels. This corresponds to: Decreases conformity."
+    },
+    {
+      "question": "In a study where participants were asked to judge the length of lines, what was the conformity rate on critical trials according to Asch's findings?",
+      "options": [
+        "5%",
+        "25%",
+        "32%",
+        "37%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Participants conformed on 32% of critical trials in Asch's study"
+    },
+    {
+      "question": "If a participant believes they have control over their decisions and is less likely to conform, which concept are they demonstrating?",
+      "options": [
+        "Locus of control",
+        "Social support",
+        "Agentic state",
+        "Legitimacy of authority"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Individuals with an internal locus of control are more likely to resist social influence"
+    },
+    {
+      "question": "What is a limitation of Asch's study regarding its ecological validity?",
+      "options": [
+        "It used a laboratory setting",
+        "It involved a diverse sample",
+        "It measured long-term behavior",
+        "It had a high level of control"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Asch's study was conducted in a laboratory setting, which may not reflect real-world conformity behaviors. This corresponds to: It used a laboratory setting."
+    },
+    {
+      "question": "What does the term 'unanimity' refer to in the context of conformity?",
+      "options": [
+        "Agreement among all group members",
+        "Disagreement among group members",
+        "The presence of a majority",
+        "The absence of social support"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unanimity refers to the agreement among all group members, which significantly affects conformity levels"
+    },
+    {
+      "question": "How does informational social influence differ from normative social influence?",
+      "options": [
+        "It leads to compliance",
+        "It leads to internalisation",
+        "It is based on social acceptance",
+        "It is based on the desire for information"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Informational social influence occurs when individuals conform to gain accurate information, unlike normative social influence which is driven by the desire for social acceptance. This corresponds to: It is based on the desire for information."
+    }
+  ]
+}

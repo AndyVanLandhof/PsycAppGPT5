@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:01:42.236Z",
+  "curriculum": "aqa-psych",
+  "topicId": "approaches-in-psychology",
+  "subId": "comparing-approaches",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which approach in psychology emphasizes the role of environmental influences on behavior, as seen in Bandura's study of social learning in 1961?",
+      "options": [
+        "Biological",
+        "Cognitive",
+        "Behaviourist",
+        "Humanistic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The behaviourist approach focuses on how behavior is shaped by environmental factors, as demonstrated by Bandura's work on observational learning"
+    },
+    {
+      "question": "In the context of the nature-nurture debate, what does a concordance rate of 69% in MZ twins suggest about the influence of genetics?",
+      "options": [
+        "Genetics are the sole determinant of behavior",
+        "Nurture has no impact on behavior",
+        "Both nature and nurture play a role",
+        "Nurture is more influential than nature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A concordance rate of 69% indicates a significant genetic influence, but the less than 100% concordance suggests that environmental factors also contribute. This corresponds to: Both nature and nurture play a role."
+    },
+    {
+      "question": "Which of the following best describes hard determinism as it relates to the psychodynamic approach?",
+      "options": [
+        "Behavior is influenced by conscious choices",
+        "Behavior is determined by unconscious forces",
+        "Behavior is shaped by social learning",
+        "Behavior is a result of genetic predispositions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hard determinism in the psychodynamic approach posits that unconscious forces drive behavior, leaving little room for free will. This corresponds to: Behavior is determined by unconscious forces."
+    },
+    {
+      "question": "What is a key characteristic of soft determinism in psychology?",
+      "options": [
+        "All behavior is predetermined",
+        "Choices are made within constraints",
+        "Behavior is solely a product of genetics",
+        "Behavior is entirely shaped by the environment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soft determinism suggests that while behavior is influenced by internal and external factors, individuals still have the capacity to make choices. This corresponds to: Choices are made within constraints."
+    },
+    {
+      "question": "In a study examining the effects of reinforcement on behavior, a child learns to clean their room after receiving praise. This scenario illustrates which type of determinism?",
+      "options": [
+        "Biological determinism",
+        "Environmental determinism",
+        "Psychic determinism",
+        "Hard determinism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario exemplifies environmental determinism, where behavior is shaped by external reinforcement"
+    },
+    {
+      "question": "Which approach is most aligned with the concept of free will, asserting that individuals are active agents in their own development?",
+      "options": [
+        "Behaviourist",
+        "Cognitive",
+        "Humanistic",
+        "Biological"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The humanistic approach emphasizes free will and the individual's capacity to shape their own life and decisions"
+    },
+    {
+      "question": "Which of the following is a limitation of reductionist approaches in psychology?",
+      "options": [
+        "They provide a comprehensive view of behavior",
+        "They ignore the complexity of human experience",
+        "They focus too much on environmental factors",
+        "They emphasize the role of free will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reductionist approaches often oversimplify behavior by ignoring the complex interplay of various factors, including social and emotional influences. This corresponds to: They ignore the complexity of human experience."
+    },
+    {
+      "question": "In the context of the free will-determinism debate, which statement reflects the view of the cognitive approach?",
+      "options": [
+        "All behavior is predetermined by genetics",
+        "Individuals have no control over their thoughts",
+        "Choices are influenced by prior knowledge and experiences",
+        "Behavior is solely a result of environmental conditioning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The cognitive approach suggests that while choices are influenced by prior knowledge and experiences, individuals still have the ability to make decisions"
+    },
+    {
+      "question": "Which of the following best describes the interactionist approach to the nature-nurture debate?",
+      "options": [
+        "Nature and nurture are completely separate",
+        "Nature and nurture interact to shape behavior",
+        "Nurture is more important than nature",
+        "Nature is the sole determinant of behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The interactionist approach posits that both genetic and environmental factors work together to influence behavior. This corresponds to: Nature and nurture interact to shape behavior."
+    },
+    {
+      "question": "What is a methodological issue associated with the use of deterministic explanations in psychology?",
+      "options": [
+        "They are too subjective",
+        "They can lead to ethical concerns about free will",
+        "They ignore biological factors",
+        "They are difficult to test empirically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deterministic explanations can raise ethical concerns, as they may imply that individuals lack control over their actions, challenging the notion of personal responsibility. This corresponds to: They can lead to ethical concerns about free will."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T10:27:08.104Z",
+  "curriculum": "aqa-psych",
+  "topicId": "attachment",
+  "subId": "animal-studies",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What was the primary finding of Harlow's study on attachment in monkeys in 1958?",
+      "options": [
+        "Monkeys preferred the wire mother that fed them",
+        "Monkeys preferred the cloth mother for comfort",
+        "Monkeys showed no preference for either mother",
+        "Monkeys formed attachments only to their biological mothers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harlow found that monkeys preferred the cloth mother, which provided comfort, over the wire mother that fed them. This corresponds to: Monkeys preferred the cloth mother for comfort."
+    },
+    {
+      "question": "In Lorenz's 1935 study, what was the critical period for imprinting observed in goslings?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "12 hours",
+        "1 week"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lorenz demonstrated that goslings would imprint on a moving object within the first 24 hours of hatching"
+    },
+    {
+      "question": "Harlow's research indicated that attachment is not solely based on which factor?",
+      "options": [
+        "Feeding",
+        "Comfort",
+        "Social interaction",
+        "Genetics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Harlow's findings showed that attachment was not primarily based on feeding, as monkeys preferred comfort over food"
+    },
+    {
+      "question": "A study found that the sleep/wake cycle of chipmunks disappeared after the SCN was destroyed. What does this suggest about the SCN's role?",
+      "options": [
+        "It is not important for sleep regulation",
+        "It is essential for maintaining circadian rhythms",
+        "It only affects non-human animals",
+        "It can be overridden by environmental factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The study suggests that the SCN is essential for maintaining circadian rhythms, as its destruction led to the loss of the sleep/wake cycle. This corresponds to: It is essential for maintaining circadian rhythms."
+    },
+    {
+      "question": "What ethical concern arises from Harlow's study on attachment in monkeys?",
+      "options": [
+        "The study lacked scientific rigor",
+        "It caused lasting emotional harm to the monkeys",
+        "It was not replicable",
+        "It did not consider animal welfare"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harlow's study raised ethical concerns due to the lasting emotional harm it caused, affecting the monkeys' ability to form relationships. This corresponds to: It caused lasting emotional harm to the monkeys."
+    },
+    {
+      "question": "What is a limitation of using animal studies to understand human attachment, according to the AQA materials?",
+      "options": [
+        "Animal studies are more ethical",
+        "Humans have more complex behaviors governed by conscious decisions",
+        "Animal studies provide definitive conclusions",
+        "Animal behavior is identical to human behavior"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Humans exhibit more complex behaviors influenced by conscious decisions, which may not be accurately reflected in animal studies. This corresponds to: Humans have more complex behaviors governed by conscious decisions."
+    },
+    {
+      "question": "Which of the following studies supports the idea that attachment behavior observed in animals can be generalized to humans?",
+      "options": [
+        "Harlow's study",
+        "Lorenz's study",
+        "Schaffer and Emerson's study",
+        "Skinner's research"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Schaffer and Emerson's study supports the idea that attachment behaviors in infants are not solely based on feeding, similar to Harlow's findings"
+    },
+    {
+      "question": "What was a methodological issue with the learning theory of attachment based on animal studies?",
+      "options": [
+        "It used too many human subjects",
+        "It relied on studies with non-human animals",
+        "It did not consider genetic factors",
+        "It was too complex to replicate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The learning theory is criticized for relying on studies with non-human animals, which may not accurately represent human learning processes. This corresponds to: It relied on studies with non-human animals."
+    },
+    {
+      "question": "What is one reason why animal studies are often used in psychological research, particularly in attachment studies?",
+      "options": [
+        "They are easier to conduct than human studies",
+        "They provide more ethical options",
+        "They allow for controlled experiments",
+        "They are more reliable than human studies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Animal studies allow for controlled experiments that can isolate specific variables, which is often more challenging in human studies. This corresponds to: They allow for controlled experiments."
+    },
+    {
+      "question": "What does the research on hormonal mechanisms in aggression suggest about animal studies?",
+      "options": [
+        "They are irrelevant to human aggression",
+        "They provide a complete understanding of human aggression",
+        "They indicate similarities in hormonal mechanisms between humans and animals",
+        "They show that aggression is only learned"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Research indicates that hormonal mechanisms involved in aggression are likely similar in humans and other mammals, providing insights into the biological basis of aggression. This corresponds to: They indicate similarities in hormonal mechanisms between humans and animals."
+    }
+  ]
+}

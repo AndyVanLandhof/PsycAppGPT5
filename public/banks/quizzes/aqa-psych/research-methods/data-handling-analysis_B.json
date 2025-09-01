@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T11:10:28.540Z",
+  "curriculum": "aqa-psych",
+  "topicId": "research-methods",
+  "subId": "data-handling-analysis",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary difference between qualitative and quantitative data?",
+      "options": [
+        "Qualitative data is numerical, while quantitative data is descriptive.",
+        "Qualitative data is descriptive, while quantitative data is numerical.",
+        "Qualitative data is collected through experiments, while quantitative data is collected through observations.",
+        "Qualitative data is always primary, while quantitative data is always secondary."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Qualitative data provides descriptive insights, while quantitative data focuses on numerical measurements. This corresponds to: Qualitative data is descriptive, while quantitative data is numerical.."
+    },
+    {
+      "question": "In a study examining the relationship between sleep duration and academic performance, researchers found a correlation coefficient of -0.65. What does this indicate?",
+      "options": [
+        "There is a strong positive correlation.",
+        "There is a weak negative correlation.",
+        "There is a strong negative correlation.",
+        "There is no correlation."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A correlation coefficient of -0.65 indicates a strong negative correlation between sleep duration and academic performance. This corresponds to: There is a strong negative correlation.."
+    },
+    {
+      "question": "If a researcher wants to analyze the average score of a group of students, which measure of central tendency should they use?",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The mean is the most appropriate measure to analyze the average score of a group"
+    },
+    {
+      "question": "A researcher collects data from a previous study to analyze the effects of a new treatment. This type of data is known as what?",
+      "options": [
+        "Primary data",
+        "Secondary data",
+        "Qualitative data",
+        "Quantitative data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Data collected from previous studies is classified as secondary data"
+    },
+    {
+      "question": "In a study, participants' responses are coded into themes for analysis. This method is known as what?",
+      "options": [
+        "Content analysis",
+        "Thematic analysis",
+        "Quantitative analysis",
+        "Statistical analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thematic analysis involves identifying and coding themes within qualitative data"
+    },
+    {
+      "question": "A researcher conducts an experiment and finds that the mean score of the experimental group is 75, while the control group has a mean score of 65. What can be inferred about the treatment's effect?",
+      "options": [
+        "The treatment had no effect.",
+        "The treatment had a positive effect.",
+        "The treatment had a negative effect.",
+        "The results are inconclusive."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The higher mean score in the experimental group suggests a positive effect of the treatment. This corresponds to: The treatment had a positive effect.."
+    },
+    {
+      "question": "A researcher uses a scattergram to display the relationship between two variables. What type of data is being presented?",
+      "options": [
+        "Qualitative data",
+        "Quantitative data",
+        "Primary data",
+        "Secondary data"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scattergrams are used to display quantitative data, showing relationships between two variables"
+    },
+    {
+      "question": "When calculating the range of a data set, which of the following steps is necessary?",
+      "options": [
+        "Add the highest and lowest values.",
+        "Subtract the lowest value from the highest value.",
+        "Calculate the mean of the data set.",
+        "Identify the mode of the data set."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The range is calculated by subtracting the lowest value from the highest value in the data set. This corresponds to: Subtract the lowest value from the highest value.."
+    },
+    {
+      "question": "A researcher finds that their data is normally distributed. What characteristic does this distribution have?",
+      "options": [
+        "It has a skewed shape.",
+        "It is symmetrical around the mean.",
+        "It has multiple peaks.",
+        "It is always negatively skewed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A normal distribution is characterized by its symmetry around the mean. This corresponds to: It is symmetrical around the mean.."
+    },
+    {
+      "question": "In a study, a researcher uses the sign test to analyze the data. What is a key limitation of this statistical test?",
+      "options": [
+        "It requires interval data.",
+        "It can only be used with large sample sizes.",
+        "It does not provide information about the strength of the relationship.",
+        "It is only applicable to qualitative data."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sign test does not provide information about the strength of the relationship between variables. This corresponds to: It does not provide information about the strength of the relationship.."
+    }
+  ]
+}
