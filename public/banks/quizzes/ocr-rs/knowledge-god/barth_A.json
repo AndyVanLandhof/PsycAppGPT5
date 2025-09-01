@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:49:26.508Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "barth",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Karl Barth, how is God knowable to humans?",
+      "options": [
+        "Through human reason",
+        "Through God's choice to reveal Himself",
+        "Through natural theology",
+        "Through the Church alone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth argues that God is only knowable through His choice to reveal Himself to people when He wishes. This corresponds to: Through God's choice to reveal Himself."
+    },
+    {
+      "question": "What is a key aspect of Barth's view on election?",
+      "options": [
+        "It is exclusive to Christians",
+        "It is open to anyone willing to receive God's grace",
+        "It is determined by human actions",
+        "It is irrelevant to understanding God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth's view suggests that election is open to anyone who is willing to receive God's grace, indicating an inclusivist stance. This corresponds to: It is open to anyone willing to receive God's grace."
+    },
+    {
+      "question": "In what way does Barth's theology challenge traditional exclusivism?",
+      "options": [
+        "By denying the existence of God",
+        "By suggesting that God's grace can be accessed outside Christianity",
+        "By emphasizing the importance of human reason",
+        "By rejecting the authority of the Bible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth's belief that the Holy Spirit can work anywhere implies that God's grace is accessible beyond Christian methods. This corresponds to: By suggesting that God's grace can be accessed outside Christianity."
+    },
+    {
+      "question": "What does Barth believe about the role of natural theology?",
+      "options": [
+        "It is essential for understanding God",
+        "It is unnecessary because God has fully revealed Himself",
+        "It is a distraction from true faith",
+        "It is only useful for Christians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth argues that we do not need natural theology because God has fully revealed all we need to know in salvation history. This corresponds to: It is unnecessary because God has fully revealed Himself."
+    },
+    {
+      "question": "How does Calvin's view of hell differ from traditional interpretations?",
+      "options": [
+        "He believes hell is a literal place of fire",
+        "He views hell as a metaphor for divine punishment",
+        "He denies the existence of hell altogether",
+        "He believes hell is only for non-Christians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calvin describes hell as a metaphorical representation of dreadful punishment rather than a literal place of torment. This corresponds to: He views hell as a metaphor for divine punishment."
+    },
+    {
+      "question": "What is a methodological issue in Barth's theology regarding human understanding of God?",
+      "options": [
+        "It relies too heavily on human reason",
+        "It assumes all humans can access God's revelation equally",
+        "It may overlook the role of cultural context in understanding God",
+        "It does not account for the diversity of religious experiences"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth's emphasis on God's revelation may overlook how cultural contexts influence individual interpretations of God. This corresponds to: It may overlook the role of cultural context in understanding God."
+    },
+    {
+      "question": "What is a significant shift in Christian thought regarding love and faith in the modern period?",
+      "options": [
+        "Faith is prioritized over love",
+        "Love is seen as a major obligation over faith",
+        "Doctrines are considered absolute truths",
+        "Love is deemed irrelevant to salvation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The modern period has seen a shift where love is regarded as a major obligation, surpassing the previous dominance of faith. This corresponds to: Love is seen as a major obligation over faith."
+    },
+    {
+      "question": "How does Barth's view of revelation differ from traditional views?",
+      "options": [
+        "He believes revelation is universal",
+        "He sees revelation as a general act",
+        "He views revelation as a special act by God",
+        "He denies the possibility of revelation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth asserts that revelation is always a special act by God, not a general one accessible to all. This corresponds to: He views revelation as a special act by God."
+    },
+    {
+      "question": "What aspect of Calvinism does Barth's theology challenge?",
+      "options": [
+        "The absolute nature of God's revelation",
+        "The role of human reason in understanding God",
+        "The exclusivity of salvation through Christ",
+        "The hierarchical structure of society"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth's inclusivist tendencies challenge the exclusivity of salvation traditionally emphasized in Calvinism. This corresponds to: The exclusivity of salvation through Christ."
+    },
+    {
+      "question": "What does Barth suggest about the relationship between the Bible and natural theology?",
+      "options": [
+        "The Bible supports the use of natural theology",
+        "Natural theology is irrelevant to understanding the Bible",
+        "The Bible contradicts natural theology",
+        "Natural theology is superior to biblical revelation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Barth believed that the Bible, being revealed by God, points towards the necessity of natural theology. This corresponds to: The Bible supports the use of natural theology."
+    }
+  ]
+}

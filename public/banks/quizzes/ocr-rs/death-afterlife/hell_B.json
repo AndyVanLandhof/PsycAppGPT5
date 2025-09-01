@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:43:57.851Z",
+  "curriculum": "ocr-rs",
+  "topicId": "death-afterlife",
+  "subId": "hell",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Catholic teaching, what is purgatory primarily understood as?",
+      "options": [
+        "A state of eternal punishment",
+        "A state of cleansing before entering heaven",
+        "A place of reward for the righteous",
+        "A temporary state of bliss"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Purgatory is described as a state of cleansing that occurs before someone enters heaven, acknowledging that most people are not bad enough for hell but not perfect enough to meet God. This corresponds to: A state of cleansing before entering heaven."
+    },
+    {
+      "question": "Which biblical reference do Catholics use to support the existence of purgatory?",
+      "options": [
+        "Matthew 12",
+        "Hebrews 9:27",
+        "1 Peter 3:19",
+        "Revelation 20:15"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Catholics point to Matthew 12, which discusses sins against the Holy Spirit, suggesting that some sins can be forgiven in the age to come"
+    },
+    {
+      "question": "What is the Protestant view regarding purgatory?",
+      "options": [
+        "It is a necessary stage for all souls",
+        "It lacks direct Biblical evidence",
+        "It is a place of eternal punishment",
+        "It is universally accepted among all Christians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Protestants often reject the concept of purgatory due to the lack of clear Biblical support for its existence. This corresponds to: It lacks direct Biblical evidence."
+    },
+    {
+      "question": "In the context of Christian beliefs, what does universalism propose?",
+      "options": [
+        "Only a few will be saved",
+        "All people will be saved",
+        "Salvation is limited to Christians",
+        "Only those who repent will be saved"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Universalism is the belief that all people will ultimately be saved, contrasting with limited election views. This corresponds to: All people will be saved."
+    },
+    {
+      "question": "If hell is viewed as a place of eternal punishment, what is the main argument for this perspective?",
+      "options": [
+        "It encourages moral behavior",
+        "It is a temporary state",
+        "It is a mythological concept",
+        "It is a state of bliss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The argument for hell as a place of eternal punishment is that without such a consequence, there may be no need for God to establish moral laws. This corresponds to: It encourages moral behavior."
+    },
+    {
+      "question": "What does John Hick argue regarding the concept of hell?",
+      "options": [
+        "It is a necessary part of God's justice",
+        "It should be interpreted as annihilation",
+        "It is a place of eternal torment",
+        "It is a metaphor for moral failure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick suggests that the language of hell and damnation could be better interpreted in terms of annihilation rather than eternal punishment. This corresponds to: It should be interpreted as annihilation."
+    },
+    {
+      "question": "How does the Catholic Church view the purpose of hell?",
+      "options": [
+        "To punish all sinners equally",
+        "To guide people to use their free will properly",
+        "As a place of eternal joy",
+        "As a temporary state of suffering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Catholic Church teaches that the main purpose of hell is to guide people towards the proper use of their free will, emphasizing that God does not wish to send anyone there. This corresponds to: To guide people to use their free will properly."
+    },
+    {
+      "question": "What is a critical evaluation of the concept of purgatory?",
+      "options": [
+        "It is universally accepted by all Christians",
+        "It lacks Biblical support",
+        "It is a well-defined place",
+        "It is a temporary state for all souls"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A critical evaluation of purgatory highlights its lack of direct Biblical support, particularly from Protestant perspectives. This corresponds to: It lacks Biblical support."
+    },
+    {
+      "question": "Which of the following best describes the Catholic view of judgment after death?",
+      "options": [
+        "Immediate judgment with no second chance",
+        "Judgment only at the end of time",
+        "A combination of immediate and final judgment",
+        "No judgment occurs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Catholic teaching suggests that individuals face immediate judgment at death, followed by a final judgment at the end of time. This corresponds to: A combination of immediate and final judgment."
+    },
+    {
+      "question": "What is the significance of the parable 'The Sheep and the Goats' in Christian eschatology?",
+      "options": [
+        "It illustrates the concept of purgatory",
+        "It emphasizes the importance of moral actions",
+        "It denies the existence of hell",
+        "It promotes universalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parable emphasizes the importance of moral actions and how they determine one's fate in the afterlife, aligning with Christian views on judgment. This corresponds to: It emphasizes the importance of moral actions."
+    }
+  ]
+}

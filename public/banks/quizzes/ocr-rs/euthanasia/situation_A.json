@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:24:18.900Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "situation",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Joseph Fletcher's situation ethics, which principle is prioritized when making ethical decisions regarding euthanasia?",
+      "options": [
+        "Legalism",
+        "Personalism",
+        "Autonomy",
+        "Sanctity of Life"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher emphasizes personalism, which focuses on people and their welfare rather than strict adherence to laws"
+    },
+    {
+      "question": "In the context of situation ethics, what does Fletcher suggest about the sanctity of life?",
+      "options": [
+        "It is an absolute principle.",
+        "It can be overridden by love.",
+        "It is the most important ethical consideration.",
+        "It should never be questioned."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher argues that the sanctity of life is not absolute and can be broken when love demands it. This corresponds to: It can be overridden by love.."
+    },
+    {
+      "question": "Fletcher's view on euthanasia is best summarized by which of the following statements?",
+      "options": [
+        "Euthanasia is always wrong.",
+        "Quality of life is more important than the sanctity of life.",
+        "All forms of euthanasia are permissible.",
+        "Euthanasia should be illegal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher values quality of life over the sanctity of life, suggesting that euthanasia can be justified in certain situations. This corresponds to: Quality of life is more important than the sanctity of life.."
+    },
+    {
+      "question": "In a scenario where a terminally ill patient refuses life-sustaining treatment, what would situation ethics suggest?",
+      "options": [
+        "The treatment must be administered regardless of the patient's wishes.",
+        "The patient's autonomy should be respected.",
+        "Legal guidelines should dictate the decision.",
+        "The family should decide what is best."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation ethics emphasizes respecting the patient's autonomy, aligning with Fletcher's principle of personalism. This corresponds to: The patient's autonomy should be respected.."
+    },
+    {
+      "question": "What is a potential criticism of situation ethics when applied to euthanasia?",
+      "options": [
+        "It provides clear guidelines for all situations.",
+        "It may lead to subjective interpretations of love.",
+        "It strictly adheres to legal principles.",
+        "It ignores the patient's condition."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flexibility of situation ethics can result in varying interpretations of what constitutes the most loving action. This corresponds to: It may lead to subjective interpretations of love.."
+    },
+    {
+      "question": "Fletcher's approach to euthanasia can be seen as relativist because it emphasizes what?",
+      "options": [
+        "Fixed moral rules.",
+        "Situational decision-making.",
+        "Universal ethical principles.",
+        "Absolute truths."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher states that 'love's decisions are made situationally, not prescriptively,' highlighting the relativist nature of his theory. This corresponds to: Situational decision-making.."
+    },
+    {
+      "question": "In a case where a patient is suffering and requests euthanasia, what does situation ethics prioritize?",
+      "options": [
+        "The patient's suffering.",
+        "Legal obligations.",
+        "Religious commandments.",
+        "Family opinions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Situation ethics prioritizes alleviating the patient's suffering as the most loving action in such cases. This corresponds to: The patient's suffering.."
+    },
+    {
+      "question": "What is a key quote from Joseph Fletcher regarding euthanasia?",
+      "options": [
+        "'Do not kill.'",
+        "'Love is the only law.'",
+        "'It is harder to justify letting someone die a slow and ugly death.'",
+        "'Life must be preserved at all costs.'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher's quote emphasizes the importance of alleviating suffering over strict adherence to the sanctity of life. This corresponds to: 'It is harder to justify letting someone die a slow and ugly death.'."
+    },
+    {
+      "question": "How does situation ethics differ from legalistic approaches to euthanasia?",
+      "options": [
+        "It strictly follows laws.",
+        "It focuses on the consequences of actions.",
+        "It ignores the emotional aspects.",
+        "It applies universal rules."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation ethics focuses on the consequences of actions and the context, rather than following fixed legal rules. This corresponds to: It focuses on the consequences of actions.."
+    },
+    {
+      "question": "What does Fletcher argue is necessary for practicing agape love in the context of euthanasia?",
+      "options": [
+        "A strict adherence to laws.",
+        "A personal relationship with God.",
+        "An understanding of the patient's needs.",
+        "A focus on societal norms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher suggests that agape love, which is unconditional, requires understanding the specific needs and circumstances of the patient. This corresponds to: An understanding of the patient's needs.."
+    }
+  ]
+}

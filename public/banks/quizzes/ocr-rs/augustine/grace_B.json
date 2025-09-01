@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:35:13.886Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "grace",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Augustine, what is the nature of sin in human existence?",
+      "options": [
+        "A) A learned behavior",
+        "B) An ontological condition",
+        "C) A societal construct",
+        "D) A temporary state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine sees sin as an ontological condition of human existence, implying that it is inherent and fundamental to being human. This corresponds to: B) An ontological condition."
+    },
+    {
+      "question": "What does Augustine argue is necessary for salvation?",
+      "options": [
+        "A) Human effort alone",
+        "B) God's grace",
+        "C) Adherence to moral laws",
+        "D) Community support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argues that salvation is only possible through God's grace, which is freely given and unprompted. This corresponds to: B) God's grace."
+    },
+    {
+      "question": "In Augustine's view, what role does original sin play in human behavior?",
+      "options": [
+        "A) It enhances free will",
+        "B) It causes human selfishness",
+        "C) It has no impact",
+        "D) It promotes virtue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine believes that original sin leads to human selfishness and a lack of free will, affecting all human societies. This corresponds to: B) It causes human selfishness."
+    },
+    {
+      "question": "If a person believes they can achieve moral perfection without divine assistance, which theological perspective do they align with?",
+      "options": [
+        "A) Augustine",
+        "B) Pelagius",
+        "C) Paul",
+        "D) Luther"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pelagius argues that while Adam set a poor example, individuals can live morally without needing divine grace. This corresponds to: B) Pelagius."
+    },
+    {
+      "question": "According to Paul, what is the struggle that Christians face even after accepting salvation?",
+      "options": [
+        "A) The temptation to sin",
+        "B) The desire for wealth",
+        "C) The conflict between selfish desires and spiritual inclinations",
+        "D) The need for community support"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paul describes a struggle between selfish desires and spiritual inclinations, indicating that Christians still face challenges even after salvation. This corresponds to: C) The conflict between selfish desires and spiritual inclinations."
+    },
+    {
+      "question": "What does Augustine suggest about the will after the Fall?",
+      "options": [
+        "A) It is entirely free",
+        "B) It is completely corrupted",
+        "C) It is divided",
+        "D) It is unaffected"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine suggests that the Fall left the will divided, leading to a conflict between selfish desires and the aspiration to do good. This corresponds to: C) It is divided."
+    },
+    {
+      "question": "How does Augustine's view of grace differ from Pelagius's perspective?",
+      "options": [
+        "A) Augustine believes grace is unnecessary",
+        "B) Augustine sees grace as essential for salvation",
+        "C) Pelagius believes in predestination",
+        "D) Pelagius argues for the necessity of grace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argues that God's grace is essential for salvation, while Pelagius believes humans can achieve moral living through their own efforts. This corresponds to: B) Augustine sees grace as essential for salvation."
+    },
+    {
+      "question": "What is a potential criticism of Augustine's view on grace and salvation?",
+      "options": [
+        "A) It emphasizes human agency",
+        "B) It may lead to fatalism",
+        "C) It ignores the role of community",
+        "D) It is too optimistic about human nature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A criticism of Augustine's view is that it may lead to fatalism, as it suggests that only a select few are predestined for salvation. This corresponds to: B) It may lead to fatalism."
+    },
+    {
+      "question": "What does Augustine imply about the relationship between grace and free will?",
+      "options": [
+        "A) Grace negates free will",
+        "B) Free will is irrelevant",
+        "C) Grace enhances free will",
+        "D) They are in conflict"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine implies that grace is necessary to overcome the limitations of free will caused by original sin, suggesting a complex relationship. This corresponds to: A) Grace negates free will."
+    },
+    {
+      "question": "In Augustine's theology, what is the ultimate fate of those who cannot receive God's grace?",
+      "options": [
+        "A) They achieve moral perfection",
+        "B) They are predestined for Hell",
+        "C) They live virtuous lives",
+        "D) They are reincarnated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argues that those who cannot receive God's grace are predestined for Hell, highlighting the exclusivity of salvation through grace. This corresponds to: B) They are predestined for Hell."
+    }
+  ]
+}

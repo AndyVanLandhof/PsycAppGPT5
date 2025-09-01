@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:36:06.171Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "freedom",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Augustine, what is the primary cause of evil in the world?",
+      "options": [
+        "Human free will",
+        "Divine intervention",
+        "Natural disasters",
+        "Predestination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine emphasized that free will is the source of most suffering and evil, suggesting that human choices lead to moral evil. This corresponds to: Human free will."
+    },
+    {
+      "question": "In Augustine's view, how does the concept of Original Sin affect human freedom?",
+      "options": [
+        "It enhances human freedom",
+        "It limits human freedom",
+        "It has no effect on freedom",
+        "It allows for greater moral choices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine believed that Original Sin taints human nature, thus limiting the ability to make fully free choices. This corresponds to: It limits human freedom."
+    },
+    {
+      "question": "If a person chooses to commit an immoral act, how would Augustine interpret this choice?",
+      "options": [
+        "As a result of divine predestination",
+        "As an exercise of free will",
+        "As a natural consequence of evil",
+        "As a misunderstanding of good"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine would argue that the choice to commit an immoral act is an exercise of free will, reflecting the individual's ability to choose between good and evil. This corresponds to: As an exercise of free will."
+    },
+    {
+      "question": "What does Augustine suggest about the relationship between free will and divine justice?",
+      "options": [
+        "They are mutually exclusive",
+        "Free will is necessary for divine justice",
+        "Divine justice overrides free will",
+        "Free will is an illusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine posited that free will is essential for divine justice, as it allows individuals to choose good and thus be held accountable for their actions. This corresponds to: Free will is necessary for divine justice."
+    },
+    {
+      "question": "How does Augustine's view of free will compare to the concept of predestination?",
+      "options": [
+        "They are identical",
+        "Free will contradicts predestination",
+        "They complement each other",
+        "Predestination is more important"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine's emphasis on free will suggests a contradiction with predestination, as free will implies that individuals have the power to choose their actions. This corresponds to: Free will contradicts predestination."
+    },
+    {
+      "question": "What is a key criticism of Augustine's theodicy regarding human freedom?",
+      "options": [
+        "It does not account for natural evil",
+        "It places too much blame on God",
+        "It ignores the role of divine mercy",
+        "It suggests humans are not responsible for their actions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Augustine's theodicy fails to adequately explain the existence of natural evil, which is not a direct result of human free will. This corresponds to: It does not account for natural evil."
+    },
+    {
+      "question": "According to Augustine, what role does the Fall play in human freedom?",
+      "options": [
+        "It enhances human freedom",
+        "It introduces a natural inclination to sin",
+        "It eliminates the possibility of free will",
+        "It has no impact on freedom"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine taught that the Fall resulted in a natural inclination to sin, thereby affecting the exercise of human free will. This corresponds to: It introduces a natural inclination to sin."
+    },
+    {
+      "question": "How does Augustine's concept of privation relate to his understanding of evil?",
+      "options": [
+        "Evil is a substance",
+        "Evil is a lack of good",
+        "Evil is a necessary part of creation",
+        "Evil is an illusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine's concept of privation suggests that evil is not a substance in itself but rather a lack of good, emphasizing God's ultimate goodness. This corresponds to: Evil is a lack of good."
+    },
+    {
+      "question": "What does Augustine argue about the nature of God's will in relation to human freedom?",
+      "options": [
+        "God's will is indifferent to human choices",
+        "God's will determines all human actions",
+        "God's will allows for genuine human autonomy",
+        "God's will is irrelevant to human freedom"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine posits that God's will allows for genuine human autonomy, enabling individuals to make choices that reflect their moral character"
+    },
+    {
+      "question": "In Augustine's view, how does the existence of evil challenge the notion of a perfect God?",
+      "options": [
+        "It proves God is not omnipotent",
+        "It suggests God is indifferent to suffering",
+        "It raises questions about human responsibility",
+        "It contradicts the idea of free will"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The existence of evil raises questions about human responsibility, as Augustine argues that while God is good, humans misuse their free will to choose evil. This corresponds to: It raises questions about human responsibility."
+    }
+  ]
+}

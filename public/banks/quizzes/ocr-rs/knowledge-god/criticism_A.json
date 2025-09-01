@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:50:05.659Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "criticism",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Boethius, how does God's knowledge differ from human knowledge?",
+      "options": [
+        "God's knowledge is based on time",
+        "God's knowledge is conditional",
+        "God's knowledge is timeless and simultaneous",
+        "God's knowledge is limited to the present"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boethius argues that God's knowledge is timeless and exists in a simultaneous present, unlike human knowledge which is confined to time. This corresponds to: God's knowledge is timeless and simultaneous."
+    },
+    {
+      "question": "What type of necessity does Boethius describe when discussing God's knowledge of human actions?",
+      "options": [
+        "Simple necessity",
+        "Conditional necessity",
+        "Absolute necessity",
+        "Contingent necessity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boethius distinguishes between simple necessity (fixed by laws of nature) and conditional necessity (based on human choices)"
+    },
+    {
+      "question": "In the context of God's omniscience, what does the term 'middle knowledge' refer to?",
+      "options": [
+        "God's knowledge of the past only",
+        "God's knowledge of all possible outcomes",
+        "God's knowledge being limited to the present",
+        "God's knowledge of human ignorance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Middle knowledge refers to the idea that God knows not only what happens but also what could have happened under different circumstances. This corresponds to: God's knowledge of all possible outcomes."
+    },
+    {
+      "question": "If a person chooses to wear a red t-shirt instead of a blue one, how does this relate to Boethius' view of God's knowledge?",
+      "options": [
+        "God is surprised by the choice",
+        "God knew the choice would be made",
+        "The choice is predetermined",
+        "God has no knowledge of the choice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Boethius, God's knowledge is providential, meaning He knows what happens as it occurs, including human choices. This corresponds to: God knew the choice would be made."
+    },
+    {
+      "question": "What is a key critique of Boethius' view on God's knowledge and free will?",
+      "options": [
+        "It assumes God is not omniscient",
+        "It suggests humans have no free will",
+        "It portrays God as too remote",
+        "It denies the existence of time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that Boethius' portrayal of God as timeless and remote raises questions about the personal nature of God and the ability to pray to such a being. This corresponds to: It portrays God as too remote."
+    },
+    {
+      "question": "How does the concept of historical consciousness challenge claims of religious superiority?",
+      "options": [
+        "It emphasizes the uniqueness of each religion",
+        "It suggests all religions are equally valid",
+        "It promotes dialogue between religions",
+        "It denies the existence of any religion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Historical consciousness highlights the cultural limitations of knowledge, suggesting that no single religion can claim absolute superiority over others. This corresponds to: It suggests all religions are equally valid."
+    },
+    {
+      "question": "What is John Hick's conclusion regarding the evaluation of different religious traditions?",
+      "options": [
+        "One religion is superior to all others",
+        "Religions can be judged by their historical impact",
+        "All religions are equally valid in promoting good",
+        "Religions should compete for followers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hick argues that it is impossible to determine which religion has contributed more good or less evil, as they are complex totalities that seem to be on par with each other. This corresponds to: All religions are equally valid in promoting good."
+    },
+    {
+      "question": "In multi-religious contexts, how do different traditions articulate the concept of salvation?",
+      "options": [
+        "They all agree on the definition of sin",
+        "They have unique interpretations based on cultural contexts",
+        "They reject the idea of salvation altogether",
+        "They all use the same terminology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Different religious traditions articulate salvation in varied ways, reflecting their unique cultural contexts and understandings of the human predicament. This corresponds to: They have unique interpretations based on cultural contexts."
+    },
+    {
+      "question": "What does the analogy of the charioteer illustrate in Plato's philosophy regarding the soul?",
+      "options": [
+        "The soul is entirely physical",
+        "The soul is rational and must control appetites",
+        "The soul is irrelevant to knowledge",
+        "The soul is a prison for the body"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plato uses the charioteer analogy to illustrate that a rational soul must control the appetites for harmony and understanding of true knowledge. This corresponds to: The soul is rational and must control appetites."
+    },
+    {
+      "question": "What is a significant methodological critique of Boethius' view on God's knowledge?",
+      "options": [
+        "It lacks empirical evidence",
+        "It is too simplistic",
+        "It does not account for human experience",
+        "It assumes all knowledge is rational"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Boethius' view lacks empirical evidence to support the idea of a timeless God, making it difficult to validate his claims about divine knowledge. This corresponds to: It lacks empirical evidence."
+    }
+  ]
+}

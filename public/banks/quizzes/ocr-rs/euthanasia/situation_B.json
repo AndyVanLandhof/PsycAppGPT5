@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:24:36.804Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "situation",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the main ethical principle of Joseph Fletcher's Situation Ethics regarding euthanasia?",
+      "options": [
+        "Sanctity of life",
+        "Legalism",
+        "Agape love",
+        "Autonomy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher emphasizes agape love as the guiding principle, suggesting that the most loving action should be prioritized over strict adherence to rules"
+    },
+    {
+      "question": "In the context of euthanasia, how does Situation Ethics view the sanctity of life?",
+      "options": [
+        "It is absolute",
+        "It can be overridden",
+        "It is irrelevant",
+        "It is the only consideration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher argues that the sanctity of life is not absolute and can be overridden when love demands it, particularly in cases of suffering. This corresponds to: It can be overridden."
+    },
+    {
+      "question": "According to Situation Ethics, what should be the starting point for decisions in medical ethics?",
+      "options": [
+        "Legal precedents",
+        "Religious commandments",
+        "The patient's medical condition",
+        "Societal norms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher states that the patient's medical condition must be the starting point for any decisions in medical ethics"
+    },
+    {
+      "question": "A terminally ill patient refuses life-sustaining treatment to avoid burdening their family financially. How would Situation Ethics interpret this decision?",
+      "options": [
+        "It is morally wrong",
+        "It is a loving decision",
+        "It violates the sanctity of life",
+        "It is legally justified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation Ethics would view this decision as loving, as it prioritizes the welfare of the family and the patient's autonomy over strict rules. This corresponds to: It is a loving decision."
+    },
+    {
+      "question": "What is a potential criticism of Situation Ethics when applied to euthanasia?",
+      "options": [
+        "It is too rigid",
+        "It lacks flexibility",
+        "It can be vague",
+        "It is overly prescriptive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that while the aim of doing the most loving thing is commendable, Situation Ethics can be vague, leading to differing interpretations of what is loving. This corresponds to: It can be vague."
+    },
+    {
+      "question": "Joseph Fletcher's view on euthanasia suggests that legal rules can be broken. What term best describes this approach?",
+      "options": [
+        "Deontological",
+        "Relativist",
+        "Consequentialist",
+        "Utilitarian"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher's relativist approach allows for breaking legal rules when love demands it, contrasting with more rigid ethical frameworks"
+    },
+    {
+      "question": "In assessing the effectiveness of Situation Ethics in euthanasia, what is a key strength?",
+      "options": [
+        "It provides clear rules",
+        "It allows for personal circumstances",
+        "It is universally applicable",
+        "It ignores emotional factors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A strength of Situation Ethics is its flexibility, allowing for personal circumstances to guide ethical decisions in complex situations like euthanasia. This corresponds to: It allows for personal circumstances."
+    },
+    {
+      "question": "Fletcher's Situation Ethics emphasizes personalism. What does this mean in the context of euthanasia?",
+      "options": [
+        "Focus on laws",
+        "Focus on individuals",
+        "Focus on society",
+        "Focus on tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Personalism in Situation Ethics means prioritizing the welfare of individuals over adherence to laws, especially in sensitive issues like euthanasia. This corresponds to: Focus on individuals."
+    },
+    {
+      "question": "How does Situation Ethics differ from Natural Law in its approach to euthanasia?",
+      "options": [
+        "Both are absolutist",
+        "Both focus on consequences",
+        "Situation Ethics is relativist",
+        "Natural Law is more flexible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics is relativist, allowing for decisions based on love in specific situations, while Natural Law adheres to fixed moral rules"
+    },
+    {
+      "question": "What does Fletcher mean when he states that 'love's decisions are made situationally, not prescriptively'?",
+      "options": [
+        "Love is always the same",
+        "Love requires strict rules",
+        "Love varies by situation",
+        "Love is irrelevant to ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fletcher's statement highlights that ethical decisions should be based on the specific context and needs of the situation rather than fixed prescriptions. This corresponds to: Love varies by situation."
+    }
+  ]
+}

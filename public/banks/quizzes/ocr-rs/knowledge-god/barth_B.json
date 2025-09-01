@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:49:42.147Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "barth",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Karl Barth, how is God knowable to humans?",
+      "options": [
+        "Through human reason",
+        "Through God's choice to reveal Himself",
+        "Through natural theology",
+        "Through the Church alone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth argues that God is only knowable through His choice to reveal Himself to people when He wishes. This corresponds to: Through God's choice to reveal Himself."
+    },
+    {
+      "question": "What is the primary focus of Barth's theology?",
+      "options": [
+        "Human understanding of God",
+        "God's self-revelation",
+        "Natural theology",
+        "The authority of the Church"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth emphasizes that the only completely accurate way of understanding God's self-revelation is through the Bible"
+    },
+    {
+      "question": "In what way does Barth's view blur the lines between exclusivism and inclusivism?",
+      "options": [
+        "He believes only Christians can access God's grace",
+        "He suggests the Holy Spirit can work anywhere",
+        "He denies the uniqueness of Jesus",
+        "He rejects the authority of the Bible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth suggests that the Holy Spirit can reveal God's grace to anyone, not just through Christian methods. This corresponds to: He suggests the Holy Spirit can work anywhere."
+    },
+    {
+      "question": "If a theologian argues that the Fall has blocked humans' ability to recognize God, which debate are they likely engaging in?",
+      "options": [
+        "The debate on revealed theology",
+        "The debate on natural theology",
+        "The debate on exclusivism vs inclusivism",
+        "The debate on the authority of the Church"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This debate centers on whether the Fall has impeded human recognition of the point of contact between God and humans. This corresponds to: The debate on natural theology."
+    },
+    {
+      "question": "What does Barth's rejection of natural theology imply about his view of human reason?",
+      "options": [
+        "It is always reliable",
+        "It is limited and often leads to misunderstanding God",
+        "It is unnecessary",
+        "It is superior to revealed theology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth believed that human reason, due to its limitations and the effects of the Fall, often leads to misunderstandings of God. This corresponds to: It is limited and often leads to misunderstanding God."
+    },
+    {
+      "question": "How does Barth's view of revelation differ from traditional views of natural theology?",
+      "options": [
+        "He emphasizes human interpretation",
+        "He believes revelation is a general act",
+        "He sees revelation as a special act by God",
+        "He denies the existence of revelation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth argues that revelation is always a special act of God, not a general one accessible through human reason. This corresponds to: He sees revelation as a special act by God."
+    },
+    {
+      "question": "What methodological issue can be raised against Barth's theology?",
+      "options": [
+        "It relies too heavily on human experience",
+        "It lacks empirical evidence",
+        "It does not account for other religious experiences",
+        "It is too focused on historical context"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth's emphasis on God's unique revelation through Christianity may overlook the validity of experiences in other faiths. This corresponds to: It does not account for other religious experiences."
+    },
+    {
+      "question": "In what way does Calvin's view of hell differ from a literal interpretation?",
+      "options": [
+        "He believes it is a metaphor for spiritual separation",
+        "He denies its existence",
+        "He sees it as a temporary state",
+        "He describes it as a place of physical torment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calvin interprets hell not as a literal place of torment but as a metaphor for a dreadful punishment beyond human comprehension. This corresponds to: He believes it is a metaphor for spiritual separation."
+    },
+    {
+      "question": "What is a key evaluative point regarding the relationship between Barth and Calvin's views?",
+      "options": [
+        "Barth completely rejects Calvin's ideas",
+        "Both theologians agree on the necessity of natural theology",
+        "Barth builds on Calvin's ideas while emphasizing revelation",
+        "Calvin's views are more inclusive than Barth's"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Barth's theology is influenced by Calvin but emphasizes God's unique revelation over the use of natural theology. This corresponds to: Barth builds on Calvin's ideas while emphasizing revelation."
+    },
+    {
+      "question": "What does Barth suggest about the role of the Bible in understanding God's revelation?",
+      "options": [
+        "It is one of many sources",
+        "It is the only completely accurate way",
+        "It should be interpreted through reason",
+        "It is secondary to personal experience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth asserts that the Bible is the only completely accurate way of understanding God's self-revelation. This corresponds to: It is the only completely accurate way."
+    }
+  ]
+}

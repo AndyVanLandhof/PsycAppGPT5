@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:48:47.215Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "aquinas",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the focus of Aquinas' Fifth Way in his Five Ways to prove God's existence?",
+      "options": [
+        "The existence of evil",
+        "The governance of the world",
+        "The nature of human conscience",
+        "The concept of divine simplicity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' Fifth Way is entitled 'From the Governance of the World', focusing on how natural bodies act towards their purpose, implying a guiding intelligence"
+    },
+    {
+      "question": "According to Aquinas, why do natural bodies act for an end?",
+      "options": [
+        "By chance",
+        "Due to instinct",
+        "By design",
+        "Through evolution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argues that natural bodies act for an end not by luck but by design, indicating the presence of an intelligent being, which he identifies as God"
+    },
+    {
+      "question": "In the context of Aquinas' Five Ways, which analogy does he use to illustrate the need for a guiding intelligence?",
+      "options": [
+        "A ship and its captain",
+        "An arrow and an archer",
+        "A plant and sunlight",
+        "A student and a teacher"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas uses the analogy of an arrow needing an archer to illustrate that things lacking knowledge require guidance to achieve their purpose. This corresponds to: An arrow and an archer."
+    },
+    {
+      "question": "If a student argues that the regular behavior of natural bodies suggests a guiding intelligence, which of Aquinas' Five Ways are they referencing?",
+      "options": [
+        "The First Way",
+        "The Second Way",
+        "The Third Way",
+        "The Fifth Way"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This argument aligns with Aquinas' Fifth Way, which discusses how natural bodies behave consistently towards their goals, indicating a guiding intelligence. This corresponds to: The Fifth Way."
+    },
+    {
+      "question": "What is a potential criticism of Aquinas' teleological argument as presented in his Five Ways?",
+      "options": [
+        "It relies too heavily on empirical evidence",
+        "It assumes a single God without considering polytheism",
+        "It does not account for the existence of evil",
+        "It is based solely on human observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A criticism is that Aquinas assumes a single guiding intelligence (God) without considering the possibility of multiple gods, which challenges the uniqueness of his conclusion. This corresponds to: It assumes a single God without considering polytheism."
+    },
+    {
+      "question": "How does Aquinas' view of purpose relate to his understanding of God?",
+      "options": [
+        "Purpose is irrelevant to God's existence",
+        "All things have a purpose due to God's design",
+        "Purpose is a human construct",
+        "God's existence is independent of purpose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas believed that all things have a purpose, which must be achieved through God's guidance, thus linking purpose directly to the existence of God. This corresponds to: All things have a purpose due to God's design."
+    },
+    {
+      "question": "Which of the following best describes the nature of God according to Aquinas' Five Ways?",
+      "options": [
+        "A personal deity who intervenes in human affairs",
+        "An impersonal force that governs the universe",
+        "An uncaused cause that sustains all things",
+        "A being that is indifferent to human existence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas describes God as the Uncaused Cause, emphasizing that God sustains all things and exists differently from other beings. This corresponds to: An uncaused cause that sustains all things."
+    },
+    {
+      "question": "What does the term 'sensus divinitas' refer to in Calvin's theology?",
+      "options": [
+        "The innate sense of morality",
+        "The divine spark in every person",
+        "The ability to reason about God",
+        "The historical evidence for God's existence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calvin's concept of 'sensus divinitas' refers to the innate divine sense that allows individuals to recognize God's existence, despite the confusion caused by sin. This corresponds to: The divine spark in every person."
+    },
+    {
+      "question": "What is a methodological issue associated with Aquinas' teleological argument?",
+      "options": [
+        "It is too abstract to be tested",
+        "It relies on subjective interpretations of purpose",
+        "It does not consider alternative explanations",
+        "It is based on outdated scientific knowledge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A methodological issue is that Aquinas' argument does not consider alternative explanations for the observed order in nature, which could undermine its validity. This corresponds to: It does not consider alternative explanations."
+    },
+    {
+      "question": "In Aquinas' view, how do humans reflect on and recognize God's existence?",
+      "options": [
+        "Through religious rituals",
+        "By studying ancient texts",
+        "Using their intellectual ability and reason",
+        "Through personal experiences alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argues that humans use their intellectual ability and reason to reflect on the world around them, which helps them recognize God's existence. This corresponds to: Using their intellectual ability and reason."
+    }
+  ]
+}

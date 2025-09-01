@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:19:19.112Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "natural",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Natural Law, which of the following is a primary precept that directly opposes euthanasia?",
+      "options": [
+        "Preserve innocent life",
+        "Promote happiness",
+        "Encourage autonomy",
+        "Support medical advancements"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Natural Law emphasizes the preservation of innocent life as a primary precept, which contradicts the practice of euthanasia. This corresponds to: Preserve innocent life."
+    },
+    {
+      "question": "In the context of Natural Law, what does the principle of double effect allow a doctor to do?",
+      "options": [
+        "Intentionally end a patient's life",
+        "Administer pain relief that may shorten life",
+        "Refuse treatment to terminally ill patients",
+        "Encourage euthanasia as a viable option"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of double effect permits a doctor to administer pain relief, even if it may unintentionally shorten life, provided the intention is to relieve pain. This corresponds to: Administer pain relief that may shorten life."
+    },
+    {
+      "question": "A terminally ill patient decides to decline extraordinary treatment, believing it is not their duty to prolong suffering. Which aspect of Natural Law does this scenario illustrate?",
+      "options": [
+        "The sanctity of life",
+        "The distinction between ordinary and extraordinary means",
+        "The importance of divine law",
+        "The concept of apparent goods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates the distinction between ordinary and extraordinary means, where patients are not obliged to accept extraordinary treatment"
+    },
+    {
+      "question": "Which of the following statements best reflects the Natural Law view on euthanasia?",
+      "options": [
+        "Euthanasia is acceptable if it relieves suffering",
+        "Euthanasia undermines the sanctity of life",
+        "Euthanasia can be justified under certain conditions",
+        "Euthanasia promotes societal stability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law holds that euthanasia undermines the sanctity of life, which is considered intrinsically valuable"
+    },
+    {
+      "question": "A doctor administers morphine to relieve a patient's severe pain, resulting in the patient's death. According to Natural Law, what is the moral evaluation of this action?",
+      "options": [
+        "It is euthanasia",
+        "It is morally wrong",
+        "It is permissible under double effect",
+        "It is a violation of divine law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Natural Law, this action is permissible under the doctrine of double effect, as the intention was to relieve pain, not to end life. This corresponds to: It is permissible under double effect."
+    },
+    {
+      "question": "In a secular society, some argue that euthanasia should be allowed. What is a potential concern from a Natural Law perspective?",
+      "options": [
+        "It promotes individual autonomy",
+        "It may lead to a slippery slope regarding the value of life",
+        "It aligns with modern ethical standards",
+        "It encourages medical advancements"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From a Natural Law perspective, allowing euthanasia may lead to a slippery slope where the value of life is diminished. This corresponds to: It may lead to a slippery slope regarding the value of life."
+    },
+    {
+      "question": "Natural Law is often criticized for being too rigid. What is one evaluative point regarding this criticism?",
+      "options": [
+        "It allows for personal interpretation",
+        "It provides clear moral guidelines",
+        "It fails to adapt to modern ethical dilemmas",
+        "It encourages flexibility in moral reasoning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that Natural Law's rigid application of moral principles does not adequately address the complexities of modern ethical dilemmas. This corresponds to: It fails to adapt to modern ethical dilemmas."
+    },
+    {
+      "question": "According to Natural Law, which of the following is considered an apparent good in the context of euthanasia?",
+      "options": [
+        "Preserving life",
+        "Relieving suffering",
+        "Promoting societal order",
+        "Providing autonomy to patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relieving suffering through euthanasia is seen as an apparent good, contrasting with the real good of preserving life"
+    },
+    {
+      "question": "How does Natural Law's emphasis on the sanctity of life impact its stance on euthanasia?",
+      "options": [
+        "It supports euthanasia in certain cases",
+        "It categorically rejects euthanasia",
+        "It allows for euthanasia if pain is unbearable",
+        "It promotes euthanasia as a personal choice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law's emphasis on the sanctity of life leads to a categorical rejection of euthanasia, viewing life as intrinsically valuable. This corresponds to: It categorically rejects euthanasia."
+    },
+    {
+      "question": "What role does the concept of synderesis play in Natural Law's approach to ethical decision-making regarding euthanasia?",
+      "options": [
+        "It allows for subjective interpretations",
+        "It guides individuals to do good and avoid evil",
+        "It emphasizes the importance of divine law",
+        "It promotes a utilitarian approach to ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Synderesis serves as a guiding principle in Natural Law, helping individuals discern moral actions that align with doing good and avoiding evil. This corresponds to: It guides individuals to do good and avoid evil."
+    }
+  ]
+}

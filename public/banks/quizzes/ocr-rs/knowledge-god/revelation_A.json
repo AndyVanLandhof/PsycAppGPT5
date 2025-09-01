@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:48:05.344Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "revelation",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which theologian is associated with the watch analogy to argue for God's existence?",
+      "options": [
+        "William Paley",
+        "John Calvin",
+        "A.N. Whitehead",
+        "Karl Barth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "William Paley used the watch analogy to illustrate God as an infinitely powerful designer"
+    },
+    {
+      "question": "What does revealed theology primarily focus on?",
+      "options": [
+        "Human responses to nature",
+        "God's deliberate revelations",
+        "Scientific evidence for God's existence",
+        "Philosophical reasoning about God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Revealed theology looks at what God has deliberately shown to people, contrasting with natural theology. This corresponds to: God's deliberate revelations."
+    },
+    {
+      "question": "According to Alister McGrath, what is a key issue with traditional natural theology?",
+      "options": [
+        "It relies too heavily on scientific proof",
+        "It misunderstands the role of faith",
+        "It attempts to prove God's existence using Enlightenment methods",
+        "It ignores the importance of revealed theology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "McGrath argues that natural theology took a wrong turn by trying to prove God's existence using Enlightenment methods, which are inappropriate for the task. This corresponds to: It attempts to prove God's existence using Enlightenment methods."
+    },
+    {
+      "question": "Which of the following best describes Process Theology?",
+      "options": [
+        "God works separately from natural processes",
+        "God is unknowable",
+        "God works with natural processes",
+        "God only reveals himself through scripture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Process Theology posits that God works with natural processes rather than separately from them"
+    },
+    {
+      "question": "What is a criticism of revealed theology mentioned in the materials?",
+      "options": [
+        "It assumes all humans can interpret revelations equally",
+        "It relies too much on human reason",
+        "It does not account for scientific discoveries",
+        "It is too focused on natural theology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Revealed theology can be criticized for suggesting that God reveals himself only in certain circumstances, which may lead to biased interpretations. This corresponds to: It assumes all humans can interpret revelations equally."
+    },
+    {
+      "question": "How does Calvin view the role of faith in knowing God?",
+      "options": [
+        "It is purely rational",
+        "It is a spiritual acceptance of Jesus",
+        "It is unnecessary if one uses reason",
+        "It is based solely on scripture"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calvin believes that true faith comes through a spiritual acceptance of Jesus as the Redeemer, rather than through rational means. This corresponds to: It is a spiritual acceptance of Jesus."
+    },
+    {
+      "question": "What does the term 'grace' refer to in the context of revealed theology?",
+      "options": [
+        "Human reasoning",
+        "God's unconditional goodness",
+        "Natural evidence of God",
+        "Philosophical arguments for God's existence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grace is described as God's unconditional, constant giving of goodness, which allows humans to have faith. This corresponds to: God's unconditional goodness."
+    },
+    {
+      "question": "What is a methodological issue raised by Barth regarding natural theology?",
+      "options": [
+        "It relies too much on scripture",
+        "It assumes humans can fully understand God",
+        "It is based on outdated philosophical ideas",
+        "It does not consider the Fall's impact on human reason"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Barth argues that the Fall has impaired human ability to understand God, questioning the usefulness of natural theology. This corresponds to: It does not consider the Fall's impact on human reason."
+    },
+    {
+      "question": "According to the materials, what is a key difference between natural and revealed theology?",
+      "options": [
+        "Natural theology is based on scripture",
+        "Revealed theology requires human reasoning",
+        "Natural theology starts with human observations",
+        "Revealed theology is more subjective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural theology begins with human responses to the natural world, while revealed theology focuses on what God has shown to humanity. This corresponds to: Natural theology starts with human observations."
+    },
+    {
+      "question": "What is a potential limitation of natural theology as discussed in the materials?",
+      "options": [
+        "It is too reliant on human experience",
+        "It cannot explain the Trinity",
+        "It assumes all humans can interpret nature the same way",
+        "It is not based on any philosophical reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural theology may struggle to explain certain Christian beliefs, such as the Trinity, which require revelation for understanding. This corresponds to: It cannot explain the Trinity."
+    }
+  ]
+}

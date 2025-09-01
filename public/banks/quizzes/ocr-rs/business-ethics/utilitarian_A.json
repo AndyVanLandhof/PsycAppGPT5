@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:32:40.613Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "utilitarian",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which ethical approach allows businesses to make decisions based on a cost-benefit analysis, similar to act utilitarianism?",
+      "options": [
+        "Deontological ethics",
+        "Virtue ethics",
+        "Utilitarianism",
+        "Kantian ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Utilitarianism focuses on maximizing pleasure and minimizing pain, allowing businesses to evaluate actions based on their outcomes"
+    },
+    {
+      "question": "In a scenario where a business considers closing a factory in the UK to reduce costs, which utilitarian principle might influence their decision?",
+      "options": [
+        "The non-harm principle",
+        "The greatest good for the greatest number",
+        "The categorical imperative",
+        "The principle of universal law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The business would weigh the benefits of cost reduction against the potential harm to employees and the community. This corresponds to: The greatest good for the greatest number."
+    },
+    {
+      "question": "What is a potential criticism of utilitarianism when applied to business ethics?",
+      "options": [
+        "It is too rigid and inflexible",
+        "It may ignore individual rights",
+        "It focuses too much on long-term benefits",
+        "It is overly concerned with profit-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism can lead to decisions that prioritize overall utility at the expense of individual rights and fairness. This corresponds to: It may ignore individual rights."
+    },
+    {
+      "question": "Which of the following best describes rule utilitarianism in a business context?",
+      "options": [
+        "Decisions are made on a case-by-case basis",
+        "It focuses solely on immediate outcomes",
+        "It establishes general rules for ethical behavior",
+        "It disregards the consequences of actions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rule utilitarianism advocates for establishing rules that generally promote the greatest good, rather than evaluating each situation individually. This corresponds to: It establishes general rules for ethical behavior."
+    },
+    {
+      "question": "A company decides to implement a minimum wage policy based on the long-term benefits for employees. This decision reflects which utilitarian approach?",
+      "options": [
+        "Act utilitarianism",
+        "Preference utilitarianism",
+        "Rule utilitarianism",
+        "Kantian ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This decision aligns with rule utilitarianism, as it considers the broader implications of a consistent policy rather than individual cases"
+    },
+    {
+      "question": "What does the concept of corporate social responsibility imply for businesses?",
+      "options": [
+        "Maximizing profits is the only goal",
+        "Businesses should prioritize community and environmental welfare",
+        "Businesses have no ethical responsibilities",
+        "Profit-making is separate from ethical considerations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corporate social responsibility emphasizes that businesses have obligations beyond profit-making, including responsibilities to the community and environment. This corresponds to: Businesses should prioritize community and environmental welfare."
+    },
+    {
+      "question": "In the context of utilitarianism, how might a business approach the issue of whistleblowing?",
+      "options": [
+        "By ignoring the concerns raised",
+        "By evaluating the risks and benefits for all stakeholders",
+        "By prioritizing company profits over ethical concerns",
+        "By adhering strictly to company policy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism would require the business to assess the potential outcomes of whistleblowing for all parties involved. This corresponds to: By evaluating the risks and benefits for all stakeholders."
+    },
+    {
+      "question": "What is a methodological issue associated with applying utilitarianism in business decision-making?",
+      "options": [
+        "It simplifies complex ethical dilemmas",
+        "It requires subjective judgment in assessing utility",
+        "It ignores the long-term consequences",
+        "It is too focused on individual rights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism's reliance on calculating pleasure and pain can lead to subjective interpretations, complicating objective decision-making. This corresponds to: It requires subjective judgment in assessing utility."
+    },
+    {
+      "question": "How does utilitarianism view the relationship between ethics and business profitability?",
+      "options": [
+        "Ethics and profitability are unrelated",
+        "Good ethics can lead to better business outcomes",
+        "Profitability should always come first",
+        "Ethics are secondary to market competition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism suggests that ethical business practices can enhance profitability by fostering trust and loyalty among stakeholders. This corresponds to: Good ethics can lead to better business outcomes."
+    },
+    {
+      "question": "Which philosopher's view aligns with the idea that businesses should act ethically to achieve the greatest good?",
+      "options": [
+        "Friedman",
+        "Bentham",
+        "Kant",
+        "Smith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bentham's utilitarianism emphasizes actions that maximize overall happiness, aligning with the notion that ethical behavior can lead to greater business success"
+    }
+  ]
+}

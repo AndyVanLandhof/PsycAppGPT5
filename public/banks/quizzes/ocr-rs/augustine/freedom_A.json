@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:35:42.803Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "freedom",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Augustine's teachings, what is the primary cause of evil in the world?",
+      "options": [
+        "Human free will",
+        "Divine will",
+        "Natural disasters",
+        "Original sin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine emphasized that free will is the source of moral evil, as humans choose to act against God's will. This corresponds to: Human free will."
+    },
+    {
+      "question": "In Augustine's view, how does free will relate to human suffering?",
+      "options": [
+        "It eliminates suffering",
+        "It is the cause of suffering",
+        "It has no impact on suffering",
+        "It only affects natural evil"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argued that free will is responsible for most suffering, as it allows humans to choose evil actions. This corresponds to: It is the cause of suffering."
+    },
+    {
+      "question": "If a person chooses to commit a sin, how does Augustine interpret this choice?",
+      "options": [
+        "As a lack of knowledge",
+        "As a failure of divine justice",
+        "As an exercise of free will",
+        "As a predetermined action"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine believed that sin arises from the exercise of free will, where individuals choose to act against God's commands. This corresponds to: As an exercise of free will."
+    },
+    {
+      "question": "A student argues that if humans are inherently flawed due to the Fall, can they truly be held responsible for their actions? Which aspect of Augustine's teaching does this challenge?",
+      "options": [
+        "The nature of divine justice",
+        "The concept of original sin",
+        "The idea of free will",
+        "The existence of hell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This scenario challenges Augustine's assertion that humans have genuine free will, as it questions the fairness of holding flawed beings accountable. This corresponds to: The idea of free will."
+    },
+    {
+      "question": "How does Augustine's concept of privation relate to his understanding of evil?",
+      "options": [
+        "Evil is a substance",
+        "Evil is a lack of good",
+        "Evil is God's punishment",
+        "Evil is an illusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine posited that evil is not a created substance but rather a privation, meaning it is the absence of good. This corresponds to: Evil is a lack of good."
+    },
+    {
+      "question": "In Augustine's view, what role does divine grace play in human freedom?",
+      "options": [
+        "It restricts free will",
+        "It enhances free will",
+        "It has no role",
+        "It determines all actions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine believed that divine grace enables humans to choose good, thus enhancing their free will rather than restricting it. This corresponds to: It enhances free will."
+    },
+    {
+      "question": "Critics of Augustine's theodicy argue that it does not adequately explain the existence of natural evil. What is a methodological issue with this perspective?",
+      "options": [
+        "It ignores human agency",
+        "It fails to consider divine justice",
+        "It overlooks the role of free will",
+        "It assumes all evil is moral"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This criticism assumes that all forms of evil are moral, which overlooks Augustine's distinction between moral and natural evil. This corresponds to: It assumes all evil is moral."
+    },
+    {
+      "question": "How does Augustine's view of the Fall affect his understanding of human nature?",
+      "options": [
+        "Humans are perfect",
+        "Humans are inherently good",
+        "Humans are naturally inclined to sin",
+        "Humans have no free will"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine taught that the Fall resulted in a natural inclination to sin, fundamentally altering human nature. This corresponds to: Humans are naturally inclined to sin."
+    },
+    {
+      "question": "What is a significant implication of Augustine's belief in original sin for human freedom?",
+      "options": [
+        "Humans are completely free",
+        "Humans cannot choose good",
+        "Humans can only choose evil",
+        "Humans are free to choose both good and evil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Augustine believed that while humans have free will, their inclination towards sin complicates their ability to choose good. This corresponds to: Humans are free to choose both good and evil."
+    },
+    {
+      "question": "In evaluating Augustine's teachings, what is a common critique regarding the fairness of divine justice?",
+      "options": [
+        "It is too lenient",
+        "It is too harsh",
+        "It does not account for free will",
+        "It punishes all equally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Augustine's view of divine justice is harsh, particularly in relation to the punishment of those who are influenced by original sin. This corresponds to: It is too harsh."
+    }
+  ]
+}

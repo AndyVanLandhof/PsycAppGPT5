@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:33:01.624Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "utilitarian",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the primary focus of Bentham's act utilitarianism in business decision-making?",
+      "options": [
+        "Maximizing profits",
+        "Minimizing costs",
+        "Maximizing pleasure",
+        "Ensuring fairness"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bentham's act utilitarianism emphasizes maximizing pleasure and minimizing pain in decision-making"
+    },
+    {
+      "question": "In a scenario where a business considers closing a factory in the UK to reduce costs, which utilitarian approach would allow for flexibility in decision-making?",
+      "options": [
+        "Rule utilitarianism",
+        "Act utilitarianism",
+        "Kantian ethics",
+        "Corporate social responsibility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Act utilitarianism allows businesses to make decisions based on the unique circumstances of each situation"
+    },
+    {
+      "question": "Which of the following is a criticism of utilitarianism in business ethics?",
+      "options": [
+        "It is too rigid",
+        "It ignores individual rights",
+        "It is too focused on long-term benefits",
+        "It is overly simplistic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A key criticism of utilitarianism is that it may overlook individual rights in favor of the greater good. This corresponds to: It ignores individual rights."
+    },
+    {
+      "question": "How does rule utilitarianism differ from act utilitarianism in business ethics?",
+      "options": [
+        "It focuses on individual cases",
+        "It emphasizes long-term principles",
+        "It is more flexible",
+        "It ignores consequences"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rule utilitarianism emphasizes the long-term benefits of adhering to certain ethical principles, unlike act utilitarianism. This corresponds to: It emphasizes long-term principles."
+    },
+    {
+      "question": "A company decides to implement a minimum wage policy based on the belief that it will benefit employees in the long run. This decision reflects which utilitarian approach?",
+      "options": [
+        "Act utilitarianism",
+        "Preference utilitarianism",
+        "Rule utilitarianism",
+        "Kantian ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This decision reflects rule utilitarianism, as it is based on a principle that aims for long-term benefits"
+    },
+    {
+      "question": "What is a potential downside of applying utilitarianism to business ethics?",
+      "options": [
+        "It encourages corporate social responsibility",
+        "It can lead to neglect of minority rights",
+        "It simplifies complex ethical dilemmas",
+        "It promotes transparency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism can lead to the neglect of minority rights if the greater good is prioritized over individual concerns. This corresponds to: It can lead to neglect of minority rights."
+    },
+    {
+      "question": "In the context of utilitarianism, what does the term 'utility' refer to?",
+      "options": [
+        "Profit maximization",
+        "Moral duty",
+        "Usefulness or benefit",
+        "Legal compliance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In utilitarianism, 'utility' refers to the usefulness or benefit of an action in maximizing overall happiness"
+    },
+    {
+      "question": "A business faces negative press for outsourcing jobs abroad, which could harm its sales. Which utilitarian consideration is most relevant in this scenario?",
+      "options": [
+        "Long-term profitability",
+        "Employee rights",
+        "Public perception",
+        "Cost reduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Public perception is a crucial utilitarian consideration, as negative press can impact overall happiness and sales"
+    },
+    {
+      "question": "What is a key argument in favor of utilitarianism as a business ethics framework?",
+      "options": [
+        "It prioritizes individual rights",
+        "It allows for case-by-case decision-making",
+        "It is easy to apply universally",
+        "It discourages competition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism's flexibility allows businesses to make decisions based on specific circumstances, promoting tailored ethical considerations. This corresponds to: It allows for case-by-case decision-making."
+    },
+    {
+      "question": "Which ethical theory contrasts with utilitarianism by emphasizing the importance of individual rights over outcomes?",
+      "options": [
+        "Kantian ethics",
+        "Virtue ethics",
+        "Social contract theory",
+        "Feminist ethics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kantian ethics contrasts with utilitarianism by focusing on individual rights and duties rather than the consequences of actions"
+    }
+  ]
+}

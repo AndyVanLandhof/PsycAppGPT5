@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:18:55.748Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "natural",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Natural Law, which of the following is a primary precept that directly opposes euthanasia?",
+      "options": [
+        "Preserve innocent life",
+        "Worship God",
+        "Education",
+        "Live in an ordered society"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The preservation of innocent life is one of the five primary precepts in Natural Law, which directly contradicts the practice of euthanasia. This corresponds to: Preserve innocent life."
+    },
+    {
+      "question": "In the context of Natural Law, what does the principle of double effect allow regarding pain relief in terminally ill patients?",
+      "options": [
+        "Euthanasia is permissible",
+        "Pain relief can be given even if it shortens life",
+        "All treatments must be continued",
+        "Life support must always be maintained"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle of double effect permits the administration of pain relief, such as morphine, even if it may unintentionally shorten life, provided the intention is to relieve pain. This corresponds to: Pain relief can be given even if it shortens life."
+    },
+    {
+      "question": "A terminally ill patient decides to decline extraordinary treatment that may prolong their life. How would Natural Law view this decision?",
+      "options": [
+        "It is morally wrong",
+        "It is acceptable",
+        "It is a violation of divine law",
+        "It is an act of euthanasia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law allows individuals to refuse extraordinary treatment, as they are obliged to accept only ordinary means of treatment, which aligns with the principle of preserving life. This corresponds to: It is acceptable."
+    },
+    {
+      "question": "Which of the following statements best reflects a criticism of Natural Law in relation to euthanasia?",
+      "options": [
+        "It is too flexible in its application",
+        "It may lead to a slippery slope regarding the value of life",
+        "It does not consider the sanctity of life",
+        "It is based solely on human reasoning"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Natural Law's strict adherence to the sanctity of life could lead to a slippery slope where life is valued less, undermining societal stability. This corresponds to: It may lead to a slippery slope regarding the value of life."
+    },
+    {
+      "question": "According to Natural Law, what is the moral status of a doctor who administers pain relief that unintentionally leads to a patient's death?",
+      "options": [
+        "Guilty of euthanasia",
+        "Acting within moral law",
+        "Committing a sin",
+        "Violating divine law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law would view the doctor as acting within moral law, as the intention was to relieve pain, not to end life, illustrating the doctrine of double effect"
+    },
+    {
+      "question": "In Natural Law ethics, which of the following is considered an apparent good in the context of euthanasia?",
+      "options": [
+        "Relieving suffering",
+        "Preserving life",
+        "Maintaining societal order",
+        "Ensuring quality of life"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Natural Law posits that euthanasia may be seen as an apparent good because it aims to ensure quality of life, which contradicts the real good of preserving life. This corresponds to: Ensuring quality of life."
+    },
+    {
+      "question": "A patient in a terminal condition is kept on life support against their wishes. How would Natural Law interpret this situation?",
+      "options": [
+        "It is morally acceptable",
+        "It violates the principle of double effect",
+        "It is a violation of the primary precept",
+        "It is an act of euthanasia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural Law would interpret this as a violation of the primary precept to preserve innocent life, as the patient’s autonomy and wishes are disregarded. This corresponds to: It is a violation of the primary precept."
+    },
+    {
+      "question": "What is a key feature of Natural Law that complicates its application to euthanasia?",
+      "options": [
+        "It is entirely flexible",
+        "It is based on subjective reasoning",
+        "It insists on a common approach to all situations",
+        "It allows for personal interpretation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural Law's insistence on a common approach can complicate its application, as individual circumstances may vary significantly. This corresponds to: It insists on a common approach to all situations."
+    },
+    {
+      "question": "Which of the following best describes the relationship between Divine Law and Natural Law in the context of euthanasia?",
+      "options": [
+        "Natural Law is superior to Divine Law",
+        "Natural Law contradicts Divine Law",
+        "Natural Law is dependent on Divine Law",
+        "Divine Law is irrelevant to Natural Law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Natural Law is dependent on Divine Law, as it derives its moral principles from the divine guidance revealed by God, which opposes euthanasia"
+    },
+    {
+      "question": "In Natural Law, what is the significance of the term 'telos' in relation to euthanasia?",
+      "options": [
+        "It refers to the quality of life",
+        "It signifies the purpose of human existence",
+        "It is a justification for euthanasia",
+        "It is irrelevant to ethical considerations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Natural Law, 'telos' refers to the purpose of human existence, which emphasizes the intrinsic value of life and opposes euthanasia. This corresponds to: It signifies the purpose of human existence."
+    }
+  ]
+}

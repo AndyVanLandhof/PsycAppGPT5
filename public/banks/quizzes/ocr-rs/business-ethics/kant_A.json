@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:32:02.771Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "kant",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Kantian ethics, what is the primary duty of a business?",
+      "options": [
+        "To maximize profits",
+        "To treat persons as ends",
+        "To minimize costs",
+        "To follow market trends"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes the importance of treating individuals with respect and dignity, prioritizing moral duties over profit. This corresponds to: To treat persons as ends."
+    },
+    {
+      "question": "In the context of Kantian ethics, what does the categorical imperative require businesses to do?",
+      "options": [
+        "Focus solely on profit",
+        "Universalize their actions",
+        "Ignore employee rights",
+        "Prioritize shareholder interests"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The categorical imperative requires that actions be universalizable, meaning businesses should act in ways that could be applied universally. This corresponds to: Universalize their actions."
+    },
+    {
+      "question": "A company decides to pay its employees the minimum wage to maximize profits. How would a Kantian ethicist view this decision?",
+      "options": [
+        "It is morally acceptable",
+        "It violates the duty to treat persons as ends",
+        "It is a good business strategy",
+        "It aligns with corporate social responsibility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics would argue that paying minimum wage violates the duty to treat employees with respect and dignity. This corresponds to: It violates the duty to treat persons as ends."
+    },
+    {
+      "question": "Which of the following best describes a potential conflict in applying Kantian ethics to business?",
+      "options": [
+        "Profit maximization vs. employee welfare",
+        "Market competition vs. consumer rights",
+        "Globalization vs. local business",
+        "Innovation vs. tradition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kantian ethics may lead to conflicts between the duty to maximize profits and the duty to ensure employee welfare. This corresponds to: Profit maximization vs. employee welfare."
+    },
+    {
+      "question": "In Kant's shopkeeper example, what is the key reason for the shopkeeper to behave honestly?",
+      "options": [
+        "To attract more customers",
+        "To fulfill a moral duty",
+        "To increase profits",
+        "To comply with laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kant argues that the shopkeeper should act honestly out of a sense of duty, not for personal gain. This corresponds to: To fulfill a moral duty."
+    },
+    {
+      "question": "How does Kantian ethics view whistleblowing in a corporate context?",
+      "options": [
+        "As a betrayal of the company",
+        "As a moral obligation",
+        "As a legal requirement",
+        "As an unethical act"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics supports whistleblowing when it serves to uphold truth and ethical standards, reflecting a moral obligation. This corresponds to: As a moral obligation."
+    },
+    {
+      "question": "What is a criticism of Kantian ethics when applied to business practices?",
+      "options": [
+        "It is too flexible",
+        "It does not consider outcomes",
+        "It prioritizes profits",
+        "It is too simplistic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics is criticized for its deontological nature, as it does not take into account the consequences of actions. This corresponds to: It does not consider outcomes."
+    },
+    {
+      "question": "Which of the following statements aligns with Kantian ethics regarding corporate social responsibility?",
+      "options": [
+        "It is secondary to profit-making",
+        "It is essential for ethical business",
+        "It is irrelevant to business decisions",
+        "It is a form of hypocrisy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes that businesses have a moral duty to consider their impact on society and the environment. This corresponds to: It is essential for ethical business."
+    },
+    {
+      "question": "In the film 'My Sister's Keeper', how does Kantian ethics apply to the situation of Anna being used for her sister's benefit?",
+      "options": [
+        "It supports the decision",
+        "It condemns the use of Anna as a means to an end",
+        "It is indifferent to the outcome",
+        "It prioritizes family loyalty"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics would condemn using Anna as a means to an end, as it violates the principle of treating persons as ends. This corresponds to: It condemns the use of Anna as a means to an end."
+    },
+    {
+      "question": "What is a key feature of Kantian ethics that complicates its application in business?",
+      "options": [
+        "Focus on profits",
+        "Emphasis on emotions",
+        "Absolutist approach",
+        "Flexibility in decision-making"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kantian ethics is absolutist, meaning it does not allow for flexibility based on specific business situations or outcomes. This corresponds to: Absolutist approach."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:17:32.627Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "types",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the definition of voluntary euthanasia?",
+      "options": [
+        "Euthanasia performed without consent",
+        "Euthanasia performed at the request of a mentally competent individual",
+        "Euthanasia performed by withholding treatment",
+        "Euthanasia performed in a persistent vegetative state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Voluntary euthanasia is defined as euthanasia carried out at the voluntary request of a mentally competent individual. This corresponds to: Euthanasia performed at the request of a mentally competent individual."
+    },
+    {
+      "question": "In the context of euthanasia, what distinguishes active euthanasia from passive euthanasia?",
+      "options": [
+        "Active euthanasia involves withholding treatment",
+        "Passive euthanasia involves direct action to cause death",
+        "Active euthanasia involves direct action to cause death",
+        "Passive euthanasia is always voluntary"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Active euthanasia is where something is done to directly cause the individual's death, while passive euthanasia involves withholding treatment. This corresponds to: Active euthanasia involves direct action to cause death."
+    },
+    {
+      "question": "A patient in a persistent vegetative state has previously expressed a wish for euthanasia. This scenario illustrates which type of euthanasia?",
+      "options": [
+        "Involuntary euthanasia",
+        "Non-voluntary euthanasia",
+        "Voluntary euthanasia",
+        "Active euthanasia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates non-voluntary euthanasia, as the patient cannot currently express consent but had previously indicated their wishes"
+    },
+    {
+      "question": "Which ethical principle is often cited by supporters of euthanasia regarding an individual's right to choose their death?",
+      "options": [
+        "Sanctity of life",
+        "Quality of life",
+        "Autonomy",
+        "Beneficence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Supporters of euthanasia appeal to the principle of autonomy, which emphasizes the individual's right to determine the time and manner of their own death"
+    },
+    {
+      "question": "What ethical concern is raised by opponents of euthanasia regarding the potential for coercion?",
+      "options": [
+        "Patients may not be mentally competent",
+        "Euthanasia may lead to a slippery slope",
+        "Doctors may act against patient wishes",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Opponents of euthanasia raise concerns about coercion, mental competency, and the potential for a slippery slope towards non-voluntary euthanasia. This corresponds to: All of the above."
+    },
+    {
+      "question": "Which of the following best describes the slippery slope argument in the context of euthanasia?",
+      "options": [
+        "Euthanasia will always be voluntary",
+        "Legalizing euthanasia will lead to broader acceptance of non-voluntary euthanasia",
+        "Euthanasia is always a loving act",
+        "There is no evidence supporting the slippery slope argument"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slippery slope argument suggests that legalizing euthanasia could lead to the acceptance of non-voluntary euthanasia, raising ethical concerns. This corresponds to: Legalizing euthanasia will lead to broader acceptance of non-voluntary euthanasia."
+    },
+    {
+      "question": "In the Netherlands, what significant legal change regarding euthanasia occurred in 2002?",
+      "options": [
+        "Euthanasia was banned",
+        "Voluntary euthanasia was legalized under specific guidelines",
+        "Only passive euthanasia was allowed",
+        "Euthanasia was made mandatory for terminal patients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 2002, the Dutch parliament legalized voluntary euthanasia, provided that doctors comply with certain guidelines. This corresponds to: Voluntary euthanasia was legalized under specific guidelines."
+    },
+    {
+      "question": "What is a key ethical issue associated with non-voluntary euthanasia?",
+      "options": [
+        "It always respects patient autonomy",
+        "It involves patients who are mentally competent",
+        "It raises questions about consent and representation",
+        "It is universally accepted by all medical professionals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Non-voluntary euthanasia raises significant ethical issues regarding consent and whether the patient's interests are adequately represented. This corresponds to: It raises questions about consent and representation."
+    },
+    {
+      "question": "What is the primary distinction between active and passive euthanasia?",
+      "options": [
+        "Active euthanasia is legal everywhere",
+        "Passive euthanasia involves direct action to end life",
+        "Active euthanasia involves direct action to cause death, while passive involves withholding treatment",
+        "There is no distinction between the two"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary distinction is that active euthanasia involves direct action to cause death, whereas passive euthanasia involves withholding treatment. This corresponds to: Active euthanasia involves direct action to cause death, while passive involves withholding treatment."
+    },
+    {
+      "question": "What ethical principle is often cited by those who argue against euthanasia based on religious beliefs?",
+      "options": [
+        "Quality of life",
+        "Autonomy",
+        "Sanctity of life",
+        "Beneficence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sanctity of life is a key principle cited by opponents of euthanasia, emphasizing that life is sacred and should not be intentionally ended"
+    }
+  ]
+}

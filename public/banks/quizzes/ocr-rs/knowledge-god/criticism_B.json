@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:50:22.534Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "criticism",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Boethius, how does God's knowledge differ from human knowledge?",
+      "options": [
+        "God's knowledge is based on time",
+        "God's knowledge is limited",
+        "God's knowledge is timeless and sees all events as a simultaneous present",
+        "God's knowledge is subjective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Boethius argues that God's knowledge is timeless and views all of time at once, unlike human knowledge which is confined to a temporal sequence. This corresponds to: God's knowledge is timeless and sees all events as a simultaneous present."
+    },
+    {
+      "question": "What is the concept of conditional necessity in Boethius' view of God's knowledge?",
+      "options": [
+        "God knows everything by simple necessity",
+        "God knows future events based on human choices",
+        "God's knowledge is limited to the present",
+        "God's knowledge is based on historical events"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conditional necessity refers to God's knowledge of events that depend on human choices, meaning God knows what will happen because of the choices made. This corresponds to: God knows future events based on human choices."
+    },
+    {
+      "question": "In the context of critiques of knowledge claims, what does Kenny argue about Boethius' view of God's knowledge?",
+      "options": [
+        "It is coherent and logical",
+        "It is incoherent for God to know everything as a simultaneous present",
+        "It supports the idea of free will",
+        "It aligns with scientific understanding of time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kenny critiques Boethius by stating that the idea of God knowing everything in a simultaneous present is incoherent. This corresponds to: It is incoherent for God to know everything as a simultaneous present."
+    },
+    {
+      "question": "What does the term 'historical consciousness' refer to in the critique of religious knowledge claims?",
+      "options": [
+        "The awareness of the historical relativity of all knowledge and beliefs",
+        "The belief in the superiority of one religion over others",
+        "The acceptance of all religious claims as equally valid",
+        "The rejection of empirical evidence in religious discourse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Historical consciousness emphasizes the understanding that all knowledge and religious beliefs are shaped by their historical and cultural contexts. This corresponds to: The awareness of the historical relativity of all knowledge and beliefs."
+    },
+    {
+      "question": "According to John Hick, what is necessary for a religion to claim superiority over others?",
+      "options": [
+        "Historical evidence",
+        "Empirical or experiential data",
+        "Divine revelation",
+        "Cultural acceptance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that any claims of superiority must be based on empirical or experiential data that can be evaluated by all"
+    },
+    {
+      "question": "What is a key methodological issue raised in the critique of Boethius' view of God's knowledge?",
+      "options": [
+        "It relies too heavily on empirical evidence",
+        "It does not account for human free will",
+        "It assumes a linear understanding of time",
+        "It lacks a personal relationship with God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A significant critique is that Boethius' view does not adequately address the implications of human free will in relation to God's omniscience. This corresponds to: It does not account for human free will."
+    },
+    {
+      "question": "What does the term 'omnipotence' imply about God's nature in relation to knowledge?",
+      "options": [
+        "God can only know what is logically possible",
+        "God's knowledge is limited by human understanding",
+        "God's power is independent of His knowledge",
+        "God's knowledge includes all possible outcomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Omnipotence implies that God can do anything that is logically possible, which includes knowing all that is logically possible to know. This corresponds to: God can only know what is logically possible."
+    },
+    {
+      "question": "How does Schleiermacher's view of God's knowledge relate to human freedom?",
+      "options": [
+        "God's knowledge restricts human freedom",
+        "God's knowledge is irrelevant to human choices",
+        "God knows us well enough to predict our actions, yet we remain free",
+        "God's knowledge eliminates the need for human decision-making"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Schleiermacher suggests that while God knows us intimately and can predict our actions, this does not negate our freedom to choose differently. This corresponds to: God knows us well enough to predict our actions, yet we remain free."
+    },
+    {
+      "question": "What is the significance of the 'I-thou' relationship in understanding religious experience according to Martin Buber?",
+      "options": [
+        "It emphasizes the objective nature of religious knowledge",
+        "It highlights a personal encounter with God",
+        "It suggests that religious experience is purely subjective",
+        "It denies the existence of God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Buber's 'I-thou' relationship illustrates a direct, personal encounter with God, contrasting with an impersonal 'I-it' relationship. This corresponds to: It highlights a personal encounter with God."
+    },
+    {
+      "question": "What is a potential limitation of using natural theology to understand God, as suggested in the materials?",
+      "options": [
+        "It relies solely on empirical evidence",
+        "It cannot explain complex doctrines like the Trinity",
+        "It assumes all knowledge is subjective",
+        "It is universally accepted across all religions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural theology may fall short in explaining complex Christian doctrines such as the Trinity, which require revealed theology for full understanding. This corresponds to: It cannot explain complex doctrines like the Trinity."
+    }
+  ]
+}

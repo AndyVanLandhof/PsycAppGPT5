@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:17:49.023Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "types",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the definition of voluntary euthanasia?",
+      "options": [
+        "Euthanasia performed without consent",
+        "Euthanasia performed at the request of a mentally competent individual",
+        "Euthanasia performed by a physician only",
+        "Euthanasia performed in a persistent vegetative state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Voluntary euthanasia is defined as euthanasia carried out at the voluntary request of a mentally competent individual. This corresponds to: Euthanasia performed at the request of a mentally competent individual."
+    },
+    {
+      "question": "In which country was voluntary euthanasia legalized in 2002?",
+      "options": [
+        "Belgium",
+        "Netherlands",
+        "Luxembourg",
+        "Switzerland"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Netherlands legalized voluntary euthanasia in 2002, becoming the first country to do so"
+    },
+    {
+      "question": "What distinguishes active euthanasia from passive euthanasia?",
+      "options": [
+        "Active involves withholding treatment, passive involves direct action",
+        "Active involves direct action to cause death, passive involves withholding treatment",
+        "Active is legal, passive is illegal",
+        "Active requires patient consent, passive does not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Active euthanasia involves direct action to cause death, while passive euthanasia involves withholding treatment that indirectly causes death. This corresponds to: Active involves direct action to cause death, passive involves withholding treatment."
+    },
+    {
+      "question": "A patient in a persistent vegetative state has previously expressed a wish for euthanasia. This scenario illustrates which type of euthanasia?",
+      "options": [
+        "Voluntary euthanasia",
+        "Non-voluntary euthanasia",
+        "Active euthanasia",
+        "Passive euthanasia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This scenario illustrates non-voluntary euthanasia, as the patient cannot currently consent but had previously expressed their wishes"
+    },
+    {
+      "question": "What ethical concern is raised by the slippery slope argument regarding euthanasia?",
+      "options": [
+        "It suggests that euthanasia will always be beneficial",
+        "It implies that allowing euthanasia may lead to broader acceptance of non-voluntary euthanasia",
+        "It argues that euthanasia is always morally wrong",
+        "It states that euthanasia is only acceptable in terminal cases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The slippery slope argument suggests that permitting voluntary euthanasia may lead to the acceptance of non-voluntary euthanasia. This corresponds to: It implies that allowing euthanasia may lead to broader acceptance of non-voluntary euthanasia."
+    },
+    {
+      "question": "Which ethical principle is often cited by supporters of euthanasia to justify their stance?",
+      "options": [
+        "Sanctity of life",
+        "Quality of life",
+        "Divine command theory",
+        "Natural law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Supporters of euthanasia often appeal to the principle of quality of life, arguing that life must possess certain attributes to have value"
+    },
+    {
+      "question": "What is a potential methodological issue with assessing the effectiveness of euthanasia laws?",
+      "options": [
+        "Lack of empirical data",
+        "Over-reliance on anecdotal evidence",
+        "Difficulty in measuring patient autonomy",
+        "Confusion between active and passive euthanasia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A potential methodological issue is the lack of empirical data on the long-term effects of euthanasia laws, making it difficult to assess their effectiveness"
+    },
+    {
+      "question": "In the context of euthanasia, what does the term 'autonomy' refer to?",
+      "options": [
+        "The right to life",
+        "The ability to make one's own decisions regarding death",
+        "The obligation of doctors to preserve life",
+        "The moral implications of killing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Autonomy refers to the ability of individuals to make their own decisions regarding their lives and deaths, particularly in cases of voluntary euthanasia. This corresponds to: The ability to make one's own decisions regarding death."
+    },
+    {
+      "question": "What is a key difference between voluntary and non-voluntary euthanasia?",
+      "options": [
+        "Voluntary requires consent, non-voluntary does not",
+        "Voluntary is always legal, non-voluntary is illegal",
+        "Voluntary is performed by physicians, non-voluntary is not",
+        "Voluntary is less controversial than non-voluntary"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The key difference is that voluntary euthanasia requires the consent of the individual, while non-voluntary euthanasia does not. This corresponds to: Voluntary requires consent, non-voluntary does not."
+    },
+    {
+      "question": "What ethical dilemma does the Hippocratic Oath present in the context of euthanasia?",
+      "options": [
+        "It promotes euthanasia",
+        "It emphasizes the duty to preserve life",
+        "It allows for patient autonomy",
+        "It supports passive euthanasia only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Hippocratic Oath emphasizes the duty of doctors to preserve life, which presents a dilemma when considering euthanasia. This corresponds to: It emphasizes the duty to preserve life."
+    }
+  ]
+}

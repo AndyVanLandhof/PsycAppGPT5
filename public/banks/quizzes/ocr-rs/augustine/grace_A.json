@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:34:53.061Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "grace",
+  "set": "A",
+  "questions": [
+    {
+      "question": "According to Augustine, what is the primary means by which salvation is achieved?",
+      "options": [
+        "Human effort",
+        "God's grace",
+        "Moral law",
+        "Community support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argued that salvation is only possible because of God's grace, which is unprompted but freely given"
+    },
+    {
+      "question": "In Augustine's view, what condition does original sin create in human beings?",
+      "options": [
+        "Complete freedom of choice",
+        "A lack of moral guidance",
+        "A divided will",
+        "Inherent goodness"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine believed that original sin causes a divided will, leading to conflict between selfish desires and spiritual inclinations"
+    },
+    {
+      "question": "Pelagius disagreed with Augustine on which key point regarding human morality?",
+      "options": [
+        "Humans are inherently sinful",
+        "Grace is necessary for salvation",
+        "Humans can live morally without divine assistance",
+        "Original sin affects all humans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pelagius argued that while Adam set a poor example, humans could still live morally without the need for divine grace. This corresponds to: Humans can live morally without divine assistance."
+    },
+    {
+      "question": "If a person believes they can achieve salvation solely through their own efforts, which theological perspective are they likely aligning with?",
+      "options": [
+        "Augustinian",
+        "Pelagian",
+        "Calvinist",
+        "Lutheran"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A belief in achieving salvation through one's own efforts aligns with Pelagianism, which emphasizes human ability to choose good"
+    },
+    {
+      "question": "In Augustine's theology, what does the term 'elect' refer to?",
+      "options": [
+        "Those who are predestined for Hell",
+        "Those who can achieve moral perfection",
+        "Those chosen by God for salvation",
+        "Those who have received grace"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine taught that the 'elect' are those whom God has chosen for salvation, while others are predestined for perdition. This corresponds to: Those chosen by God for salvation."
+    },
+    {
+      "question": "A study finds that individuals who believe in divine grace report higher levels of moral behavior. Which aspect of Augustine's teachings does this support?",
+      "options": [
+        "The necessity of grace for salvation",
+        "The impact of original sin",
+        "The role of community in moral development",
+        "The importance of free will"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This finding supports Augustine's view that God's grace is essential for salvation and moral behavior. This corresponds to: The necessity of grace for salvation."
+    },
+    {
+      "question": "What is a potential criticism of Augustine's view on grace and salvation?",
+      "options": [
+        "It overemphasizes human effort",
+        "It lacks empirical support",
+        "It may lead to fatalism",
+        "It ignores the role of community"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critics argue that Augustine's emphasis on predestination and grace may lead to fatalism, where individuals feel powerless to change their fate. This corresponds to: It may lead to fatalism."
+    },
+    {
+      "question": "According to Augustine, what role does free will play in the pursuit of the good?",
+      "options": [
+        "It is irrelevant",
+        "It allows for moral choices",
+        "It is limited by original sin",
+        "It guarantees salvation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine suggested that free will allows humans to use reason to aspire to the good and live virtuously. This corresponds to: It allows for moral choices."
+    },
+    {
+      "question": "In Augustine's theology, how does the concept of 'cupiditas' relate to human behavior?",
+      "options": [
+        "It represents divine love",
+        "It signifies selfless acts",
+        "It embodies selfish desire",
+        "It indicates moral perfection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Augustine described 'cupiditas' as selfish desire that has won over 'caritas', leading to moral conflict within the human soul. This corresponds to: It embodies selfish desire."
+    },
+    {
+      "question": "How does Augustine's view on grace differ from Pelagius's perspective?",
+      "options": [
+        "Augustine sees grace as necessary for salvation",
+        "Pelagius believes in original sin",
+        "Augustine denies the importance of free will",
+        "Pelagius emphasizes divine grace"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine argues that grace is necessary for salvation, while Pelagius believes humans can achieve moral living through their own efforts. This corresponds to: Augustine sees grace as necessary for salvation."
+    }
+  ]
+}

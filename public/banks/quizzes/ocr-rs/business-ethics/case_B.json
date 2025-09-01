@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:33:43.562Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "case",
+  "set": "B",
+  "questions": [
+    {
+      "question": "In Fletcher's case study of Mrs. Bergmeier (1962), what ethical decision was made regarding abortion?",
+      "options": [
+        "It was deemed acceptable due to the circumstances",
+        "It was considered illegal regardless of the situation",
+        "It was supported by the hospital staff",
+        "It was rejected by the father"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fletcher argues that a situationist approach would support abortion in this case as the most loving thing. This corresponds to: It was deemed acceptable due to the circumstances."
+    },
+    {
+      "question": "What dilemma did President Harry Truman face regarding the use of atomic bombs in 1945?",
+      "options": [
+        "Whether to demonstrate the bomb on an uninhabited island",
+        "Whether to continue the war without using the bomb",
+        "Whether to negotiate peace with Japan",
+        "Whether to inform the public about the bomb"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Truman's advisers were split on using the bomb, with some suggesting a demonstration to avoid loss of life. This corresponds to: Whether to demonstrate the bomb on an uninhabited island."
+    },
+    {
+      "question": "What is a key criticism of Freud's view on conscience?",
+      "options": [
+        "It is based on empirical evidence",
+        "It cannot be falsified",
+        "It aligns with moral values across cultures",
+        "It is universally accepted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Karl Popper criticized Freud's work, stating that it lacks the ability to be scientifically tested or falsified. This corresponds to: It cannot be falsified."
+    },
+    {
+      "question": "In the context of business ethics, what does the term 'double effect' refer to?",
+      "options": [
+        "The ability to make two ethical decisions simultaneously",
+        "The justification of actions that have both good and bad outcomes",
+        "The separation of personal and professional ethics",
+        "The conflict between profit and ethical considerations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Double effect allows for consequential thinking in situations where duties clash or competing goods cannot both be achieved. This corresponds to: The justification of actions that have both good and bad outcomes."
+    },
+    {
+      "question": "What ethical issue arose from the use of condoms in the context of double effect?",
+      "options": [
+        "Their use is universally accepted",
+        "They are seen as a violation of natural law",
+        "They can save lives in the context of HIV",
+        "They are endorsed by all religious groups"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The use of condoms to prevent the spread of HIV has been controversial within the Roman Catholic Church. This corresponds to: They can save lives in the context of HIV."
+    },
+    {
+      "question": "What does Richard Dawkins argue regarding the role of science in understanding morality?",
+      "options": [
+        "Science can provide all moral answers",
+        "Science cannot address moral questions",
+        "Science is an illusion",
+        "Science is essential for understanding conscience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dawkins suggests that while science is important, it cannot provide meaning or moral guidance. This corresponds to: Science cannot address moral questions."
+    },
+    {
+      "question": "What is a potential issue with the application of situation ethics in controversial cases?",
+      "options": [
+        "It is too rigid and does not allow for flexibility",
+        "It may lead to subjective interpretations of love",
+        "It is universally accepted across cultures",
+        "It relies heavily on legal frameworks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Situation ethics can lead to subjective interpretations, which may vary significantly between individuals. This corresponds to: It may lead to subjective interpretations of love."
+    },
+    {
+      "question": "How does Rosemary Ruether's essay contribute to the understanding of Christianity's approach to ethics?",
+      "options": [
+        "It argues for the superiority of Christianity over other religions",
+        "It highlights the inclusivity of Christianity towards women",
+        "It connects attitudes towards outsiders with internal church dynamics",
+        "It dismisses the relevance of other religions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ruether shows the parallel between Christianity's attitudes towards outsiders and its treatment of women within the church. This corresponds to: It connects attitudes towards outsiders with internal church dynamics."
+    },
+    {
+      "question": "What does Freud's view suggest about the origins of moral values?",
+      "options": [
+        "They are innate and universal",
+        "They are shaped by upbringing and psychological development",
+        "They are dictated by religious teachings",
+        "They are consistent across cultures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud posits that conscience and moral values stem from upbringing and psychological factors rather than being innate. This corresponds to: They are shaped by upbringing and psychological development."
+    },
+    {
+      "question": "What is a limitation of using case studies in ethical decision-making, as seen in Fletcher's work?",
+      "options": [
+        "They provide a comprehensive view of all ethical dilemmas",
+        "They may not represent broader societal norms",
+        "They are always scientifically validated",
+        "They eliminate the need for theoretical frameworks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Case studies may not capture the complexity of ethical dilemmas faced by society at large. This corresponds to: They may not represent broader societal norms."
+    }
+  ]
+}

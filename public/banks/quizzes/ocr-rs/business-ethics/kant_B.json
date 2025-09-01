@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:32:20.362Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "kant",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Kantian ethics, what is the primary duty of a business?",
+      "options": [
+        "To maximize profits",
+        "To treat persons as ends",
+        "To minimize costs",
+        "To expand globally"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes that businesses have a duty to treat individuals with respect and dignity, prioritizing rights over profits. This corresponds to: To treat persons as ends."
+    },
+    {
+      "question": "In the context of Kantian ethics, what is a categorical imperative?",
+      "options": [
+        "A command based on desired outcomes",
+        "A universal moral law",
+        "A guideline for profit maximization",
+        "A subjective moral opinion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A categorical imperative is a command that must be followed regardless of personal desires or consequences, forming the basis of moral duties in Kantian ethics. This corresponds to: A universal moral law."
+    },
+    {
+      "question": "A business owner decides to pay employees the minimum wage to increase profits. How would Kantian ethics evaluate this decision?",
+      "options": [
+        "It is acceptable if profits increase",
+        "It is morally wrong as it disrespects employees",
+        "It is a good business strategy",
+        "It is irrelevant to ethical considerations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics would argue that this decision is morally wrong as it treats employees merely as means to an end, violating their dignity. This corresponds to: It is morally wrong as it disrespects employees."
+    },
+    {
+      "question": "What does Kantian ethics suggest about whistle-blowing in a business context?",
+      "options": [
+        "It should be avoided to protect company interests",
+        "It is a moral duty if wrongdoing is observed",
+        "It is only acceptable if it benefits the whistle-blower",
+        "It is irrelevant to business ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics supports whistle-blowing as a moral duty to disclose wrongdoing, emphasizing the importance of truth and ethical responsibility. This corresponds to: It is a moral duty if wrongdoing is observed."
+    },
+    {
+      "question": "Which of the following best describes the relationship between Kantian ethics and corporate social responsibility?",
+      "options": [
+        "Kantian ethics dismisses corporate social responsibility",
+        "Kantian ethics supports corporate social responsibility as a moral duty",
+        "Kantian ethics is indifferent to corporate social responsibility",
+        "Kantian ethics sees corporate social responsibility as a profit strategy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics aligns with corporate social responsibility by emphasizing the moral obligation of businesses to consider the rights and dignity of all stakeholders. This corresponds to: Kantian ethics supports corporate social responsibility as a moral duty."
+    },
+    {
+      "question": "How does Kantian ethics view the motive behind business actions?",
+      "options": [
+        "Motive is irrelevant as long as profits are made",
+        "Motive is crucial and should be based on duty",
+        "Motive should focus on customer satisfaction",
+        "Motive is secondary to market competition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics asserts that the motive behind actions should be rooted in duty and moral obligation, rather than profit or personal gain. This corresponds to: Motive is crucial and should be based on duty."
+    },
+    {
+      "question": "In a scenario where a shopkeeper is honest only because it benefits his business, how would Kantian ethics evaluate his actions?",
+      "options": [
+        "His actions are morally acceptable",
+        "His actions are morally wrong due to improper motive",
+        "His actions are commendable",
+        "His actions are irrelevant to ethics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics would deem his actions morally wrong because they are motivated by self-interest rather than a genuine sense of duty. This corresponds to: His actions are morally wrong due to improper motive."
+    },
+    {
+      "question": "What is a potential limitation of applying Kantian ethics to business decisions?",
+      "options": [
+        "It allows for flexibility in decision-making",
+        "It can lead to conflicting duties among stakeholders",
+        "It prioritizes profits over ethical considerations",
+        "It simplifies moral decision-making"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A limitation of Kantian ethics is that it may result in conflicting duties, as businesses often face complex situations that require balancing various stakeholder interests. This corresponds to: It can lead to conflicting duties among stakeholders."
+    },
+    {
+      "question": "Which of the following statements reflects a key aspect of Kantian ethics in business?",
+      "options": [
+        "Profit maximization is the ultimate goal",
+        "Honesty is a duty regardless of outcomes",
+        "Emotions should guide business decisions",
+        "Business decisions should prioritize competition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics emphasizes that honesty is a moral duty that must be upheld, irrespective of the potential financial consequences. This corresponds to: Honesty is a duty regardless of outcomes."
+    },
+    {
+      "question": "According to Kantian ethics, how should businesses treat their employees?",
+      "options": [
+        "As means to an end",
+        "With respect and dignity",
+        "As disposable resources",
+        "Only when it benefits the business"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics advocates for treating employees with respect and dignity, recognizing their inherent worth as individuals"
+    }
+  ]
+}

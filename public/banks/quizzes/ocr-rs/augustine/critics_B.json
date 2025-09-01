@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:37:45.664Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "critics",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following is a criticism of Augustine's teachings regarding original sin?",
+      "options": [
+        "A. It is based on outdated science.",
+        "B. It ignores the role of free will.",
+        "C. It is too focused on the physical body.",
+        "D. It lacks historical context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Augustine's concept of original sin undermines the importance of human free will in moral decision-making. This corresponds to: B. It ignores the role of free will.."
+    },
+    {
+      "question": "In what way does modern science challenge Augustine's view of human nature?",
+      "options": [
+        "A. By supporting the idea of original sin.",
+        "B. By suggesting humans are purely biological.",
+        "C. By emphasizing the spiritual aspect of humanity.",
+        "D. By validating the existence of a soul."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern scientific perspectives often emphasize biological determinism, which contradicts Augustine's spiritual and moral framework. This corresponds to: B. By suggesting humans are purely biological.."
+    },
+    {
+      "question": "Which philosopher is known for critiquing Augustine's views on evil as a privation of good?",
+      "options": [
+        "A. Kant",
+        "B. Hume",
+        "C. Descartes",
+        "D. Leibniz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume criticized Augustine's notion of evil by arguing that it does not adequately explain the existence of suffering in the world. This corresponds to: B. Hume."
+    },
+    {
+      "question": "How does the concept of evolution pose a challenge to Augustine's teachings?",
+      "options": [
+        "A. It supports the idea of a benevolent creator.",
+        "B. It suggests that morality is socially constructed.",
+        "C. It implies that humans are not inherently sinful.",
+        "D. It validates the existence of original sin."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Evolutionary theory suggests that human behaviors can be explained through natural selection, challenging the idea of inherent sinfulness. This corresponds to: C. It implies that humans are not inherently sinful.."
+    },
+    {
+      "question": "What is a methodological issue in Augustine's argument about the nature of evil?",
+      "options": [
+        "A. It relies on empirical evidence.",
+        "B. It is based on subjective interpretations.",
+        "C. It uses logical reasoning exclusively.",
+        "D. It lacks historical context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine's argument is often criticized for being based on subjective interpretations of good and evil rather than empirical evidence. This corresponds to: B. It is based on subjective interpretations.."
+    },
+    {
+      "question": "Which modern philosopher's views align with the criticism that Augustine's teachings are too deterministic?",
+      "options": [
+        "A. Swinburne",
+        "B. Dawkins",
+        "C. Kant",
+        "D. Hume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dawkins argues against deterministic views of human behavior, suggesting that they undermine the complexity of human nature. This corresponds to: B. Dawkins."
+    },
+    {
+      "question": "What aspect of Augustine's teachings does the anthropic principle challenge?",
+      "options": [
+        "A. The existence of God.",
+        "B. The nature of evil.",
+        "C. The concept of original sin.",
+        "D. The role of free will."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The anthropic principle suggests that the universe's conditions are fine-tuned for human life, challenging Augustine's view of a flawed creation. This corresponds to: A. The existence of God.."
+    },
+    {
+      "question": "Which of the following is a common critique of Augustine's view on divine grace?",
+      "options": [
+        "A. It is too lenient on human sin.",
+        "B. It does not account for human agency.",
+        "C. It is overly reliant on scripture.",
+        "D. It lacks philosophical depth."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Augustine's emphasis on divine grace diminishes the importance of human agency in moral choices. This corresponds to: B. It does not account for human agency.."
+    },
+    {
+      "question": "How does the concept of a 'blind watchmaker' relate to criticisms of Augustine's teachings?",
+      "options": [
+        "A. It supports the idea of a benevolent designer.",
+        "B. It suggests randomness in evolution.",
+        "C. It validates the existence of original sin.",
+        "D. It emphasizes the need for divine intervention."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'blind watchmaker' concept implies that evolution operates without purpose, challenging Augustine's view of a purposeful creation. This corresponds to: B. It suggests randomness in evolution.."
+    },
+    {
+      "question": "What is a significant philosophical challenge to Augustine's view of God as timeless?",
+      "options": [
+        "A. It contradicts the idea of a personal God.",
+        "B. It supports the notion of divine intervention.",
+        "C. It validates the existence of original sin.",
+        "D. It emphasizes the importance of free will."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that a timeless God cannot engage in personal relationships or respond to human actions, which challenges Augustine's portrayal of God. This corresponds to: A. It contradicts the idea of a personal God.."
+    }
+  ]
+}

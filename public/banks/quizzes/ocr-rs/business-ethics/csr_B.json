@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:31:42.136Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "csr",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Milton Friedman (1970), what is the primary responsibility of a business?",
+      "options": [
+        "To benefit the community",
+        "To increase its profits",
+        "To ensure employee welfare",
+        "To promote environmental sustainability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friedman argues that the social responsibility of business is to increase its profits, suggesting that businesses cannot have responsibilities like individuals"
+    },
+    {
+      "question": "What is corporate social responsibility (CSR) primarily concerned with?",
+      "options": [
+        "Maximizing shareholder profits",
+        "Meeting legal obligations",
+        "Wider responsibilities to the community and environment",
+        "Reducing operational costs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "CSR involves the idea that businesses have responsibilities beyond just making profits, including ethical obligations to the community and environment. This corresponds to: Wider responsibilities to the community and environment."
+    },
+    {
+      "question": "A company decides to invest in employee wellness programs and community projects. This is an example of which concept?",
+      "options": [
+        "Whistleblowing",
+        "Corporate social responsibility",
+        "Utilitarianism",
+        "Monetarism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Investing in employee wellness and community projects exemplifies corporate social responsibility, as it reflects a commitment to stakeholders beyond profit-making"
+    },
+    {
+      "question": "Which of the following best describes the FTSE4Good index?",
+      "options": [
+        "A measure of corporate profitability",
+        "A rating system for corporate social responsibility",
+        "A government regulation on business practices",
+        "A framework for employee rights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The FTSE4Good index is designed to measure the extent to which companies display corporate social responsibility through an ESG rating. This corresponds to: A rating system for corporate social responsibility."
+    },
+    {
+      "question": "In the context of business ethics, what does the term 'stakeholder' refer to?",
+      "options": [
+        "Only shareholders of a company",
+        "Any individual or group affected by the business",
+        "Government regulators",
+        "Competitors in the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A stakeholder is defined as an individual or group that either benefits from or is harmed by the corporation, encompassing a broader range than just shareholders. This corresponds to: Any individual or group affected by the business."
+    },
+    {
+      "question": "If a business prioritizes profit over ethical considerations, which ethical theory might it be aligning with?",
+      "options": [
+        "Kantian ethics",
+        "Utilitarianism",
+        "Corporate social responsibility",
+        "Whistleblowing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism allows businesses to act freely in pursuit of profit, potentially at the expense of ethical considerations, as it focuses on the greatest good for the greatest number"
+    },
+    {
+      "question": "What is a potential criticism of corporate social responsibility as suggested by Friedman?",
+      "options": [
+        "It distracts from the core purpose of making money",
+        "It is beneficial for all stakeholders",
+        "It promotes employee engagement",
+        "It enhances brand reputation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Friedman argues that suggesting businesses should have responsibilities distracts them from their primary goal of profit-making, potentially leading to inefficiency. This corresponds to: It distracts from the core purpose of making money."
+    },
+    {
+      "question": "Which ethical framework emphasizes duties and rights over profit maximization in business?",
+      "options": [
+        "Utilitarianism",
+        "Kantian ethics",
+        "Monetarism",
+        "Corporate social responsibility"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian ethics focuses on the importance of rights and duties, valuing ethical considerations over the pursuit of profit"
+    },
+    {
+      "question": "Whistleblowing involves which of the following actions?",
+      "options": [
+        "Disclosing unethical practices to the public",
+        "Maximizing shareholder profits",
+        "Implementing corporate social responsibility",
+        "Conducting market research"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Whistleblowing is defined as the act of disclosing unethical or illegal business practices to the employer or the public. This corresponds to: Disclosing unethical practices to the public."
+    },
+    {
+      "question": "How might globalisation impact corporate social responsibility?",
+      "options": [
+        "It eliminates the need for ethical considerations",
+        "It encourages businesses to focus solely on local markets",
+        "It integrates economies and cultures, influencing ethical practices",
+        "It reduces competition among businesses"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Globalisation integrates economies and cultures, which can influence how businesses approach corporate social responsibility and ethical practices across different regions. This corresponds to: It integrates economies and cultures, influencing ethical practices."
+    }
+  ]
+}

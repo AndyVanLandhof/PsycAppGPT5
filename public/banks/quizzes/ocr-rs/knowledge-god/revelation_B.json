@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:48:23.604Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "revelation",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which of the following best describes the primary difference between natural theology and revealed theology?",
+      "options": [
+        "Natural theology relies solely on human reason, while revealed theology is based on divine revelation.",
+        "Natural theology is based on the Bible, while revealed theology is based on human experience.",
+        "Natural theology is subjective, while revealed theology is objective.",
+        "Natural theology is only for Christians, while revealed theology is universal."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Natural theology relies on human observation and reasoning to understand God, while revealed theology is based on what God has disclosed to humanity. This corresponds to: Natural theology relies solely on human reason, while revealed theology is based on divine revelation.."
+    },
+    {
+      "question": "According to Calvin, how does faith relate to knowledge of God?",
+      "options": [
+        "Faith is a rational process that leads to knowledge.",
+        "Faith is a spiritual acceptance of Jesus as the Redeemer.",
+        "Faith is unnecessary if one uses reason.",
+        "Faith contradicts the principles of natural theology."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calvin emphasized that true faith comes through spiritual acceptance of Jesus, which leads to a deeper understanding of God. This corresponds to: Faith is a spiritual acceptance of Jesus as the Redeemer.."
+    },
+    {
+      "question": "In the context of revealed theology, what is a significant limitation mentioned regarding how humans interpret revelation?",
+      "options": [
+        "Revelation is always clear and unambiguous.",
+        "Revelation assumes Christianity is the only valid interpretation.",
+        "Revelation can only be understood through scientific reasoning.",
+        "Revelation is universally accepted by all religions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Revealed theology suggests that God reveals himself in specific circumstances, which can lead to biases in interpretation. This corresponds to: Revelation assumes Christianity is the only valid interpretation.."
+    },
+    {
+      "question": "What does Process Theology propose about God's relationship with the natural world?",
+      "options": [
+        "God is separate from natural processes.",
+        "God works with natural processes rather than controlling them.",
+        "God does not interact with the universe at all.",
+        "God's existence is irrelevant to natural processes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Process Theology posits that God works in conjunction with natural processes, emphasizing a dynamic relationship with creation. This corresponds to: God works with natural processes rather than controlling them.."
+    },
+    {
+      "question": "How does Alister McGrath view the role of natural theology in understanding God?",
+      "options": [
+        "Natural theology is outdated and irrelevant.",
+        "Natural theology should be rehabilitated as a framework for understanding reality.",
+        "Natural theology contradicts revealed theology.",
+        "Natural theology is only useful for scientific explanations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "McGrath argues for a rehabilitation of natural theology, suggesting it provides a framework that integrates both scientific and metaphysical understanding. This corresponds to: Natural theology should be rehabilitated as a framework for understanding reality.."
+    },
+    {
+      "question": "What is one criticism of the Teleological argument as presented by Hume?",
+      "options": [
+        "It relies too heavily on scientific evidence.",
+        "It assumes a benevolent designer without sufficient evidence.",
+        "It is universally accepted by all theologians.",
+        "It does not consider the role of faith in understanding God."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hume criticized the Teleological argument for assuming a benevolent designer based on the observation of nature, which may not reflect reality. This corresponds to: It assumes a benevolent designer without sufficient evidence.."
+    },
+    {
+      "question": "According to the materials, what is a key aspect of revealed theology?",
+      "options": [
+        "It relies solely on human reasoning.",
+        "It emphasizes the importance of human experience.",
+        "It includes both direct and indirect revelations from God.",
+        "It is only applicable to certain religious traditions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Revealed theology encompasses both direct revelations from God and indirect revelations through sources like the Bible. This corresponds to: It includes both direct and indirect revelations from God.."
+    },
+    {
+      "question": "What does Barth argue regarding the usefulness of reason in understanding God?",
+      "options": [
+        "Reason is essential for understanding God.",
+        "Reason can lead to misunderstandings about God.",
+        "Reason is irrelevant to faith.",
+        "Reason should be the only method of understanding God."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Barth contended that due to human limitations and the effects of the Fall, reason often leads to misunderstandings of God. This corresponds to: Reason can lead to misunderstandings about God.."
+    },
+    {
+      "question": "What is the significance of grace in the context of revealed theology?",
+      "options": [
+        "Grace is earned through good deeds.",
+        "Grace is God's unconditional gift that allows knowledge of Him.",
+        "Grace is irrelevant to understanding God.",
+        "Grace contradicts the need for faith."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grace is viewed as God's unconditional gift that enables individuals to have faith and knowledge of Him. This corresponds to: Grace is God's unconditional gift that allows knowledge of Him.."
+    },
+    {
+      "question": "How does the concept of the Fall impact the understanding of natural theology?",
+      "options": [
+        "It enhances the clarity of natural theology.",
+        "It suggests that humans can fully understand God through nature.",
+        "It limits human ability to recognize God's presence in nature.",
+        "It has no impact on natural theology."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Fall is seen as a barrier that limits human understanding and recognition of the divine in natural theology. This corresponds to: It limits human ability to recognize God's presence in nature.."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:34:32.258Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "original",
+  "set": "B",
+  "questions": [
+    {
+      "question": "According to Augustine, what is the primary means by which Original Sin is transmitted to all humans?",
+      "options": [
+        "Through baptism",
+        "Through sexual intercourse",
+        "Through moral choices",
+        "Through divine intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine taught that Original Sin is passed on through sexual intercourse, which he associated with lust"
+    },
+    {
+      "question": "What does Augustine mean by the term 'akrasia' in relation to the will post-Fall?",
+      "options": [
+        "The ability to choose good",
+        "The weakness of will",
+        "The strength of moral character",
+        "The state of original holiness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Akrasia refers to the paradox of choosing to act against one's best interests, illustrating the divided will after the Fall. This corresponds to: The weakness of will."
+    },
+    {
+      "question": "In Augustine's view, how does Original Sin affect human nature?",
+      "options": [
+        "It enhances moral goodness",
+        "It leads to a loss of free will",
+        "It allows for perfect virtue",
+        "It creates a harmonious society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine believed that Original Sin causes human selfishness and a lack of free will, leading to instability in societies. This corresponds to: It leads to a loss of free will."
+    },
+    {
+      "question": "If a child is born without baptism, according to Augustine, what is their status regarding Original Sin?",
+      "options": [
+        "They are free from sin",
+        "They are condemned due to Original Sin",
+        "They are morally neutral",
+        "They are guaranteed salvation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine argued that unbaptised babies share in the collective alienation caused by Original Sin and are therefore condemned. This corresponds to: They are condemned due to Original Sin."
+    },
+    {
+      "question": "What is the significance of 'concupiscence' in Augustine's teachings?",
+      "options": [
+        "It represents the struggle for virtue",
+        "It is a form of divine grace",
+        "It illustrates the harmony of human relationships",
+        "It signifies the desire for sinful acts"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Concupiscence refers to the strong desire for sinful acts, which Augustine believed is a result of Original Sin. This corresponds to: It signifies the desire for sinful acts."
+    },
+    {
+      "question": "In the context of liberation theology, how does Augustine's view of Original Sin relate to social structures?",
+      "options": [
+        "It promotes individualism",
+        "It ignores social sin",
+        "It aligns with structural inequality",
+        "It emphasizes collective redemption"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Liberation theology critiques structural inequality, which resonates with Augustine's view of Original Sin as a collective human condition. This corresponds to: It aligns with structural inequality."
+    },
+    {
+      "question": "What methodological critique can be made regarding Augustine's view on Original Sin?",
+      "options": [
+        "It lacks empirical evidence",
+        "It is too optimistic about human nature",
+        "It overemphasizes individual responsibility",
+        "It ignores historical context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine's teachings on Original Sin are often criticized for lacking empirical evidence to support the transmission of sin through sexual intercourse. This corresponds to: It lacks empirical evidence."
+    },
+    {
+      "question": "How does Augustine's concept of Original Sin differ from Pelagius's view?",
+      "options": [
+        "Pelagius believed in the necessity of divine grace",
+        "Pelagius argued humans can choose to live morally",
+        "Pelagius accepted the idea of collective alienation",
+        "Pelagius emphasized the role of sexual desire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pelagius believed that humans could choose to live morally without the need for divine grace, contrasting with Augustine's view that grace is essential. This corresponds to: Pelagius argued humans can choose to live morally."
+    },
+    {
+      "question": "According to Augustine, what was the state of humanity before the Fall?",
+      "options": [
+        "Characterized by chaos and sin",
+        "In a state of perfection and friendship with God",
+        "Marked by individualism and greed",
+        "Dependent on divine intervention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine described the pre-Fall state as one of perfection, where Adam and Eve had a close friendship with God. This corresponds to: In a state of perfection and friendship with God."
+    },
+    {
+      "question": "What does Augustine mean by stating that Original Sin is 'contracted' rather than 'committed'?",
+      "options": [
+        "It is a personal choice",
+        "It is an inherited condition",
+        "It is a societal construct",
+        "It is a temporary state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Augustine viewed Original Sin as a state that is inherited from Adam, rather than an act that individuals commit themselves. This corresponds to: It is an inherited condition."
+    }
+  ]
+}

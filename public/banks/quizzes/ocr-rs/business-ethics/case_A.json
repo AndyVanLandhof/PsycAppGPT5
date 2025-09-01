@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:33:23.376Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "case",
+  "set": "A",
+  "questions": [
+    {
+      "question": "In the case study of Mrs. Bergmeier, what ethical approach does Fletcher argue would support abortion in cases of rape?",
+      "options": [
+        "Deontological ethics",
+        "Situation ethics",
+        "Virtue ethics",
+        "Natural law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fletcher argues that a situationist approach would support abortion as the most loving action in the case of Mrs. Bergmeier. This corresponds to: Situation ethics."
+    },
+    {
+      "question": "What dilemma did President Harry Truman face regarding the use of atomic bombs during World War II?",
+      "options": [
+        "To negotiate peace with Japan",
+        "To demonstrate the bomb on an uninhabited island",
+        "To decide on the use of atomic bombs",
+        "To support ground troops in Japan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Truman had to decide whether to use atomic bombs to end the war, weighing the potential loss of lives against the immediate end of conflict. This corresponds to: To decide on the use of atomic bombs."
+    },
+    {
+      "question": "Which ethical theory does the concept of double effect relate to in resolving moral dilemmas?",
+      "options": [
+        "Utilitarianism",
+        "Situation ethics",
+        "Natural law",
+        "Kantian ethics"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Double effect is a principle within natural law that allows for consequential thinking in situations where duties clash"
+    },
+    {
+      "question": "What is a significant criticism of Freud's view on conscience?",
+      "options": [
+        "It is based on empirical evidence",
+        "It assumes a naturalistic explanation",
+        "It is universally accepted",
+        "It can be easily falsified"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud's atheistic view assumes a natural explanation for guilt, which critics argue overlooks the possibility of a God-given instinct. This corresponds to: It assumes a naturalistic explanation."
+    },
+    {
+      "question": "According to Rosemary Ruether, what is a parallel issue in Christianity's attitude towards other religions and women?",
+      "options": [
+        "Both are treated with equal respect",
+        "Both are seen as needing male guidance",
+        "Both are excluded from leadership roles",
+        "Both are fully autonomous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ruether highlights that Christianity's inclusivist approach often paternalistically assumes women do not need independence or elevation in hierarchy. This corresponds to: Both are seen as needing male guidance."
+    },
+    {
+      "question": "What does Richard Dawkins argue about the role of science in understanding the universe?",
+      "options": [
+        "It is limited and cannot provide meaning",
+        "It is the only source of truth",
+        "It can explain all religious experiences",
+        "It is irrelevant to ethical discussions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dawkins argues that while science is not an illusion, it cannot provide meaning in the way that religion claims to do. This corresponds to: It is limited and cannot provide meaning."
+    },
+    {
+      "question": "What ethical concern arises from the use of condoms in the context of double effect?",
+      "options": [
+        "It promotes promiscuity",
+        "It could lead to a slippery slope",
+        "It is universally accepted",
+        "It has no impact on health"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The use of condoms to prevent HIV raises ethical concerns about potential slippery slopes in moral reasoning within the Catholic Church. This corresponds to: It could lead to a slippery slope."
+    },
+    {
+      "question": "What methodological issue does Karl Popper raise regarding Freud's theories?",
+      "options": [
+        "They are too simplistic",
+        "They cannot be falsified",
+        "They are based on too many case studies",
+        "They lack empirical support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Popper criticizes Freud's work for being unfalsifiable, arguing that it does not meet the criteria of a scientific theory. This corresponds to: They cannot be falsified."
+    },
+    {
+      "question": "What does Fritjof Schuon argue about the nature of major religions?",
+      "options": [
+        "They are fundamentally different",
+        "They have a common esoteric core",
+        "They are all based on historical events",
+        "They are irrelevant to modern society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Schuon posits that all major religions contain an esoteric core that reflects a mystical participation in the divine. This corresponds to: They have a common esoteric core."
+    },
+    {
+      "question": "What is a key feature of Freud's view on conscience?",
+      "options": [
+        "It is a real existing entity",
+        "It is a product of the unconscious mind",
+        "It is universally agreed upon",
+        "It is based on rational thought"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freud views conscience as an umbrella term for various psychological factors stemming from the unconscious mind. This corresponds to: It is a product of the unconscious mind."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:31:25.040Z",
+  "curriculum": "ocr-rs",
+  "topicId": "business-ethics",
+  "subId": "csr",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is the main argument presented by Milton Friedman regarding corporate social responsibility?",
+      "options": [
+        "Businesses should have ethical responsibilities.",
+        "Only individuals can have ethical responsibilities.",
+        "Corporate social responsibility is essential for profit.",
+        "Businesses must prioritize community welfare."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Friedman argues that only individuals can have ethical responsibilities, asserting that businesses cannot have responsibilities like a person. This corresponds to: Only individuals can have ethical responsibilities.."
+    },
+    {
+      "question": "According to the concept of corporate social responsibility, what is a business's responsibility towards stakeholders?",
+      "options": [
+        "To maximize profits for shareholders.",
+        "To ensure fair treatment of employees and the community.",
+        "To minimize environmental impact only.",
+        "To focus solely on legal compliance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corporate social responsibility suggests that businesses have wider responsibilities to the community and environment, beyond just making profits. This corresponds to: To ensure fair treatment of employees and the community.."
+    },
+    {
+      "question": "A company decides to invest in employee wellness programs and community projects. This is an example of which concept?",
+      "options": [
+        "Whistleblowing",
+        "Corporate social responsibility",
+        "Monetarism",
+        "Profit maximization"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Investing in employee wellness and community projects exemplifies corporate social responsibility, which emphasizes ethical responsibilities beyond profit-making"
+    },
+    {
+      "question": "What does the FTSE4Good index measure in relation to corporate social responsibility?",
+      "options": [
+        "Company profits",
+        "Employee satisfaction",
+        "Environmental, social, and governance ratings",
+        "Market share"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The FTSE4Good index measures companies based on their environmental, social, and governance (ESG) ratings, reflecting their commitment to corporate social responsibility. This corresponds to: Environmental, social, and governance ratings."
+    },
+    {
+      "question": "In the context of corporate social responsibility, what does the term 'stakeholder' refer to?",
+      "options": [
+        "Only shareholders of a company",
+        "Any individual or group affected by the business",
+        "Government regulators",
+        "Competitors in the market"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A stakeholder is defined as any individual or group that is harmed or benefits from the corporation, or whose rights can be violated by the business. This corresponds to: Any individual or group affected by the business."
+    },
+    {
+      "question": "If a business prioritizes profit over ethical responsibilities, which ethical theory might it be aligning with?",
+      "options": [
+        "Kantian ethics",
+        "Utilitarianism",
+        "Corporate social responsibility",
+        "Whistleblowing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism allows businesses to act freely in pursuit of profit, potentially ignoring ethical responsibilities if they believe it serves the greater good"
+    },
+    {
+      "question": "A manager at a company discloses unethical practices to the public. This action is known as what?",
+      "options": [
+        "Corporate social responsibility",
+        "Whistleblowing",
+        "Profit maximization",
+        "Stakeholder engagement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Whistleblowing refers to the act of disclosing unethical or illegal business practices to the employer or the public"
+    },
+    {
+      "question": "Which of the following best describes the relationship between good ethics and business success according to the 'good ethics is good business' principle?",
+      "options": [
+        "Ethics are irrelevant to business.",
+        "Good ethics can lead to better business outcomes.",
+        "Ethics only matter in non-profit organizations.",
+        "Businesses should ignore ethical concerns."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The principle suggests that ethical business decisions can lead to better outcomes for the business, aligning profit with ethical conduct. This corresponds to: Good ethics can lead to better business outcomes.."
+    },
+    {
+      "question": "What criticism might be leveled against the concept of corporate social responsibility?",
+      "options": [
+        "It is universally accepted.",
+        "It can be seen as hypocritical window-dressing.",
+        "It guarantees profit.",
+        "It is only relevant to large corporations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that corporate social responsibility can be viewed as hypocritical window-dressing, masking a business's true profit-driven motives. This corresponds to: It can be seen as hypocritical window-dressing.."
+    },
+    {
+      "question": "How does globalisation impact corporate social responsibility?",
+      "options": [
+        "It eliminates the need for ethical considerations.",
+        "It encourages businesses to focus solely on local markets.",
+        "It integrates economies and influences ethical practices.",
+        "It restricts businesses from engaging with communities."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Globalisation integrates economies and cultures, which can influence how businesses approach ethical practices and corporate social responsibility. This corresponds to: It integrates economies and influences ethical practices.."
+    }
+  ]
+}

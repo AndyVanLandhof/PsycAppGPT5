@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:37:27.407Z",
+  "curriculum": "ocr-rs",
+  "topicId": "augustine",
+  "subId": "critics",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which of the following is a criticism of Augustine's teachings regarding original sin?",
+      "options": [
+        "A. It lacks empirical evidence",
+        "B. It is too focused on the individual",
+        "C. It does not account for cultural differences",
+        "D. It is based on outdated philosophical concepts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critics argue that Augustine's concept of original sin lacks empirical evidence, making it difficult to validate in a modern context. This corresponds to: A. It lacks empirical evidence."
+    },
+    {
+      "question": "What is one of the main criticisms of Augustine's view on divine grace?",
+      "options": [
+        "A. It is overly deterministic",
+        "B. It promotes moral relativism",
+        "C. It is too optimistic about human nature",
+        "D. It ignores the role of free will"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Augustine's view on divine grace is often criticized for being overly deterministic, suggesting that human actions are preordained. This corresponds to: A. It is overly deterministic."
+    },
+    {
+      "question": "In a study examining the relevance of Augustine's teachings today, researchers found that many individuals feel disconnected from traditional views of sin. What does this suggest?",
+      "options": [
+        "A. Augustine's teachings are universally accepted",
+        "B. Modern society has shifted towards secularism",
+        "C. Individuals are more religious than ever",
+        "D. Augustine's teachings are more relevant than before"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The findings suggest that modern society's shift towards secularism has led to a disconnection from traditional views of sin, including Augustine's. This corresponds to: B. Modern society has shifted towards secularism."
+    },
+    {
+      "question": "Which modern philosopher has criticized Augustine's teachings for being too influenced by Platonic thought?",
+      "options": [
+        "A. Swinburne",
+        "B. Hume",
+        "C. Dawkins",
+        "D. Kant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dawkins criticizes Augustine's teachings for being too influenced by Platonic thought, which he believes limits their applicability in a scientific age. This corresponds to: C. Dawkins."
+    },
+    {
+      "question": "A common critique of Augustine's teachings is that they do not adequately address the problem of evil. What does this imply about his theological framework?",
+      "options": [
+        "A. It is too simplistic",
+        "B. It is universally accepted",
+        "C. It is based on empirical evidence",
+        "D. It is overly optimistic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This critique implies that Augustine's theological framework may be too simplistic, failing to provide a satisfactory explanation for the existence of evil. This corresponds to: A. It is too simplistic."
+    },
+    {
+      "question": "What is a methodological issue in evaluating Augustine's teachings in contemporary discussions?",
+      "options": [
+        "A. Lack of historical context",
+        "B. Over-reliance on anecdotal evidence",
+        "C. Difficulty in applying ancient texts to modern issues",
+        "D. Insufficient philosophical grounding"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A methodological issue is the difficulty in applying ancient texts, like Augustine's, to modern issues, which can lead to misinterpretations. This corresponds to: C. Difficulty in applying ancient texts to modern issues."
+    },
+    {
+      "question": "Which aspect of Augustine's teachings has been challenged by modern psychological theories?",
+      "options": [
+        "A. The concept of original sin",
+        "B. The role of divine grace",
+        "C. The nature of free will",
+        "D. The existence of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Modern psychological theories challenge Augustine's teachings on the nature of free will, suggesting that human behavior is influenced by various factors beyond individual choice. This corresponds to: C. The nature of free will."
+    },
+    {
+      "question": "In evaluating Augustine's teachings, some argue that they promote a negative view of human nature. What does this indicate about his theological perspective?",
+      "options": [
+        "A. It is too optimistic",
+        "B. It is overly pessimistic",
+        "C. It is universally accepted",
+        "D. It is based on empirical evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This indicates that Augustine's theological perspective may be overly pessimistic, focusing heavily on sin and depravity rather than human potential. This corresponds to: B. It is overly pessimistic."
+    },
+    {
+      "question": "What is a significant philosophical challenge to Augustine's teachings regarding the nature of God?",
+      "options": [
+        "A. The problem of evil",
+        "B. The existence of free will",
+        "C. The concept of divine grace",
+        "D. The role of faith"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The problem of evil presents a significant philosophical challenge to Augustine's teachings, questioning how a benevolent God can allow suffering. This corresponds to: A. The problem of evil."
+    },
+    {
+      "question": "Which modern argument suggests that Augustine's teachings on sin may not be relevant in contemporary society?",
+      "options": [
+        "A. The rise of secular humanism",
+        "B. The acceptance of religious pluralism",
+        "C. The influence of scientific rationalism",
+        "D. All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The rise of secular humanism, acceptance of religious pluralism, and influence of scientific rationalism all suggest that Augustine's teachings on sin may not be relevant today. This corresponds to: D. All of the above."
+    }
+  ]
+}

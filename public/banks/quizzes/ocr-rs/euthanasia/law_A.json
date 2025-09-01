@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:30:36.025Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "law",
+  "set": "A",
+  "questions": [
+    {
+      "question": "Which ethical theory emphasizes the principle of agape love in making decisions about euthanasia?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics, associated with Joseph Fletcher, focuses on agape love as the guiding principle for moral decisions"
+    },
+    {
+      "question": "In the context of euthanasia, which religious perspective traditionally opposes the practice based on the sanctity of life?",
+      "options": [
+        "Buddhism",
+        "Christianity",
+        "Hinduism",
+        "Judaism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Christianity traditionally opposes euthanasia, emphasizing the sanctity of life as a core belief"
+    },
+    {
+      "question": "A study shows that 70% of the public supports euthanasia under certain conditions. What does this suggest about societal attitudes?",
+      "options": [
+        "Societal norms are static",
+        "Public opinion is irrelevant",
+        "There is a shift towards acceptance",
+        "Euthanasia is universally accepted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The high percentage indicates a shift in societal attitudes towards acceptance of euthanasia under specific circumstances. This corresponds to: There is a shift towards acceptance."
+    },
+    {
+      "question": "Which ethical theory would argue that euthanasia could be justified if it maximizes overall happiness?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Utilitarianism justifies actions based on their consequences, advocating for euthanasia if it leads to greater overall happiness"
+    },
+    {
+      "question": "A patient with terminal illness requests euthanasia to end suffering. How might a Kantian ethicist respond?",
+      "options": [
+        "Support the request based on autonomy",
+        "Reject the request as it violates moral duty",
+        "Consider the consequences of suffering",
+        "Evaluate the situation for love"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Kantian ethicist would likely reject the request, as it contradicts the moral duty to preserve life. This corresponds to: Reject the request as it violates moral duty."
+    },
+    {
+      "question": "What is a potential criticism of using Situation Ethics in euthanasia debates?",
+      "options": [
+        "It is too rigid",
+        "It lacks a clear decision-making process",
+        "It may lead to subjective interpretations",
+        "It ignores emotional factors"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A criticism of Situation Ethics is that its reliance on personal interpretation can lead to subjective and inconsistent moral decisions. This corresponds to: It may lead to subjective interpretations."
+    },
+    {
+      "question": "Which philosopher's work is often referenced in discussions about the morality of euthanasia?",
+      "options": [
+        "Aristotle",
+        "Immanuel Kant",
+        "Joseph Fletcher",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Joseph Fletcher's work on Situation Ethics is frequently referenced in the context of euthanasia discussions"
+    },
+    {
+      "question": "What impact does secularism have on debates about euthanasia?",
+      "options": [
+        "It reinforces traditional religious views",
+        "It promotes a more liberal approach to ethical issues",
+        "It has no effect on public opinion",
+        "It strictly limits discussions on morality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secularism often promotes a more liberal approach to ethical issues, including euthanasia, by prioritizing individual autonomy over religious doctrine. This corresponds to: It promotes a more liberal approach to ethical issues."
+    },
+    {
+      "question": "In evaluating euthanasia, which ethical theory would focus on the inherent dignity of the individual?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian Ethics emphasizes the inherent dignity and worth of individuals, which would influence its stance on euthanasia"
+    },
+    {
+      "question": "How might feminist perspectives contribute to the euthanasia debate?",
+      "options": [
+        "By advocating for traditional family values",
+        "By highlighting gender inequalities in healthcare",
+        "By opposing all forms of euthanasia",
+        "By promoting religious doctrines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Feminist perspectives often highlight gender inequalities in healthcare, which can influence discussions about euthanasia and patient autonomy. This corresponds to: By highlighting gender inequalities in healthcare."
+    }
+  ]
+}

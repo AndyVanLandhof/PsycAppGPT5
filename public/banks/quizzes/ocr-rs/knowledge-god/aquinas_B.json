@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:49:06.156Z",
+  "curriculum": "ocr-rs",
+  "topicId": "knowledge-god",
+  "subId": "aquinas",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is the focus of Aquinas' Fifth Way in his Five Ways to prove God's existence?",
+      "options": [
+        "The existence of evil",
+        "The governance of the world",
+        "The problem of suffering",
+        "The nature of faith"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas' Fifth Way is centered on the governance of the world, arguing that natural bodies act towards an end, which implies a guiding intelligence, identified as God"
+    },
+    {
+      "question": "According to Aquinas, what analogy does he use to illustrate the need for a guiding intelligence in nature?",
+      "options": [
+        "An arrow and an archer",
+        "A ship and its captain",
+        "A painter and a canvas",
+        "A teacher and a student"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aquinas uses the analogy of an arrow needing an archer to illustrate that things lacking knowledge require guidance to achieve their purpose. This corresponds to: An arrow and an archer."
+    },
+    {
+      "question": "If a student argues that the universe could exist without a guiding intelligence, which of Hume's criticisms might they be referencing?",
+      "options": [
+        "Epicurean hypothesis",
+        "Fallacy of composition",
+        "Scales analogy",
+        "Cause and effect"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Epicurean hypothesis suggests that the universe could exist by chance, challenging the need for a guiding intelligence as proposed by Aquinas"
+    },
+    {
+      "question": "What does Aquinas argue is necessary for things that lack knowledge to achieve their purpose?",
+      "options": [
+        "Random chance",
+        "Natural selection",
+        "Guidance from an intelligent being",
+        "Inherent purpose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas argues that things lacking knowledge need guidance from an intelligent being, which he identifies as God, to achieve their purpose"
+    },
+    {
+      "question": "How does Aquinas' view of the universe differ from a purely materialistic perspective?",
+      "options": [
+        "It denies the existence of God",
+        "It emphasizes purpose and design",
+        "It relies solely on empirical evidence",
+        "It rejects the idea of morality"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Aquinas emphasizes that the universe has purpose and design, contrasting with materialism, which may view the universe as a mere coincidence without inherent meaning. This corresponds to: It emphasizes purpose and design."
+    },
+    {
+      "question": "Which of the following is NOT one of Aquinas' Five Ways?",
+      "options": [
+        "The Argument from Motion",
+        "The Argument from Efficient Cause",
+        "The Argument from Design",
+        "The Argument from Contingency"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Argument from Design is often associated with Paley, not Aquinas, who presents five distinct arguments including motion, efficient cause, and contingency"
+    },
+    {
+      "question": "In the context of Aquinas' arguments, what does the term 'Uncaused Cause' refer to?",
+      "options": [
+        "A being that is dependent on others",
+        "A being that causes itself",
+        "A being that exists independently",
+        "A being that is created by chance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'Uncaused Cause' refers to God as the necessary being that exists independently and is the source of all other beings. This corresponds to: A being that exists independently."
+    },
+    {
+      "question": "What is a potential methodological issue with Aquinas' Five Ways?",
+      "options": [
+        "They rely too heavily on empirical evidence",
+        "They do not account for multiple interpretations of God",
+        "They assume a linear causation",
+        "They lack historical context"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aquinas' arguments assume a linear causation which may not adequately address the complexities of existence and the nature of causality. This corresponds to: They assume a linear causation."
+    },
+    {
+      "question": "What does the term 'sensus divinitas' refer to in Calvinist thought?",
+      "options": [
+        "The innate sense of justice",
+        "The divine sense within all humans",
+        "The moral law given by God",
+        "The ability to reason about God"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Sensus divinitas' refers to the innate divine sense that Calvin believed allows all people to know God, despite the confusion caused by sin. This corresponds to: The divine sense within all humans."
+    },
+    {
+      "question": "How does the appreciation of beauty relate to knowledge of God's existence according to Catholic teaching?",
+      "options": [
+        "It is irrelevant to understanding God",
+        "It provides evidence of God's moral goodness",
+        "It helps interpret experiences of God's presence",
+        "It contradicts the need for faith"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Catholic teaching suggests that the appreciation of beauty can lead individuals to understand God's existence and nature through reason. This corresponds to: It helps interpret experiences of God's presence."
+    }
+  ]
+}

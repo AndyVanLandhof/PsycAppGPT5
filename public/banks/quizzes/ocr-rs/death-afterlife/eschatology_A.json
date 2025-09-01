@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:46:18.960Z",
+  "curriculum": "ocr-rs",
+  "topicId": "death-afterlife",
+  "subId": "eschatology",
+  "set": "A",
+  "questions": [
+    {
+      "question": "What is eschatological verification according to John Hick?",
+      "options": [
+        "Religious statements are verifiable during life.",
+        "Religious statements are verifiable after death.",
+        "Religious statements are inherently meaningless.",
+        "Religious statements are only meaningful in a historical context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that religious claims can be verified after death, making them meaningful. This corresponds to: Religious statements are verifiable after death.."
+    },
+    {
+      "question": "In the parable of the two travellers, what does the celestial city represent?",
+      "options": [
+        "A metaphor for religious doubt.",
+        "The ultimate truth of religious claims.",
+        "A physical destination on Earth.",
+        "A philosophical debate about existence."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The celestial city symbolizes the ultimate truth that can be verified at the end of all things. This corresponds to: The ultimate truth of religious claims.."
+    },
+    {
+      "question": "Mitchell's view on religious statements suggests that they are subject to what?",
+      "options": [
+        "Complete empirical testing.",
+        "No form of testing.",
+        "Some empirical testing.",
+        "Only logical analysis."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitchell agrees with Flew that religious statements can undergo some empirical testing. This corresponds to: Some empirical testing.."
+    },
+    {
+      "question": "How does eschatological feminism view the role of women in the Church?",
+      "options": [
+        "It promotes equality in the world.",
+        "It emphasizes women's subordination to men.",
+        "It insists on equality within the Church.",
+        "It rejects the notion of a transcendent sphere."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eschatological feminism insists on equality in the Church, separate from worldly conditions. This corresponds to: It insists on equality within the Church.."
+    },
+    {
+      "question": "According to eschatological feminism, what is the ultimate goal for women?",
+      "options": [
+        "To change societal norms.",
+        "To escape into a transcendent sphere.",
+        "To achieve equality in all aspects of life.",
+        "To challenge patriarchal structures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eschatological feminism suggests that women should escape into a transcendent sphere rather than change the world. This corresponds to: To escape into a transcendent sphere.."
+    },
+    {
+      "question": "What methodological issue is raised by Hick's eschatological verification?",
+      "options": [
+        "It relies on subjective experiences.",
+        "It cannot be empirically tested.",
+        "It assumes a universal understanding of truth.",
+        "It lacks historical context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick's argument relies on the assumption that verification occurs after death, which cannot be empirically tested. This corresponds to: It cannot be empirically tested.."
+    },
+    {
+      "question": "What is a key criticism of Hare's concept of genuine assertions in religious belief?",
+      "options": [
+        "They are easily falsifiable.",
+        "They lack empirical evidence.",
+        "They are too subjective.",
+        "They are universally accepted."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hare's concept is criticized for lacking empirical evidence, making it difficult to validate genuine assertions. This corresponds to: They lack empirical evidence.."
+    },
+    {
+      "question": "How does the concept of eschatological verification challenge Ayer's verification principle?",
+      "options": [
+        "It supports the idea that all statements are verifiable.",
+        "It suggests that some statements can be verified after death.",
+        "It denies the existence of any verifiable statements.",
+        "It emphasizes the importance of historical context."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eschatological verification posits that religious statements can be verified after death, challenging Ayer's strict verification principle. This corresponds to: It suggests that some statements can be verified after death.."
+    },
+    {
+      "question": "What does Mitchell's agreement with Hare imply about religious beliefs?",
+      "options": [
+        "They are entirely subjective.",
+        "They can be empirically tested.",
+        "They may not be falsifiable due to faith commitments.",
+        "They are universally accepted truths."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitchell's view implies that religious beliefs may not be falsifiable due to the faith commitments of believers. This corresponds to: They may not be falsifiable due to faith commitments.."
+    },
+    {
+      "question": "What is a potential limitation of eschatological feminism's perspective on women's roles?",
+      "options": [
+        "It encourages active societal change.",
+        "It promotes equality in all aspects of life.",
+        "It does not address worldly equality.",
+        "It rejects the notion of a transcendent sphere."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eschatological feminism's focus on transcendent equality may overlook the need for change in worldly conditions. This corresponds to: It does not address worldly equality.."
+    }
+  ]
+}

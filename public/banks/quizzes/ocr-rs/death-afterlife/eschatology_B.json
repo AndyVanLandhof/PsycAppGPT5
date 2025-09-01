@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:46:38.644Z",
+  "curriculum": "ocr-rs",
+  "topicId": "death-afterlife",
+  "subId": "eschatology",
+  "set": "B",
+  "questions": [
+    {
+      "question": "What is John Hick's concept of eschatological verification?",
+      "options": [
+        "Religious statements are verifiable during life",
+        "Religious statements are meaningful after death",
+        "Religious statements are always unfalsifiable",
+        "Religious statements are only meaningful in a historical context"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hick argues that religious claims can be verified after death, making them meaningful. This corresponds to: Religious statements are meaningful after death."
+    },
+    {
+      "question": "In the parable of the two travellers, what does the celestial city represent?",
+      "options": [
+        "A metaphor for life",
+        "The ultimate truth of religious beliefs",
+        "A physical destination",
+        "A philosophical debate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The celestial city symbolizes the ultimate truth that can be verified at the end of all things. This corresponds to: The ultimate truth of religious beliefs."
+    },
+    {
+      "question": "How does Mitchell's view on religious statements differ from Flew's?",
+      "options": [
+        "Mitchell believes all religious statements are verifiable",
+        "Mitchell agrees that some religious statements can be empirically tested",
+        "Mitchell rejects the idea of faith commitments",
+        "Mitchell believes religious statements are always falsifiable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitchell partly agrees with Flew, stating that religious statements can undergo some empirical testing. This corresponds to: Mitchell agrees that some religious statements can be empirically tested."
+    },
+    {
+      "question": "According to eschatological feminism, what is the Church's role in relation to women?",
+      "options": [
+        "To promote equality in the world",
+        "To provide a transcendent escape from patriarchal structures",
+        "To enforce traditional gender roles",
+        "To support women's rights in society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eschatological feminism emphasizes the Church as a transcendent sphere that offers freedom from patriarchal domination. This corresponds to: To provide a transcendent escape from patriarchal structures."
+    },
+    {
+      "question": "What is a key criticism of eschatological feminism regarding its message for women?",
+      "options": [
+        "It encourages women to change the world",
+        "It promotes equality in all aspects of life",
+        "It lacks a message of equality in the worldly context",
+        "It supports women's leadership in the Church"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eschatological feminism is criticized for not advocating for women's equality in the world, focusing instead on spiritual escape. This corresponds to: It lacks a message of equality in the worldly context."
+    },
+    {
+      "question": "How does the concept of eschatological verification challenge Ayer's verification principle?",
+      "options": [
+        "It supports the idea that all statements are verifiable",
+        "It suggests that some statements can be verified after death",
+        "It denies the existence of any meaningful statements",
+        "It claims that religious statements are always unfalsifiable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eschatological verification posits that religious statements can be verified at the end of life, challenging Ayer's strict verification principle. This corresponds to: It suggests that some statements can be verified after death."
+    },
+    {
+      "question": "What methodological issue arises from the concept of eschatological verification?",
+      "options": [
+        "It relies on subjective interpretations",
+        "It cannot be empirically tested",
+        "It assumes a universal understanding of afterlife",
+        "It is based on historical evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eschatological verification cannot be empirically tested, raising questions about its validity as a meaningful claim. This corresponds to: It cannot be empirically tested."
+    },
+    {
+      "question": "What is a potential limitation of using the parable of the two travellers to support eschatological verification?",
+      "options": [
+        "It oversimplifies complex religious beliefs",
+        "It assumes all individuals will reach the celestial city",
+        "It does not account for differing interpretations of the afterlife",
+        "It relies on anecdotal evidence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The parable assumes a singular interpretation of the afterlife, which may not apply universally across different belief systems. This corresponds to: It does not account for differing interpretations of the afterlife."
+    },
+    {
+      "question": "In what way does Hare's perspective on religious beliefs differ from Flew's?",
+      "options": [
+        "Hare believes all religious statements can be tested",
+        "Hare argues that faith commitments make beliefs unfalsifiable",
+        "Hare rejects the idea of empirical testing",
+        "Hare supports the verification principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hare emphasizes that religious believers have faith commitments that may render their beliefs unfalsifiable. This corresponds to: Hare argues that faith commitments make beliefs unfalsifiable."
+    },
+    {
+      "question": "What does the term 'genuine assertions' refer to in the context of religious statements?",
+      "options": [
+        "Statements that can be empirically tested",
+        "Statements that are always true",
+        "Statements that are meaningful and can be verified",
+        "Statements that are subjective opinions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Genuine assertions refer to religious statements that are meaningful and can be verified, particularly in an eschatological context"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "savedAt": "2025-09-01T15:31:04.180Z",
+  "curriculum": "ocr-rs",
+  "topicId": "euthanasia",
+  "subId": "law",
+  "set": "B",
+  "questions": [
+    {
+      "question": "Which ethical theory emphasizes the principle of agape love in making decisions about euthanasia?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Situation Ethics, developed by Joseph Fletcher, focuses on agape love as the guiding principle for moral decisions, including those about euthanasia"
+    },
+    {
+      "question": "In the context of euthanasia, which religious perspective traditionally opposes the act based on the sanctity of life?",
+      "options": [
+        "Buddhism",
+        "Christianity",
+        "Hinduism",
+        "Atheism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Christianity traditionally holds that life is sacred and opposes euthanasia, viewing it as contrary to God's will"
+    },
+    {
+      "question": "A study shows that 70% of people support euthanasia under certain circumstances. This data suggests what about public opinion?",
+      "options": [
+        "It is universally accepted.",
+        "It is increasingly supportive of euthanasia.",
+        "It remains unchanged over time.",
+        "It is only supported by religious groups."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The statistic indicates a growing acceptance of euthanasia in society, reflecting changing attitudes towards end-of-life decisions. This corresponds to: It is increasingly supportive of euthanasia.."
+    },
+    {
+      "question": "Which ethical theory would argue that euthanasia is acceptable if it maximizes overall happiness?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Utilitarianism evaluates actions based on their consequences, supporting euthanasia if it leads to greater happiness for the individual and society"
+    },
+    {
+      "question": "A religious leader argues that euthanasia undermines the value of suffering, which ethical perspective does this reflect?",
+      "options": [
+        "Kantian Ethics",
+        "Natural Law",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural Law emphasizes the intrinsic value of life and suffering, suggesting that euthanasia is morally wrong as it contradicts natural purposes"
+    },
+    {
+      "question": "What is a common criticism of using Situation Ethics to justify euthanasia?",
+      "options": [
+        "It is too rigid.",
+        "It can lead to subjective interpretations.",
+        "It ignores the needs of the individual.",
+        "It is overly simplistic."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Situation Ethics can lead to subjective interpretations of what constitutes 'the most loving thing,' complicating moral decisions. This corresponds to: It can lead to subjective interpretations.."
+    },
+    {
+      "question": "Which of the following best describes a potential issue with the application of Utilitarianism to euthanasia?",
+      "options": [
+        "It is too focused on individual rights.",
+        "It may overlook minority rights.",
+        "It is based on absolute moral laws.",
+        "It requires a rigid framework."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Utilitarianism's focus on the greatest good for the majority can lead to the neglect of individual rights, particularly in euthanasia cases. This corresponds to: It may overlook minority rights.."
+    },
+    {
+      "question": "In debates about euthanasia, which feminist perspective emphasizes the impact of gender inequality?",
+      "options": [
+        "Liberal Feminism",
+        "Radical Feminism",
+        "Marxist Feminism",
+        "Intersectional Feminism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radical Feminism critiques how gender inequality affects women's choices in euthanasia, highlighting issues of autonomy and societal judgment"
+    },
+    {
+      "question": "Which ethical theory would likely oppose euthanasia due to its emphasis on duty and moral laws?",
+      "options": [
+        "Natural Law",
+        "Kantian Ethics",
+        "Situation Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kantian Ethics is based on the idea of duty and adherence to moral laws, which would oppose euthanasia as it violates the duty to preserve life"
+    },
+    {
+      "question": "A survey indicates that 60% of healthcare professionals support euthanasia in terminal cases. What does this imply about professional attitudes?",
+      "options": [
+        "They are uniformly against euthanasia.",
+        "They are increasingly supportive of euthanasia.",
+        "They have no opinion on the matter.",
+        "They are divided on the issue."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The survey results suggest a significant shift among healthcare professionals towards supporting euthanasia in specific circumstances. This corresponds to: They are increasingly supportive of euthanasia.."
+    }
+  ]
+}
