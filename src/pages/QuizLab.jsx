@@ -53,6 +53,17 @@ Return ONLY this JSON:
     return m ? m[0] : null;
   };
 
+  // Persist a library of generated quizzes per sub-topic in localStorage
+  const appendToLabLibrary = (currLocal, tid, sid, items, setLabel = null) => {
+    try {
+      const libKey = `quiz-lab-lib-${currLocal}-${tid}-${sid}`;
+      const existing = JSON.parse(window?.localStorage?.getItem(libKey) || '[]');
+      const entry = { id: Date.now(), createdAt: new Date().toISOString(), set: setLabel, items };
+      const next = [entry, ...Array.isArray(existing) ? existing : []].slice(0, 10); // keep last 10
+      window?.localStorage?.setItem(libKey, JSON.stringify(next));
+    } catch (_) {}
+  };
+
   const sanitize = (qset, subTitle) => {
     const cleanMeta = (s) => String(s||'').replace(/\s*Reference\s*\d+\.?/gi,'').replace(/\s*\(\s*Reference\s*\d+\s*\)/gi,'').trim();
     const normQ = (s) => {
@@ -129,6 +140,12 @@ Return ONLY this JSON:
       const data = JSON.parse(json);
       const items = sanitize(data, subTitle);
       setParsed(items);
+      try {
+        const currLocal = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+        const labKey = `quiz-lab-latest-${currLocal}-${topicId}-${subId}`;
+        window?.localStorage?.setItem(labKey, JSON.stringify(items));
+        appendToLabLibrary(currLocal, topicId, subId, items, 'LAB');
+      } catch (_) {}
     } catch (e) {
       setError(e?.message || String(e));
     } finally {
@@ -170,6 +187,7 @@ Return ONLY this JSON:
       const dataA = JSON.parse(jsonA);
       const itemsA = sanitize(dataA, subTitle);
       await saveBank('A', itemsA);
+      try { appendToLabLibrary(curr, topicId, subId, itemsA, 'A'); } catch (_) {}
       // Generate Set B
       const rawB = await callAIJsonOnly(promptA, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       const jsonB = extractFirstJson(rawB);
@@ -177,6 +195,7 @@ Return ONLY this JSON:
       const dataB = JSON.parse(jsonB);
       const itemsB = sanitize(dataB, subTitle);
       await saveBank('B', itemsB);
+      try { appendToLabLibrary(curr, topicId, subId, itemsB, 'B'); } catch (_) {}
       alert('Saved Set A and Set B to banks/quizzes');
     } catch (e) {
       setError(e?.message || String(e));
@@ -200,6 +219,7 @@ Return ONLY this JSON:
       const dataA = JSON.parse(jsonA);
       const itemsA = sanitize(dataA, subTitle);
       await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'A', bank: { questions: itemsA } }) });
+      try { appendToLabLibrary(curr, tid, st.id, itemsA, 'A'); } catch (_) {}
       // Set B
       const rawB = await callAIJsonOnly(promptWithVault, null, (localStorage.getItem('openai-model') || 'gpt-4o-mini'));
       const jsonB = extractFirstJson(rawB);
@@ -208,6 +228,7 @@ Return ONLY this JSON:
       const itemsB = sanitize(dataB, subTitle);
       await fetch('/api/save-quiz-bank', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ curriculum: curr, topicId: tid, subId: st.id, set: 'B', bank: { questions: itemsB } }) });
       setStatuses(prev => ({ ...prev, [key]: 'saved' }));
+      try { appendToLabLibrary(curr, tid, st.id, itemsB, 'B'); } catch (_) {}
       // Optionally preview the last built items
       setParsed(itemsB);
     } catch (e) {

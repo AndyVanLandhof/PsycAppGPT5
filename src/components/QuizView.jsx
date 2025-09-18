@@ -18,7 +18,7 @@ function QuizView({ topic, onBack }) {
   const [showStoredQuizzes, setShowStoredQuizzes] = useState(false);
   const [activeAudioSection, setActiveAudioSection] = useState(null);
   const [mode, setMode] = useState(null); // 'blind' or 'show'
-  const [bankSet, setBankSet] = useState('live'); // 'live' | 'A' | 'B' | 'mixed'
+  const [bankSet, setBankSet] = useState('live'); // 'live' | 'lab'
   const [quizStarted, setQuizStarted] = useState(false);
   const [isGeneratingSummary, setIsGeneratingSummary] = useState(false);
   const [detailedSummary, setDetailedSummary] = useState(null); // { answers: [{ index, detailed, sources: [{file, page}]}] }
@@ -55,12 +55,12 @@ function QuizView({ topic, onBack }) {
     }
   }, [ttsState]);
 
-  // Only generate quiz after vault is loaded
+  // Only generate after vault is loaded AND the user starts the quiz
   useEffect(() => {
-    if (vaultLoaded) {
+    if (vaultLoaded && quizStarted) {
       generateQuiz();
     }
-  }, [vaultLoaded]);
+  }, [vaultLoaded, quizStarted]);
 
   const extractFirstJson = (text) => {
     // Regex to find the first {...} JSON block
@@ -393,34 +393,20 @@ function QuizView({ topic, onBack }) {
 
   const loadBankIfAvailable = async () => {
     try {
+      if (bankSet !== 'lab') return null;
       const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
-      const basePath = `/banks/quizzes/${curr}/${topic.id}`;
-      const fetchJson = async (path) => {
-        const res = await fetch(path);
-        if (!res.ok) return null;
-        return res.json();
-      };
-      if (bankSet === 'A' || bankSet === 'B') {
-        const data = await fetchJson(`${basePath}/${topic.subTopic.id}_${bankSet}.json`);
-        if (data && Array.isArray(data.questions)) return data.questions;
-        return null;
+      // Prefer the library (most recent entry), otherwise fallback to latest
+      const libKey = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
+      const latestKey = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
+      const libRaw = window?.localStorage?.getItem(libKey);
+      if (libRaw) {
+        const lib = JSON.parse(libRaw);
+        if (Array.isArray(lib) && lib.length > 0 && Array.isArray(lib[0]?.items)) return lib[0].items;
       }
-      if (bankSet === 'mixed') {
-        const a = await fetchJson(`${basePath}/${topic.subTopic.id}_A.json`);
-        const b = await fetchJson(`${basePath}/${topic.subTopic.id}_B.json`);
-        const pool = [
-          ...(Array.isArray(a?.questions) ? a.questions : []),
-          ...(Array.isArray(b?.questions) ? b.questions : [])
-        ];
-        if (pool.length >= 10) {
-          // shuffle and take 10
-          for (let i = pool.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [pool[i], pool[j]] = [pool[j], pool[i]];
-          }
-          return pool.slice(0, 10);
-        }
-        return null;
+      const raw = window?.localStorage?.getItem(latestKey);
+      if (raw) {
+        const data = JSON.parse(raw);
+        if (Array.isArray(data)) return data;
       }
       return null;
     } catch (_) {
@@ -466,15 +452,22 @@ Return in this JSON format:
   ]
 }`;
     try {
-      // Try bank first if selected
-      const bank = await loadBankIfAvailable();
-      if (bank && bank.length >= 10) {
-        setQuestions(bank.slice(0, 10).map(q => ({
+      // If using Lab, load locally saved questions; if none, prompt user to go to Lab
+      if (bankSet === 'lab') {
+        const lab = await loadBankIfAvailable();
+        if (!lab || lab.length === 0) {
+          setIsLoading(false);
+          alert('No questions generated - go to the Lab');
+          setQuizStarted(false);
+          return;
+        }
+        const items = lab.slice(0, 10).map(q => ({
           question: q.question,
           options: q.options,
           correctAnswer: q.correctAnswer,
           explanation: q.explanation
-        })));
+        }));
+        setQuestions(items);
         setCurrentQuestionIndex(0);
         setUserAnswers([]);
         setQuizComplete(false);
@@ -1044,7 +1037,7 @@ Return ONLY this JSON:
           <div className="flex flex-col items-center gap-2 mb-4">
             <label className="text-sm text-gray-600">Question Source</label>
             <div className="flex gap-2 flex-wrap justify-center">
-              {['live','A','B','mixed'].map(k => (
+              {['live','lab'].map(k => (
                 <button key={k} onClick={() => setBankSet(k)} className={`px-3 py-1 rounded border ${bankSet===k? 'bg-emerald-600 text-white border-emerald-700':'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'}`}>{k.toUpperCase()}</button>
               ))}
             </div>
@@ -1053,7 +1046,7 @@ Return ONLY this JSON:
             <button
               className={`px-8 py-3 rounded-lg font-bold text-lg transition-all ${mode ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
               disabled={!mode}
-              onClick={() => setQuizStarted(true)}
+              onClick={() => { setQuizStarted(true); if (vaultLoaded) generateQuiz(); }}
             >
               Start the Quiz
             </button>
