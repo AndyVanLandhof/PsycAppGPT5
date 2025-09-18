@@ -14,6 +14,15 @@ const path = require('path');
 const cors = require('cors');
 require('dotenv').config();
 
+// Ensure fetch is available on Node < 18 by polyfilling with node-fetch (ESM)
+if (typeof fetch !== 'function') {
+  global.fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
+}
+
+// Optional: support org/project-scoped keys
+const OPENAI_ORG = process.env.OPENAI_ORGANIZATION || process.env.OPENAI_ORG_ID || process.env.OPENAI_ORG || '';
+const OPENAI_PROJECT = process.env.OPENAI_PROJECT || process.env.OPENAI_PROJECT_ID || '';
+
 const app = express();
 app.use(cors({
   origin: '*',
@@ -67,6 +76,8 @@ Examples:
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${OPENAI_API_KEY}`,
+        ...(OPENAI_ORG ? { 'OpenAI-Organization': OPENAI_ORG } : {}),
+        ...(OPENAI_PROJECT ? { 'OpenAI-Project': OPENAI_PROJECT } : {}),
       },
       body: JSON.stringify({
         model: 'gpt-4o-mini',
@@ -108,7 +119,9 @@ app.post('/api/ai', async (req, res) => {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${OPENAI_API_KEY}`,
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        ...(OPENAI_ORG ? { 'OpenAI-Organization': OPENAI_ORG } : {}),
+        ...(OPENAI_PROJECT ? { 'OpenAI-Project': OPENAI_PROJECT } : {}),
       },
       body: JSON.stringify(payloadWithFormat)
     });
@@ -126,7 +139,9 @@ app.post('/api/ai', async (req, res) => {
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${OPENAI_API_KEY}`,
-            'Accept': 'application/json'
+            'Accept': 'application/json',
+            ...(OPENAI_ORG ? { 'OpenAI-Organization': OPENAI_ORG } : {}),
+            ...(OPENAI_PROJECT ? { 'OpenAI-Project': OPENAI_PROJECT } : {}),
           },
           body: JSON.stringify(payloadBase)
         });
