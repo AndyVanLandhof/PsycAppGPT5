@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T14:32:53.345Z",
+  "savedAt": "2025-10-04T07:57:33.929Z",
   "curriculum": "ocr-rs",
   "topicId": "problem-of-evil",
   "subId": "logical",
   "set": "B",
   "questions": [
     {
-      "question": "What does the inconsistent triad in the logical problem of evil consist of?",
+      "question": "What are the three elements of the inconsistent triad in the logical problem of evil?",
       "options": [
-        "Omnipotence, omnibenevolence, and the existence of evil",
-        "Omniscience, omnipotence, and moral evil",
-        "Omnipotence, free will, and natural evil",
-        "Omnibenevolence, original sin, and suffering"
+        "Omnipotence, omnibenevolence, evil exists",
+        "Omnipotence, omniscience, moral evil",
+        "Omnibenevolence, free will, natural evil",
+        "Evil, suffering, divine justice"
       ],
       "correctAnswer": 0,
-      "explanation": "The inconsistent triad highlights the conflict between God's attributes of being all-powerful and all-good while evil exists. This corresponds to: Omnipotence, omnibenevolence, and the existence of evil."
+      "explanation": "The inconsistent triad consists of the attributes of God (omnipotence and omnibenevolence) and the existence of evil. This corresponds to: Omnipotence, omnibenevolence, evil exists."
     },
     {
-      "question": "According to Epicurus, how does the existence of evil challenge the nature of God?",
+      "question": "According to the logical problem of evil, which of the following statements is true if God is omnipotent?",
       "options": [
-        "It shows God is not omniscient",
-        "It suggests God is not omnipotent",
-        "It implies God is not benevolent",
-        "It indicates God is indifferent to suffering"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Epicurus argued that if God is all-powerful, He should be able to prevent evil, thus questioning His omnipotence. This corresponds to: It suggests God is not omnipotent."
-    },
-    {
-      "question": "Which of the following is a potential solution to the logical problem of evil proposed by process theology?",
-      "options": [
-        "God is not omnibenevolent",
-        "God is not omnipotent",
-        "Evil is an illusion",
-        "Evil is a necessary part of creation"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Process theology suggests that God may not be omnipotent and thus cannot control all evil or human choices. This corresponds to: God is not omnipotent."
-    },
-    {
-      "question": "In the context of the logical problem of evil, what does Augustine argue about the nature of evil?",
-      "options": [
-        "Evil is a substance created by God",
-        "Evil is a privation of good",
-        "Evil is necessary for free will",
-        "Evil is an illusion that does not exist"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Augustine posits that evil is not a created entity but rather a lack of good, which absolves God from creating it. This corresponds to: Evil is a privation of good."
-    },
-    {
-      "question": "How does Hick's reworking of the Irenaean theodicy address the existence of natural evil?",
-      "options": [
-        "It denies the existence of natural evil",
-        "It suggests natural evil is a punishment from God",
-        "It proposes natural evil serves a purpose in soul-making",
-        "It argues natural evil is a result of human free will"
+        "God cannot prevent evil",
+        "Evil does not exist",
+        "God must not be wholly good",
+        "God is not omniscient"
       ],
       "correctAnswer": 2,
-      "explanation": "Hick's view is that natural evil contributes to human development and the process of becoming more like God. This corresponds to: It proposes natural evil serves a purpose in soul-making."
+      "explanation": "If God is omnipotent and evil exists, it implies that God cannot be wholly good or does not care enough to prevent evil. This corresponds to: God must not be wholly good."
     },
     {
-      "question": "If a believer argues that suffering is necessary for spiritual growth, which aspect of the problem of evil are they addressing?",
+      "question": "Epicurus presented a challenge to theistic beliefs by questioning how God can be both all-powerful and all-loving while evil exists. What does this illustrate?",
+      "options": [
+        "The evidential problem of evil",
+        "The inconsistent triad",
+        "Theodicy",
+        "Moral relativism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Epicurus's challenge illustrates the inconsistent triad, highlighting the contradiction between divine attributes and the presence of evil"
+    },
+    {
+      "question": "If a believer argues that God allows evil for the purpose of soul-making, which theodicy are they likely referencing?",
+      "options": [
+        "Augustine's theodicy",
+        "Irenaean theodicy",
+        "Process theology",
+        "Deistic perspective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The concept of soul-making is associated with Irenaean theodicy, which suggests that suffering has a purpose in human development"
+    },
+    {
+      "question": "In the context of the logical problem of evil, what does the term 'privatio boni' refer to?",
+      "options": [
+        "Evil as a substance",
+        "Evil as a lack of good",
+        "Evil as a necessary condition",
+        "Evil as a divine test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Privatio boni' refers to the idea that evil is not a substance but rather a lack of goodness, as proposed by Augustine. This corresponds to: Evil as a lack of good."
+    },
+    {
+      "question": "A student argues that the existence of natural disasters challenges the belief in an all-loving God. This scenario illustrates which aspect of the problem of evil?",
       "options": [
         "Logical problem of evil",
         "Evidential problem of evil",
-        "Moral evil",
-        "Natural evil"
-      ],
-      "correctAnswer": 0,
-      "explanation": "This argument addresses the logical problem of evil by suggesting that suffering has a purpose in developing faith"
-    },
-    {
-      "question": "What is a methodological issue with the evidential problem of evil?",
-      "options": [
-        "It assumes we fully understand God's nature",
-        "It relies solely on historical examples",
-        "It ignores the role of free will",
-        "It does not consider the existence of good"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The evidential problem of evil assumes a complete understanding of God, which may not be possible for believers. This corresponds to: It assumes we fully understand God's nature."
-    },
-    {
-      "question": "Which of the following best describes the evidential problem of evil?",
-      "options": [
-        "It focuses on the logical inconsistency of God's attributes",
-        "It argues that the amount of evil observed contradicts the existence of an all-good God",
-        "It suggests that evil is necessary for free will",
-        "It claims that evil is an illusion"
+        "Theodicy",
+        "Moral evil"
       ],
       "correctAnswer": 1,
-      "explanation": "The evidential problem of evil posits that the observable presence of evil in the world challenges the belief in an all-good God. This corresponds to: It argues that the amount of evil observed contradicts the existence of an all-good God."
+      "explanation": "This scenario illustrates the evidential problem of evil, as it presents evidence of suffering that challenges the belief in an all-loving God"
     },
     {
-      "question": "How does the concept of epistemic distance relate to the problem of evil?",
+      "question": "A critique of Augustine's theodicy is that it may not adequately address the existence of which type of evil?",
       "options": [
-        "It suggests that humans are too far from God to understand His decisions",
-        "It argues that God is indifferent to human suffering",
-        "It implies that evil is necessary for human development",
-        "It denies the existence of evil altogether"
+        "Moral evil",
+        "Natural evil",
+        "Metaphysical evil",
+        "Social evil"
       ],
-      "correctAnswer": 0,
-      "explanation": "Epistemic distance refers to the idea that humans may not fully comprehend God's reasons for allowing evil. This corresponds to: It suggests that humans are too far from God to understand His decisions."
+      "correctAnswer": 1,
+      "explanation": "Critics argue that Augustine's theodicy does not sufficiently account for natural evil, which is not a direct result of human actions"
     },
     {
-      "question": "What is one criticism of Augustine's theodicy regarding the origins of evil?",
+      "question": "How does process theology differ from traditional views regarding God's omnipotence in relation to evil?",
       "options": [
-        "It does not account for natural evil",
-        "It suggests God is responsible for evil",
-        "It fails to explain moral evil",
-        "It relies too heavily on free will"
+        "It denies God's existence",
+        "It suggests God cannot control evil",
+        "It claims God is indifferent to evil",
+        "It argues God is all-powerful"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Process theology posits that God is not omnipotent in the traditional sense and cannot control evil or human free choices. This corresponds to: It suggests God cannot control evil."
+    },
+    {
+      "question": "Which philosopher's view suggests that our understanding of love may need to change to reconcile God's benevolence with the existence of evil?",
+      "options": [
+        "Epicurus",
+        "Augustine",
+        "Hick",
+        "Irenaeus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hick argues that our understanding of love may need to be redefined, suggesting that suffering can have a developmental purpose"
+    },
+    {
+      "question": "The evidential problem of evil argues that the observation of evil is sufficient to argue against the existence of God. What is a potential issue with this argument?",
+      "options": [
+        "It assumes complete knowledge of God",
+        "It relies solely on emotional responses",
+        "It overlooks historical context",
+        "It is based on anecdotal evidence"
       ],
       "correctAnswer": 0,
-      "explanation": "Critics argue that Augustine's theodicy primarily addresses moral evil and does not adequately explain the existence of natural evil. This corresponds to: It does not account for natural evil."
+      "explanation": "The evidential problem of evil assumes that we fully understand God's nature and decision-making, which may not be the case. This corresponds to: It assumes complete knowledge of God."
     }
   ]
 }

@@ -3,6 +3,7 @@ import { Loader2, Clock, BookOpen, Target, CheckCircle, Play } from 'lucide-reac
 import { getSelectedCurriculum } from '../config/curricula';
 import { useAIService } from '../hooks/useAIService';
 import { buildAO1SummaryPrompt, buildAO3EvaluationPrompt, buildScenarioPrompt, buildMarkschemeCheckerPrompt } from '../prompts/index';
+import { KUsBySubTopic } from '../data/knowledgeMaps';
 
 function StudySession({ topic, onBack }) {
   const curriculum = getSelectedCurriculum() || 'aqa-psych';
@@ -58,89 +59,138 @@ function StudySession({ topic, onBack }) {
   const markUserRecall = async () => {
     setLoading(true);
     try {
-      const feedbackPrompt = `You are an expert AQA Psychology teacher analyzing a student's recall attempt for AQA Psychology 7182.
+      // --- KU-based scoring additions ---
+      const subTopicId = topic.subTopic?.id || String(topic.subTopic.title || '').toLowerCase().replace(/\s+/g, '-');
+      const kus = Array.isArray(KUsBySubTopic[subTopicId]) ? KUsBySubTopic[subTopicId] : [];
 
-TOPIC: ${topic.title}
-SUB-TOPIC: ${topic.subTopic.title}
+      // Helpers (scoped here to avoid cross-file churn)
+      const clamp01 = (x) => Math.max(0, Math.min(1, x));
+      const computeAR = (units, kuList, errorPenaltyCount = 0) => {
+        const weights = kuList.reduce((s, k) => s + (k.weight || 1), 0);
+        const weighted = units.reduce((s, u) => {
+          const k = kuList.find((x) => x.id === u.id);
+          return k ? s + (k.weight || 1) * (Number(u.score) || 0) : s;
+        }, 0);
+        const base = weights ? weighted / weights : 0;
+        const penalty = Math.min(0.15, errorPenaltyCount * 0.05);
+        return clamp01(base - penalty);
+      };
+      const safeParseJSON = (raw) => {
+        const first = raw.indexOf('{');
+        const last = raw.lastIndexOf('}');
+        if (first === -1 || last === -1 || last < first) throw new Error('No JSON braces found');
+        const slice = raw.slice(first, last + 1);
+        return JSON.parse(slice);
+      };
+      const keywordFallbackScorer = (answer, kuList) => {
+        const a = String(answer || '').toLowerCase();
+        return kuList.map((k) => {
+          const hits = (k.mustInclude || []).some((t) => a.includes(String(t).toLowerCase()));
+          const near = (k.accept || []).some((t) => a.includes(String(t).toLowerCase()));
+          const score = hits ? 1 : near ? 0.5 : 0;
+          let evidence = '';
+          if (score > 0) {
+            const token = String((k.mustInclude && k.mustInclude[0]) || (k.accept && k.accept[0]) || '').toLowerCase();
+            const idx = a.indexOf(token);
+            if (idx >= 0) evidence = String(answer || '').substring(Math.max(0, idx - 30), Math.min(String(answer || '').length, idx + token.length + 30));
+          }
+          return { id: k.id, score, evidence };
+        });
+      };
+      const toUI = (units, kuList) => {
+        const byId = Object.fromEntries(kuList.map((k) => [k.id, k]));
+        const successful = units.filter((u) => Number(u.score) === 1).slice(0, 3).map((u) => byId[u.id]?.label || u.id);
+        const missed = units.filter((u) => Number(u.score) === 0).slice(0, 3).map((u) => byId[u.id]?.label || u.id);
+        return { successful, missed };
+      };
+      const srsGradeFor = (u) => (Number(u.score) === 1 ? 'Good' : Number(u.score) === 0.5 ? 'Hard' : 'Again');
+      const microPrompts = (units, kuList) => {
+        const byId = Object.fromEntries(kuList.map((k) => [k.id, k]));
+        const targets = (units || []).filter((u) => Number(u.score) === 0 || Number(u.score) === 0.5);
+        return targets.map((u) => {
+          const k = byId[u.id];
+          const base = (k && (k.cue || k.label)) || u.id;
+          return `In one or two sentences, recall: ${base}`;
+        });
+      };
 
-STUDENT'S RECALL:
-"${userAnswer}"
-
-Analyze this recall and provide specific feedback. You must return ONLY a valid JSON object with this exact structure:
-
-{
-  "successful": [
-    "specific concept or study they mentioned correctly",
-    "another specific point they got right",
-    "third specific thing they recalled well"
-  ],
-  "missed": [
-    "important concept they didn't mention",
-    "key study or researcher they missed",
-    "critical mechanism or process they omitted"
-  ],
-  "overall": "Brief encouraging comment about their effort and what to focus on next"
-}
-
-Rules:
-- Each bullet point must be specific (not generic like "some content")
-- Focus on actual concepts, studies, researchers, mechanisms from ${topic.subTopic.title}
-- Keep each bullet under 15 words
-- Be encouraging but honest about gaps
-- Return ONLY the JSON, no other text`;
-
-      console.log('[AO1 Marking] Sending prompt:', feedbackPrompt);
-      const res = await callAIWithPublicSources(feedbackPrompt, topic.title, topic.subTopic.title);
-      console.log('[AO1 Marking] Raw AI response:', res);
-      
+      // Build strict JSON prompt only if we have a KU map; otherwise fall back to current behavior
       let feedback;
-      try {
-        // Try to extract JSON if wrapped in other text
-        const jsonMatch = res.match(/\{[\s\S]*\}/);
-        const jsonStr = jsonMatch ? jsonMatch[0] : res;
-        feedback = JSON.parse(jsonStr);
-        console.log('[AO1 Marking] Parsed feedback:', feedback);
-      } catch (parseError) {
-        console.error('[AO1 Marking] Parse error:', parseError);
-        console.error('[AO1 Marking] Failed to parse:', res);
-        
-        // Create more intelligent fallback based on user input
-        const userInputLower = userAnswer.toLowerCase();
-        if (userInputLower.includes('nothing') || userInputLower.includes('know') || userInputLower.length < 10) {
-          feedback = {
-            successful: [],
-            missed: [
-              `Key concepts and definitions in ${topic.subTopic.title}`,
-              `Important studies and researchers (e.g., specific names and years)`,
-              `Mechanisms and processes specific to ${topic.subTopic.title}`,
-              `How ${topic.subTopic.title} relates to ${topic.title}`
-            ],
-            overall: `It's okay to start from scratch! Focus on learning the basic concepts, key studies, and how they connect to ${topic.subTopic.title}.`
-          };
-        } else {
-          feedback = {
-            successful: [`You recalled some aspects of ${topic.subTopic.title}`],
-            missed: [
-              `Key studies and researchers in ${topic.subTopic.title}`,
-              `Specific mechanisms and processes`,
-              `Important definitions and concepts`
-            ],
-            overall: `Good effort! Focus on learning the specific studies, researchers, and mechanisms for ${topic.subTopic.title}.`
-          };
+      if (kus.length > 0) {
+        const schema = `\nReturn ONLY valid JSON with this exact shape:\n{\n  "subTopicId": "${subTopicId}",\n  "units": [\n    { "id": "<one of the provided KU ids>", "score": 1 | 0.5 | 0, "evidence": "<exact quote from student or ''>" }\n  ],\n  "errors": [\n    { "text": "<concise factual error in student's answer>", "correction": "<brief correction>" }\n  ],\n  "ar": 0.0\n}\nRules:\n- Score ONLY the KU ids provided below; never invent new ids.\n- Score 1 for full, 0.5 for partial, 0 for miss.\n- Always include evidence for 1 or 0.5 from the student's text; empty string if 0.\n- Keep errors to max 3 items; omit if none.\n- Output JSON only, no prose.`;
+
+        const feedbackPrompt = `\nYou are an examiner. Use the provided KU list to score the student's **Active Recall** answer.\nKUs (JSON):\n${JSON.stringify(kus, null, 2)}\n\nStudent's answer (triple backticks):\n\`\`\`\n${userAnswer}\n\`\`\`\n\n${schema}\n`.trim();
+
+        console.log('[AO1 Marking] Sending prompt (KU-based):', feedbackPrompt);
+        const res = await callAIWithPublicSources(feedbackPrompt, topic.title, topic.subTopic.title);
+        console.log('[AO1 Marking] Raw AI response:', res);
+
+        let parsed = null;
+        try {
+          parsed = safeParseJSON(res);
+        } catch (e) {
+          console.warn('[AO1 Marking] JSON parse failed, using fallback scorer.', e);
+          const units = keywordFallbackScorer(userAnswer, kus);
+          parsed = { subTopicId, units, errors: [], ar: computeAR(units, kus, 0) };
         }
+        const units = (parsed?.units || []).filter((u) => kus.find((k) => k.id === u.id));
+        const ar = computeAR(units, kus, Array.isArray(parsed?.errors) ? parsed.errors.length : 0);
+        const { successful, missed } = toUI(units, kus);
+        const overall = ar >= 0.85 ? 'Excellent recall. Extend with applications and critiques next.' : ar >= 0.7 ? 'Solid base. Shore up the highlighted gaps, then push to application.' : 'Early stage. Focus the micro-prompts below, then re-try in a day.';
+        const srsSignals = units.map((u) => ({ subTopicId, kuId: u.id, grade: srsGradeFor(u) }));
+        feedback = { successful, missed, overall, _ar: ar, _units: units, _srsSignals: srsSignals, _microPrompts: microPrompts(units, kus) };
+      } else {
+        // Legacy prompt path if no KU map available
+        const legacyPrompt = `You are an expert AQA Psychology teacher analyzing a student's recall attempt for AQA Psychology 7182.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nSTUDENT'S RECALL:\n"${userAnswer}"\n\nAnalyze this recall and provide specific feedback. You must return ONLY a valid JSON object with this exact structure:\n\n{\n  "successful": [\n    "specific concept or study they mentioned correctly",\n    "another specific point they got right",\n    "third specific thing they recalled well"\n  ],\n  "missed": [\n    "important concept they didn't mention",\n    "key study or researcher they missed",\n    "critical mechanism or process they omitted"\n  ],\n  "overall": "Brief encouraging comment about their effort and what to focus on next"\n}\n\nRules:\n- Each bullet point must be specific (not generic like "some content")\n- Focus on actual concepts, studies, researchers, mechanisms from ${topic.subTopic.title}\n- Keep each bullet under 15 words\n- Be encouraging but honest about gaps\n- Return ONLY the JSON, no other text`;
+        const res = await callAIWithPublicSources(legacyPrompt, topic.title, topic.subTopic.title);
+        let parsed = null;
+        try {
+          const jsonMatch = res.match(/\{[\s\S]*\}/);
+          const jsonStr = jsonMatch ? jsonMatch[0] : res;
+          parsed = JSON.parse(jsonStr);
+        } catch (_) {
+          parsed = null;
+        }
+        if (!parsed || !parsed.successful || !parsed.missed || !parsed.overall) throw new Error('Invalid feedback');
+        feedback = parsed;
       }
-      
-      // Validate feedback structure
-      if (!feedback.successful || !feedback.missed || !feedback.overall) {
-        throw new Error('Invalid feedback structure');
-      }
-      
+
       setAo1Feedback(feedback);
+      try {
+        // Persist per-KU SRS signals by upserting lightweight cards to the sub-topic deck
+        if (Array.isArray(feedback?._srsSignals) && feedback?._units) {
+          const subId = topic.subTopic.id;
+          const key = `srs-cards-${subId}`;
+          const existing = JSON.parse(localStorage.getItem(key) || '[]');
+          const byId = new Map(existing.map(c => [c.id, c]));
+          feedback._srsSignals.forEach(sig => {
+            const unit = feedback._units.find(u => u.id === sig.kuId);
+            const cardId = `ku-${sig.kuId}`;
+            const baseCard = byId.get(cardId) || {
+              id: cardId,
+              question: (sig.kuId || '').replace(/-/g, ' '),
+              answer: unit?.evidence || 'Review this KU.',
+              repetitions: 0,
+              easeFactor: 2.5,
+              interval: 1,
+              nextReview: new Date().toISOString(),
+              lastReviewed: null
+            };
+            // Map Again/Hard/Good to immediate schedule intents
+            let quality = sig.grade === 'Good' ? 5 : sig.grade === 'Hard' ? 3 : 1;
+            // Lightweight schedule bump: store a synthetic history entry
+            const reviewHistory = Array.isArray(baseCard.reviewHistory) ? baseCard.reviewHistory.slice(0) : [];
+            reviewHistory.push({ date: new Date().toISOString(), quality });
+            byId.set(cardId, { ...baseCard, reviewHistory });
+          });
+          const out = Array.from(byId.values());
+          localStorage.setItem(key, JSON.stringify(out));
+        }
+      } catch (_) {}
       setPhase('ao1-feedback');
     } catch (e) {
       console.error('[AO1 Marking] Error:', e);
-      // Final fallback based on user input
-      const userInputLower = userAnswer.toLowerCase();
+      const userInputLower = (userAnswer || '').toLowerCase();
       if (userInputLower.includes('nothing') || userInputLower.includes('know') || userInputLower.length < 10) {
         setAo1Feedback({
           successful: [],
@@ -316,6 +366,42 @@ Rules:
                 </ul>
               </div>
             </div>
+
+            {/* AR score and evidence (transparent marking) */}
+            {(typeof ao1Feedback?._ar === 'number' || Array.isArray(ao1Feedback?._units)) && (
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+                <div className="flex items-center justify-between">
+                  <div className="text-sm text-gray-700">
+                    <span className="font-medium">Active Recall score (AR): </span>
+                    {typeof ao1Feedback?._ar === 'number' ? `${Math.round(ao1Feedback._ar * 100)}%` : '—'}
+                  </div>
+                </div>
+                {Array.isArray(ao1Feedback?._units) && ao1Feedback._units.length > 0 && (
+                  <details className="mt-3">
+                    <summary className="cursor-pointer text-blue-600 hover:text-blue-800 text-sm font-medium">Show KU evidence</summary>
+                    <div className="mt-2 space-y-1">
+                      {ao1Feedback._units.map((u, i) => (
+                        <div key={i} className="text-xs text-gray-700">
+                          <span className="font-medium">{u.id}</span>: score {u.score} {u.evidence ? `— "${u.evidence}"` : ''}
+                        </div>
+                      ))}
+                    </div>
+                  </details>
+                )}
+              </div>
+            )}
+
+            {/* Micro-prompts for missed/partial KUs */}
+            {Array.isArray(ao1Feedback?._microPrompts) && ao1Feedback._microPrompts.length > 0 && (
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                <h4 className="font-medium text-blue-800 mb-2">Quick Practice Prompts</h4>
+                <ul className="list-disc ml-5 space-y-1 text-sm text-blue-900">
+                  {ao1Feedback._microPrompts.map((p, i) => (
+                    <li key={i}>{p}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
             
             {ao1Feedback?.overall && (
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">

@@ -1,120 +1,120 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T14:32:30.863Z",
+  "savedAt": "2025-10-04T07:57:07.879Z",
   "curriculum": "ocr-rs",
   "topicId": "problem-of-evil",
   "subId": "logical",
   "set": "A",
   "questions": [
     {
-      "question": "What does the inconsistent triad in the logical problem of evil consist of?",
+      "question": "What are the three elements of the inconsistent triad in the logical problem of evil?",
       "options": [
         "Omnipotence, omnibenevolence, and evil exists",
-        "Omnipotence, omniscience, and free will",
-        "Evil exists, free will, and divine justice",
-        "Omnipotence, divine justice, and moral evil"
+        "Omnipotence, omniscience, and suffering",
+        "Omnibenevolence, free will, and evil",
+        "Evil, suffering, and divine justice"
       ],
       "correctAnswer": 0,
-      "explanation": "The inconsistent triad highlights the contradiction between the existence of an all-powerful, all-good God and the presence of evil. This corresponds to: Omnipotence, omnibenevolence, and evil exists."
+      "explanation": "The inconsistent triad highlights the conflict between the existence of an all-powerful, all-good God and the presence of evil. This corresponds to: Omnipotence, omnibenevolence, and evil exists."
     },
     {
-      "question": "According to process theology, how might the problem of evil be resolved?",
+      "question": "According to the logical problem of evil, which attribute of God is questioned when evil exists?",
       "options": [
-        "God is not omnipotent and cannot control evil",
-        "Evil is an illusion",
-        "God is both powerful and good",
-        "Evil is necessary for human development"
+        "Omnipotence",
+        "Omniscience",
+        "Omnibenevolence",
+        "All of the above"
       ],
-      "correctAnswer": 0,
-      "explanation": "Process theology suggests that God may not be omnipotent and thus cannot prevent evil, addressing the logical problem of evil. This corresponds to: God is not omnipotent and cannot control evil."
+      "correctAnswer": 3,
+      "explanation": "The logical problem of evil challenges the compatibility of God's omnipotence, omnibenevolence, and the existence of evil. This corresponds to: All of the above."
     },
     {
-      "question": "In the context of the logical problem of evil, what does Augustine argue about the nature of evil?",
+      "question": "If God is omnipotent but does not prevent evil, what conclusion can be drawn according to the inconsistent triad?",
+      "options": [
+        "God is not benevolent",
+        "Evil does not exist",
+        "God is not omnipotent",
+        "God is indifferent to suffering"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If God is all-powerful yet allows evil, it suggests that God may not be wholly good or benevolent. This corresponds to: God is not benevolent."
+    },
+    {
+      "question": "In the context of the logical problem of evil, what does process theology suggest?",
+      "options": [
+        "God is not omnipotent",
+        "Evil is an illusion",
+        "Humans have no free will",
+        "God is indifferent to evil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Process theology posits that God may not be omnipotent and thus cannot control all evil or human choices. This corresponds to: God is not omnipotent."
+    },
+    {
+      "question": "What does Augustine argue about the nature of evil?",
       "options": [
         "Evil is a substance created by God",
         "Evil is a privation of good",
         "Evil is necessary for free will",
-        "Evil does not exist"
+        "Evil is an illusion"
       ],
       "correctAnswer": 1,
-      "explanation": "Augustine posits that evil is not a substance but a lack of good, which helps to absolve God from the blame for evil. This corresponds to: Evil is a privation of good."
-    },
-    {
-      "question": "If a believer argues that suffering is necessary for spiritual growth, which aspect of the problem of evil are they addressing?",
-      "options": [
-        "Logical problem of evil",
-        "Evidential problem of evil",
-        "Moral evil",
-        "Natural evil"
-      ],
-      "correctAnswer": 1,
-      "explanation": "This perspective aligns with the evidential problem of evil, suggesting that the existence of suffering can lead to greater spiritual development"
-    },
-    {
-      "question": "Which of the following best describes the evidential problem of evil?",
-      "options": [
-        "It questions the logical consistency of God's attributes",
-        "It argues that the amount of evil observed is incompatible with an all-good God",
-        "It suggests that evil is necessary for free will",
-        "It denies the existence of evil altogether"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The evidential problem of evil focuses on the observable evidence of evil in the world as a challenge to the existence of an all-good God. This corresponds to: It argues that the amount of evil observed is incompatible with an all-good God."
+      "explanation": "Augustine claims that evil is not a created substance but rather a lack of good, which helps absolve God from blame. This corresponds to: Evil is a privation of good."
     },
     {
       "question": "How does Hick's reworking of the Irenaean theodicy address the problem of evil?",
       "options": [
-        "By denying the existence of evil",
-        "By suggesting evil is necessary for human development",
-        "By claiming God is not omnipotent",
-        "By stating that evil is a privation of good"
+        "It denies the existence of evil",
+        "It suggests evil is necessary for soul-making",
+        "It argues God is not omnipotent",
+        "It claims evil is a punishment for sin"
       ],
       "correctAnswer": 1,
-      "explanation": "Hick argues that natural evil serves a purpose in enabling humans to develop towards divine likeness, addressing the problem of evil. This corresponds to: By suggesting evil is necessary for human development."
+      "explanation": "Hick's theodicy proposes that natural evil serves a purpose in developing human beings towards divine likeness. This corresponds to: It suggests evil is necessary for soul-making."
     },
     {
-      "question": "What is a potential methodological issue with the logical problem of evil?",
+      "question": "What is a potential criticism of the logical problem of evil regarding human free will?",
       "options": [
-        "It assumes we fully understand God's nature",
-        "It relies solely on empirical evidence",
-        "It does not consider human free will",
-        "It ignores historical context"
+        "It assumes humans cannot choose evil",
+        "It overlooks the role of divine justice",
+        "It assumes God's power is absolute",
+        "It ignores the existence of natural evil"
       ],
-      "correctAnswer": 0,
-      "explanation": "The logical problem of evil assumes that humans can fully comprehend God's nature and decisions, which may not be valid. This corresponds to: It assumes we fully understand God's nature."
+      "correctAnswer": 2,
+      "explanation": "The logical problem of evil assumes that God's omnipotence means He can prevent all evil, which may not account for human free will. This corresponds to: It assumes God's power is absolute."
     },
     {
-      "question": "Which of the following statements reflects a challenge to Augustine's theodicy?",
+      "question": "What does the evidential problem of evil argue?",
       "options": [
         "Evil is necessary for free will",
-        "God created a perfect world",
+        "Evil's existence contradicts God's attributes",
         "Evil is a privation of good",
-        "The Fall does not explain all forms of evil"
+        "Evil is an illusion created by humans"
       ],
-      "correctAnswer": 3,
-      "explanation": "Critics argue that Augustine's explanation of the Fall does not account for all forms of evil, particularly natural evil. This corresponds to: The Fall does not explain all forms of evil."
+      "correctAnswer": 1,
+      "explanation": "The evidential problem of evil suggests that the observable presence of evil in the world is sufficient evidence against the existence of an all-good, all-powerful God. This corresponds to: Evil's existence contradicts God's attributes."
     },
     {
-      "question": "What does the term 'vale of soul-making' refer to in the context of theodicy?",
+      "question": "Which philosopher first articulated the logical problem of evil?",
       "options": [
-        "The idea that suffering is a necessary part of human development",
-        "The belief that evil does not exist",
-        "The concept that God is not responsible for evil",
-        "The notion that all souls will eventually be saved"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The 'vale of soul-making' suggests that the presence of suffering is essential for spiritual growth and development. This corresponds to: The idea that suffering is a necessary part of human development."
-    },
-    {
-      "question": "Which philosopher first articulated the logical problem of evil in the third century BCE?",
-      "options": [
-        "Hick",
         "Augustine",
+        "Hick",
         "Epicurus",
         "Irenaeus"
       ],
       "correctAnswer": 2,
-      "explanation": "Epicurus is credited with formulating the logical problem of evil, questioning how an all-powerful, all-good God can allow evil"
+      "explanation": "Epicurus is credited with formulating the logical problem of evil, questioning how an all-powerful, all-good God can coexist with evil"
+    },
+    {
+      "question": "What is the 'vale of soul-making' concept in relation to the problem of evil?",
+      "options": [
+        "Evil is a punishment for sin",
+        "Suffering is necessary for spiritual growth",
+        "Evil does not exist",
+        "God is indifferent to suffering"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'vale of soul-making' suggests that the existence of evil and suffering is essential for human development and spiritual growth. This corresponds to: Suffering is necessary for spiritual growth."
     }
   ]
 }
