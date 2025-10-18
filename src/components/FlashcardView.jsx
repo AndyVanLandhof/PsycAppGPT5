@@ -135,9 +135,11 @@ function FlashcardView({ topic, onBack }) {
     total: 0
   });
 
-  const { callAIWithVault } = useAIService();
+  const { callAIWithVault, callAIJsonOnly } = useAIService();
   const { createVaultPrompt, getRelevantContext, isVaultLoaded, vaultLoaded } = useVaultService();
   const { speak, playPreparedAudio, audioReady, audioLoading, audioError, pause, stop, ttsState } = useElevenLabsTTS();
+
+  const [sourceSet, setSourceSet] = useState('lab'); // 'lab' | 'live'
 
   // Load session history, stored summaries, and SRS cards from localStorage on mount
   useEffect(() => {
@@ -157,6 +159,15 @@ function FlashcardView({ topic, onBack }) {
     if (savedSrsCards) {
       setSrsCards(JSON.parse(savedSrsCards));
     }
+
+    // Default sourceSet to LAB if a saved set exists
+    try {
+      const libKey = `${curr}:flash-lab-lib-${topic.id}-${topic.subTopic.id}`;
+      const latestKey = `${curr}:flash-lab-latest-${topic.id}-${topic.subTopic.id}`;
+      const hasLib = !!localStorage.getItem(libKey);
+      const hasLatest = !!localStorage.getItem(latestKey);
+      if (hasLib || hasLatest) setSourceSet('lab');
+    } catch (_) {}
   }, [topic.subTopic.id]);
 
   // Save SRS cards to localStorage whenever they change
@@ -174,7 +185,7 @@ function FlashcardView({ topic, onBack }) {
     }
   }, [ttsState]);
 
-    // Only generate flashcards after vault is loaded
+  // Only generate flashcards after vault is loaded
   useEffect(() => {
     if (vaultLoaded) {
       if (srsMode) {
@@ -324,7 +335,53 @@ function FlashcardView({ topic, onBack }) {
     });
   };
 
-  const generateFlashcards = async () => {
+  const loadLabIfAvailable = () => {
+    try {
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      const libKey = `${curr}:flash-lab-lib-${topic.id}-${topic.subTopic.id}`;
+      const latestKey = `${curr}:flash-lab-latest-${topic.id}-${topic.subTopic.id}`;
+      const libRaw = localStorage.getItem(libKey);
+      if (libRaw) {
+        const lib = JSON.parse(libRaw);
+        if (Array.isArray(lib) && lib.length > 0 && Array.isArray(lib[0]?.items)) return lib[0].items;
+      }
+      const raw = localStorage.getItem(latestKey);
+      if (raw) {
+        const data = JSON.parse(raw);
+        if (Array.isArray(data)) return data;
+      }
+      return null;
+    } catch (_) { return null; }
+  };
+
+  const persistLab = (cards) => {
+    try {
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      const latestKey = `${curr}:flash-lab-latest-${topic.id}-${topic.subTopic.id}`;
+      const libKey = `${curr}:flash-lab-lib-${topic.id}-${topic.subTopic.id}`;
+      localStorage.setItem(latestKey, JSON.stringify(cards));
+      const existing = JSON.parse(localStorage.getItem(libKey) || '[]');
+      const next = [{ id: Date.now(), createdAt: new Date().toISOString(), set: 'LAB', items: cards }, ...existing].slice(0, 10);
+      localStorage.setItem(libKey, JSON.stringify(next));
+    } catch (_) {}
+  };
+
+  const loadFromLabSet = (items) => {
+    if (!Array.isArray(items) || items.length === 0) return;
+    setSessionFlashcards(items);
+    setCurrentIndex(0);
+    setUserAnswer('');
+    setStep(1);
+    setAssessment('');
+    setSessionComplete(false);
+    setShowSummary(false);
+    setSessionStats({ correct: 0, partial: 0, incorrect: 0, total: 0 });
+    setUserAnswers([]);
+    setUserAssessments([]);
+    setIsLoading(false);
+  };
+
+  const generateFlashcards = async (opts = { refreshLab: false, source: null }) => {
     setIsLoading(true);
     // New AQA Psychology prompt
     const basePrompt = `You are an expert AQA Psychology teacher creating flashcards for AQA Psychology 7182 students.
@@ -365,13 +422,25 @@ Return in this JSON format:
   ]
 }`;
     try {
+      // LAB: use saved; if none or refreshLab, build and persist
+      const chosenSource = opts && opts.source ? opts.source : sourceSet;
+      if (!srsMode && chosenSource === 'lab' && !opts.refreshLab) {
+        const saved = loadLabIfAvailable();
+        if (saved && saved.length > 0) { loadFromLabSet(saved); return; }
+      }
+
       const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { flashcards: true });
-      const result = await callAIWithVault(
-        vaultPrompt,
-        topic.title,
-        topic.subTopic.title,
-        { includeAdditional: true }
-      );
+      let result;
+      try {
+        result = await callAIJsonOnly(vaultPrompt, null, 'gpt-4o-mini');
+      } catch (_) {
+        result = await callAIWithVault(
+          vaultPrompt,
+          topic.title,
+          topic.subTopic.title,
+          { includeAdditional: true }
+        );
+      }
       console.log('[Flashcards][AI Raw Result]', result);
       let parsed;
       try {
@@ -416,6 +485,10 @@ Return in this JSON format:
         console.warn('[Flashcards][Fallback] Using fallback flashcards (AI returned <5 flashcards)');
         setSessionFlashcards(generateFallbackFlashcards());
       } else {
+        // Persist to LAB if in lab mode or refreshLab
+        if (!srsMode && ((opts && opts.source === 'lab') || sourceSet === 'lab' || opts.refreshLab)) {
+          persistLab(selected);
+        }
         setSessionFlashcards(selected);
         
         // Add new cards to SRS if not already present
@@ -1494,7 +1567,7 @@ Return in this JSON format:
             </h2>
             <p className="text-gray-600">Test your knowledge with AI-generated flashcards</p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             {/* SRS Mode Toggle */}
             <button
               onClick={() => setSrsMode(!srsMode)}
@@ -1533,6 +1606,30 @@ Return in this JSON format:
               >
                 View Summaries ({storedSummaries.length})
               </button>
+            )}
+            {/* Source controls like Quiz: LIVE/LAB and Refresh Lab */}
+            {!srsMode && (
+              <>
+                <button
+                  onClick={() => { setSourceSet('live'); generateFlashcards({ source: 'live' }); }}
+                  className={`px-4 py-2 rounded-lg font-semibold ${sourceSet==='live' ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white' : 'bg-gray-100 text-gray-700'}`}
+                >
+                  LIVE
+                </button>
+                <button
+                  onClick={() => { setSourceSet('lab'); generateFlashcards({ source: 'lab' }); }}
+                  className={`px-4 py-2 rounded-lg font-semibold ${sourceSet==='lab' ? 'bg-emerald-600 text-white' : 'bg-gray-100 text-gray-700'}`}
+                >
+                  LAB
+                </button>
+                <button
+                  onClick={() => generateFlashcards({ refreshLab: true, source: 'lab' })}
+                  className="px-4 py-2 rounded-lg font-semibold bg-emerald-100 text-emerald-700 hover:bg-emerald-200"
+                  title="Rebuild and save new LAB set"
+                >
+                  Refresh LAB
+                </button>
+              </>
             )}
             <button
               onClick={generateFlashcards}
@@ -1589,6 +1686,14 @@ Return in this JSON format:
             </div>
           </div>
         </div>
+
+        {/* Flash Library (saved LAB sets) */}
+        {!srsMode && (
+          <div className="bg-white border rounded-lg shadow-sm p-6">
+            <div className="text-sm font-semibold text-gray-800 mb-2">Flash Library</div>
+            <FlashLibraryPreview topic={topic} onUse={loadFromLabSet} />
+          </div>
+        )}
 
         {/* Stats */}
         {sessionStats.total > 0 && (
@@ -1889,3 +1994,44 @@ Return in this JSON format:
 }
 
 export default FlashcardView;
+
+// Lightweight preview of saved LAB flashcard sets for the current subtopic
+function FlashLibraryPreview({ topic, onUse }) {
+  const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+  const libKey = `${curr}:flash-lab-lib-${topic.id}-${topic.subTopic.id}`;
+  let lib = [];
+  try {
+    const raw = localStorage.getItem(libKey);
+    lib = raw ? JSON.parse(raw) : [];
+  } catch (_) {
+    lib = [];
+  }
+
+  if (!Array.isArray(lib) || lib.length === 0) {
+    return (
+      <div className="text-sm text-gray-600">No saved LAB sets yet. Generate once to store here.</div>
+    );
+  }
+
+  return (
+    <div className="space-y-3">
+      {lib.slice(0, 5).map((entry) => (
+        <div key={entry.id} className="flex items-center justify-between border rounded p-3">
+          <div className="text-sm">
+            <div className="font-medium text-gray-800">Saved LAB set</div>
+            <div className="text-gray-600">{new Date(entry.createdAt).toLocaleString()}</div>
+            <div className="text-gray-500">{Array.isArray(entry.items) ? entry.items.length : 0} cards</div>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => onUse && onUse(entry.items)}
+              className="px-3 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 text-sm font-semibold"
+            >
+              Use
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}

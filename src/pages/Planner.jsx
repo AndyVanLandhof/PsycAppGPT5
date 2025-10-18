@@ -80,7 +80,6 @@ const RS_WEIGHTS = {
   // others
   'ancient-philosophical-influences': 5,
   'soul-mind-body': 6,
-  'religious-language': 9,
   'practices-identity': 5,
   'gender': 6,
   'secularism': 6,

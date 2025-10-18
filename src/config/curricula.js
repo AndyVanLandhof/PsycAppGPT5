@@ -1,6 +1,7 @@
 export const CURRICULA = {
   'aqa-psych': { id: 'aqa-psych', label: 'AQA Psychology 7182' },
-  'ocr-rs': { id: 'ocr-rs', label: 'OCR Religious Studies H573' }
+  'ocr-rs': { id: 'ocr-rs', label: 'OCR Religious Studies H573' },
+  'edexcel-englit': { id: 'edexcel-englit', label: 'Edexcel English Literature 9ET0' }
 };
 
 export function getSelectedCurriculum() {

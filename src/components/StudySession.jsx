@@ -16,6 +16,9 @@ function StudySession({ topic, onBack }) {
   const [marking, setMarking] = useState(null);
   const [loading, setLoading] = useState(false);
   const [ao1Feedback, setAo1Feedback] = useState(null);
+  const [flowMode, setFlowMode] = useState(() => {
+    try { return localStorage.getItem('session-flow-mode') || 'guided'; } catch(_) { return 'guided'; }
+  });
   const { callAIWithPublicSources } = useAIService();
 
   // Convert markdown bold to HTML bold
@@ -61,7 +64,10 @@ function StudySession({ topic, onBack }) {
     try {
       // --- KU-based scoring additions ---
       const subTopicId = topic.subTopic?.id || String(topic.subTopic.title || '').toLowerCase().replace(/\s+/g, '-');
-      const kus = Array.isArray(KUsBySubTopic[subTopicId]) ? KUsBySubTopic[subTopicId] : [];
+      const compositeKey = `${topic.id}:${subTopicId}`;
+      const kus = Array.isArray(KUsBySubTopic[compositeKey])
+        ? KUsBySubTopic[compositeKey]
+        : (Array.isArray(KUsBySubTopic[subTopicId]) ? KUsBySubTopic[subTopicId] : []);
 
       // Helpers (scoped here to avoid cross-file churn)
       const clamp01 = (x) => Math.max(0, Math.min(1, x));
@@ -130,15 +136,21 @@ function StudySession({ topic, onBack }) {
           parsed = safeParseJSON(res);
         } catch (e) {
           console.warn('[AO1 Marking] JSON parse failed, using fallback scorer.', e);
-          const units = keywordFallbackScorer(userAnswer, kus);
-          parsed = { subTopicId, units, errors: [], ar: computeAR(units, kus, 0) };
+          const fbUnits = keywordFallbackScorer(userAnswer, kus);
+          parsed = { subTopicId, units: fbUnits, errors: [], ar: computeAR(fbUnits, kus, 0) };
         }
-        const units = (parsed?.units || []).filter((u) => kus.find((k) => k.id === u.id));
-        const ar = computeAR(units, kus, Array.isArray(parsed?.errors) ? parsed.errors.length : 0);
-        const { successful, missed } = toUI(units, kus);
+        // Ensure every KU is represented; default missing ones to score 0
+        const incoming = Array.isArray(parsed?.units) ? parsed.units : [];
+        const byIdIncoming = new Map(incoming.map(u => [u.id, u]));
+        const allUnits = kus.map(k => {
+          const u = byIdIncoming.get(k.id);
+          return u ? { id: k.id, score: Number(u.score) || 0, evidence: String(u.evidence || '') } : { id: k.id, score: 0, evidence: '' };
+        });
+        const ar = computeAR(allUnits, kus, Array.isArray(parsed?.errors) ? parsed.errors.length : 0);
+        const { successful, missed } = toUI(allUnits, kus);
         const overall = ar >= 0.85 ? 'Excellent recall. Extend with applications and critiques next.' : ar >= 0.7 ? 'Solid base. Shore up the highlighted gaps, then push to application.' : 'Early stage. Focus the micro-prompts below, then re-try in a day.';
-        const srsSignals = units.map((u) => ({ subTopicId, kuId: u.id, grade: srsGradeFor(u) }));
-        feedback = { successful, missed, overall, _ar: ar, _units: units, _srsSignals: srsSignals, _microPrompts: microPrompts(units, kus) };
+        const srsSignals = allUnits.map((u) => ({ subTopicId, kuId: u.id, grade: srsGradeFor(u) }));
+        feedback = { successful, missed, overall, _ar: ar, _units: allUnits, _srsSignals: srsSignals, _microPrompts: microPrompts(allUnits, kus) };
       } else {
         // Legacy prompt path if no KU map available
         const legacyPrompt = `You are an expert AQA Psychology teacher analyzing a student's recall attempt for AQA Psychology 7182.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nSTUDENT'S RECALL:\n"${userAnswer}"\n\nAnalyze this recall and provide specific feedback. You must return ONLY a valid JSON object with this exact structure:\n\n{\n  "successful": [\n    "specific concept or study they mentioned correctly",\n    "another specific point they got right",\n    "third specific thing they recalled well"\n  ],\n  "missed": [\n    "important concept they didn't mention",\n    "key study or researcher they missed",\n    "critical mechanism or process they omitted"\n  ],\n  "overall": "Brief encouraging comment about their effort and what to focus on next"\n}\n\nRules:\n- Each bullet point must be specific (not generic like "some content")\n- Focus on actual concepts, studies, researchers, mechanisms from ${topic.subTopic.title}\n- Keep each bullet under 15 words\n- Be encouraging but honest about gaps\n- Return ONLY the JSON, no other text`;
@@ -188,6 +200,13 @@ function StudySession({ topic, onBack }) {
         }
       } catch (_) {}
       setPhase('ao1-feedback');
+      // Guided flow: auto-progress AO1 -> AO1 summary -> AO2 scenario
+      if (flowMode === 'guided') {
+        setTimeout(() => {
+          try { setPhase('ao1-reveal'); } catch(_) {}
+          setTimeout(() => { try { generateScenario(); } catch(_) {} }, 400);
+        }, 250);
+      }
     } catch (e) {
       console.error('[AO1 Marking] Error:', e);
       const userInputLower = (userAnswer || '').toLowerCase();
@@ -279,6 +298,21 @@ function StudySession({ topic, onBack }) {
           <div className="bg-white rounded-lg shadow p-8 text-center space-y-4">
             <h2 className="text-2xl font-bold">Study Session</h2>
             <p className="text-gray-600">{topic.title} — {topic.subTopic.title}</p>
+            <div className="inline-flex items-center gap-2 bg-gray-50 border rounded px-3 py-2">
+              <span className="text-sm text-gray-700 font-medium">Flow:</span>
+              <button
+                className={`text-sm px-3 py-1 rounded border ${flowMode==='guided' ? 'bg-blue-600 text-white border-blue-700' : 'bg-white text-gray-700 border-gray-300'}`}
+                onClick={() => { setFlowMode('guided'); try { localStorage.setItem('session-flow-mode','guided'); } catch(_) {} }}
+              >
+                Guided
+              </button>
+              <button
+                className={`text-sm px-3 py-1 rounded border ${flowMode==='free' ? 'bg-purple-600 text-white border-purple-700' : 'bg-white text-gray-700 border-gray-300'}`}
+                onClick={() => { setFlowMode('free'); try { localStorage.setItem('session-flow-mode','free'); } catch(_) {} }}
+              >
+                Free
+              </button>
+            </div>
             <div className="grid grid-cols-1 gap-4 text-base text-left">
               <div className="p-4 bg-blue-50 rounded border border-blue-200">
                 <div className="flex items-center gap-2 text-lg font-semibold"><BookOpen className="w-5 h-5"/> AO1 recall</div>
@@ -341,31 +375,62 @@ function StudySession({ topic, onBack }) {
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
             <h3 className="font-semibold">Your Recall Analysis</h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                <h4 className="font-medium text-green-800 mb-2">✅ You Successfully Recalled:</h4>
-                <ul className="space-y-1">
-                  {ao1Feedback?.successful?.map((point, i) => (
-                    <li key={i} className="text-sm text-green-700 flex items-start gap-2">
-                      <span className="text-green-500 mt-1">•</span>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
-                <h4 className="font-medium text-orange-800 mb-2">❌ You Missed:</h4>
-                <ul className="space-y-1">
-                  {ao1Feedback?.missed?.map((point, i) => (
-                    <li key={i} className="text-sm text-orange-700 flex items-start gap-2">
-                      <span className="text-orange-500 mt-1">•</span>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            {(() => {
+              const subId = topic.subTopic.id;
+              const comp = `${topic.id}:${subId}`;
+              const kuList = Array.isArray(KUsBySubTopic[comp]) ? KUsBySubTopic[comp] : (Array.isArray(KUsBySubTopic[subId]) ? KUsBySubTopic[subId] : []);
+              const labelById = new Map(kuList.map(k => [k.id, k.label]));
+              const units = Array.isArray(ao1Feedback?._units) ? ao1Feedback._units : null;
+              const full = units
+                ? units.filter(u => Number(u.score) === 1).map(u => labelById.get(u.id) || u.id)
+                : (ao1Feedback?.successful || []);
+              const partial = units
+                ? units.filter(u => Number(u.score) === 0.5).map(u => labelById.get(u.id) || u.id)
+                : [];
+              const zero = units
+                ? units.filter(u => Number(u.score) === 0).map(u => labelById.get(u.id) || u.id)
+                : (ao1Feedback?.missed || []);
+              return (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-medium text-green-800 mb-2">✅ Successfully Recalled</h4>
+                    <ul className="space-y-1">
+                      {full.map((point, i) => (
+                        <li key={i} className="text-sm text-green-700 flex items-start gap-2">
+                          <span className="text-green-500 mt-1">•</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                      {full.length === 0 && <li className="text-sm text-gray-500">—</li>}
+                    </ul>
+                  </div>
+                  <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                    <h4 className="font-medium text-yellow-800 mb-2">🟡 Got Some</h4>
+                    <ul className="space-y-1">
+                      {partial.map((point, i) => (
+                        <li key={i} className="text-sm text-yellow-800 flex items-start gap-2">
+                          <span className="text-yellow-600 mt-1">•</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                      {partial.length === 0 && <li className="text-sm text-gray-500">—</li>}
+                    </ul>
+                  </div>
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <h4 className="font-medium text-red-800 mb-2">❌ Missed Completely</h4>
+                    <ul className="space-y-1">
+                      {zero.map((point, i) => (
+                        <li key={i} className="text-sm text-red-800 flex items-start gap-2">
+                          <span className="text-red-600 mt-1">•</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                      {zero.length === 0 && <li className="text-sm text-gray-500">—</li>}
+                    </ul>
+                  </div>
+                </div>
+              );
+            })()}
 
             {/* AR score and evidence (transparent marking) */}
             {(typeof ao1Feedback?._ar === 'number' || Array.isArray(ao1Feedback?._units)) && (

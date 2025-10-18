@@ -406,12 +406,12 @@ function TopicDetail({ topic, onBack }) {
               </div>
               {/* Exam Column removed; exams will be in a separate page */}
             </div>
-            <div className="flex items-center justify-between">
-              <button className="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800" onClick={startSelected}>Start</button>
+            <div className="flex flex-col items-center gap-3">
+              <button className="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800 self-center" onClick={startSelected}>Start</button>
               <button
                 disabled={!allSubtopicsReady}
                 onClick={() => setActiveView('examine')}
-                className={`px-4 py-2 rounded-lg font-semibold ${allSubtopicsReady ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-500 cursor-not-allowed'}`}
+                className={`px-4 py-2 rounded-lg font-semibold self-center ${allSubtopicsReady ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-500 cursor-not-allowed'}`}
                 title={allSubtopicsReady ? 'Begin exam practice for this topic' : 'Make all sub-topics exam-ready to unlock'}
               >
                 Start Examining

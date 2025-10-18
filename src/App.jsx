@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import psychologyTopics from './psychologyTopics';
+import englishLitTopics from './englishLitTopics';
 import TopicDetail from './components/TopicDetail';
 import SettingsPanel from './components/SettingsPanel';
 import TaughtContent from './pages/TaughtContent.jsx';
@@ -22,6 +23,7 @@ import VaultDirectory from './pages/VaultDirectory.jsx';
 import Planner from './pages/Planner.jsx';
 import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
 import { topicData as rsTopicsAll } from './topicData.js';
+import { KUsBySubTopic } from './data/knowledgeMaps';
 
 // Helper: group topics by component
 const getTopicsByComponent = (comp, topicsSrc) =>
@@ -118,13 +120,32 @@ function App() {
 
   // Determine topics source
   const psychTopicsAll = psychologyTopics;
-  const topicsSrc = curriculum === 'ocr-rs' ? rsTopicsAll : psychTopicsAll;
+  const topicsSrc = curriculum === 'ocr-rs' ? rsTopicsAll : (curriculum === 'edexcel-englit' ? englishLitTopics : psychTopicsAll);
 
   const selectedTopic = topicsSrc[selectedTopicId] || null;
 
   useEffect(() => {
     document.title = "Psyc Tutor";
   }, []);
+
+  // Dev helper: warn when a sub-topic has no KU map
+  useEffect(() => {
+    try {
+      const missing = [];
+      Object.values(topicsSrc).forEach(t => {
+        (t.subTopics || []).forEach(st => {
+          const composite = `${t.id}:${st.id}`;
+          const hasKU = Array.isArray(KUsBySubTopic[composite]) || Array.isArray(KUsBySubTopic[st.id]);
+          if (!hasKU) missing.push(`${t.id}/${st.id}`);
+        });
+      });
+      if (missing.length > 0) {
+        // eslint-disable-next-line no-console
+        console.warn('[KU] Missing knowledge maps for:', missing);
+      }
+    } catch (_) {}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [curriculum]);
 
   const chooseCurriculum = (id) => {
     setCurriculum(id);
@@ -140,6 +161,7 @@ function App() {
           <div className="grid grid-cols-1 gap-4">
             <button onClick={() => chooseCurriculum('aqa-psych')} className="w-full px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold">AQA Psychology 7182</button>
             <button onClick={() => chooseCurriculum('ocr-rs')} className="w-full px-6 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold">OCR Religious Studies H573</button>
+            <button onClick={() => chooseCurriculum('edexcel-englit')} className="w-full px-6 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 font-semibold">Edexcel English Literature 9ET0</button>
           </div>
         </div>
       </div>
@@ -174,6 +196,7 @@ function App() {
           <div className="flex gap-2">
             <button onClick={() => chooseCurriculum('aqa-psych')} className={`px-3 py-1 rounded border ${curriculum==='aqa-psych'?'bg-blue-600 text-white border-blue-600':'bg-white'}`}>AQA Psychology</button>
             <button onClick={() => chooseCurriculum('ocr-rs')} className={`px-3 py-1 rounded border ${curriculum==='ocr-rs'?'bg-purple-600 text-white border-purple-600':'bg-white'}`}>OCR RS</button>
+            <button onClick={() => chooseCurriculum('edexcel-englit')} className={`px-3 py-1 rounded border ${curriculum==='edexcel-englit'?'bg-emerald-600 text-white border-emerald-600':'bg-white'}`}>Edexcel Eng Lit</button>
           </div>
         </div>
         <SettingsPanel onOpenTaught={() => setView('taught-content')} />
@@ -237,7 +260,7 @@ function App() {
           <div className="flex justify-center items-center gap-3">
             <BookOpen className="w-10 h-10" />
             <h1 className="inline-block text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-[1.2] pb-1">
-              {curriculum === 'ocr-rs' ? 'OCR Religious Studies H573' : 'AQA Psychology 7182'}
+              {curriculum === 'ocr-rs' ? 'OCR Religious Studies H573' : (curriculum === 'edexcel-englit' ? 'Edexcel English Literature 9ET0' : 'AQA Psychology 7182')}
             </h1>
           </div>
           <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
@@ -257,6 +280,13 @@ function App() {
             <Section title="Philosophy" topics={getTopicsByComponent('Philosophy', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Ethics" topics={getTopicsByComponent('Ethics', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Christianity" topics={getTopicsByComponent('Christianity', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+          </>
+        ) : curriculum === 'edexcel-englit' ? (
+          <>
+            <Section title="Component 1: Drama" topics={getTopicsByComponent('Component 1', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Component 2: Prose" topics={getTopicsByComponent('Component 2', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Component 3: Poetry" topics={getTopicsByComponent('Component 3', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <Section title="Coursework (NEA)" topics={getTopicsByComponent('Coursework', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
           </>
         ) : (
           <>

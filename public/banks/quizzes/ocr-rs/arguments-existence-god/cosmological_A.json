@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2025-09-01T14:26:45.052Z",
+  "savedAt": "2025-10-04T12:59:01.474Z",
   "curriculum": "ocr-rs",
   "topicId": "arguments-existence-god",
   "subId": "cosmological",
   "set": "A",
   "questions": [
     {
-      "question": "Which of Aquinas' first three ways is primarily concerned with the concept of motion?",
+      "question": "Which of Aquinas' first three ways in the cosmological argument focuses on motion?",
       "options": [
         "The First Way",
         "The Second Way",
@@ -15,106 +15,106 @@
         "The Fourth Way"
       ],
       "correctAnswer": 0,
-      "explanation": "The First Way argues from motion, suggesting that everything in motion must have been set in motion by something else"
+      "explanation": "The First Way argues from motion, stating that everything in motion must have been set in motion by something else"
     },
     {
-      "question": "What is the main premise of the cosmological argument as proposed by Aquinas?",
+      "question": "What is the primary focus of the cosmological argument as proposed by Aquinas?",
       "options": [
-        "Everything has a purpose",
-        "Everything must have a cause",
-        "The universe is an illusion",
-        "God is the only necessary being"
+        "The existence of design",
+        "The existence of a first cause",
+        "The existence of moral values",
+        "The existence of religious experiences"
       ],
       "correctAnswer": 1,
-      "explanation": "The cosmological argument posits that everything must have a cause, leading to the conclusion of a first cause, which is God"
+      "explanation": "The cosmological argument emphasizes the need for a first cause to explain the existence of the universe. This corresponds to: The existence of a first cause."
     },
     {
-      "question": "In the context of the cosmological argument, what does the term 'contingent being' refer to?",
+      "question": "In the cosmological argument, what does Aquinas' Second Way address?",
       "options": [
-        "A being that exists necessarily",
-        "A being that relies on another for existence",
-        "A being that is eternal",
-        "A being that has no purpose"
+        "Contingency",
+        "Causation",
+        "Motion",
+        "Design"
       ],
       "correctAnswer": 1,
-      "explanation": "A contingent being is one that depends on something else for its existence, contrasting with a necessary being. This corresponds to: A being that relies on another for existence."
+      "explanation": "The Second Way focuses on causation, arguing that everything that exists has a cause"
     },
     {
-      "question": "David Hume challenged the cosmological argument by questioning the assumption of causation. What was one of his key criticisms?",
+      "question": "David Hume challenged the cosmological argument by questioning the necessity of a first cause. What is one of his key criticisms?",
       "options": [
-        "The universe is infinite",
-        "Cause and effect cannot be observed",
-        "The existence of God is self-evident",
-        "All effects have multiple causes"
+        "The universe is eternal",
+        "The universe is designed",
+        "The universe is contingent",
+        "The universe is a product of chance"
       ],
       "correctAnswer": 0,
-      "explanation": "Hume argued that the universe could be infinite and that we cannot assume that everything must have a cause, challenging the cosmological argument. This corresponds to: The universe is infinite."
+      "explanation": "Hume argued that the universe could be eternal and does not necessarily require a first cause. This corresponds to: The universe is eternal."
     },
     {
-      "question": "Copleston and Russell engaged in a famous debate regarding the cosmological argument. What was Russell's main objection?",
-      "options": [
-        "The universe is not contingent",
-        "The universe requires a cause",
-        "The existence of God is not necessary",
-        "Causation is a human construct"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Russell argued that the existence of the universe does not necessitate a cause, thus challenging the cosmological argument. This corresponds to: The existence of God is not necessary."
-    },
-    {
-      "question": "Which of the following is a strength of the cosmological argument?",
-      "options": [
-        "It relies on empirical evidence",
-        "It is based on logical reasoning",
-        "It provides a definitive proof of God",
-        "It is universally accepted"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The cosmological argument is based on logical reasoning about causation, which many find compelling. This corresponds to: It is based on logical reasoning."
-    },
-    {
-      "question": "One criticism of the cosmological argument is that it jumps to the conclusion of a transcendent creator. What does this imply?",
-      "options": [
-        "It lacks sufficient evidence",
-        "It is universally accepted",
-        "It is based on empirical data",
-        "It is a logical necessity"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Critics argue that the cosmological argument does not provide enough evidence to justify the leap to a transcendent creator. This corresponds to: It lacks sufficient evidence."
-    },
-    {
-      "question": "What is a potential logical fallacy found in the cosmological argument?",
+      "question": "According to Hume, what logical fallacy might be present in the cosmological argument?",
       "options": [
         "Begging the question",
-        "Post hoc reasoning",
         "False dichotomy",
-        "Ad hominem"
+        "Post hoc reasoning",
+        "Slippery slope"
       ],
       "correctAnswer": 0,
-      "explanation": "The cosmological argument may commit the fallacy of begging the question by assuming what it seeks to prove"
+      "explanation": "Hume suggested that the cosmological argument may beg the question by assuming the necessity of a first cause without sufficient evidence. This corresponds to: Begging the question."
     },
     {
-      "question": "Aquinas' cosmological argument is classified as which type of argument?",
+      "question": "What is a key strength of the cosmological argument related to empirical evidence?",
       "options": [
-        "A priori",
-        "A posteriori",
-        "Deductive",
-        "Inductive"
+        "It relies on a priori reasoning",
+        "It uses observable phenomena",
+        "It appeals to personal experiences",
+        "It is based on moral values"
       ],
       "correctAnswer": 1,
-      "explanation": "Aquinas' cosmological argument is an a posteriori argument, relying on observation and experience to infer the existence of God"
+      "explanation": "The cosmological argument uses observable phenomena, such as cause and effect, to argue for the existence of God. This corresponds to: It uses observable phenomena."
     },
     {
-      "question": "Which of the following best describes the nature of the cosmological argument?",
+      "question": "Which philosopher is known for the radio debate that defended the cosmological argument?",
       "options": [
-        "It is based on the design of the universe",
-        "It focuses on the existence of evil",
-        "It examines the cause of the universe",
-        "It relies on moral reasoning"
+        "Kant",
+        "Russell",
+        "Copleston",
+        "Dawkins"
       ],
       "correctAnswer": 2,
-      "explanation": "The cosmological argument specifically examines the cause of the universe, arguing that everything that exists has a cause. This corresponds to: It examines the cause of the universe."
+      "explanation": "Copleston is known for his radio debate with Russell, where he defended the cosmological argument"
+    },
+    {
+      "question": "What does the term 'contingency' refer to in the context of the cosmological argument?",
+      "options": [
+        "The universe's design",
+        "The universe's dependence on something else",
+        "The universe's eternal nature",
+        "The universe's randomness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contingency refers to the idea that the universe depends on something else for its existence. This corresponds to: The universe's dependence on something else."
+    },
+    {
+      "question": "What challenge does the theory of evolution pose to the cosmological argument?",
+      "options": [
+        "It supports the idea of a first cause",
+        "It suggests the universe is designed",
+        "It provides a natural explanation for complexity",
+        "It affirms the existence of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The theory of evolution offers a natural explanation for complexity in the universe, challenging the need for a divine creator. This corresponds to: It provides a natural explanation for complexity."
+    },
+    {
+      "question": "Which of the following best describes the nature of a posteriori arguments like the cosmological argument?",
+      "options": [
+        "Based on intuition",
+        "Based on empirical evidence",
+        "Based on deductive reasoning",
+        "Based on abstract concepts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A posteriori arguments, such as the cosmological argument, rely on empirical evidence and observations of the universe. This corresponds to: Based on empirical evidence."
     }
   ]
 }

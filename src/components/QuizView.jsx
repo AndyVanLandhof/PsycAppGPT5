@@ -30,7 +30,7 @@ function QuizView({ topic, onBack }) {
     total: 0
   });
 
-  const { callAIWithVault } = useAIService();
+  const { callAIWithVault, callAIJsonOnly } = useAIService();
   const { createVaultPrompt, getRelevantContext, isVaultLoaded, vaultLoaded } = useVaultService();
   const { callAI } = useAIService();
   const { speak, playPreparedAudio, audioReady, audioLoading, audioError, pause, stop, ttsState } = useElevenLabsTTS();
@@ -408,6 +408,20 @@ function QuizView({ topic, onBack }) {
         const data = JSON.parse(raw);
         if (Array.isArray(data)) return data;
       }
+      // Try alternative curriculum bucket if user changed curriculum between Lab and Quiz
+      const alt = curr === 'aqa-psych' ? 'ocr-rs' : 'aqa-psych';
+      const libKeyAlt = `quiz-lab-lib-${alt}-${topic.id}-${topic.subTopic.id}`;
+      const latestKeyAlt = `quiz-lab-latest-${alt}-${topic.id}-${topic.subTopic.id}`;
+      const libAlt = window?.localStorage?.getItem(libKeyAlt);
+      if (libAlt) {
+        const lib = JSON.parse(libAlt);
+        if (Array.isArray(lib) && lib.length > 0 && Array.isArray(lib[0]?.items)) return lib[0].items;
+      }
+      const rawAlt = window?.localStorage?.getItem(latestKeyAlt);
+      if (rawAlt) {
+        const data = JSON.parse(rawAlt);
+        if (Array.isArray(data)) return data;
+      }
       return null;
     } catch (_) {
       return null;
@@ -452,13 +466,83 @@ Return in this JSON format:
   ]
 }`;
     try {
-      // If using Lab, load locally saved questions; if none, prompt user to go to Lab
+      // If using Lab, load locally saved questions; if none, auto-build and save
       if (bankSet === 'lab') {
         const lab = await loadBankIfAvailable();
         if (!lab || lab.length === 0) {
-          setIsLoading(false);
-          alert('No questions generated - go to the Lab');
-          setQuizStarted(false);
+          // Auto-build: generate with strict JSON path and persist to Lab keys
+          const vaultPromptLab = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { quiz: true });
+          let resultLab;
+          try {
+            resultLab = await callAIJsonOnly(vaultPromptLab, null, 'gpt-4o-mini');
+          } catch (_) {
+            resultLab = await callAIWithVault(vaultPromptLab, topic.title, topic.subTopic.title, { includeAdditional: true });
+          }
+          let parsedLab;
+          try {
+            const jsonStr = extractFirstJson(resultLab);
+            if (!jsonStr) throw new Error('No JSON found in AI output');
+            parsedLab = JSON.parse(jsonStr);
+          } catch (e) {
+            // Fall back to curated if parsing fails
+            const fallback = generateFallbackQuestions();
+            const itemsFallback = fallback.slice(0, 10);
+            const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
+            const labKeyPersist = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
+            const libKeyPersist = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
+            try {
+              window?.localStorage?.setItem(labKeyPersist, JSON.stringify(itemsFallback));
+              const existing = JSON.parse(window?.localStorage?.getItem(libKeyPersist) || '[]');
+              const next = [{ id: Date.now(), createdAt: new Date().toISOString(), set: 'LAB', items: itemsFallback }, ...existing].slice(0, 10);
+              window?.localStorage?.setItem(libKeyPersist, JSON.stringify(next));
+            } catch (_) {}
+            setQuestions(itemsFallback);
+            setCurrentQuestionIndex(0);
+            setUserAnswers([]);
+            setQuizComplete(false);
+            setShowResults(false);
+            setQuizStats({ correct: 0, incorrect: 0, total: 0 });
+            return;
+          }
+          const quizQuestionsLab = Array.isArray(parsedLab.questions) ? parsedLab.questions : [];
+          let normalizedLab = normalizeQuestionsFromAI(quizQuestionsLab);
+          // Validate and normalize as usual
+          const kwsLab = getKeywordsForSubTopic(topic.subTopic.title);
+          const isSLT = topic.subTopic.title.toLowerCase().includes('social learning') || topic.subTopic.title.toLowerCase().includes('bandura');
+          const isRE = topic.subTopic.title.toLowerCase().includes('religious experience') || topic.subTopic.title.toLowerCase().includes('otto') || topic.subTopic.title.toLowerCase().includes('william james') || topic.subTopic.title.toLowerCase().includes('james');
+          const curatedLab = isSLT ? curatedSLTQuestions() : (isRE ? curatedREQuestions() : []);
+          const curatedIterLab = curatedLab[Symbol.iterator]();
+          const isBadOption = (opt) => /religious|philosoph|ethical|historical/i.test(String(opt || ''));
+          const validatedLab = normalizedLab.map(item => {
+            const domainOk = looksDomainRelevant(item.question, kwsLab) || looksDomainRelevant(item.explanation, kwsLab) || (item.options || []).some(o => looksDomainRelevant(o, kwsLab));
+            const optionsOk = Array.isArray(item.options) && item.options.length === 4 && item.options.every(o => !isBadOption(o));
+            const answerOk = Number.isInteger(item.correctAnswer) && item.correctAnswer >= 0 && item.correctAnswer < 4;
+            if (domainOk && optionsOk && answerOk && !isGenericStem(item.question)) return item;
+            if (domainOk && optionsOk && answerOk && isGenericStem(item.question)) {
+              return { ...item, question: sanitizeQuestionText(rewriteGenericStem(topic.subTopic.title)) };
+            }
+            const next = curatedIterLab.next();
+            return next.done ? item : next.value;
+          });
+          normalizedLab = validatedLab.map(normalizeOptions);
+          normalizedLab = dedupeAndTopUp(normalizedLab, curatedLab).map(alignExplanation).slice(0, 10);
+          // Persist to Lab keys
+          const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
+          const labKeyPersist = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
+          const libKeyPersist = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
+          try {
+            window?.localStorage?.setItem(labKeyPersist, JSON.stringify(normalizedLab));
+            const existing = JSON.parse(window?.localStorage?.getItem(libKeyPersist) || '[]');
+            const next = [{ id: Date.now(), createdAt: new Date().toISOString(), set: 'LAB', items: normalizedLab }, ...existing].slice(0, 10);
+            window?.localStorage?.setItem(libKeyPersist, JSON.stringify(next));
+          } catch (_) {}
+          // Load into session
+          setQuestions(normalizedLab);
+          setCurrentQuestionIndex(0);
+          setUserAnswers([]);
+          setQuizComplete(false);
+          setShowResults(false);
+          setQuizStats({ correct: 0, incorrect: 0, total: 0 });
           return;
         }
         const items = lab.slice(0, 10).map(q => ({
@@ -476,12 +560,17 @@ Return in this JSON format:
         return;
       }
       const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { quiz: true });
-      const result = await callAIWithVault(
-        vaultPrompt,
-        topic.title,
-        topic.subTopic.title,
-        { includeAdditional: true }
-      );
+      let result;
+      try {
+        result = await callAIJsonOnly(vaultPrompt, null, 'gpt-4o-mini');
+      } catch (_) {
+        result = await callAIWithVault(
+          vaultPrompt,
+          topic.title,
+          topic.subTopic.title,
+          { includeAdditional: true }
+        );
+      }
       console.log('[Quiz][AI Raw Result]', result);
       let parsed;
       try {
@@ -1034,23 +1123,37 @@ Return ONLY this JSON:
               Show the Answers
             </button>
           </div>
-          <div className="flex flex-col items-center gap-2 mb-4">
+          <div className="flex flex-col items-center gap-2 mb-2">
             <label className="text-sm text-gray-600">Question Source</label>
-            <div className="flex gap-2 flex-wrap justify-center">
-              {['live','lab'].map(k => (
-                <button key={k} onClick={() => setBankSet(k)} className={`px-3 py-1 rounded border ${bankSet===k? 'bg-emerald-600 text-white border-emerald-700':'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'}`}>{k.toUpperCase()}</button>
-              ))}
+            <div className="flex gap-3 flex-wrap justify-center">
+              <button
+                onClick={async () => {
+                  if (!mode) return;
+                  setBankSet('live');
+                  setQuizStarted(true);
+                  if (vaultLoaded) await generateQuiz();
+                }}
+                disabled={!mode}
+                className={`px-6 py-2 rounded-lg font-semibold ${mode ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
+              >
+                LIVE
+              </button>
+              <button
+                onClick={async () => {
+                  if (!mode) return;
+                  setBankSet('lab');
+                  setQuizStarted(true);
+                  if (vaultLoaded) await generateQuiz();
+                }}
+                disabled={!mode}
+                className={`px-6 py-2 rounded-lg font-semibold ${mode ? 'bg-emerald-600 text-white hover:bg-emerald-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
+              >
+                LAB
+              </button>
             </div>
           </div>
-          <div className="flex justify-center">
-            <button
-              className={`px-8 py-3 rounded-lg font-bold text-lg transition-all ${mode ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
-              disabled={!mode}
-              onClick={() => { setQuizStarted(true); if (vaultLoaded) generateQuiz(); }}
-            >
-              Start the Quiz
-            </button>
-          </div>
+          {/* Quiz Library (local LAB history) */}
+          <QuizLibraryPreview topic={topic} />
           <div className="text-center mt-4">
             <button
               className="text-blue-600 hover:underline font-medium"
@@ -1652,30 +1755,48 @@ Return ONLY this JSON:
           </div>
 
           <div className="space-y-3">
-            {currentQuestion.options.map((option, index) => (
-              <button
-                key={index}
-                onClick={() => handleAnswerSelect(index)}
-                disabled={userAnswers[currentQuestionIndex] !== undefined}
-                className={`w-full p-4 text-left border rounded-lg transition-all ${
-                  userAnswers[currentQuestionIndex] === index
-                    ? 'bg-blue-50 border-blue-300 ring-2 ring-blue-400'
-                    : 'bg-gray-50 border-gray-200 hover:bg-gray-100 hover:border-gray-300'
-                } ${userAnswers[currentQuestionIndex] !== undefined ? 'cursor-default' : 'cursor-pointer'}`}
-              >
-                <div className="flex items-center gap-3">
-                  <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold ${
-                    userAnswers[currentQuestionIndex] === index
-                      ? 'bg-blue-500 border-blue-500 text-white'
-                      : 'bg-white border-gray-300 text-gray-700'
-                  }`}>
-                    {String.fromCharCode(65 + index)}
+            {currentQuestion.options.map((option, index) => {
+              const answered = userAnswers[currentQuestionIndex] !== undefined;
+              const isSelected = userAnswers[currentQuestionIndex] === index;
+              const isCorrect = currentQuestion.correctAnswer === index;
+              const showImmediate = answered && mode === 'show';
+              // Base styles
+              let rowCls = 'bg-gray-50 border-gray-200 hover:bg-gray-100 hover:border-gray-300';
+              // Highlight selection in Blind mode (existing behavior)
+              if (isSelected && !showImmediate) {
+                rowCls = 'bg-blue-50 border-blue-300 ring-2 ring-blue-400';
+              }
+              // In Show mode, after answering, highlight correct vs. wrong
+              if (showImmediate) {
+                if (isCorrect) rowCls = 'bg-green-50 border-green-300 ring-1 ring-green-400';
+                else if (isSelected) rowCls = 'bg-red-50 border-red-300 ring-1 ring-red-400';
+                else rowCls = 'bg-gray-50 border-gray-200';
+              }
+              const badgeCls = isSelected && !showImmediate
+                ? 'bg-blue-500 border-blue-500 text-white'
+                : 'bg-white border-gray-300 text-gray-700';
+              return (
+                <button
+                  key={index}
+                  onClick={() => handleAnswerSelect(index)}
+                  disabled={answered}
+                  className={`w-full p-4 text-left border rounded-lg transition-all ${rowCls} ${answered ? 'cursor-default' : 'cursor-pointer'}`}
+                >
+                  <div className="flex items-center gap-3">
+                    <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold ${badgeCls}`}>
+                      {String.fromCharCode(65 + index)}
+                    </div>
+                    <span className="text-gray-800">{cleanReferenceMentions(option)}</span>
+                    {showImmediate && isCorrect && (
+                      <CheckCircle className="w-5 h-5 text-green-600 ml-auto" />
+                    )}
+                    {showImmediate && isSelected && !isCorrect && (
+                      <XCircle className="w-5 h-5 text-red-600 ml-auto" />
+                    )}
                   </div>
-                  <span className="text-gray-800">{cleanReferenceMentions(option)}</span>
-                  {/* Removed tick/cross feedback here */}
-                </div>
-              </button>
-            ))}
+                </button>
+              );
+            })}
           </div>
 
           {userAnswers[currentQuestionIndex] !== undefined && (
@@ -1693,3 +1814,39 @@ Return ONLY this JSON:
 }
 
 export default QuizView; 
+
+function QuizLibraryPreview({ topic }) {
+  try {
+    const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
+    const libKey = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
+    const libRaw = window?.localStorage?.getItem(libKey);
+    const items = libRaw ? JSON.parse(libRaw) : [];
+    if (!Array.isArray(items) || items.length === 0) return null;
+    return (
+      <div className="w-full border rounded-lg p-3 bg-gray-50">
+        <div className="text-sm font-semibold text-gray-800 mb-2">Quiz Library</div>
+        <div className="max-h-40 overflow-y-auto space-y-2">
+          {items.map((it) => (
+            <div key={it.id} className="flex items-center justify-between text-sm bg-white border rounded p-2">
+              <div className="text-gray-700">{new Date(it.createdAt).toLocaleString()}</div>
+              <button
+                className="px-2 py-1 bg-emerald-600 text-white rounded hover:bg-emerald-700"
+                onClick={() => {
+                  try {
+                    const labKeyPersist = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
+                    window?.localStorage?.setItem(labKeyPersist, JSON.stringify(it.items || []));
+                    // optional toast could go here
+                  } catch (_) {}
+                }}
+              >
+                Use
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  } catch (_) {
+    return null;
+  }
+}
