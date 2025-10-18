@@ -289,7 +289,7 @@ function TopicDetail({ topic, onBack }) {
   }
 
   return (
-    <div className={`bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800 min-h-screen`}>
+    <div className={`bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         <button className="text-blue-600 underline mb-4" onClick={onBack}>
           ← Back to Topics

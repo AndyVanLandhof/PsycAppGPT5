@@ -252,7 +252,7 @@ function App() {
 
   // Home view: show dashboard for selected curriculum
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${curriculum==='ocr-rs' ? 'from-blue-100 via-blue-50 to-blue-200' : 'from-pink-200 via-pink-100 to-pink-300'}`}>
+    <div className={`min-h-screen bg-gradient-to-br ${curriculum==='ocr-rs' ? 'from-blue-100 via-blue-50 to-blue-200' : (curriculum==='edexcel-englit' ? 'from-emerald-200 via-emerald-100 to-emerald-300' : 'from-pink-200 via-pink-100 to-pink-300')}`}>
       <ToastContainer position="top-right" autoClose={3500} hideProgressBar={false} newestOnTop closeOnClick pauseOnFocusLoss draggable pauseOnHover />
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Title & Description */}

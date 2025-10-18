@@ -1105,7 +1105,7 @@ Return ONLY this JSON:
 
   if (!quizStarted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800 flex flex-col justify-center items-center">
+      <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 flex flex-col justify-center items-center`}>
         <div className="max-w-xl w-full bg-white border rounded-lg shadow-sm p-8 space-y-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">{topic.subTopic.title} Quiz</h2>
           <p className="text-gray-600 text-center mb-6">Choose your quiz mode:</p>
@@ -1178,7 +1178,7 @@ Return ONLY this JSON:
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+      <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
         <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
           {onBack && (
             <div className="flex justify-center mb-6">
@@ -1205,7 +1205,7 @@ Return ONLY this JSON:
 
   if (showHistory) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+      <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
         <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
           {onBack && (
             <div className="flex justify-center mb-6">
@@ -1296,7 +1296,7 @@ Return ONLY this JSON:
 
   if (showStoredQuizzes) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+      <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
         <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
           {onBack && (
             <div className="flex justify-center mb-6">
@@ -1451,7 +1451,7 @@ Return ONLY this JSON:
 
   if (showResults) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800">
+      <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
         <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
           {onBack && (
             <div className="flex justify-center mb-6">
@@ -1626,7 +1626,7 @@ Return ONLY this JSON:
   const currentQuestion = questions[currentQuestionIndex];
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800`}>
+    <div className={`min-h-screen bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {onBack && (
           <div className="flex justify-center mb-6">

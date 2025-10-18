@@ -1549,7 +1549,7 @@ Return in this JSON format:
   }
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${((getSelectedCurriculum&&getSelectedCurriculum())==='ocr-rs') ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800`}>
+    <div className={`min-h-screen bg-gradient-to-br ${((getSelectedCurriculum&&getSelectedCurriculum())==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((getSelectedCurriculum&&getSelectedCurriculum())==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Back To Button */}
         <button 

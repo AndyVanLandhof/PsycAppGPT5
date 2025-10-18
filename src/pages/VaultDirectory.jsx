@@ -60,7 +60,7 @@ export default function VaultDirectory({ onBack }) {
   }, [items]);
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${curr==='ocr-rs' ? 'from-blue-50 to-blue-100' : 'from-pink-100 to-pink-200'} text-gray-800`}>
+    <div className={`min-h-screen bg-gradient-to-br ${curr==='ocr-rs' ? 'from-blue-50 to-blue-100' : (curr==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800`}>
       <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Vault Directory</h1>
