@@ -5,189 +5,202 @@
   "subTopic": "multi-store-model",
   "subTopicTitle": "Multi-store model",
   "type": "quiz",
-  "generatedAt": "2025-12-06T09:45:21.964Z",
+  "generatedAt": "2025-12-06T10:13:49.758Z",
   "items": [
     {
       "id": "multi-store-model-q1",
       "question": "Who proposed the multi-store model of memory?",
       "options": [
-        "Elizabeth Loftus",
-        "Richard Atkinson",
-        "Alan Baddeley",
-        "Hermann Ebbinghaus"
+        "Atkinson and Shiffrin",
+        "Baddeley and Hitch",
+        "Tulving",
+        "Milner and Scoville"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Richard Atkinson and Richard Shiffrin proposed the multi-store model of memory in 1968."
+      "explanation": "Atkinson and Shiffrin proposed the multi-store model in 1968, describing separate stores for sensory, short-term, and long-term memory."
     },
     {
       "id": "multi-store-model-q2",
-      "question": "According to the multi-store model, which component is responsible for holding information for a very short duration?",
+      "question": "According to the multi-store model, information first enters which memory store?",
       "options": [
-        "Long-term memory",
+        "Sensory register",
         "Short-term memory",
-        "Sensory memory",
+        "Long-term memory",
         "Working memory"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Sensory memory holds information for a very brief period, typically less than a second."
+      "explanation": "The sensory register is the initial store where sensory information is received; it holds information very briefly."
     },
     {
       "id": "multi-store-model-q3",
-      "question": "What is the capacity of short-term memory, according to Miller (1956)?",
+      "question": "How is information primarily encoded in short-term memory according to the multi-store model?",
       "options": [
-        "7±2 items",
-        "5±1 items",
-        "10±2 items",
-        "3±1 items"
+        "Acoustically",
+        "Visually",
+        "Semantically",
+        "Olfactorily"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Miller (1956) suggested that short-term memory has a capacity of 7±2 items."
+      "explanation": "Information in short-term memory is primarily encoded acoustically, which is why people often remember sounds better in the short term."
     },
     {
       "id": "multi-store-model-q4",
-      "question": "Which type of rehearsal is most effective for transferring information into long-term memory?",
+      "question": "What is the typical duration of short-term memory without rehearsal?",
       "options": [
-        "Maintenance rehearsal",
-        "Elaborative rehearsal",
-        "Chunking",
-        "Retrieval rehearsal"
+        "18-30 seconds",
+        "1-2 minutes",
+        "5-10 seconds",
+        "1 hour"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Elaborative rehearsal is more effective for transferring information to long-term memory than maintenance rehearsal."
+      "explanation": "Research by Peterson and Peterson (1959) showed that short-term memory lasts about 18-30 seconds without rehearsal."
     },
     {
       "id": "multi-store-model-q5",
-      "question": "What type of information is primarily stored in long-term memory?",
+      "question": "Which process is necessary for transferring information from short-term to long-term memory in the multi-store model?",
       "options": [
-        "Visual information",
-        "Acoustic information",
-        "Semantic information",
-        "Sensory information"
+        "Rehearsal",
+        "Retrieval",
+        "Encoding",
+        "Decoding"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Long-term memory primarily stores semantic information, which relates to meanings and concepts."
+      "explanation": "Rehearsal is necessary for transferring information from short-term to long-term memory, as proposed by Atkinson and Shiffrin."
     },
     {
       "id": "multi-store-model-q6",
-      "question": "In the multi-store model, what is the duration of short-term memory?",
+      "question": "In the multi-store model, what is the main way information is stored in long-term memory?",
       "options": [
-        "Less than 1 second",
-        "20-30 seconds",
-        "1-2 minutes",
-        "Several hours"
+        "Semantically",
+        "Acoustically",
+        "Visually",
+        "Alphabetically"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Short-term memory typically lasts for about 20-30 seconds without rehearsal."
+      "explanation": "Long-term memory primarily uses semantic encoding, meaning information is stored based on its meaning."
     },
     {
       "id": "multi-store-model-q7",
-      "question": "Which study demonstrated the role of acoustic encoding in short-term memory?",
+      "question": "According to the multi-store model, what is the capacity of sensory memory?",
       "options": [
-        "Loftus and Palmer (1974)",
-        "Baddeley (1966)",
-        "Murdock (1962)",
-        "Tulving (1972)"
+        "Very large",
+        "7±2 items",
+        "Unlimited",
+        "5-9 items"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Baddeley (1966) found that participants struggled to recall words that sounded similar, indicating acoustic coding."
+      "explanation": "Sensory memory has a very large capacity, capable of holding vast amounts of information briefly."
     },
     {
       "id": "multi-store-model-q8",
-      "question": "Which part of the multi-store model is described as having an unlimited capacity?",
+      "question": "Which study by Glanzer and Cunitz (1966) supports the existence of separate short-term and long-term memory stores?",
       "options": [
-        "Short-term memory",
-        "Sensory memory",
-        "Long-term memory",
-        "Working memory"
+        "Serial position effect",
+        "Dual-task study",
+        "Chunking experiment",
+        "Levels of processing"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Long-term memory is considered to have an unlimited capacity, storing vast amounts of information."
+      "explanation": "Glanzer and Cunitz's serial position effect demonstrates distinct short-term and long-term memory through primacy and recency effects."
     },
     {
       "id": "multi-store-model-q9",
-      "question": "In a study, students are asked to recall a list of words immediately after learning them. What type of memory is primarily being tested?",
+      "question": "What did Milner and Scoville's (1957) study on patient HM reveal about memory?",
       "options": [
-        "Sensory memory",
-        "Short-term memory",
-        "Long-term memory",
-        "Working memory"
+        "Short-term memory is distinct from long-term memory",
+        "Memory is a unitary system",
+        "Semantic memory is separate from episodic memory",
+        "Memory is primarily acoustic"
       ],
-      "correctAnswer": 1,
-      "ao": "AO2",
-      "explanation": "This scenario tests short-term memory, as students recall information shortly after it has been presented."
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Patient HM's case showed that while his short-term memory was intact, he could not form new long-term memories, supporting the separation of memory stores."
     },
     {
       "id": "multi-store-model-q10",
-      "question": "A student studies for a history test by creating a timeline. What type of rehearsal is being utilized?",
+      "question": "Sarah is trying to memorize a phone number by repeating it over and over. Which memory process is she using according to the multi-store model?",
       "options": [
         "Maintenance rehearsal",
         "Elaborative rehearsal",
-        "Visual encoding",
+        "Semantic encoding",
         "Chunking"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Creating a timeline is an example of elaborative rehearsal, as it involves organizing information meaningfully."
+      "explanation": "Sarah is using maintenance rehearsal, which involves repeating information to keep it in short-term memory longer."
     },
     {
       "id": "multi-store-model-q11",
-      "question": "During a memory test, a participant recalls items from a list presented earlier but struggles with the order. What aspect of memory is this an example of?",
+      "question": "Tom remembers his friend's phone number by associating it with his birth year and favorite sports team. Which type of encoding is this?",
       "options": [
-        "Recall",
-        "Recognition",
-        "Reconstruction",
-        "Rehearsal"
+        "Elaborative encoding",
+        "Acoustic encoding",
+        "Maintenance rehearsal",
+        "Iconic encoding"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This scenario illustrates recall, where participants retrieve information without cues, often leading to order errors."
+      "explanation": "Tom is using elaborative encoding by linking new information with existing knowledge, which aids in transferring it to long-term memory."
     },
     {
       "id": "multi-store-model-q12",
-      "question": "One criticism of the multi-store model is that it oversimplifies memory. What alternative model addresses this issue?",
+      "question": "A researcher finds that participants recall the first few items of a list better than the middle ones. Which memory phenomenon does this illustrate?",
       "options": [
-        "Working Memory Model",
-        "Levels of Processing Model",
-        "Dual Coding Theory",
-        "Schema Theory"
+        "Primacy effect",
+        "Recency effect",
+        "Chunking effect",
+        "Interference effect"
       ],
       "correctAnswer": 0,
-      "ao": "AO3",
-      "explanation": "The Working Memory Model, proposed by Baddeley and Hitch (1974), offers a more complex view of memory processes."
+      "ao": "AO2",
+      "explanation": "The primacy effect occurs when participants remember items at the beginning of a list better, as they have more time to transfer them to long-term memory."
     },
     {
       "id": "multi-store-model-q13",
-      "question": "What is a methodological critique of studies supporting the multi-store model, such as those by Atkinson and Shiffrin?",
+      "question": "Which of the following is a criticism of the multi-store model of memory?",
       "options": [
-        "Use of case studies",
-        "Reliance on self-reports",
-        "Overemphasis on rehearsal",
-        "Limited sample diversity"
+        "It oversimplifies the complexity of memory processes",
+        "It does not distinguish between sensory modalities",
+        "It lacks empirical support",
+        "It ignores the role of attention"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Critics argue that the multi-store model places too much emphasis on rehearsal as the primary method of transferring information to long-term memory."
+      "explanation": "The multi-store model is criticized for oversimplifying memory, as it proposes a linear process without considering the complexity of memory interactions."
     },
     {
       "id": "multi-store-model-q14",
-      "question": "How does the multi-store model compare to the levels of processing theory?",
+      "question": "How does the working memory model challenge the multi-store model of memory?",
       "options": [
-        "Both emphasize rehearsal",
-        "Levels of processing focuses on encoding depth",
-        "Multi-store model ignores retrieval",
-        "Both models are identical"
+        "By suggesting multiple components within short-term memory",
+        "By combining sensory and short-term memory into one store",
+        "By proposing no distinction between short-term and long-term memory",
+        "By emphasizing the role of sensory memory"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The levels of processing theory, proposed by Craik and Lockhart (1972), emphasizes the depth of encoding rather than just rehearsal."
+      "explanation": "The working memory model challenges the multi-store model by proposing that short-term memory consists of multiple components, not just a single store."
+    },
+    {
+      "id": "multi-store-model-q15",
+      "question": "Which of the following is a limitation of the multi-store model based on evidence from patient studies?",
+      "options": [
+        "It does not account for different types of long-term memory",
+        "It ignores the capacity of sensory memory",
+        "It fails to describe the encoding processes",
+        "It overlooks the role of retrieval cues"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Patient studies, such as those on HM, suggest the multi-store model does not account for different types of long-term memory, such as procedural and declarative."
     }
   ]
 }

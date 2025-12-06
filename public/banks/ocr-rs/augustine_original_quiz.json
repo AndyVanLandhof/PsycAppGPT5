@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "original",
+  "subTopicTitle": "Original Sin",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T11:01:10.610Z",
+  "items": [
+    {
+      "id": "original-q1",
+      "question": "According to Augustine, what is the primary consequence of Original Sin?",
+      "options": [
+        "Loss of free will",
+        "Alienation from God",
+        "Physical death",
+        "Moral perfection"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Augustine taught that Original Sin leads to alienation from God, affecting humanity's relationship with Him."
+    },
+    {
+      "id": "original-q2",
+      "question": "In which work did Augustine extensively discuss the concept of Original Sin?",
+      "options": [
+        "City of God",
+        "Confessions",
+        "On Nature and Grace",
+        "The Trinity"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Augustine's 'On Nature and Grace' is a significant text where he elaborates on Original Sin and human nature."
+    },
+    {
+      "id": "original-q3",
+      "question": "What term did Augustine use to describe the inherited nature of Original Sin?",
+      "options": [
+        "Concupiscence",
+        "Grace",
+        "Predestination",
+        "Eschatology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine referred to concupiscence as the disordered desire inherited through Original Sin."
+    },
+    {
+      "id": "original-q4",
+      "question": "Which council affirmed Augustine’s teachings on Original Sin?",
+      "options": [
+        "Council of Nicaea",
+        "Council of Trent",
+        "Council of Chalcedon",
+        "Council of Ephesus"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The Council of Trent (1545-1563) affirmed Augustine’s teachings on Original Sin, especially against Pelagianism."
+    },
+    {
+      "id": "original-q5",
+      "question": "Augustine believed that Original Sin was transmitted through which means?",
+      "options": [
+        "Social influence",
+        "Biological inheritance",
+        "Divine punishment",
+        "Environmental factors"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Augustine argued that Original Sin is biologically inherited, passed down from Adam and Eve."
+    },
+    {
+      "id": "original-q6",
+      "question": "Which of the following concepts is NOT directly related to Augustine’s teachings on Original Sin?",
+      "options": [
+        "Salvation",
+        "Eschatology",
+        "Atonement",
+        "Incarnation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "While Incarnation is a key Christian doctrine, it is not directly related to Augustine's teachings on Original Sin."
+    },
+    {
+      "id": "original-q7",
+      "question": "What is the term for the state of sinfulness that, according to Augustine, all humans are born into?",
+      "options": [
+        "Original Sin",
+        "Inherited Guilt",
+        "Ancestral Sin",
+        "Primal Fall"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Original Sin is the term Augustine used to describe the sinful state into which all humans are born."
+    },
+    {
+      "id": "original-q8",
+      "question": "Which theological opponent of Augustine argued against the concept of Original Sin?",
+      "options": [
+        "Pelagius",
+        "Athanasius",
+        "Aquinas",
+        "Luther"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pelagius was a theologian who opposed Augustine, arguing that humans could achieve righteousness without divine grace."
+    },
+    {
+      "id": "original-q9",
+      "question": "In Augustine's view, what role does baptism play concerning Original Sin?",
+      "options": [
+        "It eradicates Original Sin completely",
+        "It provides grace without removing Original Sin",
+        "It is symbolic with no real effect on Original Sin",
+        "It prevents future sins"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Augustine believed baptism provides grace that helps to overcome Original Sin but does not remove its effects entirely."
+    },
+    {
+      "id": "original-q10",
+      "question": "Consider a society where all individuals are seen as inherently good. How might this contradict Augustine's view on Original Sin?",
+      "options": [
+        "It suggests that humans are incapable of sin",
+        "It denies the need for divine grace",
+        "It implies sin is a social construct",
+        "It focuses on individual morality"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Augustine argued that divine grace is necessary due to Original Sin, so seeing individuals as inherently good would contradict this need."
+    },
+    {
+      "id": "original-q11",
+      "question": "If a psychologist argues that behavior is purely learned, how would this challenge Augustine’s concept of Original Sin?",
+      "options": [
+        "It supports the idea of free will",
+        "It suggests sin is not innate",
+        "It aligns with the concept of predestination",
+        "It reinforces the existence of sin"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "If behavior is purely learned, it challenges Augustine’s idea that sin is innate due to Original Sin."
+    },
+    {
+      "id": "original-q12",
+      "question": "A study shows that toddlers exhibit selfish behaviors naturally. How might this be used to support Augustine's doctrine of Original Sin?",
+      "options": [
+        "It demonstrates the presence of social learning",
+        "It indicates the need for moral education",
+        "It suggests innate sinfulness",
+        "It implies environmental influence"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Selfish behaviors in toddlers could be seen as evidence of innate sinfulness, supporting Augustine's doctrine of Original Sin."
+    },
+    {
+      "id": "original-q13",
+      "question": "Which of the following is a critique of Augustine's view on Original Sin from a modern perspective?",
+      "options": [
+        "It overemphasizes human agency",
+        "It relies heavily on biblical literalism",
+        "It aligns too closely with scientific theories",
+        "It underestimates the role of social factors"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Critiques often argue that Augustine's view relies too much on a literal interpretation of the Bible, which modern perspectives may question."
+    },
+    {
+      "id": "original-q14",
+      "question": "How does Augustine’s teaching on Original Sin compare with the Eastern Orthodox view?",
+      "options": [
+        "Eastern Orthodox reject Original Sin completely",
+        "Both view sin as an inherited guilt",
+        "Eastern Orthodox emphasize ancestral sin without inherited guilt",
+        "Both require baptism for salvation"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Eastern Orthodox emphasize 'ancestral sin' which affects humanity but do not believe in inherited guilt as Augustine did."
+    },
+    {
+      "id": "original-q15",
+      "question": "What methodological critique could be applied to Augustine’s doctrine of Original Sin?",
+      "options": [
+        "It lacks empirical evidence",
+        "It is based on historical analysis",
+        "It uses scientific data",
+        "It relies on psychological studies"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A critique is that Augustine’s doctrine is theological and lacks empirical evidence which modern methodologies often require."
+    }
+  ]
+}

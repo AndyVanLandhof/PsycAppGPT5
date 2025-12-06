@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "correlations",
+  "subTopicTitle": "Correlations",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:39:09.320Z",
+  "items": [
+    {
+      "id": "correlations-q1",
+      "question": "What is the main purpose of using a correlation in psychological research?",
+      "options": [
+        "To examine the relationship between two variables",
+        "To establish a cause-and-effect relationship",
+        "To manipulate variables in a controlled environment",
+        "To provide in-depth qualitative data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Correlations assess the strength and direction of a relationship between two variables but do not imply causation."
+    },
+    {
+      "id": "correlations-q2",
+      "question": "Which of the following correlation coefficients represents the strongest relationship?",
+      "options": [
+        "-0.85",
+        "0.54",
+        "0.10",
+        "-0.30"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The coefficient -0.85 indicates a strong negative relationship, as closer proximity to -1.00 or 1.00 indicates stronger relationships."
+    },
+    {
+      "id": "correlations-q3",
+      "question": "Which statement best describes a positive correlation?",
+      "options": [
+        "As one variable increases, the other variable also increases",
+        "As one variable decreases, the other variable increases",
+        "There is no relationship between the variables",
+        "As one variable increases, the other variable remains constant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A positive correlation indicates that both variables move in the same direction; as one increases, so does the other."
+    },
+    {
+      "id": "correlations-q4",
+      "question": "Which researcher conducted a study on the correlations between stress and illness?",
+      "options": [
+        "Cohen et al. (1993)",
+        "Milgram (1963)",
+        "Bandura et al. (1961)",
+        "Asch (1951)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cohen et al. (1993) explored the relationship between stress levels and susceptibility to the common cold."
+    },
+    {
+      "id": "correlations-q5",
+      "question": "Which of the following is a limitation of correlational studies?",
+      "options": [
+        "They cannot establish causation",
+        "They require large sample sizes",
+        "They are time-consuming and expensive",
+        "They do not allow for variable manipulation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Correlational studies can identify relationships but cannot determine causality due to the lack of control over variables."
+    },
+    {
+      "id": "correlations-q6",
+      "question": "What does a correlation coefficient of zero indicate?",
+      "options": [
+        "No relationship between the variables",
+        "A perfect positive relationship",
+        "A perfect negative relationship",
+        "A weak positive relationship"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A correlation coefficient of zero implies no linear relationship between the variables being studied."
+    },
+    {
+      "id": "correlations-q7",
+      "question": "Which factor is NOT typically controlled in a correlational study?",
+      "options": [
+        "Extraneous variables",
+        "Independent variables",
+        "Dependent variables",
+        "Confounding variables"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Correlational studies do not manipulate an independent variable; they only measure the existing variables."
+    },
+    {
+      "id": "correlations-q8",
+      "question": "What is the main difference between a correlation and an experiment?",
+      "options": [
+        "Correlations do not manipulate variables, while experiments do",
+        "Correlations establish causation, while experiments do not",
+        "Correlations require hypotheses, while experiments do not",
+        "Correlations involve qualitative data, while experiments involve quantitative data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Experiments manipulate variables to determine causation, whereas correlations only examine relationships between variables."
+    },
+    {
+      "id": "correlations-q9",
+      "question": "Which of the following is an example of a spurious correlation?",
+      "options": [
+        "Ice cream sales and drowning incidents",
+        "Height and shoe size",
+        "Age and reading ability",
+        "Temperature and energy consumption"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ice cream sales and drownings both increase in the summer, but the relationship is due to a third variable (temperature)."
+    },
+    {
+      "id": "correlations-q10",
+      "question": "A researcher finds a correlation of 0.65 between time spent studying and exam scores. What can be concluded from this finding?",
+      "options": [
+        "There is a moderate positive relationship between studying and exam scores",
+        "Studying causes an increase in exam scores",
+        "There is no relationship between studying and exam scores",
+        "Studying more decreases exam scores"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A correlation of 0.65 suggests a moderate positive relationship, meaning that more studying is associated with higher exam scores."
+    },
+    {
+      "id": "correlations-q11",
+      "question": "A scatterplot shows a downward trend from left to right. What type of correlation does this suggest?",
+      "options": [
+        "Negative correlation",
+        "Positive correlation",
+        "No correlation",
+        "Curvilinear correlation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A downward trend in a scatterplot indicates a negative correlation, where one variable increases as the other decreases."
+    },
+    {
+      "id": "correlations-q12",
+      "question": "A correlation study finds a weak positive relationship between exercise and happiness. Which correlation coefficient is most likely?",
+      "options": [
+        "0.15",
+        "0.85",
+        "-0.15",
+        "-0.85"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A correlation of 0.15 indicates a weak positive relationship, as it is close to zero and on the positive side of the scale."
+    },
+    {
+      "id": "correlations-q13",
+      "question": "How can the direction of causation be a limitation in correlational research?",
+      "options": [
+        "It cannot be determined from correlation alone",
+        "It requires a large sample size",
+        "It ensures high internal validity",
+        "It can be established through random assignment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Correlational research cannot determine which variable influences the other, leaving the direction of causation unclear."
+    },
+    {
+      "id": "correlations-q14",
+      "question": "Why might a third variable problem be an issue in correlational studies?",
+      "options": [
+        "It can create a spurious correlation",
+        "It eliminates the relationship between variables",
+        "It increases the reliability of findings",
+        "It allows for variable manipulation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A third variable can falsely suggest a correlation between two variables when the third variable is the actual cause."
+    },
+    {
+      "id": "correlations-q15",
+      "question": "What is a key advantage of correlational research over experimental research?",
+      "options": [
+        "It allows for the study of variables that cannot be ethically manipulated",
+        "It provides evidence of causal relationships",
+        "It eliminates the influence of extraneous variables",
+        "It guarantees higher ecological validity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Correlational research is useful for studying variables that are impractical or unethical to manipulate in experiments."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "self-report-techniques",
+  "subTopicTitle": "Self-report techniques",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:38:29.076Z",
+  "items": [
+    {
+      "id": "self-report-techniques-q1",
+      "question": "What is a key advantage of using closed questions in questionnaires?",
+      "options": [
+        "They are easy to analyze statistically.",
+        "They provide rich qualitative data.",
+        "They encourage respondents to provide detailed answers.",
+        "They reduce the risk of social desirability bias."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Closed questions allow for easy quantification of responses, making statistical analysis straightforward."
+    },
+    {
+      "id": "self-report-techniques-q2",
+      "question": "Which of the following is a limitation of open-ended questions?",
+      "options": [
+        "They limit the depth of responses.",
+        "They require more time to analyze.",
+        "They restrict the range of possible answers.",
+        "They are unsuitable for complex topics."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Open-ended questions can generate rich data but are time-consuming to analyze due to their qualitative nature."
+    },
+    {
+      "id": "self-report-techniques-q3",
+      "question": "What is the primary goal of a pilot study in self-report research?",
+      "options": [
+        "To test the research hypothesis.",
+        "To identify potential ethical issues.",
+        "To ensure the reliability and clarity of the questions.",
+        "To gather data for final analysis."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pilot studies help refine questions to ensure they are clear and reliable before the main study."
+    },
+    {
+      "id": "self-report-techniques-q4",
+      "question": "In Likert scales, what type of data is typically collected?",
+      "options": [
+        "Nominal data",
+        "Ordinal data",
+        "Interval data",
+        "Ratio data"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Likert scales produce ordinal data, as they measure attitudes along a continuum."
+    },
+    {
+      "id": "self-report-techniques-q5",
+      "question": "Which study is known for using the self-report method to study obedience?",
+      "options": [
+        "Milgram (1963)",
+        "Asch (1951)",
+        "Zimbardo (1971)",
+        "Bandura (1961)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Milgram's study on obedience involved participants reporting their feelings and thoughts during the experiment."
+    },
+    {
+      "id": "self-report-techniques-q6",
+      "question": "What is the primary risk of using leading questions in a self-report study?",
+      "options": [
+        "They increase the response rate.",
+        "They introduce response bias.",
+        "They enhance participant understanding.",
+        "They simplify data analysis."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Leading questions can bias responses by suggesting a particular answer, affecting the study's validity."
+    },
+    {
+      "id": "self-report-techniques-q7",
+      "question": "Which of the following is a benefit of using standardized self-report instruments?",
+      "options": [
+        "They allow for individualized responses.",
+        "They reduce the cost of data collection.",
+        "They enhance the reliability and validity of the data.",
+        "They require minimal ethical considerations."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Standardized instruments promote consistent data collection, enhancing reliability and validity across studies."
+    },
+    {
+      "id": "self-report-techniques-q8",
+      "question": "What is a key characteristic of a semantic differential scale?",
+      "options": [
+        "It uses numerical scales to measure frequency.",
+        "It uses bipolar adjectives to measure attitudes.",
+        "It requires descriptive responses.",
+        "It assesses physiological responses."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Semantic differential scales measure attitudes using pairs of bipolar adjectives, such as 'happy-sad'."
+    },
+    {
+      "id": "self-report-techniques-q9",
+      "question": "What is the main purpose of a structured interview?",
+      "options": [
+        "To explore topics in depth with flexible questioning.",
+        "To gather detailed qualitative data.",
+        "To ensure consistency and comparability of responses.",
+        "To minimize interviewer bias."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Structured interviews use a set list of questions to maintain consistency, allowing for comparability across participants."
+    },
+    {
+      "id": "self-report-techniques-q10",
+      "question": "A researcher wants to study the impact of social media on self-esteem. They distribute a questionnaire to 100 university students. What is the dependent variable in this study?",
+      "options": [
+        "Social media usage",
+        "Age of the participants",
+        "Self-esteem",
+        "The number of university students"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Self-esteem is the dependent variable because it is the outcome being measured in response to social media usage."
+    },
+    {
+      "id": "self-report-techniques-q11",
+      "question": "A survey finds that 80% of respondents report feeling anxious about public speaking. What type of data does this represent?",
+      "options": [
+        "Ordinal data",
+        "Nominal data",
+        "Interval data",
+        "Ratio data"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The data is nominal as it categorizes respondents into those who feel anxious and those who do not."
+    },
+    {
+      "id": "self-report-techniques-q12",
+      "question": "A psychologist conducts an interview to assess the impact of a recent natural disaster on mental health. Which self-report method are they using?",
+      "options": [
+        "Questionnaire",
+        "Structured interview",
+        "Unstructured interview",
+        "Observation"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "An unstructured interview allows the psychologist to explore the topic in depth, adapting questions as needed."
+    },
+    {
+      "id": "self-report-techniques-q13",
+      "question": "How can social desirability bias be reduced in self-report studies?",
+      "options": [
+        "By using face-to-face interviews",
+        "By ensuring anonymity",
+        "By using leading questions",
+        "By increasing the sample size"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Anonymity can reduce social desirability bias as participants may feel more comfortable providing honest responses."
+    },
+    {
+      "id": "self-report-techniques-q14",
+      "question": "Which is an evaluation point of using self-report techniques in research?",
+      "options": [
+        "They provide objective data.",
+        "They are free from any form of bias.",
+        "They can be affected by demand characteristics.",
+        "They always produce quantitative data."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Self-report techniques can be influenced by demand characteristics, where participants alter responses based on perceived expectations."
+    },
+    {
+      "id": "self-report-techniques-q15",
+      "question": "Compared to structured interviews, what is a disadvantage of unstructured interviews?",
+      "options": [
+        "They provide less detailed data.",
+        "They are less flexible in questioning.",
+        "They have higher reliability.",
+        "They are more time-consuming to analyze."
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Unstructured interviews can generate rich data but are more time-consuming to analyze due to their qualitative nature."
+    }
+  ]
+}

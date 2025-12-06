@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "fight-or-flight",
+  "subTopicTitle": "The fight or flight response",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:32:09.735Z",
+  "items": [
+    {
+      "id": "fight-or-flight-q1",
+      "question": "Which part of the brain is primarily responsible for triggering the fight or flight response?",
+      "options": [
+        "Amygdala",
+        "Hippocampus",
+        "Cerebellum",
+        "Frontal Lobe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The amygdala detects threat and signals the hypothalamus to activate the fight or flight response."
+    },
+    {
+      "id": "fight-or-flight-q2",
+      "question": "Which hormone is released from the adrenal medulla during the fight or flight response?",
+      "options": [
+        "Adrenaline",
+        "Cortisol",
+        "Insulin",
+        "Estrogen"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Adrenaline is released from the adrenal medulla, preparing the body for a quick response to threat."
+    },
+    {
+      "id": "fight-or-flight-q3",
+      "question": "What is the name of the pathway that involves the hypothalamus, pituitary gland, and adrenal cortex during stress?",
+      "options": [
+        "HPA Axis",
+        "SAM Pathway",
+        "Limbic Circuit",
+        "Reticular Formation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The HPA Axis (Hypothalamic-Pituitary-Adrenal Axis) is responsible for the body's long-term stress response."
+    },
+    {
+      "id": "fight-or-flight-q4",
+      "question": "Which researcher(s) conducted a study on the physiological effects of stress in 1936?",
+      "options": [
+        "Hans Selye",
+        "Walter Cannon",
+        "John Watson",
+        "Sigmund Freud"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hans Selye studied the physiological effects of stress and developed the General Adaptation Syndrome model."
+    },
+    {
+      "id": "fight-or-flight-q5",
+      "question": "Which structure in the brain regulates the autonomic nervous system?",
+      "options": [
+        "Hypothalamus",
+        "Thalamus",
+        "Pons",
+        "Medulla Oblongata"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The hypothalamus regulates the autonomic nervous system, controlling the fight or flight response."
+    },
+    {
+      "id": "fight-or-flight-q6",
+      "question": "What is the role of cortisol in the fight or flight response?",
+      "options": [
+        "Regulates glucose metabolism",
+        "Slows down heart rate",
+        "Increases digestive activity",
+        "Decreases blood pressure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cortisol regulates glucose metabolism, providing energy to handle stressors."
+    },
+    {
+      "id": "fight-or-flight-q7",
+      "question": "Which of the following is NOT an immediate physiological change during the fight or flight response?",
+      "options": [
+        "Increased heart rate",
+        "Decreased respiratory rate",
+        "Dilated pupils",
+        "Suppressed digestion"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "During the fight or flight response, respiratory rate increases, not decreases."
+    },
+    {
+      "id": "fight-or-flight-q8",
+      "question": "Walter Cannon is known for which theory related to stress?",
+      "options": [
+        "Fight or Flight",
+        "General Adaptation Syndrome",
+        "Social Readjustment Rating Scale",
+        "Two-Factor Theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Walter Cannon coined the term 'fight or flight' to describe the body's response to perceived threats."
+    },
+    {
+      "id": "fight-or-flight-q9",
+      "question": "Which part of the autonomic nervous system is activated during the fight or flight response?",
+      "options": [
+        "Sympathetic Nervous System",
+        "Parasympathetic Nervous System",
+        "Somatic Nervous System",
+        "Central Nervous System"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The sympathetic nervous system is activated during the fight or flight response, preparing the body for action."
+    },
+    {
+      "id": "fight-or-flight-q10",
+      "question": "A student feels their heart racing and their palms sweating before giving a presentation. Which system is responsible?",
+      "options": [
+        "Sympathetic Nervous System",
+        "Parasympathetic Nervous System",
+        "Endocrine System",
+        "Enteric Nervous System"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The sympathetic nervous system is responsible for these physiological changes associated with the fight or flight response."
+    },
+    {
+      "id": "fight-or-flight-q11",
+      "question": "During a stressful examination, a student notices their breathing becomes rapid. Which hormone is most likely influencing this response?",
+      "options": [
+        "Adrenaline",
+        "Oxytocin",
+        "Serotonin",
+        "Dopamine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Adrenaline increases heart rate and respiration, supporting the body's readiness to respond to stress."
+    },
+    {
+      "id": "fight-or-flight-q12",
+      "question": "After a near-accident, a driver feels a rush of energy and heightened awareness. Which system is primarily activated?",
+      "options": [
+        "Sympathetic Nervous System",
+        "Parasympathetic Nervous System",
+        "Somatic Nervous System",
+        "Digestive System"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The sympathetic nervous system activates the fight or flight response, providing energy and heightened senses."
+    },
+    {
+      "id": "fight-or-flight-q13",
+      "question": "What is one criticism of the fight or flight model of stress response?",
+      "options": [
+        "It overlooks the 'tend and befriend' response.",
+        "It ignores the role of the parasympathetic nervous system.",
+        "It suggests stress responses are voluntary.",
+        "It only applies to chronic stress situations."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The model is critiqued for overlooking the 'tend and befriend' response, particularly in females, as suggested by Taylor et al. (2000)."
+    },
+    {
+      "id": "fight-or-flight-q14",
+      "question": "How does the fight or flight response differ between genders according to recent studies?",
+      "options": [
+        "Females may show a 'tend and befriend' response.",
+        "Males do not experience the fight or flight response.",
+        "Females have a stronger fight or flight response.",
+        "Both genders have identical responses."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Taylor et al. (2000) suggested that females may exhibit a 'tend and befriend' response, differing from the traditional fight or flight model."
+    },
+    {
+      "id": "fight-or-flight-q15",
+      "question": "Why might the fight or flight response be considered maladaptive in modern society?",
+      "options": [
+        "It can lead to chronic stress-related illnesses.",
+        "It is too slow to be effective.",
+        "It does not activate quickly enough.",
+        "It enhances long-term survival."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "In modern society, chronic activation of the fight or flight response can contribute to stress-related health problems."
+    }
+  ]
+}

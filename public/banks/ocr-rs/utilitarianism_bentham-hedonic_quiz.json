@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "utilitarianism",
+  "topicTitle": "Utilitarianism",
+  "subTopic": "bentham-hedonic",
+  "subTopicTitle": "Bentham & the Hedonic Calculus",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:59:23.140Z",
+  "items": [
+    {
+      "id": "bentham-hedonic-q1",
+      "question": "Which philosopher is primarily associated with the development of utilitarianism and the Hedonic Calculus?",
+      "options": [
+        "Jeremy Bentham",
+        "John Stuart Mill",
+        "Immanuel Kant",
+        "G.E. Moore"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jeremy Bentham is the philosopher who developed the concept of utilitarianism and introduced the Hedonic Calculus."
+    },
+    {
+      "id": "bentham-hedonic-q2",
+      "question": "What is the primary goal of Bentham's utilitarianism?",
+      "options": [
+        "Maximizing happiness",
+        "Following duty",
+        "Promoting virtue",
+        "Preserving individual rights"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bentham's utilitarianism aims to maximize happiness and minimize pain, known as the principle of utility."
+    },
+    {
+      "id": "bentham-hedonic-q3",
+      "question": "Which of the following is a component of Bentham's Hedonic Calculus?",
+      "options": [
+        "Intensity",
+        "Virtue",
+        "Duty",
+        "Freedom"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Intensity is one of the seven factors in Bentham's Hedonic Calculus used to measure the value of a pleasure or pain."
+    },
+    {
+      "id": "bentham-hedonic-q4",
+      "question": "Which element of the Hedonic Calculus refers to how soon a pleasure or pain will occur?",
+      "options": [
+        "Propinquity",
+        "Extent",
+        "Duration",
+        "Certainty"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Propinquity refers to the nearness in time of a pleasure or pain, a factor in Bentham's Hedonic Calculus."
+    },
+    {
+      "id": "bentham-hedonic-q5",
+      "question": "John Stuart Mill criticized Bentham's utilitarianism for ignoring what aspect of happiness?",
+      "options": [
+        "Quality",
+        "Quantity",
+        "Duration",
+        "Intensity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mill argued that Bentham's utilitarianism focused too much on the quantity of happiness and neglected its quality."
+    },
+    {
+      "id": "bentham-hedonic-q6",
+      "question": "Which factor of the Hedonic Calculus measures the likelihood of a pleasure or pain leading to further pleasures or pains?",
+      "options": [
+        "Fecundity",
+        "Purity",
+        "Extent",
+        "Intensity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Fecundity is the likelihood that a pleasure will lead to more pleasures, used in Bentham's Hedonic Calculus."
+    },
+    {
+      "id": "bentham-hedonic-q7",
+      "question": "What does the 'Extent' factor in the Hedonic Calculus refer to?",
+      "options": [
+        "The number of people affected",
+        "The certainty of the outcome",
+        "The purity of the pleasure",
+        "The duration of the effect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Extent refers to the number of people who are affected by the pleasure or pain, a factor in Bentham's Hedonic Calculus."
+    },
+    {
+      "id": "bentham-hedonic-q8",
+      "question": "The 'Purity' factor in Bentham's Hedonic Calculus evaluates what aspect of a pleasure?",
+      "options": [
+        "The absence of accompanying pain",
+        "The moral righteousness",
+        "The intensity of the pleasure",
+        "The total amount of pleasure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Purity evaluates whether a pleasure is free from pain, indicating how untainted the pleasure is."
+    },
+    {
+      "id": "bentham-hedonic-q9",
+      "question": "Which of the following is NOT one of the seven criteria of Bentham's Hedonic Calculus?",
+      "options": [
+        "Virtue",
+        "Certainty",
+        "Duration",
+        "Extent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Virtue is not a criterion in Bentham's Hedonic Calculus, which includes factors like certainty, duration, and extent."
+    },
+    {
+      "id": "bentham-hedonic-q10",
+      "question": "A company is considering a policy that would increase employee happiness but reduce overall profits. According to Bentham's utilitarianism, what should they prioritize?",
+      "options": [
+        "Employee happiness",
+        "Company profits",
+        "Shareholder dividends",
+        "Managerial bonuses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Bentham's utilitarianism prioritizes actions that maximize overall happiness, suggesting the company should prioritize employee happiness."
+    },
+    {
+      "id": "bentham-hedonic-q11",
+      "question": "In a small community, a new law is proposed that benefits the majority but harms a minority. How might Bentham's utilitarianism assess this situation?",
+      "options": [
+        "Favor the majority",
+        "Protect minority rights",
+        "Consider individual duties",
+        "Evaluate based on virtue"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Bentham's utilitarianism assesses actions based on the greatest happiness for the greatest number, likely favoring the majority."
+    },
+    {
+      "id": "bentham-hedonic-q12",
+      "question": "A hospital must choose between funding a new wing or updating equipment. Using the Hedonic Calculus, which action is likely prioritized?",
+      "options": [
+        "The action with greater overall happiness",
+        "The action with the least cost",
+        "The action benefiting the most employees",
+        "The action with the most political support"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Using the Hedonic Calculus, the hospital would choose the action that produces the greatest overall happiness."
+    },
+    {
+      "id": "bentham-hedonic-q13",
+      "question": "What is a common criticism of Bentham's Hedonic Calculus in terms of practicality?",
+      "options": [
+        "It's too complex to apply consistently",
+        "It doesn't consider motives",
+        "It ignores cultural differences",
+        "It lacks historical context"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Bentham's Hedonic Calculus is too complex and impractical to apply consistently in real-world situations."
+    },
+    {
+      "id": "bentham-hedonic-q14",
+      "question": "How does Mill's approach to utilitarianism differ from Bentham's in terms of qualitative assessment?",
+      "options": [
+        "Mill emphasizes quality over quantity of pleasures",
+        "Mill focuses on duty",
+        "Mill prioritizes individual rights",
+        "Mill dismisses happiness as a measure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Mill introduces the idea of higher and lower pleasures, emphasizing quality over Bentham's quantity-based approach."
+    },
+    {
+      "id": "bentham-hedonic-q15",
+      "question": "Which aspect of Bentham's theory is often contrasted with Kant's deontological ethics?",
+      "options": [
+        "Focus on consequences",
+        "Emphasis on duty",
+        "Role of intentions",
+        "Value of virtue"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Bentham's focus on the consequences of actions contrasts with Kant's deontological ethics, which emphasize duty and intentions."
+    }
+  ]
+}

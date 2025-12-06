@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "issues-and-debates",
+  "topicTitle": "Issues and Debates",
+  "subTopic": "holism-reductionism",
+  "subTopicTitle": "Holism and reductionism",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:43:43.497Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define holism and reductionism in psychology.",
+      "keyPoints": [
+        "Holism refers to understanding the whole behavior rather than its parts.",
+        "Reductionism involves breaking down complex behavior into simpler components.",
+        "Holism considers the entire experience or system, while reductionism focuses on individual elements."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes definitions of both holism and reductionism with clear distinctions between the two.",
+        "partial": "Includes definition of one term or lacks clear distinction between the two.",
+        "none": "Missing definitions or incorrect."
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the types of reductionism in psychology.",
+      "keyPoints": [
+        "Biological reductionism explains behavior in terms of biological structures and processes.",
+        "Environmental reductionism explains behavior in terms of stimulus-response links.",
+        "Reductionism can also include levels such as psychological and sociocultural."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Describes biological and environmental reductionism with examples.",
+        "partial": "Mentions one type of reductionism or lacks examples.",
+        "none": "Missing or incorrect descriptions."
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how Gestalt psychology relates to holism.",
+      "keyPoints": [
+        "Gestalt psychology emphasizes perceiving the whole rather than the sum of parts.",
+        "It supports holism by asserting that psychological phenomena cannot be understood solely by analyzing components.",
+        "Gestalt principles include proximity, similarity, and closure."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains the connection between Gestalt psychology and holism with principles.",
+        "partial": "Mentions Gestalt psychology without clear relation to holism.",
+        "none": "Incorrect or lacks connection to holism."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher is studying depression by examining neurotransmitter levels. Apply reductionism or holism to this approach.",
+      "keyPoints": [
+        "This approach is an example of biological reductionism.",
+        "It focuses on breaking down depression into its biological components (neurotransmitters).",
+        "Contrasts with holistic approaches that might consider social and psychological factors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct identification of biological reductionism with explanation.",
+        "partial": "Identifies reductionism but lacks explanation or detail.",
+        "none": "Incorrect application or explanation."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a therapist using family therapy to treat a client's anxiety. Which approach does this illustrate, holism or reductionism?",
+      "keyPoints": [
+        "Family therapy is an example of a holistic approach.",
+        "Considers the individual's issues within the context of their family and relationships.",
+        "Focuses on the whole system rather than isolated symptoms."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies holism with clear explanation.",
+        "partial": "Identifies holism but lacks clear explanation.",
+        "none": "Incorrect identification or explanation."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A psychologist uses cognitive-behavioral therapy (CBT) to change irrational thoughts in patients. Apply reductionism or holism to this approach.",
+      "keyPoints": [
+        "CBT can be seen as reductionist as it targets specific thought patterns.",
+        "Focuses on breaking down complex behaviors into cognitive and behavioral components.",
+        "Can also incorporate holistic elements by considering broader life contexts."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies reductionism with explanation, acknowledges holistic elements.",
+        "partial": "Identifies reductionism but lacks full explanation or holistic consideration.",
+        "none": "Incorrect application or lacks explanation."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and limitations of reductionism in psychology.",
+      "keyPoints": [
+        "Strength: Allows for scientific investigation and testing of components.",
+        "Limitation: Oversimplifies complex behaviors and ignores broader contexts.",
+        "PEEL: Point, Evidence, Explanation, Link back to question."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes a balanced evaluation with examples and clear use of PEEL.",
+        "partial": "Mentions strengths or limitations, lacks depth or PEEL structure.",
+        "none": "Lacks relevant evaluation or structure."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the advantages of a holistic approach in psychology.",
+      "keyPoints": [
+        "Advantage: Provides a more complete understanding of behavior within context.",
+        "Can integrate multiple perspectives and address complex interactions.",
+        "PEEL: Point, Evidence, Explanation, Link back to question."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough discussion with examples and clear use of PEEL.",
+        "partial": "Mentions advantages but lacks depth or PEEL structure.",
+        "none": "Lacks relevant discussion or structure."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the practical implications of adopting a holistic approach in therapy.",
+      "keyPoints": [
+        "Holistic approaches can lead to more personalized and effective treatments.",
+        "May be more time-consuming and require more resources.",
+        "PEEL: Point, Evidence, Explanation, Link back to question."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates practical implications with examples and uses PEEL format.",
+        "partial": "Mentions implications but lacks depth or PEEL structure.",
+        "none": "Lacks relevant evaluation or structure."
+      }
+    }
+  ]
+}

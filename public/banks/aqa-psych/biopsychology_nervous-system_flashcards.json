@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "nervous-system",
+  "subTopicTitle": "The divisions of the nervous system",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:29:42.263Z",
+  "items": [
+    {
+      "question": "What is the central nervous system (CNS)?",
+      "answer": "The CNS is composed of the brain and spinal cord, responsible for processing information and controlling responses.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the peripheral nervous system (PNS).",
+      "answer": "The PNS connects the CNS to the rest of the body and is divided into the somatic and autonomic nervous systems.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the role of the somatic nervous system?",
+      "answer": "The somatic nervous system controls voluntary movements and transmits sensory and motor information to and from the CNS.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the autonomic nervous system (ANS).",
+      "answer": "The ANS regulates involuntary body functions and is divided into the sympathetic and parasympathetic branches.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What does the sympathetic nervous system do?",
+      "answer": "The sympathetic nervous system prepares the body for 'fight or flight' response by increasing heart rate, dilating pupils, etc.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the parasympathetic nervous system?",
+      "answer": "The parasympathetic nervous system conserves energy by slowing heart rate and increasing digestive activities, promoting 'rest and digest'.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Taylor et al. (2000) find about stress responses?",
+      "answer": "Taylor et al. found that females often exhibit a 'tend and befriend' response to stress, differing from the traditional 'fight or flight' model.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'homeostasis'.",
+      "answer": "Homeostasis is the body's ability to maintain a stable internal environment despite external changes.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a neuron?",
+      "answer": "A neuron is a nerve cell that transmits electrical and chemical signals throughout the nervous system.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'synapse'.",
+      "answer": "A synapse is the junction between two neurons where neurotransmitters are released to transmit impulses.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the role of neurotransmitters?",
+      "answer": "Neurotransmitters are chemicals that transmit signals across a synapse from one neuron to another.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Broca (1861) discover about brain function?",
+      "answer": "Broca identified a brain region responsible for speech production, known as Broca's area, located in the frontal lobe.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the fight or flight response apply to a sudden loud noise?",
+      "answer": "The sympathetic nervous system activates, increasing heart rate and alertness to prepare the body for a potential threat.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the role of the parasympathetic nervous system to post-exercise recovery.",
+      "answer": "The parasympathetic nervous system slows heart rate and facilitates digestion, aiding in recovery after physical exertion.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the autonomic nervous system apply to digestion?",
+      "answer": "The parasympathetic branch promotes digestion by increasing digestive secretions and muscle contractions in the digestive tract.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the role of neurotransmitters to depression.",
+      "answer": "Imbalances in neurotransmitters like serotonin and dopamine are linked to depression, affecting mood and emotional regulation.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of using fMRI in studying the brain.",
+      "answer": "fMRI provides high spatial resolution images of brain activity, allowing researchers to pinpoint active brain regions accurately.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the fight or flight response model.",
+      "answer": "The model may be overly simplistic, as it doesn't account for alternative responses like 'tend and befriend' in females.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Broca's (1861) research.",
+      "answer": "Broca's case study provided crucial insights but lacked generalizability due to reliance on a single patient's brain damage.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of using animal studies in biopsychology.",
+      "answer": "Animal studies may not accurately reflect human behaviors due to differences in physiology and cognition, limiting generalizability.",
+      "ao": "AO3"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "explanations-of-attachment",
+  "subTopicTitle": "Explanations of attachment",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:17:43.003Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Bowlby's theory of attachment.",
+      "keyPoints": [
+        "Monotropy",
+        "Critical period",
+        "Internal working model"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'secure base' in attachment theory.",
+      "keyPoints": [
+        "Secure base",
+        "Exploration",
+        "Attachment figure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the learning theory of attachment?",
+      "keyPoints": [
+        "Classical conditioning",
+        "Operant conditioning",
+        "Role of reinforcement"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Tommy is a one-year-old who shows distress when his mother leaves and is happy when she returns. Apply attachment theory to explain Tommy's behavior.",
+      "keyPoints": [
+        "Secure attachment",
+        "Separation anxiety",
+        "Joy on reunion"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies attachment theory accurately with all key points",
+        "partial": "Applies theory but misses some key points or detail",
+        "none": "Misapplies theory or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A caregiver consistently meets the needs of the child by responding to their signals. How might this behavior affect the child's attachment style?",
+      "keyPoints": [
+        "Secure attachment",
+        "Sensitive responsiveness",
+        "Trusting relationship"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies attachment theory accurately with all key points",
+        "partial": "Applies theory but misses some key points or detail",
+        "none": "Misapplies theory or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sophie has formed multiple attachments with her parents, grandparents, and childminder. Use Bowlby's theory to discuss how this aligns or conflicts with his views.",
+      "keyPoints": [
+        "Monotropy",
+        "Hierarchy of attachments",
+        "Primary attachment figure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Bowlby's theory accurately with all key points",
+        "partial": "Applies theory but misses some key points or detail",
+        "none": "Misapplies theory or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the learning theory of attachment using the PEEL structure.",
+      "keyPoints": [
+        "Evidence against (e.g., Harlow's monkeys)",
+        "Explanation of limitation",
+        "Alternative theory (e.g., Bowlby)",
+        "Link back to learning theory"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with evaluation and PEEL structure",
+        "partial": "Includes some key points or lacks structure",
+        "none": "Lacks evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and limitations of Bowlby's evolutionary theory of attachment using PEEL.",
+      "keyPoints": [
+        "Strength: survival advantage",
+        "Limitation: monotropy criticism",
+        "Evidence supporting/contradicting",
+        "Link back to theory"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with evaluation and PEEL structure",
+        "partial": "Includes some key points or lacks structure",
+        "none": "Lacks evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically evaluate the concept of the 'critical period' in attachment theory using the PEEL structure.",
+      "keyPoints": [
+        "Critical period definition",
+        "Evidence supporting (e.g., Lorenz)",
+        "Counter-evidence or flexibility of period",
+        "Link back to overall concept"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with evaluation and PEEL structure",
+        "partial": "Includes some key points or lacks structure",
+        "none": "Lacks evaluation or key points"
+      }
+    }
+  ]
+}

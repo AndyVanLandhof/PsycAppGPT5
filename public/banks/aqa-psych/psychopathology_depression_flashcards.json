@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "depression",
+  "subTopicTitle": "Depression",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:35:27.214Z",
+  "items": [
+    {
+      "question": "What is depression?",
+      "answer": "Depression is a mood disorder characterized by persistent sadness, lack of interest, and impaired daily functioning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define unipolar depression.",
+      "answer": "Unipolar depression involves depressive episodes without manic or hypomanic states, leading to persistent low mood and other symptoms.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define bipolar disorder.",
+      "answer": "Bipolar disorder is characterized by alternating episodes of depression and mania or hypomania.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What are cognitive symptoms of depression?",
+      "answer": "Cognitive symptoms include negative thinking, low self-esteem, and difficulty concentrating.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Beck (1967) propose about depression?",
+      "answer": "Beck (1967) proposed the cognitive triad, suggesting depression is maintained by negative views of the self, world, and future.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Ellis (1962) suggest in his ABC model?",
+      "answer": "Ellis (1962) suggested depression results from irrational beliefs activated by negative events, leading to emotional consequences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What are behavioral symptoms of depression?",
+      "answer": "Behavioral symptoms include changes in activity levels, disrupted sleep patterns, and changes in appetite.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What are the emotional symptoms of depression?",
+      "answer": "Emotional symptoms include persistent sadness, feelings of hopelessness, and irritability.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Seligman (1975) find about learned helplessness?",
+      "answer": "Seligman (1975) found that experiencing uncontrollable stressors can lead to learned helplessness, contributing to depression.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the role of serotonin in depression?",
+      "answer": "Low levels of serotonin are associated with mood regulation deficits, contributing to depressive symptoms.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'negative schema'.",
+      "answer": "Negative schema refers to a pattern of negative thought processes, often developed in childhood, influencing one's perception of the world.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Koster et al. (2005) find about attention biases?",
+      "answer": "Koster et al. (2005) found that depressed individuals have attention biases towards negative information, perpetuating depressive symptoms.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply Beck's cognitive triad to this scenario: 'Jane believes she is unlovable, the world is unfair, and her future is bleak.'",
+      "answer": "Jane's beliefs exemplify Beck's cognitive triad, with negative views of the self (unlovable), the world (unfair), and the future (bleak).",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Ellis's ABC model apply to this scenario: 'Tom loses his job and believes he will never succeed, leading to depression'?",
+      "answer": "Tom's belief ('never succeed') is an irrational belief (B) activated by losing his job (A), leading to depression (C).",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of learned helplessness to this scenario: 'Maria has failed multiple exams and feels she cannot improve.'",
+      "answer": "Maria's repeated failures contribute to learned helplessness, making her feel incapable of improvement.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How can negative schema explain this scenario: 'John interprets neutral comments as criticism'?",
+      "answer": "John's negative schema leads him to perceive neutral comments as criticism, reinforcing depressive thoughts.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Beck's cognitive theory of depression.",
+      "answer": "Beck's cognitive theory is supported by empirical evidence showing depressed individuals have negative thinking patterns.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Ellis's ABC model.",
+      "answer": "The ABC model may overlook biological factors, focusing solely on cognitive processes in depression.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Seligman's learned helplessness research.",
+      "answer": "Seligman's research relies on animal studies, which may lack generalizability to human depression.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one strength of the biological explanation for depression.",
+      "answer": "The biological explanation is supported by evidence linking neurotransmitter imbalances, like low serotonin, to depression.",
+      "ao": "AO3"
+    }
+  ]
+}

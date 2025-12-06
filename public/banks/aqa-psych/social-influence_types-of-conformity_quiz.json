@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "types-of-conformity",
+  "subTopicTitle": "Types of conformity",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:09:53.553Z",
+  "items": [
+    {
+      "id": "types-of-conformity-q1",
+      "question": "What type of conformity involves accepting information from others as evidence about reality?",
+      "options": [
+        "Informational social influence",
+        "Normative social influence",
+        "Compliance",
+        "Identification"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Informational social influence occurs when individuals conform because they believe others have accurate information."
+    },
+    {
+      "id": "types-of-conformity-q2",
+      "question": "Which type of conformity involves changing behavior to fit in with a group while privately disagreeing?",
+      "options": [
+        "Compliance",
+        "Internalization",
+        "Identification",
+        "Normative social influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Compliance is when individuals conform publicly but maintain their personal views privately."
+    },
+    {
+      "id": "types-of-conformity-q3",
+      "question": "Who conducted the line judgment study that demonstrated normative social influence?",
+      "options": [
+        "Solomon Asch (1951)",
+        "Stanley Milgram (1963)",
+        "Philip Zimbardo (1971)",
+        "Muzafer Sherif (1935)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Solomon Asch's 1951 study showed that participants conformed to group pressure even when the group was clearly wrong."
+    },
+    {
+      "id": "types-of-conformity-q4",
+      "question": "Which type of conformity involves adopting a group's beliefs as one's own?",
+      "options": [
+        "Internalization",
+        "Compliance",
+        "Identification",
+        "Normative social influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Internalization is when an individual adopts the beliefs or behaviors of a group and accepts them as their own."
+    },
+    {
+      "id": "types-of-conformity-q5",
+      "question": "In which study did Muzafer Sherif use the autokinetic effect to study conformity?",
+      "options": [
+        "Muzafer Sherif (1935)",
+        "Solomon Asch (1951)",
+        "Philip Zimbardo (1971)",
+        "Stanley Milgram (1963)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 1935, Muzafer Sherif used the autokinetic effect to demonstrate how people conform to group norms in ambiguous situations."
+    },
+    {
+      "id": "types-of-conformity-q6",
+      "question": "What is the main difference between compliance and identification?",
+      "options": [
+        "Identification involves a deeper level of conformity compared to compliance",
+        "Compliance is more permanent than identification",
+        "Identification is only influenced by informational social influence",
+        "Compliance involves genuine belief change"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Identification involves a deeper level of conformity as it involves adopting the group's beliefs, albeit temporarily."
+    },
+    {
+      "id": "types-of-conformity-q7",
+      "question": "Which study highlighted the power of normative social influence in a prison simulation?",
+      "options": [
+        "Philip Zimbardo (1971)",
+        "Solomon Asch (1951)",
+        "Stanley Milgram (1963)",
+        "Muzafer Sherif (1935)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Philip Zimbardo's 1971 Stanford prison experiment demonstrated the influence of social roles and group norms on behavior."
+    },
+    {
+      "id": "types-of-conformity-q8",
+      "question": "What is normative social influence primarily motivated by?",
+      "options": [
+        "The desire to be liked and accepted",
+        "The need for accurate information",
+        "The fear of punishment",
+        "The desire to be different"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Normative social influence is driven by the desire to be liked and accepted by others, leading to conformity."
+    },
+    {
+      "id": "types-of-conformity-q9",
+      "question": "Which theory suggests that the presence of others can lead to stronger performance on simple tasks?",
+      "options": [
+        "Social facilitation theory",
+        "Social loafing theory",
+        "Social identity theory",
+        "Social exchange theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Social facilitation theory suggests that the presence of others enhances performance on simple or well-learned tasks."
+    },
+    {
+      "id": "types-of-conformity-q10",
+      "question": "A student changes their answer in a quiz to match the majority, believing the majority is correct. What type of conformity is this?",
+      "options": [
+        "Informational social influence",
+        "Normative social influence",
+        "Compliance",
+        "Identification"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The student is conforming due to informational social influence, assuming the majority has the correct information."
+    },
+    {
+      "id": "types-of-conformity-q11",
+      "question": "During a group presentation, Sarah agrees with the group's decision despite having private doubts. What type of conformity is this?",
+      "options": [
+        "Compliance",
+        "Internalization",
+        "Identification",
+        "Informational social influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Sarah is demonstrating compliance by publicly agreeing with the group while privately disagreeing."
+    },
+    {
+      "id": "types-of-conformity-q12",
+      "question": "In a marketing team, John adopts the team's enthusiasm for a new project but later loses interest. What type of conformity is this?",
+      "options": [
+        "Identification",
+        "Compliance",
+        "Internalization",
+        "Informational social influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "John is showing identification, temporarily adopting the group's attitude due to feeling a sense of belonging."
+    },
+    {
+      "id": "types-of-conformity-q13",
+      "question": "Which of the following is a limitation of Asch's (1951) study on conformity?",
+      "options": [
+        "Lack of ecological validity",
+        "High level of mundane realism",
+        "Excessive participant variables",
+        "Over-reliance on qualitative data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Asch's study lacks ecological validity because the artificial setting and task do not reflect real-world situations."
+    },
+    {
+      "id": "types-of-conformity-q14",
+      "question": "What is a criticism of Zimbardo's (1971) Stanford prison experiment?",
+      "options": [
+        "Ethical concerns regarding participant welfare",
+        "Lack of control over variables",
+        "Inability to replicate results",
+        "Failure to debrief participants"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Zimbardo's experiment faced ethical criticisms due to the psychological harm experienced by participants."
+    },
+    {
+      "id": "types-of-conformity-q15",
+      "question": "Why is informational social influence considered more likely in ambiguous situations?",
+      "options": [
+        "People lack clear knowledge and seek guidance",
+        "People want to avoid standing out",
+        "People desire to be seen as competent",
+        "People are afraid of authority"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "In ambiguous situations, individuals are unsure and look to others for guidance, making informational social influence more likely."
+    }
+  ]
+}

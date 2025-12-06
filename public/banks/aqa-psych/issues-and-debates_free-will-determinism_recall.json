@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "issues-and-debates",
+  "topicTitle": "Issues and Debates",
+  "subTopic": "free-will-determinism",
+  "subTopicTitle": "Free will and determinism",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:42:22.510Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the concept of free will in psychology.",
+      "keyPoints": [
+        "Free will refers to the idea that individuals have the power to make choices independent of external or internal pressures.",
+        "It suggests that human behavior is not determined by biological, environmental, or past influences.",
+        "Contrasts with determinism, which implies behavior is pre-determined by various factors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe hard determinism and how it differs from soft determinism.",
+      "keyPoints": [
+        "Hard determinism argues that all behavior is determined by external and internal factors, and therefore, free will is an illusion.",
+        "Soft determinism, or compatibilism, suggests that behavior is influenced by deterministic factors but individuals still have the capacity to make choices.",
+        "Soft determinism allows for the coexistence of determinism and free will, unlike hard determinism."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of biological determinism.",
+      "keyPoints": [
+        "Biological determinism suggests that behavior is controlled by genetic, hormonal, and neurobiological factors.",
+        "It implies that individual differences in behavior are a result of innate biological factors rather than environmental influences.",
+        "Examples include the influence of genes on aggression or intelligence."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student decides to study psychology in college because their parents are psychologists and they have always been encouraged to pursue this path. Apply determinism to this scenario.",
+      "keyPoints": [
+        "The student's choice to study psychology can be seen as environmentally determined due to parental influence.",
+        "Parental expectations and encouragement act as external factors shaping the student's decision.",
+        "This aligns with environmental determinism, where behavior is shaped by external social and cultural influences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly and includes all key points with accurate detail",
+        "partial": "Applies theory with 1-2 key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person with a genetic predisposition for high intelligence chooses to pursue a career in science. How does biological determinism explain this?",
+      "keyPoints": [
+        "Biological determinism would suggest that the person's genetic predisposition for high intelligence influenced their career choice.",
+        "Their innate intelligence, determined by genetic factors, predisposes them to excel in scientific fields.",
+        "This example demonstrates how biological determinism attributes behavior to internal genetic factors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly and includes all key points with accurate detail",
+        "partial": "Applies theory with 1-2 key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person feels guilty after shoplifting and decides never to do it again. Apply the concept of free will to this scenario.",
+      "keyPoints": [
+        "The concept of free will suggests the person has the ability to choose not to shoplift again, independent of past behavior.",
+        "Their sense of guilt indicates internal reflection and moral choice, demonstrating free will.",
+        "This reflects the idea that individuals can make conscious choices despite past actions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly and includes all key points with accurate detail",
+        "partial": "Applies theory with 1-2 key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of free will in psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: Free will is an important concept as it emphasizes personal responsibility.",
+        "Evidence/Example: Humanistic psychology, such as Rogers' client-centered therapy, highlights the role of free will in personal growth.",
+        "Explanation: The belief in free will can enhance motivation and accountability, leading to personal development.",
+        "Link: However, critics argue that free will is limited by biological and environmental constraints, challenging its significance."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail and follows PEEL structure",
+        "partial": "Includes 2-3 key points or lacks detail or structure",
+        "none": "Missing key points or inaccurate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically discuss the limitations of determinism in explaining human behavior using the PEEL structure.",
+      "keyPoints": [
+        "Point: Determinism may oversimplify human behavior by ignoring the role of free will.",
+        "Evidence/Example: Deterministic explanations can lead to ethical implications, such as denying personal responsibility.",
+        "Explanation: This perspective might not account for the complexity and variability of human behavior.",
+        "Link: A more balanced approach considering both determinism and free will might offer a more comprehensive understanding."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail and follows PEEL structure",
+        "partial": "Includes 2-3 key points or lacks detail or structure",
+        "none": "Missing key points or inaccurate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the scientific approach to studying determinism using the PEEL structure.",
+      "keyPoints": [
+        "Point: The scientific approach offers objective and measurable explanations of behavior through determinism.",
+        "Evidence/Example: Studies in genetics and neuroscience provide empirical support for deterministic influences on behavior.",
+        "Explanation: This approach allows for predictions and control in psychological research, enhancing its reliability and validity.",
+        "Link: However, the reductionist nature of determinism may neglect the subjective experience and complexity of human behavior."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail and follows PEEL structure",
+        "partial": "Includes 2-3 key points or lacks detail or structure",
+        "none": "Missing key points or inaccurate or lacks structure"
+      }
+    }
+  ]
+}

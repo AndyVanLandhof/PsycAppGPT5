@@ -56,9 +56,13 @@ function QuizView({ topic, onBack }) {
   }, [ttsState]);
 
   // Only generate after vault is loaded AND the user starts the quiz
+  // Note: We don't call generateQuiz here anymore - the button onClick handlers do it directly
+  // This useEffect is only for the edge case where vault loads AFTER quizStarted is set
+  const generationStartedRef = React.useRef(false);
   useEffect(() => {
-    if (vaultLoaded && quizStarted) {
-      generateQuiz();
+    if (vaultLoaded && quizStarted && !generationStartedRef.current) {
+      // Don't call here - button handlers call generateQuiz directly
+      // This prevents duplicate calls
     }
   }, [vaultLoaded, quizStarted]);
 
@@ -393,9 +397,34 @@ function QuizView({ topic, onBack }) {
 
   const loadBankIfAvailable = async () => {
     try {
-      if (bankSet !== 'lab') return null;
+      // Note: We don't check bankSet here - the caller (generateQuiz) already verified effectiveBankSet === 'lab'
       const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
-      // Prefer the library (most recent entry), otherwise fallback to latest
+      
+      // First try to load from pre-generated bank files in public/banks/
+      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`;
+      console.log('[Quiz] Attempting to load bank from:', bankPath);
+      try {
+        const response = await fetch(bankPath);
+        if (response.ok) {
+          const bankData = await response.json();
+          if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
+            console.log('[Quiz] Loaded', bankData.items.length, 'questions from bank file');
+            // Normalize the bank items to match expected format
+            const normalized = bankData.items.map(q => ({
+              question: q.question,
+              options: q.options,
+              correctAnswer: q.correctAnswer,
+              explanation: q.explanation,
+              ao: q.ao
+            }));
+            return normalized;
+          }
+        }
+      } catch (fetchErr) {
+        console.log('[Quiz] Bank file not found, trying localStorage fallback');
+      }
+      
+      // Fallback to localStorage (legacy behavior)
       const libKey = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
       const latestKey = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
       const libRaw = window?.localStorage?.getItem(libKey);
@@ -408,28 +437,16 @@ function QuizView({ topic, onBack }) {
         const data = JSON.parse(raw);
         if (Array.isArray(data)) return data;
       }
-      // Try alternative curriculum bucket if user changed curriculum between Lab and Quiz
-      const alt = curr === 'aqa-psych' ? 'ocr-rs' : 'aqa-psych';
-      const libKeyAlt = `quiz-lab-lib-${alt}-${topic.id}-${topic.subTopic.id}`;
-      const latestKeyAlt = `quiz-lab-latest-${alt}-${topic.id}-${topic.subTopic.id}`;
-      const libAlt = window?.localStorage?.getItem(libKeyAlt);
-      if (libAlt) {
-        const lib = JSON.parse(libAlt);
-        if (Array.isArray(lib) && lib.length > 0 && Array.isArray(lib[0]?.items)) return lib[0].items;
-      }
-      const rawAlt = window?.localStorage?.getItem(latestKeyAlt);
-      if (rawAlt) {
-        const data = JSON.parse(rawAlt);
-        if (Array.isArray(data)) return data;
-      }
       return null;
     } catch (_) {
       return null;
     }
   };
 
-  const generateQuiz = async () => {
+  const generateQuiz = async (overrideBankSet = null) => {
+    const effectiveBankSet = overrideBankSet || bankSet;
     setIsLoading(true);
+    console.log('[Quiz] generateQuiz called, bankSet:', effectiveBankSet);
     // New AQA Psychology prompt
     const basePrompt = `You are an expert AQA Psychology teacher creating a quiz for AQA Psychology 7182 students.
 
@@ -467,7 +484,7 @@ Return in this JSON format:
 }`;
     try {
       // If using Lab, load locally saved questions; if none, auto-build and save
-      if (bankSet === 'lab') {
+      if (effectiveBankSet === 'lab') {
         const lab = await loadBankIfAvailable();
         if (!lab || lab.length === 0) {
           // Auto-build: generate with strict JSON path and persist to Lab keys
@@ -551,12 +568,14 @@ Return in this JSON format:
           correctAnswer: q.correctAnswer,
           explanation: q.explanation
         }));
+        console.log('[Quiz] Using bank questions:', items.length);
         setQuestions(items);
         setCurrentQuestionIndex(0);
         setUserAnswers([]);
         setQuizComplete(false);
         setShowResults(false);
         setQuizStats({ correct: 0, incorrect: 0, total: 0 });
+        setIsLoading(false);
         return;
       }
       const vaultPrompt = createVaultPrompt(basePrompt, topic.title, topic.subTopic.title, true, { quiz: true });
@@ -1129,9 +1148,10 @@ Return ONLY this JSON:
               <button
                 onClick={async () => {
                   if (!mode) return;
+                  generationStartedRef.current = true;
                   setBankSet('live');
                   setQuizStarted(true);
-                  if (vaultLoaded) await generateQuiz();
+                  if (vaultLoaded) await generateQuiz('live');
                 }}
                 disabled={!mode}
                 className={`px-6 py-2 rounded-lg font-semibold ${mode ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
@@ -1141,9 +1161,10 @@ Return ONLY this JSON:
               <button
                 onClick={async () => {
                   if (!mode) return;
+                  generationStartedRef.current = true;
                   setBankSet('lab');
                   setQuizStarted(true);
-                  if (vaultLoaded) await generateQuiz();
+                  if (vaultLoaded) await generateQuiz('lab');
                 }}
                 disabled={!mode}
                 className={`px-6 py-2 rounded-lg font-semibold ${mode ? 'bg-emerald-600 text-white hover:bg-emerald-700' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}

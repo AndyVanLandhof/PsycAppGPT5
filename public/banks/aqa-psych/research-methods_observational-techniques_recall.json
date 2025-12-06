@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "observational-techniques",
+  "subTopicTitle": "Observational techniques",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:38:05.374Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define naturalistic observation and provide an example.",
+      "keyPoints": [
+        "Naturalistic observation involves observing subjects in their natural environment without interference.",
+        "It aims to gather data on naturally occurring behaviors.",
+        "Example: Observing children playing in a park to study social interactions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes definition and example with accurate detail",
+        "partial": "Includes definition or example but lacks detail",
+        "none": "Missing both definition and example or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the difference between overt and covert observations?",
+      "keyPoints": [
+        "Overt observation: Participants are aware they are being observed.",
+        "Covert observation: Participants are unaware of being observed.",
+        "Differences in ethical considerations and potential for observer effects."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately describes both types and highlights main differences",
+        "partial": "Describes one type or mentions differences superficially",
+        "none": "Fails to describe types or differences accurately"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain what is meant by participant observation.",
+      "keyPoints": [
+        "Participant observation: Observer becomes actively involved in the group or situation being studied.",
+        "Allows for deeper understanding of group dynamics.",
+        "Potential for observer bias due to involvement."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately explains participant observation with key points",
+        "partial": "Mentions participant observation but lacks depth or detail",
+        "none": "Fails to explain participant observation correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "You are a psychologist studying teamwork in a corporate setting. Describe how you would use a covert observation to gather data.",
+      "keyPoints": [
+        "Explain how the observation would be conducted without employees knowing.",
+        "Outline ethical considerations and how you would address them.",
+        "Discuss what aspects of teamwork you would focus on."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes detailed plan with ethical considerations and focus areas",
+        "partial": "Plan lacks detail or does not fully address ethical issues",
+        "none": "Fails to outline a coherent plan or consider ethics"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are researching playground interactions. How would you apply overt observation in this setting?",
+      "keyPoints": [
+        "Explain how you would inform participants or their guardians.",
+        "Describe the behaviors or interactions you would observe.",
+        "Discuss any potential observer effects and how you would minimize them."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a detailed application with considerations for observer effects",
+        "partial": "Application is outlined but lacks detail or ignores observer effects",
+        "none": "Fails to provide a coherent application or consider key factors"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "As a psychologist interested in consumer behavior, how would you use structured observation in a grocery store?",
+      "keyPoints": [
+        "Outline the specific behaviors you would observe and how you would categorize them.",
+        "Discuss the setup of the observation, including time and location.",
+        "Consider how you would ensure reliability of your observations."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Detailed description with consideration of reliability",
+        "partial": "Some aspects are described, but lacks detail or reliability considerations",
+        "none": "Fails to provide a coherent description or consider key factors"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of covert observations in psychological research.",
+      "keyPoints": [
+        "Covert observations can reduce observer effects and provide more natural data.",
+        "Ethical issues due to lack of informed consent.",
+        "Potential for observer bias and difficulties in recording data discreetly."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluation includes strengths, weaknesses, and ethical considerations",
+        "partial": "Mentions strengths or weaknesses but lacks depth",
+        "none": "Fails to evaluate adequately or misses key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and limitations of using naturalistic observation.",
+      "keyPoints": [
+        "Strength: Provides high ecological validity.",
+        "Limitation: Lack of control over variables can introduce extraneous factors.",
+        "Difficulty in replicating studies due to the uniqueness of settings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Balanced discussion with clear strengths and limitations",
+        "partial": "Mentions strengths or limitations but lacks balance",
+        "none": "Fails to discuss adequately or misses key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the impact of observer bias in participant observations.",
+      "keyPoints": [
+        "Observer bias can affect the validity of the findings.",
+        "Involvement in the group can lead to subjective interpretations.",
+        "Strategies such as using multiple observers can mitigate bias."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes critical assessment with strategies to mitigate bias",
+        "partial": "Mentions impact but lacks critical assessment or strategies",
+        "none": "Fails to assess impact or suggest strategies adequately"
+      }
+    }
+  ]
+}

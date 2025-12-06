@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "ontological",
+  "subTopicTitle": "Ontological Argument",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:50:44.932Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Anselm's Ontological Argument.",
+      "keyPoints": [
+        "Anselm's argument is a priori and deductive.",
+        "It defines God as 'that than which nothing greater can be conceived.'",
+        "Anselm argues that God must exist in reality as well as in the mind, as existence in reality is greater than existence solely in the mind."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline Gaunilo's criticism of Anselm's Ontological Argument.",
+      "keyPoints": [
+        "Gaunilo uses the example of a perfect island to illustrate his criticism.",
+        "He argues that just because one can conceive of the most perfect island does not mean it exists in reality.",
+        "Gaunilo's criticism highlights the flaw in reasoning that conceptual perfection necessitates real existence."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the difference between contingent and necessary existence in relation to the Ontological Argument.",
+      "keyPoints": [
+        "Contingent existence depends on something else for its existence.",
+        "Necessary existence is self-existent and does not depend on anything else.",
+        "Anselm argues that God has necessary existence, unlike contingent beings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Anselm's Ontological Argument to the concept of a perfect being in a fictional universe.",
+      "keyPoints": [
+        "Identify the fictional perfect being and define its perfection.",
+        "Apply Anselm's reasoning that such a being must exist in reality if it is truly perfect.",
+        "Discuss whether this logic holds in a fictional context."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Anselm's argument accurately to the scenario",
+        "partial": "Applies Anselm's argument but with errors or incomplete application",
+        "none": "Fails to apply Anselm's argument correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Anselm's argument be challenged if applied to a hypothetical omnipotent being?",
+      "keyPoints": [
+        "Define the hypothetical omnipotent being.",
+        "Consider whether existence in reality is essential for such a being.",
+        "Challenge the application using Gaunilo's criticism or other counterarguments."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies Anselm's argument and presents a challenge",
+        "partial": "Attempts to apply and challenge but with errors or lack of depth",
+        "none": "Fails to apply or challenge Anselm's argument"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Using the Ontological Argument, explain why a concept of God might be seen as necessary in a philosophical framework.",
+      "keyPoints": [
+        "Discuss the definition of God as a necessary being.",
+        "Explain how the Ontological Argument supports the necessity of God's existence.",
+        "Consider philosophical implications of necessity in understanding God."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies Ontological Argument to philosophical necessity",
+        "partial": "Applies with some errors or lacks depth",
+        "none": "Fails to apply argument to philosophical framework"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Anselm's Ontological Argument in proving the existence of God.",
+      "keyPoints": [
+        "Point: Anselm's argument is logically valid and provides a unique perspective.",
+        "Evidence: It uses a priori reasoning and has historical significance.",
+        "Explanation: However, it relies heavily on definitions and conceptual understanding.",
+        "Link: Critics argue that it fails to account for empirical evidence and real-world applicability."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL but with missing elements or errors",
+        "none": "Fails to use PEEL structure or address the question"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess Gaunilo's challenge to the Ontological Argument using the PEEL structure.",
+      "keyPoints": [
+        "Point: Gaunilo's challenge questions the leap from concept to reality.",
+        "Evidence: Uses the analogy of a perfect island.",
+        "Explanation: Highlights potential flaws in Anselm's reasoning.",
+        "Link: However, some argue that God's unique nature makes the analogy flawed."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL but with missing elements or errors",
+        "none": "Fails to use PEEL structure or address the question"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate whether the Ontological Argument can be considered a successful proof of God's existence.",
+      "keyPoints": [
+        "Point: The argument is logically consistent within its own framework.",
+        "Evidence: It provides a rational basis for the existence of God using reason alone.",
+        "Explanation: Critics argue it doesn't engage with empirical evidence.",
+        "Link: The success of the argument may depend on one's acceptance of its premises."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL but with missing elements or errors",
+        "none": "Fails to use PEEL structure or address the question"
+      }
+    }
+  ]
+}

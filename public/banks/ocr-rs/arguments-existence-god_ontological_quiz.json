@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "ontological",
+  "subTopicTitle": "Ontological Argument",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:50:30.959Z",
+  "items": [
+    {
+      "id": "ontological-q1",
+      "question": "Who first formulated the Ontological Argument?",
+      "options": [
+        "Anselm of Canterbury",
+        "Thomas Aquinas",
+        "Immanuel Kant",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Ontological Argument was first formulated by Anselm of Canterbury in the 11th century."
+    },
+    {
+      "id": "ontological-q2",
+      "question": "Which philosopher criticized the Ontological Argument by using the example of a perfect island?",
+      "options": [
+        "Gaunilo of Marmoutiers",
+        "René Descartes",
+        "Immanuel Kant",
+        "Bertrand Russell"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gaunilo of Marmoutiers criticized Anselm's argument with his perfect island analogy in the 11th century."
+    },
+    {
+      "id": "ontological-q3",
+      "question": "Anselm's Ontological Argument is primarily based on which type of reasoning?",
+      "options": [
+        "A priori",
+        "A posteriori",
+        "Inductive",
+        "Empirical"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anselm's Ontological Argument is based on a priori reasoning, which does not rely on empirical evidence."
+    },
+    {
+      "id": "ontological-q4",
+      "question": "Which of the following is a key premise in Anselm's Ontological Argument?",
+      "options": [
+        "God is that than which nothing greater can be conceived",
+        "God is the first cause",
+        "God is the unmoved mover",
+        "God is the greatest designer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A key premise in Anselm's Ontological Argument is that God is that than which nothing greater can be conceived."
+    },
+    {
+      "id": "ontological-q5",
+      "question": "In which work did Anselm outline his Ontological Argument?",
+      "options": [
+        "Proslogion",
+        "Summa Theologica",
+        "Critique of Pure Reason",
+        "Meditations on First Philosophy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anselm outlined his Ontological Argument in the 'Proslogion'."
+    },
+    {
+      "id": "ontological-q6",
+      "question": "Which philosopher argued that existence is not a predicate?",
+      "options": [
+        "Immanuel Kant",
+        "Thomas Aquinas",
+        "Baruch Spinoza",
+        "William Paley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant argued that existence is not a predicate in his 'Critique of Pure Reason' (1781)."
+    },
+    {
+      "id": "ontological-q7",
+      "question": "Which philosopher reformulated the Ontological Argument in the 17th century?",
+      "options": [
+        "René Descartes",
+        "Friedrich Nietzsche",
+        "John Locke",
+        "George Berkeley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "René Descartes reformulated the Ontological Argument in his work 'Meditations on First Philosophy'."
+    },
+    {
+      "id": "ontological-q8",
+      "question": "Which type of argument is the Ontological Argument classified as?",
+      "options": [
+        "Deductive",
+        "Inductive",
+        "Abductive",
+        "Analogical"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Ontological Argument is a deductive argument because it aims to prove God's existence from premises to conclusion with necessity."
+    },
+    {
+      "id": "ontological-q9",
+      "question": "Which of the following is NOT an aspect of Anselm's Ontological Argument?",
+      "options": [
+        "Empirical evidence",
+        "A priori reasoning",
+        "Definition of God",
+        "Logical necessity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anselm's Ontological Argument does not rely on empirical evidence, as it is based on a priori reasoning."
+    },
+    {
+      "id": "ontological-q10",
+      "question": "Consider the scenario where a student claims they can imagine a perfect pizza, therefore it must exist. Which philosopher's critique does this resemble?",
+      "options": [
+        "Gaunilo of Marmoutiers",
+        "René Descartes",
+        "Immanuel Kant",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario resembles Gaunilo's critique using the example of a perfect island, illustrating the flaw in the logic."
+    },
+    {
+      "id": "ontological-q11",
+      "question": "In a debate, someone argues that God must exist because the concept of God is the greatest conceivable being. Which argument are they using?",
+      "options": [
+        "Ontological Argument",
+        "Cosmological Argument",
+        "Teleological Argument",
+        "Moral Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This aligns with the Ontological Argument, which states that God, as the greatest conceivable being, must exist."
+    },
+    {
+      "id": "ontological-q12",
+      "question": "If a philosopher argues that the concept of God has necessary existence, which argument are they likely employing?",
+      "options": [
+        "Ontological Argument",
+        "Cosmological Argument",
+        "Teleological Argument",
+        "Moral Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Ontological Argument posits that God's existence is necessary, which is central to its reasoning."
+    },
+    {
+      "id": "ontological-q13",
+      "question": "What is a major criticism of the Ontological Argument according to Kant?",
+      "options": [
+        "Existence is not a predicate",
+        "God cannot be proven by logic",
+        "The argument relies on empirical evidence",
+        "The concept of God varies among cultures"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kant's major criticism is that existence is not a predicate, meaning that existence does not add to the concept of a being."
+    },
+    {
+      "id": "ontological-q14",
+      "question": "How does Gaunilo's critique of Anselm's argument affect its validity?",
+      "options": [
+        "It shows that logical reasoning can lead to absurd conclusions",
+        "It proves God's existence",
+        "It demonstrates the need for empirical evidence",
+        "It supports the Cosmological Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Gaunilo's critique highlights that Anselm's reasoning could lead to absurd conclusions, questioning its validity."
+    },
+    {
+      "id": "ontological-q15",
+      "question": "Compared to the Cosmological Argument, how does the Ontological Argument differ in its approach?",
+      "options": [
+        "It is a priori and does not rely on the physical world",
+        "It uses empirical evidence",
+        "It is based on causation",
+        "It relies on the observation of the universe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Ontological Argument is a priori, contrasting with the Cosmological Argument, which is a posteriori and relies on causation."
+    }
+  ]
+}

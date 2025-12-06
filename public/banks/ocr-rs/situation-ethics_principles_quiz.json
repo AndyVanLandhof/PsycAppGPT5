@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "principles",
+  "subTopicTitle": "Four Working Principles",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:58:37.845Z",
+  "items": [
+    {
+      "id": "principles-q1",
+      "question": "Which of the following is NOT one of the Four Working Principles in Situation Ethics?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Utilitarianism",
+        "Personalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Utilitarianism is a separate ethical theory developed by Jeremy Bentham and John Stuart Mill, not a principle of Situation Ethics."
+    },
+    {
+      "id": "principles-q2",
+      "question": "Who is the main philosopher associated with Situation Ethics?",
+      "options": [
+        "Joseph Fletcher",
+        "Immanuel Kant",
+        "Aristotle",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher is credited with developing Situation Ethics in the 1960s."
+    },
+    {
+      "id": "principles-q3",
+      "question": "Which principle emphasizes that actions must be practical and work towards the most loving outcome?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pragmatism in Situation Ethics stresses that actions must be practical and effective in achieving love."
+    },
+    {
+      "id": "principles-q4",
+      "question": "What does the principle of 'Relativism' suggest in Situation Ethics?",
+      "options": [
+        "Rules are absolute",
+        "Rules are subjective",
+        "Rules should be followed strictly",
+        "Rules should be flexible based on the situation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Relativism in Situation Ethics suggests that moral decisions should be flexible and based on the context."
+    },
+    {
+      "id": "principles-q5",
+      "question": "Which working principle states that love is the only norm?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Positivism",
+        "Personalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Positivism emphasizes that love is the ultimate norm and basis for moral decisions in Situation Ethics."
+    },
+    {
+      "id": "principles-q6",
+      "question": "In Situation Ethics, what does the principle of 'Personalism' prioritize?",
+      "options": [
+        "The law",
+        "Situations",
+        "People",
+        "Feelings"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Personalism in Situation Ethics prioritizes people and their well-being over abstract laws."
+    },
+    {
+      "id": "principles-q7",
+      "question": "What year did Joseph Fletcher publish 'Situation Ethics: The New Morality'?",
+      "options": [
+        "1966",
+        "1972",
+        "1958",
+        "1981"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher's seminal work 'Situation Ethics: The New Morality' was published in 1966."
+    },
+    {
+      "id": "principles-q8",
+      "question": "According to Situation Ethics, what is the main goal of any action?",
+      "options": [
+        "Maximizing pleasure",
+        "Achieving justice",
+        "Promoting love",
+        "Ensuring equality"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The main goal of any action in Situation Ethics is to promote love, which is considered the highest principle."
+    },
+    {
+      "id": "principles-q9",
+      "question": "Which of the following best describes the approach of Pragmatism in Situation Ethics?",
+      "options": [
+        "Actions must be proven empirically",
+        "Actions must be based on faith",
+        "Actions must be realistic and work towards love",
+        "Actions must adhere to tradition"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pragmatism in Situation Ethics focuses on practical actions that realistically aim to achieve love."
+    },
+    {
+      "id": "principles-q10",
+      "question": "A doctor has to decide whether to use a scarce resource on one critically ill patient or more stable patients. According to Situation Ethics, what should guide the decision?",
+      "options": [
+        "Hospital protocols",
+        "The greatest good for the greatest number",
+        "The most loving outcome",
+        "The patient's financial status"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would guide the doctor to choose the option that results in the most loving outcome."
+    },
+    {
+      "id": "principles-q11",
+      "question": "A teacher has to choose between spending time with a struggling student or preparing a lesson plan. How would Situation Ethics suggest they decide?",
+      "options": [
+        "Follow the school's schedule",
+        "Consider which student can benefit the most",
+        "Choose the action that shows most love to the student",
+        "Prepare the lesson plan as it's a duty"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would suggest choosing the action that conveys the most love, which may be helping the struggling student."
+    },
+    {
+      "id": "principles-q12",
+      "question": "In a scenario where a person lies to protect a friend from harm, how does Situation Ethics evaluate this action?",
+      "options": [
+        "Wrong, as lying is always immoral",
+        "Wrong, as it breaks the law",
+        "Right, if it results in the most loving outcome",
+        "Right, if the friend consents"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Situation Ethics evaluates actions based on their outcomes, so lying is permissible if it leads to the most loving outcome."
+    },
+    {
+      "id": "principles-q13",
+      "question": "Critics argue that Situation Ethics is too subjective. What is a common counter-argument?",
+      "options": [
+        "It provides absolute rules",
+        "It is based on empirical evidence",
+        "It focuses on love as a universal principle",
+        "It relies on divine command"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Proponents of Situation Ethics argue that focusing on love as a universal principle offers a consistent ethical guide."
+    },
+    {
+      "id": "principles-q14",
+      "question": "How does Situation Ethics compare to Utilitarianism regarding decision-making?",
+      "options": [
+        "Both prioritize rules over outcomes",
+        "Both prioritize the greatest happiness",
+        "Situation Ethics prioritizes love, not happiness",
+        "Utilitarianism is based on religious teachings"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Situation Ethics prioritizes love as the guiding principle, differing from Utilitarianism's focus on maximizing happiness."
+    },
+    {
+      "id": "principles-q15",
+      "question": "What critique is often made about the practical application of Situation Ethics?",
+      "options": [
+        "It is too simplistic",
+        "It is too rigid",
+        "It requires too much situational knowledge",
+        "It disregards human emotions"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Critics argue that Situation Ethics demands a deep understanding of complex situations, making it difficult to apply consistently."
+    }
+  ]
+}

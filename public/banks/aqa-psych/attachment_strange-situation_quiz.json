@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "strange-situation",
+  "subTopicTitle": "Ainsworth's Strange Situation",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:18:13.046Z",
+  "items": [
+    {
+      "id": "strange-situation-q1",
+      "question": "What is the primary aim of Ainsworth's Strange Situation procedure?",
+      "options": [
+        "To assess the quality of attachment between a child and caregiver",
+        "To measure a child's intelligence in unfamiliar settings",
+        "To observe the effects of separation anxiety on children",
+        "To determine a child's social development stages"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ainsworth's Strange Situation was designed to assess the type of attachment a child has with their caregiver by observing their behavior in a series of eight episodes."
+    },
+    {
+      "id": "strange-situation-q2",
+      "question": "Which of the following is a characteristic behavior of a securely attached child in the Strange Situation?",
+      "options": [
+        "Seeking proximity to the caregiver when reunited",
+        "Ignoring the caregiver upon reunion",
+        "Exhibiting no distress when the caregiver leaves",
+        "Showing excessive distress when with strangers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Insecurely attached children might ignore the caregiver, whereas securely attached children typically seek comfort from the caregiver upon reunion."
+    },
+    {
+      "id": "strange-situation-q3",
+      "question": "What percentage of children were classified as securely attached in Ainsworth's original study?",
+      "options": [
+        "70%",
+        "50%",
+        "30%",
+        "10%"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ainsworth's original Strange Situation study found that approximately 70% of children were securely attached."
+    },
+    {
+      "id": "strange-situation-q4",
+      "question": "Which attachment type is characterized by a child who is ambivalent and resistant upon reunion with the caregiver?",
+      "options": [
+        "Insecure-resistant",
+        "Secure",
+        "Insecure-avoidant",
+        "Disorganized"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Insecure-resistant attachment is marked by ambivalence; children both seek and resist comfort from the caregiver."
+    },
+    {
+      "id": "strange-situation-q5",
+      "question": "Who were the primary researchers involved in developing the Strange Situation classification system?",
+      "options": [
+        "Mary Ainsworth and John Bowlby",
+        "Sigmund Freud and Anna Freud",
+        "Harry Harlow and John Bowlby",
+        "Erik Erikson and Jean Piaget"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Ainsworth, building on John Bowlby's work, developed the Strange Situation to classify attachment types."
+    },
+    {
+      "id": "strange-situation-q6",
+      "question": "How is a child classified as insecure-avoidant expected to behave in the Strange Situation?",
+      "options": [
+        "Showing little distress when the caregiver leaves and avoiding contact upon return",
+        "Clinging to the caregiver and showing intense distress when separated",
+        "Exhibiting disorganized and inconsistent behavior",
+        "Actively seeking and maintaining contact with the caregiver"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Insecure-avoidant children show little distress on separation and tend to avoid contact with the caregiver upon return."
+    },
+    {
+      "id": "strange-situation-q7",
+      "question": "Which episode of the Strange Situation involves the caregiver leaving the child alone in the room for the first time?",
+      "options": [
+        "Episode 5",
+        "Episode 3",
+        "Episode 7",
+        "Episode 1"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Episode 5 of the Strange Situation, the caregiver leaves the child alone, which is the first instance of separation."
+    },
+    {
+      "id": "strange-situation-q8",
+      "question": "Which of the following attachment types is not part of Ainsworth's original classification?",
+      "options": [
+        "Disorganized",
+        "Secure",
+        "Insecure-avoidant",
+        "Insecure-resistant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Disorganized attachment was later identified by researchers such as Main and Solomon, expanding beyond Ainsworth's original three categories."
+    },
+    {
+      "id": "strange-situation-q9",
+      "question": "In the Strange Situation, which behavior indicates a secure base phenomenon?",
+      "options": [
+        "The child explores the environment but returns to the caregiver for reassurance",
+        "The child stays close to the caregiver and does not explore",
+        "The child is indifferent to the caregiver's presence",
+        "The child becomes highly distressed in the presence of strangers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The secure base phenomenon is when a child uses the caregiver as a base from which to explore the environment, returning for reassurance."
+    },
+    {
+      "id": "strange-situation-q10",
+      "question": "A researcher observes a child who is indifferent to the caregiver's presence and does not seek comfort upon reunion. What attachment style is likely being demonstrated?",
+      "options": [
+        "Insecure-avoidant",
+        "Secure",
+        "Insecure-resistant",
+        "Disorganized"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Insecure-avoidant children show little reaction to the caregiver leaving or returning, indicating a lack of attachment."
+    },
+    {
+      "id": "strange-situation-q11",
+      "question": "In a Strange Situation study, a child shows intense distress when the caregiver leaves and mixed reactions upon return. How should this behavior be classified?",
+      "options": [
+        "Insecure-resistant",
+        "Secure",
+        "Insecure-avoidant",
+        "Disorganized"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Insecure-resistant attachment is characterized by strong distress on separation and ambivalence upon reunion."
+    },
+    {
+      "id": "strange-situation-q12",
+      "question": "During an observation, a child displays erratic behavior and seems confused when the caregiver returns. Which attachment type is this indicative of?",
+      "options": [
+        "Disorganized",
+        "Secure",
+        "Insecure-avoidant",
+        "Insecure-resistant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Disorganized attachment involves a lack of a coherent strategy in responding to the caregiver's return, often appearing confused or erratic."
+    },
+    {
+      "id": "strange-situation-q13",
+      "question": "One critique of the Strange Situation is its ecological validity. What does this refer to?",
+      "options": [
+        "The artificial nature of the laboratory setting may not reflect real-life situations",
+        "The procedure's inability to classify all types of attachments",
+        "The limited age range of participants in the study",
+        "The potential for observer bias in interpreting behaviors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Ecological validity concerns whether the findings from the Strange Situation, conducted in a controlled lab setting, can be generalized to everyday situations."
+    },
+    {
+      "id": "strange-situation-q14",
+      "question": "How does cultural variation affect the generalizability of the Strange Situation findings?",
+      "options": [
+        "Different cultures may have different child-rearing practices that affect attachment behaviors",
+        "All cultures respond similarly to separation and reunion scenarios",
+        "Cultural variations only affect adult attachment, not children's",
+        "The Strange Situation was designed to be universally applicable without modification"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Attachment behaviors could vary across cultures due to different child-rearing practices, which may affect the applicability of the Strange Situation's classifications."
+    },
+    {
+      "id": "strange-situation-q15",
+      "question": "What is one methodological limitation of the Strange Situation procedure?",
+      "options": [
+        "It focuses only on the mother's role, ignoring other caregivers",
+        "It is too short to draw any meaningful conclusions",
+        "It fails to measure attachment at all",
+        "It only observes the behavior of the caregiver, not the child"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Strange Situation primarily examines the mother's role, potentially overlooking the influence of other caregivers on the child's attachment."
+    }
+  ]
+}

@@ -5,142 +5,142 @@
   "subTopic": "working-memory-model",
   "subTopicTitle": "Working memory model",
   "type": "recall",
-  "generatedAt": "2025-12-06T09:48:03.339Z",
+  "generatedAt": "2025-12-06T10:14:41.074Z",
   "items": [
     {
       "ao": "AO1",
-      "prompt": "What are the main components of the Working Memory Model proposed by Baddeley and Hitch?",
+      "prompt": "Describe the components of the Working Memory Model.",
       "keyPoints": [
-        "Central Executive: the control system that manages attention and coordinates the other components.",
-        "Phonological Loop: processes verbal and auditory information.",
-        "Visuo-Spatial Sketchpad: handles visual and spatial information.",
-        "Episodic Buffer: integrates information from the other components and links to long-term memory."
+        "Central Executive: controls attention and coordinates the slave systems",
+        "Phonological Loop: processes auditory information, consists of phonological store and articulatory process",
+        "Visuo-Spatial Sketchpad: processes visual and spatial information",
+        "Episodic Buffer: integrates information from different sources and links to LTM"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key components with accurate detail.",
-        "partial": "Includes 1-2 components or lacks detail.",
-        "none": "Missing key components or inaccurate."
+        "full": "Includes all four components with accurate detail",
+        "partial": "Includes 2-3 components with some detail",
+        "none": "Missing key components or inaccurate"
       }
     },
     {
       "ao": "AO1",
-      "prompt": "Define the term 'working memory' and explain its significance in cognitive psychology.",
+      "prompt": "Explain the role of the central executive in the Working Memory Model.",
       "keyPoints": [
-        "Working memory is a system for temporarily holding and manipulating information.",
-        "It is crucial for tasks such as reasoning, comprehension, and learning.",
-        "It differs from short-term memory by emphasizing the manipulation of information."
+        "Acts as a control system to direct attention",
+        "Coordinates activities of the slave systems",
+        "Limited capacity, can process multiple types of information"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes a clear definition and significance with accurate detail.",
-        "partial": "Includes either definition or significance, or lacks detail.",
-        "none": "Missing definition or significance or inaccurate."
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
       }
     },
     {
       "ao": "AO1",
-      "prompt": "Summarize the findings of the study by Baddeley and Hitch (1974) that investigated the Working Memory Model.",
+      "prompt": "Define the phonological loop and its components in the Working Memory Model.",
       "keyPoints": [
-        "Participants performed two tasks simultaneously: a reasoning task and a digit span task.",
-        "Performance was not significantly impaired, suggesting different components can operate simultaneously.",
-        "Supports the idea of a multi-component system in working memory."
+        "Phonological Loop processes auditory information",
+        "Phonological Store: holds words heard",
+        "Articulatory Process: repeats sounds/words for memory retention"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key findings with accurate detail.",
-        "partial": "Includes 1-2 key findings or lacks detail.",
-        "none": "Missing key findings or inaccurate."
+        "full": "Includes all components with accurate detail",
+        "partial": "Includes 1-2 components or lacks detail",
+        "none": "Missing components or inaccurate"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "Imagine a student is trying to remember a phone number while also listening to a lecture. How does the Working Memory Model explain the student's ability to perform both tasks?",
+      "prompt": "A student is trying to memorize a list of words by repeatedly saying them out loud. Which part of the Working Memory Model are they using and why?",
       "keyPoints": [
-        "The Central Executive allocates attention between the tasks.",
-        "The Phonological Loop can process the phone number while the Visuo-Spatial Sketchpad handles visual information from the lecture.",
-        "The student's ability to multitask suggests the components of working memory can function simultaneously."
+        "Using the Articulatory Process of the Phonological Loop",
+        "Involves subvocal repetition to maintain information",
+        "Helps in retaining auditory information through rehearsal"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Accurately applies the model to the scenario including all key components.",
-        "partial": "Partially applies the model or lacks detail.",
-        "none": "Does not apply the model or is inaccurate."
+        "full": "Correctly identifies and explains the relevant component",
+        "partial": "Identifies the component but lacks explanation",
+        "none": "Incorrect component or explanation"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "A child is struggling to follow a set of multi-step instructions in class. Using the Working Memory Model, explain potential reasons for the child's difficulties.",
+      "prompt": "Explain how the Visuo-Spatial Sketchpad might be used when navigating a new city using a map.",
       "keyPoints": [
-        "The Central Executive may have limited capacity to manage multiple steps.",
-        "The child might struggle with the Phonological Loop if the instructions are verbal and complex.",
-        "Visual aids could help utilize the Visuo-Spatial Sketchpad for better understanding."
+        "Visuo-Spatial Sketchpad processes visual and spatial information",
+        "Helps in visualizing maps and spatial relationships",
+        "Assists in planning routes and navigating spaces"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Accurately applies the model to the scenario including all key components.",
-        "partial": "Partially applies the model or lacks detail.",
-        "none": "Does not apply the model or is inaccurate."
+        "full": "Correctly identifies and explains the component's use",
+        "partial": "Identifies the component but lacks detailed explanation",
+        "none": "Incorrect component or explanation"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "During a dual-task experiment, participants perform better when tasks utilize different components of working memory. Explain how this supports the Working Memory Model.",
+      "prompt": "A person is recalling a past holiday experience, involving visual scenes and sounds. Which part of the Working Memory Model is involved and why?",
       "keyPoints": [
-        "Performance improvement indicates that different components (e.g., Phonological Loop vs. Visuo-Spatial Sketchpad) can operate independently.",
-        "Supports the idea of a multi-component system, as tasks do not interfere with each other.",
-        "Demonstrates the model's validity in explaining cognitive processes."
+        "Involves the Episodic Buffer",
+        "Integrates information from the visuo-spatial sketchpad and phonological loop",
+        "Links to long-term memory to form coherent episodes"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Accurately applies the model to the scenario including all key components.",
-        "partial": "Partially applies the model or lacks detail.",
-        "none": "Does not apply the model or is inaccurate."
+        "full": "Correctly identifies and explains the component's role",
+        "partial": "Identifies the component but lacks detailed explanation",
+        "none": "Incorrect component or explanation"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Evaluate the Working Memory Model by discussing its strengths and weaknesses.",
+      "prompt": "Evaluate the support for the Working Memory Model provided by dual-task studies.",
       "keyPoints": [
-        "Strength: Provides a detailed explanation of cognitive processes beyond the simple short-term memory model.",
-        "Weakness: Limited empirical evidence for the exact functions of the Central Executive.",
-        "Overall, the model has greatly influenced understanding of working memory, but further research is needed."
+        "Dual-task studies show separate processing abilities for verbal and visual tasks",
+        "Support the existence of separate slave systems",
+        "However, lack ecological validity as tasks are artificial"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes clear strengths and weaknesses with elaboration.",
-        "partial": "Includes 1-2 points or lacks detail.",
-        "none": "Missing evaluation or inaccurate."
+        "full": "Includes all evaluation points with detail",
+        "partial": "Includes some points but lacks depth",
+        "none": "Misses key evaluative points"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Critically assess the relevance of the Working Memory Model in understanding everyday memory tasks.",
+      "prompt": "Critically assess the central executive component of the Working Memory Model.",
       "keyPoints": [
-        "The model effectively explains how we multitask and process information in daily life.",
-        "However, some real-world scenarios may not fit neatly into the model's components.",
-        "Further studies could enhance practical applications and address limitations."
+        "Central executive is crucial but poorly defined",
+        "Lack of clarity on how it functions and its capacity",
+        "Some evidence suggests multiple components within the central executive"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes a clear critical assessment with balanced points.",
-        "partial": "Includes limited points or lacks detail.",
-        "none": "Missing critical assessment or inaccurate."
+        "full": "Includes all critical points with detail",
+        "partial": "Includes some points but lacks depth",
+        "none": "Misses key evaluative points"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Discuss the implications of the Working Memory Model for educational practices.",
+      "prompt": "Discuss the limitations of the Working Memory Model in explaining memory processes.",
       "keyPoints": [
-        "Educators can design tasks that consider cognitive load and working memory limitations.",
-        "Strategies such as breaking down instructions can enhance learning.",
-        "However, reliance on the model must consider individual differences in working memory capacity."
+        "Does not account for all types of memory, e.g., long-term memory",
+        "Episodic Buffer was a later addition to address limitations",
+        "Model may oversimplify the complexity of memory processes"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes clear implications with accurate detail.",
-        "partial": "Includes limited implications or lacks detail.",
-        "none": "Missing implications or inaccurate."
+        "full": "Includes all limitations with detail",
+        "partial": "Includes some limitations but lacks depth",
+        "none": "Misses key limitations"
       }
     }
   ]

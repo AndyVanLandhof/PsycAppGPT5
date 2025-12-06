@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "neurons-synaptic-transmission",
+  "subTopicTitle": "Neurons and synaptic transmission",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:30:33.113Z",
+  "items": [
+    {
+      "id": "neurons-synaptic-transmission-q1",
+      "question": "Which type of neuron carries messages from the receptors to the central nervous system?",
+      "options": [
+        "Sensory neuron",
+        "Motor neuron",
+        "Relay neuron",
+        "Interneuron"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sensory neurons carry messages from sensory receptors to the brain and spinal cord."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q2",
+      "question": "What is the role of the myelin sheath on a neuron?",
+      "options": [
+        "To insulate the axon and speed up transmission",
+        "To protect the neuron from damage",
+        "To store neurotransmitters",
+        "To carry oxygen to the neuron"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The myelin sheath insulates the axon and facilitates the rapid transmission of electrical impulses."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q3",
+      "question": "Which neurotransmitter is primarily involved in mood regulation?",
+      "options": [
+        "Serotonin",
+        "Dopamine",
+        "Acetylcholine",
+        "GABA"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Serotonin is widely recognized for its role in mood regulation and is often targeted by antidepressant drugs."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q4",
+      "question": "Which study demonstrated the synaptic transmission process using frogs' hearts?",
+      "options": [
+        "Otto Loewi (1921)",
+        "Ivan Pavlov (1897)",
+        "Hans Selye (1936)",
+        "Donald Hebb (1949)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Otto Loewi's study in 1921 demonstrated chemical synaptic transmission using frog hearts, discovering acetylcholine."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q5",
+      "question": "What is the function of the axon terminal in a neuron?",
+      "options": [
+        "To release neurotransmitters into the synaptic cleft",
+        "To generate electrical impulses",
+        "To receive signals from other neurons",
+        "To maintain the neuron's metabolic functions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The axon terminal releases neurotransmitters into the synaptic cleft to communicate with other neurons."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q6",
+      "question": "Which type of ion enters the neuron during depolarization?",
+      "options": [
+        "Sodium (Na+)",
+        "Potassium (K+)",
+        "Calcium (Ca2+)",
+        "Chloride (Cl-)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "During depolarization, sodium ions (Na+) enter the neuron, making the inside more positive."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q7",
+      "question": "Which part of the neuron primarily receives input from other neurons?",
+      "options": [
+        "Dendrites",
+        "Axon",
+        "Soma",
+        "Myelin sheath"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Dendrites are tree-like structures that receive signals from other neurons."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q8",
+      "question": "What is the synaptic gap between two neurons called?",
+      "options": [
+        "Synaptic cleft",
+        "Axon hillock",
+        "Neuronal junction",
+        "Soma space"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The synaptic cleft is the gap between the presynaptic and postsynaptic neurons."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q9",
+      "question": "Which neurotransmitter is primarily associated with the 'fight or flight' response?",
+      "options": [
+        "Noradrenaline",
+        "Serotonin",
+        "Dopamine",
+        "GABA"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Noradrenaline is involved in the 'fight or flight' response, preparing the body for action."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q10",
+      "question": "Sarah is preparing for an exam and feels very anxious. She notices her heart rate increasing. Which neurotransmitter is likely involved in this response?",
+      "options": [
+        "Noradrenaline",
+        "Serotonin",
+        "Dopamine",
+        "Acetylcholine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Noradrenaline is involved in the body's stress response, increasing heart rate as part of the 'fight or flight' reaction."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q11",
+      "question": "During a lab experiment, a student observes that a neuron fires an electrical impulse when stimulated. What is this process called?",
+      "options": [
+        "Action potential",
+        "Resting potential",
+        "Threshold potential",
+        "Synaptic transmission"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "An action potential is the electrical impulse that travels along the axon when a neuron is sufficiently stimulated."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q12",
+      "question": "In a study, participants who received drug A showed increased levels of serotonin in the synaptic cleft. What is drug A likely acting as?",
+      "options": [
+        "Selective serotonin reuptake inhibitor (SSRI)",
+        "Dopamine agonist",
+        "Cholinesterase inhibitor",
+        "GABA antagonist"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "SSRIs increase serotonin levels by inhibiting its reuptake, leaving more available in the synaptic cleft."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q13",
+      "question": "Which methodological issue is a common critique of studies using animal models for synaptic transmission research?",
+      "options": [
+        "Limited generalizability to humans",
+        "Lack of control over variables",
+        "Ethical concerns regarding human participants",
+        "Inability to measure neurotransmitter levels"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Studies using animal models often face criticism for limited generalizability to humans due to species differences."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q14",
+      "question": "Why might neurotransmitter research be criticized for being reductionist?",
+      "options": [
+        "It oversimplifies complex human behaviors to chemical processes",
+        "It relies heavily on self-report measures",
+        "It neglects the role of environmental influences",
+        "It cannot establish cause and effect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Neurotransmitter research can be reductionist as it reduces complex behaviors to basic chemical processes, ignoring broader social and psychological factors."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q15",
+      "question": "In comparing neurotransmitters and hormones, which of the following is true?",
+      "options": [
+        "Neurotransmitters act faster than hormones",
+        "Hormones are released at synapses",
+        "Neurotransmitters can travel through the bloodstream",
+        "Hormones are only found in the brain"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Neurotransmitters act faster because they are released at synapses, whereas hormones can take longer to exert their effects as they travel through the bloodstream."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "experimental-method",
+  "subTopicTitle": "Experimental method",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:36:50.693Z",
+  "items": [
+    {
+      "question": "What is an independent variable?",
+      "answer": "An independent variable is the variable that is manipulated or changed in an experiment to see its effect on the dependent variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define a dependent variable.",
+      "answer": "A dependent variable is the variable that is measured in an experiment. It is affected by changes in the independent variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a laboratory experiment?",
+      "answer": "A laboratory experiment is a study conducted in a controlled environment where the researcher manipulates the independent variable to observe its effect on the dependent variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define an extraneous variable.",
+      "answer": "Extraneous variables are any variables other than the independent variable that might affect the dependent variable if not controlled.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Bandura et al. (1961) find about aggression?",
+      "answer": "Bandura et al. (1961) found that children who observed aggressive behavior in adults were more likely to imitate that behavior compared to children who observed non-aggressive behavior.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define operationalization.",
+      "answer": "Operationalization is the process of defining variables into measurable factors. This is essential for allowing variables to be quantified and analyzed.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a double-blind procedure?",
+      "answer": "A double-blind procedure is an experimental method where both the participants and the researchers are unaware of the group assignments to prevent bias.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define random allocation.",
+      "answer": "Random allocation involves assigning participants to different groups in an experiment in a way that each participant has an equal chance of being in any group.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a field experiment?",
+      "answer": "A field experiment is conducted in a natural setting where the researcher manipulates the independent variable but has less control over extraneous variables than in a lab setting.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Loftus and Palmer (1974) find about memory?",
+      "answer": "Loftus and Palmer (1974) found that the wording of questions can influence eyewitness accounts, specifically that verbs implying different speeds affected speed estimates in car accident scenarios.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define a control group.",
+      "answer": "A control group is a group in an experiment that does not receive the experimental treatment, used as a baseline to compare effects of the treatment.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is ecological validity?",
+      "answer": "Ecological validity refers to the extent to which research findings can be generalized to real-world settings.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does random sampling apply to participant selection?",
+      "answer": "Random sampling involves selecting participants from the population in a way that each individual has an equal chance of being chosen, reducing selection bias.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of operationalization to this scenario: measuring stress.",
+      "answer": "Operationalize stress by using a standardized questionnaire, such as the Perceived Stress Scale, to quantify stress levels for analysis.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the double-blind procedure apply to drug trials?",
+      "answer": "In drug trials, a double-blind procedure prevents both participants and researchers from knowing who receives the drug or placebo, reducing bias in results.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of dependent variable to this scenario: testing a new teaching method.",
+      "answer": "The dependent variable could be students' test scores, as these would be measured to assess the effect of the new teaching method.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of laboratory experiments.",
+      "answer": "Laboratory experiments have high control over extraneous variables, allowing for clearer causal conclusions between the independent and dependent variables.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of field experiments.",
+      "answer": "Field experiments often have lower control over extraneous variables, which can introduce confounding factors and reduce the reliability of results.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Bandura et al. (1961).",
+      "answer": "Bandura's study had high control and replicability but ethical concerns due to the potential for causing psychological harm to children by exposing them to aggression.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Loftus and Palmer (1974).",
+      "answer": "Loftus and Palmer's study had high control and showed the impact of leading questions, but it lacked ecological validity as it was conducted in artificial conditions.",
+      "ao": "AO3"
+    }
+  ]
+}

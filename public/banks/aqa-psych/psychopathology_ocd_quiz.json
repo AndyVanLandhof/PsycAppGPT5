@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "ocd",
+  "subTopicTitle": "OCD",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:36:24.045Z",
+  "items": [
+    {
+      "id": "ocd-q1",
+      "question": "What is the main focus of the biological approach to understanding OCD?",
+      "options": [
+        "Genetic and neural explanations",
+        "Cognitive distortions",
+        "Social learning",
+        "Psychodynamic conflicts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The biological approach emphasizes genetic and neural factors as key contributors to OCD."
+    },
+    {
+      "id": "ocd-q2",
+      "question": "Which neurotransmitter is most commonly associated with OCD?",
+      "options": [
+        "Serotonin",
+        "Dopamine",
+        "Acetylcholine",
+        "GABA"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Low levels of serotonin are linked to OCD, affecting mood and anxiety regulation."
+    },
+    {
+      "id": "ocd-q3",
+      "question": "According to the diathesis-stress model, what triggers the onset of OCD?",
+      "options": [
+        "A combination of genetic vulnerability and environmental stressors",
+        "Purely genetic inheritance",
+        "Environmental factors alone",
+        "Unresolved childhood conflicts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The diathesis-stress model suggests that both genetic predisposition and environmental stress are necessary for OCD development."
+    },
+    {
+      "id": "ocd-q4",
+      "question": "In the context of OCD, what is meant by 'compulsions'?",
+      "options": [
+        "Repetitive behaviors or mental acts performed to reduce anxiety",
+        "Persistent, intrusive thoughts",
+        "Emotional outbursts",
+        "Avoidance of feared objects"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Compulsions are repetitive actions aimed at reducing the anxiety caused by obsessive thoughts."
+    },
+    {
+      "id": "ocd-q5",
+      "question": "What did Menzies et al. (2007) discover in their study of patients with OCD?",
+      "options": [
+        "Structural abnormalities in the brain",
+        "Hormonal imbalances",
+        "Cognitive distortions",
+        "Increased social anxiety"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Menzies et al. (2007) found structural brain abnormalities, such as reduced grey matter, in OCD patients."
+    },
+    {
+      "id": "ocd-q6",
+      "question": "What is the primary aim of cognitive-behavioral therapy (CBT) for OCD?",
+      "options": [
+        "To change maladaptive thought patterns",
+        "To alter brain chemistry",
+        "To resolve unconscious conflicts",
+        "To modify social behaviors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "CBT aims to change the maladaptive thought patterns associated with OCD that lead to compulsive behaviors."
+    },
+    {
+      "id": "ocd-q7",
+      "question": "Which of the following is a limitation of the biological approach to explaining OCD?",
+      "options": [
+        "It overlooks environmental factors",
+        "It focuses too much on cognitive processes",
+        "It ignores cultural influences",
+        "It relies heavily on qualitative methods"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The biological approach can be criticized for ignoring the role of environmental factors in OCD development."
+    },
+    {
+      "id": "ocd-q8",
+      "question": "What type of medication is commonly used to treat OCD?",
+      "options": [
+        "Selective serotonin reuptake inhibitors (SSRIs)",
+        "Antipsychotics",
+        "Beta-blockers",
+        "Benzodiazepines"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "SSRIs are commonly prescribed to increase serotonin levels and alleviate OCD symptoms."
+    },
+    {
+      "id": "ocd-q9",
+      "question": "Which researcher is associated with the development of the Yale-Brown Obsessive Compulsive Scale (Y-BOCS)?",
+      "options": [
+        "Goodman et al.",
+        "Beck et al.",
+        "Zimbardo et al.",
+        "Milgram et al."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Goodman et al. developed the Y-BOCS, a widely used scale for assessing the severity of OCD symptoms."
+    },
+    {
+      "id": "ocd-q10",
+      "question": "John finds it difficult to leave his house without checking multiple times that all appliances are turned off. Which aspect of OCD does this scenario illustrate?",
+      "options": [
+        "Compulsions",
+        "Obsessions",
+        "Avoidance",
+        "Phobia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "John engages in compulsive behavior by repeatedly checking appliances to reduce anxiety."
+    },
+    {
+      "id": "ocd-q11",
+      "question": "A patient reports frequent intrusive thoughts about contamination and engages in excessive hand washing. Which symptom of OCD does this describe?",
+      "options": [
+        "Obsessions and compulsions",
+        "Phobias and rituals",
+        "Delusions and hallucinations",
+        "Anxiety and depression"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The patient exhibits obsessions (intrusive thoughts) and compulsions (excessive hand washing)."
+    },
+    {
+      "id": "ocd-q12",
+      "question": "Emily struggles with obsessive thoughts and compulsive behaviors, which interfere with her daily life. What diagnosis is most appropriate?",
+      "options": [
+        "OCD",
+        "Generalized anxiety disorder",
+        "Panic disorder",
+        "Major depressive disorder"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Emily exhibits key symptoms of OCD: intrusive obsessions and compulsions affecting her functioning."
+    },
+    {
+      "id": "ocd-q13",
+      "question": "What is a potential issue with the use of SSRIs in treating OCD?",
+      "options": [
+        "They may have side effects such as nausea and insomnia",
+        "They are ineffective for most patients",
+        "They lead to addiction",
+        "They cause cognitive impairment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "SSRIs can cause side effects like nausea and insomnia, which may affect patient compliance."
+    },
+    {
+      "id": "ocd-q14",
+      "question": "How does the psychodynamic approach explain the development of OCD?",
+      "options": [
+        "As a result of unresolved internal conflicts",
+        "Due to learned behaviors",
+        "From genetic predispositions",
+        "Through cognitive distortions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The psychodynamic approach attributes OCD to unresolved internal conflicts, often rooted in childhood."
+    },
+    {
+      "id": "ocd-q15",
+      "question": "Why might the cognitive approach be criticized when explaining OCD?",
+      "options": [
+        "It overlooks biological factors",
+        "It is too deterministic",
+        "It ignores cultural differences",
+        "It relies heavily on medication"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The cognitive approach may be criticized for not adequately considering biological influences on OCD."
+    }
+  ]
+}

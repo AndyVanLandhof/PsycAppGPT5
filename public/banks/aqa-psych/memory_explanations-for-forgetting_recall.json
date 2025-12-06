@@ -5,15 +5,15 @@
   "subTopic": "explanations-for-forgetting",
   "subTopicTitle": "Explanations for forgetting",
   "type": "recall",
-  "generatedAt": "2025-12-06T09:48:32.931Z",
+  "generatedAt": "2025-12-06T10:15:30.330Z",
   "items": [
     {
       "ao": "AO1",
-      "prompt": "What is retroactive interference and how does it explain forgetting?",
+      "prompt": "Define the term 'interference' as an explanation for forgetting.",
       "keyPoints": [
-        "Definition of retroactive interference: when new information interferes with the recall of old information.",
-        "Example of retroactive interference, such as learning a new phone number that makes it hard to remember the old one.",
-        "Mention of the classic study by McGeoch and McDonald (1931) that demonstrated retroactive interference."
+        "Interference occurs when one memory disrupts the ability to recall another.",
+        "It is more likely to occur when memories are similar.",
+        "Two types: proactive interference (old memories interfere with new) and retroactive interference (new memories interfere with old)."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -24,11 +24,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "Define proactive interference and give an example.",
+      "prompt": "Explain the concept of retrieval failure as a reason for forgetting.",
       "keyPoints": [
-        "Definition of proactive interference: when old information interferes with the learning of new information.",
-        "Example such as difficulty in learning a new language due to previously learned languages.",
-        "Mention of a relevant study that supports this concept, such as Underwood's research."
+        "Retrieval failure is the inability to access information due to the absence of cues.",
+        "Cues can be internal (state-dependent) or external (context-dependent).",
+        "Tulving's encoding specificity principle states that memory is most effective when information present at encoding is also present at retrieval."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -39,11 +39,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "Explain the concept of retrieval failure as an explanation for forgetting.",
+      "prompt": "Describe the study by Baddeley and Hitch (1977) on interference as an explanation for forgetting.",
       "keyPoints": [
-        "Definition of retrieval failure: inability to access information due to insufficient cues.",
-        "The role of context-dependent and state-dependent cues.",
-        "Mention of Tulving's study on encoding specificity principle."
+        "Baddeley and Hitch investigated rugby players' recall of team names.",
+        "Found that players who played more games forgot more names due to interference.",
+        "Demonstrated that interference, not passage of time, was key in forgetting."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -54,92 +54,95 @@
     },
     {
       "ao": "AO2",
-      "prompt": "Sarah is studying for her psychology exam and finds it difficult to remember the effects of sleep deprivation because she recently learned about the effects of caffeine. Which explanation for forgetting could apply to her situation?",
+      "prompt": "Emily is preparing for her final exams and finds it difficult to recall content from her first-year modules. Apply the concept of interference to explain Emily's difficulty.",
       "keyPoints": [
-        "Identification of proactive interference as the explanation.",
-        "Explanation that prior knowledge of caffeine is interfering with her ability to recall information about sleep deprivation.",
-        "Application of the concept to Sarah's study habits."
+        "Emily's difficulty may be due to retroactive interference, where new information (recent modules) interferes with old information (first-year modules).",
+        "Proactive interference could also play a role if Emily's earlier studies are affecting her ability to learn new content.",
+        "The similarity of content across years could exacerbate interference effects."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Applies theory correctly and identifies key points",
-        "partial": "Identifies some relevant points but lacks detail in application",
-        "none": "Fails to apply the theory or misunderstands the scenario"
+        "full": "Accurate application of interference theory with relevant examples",
+        "partial": "Some application of theory but lacks depth or examples",
+        "none": "Inaccurate or no application of theory"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "Tom learned a new dance routine but struggles to remember it during practice because he keeps thinking about the previous routine he learned. Which explanation for forgetting could explain this?",
+      "prompt": "John struggles to remember details of his high school years now that he's in college. Use retrieval failure to explain John's memory issue.",
       "keyPoints": [
-        "Identification of retroactive interference as the relevant explanation.",
-        "Explanation that the new dance routine is interfering with the recall of the previous routine.",
-        "Discussion of how this could affect Tom's performance."
+        "John's memory issue could be due to retrieval failure if the context or cues present during high school are absent now.",
+        "State-dependent cues, such as mood or physiological state, might not match, hindering recall.",
+        "Reminders or revisiting old contexts might improve John's recall."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Applies theory correctly and identifies key points",
-        "partial": "Identifies some relevant points but lacks detail in application",
-        "none": "Fails to apply the theory or misunderstands the scenario"
+        "full": "Accurate application of retrieval failure with relevant examples",
+        "partial": "Some application of theory but lacks depth or examples",
+        "none": "Inaccurate or no application of theory"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "During a test, Lisa is unable to recall the answers she studied because she is feeling anxious. How can retrieval failure explain her forgetting?",
+      "prompt": "Liam often forgets where he placed his keys unless he uses a specific storage box. Apply retrieval failure theory to explain this phenomenon.",
       "keyPoints": [
-        "Identification of retrieval failure as the explanation.",
-        "Explanation that anxiety acts as a cue that may block access to the information she learned.",
-        "Discussion of how context-dependent cues could relate to her anxiety."
+        "Liam's use of a specific box acts as a context-dependent cue aiding retrieval.",
+        "Without the box, retrieval failure occurs due to the absence of external cues.",
+        "Consistent use of the box strengthens the cue-memory association, reducing forgetting."
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Applies theory correctly and identifies key points",
-        "partial": "Identifies some relevant points but lacks detail in application",
-        "none": "Fails to apply the theory or misunderstands the scenario"
+        "full": "Accurate application of retrieval failure with relevant examples",
+        "partial": "Some application of theory but lacks depth or examples",
+        "none": "Inaccurate or no application of theory"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Evaluate the concept of retroactive interference as an explanation for forgetting.",
+      "prompt": "Evaluate the interference theory of forgetting using the PEEL structure.",
       "keyPoints": [
-        "Point: Retroactive interference is supported by empirical studies, such as those by McGeoch and McDonald.",
-        "Evidence: Discuss findings that demonstrate how new learning can disrupt old memories.",
-        "Link: However, it may not apply to all types of memory or in real-life situations."
+        "Point: Interference is supported by empirical evidence.",
+        "Evidence: Studies like Baddeley and Hitch (1977) support interference as a key factor in forgetting.",
+        "Explain: These studies demonstrate real-world applicability and enhance ecological validity.",
+        "Link: However, interference does not account for all types of forgetting, such as those due to retrieval failure."
       ],
       "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Well-structured evaluation with clear point, evidence, and link",
-        "partial": "Some evaluation present but lacks clarity or completeness",
-        "none": "No evaluation or irrelevant points"
+        "full": "Clear PEEL structure with examples and critical evaluation",
+        "partial": "Some evaluation but lacks full PEEL structure or depth",
+        "none": "Lacks coherent evaluation or PEEL structure"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Critically assess the role of retrieval failure in explaining forgetting.",
+      "prompt": "Evaluate retrieval failure as an explanation for forgetting using the PEEL structure.",
       "keyPoints": [
-        "Point: Retrieval failure highlights the importance of cues in memory retrieval.",
-        "Evidence: Mention studies supporting context-dependent and state-dependent memory.",
-        "Link: However, it may oversimplify the forgetting process by not considering other factors like decay or interference."
+        "Point: Retrieval failure is supported by a wealth of research evidence.",
+        "Evidence: Studies into context-dependent forgetting, such as Godden and Baddeley's diver study.",
+        "Explain: These studies highlight the importance of cues in accessing memories, supporting retrieval failure.",
+        "Link: However, retrieval failure cannot explain all forms of forgetting, such as those due to interference."
       ],
       "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Well-structured evaluation with clear point, evidence, and link",
-        "partial": "Some evaluation present but lacks clarity or completeness",
-        "none": "No evaluation or irrelevant points"
+        "full": "Clear PEEL structure with examples and critical evaluation",
+        "partial": "Some evaluation but lacks full PEEL structure or depth",
+        "none": "Lacks coherent evaluation or PEEL structure"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Discuss the strengths and limitations of proactive and retroactive interference as explanations for forgetting.",
+      "prompt": "Discuss one methodological issue associated with research on interference as an explanation for forgetting.",
       "keyPoints": [
-        "Point: Both types of interference are well-supported by research and can explain specific forgetting scenarios.",
-        "Evidence: Reference to studies that demonstrate both types of interference.",
-        "Link: However, these explanations may not account for all instances of forgetting, and individual differences could play a role."
+        "Point: Much of the research on interference uses artificial tasks.",
+        "Evidence: Lab experiments often use word lists which lack everyday relevance.",
+        "Explain: This limits the ecological validity and generalizability of findings.",
+        "Link: Real-life memory tasks may involve more complex and meaningful materials."
       ],
       "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Well-structured evaluation with clear point, evidence, and link",
-        "partial": "Some evaluation present but lacks clarity or completeness",
-        "none": "No evaluation or irrelevant points"
+        "full": "Clear PEEL structure with examples and critical evaluation",
+        "partial": "Some evaluation but lacks full PEEL structure or depth",
+        "none": "Lacks coherent evaluation or PEEL structure"
       }
     }
   ]

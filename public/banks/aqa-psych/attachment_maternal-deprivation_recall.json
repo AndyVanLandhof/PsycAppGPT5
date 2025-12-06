@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "maternal-deprivation",
+  "subTopicTitle": "Maternal deprivation",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:20:15.418Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define maternal deprivation according to Bowlby's theory.",
+      "keyPoints": [
+        "Maternal deprivation refers to the emotional and intellectual consequences of separation between a child and their mother or mother substitute.",
+        "Bowlby suggested that continuous care from a mother or mother figure is essential for healthy psychological development.",
+        "Prolonged separation can lead to serious consequences such as affectionless psychopathy and developmental retardation."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the 44 thieves study conducted by Bowlby.",
+      "keyPoints": [
+        "Bowlby conducted a study known as the 44 thieves study to investigate the long-term effects of maternal deprivation.",
+        "He compared 44 juvenile thieves with a control group of non-delinquent emotionally disturbed children.",
+        "Findings showed that 14 of the thieves were diagnosed as affectionless psychopaths, 12 of whom had experienced prolonged separation from their mothers in their first two years of life."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the term 'critical period' in the context of Bowlby's theory of maternal deprivation.",
+      "keyPoints": [
+        "The critical period refers to the time frame in which an attachment must form to ensure healthy psychological development.",
+        "According to Bowlby, this period is within the first 30 months of life.",
+        "If a child is deprived of continuous care during this period, Bowlby believed it could result in long-term psychological consequences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah, a 6-year-old, was separated from her mother for a year due to hospitalization. Apply Bowlby's theory of maternal deprivation to predict potential outcomes for Sarah.",
+      "keyPoints": [
+        "According to Bowlby, Sarah's extended separation from her mother could lead to potential emotional and intellectual consequences.",
+        "She might develop affectionless psychopathy, characterized by an inability to form meaningful emotional relationships.",
+        "Sarah could also experience cognitive or social developmental delays due to the lack of maternal care during the critical period."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies Bowlby's theory to the scenario, mentioning key outcomes",
+        "partial": "Mentions 1-2 potential outcomes but lacks clear application of theory",
+        "none": "Fails to apply Bowlby's theory or discusses irrelevant points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Jake, a teenager, shows signs of behavioral issues and struggles with forming relationships. Based on Bowlby's theory of maternal deprivation, how might his early childhood experiences be relevant?",
+      "keyPoints": [
+        "Behavioral issues and relationship struggles in Jake may be linked to early separation from his primary caregiver.",
+        "Bowlby's theory suggests that lack of maternal care during the critical period could lead to affectionless psychopathy or emotional difficulties.",
+        "Jake's early experiences might have hindered his ability to form secure attachments, affecting his social development."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies Bowlby's theory to explain Jake's issues, mentioning relevant concepts",
+        "partial": "Identifies 1-2 relevant points but lacks depth in application",
+        "none": "Fails to connect Jake's issues with Bowlby's theory or discusses irrelevant information"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child raised in an orphanage for the first three years shows signs of developmental delays. How would Bowlby's theory of maternal deprivation explain this?",
+      "keyPoints": [
+        "Bowlby's theory suggests that the lack of a consistent attachment figure can lead to developmental delays.",
+        "The absence of maternal care during the critical period could result in intellectual retardation and emotional difficulties.",
+        "The child's environment in the orphanage likely lacked the continuous love and care necessary for healthy psychological development."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly applies Bowlby's theory to explain developmental delays, addressing key concepts",
+        "partial": "Mentions relevant points but lacks comprehensive application",
+        "none": "Fails to apply Bowlby's theory or provides irrelevant information"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the methodology of Bowlby's 44 thieves study using the PEEL structure.",
+      "keyPoints": [
+        "Point: The study's methodology had certain limitations.",
+        "Explanation: The sample was biased as it only included boys from a particular clinic.",
+        "Evidence: This limits the generalizability of the findings to other populations.",
+        "Link: These methodological issues suggest that Bowlby's conclusions might not be applicable to all children."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a well-rounded evaluation using PEEL, addressing all key points",
+        "partial": "Mentions some evaluation points but lacks structure or depth",
+        "none": "Fails to evaluate using PEEL or provides incorrect information"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the implications of Bowlby's maternal deprivation theory for childcare practices, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Bowlby's theory has influenced childcare practices significantly.",
+        "Explanation: It emphasizes the importance of a stable caregiver-child relationship.",
+        "Evidence: This has led to changes such as the introduction of key workers in nurseries.",
+        "Link: These practices aim to ensure continuous care and prevent the negative effects of deprivation."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively discusses implications using PEEL, covering all key points",
+        "partial": "Discusses implications but lacks depth or misses some key points",
+        "none": "Fails to connect Bowlby's theory to childcare practices or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ethical considerations of Bowlby's research on maternal deprivation using the PEEL structure.",
+      "keyPoints": [
+        "Point: There are ethical concerns regarding Bowlby's research.",
+        "Explanation: The use of children in potentially distressing studies raises ethical issues.",
+        "Evidence: Participants might have been exposed to stress without adequate support.",
+        "Link: These ethical considerations question the moral responsibility in developmental research."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Comprehensively evaluates ethical considerations using PEEL, addressing all points",
+        "partial": "Mentions ethical issues but lacks comprehensive evaluation or misses points",
+        "none": "Fails to address ethical considerations or lacks PEEL structure"
+      }
+    }
+  ]
+}

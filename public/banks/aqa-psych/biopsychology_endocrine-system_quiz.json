@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "endocrine-system",
+  "subTopicTitle": "The endocrine system",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:31:21.074Z",
+  "items": [
+    {
+      "id": "endocrine-system-q1",
+      "question": "Which gland is primarily responsible for releasing adrenaline into the bloodstream?",
+      "options": [
+        "Adrenal glands",
+        "Pituitary gland",
+        "Thyroid gland",
+        "Pineal gland"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The adrenal glands, located above the kidneys, release adrenaline during the fight-or-flight response."
+    },
+    {
+      "id": "endocrine-system-q2",
+      "question": "Which hormone is directly involved in regulating the sleep-wake cycle?",
+      "options": [
+        "Melatonin",
+        "Cortisol",
+        "Insulin",
+        "Testosterone"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Melatonin, produced by the pineal gland, helps regulate sleep patterns by signaling when it's time to sleep."
+    },
+    {
+      "id": "endocrine-system-q3",
+      "question": "What is the role of the hypothalamus in the endocrine system?",
+      "options": [
+        "Regulates hormone release from the pituitary gland",
+        "Produces insulin",
+        "Releases adrenaline",
+        "Secretes digestive enzymes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The hypothalamus links the nervous system to the endocrine system and controls the pituitary gland's release of hormones."
+    },
+    {
+      "id": "endocrine-system-q4",
+      "question": "Which hormone is released by the pituitary gland to stimulate growth and cell reproduction?",
+      "options": [
+        "Growth hormone",
+        "Thyroid-stimulating hormone",
+        "Oxytocin",
+        "Adrenaline"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Growth hormone, secreted by the pituitary gland, plays a crucial role in physical growth and development."
+    },
+    {
+      "id": "endocrine-system-q5",
+      "question": "Who conducted a study in 1971 that investigated the effects of stress on the immune system?",
+      "options": [
+        "Selye",
+        "Sperry",
+        "Milner",
+        "Bandura"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hans Selye conducted research on stress and its impact on the immune system, leading to the development of the General Adaptation Syndrome model."
+    },
+    {
+      "id": "endocrine-system-q6",
+      "question": "Which hormone is primarily involved in regulating blood sugar levels?",
+      "options": [
+        "Insulin",
+        "Adrenaline",
+        "Melatonin",
+        "Estrogen"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Insulin, produced by the pancreas, helps regulate glucose levels in the blood by facilitating cellular uptake of glucose."
+    },
+    {
+      "id": "endocrine-system-q7",
+      "question": "What is a primary function of cortisol in the body?",
+      "options": [
+        "Regulating metabolism and stress response",
+        "Promoting sleep",
+        "Stimulating muscle growth",
+        "Enhancing mood"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cortisol, released by the adrenal cortex, plays a significant role in managing metabolism and the body's response to stress."
+    },
+    {
+      "id": "endocrine-system-q8",
+      "question": "In the context of the endocrine system, what is 'negative feedback'?",
+      "options": [
+        "A process that decreases hormone production when levels are high",
+        "A mechanism to amplify hormone production",
+        "A response that increases adrenaline levels",
+        "A way to enhance pituitary gland function"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Negative feedback is a regulatory mechanism where an increase in hormone levels inhibits further secretion, maintaining homeostasis."
+    },
+    {
+      "id": "endocrine-system-q9",
+      "question": "Which hormone is released by the ovaries and is involved in the menstrual cycle?",
+      "options": [
+        "Estrogen",
+        "Testosterone",
+        "Insulin",
+        "Adrenaline"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Estrogen is produced by the ovaries and plays a key role in regulating the menstrual cycle and reproductive system."
+    },
+    {
+      "id": "endocrine-system-q10",
+      "question": "A patient experiences weight gain, fatigue, and depression. Which hormone imbalance might be responsible?",
+      "options": [
+        "Underactive thyroid hormone",
+        "Excess adrenaline",
+        "High melatonin",
+        "Low testosterone"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "An underactive thyroid, or hypothyroidism, can lead to symptoms like weight gain, fatigue, and depression due to low thyroid hormone levels."
+    },
+    {
+      "id": "endocrine-system-q11",
+      "question": "During a stressful event, which hormone would you expect to find elevated in the bloodstream?",
+      "options": [
+        "Cortisol",
+        "Insulin",
+        "Melatonin",
+        "Testosterone"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Cortisol is a stress hormone released by the adrenal glands during stressful situations to help the body manage stress."
+    },
+    {
+      "id": "endocrine-system-q12",
+      "question": "A researcher finds that high levels of a certain hormone correlate with increased aggression. Which hormone is most likely involved?",
+      "options": [
+        "Testosterone",
+        "Insulin",
+        "Melatonin",
+        "Cortisol"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Testosterone has been linked to increased aggression in various studies, correlating with aggressive behavior in both animals and humans."
+    },
+    {
+      "id": "endocrine-system-q13",
+      "question": "What is a limitation of using blood tests to measure cortisol levels in stress research?",
+      "options": [
+        "Blood tests may not reflect long-term stress",
+        "Blood tests are too invasive",
+        "Blood tests cannot detect cortisol",
+        "Blood tests only measure adrenaline"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Blood tests provide a snapshot of cortisol at a single time point and may not accurately reflect chronic stress levels."
+    },
+    {
+      "id": "endocrine-system-q14",
+      "question": "Why might self-report measures be problematic in research on stress and hormone levels?",
+      "options": [
+        "Participants may not accurately report stress levels",
+        "Self-reports are too costly",
+        "Self-reports do not measure adrenaline",
+        "Self-reports cannot be used for cortisol"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Self-report measures can be biased due to inaccurate self-assessment or social desirability, affecting the validity of stress research."
+    },
+    {
+      "id": "endocrine-system-q15",
+      "question": "How does the endocrine system's response time compare to the nervous system?",
+      "options": [
+        "Slower but longer-lasting effects",
+        "Faster but shorter-lasting effects",
+        "Identical response time",
+        "Slower and shorter-lasting effects"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The endocrine system generally has slower but more prolonged effects compared to the rapid and short-term responses of the nervous system."
+    }
+  ]
+}

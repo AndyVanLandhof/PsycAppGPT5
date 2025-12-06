@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "cultural-variations",
+  "subTopicTitle": "Cultural variations",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:19:20.507Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'cultural variations in attachment' and name a key study in this area.",
+      "keyPoints": [
+        "Cultural variations refer to differences in attachment behaviors across cultures",
+        "Attachment types may vary due to cultural practices",
+        "Van IJzendoorn and Kroonenberg's meta-analysis is a key study"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the method and findings of Van IJzendoorn and Kroonenberg's study on cultural variations in attachment.",
+      "keyPoints": [
+        "Meta-analysis of 32 studies from 8 countries",
+        "Used the Strange Situation to classify attachment types",
+        "Found secure attachment was the most common across cultures"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the three main attachment types identified in cultural variation studies?",
+      "keyPoints": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher observes children in Japan using the Strange Situation. Apply your knowledge of cultural variations to predict potential findings.",
+      "keyPoints": [
+        "Higher rates of insecure-resistant attachment",
+        "Secure attachment still most common",
+        "Cultural emphasis on close family bonds influences attachment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child in Germany shows insecure-avoidant behavior. How might cultural values in Germany explain this attachment style?",
+      "keyPoints": [
+        "Cultural values of independence and self-reliance",
+        "Insecure-avoidant attachment more common in cultures valuing independence",
+        "Parental practices may encourage exploration and less clinginess"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might cultural variations in attachment affect cross-cultural adoption processes?",
+      "keyPoints": [
+        "Potential challenges in attachment styles between child and adoptive parents",
+        "Need for sensitivity to cultural differences in attachment behaviors",
+        "Importance of understanding cultural background of the child"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of the Strange Situation in studying cultural variations in attachment. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Strange Situation is standardized and replicable",
+        "Evidence: Widely used in cross-cultural studies like Van IJzendoorn and Kroonenberg",
+        "Explanation: Provides consistent method for comparing cultures",
+        "Limitation: May not be valid across all cultures due to differing child-rearing practices"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how cultural bias may affect research into cultural variations in attachment. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Research may be culturally biased towards Western norms",
+        "Evidence: Strange Situation developed in the USA",
+        "Explanation: May not account for cultural differences in child-rearing",
+        "Limitation: Imposes an etic perspective, potentially misinterpreting behaviors"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the implications of cultural variations in attachment for psychological theory. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Highlights the importance of considering cultural context in attachment theory",
+        "Evidence: Differences in attachment styles across cultures",
+        "Explanation: Challenges universality of attachment theories like Bowlby's",
+        "Limitation: Need for more culturally inclusive research to inform theories"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

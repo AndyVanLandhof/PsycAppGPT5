@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "correlations",
+  "subTopicTitle": "Correlations",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:39:22.760Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define what a correlation is in psychological research.",
+      "keyPoints": [
+        "A correlation is a statistical measure that describes the size and direction of a relationship between two or more variables.",
+        "Correlations can be positive, negative, or zero.",
+        "Correlation does not imply causation; it only indicates a relationship."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the difference between a positive and a negative correlation?",
+      "keyPoints": [
+        "In a positive correlation, as one variable increases, the other variable also increases.",
+        "In a negative correlation, as one variable increases, the other variable decreases.",
+        "Examples of both types of correlations should be provided."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of a correlation coefficient.",
+      "keyPoints": [
+        "The correlation coefficient is a numerical value between -1 and +1.",
+        "A coefficient of +1 indicates a perfect positive correlation, -1 indicates a perfect negative correlation, and 0 indicates no correlation.",
+        "It is often represented by the letter 'r'."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A recent study found a correlation of +0.75 between the number of hours students study and their exam scores. Apply your understanding of correlations to explain this finding.",
+      "keyPoints": [
+        "A correlation of +0.75 indicates a strong positive relationship.",
+        "As students study more hours, their exam scores tend to increase.",
+        "This does not mean studying more hours causes higher exam scores, only that they are related."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a researcher finds a negative correlation between exercise frequency and levels of stress. How would you interpret this result?",
+      "keyPoints": [
+        "A negative correlation implies that as exercise frequency increases, stress levels decrease.",
+        "The relationship is inverse: more exercise is associated with lower stress.",
+        "This does not prove that exercise reduces stress, only that they are related."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A study shows no correlation between hours of sleep and happiness levels. What does this imply about the relationship between these two variables?",
+      "keyPoints": [
+        "No correlation indicates there is no linear relationship.",
+        "Changes in sleep hours do not predict changes in happiness levels.",
+        "It suggests other factors might influence happiness beyond sleep duration."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of correlations in psychological research using the PEEL structure.",
+      "keyPoints": [
+        "Point: Correlations are useful for identifying relationships between variables.",
+        "Evidence: Allows researchers to predict one variable based on another.",
+        "Explain: However, correlations do not establish cause and effect.",
+        "Link: This limitation means correlations must be interpreted with caution."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate PEEL structure",
+        "partial": "Includes some points but lacks structure or detail",
+        "none": "Missing key points or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss one advantage and one disadvantage of using correlational studies.",
+      "keyPoints": [
+        "Advantage: Correlational studies can handle large amounts of data and show relationships between variables.",
+        "Evidence: Useful for initial investigations before conducting experiments.",
+        "Disadvantage: Cannot determine causation, only association.",
+        "Evidence: Confounding variables may affect the variables being studied."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes a balanced discussion with examples for both advantage and disadvantage",
+        "partial": "Discusses only one side or lacks examples",
+        "none": "Fails to discuss either advantage or disadvantage adequately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Using the PEEL structure, evaluate the statement: 'Correlation implies causation.'",
+      "keyPoints": [
+        "Point: Correlation does not imply causation.",
+        "Evidence: Two correlated variables may be influenced by a third variable.",
+        "Explain: Misinterpretation can lead to false assumptions about causality.",
+        "Link: Researchers should be cautious and seek further evidence to establish causation."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate PEEL structure",
+        "partial": "Includes some points but lacks structure or detail",
+        "none": "Missing key points or lacks structure"
+      }
+    }
+  ]
+}

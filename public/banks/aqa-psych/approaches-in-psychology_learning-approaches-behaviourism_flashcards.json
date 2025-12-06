@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "learning-approaches-behaviourism",
+  "subTopicTitle": "Learning approaches: Behaviourist",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:21:08.163Z",
+  "items": [
+    {
+      "question": "What is classical conditioning?",
+      "answer": "A learning process where a natural reflex responds to a stimulus. Developed by Pavlov in 1927, it involves pairing a neutral stimulus with an unconditioned stimulus until the neutral stimulus elicits the conditioned response.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define operant conditioning.",
+      "answer": "A learning method where behaviors are influenced by reinforcement or punishment. Proposed by Skinner (1938), it involves increasing behaviors through rewards or decreasing them through punishment.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Pavlov (1927) find about dogs' salivation?",
+      "answer": "Pavlov found that dogs could be conditioned to salivate to a neutral stimulus (bell) when it was repeatedly paired with food, demonstrating classical conditioning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Skinner's (1938) research demonstrate?",
+      "answer": "Skinner's research with rats demonstrated operant conditioning, showing that behaviors could be shaped using rewards (reinforcements) and punishments.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is positive reinforcement?",
+      "answer": "A process in operant conditioning where a desirable stimulus is presented after a behavior, increasing its likelihood of recurrence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is negative reinforcement?",
+      "answer": "In operant conditioning, negative reinforcement involves removing an aversive stimulus after a behavior to increase its frequency.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is punishment in operant conditioning?",
+      "answer": "Punishment is a process in operant conditioning where an aversive consequence follows a behavior, decreasing the likelihood of that behavior reoccurring.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define extinction in classical conditioning.",
+      "answer": "Extinction occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, leading to a reduction in the conditioned response.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is stimulus generalization?",
+      "answer": "Stimulus generalization in classical conditioning is when a conditioned response is elicited by stimuli similar to the conditioned stimulus.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define shaping in operant conditioning.",
+      "answer": "Shaping is a process in operant conditioning where successive approximations of a desired behavior are reinforced until the target behavior is achieved.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Watson and Rayner (1920) find in the Little Albert study?",
+      "answer": "They found that a child could be conditioned to fear a white rat by associating it with a loud noise, demonstrating classical conditioning in humans.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a primary reinforcer?",
+      "answer": "A primary reinforcer is a naturally reinforcing stimulus like food or water, which satisfies a basic biological need.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does classical conditioning apply to phobias?",
+      "answer": "Phobias can develop when a neutral stimulus is paired with a frightening event, causing the stimulus to elicit fear responses.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply operant conditioning to a child's tantrums.",
+      "answer": "If a parent gives attention or a toy to stop a tantrum, it reinforces the behavior, increasing the likelihood of future tantrums. This is positive reinforcement.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does operant conditioning explain workplace bonuses?",
+      "answer": "Bonuses act as positive reinforcement, encouraging employees to maintain or increase their performance to receive the reward.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply negative reinforcement to studying behavior.",
+      "answer": "A student studies to avoid the anxiety of failing an exam. The removal of anxiety reinforces the studying behavior.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the behaviorist approach.",
+      "answer": "The behaviorist approach is scientifically credible due to its emphasis on observable behaviors and controlled laboratory settings, allowing for replication and objectivity.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the behaviorist approach.",
+      "answer": "It oversimplifies complex behaviors by ignoring mental processes and emotions, limiting understanding of human behavior.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Skinner's research.",
+      "answer": "Skinner’s use of controlled experiments with animals allows for replicable results but raises issues of generalizability to humans due to species differences.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the ethics of the Little Albert study.",
+      "answer": "The study lacked informed consent and caused distress to Albert, raising ethical concerns about the welfare of participants in psychological research.",
+      "ao": "AO3"
+    }
+  ]
+}

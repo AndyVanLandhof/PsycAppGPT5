@@ -26,8 +26,8 @@ if (!OPENAI_API_KEY) {
   process.exit(1);
 }
 
-const MODEL = 'gpt-4o-mini';
-const MAX_TOKENS = 2000;
+const MODEL = 'gpt-4o';  // Premium model for best quality
+const MAX_TOKENS = 3000; // More tokens for richer content
 const RATE_LIMIT_DELAY_MS = 1500; // Delay between API calls to avoid rate limiting
 
 // ============================================================================

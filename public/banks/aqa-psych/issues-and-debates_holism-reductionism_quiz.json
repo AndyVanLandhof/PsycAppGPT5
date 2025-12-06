@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "issues-and-debates",
+  "topicTitle": "Issues and Debates",
+  "subTopic": "holism-reductionism",
+  "subTopicTitle": "Holism and reductionism",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:43:30.242Z",
+  "items": [
+    {
+      "id": "holism-reductionism-q1",
+      "question": "In psychology, what does the term 'holism' refer to?",
+      "options": [
+        "The idea that complex phenomena can only be understood by considering the whole system",
+        "The reduction of complex phenomena into their simplest components",
+        "A focus on individual differences and unique experiences",
+        "The study of observable behavior without considering mental processes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Holism refers to understanding phenomena as interconnected and greater than the sum of their parts."
+    },
+    {
+      "id": "holism-reductionism-q2",
+      "question": "Which approach is most associated with reductionism in psychology?",
+      "options": [
+        "Biological approach",
+        "Humanistic approach",
+        "Cognitive approach",
+        "Sociocultural approach"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The biological approach often reduces behavior to biological processes like neurotransmitter activity."
+    },
+    {
+      "id": "holism-reductionism-q3",
+      "question": "Which psychologist is known for promoting a holistic perspective in psychology?",
+      "options": [
+        "Carl Rogers",
+        "B.F. Skinner",
+        "Sigmund Freud",
+        "Ivan Pavlov"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Carl Rogers, a humanistic psychologist, emphasized the whole person and their subjective experience."
+    },
+    {
+      "id": "holism-reductionism-q4",
+      "question": "What is a criticism of reductionism in psychology?",
+      "options": [
+        "It may oversimplify complex behaviors",
+        "It provides too much detail",
+        "It focuses too much on subjective experiences",
+        "It is too concerned with cultural differences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Reductionism can oversimplify complex behaviors by ignoring broader social and environmental factors."
+    },
+    {
+      "id": "holism-reductionism-q5",
+      "question": "Which of the following is an example of biological reductionism?",
+      "options": [
+        "Explaining depression solely in terms of neurotransmitter imbalances",
+        "Understanding social behavior through cultural norms",
+        "Analyzing personality through life experiences",
+        "Studying learning through observational methods"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Biological reductionism explains psychological phenomena in terms of biological factors, like neurotransmitter imbalances."
+    },
+    {
+      "id": "holism-reductionism-q6",
+      "question": "Gestalt psychology is best described as an example of which perspective?",
+      "options": [
+        "Holism",
+        "Reductionism",
+        "Behaviorism",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gestalt psychology emphasizes understanding psychological phenomena as whole patterns rather than the sum of parts."
+    },
+    {
+      "id": "holism-reductionism-q7",
+      "question": "Which study by Sperry in 1968 supports biological reductionism?",
+      "options": [
+        "Split-brain research",
+        "Cognitive dissonance theory",
+        "Social learning theory",
+        "Attachment theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sperry's split-brain research illustrates biological reductionism by linking brain hemispheres to specific cognitive functions."
+    },
+    {
+      "id": "holism-reductionism-q8",
+      "question": "Which of the following is a characteristic of a holistic approach in psychology?",
+      "options": [
+        "Focusing on individual parts of behavior",
+        "Considering cultural and social contexts",
+        "Reducing behavior to stimulus-response patterns",
+        "Analyzing the brain's neurotransmitter systems"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "A holistic approach considers broader contexts, including cultural and social influences, when understanding behavior."
+    },
+    {
+      "id": "holism-reductionism-q9",
+      "question": "How does reductionism differ from holism in explaining behavior?",
+      "options": [
+        "Reductionism simplifies behavior to components, while holism considers the whole context",
+        "Reductionism focuses on conscious experience, while holism focuses on observable behavior",
+        "Reductionism considers cultural factors, while holism ignores them",
+        "Reductionism is concerned with social learning, while holism is not"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Reductionism breaks behavior into components, whereas holism examines the complete system and context."
+    },
+    {
+      "id": "holism-reductionism-q10",
+      "question": "In a study, researchers analyze the behavior of individuals in large groups to understand social phenomena. Which approach does this illustrate?",
+      "options": [
+        "Holism",
+        "Reductionism",
+        "Behavioral analysis",
+        "Psychoanalytic theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This approach is holistic as it considers individuals within the larger social context to understand behavior."
+    },
+    {
+      "id": "holism-reductionism-q11",
+      "question": "Which of the following scenarios demonstrates reductionism?",
+      "options": [
+        "Explaining anxiety through the role of GABA neurotransmitters",
+        "Analyzing the impact of societal changes on behavior",
+        "Studying the influence of cultural identity on perception",
+        "Examining the holistic experience of a therapeutic process"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Reductionism is shown here by explaining anxiety in terms of neurotransmitter activity, a biological factor."
+    },
+    {
+      "id": "holism-reductionism-q12",
+      "question": "What is a potential downside of adopting a holistic approach in psychological research?",
+      "options": [
+        "It can result in vague and less testable theories",
+        "It oversimplifies complex behaviors",
+        "It ignores individual differences",
+        "It focuses solely on biological factors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Holistic approaches can lead to theories that are broad and less specific, making them harder to test empirically."
+    },
+    {
+      "id": "holism-reductionism-q13",
+      "question": "Which of the following approaches is most likely to emphasize the importance of context and environment in understanding behavior?",
+      "options": [
+        "Holistic approach",
+        "Biological reductionism",
+        "Behavioral reductionism",
+        "Psychodynamic approach"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Holistic approaches consider the context and environment crucial in understanding psychological phenomena."
+    },
+    {
+      "id": "holism-reductionism-q14",
+      "question": "To which approach does the term 'molecular reductionism' most commonly apply?",
+      "options": [
+        "Biological approach",
+        "Cognitive approach",
+        "Humanistic approach",
+        "Psychoanalytic approach"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Molecular reductionism in psychology typically refers to the biological approach's focus on molecular and genetic influences."
+    },
+    {
+      "id": "holism-reductionism-q15",
+      "question": "Which criticism is often directed at a reductionist approach in psychology?",
+      "options": [
+        "It fails to consider the complexity of human experience",
+        "It provides comprehensive explanations",
+        "It overemphasizes cultural influences",
+        "It focuses too much on subjective interpretation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Reductionism is criticized for its potential to overlook the complex interplay of various factors in human behavior."
+    }
+  ]
+}

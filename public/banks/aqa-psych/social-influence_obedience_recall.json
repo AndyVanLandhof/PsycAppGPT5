@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "obedience",
+  "subTopicTitle": "Obedience",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:11:43.449Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'obedience' in the context of social influence and provide an example.",
+      "keyPoints": [
+        "Obedience involves following direct commands from an authority figure",
+        "It is a form of social influence",
+        "Example: Milgram's study where participants followed orders to administer shocks"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes definition, context, and example with accurate detail",
+        "partial": "Includes definition or example, lacks detail",
+        "none": "Missing definition or example, inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Milgram's obedience study and its main findings.",
+      "keyPoints": [
+        "Milgram's study involved participants instructed to administer electric shocks",
+        "65% of participants administered the highest shock level",
+        "Study highlighted the power of authority on obedience"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Describes study setup and main findings with accurate detail",
+        "partial": "Describes study setup or findings, lacks detail",
+        "none": "Missing study setup or findings, inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'agentic state' in relation to obedience.",
+      "keyPoints": [
+        "Agentic state is when individuals see themselves as agents executing another's wishes",
+        "It explains why people obey authority figures",
+        "Reduces personal responsibility for actions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains concept and its relation to obedience accurately",
+        "partial": "Mentions concept, lacks relation or detail",
+        "none": "Missing concept or inaccurate explanation"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A manager instructs an employee to carry out a task they are uncomfortable with. Apply Milgram's findings to explain why the employee might obey.",
+      "keyPoints": [
+        "Authority figure (manager) increases likelihood of obedience",
+        "Employee may be in agentic state, feeling less responsible",
+        "Social pressure and job security concerns may contribute"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Milgram's findings to scenario with accurate detail",
+        "partial": "Applies findings, lacks detail or full application",
+        "none": "Fails to apply findings, inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In a school setting, a teacher tells students to complete a difficult task by the next day. Use social influence theories to explain why students might comply.",
+      "keyPoints": [
+        "Teacher as an authority figure",
+        "Normative social influence and desire to be accepted",
+        "Possibility of informational social influence if task is seen as important"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies social influence theories to scenario with accurate detail",
+        "partial": "Applies theories, lacks detail or full application",
+        "none": "Fails to apply theories, inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A nurse follows a doctor's unusual prescription order that seems incorrect. Use the concept of legitimate authority to explain this behavior.",
+      "keyPoints": [
+        "Doctor as a legitimate authority figure",
+        "Nurse may assume doctor knows best due to expertise",
+        "Normative pressure to follow professional hierarchy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Uses legitimate authority concept to explain behavior with detail",
+        "partial": "Mentions concept, lacks detail or full explanation",
+        "none": "Fails to use concept, inaccurate explanation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ecological validity of Milgram's obedience study using the PEEL structure.",
+      "keyPoints": [
+        "Point: Low ecological validity as artificial setting",
+        "Evidence: Lab setting differs from real-life authority situations",
+        "Explanation: Findings may not generalize to real-world settings",
+        "Link: Suggests limitations in applying results broadly"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with accurate detail",
+        "partial": "Includes some PEEL elements, lacks detail or coherence",
+        "none": "Missing PEEL elements, inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the ethical considerations in Milgram's obedience study using the PEEL structure.",
+      "keyPoints": [
+        "Point: Ethical issues due to deception and stress",
+        "Evidence: Participants believed they were harming others",
+        "Explanation: Raises concerns about informed consent and psychological harm",
+        "Link: Highlights need for ethical guidelines in research"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with accurate detail",
+        "partial": "Includes some PEEL elements, lacks detail or coherence",
+        "none": "Missing PEEL elements, inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the cross-cultural validity of obedience studies using the PEEL structure.",
+      "keyPoints": [
+        "Point: Cross-cultural validity questioned",
+        "Evidence: Variations in obedience rates across cultures",
+        "Explanation: Cultural norms influence authority perceptions",
+        "Link: Suggests need for caution in generalizing findings"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with accurate detail",
+        "partial": "Includes some PEEL elements, lacks detail or coherence",
+        "none": "Missing PEEL elements, inaccurate evaluation"
+      }
+    }
+  ]
+}

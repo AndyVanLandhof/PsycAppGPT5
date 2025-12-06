@@ -1,0 +1,147 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "otto-james",
+  "subTopicTitle": "Otto & William James",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:54:27.964Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'numinous' as used by Rudolf Otto in his study of religious experience.",
+      "keyPoints": [
+        "The term 'numinous' refers to the non-rational, ineffable experience of the holy.",
+        "It is characterized by the feelings of awe, wonder, and fascination.",
+        "Otto describes it as the experience of the 'Wholly Other.'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List and briefly describe the four characteristics of religious experiences according to William James.",
+      "keyPoints": [
+        "Ineffability: The experience is beyond words.",
+        "Noetic Quality: Provides insights or knowledge.",
+        "Transiency: The experience is temporary.",
+        "Passivity: The experiencer feels a lack of control."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain William James' concept of 'religious experience' and its significance in understanding religion.",
+      "keyPoints": [
+        "Religious experience is personal and subjective.",
+        "James emphasizes the importance of experience over doctrine.",
+        "He believes these experiences are the foundation of religious belief and practice."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person claims they had a sudden, overwhelming sense of unity with the universe while walking in nature. Apply Otto's concept of the 'numinous' to interpret this experience.",
+      "keyPoints": [
+        "This could be seen as an experience of the 'Wholly Other' as defined by Otto.",
+        "Feelings of awe and wonder align with the numinous experience.",
+        "The sense of unity suggests a connection with the divine or sacred."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies Otto's concepts to the scenario",
+        "partial": "Some application of concepts, but lacks depth",
+        "none": "Fails to apply concepts or misunderstands them"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine someone recounts a mystical experience where they felt a profound sense of peace and clarity. How would William James categorize this experience?",
+      "keyPoints": [
+        "The experience could be categorized as mystical due to its ineffability.",
+        "The sense of peace aligns with the transiency and passivity characteristics.",
+        "Clarity suggests the noetic quality, providing insight or knowledge."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies James' characteristics to the scenario",
+        "partial": "Partially applies characteristics or lacks detail",
+        "none": "Fails to apply characteristics or incorrect application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person describes their spiritual experience as a moment of intense fear and fascination with an unknown presence. Apply Otto's theory to explain this experience.",
+      "keyPoints": [
+        "This experience can be seen as numinous, involving fear and fascination.",
+        "The 'mysterium tremendum et fascinans' aspect of the numinous applies here.",
+        "The unknown presence aligns with the concept of the 'Wholly Other.'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies Otto's theory to the scenario",
+        "partial": "Some relevant application, but lacks depth",
+        "none": "Fails to apply theory or incorrect application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Otto's concept of the 'numinous' in explaining religious experiences.",
+      "keyPoints": [
+        "Strength: Provides a unique perspective on non-rational aspects of religion.",
+        "Weakness: Lacks empirical evidence and is highly subjective.",
+        "Strength: Influential in understanding the emotional impact of religious experiences."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Balanced evaluation with clear strengths and weaknesses",
+        "partial": "Limited evaluation with some strengths or weaknesses",
+        "none": "Unbalanced or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of William James' criteria for religious experiences on modern psychology of religion.",
+      "keyPoints": [
+        "Impact: James' work legitimized the study of religious experiences in psychology.",
+        "His criteria offer a framework for analyzing subjective experiences.",
+        "Criticism: Seen as too broad, allowing too many experiences to qualify as 'religious.'"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Insightful assessment with consideration of impact and criticism",
+        "partial": "Some assessment but lacks depth or breadth",
+        "none": "Fails to assess impact or lacks insight"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the reliance on subjective experiences in James' study of religious experiences.",
+      "keyPoints": [
+        "Subjective experiences are difficult to verify scientifically.",
+        "This reliance allows for a wide range of interpretations.",
+        "However, it captures personal significance and emotional depth."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed critique with balanced view on strengths and weaknesses",
+        "partial": "Some critique but lacks balance or detail",
+        "none": "Fails to critique or is one-sided"
+      }
+    }
+  ]
+}

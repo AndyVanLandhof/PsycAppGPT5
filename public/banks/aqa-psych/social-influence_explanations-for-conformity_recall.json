@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "explanations-for-conformity",
+  "subTopicTitle": "Explanations for conformity",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:10:50.737Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define normative social influence and provide an example.",
+      "keyPoints": [
+        "Normative social influence involves conforming to be liked or accepted by a group",
+        "It is driven by the desire to fit in",
+        "Example: agreeing with friends' opinions to avoid rejection"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of informational social influence.",
+      "keyPoints": [
+        "Informational social influence is conforming because we believe others have more knowledge",
+        "It occurs in ambiguous situations",
+        "Example of using others' answers in a test situation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Asch's study on conformity and its findings.",
+      "keyPoints": [
+        "Asch's study involved line judgment tasks",
+        "Participants conformed to incorrect answers given by confederates",
+        "Findings showed a high level of conformity in group settings"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Maria often changes her answers in class after hearing her peers' responses. Which type of social influence is she demonstrating and why?",
+      "keyPoints": [
+        "Maria is demonstrating informational social influence",
+        "She changes her answers because she believes her peers have more accurate information",
+        "This occurs in situations where she is unsure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate application to the scenario",
+        "partial": "Includes correct type of social influence but lacks explanation or example",
+        "none": "Incorrect type of social influence or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "John started dressing like his friends to avoid being teased. What type of conformity is this and why?",
+      "keyPoints": [
+        "John is exhibiting normative social influence",
+        "He conforms to avoid rejection or to be accepted by peers",
+        "This is driven by the desire to fit in with the group"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Identifies normative social influence with clear explanation and application",
+        "partial": "Identifies correct type but offers weak explanation or lacks application",
+        "none": "Incorrect type or lacks relevant application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A group of friends decides to try a new restaurant based on one member's strong recommendation. What social influence might explain this behavior?",
+      "keyPoints": [
+        "Informational social influence explains this behavior",
+        "The group believes the recommending member has more knowledge or experience",
+        "Occurs in situations where the group lacks information"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies informational social influence with clear application",
+        "partial": "Identifies correct type but weak explanation or lacks application",
+        "none": "Incorrect type or lacks application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ecological validity of Asch's conformity study using the PEEL structure.",
+      "keyPoints": [
+        "Point: Asch's study has low ecological validity",
+        "Evidence: Conducted in an artificial setting using line judgment tasks",
+        "Explanation: These tasks do not reflect real-world social situations",
+        "Link: Thus, findings may not generalize to everyday conformity"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with accurate evaluation",
+        "partial": "Includes some evaluation but lacks clear structure or detail",
+        "none": "Lacks evaluation or does not use PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the ethical considerations of Asch's study on conformity using the PEEL structure.",
+      "keyPoints": [
+        "Point: Asch's study raised ethical concerns",
+        "Evidence: Participants were deceived about the nature of the study",
+        "Explanation: Deception could lead to psychological discomfort",
+        "Link: Raises questions about the balance between research value and participant welfare"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with accurate evaluation",
+        "partial": "Includes some evaluation but lacks clear structure or detail",
+        "none": "Lacks evaluation or does not use PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the relevance of normative social influence in today's digital age using the PEEL structure.",
+      "keyPoints": [
+        "Point: Normative social influence is highly relevant today",
+        "Evidence: Social media platforms encourage conformity through likes and trends",
+        "Explanation: People conform online to gain social approval",
+        "Link: Digital interactions magnify normative pressures compared to face-to-face interactions"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with accurate evaluation",
+        "partial": "Includes some evaluation but lacks clear structure or detail",
+        "none": "Lacks evaluation or does not use PEEL structure"
+      }
+    }
+  ]
+}

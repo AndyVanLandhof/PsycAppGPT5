@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "data-handling-analysis",
+  "subTopicTitle": "Data handling and analysis",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:40:51.828Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'mean' and explain how it is calculated in data analysis.",
+      "keyPoints": [
+        "Mean is a measure of central tendency",
+        "Calculated by summing all values",
+        "Dividing by the number of values"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is a 'scattergram' and what does it illustrate in psychological research?",
+      "keyPoints": [
+        "Scattergram is a type of graph",
+        "Plots two variables",
+        "Illustrates correlation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the difference between 'qualitative' and 'quantitative' data.",
+      "keyPoints": [
+        "Qualitative data is non-numerical",
+        "Quantitative data is numerical",
+        "Qualitative data provides depth, quantitative data provides breadth"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher collects data on the time spent on social media and exam scores for 100 students. How could they use a scattergram to analyze this data?",
+      "keyPoints": [
+        "Plot social media time on one axis",
+        "Plot exam scores on the other axis",
+        "Look for a correlation pattern"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A psychologist uses interviews to gather data on patient anxiety levels. Which type of data is this and why?",
+      "keyPoints": [
+        "This is qualitative data",
+        "Data is descriptive and non-numerical",
+        "Provides detailed insights into anxiety levels"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In an experiment measuring reaction time in milliseconds, which measure of central tendency would be most appropriate and why?",
+      "keyPoints": [
+        "Mean is most appropriate",
+        "Data is numerical and continuous",
+        "Mean provides an average reaction time"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of the mean as a measure of central tendency in psychological research.",
+      "keyPoints": [
+        "Mean is useful for continuous data",
+        "Affected by extreme values",
+        "Provides a single representative value"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detail in PEEL structure",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and limitations of using qualitative data in psychological research.",
+      "keyPoints": [
+        "Strength: provides depth and detail",
+        "Limitation: harder to generalize",
+        "Can be time-consuming to analyze"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detail in PEEL structure",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of scattergrams in illustrating correlations in research data.",
+      "keyPoints": [
+        "Visual representation of data",
+        "Can identify patterns",
+        "Does not show causation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detail in PEEL structure",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

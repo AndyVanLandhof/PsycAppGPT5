@@ -5,15 +5,15 @@
   "subTopic": "multi-store-model",
   "subTopicTitle": "Multi-store model",
   "type": "recall",
-  "generatedAt": "2025-12-06T09:47:32.949Z",
+  "generatedAt": "2025-12-06T10:13:59.905Z",
   "items": [
     {
       "ao": "AO1",
-      "prompt": "Define the Multi-Store Model of memory and describe its main components.",
+      "prompt": "Describe the key components of the multi-store model of memory.",
       "keyPoints": [
-        "The model was proposed by Atkinson and Shiffrin in 1968.",
-        "It consists of three main stores: sensory memory, short-term memory, and long-term memory.",
-        "Information flows linearly through these stores, with processes of attention, rehearsal, and retrieval."
+        "Sensory register: brief storage of sensory information",
+        "Short-term memory (STM): limited capacity and duration store",
+        "Long-term memory (LTM): potentially unlimited capacity and duration"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -24,11 +24,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "What are the characteristics of short-term memory according to the Multi-Store Model?",
+      "prompt": "Explain how information is transferred between the stores in the multi-store model.",
       "keyPoints": [
-        "Short-term memory has a limited capacity (around 7±2 items).",
-        "Information is retained for a short duration (approximately 15-30 seconds).",
-        "Encoding in short-term memory is primarily acoustic."
+        "Attention transfers information from sensory register to STM",
+        "Maintenance rehearsal keeps information in STM",
+        "Elaborative rehearsal transfers information from STM to LTM"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -39,11 +39,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "Explain how information is transferred from short-term memory to long-term memory in the Multi-Store Model.",
+      "prompt": "Identify and describe the duration of each store in the multi-store model.",
       "keyPoints": [
-        "Through a process called rehearsal (maintenance rehearsal and elaborative rehearsal).",
-        "Maintenance rehearsal involves repeated verbalizing or thinking about the information.",
-        "Elaborative rehearsal involves linking new information to existing knowledge."
+        "Sensory register: 0.25 to 0.5 seconds",
+        "Short-term memory: 18-30 seconds",
+        "Long-term memory: potentially a lifetime"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -54,95 +54,92 @@
     },
     {
       "ao": "AO2",
-      "prompt": "Imagine a student studying for an exam. How can the Multi-Store Model be applied to improve their memory retention?",
+      "prompt": "A student is trying to memorize a list of vocabulary words for a test. Explain how the multi-store model of memory can help them improve their memory retention.",
       "keyPoints": [
-        "The student can use maintenance rehearsal by repeatedly reviewing notes.",
-        "They can employ elaborative rehearsal by creating mind maps to connect concepts.",
-        "Utilizing spaced repetition can enhance the transfer of information to long-term memory."
+        "Use attention to transfer words to STM",
+        "Apply maintenance rehearsal to keep words in STM",
+        "Utilize elaborative rehearsal to encode words into LTM"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
-        "none": "Missing key points or inaccurate"
+        "full": "Includes all key points with accurate application",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate application"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "A teacher is trying to help her students remember historical dates. Using the Multi-Store Model, suggest effective strategies she might use.",
+      "prompt": "Consider a scenario where a person forgets the name of someone they just met. How can the multi-store model explain this memory failure?",
       "keyPoints": [
-        "She could encourage the use of mnemonic devices to aid encoding.",
-        "She might implement retrieval practice through quizzes to reinforce memory.",
-        "Creating timelines can help link information and improve long-term retention."
+        "Lack of attention may prevent transfer to STM",
+        "Insufficient rehearsal leads to decay in STM",
+        "Name not encoded into LTM, resulting in forgetting"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
-        "none": "Missing key points or inaccurate"
+        "full": "Includes all key points with accurate application",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate application"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "During a conversation, someone mentions a childhood memory. How could the Multi-Store Model explain the retrieval of this memory?",
+      "prompt": "A teacher wants to help students remember historical dates. Using the multi-store model, suggest strategies they could use.",
       "keyPoints": [
-        "The information was stored in long-term memory through rehearsal.",
-        "Cues from the conversation serve as triggers for retrieval.",
-        "The process involves transferring information from long-term memory back to short-term memory for recall."
+        "Encourage students to focus attention on dates",
+        "Use repetition to maintain dates in STM",
+        "Connect dates to existing knowledge for LTM storage"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
+        "full": "Includes all key points with accurate application",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the evidence supporting the multi-store model of memory.",
+      "keyPoints": [
+        "Research support from studies like Sperling (1960) for sensory register",
+        "Glanzer and Cunitz (1966) provided evidence for STM and LTM distinction",
+        "Critics argue the model is overly simplistic and doesn't account for complexities like LTM types"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate evaluation",
+        "partial": "Includes 1-2 key points or lacks depth",
         "none": "Missing key points or inaccurate"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Evaluate the Multi-Store Model of memory using the PEEL structure.",
+      "prompt": "Discuss the limitations of the multi-store model.",
       "keyPoints": [
-        "Point: The model is a foundational framework for understanding memory.",
-        "Evidence: It clearly distinguishes between different types of memory stores.",
-        "Explanation: This helps in understanding how memory works in a structured way.",
-        "Link: However, it oversimplifies the complexity of memory, as seen in the working memory model."
+        "Oversimplification: does not differentiate LTM types (e.g., procedural vs. declarative)",
+        "Does not explain memory processes like chunking",
+        "Fails to account for the interaction between STM and LTM"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Well-structured PEEL response with clear points and supporting evidence",
-        "partial": "Inconsistent use of PEEL or lacks supporting evidence",
-        "none": "Does not follow PEEL structure or contains inaccuracies"
+        "full": "Includes all limitations with accurate detail",
+        "partial": "Includes 1-2 limitations or lacks detail",
+        "none": "Missing limitations or inaccurate"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Critically assess the limitations of the Multi-Store Model in explaining memory processes.",
+      "prompt": "Critically assess the practical applications of the multi-store model.",
       "keyPoints": [
-        "Point: The model does not account for the complexity of memory processes.",
-        "Evidence: Research shows that long-term memory is not a unitary store (e.g., episodic vs. semantic memory).",
-        "Explanation: This indicates that the model may not fully represent how memories are formed and retrieved.",
-        "Link: Therefore, alternative models like the working memory model provide a more comprehensive understanding."
+        "Useful in educational settings for understanding memory processes",
+        "Provides a basic framework for memory enhancement strategies",
+        "Criticism: real-life memory is more complex than the model suggests"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Well-structured PEEL response with clear points and supporting evidence",
-        "partial": "Inconsistent use of PEEL or lacks supporting evidence",
-        "none": "Does not follow PEEL structure or contains inaccuracies"
-      }
-    },
-    {
-      "ao": "AO3",
-      "prompt": "Discuss how empirical evidence supports or contradicts the Multi-Store Model.",
-      "keyPoints": [
-        "Point: The model is supported by studies showing distinct memory processes.",
-        "Evidence: Research by Peterson and Peterson (1959) highlights the duration of short-term memory.",
-        "Explanation: This evidence supports the model's claims about memory stores.",
-        "Link: However, case studies like H.M. show that memory can be more complex, challenging the model."
-      ],
-      "wordRange": "100-150",
-      "markingCriteria": {
-        "full": "Well-structured PEEL response with clear points and supporting evidence",
-        "partial": "Inconsistent use of PEEL or lacks supporting evidence",
-        "none": "Does not follow PEEL structure or contains inaccuracies"
+        "full": "Includes all key points with accurate assessment",
+        "partial": "Includes 1-2 key points or lacks depth",
+        "none": "Missing key points or inaccurate"
       }
     }
   ]

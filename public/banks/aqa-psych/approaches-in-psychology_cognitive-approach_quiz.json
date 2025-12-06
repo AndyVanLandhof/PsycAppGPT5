@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "cognitive-approach",
+  "subTopicTitle": "Cognitive approach",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:27:34.521Z",
+  "items": [
+    {
+      "id": "cognitive-approach-q1",
+      "question": "Which of the following researchers is associated with the development of the computer analogy in cognitive psychology?",
+      "options": [
+        "Ulric Neisser",
+        "B.F. Skinner",
+        "Sigmund Freud",
+        "John Watson"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ulric Neisser is known as the 'father of cognitive psychology' and advocated for the computer analogy to explain human information processing."
+    },
+    {
+      "id": "cognitive-approach-q2",
+      "question": "What is the main focus of the cognitive approach in psychology?",
+      "options": [
+        "Observable behavior",
+        "Unconscious processes",
+        "Cognitive processes",
+        "Social interactions"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The cognitive approach focuses on understanding internal mental processes such as perception, memory, and problem-solving."
+    },
+    {
+      "id": "cognitive-approach-q3",
+      "question": "In the context of cognitive psychology, what is a schema?",
+      "options": [
+        "A mental framework for organizing information",
+        "A reinforcement schedule",
+        "A defense mechanism",
+        "A neural pathway"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A schema is a cognitive framework or concept that helps organize and interpret information in the brain."
+    },
+    {
+      "id": "cognitive-approach-q4",
+      "question": "Which study by Loftus and Palmer investigated the effect of language on memory recall?",
+      "options": [
+        "1974 study on eyewitness testimony",
+        "1954 study on attachment",
+        "1999 study on aggression",
+        "1961 study on conformity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Loftus and Palmer (1974) conducted a study on how the phrasing of questions can influence eyewitness memory recall of events."
+    },
+    {
+      "id": "cognitive-approach-q5",
+      "question": "What does the term 'cognitive neuroscience' refer to?",
+      "options": [
+        "The study of the brain's structure in relation to cognitive functions",
+        "The study of genetic influences on behavior",
+        "The examination of social influences on cognition",
+        "The analysis of childhood experiences on adult behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cognitive neuroscience explores how brain structures and functions relate to cognitive processes."
+    },
+    {
+      "id": "cognitive-approach-q6",
+      "question": "Which concept suggests that human memory can be likened to a computer's information processing system?",
+      "options": [
+        "Memory encoding",
+        "Cognitive schema",
+        "Information processing model",
+        "Psychodynamic theory"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The information processing model likens human memory to a computer, with processes such as encoding, storage, and retrieval."
+    },
+    {
+      "id": "cognitive-approach-q7",
+      "question": "Which cognitive bias involves focusing on information that confirms one's preconceptions?",
+      "options": [
+        "Confirmation bias",
+        "Hindsight bias",
+        "Anchoring bias",
+        "Availability heuristic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Confirmation bias refers to the tendency to search for, interpret, and remember information that confirms one's preexisting beliefs."
+    },
+    {
+      "id": "cognitive-approach-q8",
+      "question": "In cognitive psychology, what is the role of 'attention' in processing information?",
+      "options": [
+        "It filters information to focus on relevant stimuli",
+        "It stores information for long-term use",
+        "It retrieves information from memory",
+        "It encodes information into neural pathways"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Attention is a cognitive process that filters information, allowing individuals to focus on important stimuli while ignoring others."
+    },
+    {
+      "id": "cognitive-approach-q9",
+      "question": "Which of the following is a core assumption of the cognitive approach?",
+      "options": [
+        "Behavior is learned through conditioning",
+        "Behavior is driven by unconscious motives",
+        "Mental processes can be scientifically studied",
+        "Behavior is influenced by genetic predispositions"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The cognitive approach assumes that mental processes can be studied scientifically, using models and experiments."
+    },
+    {
+      "id": "cognitive-approach-q10",
+      "question": "A student remembers the main points of a lecture by organizing the information into categories. Which cognitive process is she using?",
+      "options": [
+        "Chunking",
+        "Rehearsal",
+        "Elaboration",
+        "Priming"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The student is using chunking, a cognitive strategy that involves organizing information into manageable units or categories."
+    },
+    {
+      "id": "cognitive-approach-q11",
+      "question": "A patient has difficulty recalling past events after a car accident. Which part of the brain is likely affected?",
+      "options": [
+        "Hippocampus",
+        "Amygdala",
+        "Frontal lobe",
+        "Cerebellum"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The hippocampus is crucial for memory formation and recall, and damage to it can impair the ability to remember past events."
+    },
+    {
+      "id": "cognitive-approach-q12",
+      "question": "A teacher uses a series of questions to guide students in understanding a complex concept. Which cognitive principle is this an example of?",
+      "options": [
+        "Scaffolding",
+        "Modeling",
+        "Classical conditioning",
+        "Operant conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Scaffolding involves providing support and guidance to students to help them understand complex concepts, often by breaking them down into smaller parts."
+    },
+    {
+      "id": "cognitive-approach-q13",
+      "question": "What is one criticism of the cognitive approach in psychology?",
+      "options": [
+        "It relies too heavily on subjective interpretations",
+        "It ignores the influence of cultural factors",
+        "It underestimates the role of emotions",
+        "It focuses too much on observable behavior"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The cognitive approach has been criticized for underestimating the role of emotions in influencing cognitive processes."
+    },
+    {
+      "id": "cognitive-approach-q14",
+      "question": "How does the cognitive approach differ from the behaviorist approach?",
+      "options": [
+        "It focuses more on mental processes than observable behavior",
+        "It emphasizes the role of the environment in shaping behavior",
+        "It relies on genetic explanations for behavior",
+        "It considers unconscious motives as primary drivers of behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike the behaviorist approach, which focuses on observable behavior, the cognitive approach emphasizes internal mental processes."
+    },
+    {
+      "id": "cognitive-approach-q15",
+      "question": "What is a limitation of using computer models to explain human cognition?",
+      "options": [
+        "They cannot account for the influence of emotions",
+        "They are too simplistic in explaining behavior",
+        "They overlook the impact of reinforcement",
+        "They are based on outdated technology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Computer models are limited in explaining human cognition because they often fail to account for the influence of emotions on mental processes."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "descartes",
+  "subTopicTitle": "Descartes' Dualism",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:48:21.556Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Cartesian Dualism and explain its key components.",
+      "keyPoints": [
+        "Cartesian Dualism is the belief that the mind and body are distinct entities.",
+        "The mind is a non-physical, thinking substance.",
+        "The body is a physical, extended substance."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Descartes' 'Cogito, ergo sum' argument.",
+      "keyPoints": [
+        "'Cogito, ergo sum' translates to 'I think, therefore I am.'",
+        "It is used by Descartes to establish certainty of self-existence.",
+        "Argues that thinking is proof of a thinking subject."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of interactionism in Descartes' dualism.",
+      "keyPoints": [
+        "Interactionism describes how the mind and body interact.",
+        "Descartes believed this interaction occurs in the pineal gland.",
+        "It addresses the mind-body problem by suggesting a point of contact."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Descartes' dualism to a scenario where a person feels pain after touching a hot stove.",
+      "keyPoints": [
+        "Mind perceives pain, which is a mental event.",
+        "Body, as a physical entity, interacts with the hot stove.",
+        "Interaction explains how mental perception of pain arises from physical contact."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with all key points",
+        "partial": "Applies theory with 1-2 key points or minor inaccuracies",
+        "none": "Fails to apply theory or contains major inaccuracies"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Descartes' dualism address the experience of emotions during a stressful situation?",
+      "keyPoints": [
+        "Mind experiences emotions as mental states.",
+        "Body may exhibit physical reactions (e.g., increased heart rate).",
+        "Interactionism suggests the mind influences the body's stress response."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with all key points",
+        "partial": "Applies theory with 1-2 key points or minor inaccuracies",
+        "none": "Fails to apply theory or contains major inaccuracies"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In what way could Descartes' dualism be applied to the phenomenon of placebo effects?",
+      "keyPoints": [
+        "Mind's belief in treatment affects body's physical response.",
+        "Shows interaction where mental state influences bodily change.",
+        "Placebo effect demonstrates power of mind over body."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with all key points",
+        "partial": "Applies theory with 1-2 key points or minor inaccuracies",
+        "none": "Fails to apply theory or contains major inaccuracies"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Descartes' dualism using the PEEL structure.",
+      "keyPoints": [
+        "Point: Dualism explains mental phenomena distinct from physical.",
+        "Evidence: 'Cogito, ergo sum' establishes certainty of mind.",
+        "Explanation: Offers clarity on mind-body distinction.",
+        "Limitation: Criticized for lack of empirical evidence and unclear interaction mechanism."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and clear reasoning",
+        "partial": "Uses PEEL with 2-3 key points or lacks clear reasoning",
+        "none": "Lacks PEEL structure or fails to evaluate key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the implications of Descartes' dualism for modern neuroscience.",
+      "keyPoints": [
+        "Point: Neuroscience challenges dualism by showing brain activity linked to mental states.",
+        "Evidence: Brain imaging techniques show correlation between mind and brain.",
+        "Explanation: Suggests mind may not be separate from physical processes.",
+        "Limitation: Dualism offers philosophical insights not fully addressed by neuroscience."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and clear reasoning",
+        "partial": "Uses PEEL with 2-3 key points or lacks clear reasoning",
+        "none": "Lacks PEEL structure or fails to evaluate key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how Descartes' dualism handles the problem of personal identity.",
+      "keyPoints": [
+        "Point: Dualism suggests identity linked to mind rather than body.",
+        "Evidence: Mind as thinking substance persists beyond physical changes.",
+        "Explanation: Offers account for continuity of self beyond bodily changes.",
+        "Limitation: Critics argue it's problematic in explaining identity without physical continuity."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and clear reasoning",
+        "partial": "Uses PEEL with 2-3 key points or lacks clear reasoning",
+        "none": "Lacks PEEL structure or fails to evaluate key points"
+      }
+    }
+  ]
+}

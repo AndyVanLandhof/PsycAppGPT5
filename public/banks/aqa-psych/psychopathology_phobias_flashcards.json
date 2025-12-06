@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "phobias",
+  "subTopicTitle": "Phobias",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:34:44.130Z",
+  "items": [
+    {
+      "question": "What is a phobia?",
+      "answer": "A phobia is an anxiety disorder characterized by an irrational and persistent fear of an object, situation, or activity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'specific phobia'.",
+      "answer": "A specific phobia is an intense, irrational fear of a specific object or situation, such as spiders or flying.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Menzies and Clarke (1993) find about phobias?",
+      "answer": "Menzies and Clarke (1993) found that many phobias are acquired through classical conditioning and maintained through operant conditioning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'social phobia'.",
+      "answer": "Social phobia, or social anxiety disorder, is the fear of social situations where one might be embarrassed or judged.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is agoraphobia?",
+      "answer": "Agoraphobia is the fear of being in situations where escape might be difficult or help unavailable, often leading to avoidance of places.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'classical conditioning' in the context of phobias.",
+      "answer": "Classical conditioning is a learning process where a neutral stimulus becomes associated with a fear response, contributing to phobia development.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does operant conditioning play in phobias?",
+      "answer": "Operant conditioning maintains phobias through negative reinforcement, where avoiding the phobic stimulus reduces anxiety, reinforcing avoidance behavior.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Watson and Rayner (1920) demonstrate with Little Albert?",
+      "answer": "Watson and Rayner (1920) demonstrated that phobias could be conditioned in humans by associating a neutral stimulus with a frightening event.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'systematic desensitization'.",
+      "answer": "Systematic desensitization is a behavioral therapy technique that reduces phobic anxiety through gradual exposure to the feared object or situation.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is flooding therapy?",
+      "answer": "Flooding is a behavioral therapy that exposes patients to their phobic stimulus without gradual buildup to extinguish the fear response quickly.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Öst (1987) find about flooding?",
+      "answer": "Öst (1987) found flooding to be an effective treatment for phobias, with rapid exposure leading to quick extinction of the fear response.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'cognitive-behavioral therapy' (CBT) for phobias.",
+      "answer": "CBT for phobias involves changing maladaptive thoughts and behaviors associated with the phobic stimulus, combining cognitive restructuring with exposure techniques.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does classical conditioning apply to a fear of dogs?",
+      "answer": "A person bitten by a dog may develop a fear of dogs through classical conditioning, associating dogs (neutral stimulus) with pain and fear (unconditioned response).",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply operant conditioning to this scenario: A person avoids elevators due to claustrophobia.",
+      "answer": "Avoiding elevators reduces anxiety, negatively reinforcing the avoidance behavior, thus maintaining the phobia through operant conditioning.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does systematic desensitization apply to a fear of heights?",
+      "answer": "A person gradually exposed to increasing heights, starting with pictures and moving to real situations, learns to manage anxiety through relaxation techniques.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply cognitive-behavioral therapy to a fear of public speaking.",
+      "answer": "CBT helps a person identify irrational thoughts about public speaking and gradually exposes them to speaking situations to reduce anxiety.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of systematic desensitization.",
+      "answer": "Systematic desensitization is effective for a wide range of phobias, with a high success rate due to gradual exposure and relaxation techniques.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of flooding therapy.",
+      "answer": "Flooding can be highly distressing and traumatic for phobia patients, leading to potential dropouts and ethical concerns regarding patient welfare.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Watson and Rayner's (1920) study.",
+      "answer": "Watson and Rayner's study lacked ecological validity and had ethical issues, as it deliberately induced fear in a child without informed consent.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the behavioral approach to phobias.",
+      "answer": "The behavioral approach neglects cognitive factors, focusing solely on observable behavior, which may oversimplify complex phobic responses.",
+      "ao": "AO3"
+    }
+  ]
+}

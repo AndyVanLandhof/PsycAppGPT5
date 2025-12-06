@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "biological-approach",
+  "subTopicTitle": "Biological approach",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:28:21.906Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'genotype' and explain its significance in the biological approach.",
+      "keyPoints": [
+        "Genotype refers to the genetic makeup of an individual",
+        "Significance in the biological approach as it influences physical and psychological traits",
+        "Differentiates from phenotype, which is the expression of genotype"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of neurotransmitters in the biological approach to psychology.",
+      "keyPoints": [
+        "Neurotransmitters are chemical messengers in the brain",
+        "Involved in transmitting signals between neurons",
+        "Influence behavior and emotions, e.g., dopamine linked to reward and pleasure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how the biological approach accounts for psychological disorders.",
+      "keyPoints": [
+        "Disorders are linked to biological factors like genes and neurotransmitters",
+        "Example: Imbalances in serotonin linked to depression",
+        "Treatments often focus on medication to correct biological imbalances"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A patient is diagnosed with depression and their doctor suggests it's due to low serotonin levels. Apply the biological approach to explain this diagnosis.",
+      "keyPoints": [
+        "Biological approach links neurotransmitter imbalances to mental disorders",
+        "Serotonin is a neurotransmitter that affects mood",
+        "Low levels of serotonin have been associated with symptoms of depression"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application of the biological approach to the scenario",
+        "partial": "Some relevant application but with gaps or inaccuracies",
+        "none": "Fails to apply the biological approach accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where two twins raised apart exhibit similar behaviors. Use the biological approach to explain this phenomenon.",
+      "keyPoints": [
+        "Biological approach emphasizes genetics in behavior",
+        "Similar behaviors suggest genetic influence despite different environments",
+        "Twin studies show high concordance rates for certain traits"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application of genetic influence in behavior",
+        "partial": "Some relevant application but with gaps or inaccuracies",
+        "none": "Fails to apply genetic influence accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student is performing poorly at school due to stress and anxiety. Apply the biological approach to suggest a potential treatment.",
+      "keyPoints": [
+        "Biological approach might suggest medication to alleviate symptoms",
+        "Anti-anxiety drugs or SSRIs could be prescribed",
+        "Treatment focuses on correcting neurotransmitter imbalances"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application of biological treatment suggestions",
+        "partial": "Some relevant treatment suggestions but with gaps or inaccuracies",
+        "none": "Fails to apply treatment suggestions accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the reductionist nature of the biological approach using the PEEL structure.",
+      "keyPoints": [
+        "Point: Biological approach is reductionist",
+        "Explain: Focuses on biological factors, ignoring psychological/social aspects",
+        "Example: Reduces complex behaviors to neurotransmitter levels",
+        "Link: Can lead to effective treatments but may overlook holistic understanding"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear and coherent evaluation using PEEL structure with all key points",
+        "partial": "Some evaluation present but lacks coherence or detail",
+        "none": "Fails to evaluate using PEEL or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the scientific nature of the biological approach using the PEEL structure.",
+      "keyPoints": [
+        "Point: Biological approach is scientific",
+        "Explain: Uses empirical methods like brain scans",
+        "Example: Research studies provide objective data",
+        "Link: Increases credibility but may ignore subjective experience"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear and coherent discussion using PEEL structure with all key points",
+        "partial": "Some discussion present but lacks coherence or detail",
+        "none": "Fails to discuss using PEEL or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess how the biological approach contributes to the understanding of mental disorders using the PEEL structure.",
+      "keyPoints": [
+        "Point: Biological approach contributes significantly",
+        "Explain: Provides insight into genetic and neurochemical causes",
+        "Example: Led to development of drug therapies",
+        "Link: Effective treatments but may not address root causes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear and coherent assessment using PEEL structure with all key points",
+        "partial": "Some assessment present but lacks coherence or detail",
+        "none": "Fails to assess using PEEL or lacks key points"
+      }
+    }
+  ]
+}

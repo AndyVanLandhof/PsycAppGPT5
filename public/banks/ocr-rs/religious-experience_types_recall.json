@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "types",
+  "subTopicTitle": "Types of Religious Experience",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:53:26.994Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define what is meant by a 'religious experience' and provide two examples.",
+      "keyPoints": [
+        "Religious experience is a subjective encounter with the divine or a transcendent reality.",
+        "Example: Mystical experiences involve a sense of unity with the divine.",
+        "Example: Conversion experiences involve a significant change in belief or behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a clear definition and two accurate examples",
+        "partial": "Includes definition and one example or lacks detail",
+        "none": "Missing definition or examples"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List and briefly describe the different types of religious experiences.",
+      "keyPoints": [
+        "Mystical experiences - profound sense of unity or oneness with the divine.",
+        "Conversion experiences - radical change in belief or lifestyle.",
+        "Revelatory experiences - receiving divine knowledge or truth."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Lists and describes all three types accurately",
+        "partial": "Lists 1-2 types with some description",
+        "none": "Missing or inaccurately describes types"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the characteristics of a mystical experience.",
+      "keyPoints": [
+        "Ineffability - cannot be fully described in words.",
+        "Noetic quality - involves gaining insight or knowledge.",
+        "Transiency - temporary experience that is difficult to sustain."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains all characteristics with clarity",
+        "partial": "Explains 1-2 characteristics or lacks clarity",
+        "none": "Missing or inaccurately explains characteristics"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Jane claims to have had a mystical experience during meditation. Apply William James' characteristics to determine if her experience could be classified as mystical.",
+      "keyPoints": [
+        "Determine if Jane's experience was ineffable - difficult to describe.",
+        "Check for noetic quality - did she gain new insights?",
+        "Assess transiency - was the experience temporary?"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all characteristics accurately to Jane's experience",
+        "partial": "Applies 1-2 characteristics or lacks detail",
+        "none": "Does not apply characteristics or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "John describes a life-changing event that led him to convert to a new religion. Use the concept of conversion experiences to analyze John's experience.",
+      "keyPoints": [
+        "Identify a radical change in belief or behavior.",
+        "Consider the role of conscious and unconscious factors.",
+        "Evaluate the permanence of the change in John's life."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Analyzes using all key points with detail",
+        "partial": "Analyzes using 1-2 key points or lacks detail",
+        "none": "Fails to analyze or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Maria believes she received a divine message while praying. Apply the concept of revelatory experiences to evaluate her claim.",
+      "keyPoints": [
+        "Assess if the experience involved receiving new knowledge.",
+        "Determine if the message had a significant impact on her beliefs.",
+        "Consider the subjective nature of the experience."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates using all key points with clarity",
+        "partial": "Evaluates using 1-2 key points or lacks clarity",
+        "none": "Fails to evaluate or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the argument that religious experiences are purely psychological phenomena.",
+      "keyPoints": [
+        "Point: Psychological explanations suggest experiences are internal.",
+        "Evidence: Neurotheology shows brain activity during these experiences.",
+        "Evaluation: Consider counterarguments that experiences have external validity.",
+        "Link: Connect back to the subjective nature of religious experience."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Uses PEEL structure to fully evaluate argument with evidence",
+        "partial": "Uses some PEEL elements but lacks depth or balance",
+        "none": "Fails to evaluate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the claim that religious experiences prove the existence of God.",
+      "keyPoints": [
+        "Point: Religious experiences are cited as evidence for God’s existence.",
+        "Evidence: Swinburne’s principle of credulity supports belief in experiences.",
+        "Evaluation: Consider the challenge of subjectivity and alternative explanations.",
+        "Link: Relate back to the debate on empirical evidence for God."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Critically assesses using PEEL structure with balance",
+        "partial": "Some assessment using PEEL but lacks balance or depth",
+        "none": "Fails to critically assess or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and weaknesses of using religious experiences as evidence for religious belief.",
+      "keyPoints": [
+        "Point: Religious experiences offer personal evidence for believers.",
+        "Strength: Direct experiences can strongly affirm faith.",
+        "Weakness: Subjective nature questions reliability as evidence.",
+        "Link: Consider the broader implications for faith and reason."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Discusses strengths and weaknesses with PEEL structure",
+        "partial": "Discusses only strengths or weaknesses, lacks depth",
+        "none": "Fails to discuss or lacks structure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "fight-or-flight",
+  "subTopicTitle": "The fight or flight response",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:32:22.173Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the physiological changes that occur in the fight or flight response.",
+      "keyPoints": [
+        "Activation of the sympathetic nervous system",
+        "Release of adrenaline from the adrenal medulla",
+        "Physiological changes such as increased heart rate, pupil dilation, and increased respiration"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the role of the hypothalamus in the fight or flight response.",
+      "keyPoints": [
+        "The hypothalamus activates the autonomic nervous system",
+        "It stimulates the adrenal medulla to release adrenaline",
+        "Involved in initiating the response to a perceived threat"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'fight or flight response' in the context of biopsychology.",
+      "keyPoints": [
+        "A physiological reaction to perceived harmful events, attacks, or threats to survival",
+        "Involves the activation of the sympathetic nervous system",
+        "Prepares the body to either fight the threat or flee from it"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the fight or flight response to a scenario where a person encounters a barking dog.",
+      "keyPoints": [
+        "Immediate activation of the sympathetic nervous system",
+        "Adrenaline release leading to increased heart rate and energy",
+        "Decision to either confront the dog or run away"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct application of the fight or flight response to the scenario",
+        "partial": "Some correct application but missing key details",
+        "none": "Incorrect or no application of the theory"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the fight or flight response be activated in a student about to give a public speech?",
+      "keyPoints": [
+        "Perception of public speaking as a threat",
+        "Activation of sympathetic nervous system and release of adrenaline",
+        "Physical symptoms like sweating, increased heart rate, and dry mouth"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct application of the fight or flight response to the scenario",
+        "partial": "Some correct application but missing key details",
+        "none": "Incorrect or no application of the theory"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider an emergency situation such as a fire alarm going off. How does the fight or flight response manifest in this context?",
+      "keyPoints": [
+        "Recognition of danger initiating the response",
+        "Adrenaline release leading to heightened alertness and energy",
+        "Behavioral response such as quickly evacuating the area"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct application of the fight or flight response to the scenario",
+        "partial": "Some correct application but missing key details",
+        "none": "Incorrect or no application of the theory"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the fight or flight response using the PEEL structure.",
+      "keyPoints": [
+        "Point: The fight or flight response is an adaptive mechanism for survival",
+        "Evidence: Provides quick energy and heightened senses for immediate reaction",
+        "Explanation: Evolutionary benefit in situations of immediate danger",
+        "Link: However, chronic activation can lead to health issues such as stress"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear evaluation using PEEL structure with all key points",
+        "partial": "Incomplete PEEL structure or missing some key points",
+        "none": "Lacks clear evaluation or incorrect use of PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of the fight or flight model in explaining human stress responses.",
+      "keyPoints": [
+        "Point: Fight or flight does not account for the 'freeze' response",
+        "Evidence: Some individuals may become immobile in the face of threat",
+        "Explanation: This third response can also be seen in animals",
+        "Link: Suggests a more complex model is needed to fully understand stress responses"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear evaluation using PEEL structure with all key points",
+        "partial": "Incomplete PEEL structure or missing some key points",
+        "none": "Lacks clear evaluation or incorrect use of PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how the fight or flight response is affected by modern life stressors.",
+      "keyPoints": [
+        "Point: Modern stressors often do not require physical action",
+        "Evidence: Work stress or financial worries do not need physical fight or flight",
+        "Explanation: This can lead to prolonged stress and health issues",
+        "Link: Suggests that the response is less adaptive in modern contexts"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear evaluation using PEEL structure with all key points",
+        "partial": "Incomplete PEEL structure or missing some key points",
+        "none": "Lacks clear evaluation or incorrect use of PEEL"
+      }
+    }
+  ]
+}

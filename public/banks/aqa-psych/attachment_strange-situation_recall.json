@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "strange-situation",
+  "subTopicTitle": "Ainsworth's Strange Situation",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:18:27.834Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the aim and procedure of Ainsworth's Strange Situation.",
+      "keyPoints": [
+        "Aim: To assess the quality of attachment between a child and caregiver.",
+        "Procedure: Controlled observation with a series of eight episodes, including separations and reunions.",
+        "Participants: Typically infants aged 12-18 months and their caregivers."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and define the three attachment types identified by Ainsworth.",
+      "keyPoints": [
+        "Secure attachment: Child is distressed when caregiver leaves, seeks comfort upon return.",
+        "Insecure-avoidant attachment: Child shows little distress on separation and avoids caregiver on return.",
+        "Insecure-resistant attachment: Child is highly distressed on separation and ambivalent on return."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline the significance of the 'secure base' concept in Ainsworth's Strange Situation.",
+      "keyPoints": [
+        "Secure base: A secure attachment allows a child to explore the environment confidently.",
+        "Child uses caregiver as a point of safety and security.",
+        "Indicates a healthy attachment relationship."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child, Tom, shows little distress when his mother leaves the room and avoids her upon return. Apply Ainsworth's Strange Situation classification to Tom's behavior.",
+      "keyPoints": [
+        "Tom's behavior suggests an insecure-avoidant attachment.",
+        "Little distress on separation indicates he is not reliant on caregiver for comfort.",
+        "Avoidance on reunion suggests a lack of comfort-seeking behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how a securely attached child's behavior might differ from an insecure-resistant child during the Strange Situation episodes.",
+      "keyPoints": [
+        "Securely attached child shows distress on separation but is easily comforted upon reunion.",
+        "Insecure-resistant child shows intense distress on separation and ambivalence upon reunion.",
+        "Secure child uses caregiver as a secure base, insecure-resistant child is less explorative."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If a caregiver is consistently unresponsive, how might this affect the child's attachment type according to Ainsworth's theory?",
+      "keyPoints": [
+        "Likely result in an insecure-avoidant attachment.",
+        "Child learns that caregiver is not a source of comfort or support.",
+        "May show little distress on separation and avoidance on reunion."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ecological validity of Ainsworth's Strange Situation using the PEEL structure.",
+      "keyPoints": [
+        "Point: The Strange Situation has low ecological validity.",
+        "Evidence: Conducted in a controlled, artificial environment.",
+        "Explain: May not reflect real-world attachment behavior.",
+        "Link: Results may not generalize to natural settings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the cultural limitations of Ainsworth's Strange Situation using the PEEL structure.",
+      "keyPoints": [
+        "Point: The Strange Situation may reflect cultural bias.",
+        "Evidence: Developed in the USA, based on Western norms.",
+        "Explain: Different cultures have different child-rearing practices.",
+        "Link: Attachment types may not be universal across cultures."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically evaluate the reliability of Ainsworth's Strange Situation using the PEEL structure.",
+      "keyPoints": [
+        "Point: The Strange Situation is considered reliable.",
+        "Evidence: Standardized procedure with consistent findings.",
+        "Explain: High inter-rater reliability in classifying attachment types.",
+        "Link: Increases confidence in findings and conclusions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or lacks evaluation"
+      }
+    }
+  ]
+}

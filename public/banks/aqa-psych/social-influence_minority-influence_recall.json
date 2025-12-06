@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "minority-influence",
+  "subTopicTitle": "Minority influence",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:13:19.836Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define minority influence and explain its significance in social change.",
+      "keyPoints": [
+        "Minority influence is when a smaller group influences the majority.",
+        "Significance in changing norms, leading to social change.",
+        "Moscovici's study as key research."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of consistency in minority influence.",
+      "keyPoints": [
+        "Consistency increases the influence of the minority.",
+        "Distinguish between synchronic and diachronic consistency.",
+        "Consistent minorities are taken more seriously."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize Moscovici's study on minority influence.",
+      "keyPoints": [
+        "Moscovici's study involved a color perception task.",
+        "The minority consistently said blue slides were green.",
+        "The study showed consistent minorities could influence the majority."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A small group of students advocates for eco-friendly practices at a university where most students are indifferent. How can they use minority influence strategies to create change?",
+      "keyPoints": [
+        "Use consistency in their message to persuade others.",
+        "Demonstrate commitment by engaging in eco-friendly behaviors.",
+        "Use flexibility to negotiate and adapt their approach."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "No application or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In a workplace, a minority of employees propose a new workflow that most colleagues are resistant to. How might these employees effectively use minority influence to gain support?",
+      "keyPoints": [
+        "Maintain consistency in advocating for the new workflow.",
+        "Show commitment by demonstrating the workflow's benefits.",
+        "Remain flexible to address colleagues' concerns."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "No application or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A minority group within a community wants to introduce a new recycling program. What strategies should they use to effectively influence the majority to adopt this program?",
+      "keyPoints": [
+        "Ensure consistency in their message and efforts.",
+        "Demonstrate commitment by leading by example.",
+        "Be flexible to integrate feedback and suggestions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "No application or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the importance of consistency in minority influence using the PEEL structure.",
+      "keyPoints": [
+        "Point: Consistency is crucial for minority influence.",
+        "Evidence: Moscovici's study demonstrates consistent influence.",
+        "Explanation: Consistency leads to deeper processing by the majority.",
+        "Link: Consistency is a key factor in effective minority influence."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with accurate detail",
+        "partial": "Includes 2-3 PEEL components or lacks detail",
+        "none": "Missing PEEL components or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the limitations of Moscovici's study on minority influence using the PEEL structure.",
+      "keyPoints": [
+        "Point: Moscovici's study has methodological limitations.",
+        "Evidence: Artificial tasks may not reflect real-world influence.",
+        "Explanation: Low ecological validity affects generalizability.",
+        "Link: Findings may not apply to real-world minority influence."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with accurate detail",
+        "partial": "Includes 2-3 PEEL components or lacks detail",
+        "none": "Missing PEEL components or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze the role of flexibility in minority influence using the PEEL structure.",
+      "keyPoints": [
+        "Point: Flexibility enhances minority influence.",
+        "Evidence: Nemeth suggests rigid minorities are less persuasive.",
+        "Explanation: Flexibility allows adaptation to majority feedback.",
+        "Link: Balance of consistency and flexibility increases influence."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with accurate detail",
+        "partial": "Includes 2-3 PEEL components or lacks detail",
+        "none": "Missing PEEL components or inaccurate"
+      }
+    }
+  ]
+}

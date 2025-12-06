@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "attachment",
+  "topicTitle": "Attachment",
+  "subTopic": "animal-studies",
+  "subTopicTitle": "Animal studies",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:17:02.291Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Lorenz's study on imprinting in geese.",
+      "keyPoints": [
+        "Lorenz's division of goose eggs into two groups",
+        "Imprinting observed in goslings following the first moving object",
+        "Critical period for imprinting"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline Harlow's research with rhesus monkeys.",
+      "keyPoints": [
+        "Use of surrogate mothers (wire vs. cloth)",
+        "Preference for cloth mother despite lack of food",
+        "Importance of contact comfort in attachment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'imprinting' as used in animal studies of attachment.",
+      "keyPoints": [
+        "Imprinting as a rapid form of learning",
+        "Occurs during a critical period",
+        "Leads to strong attachment to first moving object seen"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A farmer notices that ducklings are following him around instead of their mother. Apply Lorenz's findings to explain this behavior.",
+      "keyPoints": [
+        "Ducklings may have imprinted on the farmer",
+        "Importance of first moving object seen after hatching",
+        "Critical period for imprinting leading to following behavior"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Lorenz's study to explain behavior with all key points",
+        "partial": "Applies study with 1-2 key points or lacks detail",
+        "none": "Fails to apply study or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A zoo is trying to encourage bonding between a baby monkey and its caretakers. How might Harlow's findings inform their approach?",
+      "keyPoints": [
+        "Importance of contact comfort over food",
+        "Use of soft materials in caretakers' clothing",
+        "Ensure consistent interaction to build attachment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Successfully applies Harlow's findings with all key points",
+        "partial": "Applies findings with 1-2 key points or lacks detail",
+        "none": "Fails to apply findings or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher is studying attachment in puppies using surrogate mothers. What considerations from Harlow's study should they keep in mind?",
+      "keyPoints": [
+        "Provide both wire and cloth surrogates",
+        "Measure preference for cloth surrogate",
+        "Consider the role of contact comfort in attachment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Harlow's study considerations with all key points",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Fails to apply study or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ethical considerations of Lorenz's and Harlow's animal studies.",
+      "keyPoints": [
+        "Lack of consent and potential harm in both studies",
+        "Debate over ethical treatment of animals in research",
+        "Contribution to understanding of attachment vs. ethical issues"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates ethical considerations with all key points",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Fails to evaluate or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the generalizability of findings from animal studies of attachment to human behavior.",
+      "keyPoints": [
+        "Differences between species and human behavior",
+        "Relevance of findings to human attachment theory",
+        "Considerations of ecological validity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses generalizability with all key points",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Fails to discuss generalizability or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the contribution of animal studies to our understanding of attachment in humans.",
+      "keyPoints": [
+        "Insight into critical periods and bonding mechanisms",
+        "Influence on later human attachment research",
+        "Limitations due to species differences"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates contribution with all key points",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Fails to evaluate contribution or inaccurate"
+      }
+    }
+  ]
+}

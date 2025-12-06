@@ -1,0 +1,150 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "principles",
+  "subTopicTitle": "Four Working Principles",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:58:50.885Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "List and define the Four Working Principles of Situation Ethics.",
+      "keyPoints": [
+        "Pragmatism: practical solutions that work in real situations",
+        "Relativism: the belief that moral actions depend on the situation",
+        "Positivism: faith in love as the most important ethical principle",
+        "Personalism: prioritizing people over laws"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all four principles with accurate definitions",
+        "partial": "Includes 2-3 principles or lacks accurate definitions",
+        "none": "Missing principles or inaccurate definitions"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the principle of 'Pragmatism' in Situation Ethics.",
+      "keyPoints": [
+        "Pragmatism focuses on practical solutions",
+        "Actions should work towards achieving love",
+        "Rejection of fixed moral laws in favor of practical outcomes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains pragmatism with examples of practical solutions and context",
+        "partial": "Partial explanation with limited examples or context",
+        "none": "Lacks explanation or examples"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is 'Personalism' in the context of Situation Ethics?",
+      "keyPoints": [
+        "Focus on individual people rather than laws",
+        "Ethical decisions prioritize human welfare and dignity",
+        "Love and compassion are central to decision-making"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains personalism clearly with emphasis on people over laws",
+        "partial": "Mentions personalism but lacks depth or clarity",
+        "none": "Fails to explain personalism or misinterprets it"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the principle of 'Relativism' to a situation where lying might be considered.",
+      "keyPoints": [
+        "Relativism means considering the context of the lie",
+        "Evaluate if lying would lead to the most loving outcome",
+        "Consider if the situation justifies breaking a general rule"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies relativism to the scenario with clear reasoning",
+        "partial": "Attempts application but lacks clear reasoning or context",
+        "none": "Fails to apply relativism or does so incorrectly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would a Situation Ethicist apply 'Positivism' in a scenario where a law prevents helping someone in need?",
+      "keyPoints": [
+        "Positivism prioritizes love over law",
+        "Decision would focus on helping the person despite the law",
+        "Faith in love as the ultimate guiding principle"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies positivism effectively with justification",
+        "partial": "Application is attempted but lacks depth or clarity",
+        "none": "Fails to apply positivism or misinterprets the principle"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a situation where breaking a promise could lead to a better outcome. How would 'Pragmatism' guide the decision?",
+      "keyPoints": [
+        "Pragmatism focuses on outcomes that work",
+        "Evaluate if breaking the promise leads to the most loving result",
+        "Decision based on practical benefits rather than rigid rules"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies pragmatism with clear focus on practical outcomes",
+        "partial": "Application lacks clear focus or depth",
+        "none": "Fails to apply pragmatism or misunderstands the principle"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of 'Relativism' in Situation Ethics using the PEEL structure.",
+      "keyPoints": [
+        "Point: Relativism allows flexible moral decisions",
+        "Evidence: Situations where context changes moral outcomes",
+        "Explanation: How relativism adapts to different situations",
+        "Link: Connect to broader ethical theories or criticisms"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Utilizes PEEL structure effectively with detailed evaluation",
+        "partial": "Attempts PEEL but lacks depth or proper structure",
+        "none": "Fails to evaluate or lacks clear structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the principle of 'Personalism' in Situation Ethics using the PEEL structure.",
+      "keyPoints": [
+        "Point: Personalism prioritizes individuals over laws",
+        "Evidence: Cases where personalism leads to compassionate outcomes",
+        "Explanation: How this focus impacts ethical decisions",
+        "Link: Consider criticisms or comparisons with legalistic ethics"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL effectively with comprehensive evaluation",
+        "partial": "Attempts PEEL but lacks depth or clarity",
+        "none": "Fails to assess or lacks clear argument structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the potential weaknesses of 'Positivism' in Situation Ethics using the PEEL structure.",
+      "keyPoints": [
+        "Point: Positivism relies on subjective views of love",
+        "Evidence: Instances where love-based decisions are problematic",
+        "Explanation: Challenges of applying love consistently",
+        "Link: Consider ethical dilemmas or alternative views"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL with strong evaluation",
+        "partial": "Partial use of PEEL with limited evaluation",
+        "none": "Fails to discuss weaknesses or lacks structure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "aristotle",
+  "subTopicTitle": "Aristotle's Four Causes",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:45:14.795Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Aristotle's concept of the 'Material Cause' and provide an example.",
+      "keyPoints": [
+        "Material Cause refers to the substance or materials something is made from",
+        "Example: A table's material cause is wood",
+        "Emphasizes the physical aspect of an object"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes definition and a clear example with accurate detail",
+        "partial": "Includes definition or example, but lacks detail",
+        "none": "Missing definition or example, or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain Aristotle's 'Efficient Cause' and its significance.",
+      "keyPoints": [
+        "Efficient Cause is the agent or process that brings something into being",
+        "Significance: it explains the means of change or coming into existence",
+        "Example: The carpenter is the efficient cause of a table"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes explanation and significance with an example",
+        "partial": "Includes explanation or example, but lacks significance",
+        "none": "Missing explanation or example, or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the 'Final Cause' according to Aristotle, and why is it important?",
+      "keyPoints": [
+        "Final Cause is the purpose or end for which something exists",
+        "Importance: it provides the ultimate reason for an object's existence",
+        "Example: The final cause of a knife is to cut"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes definition, importance, and example with detail",
+        "partial": "Includes definition or example, but lacks importance",
+        "none": "Missing definition or example, or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Aristotle's Four Causes to a smartphone. Identify each cause.",
+      "keyPoints": [
+        "Material Cause: metals, glass, and plastics",
+        "Efficient Cause: the manufacturing process and engineers",
+        "Formal Cause: design and blueprint of the smartphone",
+        "Final Cause: communication and access to information"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies all four causes with relevant examples",
+        "partial": "Identifies 2-3 causes with some examples",
+        "none": "Identifies less than 2 causes or inaccurate examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Given a scenario of a house being built, identify Aristotle's Four Causes.",
+      "keyPoints": [
+        "Material Cause: bricks, wood, cement",
+        "Efficient Cause: construction workers and architects",
+        "Formal Cause: architectural plans and designs",
+        "Final Cause: to provide shelter and habitation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies all four causes with relevant examples",
+        "partial": "Identifies 2-3 causes with some examples",
+        "none": "Identifies less than 2 causes or inaccurate examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Aristotle's Four Causes to the creation of a movie.",
+      "keyPoints": [
+        "Material Cause: film, digital files, actors",
+        "Efficient Cause: director, producers, crew",
+        "Formal Cause: screenplay, storyboard",
+        "Final Cause: entertainment, storytelling"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies all four causes with relevant examples",
+        "partial": "Identifies 2-3 causes with some examples",
+        "none": "Identifies less than 2 causes or inaccurate examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Aristotle's Four Causes using the PEEL structure.",
+      "keyPoints": [
+        "Point: Strength - comprehensive explanation of change and existence",
+        "Example: Can be applied to numerous objects and phenomena",
+        "Explain: Offers systematic understanding of why things exist",
+        "Link: Encourages deeper inquiry into purpose and design",
+        "Point: Weakness - may not apply to abstract concepts",
+        "Example: Difficult to apply to emotions or virtual entities",
+        "Explain: Limited in explaining non-physical entities",
+        "Link: Suggests need for alternative explanations"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes balanced evaluation with clear PEEL structure",
+        "partial": "Includes evaluation but lacks balance or detail",
+        "none": "Fails to critically evaluate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the relevance of Aristotle's Four Causes in modern science using the PEEL structure.",
+      "keyPoints": [
+        "Point: Relevance - aligns with scientific inquiry into causation",
+        "Example: Used in understanding processes in biology and physics",
+        "Explain: Provides a framework for experimental design and analysis",
+        "Link: Encourages holistic consideration of factors in scientific study",
+        "Point: Irrelevance - science often focuses on efficient causes alone",
+        "Example: Reductionist approaches in certain sciences",
+        "Explain: May overlook final causes as subjective or non-empirical",
+        "Link: Suggests limitations in applying Aristotle's ideas solely"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes thorough discussion with clear PEEL structure",
+        "partial": "Includes discussion but lacks depth or clarity",
+        "none": "Fails to discuss relevance or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the applicability of Aristotle's Four Causes to digital technology using the PEEL structure.",
+      "keyPoints": [
+        "Point: Applicability - can explain the creation and function of technology",
+        "Example: Software development processes",
+        "Explain: Material, efficient, formal, and final causes all identifiable",
+        "Link: Shows versatility of Aristotle's framework",
+        "Point: Limitations - struggles with virtual or non-physical aspects",
+        "Example: Online services or digital communities",
+        "Explain: Non-tangible entities challenge the model",
+        "Link: Highlights need for adaptation or new frameworks"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes critical assessment with clear PEEL structure",
+        "partial": "Includes assessment but lacks depth or clarity",
+        "none": "Fails to critically assess or lacks structure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "origins-of-psychology",
+  "subTopicTitle": "Origins of psychology",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:20:55.115Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the contribution of Wilhelm Wundt to the origins of psychology.",
+      "keyPoints": [
+        "Wundt is often referred to as the 'father of experimental psychology.'",
+        "He established the first psychology laboratory in Leipzig, Germany in 1879.",
+        "Introduced introspection as a method to study the mind."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'introspection' as used in early psychology.",
+      "keyPoints": [
+        "Introspection is the process of examining one's own conscious thoughts and feelings.",
+        "Wundt used introspection to analyze the content of the mind.",
+        "It involves systematic observation and reporting of subjective experiences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the historical significance of the establishment of the first psychology lab by Wundt.",
+      "keyPoints": [
+        "Marked the separation of psychology from philosophy and biology.",
+        "Allowed for controlled, scientific methods in psychological research.",
+        "Emphasized the importance of empirical evidence in psychology."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A new psychologist is using introspection to study the effects of meditation on stress. How might this method be applied in their research?",
+      "keyPoints": [
+        "Participants could be asked to meditate and then describe their conscious experiences.",
+        "The psychologist would analyze these reports for patterns or changes in stress-related thoughts.",
+        "Introspection would focus on subjective reports rather than observable behaviors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies introspection method to the scenario with relevant details.",
+        "partial": "Attempts to apply the method but lacks detail or relevance.",
+        "none": "Misapplies the method or fails to address the scenario."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are conducting a study on reaction times using Wundt's experimental approach. What steps would you take?",
+      "keyPoints": [
+        "Use a controlled environment similar to Wundt's lab settings.",
+        "Present stimuli and measure participants' reaction times precisely.",
+        "Ensure systematic and repeatable procedures for data collection."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively outlines steps using Wundt's approach with relevant detail.",
+        "partial": "Includes some steps but lacks detail or precision.",
+        "none": "Fails to apply Wundt's approach or includes inaccuracies."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In a study of memory, explain how Wundt's principles could guide the research design.",
+      "keyPoints": [
+        "Emphasize controlled conditions to eliminate extraneous variables.",
+        "Use introspection to gather data on participants' recall processes.",
+        "Include repeated measures to ensure reliability of findings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Wundt's principles effectively with relevant research design details.",
+        "partial": "Partially applies principles or lacks detailed design elements.",
+        "none": "Inaccurate application or missing key elements of Wundt's principles."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of introspection as a method in psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: Introspection provides insight into conscious experiences.",
+        "Evidence: Historical use by Wundt and subsequent studies.",
+        "Explanation: Allows for detailed self-reports but lacks objectivity.",
+        "Link: Modern psychology favors more scientific, observable methods."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Covers all PEEL points with clear, logical evaluation.",
+        "partial": "Includes some PEEL points but lacks depth or clarity.",
+        "none": "Fails to provide a coherent evaluation or lacks PEEL structure."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the impact of Wundt's laboratory on the development of psychology as a science using PEEL.",
+      "keyPoints": [
+        "Point: Wundt's lab established psychology as an experimental science.",
+        "Evidence: First formal lab and methodical approach to studying the mind.",
+        "Explanation: Provided a model for future scientific investigation.",
+        "Link: Set a foundation but later developments emphasized different methods."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Addresses all PEEL components with thorough evaluation.",
+        "partial": "Touches on some PEEL components but lacks comprehensive evaluation.",
+        "none": "Inadequate evaluation or missing PEEL structure."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of Wundt's approach in the context of modern psychological research using PEEL.",
+      "keyPoints": [
+        "Point: Wundt's approach was limited by its reliance on introspection.",
+        "Evidence: Subjective nature of introspection and lack of reliability.",
+        "Explanation: Modern psychology prioritizes objective, quantifiable data.",
+        "Link: Led to the development of more rigorous scientific methods."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thoroughly addresses all PEEL components with critical insight.",
+        "partial": "Includes some components but lacks depth or insight.",
+        "none": "Fails to provide a coherent or structured evaluation."
+      }
+    }
+  ]
+}

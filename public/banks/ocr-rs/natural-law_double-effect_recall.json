@@ -1,0 +1,147 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "double-effect",
+  "subTopicTitle": "Doctrine of Double Effect",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:57:16.823Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the Doctrine of Double Effect in Natural Law.",
+      "keyPoints": [
+        "An action with both good and bad effects can be morally permissible",
+        "The good effect must be intended, while the bad effect is unintended",
+        "The good effect must outweigh or be proportionate to the bad effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the four conditions that must be met for the Doctrine of Double Effect to apply?",
+      "keyPoints": [
+        "The nature of the act must be good or neutral",
+        "The intention must be to achieve only the good effect",
+        "The bad effect must not be a means to the good effect",
+        "There must be a proportionately grave reason for permitting the bad effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how the Doctrine of Double Effect relates to Natural Law ethics.",
+      "keyPoints": [
+        "Natural Law focuses on the moral quality of actions based on their alignment with human purpose",
+        "Doctrine of Double Effect allows actions with unintended negative consequences if they serve a greater good",
+        "Supports Natural Law’s emphasis on intention and purpose"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the Doctrine of Double Effect to a medical scenario where a pregnant woman's life is at risk and an abortion could save her.",
+      "keyPoints": [
+        "The intention is to save the woman's life, not to terminate the pregnancy",
+        "The action of abortion has both good (saving the woman) and bad (ending the fetus's life) effects",
+        "The bad effect (death of the fetus) is not a means to the good effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the doctrine with clear reasoning",
+        "partial": "Attempts application but lacks clarity or detail",
+        "none": "Fails to apply the doctrine correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a soldier throws himself on a grenade to save his comrades. Apply the Doctrine of Double Effect.",
+      "keyPoints": [
+        "Intention is to save the comrades' lives, not to die",
+        "Death is a foreseen but unintended consequence",
+        "The good effect (saving others) outweighs the bad effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the doctrine with clear reasoning",
+        "partial": "Attempts application but lacks clarity or detail",
+        "none": "Fails to apply the doctrine correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Use the Doctrine of Double Effect to analyze whether a terminally ill patient refusing treatment that would extend life but cause suffering is morally acceptable.",
+      "keyPoints": [
+        "Intention is to avoid suffering, not to hasten death",
+        "Refusal of treatment leads to natural death as a foreseen but unintended effect",
+        "Good effect (relief from suffering) is proportionate to the bad effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the doctrine with clear reasoning",
+        "partial": "Attempts application but lacks clarity or detail",
+        "none": "Fails to apply the doctrine correctly"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of the Doctrine of Double Effect in ethical decision-making using PEEL structure.",
+      "keyPoints": [
+        "Provides a clear framework for evaluating intentions",
+        "Allows flexibility in complex moral situations",
+        "Criticism: can be used to justify harmful actions if intentions are deemed good"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clearly evaluates with balanced reasoning and examples",
+        "partial": "Evaluation lacks balance or detail",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the limitations of the Doctrine of Double Effect.",
+      "keyPoints": [
+        "Subjectivity in determining true intentions",
+        "Difficulty in measuring proportionate reasons",
+        "Criticism: can lead to moral loopholes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clearly assesses with balanced reasoning and examples",
+        "partial": "Assessment lacks balance or detail",
+        "none": "Fails to assess effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate whether the Doctrine of Double Effect is compatible with contemporary ethical theories.",
+      "keyPoints": [
+        "Comparison with consequentialism and its focus on outcomes",
+        "Compatibility with deontological ethics due to emphasis on intention",
+        "Potential conflict with virtue ethics which focuses on character"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clearly evaluates with balanced reasoning and examples",
+        "partial": "Evaluation lacks balance or detail",
+        "none": "Fails to evaluate effectively"
+      }
+    }
+  ]
+}

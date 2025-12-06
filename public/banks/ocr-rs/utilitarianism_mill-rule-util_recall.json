@@ -1,0 +1,146 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "utilitarianism",
+  "topicTitle": "Utilitarianism",
+  "subTopic": "mill-rule-util",
+  "subTopicTitle": "Mill & Rule Utilitarianism",
+  "type": "recall",
+  "generatedAt": "2025-12-06T11:00:36.159Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Rule Utilitarianism as proposed by John Stuart Mill.",
+      "keyPoints": [
+        "Focuses on rules that lead to the greatest good",
+        "Differentiates higher and lower pleasures",
+        "Emphasizes qualitative aspects of happiness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a definition of Rule Utilitarianism, mentions higher and lower pleasures, and qualitative happiness",
+        "partial": "Includes some aspects of Rule Utilitarianism but lacks full detail or accuracy",
+        "none": "Fails to accurately define Rule Utilitarianism"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the difference between act and rule utilitarianism.",
+      "keyPoints": [
+        "Act utilitarianism assesses individual actions",
+        "Rule utilitarianism assesses the rules governing actions",
+        "Rule utilitarianism aims for rules that generate the greatest good"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly differentiates between act and rule utilitarianism with examples",
+        "partial": "Mentions either act or rule utilitarianism but not both, or is unclear",
+        "none": "Fails to differentiate between the two concepts"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are 'higher' and 'lower' pleasures according to Mill?",
+      "keyPoints": [
+        "Higher pleasures are intellectual and moral pleasures",
+        "Lower pleasures are bodily and sensual pleasures",
+        "Higher pleasures are considered superior"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies and explains both higher and lower pleasures",
+        "partial": "Mentions higher or lower pleasures but lacks complete explanation",
+        "none": "Does not accurately describe higher and lower pleasures"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Rule Utilitarianism to the ethical dilemma of lying to protect a friend's feelings.",
+      "keyPoints": [
+        "Consider rules about honesty and harm",
+        "Assess long-term consequences of lying",
+        "Determine if lying aligns with rules for greater good"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies rule utilitarianism principles effectively to the scenario",
+        "partial": "Attempts application but lacks depth or clarity",
+        "none": "Fails to apply rule utilitarianism to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Rule Utilitarianism approach the issue of capital punishment?",
+      "keyPoints": [
+        "Consider rules about justice and deterrence",
+        "Weigh consequences of capital punishment on society",
+        "Assess if it aligns with maximizing happiness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively uses rule utilitarian principles to analyze capital punishment",
+        "partial": "Some application of rule utilitarianism, but lacks detail",
+        "none": "Does not apply rule utilitarianism to the issue"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a society where leisure is deemed more valuable than work. How would Rule Utilitarianism evaluate this societal norm?",
+      "keyPoints": [
+        "Analyze rules favoring leisure over work",
+        "Consider the impact on overall happiness and productivity",
+        "Evaluate whether this maximizes long-term welfare"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies rule utilitarian reasoning effectively to the societal norm",
+        "partial": "Attempts application but lacks comprehensive analysis",
+        "none": "Fails to apply rule utilitarian principles to the norm"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of Mill's Rule Utilitarianism.",
+      "keyPoints": [
+        "Considers long-term consequences and rules",
+        "Addresses qualitative differences in pleasures",
+        "Promotes societal welfare through stable rules"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively evaluates strengths with supporting examples",
+        "partial": "Mentions strengths but lacks depth or examples",
+        "none": "Fails to provide a coherent evaluation of strengths"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the weaknesses of Rule Utilitarianism.",
+      "keyPoints": [
+        "Difficulty in predicting outcomes",
+        "Challenges in rule formulation",
+        "Potential conflicts with individual rights"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Thoroughly evaluates weaknesses with clear arguments",
+        "partial": "Identifies weaknesses but lacks detailed analysis",
+        "none": "Does not critically assess weaknesses"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how Rule Utilitarianism addresses the issue of justice.",
+      "keyPoints": [
+        "Focus on rules promoting fairness",
+        "Potential clashes between utility and justice",
+        "Consideration of individual rights within rule framework"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a balanced evaluation of justice within Rule Utilitarianism",
+        "partial": "Mentions justice but lacks comprehensive discussion",
+        "none": "Fails to address the issue of justice in Rule Utilitarianism"
+      }
+    }
+  ]
+}

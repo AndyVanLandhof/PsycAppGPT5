@@ -16,6 +16,7 @@ import { nodes as augustineTeachingsNodes, edges as augustineTeachingsEdges } fr
 import StudySession from "./StudySession";
 import { logPlannerEvent } from "../progress/plannerEvents";
 import useTopicProgress from '../progress/useTopicProgress.js';
+import { getAllAttemptStats, formatLastAttempt, logAttempt } from '../utils/attemptTracker';
 import { DEFAULT_THRESHOLDS, computeReinforceScore } from '../progress/progressLogic.js';
 // Removed status badge display under Progressive Learning
 import BedtimeStory from "./BedtimeStory";
@@ -43,6 +44,15 @@ function TopicDetail({ topic, onBack }) {
   const { topicState, status, actions } = useTopicProgress(progressId);
   const thresholds = DEFAULT_THRESHOLDS;
   // Bedtime story preloading disabled
+
+  // Attempt tracking for Reinforce modes
+  const [attemptStats, setAttemptStats] = useState({ flashcards: { count: 0, lastAttempt: null }, quiz: { count: 0, lastAttempt: null }, recall: { count: 0, lastAttempt: null } });
+  
+  useEffect(() => {
+    if (topic?.id && selectedSubTopic) {
+      setAttemptStats(getAllAttemptStats(topic.id, selectedSubTopic));
+    }
+  }, [topic?.id, selectedSubTopic]);
 
   // Guidance message for current subtopic
   const hasLearned = !!(topicState?.learn?.study || topicState?.learn?.audioStory || topicState?.learn?.conceptMap);
@@ -118,12 +128,18 @@ function TopicDetail({ topic, onBack }) {
     }
     if (selectedStage === 'Reinforce') {
       if (selectedOption === 'flashcards') {
+        logAttempt(topic.id, selectedSubTopic, 'flashcards');
+        setAttemptStats(getAllAttemptStats(topic.id, selectedSubTopic));
         setActiveView('flashcards');
       } else if (selectedOption === 'quiz') {
+        logAttempt(topic.id, selectedSubTopic, 'quiz');
+        setAttemptStats(getAllAttemptStats(topic.id, selectedSubTopic));
         setActiveView('quiz');
       } else if (selectedOption === 'socratic') {
         setActiveView('socratic');
       } else if (selectedOption === 'activeRecall') {
+        logAttempt(topic.id, selectedSubTopic, 'recall');
+        setAttemptStats(getAllAttemptStats(topic.id, selectedSubTopic));
         setActiveView('study-session');
       }
       return;
@@ -476,148 +492,107 @@ function TopicDetail({ topic, onBack }) {
               </div>
             </div>
           )}
-          {/* Progressive Learning Panel / English Modes */}
-          <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+          {/* Reinforce & Revise Panel */}
+          <div className="bg-white border rounded-lg shadow-sm p-6 space-y-6">
             <div className="text-center">
-              <h2 className="text-xl font-semibold text-purple-700">{isEngLit ? 'English Study Modes' : 'Progressive Learning'}</h2>
-              <div className={`mt-2 inline-block text-xs px-2 py-1 rounded-full border ${guidance.colorCls}`}>{guidance.text}</div>
+              <h2 className="text-xl font-semibold text-purple-700">{isEngLit ? 'English Study Modes' : 'Reinforce & Revise'}</h2>
+              <p className="text-sm text-gray-600 mt-1">Select a study mode and press Start</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
-              {/* Learn Column */}
-              <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Learn' ? 'ring-2 ring-blue-400' : ''}`}>
-                <div className="font-semibold mb-2">Learn</div>
-                <div className="space-y-2">
-                  {isEngLit && (
-                    <>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-ask' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-ask'} onChange={() => setActiveView('eng-ask')} />
-                          <span>Ask AI</span>
-                        </span>
-                        <span>💡</span>
-                      </label>
-                      <div className="flex items-center gap-2 pl-2">
-                        <button onClick={openEnglishText} className="px-3 py-1 rounded text-white bg-emerald-600 hover:bg-emerald-700 text-xs">The Text</button>
-                        <span className="text-xs text-gray-600">Opens a clean reading view</span>
-                      </div>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-summary' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-summary'} onChange={() => setActiveView('eng-summary')} />
-                          <span>Summary</span>
-                        </span>
-                        <span>📝</span>
-                      </label>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-themes' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-themes'} onChange={() => setActiveView('eng-themes')} />
-                          <span>Themes</span>
-                        </span>
-                        <span>🏷️</span>
-                      </label>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-criticism' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-criticism'} onChange={() => setActiveView('eng-criticism')} />
-                          <span>Critical Analysis</span>
-                        </span>
-                        <span>📚</span>
-                      </label>
-                    </>
-                  )}
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='study' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='study'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('study'); }} />
-                      <span>Study Content</span>
-                    </span>
-                    <span className="flex items-center gap-1">{topicState?.learn?.study ? <span title="Completed">✅</span> : null}<span>📘</span></span>
-                  </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='audioStory' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='audioStory'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('audioStory'); }} />
-                      <span>Bedtime Story</span>
-                    </span>
-                    <span className="flex items-center gap-1">{topicState?.learn?.audioStory ? <span title="Completed">✅</span> : null}<span>🌙</span></span>
-                  </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='socratic' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='socratic'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('socratic'); }} />
-                      <span>Socratic Method</span>
-                    </span>
-                    <span>🧔‍♂️</span>
-                  </label>
+
+            {/* English Lit specific modes */}
+            {isEngLit && (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <button onClick={openEnglishText} className="px-4 py-3 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition">📖 The Text</button>
+                <button onClick={() => setActiveView('eng-summary')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-summary' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>📝 Summary</button>
+                <button onClick={() => setActiveView('eng-themes')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-themes' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>🏷️ Themes</button>
+                <button onClick={() => setActiveView('eng-criticism')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-criticism' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>📚 Critical Analysis</button>
+                <button onClick={() => setActiveView('eng-ask')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-ask' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>💡 Ask AI</button>
+                <button onClick={() => setActiveView('eng-exam')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-exam' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>🧪 Exam Relevance</button>
+                <button onClick={() => setActiveView('eng-past')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-past' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>📝 Past Papers</button>
+              </div>
+            )}
+
+            {/* Main Reinforce buttons - Flashcards, Quiz, Active Recall */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="flex flex-col">
+                <button
+                  onClick={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }}
+                  className={`flex flex-col items-center justify-center gap-3 p-6 rounded-2xl border-2 transition-all ${
+                    selectedStage === 'Reinforce' && selectedOption === 'flashcards'
+                      ? 'border-purple-500 bg-purple-50 ring-2 ring-purple-400'
+                      : 'border-gray-200 bg-gray-50 hover:border-purple-300 hover:bg-purple-50'
+                  }`}
+                >
+                  <span className="text-4xl">🔁</span>
+                  <span className="text-lg font-semibold text-purple-800">Flashcards</span>
+                  <span className="text-xs text-gray-600">Review key concepts</span>
+                </button>
+                <div className="mt-2 text-center text-xs text-gray-500 bg-gray-50 rounded-lg py-2 px-3">
+                  <div>Last: <span className="font-medium">{formatLastAttempt(attemptStats.flashcards.lastAttempt)}</span></div>
+                  <div>Attempts: <span className="font-medium">{attemptStats.flashcards.count}</span></div>
                 </div>
               </div>
-              {/* Reinforce Column */}
-              <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
-                <div className="font-semibold mb-2">Reinforce</div>
-                <div className="space-y-2">
-                  {isEngLit && (
-                    <>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-exam' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-exam'} onChange={() => setActiveView('eng-exam')} />
-                          <span>Exam Relevance</span>
-                        </span>
-                        <span>🧪</span>
-                      </label>
-                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-past' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
-                        <span className="flex items-center gap-2">
-                          <input type="radio" name="eng-mode" checked={activeView==='eng-past'} onChange={() => setActiveView('eng-past')} />
-                          <span>Recent Past Papers</span>
-                        </span>
-                        <span>📝</span>
-                      </label>
-                    </>
-                  )}
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='flashcards' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='flashcards'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }} />
-                      <span>Flashcards</span>
-                    </span>
-                    <span>🔁</span>
-                  </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='quiz' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='quiz'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('quiz'); }} />
-                      <span>Quiz</span>
-                    </span>
-                    <span>🧠</span>
-                  </label>
-                  <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='activeRecall' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
-                    <span className="flex items-center gap-2">
-                      <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='activeRecall'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('activeRecall'); }} />
-                      <span>Active Recall</span>
-                    </span>
-                    <span>🎯</span>
-                  </label>
-                  {/* Reinforce progress information moved below the Reinforce options */}
-                  <div className="mt-2 space-y-2">
-                    <div className="text-xs font-medium text-gray-700">Reinforce Progress</div>
-                    <div className="flex items-center text-xs">
-                      <div className="flex-1 h-2 bg-gray-100 rounded overflow-hidden">
-                        <div className={`${Number.isFinite(currentRScore) ? 'bg-blue-600' : 'bg-gray-300'}`} style={{ width: `${Number.isFinite(currentRScore) ? currentRScore : 0}%`, height: '100%' }} />
-                      </div>
-                      <div className="ml-2 text-gray-600">{Number.isFinite(currentRScore) ? `${currentRScore}%` : '—'}</div>
-                    </div>
-                    <div className="text-xs text-gray-600">
-                      Flashcards: {Number.isFinite(topicState?.reinforce?.flashAvgPct) ? `${topicState.reinforce.flashAvgPct}%` : '—'} • Quiz: {Number.isFinite(topicState?.reinforce?.quizAvgPct) ? `${topicState.reinforce.quizAvgPct}%` : '—'}
-                    </div>
-                    <div className="text-xs text-gray-600">
-                      Sessions: Flashcards ×{topicState?.reinforce?.flashAttempts || 0} • Quiz ×{topicState?.reinforce?.quizAttempts || 0}
-                    </div>
-                  </div>
+
+              <div className="flex flex-col">
+                <button
+                  onClick={() => { setSelectedStage('Reinforce'); setSelectedOption('quiz'); }}
+                  className={`flex flex-col items-center justify-center gap-3 p-6 rounded-2xl border-2 transition-all ${
+                    selectedStage === 'Reinforce' && selectedOption === 'quiz'
+                      ? 'border-blue-500 bg-blue-50 ring-2 ring-blue-400'
+                      : 'border-gray-200 bg-gray-50 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  <span className="text-4xl">🧠</span>
+                  <span className="text-lg font-semibold text-blue-800">Quiz</span>
+                  <span className="text-xs text-gray-600">Test your knowledge</span>
+                </button>
+                <div className="mt-2 text-center text-xs text-gray-500 bg-gray-50 rounded-lg py-2 px-3">
+                  <div>Last: <span className="font-medium">{formatLastAttempt(attemptStats.quiz.lastAttempt)}</span></div>
+                  <div>Attempts: <span className="font-medium">{attemptStats.quiz.count}</span></div>
                 </div>
               </div>
-              {/* Exam Column removed; exams will be in a separate page */}
+
+              <div className="flex flex-col">
+                <button
+                  onClick={() => { setSelectedStage('Reinforce'); setSelectedOption('activeRecall'); }}
+                  className={`flex flex-col items-center justify-center gap-3 p-6 rounded-2xl border-2 transition-all ${
+                    selectedStage === 'Reinforce' && selectedOption === 'activeRecall'
+                      ? 'border-emerald-500 bg-emerald-50 ring-2 ring-emerald-400'
+                      : 'border-gray-200 bg-gray-50 hover:border-emerald-300 hover:bg-emerald-50'
+                  }`}
+                >
+                  <span className="text-4xl">🎯</span>
+                  <span className="text-lg font-semibold text-emerald-800">Active Recall</span>
+                  <span className="text-xs text-gray-600">AO1 → AO2 → AO3</span>
+                </button>
+                <div className="mt-2 text-center text-xs text-gray-500 bg-gray-50 rounded-lg py-2 px-3">
+                  <div>Last: <span className="font-medium">{formatLastAttempt(attemptStats.recall.lastAttempt)}</span></div>
+                  <div>Attempts: <span className="font-medium">{attemptStats.recall.count}</span></div>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col items-center gap-3">
-              <button className="px-4 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800 self-center" onClick={startSelected}>Start</button>
-              <button
-                disabled={!allSubtopicsReady}
-                onClick={() => setActiveView('examine')}
-                className={`px-4 py-2 rounded-lg font-semibold self-center ${allSubtopicsReady ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-gray-200 text-gray-500 cursor-not-allowed'}`}
-                title={allSubtopicsReady ? 'Begin exam practice for this topic' : 'Make all sub-topics exam-ready to unlock'}
+
+            {/* Progress bar */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-xs text-gray-600">
+                <span>Progress</span>
+                <span>{Number.isFinite(currentRScore) ? `${currentRScore}%` : '0%'}</span>
+              </div>
+              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                <div 
+                  className="h-full bg-gradient-to-r from-purple-500 to-blue-500 transition-all duration-300" 
+                  style={{ width: `${Number.isFinite(currentRScore) ? currentRScore : 0}%` }} 
+                />
+              </div>
+            </div>
+
+            {/* Start button */}
+            <div className="flex justify-center">
+              <button 
+                className="px-8 py-4 text-lg font-bold rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:from-purple-700 hover:to-blue-700 shadow-lg hover:shadow-xl transition-all" 
+                onClick={startSelected}
               >
-                Start Examining
+                Start
               </button>
             </div>
           </div>
@@ -653,6 +628,7 @@ function TopicDetail({ topic, onBack }) {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* Study Content */}
               <button
                 onClick={() => setActiveView("study")}
                 className="border border-green-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-green-50 bg-gray-50"
@@ -663,16 +639,7 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-xs text-gray-600 mt-1">AI-powered explanations</div>
                 </div>
               </button>
-              <button
-                onClick={() => setActiveView("study-session")}
-                className="border border-emerald-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-emerald-50 bg-gray-50"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">🎯</div>
-                  <div className="font-semibold text-emerald-800">Active Recall Session</div>
-                  <div className="text-xs text-gray-600 mt-1">AO1 → AO3 → Scenario</div>
-                </div>
-              </button>
+              {/* Bedtime Story */}
               <button
                 onClick={() => { actions.recordLearnAccess('audioStory'); setActiveView("bedtime-story"); }}
                 className="border border-indigo-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-indigo-50 bg-gray-50"
@@ -683,26 +650,29 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-xs text-gray-600 mt-1">5–6 min narrated lesson</div>
                 </div>
               </button>
+              {/* Socratic Method */}
               <button
-                onClick={() => setActiveView("quiz")}
-                className="border border-blue-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-blue-50 bg-gray-50"
+                onClick={() => setActiveView("socratic")}
+                className="border border-yellow-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-yellow-50 bg-gray-50"
               >
                 <div className="text-center">
-                  <div className="text-2xl mb-2">🧠</div>
-                  <div className="font-semibold text-blue-800">Practice Quiz</div>
-                  <div className="text-xs text-gray-600 mt-1">Test your knowledge</div>
+                  <div className="text-2xl mb-2">🧔‍♂️</div>
+                  <div className="font-semibold text-yellow-800">Socratic Method</div>
+                  <div className="text-xs text-gray-600 mt-1">Discuss this topic</div>
                 </div>
               </button>
+              {/* Concept Map */}
               <button
-                onClick={() => setActiveView("flashcards")}
-                className="border border-purple-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-purple-50 bg-gray-50"
+                onClick={() => setActiveView("conceptmap")}
+                className="border border-pink-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-pink-50 bg-gray-50"
               >
                 <div className="text-center">
-                  <div className="text-2xl mb-2">🔁</div>
-                  <div className="font-semibold text-purple-800">Flashcards</div>
-                  <div className="text-xs text-gray-600 mt-1">Review key concepts</div>
+                  <div className="text-2xl mb-2">🗺️</div>
+                  <div className="font-semibold text-pink-800">Concept Map</div>
+                  <div className="text-xs text-gray-600 mt-1">Visualise this sub-topic</div>
                 </div>
               </button>
+              {/* Quotations - English Lit only */}
               {isEngLit && (
                 <button
                   onClick={() => setActiveView("eng-quotations")}
@@ -715,28 +685,6 @@ function TopicDetail({ topic, onBack }) {
                   </div>
                 </button>
               )}
-              {/* Socratic Method Pane */}
-              <button
-                onClick={() => setActiveView("socratic")}
-                className="border border-gray-300 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-yellow-50 bg-gray-50"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">🧔‍♂️</div>
-                  <div className="font-semibold text-yellow-800">Socratic Method</div>
-                  <div className="text-xs text-gray-600 mt-1">Discuss this topic</div>
-                </div>
-              </button>
-              {/* Concept Map Pane */}
-              <button
-                onClick={() => setActiveView("conceptmap")}
-                className="border border-pink-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-pink-50 bg-gray-50"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">🗺️</div>
-                  <div className="font-semibold text-pink-800">Concept Map</div>
-                  <div className="text-xs text-gray-600 mt-1">Visualise this sub-topic</div>
-                </div>
-              </button>
             </div>
           </div>
         </div>

@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "cosmological",
+  "subTopicTitle": "Cosmological Argument",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:48:34.343Z",
+  "items": [
+    {
+      "question": "What is the Cosmological Argument?",
+      "answer": "An argument for God's existence based on the premise that everything has a cause, and there must be a first cause, identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'contingency' in the context of the Cosmological Argument.",
+      "answer": "Contingency refers to the idea that things in the universe depend on something else for their existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Aquinas propose in his Five Ways?",
+      "answer": "Aquinas proposed five proofs for God's existence, with the first three related to motion, causation, and contingency.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'necessary being' as used in the Cosmological Argument.",
+      "answer": "A necessary being is one that must exist by its own nature and is not dependent on anything else for its existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Leibniz argue in his Principle of Sufficient Reason?",
+      "answer": "Leibniz argued that everything must have a reason or explanation for its existence, ultimately leading to a necessary being.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the Kalam Cosmological Argument?",
+      "answer": "An argument stating that the universe had a beginning and therefore must have a cause, often associated with William Lane Craig.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'infinite regress' in the context of the Cosmological Argument.",
+      "answer": "Infinite regress is the idea of an endless chain of causes with no initial cause, which the argument attempts to avoid.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Craig argue about the universe's beginning?",
+      "answer": "Craig argued that an actual infinite cannot exist, so the universe must have a beginning and a cause.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'first cause' in the Cosmological Argument.",
+      "answer": "The first cause is the initial uncaused cause that began the chain of causation, often identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Aquinas's Third Way?",
+      "answer": "Aquinas's Third Way argues from contingency, stating that not all beings can be contingent, requiring a necessary being.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does God play in the Cosmological Argument?",
+      "answer": "God is posited as the necessary being or first cause that explains the existence of the universe.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Russell argue in his debate with Copleston in 1948?",
+      "answer": "Russell argued that the universe is a 'brute fact' and does not need an explanation beyond its existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Aquinas's argument apply to the existence of the universe?",
+      "answer": "Aquinas argues that the universe's existence requires a first cause or necessary being, which he identifies as God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Kalam Cosmological Argument to this scenario: A student claims the universe has always existed.",
+      "answer": "The Kalam argument counters that the universe cannot have an infinite past, suggesting a beginning and a cause.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the Principle of Sufficient Reason apply to the existence of the universe?",
+      "answer": "It posits that the universe must have an explanation or reason for its existence, leading to a necessary being.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of contingency to explain why some philosophers argue for a necessary being.",
+      "answer": "Contingency implies dependence, necessitating a non-contingent being to provide the ultimate reason for existence.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the Cosmological Argument.",
+      "answer": "It provides a simple explanation for the universe's existence, appealing to common intuitions about causation.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the Cosmological Argument.",
+      "answer": "Critics argue it doesn't necessarily lead to a personal God, merely an unspecified first cause.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Aquinas's Five Ways.",
+      "answer": "Aquinas uses philosophical reasoning rather than empirical evidence, which may not satisfy scientific criteria for proof.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one critique of the Kalam Cosmological Argument.",
+      "answer": "Some argue that quantum mechanics allows for events without causes, challenging the argument's causality premise.",
+      "ao": "AO3"
+    }
+  ]
+}

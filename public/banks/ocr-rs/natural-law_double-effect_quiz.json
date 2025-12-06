@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "double-effect",
+  "subTopicTitle": "Doctrine of Double Effect",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:57:03.265Z",
+  "items": [
+    {
+      "id": "double-effect-q1",
+      "question": "Who is the primary philosopher associated with the development of Natural Law theory?",
+      "options": [
+        "Thomas Aquinas",
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas is the philosopher most closely associated with Natural Law, having developed it extensively in his work, 'Summa Theologica'."
+    },
+    {
+      "id": "double-effect-q2",
+      "question": "What is the Doctrine of Double Effect primarily concerned with?",
+      "options": [
+        "The morality of actions with both good and bad effects",
+        "The calculation of the greatest happiness",
+        "The social contract between individuals",
+        "The categorical imperative"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Doctrine of Double Effect focuses on actions that produce both good and bad outcomes, justifying the action if the intention was good."
+    },
+    {
+      "id": "double-effect-q3",
+      "question": "According to Natural Law, which of the following is considered an intrinsic good?",
+      "options": [
+        "Life",
+        "Wealth",
+        "Power",
+        "Pleasure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Life is considered an intrinsic good in Natural Law, as it is one of the primary precepts outlined by Aquinas."
+    },
+    {
+      "id": "double-effect-q4",
+      "question": "Which of the following is NOT a primary precept in Natural Law according to Aquinas?",
+      "options": [
+        "To seek pleasure",
+        "To reproduce",
+        "To live in an ordered society",
+        "To worship God"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Seeking pleasure is not a primary precept in Aquinas' Natural Law; rather, it focuses on reproduction, living in society, and worship."
+    },
+    {
+      "id": "double-effect-q5",
+      "question": "In which of his works did Thomas Aquinas outline the principles of Natural Law?",
+      "options": [
+        "Summa Theologica",
+        "Critique of Pure Reason",
+        "Nicomachean Ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas elaborated on Natural Law in 'Summa Theologica', providing a detailed account of his moral philosophy."
+    },
+    {
+      "id": "double-effect-q6",
+      "question": "What is the role of 'intention' in the Doctrine of Double Effect?",
+      "options": [
+        "Intention must be good for an act to be morally permissible",
+        "Intention is irrelevant to moral evaluation",
+        "Intention must focus on the outcome",
+        "Intention determines the legality of an act"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In the Doctrine of Double Effect, the intention behind an action must be good for it to be considered morally permissible, even if it leads to a bad outcome."
+    },
+    {
+      "id": "double-effect-q7",
+      "question": "Which philosopher provided a significant critique of the Doctrine of Double Effect in the 20th century?",
+      "options": [
+        "Elizabeth Anscombe",
+        "John Stuart Mill",
+        "Friedrich Nietzsche",
+        "Jean-Paul Sartre"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Elizabeth Anscombe, a prominent 20th-century philosopher, offered significant critiques of moral theories, including the Doctrine of Double Effect."
+    },
+    {
+      "id": "double-effect-q8",
+      "question": "Which year did Thomas Aquinas complete the 'Summa Theologica'?",
+      "options": [
+        "1274",
+        "1299",
+        "1300",
+        "1250"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas completed 'Summa Theologica' in 1274, a key text in Natural Law theory."
+    },
+    {
+      "id": "double-effect-q9",
+      "question": "Which of the following is an example of a secondary precept in Natural Law?",
+      "options": [
+        "Do not steal",
+        "Seek pleasure",
+        "Pursue wealth",
+        "Avoid pain"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Secondary precepts like 'Do not steal' are derived from the primary precepts and provide specific moral guidance."
+    },
+    {
+      "id": "double-effect-q10",
+      "question": "A doctor is considering whether to perform a surgery that will relieve pain but may shorten the patient's life. How does the Doctrine of Double Effect apply?",
+      "options": [
+        "The surgery is permissible if the intention is to relieve pain",
+        "The surgery is impermissible due to the risk",
+        "The surgery is permissible because it is the patient's wish",
+        "The surgery is impermissible as it might cause death"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "According to the Doctrine of Double Effect, the surgery can be permissible if the intention is to relieve pain, not to shorten life, even if that is a side effect."
+    },
+    {
+      "id": "double-effect-q11",
+      "question": "In a military context, a commander orders a strike targeting a weapons factory that may also harm civilians. Which condition of the Doctrine of Double Effect is crucial here?",
+      "options": [
+        "The act itself must be morally good or neutral",
+        "The bad effect must outweigh the good effect",
+        "The act must achieve the intended outcome",
+        "The act must be publicly approved"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "For the Doctrine of Double Effect, the act itself must be morally good or neutral; targeting a military goal is considered neutral if civilian harm is not intended."
+    },
+    {
+      "id": "double-effect-q12",
+      "question": "A pharmacist refuses to sell contraceptives due to religious beliefs. How does the Doctrine of Double Effect justify this action?",
+      "options": [
+        "The intention to uphold religious beliefs is primary",
+        "The act of refusing is impermissible",
+        "The refusal is based on personal dislike",
+        "The refusal violates societal norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Under the Doctrine of Double Effect, the pharmacist's primary intention is to uphold religious beliefs, which justifies the refusal despite potential negative outcomes."
+    },
+    {
+      "id": "double-effect-q13",
+      "question": "What is a major criticism of the Doctrine of Double Effect?",
+      "options": [
+        "It can be used to justify harmful actions",
+        "It lacks historical context",
+        "It relies too heavily on empirical data",
+        "It is too simple and lacks depth"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A major criticism is that it can be used to justify harmful actions if the intention is deemed good, which some argue makes it too permissive."
+    },
+    {
+      "id": "double-effect-q14",
+      "question": "How does the Doctrine of Double Effect compare to Utilitarianism in decision-making?",
+      "options": [
+        "Focuses on intention rather than consequences",
+        "It is more concerned with pleasure",
+        "It requires a social contract",
+        "It evaluates actions by categorical imperatives"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike Utilitarianism, which is consequence-focused, the Doctrine of Double Effect emphasizes the moral intention behind actions rather than outcomes."
+    },
+    {
+      "id": "double-effect-q15",
+      "question": "What methodological issue is often raised against the Doctrine of Double Effect?",
+      "options": [
+        "Ambiguity in determining true intentions",
+        "Over-reliance on statistical data",
+        "Lack of empirical testing",
+        "Dependence on divine revelation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common critique is the ambiguity in discerning true intentions, which can make moral evaluations subjective and inconsistent."
+    }
+  ]
+}

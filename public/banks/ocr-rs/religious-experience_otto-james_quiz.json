@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "otto-james",
+  "subTopicTitle": "Otto & William James",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:54:10.632Z",
+  "items": [
+    {
+      "id": "otto-james-q1",
+      "question": "Which concept is central to Rudolf Otto's understanding of religious experience?",
+      "options": [
+        "The numinous",
+        "Eschatology",
+        "Theodicy",
+        "Kerygma"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Otto's concept of the 'numinous' refers to the feeling of the presence of a mysterious and awe-inspiring divine power."
+    },
+    {
+      "id": "otto-james-q2",
+      "question": "What does William James identify as one of the four characteristics of a mystical experience?",
+      "options": [
+        "Ineffability",
+        "Transience",
+        "Infallibility",
+        "Perceptibility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "James describes ineffability as a key trait of mystical experiences, meaning they are difficult to describe in words."
+    },
+    {
+      "id": "otto-james-q3",
+      "question": "In which year did Rudolf Otto publish 'The Idea of the Holy'?",
+      "options": [
+        "1917",
+        "1923",
+        "1905",
+        "1899"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Otto's 'The Idea of the Holy', exploring the concept of the numinous, was published in 1917."
+    },
+    {
+      "id": "otto-james-q4",
+      "question": "Which term did William James use to describe experiences that are brief but impactful?",
+      "options": [
+        "Transience",
+        "Passivity",
+        "Pragmatism",
+        "Noetic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "James used 'transience' to describe how mystical experiences are short-lived yet leave a lasting impact."
+    },
+    {
+      "id": "otto-james-q5",
+      "question": "According to Otto, what does the 'mysterium tremendum' refer to?",
+      "options": [
+        "Awe-inspiring mystery",
+        "Divine love",
+        "Moral law",
+        "Sacred text"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 'mysterium tremendum' is a central aspect of the numinous, evoking awe and fear."
+    },
+    {
+      "id": "otto-james-q6",
+      "question": "Which of the following is NOT one of the four marks of a mystical experience according to William James?",
+      "options": [
+        "Rationalism",
+        "Noetic quality",
+        "Passivity",
+        "Ineffability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "James did not identify 'rationalism' as a mark of mystical experience, focusing instead on ineffability, transience, passivity, and noetic quality."
+    },
+    {
+      "id": "otto-james-q7",
+      "question": "What is the primary focus of William James' 'The Varieties of Religious Experience'?",
+      "options": [
+        "The psychology of religion",
+        "The history of religion",
+        "Comparative theology",
+        "The philosophy of science"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "James' work examines the psychology behind religious experiences and their impact on individuals."
+    },
+    {
+      "id": "otto-james-q8",
+      "question": "What term did Otto use to describe the divine as both fascinating and terrifying?",
+      "options": [
+        "Mysterium tremendum et fascinans",
+        "Sacrosanctum",
+        "Hierophany",
+        "Theophany"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Otto's term 'mysterium tremendum et fascinans' captures the dual nature of the divine as both awe-inspiring and fearsome."
+    },
+    {
+      "id": "otto-james-q9",
+      "question": "Which characteristic of mystical experiences involves a sense of insight or knowledge?",
+      "options": [
+        "Noetic quality",
+        "Passivity",
+        "Transience",
+        "Ineffability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Noetic quality refers to the sense of gaining deep, intuitive knowledge during a mystical experience."
+    },
+    {
+      "id": "otto-james-q10",
+      "question": "A person reports feeling a profound sense of peace and interconnectedness after meditating. Which aspect of William James' characteristics does this best illustrate?",
+      "options": [
+        "Passivity",
+        "Transience",
+        "Ineffability",
+        "Noetic quality"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The feeling of peace and interconnectedness, especially after meditation, aligns with the transient nature of mystical experiences."
+    },
+    {
+      "id": "otto-james-q11",
+      "question": "During a religious retreat, an individual feels overwhelmed by a sense of divine presence that they cannot describe. Which of James' characteristics does this experience demonstrate?",
+      "options": [
+        "Ineffability",
+        "Noetic quality",
+        "Passivity",
+        "Transience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The inability to describe the experience aligns with James' characteristic of ineffability in mystical experiences."
+    },
+    {
+      "id": "otto-james-q12",
+      "question": "A person who claims to have gained profound truths during a religious vision is demonstrating which of James' mystical characteristics?",
+      "options": [
+        "Noetic quality",
+        "Passivity",
+        "Transience",
+        "Ineffability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The claim of gaining profound truths aligns with the noetic quality characteristic, which involves insights and revelations."
+    },
+    {
+      "id": "otto-james-q13",
+      "question": "How does William James' pragmatic approach influence his study of religious experiences?",
+      "options": [
+        "He evaluates experiences based on their practical effects",
+        "He dismisses religious experiences as irrelevant",
+        "He focuses on the historical context of experiences",
+        "He prioritizes theological explanations over psychological ones"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "James' pragmatic approach assesses religious experiences by their effects on individuals' lives, rather than their objective truth."
+    },
+    {
+      "id": "otto-james-q14",
+      "question": "What criticism is often leveled against Otto's concept of the numinous in contemporary religious studies?",
+      "options": [
+        "It is too subjective and lacks empirical support",
+        "It fails to account for atheistic experiences",
+        "It overemphasizes scriptural texts",
+        "It relies too heavily on philosophical arguments"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue Otto's numinous is too subjective, as it heavily relies on personal accounts without empirical validation."
+    },
+    {
+      "id": "otto-james-q15",
+      "question": "In comparing Otto and James, which of the following is a key difference in their approaches to religious experience?",
+      "options": [
+        "Otto focuses on the emotional aspect, while James emphasizes the psychological",
+        "James centers on the historical, while Otto emphasizes the ethical",
+        "Otto is more concerned with doctrine, while James stresses ritual",
+        "James is interested in the metaphysical, while Otto focuses on the liturgical"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Otto's approach highlights the emotional, awe-inspiring nature of the numinous, while James analyzes the psychological aspects of experiences."
+    }
+  ]
+}

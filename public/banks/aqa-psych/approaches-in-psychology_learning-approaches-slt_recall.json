@@ -1,0 +1,147 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "learning-approaches-slt",
+  "subTopicTitle": "Learning approaches: Social Learning Theory",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:27:09.955Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Social Learning Theory and outline its key components.",
+      "keyPoints": [
+        "Social Learning Theory is learning through observation and imitation",
+        "Key components include modeling, imitation, and vicarious reinforcement",
+        "Bandura's Bobo doll experiment as a demonstration of SLT"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does vicarious reinforcement play in Social Learning Theory?",
+      "keyPoints": [
+        "Vicarious reinforcement involves learning through the observation of consequences of actions",
+        "It influences the likelihood of the observer imitating the behavior",
+        "Bandura highlighted its importance in the learning process"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of modeling in Social Learning Theory.",
+      "keyPoints": [
+        "Modeling is the process of observing and imitating a behavior",
+        "Involves attention, retention, reproduction, and motivation",
+        "The model can be a live or symbolic figure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child watches their sibling receive praise for doing chores. How might Social Learning Theory explain the child's future behavior?",
+      "keyPoints": [
+        "The child observes and identifies with the sibling (model)",
+        "Vicarious reinforcement through observing praise",
+        "Increased likelihood of the child imitating the behavior to receive similar reinforcement"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A teenager sees a popular influencer on social media regularly exercising and receiving positive comments. How might Social Learning Theory account for the teenager's decision to start exercising?",
+      "keyPoints": [
+        "The influencer acts as a model for the teenager",
+        "Vicarious reinforcement through positive comments",
+        "Teenager may imitate behavior due to perceived positive outcomes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student observes their classmate being punished for cheating. Using Social Learning Theory, predict how this might influence the student's own academic behavior.",
+      "keyPoints": [
+        "Observation of negative consequence (punishment)",
+        "Vicarious punishment likely decreases likelihood of imitation",
+        "Student may avoid cheating to avoid similar punishment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of Social Learning Theory in explaining human behavior.",
+      "keyPoints": [
+        "Considers cognitive processes unlike classical and operant conditioning",
+        "Supported by empirical evidence such as Bandura's studies",
+        "Explains learning of complex behaviors and cultural differences"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation",
+        "partial": "Includes 1-2 key points or lacks depth",
+        "none": "Fails to evaluate or inaccurate points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of Social Learning Theory.",
+      "keyPoints": [
+        "Over-reliance on laboratory studies may lack ecological validity",
+        "Underestimates biological influences on behavior",
+        "Does not account for behavior learned without observation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation",
+        "partial": "Includes 1-2 key points or lacks depth",
+        "none": "Fails to evaluate or inaccurate points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Using PEEL structure, evaluate how Social Learning Theory can be applied to real-life situations.",
+      "keyPoints": [
+        "Point: SLT explains behavior acquisition in various settings",
+        "Example: Educational settings using role models",
+        "Explanation: Demonstrates practical applications and benefits",
+        "Link: Connects to broader psychological understanding and interventions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation",
+        "partial": "Includes 1-2 key points or lacks depth",
+        "none": "Fails to evaluate or inaccurate points"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "comparison",
+  "subTopicTitle": "Plato vs Aristotle",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:45:56.403Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Plato's Theory of the Forms.",
+      "keyPoints": [
+        "Plato's belief in two realms: the physical world and the World of Forms",
+        "Forms are perfect, unchanging concepts or ideals",
+        "The physical world is an imperfect reflection of the World of Forms"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline Aristotle's concept of causation.",
+      "keyPoints": [
+        "Aristotle's Four Causes: Material, Formal, Efficient, Final",
+        "Material Cause: what something is made of",
+        "Final Cause: the purpose or end goal of something"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the Allegory of the Cave and its significance in Plato's philosophy.",
+      "keyPoints": [
+        "The Cave represents the physical world; prisoners are trapped in ignorance",
+        "The journey out of the cave symbolizes enlightenment and understanding of the Forms",
+        "The allegory illustrates Plato's belief in the philosopher's role to educate and lead others"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Plato's Theory of the Forms to explain why justice is important in society.",
+      "keyPoints": [
+        "Justice as a Form represents the ideal state of fairness and order",
+        "In the physical world, laws and systems attempt to reflect this ideal",
+        "Understanding the Form of Justice helps individuals and societies strive for true justice"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies Plato's theory to the concept of justice, with examples",
+        "partial": "Attempts application but lacks depth or examples",
+        "none": "Fails to apply theory or is incorrect"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Using Aristotle's Four Causes, analyze a smartphone.",
+      "keyPoints": [
+        "Material Cause: metals, glass, plastics",
+        "Formal Cause: design and structure of the smartphone",
+        "Final Cause: communication, entertainment, productivity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies and explains all four causes with examples",
+        "partial": "Identifies some causes but lacks detail or examples",
+        "none": "Fails to identify or explain causes"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Aristotle's concept of the 'Golden Mean' to a scenario involving ethical decision-making.",
+      "keyPoints": [
+        "Golden Mean: virtue is the balance between excess and deficiency",
+        "Identify the extremes of the given scenario",
+        "Explain how finding the mean leads to a virtuous decision"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the concept clearly with a balanced explanation related to the scenario",
+        "partial": "Attempts application but is unclear or lacks balance",
+        "none": "Fails to apply concept or is incorrect"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Plato's Theory of the Forms using the PEEL structure.",
+      "keyPoints": [
+        "Point: Theory explains the existence of universals",
+        "Evidence: Provides a framework for understanding abstract concepts",
+        "Explain: Criticized for lack of empirical evidence",
+        "Link: Consider how this impacts the theory's applicability"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with balanced strengths and weaknesses",
+        "partial": "Attempts evaluation but lacks balance or depth",
+        "none": "Fails to evaluate or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess Aristotle's Four Causes in explaining change and existence.",
+      "keyPoints": [
+        "Point: Comprehensive framework for understanding change",
+        "Evidence: Examples from nature and technology",
+        "Explain: Some argue it oversimplifies complex phenomena",
+        "Link: Discuss relevance to modern philosophy or science"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Critically assesses using PEEL with balanced strengths and weaknesses",
+        "partial": "Attempts assessment but lacks balance or depth",
+        "none": "Fails to critically assess or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the impact of Aristotle's philosophy on Western thought.",
+      "keyPoints": [
+        "Point: Significant contributions to logic and science",
+        "Evidence: Influences in medieval scholarship and modern science",
+        "Explain: Criticized for teleological explanations",
+        "Link: Consider lasting influence on contemporary philosophy"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with balanced strengths and weaknesses",
+        "partial": "Attempts evaluation but lacks balance or depth",
+        "none": "Fails to evaluate or lacks PEEL structure"
+      }
+    }
+  ]
+}

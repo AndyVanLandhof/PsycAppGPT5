@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "agape",
+  "subTopicTitle": "Agape and Relativism",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:57:52.884Z",
+  "items": [
+    {
+      "id": "agape-q1",
+      "question": "Who is the principal proponent of Situation Ethics?",
+      "options": [
+        "Joseph Fletcher",
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "St. Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher is known for developing the theory of Situation Ethics in the 1960s, emphasizing agape love."
+    },
+    {
+      "id": "agape-q2",
+      "question": "What does the term 'agape' primarily refer to in Situation Ethics?",
+      "options": [
+        "Unconditional love",
+        "Romantic love",
+        "Familial love",
+        "Self-love"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Agape is a Greek term used in Christian theology to describe selfless, unconditional love, which is central to Situation Ethics."
+    },
+    {
+      "id": "agape-q3",
+      "question": "In Situation Ethics, what role does relativism play?",
+      "options": [
+        "Moral rules are not absolute",
+        "Moral rules are rigid and unchanging",
+        "Emphasizes strict adherence to laws",
+        "Denies any form of moral guidance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Relativism in Situation Ethics means that moral decisions depend on the context and do not adhere to absolute rules."
+    },
+    {
+      "id": "agape-q4",
+      "question": "What is the primary criticism of Situation Ethics from a deontological perspective?",
+      "options": [
+        "Lack of absolute rules",
+        "Overemphasis on duty",
+        "Focus on consequences",
+        "Rigid application of laws"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Deontological theories criticize Situation Ethics for its lack of absolute moral rules, which they see as essential for ethical decision-making."
+    },
+    {
+      "id": "agape-q5",
+      "question": "Which biblical principle is Situation Ethics primarily based on?",
+      "options": [
+        "Love your neighbor as yourself",
+        "Eye for an eye",
+        "The Golden Rule",
+        "Blessed are the meek"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics is based on the New Testament principle of loving your neighbor, emphasizing agape love as the highest law."
+    },
+    {
+      "id": "agape-q6",
+      "question": "How does Situation Ethics approach traditional religious moral laws?",
+      "options": [
+        "It considers them guidelines",
+        "It strictly adheres to them",
+        "It completely ignores them",
+        "It replaces them with new laws"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics treats traditional religious moral laws as useful guidelines but not absolute, focusing instead on love in each situation."
+    },
+    {
+      "id": "agape-q7",
+      "question": "What is a key strength of Situation Ethics according to its proponents?",
+      "options": [
+        "Flexibility in complex situations",
+        "Strict adherence to moral codes",
+        "Predictable outcomes",
+        "Universal applicability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Proponents of Situation Ethics argue that its flexibility allows for more compassionate and context-sensitive decision-making."
+    },
+    {
+      "id": "agape-q8",
+      "question": "Which of the following is NOT a principle of Situation Ethics?",
+      "options": [
+        "Pragmatism",
+        "Legalism",
+        "Personalism",
+        "Relativism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Legalism, which emphasizes strict adherence to laws, is contrary to the flexible, love-centered approach of Situation Ethics."
+    },
+    {
+      "id": "agape-q9",
+      "question": "In which year did Joseph Fletcher publish 'Situation Ethics: The New Morality'?",
+      "options": [
+        "1966",
+        "1975",
+        "1953",
+        "1980"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher published 'Situation Ethics: The New Morality' in 1966, outlining his ethical theory."
+    },
+    {
+      "id": "agape-q10",
+      "question": "How might Situation Ethics evaluate a scenario where lying saves a life?",
+      "options": [
+        "Morally acceptable if motivated by love",
+        "Always morally wrong",
+        "Depends on societal laws",
+        "Unimportant to the outcome"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "In Situation Ethics, actions like lying can be morally acceptable if they are the most loving choice in the situation."
+    },
+    {
+      "id": "agape-q11",
+      "question": "A doctor faces a choice: break confidentiality to save a life. How would Situation Ethics guide this decision?",
+      "options": [
+        "Break confidentiality if it is the most loving action",
+        "Adhere to confidentiality regardless",
+        "Consult legal advisors first",
+        "Ignore emotional aspects"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would advise breaking confidentiality if it serves the principle of agape, prioritizing the most loving outcome."
+    },
+    {
+      "id": "agape-q12",
+      "question": "Situation Ethics often emphasizes the importance of which type of love in decision-making?",
+      "options": [
+        "Altruistic love",
+        "Eros",
+        "Philia",
+        "Storge"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Altruistic love, or agape, is central to Situation Ethics, guiding moral decisions towards the most loving outcome."
+    },
+    {
+      "id": "agape-q13",
+      "question": "Which scholar criticized Situation Ethics for being too individualistic and subjective?",
+      "options": [
+        "William Barclay",
+        "C.S. Lewis",
+        "Karl Barth",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "William Barclay criticized Situation Ethics for its focus on individual judgment, which he believed could lead to subjective morality."
+    },
+    {
+      "id": "agape-q14",
+      "question": "How does Situation Ethics differ from Utilitarianism?",
+      "options": [
+        "Focuses on love rather than utility",
+        "Calculates the greatest good",
+        "Emphasizes duty over outcomes",
+        "Rejects any form of love"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike Utilitarianism, which focuses on maximizing overall happiness, Situation Ethics prioritizes actions motivated by love."
+    },
+    {
+      "id": "agape-q15",
+      "question": "A teacher has to choose between helping a struggling student and grading papers. How would Situation Ethics prioritize?",
+      "options": [
+        "Help the student if it's the more loving action",
+        "Grade papers as a duty",
+        "Always prioritize student needs",
+        "Follow school policy strictly"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would prioritize helping the student if it is deemed the most loving action in that context."
+    }
+  ]
+}

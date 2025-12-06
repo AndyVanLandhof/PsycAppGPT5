@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "scientific-processes",
+  "subTopicTitle": "Scientific processes",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:40:04.594Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'hypothesis' in the context of psychological research and distinguish between directional and non-directional hypotheses.",
+      "keyPoints": [
+        "A hypothesis is a testable statement predicting the outcome of a study.",
+        "Directional hypothesis specifies the expected direction of the relationship between variables.",
+        "Non-directional hypothesis predicts a relationship but does not specify the direction."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'operationalisation' in research methods.",
+      "keyPoints": [
+        "Operationalisation involves defining variables in practical, measurable terms.",
+        "Ensures variables are clearly defined to allow replication.",
+        "Enhances the reliability and validity of the study."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the difference between qualitative and quantitative data in psychological research.",
+      "keyPoints": [
+        "Qualitative data is non-numerical and provides detailed descriptions.",
+        "Quantitative data is numerical and can be statistically analyzed.",
+        "Qualitative data is often collected through interviews or observations, while quantitative data is collected through experiments or surveys."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A psychologist wants to test whether a new teaching method improves student performance. Formulate a suitable hypothesis for this study.",
+      "keyPoints": [
+        "A suitable directional hypothesis could be: 'Students taught with the new method will perform better on tests than those taught with the traditional method.'",
+        "A non-directional hypothesis could be: 'There will be a difference in test performance between students taught with the new and traditional methods.'",
+        "The hypothesis should clearly state the independent and dependent variables."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a study investigating the effect of sleep deprivation on reaction times. How should the variables be operationalised?",
+      "keyPoints": [
+        "Sleep deprivation could be operationalised as 'hours of sleep', e.g., less than 4 hours.",
+        "Reaction time could be operationalised as 'time taken to respond to a stimulus', measured in milliseconds.",
+        "Ensure that both variables are defined in measurable terms for data collection."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher collects data on patient satisfaction using a 5-point Likert scale. Classify the type of data collected and justify your answer.",
+      "keyPoints": [
+        "The data collected is ordinal because it involves ranked categories.",
+        "A 5-point Likert scale provides ordered responses but the intervals between points may not be equal.",
+        "Ordinal data indicates a relative ranking, not precise measurements."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of operationalisation in psychological research using the PEEL structure.",
+      "keyPoints": [
+        "Point: Operationalisation increases clarity and replicability.",
+        "Explain: By defining variables precisely, researchers can ensure consistency.",
+        "Example: Studies measuring 'aggression' might operationalise it as 'number of verbal outbursts'.",
+        "Link: This enhances the reliability and validity of research findings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the strengths and limitations of using quantitative data in psychological research.",
+      "keyPoints": [
+        "Point: Quantitative data allows for statistical analysis and objective measurement.",
+        "Explain: It is useful for identifying patterns and making predictions.",
+        "Example: Large-scale surveys can reveal trends in behavior.",
+        "Link: However, it may lack depth and contextual understanding compared to qualitative data."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the ethical considerations of conducting psychological research, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Ethical considerations ensure the welfare of participants.",
+        "Explain: Researchers must obtain informed consent, maintain confidentiality, and ensure participants can withdraw.",
+        "Example: Milgram's obedience study faced criticism for lack of informed consent and psychological harm.",
+        "Link: Ethical guidelines protect participants and enhance the credibility of psychological research."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

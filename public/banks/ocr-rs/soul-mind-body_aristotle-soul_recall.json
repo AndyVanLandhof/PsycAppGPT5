@@ -1,0 +1,146 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "aristotle-soul",
+  "subTopicTitle": "Aristotle's View of the Soul",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:47:32.420Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is Aristotle's definition of the soul, and how does it differ from Plato's view?",
+      "keyPoints": [
+        "Aristotle sees the soul as the form of the body, not separate from it",
+        "The soul is the essence that gives life to a body",
+        "Plato views the soul as an independent, immortal entity that pre-exists the body"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain Aristotle's analogy of the wax and the seal in relation to the soul and body.",
+      "keyPoints": [
+        "The wax and seal analogy illustrates the inseparability of soul and body",
+        "Just as a seal's impression cannot exist without the wax, the soul cannot exist without the body",
+        "This analogy emphasizes the soul as the form, organization, and function of the body"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List and describe the three types of souls according to Aristotle.",
+      "keyPoints": [
+        "Vegetative soul: basic life functions found in plants",
+        "Appetitive soul: senses and desires found in animals",
+        "Rational soul: reason and intellect unique to humans"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A scientist claims that artificial intelligence can possess a soul. Apply Aristotle's theory to evaluate this claim.",
+      "keyPoints": [
+        "Aristotle's soul is the form of a living body, implying biological life",
+        "AI lacks biological life and cannot have a soul by Aristotle's definition",
+        "The rational soul requires reason, which AI might simulate, but lacks true understanding"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Aristotle's theory coherently to evaluate the claim",
+        "partial": "Applies the theory but lacks coherence or completeness",
+        "none": "Fails to apply Aristotle's theory or misunderstands it"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a person is in a coma. Using Aristotle's view, discuss whether this person has a soul.",
+      "keyPoints": [
+        "Aristotle's soul is tied to life functions",
+        "A vegetative state retains basic life functions, suggesting a soul is present",
+        "However, rational functions are absent, raising questions about the soul's activity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies Aristotle's theory to the scenario",
+        "partial": "Applies the theory but with some inaccuracies or omissions",
+        "none": "Fails to apply Aristotle's theory correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A philosopher argues that a robot with human-like behavior has a soul. Analyze this using Aristotle's theory.",
+      "keyPoints": [
+        "Aristotle's soul requires biological life, which robots lack",
+        "Human-like behavior does not equate to possessing a soul",
+        "Rational soul includes true understanding, which robots cannot truly achieve"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies Aristotle's theory to analyze the argument",
+        "partial": "Applies the theory but lacks depth or detail",
+        "none": "Misapplies or fails to apply Aristotle's theory"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Aristotle's concept of the soul.",
+      "keyPoints": [
+        "Strength: Integrates soul and body, avoiding dualism",
+        "Weakness: Lacks explanation for consciousness or afterlife",
+        "Strength: Aligns with scientific understanding of life functions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Offers a balanced evaluation using PEEL structure",
+        "partial": "Provides evaluation but lacks balance or structure",
+        "none": "Fails to evaluate effectively or lacks understanding"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how Aristotle's view of the soul compares to modern scientific views.",
+      "keyPoints": [
+        "Aristotle's soul as life functions aligns with biological perspectives",
+        "Modern science often dismisses non-physical aspects of the soul",
+        "Aristotle's lack of focus on consciousness is a point of divergence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critically assesses using PEEL with accurate comparisons",
+        "partial": "Assesses but lacks depth or accurate comparison",
+        "none": "Fails to critically assess or misunderstands concepts"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate whether Aristotle's concept of the soul is still relevant in contemporary philosophical debate.",
+      "keyPoints": [
+        "Relevance: Provides a non-dualistic approach still discussed today",
+        "Irrelevance: Lacks engagement with issues of consciousness and identity",
+        "Relevance: Complements scientific perspectives by focusing on life functions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates relevance using PEEL with detailed support",
+        "partial": "Evaluates but lacks depth or detailed support",
+        "none": "Fails to evaluate relevance or misunderstands the concept"
+      }
+    }
+  ]
+}

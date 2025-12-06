@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "minority-influence",
+  "subTopicTitle": "Minority influence",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:13:06.564Z",
+  "items": [
+    {
+      "id": "minority-influence-q1",
+      "question": "What is the key factor that differentiates minority influence from majority influence?",
+      "options": [
+        "Consistency in the minority's argument",
+        "The number of people in the minority group",
+        "The social status of the minority",
+        "The majority's dependency on the minority"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Consistency in the minority's argument is crucial for minority influence, as suggested by Moscovici's study (1969)."
+    },
+    {
+      "id": "minority-influence-q2",
+      "question": "According to Moscovici et al. (1969), what color did the confederates consistently call a blue slide?",
+      "options": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Purple"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Moscovici's study, confederates consistently called a blue slide green, demonstrating the effect of consistent minority influence."
+    },
+    {
+      "id": "minority-influence-q3",
+      "question": "Which of the following is NOT a factor that enhances the effectiveness of a minority influence?",
+      "options": [
+        "Financial power",
+        "Consistency",
+        "Flexibility",
+        "Commitment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Financial power is not related to the effectiveness of minority influence, unlike consistency, flexibility, and commitment."
+    },
+    {
+      "id": "minority-influence-q4",
+      "question": "What is the term for when a minority viewpoint becomes the majority viewpoint?",
+      "options": [
+        "Social cryptoamnesia",
+        "Compliance",
+        "Conformity",
+        "Obedience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Social cryptoamnesia refers to a process where a minority view becomes widely accepted and the original source is forgotten."
+    },
+    {
+      "id": "minority-influence-q5",
+      "question": "In Moscovici's study, how many participants were in each group, including confederates?",
+      "options": [
+        "Six",
+        "Four",
+        "Eight",
+        "Ten"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Each group in Moscovici's study consisted of six people, including two confederates and four participants."
+    },
+    {
+      "id": "minority-influence-q6",
+      "question": "Which researcher is known for their work on minority influence and the 'blue-green slides' experiment?",
+      "options": [
+        "Moscovici",
+        "Asch",
+        "Milgram",
+        "Zimbardo"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Serge Moscovici is known for his work on minority influence, particularly the 'blue-green slides' experiment."
+    },
+    {
+      "id": "minority-influence-q7",
+      "question": "Which concept suggests that a minority must be willing to compromise to be persuasive?",
+      "options": [
+        "Flexibility",
+        "Autonomy",
+        "Rigidity",
+        "Intimidation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Flexibility suggests that a minority must be willing to compromise to appear reasonable and persuasive."
+    },
+    {
+      "id": "minority-influence-q8",
+      "question": "What was the main finding of Moscovici et al.'s (1969) study on minority influence?",
+      "options": [
+        "Consistent minorities can influence a majority to a small degree",
+        "Majorities always overpower minorities in decision-making",
+        "Minorities have no effect on majority views",
+        "Inconsistent minorities are more effective"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moscovici et al. found that a consistent minority could influence the majority, albeit to a small degree."
+    },
+    {
+      "id": "minority-influence-q9",
+      "question": "What is the effect called when a minority persuades others to accept a new idea over time?",
+      "options": [
+        "Conversion",
+        "Ingratiation",
+        "Delegation",
+        "Submission"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Conversion refers to the process where a minority persuades others to accept a new idea over time."
+    },
+    {
+      "id": "minority-influence-q10",
+      "question": "A teacher notices a small group of students consistently advocating for environmental policies during class debates. Over time, more students begin supporting these policies. Which principle of minority influence is demonstrated here?",
+      "options": [
+        "Consistency",
+        "Obedience",
+        "Normative social influence",
+        "Social facilitation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The scenario demonstrates consistency, a key principle of minority influence where a consistent stance gradually persuades others."
+    },
+    {
+      "id": "minority-influence-q11",
+      "question": "In a corporate setting, a small team advocates for a new project management tool. Initially met with resistance, their consistent presentation of benefits leads the entire company to adopt it. Which minority influence process does this illustrate?",
+      "options": [
+        "Conversion",
+        "Compliance",
+        "Social loafing",
+        "Deindividuation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates conversion, where a consistent minority persuades the majority to change their viewpoint over time."
+    },
+    {
+      "id": "minority-influence-q12",
+      "question": "During a community meeting, a few members consistently argue for a new recycling initiative. Despite initial opposition, their dedication leads to eventual community support. Which factor of minority influence is at play?",
+      "options": [
+        "Commitment",
+        "Groupthink",
+        "Social facilitation",
+        "Conformity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Commitment is demonstrated as the minority's dedication eventually persuades others to support the initiative."
+    },
+    {
+      "id": "minority-influence-q13",
+      "question": "What is a limitation of Moscovici et al.'s (1969) study on minority influence?",
+      "options": [
+        "It lacks ecological validity due to its artificial setting",
+        "It shows that minority influence is stronger than majority influence",
+        "The study had too many participants, leading to variability",
+        "The study only focused on gender differences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The study's artificial setting, using color perception tasks, limits its ecological validity, as real-world influences are more complex."
+    },
+    {
+      "id": "minority-influence-q14",
+      "question": "How does minority influence research differ from majority influence research in terms of outcome focus?",
+      "options": [
+        "Minority influence research focuses on internalization, while majority influence focuses on compliance",
+        "Minority influence research focuses on compliance, while majority influence focuses on internalization",
+        "Both focus equally on compliance",
+        "Both focus equally on internalization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Minority influence research often focuses on internalization, as minorities need to change deeper beliefs, unlike majority influence, which may focus more on compliance."
+    },
+    {
+      "id": "minority-influence-q15",
+      "question": "What is a methodological critique of studies on minority influence?",
+      "options": [
+        "They often use artificial tasks that may not reflect real-world situations",
+        "They predominantly use field experiments, which lack control",
+        "They only consider majority influence, ignoring minorities",
+        "They provide no quantitative data for analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Studies on minority influence often use artificial tasks, questioning whether findings reflect real-world social dynamics."
+    }
+  ]
+}

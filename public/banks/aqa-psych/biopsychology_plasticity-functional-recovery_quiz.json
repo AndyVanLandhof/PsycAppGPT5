@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "plasticity-functional-recovery",
+  "subTopicTitle": "Plasticity and functional recovery",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:33:34.467Z",
+  "items": [
+    {
+      "id": "plasticity-functional-recovery-q1",
+      "question": "What is meant by 'brain plasticity'?",
+      "options": [
+        "The brain's ability to change and adapt as a result of experience.",
+        "The brain's ability to produce new neurons in the hippocampus.",
+        "The brain's capacity to repair damaged neurons.",
+        "The brain's reliance on the left hemisphere for language processing."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Brain plasticity refers to the brain's ability to change and adapt due to experience, a process supported by studies such as Maguire et al. (2000)."
+    },
+    {
+      "id": "plasticity-functional-recovery-q2",
+      "question": "Who conducted a study on the brains of London taxi drivers to investigate plasticity?",
+      "options": [
+        "Maguire et al. (2000)",
+        "Sperry (1968)",
+        "Broca (1861)",
+        "Wernicke (1874)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Maguire et al. (2000) conducted a study examining the hippocampi of London taxi drivers, showing structural changes related to spatial navigation experience."
+    },
+    {
+      "id": "plasticity-functional-recovery-q3",
+      "question": "Which of the following is an example of functional recovery in the brain?",
+      "options": [
+        "Reorganization of functions to undamaged areas following a stroke.",
+        "Increase in neuron numbers due to enriched environments.",
+        "Genetic predisposition affecting brain lateralization.",
+        "Localization of language to the left hemisphere."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Functional recovery involves reorganization of brain functions to compensate for damaged areas, as seen in stroke recovery."
+    },
+    {
+      "id": "plasticity-functional-recovery-q4",
+      "question": "What process involves the brain creating new neural connections in response to learning?",
+      "options": [
+        "Synaptic pruning",
+        "Neurogenesis",
+        "Lateralization",
+        "Hemispheric specialization"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Neurogenesis refers to the formation of new neurons, often seen in response to learning and experience, contributing to plasticity."
+    },
+    {
+      "id": "plasticity-functional-recovery-q5",
+      "question": "Which study is often cited for evidence of synaptic pruning during development?",
+      "options": [
+        "Huttenlocher (1979)",
+        "Milner (1966)",
+        "Holmes (1911)",
+        "Gazzaniga (1967)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Huttenlocher (1979) provided evidence for synaptic pruning, a process where unused synaptic connections are eliminated, enhancing neural efficiency."
+    },
+    {
+      "id": "plasticity-functional-recovery-q6",
+      "question": "Which brain region did Maguire et al. (2000) find to be larger in London taxi drivers?",
+      "options": [
+        "Hippocampus",
+        "Amygdala",
+        "Prefrontal cortex",
+        "Cerebellum"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The study by Maguire et al. (2000) showed that taxi drivers had a larger hippocampus, associated with their navigational experience."
+    },
+    {
+      "id": "plasticity-functional-recovery-q7",
+      "question": "What is a key mechanism of plasticity involving strengthening of synapses?",
+      "options": [
+        "Long-term potentiation (LTP)",
+        "Neurogenesis",
+        "Axonal sprouting",
+        "Hemispheric lateralization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Long-term potentiation (LTP) strengthens synaptic connections, playing a critical role in learning and memory, thus contributing to plasticity."
+    },
+    {
+      "id": "plasticity-functional-recovery-q8",
+      "question": "Which of the following best describes 'axonal sprouting'?",
+      "options": [
+        "Growth of new nerve endings to connect with undamaged neurons.",
+        "Elimination of excess neurons during early development.",
+        "Reduction of synaptic connections due to lack of use.",
+        "Transfer of functions from damaged to undamaged brain areas."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Axonal sprouting refers to the growth of new nerve endings, which connect with other undamaged neurons to form new pathways, aiding recovery."
+    },
+    {
+      "id": "plasticity-functional-recovery-q9",
+      "question": "How does the concept of 'use it or lose it' relate to synaptic connections?",
+      "options": [
+        "Synaptic connections that are not used are pruned away.",
+        "All synaptic connections are permanently established.",
+        "Unused synapses generate spontaneous activity.",
+        "Synaptic connections are not affected by experience."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 'use it or lose it' concept in plasticity suggests that synaptic connections not used are pruned, optimizing neural networks based on experience."
+    },
+    {
+      "id": "plasticity-functional-recovery-q10",
+      "question": "A patient who lost the ability to speak after a stroke later regained this ability. Which concept does this illustrate?",
+      "options": [
+        "Functional recovery",
+        "Neuroplasticity",
+        "Synaptic pruning",
+        "Lateralization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The scenario demonstrates functional recovery, where the brain reorganizes functions to undamaged areas, restoring abilities lost due to injury."
+    },
+    {
+      "id": "plasticity-functional-recovery-q11",
+      "question": "A child has had the left hemisphere of their brain removed but can still communicate effectively. What does this suggest?",
+      "options": [
+        "High degree of brain plasticity in children",
+        "Complete reliance on the right hemisphere for communication",
+        "Absence of language lateralization in children",
+        "Ineffectiveness of functional recovery in children"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This suggests a high degree of brain plasticity in children, allowing other brain areas to take over language functions after damage."
+    },
+    {
+      "id": "plasticity-functional-recovery-q12",
+      "question": "After brain injury, which factor is most likely to predict the extent of functional recovery?",
+      "options": [
+        "Patient's age at the time of injury",
+        "Severity of the injury",
+        "Presence of a support network",
+        "Type of rehabilitation therapy used"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Age is a significant factor; younger brains are typically more plastic and capable of reorganizing functions more effectively after injury."
+    },
+    {
+      "id": "plasticity-functional-recovery-q13",
+      "question": "What is a limitation of research into brain plasticity and functional recovery?",
+      "options": [
+        "Individual differences are often overlooked.",
+        "Studies cannot be ethically conducted.",
+        "Findings are only applicable to animal models.",
+        "Plasticity is too unpredictable to measure."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Research often overlooks individual differences in plasticity and recovery, such as age, lifestyle, and genetic factors, limiting generalizability."
+    },
+    {
+      "id": "plasticity-functional-recovery-q14",
+      "question": "In evaluating Maguire et al. (2000), what is a potential limitation of the study?",
+      "options": [
+        "It relied on correlational data, limiting causal conclusions.",
+        "It used a small sample size, reducing reliability.",
+        "It failed to account for environmental factors.",
+        "It did not compare with non-drivers."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Maguire et al. (2000) used correlational data, meaning causation cannot be inferred between taxi driving and hippocampal size."
+    },
+    {
+      "id": "plasticity-functional-recovery-q15",
+      "question": "Why might findings from animal studies on brain plasticity not fully apply to humans?",
+      "options": [
+        "Differences in complexity of human and animal brains",
+        "Ethical guidelines restrict human testing",
+        "Animals do not experience synaptic pruning",
+        "Human brains do not undergo functional recovery"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Animal brain studies may not fully translate to humans due to differences in brain complexity and cognitive processes, limiting applicability."
+    }
+  ]
+}

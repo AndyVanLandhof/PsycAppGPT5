@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "logical",
+  "subTopicTitle": "Logical Problem of Evil",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:51:22.027Z",
+  "items": [
+    {
+      "id": "logical-q1",
+      "question": "Which philosopher is most closely associated with the formulation of the logical problem of evil?",
+      "options": [
+        "J.L. Mackie",
+        "Alvin Plantinga",
+        "Augustine of Hippo",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "J.L. Mackie is known for articulating the logical problem of evil, arguing that the existence of evil is logically incompatible with an omnipotent, omnibenevolent God."
+    },
+    {
+      "id": "logical-q2",
+      "question": "What is the main assertion of the logical problem of evil?",
+      "options": [
+        "Evil exists because humans have free will.",
+        "The existence of evil is logically incompatible with an omnipotent, omnibenevolent God.",
+        "Evil is necessary for spiritual growth.",
+        "Evil is an illusion created by human perception."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The logical problem of evil asserts that the existence of evil is incompatible with the existence of an all-powerful, all-good God."
+    },
+    {
+      "id": "logical-q3",
+      "question": "In which year did J.L. Mackie publish 'Evil and Omnipotence', discussing the logical problem of evil?",
+      "options": [
+        "1955",
+        "1977",
+        "1963",
+        "1948"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "J.L. Mackie published 'Evil and Omnipotence' in 1955, where he explores the logical problem of evil."
+    },
+    {
+      "id": "logical-q4",
+      "question": "Which of the following is NOT a premise in the logical problem of evil as posited by J.L. Mackie?",
+      "options": [
+        "God is omnipotent.",
+        "Evil exists.",
+        "God is omnipresent.",
+        "God is omnibenevolent."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The logical problem of evil includes premises about God's omnipotence, omnibenevolence, and the existence of evil, but not omnipresence."
+    },
+    {
+      "id": "logical-q5",
+      "question": "Which philosophical stance is typically used to counter the logical problem of evil?",
+      "options": [
+        "Theodicy",
+        "Skepticism",
+        "Nihilism",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Theodicies are attempts to justify the existence of evil in a world governed by an all-good, all-powerful God and are used to counter the logical problem of evil."
+    },
+    {
+      "id": "logical-q6",
+      "question": "Which of the following is an example of a moral evil?",
+      "options": [
+        "Hurricane",
+        "Earthquake",
+        "Murder",
+        "Flood"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Murder is considered a moral evil as it results from human actions, unlike natural evils like hurricanes or floods."
+    },
+    {
+      "id": "logical-q7",
+      "question": "Who is known for proposing the Free Will Defense as a response to the problem of evil?",
+      "options": [
+        "Alvin Plantinga",
+        "David Hume",
+        "Immanuel Kant",
+        "Bertrand Russell"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga is famous for the Free Will Defense, arguing that free will can justify the existence of evil as a necessary condition for genuine freedom."
+    },
+    {
+      "id": "logical-q8",
+      "question": "Which of the following best describes a natural evil?",
+      "options": [
+        "Actions of a dictator",
+        "A tsunami",
+        "A theft",
+        "A lie"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "A tsunami is an example of natural evil, as it is not caused by human actions but by natural processes."
+    },
+    {
+      "id": "logical-q9",
+      "question": "What is the main challenge faced by the logical problem of evil?",
+      "options": [
+        "Empirical evidence of divine intervention",
+        "The existence of gratuitous evils",
+        "The existence of free will",
+        "The possibility of logical contradictions being resolvable"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The logical problem of evil faces the challenge that logical contradictions may be resolved through deeper understanding or philosophical maneuvering."
+    },
+    {
+      "id": "logical-q10",
+      "question": "A philosopher argues that an all-powerful, all-good God would prevent natural disasters. Which type of evil is being referenced?",
+      "options": [
+        "Natural evil",
+        "Moral evil",
+        "Metaphysical evil",
+        "Existential evil"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural evil refers to suffering not caused by human actions, such as natural disasters, which the philosopher argues God would prevent."
+    },
+    {
+      "id": "logical-q11",
+      "question": "In a debate, a student claims that the logical problem of evil fails because it ignores the potential for greater goods. This statement aligns with which approach?",
+      "options": [
+        "Soul-making theodicy",
+        "Free Will Defense",
+        "Logical positivism",
+        "Existentialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The soul-making theodicy argues that evil can lead to greater goods and spiritual development, countering the logical problem of evil."
+    },
+    {
+      "id": "logical-q12",
+      "question": "In a discussion, one philosopher argues that evil is a necessary contrast to good. Which philosophical concept does this align with?",
+      "options": [
+        "Dualism",
+        "Privation theory",
+        "Utilitarianism",
+        "Theodicy"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO2",
+      "explanation": "This aligns with theodicy, which seeks to justify the presence of evil as necessary, often for contrasting good."
+    },
+    {
+      "id": "logical-q13",
+      "question": "What is a common critique of the logical problem of evil?",
+      "options": [
+        "It assumes an unrealistic view of divine attributes.",
+        "It underestimates the role of free will.",
+        "It overemphasizes empirical evidence.",
+        "It fails to consider alternative forms of theism."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that the logical problem of evil assumes an unrealistic or simplistic view of divine attributes like omnipotence and omnibenevolence."
+    },
+    {
+      "id": "logical-q14",
+      "question": "How does Alvin Plantinga's Free Will Defense address the logical problem of evil?",
+      "options": [
+        "By denying God's omnipotence",
+        "By asserting that evil is an illusion",
+        "By suggesting that free will justifies the existence of evil",
+        "By claiming that evil is necessary for pleasure"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Plantinga's Free Will Defense suggests that free will is so valuable that it justifies the existence of evil, providing a logical response to the problem."
+    },
+    {
+      "id": "logical-q15",
+      "question": "Which of the following is a limitation of the Free Will Defense in addressing natural evils?",
+      "options": [
+        "It doesn't account for moral choices.",
+        "It assumes all natural events are man-made.",
+        "It fails to explain why an omnipotent God allows natural disasters.",
+        "It relies heavily on empirical data."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The Free Will Defense primarily addresses moral evils and struggles to explain why natural evils, which are not caused by human actions, are permitted by an omnipotent God."
+    }
+  ]
+}

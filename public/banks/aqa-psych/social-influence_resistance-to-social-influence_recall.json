@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "resistance-to-social-influence",
+  "subTopicTitle": "Resistance to social influence",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:12:33.742Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'locus of control' and explain how it relates to resistance to social influence.",
+      "keyPoints": [
+        "Locus of control refers to the degree to which individuals believe they have control over events in their lives.",
+        "Internal locus of control indicates that people believe they are responsible for their actions.",
+        "People with an internal locus of control are more likely to resist social influence due to confidence and a sense of personal responsibility."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of social support in resisting social influence.",
+      "keyPoints": [
+        "Social support involves the presence of people who resist pressures to conform or obey.",
+        "It can help individuals resist social influence by providing models of independent behavior.",
+        "This support can reduce the pressure to conform or obey by showing alternative views or behaviors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the findings of the Milgram study in relation to resistance to authority.",
+      "keyPoints": [
+        "Milgram's study showed that a significant percentage of participants obeyed authority figures.",
+        "The presence of dissenters reduced obedience levels significantly.",
+        "Resistance to authority can be strengthened by the presence of others who disobey authority."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Emily is in a group that is planning a risky prank. She feels uncomfortable and wants to resist. Apply concepts of locus of control and social support to explain how she might resist.",
+      "keyPoints": [
+        "Emily might have an internal locus of control, believing she can influence the situation.",
+        "She can seek out others who share her views as social support to bolster her resistance.",
+        "Having allies who also resist can make her more confident in opposing the group."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application is accurate and includes all key points",
+        "partial": "Application includes 1-2 key points or lacks detail",
+        "none": "Application is inaccurate or missing key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Tom is being pressured by colleagues to support a workplace policy he disagrees with. Explain how Tom might use social support to resist this pressure.",
+      "keyPoints": [
+        "Tom can look for colleagues who also disagree with the policy.",
+        "He can form a group to collectively express their concerns.",
+        "This collective action provides a sense of solidarity and reduces individual pressure."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application is accurate and includes all key points",
+        "partial": "Application includes 1-2 key points or lacks detail",
+        "none": "Application is inaccurate or missing key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Maria is part of a community group that is planning a controversial campaign. She has doubts but feels pressure to conform. Apply the concept of minority influence to suggest how she might resist.",
+      "keyPoints": [
+        "Maria can use minority influence by consistently expressing her views.",
+        "She can provide logical arguments and evidence to support her position.",
+        "By demonstrating commitment and consistency, she might persuade others to consider her viewpoint."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application is accurate and includes all key points",
+        "partial": "Application includes 1-2 key points or lacks detail",
+        "none": "Application is inaccurate or missing key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of locus of control in resisting social influence using the PEEL structure.",
+      "keyPoints": [
+        "Point: Locus of control is a significant factor in resisting social influence.",
+        "Evidence: Research shows that those with an internal locus of control are more likely to resist social pressures.",
+        "Explanation: This is because they feel a sense of personal responsibility and confidence in their actions.",
+        "Link: However, locus of control may interact with other factors such as situational variables."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluation is balanced and includes all key points using PEEL",
+        "partial": "Evaluation includes 2-3 key points or lacks balance/detail",
+        "none": "Evaluation is missing or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of social support in resisting conformity using the PEEL structure.",
+      "keyPoints": [
+        "Point: Social support plays a crucial role in resisting conformity.",
+        "Evidence: Asch's studies show that the presence of another dissenting peer decreases conformity rates.",
+        "Explanation: Seeing others resist provides social validation for individual dissent.",
+        "Link: However, the effectiveness of social support can depend on the context and the characteristics of the dissenters."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluation is balanced and includes all key points using PEEL",
+        "partial": "Evaluation includes 2-3 key points or lacks balance/detail",
+        "none": "Evaluation is missing or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the limitations of research into resistance to social influence using the PEEL structure.",
+      "keyPoints": [
+        "Point: Research into resistance to social influence has limitations.",
+        "Evidence: Many studies, like Milgram's and Asch's, use artificial tasks and settings.",
+        "Explanation: This reduces the ecological validity and may not reflect real-world scenarios.",
+        "Link: Despite these limitations, such studies provide valuable insights into the mechanisms of resistance."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluation is balanced and includes all key points using PEEL",
+        "partial": "Evaluation includes 2-3 key points or lacks balance/detail",
+        "none": "Evaluation is missing or lacks key points"
+      }
+    }
+  ]
+}

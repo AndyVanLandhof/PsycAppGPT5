@@ -5,81 +5,106 @@
   "subTopic": "working-memory-model",
   "subTopicTitle": "Working memory model",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T09:43:41.521Z",
+  "generatedAt": "2025-12-06T10:14:12.724Z",
   "items": [
     {
       "question": "What is the working memory model?",
-      "answer": "The working memory model, proposed by Baddeley and Hitch in 1974, suggests that short-term memory consists of multiple components: the central executive, phonological loop, visuospatial sketchpad, and episodic buffer.",
+      "answer": "A model proposed by Baddeley and Hitch (1974) to replace the short-term memory store with multiple components handling different information types.",
       "ao": "AO1"
     },
     {
-      "question": "Define the phonological loop.",
-      "answer": "The phonological loop is a component of working memory responsible for verbal and auditory information storage, consisting of the phonological store and the articulatory rehearsal process.",
+      "question": "Define the central executive in the working memory model.",
+      "answer": "The central executive is responsible for directing attention and processing resources to various slave systems in the working memory model.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley et al. (1975) find about the phonological loop?",
-      "answer": "Baddeley et al. found that participants could remember shorter words better than longer words, demonstrating the phonological loop's capacity limitations, known as the word length effect.",
+      "question": "What is the function of the phonological loop?",
+      "answer": "The phonological loop processes auditory information and preserves the order of information through its phonological store and articulatory control process.",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of the central executive?",
-      "answer": "The central executive is the component of working memory that oversees attention, coordinates information from the slave systems, and integrates information from long-term memory.",
+      "question": "Define the visuo-spatial sketchpad.",
+      "answer": "The visuo-spatial sketchpad stores visual and spatial information and is used for navigation and the manipulation of visual images.",
       "ao": "AO1"
     },
     {
-      "question": "Define the visuospatial sketchpad.",
-      "answer": "The visuospatial sketchpad is a component of working memory that processes visual and spatial information, enabling tasks such as navigation and visual imagery.",
+      "question": "What did Baddeley et al. (1975) find about word length effect?",
+      "answer": "Shorter words are recalled more easily than longer words due to the phonological loop's limited capacity, known as the word length effect.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley (2000) propose about the episodic buffer?",
-      "answer": "Baddeley proposed that the episodic buffer acts as a temporary store that integrates information from the phonological loop, visuospatial sketchpad, and long-term memory, enhancing coherence in memory processing.",
+      "question": "What role does the episodic buffer play?",
+      "answer": "Introduced by Baddeley in 2000, the episodic buffer integrates information from the phonological loop, visuo-spatial sketchpad, and long-term memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Logie (1995) propose about the visuo-spatial sketchpad?",
+      "answer": "Logie proposed that the visuo-spatial sketchpad consists of a visual cache for shape and color, and an inner scribe for spatial and movement information.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the articulatory suppression effect.",
+      "answer": "Articulatory suppression is the interference with the phonological loop's function by repeating irrelevant sounds, which hinders verbal memory tasks.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Baddeley et al. (1973) find about dual-task performance?",
+      "answer": "Baddeley et al. found that performing two tasks simultaneously is easier when they use different components of the working memory model.",
       "ao": "AO1"
     },
     {
       "question": "What is the capacity of the phonological loop?",
-      "answer": "The capacity of the phonological loop is approximately 7±2 items, similar to the general short-term memory capacity, but influenced by word length and rehearsal speed.",
+      "answer": "The phonological loop has a limited capacity, typically enough to hold about 2 seconds worth of spoken information.",
       "ao": "AO1"
     },
     {
-      "question": "What evidence supports the working memory model?",
-      "answer": "Evidence from dual-task studies, such as those by Baddeley and Hitch (1976), shows that performing tasks using different components of working memory simultaneously is easier than using the same component, supporting its structure.",
+      "question": "Define 'slave systems' in the working memory model.",
+      "answer": "Slave systems are components of the working memory model, including the phonological loop and visuo-spatial sketchpad, that are controlled by the central executive.",
       "ao": "AO1"
     },
     {
-      "question": "How does the working memory model apply to studying?",
-      "answer": "The working memory model suggests that students can improve learning by using different memory components, such as combining visual aids with verbal information, enhancing retention and understanding.",
+      "question": "What did Baddeley (1996) suggest about the central executive's role in attention?",
+      "answer": "Baddeley suggested that the central executive's role is akin to a supervisor, managing attention and switching between tasks.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply the working memory model to this scenario: A student struggles to follow verbal instructions while copying diagrams.",
+      "answer": "The student's difficulty suggests a limited capacity in the phonological loop and visuo-spatial sketchpad, highlighting the need for separate processing of auditory and visual information.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the working memory model to a musician learning a piece.",
-      "answer": "A musician might use the phonological loop to memorize lyrics and the visuospatial sketchpad to visualize finger placements, illustrating how working memory components work together in practice.",
+      "question": "How does the working memory model apply to multitasking?",
+      "answer": "Multitasking is more efficient when tasks use different components of the working memory model, reducing interference within a single component.",
       "ao": "AO2"
     },
     {
-      "question": "How does the working memory model explain difficulties in multitasking?",
-      "answer": "The model suggests that multitasking is challenging when tasks require the same memory components, as the central executive can become overloaded, leading to decreased performance.",
+      "question": "Apply the concept of articulatory suppression to a scenario where a person repeats a word while memorizing a list.",
+      "answer": "Repeating a word while memorizing a list uses the articulatory control process, hindering the phonological loop's ability to process the list, leading to reduced recall.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the episodic buffer apply to integrating information from multiple sources?",
+      "answer": "The episodic buffer integrates information from the phonological loop, visuo-spatial sketchpad, and long-term memory, facilitating comprehensive understanding and recall.",
       "ao": "AO2"
     },
     {
       "question": "Give one strength of the working memory model.",
-      "answer": "A strength is its empirical support from studies like Baddeley and Hitch (1976), which demonstrated distinct components through dual-task experiments, enhancing its credibility as a model of short-term memory.",
+      "answer": "The working memory model is supported by dual-task studies showing separate processing systems, providing a detailed understanding of short-term memory functions.",
       "ao": "AO3"
     },
     {
-      "question": "What is a limitation of the working memory model?",
-      "answer": "A limitation is its lack of clarity regarding the central executive's function, which remains poorly defined and limits understanding of how attention is allocated among different tasks.",
+      "question": "Give one limitation of the working memory model.",
+      "answer": "The model lacks clarity on the central executive's exact functioning, leading to criticism of its vagueness and undefined processes.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Baddeley et al. (1975).",
-      "answer": "The methodology involved laboratory experiments, providing control over variables, but lacked ecological validity, as tasks may not reflect real-life memory usage accurately.",
+      "question": "Evaluate the methodology of Baddeley et al.'s (1975) word length effect study.",
+      "answer": "The study's controlled lab setting ensures high internal validity but lacks ecological validity, as tasks may not represent real-world memory use.",
       "ao": "AO3"
     },
     {
-      "question": "Give one criticism of the phonological loop.",
-      "answer": "One criticism is that the phonological loop may oversimplify verbal memory processes, as it does not account for the complexities of language comprehension and production.",
+      "question": "Evaluate the methodology of Baddeley et al.'s (1973) dual-task study.",
+      "answer": "The study's experimental design provides strong evidence for separate processing systems but may not account for individual differences in multitasking ability.",
       "ao": "AO3"
     }
   ]

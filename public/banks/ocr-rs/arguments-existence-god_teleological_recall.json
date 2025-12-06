@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "teleological",
+  "subTopicTitle": "Teleological Argument",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:49:53.913Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe William Paley's Watchmaker analogy in the context of the Teleological Argument.",
+      "keyPoints": [
+        "Paley's analogy compares a watch's complexity to the universe",
+        "Just as a watch implies a watchmaker, the universe implies a designer",
+        "The complexity and purposeful design of natural objects suggest an intelligent creator"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the basic premise of the Teleological Argument?",
+      "keyPoints": [
+        "The argument is based on perceived evidence of design in the world",
+        "It suggests that this design implies a designer, usually identified as God",
+        "Focuses on order, purpose, and complexity in the universe"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain one modern version of the Teleological Argument.",
+      "keyPoints": [
+        "Fine-tuning argument suggests conditions for life are so precise",
+        "Anthropic principle: universe's laws are tailored for the existence of life",
+        "Implies an intelligent designer who set these conditions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the Teleological Argument to the complexity of the human eye.",
+      "keyPoints": [
+        "The human eye is complex and appears to have a specific purpose of seeing",
+        "Such intricate design is unlikely to be the result of chance",
+        "Implies a designer who created the eye with a specific function in mind"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the argument accurately with relevant detail",
+        "partial": "Applies the argument with some relevance but lacks detail",
+        "none": "Fails to apply the argument accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the Teleological Argument explain the existence of natural laws?",
+      "keyPoints": [
+        "Natural laws show order and regularity in the universe",
+        "This order suggests a guiding principle or design",
+        "The existence of such laws implies an intelligent creator who established them"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the argument accurately with relevant detail",
+        "partial": "Applies the argument with some relevance but lacks detail",
+        "none": "Fails to apply the argument accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a scientist discovers a new complex organism. How might the Teleological Argument be used to interpret this finding?",
+      "keyPoints": [
+        "The complexity of the organism suggests it has been designed",
+        "The specific functions and adaptations imply a purposeful creation",
+        "The finding could be seen as evidence of an intelligent designer"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the argument accurately with relevant detail",
+        "partial": "Applies the argument with some relevance but lacks detail",
+        "none": "Fails to apply the argument accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of the Teleological Argument using the PEEL structure.",
+      "keyPoints": [
+        "Point: The argument provides a clear explanation for the complexity and order in the universe",
+        "Evidence: Use of analogies like Paley's watch effectively illustrates the idea of design",
+        "Explanation: Suggests a plausible reason for the universe's existence beyond mere chance",
+        "Link: Strengthens belief in an intelligent creator as a logical conclusion"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with detailed reasoning and examples",
+        "partial": "Uses PEEL but lacks detail or depth in reasoning",
+        "none": "Fails to use PEEL or lacks coherent evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the Teleological Argument by identifying its weaknesses using the PEEL structure.",
+      "keyPoints": [
+        "Point: The argument relies heavily on analogy, which can be flawed",
+        "Evidence: Critics like David Hume argue that human-made objects and the universe are not directly comparable",
+        "Explanation: The complexity can be explained by natural processes like evolution",
+        "Link: Weakens the necessity of a designer as the sole explanation"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with detailed reasoning and examples",
+        "partial": "Uses PEEL but lacks detail or depth in reasoning",
+        "none": "Fails to use PEEL or lacks coherent evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how the Teleological Argument has been challenged by scientific explanations, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Scientific theories offer alternative explanations for complexity",
+        "Evidence: Evolution by natural selection explains adaptation without design",
+        "Explanation: Natural processes can account for complexity over time",
+        "Link: Challenges the necessity of invoking a designer for explaining natural phenomena"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with detailed reasoning and examples",
+        "partial": "Uses PEEL but lacks detail or depth in reasoning",
+        "none": "Fails to use PEEL or lacks coherent evaluation"
+      }
+    }
+  ]
+}

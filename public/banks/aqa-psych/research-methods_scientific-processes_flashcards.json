@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "scientific-processes",
+  "subTopicTitle": "Scientific processes",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:39:36.253Z",
+  "items": [
+    {
+      "question": "What is a hypothesis in psychological research?",
+      "answer": "A hypothesis is a testable statement predicting the relationship between variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define operationalization in the context of research.",
+      "answer": "Operationalization involves defining variables in practical, measurable terms for research.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a null hypothesis?",
+      "answer": "A null hypothesis states there is no effect or relationship between variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Milgram (1963) find about obedience?",
+      "answer": "Milgram found that 65% of participants administered the highest shock level, demonstrating high levels of obedience to authority.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define reliability in psychological research.",
+      "answer": "Reliability refers to the consistency and stability of a research study or measuring test.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is internal validity?",
+      "answer": "Internal validity refers to the extent to which a study accurately establishes a causal relationship between variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define ecological validity.",
+      "answer": "Ecological validity refers to the extent to which research findings can be generalized to real-life settings.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Loftus and Palmer (1974) find about eyewitness testimony?",
+      "answer": "They found that wording of questions can influence eyewitness memory, with 'smashed' leading to higher speed estimates than 'hit'.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a double-blind procedure?",
+      "answer": "A double-blind procedure is where neither the participants nor the experimenters know who is receiving the treatment.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'confounding variable'.",
+      "answer": "A confounding variable is an outside influence that affects the dependent variable, potentially skewing results.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is informed consent in research?",
+      "answer": "Informed consent involves participants being fully aware of the study's nature and agreeing to participate.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Bandura et al. (1961) find about observational learning?",
+      "answer": "Bandura found children imitated aggressive behavior observed in adults, demonstrating observational learning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does operationalization apply to measuring anxiety?",
+      "answer": "Operationalization could involve using a standardized anxiety questionnaire to assign numerical values to anxiety levels.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of reliability to a memory test.",
+      "answer": "If a memory test produces consistent results across multiple administrations, it is considered reliable.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does ecological validity apply to a lab-based aggression study?",
+      "answer": "If aggression is studied in a lab, ecological validity is low as behavior may differ from real-world settings.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of a null hypothesis to a study on sleep and memory.",
+      "answer": "In a sleep and memory study, the null hypothesis might state that sleep has no effect on memory performance.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of using a double-blind procedure.",
+      "answer": "It reduces bias from both participants and experimenters, enhancing the study's validity.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Loftus and Palmer (1974).",
+      "answer": "The study's use of controlled lab conditions ensured high internal validity but lacked ecological validity due to artificial settings.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Milgram's (1963) study.",
+      "answer": "Milgram's study has been criticized for ethical issues, including deception and psychological distress to participants.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the reliability of observational studies.",
+      "answer": "Observational studies can be subjective, leading to potential reliability issues unless clear, consistent criteria are used.",
+      "ao": "AO3"
+    }
+  ]
+}

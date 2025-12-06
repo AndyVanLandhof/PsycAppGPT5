@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "scientific-processes",
+  "subTopicTitle": "Scientific processes",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:39:53.149Z",
+  "items": [
+    {
+      "id": "scientific-processes-q1",
+      "question": "What is the main purpose of a pilot study?",
+      "options": [
+        "To identify potential issues in the research design",
+        "To collect preliminary data for analysis",
+        "To ensure the research findings are generalizable",
+        "To confirm the reliability of the data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A pilot study is a small-scale preliminary study conducted to identify potential issues in the research design and refine the methodology before the full-scale research is conducted."
+    },
+    {
+      "id": "scientific-processes-q2",
+      "question": "In an experiment, what is an independent variable?",
+      "options": [
+        "The variable that is manipulated by the researcher",
+        "The variable that is measured by the researcher",
+        "The constant variable that is not changed",
+        "The variable that is affected by the dependent variable"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The independent variable is the one that the researcher manipulates to observe its effect on the dependent variable."
+    },
+    {
+      "id": "scientific-processes-q3",
+      "question": "What does a positive correlation indicate?",
+      "options": [
+        "As one variable increases, the other variable also increases",
+        "As one variable increases, the other variable decreases",
+        "There is no relationship between the two variables",
+        "The variables both decrease together"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A positive correlation indicates that as one variable increases, the other variable also increases, reflecting a direct relationship."
+    },
+    {
+      "id": "scientific-processes-q4",
+      "question": "What is internal validity?",
+      "options": [
+        "The extent to which the results can be generalized",
+        "The accuracy of the measurement",
+        "The extent to which a study establishes a trustworthy cause-and-effect relationship",
+        "The consistency of a study's results over time"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Internal validity refers to the degree to which a study accurately establishes a cause-and-effect relationship between variables, without influence from extraneous variables."
+    },
+    {
+      "id": "scientific-processes-q5",
+      "question": "In Milgram's (1963) study on obedience, what was the main ethical concern?",
+      "options": [
+        "Lack of informed consent",
+        "The use of deception",
+        "The ecological validity of the study",
+        "The small sample size"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Milgram's study involved deception as participants were misled about the true nature of the experiment, which raised significant ethical concerns."
+    },
+    {
+      "id": "scientific-processes-q6",
+      "question": "What is the primary function of a control group in an experiment?",
+      "options": [
+        "To serve as a baseline for comparison",
+        "To receive the experimental treatment",
+        "To ensure all variables are manipulated",
+        "To guarantee participant blinding"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A control group serves as a baseline to compare the effects of the independent variable in the experimental group."
+    },
+    {
+      "id": "scientific-processes-q7",
+      "question": "Who conducted the Stanford prison experiment?",
+      "options": [
+        "Philip Zimbardo",
+        "Solomon Asch",
+        "Albert Bandura",
+        "Stanley Milgram"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Philip Zimbardo conducted the Stanford prison experiment in 1971 to study the psychological effects of perceived power."
+    },
+    {
+      "id": "scientific-processes-q8",
+      "question": "What is demand characteristics?",
+      "options": [
+        "Cues that influence participants' behavior",
+        "A measure of the study's reliability",
+        "A type of research design",
+        "A statistical method for data analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Demand characteristics refer to cues in an experiment that might inform participants of the purpose of the study, influencing their behavior."
+    },
+    {
+      "id": "scientific-processes-q9",
+      "question": "What is operationalization in research?",
+      "options": [
+        "Defining variables in practical, measurable terms",
+        "Gathering data from secondary sources",
+        "Ensuring the reliability of findings",
+        "Random allocation of participants to conditions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Operationalization involves defining variables in practical, measurable terms to ensure clarity and consistency in data collection."
+    },
+    {
+      "id": "scientific-processes-q10",
+      "question": "A researcher finds a correlation of -0.85 between stress levels and hours of sleep. What does this imply?",
+      "options": [
+        "As stress levels increase, hours of sleep decrease",
+        "As stress levels increase, hours of sleep increase",
+        "There is no relationship between stress and sleep",
+        "Both stress and sleep decrease together"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A correlation of -0.85 indicates a strong negative relationship, meaning as stress levels increase, hours of sleep tend to decrease."
+    },
+    {
+      "id": "scientific-processes-q11",
+      "question": "A study investigates the effect of noise on concentration. Which of the following is the dependent variable?",
+      "options": [
+        "Concentration levels",
+        "Noise levels",
+        "Time of day",
+        "Room temperature"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "In this study, concentration levels are the dependent variable as they are being measured to see how they are affected by noise."
+    },
+    {
+      "id": "scientific-processes-q12",
+      "question": "In a double-blind study, who is unaware of the group allocations?",
+      "options": [
+        "Both participants and researchers",
+        "Only the participants",
+        "Only the researchers",
+        "The data analysts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "In a double-blind study, both participants and researchers are unaware of group allocations to prevent bias in treatment administration and evaluation."
+    },
+    {
+      "id": "scientific-processes-q13",
+      "question": "Which of the following is a limitation of using self-report methods in research?",
+      "options": [
+        "They can lead to social desirability bias",
+        "They are time-consuming to administer",
+        "They require expensive equipment",
+        "They are difficult to replicate"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Self-report methods can lead to social desirability bias, where participants may respond in a way they think is more socially acceptable."
+    },
+    {
+      "id": "scientific-processes-q14",
+      "question": "How could researcher bias affect the outcomes of a study?",
+      "options": [
+        "It may lead to the researcher's expectations influencing the results",
+        "It ensures the study is ethically conducted",
+        "It guarantees the reliability of the results",
+        "It increases the generalizability of the study"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Researcher bias occurs when a researcher's expectations or preferences influence the outcomes of a study, potentially skewing the results."
+    },
+    {
+      "id": "scientific-processes-q15",
+      "question": "What is a major strength of using a laboratory experiment?",
+      "options": [
+        "High level of control over variables",
+        "High ecological validity",
+        "Low cost and simplicity",
+        "Flexibility in changing the hypothesis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Laboratory experiments offer a high level of control over variables, allowing researchers to establish cause-and-effect relationships more reliably."
+    }
+  ]
+}

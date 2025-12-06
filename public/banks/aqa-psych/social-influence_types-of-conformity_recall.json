@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "social-influence",
+  "topicTitle": "Social Influence",
+  "subTopic": "types-of-conformity",
+  "subTopicTitle": "Types of conformity",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:10:04.126Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the three types of conformity in social influence.",
+      "keyPoints": [
+        "Compliance: conforming publicly but not privately",
+        "Identification: conforming to a role or group",
+        "Internalisation: conforming both publicly and privately"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all three types with accurate definitions",
+        "partial": "Includes 1-2 types or lacks detail in definitions",
+        "none": "Missing types or provides inaccurate definitions"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Asch's study on conformity.",
+      "keyPoints": [
+        "Participants judged line lengths",
+        "Confederates gave wrong answers intentionally",
+        "Measured conformity rates in a group setting"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of normative social influence.",
+      "keyPoints": [
+        "Desire to be liked and accepted",
+        "Conforming to group norms",
+        "Influence leads to compliance"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student joins a new club and starts dressing like other members. Which type of conformity might this represent and why?",
+      "keyPoints": [
+        "Identification: adopting behaviors to fit in with the group",
+        "Temporary change in behavior",
+        "Influence is stronger while being part of the group"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies and explains identification with detailed reasoning",
+        "partial": "Correctly identifies the type but lacks detailed reasoning",
+        "none": "Incorrect type or lacks explanation"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person disagrees with a group privately but agrees publicly to avoid conflict. Which type of conformity does this represent?",
+      "keyPoints": [
+        "Compliance: public agreement, private disagreement",
+        "Desire to avoid conflict",
+        "Change is superficial and temporary"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies and explains compliance with detailed reasoning",
+        "partial": "Correctly identifies the type but lacks detailed reasoning",
+        "none": "Incorrect type or lacks explanation"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person starts believing in environmental conservation after joining a group of activists. What type of conformity is this?",
+      "keyPoints": [
+        "Internalisation: public and private change in beliefs",
+        "Adoption of group's values",
+        "Long-lasting influence even outside the group"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies and explains internalisation with detailed reasoning",
+        "partial": "Correctly identifies the type but lacks detailed reasoning",
+        "none": "Incorrect type or lacks explanation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ecological validity of Asch's study on conformity using the PEEL structure.",
+      "keyPoints": [
+        "Point: Low ecological validity",
+        "Evidence: Artificial lab setting",
+        "Explanation: Doesn't reflect real-life situations",
+        "Link: Limitations in generalising results"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with detailed explanation",
+        "partial": "Includes 2-3 PEEL components but lacks detail",
+        "none": "Missing PEEL components or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the ethical considerations in Milgram's study using the PEEL structure.",
+      "keyPoints": [
+        "Point: Ethical issues present",
+        "Evidence: Deception and lack of informed consent",
+        "Explanation: Participants were misled about the nature of the study",
+        "Link: Raises questions about the study’s ethical validity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with detailed explanation",
+        "partial": "Includes 2-3 PEEL components but lacks detail",
+        "none": "Missing PEEL components or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyse the role of cultural factors in conformity using the PEEL structure.",
+      "keyPoints": [
+        "Point: Cultural differences affect conformity",
+        "Evidence: Collectivist cultures show higher conformity rates",
+        "Explanation: Group harmony is valued more in collectivist cultures",
+        "Link: Cultural context is crucial for understanding conformity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with detailed explanation",
+        "partial": "Includes 2-3 PEEL components but lacks detail",
+        "none": "Missing PEEL components or inaccurate evaluation"
+      }
+    }
+  ]
+}

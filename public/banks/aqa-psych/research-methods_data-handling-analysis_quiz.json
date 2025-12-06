@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "data-handling-analysis",
+  "subTopicTitle": "Data handling and analysis",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:40:38.978Z",
+  "items": [
+    {
+      "id": "data-handling-analysis-q1",
+      "question": "What is the primary purpose of using a double-blind procedure in an experiment?",
+      "options": [
+        "To reduce experimenter and participant bias",
+        "To ensure participants receive the same treatment",
+        "To increase the sample size",
+        "To enhance the ecological validity of the study"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A double-blind procedure controls for bias by ensuring neither the participants nor the experimenters know who receives the treatment."
+    },
+    {
+      "id": "data-handling-analysis-q2",
+      "question": "Which of the following is a measure of central tendency?",
+      "options": [
+        "Mean",
+        "Range",
+        "Variance",
+        "Standard deviation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The mean is an average and a measure of central tendency, while range, variance, and standard deviation are measures of dispersion."
+    },
+    {
+      "id": "data-handling-analysis-q3",
+      "question": "In Milgram's (1963) study on obedience, what was the maximum voltage that participants believed they were administering?",
+      "options": [
+        "450 volts",
+        "300 volts",
+        "150 volts",
+        "600 volts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Milgram's original study had a maximum apparent shock level of 450 volts, which most participants delivered."
+    },
+    {
+      "id": "data-handling-analysis-q4",
+      "question": "What is a key feature of a stratified sample?",
+      "options": [
+        "It represents subgroups within the population",
+        "It is selected based on convenience",
+        "It uses random assignment of participants",
+        "It includes all members of the population"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A stratified sample involves dividing the population into subgroups and sampling from each, ensuring representation of key characteristics."
+    },
+    {
+      "id": "data-handling-analysis-q5",
+      "question": "Which statistical test would be most appropriate for comparing the means of two related groups?",
+      "options": [
+        "Paired t-test",
+        "Independent t-test",
+        "Chi-square test",
+        "Mann-Whitney U test"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A paired t-test is used for comparing means from the same group at different times or under different conditions."
+    },
+    {
+      "id": "data-handling-analysis-q6",
+      "question": "What is the main disadvantage of using a repeated measures design?",
+      "options": [
+        "Order effects",
+        "Participant variables",
+        "Low ecological validity",
+        "Reduced demand characteristics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Repeated measures designs can suffer from order effects, where the sequence of conditions affects results."
+    },
+    {
+      "id": "data-handling-analysis-q7",
+      "question": "Which of the following is an example of qualitative data?",
+      "options": [
+        "Interview transcripts",
+        "Reaction times",
+        "Number of errors",
+        "Heart rate measurements"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Qualitative data is non-numerical and descriptive, such as interview transcripts, unlike the numerical data in the other options."
+    },
+    {
+      "id": "data-handling-analysis-q8",
+      "question": "Which type of graph is best for displaying the frequency distribution of a single categorical variable?",
+      "options": [
+        "Bar chart",
+        "Scatterplot",
+        "Histogram",
+        "Line graph"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A bar chart is used to display the frequency of categorical data, showing separate bars for each category."
+    },
+    {
+      "id": "data-handling-analysis-q9",
+      "question": "What is the purpose of random assignment in an experiment?",
+      "options": [
+        "To control for participant-related confounding variables",
+        "To ensure the study has external validity",
+        "To allow for the replication of the study",
+        "To increase the sample size"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Random assignment helps control participant-related confounds by ensuring each participant has an equal chance of being placed in any condition."
+    },
+    {
+      "id": "data-handling-analysis-q10",
+      "question": "A researcher conducts an experiment on memory recall using a sample of university students. If the results are only applicable to university students, what is this an example of?",
+      "options": [
+        "Low population validity",
+        "Low ecological validity",
+        "High internal validity",
+        "Low construct validity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Low population validity occurs when findings cannot be generalized beyond the sample studied, such as being limited to university students."
+    },
+    {
+      "id": "data-handling-analysis-q11",
+      "question": "A psychologist collects data on stress levels before and after a mindfulness intervention in the same participants. Which statistical test should they use?",
+      "options": [
+        "Paired t-test",
+        "Independent t-test",
+        "Chi-square test",
+        "Spearman's rank correlation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A paired t-test is appropriate for comparing means from the same group of participants before and after an intervention."
+    },
+    {
+      "id": "data-handling-analysis-q12",
+      "question": "If a set of data is not normally distributed, which measure of central tendency is most appropriate to use?",
+      "options": [
+        "Median",
+        "Mean",
+        "Mode",
+        "Range"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The median is less affected by skewed data and outliers, making it more appropriate for non-normally distributed data."
+    },
+    {
+      "id": "data-handling-analysis-q13",
+      "question": "Which of the following is a limitation of using laboratory experiments?",
+      "options": [
+        "Low ecological validity",
+        "High participant attrition",
+        "Low control over variables",
+        "Limited ability to measure causality"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Laboratory experiments often lack ecological validity as they occur in artificial settings that may not reflect real-world scenarios."
+    },
+    {
+      "id": "data-handling-analysis-q14",
+      "question": "What is a potential problem with using self-report measures in psychological research?",
+      "options": [
+        "Social desirability bias",
+        "Lack of qualitative data",
+        "Inability to ensure random sampling",
+        "Difficulty in measuring physiological responses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Self-report measures can be biased by social desirability, where participants respond in a manner they believe is acceptable to others."
+    },
+    {
+      "id": "data-handling-analysis-q15",
+      "question": "Compared to structured interviews, unstructured interviews are more likely to:",
+      "options": [
+        "Produce rich, detailed data",
+        "Have high reliability",
+        "Be easy to replicate",
+        "Follow a standardized format"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unstructured interviews allow for open-ended responses, leading to rich, detailed data but often lack reliability and standardization."
+    }
+  ]
+}

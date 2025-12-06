@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "data-handling-analysis",
+  "subTopicTitle": "Data handling and analysis",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:40:19.651Z",
+  "items": [
+    {
+      "question": "What is a mean in data analysis?",
+      "answer": "The mean is the average of a set of numbers, calculated by adding all the numbers together and dividing by the count of numbers.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define standard deviation.",
+      "answer": "Standard deviation is a measure of the amount of variation or dispersion in a set of values.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Milgram (1963) find about obedience?",
+      "answer": "Milgram found that 65% of participants administered the highest shock level, demonstrating high levels of obedience to authority.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a null hypothesis?",
+      "answer": "A null hypothesis is a statement suggesting no effect or relationship between variables, used as a default assumption until evidence suggests otherwise.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define qualitative data.",
+      "answer": "Qualitative data is non-numerical information that captures qualities or characteristics, often collected through interviews or observations.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a case study?",
+      "answer": "A case study is an in-depth investigation of a single individual, group, or event to explore causation and find underlying principles.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the purpose of a pilot study?",
+      "answer": "A pilot study aims to test the feasibility, time, cost, risk, and adverse events in a small scale before a full-scale research project.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define reliability in psychological research.",
+      "answer": "Reliability refers to the consistency of a measure; a test is reliable if it produces similar results under consistent conditions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is content analysis?",
+      "answer": "Content analysis is a research technique used to make replicable and valid inferences by interpreting and coding textual material.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Loftus and Palmer (1974) study?",
+      "answer": "Loftus and Palmer studied the effect of leading questions on eyewitness testimony, finding that wording can distort memory recall.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'confounding variable'.",
+      "answer": "A confounding variable is an outside influence that changes the effect of a dependent and independent variable, threatening internal validity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is an operational definition?",
+      "answer": "An operational definition specifies the precise procedure for measuring a variable, ensuring clarity and replicability in research.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does random sampling apply to a study on stress?",
+      "answer": "Random sampling ensures each person in the target population has an equal chance of selection, minimizing bias in stress level results.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of demand characteristics to this scenario: A researcher observes participants who know they are being studied.",
+      "answer": "Participants may alter their behavior due to awareness of being observed, potentially skewing the study's results due to demand characteristics.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does counterbalancing apply to a repeated measures design?",
+      "answer": "Counterbalancing addresses order effects by varying the sequence of conditions for participants, enhancing the study's internal validity.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of ecological validity to a laboratory experiment on memory.",
+      "answer": "Ecological validity assesses how well the experiment's results generalize to real-world memory scenarios outside the lab setting.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of using a double-blind procedure.",
+      "answer": "A double-blind procedure reduces bias, as neither participants nor researchers are aware of group assignments, enhancing the study's validity.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Bandura et al.'s (1961) study.",
+      "answer": "The lab setting of Bandura's study on aggression offers control over variables but lacks ecological validity due to artificiality.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of using self-report measures.",
+      "answer": "Self-report measures can be biased due to social desirability, where participants may answer in a way they deem favorable.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the use of longitudinal studies in psychological research.",
+      "answer": "Longitudinal studies provide data on changes over time but are time-consuming and may suffer from participant attrition affecting results.",
+      "ao": "AO3"
+    }
+  ]
+}

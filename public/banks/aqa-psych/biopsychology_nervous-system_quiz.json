@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "nervous-system",
+  "subTopicTitle": "The divisions of the nervous system",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:29:54.487Z",
+  "items": [
+    {
+      "id": "nervous-system-q1",
+      "question": "Which division of the nervous system is responsible for the fight-or-flight response?",
+      "options": [
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
+        "Central nervous system",
+        "Somatic nervous system"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The sympathetic nervous system activates the body's arousal response in stressful situations, preparing for 'fight or flight'."
+    },
+    {
+      "id": "nervous-system-q2",
+      "question": "What are the two main components of the central nervous system?",
+      "options": [
+        "Brain and spinal cord",
+        "Brain and peripheral nerves",
+        "Spinal cord and sensory neurons",
+        "Peripheral nerves and motor neurons"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The central nervous system is composed of the brain and spinal cord, responsible for processing and sending information."
+    },
+    {
+      "id": "nervous-system-q3",
+      "question": "Which division of the peripheral nervous system is involved in voluntary movement?",
+      "options": [
+        "Somatic nervous system",
+        "Autonomic nervous system",
+        "Central nervous system",
+        "Parasympathetic nervous system"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The somatic nervous system controls voluntary movements by transmitting signals between the brain and the muscles."
+    },
+    {
+      "id": "nervous-system-q4",
+      "question": "What is the primary role of the parasympathetic nervous system?",
+      "options": [
+        "Rest and digest functions",
+        "Fight or flight responses",
+        "Processing sensory information",
+        "Controlling voluntary movements"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The parasympathetic nervous system is involved in rest and digest functions, helping to conserve energy and return the body to a state of calm."
+    },
+    {
+      "id": "nervous-system-q5",
+      "question": "Which researcher is associated with the study of the 'split-brain' patients?",
+      "options": [
+        "Roger Sperry (1968)",
+        "Ivan Pavlov (1927)",
+        "B.F. Skinner (1938)",
+        "John Watson (1913)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Roger Sperry conducted research on split-brain patients in 1968, demonstrating lateralization of brain function."
+    },
+    {
+      "id": "nervous-system-q6",
+      "question": "What part of the brain is primarily responsible for regulating heart rate, breathing, and blood pressure?",
+      "options": [
+        "Medulla oblongata",
+        "Cerebellum",
+        "Hypothalamus",
+        "Amygdala"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The medulla oblongata, located in the brainstem, is crucial for autonomic control of heart rate, breathing, and blood pressure."
+    },
+    {
+      "id": "nervous-system-q7",
+      "question": "Which part of the brain is associated with the regulation of emotions and memory formation?",
+      "options": [
+        "Limbic system",
+        "Occipital lobe",
+        "Parietal lobe",
+        "Frontal lobe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The limbic system, including structures like the hippocampus and amygdala, is key in emotion regulation and memory formation."
+    },
+    {
+      "id": "nervous-system-q8",
+      "question": "Which structure connects the two hemispheres of the brain?",
+      "options": [
+        "Corpus callosum",
+        "Thalamus",
+        "Cerebral cortex",
+        "Basal ganglia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The corpus callosum is a band of nerve fibers that connects the left and right hemispheres of the brain, allowing communication between them."
+    },
+    {
+      "id": "nervous-system-q9",
+      "question": "What is the main function of the autonomic nervous system?",
+      "options": [
+        "Regulating involuntary body functions",
+        "Controlling voluntary muscle movements",
+        "Processing sensory information",
+        "Facilitating cognitive functions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The autonomic nervous system regulates involuntary body functions such as heart rate, digestion, and respiratory rate."
+    },
+    {
+      "id": "nervous-system-q10",
+      "question": "A patient with damage to their spinal cord is unable to move their legs. Which part of the nervous system is likely affected?",
+      "options": [
+        "Central nervous system",
+        "Somatic nervous system",
+        "Autonomic nervous system",
+        "Parasympathetic nervous system"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The central nervous system, which includes the spinal cord, is responsible for transmitting motor signals to the muscles, enabling movement."
+    },
+    {
+      "id": "nervous-system-q11",
+      "question": "After a stressful presentation, Alice feels her heart rate slowing and breathing becoming regular. Which nervous system is taking action?",
+      "options": [
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Somatic nervous system",
+        "Central nervous system"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The parasympathetic nervous system helps the body return to a state of calm by slowing heart rate and normalizing breathing."
+    },
+    {
+      "id": "nervous-system-q12",
+      "question": "John experiences increased salivation and digestion after eating. Which nervous system is responsible?",
+      "options": [
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Somatic nervous system",
+        "Central nervous system"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The parasympathetic nervous system stimulates digestion and salivation as part of its 'rest and digest' functions."
+    },
+    {
+      "id": "nervous-system-q13",
+      "question": "What is a limitation of using case studies, such as those of split-brain patients, in biopsychology?",
+      "options": [
+        "Lack of generalizability",
+        "High control over variables",
+        "Ease of replication",
+        "Uniform results across studies"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Case studies often involve unique individuals, limiting the ability to generalize findings to the wider population."
+    },
+    {
+      "id": "nervous-system-q14",
+      "question": "Why might research into the autonomic nervous system be considered reductionist?",
+      "options": [
+        "It oversimplifies complex behaviors",
+        "It accounts for multiple variables",
+        "It provides comprehensive explanations",
+        "It uses holistic approaches"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Reductionism in such research suggests complex behaviors can be understood entirely through physiological processes, ignoring psychological factors."
+    },
+    {
+      "id": "nervous-system-q15",
+      "question": "How does the use of brain imaging techniques enhance our understanding of the nervous system?",
+      "options": [
+        "They provide detailed images of brain activity",
+        "They simplify the interpretation of behaviors",
+        "They eliminate the need for other research methods",
+        "They offer subjective insights into mental processes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Brain imaging techniques, like fMRI, provide detailed, objective images of brain activity, enhancing our understanding of its functions."
+    }
+  ]
+}

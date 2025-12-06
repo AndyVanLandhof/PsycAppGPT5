@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "plato",
+  "subTopicTitle": "Plato's Theory of Forms",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:44:28.877Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Plato's Theory of Forms.",
+      "keyPoints": [
+        "The Theory of Forms posits that non-material abstract forms represent the most accurate reality.",
+        "Forms are perfect and unchanging, unlike the physical world.",
+        "The physical world is a shadow or imitation of the true reality of the Forms."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the relationship between the World of Forms and the physical world according to Plato?",
+      "keyPoints": [
+        "The physical world is a reflection or imitation of the World of Forms.",
+        "Forms are the true essence of objects, while physical objects are imperfect copies.",
+        "Knowledge of the Forms is acquired through reason and intellect, not sensory experience."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define Plato's concept of the Form of the Good.",
+      "keyPoints": [
+        "The Form of the Good is the ultimate Form and the source of all other Forms.",
+        "It represents the ultimate purpose and reason for existence.",
+        "Knowledge of the Good is the highest form of knowledge in Plato's philosophy."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a sculptor inspired by a perfect sculpture you envision in your mind. How might Plato's Theory of Forms explain this inspiration?",
+      "keyPoints": [
+        "The envisioned perfect sculpture represents the Form of the sculpture.",
+        "The physical sculpture is an attempt to imitate or embody the Form.",
+        "The inspiration comes from an intellectual understanding of the perfect Form."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply the theory accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A mathematician believes that mathematical truths exist independently of human thought. How does this view align with Plato's Theory of Forms?",
+      "keyPoints": [
+        "Mathematical truths can be seen as Forms that exist independently of the physical world.",
+        "These truths are perfect and unchanging, similar to Plato's Forms.",
+        "The mathematician's belief aligns with the idea that Forms are accessed through reason."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply the theory accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a person who believes in the existence of universal moral truths. How might Plato's Theory of Forms support this belief?",
+      "keyPoints": [
+        "Universal moral truths could be considered as moral Forms.",
+        "These moral Forms represent perfect, unchanging standards.",
+        "Plato's theory supports the idea that these truths exist independently of human opinion."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply the theory accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of Plato's Theory of Forms using the PEEL structure.",
+      "keyPoints": [
+        "Point: Provides an explanation for the existence of universals.",
+        "Evidence: Explains why different instances of beauty share common features.",
+        "Explanation: Offers a metaphysical foundation for objective knowledge.",
+        "Link: Enhances understanding of abstract concepts beyond sensory experience."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed PEEL structure",
+        "partial": "Includes 2-3 key points or lacks structured explanation",
+        "none": "Lacks key points or coherent structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the weaknesses of Plato's Theory of Forms using the PEEL structure.",
+      "keyPoints": [
+        "Point: Lack of empirical evidence for the existence of Forms.",
+        "Evidence: Reliance on abstract reasoning over sensory experience.",
+        "Explanation: Critics argue it's impractical and lacks scientific basis.",
+        "Link: Challenges the applicability of Forms to everyday life."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed PEEL structure",
+        "partial": "Includes 2-3 key points or lacks structured explanation",
+        "none": "Lacks key points or coherent structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the relevance of Plato's Theory of Forms in modern philosophical thought using the PEEL structure.",
+      "keyPoints": [
+        "Point: Inspires ongoing debate about universals and particulars.",
+        "Evidence: Influences contemporary discussions in metaphysics and epistemology.",
+        "Explanation: Provides a framework for understanding abstract concepts.",
+        "Link: Continues to be a foundational theory in philosophical education."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed PEEL structure",
+        "partial": "Includes 2-3 key points or lacks structured explanation",
+        "none": "Lacks key points or coherent structure"
+      }
+    }
+  ]
+}

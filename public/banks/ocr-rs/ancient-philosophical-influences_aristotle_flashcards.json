@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "aristotle",
+  "subTopicTitle": "Aristotle's Four Causes",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:44:40.488Z",
+  "items": [
+    {
+      "question": "What is Aristotle's Material Cause?",
+      "answer": "The Material Cause refers to the substance or materials from which an object is made, like wood for a table.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Aristotle's Formal Cause.",
+      "answer": "The Formal Cause is the form or arrangement of an object, essentially its design or blueprint.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Aristotle's Efficient Cause?",
+      "answer": "The Efficient Cause is the agent or process that brings an object into being, like a carpenter for a table.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Aristotle's Final Cause.",
+      "answer": "The Final Cause is the purpose or end for which an object exists, like a table's purpose to hold items.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Aristotle argue about the Four Causes?",
+      "answer": "Aristotle argued that understanding the Four Causes provides a complete explanation of why an object exists.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Aristotle's theory differ from Plato's forms?",
+      "answer": "Aristotle rejected Plato's theory of separate forms, arguing that form and matter are inseparable in objects.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does the Final Cause play in Aristotle's philosophy?",
+      "answer": "The Final Cause reflects teleological thinking, emphasizing the purpose or goal inherent in natural phenomena.",
+      "ao": "AO1"
+    },
+    {
+      "question": "According to Aristotle, why is the Efficient Cause crucial?",
+      "answer": "The Efficient Cause explains the agent of change or mover that actualizes potentiality into reality.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is teleology in Aristotle's philosophy?",
+      "answer": "Teleology refers to the explanation of phenomena by the purpose they serve rather than by postulated causes.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Aristotle's Material Cause relate to change?",
+      "answer": "The Material Cause underlies change as it represents the matter that persists through transformations.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What example does Aristotle use for the Four Causes?",
+      "answer": "Aristotle uses the example of a statue: marble (Material), shape (Formal), sculptor (Efficient), and beauty (Final).",
+      "ao": "AO1"
+    },
+    {
+      "question": "How did Aristotle's Four Causes influence Western philosophy?",
+      "answer": "Aristotle's Four Causes laid foundational concepts for causality studies, impacting subsequent philosophical and scientific thought.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply Aristotle's Four Causes to a wooden chair.",
+      "answer": "Material: wood; Formal: chair design; Efficient: carpenter; Final: purpose of sitting.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Aristotle's theory apply to a computer?",
+      "answer": "Material: plastic, metal; Formal: hardware/software design; Efficient: manufacturer; Final: processing information.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Aristotle's Four Causes to a painting.",
+      "answer": "Material: canvas, paint; Formal: artistic style; Efficient: artist; Final: aesthetic enjoyment or expression.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How would Aristotle's causes explain a car?",
+      "answer": "Material: metal, rubber; Formal: car design; Efficient: factory workers; Final: transportation.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Aristotle's Four Causes.",
+      "answer": "Aristotle's Four Causes provide a comprehensive framework for understanding different aspects of existence and causality.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Aristotle's Four Causes.",
+      "answer": "The Final Cause assumes purposeful design, which may not apply to all natural phenomena or align with modern science.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate Aristotle's methodology in formulating the Four Causes.",
+      "answer": "Aristotle's empirical observations grounded his theory, but reliance on purpose (Final Cause) lacks empirical verification.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Discuss a critique of Aristotle's Efficient Cause.",
+      "answer": "Critics argue that the Efficient Cause overemphasizes human-like agency, which doesn't account for non-agent causal processes.",
+      "ao": "AO3"
+    }
+  ]
+}

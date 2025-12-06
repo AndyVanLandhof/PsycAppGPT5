@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "verification",
+  "subTopicTitle": "Verification Challenges",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:55:20.989Z",
+  "items": [
+    {
+      "id": "verification-q1",
+      "question": "Which scholar is most associated with the idea that religious experiences are 'a union with a greater reality'?",
+      "options": [
+        "William James",
+        "Rudolf Otto",
+        "Friedrich Schleiermacher",
+        "Richard Swinburne"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William James proposed that religious experiences are a union with a greater reality and emphasized their ineffability, noetic quality, transience, and passivity."
+    },
+    {
+      "id": "verification-q2",
+      "question": "In which year did Richard Swinburne publish 'The Existence of God', where he discusses the Principle of Credulity?",
+      "options": [
+        "1979",
+        "1984",
+        "1991",
+        "1968"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Swinburne's 'The Existence of God' was published in 1979, where he introduced the Principle of Credulity, suggesting we should generally trust our experiences."
+    },
+    {
+      "id": "verification-q3",
+      "question": "What term did Rudolf Otto use to describe the non-rational aspect of religious experience?",
+      "options": [
+        "The numinous",
+        "The mystical",
+        "The ecstatic",
+        "The transcendent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rudolf Otto used the term 'the numinous' to describe the non-rational, mysterious aspect of religious experience, characterized by awe and wonder."
+    },
+    {
+      "id": "verification-q4",
+      "question": "Which of the following is NOT one of William James's four characteristics of mystical experience?",
+      "options": [
+        "Ineffability",
+        "Noetic quality",
+        "Transience",
+        "Verifiability"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "William James identified ineffability, noetic quality, transience, and passivity as characteristics of mystical experiences; verifiability is not one of them."
+    },
+    {
+      "id": "verification-q5",
+      "question": "Who argued that religious experiences could be seen as a psychological projection of the human mind?",
+      "options": [
+        "Sigmund Freud",
+        "William James",
+        "Rudolf Otto",
+        "Mircea Eliade"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sigmund Freud argued that religious experiences were projections of the human mind, stemming from our inner psychological needs and desires."
+    },
+    {
+      "id": "verification-q6",
+      "question": "Which philosopher is known for critiquing religious experiences through the concept of 'blik'?",
+      "options": [
+        "R.M. Hare",
+        "A.J. Ayer",
+        "Anthony Flew",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "R.M. Hare introduced the concept of 'blik' to describe unfalsifiable beliefs, critiquing religious experiences as subjective and not empirically verifiable."
+    },
+    {
+      "id": "verification-q7",
+      "question": "According to Richard Swinburne, which principle suggests that the claims of religious experiences should be taken as prima facie evidence?",
+      "options": [
+        "Principle of Credulity",
+        "Principle of Testimony",
+        "Principle of Uniformity",
+        "Principle of Consistency"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Principle of Credulity suggests that we should generally trust that things are as they appear unless there is evidence to the contrary, supporting religious experience claims."
+    },
+    {
+      "id": "verification-q8",
+      "question": "What is the main focus of Peter Donovan's critique of religious experience?",
+      "options": [
+        "Subjectivity and interpretation",
+        "Historical accuracy",
+        "Cultural influence",
+        "Scientific validation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Peter Donovan critiques religious experiences by focusing on their subjectivity and the varying interpretations individuals might have, questioning their objectivity."
+    },
+    {
+      "id": "verification-q9",
+      "question": "Which scholar is known for the phrase 'God is a projection of the human mind'?",
+      "options": [
+        "Ludwig Feuerbach",
+        "Rudolf Otto",
+        "Friedrich Nietzsche",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ludwig Feuerbach argued that God is a projection of human qualities and desires, reflecting human nature rather than an external divine reality."
+    },
+    {
+      "id": "verification-q10",
+      "question": "A person claims to have seen a vision of an angel during meditation. Which principle would Richard Swinburne use to accept this claim as potentially credible?",
+      "options": [
+        "Principle of Credulity",
+        "Principle of Testimony",
+        "Principle of Uniformity",
+        "Principle of Consistency"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "According to the Principle of Credulity, we should generally trust people's experiences unless there is significant evidence to doubt them, thus supporting the person's claim."
+    },
+    {
+      "id": "verification-q11",
+      "question": "An individual reports a profound sense of peace and connection to the universe after a religious retreat. Which of William James’s characteristics does this best illustrate?",
+      "options": [
+        "Ineffability",
+        "Noetic quality",
+        "Transience",
+        "Passivity"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO2",
+      "explanation": "The feeling of profound peace and connection aligns with the characteristic of 'passivity', where the individual feels a sense of being acted upon by a higher power."
+    },
+    {
+      "id": "verification-q12",
+      "question": "A group of people shares a similar mystical experience at a religious festival. Which concept might challenge the uniqueness of their individual experiences?",
+      "options": [
+        "Collective unconscious",
+        "Cultural conditioning",
+        "Cognitive dissonance",
+        "Peer pressure"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Cultural conditioning might explain why individuals in a similar environment have comparable experiences, suggesting the influence of shared beliefs and expectations."
+    },
+    {
+      "id": "verification-q13",
+      "question": "How does Anthony Flew challenge the validity of religious experiences?",
+      "options": [
+        "By arguing they are unfalsifiable",
+        "By suggesting they lack historical evidence",
+        "By questioning their moral implications",
+        "By emphasizing cultural bias"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Anthony Flew critiques religious experiences as unfalsifiable, meaning they cannot be proven true or false, which undermines their empirical credibility."
+    },
+    {
+      "id": "verification-q14",
+      "question": "What is a significant methodological issue in researching religious experiences?",
+      "options": [
+        "Subjectivity of reports",
+        "Lack of historical context",
+        "Inadequate sample size",
+        "Overgeneralization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The subjectivity of reports presents a methodological challenge, as personal interpretations can vary widely, complicating objective analysis and comparison."
+    },
+    {
+      "id": "verification-q15",
+      "question": "Which criticism is often levied against William James's approach to religious experience?",
+      "options": [
+        "It is overly subjective",
+        "It lacks historical context",
+        "It is too focused on Western experiences",
+        "It dismisses non-mystical experiences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "William James's approach is often criticized for its subjectivity, as his analysis heavily relies on personal accounts, which may not be universally applicable or verifiable."
+    }
+  ]
+}

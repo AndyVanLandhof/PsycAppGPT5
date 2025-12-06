@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "grace",
+  "subTopicTitle": "Grace and Salvation",
+  "type": "recall",
+  "generatedAt": "2025-12-06T11:02:27.269Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Augustine's concept of 'Grace' in the context of his teachings.",
+      "keyPoints": [
+        "Grace as a gift from God",
+        "Unmerited favor",
+        "Essential for salvation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does 'Original Sin' play in Augustine's doctrine of salvation?",
+      "keyPoints": [
+        "Original Sin as inherited from Adam",
+        "Humanity's inherent sinful nature",
+        "Necessity of divine grace for salvation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain Augustine's idea of 'Predestination'.",
+      "keyPoints": [
+        "God's foreknowledge of who will be saved",
+        "Not based on human merit",
+        "Involves God's grace"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Augustine's concept of grace to a modern Christian's understanding of forgiveness.",
+      "keyPoints": [
+        "Forgiveness as an act of grace",
+        "Unconditional nature of divine grace",
+        "Importance of grace in personal forgiveness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a person struggles with guilt. How might Augustine's teachings on grace offer them comfort?",
+      "keyPoints": [
+        "Grace as forgiveness beyond human guilt",
+        "God's unconditional love",
+        "Transformative power of grace"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Augustine's view on predestination influence a Christian's life decisions?",
+      "keyPoints": [
+        "Sense of divine purpose",
+        "Acceptance of God's will",
+        "Potential impact on moral responsibility"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the scenario",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply key points accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Augustine's teaching on grace using the PEEL structure.",
+      "keyPoints": [
+        "Strength: Emphasizes God's love and mercy",
+        "Weakness: Can lead to moral passivity",
+        "Example: Effect on Christian ethics",
+        "Link: Connection to human free will"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation and examples",
+        "partial": "Includes some key points with limited evaluation",
+        "none": "Lacks clear evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of Augustine's doctrine of original sin on the concept of human nature, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Original sin highlights human fallibility",
+        "Example: Inherited sinfulness",
+        "Explanation: Limits human autonomy",
+        "Link: Influence on Christian anthropology"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation and examples",
+        "partial": "Includes some key points with limited evaluation",
+        "none": "Lacks clear evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically analyze the implications of Augustine's predestination theory on free will using the PEEL structure.",
+      "keyPoints": [
+        "Point: Tension between predestination and free will",
+        "Example: Determinism vs. autonomy",
+        "Explanation: Challenges moral accountability",
+        "Link: Relevance to modern debates on free will"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation and examples",
+        "partial": "Includes some key points with limited evaluation",
+        "none": "Lacks clear evaluation or key points"
+      }
+    }
+  ]
+}

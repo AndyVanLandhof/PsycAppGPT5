@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "localisation-of-function",
+  "subTopicTitle": "Localisation of function in the brain",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:32:34.217Z",
+  "items": [
+    {
+      "question": "What is localisation of function in the brain?",
+      "answer": "Localisation of function refers to the theory that specific areas of the brain are responsible for specific psychological functions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Broca's area and its function.",
+      "answer": "Broca's area, located in the frontal lobe, is responsible for speech production. Damage to this area results in Broca's aphasia.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Wernicke's area and its function.",
+      "answer": "Wernicke's area, located in the temporal lobe, is involved in language comprehension. Damage leads to Wernicke's aphasia.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Broca (1861) find about language production?",
+      "answer": "Broca (1861) found that damage to the left frontal lobe (Broca's area) resulted in impaired speech production, supporting localisation of function.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Wernicke (1874) find about language comprehension?",
+      "answer": "Wernicke (1874) identified a region in the left temporal lobe responsible for language comprehension, which, when damaged, led to Wernicke's aphasia.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the motor cortex?",
+      "answer": "The motor cortex, located in the frontal lobe, controls voluntary movements. Each hemisphere controls the opposite side of the body.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the somatosensory cortex?",
+      "answer": "The somatosensory cortex, located in the parietal lobe, processes sensory information from the skin, such as touch, temperature, and pain.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the visual cortex?",
+      "answer": "The visual cortex, located in the occipital lobe, processes visual information. Each hemisphere receives input from the opposite visual field.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the auditory cortex?",
+      "answer": "The auditory cortex, located in the temporal lobe, processes auditory information. It is involved in identifying sounds and understanding speech.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is hemispheric lateralisation?",
+      "answer": "Hemispheric lateralisation is the idea that certain mental processes and behaviours are controlled or more dominant in one hemisphere than the other.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Sperry (1968) find about split-brain patients?",
+      "answer": "Sperry (1968) found that split-brain patients showed independent functioning of the two hemispheres, supporting lateralisation of function.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is meant by contralateral control?",
+      "answer": "Contralateral control refers to the brain's wiring where each hemisphere controls the functions of the opposite side of the body.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does localisation of function apply to a stroke affecting Broca's area?",
+      "answer": "A stroke damaging Broca's area would likely lead to difficulties in speech production, known as Broca's aphasia, aligning with localisation of function.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply hemispheric lateralisation to a patient with left hemisphere damage.",
+      "answer": "Left hemisphere damage may impair language abilities due to its role in language processing, illustrating hemispheric lateralisation.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of contralateral control to a right-hand injury.",
+      "answer": "A right-hand injury would affect motor control in the left hemisphere, demonstrating contralateral control of motor functions.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the somatosensory cortex apply to a burn injury on the left arm?",
+      "answer": "A burn on the left arm will be processed by the right somatosensory cortex, illustrating contralateral processing of sensory information.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of localisation of function.",
+      "answer": "One strength is empirical support from case studies, such as Phineas Gage, which show specific brain areas are linked to particular functions.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of localisation of function.",
+      "answer": "A limitation is the plasticity of the brain, as other areas can compensate for damaged regions, challenging strict localisation.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Broca's research.",
+      "answer": "Broca's research relied on post-mortem case studies, which lack generalisability and cannot establish causation, limiting scientific validity.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Sperry's split-brain research.",
+      "answer": "Sperry's research used highly controlled experimental conditions, providing reliable data, but the small sample size limits generalisability.",
+      "ao": "AO3"
+    }
+  ]
+}

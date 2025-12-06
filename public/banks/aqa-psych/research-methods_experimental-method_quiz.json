@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "experimental-method",
+  "subTopicTitle": "Experimental method",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:37:06.624Z",
+  "items": [
+    {
+      "id": "experimental-method-q1",
+      "question": "What is the main purpose of a control group in an experiment?",
+      "options": [
+        "To serve as a baseline for comparison",
+        "To ensure participants receive the treatment",
+        "To manipulate the independent variable",
+        "To influence the dependent variable"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A control group serves as a baseline to compare the effects of the independent variable."
+    },
+    {
+      "id": "experimental-method-q2",
+      "question": "In a double-blind experiment, who is unaware of the conditions participants are assigned to?",
+      "options": [
+        "Both the participants and the researchers",
+        "Only the participants",
+        "Only the researchers",
+        "Neither participants nor researchers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In double-blind studies, both participants and researchers are unaware of group assignments to prevent bias."
+    },
+    {
+      "id": "experimental-method-q3",
+      "question": "Which of the following is an example of a quasi-experiment?",
+      "options": [
+        "Studying the effect of a curriculum change in two different schools",
+        "Randomly assigning participants to treatment or control groups",
+        "Using a placebo in a drug trial",
+        "Manipulating variables in a lab setting"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Quasi-experiments often involve naturally occurring groups rather than random assignment."
+    },
+    {
+      "id": "experimental-method-q4",
+      "question": "What does the term 'confounding variable' refer to?",
+      "options": [
+        "A variable that influences both the independent and dependent variables",
+        "A variable that is intentionally manipulated",
+        "A variable that is measured but not manipulated",
+        "A variable that only affects the independent variable"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Confounding variables may affect the results because they influence both the independent and dependent variables."
+    },
+    {
+      "id": "experimental-method-q5",
+      "question": "Which study design involves measuring the same participants multiple times?",
+      "options": [
+        "Repeated measures design",
+        "Independent groups design",
+        "Matched pairs design",
+        "Cross-sectional design"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Repeated measures design involves testing the same participants under different conditions."
+    },
+    {
+      "id": "experimental-method-q6",
+      "question": "What is the dependent variable in Bandura's Bobo Doll study (1961)?",
+      "options": [
+        "The aggressive behavior displayed by children",
+        "The type of model shown to children",
+        "The gender of the children",
+        "The type of toys available"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Bandura's study, the dependent variable was the aggressive behavior observed in children after exposure to the model."
+    },
+    {
+      "id": "experimental-method-q7",
+      "question": "Which of the following is NOT a type of experimental design?",
+      "options": [
+        "Cross-sectional design",
+        "Independent groups design",
+        "Repeated measures design",
+        "Matched pairs design"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cross-sectional design is not an experimental design; it's used for observational studies."
+    },
+    {
+      "id": "experimental-method-q8",
+      "question": "Who developed the concept of the 'placebo effect'?",
+      "options": [
+        "Henry K. Beecher",
+        "Albert Bandura",
+        "Philip Zimbardo",
+        "Solomon Asch"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Henry K. Beecher popularized the concept of the placebo effect in his 1955 paper."
+    },
+    {
+      "id": "experimental-method-q9",
+      "question": "What is an operational definition in psychological research?",
+      "options": [
+        "Defining variables in terms of specific procedures",
+        "A hypothesis about the outcome of an experiment",
+        "An abstract concept measured by an experiment",
+        "The result obtained from a statistical test"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Operational definitions specify the procedures used to measure or manipulate variables."
+    },
+    {
+      "id": "experimental-method-q10",
+      "question": "A researcher wants to test the effect of sleep on memory recall. Which is the independent variable?",
+      "options": [
+        "Amount of sleep",
+        "Memory recall",
+        "Age of participants",
+        "Type of memory test"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The independent variable is the amount of sleep, as it is what the researcher manipulates."
+    },
+    {
+      "id": "experimental-method-q11",
+      "question": "In an experiment, participants are exposed to different levels of light to measure its effect on mood. What is the dependent variable?",
+      "options": [
+        "Mood",
+        "Level of light",
+        "Time of day",
+        "Participants' age"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The dependent variable is mood, as it is the outcome being measured."
+    },
+    {
+      "id": "experimental-method-q12",
+      "question": "A study investigates the effect of noise on concentration using a repeated measures design. Which of the following is a potential issue?",
+      "options": [
+        "Order effects",
+        "Participant variables",
+        "Environmental variables",
+        "Random allocation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Order effects, such as practice or fatigue, can influence results in a repeated measures design."
+    },
+    {
+      "id": "experimental-method-q13",
+      "question": "What is a major limitation of laboratory experiments?",
+      "options": [
+        "Lack of ecological validity",
+        "Inability to manipulate variables",
+        "Lack of control over variables",
+        "High cost and time-consuming"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Laboratory experiments often lack ecological validity due to their artificial settings."
+    },
+    {
+      "id": "experimental-method-q14",
+      "question": "Why might field experiments have higher external validity than lab experiments?",
+      "options": [
+        "They take place in natural settings",
+        "They use random allocation",
+        "They control all variables",
+        "They have shorter durations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Field experiments occur in natural settings, making their findings more generalizable to real-world situations."
+    },
+    {
+      "id": "experimental-method-q15",
+      "question": "What is one advantage of using independent groups design?",
+      "options": [
+        "No order effects",
+        "Requires fewer participants",
+        "Participants serve as their own control",
+        "Eliminates all participant variables"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Independent groups design avoids order effects because participants take part in only one condition."
+    }
+  ]
+}

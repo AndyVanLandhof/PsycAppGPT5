@@ -1,0 +1,146 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "agape",
+  "subTopicTitle": "Agape and Relativism",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:58:06.767Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'Agape' in the context of Situation Ethics.",
+      "keyPoints": [
+        "Unconditional love",
+        "Central to Situation Ethics",
+        "Love that seeks the best for others"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of Relativism in Situation Ethics.",
+      "keyPoints": [
+        "Morality depends on the situation",
+        "No absolute rules",
+        "Decisions based on love"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who is the main proponent of Situation Ethics and what is his contribution?",
+      "keyPoints": [
+        "Joseph Fletcher",
+        "Developed the theory in the 1960s",
+        "Emphasized love as the guiding principle"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Situation Ethics to the scenario: A doctor must decide whether to perform an abortion on a minor without parental consent.",
+      "keyPoints": [
+        "Consider the most loving action",
+        "Assess impact on all parties involved",
+        "Prioritize well-being over rules"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies theory accurately considering all key points",
+        "partial": "Applies theory but misses key considerations",
+        "none": "Fails to apply theory correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Situation Ethics approach the issue of euthanasia?",
+      "keyPoints": [
+        "Focus on what is most loving",
+        "Consider patient's wishes and dignity",
+        "Relativism allows flexibility"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies theory accurately considering all key points",
+        "partial": "Applies theory but misses key considerations",
+        "none": "Fails to apply theory correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Use Situation Ethics to evaluate a business decision to lay off employees to increase profits.",
+      "keyPoints": [
+        "Consider impact on employees and stakeholders",
+        "Most loving action may not align with profit",
+        "Evaluate long-term consequences"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies theory accurately considering all key points",
+        "partial": "Applies theory but misses key considerations",
+        "none": "Fails to apply theory correctly"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Agape as the sole guiding principle in moral decision-making.",
+      "keyPoints": [
+        "Strengths: flexibility, focus on love",
+        "Weaknesses: subjective, lacks clear guidance",
+        "PEEL: Point, Evidence, Explanation, Link"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure, includes strengths and weaknesses",
+        "partial": "Mentions some strengths/weaknesses but lacks PEEL structure",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the effectiveness of Relativism in Situation Ethics.",
+      "keyPoints": [
+        "Allows adaptability",
+        "Can lead to moral ambiguity",
+        "PEEL: Point, Evidence, Explanation, Link"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure, includes pros and cons",
+        "partial": "Mentions some pros/cons but lacks PEEL structure",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss whether Situation Ethics can be considered a form of Christian ethics.",
+      "keyPoints": [
+        "Based on Jesus' teachings of love",
+        "May conflict with traditional Christian rules",
+        "PEEL: Point, Evidence, Explanation, Link"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure, considers Christian perspective",
+        "partial": "Mentions some points but lacks PEEL structure",
+        "none": "Fails to evaluate effectively"
+      }
+    }
+  ]
+}

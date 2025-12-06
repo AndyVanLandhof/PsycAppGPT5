@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "self-report-techniques",
+  "subTopicTitle": "Self-report techniques",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:38:42.454Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define what is meant by a 'self-report technique' in psychological research.",
+      "keyPoints": [
+        "A self-report technique involves participants providing information about themselves directly.",
+        "Includes methods like questionnaires and interviews.",
+        "Used to gather data on thoughts, feelings, and behaviors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the main difference between structured and unstructured interviews.",
+      "keyPoints": [
+        "Structured interviews have a set list of questions.",
+        "Unstructured interviews are more flexible and conversational.",
+        "Structured interviews ensure consistency, while unstructured allow for in-depth exploration."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are closed questions in self-report techniques?",
+      "keyPoints": [
+        "Closed questions provide limited response options.",
+        "Examples include yes/no or multiple-choice questions.",
+        "They are useful for quantifying data."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher wants to study the stress levels of university students during exams. They decide to use a self-report questionnaire. What considerations should the researcher take into account when designing the questionnaire?",
+      "keyPoints": [
+        "Ensure questions are clear and easily understood to avoid misinterpretation.",
+        "Include both closed and open-ended questions to gather quantitative and qualitative data.",
+        "Consider the length of the questionnaire to prevent respondent fatigue."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a psychologist wants to understand the impact of social media on teenagers' self-esteem. How could self-report techniques be applied in this study?",
+      "keyPoints": [
+        "Use questionnaires to ask about social media usage and self-esteem levels.",
+        "Conduct interviews to explore personal experiences and feelings in depth.",
+        "Ensure questions are age-appropriate and relevant to the study."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A study aims to investigate the relationship between exercise and happiness. How might self-report techniques be used to collect data?",
+      "keyPoints": [
+        "Administer surveys to measure exercise frequency and self-reported happiness.",
+        "Use a Likert scale to quantify levels of happiness.",
+        "Ensure questions are specific to accurately capture the relationship."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of self-report techniques in psychological research using the PEEL structure.",
+      "keyPoints": [
+        "Point: Self-report techniques are practical for collecting large amounts of data.",
+        "Evidence: They can efficiently gather data from many participants.",
+        "Explanation: This allows for easier statistical analysis and generalization.",
+        "Link: However, they may be subject to social desirability bias, affecting validity."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and clear PEEL structure",
+        "partial": "Includes some key points or lacks a clear PEEL structure",
+        "none": "Missing key points or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of using self-report techniques in research, applying the PEEL structure.",
+      "keyPoints": [
+        "Point: Self-report data may be unreliable due to participant bias.",
+        "Evidence: Participants might give socially desirable answers.",
+        "Explanation: This can reduce the validity of the findings.",
+        "Link: Despite this, they are still valuable for gaining insights into participant perspectives."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and clear PEEL structure",
+        "partial": "Includes some key points or lacks a clear PEEL structure",
+        "none": "Missing key points or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically evaluate the use of open-ended questions in self-report techniques using the PEEL structure.",
+      "keyPoints": [
+        "Point: Open-ended questions allow for rich, qualitative data collection.",
+        "Evidence: They enable participants to express thoughts and feelings in detail.",
+        "Explanation: This can provide deeper insights into the research topic.",
+        "Link: However, they can be time-consuming to analyze and interpret."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and clear PEEL structure",
+        "partial": "Includes some key points or lacks a clear PEEL structure",
+        "none": "Missing key points or lacks structure"
+      }
+    }
+  ]
+}

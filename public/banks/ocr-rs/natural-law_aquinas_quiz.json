@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "aquinas",
+  "subTopicTitle": "Aquinas' 5 Primary Precepts",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:56:06.749Z",
+  "items": [
+    {
+      "id": "aquinas-q1",
+      "question": "Which of the following is NOT one of Aquinas' 5 Primary Precepts?",
+      "options": [
+        "To live in society",
+        "To seek knowledge",
+        "To avoid evil",
+        "To worship God"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Aquinas' 5 Primary Precepts include 'to live in society', 'to seek knowledge', and 'to worship God', but not 'to avoid evil'."
+    },
+    {
+      "id": "aquinas-q2",
+      "question": "What is the primary aim of the precept 'to reproduce' according to Aquinas?",
+      "options": [
+        "To ensure personal happiness",
+        "To maintain social order",
+        "To ensure the continuation of the species",
+        "To fulfill divine command"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The precept 'to reproduce' is aimed at ensuring the continuation of the species, aligning with natural law's focus on preserving human life."
+    },
+    {
+      "id": "aquinas-q3",
+      "question": "According to Aquinas, which precept underpins the importance of education?",
+      "options": [
+        "To worship God",
+        "To seek knowledge",
+        "To reproduce",
+        "To live in society"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The precept 'to seek knowledge' underpins the importance of education, as it aligns with human nature's rational capacity."
+    },
+    {
+      "id": "aquinas-q4",
+      "question": "Which scholar critiqued Aquinas' Natural Law as being too rigid and not adaptable to modern contexts?",
+      "options": [
+        "John Finnis",
+        "G.E.M. Anscombe",
+        "Kai Nielsen",
+        "J.L. Mackie"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "J.L. Mackie critiqued Natural Law for being too rigid and suggested it does not adapt well to contemporary moral issues."
+    },
+    {
+      "id": "aquinas-q5",
+      "question": "What is the role of reason in Aquinas' Natural Law theory?",
+      "options": [
+        "To determine divine commandments",
+        "To interpret religious texts",
+        "To discover moral laws inherent in nature",
+        "To justify religious rituals"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "In Aquinas' Natural Law, reason is used to discover moral laws that are inherent in nature, reflecting human participation in the Eternal Law."
+    },
+    {
+      "id": "aquinas-q6",
+      "question": "Which of the following scenarios best exemplifies the application of the precept 'to live in society'?",
+      "options": [
+        "A family raising children",
+        "A judge upholding justice",
+        "A community organizing a charity event",
+        "An individual pursuing higher education"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "A community organizing a charity event exemplifies 'to live in society', promoting social cohesion and cooperation."
+    },
+    {
+      "id": "aquinas-q7",
+      "question": "In the context of Natural Law, what is the significance of 'apparent goods'?",
+      "options": [
+        "They are goods that appear beneficial but are morally wrong",
+        "They are goods that are universally accepted",
+        "They are goods that are divinely mandated",
+        "They are goods that benefit the individual only"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Apparent goods' are those that seem beneficial but do not align with true moral goods, potentially leading individuals away from the moral law."
+    },
+    {
+      "id": "aquinas-q8",
+      "question": "Which primary precept is directly challenged by the practice of euthanasia?",
+      "options": [
+        "To live in society",
+        "To reproduce",
+        "To preserve life",
+        "To worship God"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Euthanasia challenges the precept 'to preserve life', as it involves intentionally ending a life, contrary to Natural Law's emphasis on life preservation."
+    },
+    {
+      "id": "aquinas-q9",
+      "question": "Which of the following is a criticism of Aquinas' reliance on human reason in his Natural Law theory?",
+      "options": [
+        "Human reason is infallible",
+        "Reason varies greatly among individuals",
+        "Reason is not necessary for moral decisions",
+        "Reason is purely subjective"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Aquinas' reliance on human reason is criticized because reason varies among individuals, potentially leading to different interpretations of moral laws."
+    },
+    {
+      "id": "aquinas-q10",
+      "question": "What is the ultimate purpose of the precept 'to worship God' in Aquinas' Natural Law?",
+      "options": [
+        "To achieve personal spiritual enlightenment",
+        "To maintain religious traditions",
+        "To align human will with divine purpose",
+        "To increase church attendance"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The precept 'to worship God' aims to align human will with divine purpose, reflecting the belief in God's ultimate authority in moral matters."
+    },
+    {
+      "id": "aquinas-q11",
+      "question": "Which of the following best describes an 'interior act' in Aquinas' Natural Law theory?",
+      "options": [
+        "The physical action taken",
+        "The intention behind an action",
+        "The societal impact of an action",
+        "The emotional response to an action"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "An 'interior act' refers to the intention behind an action, which is crucial for determining the moral value of the act in Natural Law."
+    },
+    {
+      "id": "aquinas-q12",
+      "question": "How does Aquinas' concept of 'double effect' apply to the moral dilemma of self-defense?",
+      "options": [
+        "It prohibits any form of self-defense",
+        "It allows self-defense if the intention is to preserve life",
+        "It justifies any harm caused in self-defense",
+        "It requires divine intervention for justification"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The 'double effect' allows self-defense if the intention is to preserve life, even if it inadvertently results in harm to the aggressor."
+    },
+    {
+      "id": "aquinas-q13",
+      "question": "Which primary precept is supported by the practice of marriage according to Aquinas?",
+      "options": [
+        "To seek knowledge",
+        "To preserve life",
+        "To reproduce",
+        "To live in society"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The practice of marriage supports the precept 'to reproduce', as it provides a stable environment for procreation and family life."
+    },
+    {
+      "id": "aquinas-q14",
+      "question": "Which of Aquinas' Primary Precepts is most concerned with the intellectual development of individuals?",
+      "options": [
+        "To reproduce",
+        "To seek knowledge",
+        "To live in society",
+        "To preserve life"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The precept 'to seek knowledge' is concerned with intellectual development, emphasizing learning and understanding as part of human nature."
+    },
+    {
+      "id": "aquinas-q15",
+      "question": "What is a major criticism of Aquinas' Natural Law from a relativist perspective?",
+      "options": [
+        "It supports cultural diversity",
+        "It is too flexible and subjective",
+        "It imposes a universal moral standard",
+        "It relies on outdated religious beliefs"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "From a relativist perspective, a major criticism is that Aquinas' Natural Law imposes a universal moral standard that may not account for cultural differences."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "plato-soul",
+  "subTopicTitle": "Plato's View of the Soul",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:46:38.660Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Plato's tripartite view of the soul.",
+      "keyPoints": [
+        "Plato's tripartite view consists of the rational, spirited, and appetitive parts.",
+        "The rational part seeks truth and is responsible for philosophical thinking.",
+        "The spirited part is responsible for emotions and courage.",
+        "The appetitive part deals with desires and basic needs."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all three parts of the soul with accurate descriptions.",
+        "partial": "Describes 1-2 parts accurately, or all three with insufficient detail.",
+        "none": "Missing key points or contains inaccuracies."
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how Plato uses the allegory of the chariot to illustrate his view of the soul.",
+      "keyPoints": [
+        "The charioteer represents the rational part of the soul, guiding the whole.",
+        "The white horse symbolizes the spirited part, noble and cooperative.",
+        "The dark horse represents the appetitive part, unruly and indulgent."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies the roles of the charioteer, white horse, and dark horse.",
+        "partial": "Identifies some roles correctly but lacks full explanation.",
+        "none": "Fails to accurately describe the allegory or its components."
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define Plato's concept of the Forms and their relation to the soul.",
+      "keyPoints": [
+        "Forms are perfect, immutable archetypes of all things.",
+        "The soul has knowledge of the Forms before birth.",
+        "The soul's goal is to recollect and understand the Forms."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately defines Forms and explains the soul's relationship to them.",
+        "partial": "Defines Forms or explains the soul's relationship, but not both.",
+        "none": "Fails to accurately define or relate Forms to the soul."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a person struggling with a decision between studying for an important exam and going out with friends. How would Plato's tripartite view of the soul explain their internal conflict?",
+      "keyPoints": [
+        "The rational part would prioritize studying for long-term benefits.",
+        "The spirited part might feel pressure to perform well and avoid guilt.",
+        "The appetitive part would desire immediate pleasure from socializing."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all three parts of the soul to the scenario accurately.",
+        "partial": "Applies 1-2 parts correctly or all three with minimal detail.",
+        "none": "Fails to apply Plato's view or misunderstands the parts."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a person is motivated by both their ambition to succeed and their desire for personal happiness. How would Plato's view of the soul interpret these motivations?",
+      "keyPoints": [
+        "The rational part aligns with ambition, aiming for success and reasoned goals.",
+        "The spirited part may drive them through feelings of pride and achievement.",
+        "The appetitive part seeks personal happiness and satisfaction."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the tripartite model to both motivations.",
+        "partial": "Partially applies the model or focuses on just one motivation.",
+        "none": "Does not relate the scenario to Plato's view or misinterprets it."
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person is faced with a moral dilemma: tell the truth and hurt a friend, or lie to protect them. How can Plato's view of the soul be used to analyze this situation?",
+      "keyPoints": [
+        "The rational part may advocate for truth as a moral good.",
+        "The spirited part could empathize with the friend's feelings.",
+        "The appetitive part might prefer lying to avoid conflict and maintain comfort."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all three parts of the soul to the dilemma effectively.",
+        "partial": "Applies 1-2 parts effectively or all parts with limited depth.",
+        "none": "Fails to apply the tripartite view or misunderstands the components."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Plato's tripartite theory of the soul using the PEEL structure.",
+      "keyPoints": [
+        "Point: Plato's theory provides a comprehensive framework for understanding human behavior.",
+        "Evidence: The tripartite model corresponds with everyday experiences of internal conflict.",
+        "Explanation: It offers a logical explanation for different motivations and desires.",
+        "Link: However, the theory is criticized for lacking empirical evidence and being overly simplistic."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes clear PEEL structure with balanced evaluation.",
+        "partial": "Uses PEEL but lacks detail or balance in evaluation.",
+        "none": "Fails to use PEEL or provides a one-sided/inaccurate evaluation."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess how effectively Plato's view of the soul addresses the relationship between reason and emotion.",
+      "keyPoints": [
+        "Point: Plato separates reason and emotion into distinct parts of the soul.",
+        "Evidence: The rational part governs reason, while the spirited part handles emotions.",
+        "Explanation: This separation explains internal struggles between logic and feelings.",
+        "Link: Critics argue it oversimplifies the complexity of human psychology and lacks scientific basis."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a thorough assessment with balanced argumentation.",
+        "partial": "Addresses the relationship but lacks depth or balance.",
+        "none": "Fails to adequately assess the relationship or misinterprets Plato."
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the relevance of Plato's theory of the soul in contemporary philosophical and psychological discussions.",
+      "keyPoints": [
+        "Point: Plato's theory still influences contemporary thought on the mind-body problem.",
+        "Evidence: Modern psychology explores similar concepts like the conscious and subconscious.",
+        "Explanation: His ideas contribute to debates on dualism and the nature of self.",
+        "Link: However, many modern philosophers find his lack of empirical support problematic."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Offers a well-rounded evaluation with contemporary connections.",
+        "partial": "Makes some connections but lacks depth or breadth.",
+        "none": "Fails to relate Plato's theory to contemporary discussions or is overly simplistic."
+      }
+    }
+  ]
+}

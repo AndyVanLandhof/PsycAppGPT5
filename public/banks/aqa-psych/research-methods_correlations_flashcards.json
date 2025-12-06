@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "correlations",
+  "subTopicTitle": "Correlations",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:38:52.009Z",
+  "items": [
+    {
+      "question": "What is a correlation?",
+      "answer": "A correlation is a statistical measure that expresses the extent to which two variables are linearly related.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define positive correlation.",
+      "answer": "A positive correlation occurs when an increase in one variable is associated with an increase in another variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define negative correlation.",
+      "answer": "A negative correlation occurs when an increase in one variable is associated with a decrease in another variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a zero correlation?",
+      "answer": "Zero correlation indicates no linear relationship between two variables; changes in one variable do not predict changes in another.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Cohen (1988) suggest about correlation coefficients?",
+      "answer": "Cohen (1988) suggested that correlation coefficients of 0.1 are small, 0.3 are medium, and 0.5 are large.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define correlation coefficient.",
+      "answer": "A correlation coefficient is a numerical index ranging from -1 to +1 that indicates the strength and direction of a relationship between two variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What does a correlation coefficient of -1 indicate?",
+      "answer": "A correlation coefficient of -1 indicates a perfect negative linear relationship between two variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What does a correlation coefficient of +1 indicate?",
+      "answer": "A correlation coefficient of +1 indicates a perfect positive linear relationship between two variables.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a scatterplot?",
+      "answer": "A scatterplot is a graph used to visually display the relationship between two quantitative variables, showing data points plotted on a two-dimensional plane.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the purpose of a correlation study?",
+      "answer": "The purpose of a correlation study is to determine whether and how strongly two variables are related.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the third variable problem?",
+      "answer": "The third variable problem occurs when an unmeasured variable influences the variables being studied, potentially leading to erroneous conclusions about their relationship.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define spurious correlation.",
+      "answer": "A spurious correlation is a false relationship between two variables caused by a third variable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does correlation apply to this scenario: High ice cream sales and crime rates increase simultaneously?",
+      "answer": "This is a positive correlation; both variables increase together, potentially due to a third variable like temperature.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply correlation to this scenario: Students' study time and exam scores.",
+      "answer": "A positive correlation likely exists; increased study time is associated with higher exam scores.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does correlation apply to this scenario: Number of firefighters and extent of fire damage?",
+      "answer": "A positive correlation exists; more firefighters are needed as fire damage increases. This does not imply causation.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply correlation to this scenario: Hours of video gaming and aggressive behavior in adolescents.",
+      "answer": "A positive correlation may be observed; increased gaming hours could be associated with higher aggression levels, though causation is not implied.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of using correlations in research.",
+      "answer": "Correlations can identify relationships between variables, providing a basis for further research and hypothesis generation.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of using correlations in research.",
+      "answer": "Correlations do not establish causation, meaning they cannot determine if changes in one variable cause changes in another.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of correlational studies.",
+      "answer": "Correlational studies are often quick and cost-effective but are limited by the inability to infer causal relationships due to potential confounding variables.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one potential issue with interpreting correlations.",
+      "answer": "Interpreting correlations can be problematic due to the presence of outliers, which can skew results and lead to misleading conclusions.",
+      "ao": "AO3"
+    }
+  ]
+}

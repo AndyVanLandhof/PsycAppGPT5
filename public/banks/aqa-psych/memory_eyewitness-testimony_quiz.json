@@ -5,189 +5,202 @@
   "subTopic": "eyewitness-testimony",
   "subTopicTitle": "Eyewitness testimony",
   "type": "quiz",
-  "generatedAt": "2025-12-06T09:46:57.175Z",
+  "generatedAt": "2025-12-06T10:16:05.255Z",
   "items": [
     {
       "id": "eyewitness-testimony-q1",
-      "question": "Which psychologist conducted a study in 1974 that demonstrated the misinformation effect?",
+      "question": "What is the main focus of Loftus and Palmer's 1974 study on eyewitness testimony?",
       "options": [
-        "Elizabeth Loftus",
-        "Hermann Ebbinghaus",
-        "George Sperling",
-        "Alan Baddeley"
+        "The effect of leading questions on memory recall",
+        "The impact of anxiety on eyewitness accuracy",
+        "The role of age in eyewitness reliability",
+        "The influence of post-event discussion on memory"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Elizabeth Loftus conducted a study in 1974 that showed how misleading post-event information can affect eyewitness memory."
+      "explanation": "Loftus and Palmer (1974) investigated how the wording of questions could influence participants' memories of a car accident."
     },
     {
       "id": "eyewitness-testimony-q2",
-      "question": "What term describes the phenomenon where eyewitnesses recall different details about an event after being exposed to misleading information?",
+      "question": "Which term describes the memory distortion that occurs when misleading information is incorporated into one's memory after an event?",
       "options": [
-        "Reconstruction",
-        "Confabulation",
-        "Source Misattribution",
-        "Misinformation Effect"
+        "Misinformation effect",
+        "Context-dependent forgetting",
+        "Proactive interference",
+        "Retroactive interference"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The Misinformation Effect refers to the impairment of memory for the past caused by the introduction of misleading information."
+      "explanation": "The misinformation effect refers to the phenomenon where misleading information presented after an event can alter a person's memory of the event."
     },
     {
       "id": "eyewitness-testimony-q3",
-      "question": "In which year did Loftus and Palmer conduct their famous car crash study?",
+      "question": "What did Gabbert et al. (2003) find in their study on post-event discussion?",
       "options": [
-        "1967",
-        "1974",
-        "1990",
-        "1980"
+        "Witnesses who discussed the event were more accurate in their recall",
+        "Discussion decreased the confidence of witnesses in their own memories",
+        "Post-event discussion can lead to memory conformity among witnesses",
+        "Witnesses who did not discuss the event had worse recall"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Loftus and Palmer's study on eyewitness testimony and how leading questions affect recall was conducted in 1974."
+      "explanation": "Gabbert et al. (2003) found that post-event discussion can lead to memory conformity, where witnesses' memories become more similar after discussing the event."
     },
     {
       "id": "eyewitness-testimony-q4",
-      "question": "What is the term for the ability to recall the exact context in which a piece of information was learned?",
+      "question": "Which researcher is known for their work on reconstructive memory?",
       "options": [
-        "Context-dependent memory",
-        "State-dependent memory",
-        "Cue-dependent memory",
-        "Episodic memory"
+        "Elizabeth Loftus",
+        "Hermann Ebbinghaus",
+        "Frederic Bartlett",
+        "Endel Tulving"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Context-dependent memory refers to improved recall of specific episodes or information when the context present at encoding and retrieval are the same."
+      "explanation": "Frederic Bartlett is known for his theory of reconstructive memory, where he suggested that memories are influenced by our own beliefs and expectations."
     },
     {
       "id": "eyewitness-testimony-q5",
-      "question": "Which study demonstrated that eyewitness accounts can be distorted by the phrasing of questions?",
+      "question": "What is a cognitive interview?",
       "options": [
-        "Bahrick et al. (1975)",
-        "Loftus and Palmer (1974)",
-        "Yuille and Cutshall (1986)",
-        "Cohen (1981)"
+        "A method to assess intelligence through memory recall tasks",
+        "A technique to improve eyewitness recall by recreating the context of the incident",
+        "An approach to test working memory capacity",
+        "A method to evaluate the impact of leading questions"
       ],
       "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "Loftus and Palmer (1974) found that the wording of questions influenced participants' memory recall of a car accident."
+      "explanation": "The cognitive interview is a method used to enhance the retrieval of accurate memories by asking eyewitnesses to mentally recreate the context of the event."
     },
     {
       "id": "eyewitness-testimony-q6",
-      "question": "What is the primary focus of the cognitive interview technique developed by Fisher and Geiselman?",
+      "question": "What did Johnson and Scott (1976) investigate in their study on eyewitness testimony?",
       "options": [
-        "Enhancing memory retrieval",
-        "Reducing interview duration",
-        "Minimizing leading questions",
-        "Improving confidence in eyewitness reports"
+        "The effect of anxiety on memory accuracy",
+        "The impact of leading questions on recall",
+        "The influence of age on eyewitness reliability",
+        "The role of post-event information on memory distortion"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The cognitive interview technique aims to enhance memory retrieval by using various strategies to improve the accuracy of eyewitness accounts."
+      "explanation": "Johnson and Scott (1976) studied the effect of anxiety on eyewitness testimony by examining how the presence of a weapon influenced memory accuracy."
     },
     {
       "id": "eyewitness-testimony-q7",
-      "question": "Which of the following factors is NOT known to influence eyewitness testimony?",
+      "question": "Which concept explains why people remember details of a traumatic event differently?",
       "options": [
-        "Stress levels",
-        "The presence of a weapon",
-        "The age of the witness",
-        "The time of day"
+        "Weapon focus effect",
+        "Context-dependent forgetting",
+        "Repression",
+        "State-dependent memory"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "While stress, weapon presence, and witness age can impact eyewitness testimony, the time of day is not typically considered a significant factor."
+      "explanation": "The weapon focus effect suggests that the presence of a weapon can distract attention, leading to poorer memory for other details of the event."
     },
     {
       "id": "eyewitness-testimony-q8",
-      "question": "In the context of eyewitness testimony, what does the term 'retroactive interference' refer to?",
+      "question": "In the context of eyewitness testimony, what is 'source monitoring'?",
       "options": [
-        "Failure to encode information",
-        "New information disrupting the recall of old information",
-        "The effect of stress on memory",
-        "The enhancement of memory retrieval"
+        "Identifying the origin of a memory",
+        "Remembering the sequence of events",
+        "Distinguishing between factual and imagined events",
+        "Recalling the emotional state during the event"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Retroactive interference occurs when new information interferes with the ability to recall previously learned information, affecting eyewitness testimony."
+      "explanation": "Source monitoring involves identifying the source of a memory, which is crucial for distinguishing between memories of actual events and those influenced by external information."
     },
     {
       "id": "eyewitness-testimony-q9",
-      "question": "A researcher presents two groups of participants with a video of a robbery and then asks one group misleading questions about the event. What does this study primarily test?",
+      "question": "Which of the following is a key component of the cognitive interview technique?",
       "options": [
-        "The reliability of eyewitness memory",
-        "The impact of stress on memory",
-        "The effectiveness of cognitive interviews",
-        "The influence of age on memory recall"
+        "Using closed questions",
+        "Encouraging free recall",
+        "Suggesting answers to the witness",
+        "Focusing on peripheral details"
       ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "This study tests the reliability of eyewitness memory by examining how misleading questions can alter participants' recollections of the robbery."
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "A key component of the cognitive interview is encouraging free recall, allowing witnesses to describe events in their own words without interruption."
     },
     {
       "id": "eyewitness-testimony-q10",
-      "question": "In a courtroom scenario, a witness is asked about their recollection of an event that happened two years ago. What factor could negatively influence their testimony?",
+      "question": "A witness recalls seeing a red car at the crime scene, but there was no red car present. What might explain this false memory?",
       "options": [
-        "The witness's confidence level",
-        "The time elapsed since the event",
-        "The clarity of the video evidence",
-        "The presence of other witnesses"
+        "Misinformation effect from leading questions",
+        "High levels of anxiety during the event",
+        "Source monitoring error",
+        "Context-dependent memory failure"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "ao": "AO2",
-      "explanation": "The time elapsed since the event can negatively impact the accuracy of a witness's memory, as memories can fade or become distorted over time."
+      "explanation": "A source monitoring error could cause a false memory, as the witness might confuse information from an external source with their own memory of the event."
     },
     {
       "id": "eyewitness-testimony-q11",
-      "question": "A police officer uses a cognitive interview with a witness who observed a crime. Which technique is most likely to be employed?",
+      "question": "During a trial, a lawyer uses leading questions to influence a witness's testimony. What effect might this have?",
       "options": [
-        "Asking leading questions",
-        "Encouraging the witness to visualize the scene",
-        "Providing multiple-choice answers",
-        "Limiting the amount of time for responses"
+        "Enhance the accuracy of the witness's memory",
+        "Cause the witness to forget key details",
+        "Introduce the misinformation effect",
+        "Improve the witness's confidence in their testimony"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "ao": "AO2",
-      "explanation": "Encouraging the witness to visualize the scene is a technique used in cognitive interviews to help improve the accuracy of recall."
+      "explanation": "Leading questions can introduce the misinformation effect, where misleading information alters the witness's memory of the event."
     },
     {
       "id": "eyewitness-testimony-q12",
-      "question": "A study on eyewitness testimony finds that older adults are less accurate than younger adults in recalling events. What could be a methodological issue with this finding?",
+      "question": "A witness is more likely to identify a suspect if they are of the same race. What is this phenomenon called?",
       "options": [
-        "Sample size",
-        "Age bias",
-        "Memory decay",
-        "Ecological validity"
+        "Own-race bias",
+        "Cross-race effect",
+        "Stereotype threat",
+        "Confirmation bias"
       ],
-      "correctAnswer": 3,
-      "ao": "AO3",
-      "explanation": "Ecological validity may be an issue if the study's conditions do not reflect real-life situations, potentially affecting the generalizability of the findings on age differences in memory accuracy."
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Own-race bias refers to the tendency for people to more accurately recognize faces of their own race compared to those of other races."
     },
     {
       "id": "eyewitness-testimony-q13",
-      "question": "What is a limitation of using laboratory studies, like Loftus and Palmer's, to investigate eyewitness testimony?",
+      "question": "Which statement is a limitation of Loftus and Palmer's 1974 study on eyewitness testimony?",
       "options": [
-        "Lack of control over variables",
-        "Artificiality of the situation",
-        "Small sample sizes",
-        "Inconsistent results"
+        "It lacks ecological validity due to its laboratory setting",
+        "The sample size was too large to draw valid conclusions",
+        "The study only focused on adult participants",
+        "The findings cannot be replicated in other settings"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Laboratory studies often suffer from artificiality, which may not accurately represent real-life eyewitness situations, thus limiting the ecological validity of the findings."
+      "explanation": "Loftus and Palmer's study has been criticized for lacking ecological validity, as the artificial laboratory conditions may not reflect real-life scenarios."
     },
     {
       "id": "eyewitness-testimony-q14",
-      "question": "What is a strength of using real-life studies, such as Yuille and Cutshall's, over laboratory studies of eyewitness testimony?",
+      "question": "What is a strength of using a cognitive interview compared to a standard police interview?",
       "options": [
-        "Higher control over variables",
-        "More realistic settings",
-        "Less participant variability",
-        "Easier replication"
+        "It reduces the time needed to conduct the interview",
+        "It decreases the accuracy of the witness's recall",
+        "It is based on psychological theories of memory",
+        "It allows the interviewer to lead the witness"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The cognitive interview is based on psychological theories of memory, such as context-dependent memory, which can enhance the accuracy of recall."
+    },
+    {
+      "id": "eyewitness-testimony-q15",
+      "question": "What methodological issue might arise from using real crime witnesses in memory research?",
+      "options": [
+        "High control over variables",
+        "Difficulty in establishing cause and effect",
+        "Increased reliability due to natural settings",
+        "Improved validity through controlled variables"
       ],
       "correctAnswer": 1,
       "ao": "AO3",
-      "explanation": "Yuille and Cutshall's study provides more realistic settings, which can enhance the ecological validity of the findings compared to laboratory studies."
+      "explanation": "Using real crime witnesses can make it difficult to establish cause and effect due to the lack of control over extraneous variables in natural settings."
     }
   ]
 }

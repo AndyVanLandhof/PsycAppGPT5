@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "learning-approaches-behaviourism",
+  "subTopicTitle": "Learning approaches: Behaviourist",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:21:36.840Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define classical conditioning and identify its key components.",
+      "keyPoints": [
+        "Classical conditioning is a learning process that occurs through associations between an environmental stimulus and a naturally occurring stimulus.",
+        "Key components include: unconditioned stimulus (UCS), unconditioned response (UCR), conditioned stimulus (CS), and conditioned response (CR).",
+        "Example: Pavlov's experiment with dogs, where a bell (CS) was associated with food (UCS) to produce salivation (CR)."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the process of operant conditioning and its main components.",
+      "keyPoints": [
+        "Operant conditioning is a learning process through which the strength of a behavior is modified by reinforcement or punishment.",
+        "Main components include: positive reinforcement, negative reinforcement, positive punishment, and negative punishment.",
+        "Example: Skinner's experiments with rats, where pressing a lever (behavior) was reinforced by food (positive reinforcement)."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the role of reinforcement in the behaviorist approach?",
+      "keyPoints": [
+        "Reinforcement is used to increase the likelihood of a behavior being repeated.",
+        "Positive reinforcement involves presenting a rewarding stimulus after the behavior.",
+        "Negative reinforcement involves removing an aversive stimulus after the behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A teacher notices that students participate more in class when they receive praise. Apply operant conditioning principles to explain this behavior.",
+      "keyPoints": [
+        "The teacher's praise acts as positive reinforcement.",
+        "The praise (rewarding stimulus) increases the likelihood of the behavior (participating in class) being repeated.",
+        "This is an example of operant conditioning where reinforcement is used to modify behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies operant conditioning principles accurately to the scenario with all key points",
+        "partial": "Applies some principles but misses key details or explanations",
+        "none": "Misapplication of operant conditioning principles"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of classical conditioning to explain why a person might develop a fear of dogs after being bitten by one.",
+      "keyPoints": [
+        "The dog bite is the unconditioned stimulus (UCS) causing pain and fear, the unconditioned response (UCR).",
+        "The sight of a dog becomes the conditioned stimulus (CS) after being associated with the UCS.",
+        "Fear when seeing a dog becomes the conditioned response (CR)."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies classical conditioning principles accurately to the scenario with all key points",
+        "partial": "Applies some principles but misses key details or explanations",
+        "none": "Misapplication of classical conditioning principles"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child stops throwing tantrums in public after their parents start ignoring them. Use operant conditioning to explain this change in behavior.",
+      "keyPoints": [
+        "The parents' ignoring acts as negative punishment, as it removes attention the child seeks.",
+        "This reduces the likelihood of the tantrum behavior being repeated.",
+        "The change in behavior is explained by operant conditioning where punishment modifies behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies operant conditioning principles accurately to the scenario with all key points",
+        "partial": "Applies some principles but misses key details or explanations",
+        "none": "Misapplication of operant conditioning principles"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and limitations of the behaviorist approach in psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: The behaviorist approach has practical applications, such as in behavior modification therapies.",
+        "Evidence: Techniques like systematic desensitization have been successful in treating phobias.",
+        "Explanation: This highlights the approach's utility in real-world settings.",
+        "Limitation: The approach is criticized for being deterministic and ignoring internal mental processes."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a balanced evaluation using the PEEL structure with all key points",
+        "partial": "Evaluates with some structure and key points but lacks balance or detail",
+        "none": "Lacks structure or key evaluative points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how the behaviorist approach contributes to scientific research in psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: The behaviorist approach emphasizes the importance of scientific methods.",
+        "Evidence: Use of controlled laboratory experiments, such as Skinner's box.",
+        "Explanation: This enhances the reliability and validity of psychological research.",
+        "Limitation: The approach may oversimplify complex human behaviors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a balanced discussion using the PEEL structure with all key points",
+        "partial": "Discusses with some structure and key points but lacks balance or detail",
+        "none": "Lacks structure or key discussion points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the ethical implications of behaviorist experiments using the PEEL structure.",
+      "keyPoints": [
+        "Point: Some behaviorist experiments raise ethical concerns.",
+        "Evidence: Example of Watson and Rayner's Little Albert experiment causing distress.",
+        "Explanation: Highlights issues with informed consent and psychological harm.",
+        "Limitation: Despite ethical issues, these studies have contributed valuable insights."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a critical assessment using the PEEL structure with all key points",
+        "partial": "Assesses with some structure and key points but lacks balance or detail",
+        "none": "Lacks structure or key critical points"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "utilitarianism",
+  "topicTitle": "Utilitarianism",
+  "subTopic": "bentham-hedonic",
+  "subTopicTitle": "Bentham & the Hedonic Calculus",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:59:40.147Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is Jeremy Bentham's principle of utility and how does it relate to the concept of the greatest happiness?",
+      "keyPoints": [
+        "The principle of utility is the idea that the best action is the one that maximizes utility.",
+        "Utility is defined as the greatest happiness for the greatest number.",
+        "Bentham's utilitarianism focuses on the consequences of actions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the components of Bentham’s Hedonic Calculus.",
+      "keyPoints": [
+        "Intensity (how strong the pleasure is)",
+        "Duration (how long the pleasure lasts)",
+        "Certainty (how likely the pleasure is to occur)",
+        "Propinquity (how soon the pleasure will occur)",
+        "Fecundity (the likelihood of the pleasure leading to more pleasure)",
+        "Purity (the likelihood of the pleasure not being followed by pain)",
+        "Extent (how many people are affected)"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 4-6 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'hedonism' as used in utilitarian philosophy.",
+      "keyPoints": [
+        "Hedonism is the belief that pleasure is the highest good and proper aim of human life.",
+        "In utilitarianism, hedonism is central to the calculation of the greatest happiness.",
+        "Hedonism evaluates actions based on their capacity to produce pleasure or reduce pain."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A company is deciding whether to implement a new policy that will increase profits but result in job losses. Apply Bentham's utilitarianism to decide the best course of action.",
+      "keyPoints": [
+        "Consider the overall happiness versus unhappiness resulting from the policy.",
+        "Use the Hedonic Calculus to evaluate intensity, duration, certainty, etc.",
+        "Assess whether the increase in profit (happiness) outweighs the job losses (unhappiness)."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies Hedonic Calculus accurately with detailed reasoning",
+        "partial": "Attempts to apply the calculus but lacks detail or accuracy",
+        "none": "Fails to apply the calculus correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A hospital must choose between funding a new children's ward or an elderly care unit. Use Bentham's Hedonic Calculus to analyze which option to support.",
+      "keyPoints": [
+        "Evaluate the pleasure and pain for both children and elderly patients.",
+        "Consider factors like duration and extent of happiness for each choice.",
+        "Apply the calculus to determine which option maximizes utility."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Comprehensive application of the Hedonic Calculus with clear reasoning",
+        "partial": "Attempts to apply the calculus with limited detail or clarity",
+        "none": "Fails to apply the calculus appropriately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A city council is considering building a new park which will increase community happiness but requires cutting down some trees. Apply Bentham’s theory to this decision.",
+      "keyPoints": [
+        "Assess the overall happiness versus unhappiness from building the park.",
+        "Use Hedonic Calculus to evaluate each factor like certainty and fecundity.",
+        "Determine if the happiness from the park outweighs the environmental impact."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed application of Bentham’s theory using Hedonic Calculus",
+        "partial": "Partial application with some understanding of the calculus",
+        "none": "Inaccurate or missing application of the calculus"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Bentham’s Hedonic Calculus using the PEEL structure.",
+      "keyPoints": [
+        "Strength: Provides a systematic way to measure pleasure and pain.",
+        "Weakness: Quantifying happiness can be subjective and difficult.",
+        "PEEL: Point, Evidence, Explanation, Link to argumentation."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Detailed evaluation using PEEL structure with strengths and weaknesses",
+        "partial": "Covers some points but lacks depth or structure",
+        "none": "Lacks evaluation or fails to use PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the practicality of applying Bentham’s utilitarianism in real-world decision-making.",
+      "keyPoints": [
+        "Assess ease of use in complex situations with multiple variables.",
+        "Discuss challenges in predicting outcomes accurately.",
+        "Consider the time and resources required to apply the calculus."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Comprehensive assessment with well-supported arguments",
+        "partial": "Some assessment but lacks comprehensive analysis",
+        "none": "Fails to critically assess or lacks supporting arguments"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze how cultural differences might affect the application of Bentham's utilitarian principles.",
+      "keyPoints": [
+        "Cultural differences can influence perceptions of pleasure and pain.",
+        "Some cultures may prioritize community over individual happiness.",
+        "Consider how cultural values affect the extent and intensity calculations."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "In-depth analysis considering cultural variations with examples",
+        "partial": "Some analysis but lacks depth or cultural consideration",
+        "none": "Lacks analysis or fails to consider cultural differences"
+      }
+    }
+  ]
+}

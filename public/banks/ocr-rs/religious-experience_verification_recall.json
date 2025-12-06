@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "verification",
+  "subTopicTitle": "Verification Challenges",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:55:35.814Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'religious experience' and explain its significance in religious studies.",
+      "keyPoints": [
+        "Religious experience refers to a subjective encounter with the divine or a sense of the sacred.",
+        "It is significant because it provides individuals with a direct connection to the divine, supporting faith.",
+        "Varieties include mystical experiences, conversion experiences, and numinous experiences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe two major challenges to verifying religious experiences.",
+      "keyPoints": [
+        "Subjectivity: Religious experiences are personal and cannot be objectively verified.",
+        "Lack of empirical evidence: These experiences often lack physical evidence to support them.",
+        "Varied interpretations: Different religions and cultures interpret similar experiences differently."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is Swinburne's Principle of Credulity and how does it relate to religious experience?",
+      "keyPoints": [
+        "The Principle of Credulity suggests that we should generally trust our experiences unless we have reason to doubt them.",
+        "Swinburne argues that religious experiences should be considered credible unless they can be proven otherwise.",
+        "This principle supports the idea that religious experiences can be genuine encounters with the divine."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person claims to have had a vision of a religious figure. How might Swinburne's Principle of Testimony apply to this scenario?",
+      "keyPoints": [
+        "The Principle of Testimony suggests that we should trust others' experiences unless we have reason to doubt them.",
+        "In this scenario, unless there is evidence to the contrary, the vision should be considered credible.",
+        "This principle supports accepting reported religious experiences as valid testimonies of divine encounters."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the principle accurately with reference to the scenario",
+        "partial": "Mentions the principle but lacks application to the scenario",
+        "none": "Fails to apply the principle or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a situation where two individuals from different religions report similar religious experiences. How might this impact the verification of these experiences?",
+      "keyPoints": [
+        "Similar experiences across religions could suggest a common psychological or neurological basis.",
+        "This might challenge the uniqueness of these experiences, impacting their verification as divine.",
+        "However, it could also support the universality of religious experience, reinforcing their significance."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies reasoning to the scenario with reference to verification challenges",
+        "partial": "Partially applies reasoning or lacks depth",
+        "none": "Fails to apply reasoning or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher claims that religious experiences are purely the result of brain activity. How might this claim be evaluated in terms of verification?",
+      "keyPoints": [
+        "This claim suggests a naturalistic explanation, reducing the need for divine verification.",
+        "It challenges the authenticity of religious experiences as encounters with the divine.",
+        "However, it may not account for the personal significance and transformative impact of such experiences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies reasoning with reference to verification challenges",
+        "partial": "Partially applies reasoning or lacks depth",
+        "none": "Fails to apply reasoning or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the argument that religious experiences cannot be verified due to their subjective nature.",
+      "keyPoints": [
+        "Point: Subjectivity makes religious experiences difficult to verify objectively.",
+        "Evidence: Personal and varied nature of experiences across individuals.",
+        "Evaluation: While subjective, they hold significant personal meaning and impact.",
+        "Link: This challenges but does not necessarily negate the validity of religious experiences."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure with depth and detail",
+        "partial": "Partial evaluation or lacks depth",
+        "none": "Fails to evaluate effectively or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the claim that empirical evidence is necessary to verify religious experiences.",
+      "keyPoints": [
+        "Point: Empirical evidence offers objective verification.",
+        "Evidence: Lack of empirical evidence limits scientific validation.",
+        "Evaluation: Religious experiences may transcend empirical scrutiny, focusing on personal significance.",
+        "Link: This raises questions about the nature and purpose of verification in religious contexts."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure with depth and detail",
+        "partial": "Partial evaluation or lacks depth",
+        "none": "Fails to evaluate effectively or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the impact of cultural differences on the verification of religious experiences.",
+      "keyPoints": [
+        "Point: Cultural differences affect how experiences are interpreted and understood.",
+        "Evidence: Varied religious contexts lead to different explanations for similar experiences.",
+        "Evaluation: This complicates verification, as experiences may be culturally constructed.",
+        "Link: Raises questions about the universality and objectivity of religious experiences."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure with depth and detail",
+        "partial": "Partial evaluation or lacks depth",
+        "none": "Fails to evaluate effectively or is inaccurate"
+      }
+    }
+  ]
+}

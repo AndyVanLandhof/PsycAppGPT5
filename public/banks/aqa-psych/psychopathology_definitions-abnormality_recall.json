@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "definitions-abnormality",
+  "subTopicTitle": "Definitions of abnormality",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:34:33.450Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'statistical infrequency' as a definition of abnormality.",
+      "keyPoints": [
+        "Abnormality is defined as behaviors that are rare or not found in the majority of the population.",
+        "Often measured using statistics and standard deviations from the norm.",
+        "Example: IQ below 70 could be considered statistically infrequent."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'deviation from social norms' in defining abnormality.",
+      "keyPoints": [
+        "Abnormality is defined as behavior that violates the unwritten rules of society.",
+        "Social norms are culturally specific and can change over time.",
+        "Example: Talking to oneself in public may be seen as abnormal."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the 'failure to function adequately' definition of abnormality.",
+      "keyPoints": [
+        "Abnormality is defined as an inability to cope with day-to-day living.",
+        "Includes behavior that is maladaptive, irrational, or causes personal distress.",
+        "Example: Severe anxiety preventing someone from holding a job."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah has been feeling extremely sad for weeks, unable to get out of bed or take care of herself. Apply the 'failure to function adequately' definition to her situation.",
+      "keyPoints": [
+        "Sarah's inability to perform daily tasks like getting out of bed is a sign of failure to function.",
+        "Her prolonged sadness and inability to care for herself could indicate maladaptive behavior.",
+        "This aligns with the definition of abnormality as inability to cope with daily life."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the definition accurately to the scenario with detail",
+        "partial": "Applies the definition with some detail or partial accuracy",
+        "none": "Fails to apply the definition accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "John often interrupts people during conversations due to his excitement, leading to awkward social interactions. How might the 'deviation from social norms' definition of abnormality be applied here?",
+      "keyPoints": [
+        "John's behavior violates social norms of turn-taking in conversations.",
+        "His interruptions may be seen as socially inappropriate or abnormal.",
+        "This reflects deviation from expected social behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies the definition to the scenario with detail",
+        "partial": "Some application of the definition with limited detail",
+        "none": "Fails to apply the definition accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A community considers wearing bright colors at funerals as abnormal. Use 'deviation from social norms' to explain this perspective.",
+      "keyPoints": [
+        "Wearing bright colors at funerals may violate cultural norms for mourning.",
+        "This behavior is considered abnormal as it deviates from expected attire.",
+        "Social norms can vary greatly between different communities."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies the definition to the scenario with cultural context",
+        "partial": "Some application of the definition with limited cultural context",
+        "none": "Fails to apply the definition accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the limitations of using 'statistical infrequency' as a definition of abnormality.",
+      "keyPoints": [
+        "Not all rare behaviors are undesirable (e.g., high intelligence).",
+        "Ignores cultural differences in what is considered normal.",
+        "Does not account for the desirability of a behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with all key points using PEEL structure",
+        "partial": "Evaluates with 1-2 key points or lacks structure",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and weaknesses of the 'deviation from social norms' definition of abnormality.",
+      "keyPoints": [
+        "Strength: Considers the impact of behavior on society.",
+        "Weakness: Subjective and can lead to abuse (e.g., political control).",
+        "Cultural relativism is a significant issue as norms vary."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses with all key points using PEEL structure",
+        "partial": "Discusses with 1-2 key points or lacks structure",
+        "none": "Fails to discuss effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the 'failure to function adequately' definition of abnormality, considering its application and limitations.",
+      "keyPoints": [
+        "Considers individual's experience, making it comprehensive.",
+        "Subjective judgment is involved in determining adequacy.",
+        "May overlap with other definitions, such as 'deviation from social norms.'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with all key points using PEEL structure",
+        "partial": "Evaluates with 1-2 key points or lacks structure",
+        "none": "Fails to evaluate effectively"
+      }
+    }
+  ]
+}

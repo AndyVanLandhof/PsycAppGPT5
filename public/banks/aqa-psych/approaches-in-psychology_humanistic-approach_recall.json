@@ -1,0 +1,147 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "humanistic-approach",
+  "subTopicTitle": "Humanistic approach",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:29:31.549Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the key principles of the humanistic approach in psychology?",
+      "keyPoints": [
+        "Focus on free will",
+        "Self-actualization",
+        "Holistic view of the individual"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define self-actualization according to Maslow's hierarchy of needs.",
+      "keyPoints": [
+        "The realization of one's potential",
+        "Top level of Maslow's hierarchy",
+        "Achievement of personal growth and fulfillment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Carl Rogers' concept of 'unconditional positive regard'.",
+      "keyPoints": [
+        "Acceptance and support regardless of what a person says or does",
+        "Essential for achieving self-actualization",
+        "Part of client-centered therapy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Maria is struggling with low self-esteem and feels she has not reached her potential. How might a humanistic psychologist approach her situation?",
+      "keyPoints": [
+        "Focus on self-actualization and personal growth",
+        "Use of client-centered therapy",
+        "Emphasis on unconditional positive regard"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply relevant theory to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "James feels his life lacks meaning and purpose. How might the humanistic approach explain and address this issue?",
+      "keyPoints": [
+        "Lack of self-actualization",
+        "Need for personal growth and fulfillment",
+        "Therapeutic focus on finding meaning and purpose"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply relevant theory to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Lena is undergoing therapy for anxiety and her therapist uses a humanistic approach. What techniques might the therapist use?",
+      "keyPoints": [
+        "Client-centered therapy",
+        "Unconditional positive regard",
+        "Focus on personal growth and self-fulfillment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to the scenario with accurate detail",
+        "partial": "Applies 1-2 key points or lacks detail",
+        "none": "Fails to apply relevant theory to the scenario"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the humanistic approach in psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: Emphasis on free will and personal responsibility",
+        "Explanation: Encourages self-growth and self-awareness",
+        "Evidence: Effective in therapy for personal development",
+        "Limitation: Lack of empirical evidence and scientific rigor"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail and clear PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detail/structure",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and weaknesses of the humanistic approach in psychology.",
+      "keyPoints": [
+        "Strength: Holistic approach considers the whole person",
+        "Weakness: Subjective nature limits scientific validation",
+        "Strength: Positive impact on therapy and personal growth"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the impact of the humanistic approach on contemporary psychology.",
+      "keyPoints": [
+        "Influence on therapy practices",
+        "Contribution to positive psychology",
+        "Criticism for lack of scientific methodology"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

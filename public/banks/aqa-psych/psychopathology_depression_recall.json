@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "depression",
+  "subTopicTitle": "Depression",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:35:54.244Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define depression and identify its main symptoms according to the DSM-5.",
+      "keyPoints": [
+        "Depression is a mood disorder characterized by persistent feelings of sadness and loss of interest.",
+        "Main symptoms include depressed mood, loss of interest, significant weight change, insomnia or hypersomnia, fatigue, feelings of worthlessness, diminished ability to concentrate, recurrent thoughts of death.",
+        "Symptoms must cause significant distress or impairment in social, occupational, or other important areas of functioning."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a clear definition and at least three main symptoms",
+        "partial": "Includes a definition and one or two symptoms",
+        "none": "Missing definition or symptoms"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline Beck's cognitive theory of depression.",
+      "keyPoints": [
+        "Beck's theory suggests that depression is caused by negative thinking patterns.",
+        "Includes concepts such as the negative triad, which involves negative views about the self, the world, and the future.",
+        "The theory involves cognitive biases such as overgeneralization and catastrophizing."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains the negative triad and cognitive biases",
+        "partial": "Mentions the negative triad or cognitive biases but lacks detail",
+        "none": "Does not accurately describe Beck's theory"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Ellis’s ABC model in relation to depression.",
+      "keyPoints": [
+        "The ABC model stands for Activating event, Beliefs, and Consequences.",
+        "Ellis argues that irrational beliefs about activating events lead to negative emotional and behavioral consequences.",
+        "Depression can result from these irrational beliefs leading to maladaptive consequences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly describes each component of the ABC model",
+        "partial": "Describes some components but lacks detail",
+        "none": "Fails to accurately describe the ABC model"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah has been feeling persistently sad, has lost interest in her hobbies, and struggles to concentrate. Apply Beck’s cognitive theory to explain Sarah’s condition.",
+      "keyPoints": [
+        "Sarah's symptoms align with Beck's concept of the negative triad.",
+        "She may have negative views about herself (e.g., 'I am worthless'), the world (e.g., 'no one cares about me'), and the future (e.g., 'things will never get better').",
+        "Cognitive biases such as overgeneralization may exacerbate her depression."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the negative triad and cognitive biases to Sarah’s symptoms",
+        "partial": "Mentions the negative triad or cognitive biases but without application to Sarah",
+        "none": "Does not apply Beck’s theory to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "John experienced a breakup and now believes he will never find love again. Use Ellis’s ABC model to explain John’s response.",
+      "keyPoints": [
+        "Activating event: the breakup.",
+        "Beliefs: irrational belief that he will never find love again.",
+        "Consequences: emotional distress and potentially depression resulting from this belief."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains the activating event, beliefs, and consequences in John's case",
+        "partial": "Mentions components of the ABC model but lacks application",
+        "none": "Fails to apply the ABC model to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Emma constantly feels fatigued and worthless, impacting her work performance. Apply the DSM-5 criteria to determine if Emma might be diagnosed with depression.",
+      "keyPoints": [
+        "Emma shows symptoms like fatigue and feelings of worthlessness.",
+        "If these symptoms persist for at least two weeks and cause significant distress or impairment, she could meet criteria for depression.",
+        "Additional symptoms and a clinical assessment would be needed for a diagnosis."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies DSM-5 criteria accurately to Emma’s symptoms",
+        "partial": "Mentions some symptoms but lacks application to DSM-5 criteria",
+        "none": "Does not apply DSM-5 criteria effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Beck's cognitive theory of depression using the PEEL structure.",
+      "keyPoints": [
+        "Point: Beck’s cognitive theory emphasizes the role of negative thinking.",
+        "Evidence: Supported by research showing cognitive biases in depressed individuals.",
+        "Explanation: Provides a clear mechanism for how depression might develop.",
+        "Link: However, it may oversimplify depression by ignoring biological factors."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL to evaluate with evidence and a counterpoint",
+        "partial": "Uses PEEL but lacks evidence or counterpoint",
+        "none": "Does not use PEEL or lacks critical evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the strengths and limitations of Ellis's ABC model in explaining depression.",
+      "keyPoints": [
+        "Strength: Highlights the role of cognitive processes in depression.",
+        "Limitation: May overlook biological and environmental influences.",
+        "Strength: Leads to practical applications like CBT.",
+        "Limitation: Not all individuals experience depression due to irrational beliefs."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Discusses strengths and limitations with examples",
+        "partial": "Mentions strengths or limitations but lacks depth",
+        "none": "Fails to discuss strengths or limitations effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of the DSM-5 criteria in diagnosing depression.",
+      "keyPoints": [
+        "Point: DSM-5 provides standardized criteria for diagnosis.",
+        "Evidence: Ensures consistency in diagnosis across practitioners.",
+        "Explanation: However, it may pathologize normal emotional responses.",
+        "Link: Also, cultural differences can affect symptom expression, potentially leading to misdiagnosis."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL to evaluate with evidence and consideration of cultural factors",
+        "partial": "Uses PEEL but lacks evidence or cultural consideration",
+        "none": "Does not evaluate using PEEL or lacks key points"
+      }
+    }
+  ]
+}

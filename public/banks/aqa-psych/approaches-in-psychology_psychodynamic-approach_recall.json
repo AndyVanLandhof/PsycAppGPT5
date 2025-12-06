@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "psychodynamic-approach",
+  "subTopicTitle": "Psychodynamic approach",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:28:56.649Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure of personality according to Freud's psychodynamic approach.",
+      "keyPoints": [
+        "Id: operates on the pleasure principle, seeks immediate gratification",
+        "Ego: operates on the reality principle, mediates between id and superego",
+        "Superego: represents moral standards, aims for perfection"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define Freud's concept of defense mechanisms.",
+      "keyPoints": [
+        "Unconscious strategies used by the ego",
+        "Protects the individual from anxiety",
+        "Includes repression, denial, and displacement"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the role of the unconscious mind in the psychodynamic approach?",
+      "keyPoints": [
+        "Contains thoughts and memories not accessible to conscious awareness",
+        "Influences behavior and experiences",
+        "Revealed through dreams and Freudian slips"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Using Freud's psychodynamic approach, explain why a person might develop a phobia of dogs.",
+      "keyPoints": [
+        "Phobia as a result of displacement of fear onto dogs",
+        "Unconscious conflict or trauma related to dogs",
+        "Use of defense mechanisms like repression"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly with detailed explanation",
+        "partial": "Applies theory with limited or inaccurate explanation",
+        "none": "Fails to apply theory or explanation is incorrect"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the psychodynamic approach explain a person's difficulty in forming intimate relationships?",
+      "keyPoints": [
+        "Unresolved conflicts during psychosexual stages",
+        "Influence of the Oedipus/Electra complex",
+        "Defense mechanisms such as projection or repression"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly with detailed explanation",
+        "partial": "Applies theory with limited or inaccurate explanation",
+        "none": "Fails to apply theory or explanation is incorrect"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Freud's psychodynamic theory to explain a person's chronic lateness to appointments.",
+      "keyPoints": [
+        "Possible unconscious resistance to authority",
+        "Manifestation of internal conflict",
+        "Expression of underlying anxiety through defense mechanisms"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory correctly with detailed explanation",
+        "partial": "Applies theory with limited or inaccurate explanation",
+        "none": "Fails to apply theory or explanation is incorrect"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the psychodynamic approach in terms of its scientific validity.",
+      "keyPoints": [
+        "Lack of empirical evidence due to abstract concepts",
+        "Reliance on case studies which are subjective",
+        "Some concepts are difficult to falsify"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation",
+        "partial": "Includes 1-2 key points or lacks depth in evaluation",
+        "none": "Fails to evaluate or provides inaccurate points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the practical applications of the psychodynamic approach.",
+      "keyPoints": [
+        "Development of psychoanalysis as a therapy",
+        "Influence on modern therapeutic techniques",
+        "Criticism over effectiveness and time consumption"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation",
+        "partial": "Includes 1-2 key points or lacks depth in evaluation",
+        "none": "Fails to evaluate or provides inaccurate points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the psychodynamic approach in terms of its contribution to understanding human behavior.",
+      "keyPoints": [
+        "Introduced the idea of unconscious processes",
+        "Highlighted the importance of early childhood experiences",
+        "Criticized for being deterministic and ignoring free will"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation",
+        "partial": "Includes 1-2 key points or lacks depth in evaluation",
+        "none": "Fails to evaluate or provides inaccurate points"
+      }
+    }
+  ]
+}

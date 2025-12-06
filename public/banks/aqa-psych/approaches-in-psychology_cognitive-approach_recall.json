@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "cognitive-approach",
+  "subTopicTitle": "Cognitive approach",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:27:43.990Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the cognitive approach in psychology.",
+      "keyPoints": [
+        "Focuses on internal mental processes",
+        "Studies how people perceive, remember, think, and solve problems",
+        "Uses models to understand cognitive processes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of schemas in the cognitive approach.",
+      "keyPoints": [
+        "Schemas are mental frameworks that help organize information",
+        "Developed through experience",
+        "Influence how we perceive and interpret information"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the use of computer models in the cognitive approach.",
+      "keyPoints": [
+        "Computer models compare human mind to computers",
+        "Involve input, processing, and output stages",
+        "Help understand information processing"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student struggles to remember information for an exam. How might the cognitive approach explain this?",
+      "keyPoints": [
+        "Could be due to ineffective encoding or retrieval processes",
+        "Schemas might not be well-developed or organized",
+        "Information overload could impede processing"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies cognitive theories to the scenario with detail",
+        "partial": "Some application with limited detail or accuracy",
+        "none": "Fails to apply cognitive theories or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person is learning a new language. How can the cognitive approach inform techniques to improve learning?",
+      "keyPoints": [
+        "Use of rehearsal and practice to improve encoding",
+        "Develop schemas for language structure",
+        "Cognitive strategies like chunking for vocabulary"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies cognitive theories with examples",
+        "partial": "Some application with limited detail or accuracy",
+        "none": "Fails to apply cognitive theories or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person often misremembers past events. How does the cognitive approach explain this phenomenon?",
+      "keyPoints": [
+        "Memory is reconstructive and influenced by schemas",
+        "Schemas can fill in gaps, leading to inaccuracies",
+        "Post-event information can alter memory recall"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies cognitive theories to explain memory inaccuracies",
+        "partial": "Some application with limited detail or accuracy",
+        "none": "Fails to apply cognitive theories or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the cognitive approach in terms of its scientific credibility.",
+      "keyPoints": [
+        "Uses scientific methods, like lab experiments",
+        "Allows for precise and objective measurement",
+        "Criticized for being too abstract and theoretical"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with a balanced view using PEEL structure",
+        "partial": "Evaluation lacks balance or depth",
+        "none": "Fails to evaluate or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the practical applications of the cognitive approach.",
+      "keyPoints": [
+        "Cognitive therapies such as CBT",
+        "Applications in education for effective learning",
+        "Contributions to understanding mental disorders"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses practical applications using PEEL structure",
+        "partial": "Discussion lacks depth or range of applications",
+        "none": "Fails to discuss practical applications or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the limitations of the cognitive approach.",
+      "keyPoints": [
+        "Over-reliance on computer models",
+        "Neglects emotional and social factors",
+        "Sometimes lacks ecological validity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critically assesses limitations using PEEL structure",
+        "partial": "Assessment lacks depth or misses key limitations",
+        "none": "Fails to critically assess or lacks PEEL structure"
+      }
+    }
+  ]
+}

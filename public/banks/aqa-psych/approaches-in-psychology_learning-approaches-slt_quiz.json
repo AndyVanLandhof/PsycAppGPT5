@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "learning-approaches-slt",
+  "subTopicTitle": "Learning approaches: Social Learning Theory",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:26:57.406Z",
+  "items": [
+    {
+      "id": "learning-approaches-slt-q1",
+      "question": "Who developed the Social Learning Theory?",
+      "options": [
+        "Albert Bandura",
+        "Sigmund Freud",
+        "B.F. Skinner",
+        "Jean Piaget"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Albert Bandura developed Social Learning Theory, emphasizing the role of observation and imitation in learning."
+    },
+    {
+      "id": "learning-approaches-slt-q2",
+      "question": "What is the process called when a person learns by observing the consequences of another's behavior?",
+      "options": [
+        "Vicarious reinforcement",
+        "Operant conditioning",
+        "Classical conditioning",
+        "Cognitive mapping"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Vicarious reinforcement occurs when a person learns by observing the rewards or punishments of another's actions."
+    },
+    {
+      "id": "learning-approaches-slt-q3",
+      "question": "Which of the following is NOT a key component of Bandura's Social Learning Theory?",
+      "options": [
+        "Attention",
+        "Retention",
+        "Motivation",
+        "Sensation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Sensation is not a component of Social Learning Theory, which includes attention, retention, reproduction, and motivation."
+    },
+    {
+      "id": "learning-approaches-slt-q4",
+      "question": "In Bandura's 1961 Bobo Doll experiment, what behavior did children imitate?",
+      "options": [
+        "Aggressive behavior",
+        "Sharing behavior",
+        "Sleeping behavior",
+        "Eating behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Children in Bandura's Bobo Doll experiment imitated aggressive behavior they observed in adults."
+    },
+    {
+      "id": "learning-approaches-slt-q5",
+      "question": "What term describes the belief in one's capabilities to execute behaviors necessary to produce specific performance attainments?",
+      "options": [
+        "Self-efficacy",
+        "Self-esteem",
+        "Self-actualization",
+        "Self-concept"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Self-efficacy refers to the belief in one's ability to succeed in specific situations."
+    },
+    {
+      "id": "learning-approaches-slt-q6",
+      "question": "According to Social Learning Theory, what influences whether a behavior is imitated?",
+      "options": [
+        "Model characteristics",
+        "Model age",
+        "Model's past experiences",
+        "Model's genetic makeup"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Model characteristics, such as attractiveness and perceived similarity, influence imitation likelihood."
+    },
+    {
+      "id": "learning-approaches-slt-q7",
+      "question": "Which of the following is an example of a live model in Social Learning Theory?",
+      "options": [
+        "A teacher demonstrating a math problem",
+        "A cartoon character",
+        "A written story",
+        "A historical figure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A live model involves a real person demonstrating a behavior, such as a teacher in a classroom."
+    },
+    {
+      "id": "learning-approaches-slt-q8",
+      "question": "What role does motivation play in Social Learning Theory?",
+      "options": [
+        "It determines the likelihood of behavior reproduction",
+        "It is the initial step in learning",
+        "It is irrelevant to imitation",
+        "It only affects classical conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Motivation determines whether the observed behavior will be replicated based on expected outcomes."
+    },
+    {
+      "id": "learning-approaches-slt-q9",
+      "question": "Which method did Bandura primarily use in his research on Social Learning Theory?",
+      "options": [
+        "Experimental method",
+        "Case study",
+        "Naturalistic observation",
+        "Survey"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bandura used experimental methods, such as controlled lab experiments, to study observational learning."
+    },
+    {
+      "id": "learning-approaches-slt-q10",
+      "question": "A child watches their sibling receive a reward for cleaning their room. According to Social Learning Theory, what is the child likely to do?",
+      "options": [
+        "Clean their own room",
+        "Ignore the event",
+        "Become aggressive",
+        "Complain about chores"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The child may imitate the behavior to receive similar rewards, demonstrating vicarious reinforcement."
+    },
+    {
+      "id": "learning-approaches-slt-q11",
+      "question": "A teenager observes their favorite influencer promoting healthy eating. Which component of Social Learning Theory does this scenario illustrate?",
+      "options": [
+        "Attention",
+        "Retention",
+        "Reproduction",
+        "Motivation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The teenager's focus on the influencer highlights the attention component, crucial for observational learning."
+    },
+    {
+      "id": "learning-approaches-slt-q12",
+      "question": "A student sees a peer praised for asking questions in class and starts doing the same. What factor in Social Learning Theory best explains this behavior?",
+      "options": [
+        "Vicarious reinforcement",
+        "Direct reinforcement",
+        "Punishment avoidance",
+        "Inherent ability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Vicarious reinforcement explains the student imitating behavior after observing their peer being rewarded."
+    },
+    {
+      "id": "learning-approaches-slt-q13",
+      "question": "One criticism of Social Learning Theory is its reliance on laboratory experiments. Why is this a concern?",
+      "options": [
+        "It may lack ecological validity",
+        "It involves ethical issues",
+        "It is too time-consuming",
+        "It cannot be replicated"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Lab experiments may not reflect real-world settings, affecting the ecological validity of findings."
+    },
+    {
+      "id": "learning-approaches-slt-q14",
+      "question": "How does Social Learning Theory differ from traditional behaviorism?",
+      "options": [
+        "It includes cognitive processes",
+        "It ignores environmental factors",
+        "It relies solely on reflexes",
+        "It does not consider learning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Social Learning Theory incorporates cognitive processes, unlike traditional behaviorism, which focuses on observable behavior."
+    },
+    {
+      "id": "learning-approaches-slt-q15",
+      "question": "What is a limitation of the Bobo Doll experiment in studying aggression?",
+      "options": [
+        "It may not predict long-term behavior",
+        "It involved too large a sample",
+        "It lacked a control group",
+        "It was conducted in a natural setting"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Bobo Doll experiment's controlled setting may not predict long-term aggressive behavior outside the lab."
+    }
+  ]
+}

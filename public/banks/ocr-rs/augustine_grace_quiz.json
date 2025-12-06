@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "grace",
+  "subTopicTitle": "Grace and Salvation",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T11:02:15.799Z",
+  "items": [
+    {
+      "id": "grace-q1",
+      "question": "According to Augustine, what is the primary purpose of divine grace?",
+      "options": [
+        "To enable humans to achieve salvation",
+        "To ensure humans follow moral laws",
+        "To provide humans with free will",
+        "To guarantee a life free from sin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine taught that divine grace is essential for salvation, as he believed that humans cannot achieve salvation on their own due to original sin."
+    },
+    {
+      "id": "grace-q2",
+      "question": "What term did Augustine use to describe the state of humanity before receiving grace?",
+      "options": [
+        "Original Sin",
+        "State of Righteousness",
+        "City of God",
+        "Original Justice"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine believed that humanity is in a state of 'Original Sin' due to the fall, which necessitates divine grace for salvation."
+    },
+    {
+      "id": "grace-q3",
+      "question": "Which of Augustine's works primarily discusses the concept of grace and salvation?",
+      "options": [
+        "Confessions",
+        "City of God",
+        "On Free Choice of the Will",
+        "The Enchiridion"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "In 'The Enchiridion', Augustine outlines his views on grace, salvation, and the necessity of faith."
+    },
+    {
+      "id": "grace-q4",
+      "question": "How did Augustine view the relationship between grace and free will?",
+      "options": [
+        "Grace supersedes free will",
+        "Free will negates the need for grace",
+        "Grace and free will are unrelated",
+        "Free will is strengthened by grace"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine argued that grace is necessary to overcome the limitations of human free will due to original sin."
+    },
+    {
+      "id": "grace-q5",
+      "question": "In Augustine's theology, what is the effect of original sin on human nature?",
+      "options": [
+        "It corrupts human nature",
+        "It strengthens human will",
+        "It enhances moral capacity",
+        "It leaves human nature unchanged"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine taught that original sin corrupts human nature, making divine grace necessary for salvation."
+    },
+    {
+      "id": "grace-q6",
+      "question": "Which concept is central to Augustine's belief that humans cannot achieve salvation through their own efforts?",
+      "options": [
+        "Predestination",
+        "Pelagianism",
+        "Manichaeism",
+        "Donatism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine's concept of predestination underscores his belief that divine grace, not human effort, leads to salvation."
+    },
+    {
+      "id": "grace-q7",
+      "question": "What was Augustine's stance on the doctrine of Pelagianism?",
+      "options": [
+        "Opposed, as it denied original sin",
+        "Supported, as it emphasized free will",
+        "Neutral, as it had little impact on his teachings",
+        "Incorporated, as it aligned with his views on grace"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine opposed Pelagianism because it denied the doctrine of original sin and the necessity of grace for salvation."
+    },
+    {
+      "id": "grace-q8",
+      "question": "Which analogy did Augustine use to explain the concept of grace?",
+      "options": [
+        "A hospital for the sick",
+        "A light that overcomes darkness",
+        "A teacher instructing a student",
+        "A potter shaping clay"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Augustine often used the analogy of light overcoming darkness to illustrate how grace enlightens and transforms the sinful human soul."
+    },
+    {
+      "id": "grace-q9",
+      "question": "In Augustine's theology, what role does Jesus Christ play in the process of salvation?",
+      "options": [
+        "Mediator of grace",
+        "Judge of human deeds",
+        "Symbol of moral excellence",
+        "Example of divine justice"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine viewed Jesus Christ as the mediator of divine grace, essential for human salvation."
+    },
+    {
+      "id": "grace-q10",
+      "question": "A student argues that people can achieve moral perfection through their own efforts. How would Augustine likely respond?",
+      "options": [
+        "He would disagree, emphasizing the need for divine grace.",
+        "He would agree, supporting the concept of free will.",
+        "He would partially agree, acknowledging human potential.",
+        "He would remain neutral, focusing on divine justice."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Augustine would disagree, as he believed that due to original sin, divine grace is necessary for moral perfection and salvation."
+    },
+    {
+      "id": "grace-q11",
+      "question": "In a discussion on predestination, a student claims that Augustine's views remove human responsibility. How might Augustine defend his position?",
+      "options": [
+        "By arguing that grace empowers moral choice",
+        "By denying the existence of free will",
+        "By suggesting that divine justice is arbitrary",
+        "By claiming that actions have no consequences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Augustine would argue that grace empowers humans to make moral choices, maintaining a balance between predestination and responsibility."
+    },
+    {
+      "id": "grace-q12",
+      "question": "If a person believes they can earn salvation through good deeds alone, what aspect of Augustine's teachings would challenge this view?",
+      "options": [
+        "The doctrine of original sin",
+        "The concept of divine justice",
+        "The importance of church authority",
+        "The role of prophetic revelation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Augustine's doctrine of original sin asserts that humans cannot earn salvation through deeds alone and require divine grace."
+    },
+    {
+      "id": "grace-q13",
+      "question": "Which philosopher's ideas heavily influenced Augustine's understanding of grace and salvation?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Epicurus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Plato's philosophy, particularly the concept of forms and the immaterial realm, influenced Augustine's theological development, including his understanding of grace."
+    },
+    {
+      "id": "grace-q14",
+      "question": "How does Augustine's view of grace compare with that of Pelagius?",
+      "options": [
+        "Augustine emphasizes grace, while Pelagius focuses on free will",
+        "Both emphasize the necessity of grace",
+        "Pelagius denies the importance of original sin, unlike Augustine",
+        "Both agree on the irrelevance of human effort for salvation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Augustine emphasized grace as essential for overcoming original sin, whereas Pelagius focused on human free will and the ability to achieve salvation through effort."
+    },
+    {
+      "id": "grace-q15",
+      "question": "What methodological critique has been made regarding Augustine's interpretation of scripture in relation to grace?",
+      "options": [
+        "He relies too heavily on allegorical interpretation",
+        "He ignores the historical context of biblical texts",
+        "He focuses solely on New Testament teachings",
+        "He dismisses the role of church tradition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue Augustine's allegorical interpretation can overlook the historical and literal meanings of scripture in favor of his theological agenda."
+    }
+  ]
+}

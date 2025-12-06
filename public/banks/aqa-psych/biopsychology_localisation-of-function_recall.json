@@ -1,0 +1,150 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "localisation-of-function",
+  "subTopicTitle": "Localisation of function in the brain",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:33:04.566Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'localisation of function' in the brain.",
+      "keyPoints": [
+        "Localisation of function refers to the idea that specific areas of the brain are responsible for specific functions.",
+        "Different parts of the brain control different aspects of behavior, emotions, or cognitive processes.",
+        "Examples include Broca's area for speech production and Wernicke's area for language comprehension."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Broca's and Wernicke's areas and their functions.",
+      "keyPoints": [
+        "Broca's area is located in the frontal lobe, usually in the left hemisphere, and is responsible for speech production.",
+        "Damage to Broca's area can result in Broca's aphasia, characterized by slow and laborious speech.",
+        "Wernicke's area is located in the temporal lobe, usually in the left hemisphere, and is responsible for language comprehension.",
+        "Damage to Wernicke's area can result in Wernicke's aphasia, characterized by fluent but nonsensical speech."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the role of the motor and somatosensory cortex.",
+      "keyPoints": [
+        "The motor cortex is located in the frontal lobe and is responsible for voluntary motor movements.",
+        "The somatosensory cortex is located in the parietal lobe and processes sensory information from the skin such as touch, pressure, and temperature.",
+        "Both cortices have a contralateral organization, meaning the left hemisphere controls the right side of the body and vice versa."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A patient has damage to the left hemisphere's motor cortex. What symptoms might they exhibit?",
+      "keyPoints": [
+        "The patient may experience weakness or paralysis on the right side of the body.",
+        "There could be difficulties with fine motor skills on the right hand, making tasks like writing challenging.",
+        "The extent of symptoms can depend on the size and location of the damage."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A patient with damage to Wernicke's area speaks fluently but doesn't make sense. Explain why.",
+      "keyPoints": [
+        "Wernicke's area is responsible for language comprehension.",
+        "Damage to this area can result in Wernicke's aphasia, where speech is fluent but lacks meaning.",
+        "The patient may be unable to understand spoken language and thus produces nonsensical speech."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might damage to Broca's area affect someone's daily life?",
+      "keyPoints": [
+        "The person may have difficulty forming complete sentences, leading to frustration in communication.",
+        "They might understand speech but struggle to express themselves verbally.",
+        "This could affect social interactions and employment where verbal communication is required."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the evidence supporting localisation of function in the brain using the case study of Phineas Gage.",
+      "keyPoints": [
+        "Point: The case of Phineas Gage provides support for localisation of function.",
+        "Evidence: After an iron rod damaged his frontal lobe, Gage's personality changed significantly.",
+        "Explain: This suggests the frontal lobe is involved in personality and decision-making.",
+        "Link: Thus, Gage's case supports the idea that specific brain areas have specialized functions."
+      ],
+      "wordRange": "50-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of the localisation of function theory.",
+      "keyPoints": [
+        "Point: The theory of localisation of function may oversimplify brain functions.",
+        "Evidence: Brain imaging studies show that many tasks require activity across multiple areas.",
+        "Explain: Complex behaviors like language often involve networks rather than isolated areas.",
+        "Link: This suggests that while localisation exists, it's part of a more integrated brain function system."
+      ],
+      "wordRange": "50-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the methodological issues with research on localisation of function.",
+      "keyPoints": [
+        "Point: Some research methods have limitations when studying localisation.",
+        "Evidence: Case studies, like Broca's and Wernicke's patients, may not be generalizable.",
+        "Explain: Individual differences and the small sample sizes limit the applicability of findings.",
+        "Link: These methodological issues suggest caution in interpreting the extent of localisation."
+      ],
+      "wordRange": "50-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 2-3 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

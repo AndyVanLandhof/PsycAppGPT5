@@ -1,0 +1,146 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "original",
+  "subTopicTitle": "Original Sin",
+  "type": "recall",
+  "generatedAt": "2025-12-06T11:01:35.715Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Explain Augustine's concept of Original Sin.",
+      "keyPoints": [
+        "Original Sin originates from Adam and Eve's disobedience",
+        "It is a hereditary stain affecting all humanity",
+        "Results in a tendency towards sin and a separation from God"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define concupiscence according to Augustine.",
+      "keyPoints": [
+        "Concupiscence refers to strong sexual desire",
+        "It is a result of Original Sin",
+        "Leads humans away from rationality and towards sin"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does baptism play in Augustine's teachings on Original Sin?",
+      "keyPoints": [
+        "Baptism cleanses the soul from Original Sin",
+        "It is a sacrament of initiation into the Christian community",
+        "Signifies rebirth and the beginning of a new life in Christ"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A young person struggles with feelings of guilt despite not committing any major sins. How might Augustine's concept of Original Sin explain this?",
+      "keyPoints": [
+        "Original Sin causes an inherent sense of guilt in all humans",
+        "This guilt is not based on personal actions but rather a shared human condition",
+        "Augustine's teachings suggest that this feeling is natural due to the inherited sin from Adam and Eve"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Augustine's concept effectively to the scenario",
+        "partial": "Application is attempted but lacks depth or clarity",
+        "none": "Fails to apply the concept or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a society that emphasizes individual responsibility. How might Augustine's idea of Original Sin be viewed in this context?",
+      "keyPoints": [
+        "Augustine's idea may conflict with the emphasis on individual responsibility",
+        "Original Sin suggests that humans are inherently flawed regardless of personal actions",
+        "The society might struggle to reconcile collective inherited guilt with individual accountability"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies Augustine's ideas to the societal context",
+        "partial": "Application is attempted but lacks thoroughness or insight",
+        "none": "Fails to apply the concept or shows misunderstanding"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A community experiences increased crime and moral decay. How might Augustine's teachings on Original Sin provide insight into this situation?",
+      "keyPoints": [
+        "Original Sin implies that humans have a natural inclination towards sin",
+        "Moral decay can be seen as a manifestation of humanity's fallen nature",
+        "Augustine would suggest that spiritual renewal and divine grace are needed to combat this"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Augustine's teachings insightfully to the scenario",
+        "partial": "Some application is evident but lacks depth",
+        "none": "Fails to apply the concept or misunderstanding is evident"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the relevance of Augustine's teachings on Original Sin in contemporary society.",
+      "keyPoints": [
+        "Consider the scientific understanding of human behavior",
+        "Evaluate the impact of moral responsibility and free will",
+        "Discuss the influence of religious belief in modern contexts"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a balanced evaluation with well-supported arguments",
+        "partial": "Evaluation is present but lacks balance or depth",
+        "none": "Fails to evaluate or provides unsupported claims"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the notion of inherited guilt in Augustine's doctrine of Original Sin.",
+      "keyPoints": [
+        "Discuss the fairness of inherited guilt",
+        "Consider psychological and theological perspectives",
+        "Evaluate the implications for personal responsibility"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Critically assesses with a balanced and well-argued approach",
+        "partial": "Assessment is attempted but lacks critical depth",
+        "none": "Fails to critically assess or lacks clarity"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "To what extent do Augustine's ideas on Original Sin provide a satisfactory explanation for the presence of evil in the world?",
+      "keyPoints": [
+        "Analyze the strengths of Augustine's explanation of evil",
+        "Consider alternative explanations such as natural causes or free will",
+        "Evaluate the theological implications of a benevolent God allowing evil"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a thorough evaluation with well-supported points",
+        "partial": "Some evaluation is present but lacks depth or balance",
+        "none": "Fails to evaluate effectively or lacks coherence"
+      }
+    }
+  ]
+}

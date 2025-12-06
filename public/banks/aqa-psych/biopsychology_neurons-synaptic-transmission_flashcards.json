@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "neurons-synaptic-transmission",
+  "subTopicTitle": "Neurons and synaptic transmission",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:30:18.669Z",
+  "items": [
+    {
+      "question": "What is a neuron?",
+      "answer": "A neuron is a nerve cell that transmits information throughout the nervous system via electrical and chemical signals.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define synaptic transmission.",
+      "answer": "Synaptic transmission is the process by which neurotransmitters are released by one neuron and bind to receptors on another, facilitating neuronal communication.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the myelin sheath?",
+      "answer": "The myelin sheath insulates axons, increasing the speed of electrical transmission along the neuron.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Sherrington (1906) find about synapses?",
+      "answer": "Sherrington discovered the synapse, identifying it as the gap between neurons where chemical communication occurs.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define action potential.",
+      "answer": "An action potential is a rapid electrical impulse that travels down the axon, triggered when a neuron reaches a threshold level of depolarization.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role do neurotransmitters play in synaptic transmission?",
+      "answer": "Neurotransmitters are chemical messengers released from the synaptic vesicles in the presynaptic neuron, crossing the synaptic gap to bind to receptors on the postsynaptic neuron.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the difference between excitatory and inhibitory neurotransmitters?",
+      "answer": "Excitatory neurotransmitters increase the likelihood of a neuron firing, while inhibitory neurotransmitters decrease this likelihood.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define synaptic plasticity.",
+      "answer": "Synaptic plasticity is the ability of synapses to strengthen or weaken over time, in response to increases or decreases in their activity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Hebb (1949) propose about synaptic connections?",
+      "answer": "Hebb proposed that synaptic connections strengthen with repeated activity, summarized by the phrase 'cells that fire together, wire together.'",
+      "ao": "AO1"
+    },
+    {
+      "question": "Describe the function of the axon terminal.",
+      "answer": "The axon terminal is the endpoint of a neuron where neurotransmitters are stored and released into the synaptic gap.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is reuptake in synaptic transmission?",
+      "answer": "Reuptake is the process by which neurotransmitters are reabsorbed by the presynaptic neuron after transmission across the synaptic gap.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Otto Loewi (1921) discover about neurotransmitters?",
+      "answer": "Loewi demonstrated that chemical substances (later identified as neurotransmitters) are involved in nerve signal transmission.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does synaptic transmission apply to treating depression?",
+      "answer": "Antidepressants, like SSRIs, block the reuptake of serotonin, increasing its availability and enhancing mood.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of inhibitory neurotransmitters to anxiety disorders.",
+      "answer": "GABA, an inhibitory neurotransmitter, reduces neural activity. Low GABA levels may lead to increased anxiety, suggesting treatments could focus on enhancing GABA activity.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the myelin sheath apply to multiple sclerosis (MS)?",
+      "answer": "In MS, the immune system damages the myelin sheath, slowing neuronal transmission and causing symptoms like muscle weakness and coordination issues.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of synaptic plasticity to learning.",
+      "answer": "Learning involves synaptic plasticity, where frequent activation of synapses strengthens connections, forming long-term memories.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of studying synaptic transmission.",
+      "answer": "Research on synaptic transmission has led to effective treatments for mental health disorders, such as antidepressants targeting serotonin pathways.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the chemical transmission model.",
+      "answer": "The chemical transmission model may oversimplify complex interactions, ignoring factors like electrical synapses and glial cell involvement.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Loewi's (1921) study.",
+      "answer": "Loewi's study was groundbreaking but limited by its simple experimental design and lack of modern controls, which may affect replicability.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the practical applications of synaptic plasticity research.",
+      "answer": "Synaptic plasticity research has practical applications in neurorehabilitation, aiding recovery after brain injuries, but translating findings to real-world treatments can be challenging.",
+      "ao": "AO3"
+    }
+  ]
+}

@@ -335,9 +335,27 @@ function FlashcardView({ topic, onBack }) {
     });
   };
 
-  const loadLabIfAvailable = () => {
+  const loadLabIfAvailable = async () => {
     try {
       const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      
+      // First try to load from pre-generated bank files in public/banks/
+      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
+      console.log('[Flashcards] Attempting to load bank from:', bankPath);
+      try {
+        const response = await fetch(bankPath);
+        if (response.ok) {
+          const bankData = await response.json();
+          if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
+            console.log('[Flashcards] Loaded', bankData.items.length, 'cards from bank file');
+            return bankData.items;
+          }
+        }
+      } catch (fetchErr) {
+        console.log('[Flashcards] Bank file not found, trying localStorage fallback');
+      }
+      
+      // Fallback to localStorage (legacy behavior)
       const libKey = `${curr}:flash-lab-lib-${topic.id}-${topic.subTopic.id}`;
       const latestKey = `${curr}:flash-lab-latest-${topic.id}-${topic.subTopic.id}`;
       const libRaw = localStorage.getItem(libKey);
@@ -425,7 +443,7 @@ Return in this JSON format:
       // LAB: use saved; if none or refreshLab, build and persist
       const chosenSource = opts && opts.source ? opts.source : sourceSet;
       if (!srsMode && chosenSource === 'lab' && !opts.refreshLab) {
-        const saved = loadLabIfAvailable();
+        const saved = await loadLabIfAvailable();
         if (saved && saved.length > 0) { loadFromLabSet(saved); return; }
       }
 

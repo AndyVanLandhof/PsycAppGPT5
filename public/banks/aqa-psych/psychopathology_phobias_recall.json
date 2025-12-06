@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "phobias",
+  "subTopicTitle": "Phobias",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:35:14.205Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define a phobia and explain the three main types of phobias.",
+      "keyPoints": [
+        "A phobia is an irrational fear of an object or situation.",
+        "The three main types are specific phobias, social phobia, and agoraphobia.",
+        "Specific phobias involve fear of specific objects or situations; social phobia involves fear of social situations; agoraphobia involves fear of open or public spaces."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the behavioural, emotional, and cognitive characteristics of phobias.",
+      "keyPoints": [
+        "Behavioural: avoidance and panic.",
+        "Emotional: anxiety and fear.",
+        "Cognitive: selective attention to the phobic stimulus and irrational beliefs."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline the two-process model of phobia acquisition and maintenance.",
+      "keyPoints": [
+        "Phobias are acquired through classical conditioning.",
+        "They are maintained through operant conditioning, particularly negative reinforcement.",
+        "Example of classical conditioning: Little Albert study by Watson and Rayner."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah has a phobia of spiders. She avoids going into the garden where spiders might be present. Apply the two-process model to explain how Sarah's phobia developed and is maintained.",
+      "keyPoints": [
+        "Sarah's phobia likely developed through classical conditioning, e.g., associating spiders with a fear response.",
+        "Her avoidance of the garden is an example of negative reinforcement, maintaining the phobia.",
+        "The avoidance reduces her anxiety, reinforcing the behaviour."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies theory to the scenario with all key points",
+        "partial": "Applies theory but misses some details or key points",
+        "none": "Fails to apply theory accurately or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Tom has a fear of flying and experiences anxiety when he boards a plane. Using the behavioural characteristics of phobias, explain his response.",
+      "keyPoints": [
+        "Tom's anxiety is an emotional response characteristic of phobias.",
+        "Behaviourally, he might display avoidance behaviour by avoiding flights.",
+        "If he does board, he may show panic, another behavioural characteristic."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies behavioural characteristics to the scenario with all key points",
+        "partial": "Applies characteristics but misses some details or key points",
+        "none": "Fails to apply characteristics accurately or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Julia avoids public speaking due to her social phobia. Use cognitive characteristics of phobias to explain her avoidance.",
+      "keyPoints": [
+        "Julia likely experiences selective attention to thoughts about negative evaluation.",
+        "She may hold irrational beliefs about public speaking, e.g., 'I will embarrass myself.'",
+        "These cognitive characteristics contribute to her avoidance behaviour."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies cognitive characteristics to the scenario with all key points",
+        "partial": "Applies characteristics but misses some details or key points",
+        "none": "Fails to apply characteristics accurately or misses key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of systematic desensitization as a treatment for phobias using the PEEL structure.",
+      "keyPoints": [
+        "Point: Systematic desensitization is effective for many phobias.",
+        "Evidence: Gilroy et al. found it reduced phobia symptoms over time.",
+        "Explanation: Gradual exposure and relaxation techniques help reduce fear.",
+        "Link: Effective for specific phobias, but less so for complex ones like agoraphobia."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some points or lacks detailed evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of the two-process model in explaining phobias using the PEEL structure.",
+      "keyPoints": [
+        "Point: The two-process model is limited in explaining all phobias.",
+        "Evidence: Some people develop phobias without a traumatic experience.",
+        "Explanation: Biological factors and cognitive elements are ignored.",
+        "Link: Model is reductionist, failing to consider complexity of phobias."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some points or lacks detailed evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of flooding as a treatment for phobias using the PEEL structure.",
+      "keyPoints": [
+        "Point: Flooding can be an effective treatment for phobias.",
+        "Evidence: It often results in quick reduction of symptoms.",
+        "Explanation: Direct exposure without gradual steps can be overwhelming.",
+        "Link: Effective but can be traumatic and is not suitable for all phobias."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some points or lacks detailed evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    }
+  ]
+}

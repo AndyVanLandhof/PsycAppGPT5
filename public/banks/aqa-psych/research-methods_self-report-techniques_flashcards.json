@@ -1,0 +1,111 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "self-report-techniques",
+  "subTopicTitle": "Self-report techniques",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:38:16.552Z",
+  "items": [
+    {
+      "question": "What is a self-report technique?",
+      "answer": "A self-report technique involves participants providing information about themselves, usually through questionnaires or interviews.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define a questionnaire.",
+      "answer": "A questionnaire is a set of written questions used to collect data on participants' attitudes, beliefs, or behaviors.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a structured interview?",
+      "answer": "A structured interview uses pre-determined questions in a fixed order to gather data from participants.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is an unstructured interview?",
+      "answer": "An unstructured interview is a flexible, informal interview where questions are not pre-determined, allowing for in-depth exploration of topics.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Likert (1932) develop?",
+      "answer": "Likert (1932) developed the Likert scale, which measures attitudes by asking participants to rate statements on a scale, typically from 'strongly agree' to 'strongly disagree'.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define an open question.",
+      "answer": "An open question allows respondents to answer in their own words, providing qualitative data.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define a closed question.",
+      "answer": "A closed question provides respondents with a set of pre-determined responses, yielding quantitative data.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is social desirability bias?",
+      "answer": "Social desirability bias occurs when participants give responses they believe are more socially acceptable or favorable rather than truthful.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is acquiescence bias?",
+      "answer": "Acquiescence bias is the tendency for participants to agree with statements or questions, regardless of their actual opinion.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Smith and Mackie (2007) find about self-reports?",
+      "answer": "Smith and Mackie (2007) found that self-reports can be influenced by social desirability and recall bias, questioning their validity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define a semantic differential scale.",
+      "answer": "A semantic differential scale measures attitudes by asking respondents to rate a concept between two bipolar adjectives.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is interviewer bias?",
+      "answer": "Interviewer bias occurs when the presence or behavior of the interviewer influences participants' responses.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does social desirability bias apply to job interviews?",
+      "answer": "In job interviews, candidates may provide answers they think are favorable to the interviewer, rather than being truthful, due to social desirability bias.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of acquiescence bias to survey responses.",
+      "answer": "In surveys, participants may agree with statements regardless of their true beliefs, demonstrating acquiescence bias, which can affect the reliability of the data.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How might interviewer bias affect data in a qualitative study?",
+      "answer": "Interviewer bias can lead to data distortion in qualitative studies if interviewers inadvertently influence responses through leading questions or non-verbal cues.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Likert scale to measuring customer satisfaction.",
+      "answer": "A Likert scale can measure customer satisfaction by asking customers to rate their agreement with statements about product quality or service on a scale from 'strongly disagree' to 'strongly agree'.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of using questionnaires.",
+      "answer": "Questionnaires can collect data from a large sample quickly and cost-effectively, enhancing generalizability.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of structured interviews.",
+      "answer": "Structured interviews may limit the depth of responses, reducing the richness of qualitative data collected.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of unstructured interviews.",
+      "answer": "Unstructured interviews provide in-depth data but can be time-consuming and difficult to analyze due to the lack of standardized questions.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of using self-report techniques.",
+      "answer": "Self-report techniques can be affected by biases such as social desirability, potentially reducing the validity of the data collected.",
+      "ao": "AO3"
+    }
+  ]
+}

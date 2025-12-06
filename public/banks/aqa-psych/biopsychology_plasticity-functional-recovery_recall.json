@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "plasticity-functional-recovery",
+  "subTopicTitle": "Plasticity and functional recovery",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:33:46.568Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define brain plasticity and explain its significance in biopsychology.",
+      "keyPoints": [
+        "Brain plasticity refers to the brain's ability to change and adapt as a result of experience.",
+        "This can involve the strengthening of existing connections or the formation of new ones.",
+        "Significant because it demonstrates the brain's capacity for recovery and adaptation after injury."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Maguire et al.'s study on London taxi drivers and its findings related to brain plasticity.",
+      "keyPoints": [
+        "Maguire et al. studied the brains of London taxi drivers using MRI scans.",
+        "Found that taxi drivers had larger posterior hippocampi compared to non-taxi drivers.",
+        "Demonstrates that extensive navigation experience can lead to structural changes in the brain."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain what is meant by 'functional recovery' in the context of brain injury.",
+      "keyPoints": [
+        "Functional recovery is the brain's ability to redistribute or transfer functions from damaged areas to undamaged areas.",
+        "Occurs through neural reorganisation and the formation of new synaptic connections.",
+        "Significant for rehabilitation following brain injuries such as strokes."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A patient has suffered a stroke affecting the left hemisphere of their brain, impairing their speech. Using your knowledge of functional recovery, how might their speech be rehabilitated?",
+      "keyPoints": [
+        "Therapy can encourage neuroplasticity to help the right hemisphere compensate for lost functions.",
+        "Speech therapy to stimulate affected areas and promote neural reorganisation.",
+        "Use of repetitive exercises to strengthen synaptic connections in undamaged areas."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher wants to study brain plasticity in musicians. Suggest a method they could use and justify your choice.",
+      "keyPoints": [
+        "Use MRI scans to compare the brains of musicians and non-musicians.",
+        "MRI provides detailed images of brain structure to identify differences in grey matter volume.",
+        "Justification: Non-invasive and has been used successfully in past research (like Maguire et al.)."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "After a car accident, a patient experiences a loss of sensation in their right hand. Apply the concept of brain plasticity to explain how sensation might return over time.",
+      "keyPoints": [
+        "Brain plasticity allows for reorganisation of sensory pathways.",
+        "Use of physical therapy can promote synaptic growth and adaptation.",
+        "Over time, the brain may form new connections to compensate for lost function."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the limitations of research into brain plasticity using the PEEL structure.",
+      "keyPoints": [
+        "Point: Research often lacks ecological validity.",
+        "Evidence: Studies like Maguire's use highly specific samples (e.g., taxi drivers).",
+        "Explain: Findings may not generalise to the wider population.",
+        "Link: Limits the applicability of conclusions drawn about brain plasticity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss one strength of research into functional recovery after brain injury using the PEEL structure.",
+      "keyPoints": [
+        "Point: Research has practical applications.",
+        "Evidence: Findings have informed rehabilitation practices.",
+        "Explain: Therapies can be designed to enhance recovery through targeted exercises.",
+        "Link: Enhances quality of life for patients and supports the value of continued research."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ethical considerations in research on brain plasticity, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Ethical considerations include informed consent.",
+        "Evidence: Participants must be aware of all procedures, especially in MRI studies.",
+        "Explain: Ensures participants are not harmed and understand the implications.",
+        "Link: Ethical research enhances validity and public trust in psychological findings."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    }
+  ]
+}

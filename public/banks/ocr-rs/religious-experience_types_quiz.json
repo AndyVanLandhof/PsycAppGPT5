@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "types",
+  "subTopicTitle": "Types of Religious Experience",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:53:11.997Z",
+  "items": [
+    {
+      "id": "types-q1",
+      "question": "What is William James' term for religious experiences characterized by a sense of unity?",
+      "options": [
+        "Mystical",
+        "Visionary",
+        "Numinous",
+        "Revelatory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William James described mystical experiences as those involving a sense of unity and oneness with the divine."
+    },
+    {
+      "id": "types-q2",
+      "question": "Which philosopher is known for the concept of 'numinous' experience?",
+      "options": [
+        "Rudolf Otto",
+        "William James",
+        "Friedrich Schleiermacher",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rudolf Otto introduced the concept of the 'numinous' to describe the experience of the divine as mysterious and awe-inspiring."
+    },
+    {
+      "id": "types-q3",
+      "question": "In Richard Swinburne's classification, what type of religious experience involves perceiving a divine presence?",
+      "options": [
+        "Public",
+        "Private",
+        "Mystical",
+        "Revelatory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Swinburne categorizes religious experiences into public and private, with public experiences involving perceiving a divine presence."
+    },
+    {
+      "id": "types-q4",
+      "question": "Which of the following is NOT a characteristic of mystical experiences according to James?",
+      "options": [
+        "Ineffability",
+        "Noetic quality",
+        "Transiency",
+        "Persistence"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "James identified ineffability, noetic quality, transiency, and passivity, but not persistence, as characteristics of mystical experiences."
+    },
+    {
+      "id": "types-q5",
+      "question": "Who coined the term 'oceanic feeling' to describe a form of religious experience?",
+      "options": [
+        "Sigmund Freud",
+        "Carl Jung",
+        "William James",
+        "Rudolf Otto"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sigmund Freud used the term 'oceanic feeling' to describe a sense of boundlessness often associated with religious experience."
+    },
+    {
+      "id": "types-q6",
+      "question": "Which type of religious experience involves visions or revelations often accompanied by auditory phenomena?",
+      "options": [
+        "Visionary",
+        "Mystical",
+        "Numinous",
+        "Transformative"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Visionary experiences are characterized by visual or auditory revelations, often involving messages or guidance from a divine source."
+    },
+    {
+      "id": "types-q7",
+      "question": "How did Friedrich Schleiermacher describe the core of religious experience?",
+      "options": [
+        "Feeling of absolute dependence",
+        "Intellectual conviction",
+        "Cultural tradition",
+        "Moral obligation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Schleiermacher emphasized the 'feeling of absolute dependence' as the essence of religious experience."
+    },
+    {
+      "id": "types-q8",
+      "question": "Which study involved a questionnaire about religious experience distributed to clergy and laypersons?",
+      "options": [
+        "Greeley (1974)",
+        "Hardy (1979)",
+        "Hay and Morisy (1978)",
+        "Smart (1969)"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Hay and Morisy (1978) conducted a study using questionnaires to explore the prevalence of religious experiences among clergy and laypeople."
+    },
+    {
+      "id": "types-q9",
+      "question": "According to Walter Stace, what is a defining feature of extrovertive mystical experiences?",
+      "options": [
+        "Unity of all things",
+        "Direct communication with God",
+        "Personal transformation",
+        "Prophetic insight"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Stace described extrovertive mystical experiences as those where individuals perceive a unity in all things, beyond ordinary perception."
+    },
+    {
+      "id": "types-q10",
+      "question": "A person reports feeling an overwhelming sense of divine presence while walking in the woods. Which type of religious experience is this most likely to be?",
+      "options": [
+        "Numinous",
+        "Visionary",
+        "Mystical",
+        "Revelatory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario describes a numinous experience, characterized by the feeling of encountering a divine presence in nature."
+    },
+    {
+      "id": "types-q11",
+      "question": "During meditation, an individual experiences a sense of unity with the universe. How would William James classify this experience?",
+      "options": [
+        "Mystical",
+        "Visionary",
+        "Numinous",
+        "Conversion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "William James would classify this as a mystical experience due to the sense of unity and oneness with the universe."
+    },
+    {
+      "id": "types-q12",
+      "question": "A person claims to have received a divine message during a dream. Which type of religious experience does this describe?",
+      "options": [
+        "Visionary",
+        "Mystical",
+        "Numinous",
+        "Transformative"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This is a visionary experience, as it involves receiving a divine message through a dream, a common form of vision."
+    },
+    {
+      "id": "types-q13",
+      "question": "What is a key methodological criticism of studies on religious experience?",
+      "options": [
+        "Subjectivity of reports",
+        "Lack of historical context",
+        "Over-emphasis on textual analysis",
+        "Exclusion of non-religious data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A major criticism is the subjectivity involved in personal reports of religious experiences, making them difficult to verify objectively."
+    },
+    {
+      "id": "types-q14",
+      "question": "How does Richard Dawkins critique religious experiences in 'The God Delusion' (2006)?",
+      "options": [
+        "As psychological delusions",
+        "As valid mystical insights",
+        "As cultural constructs",
+        "As spiritual truths"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Dawkins argues that religious experiences are psychological delusions rather than evidence of the divine, as discussed in 'The God Delusion'."
+    },
+    {
+      "id": "types-q15",
+      "question": "In comparing mystical and numinous experiences, what is a key difference according to Rudolf Otto?",
+      "options": [
+        "Mystical experiences lack a sense of fear",
+        "Numinous experiences are purely intellectual",
+        "Mystical experiences are non-religious",
+        "Numinous experiences emphasize dualism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Otto noted that mystical experiences often lack the fear and dread ('mysterium tremendum') present in numinous experiences."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "depression",
+  "subTopicTitle": "Depression",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:35:39.499Z",
+  "items": [
+    {
+      "id": "depression-q1",
+      "question": "Which of the following is a cognitive characteristic of depression?",
+      "options": [
+        "Negative thinking",
+        "Increased energy",
+        "Heightened concentration",
+        "Euphoric mood"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Depression often involves negative thinking patterns, affecting the cognitive process."
+    },
+    {
+      "id": "depression-q2",
+      "question": "According to Beck's cognitive theory, which is NOT part of the cognitive triad?",
+      "options": [
+        "The self",
+        "The world",
+        "The future",
+        "The past"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Beck's cognitive triad includes negative views about the self, the world, and the future."
+    },
+    {
+      "id": "depression-q3",
+      "question": "Which neurotransmitter is most commonly associated with depression?",
+      "options": [
+        "Dopamine",
+        "Serotonin",
+        "Acetylcholine",
+        "Glutamate"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Serotonin is widely linked to mood regulation and is often implicated in depression."
+    },
+    {
+      "id": "depression-q4",
+      "question": "What is the primary focus of Ellis's ABC model?",
+      "options": [
+        "Biological factors",
+        "Irrational beliefs",
+        "Social influences",
+        "Dietary habits"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Ellis's ABC model focuses on how irrational beliefs (B) influence emotional consequences (C)."
+    },
+    {
+      "id": "depression-q5",
+      "question": "Which of the following symptoms is considered a behavioral characteristic of depression?",
+      "options": [
+        "Insomnia",
+        "Delusions",
+        "Hallucinations",
+        "Compulsive rituals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Insomnia is a common behavioral symptom in depression, affecting sleep patterns."
+    },
+    {
+      "id": "depression-q6",
+      "question": "What is a common emotional characteristic of depression?",
+      "options": [
+        "Irritability",
+        "Elated mood",
+        "Racing thoughts",
+        "Grandiosity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Depression often involves irritability, reflecting emotional dysregulation."
+    },
+    {
+      "id": "depression-q7",
+      "question": "Which study provided evidence for the genetic basis of depression?",
+      "options": [
+        "Caspi et al. (2003)",
+        "Zimbardo et al. (1971)",
+        "Freud (1920)",
+        "Asch (1951)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Caspi et al. (2003) studied the interaction between genes and environmental stressors in depression."
+    },
+    {
+      "id": "depression-q8",
+      "question": "Which treatment is based on the principles of Beck's cognitive theory?",
+      "options": [
+        "Cognitive Behavioral Therapy (CBT)",
+        "Electroconvulsive Therapy (ECT)",
+        "Psychoanalysis",
+        "Systematic Desensitization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "CBT is based on Beck's cognitive theory, focusing on changing negative thought patterns."
+    },
+    {
+      "id": "depression-q9",
+      "question": "What is the main aim of Beck's cognitive therapy?",
+      "options": [
+        "To challenge negative thoughts",
+        "To explore unconscious conflicts",
+        "To reduce anxiety",
+        "To induce relaxation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Beck's cognitive therapy aims to challenge and alter negative thoughts to improve mood."
+    },
+    {
+      "id": "depression-q10",
+      "question": "Sarah has been experiencing persistent low mood and loss of interest in activities she once enjoyed. Which diagnosis might Sarah be experiencing?",
+      "options": [
+        "Generalized Anxiety Disorder",
+        "Major Depressive Disorder",
+        "Bipolar Disorder",
+        "Obsessive-Compulsive Disorder"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Persistent low mood and anhedonia are key symptoms of Major Depressive Disorder."
+    },
+    {
+      "id": "depression-q11",
+      "question": "John feels worthless and has trouble concentrating. Which cognitive symptom of depression is he displaying?",
+      "options": [
+        "Helplessness",
+        "Indecisiveness",
+        "Hallucinations",
+        "Euphoria"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Indecisiveness and feelings of worthlessness are cognitive symptoms of depression."
+    },
+    {
+      "id": "depression-q12",
+      "question": "Mary's therapist uses CBT to help her challenge her belief that she is a failure. What aspect of CBT is this an example of?",
+      "options": [
+        "Behavioral activation",
+        "Cognitive restructuring",
+        "Exposure therapy",
+        "Mindfulness"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Cognitive restructuring involves challenging and changing maladaptive beliefs."
+    },
+    {
+      "id": "depression-q13",
+      "question": "A limitation of the cognitive explanation for depression is that it:",
+      "options": [
+        "Ignores genetic factors",
+        "Overemphasizes neurotransmitters",
+        "Is too focused on past experiences",
+        "Lacks empirical support"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The cognitive explanation often overlooks biological factors, such as genetics, in depression."
+    },
+    {
+      "id": "depression-q14",
+      "question": "One criticism of Beck's model of depression is that it:",
+      "options": [
+        "Is overly deterministic",
+        "Does not consider cognitive processes",
+        "Fails to account for irrational thoughts",
+        "Is too simplistic"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Beck's model may be considered simplistic as it primarily focuses on cognitive factors alone."
+    },
+    {
+      "id": "depression-q15",
+      "question": "Which of the following is a strength of using CBT to treat depression?",
+      "options": [
+        "It works quickly",
+        "It is less effective than medication",
+        "It has long-term benefits",
+        "It addresses only physical symptoms"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "CBT has long-term benefits by equipping patients with skills to manage negative thoughts."
+    }
+  ]
+}

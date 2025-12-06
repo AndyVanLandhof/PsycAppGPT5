@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "psychopathology",
+  "topicTitle": "Psychopathology",
+  "subTopic": "ocd",
+  "subTopicTitle": "OCD",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:36:40.021Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define Obsessive-Compulsive Disorder (OCD) and describe its main characteristics.",
+      "keyPoints": [
+        "OCD is an anxiety disorder characterized by obsessions and compulsions.",
+        "Obsessions are persistent and intrusive thoughts, urges, or images.",
+        "Compulsions are repetitive behaviors or mental acts performed to reduce anxiety."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the genetic explanation of OCD.",
+      "keyPoints": [
+        "Genetic explanation suggests OCD is inherited.",
+        "Twin studies show higher concordance rates for OCD in monozygotic twins compared to dizygotic twins.",
+        "Candidate genes, such as SERT and COMT, are implicated in OCD."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the cognitive explanation for OCD.",
+      "keyPoints": [
+        "Cognitive explanation focuses on faulty thought processes.",
+        "Obsessive thoughts are misinterpreted as threatening.",
+        "Individuals with OCD have dysfunctional beliefs and overestimate danger."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "John is constantly worried about germs and spends hours washing his hands even when they are clean. Apply the biological explanation of OCD to John's behavior.",
+      "keyPoints": [
+        "Biological explanation suggests OCD may be due to genetic factors.",
+        "John's excessive hand washing could be linked to an imbalance in neurotransmitters such as serotonin.",
+        "Genetic predisposition might make John's brain pathways overactive in response to perceived threats."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application of the biological explanation with relevant details to John's behavior",
+        "partial": "Partial application with some relevant points",
+        "none": "Little to no application or irrelevant details"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah frequently checks if her door is locked multiple times before leaving the house. Use the cognitive explanation of OCD to explain Sarah's behavior.",
+      "keyPoints": [
+        "Cognitive explanation suggests Sarah has faulty thinking patterns.",
+        "She may have obsessive thoughts about safety, leading her to overestimate the danger of an unlocked door.",
+        "Sarah's checking behavior is a compulsion to reduce anxiety caused by these thoughts."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application of the cognitive explanation with relevant details to Sarah's behavior",
+        "partial": "Partial application with some relevant points",
+        "none": "Little to no application or irrelevant details"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Tom believes that if he doesn't count to ten every time he steps on a crack, something bad will happen. Apply the behavioral explanation of OCD to Tom's behavior.",
+      "keyPoints": [
+        "Behavioral explanation suggests OCD behaviors are learned through conditioning.",
+        "Tom's counting behavior is a compulsion reinforced by the reduction of anxiety.",
+        "His belief in negative outcomes if he doesn’t perform the behavior suggests operant conditioning."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application of the behavioral explanation with relevant details to Tom's behavior",
+        "partial": "Partial application with some relevant points",
+        "none": "Little to no application or irrelevant details"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the genetic explanation of OCD using the PEEL structure.",
+      "keyPoints": [
+        "Point: Genetic explanation is supported by twin studies.",
+        "Evidence: Higher concordance rates in monozygotic twins.",
+        "Explain: Suggests a genetic component but not 100% concordance.",
+        "Link: Environmental factors may also play a role."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed evaluation using PEEL with all key points",
+        "partial": "Some evaluation with incomplete or unclear PEEL structure",
+        "none": "Lacks evaluation or does not use PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the cognitive explanation of OCD using the PEEL structure.",
+      "keyPoints": [
+        "Point: Cognitive explanation offers a clear understanding of thought processes.",
+        "Evidence: Supported by cognitive-behavioral therapy effectiveness.",
+        "Explain: CBT helps alter dysfunctional thoughts, reducing symptoms.",
+        "Link: However, it may overlook biological influences."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed evaluation using PEEL with all key points",
+        "partial": "Some evaluation with incomplete or unclear PEEL structure",
+        "none": "Lacks evaluation or does not use PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the behavioral explanation of OCD using the PEEL structure.",
+      "keyPoints": [
+        "Point: Behavioral explanation emphasizes learned behaviors.",
+        "Evidence: Supported by success of exposure and response prevention therapy.",
+        "Explain: Therapy reduces compulsions by breaking the cycle.",
+        "Link: May ignore cognitive and biological aspects of OCD."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed evaluation using PEEL with all key points",
+        "partial": "Some evaluation with incomplete or unclear PEEL structure",
+        "none": "Lacks evaluation or does not use PEEL"
+      }
+    }
+  ]
+}

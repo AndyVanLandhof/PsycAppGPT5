@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "logical",
+  "subTopicTitle": "Logical Problem of Evil",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:51:03.120Z",
+  "items": [
+    {
+      "question": "What is the Logical Problem of Evil?",
+      "answer": "The Logical Problem of Evil argues that the existence of evil is logically incompatible with the existence of an omnipotent, omnibenevolent God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Omnipotent'.",
+      "answer": "Omnipotent means having unlimited power; an attribute often ascribed to God, meaning He can do anything that is logically possible.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Omnibenevolent'.",
+      "answer": "Omnibenevolent means all-loving or infinitely good; an attribute often ascribed to God, meaning He wants the best for His creation.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Epicurus' contribution to the Problem of Evil?",
+      "answer": "Epicurus questioned if God is willing to prevent evil but not able, He is not omnipotent; if able but not willing, He is malevolent; if both, then why is there evil?",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Mackie (1955) argue about evil?",
+      "answer": "Mackie argued that the existence of evil makes the traditional concept of an omnipotent, omnibenevolent God logically inconsistent, coining the term 'inconsistent triad'.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Inconsistent Triad'.",
+      "answer": "The Inconsistent Triad is a set of three propositions: God is omnipotent, God is omnibenevolent, and evil exists, which cannot all be true simultaneously.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Plantinga's Free Will Defense?",
+      "answer": "Plantinga argues that free will is a greater good that justifies the existence of evil, as free will allows for genuine moral actions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Theodicy'.",
+      "answer": "Theodicy is an attempt to justify the goodness and omnipotence of God despite the existence of evil in the world.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a 'Greater Good Defense'?",
+      "answer": "The Greater Good Defense suggests that the existence of some evil can be justified as it leads to greater goods that outweigh the evil.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Augustine argue in his Theodicy?",
+      "answer": "Augustine argued that evil is the result of human free will and the original sin, not a creation of God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Moral Evil'.",
+      "answer": "Moral evil refers to evil consequences or suffering that is a direct result of human actions, such as murder or theft.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'Natural Evil'.",
+      "answer": "Natural evil refers to suffering caused by natural events, such as earthquakes or diseases, not directly caused by human actions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the Free Will Defense apply to a world with natural disasters?",
+      "answer": "The Free Will Defense struggles with natural disasters as they are not a consequence of human choice, challenging the justification of such evils.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Inconsistent Triad to a scenario where a child suffers from illness.",
+      "answer": "The existence of a child's illness challenges the coexistence of an omnipotent, omnibenevolent God with evil, suggesting a reevaluation of God's attributes or existence.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Plantinga's Free Will Defense apply to human-caused suffering?",
+      "answer": "Plantinga's defense justifies human-caused suffering by valuing free will, which allows for genuine moral decisions, despite the risk of evil.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Augustine's Theodicy to the existence of evil.",
+      "answer": "Augustine's Theodicy claims evil's existence is due to human misuse of free will and original sin, not God's creation.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Plantinga's Free Will Defense.",
+      "answer": "A strength is that it upholds human moral responsibility, asserting that free will is necessary for meaningful moral actions.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the Inconsistent Triad.",
+      "answer": "A limitation is it assumes a specific understanding of God without considering alternative theological perspectives that may reconcile the triad.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Mackie (1955).",
+      "answer": "Mackie's analysis is largely philosophical, relying on logical reasoning rather than empirical evidence, limiting its applicability to empirical challenges.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the strength of Augustine’s Theodicy.",
+      "answer": "Augustine’s Theodicy is criticized for relying on the literal interpretation of Genesis and may not account for natural evils adequately.",
+      "ao": "AO3"
+    }
+  ]
+}

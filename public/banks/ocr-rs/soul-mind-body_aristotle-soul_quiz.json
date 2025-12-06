@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "aristotle-soul",
+  "subTopicTitle": "Aristotle's View of the Soul",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:47:13.903Z",
+  "items": [
+    {
+      "id": "aristotle-soul-q1",
+      "question": "According to Aristotle, what is the primary function of the soul?",
+      "options": [
+        "To actualize the potential of the body",
+        "To exist independently of the body",
+        "To achieve eternal life",
+        "To serve as a vessel for divine essence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle believed the soul's primary function was to actualize the potential of the body, integrating form and matter."
+    },
+    {
+      "id": "aristotle-soul-q2",
+      "question": "In Aristotle's view, which part of the soul is responsible for nutrition and growth?",
+      "options": [
+        "The vegetative soul",
+        "The rational soul",
+        "The appetitive soul",
+        "The sentient soul"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle identified the vegetative soul as responsible for basic life functions like nutrition and growth."
+    },
+    {
+      "id": "aristotle-soul-q3",
+      "question": "Which term best describes Aristotle's concept of the soul?",
+      "options": [
+        "Hylomorphic",
+        "Dualistic",
+        "Materialistic",
+        "Transcendental"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's concept of the soul is hylomorphic, meaning it is a unity of form (soul) and matter (body)."
+    },
+    {
+      "id": "aristotle-soul-q4",
+      "question": "How does Aristotle's view of the soul differ from Plato's?",
+      "options": [
+        "Aristotle believed the soul and body are inseparable, unlike Plato",
+        "Aristotle saw the soul as immortal, unlike Plato",
+        "Aristotle viewed the soul as a separate entity, unlike Plato",
+        "Aristotle believed the soul pre-existed the body, unlike Plato"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle believed the soul and body are inseparable, contrasting with Plato's view of the soul as independent of the body."
+    },
+    {
+      "id": "aristotle-soul-q5",
+      "question": "Which philosopher's work influenced Aristotle's understanding of the soul?",
+      "options": [
+        "Plato",
+        "Descartes",
+        "Kant",
+        "Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle was influenced by Plato, his teacher, especially in his early work, before developing his own theories."
+    },
+    {
+      "id": "aristotle-soul-q6",
+      "question": "What is the role of the rational soul according to Aristotle?",
+      "options": [
+        "To enable reasoning and decision-making",
+        "To facilitate reproduction",
+        "To regulate involuntary actions",
+        "To connect with the divine realm"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The rational soul, according to Aristotle, is responsible for reasoning and decision-making, distinguishing humans from animals."
+    },
+    {
+      "id": "aristotle-soul-q7",
+      "question": "Aristotle's concept of the soul is most closely aligned with which philosophical tradition?",
+      "options": [
+        "Empiricism",
+        "Rationalism",
+        "Idealism",
+        "Existentialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's hylomorphic concept aligns with empiricism as it emphasizes the observable and tangible relationship between soul and body."
+    },
+    {
+      "id": "aristotle-soul-q8",
+      "question": "In what work did Aristotle extensively discuss his views on the soul?",
+      "options": [
+        "De Anima",
+        "Nicomachean Ethics",
+        "Metaphysics",
+        "The Republic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's 'De Anima' is his major work discussing the nature of the soul and its relation to the body."
+    },
+    {
+      "id": "aristotle-soul-q9",
+      "question": "According to Aristotle, which characteristic is NOT associated with the soul?",
+      "options": [
+        "Immortality",
+        "Actuality",
+        "Form",
+        "Unity with the body"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle did not attribute immortality to the soul, viewing it as inseparable from the body and not existing independently."
+    },
+    {
+      "id": "aristotle-soul-q10",
+      "question": "A student argues that Aristotle's soul theory applies to modern artificial intelligence. Which aspect of his theory would support this claim?",
+      "options": [
+        "The soul's function as the form that actualizes potential",
+        "The soul's immortality",
+        "The soul's separation from the body",
+        "The soul's existence in the afterlife"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aristotle's idea that the soul actualizes potential can be likened to AI's role in actualizing the potential of data and algorithms."
+    },
+    {
+      "id": "aristotle-soul-q11",
+      "question": "A biologist claims Aristotle's view of the vegetative soul aligns with plant biology. How might this be explained?",
+      "options": [
+        "The vegetative soul's role in nutrition and growth",
+        "The vegetative soul's immortality",
+        "The vegetative soul's rational decision-making",
+        "The vegetative soul's ability to experience pain"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aristotle's vegetative soul, responsible for nutrition and growth, parallels basic biological functions observed in plants."
+    },
+    {
+      "id": "aristotle-soul-q12",
+      "question": "A psychologist draws parallels between Aristotle's rational soul and modern cognitive theories. What supports this comparison?",
+      "options": [
+        "The rational soul's function in reasoning and decision-making",
+        "The rational soul's immortality",
+        "The rational soul's role in vegetative functions",
+        "The rational soul's existence in all living beings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Modern cognitive theories focus on reasoning and decision-making, similar to Aristotle's rational soul's functions."
+    },
+    {
+      "id": "aristotle-soul-q13",
+      "question": "Critics of Aristotle's soul theory argue it lacks empirical support. Which aspect is most often criticized for this reason?",
+      "options": [
+        "The soul's inseparability from the body",
+        "The soul's role in nutrition",
+        "The soul's immortality",
+        "The soul's potential to actualize"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue Aristotle's idea of the soul being inseparable from the body lacks empirical evidence, as it is more philosophical than scientific."
+    },
+    {
+      "id": "aristotle-soul-q14",
+      "question": "How does Aristotle's view of the soul compare to Cartesian dualism?",
+      "options": [
+        "Aristotle's view is monistic, while Cartesian dualism is dualistic",
+        "Both views consider the soul immortal",
+        "Both views treat the soul as a separate entity from the body",
+        "Aristotle's view supports the mind-body distinction similar to Descartes'"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Aristotle's view is monistic, integrating soul and body, unlike Cartesian dualism which separates the mind and body."
+    },
+    {
+      "id": "aristotle-soul-q15",
+      "question": "What is a common criticism of Aristotle's concept of the rational soul?",
+      "options": [
+        "It is difficult to empirically measure",
+        "It emphasizes the soul's immortality",
+        "It relies on metaphysical dualism",
+        "It ignores the body's influence on the soul"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common criticism is that the rational soul's characteristics, such as reasoning, are difficult to empirically measure or quantify."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "observational-techniques",
+  "subTopicTitle": "Observational techniques",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:37:51.290Z",
+  "items": [
+    {
+      "id": "observational-techniques-q1",
+      "question": "Which of the following is a key characteristic of a naturalistic observation?",
+      "options": [
+        "Behavior is observed in its natural environment",
+        "The researcher manipulates variables to see effects",
+        "Participants are aware they are being observed",
+        "Behavior is observed in a controlled laboratory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Naturalistic observation involves observing behavior in its natural setting without interference."
+    },
+    {
+      "id": "observational-techniques-q2",
+      "question": "What is the main advantage of using a structured observation?",
+      "options": [
+        "It allows for more consistent data collection",
+        "It provides rich qualitative data",
+        "Participants are more relaxed",
+        "It eliminates observer bias"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Structured observations use predefined criteria, making data collection more consistent and reliable."
+    },
+    {
+      "id": "observational-techniques-q3",
+      "question": "Which observational technique did Albert Bandura employ in his 1961 Bobo doll experiment?",
+      "options": [
+        "Controlled observation",
+        "Naturalistic observation",
+        "Participant observation",
+        "Covert observation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bandura used a controlled observation to study the effects of modeled aggression."
+    },
+    {
+      "id": "observational-techniques-q4",
+      "question": "What is participant observation?",
+      "options": [
+        "The observer becomes involved in the group being studied",
+        "The observer remains detached and unobtrusive",
+        "The observer uses hidden cameras to record behavior",
+        "The observer uses questionnaires to collect data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In participant observation, the researcher becomes part of the group to gain deeper insight into their behaviors."
+    },
+    {
+      "id": "observational-techniques-q5",
+      "question": "Which of the following is a disadvantage of covert observation?",
+      "options": [
+        "Ethical issues regarding consent",
+        "Participants alter their behavior",
+        "It is hard to collect data systematically",
+        "It lacks ecological validity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Covert observation raises ethical concerns because participants are unaware they are being observed, which impacts informed consent."
+    },
+    {
+      "id": "observational-techniques-q6",
+      "question": "Which study is famous for using participant observation in a cult setting?",
+      "options": [
+        "Festinger et al. (1956)",
+        "Milgram (1963)",
+        "Asch (1951)",
+        "Zimbardo (1971)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Festinger et al. used participant observation in their study of a doomsday cult to understand cognitive dissonance."
+    },
+    {
+      "id": "observational-techniques-q7",
+      "question": "What is the primary aim of using time sampling in observations?",
+      "options": [
+        "To record behaviors at set intervals",
+        "To observe behaviors continuously",
+        "To focus on one individual in different settings",
+        "To reduce observer bias"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Time sampling involves observing and recording behaviors at specific time intervals, which helps in managing observer workload."
+    },
+    {
+      "id": "observational-techniques-q8",
+      "question": "Which observational technique involves recording everything seen, without a specific focus?",
+      "options": [
+        "Unstructured observation",
+        "Structured observation",
+        "Time sampling",
+        "Event sampling"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Unstructured observation involves recording all observed behaviors without a predetermined focus or system."
+    },
+    {
+      "id": "observational-techniques-q9",
+      "question": "Which term describes the influence of an observer's presence on participants' behavior?",
+      "options": [
+        "Observer effect",
+        "Demand characteristics",
+        "Social desirability bias",
+        "Experimenter bias"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The observer effect refers to changes in participants' behavior due to awareness of being observed."
+    },
+    {
+      "id": "observational-techniques-q10",
+      "question": "A researcher observing children on a playground notes that aggression increases when a particular toy is introduced. What type of observation is this?",
+      "options": [
+        "Naturalistic observation",
+        "Participant observation",
+        "Structured observation",
+        "Controlled observation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The observation takes place in a natural setting (the playground) without manipulation by the researcher."
+    },
+    {
+      "id": "observational-techniques-q11",
+      "question": "In a study, a researcher joins a local running club to study social dynamics. What observational technique is being used?",
+      "options": [
+        "Participant observation",
+        "Covert observation",
+        "Non-participant observation",
+        "Structured observation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The researcher is actively joining the group to observe from within, characteristic of participant observation."
+    },
+    {
+      "id": "observational-techniques-q12",
+      "question": "When observing a classroom, a researcher uses a checklist to record each time students raise their hand to answer. What method is this?",
+      "options": [
+        "Event sampling",
+        "Time sampling",
+        "Unstructured observation",
+        "Participant observation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Event sampling involves recording each occurrence of a specific behavior, such as students raising their hands."
+    },
+    {
+      "id": "observational-techniques-q13",
+      "question": "What is one limitation of participant observation in research?",
+      "options": [
+        "Researcher bias may influence findings",
+        "It lacks ecological validity",
+        "It cannot be used in natural settings",
+        "Data collection is always systematic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Participant observers can develop biases due to their involvement, potentially influencing data interpretation."
+    },
+    {
+      "id": "observational-techniques-q14",
+      "question": "How does structured observation improve the reliability of research findings?",
+      "options": [
+        "By using standardized criteria for data collection",
+        "By allowing the observer to interpret behaviors freely",
+        "By minimizing the observer's presence",
+        "By emphasizing natural behavior over structured data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Structured observation uses standardized criteria, leading to more consistent and replicable findings across different observers."
+    },
+    {
+      "id": "observational-techniques-q15",
+      "question": "Which of the following is a strength of using covert observation in research?",
+      "options": [
+        "It reduces demand characteristics",
+        "It ensures ethical transparency",
+        "It involves participants directly",
+        "It allows detailed interviews with subjects"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Covert observation reduces demand characteristics because participants are unaware they are being observed, leading to more natural behaviors."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "double-effect",
+  "subTopicTitle": "Doctrine of Double Effect",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T10:56:42.524Z",
+  "items": [
+    {
+      "question": "What is the Doctrine of Double Effect?",
+      "answer": "A principle asserting an action with both good and bad effects is permissible if the bad effect is not intended.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'intention' in the context of the Doctrine of Double Effect.",
+      "answer": "Intention refers to the purpose or goal of an action, particularly the outcome the agent aims to achieve.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Aquinas argue about the Doctrine of Double Effect?",
+      "answer": "Aquinas argued that an act causing harm is permissible if the harm is not intended and the act has a proportionate reason.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a 'proportionate reason' in the Doctrine of Double Effect?",
+      "answer": "A proportionate reason justifies the action, meaning the good outcome significantly outweighs the bad outcome.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'moral culpability' in the context of this doctrine.",
+      "answer": "Moral culpability refers to the degree of blame or guilt assigned to individuals for their actions and intentions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Thomson (1976) suggest about the Doctrine of Double Effect?",
+      "answer": "Thomson argued that the doctrine can sometimes allow morally dubious actions if the intention is good.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'foreseen but unintended' effect?",
+      "answer": "A consequence of an action that is predictable but not the agent's primary intention.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'intrinsic evil' in the Doctrine of Double Effect.",
+      "answer": "An intrinsic evil is an action that is fundamentally wrong regardless of intention or outcome.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Foot (1967) contribute to the Doctrine of Double Effect?",
+      "answer": "Foot highlighted the importance of distinguishing between killing and letting die in moral evaluations.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'Principle of Permissible Harm'?",
+      "answer": "This principle allows harm if it is a side effect of achieving a greater good, not a means to an end.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does 'proportionality' play in the Doctrine of Double Effect?",
+      "answer": "Proportionality ensures that the good effect outweighs the bad effect for an action to be morally permissible.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Anscombe (1958) find about intention in moral actions?",
+      "answer": "Anscombe argued that the intention behind actions is crucial for evaluating their morality.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the Doctrine of Double Effect apply to euthanasia?",
+      "answer": "It suggests that administering pain relief that may shorten life is permissible if the intention is to alleviate suffering.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Doctrine of Double Effect to this scenario: A soldier throws a grenade to destroy enemy weapons, knowing it may harm civilians.",
+      "answer": "The soldier's action is permissible if the intention is solely to destroy weapons, not harm civilians, and the military advantage justifies the risk.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the Doctrine of Double Effect relate to self-defense?",
+      "answer": "Killing an attacker is permissible if the intention is self-defense and not the attacker's death.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Doctrine of Double Effect to medical treatment during pregnancy.",
+      "answer": "Treatment that risks harm to a fetus is permissible if the intention is to save the mother's life, not harm the fetus.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the Doctrine of Double Effect.",
+      "answer": "It provides a framework for morally assessing actions with complex consequences, focusing on intention over outcome.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the Doctrine of Double Effect.",
+      "answer": "Distinguishing between intended and merely foreseen consequences can be challenging, leading to subjective moral judgments.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Foot (1967) on Double Effect.",
+      "answer": "Foot's analysis is philosophical, offering a clear distinction between actions and omissions, but lacks empirical data.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the application of the Doctrine of Double Effect in law.",
+      "answer": "While useful in legal contexts, its reliance on subjective intention can complicate judicial decisions.",
+      "ao": "AO3"
+    }
+  ]
+}

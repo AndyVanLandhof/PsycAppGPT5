@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "cosmological",
+  "subTopicTitle": "Cosmological Argument",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:48:51.683Z",
+  "items": [
+    {
+      "id": "cosmological-q1",
+      "question": "Which philosopher is most closely associated with the Cosmological Argument?",
+      "options": [
+        "Thomas Aquinas",
+        "David Hume",
+        "Immanuel Kant",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas is known for the Cosmological Argument, particularly his 'Five Ways'."
+    },
+    {
+      "id": "cosmological-q2",
+      "question": "In which work did Thomas Aquinas outline his version of the Cosmological Argument?",
+      "options": [
+        "Summa Theologica",
+        "Critique of Pure Reason",
+        "Dialogues Concerning Natural Religion",
+        "Principia Ethica"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas's 'Summa Theologica' includes his famous 'Five Ways' arguments for the existence of God."
+    },
+    {
+      "id": "cosmological-q3",
+      "question": "Which of Aquinas's 'Five Ways' is most directly associated with the Cosmological Argument?",
+      "options": [
+        "The First Way",
+        "The Third Way",
+        "The Fourth Way",
+        "The Fifth Way"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The First Way, or the Argument from Motion, is a key component of Aquinas's Cosmological Argument."
+    },
+    {
+      "id": "cosmological-q4",
+      "question": "Which concept is central to the Kalam Cosmological Argument?",
+      "options": [
+        "The universe has a beginning",
+        "God is the greatest conceivable being",
+        "The universe is an illusion",
+        "God is omnibenevolent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Kalam Cosmological Argument focuses on the universe having a definite beginning."
+    },
+    {
+      "id": "cosmological-q5",
+      "question": "Who is credited with the development of the Kalam Cosmological Argument in the modern era?",
+      "options": [
+        "William Lane Craig",
+        "Bertrand Russell",
+        "Rene Descartes",
+        "G.W.F. Hegel"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Lane Craig is known for revitalizing the Kalam Cosmological Argument in contemporary philosophy."
+    },
+    {
+      "id": "cosmological-q6",
+      "question": "Which principle does the Cosmological Argument rely on to argue for the existence of a first cause?",
+      "options": [
+        "Principle of Sufficient Reason",
+        "Principle of Identity",
+        "Principle of Non-Contradiction",
+        "Principle of Utility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Principle of Sufficient Reason states that everything must have a reason or cause, supporting the argument for a first cause."
+    },
+    {
+      "id": "cosmological-q7",
+      "question": "What is a key criticism David Hume raised against the Cosmological Argument?",
+      "options": [
+        "Causation cannot be proven beyond the empirical world",
+        "God's existence is self-evident",
+        "The argument is circular",
+        "The universe has no beginning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume argued that causation cannot be applied beyond the empirical realm, challenging the argument's validity."
+    },
+    {
+      "id": "cosmological-q8",
+      "question": "In which century did Thomas Aquinas live and work?",
+      "options": [
+        "13th century",
+        "10th century",
+        "15th century",
+        "18th century"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas was a 13th-century philosopher and theologian."
+    },
+    {
+      "id": "cosmological-q9",
+      "question": "Which of the following is an example of an a posteriori argument?",
+      "options": [
+        "Cosmological Argument",
+        "Ontological Argument",
+        "Moral Argument",
+        "Pragmatic Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Cosmological Argument is based on empirical evidence and experience, making it a posteriori."
+    },
+    {
+      "id": "cosmological-q10",
+      "question": "A student argues that the universe must have a cause because everything we observe has a cause. What aspect of the Cosmological Argument is being applied?",
+      "options": [
+        "Principle of Causality",
+        "Principle of Sufficient Reason",
+        "Principle of Non-Contradiction",
+        "Principle of Identity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The student's reasoning reflects the Principle of Causality, a key aspect of the Cosmological Argument."
+    },
+    {
+      "id": "cosmological-q11",
+      "question": "A philosopher claims that the universe's beginning is evidence of a higher power. Which version of the Cosmological Argument is most likely being referenced?",
+      "options": [
+        "Kalam Cosmological Argument",
+        "Teleological Argument",
+        "Ontological Argument",
+        "Moral Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Kalam Cosmological Argument emphasizes the universe having a beginning, suggesting a higher power as the cause."
+    },
+    {
+      "id": "cosmological-q12",
+      "question": "If a scientist argues that quantum mechanics allows for events without a cause, which aspect of the Cosmological Argument is being challenged?",
+      "options": [
+        "The need for a first cause",
+        "God's omnipotence",
+        "The existence of an infinite regress",
+        "The definition of God"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Quantum mechanics challenges the Cosmological Argument's assertion that all events must have a specific cause."
+    },
+    {
+      "id": "cosmological-q13",
+      "question": "How does the Cosmological Argument differ from the Ontological Argument?",
+      "options": [
+        "The Cosmological Argument is a posteriori, while the Ontological Argument is a priori",
+        "The Ontological Argument is empirical, while the Cosmological Argument is rational",
+        "Both arguments are a priori",
+        "Both arguments rely on empirical evidence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Cosmological Argument is based on empirical observation (a posteriori), unlike the Ontological Argument, which is a priori."
+    },
+    {
+      "id": "cosmological-q14",
+      "question": "Which philosopher critiqued the Cosmological Argument by questioning the necessity of a first cause?",
+      "options": [
+        "David Hume",
+        "Immanuel Kant",
+        "William Paley",
+        "Anselm of Canterbury"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "David Hume questioned the logic of requiring a first cause for the universe, challenging its necessity."
+    },
+    {
+      "id": "cosmological-q15",
+      "question": "What is a key strength of the Cosmological Argument according to its proponents?",
+      "options": [
+        "It is based on observable phenomena",
+        "It is entirely a priori",
+        "It does not rely on empirical evidence",
+        "It is purely deductive"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Proponents argue that the Cosmological Argument's basis in observable phenomena makes it compelling."
+    }
+  ]
+}

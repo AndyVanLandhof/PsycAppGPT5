@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "neurons-synaptic-transmission",
+  "subTopicTitle": "Neurons and synaptic transmission",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:30:51.968Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure and function of a neuron.",
+      "keyPoints": [
+        "Neurons are specialized cells for transmitting information.",
+        "Key parts include the cell body, dendrites, axon, and terminal buttons.",
+        "The myelin sheath insulates the axon to speed up transmission."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define synaptic transmission and outline the process.",
+      "keyPoints": [
+        "Synaptic transmission is the process of communication between neurons.",
+        "Involves the release of neurotransmitters from the presynaptic neuron.",
+        "Neurotransmitters cross the synaptic gap and bind to receptors on the postsynaptic neuron."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What roles do excitatory and inhibitory neurotransmitters play in synaptic transmission?",
+      "keyPoints": [
+        "Excitatory neurotransmitters increase the likelihood of a neuron firing.",
+        "Inhibitory neurotransmitters decrease the likelihood of a neuron firing.",
+        "The balance between excitatory and inhibitory influences determines neuronal activity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Sarah is preparing for an exam and feels anxious. Explain how her brain's neurotransmitters might be involved in this anxiety.",
+      "keyPoints": [
+        "Anxiety can be linked to neurotransmitters like serotonin and GABA.",
+        "Low serotonin levels may contribute to anxiety symptoms.",
+        "GABA's inhibitory effects might be reduced, leading to increased neural activity and anxiety."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies relevant neurotransmitter theory to the scenario with accurate detail",
+        "partial": "Applies some relevant theory but lacks detail or accuracy",
+        "none": "Theory is inaccurately applied or missing"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Describe how neurotransmitter imbalances could affect John's mood and behavior, considering he has been feeling unusually low and unmotivated.",
+      "keyPoints": [
+        "Low levels of serotonin are often linked to depression and low mood.",
+        "Dopamine imbalances can affect motivation and pleasure.",
+        "These neurotransmitter imbalances could contribute to John's symptoms."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies relevant neurotransmitter theory to the scenario with accurate detail",
+        "partial": "Applies some relevant theory but lacks detail or accuracy",
+        "none": "Theory is inaccurately applied or missing"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Kevin has been experiencing heightened alertness and difficulty sleeping. Apply your knowledge of neurotransmitters to explain his condition.",
+      "keyPoints": [
+        "Increased norepinephrine may be linked to heightened alertness and arousal.",
+        "Reduced GABA activity could lead to difficulties in relaxing and sleeping.",
+        "These neurotransmitter changes may explain Kevin's symptoms."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies relevant neurotransmitter theory to the scenario with accurate detail",
+        "partial": "Applies some relevant theory but lacks detail or accuracy",
+        "none": "Theory is inaccurately applied or missing"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of neurotransmitters in explaining human behavior and mental processes.",
+      "keyPoints": [
+        "Strength: Neurotransmitter research has provided insights into mental disorders.",
+        "Limitation: Biological reductionism may oversimplify complex behaviors.",
+        "Consideration: Environmental and psychological factors also play significant roles."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a balanced evaluation with detailed points and examples",
+        "partial": "Includes some evaluation points but lacks balance or detail",
+        "none": "Lacks evaluation or provides superficial points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the evidence supporting the involvement of neurotransmitters in depression.",
+      "keyPoints": [
+        "Evidence: SSRIs and their effectiveness support the role of serotonin.",
+        "Consideration: Not all patients respond to SSRIs, suggesting other factors.",
+        "Alternative: Cognitive and environmental factors should also be considered."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a balanced discussion with detailed evidence and consideration of alternatives",
+        "partial": "Includes some discussion points but lacks balance or detail",
+        "none": "Lacks discussion or provides superficial points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ethical implications of using neurotransmitter research in mental health treatment.",
+      "keyPoints": [
+        "Ethical concern: Potential side effects of neurotransmitter-targeting drugs.",
+        "Consideration: Importance of informed consent in treatment.",
+        "Balance: Benefits of treatment must be weighed against risks."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a balanced evaluation with ethical considerations and examples",
+        "partial": "Includes some ethical points but lacks balance or detail",
+        "none": "Lacks ethical evaluation or provides superficial points"
+      }
+    }
+  ]
+}

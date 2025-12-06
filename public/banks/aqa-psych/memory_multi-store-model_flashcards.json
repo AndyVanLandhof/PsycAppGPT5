@@ -5,81 +5,106 @@
   "subTopic": "multi-store-model",
   "subTopicTitle": "Multi-store model",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T09:43:19.576Z",
+  "generatedAt": "2025-12-06T10:13:35.504Z",
   "items": [
     {
       "question": "What is the multi-store model of memory?",
-      "answer": "The multi-store model of memory, proposed by Atkinson and Shiffrin (1968), suggests memory consists of sensory register, short-term memory (STM), and long-term memory (LTM), each with distinct characteristics.",
+      "answer": "The multi-store model is a linear model proposed by Atkinson and Shiffrin (1968) describing memory as composed of three stores: sensory register, short-term memory, and long-term memory.",
       "ao": "AO1"
     },
     {
-      "question": "Define sensory register.",
-      "answer": "The sensory register is the first stage of the multi-store model, where sensory information is stored for a brief period (milliseconds) and includes iconic and echoic memory.",
+      "question": "Define sensory register in the multi-store model.",
+      "answer": "The sensory register is the first store in the multi-store model where sensory information is held briefly, allowing for initial processing before it is transferred to short-term memory.",
       "ao": "AO1"
     },
     {
-      "question": "What is short-term memory (STM)?",
-      "answer": "Short-term memory is a limited-capacity store (7±2 items) that holds information for about 18-30 seconds before it is either forgotten or transferred to long-term memory.",
+      "question": "What did Miller (1956) find about short-term memory?",
+      "answer": "Miller (1956) discovered that short-term memory has a capacity of 7±2 items, suggesting it can hold between 5 and 9 pieces of information at a time.",
       "ao": "AO1"
     },
     {
-      "question": "Define long-term memory (LTM).",
-      "answer": "Long-term memory is the final stage of the multi-store model, capable of storing an unlimited amount of information for extended periods, potentially a lifetime.",
+      "question": "How is information transferred from short-term to long-term memory?",
+      "answer": "Information is transferred from short-term to long-term memory through a process called rehearsal, which involves repeatedly practicing or reviewing the information.",
       "ao": "AO1"
     },
     {
-      "question": "What did Miller (1956) find about STM capacity?",
-      "answer": "Miller (1956) proposed that the capacity of short-term memory is about 7±2 items, suggesting that chunking can help increase the amount of information retained.",
+      "question": "Define long-term memory according to the multi-store model.",
+      "answer": "Long-term memory is the final store in the multi-store model, where information is held indefinitely with a potentially unlimited capacity and duration.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley (1966) find about LTM encoding?",
-      "answer": "Baddeley (1966) found that LTM is predominantly encoded semantically, as participants struggled to recall words with similar meanings rather than sounds.",
+      "question": "What did Peterson and Peterson (1959) find about the duration of short-term memory?",
+      "answer": "Peterson and Peterson (1959) found that short-term memory has a brief duration of about 18-30 seconds without rehearsal.",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of rehearsal in memory?",
-      "answer": "Rehearsal is the process of repeatedly verbalizing or thinking about information, crucial for converting short-term memories into long-term storage.",
+      "question": "What is the role of attention in the multi-store model?",
+      "answer": "Attention is the process by which information in the sensory register is selectively focused on and transferred to short-term memory for further processing.",
       "ao": "AO1"
     },
     {
-      "question": "What is the serial position effect?",
-      "answer": "The serial position effect, demonstrated by Murdock (1962), shows that people remember the first (primacy effect) and last (recency effect) items in a list better than those in the middle.",
+      "question": "What did Glanzer and Cunitz (1966) find about the serial position effect?",
+      "answer": "Glanzer and Cunitz (1966) found that when recalling a list of words, people tend to remember the first and last items better than those in the middle, demonstrating the primacy and recency effects.",
       "ao": "AO1"
     },
     {
-      "question": "How does the multi-store model apply to studying for exams?",
-      "answer": "Students can enhance their exam performance by using rehearsal techniques to transfer information from STM to LTM, improving retention and recall.",
+      "question": "How does encoding differ in short-term and long-term memory?",
+      "answer": "Short-term memory primarily encodes information acoustically, while long-term memory encodes information semantically, based on meaning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Baddeley (1966) find about encoding in short-term memory?",
+      "answer": "Baddeley (1966) found that short-term memory is more likely to confuse acoustically similar words, suggesting it primarily encodes information acoustically.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is retrieval according to the multi-store model?",
+      "answer": "Retrieval is the process of accessing and bringing information from long-term memory back to short-term memory for use.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'chunking' in the context of memory.",
+      "answer": "Chunking is a memory technique that involves grouping individual pieces of information into larger, meaningful units, which can increase the capacity of short-term memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply the multi-store model to this scenario: A student remembers the first few items on a list better than the middle ones.",
+      "answer": "This scenario demonstrates the primacy effect, where items at the beginning of a list are better remembered due to longer rehearsal in short-term memory, enhancing transfer to long-term memory.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the multi-store model to a witness recalling an event.",
-      "answer": "A witness's sensory register captures details of the event, STM retains this information temporarily, and LTM stores it for later retrieval during police questioning.",
+      "question": "How does the multi-store model apply to learning a new language?",
+      "answer": "Learning a language involves encoding vocabulary in short-term memory through rehearsal, which then transfers to long-term memory for retention and retrieval during conversations.",
       "ao": "AO2"
     },
     {
-      "question": "How does the multi-store model explain forgetting?",
-      "answer": "Forgetting in the multi-store model occurs due to decay in STM or interference and retrieval failure in LTM, leading to difficulty accessing stored memories.",
+      "question": "Apply the multi-store model to this scenario: Forgetting a phone number quickly after hearing it.",
+      "answer": "This scenario illustrates the short duration of short-term memory, where information like a phone number is forgotten quickly if not rehearsed or transferred to long-term memory.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the multi-store model explain revising for an exam?",
+      "answer": "Revising involves rehearsing information in short-term memory, which strengthens the transfer and storage in long-term memory, improving retrieval during an exam.",
       "ao": "AO2"
     },
     {
       "question": "Give one strength of the multi-store model.",
-      "answer": "A strength of the multi-store model is its clear structure, supported by empirical research, which provides a foundational understanding of memory processes.",
+      "answer": "A strength of the multi-store model is its ability to explain the distinction between short-term and long-term memory, supported by evidence such as the serial position effect.",
       "ao": "AO3"
     },
     {
-      "question": "What is a limitation of the multi-store model?",
-      "answer": "A limitation is its oversimplification; it suggests memory is linear, ignoring the complexity of memory systems, like working memory proposed by Baddeley and Hitch.",
+      "question": "Give one limitation of the multi-store model.",
+      "answer": "A limitation of the multi-store model is its oversimplification of memory processes, ignoring the complexity of interactions between different memory stores and processes like retrieval.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Murdock's study (1962).",
-      "answer": "Murdock's study used controlled lab conditions, enhancing reliability, but lacked ecological validity, as recalling list items may not reflect everyday memory use.",
+      "question": "Evaluate the methodology of Peterson and Peterson (1959).",
+      "answer": "Peterson and Peterson's (1959) study used a controlled lab experiment, providing reliable results but lacking ecological validity due to artificial tasks that may not reflect real-world memory use.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the evidence supporting the multi-store model.",
-      "answer": "While research like Baddeley's supports the model, some studies highlight the interaction between LTM and STM, suggesting the model may not fully capture memory complexity.",
+      "question": "Evaluate the methodology of Glanzer and Cunitz (1966).",
+      "answer": "Glanzer and Cunitz (1966) used a lab experiment, affirming the serial position effect, but the artificial setting may limit generalizability to everyday memory tasks.",
       "ao": "AO3"
     }
   ]

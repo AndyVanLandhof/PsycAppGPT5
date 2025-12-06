@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "biological-approach",
+  "subTopicTitle": "Biological approach",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:28:11.768Z",
+  "items": [
+    {
+      "id": "biological-approach-q1",
+      "question": "What is the main focus of the biological approach in psychology?",
+      "options": [
+        "Examining the influence of genetics and physiology on behavior",
+        "Understanding the role of unconscious processes in behavior",
+        "Analyzing the impact of environmental factors on learning",
+        "Exploring the influence of social interactions on behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The biological approach emphasizes the role of biological processes and structures, such as genetics and the brain, in influencing behavior."
+    },
+    {
+      "id": "biological-approach-q2",
+      "question": "Which technique is commonly used in the biological approach to study brain activity?",
+      "options": [
+        "Functional Magnetic Resonance Imaging (fMRI)",
+        "Classical Conditioning",
+        "Self-report questionnaires",
+        "Observational methods"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "fMRI is a neuroimaging procedure used to measure and map brain activity by detecting changes in blood flow."
+    },
+    {
+      "id": "biological-approach-q3",
+      "question": "Who conducted a famous study on the genetic basis of intelligence in twins?",
+      "options": [
+        "Bouchard et al. (1990)",
+        "Bandura et al. (1961)",
+        "Milgram (1963)",
+        "Asch (1951)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bouchard et al. (1990) conducted the Minnesota Twin Study, which examined the genetic influence on intelligence."
+    },
+    {
+      "id": "biological-approach-q4",
+      "question": "According to the biological approach, how are neurotransmitters linked to behavior?",
+      "options": [
+        "They transmit signals across synapses, affecting mood and behavior",
+        "They are released in response to environmental stimuli",
+        "They are involved in the storage of long-term memories",
+        "They influence behavior by altering genetic expression"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Neurotransmitters are chemicals that transmit signals across synapses and can influence mood, arousal, and behavior."
+    },
+    {
+      "id": "biological-approach-q5",
+      "question": "Which of the following is a key assumption of the biological approach?",
+      "options": [
+        "Behavior is inherited and influenced by genetic factors",
+        "Behavior is primarily learned through conditioning",
+        "Behavior is shaped by unconscious conflicts",
+        "Behavior is determined by cognitive processes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A key assumption of the biological approach is that behavior has a genetic basis and can be inherited."
+    },
+    {
+      "id": "biological-approach-q6",
+      "question": "Which brain structure is primarily associated with the regulation of emotions according to the biological approach?",
+      "options": [
+        "The amygdala",
+        "The hippocampus",
+        "The cerebellum",
+        "The medulla oblongata"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The amygdala is involved in processing emotions such as fear and pleasure."
+    },
+    {
+      "id": "biological-approach-q7",
+      "question": "What is the role of the genotype in the biological approach?",
+      "options": [
+        "It is the genetic makeup of an individual that influences their potential characteristics",
+        "It is the observable characteristics resulting from genetic and environmental influences",
+        "It refers to learned behaviors acquired through experience",
+        "It is the set of cultural norms that guide behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The genotype is an individual's genetic makeup, influencing potential characteristics and traits."
+    },
+    {
+      "id": "biological-approach-q8",
+      "question": "Which study by Raine et al. (1997) investigated the brains of violent offenders?",
+      "options": [
+        "PET scans of murderers pleading NGRI",
+        "Observational study of aggression in prisons",
+        "Longitudinal study of criminal behavior",
+        "Survey on childhood experiences of offenders"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Raine et al. (1997) used PET scans to study the brain activity of murderers pleading Not Guilty by Reason of Insanity (NGRI)."
+    },
+    {
+      "id": "biological-approach-q9",
+      "question": "Which hormone is primarily associated with stress response in the biological approach?",
+      "options": [
+        "Cortisol",
+        "Dopamine",
+        "Serotonin",
+        "Oxytocin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cortisol is a hormone released in response to stress, playing a role in the body's 'fight or flight' response."
+    },
+    {
+      "id": "biological-approach-q10",
+      "question": "A psychologist is studying two siblings, one of whom has a genetic disorder that affects emotional regulation. Which concept from the biological approach is being directly applied?",
+      "options": [
+        "Genetic predisposition",
+        "Neuroplasticity",
+        "Cultural transmission",
+        "Social learning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The concept of genetic predisposition is applied, as the focus is on how genetic factors influence emotional regulation."
+    },
+    {
+      "id": "biological-approach-q11",
+      "question": "During an experiment, it is found that participants with a specific genetic marker perform better on memory tasks. Which aspect of the biological approach is being tested?",
+      "options": [
+        "Influence of genetics on cognitive abilities",
+        "Impact of social factors on learning",
+        "Role of unconscious processes in memory",
+        "Effect of environmental stressors on cognition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The study examines how genetic factors, specifically a genetic marker, influence cognitive abilities such as memory."
+    },
+    {
+      "id": "biological-approach-q12",
+      "question": "A researcher is investigating how brain damage affects personality changes. Which method would be most appropriate?",
+      "options": [
+        "Case study",
+        "Naturalistic observation",
+        "Self-report survey",
+        "Field experiment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Case studies provide in-depth information about individuals with brain damage, aiding in understanding the impact on personality."
+    },
+    {
+      "id": "biological-approach-q13",
+      "question": "One criticism of the biological approach is its reductionism. What does this mean?",
+      "options": [
+        "It simplifies complex behaviors to basic biological components",
+        "It relies too heavily on environmental explanations",
+        "It ignores the role of early childhood experiences",
+        "It overemphasizes the importance of cultural factors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Reductionism in the biological approach means reducing complex behaviors to simpler biological components, possibly overlooking other influences."
+    },
+    {
+      "id": "biological-approach-q14",
+      "question": "How does the biological approach compare to the cognitive approach in terms of explaining behavior?",
+      "options": [
+        "The biological approach focuses on physiological processes, while the cognitive approach emphasizes mental processes",
+        "Both approaches focus solely on environmental influences",
+        "The cognitive approach ignores biological factors",
+        "The biological approach considers cultural differences more than the cognitive approach"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The biological approach emphasizes physiological processes, while the cognitive approach focuses on mental processes such as thinking and memory."
+    },
+    {
+      "id": "biological-approach-q15",
+      "question": "In terms of methodological evaluation, what is a major strength of using brain scans in the biological approach?",
+      "options": [
+        "They provide objective and reliable data about brain structure and activity",
+        "They offer subjective insights into personal experiences",
+        "They are cost-effective and widely available",
+        "They allow for easy manipulation of genetic variables"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Brain scans provide objective, reliable data on brain structure and activity, enhancing the scientific rigor of the biological approach."
+    }
+  ]
+}

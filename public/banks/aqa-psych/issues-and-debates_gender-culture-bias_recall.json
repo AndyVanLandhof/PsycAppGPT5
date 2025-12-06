@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "issues-and-debates",
+  "topicTitle": "Issues and Debates",
+  "subTopic": "gender-culture-bias",
+  "subTopicTitle": "Gender and culture in Psychology",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:41:39.157Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define gender bias in psychology and give an example of androcentrism.",
+      "keyPoints": [
+        "Gender bias refers to the differential treatment or representation of men and women based on stereotypes rather than real differences.",
+        "Androcentrism refers to a male-centered viewpoint in which male behavior is considered the norm.",
+        "An example of androcentrism is when research findings are generalized from male-only studies to females without justification."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain cultural bias in psychological research and provide an example of ethnocentrism.",
+      "keyPoints": [
+        "Cultural bias occurs when research does not take into account cultural differences, assuming that findings apply universally.",
+        "Ethnocentrism is the tendency to view one's own culture as superior and to use it as a standard to judge other cultures.",
+        "An example of ethnocentrism is when Western psychological concepts are applied to non-Western cultures without considering cultural context."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the difference between etic and emic approaches in cross-cultural psychology?",
+      "keyPoints": [
+        "The etic approach involves studying cultures from an outside perspective, aiming to find universal behaviors.",
+        "The emic approach involves studying cultures from within, focusing on culture-specific behaviors.",
+        "Etic approaches often risk cultural bias, while emic approaches provide more culturally relevant insights."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A researcher conducts a study on aggression using only a sample of male college students. Apply the concept of androcentrism to critique this study.",
+      "keyPoints": [
+        "The study may exhibit androcentrism by only including males, potentially leading to biased conclusions that don't consider female perspectives.",
+        "Using a male-only sample may result in findings that are inaccurately generalized to women.",
+        "The study should include a mixed-gender sample to avoid androcentric bias and ensure findings are applicable to both genders."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies concept accurately with detailed critique",
+        "partial": "Some application but lacks detail or accuracy",
+        "none": "Does not apply the concept or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a psychologist assumes that cognitive development stages apply equally across all cultures. How does this relate to ethnocentrism?",
+      "keyPoints": [
+        "Assuming universality of cognitive stages without cultural consideration reflects ethnocentrism.",
+        "This approach disregards cultural variations in cognitive development.",
+        "The psychologist should consider cultural context to avoid ethnocentric bias."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies concept accurately with detailed explanation",
+        "partial": "Some application but lacks detail or accuracy",
+        "none": "Does not apply the concept or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A study claims that individualistic societies have higher rates of depression compared to collectivist societies. Apply the concepts of etic and emic approaches to critique this claim.",
+      "keyPoints": [
+        "An etic approach may overlook cultural factors influencing depression rates in collectivist societies.",
+        "An emic approach would explore depression within the cultural context of each society.",
+        "Using both approaches can provide a more comprehensive understanding of depression across cultures."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies concepts accurately with detailed critique",
+        "partial": "Some application but lacks detail or accuracy",
+        "none": "Does not apply the concepts or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the impact of gender bias on psychological research using the PEEL structure.",
+      "keyPoints": [
+        "Point: Gender bias can lead to stereotypical assumptions and misrepresentations.",
+        "Example: Historically, many studies focused on male participants, leading to biased conclusions.",
+        "Explanation: This limits the applicability of findings to females and can reinforce gender stereotypes.",
+        "Link: Ensuring research inclusivity can improve the validity and generalizability of psychological findings."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with clear evaluation",
+        "partial": "Includes some PEEL elements but lacks detail or clarity",
+        "none": "Missing key PEEL elements or unclear evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of cultural bias in the interpretation of psychological research using the PEEL structure.",
+      "keyPoints": [
+        "Point: Cultural bias can lead to erroneous interpretations and limit the applicability of research.",
+        "Example: Applying Western concepts of intelligence to non-Western cultures can misrepresent cognitive abilities.",
+        "Explanation: This may result in inaccurate assessments and reinforce cultural stereotypes.",
+        "Link: Incorporating diverse cultural perspectives enhances the relevance and accuracy of psychological research."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with clear evaluation",
+        "partial": "Includes some PEEL elements but lacks detail or clarity",
+        "none": "Missing key PEEL elements or unclear evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of emic and etic approaches in cross-cultural psychology using the PEEL structure.",
+      "keyPoints": [
+        "Point: Emic and etic approaches offer complementary insights in cross-cultural research.",
+        "Example: Etic approaches can identify universal behaviors, while emic approaches focus on cultural specifics.",
+        "Explanation: Combining both approaches reduces cultural bias and increases understanding.",
+        "Link: This comprehensive approach enhances the validity and applicability of cross-cultural psychology."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with clear evaluation",
+        "partial": "Includes some PEEL elements but lacks detail or clarity",
+        "none": "Missing key PEEL elements or unclear evaluation"
+      }
+    }
+  ]
+}

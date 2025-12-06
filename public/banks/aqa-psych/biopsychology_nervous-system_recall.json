@@ -1,0 +1,155 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "nervous-system",
+  "subTopicTitle": "The divisions of the nervous system",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:30:06.716Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the central nervous system (CNS) and its main components.",
+      "keyPoints": [
+        "The CNS consists of the brain and spinal cord",
+        "The brain is responsible for processing and integrating information",
+        "The spinal cord relays information to and from the brain and the rest of the body"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the main functions of the peripheral nervous system (PNS)?",
+      "keyPoints": [
+        "The PNS connects the CNS to the rest of the body",
+        "It is divided into the somatic and autonomic nervous systems",
+        "The somatic system controls voluntary movements",
+        "The autonomic system regulates involuntary bodily functions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the autonomic nervous system (ANS) and its subdivisions.",
+      "keyPoints": [
+        "The ANS controls involuntary actions",
+        "It is subdivided into the sympathetic and parasympathetic nervous systems",
+        "The sympathetic system prepares the body for 'fight or flight'",
+        "The parasympathetic system promotes 'rest and digest' functions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A student is about to give a public presentation. Explain how their nervous system is likely to respond.",
+      "keyPoints": [
+        "The sympathetic nervous system will activate due to stress",
+        "Increased heart rate and breathing rate",
+        "Release of adrenaline",
+        "Pupil dilation for better vision",
+        "The parasympathetic system will calm the body post-presentation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application of nervous system functions to the scenario",
+        "partial": "Some application but missing key details or inaccuracies present",
+        "none": "Inaccurate or no application to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the nervous system react to touching a hot surface?",
+      "keyPoints": [
+        "The somatic nervous system would detect the heat through sensory neurons",
+        "A reflex arc would cause a quick withdrawal response",
+        "The CNS processes the information and sends a signal via motor neurons",
+        "The autonomic nervous system may also respond with increased heart rate"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application of nervous system components and processes",
+        "partial": "Some processes mentioned but missing key details",
+        "none": "Inaccurate or no relevant processes mentioned"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a scenario where a person is relaxed after a meal. Explain the role of their nervous system.",
+      "keyPoints": [
+        "The parasympathetic nervous system is active",
+        "Decreased heart rate and blood pressure",
+        "Stimulation of digestion and energy storage",
+        "Relaxation of muscles"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct application of the parasympathetic system's functions",
+        "partial": "Partial or unclear application of functions",
+        "none": "Incorrect or no application of relevant functions"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the reductionist nature of explaining behavior solely through the nervous system.",
+      "keyPoints": [
+        "Reductionism simplifies complex human behavior to biological processes",
+        "It overlooks psychological, social, and environmental factors",
+        "Useful for understanding basic biological mechanisms",
+        "May neglect holistic understanding of behavior"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Balanced evaluation with clear PEEL structure",
+        "partial": "Some evaluation but lacks depth or structure",
+        "none": "No evaluative points or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of using animal studies to understand the human nervous system.",
+      "keyPoints": [
+        "Animal studies provide controlled environments",
+        "Ethical concerns about animal welfare",
+        "Differences between animal and human nervous systems",
+        "Findings may not fully generalize to humans"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Comprehensive evaluation with clear PEEL structure",
+        "partial": "Some evaluative points but lacks depth or clarity",
+        "none": "No evaluative points or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of the autonomic nervous system in stress responses.",
+      "keyPoints": [
+        "ANS plays a critical role in 'fight or flight' responses",
+        "Sympathetic activation prepares the body for stress",
+        "Parasympathetic system restores calm",
+        "May not account for individual differences in stress responses"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Thorough evaluation with clear PEEL structure",
+        "partial": "Includes some evaluation but lacks depth or structure",
+        "none": "No evaluative points or lacks structure"
+      }
+    }
+  ]
+}

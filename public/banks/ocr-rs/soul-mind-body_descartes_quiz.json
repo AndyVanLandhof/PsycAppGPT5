@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "descartes",
+  "subTopicTitle": "Descartes' Dualism",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:48:08.762Z",
+  "items": [
+    {
+      "id": "descartes-q1",
+      "question": "What is the central claim of Descartes' substance dualism?",
+      "options": [
+        "Mind and body are distinct and separable substances.",
+        "Mind and body are the same substance with different properties.",
+        "Mind and body are interdependent but inseparable.",
+        "Mind and body are identical and indistinguishable."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes argued that the mind and body are two distinct substances, capable of existing independently of one another."
+    },
+    {
+      "id": "descartes-q2",
+      "question": "How did Descartes describe the nature of the mind?",
+      "options": [
+        "The mind is a non-extended, thinking substance.",
+        "The mind is an extended, non-thinking substance.",
+        "The mind is an extended, thinking substance.",
+        "The mind is a non-extended, non-thinking substance."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes described the mind as a 'res cogitans', a non-physical, thinking entity."
+    },
+    {
+      "id": "descartes-q3",
+      "question": "Which of the following is a result of Descartes' method of doubt?",
+      "options": [
+        "Cogito, ergo sum",
+        "Tabula rasa",
+        "Eudaimonia",
+        "Categorical imperative"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes' method of doubt led to the conclusion 'Cogito, ergo sum' (I think, therefore I am), establishing the certainty of the self."
+    },
+    {
+      "id": "descartes-q4",
+      "question": "What is the significance of the pineal gland in Descartes' theory?",
+      "options": [
+        "It is the site where the mind and body interact.",
+        "It is the source of emotions.",
+        "It is responsible for memory storage.",
+        "It is the physical manifestation of the soul."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes believed the pineal gland was the point of interaction between the non-physical mind and the physical body."
+    },
+    {
+      "id": "descartes-q5",
+      "question": "In Descartes' view, what is the primary characteristic of the body?",
+      "options": [
+        "Extension in space",
+        "Consciousness",
+        "Rational thought",
+        "Moral reasoning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes characterized the body as an 'extended' substance, meaning it occupies space and has physical dimensions."
+    },
+    {
+      "id": "descartes-q6",
+      "question": "Which of the following philosophers is known for critiquing Descartes' dualism?",
+      "options": [
+        "Gilbert Ryle",
+        "Immanuel Kant",
+        "Plato",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gilbert Ryle famously critiqued Descartes' dualism by describing it as the 'ghost in the machine' fallacy."
+    },
+    {
+      "id": "descartes-q7",
+      "question": "Which study is often associated with neurological evidence against dualism?",
+      "options": [
+        "Libet's study on free will (1983)",
+        "Asch's conformity experiments (1951)",
+        "Milgram's obedience study (1963)",
+        "Zimbardo's prison experiment (1971)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Libet's study on free will showed brain activity preceding conscious intention, challenging the idea of a non-physical mind controlling actions."
+    },
+    {
+      "id": "descartes-q8",
+      "question": "Which of the following is an example of Descartes' 'clear and distinct' ideas?",
+      "options": [
+        "Mathematical truths",
+        "Aesthetic judgments",
+        "Moral principles",
+        "Emotional responses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes considered mathematical truths as clear and distinct ideas that are self-evident and indubitable."
+    },
+    {
+      "id": "descartes-q9",
+      "question": "What does Descartes' concept of 'mechanical philosophy' refer to?",
+      "options": [
+        "The body operates like a machine.",
+        "The mind is a complex mechanism.",
+        "The universe is a living organism.",
+        "The mind and body are inseparable."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Descartes' mechanical philosophy posits that the body functions according to physical laws, much like a machine."
+    },
+    {
+      "id": "descartes-q10",
+      "question": "A patient with a brain injury loses their ability to recognize faces but retains other cognitive abilities. How might Descartes’ dualism explain this?",
+      "options": [
+        "The mind remains intact, but the brain's ability to process visual information is impaired.",
+        "The mind is damaged, affecting all cognitive functions equally.",
+        "The injury has no impact on the mind, only on the soul.",
+        "The mind and body are equally impaired by physical injury."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "According to dualism, the mind is separate from the brain, so while brain functions can be impaired, the mind itself remains unaffected."
+    },
+    {
+      "id": "descartes-q11",
+      "question": "If a person claims to remember a past life, how might a Cartesian dualist interpret this?",
+      "options": [
+        "As evidence of the soul's immortality and non-material existence.",
+        "As a psychological anomaly explained by brain chemistry.",
+        "As a false memory created by social influences.",
+        "As evidence of genetic memory inheritance."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A dualist might see this as evidence of the soul's continuation beyond physical death, aligning with Descartes' view of the soul as non-material."
+    },
+    {
+      "id": "descartes-q12",
+      "question": "In a case where a person experiences phantom limb sensations, how could dualism be used to explain this phenomenon?",
+      "options": [
+        "The mind perceives the limb as still existing despite its physical absence.",
+        "The sensations are purely imaginary and unrelated to mind-body interaction.",
+        "The body is attempting to regenerate the missing limb.",
+        "The brain is malfunctioning and creating false signals."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Dualism allows for the possibility that the mind maintains a perception of the body that is distinct from physical reality."
+    },
+    {
+      "id": "descartes-q13",
+      "question": "Which of the following is a common criticism of Descartes' dualism?",
+      "options": [
+        "It fails to adequately explain how mind and body interact.",
+        "It overemphasizes the role of the physical body.",
+        "It conflates the mind with the soul.",
+        "It denies the existence of consciousness."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A major critique is that Descartes does not sufficiently explain how two distinct substances, mind and body, can causally interact."
+    },
+    {
+      "id": "descartes-q14",
+      "question": "How does Descartes' dualism compare with Aristotle's view of the soul?",
+      "options": [
+        "Descartes sees the soul as separate from the body; Aristotle sees it as the form of the body.",
+        "Both see the soul as a physical entity within the body.",
+        "Descartes and Aristotle agree on the soul's immortality.",
+        "Aristotle views the soul as superior to the body, unlike Descartes."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Descartes' dualism separates mind and body, whereas Aristotle sees the soul as the form and essence of the body, integral to its being."
+    },
+    {
+      "id": "descartes-q15",
+      "question": "What is a methodological issue with Descartes' use of introspection to support dualism?",
+      "options": [
+        "Introspection is subjective and lacks empirical verification.",
+        "Introspection provides clear and distinct ideas.",
+        "Introspection is universally reliable across different individuals.",
+        "Introspection is a form of external observation."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Introspection is criticized for being subjective and not providing objective, empirically verifiable evidence, which weakens its support for dualism."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "theodicies",
+  "subTopicTitle": "Theodicies and Defenses",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:52:32.568Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'theodicy' as it relates to the Problem of Evil.",
+      "keyPoints": [
+        "Theodicy is an attempt to justify God's goodness despite the existence of evil",
+        "It provides explanations for why a benevolent and omnipotent God allows evil",
+        "Often involves philosophical arguments and theological interpretations"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline John Hick's soul-making theodicy.",
+      "keyPoints": [
+        "Hick's theodicy suggests that evil and suffering are necessary for soul-making",
+        "Argues that humans are created imperfectly to develop virtues",
+        "Emphasizes the importance of free will and the development of moral character"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the Free Will Defense in relation to the Problem of Evil.",
+      "keyPoints": [
+        "The Free Will Defense argues that evil is a consequence of human free will",
+        "Maintains that free will is necessary for genuine moral actions",
+        "Claims that God allows evil to preserve human freedom"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Augustine's theodicy to the scenario of natural disasters causing widespread suffering.",
+      "keyPoints": [
+        "Augustine's theodicy attributes evil to the Fall and original sin",
+        "Natural disasters can be seen as a result of the corrupted world post-Fall",
+        "Emphasizes that God did not create evil, but it is a privation of good"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Augustine's theodicy correctly with all key points",
+        "partial": "Applies the theodicy but lacks depth or misses key points",
+        "none": "Fails to apply Augustine's theodicy or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the Irenaean theodicy be used to explain the existence of moral evil?",
+      "keyPoints": [
+        "Irenaean theodicy views evil as part of human development towards God's likeness",
+        "Moral evil is seen as a necessary challenge for moral growth",
+        "Emphasizes the eventual reconciliation and perfection of humanity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies Irenaean theodicy with all key points",
+        "partial": "Applies the theodicy but lacks depth or misses key points",
+        "none": "Fails to apply Irenaean theodicy or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a situation where a person is wrongfully imprisoned. How might the Free Will Defense account for this moral evil?",
+      "keyPoints": [
+        "Free Will Defense suggests moral evil stems from human choices",
+        "Imprisonment is a result of misuse of human free will by individuals or systems",
+        "God allows such situations to maintain the integrity of free will"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the Free Will Defense with all key points",
+        "partial": "Applies the defense but lacks depth or misses key points",
+        "none": "Fails to apply the Free Will Defense or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of the Free Will Defense using the PEEL structure.",
+      "keyPoints": [
+        "Point: Free Will Defense preserves human agency",
+        "Example: Explains moral evil as a consequence of free choice",
+        "Explanation: Maintains God's goodness by attributing evil to human actions",
+        "Limitation: Does not adequately address natural evil"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear PEEL structure and depth",
+        "partial": "Includes some key points but lacks structure or depth",
+        "none": "Missing key points or lacks a coherent evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate John Hick's soul-making theodicy in terms of its plausibility and criticisms.",
+      "keyPoints": [
+        "Point: Soul-making theodicy provides a purpose for suffering",
+        "Example: Suffering as a means to develop virtues",
+        "Explanation: Aligns with the idea of spiritual growth",
+        "Limitation: Criticized for justifying unnecessary suffering"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation and depth",
+        "partial": "Includes some key points but lacks depth or clarity",
+        "none": "Missing key points or lacks a coherent evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the effectiveness of the Irenaean theodicy in addressing the Problem of Evil.",
+      "keyPoints": [
+        "Point: Irenaean theodicy gives meaning to suffering",
+        "Example: Suffering as a necessary step to spiritual maturity",
+        "Explanation: Supports the idea of eventual divine reconciliation",
+        "Limitation: Struggles with explaining gratuitous suffering"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear critical assessment and depth",
+        "partial": "Includes some key points but lacks depth or clarity",
+        "none": "Missing key points or lacks a coherent critical assessment"
+      }
+    }
+  ]
+}

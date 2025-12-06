@@ -5,86 +5,106 @@
   "subTopic": "eyewitness-testimony",
   "subTopicTitle": "Eyewitness testimony",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T09:44:19.616Z",
+  "generatedAt": "2025-12-06T10:15:44.316Z",
   "items": [
     {
       "question": "What is eyewitness testimony?",
-      "answer": "Eyewitness testimony is an account given by people of an event they have witnessed, often used as evidence in legal settings.",
+      "answer": "Eyewitness testimony refers to the account a bystander or victim gives in the courtroom, describing what happened during a specific incident or crime.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'misinformation effect'.",
-      "answer": "The misinformation effect occurs when a person's memory of an event is altered by misleading information presented after the event.",
+      "question": "Define the term 'misleading information' in the context of eyewitness testimony.",
+      "answer": "Misleading information occurs when incorrect information is presented after an event, which can distort memory and affect the accuracy of eyewitness testimony.",
       "ao": "AO1"
     },
     {
-      "question": "What did Loftus and Palmer (1974) find about eyewitness testimony?",
-      "answer": "Loftus and Palmer found that the wording of questions (e.g., 'smashed' vs. 'hit') significantly affected participants' speed estimates of a car accident.",
+      "question": "What did Loftus and Palmer (1974) find about leading questions?",
+      "answer": "Loftus and Palmer found that leading questions could distort eyewitness memory; participants estimated higher speeds when the word 'smashed' was used compared to 'hit.'",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of leading questions?",
-      "answer": "Leading questions suggest a particular answer, potentially altering a witness's memory and impacting the accuracy of their testimony.",
+      "question": "Define 'post-event discussion' in eyewitness testimony.",
+      "answer": "Post-event discussion occurs when witnesses discuss an event with each other, potentially contaminating their memories and affecting the accuracy of their testimony.",
       "ao": "AO1"
     },
     {
-      "question": "What did Gabbert et al. (2003) find regarding memory conformity?",
-      "answer": "Gabbert et al. found that witnesses who discussed an event with others were more likely to incorporate incorrect details into their own memories.",
+      "question": "What did Gabbert et al. (2003) find about post-event discussion?",
+      "answer": "Gabbert et al. found that 71% of participants mistakenly recalled details they had not seen themselves after discussing the event with others.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the cognitive interview?",
+      "answer": "The cognitive interview is a method of interviewing eyewitnesses to help them retrieve more accurate memories by using techniques like context reinstatement and changing perspectives.",
       "ao": "AO1"
     },
     {
       "question": "Define 'anxiety' in the context of eyewitness testimony.",
-      "answer": "Anxiety refers to the emotional state of fear or worry, which can impair memory recall and affect the accuracy of eyewitness testimonies.",
+      "answer": "Anxiety refers to the emotional response a witness may experience during or after an event, which can influence the accuracy and reliability of their testimony.",
       "ao": "AO1"
     },
     {
-      "question": "What did Yuille and Cutshall (1986) discover about the effects of stress on memory?",
-      "answer": "Yuille and Cutshall found that witnesses to a real-life robbery were highly accurate in their testimonies despite high levels of stress.",
+      "question": "What did Yuille and Cutshall (1986) find about anxiety and eyewitness testimony?",
+      "answer": "Yuille and Cutshall found that witnesses of a real-life gun shooting who reported higher stress levels had more accurate memories than less stressed witnesses.",
       "ao": "AO1"
     },
     {
-      "question": "What is the 'weapon focus' effect?",
-      "answer": "The weapon focus effect suggests that the presence of a weapon during a crime can distract witnesses, leading to poorer recall of other details.",
+      "question": "Define the 'weapon focus effect.'",
+      "answer": "The weapon focus effect is the tendency for the presence of a weapon to draw attention and impair a witness's ability to remember other details of a crime.",
       "ao": "AO1"
     },
     {
-      "question": "What is cognitive interview?",
-      "answer": "The cognitive interview is a technique used to enhance eyewitness recall by using various strategies, such as context reinstatement and open-ended questions.",
+      "question": "What did Johnson and Scott (1976) find about weapon focus?",
+      "answer": "Johnson and Scott found that participants exposed to a knife (weapon focus) condition had poorer recall of the perpetrator compared to a pen condition.",
       "ao": "AO1"
     },
     {
-      "question": "How does the misinformation effect apply to a courtroom scenario?",
-      "answer": "In a courtroom, jurors may be influenced by misleading information presented in media or during questioning, potentially distorting their perception of eyewitness reliability.",
+      "question": "Define the term 'own-age bias' in eyewitness testimony.",
+      "answer": "Own-age bias is the tendency for people to more accurately recognize faces of their own age group compared to those of other age groups.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the effect of age on eyewitness testimony?",
+      "answer": "Age can affect memory accuracy, with children and older adults generally having less reliable eyewitness testimonies compared to young adults.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the cognitive interview apply to improving police interviews?",
+      "answer": "The cognitive interview uses techniques like context reinstatement and varied retrieval to enhance memory recall, providing police with more accurate witness statements.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of leading questions to a police interview scenario.",
-      "answer": "If a police officer asks, 'Did you see the man with the red jacket?', it may lead the witness to falsely remember the jacket's color, impacting their testimony.",
+      "question": "Apply the concept of weapon focus to this scenario: A witness sees a robbery involving a gun.",
+      "answer": "The witness might focus on the gun, reducing their ability to recall other details such as the robber's appearance or escape method.",
       "ao": "AO2"
     },
     {
-      "question": "How does anxiety affect a witness's memory in a robbery scenario?",
-      "answer": "In a high-anxiety robbery scenario, a witness may focus on the weapon rather than other details, leading to incomplete or inaccurate recall of the event.",
+      "question": "How does misleading information apply to this scenario: A witness hears other people discussing a suspect's clothing?",
+      "answer": "Exposure to misleading information from others might cause the witness to incorrectly recall the suspect's clothing, affecting the accuracy of their testimony.",
       "ao": "AO2"
     },
     {
-      "question": "Evaluate the use of cognitive interviews in improving eyewitness testimony.",
-      "answer": "Cognitive interviews can enhance recall accuracy by reducing leading questions. However, they may also increase the risk of false memories if not conducted properly.",
+      "question": "Apply own-age bias to this scenario: An elderly witness identifies a young suspect.",
+      "answer": "The elderly witness may have difficulty accurately identifying the young suspect due to own-age bias, potentially leading to a misidentification.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the cognitive interview.",
+      "answer": "A strength of the cognitive interview is its effectiveness; research shows it elicits more accurate and detailed information than standard police interviews.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of Loftus and Palmer's (1974) study.",
-      "answer": "A limitation is that it used students as participants, which may not represent the general population's memory reliability in real-life situations.",
+      "question": "Give one limitation of using leading questions in research.",
+      "answer": "A limitation is that leading questions can create demand characteristics, influencing participants to respond in ways they think align with the researcher's hypothesis.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Gabbert et al. (2003).",
-      "answer": "Gabbert et al.'s study had high ecological validity as it used a realistic scenario. However, it lacked control over participants' prior knowledge of the event.",
+      "question": "Evaluate the methodology of Loftus and Palmer (1974).",
+      "answer": "Loftus and Palmer's lab experiment had high control over variables, ensuring reliability, but lacked ecological validity as it used artificial car crash videos.",
       "ao": "AO3"
     },
     {
-      "question": "What is a strength of Yuille and Cutshall's (1986) study?",
-      "answer": "A strength is its real-world application, demonstrating that eyewitnesses can provide accurate testimonies even under high stress, contrasting laboratory findings.",
+      "question": "Evaluate the methodology of Yuille and Cutshall (1986).",
+      "answer": "Yuille and Cutshall's study had high ecological validity due to its real-life context, but the uncontrolled variables may limit the reliability and generalizability of findings.",
       "ao": "AO3"
     }
   ]

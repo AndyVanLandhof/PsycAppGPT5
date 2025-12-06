@@ -5,15 +5,17 @@
   "subTopic": "eyewitness-testimony",
   "subTopicTitle": "Eyewitness testimony",
   "type": "recall",
-  "generatedAt": "2025-12-06T09:48:55.131Z",
+  "generatedAt": "2025-12-06T10:16:17.953Z",
   "items": [
     {
       "ao": "AO1",
-      "prompt": "Define eyewitness testimony and explain its significance in the legal system.",
+      "prompt": "Describe the key features of the multi-store model of memory.",
       "keyPoints": [
-        "Eyewitness testimony refers to an account given by people of an event they have witnessed.",
-        "It is significant in the legal system as it can influence jury decisions and verdicts.",
-        "Factors affecting eyewitness testimony include memory distortion, leading questions, and stress."
+        "Sensory register",
+        "Short-term memory",
+        "Long-term memory",
+        "Information flow",
+        "Rehearsal"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -24,11 +26,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "What are the main factors that can affect the accuracy of eyewitness testimony?",
+      "prompt": "Explain the concept of 'leading questions' and their impact on eyewitness testimony.",
       "keyPoints": [
-        "Stress levels during the event can impair memory recall.",
-        "The presence of leading questions can distort recollection.",
-        "Cross-race effect may occur, where individuals are better at recognizing faces of their own race."
+        "Definition of leading questions",
+        "Loftus and Palmer study",
+        "Impact on memory recall"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -39,11 +41,11 @@
     },
     {
       "ao": "AO1",
-      "prompt": "Summarize the findings of Loftus and Palmer's study on eyewitness testimony.",
+      "prompt": "What is the cognitive interview, and how does it improve eyewitness testimony?",
       "keyPoints": [
-        "Loftus and Palmer conducted a study on the effects of leading questions.",
-        "Participants watched a film of a car accident and were asked about the speed of the cars using different verbs.",
-        "The wording of the question influenced participants' speed estimates, demonstrating that memory can be altered."
+        "Definition of cognitive interview",
+        "Techniques used (e.g., context reinstatement)",
+        "Improves accuracy and recall"
       ],
       "wordRange": "50-100",
       "markingCriteria": {
@@ -54,92 +56,96 @@
     },
     {
       "ao": "AO2",
-      "prompt": "Imagine you are a police officer interviewing a witness to a robbery. What strategies would you use to ensure the eyewitness testimony is as accurate as possible?",
+      "prompt": "A witness to a car accident is questioned by police using leading questions. How might their testimony be affected, according to research?",
       "keyPoints": [
-        "Use open-ended questions to avoid leading the witness.",
-        "Allow the witness to recount the event in their own words before asking specific questions.",
-        "Create a calm environment to reduce stress and anxiety, which may impair memory."
+        "Leading questions can distort memory",
+        "Reference to Loftus and Palmer study",
+        "Potential for inaccurate recall"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
-        "none": "Missing key points or inaccurate"
+        "full": "Applies theory accurately to the scenario with research reference",
+        "partial": "Applies theory but lacks research reference or detail",
+        "none": "Fails to apply theory accurately"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "A witness to a crime reports seeing a suspect wearing a red jacket. Later, they recall it was blue. How might this inconsistency affect the case, and what can be done to address it?",
+      "prompt": "A detective uses the cognitive interview technique on a robbery witness. What specific strategies should the detective employ to enhance recall?",
       "keyPoints": [
-        "Inconsistencies can undermine the credibility of the eyewitness and the reliability of the testimony.",
-        "Factors like stress or the passage of time can lead to memory distortions.",
-        "Using cognitive interview techniques might help the witness retrieve more accurate details."
+        "Context reinstatement",
+        "Report everything",
+        "Change perspective",
+        "Reverse order"
       ],
-      "wordRange": "100-150",
+      "wordRange": "50-100",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
-        "none": "Missing key points or inaccurate"
+        "full": "Accurately applies cognitive interview techniques to the scenario",
+        "partial": "Mentions some techniques without full detail or accuracy",
+        "none": "Fails to apply cognitive interview techniques correctly"
       }
     },
     {
       "ao": "AO2",
-      "prompt": "Consider a scenario where a witness is shown a lineup of suspects shortly after a crime. What factors should be considered to ensure the witness's identification is reliable?",
+      "prompt": "In a court case, a child's testimony is questioned due to the use of repeated questioning. How might this affect the reliability of their testimony?",
       "keyPoints": [
-        "Ensure that the lineup is fair and that the suspects resemble the description given by the witness.",
-        "Avoid suggesting which individual is the suspect or using confirmation bias.",
-        "Provide instructions that the perpetrator may or may not be in the lineup to reduce pressure on the witness."
+        "Repeated questioning can lead to memory distortion",
+        "Child's suggestibility",
+        "Risk of confabulation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies theory to scenario with understanding of risks",
+        "partial": "Applies theory but lacks depth or detail",
+        "none": "Fails to apply theory accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the multi-store model of memory using the PEEL structure.",
+      "keyPoints": [
+        "Point: Strength or limitation",
+        "Evidence: Research supporting or contradicting",
+        "Explain: Why this is important",
+        "Link: Connect to overall evaluation"
       ],
       "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Includes all key points with accurate detail",
-        "partial": "Includes 1-2 key points or lacks detail",
-        "none": "Missing key points or inaccurate"
+        "full": "Uses PEEL structure effectively with detailed evaluation",
+        "partial": "Attempts PEEL but lacks depth or clarity",
+        "none": "Fails to evaluate using PEEL structure"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Evaluate the reliability of eyewitness testimony as a form of evidence in court.",
+      "prompt": "Critically evaluate the research by Loftus and Palmer on leading questions.",
       "keyPoints": [
-        "Point: Eyewitness testimony can be unreliable due to various factors affecting memory.",
-        "Evidence: Studies like Loftus and Palmer show how leading questions can alter memories.",
-        "Link: This raises concerns about the validity of eyewitness accounts in legal settings, suggesting a need for corroborating evidence."
+        "Point: Strength or limitation",
+        "Evidence: Methodology, findings",
+        "Explain: Impact on validity/reliability",
+        "Link: Overall significance of the study"
       ],
-      "wordRange": "150-200",
+      "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Clearly follows PEEL structure with detailed points",
-        "partial": "Attempts to follow PEEL but may lack clarity or detail",
-        "none": "Fails to address the question or does not follow PEEL structure"
+        "full": "Uses PEEL structure effectively with detailed evaluation",
+        "partial": "Attempts PEEL but lacks depth or clarity",
+        "none": "Fails to evaluate using PEEL structure"
       }
     },
     {
       "ao": "AO3",
-      "prompt": "Critically analyze the impact of stress on eyewitness testimony accuracy.",
+      "prompt": "Discuss the effectiveness of the cognitive interview in improving eyewitness testimony.",
       "keyPoints": [
-        "Point: Stress can significantly impair memory recall.",
-        "Evidence: Research indicates that high-stress situations can lead to tunnel vision and focus on central details at the expense of peripheral details.",
-        "Link: This suggests that eyewitness accounts may be distorted under stressful conditions, questioning their reliability."
+        "Point: Strength or limitation",
+        "Evidence: Supporting research",
+        "Explain: Impact on testimony accuracy",
+        "Link: Overall assessment of effectiveness"
       ],
-      "wordRange": "150-200",
+      "wordRange": "100-150",
       "markingCriteria": {
-        "full": "Clearly follows PEEL structure with detailed points",
-        "partial": "Attempts to follow PEEL but may lack clarity or detail",
-        "none": "Fails to address the question or does not follow PEEL structure"
-      }
-    },
-    {
-      "ao": "AO3",
-      "prompt": "Discuss the implications of the misinformation effect on legal proceedings.",
-      "keyPoints": [
-        "Point: The misinformation effect reveals how post-event information can alter a witness's memory.",
-        "Evidence: Studies demonstrate that participants can recall false information after being exposed to misleading questions.",
-        "Link: This has serious implications for the justice system, highlighting the need for careful questioning of witnesses to ensure accurate testimony."
-      ],
-      "wordRange": "150-200",
-      "markingCriteria": {
-        "full": "Clearly follows PEEL structure with detailed points",
-        "partial": "Attempts to follow PEEL but may lack clarity or detail",
-        "none": "Fails to address the question or does not follow PEEL structure"
+        "full": "Uses PEEL structure effectively with detailed evaluation",
+        "partial": "Attempts PEEL but lacks depth or clarity",
+        "none": "Fails to evaluate using PEEL structure"
       }
     }
   ]

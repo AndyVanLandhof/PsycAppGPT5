@@ -1,0 +1,148 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "endocrine-system",
+  "subTopicTitle": "The endocrine system",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:31:37.629Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of the endocrine system in the human body.",
+      "keyPoints": [
+        "The endocrine system is a collection of glands",
+        "These glands secrete hormones directly into the bloodstream",
+        "Hormones regulate various bodily functions such as growth, metabolism, and mood"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe two glands of the endocrine system and their functions.",
+      "keyPoints": [
+        "The pituitary gland is known as the 'master gland' and controls other glands",
+        "The adrenal glands produce adrenaline and are involved in the fight or flight response"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes both glands with accurate descriptions and functions",
+        "partial": "Includes one gland or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the difference between hormones and neurotransmitters.",
+      "keyPoints": [
+        "Hormones are chemical messengers released into the bloodstream",
+        "Neurotransmitters are chemical messengers released across synapses",
+        "Hormones have longer-lasting effects, while neurotransmitters act quickly"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person is experiencing increased heart rate and sweating during a stressful situation. Explain how the endocrine system is involved in this response.",
+      "keyPoints": [
+        "The adrenal glands release adrenaline",
+        "Adrenaline increases heart rate and prepares the body for fight or flight",
+        "The endocrine system's role is to respond to stress by releasing hormones"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies endocrine system's role in the scenario",
+        "partial": "Applies some elements of the endocrine system but lacks detail",
+        "none": "Fails to apply the endocrine system to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Susan has been feeling tired and gaining weight despite eating less. How might the endocrine system be involved in her symptoms?",
+      "keyPoints": [
+        "Possible underactivity of the thyroid gland",
+        "Hypothyroidism can cause fatigue and weight gain",
+        "The endocrine system regulates metabolism through hormones"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly identifies thyroid involvement and explains symptoms",
+        "partial": "Identifies some correct elements but lacks detail",
+        "none": "Does not apply endocrine system concepts to symptoms"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Explain how the endocrine system might be involved if a person is experiencing extreme thirst and frequent urination.",
+      "keyPoints": [
+        "Potential problem with insulin regulation by the pancreas",
+        "Could indicate diabetes mellitus, affecting blood sugar levels",
+        "Endocrine system regulates glucose metabolism through insulin"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately connects symptoms to endocrine function",
+        "partial": "Identifies some correct elements but lacks detail",
+        "none": "Fails to apply the endocrine system to the symptoms"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of the endocrine system in the fight or flight response using PEEL structure.",
+      "keyPoints": [
+        "Point: Endocrine system releases hormones like adrenaline",
+        "Example: Adrenaline increases heart rate",
+        "Explain: Prepares body for immediate physical action",
+        "Link: However, the response may be less effective in chronic stress situations"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a well-structured PEEL evaluation with all points",
+        "partial": "Includes some PEEL elements but lacks detail or structure",
+        "none": "Lacks coherent evaluation or structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the interaction between the endocrine system and the nervous system.",
+      "keyPoints": [
+        "Point: Both systems work together for homeostasis",
+        "Example: Adrenal medulla releases adrenaline in response to nervous signals",
+        "Explain: Coordinated response to stressors",
+        "Link: Complexity of interactions can make understanding difficult"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Provides a comprehensive critical assessment with all points",
+        "partial": "Includes some assessment elements but lacks depth",
+        "none": "Fails to critically assess the interaction"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of research on the endocrine system.",
+      "keyPoints": [
+        "Point: Ethical concerns limit experimental research",
+        "Example: Difficult to manipulate hormone levels in humans",
+        "Explain: Reliance on animal studies which may not fully generalize",
+        "Link: Leads to limitations in understanding human endocrinology"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Discusses limitations comprehensively with all points",
+        "partial": "Mentions some limitations but lacks detail",
+        "none": "Fails to discuss meaningful limitations"
+      }
+    }
+  ]
+}

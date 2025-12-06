@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "research-methods",
+  "topicTitle": "Research Methods",
+  "subTopic": "experimental-method",
+  "subTopicTitle": "Experimental method",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:37:23.850Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define 'independent variable' and 'dependent variable' in the context of an experiment.",
+      "keyPoints": [
+        "Independent variable (IV) is the variable that is manipulated by the researcher.",
+        "Dependent variable (DV) is the variable that is measured to see if it is affected by changes in the IV.",
+        "Both variables are used to establish cause-and-effect relationships."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain what is meant by 'extraneous variables' and their potential impact on an experiment.",
+      "keyPoints": [
+        "Extraneous variables are variables other than the IV that might affect the DV.",
+        "They need to be controlled to prevent them from becoming confounding variables.",
+        "If not controlled, they can obscure the true relationship between the IV and DV."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the difference between a laboratory experiment and a field experiment.",
+      "keyPoints": [
+        "Laboratory experiments are conducted in a controlled, artificial environment.",
+        "Field experiments are conducted in a natural setting.",
+        "Laboratory experiments allow for greater control over variables, while field experiments have higher ecological validity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a researcher wants to test the effect of sleep on memory recall. Describe how they might operationalize the independent and dependent variables.",
+      "keyPoints": [
+        "Operationalize IV: Amount of sleep, e.g., 4 hours vs. 8 hours.",
+        "Operationalize DV: Memory recall, e.g., number of words remembered from a list.",
+        "Ensure clear, measurable definitions for both variables."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to the scenario",
+        "partial": "Includes 1-2 key points or lacks clear application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A study found that students who studied in quiet environments scored higher on tests. How can this be explained using experimental methods?",
+      "keyPoints": [
+        "IV: Environment type (quiet vs. noisy).",
+        "DV: Test scores.",
+        "Possible controls: Same study material, same test difficulty."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to the scenario",
+        "partial": "Includes 1-2 key points or lacks clear application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Design a simple experiment to test the effect of temperature on concentration levels.",
+      "keyPoints": [
+        "IV: Temperature (e.g., cold, room temperature, hot).",
+        "DV: Concentration levels (e.g., time taken to complete a task).",
+        "Consider controls and operational definitions for clarity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to the scenario",
+        "partial": "Includes 1-2 key points or lacks clear application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of laboratory experiments in psychological research using the PEEL structure.",
+      "keyPoints": [
+        "P: Point - Laboratory experiments allow for high control over variables.",
+        "E: Evidence - Can establish cause-and-effect relationships.",
+        "E: Explanation - Control increases internal validity but may reduce ecological validity.",
+        "L: Link - Useful for theory testing but may not reflect real-world behavior."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes some key points or incomplete PEEL structure",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the ethical considerations of using deception in experimental research.",
+      "keyPoints": [
+        "P: Point - Deception can be necessary to prevent demand characteristics.",
+        "E: Evidence - Can lead to more valid results by simulating real-life scenarios.",
+        "E: Explanation - Ethical guidelines require that deception is justified and participants are debriefed.",
+        "L: Link - Balances need for valid results with ethical responsibility."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes some key points or incomplete PEEL structure",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of field experiments in psychological research.",
+      "keyPoints": [
+        "P: Point - Field experiments have high ecological validity.",
+        "E: Evidence - Reflects real-world settings and behavior.",
+        "E: Explanation - However, less control over extraneous variables can affect reliability.",
+        "L: Link - While realistic, they may not always establish clear cause-and-effect."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes some key points or incomplete PEEL structure",
+        "none": "Missing key points or lacks evaluation"
+      }
+    }
+  ]
+}

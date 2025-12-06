@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "theodicies",
+  "subTopicTitle": "Theodicies and Defenses",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:52:16.604Z",
+  "items": [
+    {
+      "id": "theodicies-q1",
+      "question": "Who is the philosopher behind the Free Will Defense in the context of the problem of evil?",
+      "options": [
+        "Alvin Plantinga",
+        "Richard Swinburne",
+        "John Hick",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga developed the Free Will Defense, which argues that God allows evil for the sake of free will."
+    },
+    {
+      "id": "theodicies-q2",
+      "question": "Which theodicy suggests that evil is necessary for spiritual growth and development?",
+      "options": [
+        "Irenaean Theodicy",
+        "Augustinian Theodicy",
+        "Process Theodicy",
+        "Free Will Defense"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Irenaean Theodicy, as proposed by John Hick, suggests that evil serves a purpose in ‘soul-making’ and spiritual development."
+    },
+    {
+      "id": "theodicies-q3",
+      "question": "What is the central claim of the Augustinian Theodicy regarding the origin of evil?",
+      "options": [
+        "Evil is a privation of good",
+        "Evil is necessary for free will",
+        "Evil is a test of faith",
+        "Evil is a result of human evolution"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine argued that evil is not a substance but rather a privation of good, stemming from free will."
+    },
+    {
+      "id": "theodicies-q4",
+      "question": "In which book did David Hume critique the problem of evil, questioning the existence of a benevolent God?",
+      "options": [
+        "Dialogues Concerning Natural Religion",
+        "An Enquiry Concerning Human Understanding",
+        "The Natural History of Religion",
+        "A Treatise of Human Nature"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume discusses the problem of evil in 'Dialogues Concerning Natural Religion', challenging theistic claims."
+    },
+    {
+      "id": "theodicies-q5",
+      "question": "Which philosopher is credited with the formulation of the Logical Problem of Evil?",
+      "options": [
+        "J.L. Mackie",
+        "Alvin Plantinga",
+        "William Rowe",
+        "Richard Swinburne"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "J.L. Mackie formulated the Logical Problem of Evil, arguing that the existence of evil is logically incompatible with an omnipotent, omnibenevolent God."
+    },
+    {
+      "id": "theodicies-q6",
+      "question": "Who proposed the 'Vale of Soul-Making' theodicy?",
+      "options": [
+        "John Hick",
+        "Alvin Plantinga",
+        "Richard Dawkins",
+        "J.L. Mackie"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick is known for the 'Vale of Soul-Making' theodicy, where life's challenges contribute to spiritual growth."
+    },
+    {
+      "id": "theodicies-q7",
+      "question": "What concept is central to Leibniz's Theodicy?",
+      "options": [
+        "Best of all possible worlds",
+        "Privation of good",
+        "Soul-making",
+        "Greater good defense"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Leibniz argued that we live in the 'best of all possible worlds,' despite the presence of evil."
+    },
+    {
+      "id": "theodicies-q8",
+      "question": "Which philosopher used the term 'dysteleological' to describe nature as not having a purpose?",
+      "options": [
+        "Hans Jonas",
+        "Alvin Plantinga",
+        "Richard Swinburne",
+        "William Rowe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hans Jonas used 'dysteleological' to critique the idea that nature has a purpose, challenging teleological views."
+    },
+    {
+      "id": "theodicies-q9",
+      "question": "What is the focus of the Process Theodicy in addressing the problem of evil?",
+      "options": [
+        "God's power is persuasive not coercive",
+        "Evil is a test of faith",
+        "Evil results from human free will",
+        "Evil is a privation of good"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Process Theodicy argues that God influences the world through persuasion, and cannot unilaterally prevent evil."
+    },
+    {
+      "id": "theodicies-q10",
+      "question": "A student argues that natural disasters are examples of gratuitous evil. Which theodicy would counter this view by suggesting these are opportunities for soul-making?",
+      "options": [
+        "Irenaean Theodicy",
+        "Augustinian Theodicy",
+        "Process Theodicy",
+        "Alvin Plantinga's Free Will Defense"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Irenaean Theodicy views natural disasters as part of the process of soul-making, providing challenges that lead to spiritual growth."
+    },
+    {
+      "id": "theodicies-q11",
+      "question": "In a debate, one participant claims that evil is necessary for free will to be meaningful. Which defense are they likely referencing?",
+      "options": [
+        "Free Will Defense",
+        "Evidential Problem of Evil",
+        "Process Theodicy",
+        "Leibniz's Theodicy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Free Will Defense argues that evil is necessary for meaningful free will, allowing humans to choose between good and evil actions."
+    },
+    {
+      "id": "theodicies-q12",
+      "question": "A philosopher argues that evil is necessary to appreciate good. What concept does this align with?",
+      "options": [
+        "Contrast theory",
+        "Best possible world",
+        "Privation theory",
+        "Process thought"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The contrast theory suggests that experiencing evil is necessary to appreciate good, offering a perspective on the coexistence of opposites."
+    },
+    {
+      "id": "theodicies-q13",
+      "question": "What is a primary critique of the Augustinian Theodicy regarding the scientific understanding of the world?",
+      "options": [
+        "It presupposes a literal interpretation of Genesis",
+        "It denies the existence of free will",
+        "It suggests God is not omnipotent",
+        "It relies on the existence of multiple deities"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Augustinian Theodicy is critiqued for assuming a literal Genesis, conflicting with scientific understanding of human origins."
+    },
+    {
+      "id": "theodicies-q14",
+      "question": "Which of the following is a challenge to the Free Will Defense from the perspective of natural evil?",
+      "options": [
+        "Natural evil is not a result of human free will",
+        "Evil is necessary for soul-making",
+        "God's omnipotence allows Him to prevent any evil",
+        "Evil is a privation of good"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Free Will Defense struggles to explain natural evil, as it is not directly linked to human free will decisions."
+    },
+    {
+      "id": "theodicies-q15",
+      "question": "How does the Irenaean Theodicy differ from the Augustinian Theodicy in its explanation of evil?",
+      "options": [
+        "It sees evil as a tool for development, not punishment",
+        "It attributes evil to a lack of divine power",
+        "It denies the existence of evil",
+        "It claims evil is an illusion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Irenaean Theodicy views evil as essential for spiritual development, contrasting with Augustine's view of evil as a result of human sin."
+    }
+  ]
+}

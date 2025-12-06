@@ -1,0 +1,149 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "logical",
+  "subTopicTitle": "Logical Problem of Evil",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:51:37.731Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the Logical Problem of Evil and identify its main components.",
+      "keyPoints": [
+        "The Logical Problem of Evil is a philosophical challenge to theism based on the existence of evil.",
+        "It argues that the existence of an omnipotent, omniscient, and omnibenevolent God is incompatible with the existence of evil.",
+        "The problem is often attributed to the philosopher Epicurus and later formulated by David Hume."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain J.L. Mackie's contribution to the Logical Problem of Evil.",
+      "keyPoints": [
+        "J.L. Mackie formulated the Inconsistent Triad.",
+        "The triad includes three propositions: God is omnipotent, God is omnibenevolent, and evil exists.",
+        "Mackie argued that these three cannot all be true simultaneously."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the difference between the Logical and Evidential Problems of Evil?",
+      "keyPoints": [
+        "The Logical Problem of Evil is deductive and aims to show a logical contradiction between the existence of God and evil.",
+        "The Evidential Problem of Evil is inductive, arguing that the existence of evil makes God's existence unlikely.",
+        "The Logical Problem is focused on logical inconsistency, whereas the Evidential Problem deals with probability."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a natural disaster causes significant suffering. How would the Logical Problem of Evil challenge the existence of an all-powerful and all-loving God in this context?",
+      "keyPoints": [
+        "The existence of natural disasters causing suffering is seen as a form of evil.",
+        "According to the Logical Problem of Evil, if God is all-powerful, He could prevent the disaster.",
+        "If God is all-loving, He would want to prevent the suffering caused by the disaster."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies the Logical Problem of Evil effectively to the scenario with relevant points",
+        "partial": "Applies some aspects but lacks depth or misses key points",
+        "none": "Fails to apply the Logical Problem of Evil accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a society where crime rates are increasing despite a general belief in a benevolent deity. How might the Logical Problem of Evil be used to question this belief?",
+      "keyPoints": [
+        "The increasing crime rates can be seen as moral evil in society.",
+        "If God is benevolent, He would want to prevent such moral evils.",
+        "If God is omnipotent, He could intervene to stop the increase in crime."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively applies the Logical Problem of Evil to the scenario with relevant points",
+        "partial": "Partially applies the theory but misses some key points",
+        "none": "Fails to apply the Logical Problem of Evil accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person experiences a personal tragedy and questions their faith in a good God. Use the Logical Problem of Evil to explain this crisis of faith.",
+      "keyPoints": [
+        "Personal tragedy can be perceived as an instance of evil or suffering.",
+        "The Logical Problem of Evil suggests such suffering challenges the existence of an all-good and all-powerful God.",
+        "The individual's crisis of faith stems from the perceived contradiction between their suffering and the nature of God."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thoroughly applies the Logical Problem of Evil to the personal context with relevant points",
+        "partial": "Applies some aspects but lacks depth or misses key points",
+        "none": "Fails to apply the Logical Problem of Evil accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the Free Will Defense as a response to the Logical Problem of Evil. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The Free Will Defense argues that God allows evil for the sake of free will.",
+        "Evidence: Free will is necessary for genuine moral actions.",
+        "Explanation: This defense suggests that evil is a consequence of human free will.",
+        "Link: While it addresses moral evil, it struggles to explain natural evil effectively."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL, addressing strengths and weaknesses with detailed explanation",
+        "partial": "Uses PEEL but lacks depth or misses some key points",
+        "none": "Fails to evaluate effectively or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the claim that the Logical Problem of Evil successfully disproves the existence of God. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The Logical Problem of Evil presents a strong challenge to theism.",
+        "Evidence: It highlights a potential contradiction in the attributes of God.",
+        "Explanation: Despite this, some argue that the problem is more about human understanding than divine attributes.",
+        "Link: The problem may not definitively disprove God but challenges traditional definitions."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Critically assesses using PEEL, providing balanced arguments with depth",
+        "partial": "Uses PEEL but lacks depth or critical insight",
+        "none": "Fails to assess critically or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of the Logical Problem of Evil in disproving the existence of a theistic God. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The Logical Problem of Evil aims to show a contradiction in God’s nature.",
+        "Evidence: Some argue that the problem relies on human logic and assumptions about God's nature.",
+        "Explanation: Alternative theistic explanations exist, such as God's purposes being beyond human understanding.",
+        "Link: These limitations suggest the problem may not be conclusive in disproving God."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Discusses limitations using PEEL, providing balanced insights with depth",
+        "partial": "Uses PEEL but lacks depth or misses key insights",
+        "none": "Fails to discuss limitations effectively or lacks structure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "aquinas",
+  "subTopicTitle": "Aquinas' 5 Primary Precepts",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:56:21.892Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "List and briefly define Aquinas' 5 Primary Precepts.",
+      "keyPoints": [
+        "Preservation of life - maintaining and protecting human life",
+        "Reproduction - continuation of the species through procreation",
+        "Education of offspring - teaching and nurturing the young",
+        "Living in society - building and maintaining harmonious relationships",
+        "Worshiping God - acknowledging and honoring a higher power"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 3-4 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the role of reason in Aquinas' Natural Law theory.",
+      "keyPoints": [
+        "Reason is central to understanding and applying Natural Law.",
+        "It allows humans to discern the natural order and purpose of actions.",
+        "Through reason, individuals can identify the primary precepts."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the distinction between real and apparent goods in Aquinas' theory?",
+      "keyPoints": [
+        "Real goods align with human purpose and the primary precepts.",
+        "Apparent goods seem beneficial but do not fulfill true human nature.",
+        "The use of reason helps distinguish between the two."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Aquinas' Primary Precepts to the ethical issue of euthanasia.",
+      "keyPoints": [
+        "Preservation of life opposes euthanasia as it involves ending life.",
+        "Reproduction is not directly related but life is a prerequisite.",
+        "Living in society might be affected by the societal view on life value."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies relevant precepts with accurate detail",
+        "partial": "Applies some precepts or lacks detail",
+        "none": "Fails to apply precepts or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how the primary precept of reproduction could influence views on contraception.",
+      "keyPoints": [
+        "Reproduction as a primary precept suggests contraception is morally wrong.",
+        "Contraception may be seen as hindering the natural purpose of procreation.",
+        "Reason might be used to argue exceptions, e.g., health risks."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies precepts accurately and considers different views",
+        "partial": "Applies some precepts with limited views",
+        "none": "Fails to apply precepts or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Use Aquinas' Primary Precepts to evaluate the moral acceptability of lying.",
+      "keyPoints": [
+        "Living in society requires trust, which lying undermines.",
+        "Education involves truth-telling as a means of learning.",
+        "Reason may justify lying in exceptional cases for greater goods."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies relevant precepts with accurate detail",
+        "partial": "Applies some precepts or lacks detail",
+        "none": "Fails to apply precepts or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths and weaknesses of Aquinas' Natural Law theory using the PEEL structure.",
+      "keyPoints": [
+        "Point: Clear and objective moral guidelines.",
+        "Explanation: Provides a universal framework for ethics.",
+        "Evidence: Consistency with many religious teachings.",
+        "Link: However, lacks flexibility in complex situations."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with balanced analysis",
+        "partial": "Includes some PEEL components or lacks balance",
+        "none": "Missing PEEL components or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the relevance of Aquinas' Primary Precepts in modern society using the PEEL structure.",
+      "keyPoints": [
+        "Point: Some precepts align with modern values, e.g., preservation of life.",
+        "Explanation: Reflects enduring human concerns and ethical issues.",
+        "Evidence: Reproduction and societal living remain pertinent.",
+        "Link: Yet, challenges arise with contemporary ethical dilemmas."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with balanced analysis",
+        "partial": "Includes some PEEL components or lacks balance",
+        "none": "Missing PEEL components or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the criticisms of Aquinas' Natural Law theory using the PEEL structure.",
+      "keyPoints": [
+        "Point: Accusations of being too rigid and absolutist.",
+        "Explanation: Doesn't account for individual circumstances.",
+        "Evidence: Examples like euthanasia and contraception debates.",
+        "Link: Yet, offers a stable moral foundation in a relativist society."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Includes all PEEL components with balanced analysis",
+        "partial": "Includes some PEEL components or lacks balance",
+        "none": "Missing PEEL components or lacks analysis"
+      }
+    }
+  ]
+}

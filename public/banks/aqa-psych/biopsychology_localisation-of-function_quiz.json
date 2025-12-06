@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "biopsychology",
+  "topicTitle": "Biopsychology",
+  "subTopic": "localisation-of-function",
+  "subTopicTitle": "Localisation of function in the brain",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:32:49.621Z",
+  "items": [
+    {
+      "id": "localisation-of-function-q1",
+      "question": "Which part of the brain is primarily responsible for language production?",
+      "options": [
+        "Broca's area",
+        "Wernicke's area",
+        "Occipital lobe",
+        "Parietal lobe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Broca's area, located in the frontal lobe, is responsible for speech production, as discovered by Paul Broca in 1861."
+    },
+    {
+      "id": "localisation-of-function-q2",
+      "question": "In which year did Karl Wernicke publish his findings on language comprehension?",
+      "options": [
+        "1874",
+        "1861",
+        "1890",
+        "1901"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Wernicke published his findings on the area of the brain responsible for language comprehension in 1874."
+    },
+    {
+      "id": "localisation-of-function-q3",
+      "question": "Which lobe of the brain is primarily involved in processing visual information?",
+      "options": [
+        "Occipital lobe",
+        "Parietal lobe",
+        "Temporal lobe",
+        "Frontal lobe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The occipital lobe, located at the back of the brain, is the main center for visual processing."
+    },
+    {
+      "id": "localisation-of-function-q4",
+      "question": "What is the main function of the motor cortex?",
+      "options": [
+        "Control voluntary movements",
+        "Process auditory information",
+        "Regulate emotional responses",
+        "Coordinate balance and posture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The motor cortex, located in the frontal lobe, is responsible for the planning, control, and execution of voluntary movements."
+    },
+    {
+      "id": "localisation-of-function-q5",
+      "question": "Which study provided evidence for lateralization of function, specifically in split-brain patients?",
+      "options": [
+        "Sperry (1968)",
+        "Broca (1861)",
+        "Phineas Gage (1848)",
+        "Maguire et al. (2000)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sperry's 1968 study on split-brain patients demonstrated lateralization of function between the brain's hemispheres."
+    },
+    {
+      "id": "localisation-of-function-q6",
+      "question": "What is the primary role of Wernicke's area?",
+      "options": [
+        "Language comprehension",
+        "Language production",
+        "Visual processing",
+        "Executive functions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Wernicke’s area is located in the temporal lobe and is primarily responsible for language comprehension."
+    },
+    {
+      "id": "localisation-of-function-q7",
+      "question": "Which brain area is implicated in the regulation of emotions such as fear and aggression?",
+      "options": [
+        "Amygdala",
+        "Hippocampus",
+        "Cerebellum",
+        "Hypothalamus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The amygdala, part of the limbic system, is involved in emotional responses including fear and aggression."
+    },
+    {
+      "id": "localisation-of-function-q8",
+      "question": "Who conducted the first formal study of brain lateralization?",
+      "options": [
+        "Paul Broca",
+        "Roger Sperry",
+        "Karl Wernicke",
+        "John Hughlings Jackson"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Roger Sperry conducted pioneering work on brain lateralization in the 1960s, particularly with split-brain patients."
+    },
+    {
+      "id": "localisation-of-function-q9",
+      "question": "Which technique is commonly used to study brain activity by detecting changes in blood flow?",
+      "options": [
+        "fMRI",
+        "EEG",
+        "CT scan",
+        "PET scan"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Functional Magnetic Resonance Imaging (fMRI) measures brain activity by detecting changes in blood flow."
+    },
+    {
+      "id": "localisation-of-function-q10",
+      "question": "A patient can understand language but has difficulty speaking. Which brain area is likely affected?",
+      "options": [
+        "Broca's area",
+        "Wernicke's area",
+        "Occipital lobe",
+        "Cerebellum"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Damage to Broca's area typically results in difficulties in speech production while comprehension is preserved."
+    },
+    {
+      "id": "localisation-of-function-q11",
+      "question": "A person has issues recognizing faces but not objects. Which brain region is likely implicated?",
+      "options": [
+        "Fusiform gyrus",
+        "Parietal lobe",
+        "Frontal lobe",
+        "Temporal lobe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The fusiform gyrus, part of the temporal lobe, is crucial for face recognition, and damage can lead to prosopagnosia."
+    },
+    {
+      "id": "localisation-of-function-q12",
+      "question": "A stroke patient has difficulty understanding spoken language but can speak fluently. Which area is damaged?",
+      "options": [
+        "Wernicke's area",
+        "Broca's area",
+        "Motor cortex",
+        "Somatosensory cortex"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Damage to Wernicke's area typically results in fluent speech but impaired language comprehension, known as Wernicke's aphasia."
+    },
+    {
+      "id": "localisation-of-function-q13",
+      "question": "What is a limitation of the localisation of function theory?",
+      "options": [
+        "Brain plasticity",
+        "Homogeneity of brain areas",
+        "Uniformity of brain functions",
+        "Lack of empirical support"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Brain plasticity suggests that functions can be relocated to different areas, challenging strict localisation theories."
+    },
+    {
+      "id": "localisation-of-function-q14",
+      "question": "Why might case studies like Phineas Gage's be considered limited in supporting localisation of function?",
+      "options": [
+        "Lack of generalisability",
+        "Overreliance on quantitative data",
+        "Too many control variables",
+        "Inability to replicate findings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Case studies like Phineas Gage's are unique and may not be generalizable to the wider population, limiting their support for localisation."
+    },
+    {
+      "id": "localisation-of-function-q15",
+      "question": "How does the concept of equipotentiality challenge localisation of function?",
+      "options": [
+        "Suggests brain areas can compensate for each other",
+        "Proposes specific functions are fixed to certain areas",
+        "Emphasizes the importance of lateralization",
+        "Highlights the role of neurotransmitters in the brain"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Equipotentiality argues that intact areas of the brain can take over functions of damaged regions, challenging strict localisation."
+    }
+  ]
+}

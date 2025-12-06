@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "comparison",
+  "subTopicTitle": "Plato vs Aristotle",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:45:43.828Z",
+  "items": [
+    {
+      "id": "comparison-q1",
+      "question": "What is Plato's theory that suggests the existence of non-physical forms?",
+      "options": [
+        "Theory of Forms",
+        "Theory of Evolution",
+        "Theory of Relativity",
+        "Theory of Mind"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato's Theory of Forms posits that non-physical forms represent the most accurate reality."
+    },
+    {
+      "id": "comparison-q2",
+      "question": "Which philosopher believed in the 'Prime Mover' as the first cause of the universe?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Socrates",
+        "Descartes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle introduced the concept of the 'Prime Mover' as the initial cause of motion in the universe."
+    },
+    {
+      "id": "comparison-q3",
+      "question": "In Plato's Allegory of the Cave, what do the shadows on the wall represent?",
+      "options": [
+        "Illusions of reality",
+        "The essence of truth",
+        "The light of the sun",
+        "The souls of the dead"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In the Allegory of the Cave, the shadows represent illusions and misconceptions of reality perceived by those who are unenlightened."
+    },
+    {
+      "id": "comparison-q4",
+      "question": "According to Aristotle, what is the term for the purpose or 'end' of an object?",
+      "options": [
+        "Telos",
+        "Eidos",
+        "Pathos",
+        "Ethos"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle used the term 'telos' to describe the inherent purpose or 'end' that all objects aim to achieve."
+    },
+    {
+      "id": "comparison-q5",
+      "question": "Who stated that the soul is the 'form' of a living body?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Kant",
+        "Descartes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle argued that the soul is the 'form' or essence of a living body, giving it life and function."
+    },
+    {
+      "id": "comparison-q6",
+      "question": "Which work of Plato discusses the Allegory of the Cave?",
+      "options": [
+        "The Republic",
+        "Nicomachean Ethics",
+        "Metaphysics",
+        "Phaedrus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Allegory of the Cave is found in Plato's work 'The Republic,' exploring themes of enlightenment and ignorance."
+    },
+    {
+      "id": "comparison-q7",
+      "question": "Aristotle's concept of the 'Golden Mean' is primarily concerned with what?",
+      "options": [
+        "Moral virtue",
+        "Mathematical balance",
+        "Scientific inquiry",
+        "Political power"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's 'Golden Mean' is a concept that emphasizes moral virtue as the balance between extremes of behavior."
+    },
+    {
+      "id": "comparison-q8",
+      "question": "What did Plato believe was the highest form of knowledge?",
+      "options": [
+        "The Form of the Good",
+        "The Form of Beauty",
+        "The Form of Justice",
+        "The Form of Courage"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato believed that the 'Form of the Good' was the highest form of knowledge, as it illuminates all other forms."
+    },
+    {
+      "id": "comparison-q9",
+      "question": "Which philosopher's ideas about causation involve material, formal, efficient, and final causes?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Hume",
+        "Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's theory of causation includes material, formal, efficient, and final causes to explain change and existence."
+    },
+    {
+      "id": "comparison-q10",
+      "question": "A student argues that the existence of blueprints for a building reflects Plato's theory of Forms. What is the student suggesting?",
+      "options": [
+        "Blueprints are the perfect form of the building",
+        "Blueprints are physical manifestations",
+        "Blueprints are irrelevant to form",
+        "Blueprints are the building itself"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The student suggests that blueprints represent the perfect, non-physical idea or Form of the building, akin to Plato's theory."
+    },
+    {
+      "id": "comparison-q11",
+      "question": "In a debate, one participant claims that Aristotle would not agree with Plato's view of reality. What is the likely reason for this disagreement?",
+      "options": [
+        "Aristotle believed in empirical observation",
+        "Plato was an empiricist",
+        "Aristotle rejected metaphysics",
+        "Plato focused on physical evidence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aristotle emphasized empirical observation and experience as the basis for knowledge, contrasting with Plato's focus on non-physical Forms."
+    },
+    {
+      "id": "comparison-q12",
+      "question": "A researcher references Aristotle's 'Prime Mover' in a study on the origins of the universe. What aspect of Aristotle's philosophy are they likely applying?",
+      "options": [
+        "Causation",
+        "Ethics",
+        "Politics",
+        "Rhetoric"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The researcher is applying Aristotle's concept of causation, specifically the 'Prime Mover' as the first cause of all motion in the universe."
+    },
+    {
+      "id": "comparison-q13",
+      "question": "How might a critic argue against Plato's Theory of Forms using Aristotle's philosophy?",
+      "options": [
+        "Aristotle emphasized physical evidence",
+        "Aristotle denied the existence of Forms",
+        "Aristotle focused on political theory",
+        "Aristotle was an idealist"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A critic might argue against Plato's Theory of Forms by highlighting Aristotle's focus on physical evidence and empirical reality, rather than abstract Forms."
+    },
+    {
+      "id": "comparison-q14",
+      "question": "If a philosopher argues that knowledge is derived from sensory experience, which ancient philosopher's ideas would they likely oppose?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Epicurus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Plato's philosophy emphasizes the importance of non-physical Forms and ideas over sensory experience, opposing empiricist views."
+    },
+    {
+      "id": "comparison-q15",
+      "question": "The concept of the 'Prime Mover' faces criticism for not addressing which philosophical problem?",
+      "options": [
+        "Infinite regress",
+        "Moral relativism",
+        "Mind-body dualism",
+        "Epistemological nihilism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The 'Prime Mover' concept is criticized for not resolving the issue of infinite regress, as it assumes a first cause without explanation."
+    }
+  ]
+}

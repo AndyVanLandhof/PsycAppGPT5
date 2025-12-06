@@ -1,0 +1,148 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "cosmological",
+  "subTopicTitle": "Cosmological Argument",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:49:07.072Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the Cosmological Argument and identify its primary aim.",
+      "keyPoints": [
+        "Definition: The Cosmological Argument is an argument for the existence of God that suggests that everything that exists has a cause, and ultimately there must be an uncaused cause, which is God.",
+        "Primary aim: To demonstrate the necessity of a first cause or prime mover, which is self-existent or necessary, often identified as God."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a clear definition and primary aim with accurate detail",
+        "partial": "Includes a partial definition or aim with limited detail",
+        "none": "Missing or incorrect definition and aim"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain Aquinas’ First Way in the Cosmological Argument.",
+      "keyPoints": [
+        "Aquinas’ First Way: The Argument from Motion",
+        "Observation: Things in the world are in motion",
+        "Conclusion: There must be a First Mover, which is God."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with a clear explanation of Aquinas’ First Way",
+        "partial": "Includes some key points or lacks clear explanation",
+        "none": "Missing key points or incorrect explanation"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the concept of a ‘necessary being’ as it relates to the Cosmological Argument.",
+      "keyPoints": [
+        "A necessary being is one that must exist and cannot not exist.",
+        "In the Cosmological Argument, God is often described as a necessary being.",
+        "A necessary being is contrasted with contingent beings, which depend on something else for their existence."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes a clear description of a necessary being and its relation to the argument",
+        "partial": "Includes some aspects of the concept but lacks clarity",
+        "none": "Missing or incorrect description of the concept"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the Cosmological Argument to a scenario where someone questions the existence of the universe without a cause.",
+      "keyPoints": [
+        "Identify the question of the universe's existence as a cause and effect issue.",
+        "Apply the Cosmological Argument to suggest that there must be an initial uncaused cause.",
+        "Conclude that this uncaused cause is often identified as God."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correctly applies the argument to the scenario with clear reasoning",
+        "partial": "Attempts to apply the argument but lacks clarity or completeness",
+        "none": "Fails to apply the argument to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you use Aquinas’ Second Way to respond to someone who believes in an infinite regress of causes?",
+      "keyPoints": [
+        "Aquinas’ Second Way: Argument from Causation",
+        "Explain that an infinite regress of causes is impossible.",
+        "Conclude that there must be a first cause, which is God."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively uses Aquinas’ Second Way to address the belief in infinite regress",
+        "partial": "Addresses the issue but lacks detail or clarity",
+        "none": "Fails to address the belief or incorrectly uses the argument"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a person accepts the Big Bang Theory. How would you incorporate the Cosmological Argument in a discussion with them?",
+      "keyPoints": [
+        "Acknowledge the Big Bang Theory as a scientific explanation for the universe's beginning.",
+        "Incorporate the Cosmological Argument by suggesting that the Big Bang itself requires a cause.",
+        "Propose that this cause could be God, consistent with the argument's notion of an uncaused cause."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Successfully integrates the argument with the Big Bang Theory in discussion",
+        "partial": "Mentions both but fails to integrate them effectively",
+        "none": "Fails to integrate the argument or misrepresents either concept"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the strengths of the Cosmological Argument using the PEEL structure.",
+      "keyPoints": [
+        "Point: The argument provides a logical explanation for the existence of the universe.",
+        "Evidence: Aquinas’ Three Ways offer a structured approach.",
+        "Explanation: It addresses the need for a first cause, avoiding infinite regress.",
+        "Link: Concludes that the uncaused cause is God, providing a basis for belief."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with coherent evaluation",
+        "partial": "Includes some PEEL elements but lacks coherence or detail",
+        "none": "Lacks PEEL structure or fails to evaluate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the weaknesses of the Cosmological Argument using the PEEL structure.",
+      "keyPoints": [
+        "Point: The argument assumes causality applies beyond the universe.",
+        "Evidence: Critics like Hume question the necessity of a first cause.",
+        "Explanation: Infinite regress may not be logically impossible.",
+        "Link: These issues challenge the argument's validity and conclusion."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with coherent critical assessment",
+        "partial": "Includes some PEEL elements but lacks coherence or depth",
+        "none": "Lacks PEEL structure or fails to critically assess"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the impact of scientific explanations, like the Big Bang, on the Cosmological Argument using the PEEL structure.",
+      "keyPoints": [
+        "Point: Scientific explanations challenge the need for a divine cause.",
+        "Evidence: The Big Bang Theory offers an alternative origin of the universe.",
+        "Explanation: Science can describe how the universe began without invoking God.",
+        "Link: This impacts the argument by providing a naturalistic alternative."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with a clear discussion of impact",
+        "partial": "Includes some PEEL elements but lacks clarity or depth",
+        "none": "Lacks PEEL structure or fails to discuss impact"
+      }
+    }
+  ]
+}

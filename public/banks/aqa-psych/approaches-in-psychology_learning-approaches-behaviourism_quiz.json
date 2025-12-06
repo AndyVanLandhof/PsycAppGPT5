@@ -1,0 +1,206 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "approaches-in-psychology",
+  "topicTitle": "Approaches in Psychology",
+  "subTopic": "learning-approaches-behaviourism",
+  "subTopicTitle": "Learning approaches: Behaviourist",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T10:21:23.923Z",
+  "items": [
+    {
+      "id": "learning-approaches-behaviourism-q1",
+      "question": "Which of the following best describes classical conditioning?",
+      "options": [
+        "Learning through association",
+        "Learning through imitation",
+        "Learning through reinforcement",
+        "Learning through observation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Classical conditioning, first described by Pavlov in 1927, involves learning through association between a neutral stimulus and an unconditioned stimulus."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q2",
+      "question": "In Pavlov's experiments, what was the unconditioned stimulus?",
+      "options": [
+        "Food",
+        "Bell",
+        "Salivation",
+        "Light"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Pavlov's experiments with dogs, the food was the unconditioned stimulus that naturally and automatically triggered salivation."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q3",
+      "question": "Who is the researcher most associated with operant conditioning?",
+      "options": [
+        "B.F. Skinner",
+        "Ivan Pavlov",
+        "Albert Bandura",
+        "Sigmund Freud"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "B.F. Skinner is known for his work on operant conditioning, which involves learning through consequences such as reinforcements and punishments."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q4",
+      "question": "Which of the following is a key concept in operant conditioning?",
+      "options": [
+        "Reinforcement",
+        "Association",
+        "Identification",
+        "Imitation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Reinforcement is a central concept in operant conditioning, referring to any event that strengthens or increases the likelihood of a behavior."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q5",
+      "question": "What is the primary focus of the behaviourist approach in psychology?",
+      "options": [
+        "Observable behavior",
+        "Unconscious mind",
+        "Cognitive processes",
+        "Human potential"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The behaviourist approach focuses on observable behavior and dismisses the study of internal mental processes."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q6",
+      "question": "In Skinner's experiments, what was used to shape behavior in rats?",
+      "options": [
+        "Reinforcement",
+        "Association",
+        "Identification",
+        "Cognitive mapping"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Skinner used reinforcement, such as food rewards, to shape and modify the behavior of rats in his experiments."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q7",
+      "question": "Which of the following terms is associated with a decrease in behavior?",
+      "options": [
+        "Punishment",
+        "Positive reinforcement",
+        "Negative reinforcement",
+        "Extinction"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Punishment is a concept in operant conditioning that refers to the introduction of an adverse stimulus to decrease a behavior."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q8",
+      "question": "Who conducted the Little Albert experiment?",
+      "options": [
+        "John B. Watson",
+        "B.F. Skinner",
+        "Ivan Pavlov",
+        "Albert Bandura"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John B. Watson conducted the Little Albert experiment in 1920, demonstrating classical conditioning in humans."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q9",
+      "question": "What was the conditioned response in Pavlov's dog experiments?",
+      "options": [
+        "Salivation in response to the bell",
+        "Salivation in response to food",
+        "Barking at the bell",
+        "Jumping at the bell"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Pavlov's experiments, the conditioned response was salivation in response to the bell, after the bell had been associated with food."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q10",
+      "question": "A child learns to fear dogs after being bitten. Which learning process does this exemplify?",
+      "options": [
+        "Classical conditioning",
+        "Operant conditioning",
+        "Social learning",
+        "Cognitive learning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The child’s fear of dogs is acquired through classical conditioning, where the bite (unconditioned stimulus) leads to fear (unconditioned response), and the dog (neutral stimulus) becomes associated with fear."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q11",
+      "question": "A teacher gives students stickers for good behavior, increasing positive actions. This is an example of:",
+      "options": [
+        "Positive reinforcement",
+        "Negative reinforcement",
+        "Punishment",
+        "Classical conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Positive reinforcement is demonstrated here by giving stickers as a reward to increase the likelihood of good behavior."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q12",
+      "question": "A parent stops nagging a child once they clean their room. This is an example of:",
+      "options": [
+        "Negative reinforcement",
+        "Punishment",
+        "Positive reinforcement",
+        "Classical conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Negative reinforcement involves the removal of an unpleasant stimulus (nagging) to increase the likelihood of the behavior (cleaning the room)."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q13",
+      "question": "What is a limitation of the behaviourist approach?",
+      "options": [
+        "It neglects internal mental processes.",
+        "It focuses too much on the unconscious mind.",
+        "It overemphasizes genetic influence on behavior.",
+        "It lacks empirical evidence."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A major criticism of the behaviourist approach is that it neglects internal mental processes, as it only focuses on observable behaviors."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q14",
+      "question": "How does the behaviourist approach differ from the cognitive approach?",
+      "options": [
+        "Behaviourism ignores mental processes, while cognitive psychology studies them.",
+        "Behaviourism emphasizes free will, while cognitive psychology does not.",
+        "Behaviourism is based on introspection, while cognitive psychology is not.",
+        "Behaviourism studies the unconscious mind, while cognitive psychology does not."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The behaviourist approach focuses on observable behavior and ignores mental processes, whereas cognitive psychology examines internal mental processes."
+    },
+    {
+      "id": "learning-approaches-behaviourism-q15",
+      "question": "What is an advantage of using animal studies in behaviorist research?",
+      "options": [
+        "They allow for high levels of control over variables.",
+        "They provide direct insights into human emotions.",
+        "They eliminate the need for ethical considerations.",
+        "They are always generalizable to humans."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Animal studies allow researchers to exert high levels of control over variables, which is useful for establishing cause and effect in behaviorist research."
+    }
+  ]
+}

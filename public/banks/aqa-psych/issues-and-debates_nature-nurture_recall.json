@@ -1,0 +1,149 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "issues-and-debates",
+  "topicTitle": "Issues and Debates",
+  "subTopic": "nature-nurture",
+  "subTopicTitle": "The nature-nurture debate",
+  "type": "recall",
+  "generatedAt": "2025-12-06T10:43:01.068Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the nature-nurture debate in psychology.",
+      "keyPoints": [
+        "Nature refers to genetic or hereditary influences.",
+        "Nurture refers to environmental influences.",
+        "The debate concerns the relative contribution of genes and environment to human behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the interactionist approach in the nature-nurture debate?",
+      "keyPoints": [
+        "Interactionist approach suggests that nature and nurture interact to influence behavior.",
+        "Genes and environment are seen as interdependent.",
+        "Example: Diathesis-stress model where genetic vulnerability interacts with environmental stressors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are some research methods used to study the nature-nurture debate?",
+      "keyPoints": [
+        "Twin studies: Compare concordance rates between MZ and DZ twins.",
+        "Adoption studies: Examine similarities between adopted children and their biological vs. adoptive parents.",
+        "Family studies: Look at the prevalence of traits within families."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A child demonstrates a high level of intelligence and excels in school. Apply the nature-nurture debate to explain this behavior.",
+      "keyPoints": [
+        "Nature: Inherited intelligence from parents.",
+        "Nurture: High-quality education and stimulating environment.",
+        "Interaction: Genetic predisposition enhanced by nurturing environment."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies both nature and nurture perspectives accurately with examples",
+        "partial": "Applies either nature or nurture with limited examples",
+        "none": "Fails to apply relevant perspectives"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where an individual develops a phobia after a traumatic event. Use the nature-nurture debate to explain this.",
+      "keyPoints": [
+        "Nature: Genetic predisposition to anxiety or phobias.",
+        "Nurture: Traumatic event as environmental trigger.",
+        "Interaction: Genetic vulnerability activated by environmental trigger."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies both nature and nurture perspectives accurately with examples",
+        "partial": "Applies either nature or nurture with limited examples",
+        "none": "Fails to apply relevant perspectives"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A person is highly skilled at playing the piano. Apply the nature-nurture debate to explain this ability.",
+      "keyPoints": [
+        "Nature: Inherited musical talent or abilities.",
+        "Nurture: Extensive practice and musical training.",
+        "Interaction: Genetic predisposition supported by nurture."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies both nature and nurture perspectives accurately with examples",
+        "partial": "Applies either nature or nurture with limited examples",
+        "none": "Fails to apply relevant perspectives"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of twin studies in understanding the nature-nurture debate.",
+      "keyPoints": [
+        "Point: Twin studies provide valuable data on genetic vs. environmental influences.",
+        "Evidence: Comparison of concordance rates between MZ and DZ twins.",
+        "Elaboration: High concordance in MZ twins suggests genetic influence.",
+        "Limitation: Twins often share the same environment, confounding results."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with analysis and evidence",
+        "partial": "Includes some key points but lacks depth or evidence",
+        "none": "Lacks relevant evaluation or evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of adoption studies in the nature-nurture debate.",
+      "keyPoints": [
+        "Point: Adoption studies aim to separate genetic and environmental influences.",
+        "Evidence: Compare traits between adopted children and biological vs. adoptive parents.",
+        "Elaboration: Assumes adoption environments are different from biological ones.",
+        "Limitation: Adoption agencies often place children in environments similar to their biological families."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with analysis and evidence",
+        "partial": "Includes some key points but lacks depth or evidence",
+        "none": "Lacks relevant evaluation or evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the interactionist approach in the nature-nurture debate.",
+      "keyPoints": [
+        "Point: Interactionist approach considers both genetic and environmental factors.",
+        "Evidence: Diathesis-stress model as an example.",
+        "Elaboration: Offers a more comprehensive understanding than either perspective alone.",
+        "Limitation: Difficult to quantify the extent of interaction between genes and environment."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with analysis and evidence",
+        "partial": "Includes some key points but lacks depth or evidence",
+        "none": "Lacks relevant evaluation or evidence"
+      }
+    }
+  ]
+}
