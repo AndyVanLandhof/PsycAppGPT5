@@ -1,0 +1,96 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "explanations-for-forgetting",
+  "subTopicTitle": "Explanations for forgetting",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T09:44:01.698Z",
+  "items": [
+    {
+      "question": "What is retroactive interference?",
+      "answer": "Retroactive interference occurs when new information disrupts the recall of previously learned information.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define proactive interference.",
+      "answer": "Proactive interference is when old information interferes with the learning or recall of new information.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did McGeoch & McDonald (1931) find about interference?",
+      "answer": "McGeoch & McDonald found that the strength of interference depends on the similarity of the information; more similar items led to greater interference.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is retrieval failure?",
+      "answer": "Retrieval failure occurs when information is available but cannot be accessed due to insufficient cues.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Tulving & Thomson (1973) find about retrieval cues?",
+      "answer": "Tulving & Thomson found that context-dependent cues significantly enhance memory recall, demonstrating the importance of cues in retrieval failure.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'decay theory'.",
+      "answer": "Decay theory suggests that memories fade over time due to the mere passage of time, leading to forgetting.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Ebbinghaus (1885) discover about forgetting?",
+      "answer": "Ebbinghaus found that forgetting occurs rapidly after learning, with most information lost within the first few hours.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does proactive interference apply to studying?",
+      "answer": "When studying for a new subject, previously learned material may interfere, making it difficult to absorb new information effectively.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply retrieval failure to a student forgetting an exam answer.",
+      "answer": "A student may remember the context or cues from their revision but struggle to recall the specific answer during the exam due to insufficient retrieval cues.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Evaluate the strength of interference theory.",
+      "answer": "A strength of interference theory is its empirical support, such as McGeoch & McDonald's experiments, which provide evidence for how similar information can disrupt memory.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of decay theory.",
+      "answer": "Decay theory lacks empirical support; forgetting can often be attributed to interference rather than just the passage of time.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Ebbinghaus's research.",
+      "answer": "Ebbinghaus's use of nonsense syllables minimizes prior knowledge effects, but lacks ecological validity as it doesn’t reflect real-life memory processes.",
+      "ao": "AO3"
+    },
+    {
+      "question": "What is the role of context in retrieval failure?",
+      "answer": "Context serves as a cue for memory retrieval; if the context during recall differs from learning, retrieval can fail.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'interference'.",
+      "answer": "Interference refers to the phenomenon where competing information disrupts the retrieval of memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Baddeley (1997) find about context-dependent forgetting?",
+      "answer": "Baddeley found that people performed better on memory tasks when tested in the same environment where they learned the material.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How can understanding retrieval failure help students?",
+      "answer": "Students can improve recall by using effective cues and studying in similar environments to where they will be tested.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply retroactive interference to daily life.",
+      "answer": "When learning a new dance routine, an individual may forget the steps of an older routine due to the new movements interfering.",
+      "ao": "AO2"
+    }
+  ]
+}

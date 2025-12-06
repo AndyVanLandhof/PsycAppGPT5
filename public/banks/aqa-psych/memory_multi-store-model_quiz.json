@@ -1,0 +1,193 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "multi-store-model",
+  "subTopicTitle": "Multi-store model",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T09:45:21.964Z",
+  "items": [
+    {
+      "id": "multi-store-model-q1",
+      "question": "Who proposed the multi-store model of memory?",
+      "options": [
+        "Elizabeth Loftus",
+        "Richard Atkinson",
+        "Alan Baddeley",
+        "Hermann Ebbinghaus"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Richard Atkinson and Richard Shiffrin proposed the multi-store model of memory in 1968."
+    },
+    {
+      "id": "multi-store-model-q2",
+      "question": "According to the multi-store model, which component is responsible for holding information for a very short duration?",
+      "options": [
+        "Long-term memory",
+        "Short-term memory",
+        "Sensory memory",
+        "Working memory"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Sensory memory holds information for a very brief period, typically less than a second."
+    },
+    {
+      "id": "multi-store-model-q3",
+      "question": "What is the capacity of short-term memory, according to Miller (1956)?",
+      "options": [
+        "7±2 items",
+        "5±1 items",
+        "10±2 items",
+        "3±1 items"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Miller (1956) suggested that short-term memory has a capacity of 7±2 items."
+    },
+    {
+      "id": "multi-store-model-q4",
+      "question": "Which type of rehearsal is most effective for transferring information into long-term memory?",
+      "options": [
+        "Maintenance rehearsal",
+        "Elaborative rehearsal",
+        "Chunking",
+        "Retrieval rehearsal"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Elaborative rehearsal is more effective for transferring information to long-term memory than maintenance rehearsal."
+    },
+    {
+      "id": "multi-store-model-q5",
+      "question": "What type of information is primarily stored in long-term memory?",
+      "options": [
+        "Visual information",
+        "Acoustic information",
+        "Semantic information",
+        "Sensory information"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Long-term memory primarily stores semantic information, which relates to meanings and concepts."
+    },
+    {
+      "id": "multi-store-model-q6",
+      "question": "In the multi-store model, what is the duration of short-term memory?",
+      "options": [
+        "Less than 1 second",
+        "20-30 seconds",
+        "1-2 minutes",
+        "Several hours"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Short-term memory typically lasts for about 20-30 seconds without rehearsal."
+    },
+    {
+      "id": "multi-store-model-q7",
+      "question": "Which study demonstrated the role of acoustic encoding in short-term memory?",
+      "options": [
+        "Loftus and Palmer (1974)",
+        "Baddeley (1966)",
+        "Murdock (1962)",
+        "Tulving (1972)"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Baddeley (1966) found that participants struggled to recall words that sounded similar, indicating acoustic coding."
+    },
+    {
+      "id": "multi-store-model-q8",
+      "question": "Which part of the multi-store model is described as having an unlimited capacity?",
+      "options": [
+        "Short-term memory",
+        "Sensory memory",
+        "Long-term memory",
+        "Working memory"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Long-term memory is considered to have an unlimited capacity, storing vast amounts of information."
+    },
+    {
+      "id": "multi-store-model-q9",
+      "question": "In a study, students are asked to recall a list of words immediately after learning them. What type of memory is primarily being tested?",
+      "options": [
+        "Sensory memory",
+        "Short-term memory",
+        "Long-term memory",
+        "Working memory"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "This scenario tests short-term memory, as students recall information shortly after it has been presented."
+    },
+    {
+      "id": "multi-store-model-q10",
+      "question": "A student studies for a history test by creating a timeline. What type of rehearsal is being utilized?",
+      "options": [
+        "Maintenance rehearsal",
+        "Elaborative rehearsal",
+        "Visual encoding",
+        "Chunking"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Creating a timeline is an example of elaborative rehearsal, as it involves organizing information meaningfully."
+    },
+    {
+      "id": "multi-store-model-q11",
+      "question": "During a memory test, a participant recalls items from a list presented earlier but struggles with the order. What aspect of memory is this an example of?",
+      "options": [
+        "Recall",
+        "Recognition",
+        "Reconstruction",
+        "Rehearsal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates recall, where participants retrieve information without cues, often leading to order errors."
+    },
+    {
+      "id": "multi-store-model-q12",
+      "question": "One criticism of the multi-store model is that it oversimplifies memory. What alternative model addresses this issue?",
+      "options": [
+        "Working Memory Model",
+        "Levels of Processing Model",
+        "Dual Coding Theory",
+        "Schema Theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Working Memory Model, proposed by Baddeley and Hitch (1974), offers a more complex view of memory processes."
+    },
+    {
+      "id": "multi-store-model-q13",
+      "question": "What is a methodological critique of studies supporting the multi-store model, such as those by Atkinson and Shiffrin?",
+      "options": [
+        "Use of case studies",
+        "Reliance on self-reports",
+        "Overemphasis on rehearsal",
+        "Limited sample diversity"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Critics argue that the multi-store model places too much emphasis on rehearsal as the primary method of transferring information to long-term memory."
+    },
+    {
+      "id": "multi-store-model-q14",
+      "question": "How does the multi-store model compare to the levels of processing theory?",
+      "options": [
+        "Both emphasize rehearsal",
+        "Levels of processing focuses on encoding depth",
+        "Multi-store model ignores retrieval",
+        "Both models are identical"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The levels of processing theory, proposed by Craik and Lockhart (1972), emphasizes the depth of encoding rather than just rehearsal."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "eyewitness-testimony",
+  "subTopicTitle": "Eyewitness testimony",
+  "type": "recall",
+  "generatedAt": "2025-12-06T09:48:55.131Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define eyewitness testimony and explain its significance in the legal system.",
+      "keyPoints": [
+        "Eyewitness testimony refers to an account given by people of an event they have witnessed.",
+        "It is significant in the legal system as it can influence jury decisions and verdicts.",
+        "Factors affecting eyewitness testimony include memory distortion, leading questions, and stress."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the main factors that can affect the accuracy of eyewitness testimony?",
+      "keyPoints": [
+        "Stress levels during the event can impair memory recall.",
+        "The presence of leading questions can distort recollection.",
+        "Cross-race effect may occur, where individuals are better at recognizing faces of their own race."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the findings of Loftus and Palmer's study on eyewitness testimony.",
+      "keyPoints": [
+        "Loftus and Palmer conducted a study on the effects of leading questions.",
+        "Participants watched a film of a car accident and were asked about the speed of the cars using different verbs.",
+        "The wording of the question influenced participants' speed estimates, demonstrating that memory can be altered."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a police officer interviewing a witness to a robbery. What strategies would you use to ensure the eyewitness testimony is as accurate as possible?",
+      "keyPoints": [
+        "Use open-ended questions to avoid leading the witness.",
+        "Allow the witness to recount the event in their own words before asking specific questions.",
+        "Create a calm environment to reduce stress and anxiety, which may impair memory."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "A witness to a crime reports seeing a suspect wearing a red jacket. Later, they recall it was blue. How might this inconsistency affect the case, and what can be done to address it?",
+      "keyPoints": [
+        "Inconsistencies can undermine the credibility of the eyewitness and the reliability of the testimony.",
+        "Factors like stress or the passage of time can lead to memory distortions.",
+        "Using cognitive interview techniques might help the witness retrieve more accurate details."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a witness is shown a lineup of suspects shortly after a crime. What factors should be considered to ensure the witness's identification is reliable?",
+      "keyPoints": [
+        "Ensure that the lineup is fair and that the suspects resemble the description given by the witness.",
+        "Avoid suggesting which individual is the suspect or using confirmation bias.",
+        "Provide instructions that the perpetrator may or may not be in the lineup to reduce pressure on the witness."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the reliability of eyewitness testimony as a form of evidence in court.",
+      "keyPoints": [
+        "Point: Eyewitness testimony can be unreliable due to various factors affecting memory.",
+        "Evidence: Studies like Loftus and Palmer show how leading questions can alter memories.",
+        "Link: This raises concerns about the validity of eyewitness accounts in legal settings, suggesting a need for corroborating evidence."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Clearly follows PEEL structure with detailed points",
+        "partial": "Attempts to follow PEEL but may lack clarity or detail",
+        "none": "Fails to address the question or does not follow PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically analyze the impact of stress on eyewitness testimony accuracy.",
+      "keyPoints": [
+        "Point: Stress can significantly impair memory recall.",
+        "Evidence: Research indicates that high-stress situations can lead to tunnel vision and focus on central details at the expense of peripheral details.",
+        "Link: This suggests that eyewitness accounts may be distorted under stressful conditions, questioning their reliability."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Clearly follows PEEL structure with detailed points",
+        "partial": "Attempts to follow PEEL but may lack clarity or detail",
+        "none": "Fails to address the question or does not follow PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the implications of the misinformation effect on legal proceedings.",
+      "keyPoints": [
+        "Point: The misinformation effect reveals how post-event information can alter a witness's memory.",
+        "Evidence: Studies demonstrate that participants can recall false information after being exposed to misleading questions.",
+        "Link: This has serious implications for the justice system, highlighting the need for careful questioning of witnesses to ensure accurate testimony."
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Clearly follows PEEL structure with detailed points",
+        "partial": "Attempts to follow PEEL but may lack clarity or detail",
+        "none": "Fails to address the question or does not follow PEEL structure"
+      }
+    }
+  ]
+}

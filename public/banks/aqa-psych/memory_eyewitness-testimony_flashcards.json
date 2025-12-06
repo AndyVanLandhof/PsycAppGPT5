@@ -1,0 +1,91 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "eyewitness-testimony",
+  "subTopicTitle": "Eyewitness testimony",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T09:44:19.616Z",
+  "items": [
+    {
+      "question": "What is eyewitness testimony?",
+      "answer": "Eyewitness testimony is an account given by people of an event they have witnessed, often used as evidence in legal settings.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'misinformation effect'.",
+      "answer": "The misinformation effect occurs when a person's memory of an event is altered by misleading information presented after the event.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Loftus and Palmer (1974) find about eyewitness testimony?",
+      "answer": "Loftus and Palmer found that the wording of questions (e.g., 'smashed' vs. 'hit') significantly affected participants' speed estimates of a car accident.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the role of leading questions?",
+      "answer": "Leading questions suggest a particular answer, potentially altering a witness's memory and impacting the accuracy of their testimony.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Gabbert et al. (2003) find regarding memory conformity?",
+      "answer": "Gabbert et al. found that witnesses who discussed an event with others were more likely to incorporate incorrect details into their own memories.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'anxiety' in the context of eyewitness testimony.",
+      "answer": "Anxiety refers to the emotional state of fear or worry, which can impair memory recall and affect the accuracy of eyewitness testimonies.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Yuille and Cutshall (1986) discover about the effects of stress on memory?",
+      "answer": "Yuille and Cutshall found that witnesses to a real-life robbery were highly accurate in their testimonies despite high levels of stress.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'weapon focus' effect?",
+      "answer": "The weapon focus effect suggests that the presence of a weapon during a crime can distract witnesses, leading to poorer recall of other details.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is cognitive interview?",
+      "answer": "The cognitive interview is a technique used to enhance eyewitness recall by using various strategies, such as context reinstatement and open-ended questions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the misinformation effect apply to a courtroom scenario?",
+      "answer": "In a courtroom, jurors may be influenced by misleading information presented in media or during questioning, potentially distorting their perception of eyewitness reliability.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the concept of leading questions to a police interview scenario.",
+      "answer": "If a police officer asks, 'Did you see the man with the red jacket?', it may lead the witness to falsely remember the jacket's color, impacting their testimony.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does anxiety affect a witness's memory in a robbery scenario?",
+      "answer": "In a high-anxiety robbery scenario, a witness may focus on the weapon rather than other details, leading to incomplete or inaccurate recall of the event.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Evaluate the use of cognitive interviews in improving eyewitness testimony.",
+      "answer": "Cognitive interviews can enhance recall accuracy by reducing leading questions. However, they may also increase the risk of false memories if not conducted properly.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Loftus and Palmer's (1974) study.",
+      "answer": "A limitation is that it used students as participants, which may not represent the general population's memory reliability in real-life situations.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Gabbert et al. (2003).",
+      "answer": "Gabbert et al.'s study had high ecological validity as it used a realistic scenario. However, it lacked control over participants' prior knowledge of the event.",
+      "ao": "AO3"
+    },
+    {
+      "question": "What is a strength of Yuille and Cutshall's (1986) study?",
+      "answer": "A strength is its real-world application, demonstrating that eyewitnesses can provide accurate testimonies even under high stress, contrasting laboratory findings.",
+      "ao": "AO3"
+    }
+  ]
+}

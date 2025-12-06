@@ -20,12 +20,24 @@ import { DEFAULT_THRESHOLDS, computeReinforceScore } from '../progress/progressL
 // Removed status badge display under Progressive Learning
 import BedtimeStory from "./BedtimeStory";
 import ExamineDashboard from "../examine/ExamineDashboard.jsx";
+import { getSelectedCurriculum } from '../config/curricula';
+import { getEnglishParts } from '../config/englishParts';
+import EnglishQuotationsView from './EnglishQuotationsView';
+import EnglishSummaryView from './EnglishSummaryView';
+import EnglishThemesView from './EnglishThemesView';
+import EnglishCriticismView from './EnglishCriticismView';
+import EnglishExamView from './EnglishExamView';
+import EnglishAskView from './EnglishAskView';
+import { getEnglishTextURL } from '../config/englishTextLinks';
+import EnglishPastPapersView from './EnglishPastPapersView';
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
+  const [selectedPart, setSelectedPart] = useState('summary');
   const [activeView, setActiveView] = useState(null);
   const [selectedStage, setSelectedStage] = useState('Learn');
   const [selectedOption, setSelectedOption] = useState('study');
+  const [showTextModal, setShowTextModal] = useState(false);
 
   const progressId = `${topic.id}:${selectedSubTopic || ''}`;
   const { topicState, status, actions } = useTopicProgress(progressId);
@@ -61,6 +73,18 @@ function TopicDetail({ topic, onBack }) {
   })();
 
   const sub = topic.subTopics.find((s) => s.id === selectedSubTopic);
+  const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
+  const englishParts = isEngLit ? getEnglishParts(topic.id) : [];
+  const openEnglishText = () => {
+    try {
+      const url = getEnglishTextURL(topic.id, selectedPart);
+      if (url) {
+        setShowTextModal(true);
+      } else {
+        alert('Full text not available for this title due to copyright. Please use your set text or school login.');
+      }
+    } catch(_) {}
+  };
   const sharedProps = {
     topic: {
       ...topic,
@@ -136,6 +160,109 @@ function TopicDetail({ topic, onBack }) {
   }
   if (activeView === "quiz") {
     return <QuizView {...sharedProps} />;
+  }
+  if (activeView === "eng-ask") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishAskView topicId={topic.id} topicTitle={topic.title} partId={selectedPart} partLabel={(englishParts.find(p=>p.id===selectedPart)?.label)||''} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-summary") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishSummaryView topicId={topic.id} topicTitle={topic.title} partId={selectedPart} partLabel={(englishParts.find(p=>p.id===selectedPart)?.label)||''} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-themes") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishThemesView topicId={topic.id} topicTitle={topic.title} partId={selectedPart} partLabel={(englishParts.find(p=>p.id===selectedPart)?.label)||''} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-criticism") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishCriticismView topicId={topic.id} topicTitle={topic.title} partId={selectedPart} partLabel={(englishParts.find(p=>p.id===selectedPart)?.label)||''} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-exam") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishExamView topicId={topic.id} topicTitle={topic.title} partId={selectedPart} partLabel={(englishParts.find(p=>p.id===selectedPart)?.label)||''} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-past") {
+    return (
+      <div className={`englit-scope bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}</div>
+          </div>
+          <EnglishPastPapersView topicId={topic.id} topicTitle={topic.title} />
+        </div>
+      </div>
+    );
+  }
+  if (activeView === "eng-quotations") {
+    return (
+      <div className={`bg-gradient-to-br ${((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='ocr-rs') ? 'from-blue-50 to-blue-100' : ((window?.localStorage?.getItem('curriculum')||'aqa-psych')==='edexcel-englit' ? 'from-emerald-50 to-emerald-100' : 'from-pink-100 to-pink-200')} text-gray-800 min-h-screen`}>
+        <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
+          <button className="text-blue-600 underline" onClick={() => setActiveView(null)}>← Back to Study Methods</button>
+          <div className="text-center space-y-1">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{topic.title}</h2>
+            <div className="text-sm text-gray-700">{sub?.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+          </div>
+          <EnglishQuotationsView
+            topicId={topic.id}
+            topicTitle={topic.title}
+            partId={selectedPart}
+            partLabel={(englishParts.find(p=>p.id===selectedPart)?.label) || ''}
+          />
+        </div>
+      </div>
+    );
   }
   // Removed Timed Essay for AQA Psychology
   if (activeView === "socratic") {
@@ -303,34 +430,56 @@ function TopicDetail({ topic, onBack }) {
           </p>
         </div>
         <div className="flex flex-col gap-8">
-          {/* Choose a Sub-Topic */}
+          {/* Choose a Sub-Topic (hidden for English Lit) */}
+          {!isEngLit && (
+            <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+              <div className="text-center">
+                <h2 className="text-xl font-semibold text-purple-700 mb-2">Choose a Sub-Topic</h2>
+                <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+                  Select a specific area to focus your study and revision.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {topic.subTopics.map((sub) => (
+                  <button
+                    key={sub.id}
+                    className={`border rounded-lg shadow-sm p-4 font-semibold transition-all text-left ${
+                      selectedSubTopic === sub.id
+                        ? "ring-2 ring-blue-400 bg-blue-50 text-blue-900"
+                        : "bg-gray-50 hover:shadow-md"
+                    }`}
+                    onClick={() => { setSelectedSubTopic(sub.id); }}
+                  >
+                    {sub.title}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {isEngLit && englishParts.length > 0 && (
+            <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
+              <div className="text-center">
+                <h2 className="text-xl font-semibold text-purple-700">{topic.id === 'poems-of-the-decade' || topic.id === 'keats-selected' ? 'Select Poem' : 'Select Part'}</h2>
+                <p className="text-sm text-gray-600 max-w-2xl mx-auto">{topic.id === 'poems-of-the-decade' || topic.id === 'keats-selected' ? 'Choose a poem to focus your analysis.' : 'Choose Summary or a chapter/scene before opening tools.'}</p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                {englishParts.map((p) => (
+                  <button
+                    key={p.id}
+                    onClick={() => setSelectedPart(p.id)}
+                    className={`px-3 py-2 rounded border text-left text-sm font-medium ${selectedPart===p.id ? 'bg-emerald-50 border-2 border-emerald-500 ring-2 ring-emerald-500' : 'bg-gray-50 hover:bg-gray-100'}`}
+                  >
+                    <div className="font-semibold text-gray-900">{p.label}</div>
+                    {p.desc && <div className="text-xs text-gray-600">{p.desc}</div>}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {/* Progressive Learning Panel / English Modes */}
           <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
             <div className="text-center">
-              <h2 className="text-xl font-semibold text-purple-700 mb-2">Choose a Sub-Topic</h2>
-              <p className="text-sm text-gray-600 max-w-2xl mx-auto">
-                Select a specific area to focus your study and revision.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {topic.subTopics.map((sub) => (
-                <button
-                  key={sub.id}
-                  className={`border rounded-lg shadow-sm p-4 font-semibold transition-all text-left ${
-                    selectedSubTopic === sub.id
-                      ? "ring-2 ring-blue-400 bg-blue-50 text-blue-900"
-                      : "bg-gray-50 hover:shadow-md"
-                  }`}
-                  onClick={() => setSelectedSubTopic(sub.id)}
-                >
-                  {sub.title}
-                </button>
-              ))}
-            </div>
-          </div>
-          {/* Progressive Learning Panel */}
-          <div className="bg-white border rounded-lg shadow-sm p-6 space-y-4">
-            <div className="text-center">
-              <h2 className="text-xl font-semibold text-purple-700">Progressive Learning</h2>
+              <h2 className="text-xl font-semibold text-purple-700">{isEngLit ? 'English Study Modes' : 'Progressive Learning'}</h2>
               <div className={`mt-2 inline-block text-xs px-2 py-1 rounded-full border ${guidance.colorCls}`}>{guidance.text}</div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
@@ -338,6 +487,42 @@ function TopicDetail({ topic, onBack }) {
               <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Learn' ? 'ring-2 ring-blue-400' : ''}`}>
                 <div className="font-semibold mb-2">Learn</div>
                 <div className="space-y-2">
+                  {isEngLit && (
+                    <>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-ask' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-ask'} onChange={() => setActiveView('eng-ask')} />
+                          <span>Ask AI</span>
+                        </span>
+                        <span>💡</span>
+                      </label>
+                      <div className="flex items-center gap-2 pl-2">
+                        <button onClick={openEnglishText} className="px-3 py-1 rounded text-white bg-emerald-600 hover:bg-emerald-700 text-xs">The Text</button>
+                        <span className="text-xs text-gray-600">Opens a clean reading view</span>
+                      </div>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-summary' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-summary'} onChange={() => setActiveView('eng-summary')} />
+                          <span>Summary</span>
+                        </span>
+                        <span>📝</span>
+                      </label>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-themes' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-themes'} onChange={() => setActiveView('eng-themes')} />
+                          <span>Themes</span>
+                        </span>
+                        <span>🏷️</span>
+                      </label>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-criticism' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-criticism'} onChange={() => setActiveView('eng-criticism')} />
+                          <span>Critical Analysis</span>
+                        </span>
+                        <span>📚</span>
+                      </label>
+                    </>
+                  )}
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Learn' && selectedOption==='study' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
                       <input type="radio" name="learn-option" checked={selectedStage==='Learn' && selectedOption==='study'} onChange={() => { setSelectedStage('Learn'); setSelectedOption('study'); }} />
@@ -365,6 +550,24 @@ function TopicDetail({ topic, onBack }) {
               <div className={`border rounded-lg p-4 h-full ${selectedStage === 'Reinforce' ? 'ring-2 ring-blue-400' : ''}`}>
                 <div className="font-semibold mb-2">Reinforce</div>
                 <div className="space-y-2">
+                  {isEngLit && (
+                    <>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-exam' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-exam'} onChange={() => setActiveView('eng-exam')} />
+                          <span>Exam Relevance</span>
+                        </span>
+                        <span>🧪</span>
+                      </label>
+                      <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${activeView==='eng-past' ? 'bg-emerald-50 ring-1 ring-emerald-300' : 'bg-gray-50'}`}> 
+                        <span className="flex items-center gap-2">
+                          <input type="radio" name="eng-mode" checked={activeView==='eng-past'} onChange={() => setActiveView('eng-past')} />
+                          <span>Recent Past Papers</span>
+                        </span>
+                        <span>📝</span>
+                      </label>
+                    </>
+                  )}
                   <label className={`flex items-center justify-between gap-2 p-2 rounded cursor-pointer ${selectedStage==='Reinforce' && selectedOption==='flashcards' ? 'bg-blue-50 ring-1 ring-blue-300' : 'bg-gray-50'}`}> 
                     <span className="flex items-center gap-2">
                       <input type="radio" name="reinforce-option" checked={selectedStage==='Reinforce' && selectedOption==='flashcards'} onChange={() => { setSelectedStage('Reinforce'); setSelectedOption('flashcards'); }} />
@@ -446,7 +649,7 @@ function TopicDetail({ topic, onBack }) {
             <div className="text-center">
               <h2 className="text-xl font-semibold text-purple-700 mb-2">Choose Your Study Method</h2>
               <p className="text-sm text-gray-600 max-w-2xl mx-auto">
-                Select how you'd like to engage with <strong>{sub?.title}</strong>.
+                Select how you'd like to engage with <strong>{sub?.title}</strong>{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(englishParts.find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -500,6 +703,18 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-xs text-gray-600 mt-1">Review key concepts</div>
                 </div>
               </button>
+              {isEngLit && (
+                <button
+                  onClick={() => setActiveView("eng-quotations")}
+                  className="border border-emerald-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-emerald-50 bg-gray-50"
+                >
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">💬</div>
+                    <div className="font-semibold text-emerald-800">Quotations</div>
+                    <div className="text-xs text-gray-600 mt-1">Key quotes + AO usage</div>
+                  </div>
+                </button>
+              )}
               {/* Socratic Method Pane */}
               <button
                 onClick={() => setActiveView("socratic")}
@@ -526,6 +741,32 @@ function TopicDetail({ topic, onBack }) {
           </div>
         </div>
       </div>
+      {showTextModal && (() => {
+        const base = getEnglishTextURL(topic.id, selectedPart);
+        const src = base ? (base + (base.includes('?') ? '&' : '?') + 'action=render') : '';
+        return (
+          <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+            <div className="bg-white rounded-lg shadow-xl w-full max-w-5xl max-h-[90vh] flex flex-col">
+              <div className="px-4 py-3 border-b flex items-center justify-between">
+                <div className="font-semibold text-gray-800">{topic.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(getEnglishParts(topic.id).find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+                <div className="flex items-center gap-2">
+                  {base && (
+                    <a href={base} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">Open in new tab</a>
+                  )}
+                  <button onClick={()=>setShowTextModal(false)} className="px-3 py-1 rounded border text-sm">Close</button>
+                </div>
+              </div>
+              <div className="flex-1 overflow-hidden">
+                {src ? (
+                  <iframe title="Original Text" src={src} className="w-full h-full" />
+                ) : (
+                  <div className="p-4 text-sm text-gray-700">Full text not available.</div>
+                )}
+              </div>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }

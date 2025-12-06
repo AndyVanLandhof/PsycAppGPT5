@@ -1,0 +1,193 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "working-memory-model",
+  "subTopicTitle": "Working memory model",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T09:45:55.954Z",
+  "items": [
+    {
+      "id": "working-memory-model-q1",
+      "question": "Who proposed the Working Memory Model?",
+      "options": [
+        "Alan Baddeley",
+        "Jean Piaget",
+        "Hermann Ebbinghaus",
+        "Elizabeth Loftus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Working Memory Model was proposed by Alan Baddeley and Graham Hitch in 1974, providing a more complex understanding of short-term memory."
+    },
+    {
+      "id": "working-memory-model-q2",
+      "question": "What is the function of the phonological loop in the Working Memory Model?",
+      "options": [
+        "Visual processing",
+        "Language comprehension",
+        "Auditory information processing",
+        "Motor control"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The phonological loop is responsible for processing and storing auditory information, as described by Baddeley in 1974."
+    },
+    {
+      "id": "working-memory-model-q3",
+      "question": "Which component of the Working Memory Model is involved in integrating information from different sources?",
+      "options": [
+        "Central Executive",
+        "Phonological Loop",
+        "Visuo-Spatial Sketchpad",
+        "Episodic Buffer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Central Executive coordinates activities and integrates information from the phonological loop, visuo-spatial sketchpad, and episodic buffer."
+    },
+    {
+      "id": "working-memory-model-q4",
+      "question": "In Baddeley’s 1975 study, what was found regarding word length effect?",
+      "options": [
+        "Shorter words are easier to remember",
+        "Longer words are easier to remember",
+        "Word length has no effect",
+        "Only visual words are affected"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Baddeley found that participants recalled shorter words more easily than longer words, demonstrating the word length effect."
+    },
+    {
+      "id": "working-memory-model-q5",
+      "question": "What does the visuo-spatial sketchpad primarily handle?",
+      "options": [
+        "Auditory input",
+        "Visual and spatial information",
+        "Emotional memories",
+        "Semantic processing"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The visuo-spatial sketchpad is responsible for processing visual and spatial information, as outlined by Baddeley."
+    },
+    {
+      "id": "working-memory-model-q6",
+      "question": "What year was the Working Memory Model first introduced?",
+      "options": [
+        "1974",
+        "1984",
+        "1995",
+        "2001"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Working Memory Model was first introduced in 1974 by Baddeley and Hitch."
+    },
+    {
+      "id": "working-memory-model-q7",
+      "question": "Which of the following is NOT a component of the Working Memory Model?",
+      "options": [
+        "Episodic Buffer",
+        "Central Executive",
+        "Long-term Memory",
+        "Visuo-Spatial Sketchpad"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Long-term Memory is not a component of the Working Memory Model; the model includes the Central Executive, Phonological Loop, Visuo-Spatial Sketchpad, and Episodic Buffer."
+    },
+    {
+      "id": "working-memory-model-q8",
+      "question": "What role does the episodic buffer play in the Working Memory Model?",
+      "options": [
+        "Storing visual memories",
+        "Combining information from different modalities",
+        "Processing auditory information",
+        "Controlling attention"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The episodic buffer integrates information from the phonological loop and visuo-spatial sketchpad into a coherent episode."
+    },
+    {
+      "id": "working-memory-model-q9",
+      "question": "A student is trying to memorize a list of words while also watching a video. Which component of the Working Memory Model is most likely to be overloaded?",
+      "options": [
+        "Phonological Loop",
+        "Visuo-Spatial Sketchpad",
+        "Central Executive",
+        "Episodic Buffer"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The Central Executive is responsible for managing attention and is likely to be overloaded due to the dual tasks of memorizing words and watching a video."
+    },
+    {
+      "id": "working-memory-model-q10",
+      "question": "If a participant struggles to remember a series of images while simultaneously repeating a sentence, what might this indicate about their working memory?",
+      "options": [
+        "Strong phonological loop capacity",
+        "Weak visuo-spatial sketchpad capacity",
+        "Impaired long-term memory",
+        "Effective central executive function"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "This scenario suggests a weakness in the visuo-spatial sketchpad, as both tasks require visual processing and could interfere with each other."
+    },
+    {
+      "id": "working-memory-model-q11",
+      "question": "In a study where participants were asked to remember a sequence of numbers while performing a spatial task, what would this demonstrate about the Working Memory Model?",
+      "options": [
+        "Interference between verbal and visual tasks",
+        "The effectiveness of the phonological loop",
+        "The limits of long-term memory",
+        "The importance of rehearsal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario would demonstrate interference between verbal and visual tasks, supporting the idea that the phonological loop and visuo-spatial sketchpad are separate components."
+    },
+    {
+      "id": "working-memory-model-q12",
+      "question": "One criticism of the Working Memory Model is its lack of clarity regarding which component?",
+      "options": [
+        "Central Executive",
+        "Visuo-Spatial Sketchpad",
+        "Episodic Buffer",
+        "Phonological Loop"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that the Central Executive component lacks a clear definition and understanding of its specific functions and processes."
+    },
+    {
+      "id": "working-memory-model-q13",
+      "question": "How does the Working Memory Model compare to the multi-store model of memory?",
+      "options": [
+        "Both models emphasize long-term memory",
+        "Only the Working Memory Model accounts for different types of memory",
+        "The Working Memory Model has more components",
+        "The multi-store model is more complex"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The Working Memory Model is considered more complex than the multi-store model as it includes multiple components for processing information, while the multi-store model primarily focuses on the flow of information."
+    },
+    {
+      "id": "working-memory-model-q14",
+      "question": "A key strength of the Working Memory Model is its ability to explain which phenomenon?",
+      "options": [
+        "The serial position effect",
+        "The word length effect",
+        "The misinformation effect",
+        "The spacing effect"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The Working Memory Model effectively explains the word length effect, as demonstrated in Baddeley's research, which shows that shorter words are recalled more easily."
+    }
+  ]
+}

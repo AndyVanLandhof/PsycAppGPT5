@@ -1,4 +1,5 @@
 import { useVaultService } from './useVaultService';
+import { buildEnglishSourcePolicy } from '../config/englishSources';
 
 export function useAIService() {
   // Load API keys from localStorage or environment; never hardcode secrets in the repo
@@ -29,10 +30,24 @@ export function useAIService() {
     const { topic, subTopic, includeAdditional = false, useVault = true, modelName } = options;
     
     let finalPrompt = prompt;
+    // If English Literature, prepend a system policy constraining sources
+    try {
+      const curr = (typeof window !== 'undefined' && window.localStorage && window.localStorage.getItem('curriculum')) || '';
+      if (curr === 'edexcel-englit') {
+        const policy = buildEnglishSourcePolicy();
+        finalPrompt = `${policy}\n\nINSTRUCTIONS:\n${finalPrompt}`;
+      }
+    } catch(_) {}
     
+    // Decide vault usage (disable for English Lit)
+    let shouldUseVault = useVault;
+    try {
+      const curr = (typeof window !== 'undefined' && window.localStorage && window.localStorage.getItem('curriculum')) || '';
+      if (curr === 'edexcel-englit') shouldUseVault = false;
+    } catch(_) {}
     // If vault integration is enabled and we have topic info, enhance the prompt
-    if (useVault && topic && subTopic) {
-      finalPrompt = createVaultPrompt(prompt, topic, subTopic, includeAdditional);
+    if (shouldUseVault && topic && subTopic) {
+      finalPrompt = createVaultPrompt(finalPrompt, topic, subTopic, includeAdditional);
     }
     
     console.log(`[🔮 AI] (${model}):`, finalPrompt);
@@ -99,7 +114,15 @@ export function useAIService() {
   const callAIJsonOnly = async (userPrompt, systemPrompt = null, modelName = "gpt-4o-mini") => {
     const key = (typeof window !== 'undefined' && localStorage.getItem('openai-key')) || '';
     const messages = [];
-    if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
+    let sys = systemPrompt || '';
+    try {
+      const curr = (typeof window !== 'undefined' && window.localStorage && window.localStorage.getItem('curriculum')) || '';
+      if (curr === 'edexcel-englit') {
+        const policy = buildEnglishSourcePolicy();
+        sys = sys ? `${policy}\n\n${sys}` : policy;
+      }
+    } catch(_) {}
+    if (sys) messages.push({ role: 'system', content: sys });
     messages.push({ role: 'user', content: userPrompt });
     let response = await fetch('/api/ai', {
       method: 'POST',

@@ -1,0 +1,193 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "eyewitness-testimony",
+  "subTopicTitle": "Eyewitness testimony",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T09:46:57.175Z",
+  "items": [
+    {
+      "id": "eyewitness-testimony-q1",
+      "question": "Which psychologist conducted a study in 1974 that demonstrated the misinformation effect?",
+      "options": [
+        "Elizabeth Loftus",
+        "Hermann Ebbinghaus",
+        "George Sperling",
+        "Alan Baddeley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Elizabeth Loftus conducted a study in 1974 that showed how misleading post-event information can affect eyewitness memory."
+    },
+    {
+      "id": "eyewitness-testimony-q2",
+      "question": "What term describes the phenomenon where eyewitnesses recall different details about an event after being exposed to misleading information?",
+      "options": [
+        "Reconstruction",
+        "Confabulation",
+        "Source Misattribution",
+        "Misinformation Effect"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The Misinformation Effect refers to the impairment of memory for the past caused by the introduction of misleading information."
+    },
+    {
+      "id": "eyewitness-testimony-q3",
+      "question": "In which year did Loftus and Palmer conduct their famous car crash study?",
+      "options": [
+        "1967",
+        "1974",
+        "1990",
+        "1980"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Loftus and Palmer's study on eyewitness testimony and how leading questions affect recall was conducted in 1974."
+    },
+    {
+      "id": "eyewitness-testimony-q4",
+      "question": "What is the term for the ability to recall the exact context in which a piece of information was learned?",
+      "options": [
+        "Context-dependent memory",
+        "State-dependent memory",
+        "Cue-dependent memory",
+        "Episodic memory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Context-dependent memory refers to improved recall of specific episodes or information when the context present at encoding and retrieval are the same."
+    },
+    {
+      "id": "eyewitness-testimony-q5",
+      "question": "Which study demonstrated that eyewitness accounts can be distorted by the phrasing of questions?",
+      "options": [
+        "Bahrick et al. (1975)",
+        "Loftus and Palmer (1974)",
+        "Yuille and Cutshall (1986)",
+        "Cohen (1981)"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Loftus and Palmer (1974) found that the wording of questions influenced participants' memory recall of a car accident."
+    },
+    {
+      "id": "eyewitness-testimony-q6",
+      "question": "What is the primary focus of the cognitive interview technique developed by Fisher and Geiselman?",
+      "options": [
+        "Enhancing memory retrieval",
+        "Reducing interview duration",
+        "Minimizing leading questions",
+        "Improving confidence in eyewitness reports"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The cognitive interview technique aims to enhance memory retrieval by using various strategies to improve the accuracy of eyewitness accounts."
+    },
+    {
+      "id": "eyewitness-testimony-q7",
+      "question": "Which of the following factors is NOT known to influence eyewitness testimony?",
+      "options": [
+        "Stress levels",
+        "The presence of a weapon",
+        "The age of the witness",
+        "The time of day"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "While stress, weapon presence, and witness age can impact eyewitness testimony, the time of day is not typically considered a significant factor."
+    },
+    {
+      "id": "eyewitness-testimony-q8",
+      "question": "In the context of eyewitness testimony, what does the term 'retroactive interference' refer to?",
+      "options": [
+        "Failure to encode information",
+        "New information disrupting the recall of old information",
+        "The effect of stress on memory",
+        "The enhancement of memory retrieval"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Retroactive interference occurs when new information interferes with the ability to recall previously learned information, affecting eyewitness testimony."
+    },
+    {
+      "id": "eyewitness-testimony-q9",
+      "question": "A researcher presents two groups of participants with a video of a robbery and then asks one group misleading questions about the event. What does this study primarily test?",
+      "options": [
+        "The reliability of eyewitness memory",
+        "The impact of stress on memory",
+        "The effectiveness of cognitive interviews",
+        "The influence of age on memory recall"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This study tests the reliability of eyewitness memory by examining how misleading questions can alter participants' recollections of the robbery."
+    },
+    {
+      "id": "eyewitness-testimony-q10",
+      "question": "In a courtroom scenario, a witness is asked about their recollection of an event that happened two years ago. What factor could negatively influence their testimony?",
+      "options": [
+        "The witness's confidence level",
+        "The time elapsed since the event",
+        "The clarity of the video evidence",
+        "The presence of other witnesses"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The time elapsed since the event can negatively impact the accuracy of a witness's memory, as memories can fade or become distorted over time."
+    },
+    {
+      "id": "eyewitness-testimony-q11",
+      "question": "A police officer uses a cognitive interview with a witness who observed a crime. Which technique is most likely to be employed?",
+      "options": [
+        "Asking leading questions",
+        "Encouraging the witness to visualize the scene",
+        "Providing multiple-choice answers",
+        "Limiting the amount of time for responses"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Encouraging the witness to visualize the scene is a technique used in cognitive interviews to help improve the accuracy of recall."
+    },
+    {
+      "id": "eyewitness-testimony-q12",
+      "question": "A study on eyewitness testimony finds that older adults are less accurate than younger adults in recalling events. What could be a methodological issue with this finding?",
+      "options": [
+        "Sample size",
+        "Age bias",
+        "Memory decay",
+        "Ecological validity"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Ecological validity may be an issue if the study's conditions do not reflect real-life situations, potentially affecting the generalizability of the findings on age differences in memory accuracy."
+    },
+    {
+      "id": "eyewitness-testimony-q13",
+      "question": "What is a limitation of using laboratory studies, like Loftus and Palmer's, to investigate eyewitness testimony?",
+      "options": [
+        "Lack of control over variables",
+        "Artificiality of the situation",
+        "Small sample sizes",
+        "Inconsistent results"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Laboratory studies often suffer from artificiality, which may not accurately represent real-life eyewitness situations, thus limiting the ecological validity of the findings."
+    },
+    {
+      "id": "eyewitness-testimony-q14",
+      "question": "What is a strength of using real-life studies, such as Yuille and Cutshall's, over laboratory studies of eyewitness testimony?",
+      "options": [
+        "Higher control over variables",
+        "More realistic settings",
+        "Less participant variability",
+        "Easier replication"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Yuille and Cutshall's study provides more realistic settings, which can enhance the ecological validity of the findings compared to laboratory studies."
+    }
+  ]
+}

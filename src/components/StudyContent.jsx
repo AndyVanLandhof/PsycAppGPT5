@@ -153,8 +153,10 @@ function StudyContent({ topic, onBack }) {
   // Detect AQA components (original behavior)
   const isAQA = ["Compulsory", "Option 1", "Option 2", "Option 3"].includes(topic.component);
 
-  // Defer vault reference computation until after we have a response and the vault is loaded
+  // Defer vault reference computation (disabled for English Lit)
+  const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
   const vaultReferences = useMemo(() => {
+    if (isEngLit) return [];
     try {
       if (!response) return [];
       if (!isVaultLoaded()) return [];
@@ -162,7 +164,7 @@ function StudyContent({ topic, onBack }) {
     } catch (_) {
       return [];
     }
-  }, [response, includeAdvanced, topic.title, subTopic.title, isVaultLoaded, getClickableReferences]);
+  }, [response, includeAdvanced, topic.title, subTopic.title, isVaultLoaded, getClickableReferences, isEngLit]);
 
   // Reset active audio section when audio ends
   useEffect(() => {
@@ -177,7 +179,29 @@ function StudyContent({ topic, onBack }) {
     const subTitle = (topic?.subTopic && topic.subTopic.title) ? topic.subTopic.title : topic.title;
     const themeLine = selectedTheme ? `\nTHEME: ${selectedTheme}` : '';
     const subLine = subTitle ? `\nSUB-TOPIC: ${subTitle}` : '';
-    const basePrompt = `You are an expert AQA Psychology teacher creating study content for AQA Psychology 7182 students.
+    const basePrompt = isEngLit ? `You are an expert Edexcel A Level English Literature (9ET0) tutor. Use ONLY the approved primary texts and recognised critics (as in the system policy). Do not introduce other works.
+
+TEXT: ${topic.title}${subLine}${themeLine}
+
+Respond ONLY with valid JSON in the format below. No extra text or markdown.
+
+Output the following sections (mapped to app keys):
+- AO1 Summary (literature): a concise 200–300 word synopsis focused on this text/part.
+- AO2 Application (analysis): a brief close-reading insight or exam-style comment on a short passage/topic.
+- AO1 Key Studies (critics): list 2–3 named critical perspectives (author + year where possible) and their core claim.
+- AO3 Strengths: 2–3 strengths of an interpretation/reading.
+- AO3 Limitations: 2–3 limitations or counterpoints.
+- Exam Pitfalls: common mistakes students make on this text/part.
+
+Return JSON:
+{
+  "ao1_summary": "...",
+  "ao2_application": "...",
+  "ao1_key_studies": ["...", "..."],
+  "ao3_strengths": ["...", "..."],
+  "ao3_limitations": ["...", "..."],
+  "exam_pitfalls": ["...", "..."]
+}` : `You are an expert AQA Psychology teacher creating study content for AQA Psychology 7182 students.
 
 TOPIC: ${topic.title}${subLine}${themeLine}
 
@@ -208,16 +232,16 @@ Return in this JSON format:
     setIsLoading(true);
     let result = null;
     try {
-      // For AQA Psychology, always use public AI sources
-      if (isAQA) {
-        // AQA: use public sources path with strict JSON
+      if (isEngLit) {
+        // English Lit: avoid vault, strict JSON path
+        result = await callAIJsonOnly(basePrompt, null, "gpt-4o-mini");
+      } else if (isAQA) {
         result = await callAIWithPublicSources(
           basePrompt,
           topic.title,
           subTopic?.title || topic.title
         );
       } else {
-        // OCR/Other: if vault is ready, inject vault references and request strict JSON
         const vaultReady = isVaultLoaded() && getRelevantContext(topic.title, subTopic.title, includeAdvanced).length > 0;
         if (vaultReady) {
           const enhancedPrompt = createVaultPrompt(
@@ -229,7 +253,6 @@ Return in this JSON format:
           try {
             result = await callAIJsonOnly(enhancedPrompt, null, "gpt-4o-mini");
           } catch (_) {
-            // Fallback to non-JSON vault call if needed
             result = await callAIWithVault(
               basePrompt,
               topic.title,

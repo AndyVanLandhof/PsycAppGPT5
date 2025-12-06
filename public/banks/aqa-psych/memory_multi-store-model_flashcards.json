@@ -1,0 +1,86 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "multi-store-model",
+  "subTopicTitle": "Multi-store model",
+  "type": "flashcards",
+  "generatedAt": "2025-12-06T09:43:19.576Z",
+  "items": [
+    {
+      "question": "What is the multi-store model of memory?",
+      "answer": "The multi-store model of memory, proposed by Atkinson and Shiffrin (1968), suggests memory consists of sensory register, short-term memory (STM), and long-term memory (LTM), each with distinct characteristics.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define sensory register.",
+      "answer": "The sensory register is the first stage of the multi-store model, where sensory information is stored for a brief period (milliseconds) and includes iconic and echoic memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is short-term memory (STM)?",
+      "answer": "Short-term memory is a limited-capacity store (7±2 items) that holds information for about 18-30 seconds before it is either forgotten or transferred to long-term memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define long-term memory (LTM).",
+      "answer": "Long-term memory is the final stage of the multi-store model, capable of storing an unlimited amount of information for extended periods, potentially a lifetime.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Miller (1956) find about STM capacity?",
+      "answer": "Miller (1956) proposed that the capacity of short-term memory is about 7±2 items, suggesting that chunking can help increase the amount of information retained.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Baddeley (1966) find about LTM encoding?",
+      "answer": "Baddeley (1966) found that LTM is predominantly encoded semantically, as participants struggled to recall words with similar meanings rather than sounds.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the role of rehearsal in memory?",
+      "answer": "Rehearsal is the process of repeatedly verbalizing or thinking about information, crucial for converting short-term memories into long-term storage.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the serial position effect?",
+      "answer": "The serial position effect, demonstrated by Murdock (1962), shows that people remember the first (primacy effect) and last (recency effect) items in a list better than those in the middle.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the multi-store model apply to studying for exams?",
+      "answer": "Students can enhance their exam performance by using rehearsal techniques to transfer information from STM to LTM, improving retention and recall.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the multi-store model to a witness recalling an event.",
+      "answer": "A witness's sensory register captures details of the event, STM retains this information temporarily, and LTM stores it for later retrieval during police questioning.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the multi-store model explain forgetting?",
+      "answer": "Forgetting in the multi-store model occurs due to decay in STM or interference and retrieval failure in LTM, leading to difficulty accessing stored memories.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the multi-store model.",
+      "answer": "A strength of the multi-store model is its clear structure, supported by empirical research, which provides a foundational understanding of memory processes.",
+      "ao": "AO3"
+    },
+    {
+      "question": "What is a limitation of the multi-store model?",
+      "answer": "A limitation is its oversimplification; it suggests memory is linear, ignoring the complexity of memory systems, like working memory proposed by Baddeley and Hitch.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Murdock's study (1962).",
+      "answer": "Murdock's study used controlled lab conditions, enhancing reliability, but lacked ecological validity, as recalling list items may not reflect everyday memory use.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the evidence supporting the multi-store model.",
+      "answer": "While research like Baddeley's supports the model, some studies highlight the interaction between LTM and STM, suggesting the model may not fully capture memory complexity.",
+      "ao": "AO3"
+    }
+  ]
+}

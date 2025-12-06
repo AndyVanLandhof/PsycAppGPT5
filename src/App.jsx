@@ -104,7 +104,7 @@ function Section({ title, topics, setTopic }) {
       <div className="text-center flex items-center justify-center gap-2 text-purple-700 font-semibold text-3xl md:text-4xl">
         {title}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4 items-stretch">
+      <div className={`grid grid-cols-1 ${topics.length===2 ? 'md:grid-cols-2 lg:grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-3'} gap-6 mt-4 items-stretch ${topics.length===2 ? 'max-w-3xl mx-auto' : ''}`}>
         {topics.map((topic) => (
           <TopicCard key={topic.id} topic={topic} onClick={() => setTopic(topic.id)} />
         ))}
@@ -286,7 +286,6 @@ function App() {
             <Section title="Component 1: Drama" topics={getTopicsByComponent('Component 1', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Component 2: Prose" topics={getTopicsByComponent('Component 2', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Component 3: Poetry" topics={getTopicsByComponent('Component 3', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-            <Section title="Coursework (NEA)" topics={getTopicsByComponent('Coursework', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
           </>
         ) : (
           <>

@@ -1,0 +1,193 @@
+{
+  "curriculum": "aqa-psych",
+  "topic": "memory",
+  "topicTitle": "Memory",
+  "subTopic": "explanations-for-forgetting",
+  "subTopicTitle": "Explanations for forgetting",
+  "type": "quiz",
+  "generatedAt": "2025-12-06T09:46:28.414Z",
+  "items": [
+    {
+      "id": "explanations-for-forgetting-q1",
+      "question": "Which theory suggests that forgetting occurs because old memories interfere with the ability to recall new memories?",
+      "options": [
+        "Retroactive interference",
+        "Proactive interference",
+        "Cue-dependent forgetting",
+        "Decay theory"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Proactive interference refers to the tendency of older memories to interfere with the retrieval of newer memories, as demonstrated in studies by Underwood (1957)."
+    },
+    {
+      "id": "explanations-for-forgetting-q2",
+      "question": "What is the term for the inability to retrieve information due to the absence of appropriate cues?",
+      "options": [
+        "Decay theory",
+        "Cue-dependent forgetting",
+        "Interference",
+        "Repression"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Cue-dependent forgetting occurs when a lack of retrieval cues prevents the recall of a memory, highlighted in Godden and Baddeley's (1975) study on context-dependent memory."
+    },
+    {
+      "id": "explanations-for-forgetting-q3",
+      "question": "Who conducted the famous study on the misinformation effect, demonstrating how post-event information can lead to inaccurate memories?",
+      "options": [
+        "Loftus and Palmer (1974)",
+        "Ebbinghaus (1885)",
+        "Tulving (1972)",
+        "Bartlett (1932)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Loftus and Palmer (1974) demonstrated the misinformation effect, showing that the wording of questions can alter participants' memories of an event."
+    },
+    {
+      "id": "explanations-for-forgetting-q4",
+      "question": "In which year did Ebbinghaus conduct his research on the forgetting curve?",
+      "options": [
+        "1885",
+        "1901",
+        "1956",
+        "1973"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ebbinghaus conducted his research on the forgetting curve in 1885, revealing that memory retention decreases rapidly after learning."
+    },
+    {
+      "id": "explanations-for-forgetting-q5",
+      "question": "What does the term 'decay theory' suggest about forgetting?",
+      "options": [
+        "Memories fade over time if not accessed",
+        "Memories interfere with one another",
+        "Memories are repressed due to anxiety",
+        "Memories are lost due to lack of cues"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Decay theory posits that memories fade over time if they are not accessed or used, as suggested by Ebbinghaus's forgetting curve."
+    },
+    {
+      "id": "explanations-for-forgetting-q6",
+      "question": "Which type of interference occurs when new information disrupts the recall of old information?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Cue-dependent forgetting",
+        "Repression"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Retroactive interference refers to the process where new information interferes with the recall of previously learned information."
+    },
+    {
+      "id": "explanations-for-forgetting-q7",
+      "question": "In Baddeley and Hitch's (1977) study on interference, what type of task did participants perform to demonstrate proactive interference?",
+      "options": [
+        "Word recall",
+        "Digit span",
+        "Playing a sport",
+        "Listening to music"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Baddeley and Hitch (1977) used a word recall task to demonstrate proactive interference, showing that earlier learned items can disrupt the recall of newer items."
+    },
+    {
+      "id": "explanations-for-forgetting-q8",
+      "question": "Who is associated with the concept of 'repression' in memory, particularly in the context of traumatic memories?",
+      "options": [
+        "Freud",
+        "Loftus",
+        "Tulving",
+        "Ebbinghaus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sigmund Freud is associated with the concept of repression, suggesting that traumatic memories can be unconsciously blocked from awareness."
+    },
+    {
+      "id": "explanations-for-forgetting-q9",
+      "question": "A student studies for two different exams on the same day. What type of interference might they experience?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Decay theory",
+        "Cue-dependent forgetting"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The student may experience retroactive interference as the information from studying for the second exam interferes with their ability to recall information for the first exam."
+    },
+    {
+      "id": "explanations-for-forgetting-q10",
+      "question": "During a memory test, a participant struggles to remember a friend's phone number because they just learned a new number. What concept does this illustrate?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Decay theory",
+        "Cue-dependent forgetting"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates retroactive interference, where the new information (the new phone number) interferes with the recall of the previously learned information (the friend's phone number)."
+    },
+    {
+      "id": "explanations-for-forgetting-q11",
+      "question": "In a study, participants were asked to recall a list of words after a short delay. Some participants were given a distraction task. What is the likely impact of the distraction on their memory recall?",
+      "options": [
+        "Increase memory recall",
+        "No effect on recall",
+        "Decrease memory recall",
+        "Only affects long-term memory"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The distraction likely decreases memory recall due to interference, as evidenced by studies showing that distractions can hinder memory performance."
+    },
+    {
+      "id": "explanations-for-forgetting-q12",
+      "question": "In evaluating the interference theory, which of the following is a common methodological critique?",
+      "options": [
+        "Lack of ecological validity",
+        "High reliability",
+        "Over-reliance on laboratory settings",
+        "Use of real-life scenarios"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common critique of interference theory studies is their lack of ecological validity, as many are conducted in laboratory settings that do not reflect real-life memory tasks."
+    },
+    {
+      "id": "explanations-for-forgetting-q13",
+      "question": "Which of the following is a strength of the decay theory of forgetting?",
+      "options": [
+        "Supported by longitudinal studies",
+        "Explains all types of forgetting",
+        "High ecological validity",
+        "Simple and straightforward explanation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "A strength of decay theory is its simplicity, providing a straightforward explanation for forgetting over time, though it does not account for all types of forgetting."
+    },
+    {
+      "id": "explanations-for-forgetting-q14",
+      "question": "When comparing interference theory and decay theory, which statement accurately reflects a key difference?",
+      "options": [
+        "Decay theory applies only to immediate recall",
+        "Interference theory requires the passage of time",
+        "Decay theory suggests memories are permanently lost",
+        "Interference theory suggests forgetting can be temporary"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Interference theory suggests that forgetting can be temporary, while decay theory posits that memories may be permanently lost over time without rehearsal."
+    }
+  ]
+}

@@ -77,21 +77,7 @@ const englishLitTopics = {
       { id: "comparison", title: "Comparison Skills" }
     ]
   },
-
-  // Coursework (kept as a separate section)
-  "nea-coursework": {
-    id: "nea-coursework",
-    title: "Coursework (NEA)",
-    component: "Coursework",
-    description: "Comparative essay (2,500–3,000 words) on two texts not studied elsewhere.",
-    difficulty: "Hard",
-    subTopics: [
-      { id: "text-selection", title: "Choosing Suitable Texts" },
-      { id: "comparative-methods", title: "Comparative Methods & Argument" },
-      { id: "context-criticism", title: "Context and Critical Perspectives" },
-      { id: "drafting-submission", title: "Drafting, Feedback, Submission" }
-    ]
-  }
+  
 };
 
 export default englishLitTopics;
