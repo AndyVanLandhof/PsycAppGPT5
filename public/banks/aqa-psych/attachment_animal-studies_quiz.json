@@ -5,202 +5,202 @@
   "subTopic": "animal-studies",
   "subTopicTitle": "Animal studies",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:16:46.969Z",
+  "generatedAt": "2025-12-07T18:13:34.231Z",
   "items": [
     {
       "id": "animal-studies-q1",
-      "question": "Which researcher is known for the study involving imprinting in geese?",
+      "question": "What was the primary focus of Lorenz's (1935) study on geese?",
       "options": [
-        "Konrad Lorenz",
-        "Harry Harlow",
-        "John Bowlby",
-        "Mary Ainsworth"
+        "Imprinting in newly hatched goslings",
+        "The attachment process in rhesus monkeys",
+        "The role of the caregiver in attachment",
+        "The development of attachment in human infants"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Konrad Lorenz conducted research on imprinting by studying geese, demonstrating the process of attachment formation."
+      "explanation": "Lorenz's study demonstrated the concept of imprinting, where goslings followed the first moving object they saw, usually their mother."
     },
     {
       "id": "animal-studies-q2",
-      "question": "In Harlow's research with rhesus monkeys, what object did the monkeys prefer for comfort?",
+      "question": "Which animal did Harlow use in his 1958 study on attachment?",
       "options": [
-        "Cloth mother",
-        "Wire mother",
-        "Food dispenser",
-        "Metal cage"
+        "Rhesus monkeys",
+        "Geese",
+        "Dogs",
+        "Rats"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Harlow's study found that rhesus monkeys preferred the soft cloth mother for comfort over the wire mother that provided food."
+      "explanation": "Harlow used rhesus monkeys to investigate the importance of contact comfort in the formation of attachment."
     },
     {
       "id": "animal-studies-q3",
-      "question": "What was the main focus of Lorenz's study on attachment?",
+      "question": "What did Harlow's 1958 study conclude about the importance of comfort versus food?",
       "options": [
-        "Imprinting",
-        "Separation anxiety",
-        "Secure attachment",
-        "Monotropy"
+        "Comfort is more important than food in forming attachments",
+        "Food is more important than comfort in forming attachments",
+        "Food and comfort are equally important",
+        "Neither food nor comfort is important in attachment formation"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Lorenz's study focused on imprinting, a critical period during which young animals form attachments to the first moving object they see."
+      "explanation": "Harlow found that infant monkeys preferred the cloth surrogate mother providing comfort over the wire mother providing food."
     },
     {
       "id": "animal-studies-q4",
-      "question": "Which of the following best describes Bowlby's evolutionary theory of attachment?",
+      "question": "Which concept is demonstrated by Lorenz's (1935) findings on goslings?",
       "options": [
-        "Attachment is an innate system that gives a survival advantage.",
-        "Attachment behaviors are learned through reinforcement.",
-        "Attachment is solely based on feeding.",
-        "Attachment is developed through social learning."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Bowlby's theory posits that attachment is an innate system that has evolved to increase the chance of survival and reproduction."
-    },
-    {
-      "id": "animal-studies-q5",
-      "question": "What did Harlow's experiments demonstrate about the importance of contact comfort?",
-      "options": [
-        "Contact comfort is more important than feeding in forming attachments.",
-        "Feeding is more important than contact comfort.",
-        "Contact comfort and feeding are equally important.",
-        "Contact comfort is irrelevant to attachment."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Harlow showed that rhesus monkeys preferred a comforting cloth mother over a wire mother that provided food, highlighting the importance of contact comfort."
-    },
-    {
-      "id": "animal-studies-q6",
-      "question": "In Lorenz's study, what did he find about the critical period for imprinting?",
-      "options": [
-        "There is a specific time frame for imprinting to occur.",
-        "Imprinting can occur at any age.",
-        "Imprinting is not time-sensitive.",
-        "Imprinting occurs only after weaning."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Lorenz found that imprinting must occur within a critical period shortly after birth for attachment to form."
-    },
-    {
-      "id": "animal-studies-q7",
-      "question": "Which statement is true regarding Harlow's research findings?",
-      "options": [
-        "Monkeys raised with surrogate mothers showed social deficits.",
-        "Monkeys raised with wire mothers excelled socially.",
-        "Monkeys with no surrogate mother were more socially adept.",
-        "Monkeys raised with cloth mothers were socially impaired."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Harlow's research showed that monkeys raised with surrogate mothers exhibited social deficits later in life."
-    },
-    {
-      "id": "animal-studies-q8",
-      "question": "What was a key finding from Lorenz's study on goslings?",
-      "options": [
-        "Goslings follow the first moving object they see.",
-        "Goslings attach to their biological parents only.",
-        "Goslings require food to form attachments.",
-        "Goslings form attachments randomly."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Lorenz found that goslings imprint and follow the first moving object they see during a critical period, regardless of species."
-    },
-    {
-      "id": "animal-studies-q9",
-      "question": "Which concept is central to Lorenz's theory of imprinting?",
-      "options": [
-        "Critical period",
-        "Operant conditioning",
-        "Secure base",
-        "Separation anxiety"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The concept of a critical period is central to Lorenz's theory, as imprinting must occur within this specific time frame."
-    },
-    {
-      "id": "animal-studies-q10",
-      "question": "Jessica reads about a study where a wire and cloth mother were used. She concludes that feeding is less important than comfort for attachment. Which study is she likely referring to?",
-      "options": [
-        "Harlow's study with rhesus monkeys",
-        "Lorenz's study with goslings",
-        "Ainsworth's Strange Situation",
-        "Bowlby's attachment theory"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "Jessica is referring to Harlow's study, which demonstrated that rhesus monkeys preferred the comfort of a cloth mother over a wire mother that provided food."
-    },
-    {
-      "id": "animal-studies-q11",
-      "question": "A researcher studies ducklings that follow a human instead of their mother. This research is most similar to which classic study?",
-      "options": [
-        "Lorenz's study on imprinting",
-        "Harlow's study on contact comfort",
-        "Ainsworth's Strange Situation",
-        "Bowlby's evolutionary theory"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The research is similar to Lorenz's study, which demonstrated imprinting in goslings that followed a human as if it were their mother."
-    },
-    {
-      "id": "animal-studies-q12",
-      "question": "A psychology student observes that infant monkeys cling to a cloth surrogate rather than a wire one, even when the wire one provides food. What concept is this illustrating?",
-      "options": [
-        "Contact comfort",
         "Imprinting",
+        "Classical conditioning",
         "Operant conditioning",
         "Social learning"
       ],
       "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lorenz's study showed that goslings imprint on the first moving object they see, a process which is innate and irreversible."
+    },
+    {
+      "id": "animal-studies-q5",
+      "question": "What did Harlow's research suggest about the role of a 'mother' in an infant's life?",
+      "options": [
+        "The presence of a mother provides essential emotional security",
+        "Mothers are only important for providing food",
+        "Mothers are not necessary if the infant has peers",
+        "Attachment to a mother is solely based on conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Harlow's work highlighted the importance of emotional security provided by a 'mother' figure, beyond basic physical needs."
+    },
+    {
+      "id": "animal-studies-q6",
+      "question": "Which of the following was a key characteristic of the surrogate mothers in Harlow’s experiment?",
+      "options": [
+        "One was made of wire and the other of soft cloth",
+        "Both were made of plastic",
+        "One was made of wood and the other of metal",
+        "Both were designed to look like real monkeys"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Harlow used two surrogate mothers: one of wire and one covered with soft cloth, to test the importance of comfort."
+    },
+    {
+      "id": "animal-studies-q7",
+      "question": "What is the critical period for imprinting according to Lorenz?",
+      "options": [
+        "A few hours after hatching",
+        "Several weeks after birth",
+        "During adolescence",
+        "Around one year of age"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lorenz found that imprinting occurs within a very limited time frame shortly after hatching, known as the critical period."
+    },
+    {
+      "id": "animal-studies-q8",
+      "question": "What did Harlow's isolation experiments on monkeys demonstrate?",
+      "options": [
+        "Social isolation leads to severe psychological disturbances",
+        "Monkeys can easily adapt to social situations after isolation",
+        "Social isolation has no long-term effects",
+        "Monkeys prefer isolation over social interaction"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Monkeys raised in isolation exhibited severe social and psychological problems, illustrating the importance of social experiences."
+    },
+    {
+      "id": "animal-studies-q9",
+      "question": "Which of the following is NOT a finding from Harlow's research?",
+      "options": [
+        "Attachment is based on comfort rather than nourishment",
+        "Monkeys raised with only a wire mother showed poor social development",
+        "Monkeys attach to the first moving object they see",
+        "Contact comfort is crucial for normal social development"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Imprinting on the first moving object is a finding from Lorenz's studies, not Harlow's research."
+    },
+    {
+      "id": "animal-studies-q10",
+      "question": "A researcher observes ducklings following a dog instead of their mother. Which concept does this illustrate?",
+      "options": [
+        "Imprinting",
+        "Operant conditioning",
+        "Maternal deprivation",
+        "Social referencing"
+      ],
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This observation illustrates the concept of contact comfort, as seen in Harlow's experiments with monkeys preferring a cloth surrogate."
+      "explanation": "This scenario illustrates imprinting, where ducklings follow the first moving object they see after hatching, even if it's not their mother."
+    },
+    {
+      "id": "animal-studies-q11",
+      "question": "In a study, infant monkeys are separated from their mothers and given a choice between two surrogate mothers. Which of Harlow's concepts is being investigated?",
+      "options": [
+        "The role of contact comfort in attachment",
+        "The impact of maternal deprivation on development",
+        "The effects of critical periods on attachment",
+        "The influence of reinforcement in attachment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario is investigating Harlow's concept of contact comfort and its role in attachment formation."
+    },
+    {
+      "id": "animal-studies-q12",
+      "question": "A psychology student notices that goslings follow their human caretaker as if they were their parent. What theory is this scenario consistent with?",
+      "options": [
+        "Lorenz's theory of imprinting",
+        "Harlow's contact comfort theory",
+        "Bowlby's attachment theory",
+        "Ainsworth's stranger situation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The scenario is consistent with Lorenz's theory of imprinting, where goslings follow the first moving object they encounter."
     },
     {
       "id": "animal-studies-q13",
-      "question": "What is a major methodological criticism of Harlow's monkey studies?",
+      "question": "Which of the following is a criticism of Harlow's research methods?",
       "options": [
-        "Lack of ecological validity",
-        "Over-reliance on human subjects",
-        "Use of non-standardized tests",
-        "Short duration of study"
+        "The ethical treatment of animals",
+        "The lack of control over variables",
+        "The absence of a clear hypothesis",
+        "The over-reliance on self-reported data"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Harlow's studies are often criticized for lacking ecological validity because they were conducted in artificial conditions unlike natural environments."
+      "explanation": "Harlow's experiments have been criticized for their ethical implications, particularly the distress caused to the monkeys."
     },
     {
       "id": "animal-studies-q14",
-      "question": "Which methodological issue is associated with Lorenz's study of imprinting?",
+      "question": "How can Lorenz's findings be criticized when applied to humans?",
       "options": [
-        "Generalizability to humans",
-        "Overgeneralization to all species",
-        "Unethical treatment of animals",
-        "Lack of control group"
+        "Humans have more complex emotional and social development",
+        "Imprinting is not relevant to human attachment",
+        "Humans do not form attachments until adulthood",
+        "Lorenz's findings were based on mammals, not birds"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "A major methodological issue with Lorenz's study is its limited generalizability to humans, as it was conducted on geese."
+      "explanation": "Lorenz's findings on imprinting may not fully apply to humans, as human attachment involves more complex emotional and social processes."
     },
     {
       "id": "animal-studies-q15",
-      "question": "How does Harlow's research challenge the learning theory of attachment?",
+      "question": "What is one limitation of using animal studies to understand human attachment?",
       "options": [
-        "By showing that comfort, not just food, is crucial for attachment",
-        "By proving that feeding is the sole basis for attachment",
-        "By emphasizing the role of imprinting",
-        "By highlighting the importance of genetics"
+        "Animal behavior may not directly translate to human behavior",
+        "Animals do not form attachments",
+        "Animal studies are always unethical",
+        "Humans do not exhibit any attachment behaviors"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Harlow's research challenges the learning theory by demonstrating that contact comfort is more important than feeding in forming attachments."
+      "explanation": "The main limitation is that findings from animal studies may not be directly applicable to humans due to differences in complexity and social structures."
     }
   ]
 }

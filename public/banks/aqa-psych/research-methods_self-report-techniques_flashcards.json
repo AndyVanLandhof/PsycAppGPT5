@@ -5,86 +5,86 @@
   "subTopic": "self-report-techniques",
   "subTopicTitle": "Self-report techniques",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:38:16.552Z",
+  "generatedAt": "2025-12-07T18:31:39.040Z",
   "items": [
     {
       "question": "What is a self-report technique?",
-      "answer": "A self-report technique involves participants providing information about themselves, usually through questionnaires or interviews.",
+      "answer": "A self-report technique involves participants providing information about themselves, typically through questionnaires or interviews.",
       "ao": "AO1"
     },
     {
-      "question": "Define a questionnaire.",
-      "answer": "A questionnaire is a set of written questions used to collect data on participants' attitudes, beliefs, or behaviors.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is a structured interview?",
-      "answer": "A structured interview uses pre-determined questions in a fixed order to gather data from participants.",
+      "question": "Define a structured interview.",
+      "answer": "A structured interview uses pre-determined questions, asked in a fixed order, ensuring consistency across all participants.",
       "ao": "AO1"
     },
     {
       "question": "What is an unstructured interview?",
-      "answer": "An unstructured interview is a flexible, informal interview where questions are not pre-determined, allowing for in-depth exploration of topics.",
+      "answer": "An unstructured interview allows for open-ended questions and flexibility, enabling interviewers to explore topics in-depth.",
       "ao": "AO1"
     },
     {
-      "question": "What did Likert (1932) develop?",
-      "answer": "Likert (1932) developed the Likert scale, which measures attitudes by asking participants to rate statements on a scale, typically from 'strongly agree' to 'strongly disagree'.",
+      "question": "What did McCrae and Costa (1987) find about self-reports?",
+      "answer": "McCrae and Costa found that self-reports can reliably measure personality traits when using the NEO Personality Inventory.",
       "ao": "AO1"
     },
     {
-      "question": "Define an open question.",
-      "answer": "An open question allows respondents to answer in their own words, providing qualitative data.",
+      "question": "Define a questionnaire.",
+      "answer": "A questionnaire is a set of written questions designed to collect self-report data from participants.",
       "ao": "AO1"
     },
     {
-      "question": "Define a closed question.",
-      "answer": "A closed question provides respondents with a set of pre-determined responses, yielding quantitative data.",
+      "question": "What is a closed question?",
+      "answer": "A closed question restricts responses to pre-set options, making data easy to quantify.",
       "ao": "AO1"
     },
     {
-      "question": "What is social desirability bias?",
-      "answer": "Social desirability bias occurs when participants give responses they believe are more socially acceptable or favorable rather than truthful.",
+      "question": "What is an open question?",
+      "answer": "An open question allows participants to respond freely, providing qualitative data that is rich in detail.",
       "ao": "AO1"
     },
     {
-      "question": "What is acquiescence bias?",
-      "answer": "Acquiescence bias is the tendency for participants to agree with statements or questions, regardless of their actual opinion.",
+      "question": "Define social desirability bias.",
+      "answer": "Social desirability bias occurs when participants respond in a manner they believe is socially acceptable rather than truthfully.",
       "ao": "AO1"
     },
     {
-      "question": "What did Smith and Mackie (2007) find about self-reports?",
-      "answer": "Smith and Mackie (2007) found that self-reports can be influenced by social desirability and recall bias, questioning their validity.",
+      "question": "What is an interview schedule?",
+      "answer": "An interview schedule is a structured guide used by interviewers to ensure all relevant topics are covered consistently.",
       "ao": "AO1"
     },
     {
-      "question": "Define a semantic differential scale.",
-      "answer": "A semantic differential scale measures attitudes by asking respondents to rate a concept between two bipolar adjectives.",
+      "question": "What did Kvale (1996) find about interviews?",
+      "answer": "Kvale highlighted the importance of interviewer skill in obtaining reliable and valid data during interviews.",
       "ao": "AO1"
     },
     {
-      "question": "What is interviewer bias?",
-      "answer": "Interviewer bias occurs when the presence or behavior of the interviewer influences participants' responses.",
+      "question": "Define response bias.",
+      "answer": "Response bias refers to a tendency for participants to answer questions in a certain way, unrelated to the content.",
       "ao": "AO1"
     },
     {
-      "question": "How does social desirability bias apply to job interviews?",
-      "answer": "In job interviews, candidates may provide answers they think are favorable to the interviewer, rather than being truthful, due to social desirability bias.",
+      "question": "What is a pilot study in self-report research?",
+      "answer": "A pilot study is a preliminary test of the research design, used to identify any issues before the main study.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does social desirability bias apply to this scenario: Participants report their frequency of exercise?",
+      "answer": "Participants may over-report their exercise frequency to align with societal norms that value fitness and health.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of acquiescence bias to survey responses.",
-      "answer": "In surveys, participants may agree with statements regardless of their true beliefs, demonstrating acquiescence bias, which can affect the reliability of the data.",
+      "question": "Apply the concept of leading questions to this scenario: 'You enjoy exercise, don't you?'",
+      "answer": "The question assumes a positive response, possibly leading participants to agree, affecting the validity of the data.",
       "ao": "AO2"
     },
     {
-      "question": "How might interviewer bias affect data in a qualitative study?",
-      "answer": "Interviewer bias can lead to data distortion in qualitative studies if interviewers inadvertently influence responses through leading questions or non-verbal cues.",
+      "question": "How does interviewer bias apply to this scenario: An interviewer nods approvingly?",
+      "answer": "Nodding may encourage participants to continue with the current line of thought, potentially skewing data.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the Likert scale to measuring customer satisfaction.",
-      "answer": "A Likert scale can measure customer satisfaction by asking customers to rate their agreement with statements about product quality or service on a scale from 'strongly disagree' to 'strongly agree'.",
+      "question": "Apply response bias to this scenario: Participants consistently choose the middle option on a scale.",
+      "answer": "This demonstrates response bias, where participants may choose the middle option to avoid extremes, affecting data accuracy.",
       "ao": "AO2"
     },
     {
@@ -93,18 +93,18 @@
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of structured interviews.",
-      "answer": "Structured interviews may limit the depth of responses, reducing the richness of qualitative data collected.",
+      "question": "Give one limitation of self-report techniques.",
+      "answer": "Self-report techniques are subject to biases such as social desirability, which can reduce the validity of the data.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of unstructured interviews.",
-      "answer": "Unstructured interviews provide in-depth data but can be time-consuming and difficult to analyze due to the lack of standardized questions.",
+      "question": "Evaluate the methodology of Kvale's (1996) interview research.",
+      "answer": "Kvale's emphasis on interviewer skill suggests potential variability in data quality, affecting reliability across different interviewers.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of using self-report techniques.",
-      "answer": "Self-report techniques can be affected by biases such as social desirability, potentially reducing the validity of the data collected.",
+      "question": "Give one strength of using structured interviews.",
+      "answer": "Structured interviews provide consistency, allowing for comparisons between participants, enhancing reliability.",
       "ao": "AO3"
     }
   ]

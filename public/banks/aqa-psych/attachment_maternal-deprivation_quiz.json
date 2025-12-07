@@ -5,202 +5,202 @@
   "subTopic": "maternal-deprivation",
   "subTopicTitle": "Maternal deprivation",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:19:53.963Z",
+  "generatedAt": "2025-12-07T18:14:45.541Z",
   "items": [
     {
       "id": "maternal-deprivation-q1",
-      "question": "What is Bowlby's Maternal Deprivation Hypothesis?",
+      "question": "What is the main premise of Bowlby's theory of maternal deprivation?",
       "options": [
-        "The notion that prolonged separation from the mother can lead to emotional and intellectual deficits.",
-        "The belief that any separation from the mother leads to permanent damage.",
-        "The idea that maternal presence has no effect on child development.",
-        "The theory that only physical needs are necessary for attachment."
+        "Prolonged separation from the mother in early childhood can lead to serious emotional and cognitive consequences.",
+        "Children form attachments with the first person who feeds them.",
+        "Attachment is based on the quality of the caregiving rather than the quantity of time spent together.",
+        "Secure attachments in infancy lead to better social relationships in adulthood."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby's hypothesis suggests that prolonged separation from the mother can result in emotional and intellectual deficits in children."
+      "explanation": "Bowlby proposed that continuous maternal care is essential for normal psychological development."
     },
     {
       "id": "maternal-deprivation-q2",
-      "question": "According to Bowlby (1951), what is the critical period for the development of attachment?",
+      "question": "According to Bowlby, what is the critical period for attachment formation?",
       "options": [
-        "The first 2 years of life",
-        "The first 3 months of life",
-        "The first 5 years of life",
-        "The first 6 months of life"
+        "0 to 2 years",
+        "0 to 5 years",
+        "2.5 to 5 years",
+        "5 to 7 years"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby proposed that the critical period for attachment development is within the first 2 years of life."
+      "explanation": "Bowlby suggested that the critical period for forming attachments is within the first two years of life."
     },
     {
       "id": "maternal-deprivation-q3",
-      "question": "Which study by Robertson and Robertson (1971) provided evidence for the effects of short-term separation?",
+      "question": "Which study is often cited as evidence for the effects of maternal deprivation?",
       "options": [
-        "The case study of John",
-        "The case study of Genie",
-        "The study of Romanian orphans",
-        "The Strange Situation experiment"
+        "Harlow's monkey studies (1958)",
+        "Lorenz's imprinting studies (1935)",
+        "Ainsworth's Strange Situation (1970)",
+        "Rutter's Romanian orphan studies (1981)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The case study of John by Robertson and Robertson highlighted the distress caused by short-term separation from the mother."
+      "explanation": "Harlow's studies demonstrated the importance of caregiving and companionship in social and cognitive development."
     },
     {
       "id": "maternal-deprivation-q4",
-      "question": "What is the concept of 'affectionless psychopathy' as proposed by Bowlby?",
+      "question": "Which of the following is NOT a consequence of maternal deprivation, according to Bowlby?",
       "options": [
-        "A lack of guilt and empathy due to maternal deprivation",
-        "A strong emotional bond with the primary caregiver",
-        "An inability to form any social relationships",
-        "A tendency to display aggressive behavior as a teenager"
+        "Affectionless psychopathy",
+        "Intellectual retardation",
+        "Secure attachment",
+        "Delinquency"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Bowlby identified 'affectionless psychopathy' as a lack of guilt and empathy, which he linked to maternal deprivation."
+      "explanation": "Secure attachment is not a consequence of deprivation; rather, deprivation can lead to insecure attachment."
     },
     {
       "id": "maternal-deprivation-q5",
-      "question": "Which study by Goldfarb (1947) supported Bowlby's ideas on maternal deprivation?",
+      "question": "Bowlby's theory of maternal deprivation emphasizes the importance of which type of attachment?",
       "options": [
-        "The study on children raised in institutions versus foster care",
-        "The study on attachment styles in infants",
-        "The study on imprinting in geese",
-        "The study on the effects of day care"
+        "Monotropic",
+        "Polytropic",
+        "Biotropic",
+        "Symbiotic"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Goldfarb's study compared children raised in institutions with those in foster care, supporting Bowlby's views on deprivation effects."
+      "explanation": "Bowlby believed in the concept of monotropy, where one primary attachment is crucial for development."
     },
     {
       "id": "maternal-deprivation-q6",
-      "question": "Which of the following is NOT a potential consequence of maternal deprivation according to Bowlby?",
+      "question": "What did Robertson and Robertson's study (1968) demonstrate about short-term separation?",
       "options": [
-        "Secure attachment style",
-        "Delinquency",
-        "Intellectual retardation",
-        "Emotional maladjustment"
+        "Short-term separation can lead to distress but recovery is possible if reunification occurs.",
+        "Children are unaffected by brief separations from their caregiver.",
+        "Separation leads to permanent attachment disruption.",
+        "Short-term separation results in immediate developmental delays."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby associated maternal deprivation with negative outcomes such as delinquency and maladjustment, not secure attachment."
+      "explanation": "Robertson and Robertson found that children displayed distress but could recover with a supportive environment."
     },
     {
       "id": "maternal-deprivation-q7",
-      "question": "What did Bowlby propose as a key factor in the development of attachment bonds?",
+      "question": "Which researcher criticized Bowlby's theory of maternal deprivation by emphasizing the role of social and environmental factors?",
       "options": [
-        "Continuous care from a primary caregiver",
-        "Early exposure to multiple caregivers",
-        "Frequent changes in caregivers",
-        "Absence of a primary caregiver"
+        "Michael Rutter",
+        "Mary Ainsworth",
+        "Harry Harlow",
+        "Konrad Lorenz"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby emphasized continuous care from a primary caregiver as crucial for healthy attachment development."
+      "explanation": "Rutter argued that deprivation's effects are influenced by other social and environmental factors, not just separation."
     },
     {
       "id": "maternal-deprivation-q8",
-      "question": "What did Bowlby suggest about the long-term effects of maternal deprivation?",
+      "question": "What is a potential long-term effect of maternal deprivation identified by Bowlby?",
       "options": [
-        "It can lead to emotional and cognitive difficulties in adulthood.",
-        "It has no significant impact on adult life.",
-        "It only affects physical health.",
-        "It results in positive social relationships."
+        "Affectionless psychopathy",
+        "Enhanced cognitive skills",
+        "Increased sociability",
+        "Improved emotional regulation"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby suggested that maternal deprivation can have lasting effects on emotional and cognitive development."
+      "explanation": "Bowlby noted that affectionless psychopathy, characterized by a lack of empathy, is a potential effect of deprivation."
     },
     {
       "id": "maternal-deprivation-q9",
-      "question": "Which of the following is an essential element of Bowlby's theory on maternal deprivation?",
+      "question": "Which of the following best describes the term 'affectionless psychopathy' as used by Bowlby?",
       "options": [
-        "The importance of a continuous relationship with a primary caregiver",
-        "The need for strict discipline in upbringing",
-        "The importance of siblings in development",
-        "The role of genetic factors in attachment"
+        "An inability to show affection or concern for others",
+        "A heightened sense of empathy and emotional sensitivity",
+        "A preference for solitary activities",
+        "An unusually strong attachment to multiple caregivers"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby's theory emphasizes the critical role of a continuous relationship with a primary caregiver in child development."
+      "explanation": "Affectionless psychopathy refers to an individual's lack of empathy and inability to care for others, per Bowlby."
     },
     {
       "id": "maternal-deprivation-q10",
-      "question": "A child, separated from their mother for six months due to hospitalization, shows signs of emotional withdrawal and difficulty forming relationships. This scenario is an example of:",
+      "question": "A child who was separated from their mother for several months exhibits difficulties forming relationships at school. Which concept does this scenario illustrate?",
       "options": [
-        "The effects of maternal deprivation",
-        "Secure attachment",
-        "The benefits of multiple caregivers",
-        "The impact of genetic factors"
+        "Maternal deprivation",
+        "Imprinting",
+        "Separation anxiety",
+        "Stranger anxiety"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The child's behavior aligns with Bowlby's maternal deprivation hypothesis, highlighting emotional and relational difficulties."
+      "explanation": "The scenario illustrates maternal deprivation, which can lead to issues in forming future relationships."
     },
     {
       "id": "maternal-deprivation-q11",
-      "question": "A psychologist notices that children who experienced early maternal separation have lower IQ scores. This observation supports which theory?",
+      "question": "A researcher observes that children in an orphanage have lower IQ scores than children raised with their families. What theory might explain this observation?",
       "options": [
-        "Bowlby's theory of maternal deprivation",
-        "Learning theory of attachment",
-        "Piaget's stages of cognitive development",
-        "Vygotsky's social development theory"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "This observation supports Bowlby's theory, which links early separation to intellectual deficits."
-    },
-    {
-      "id": "maternal-deprivation-q12",
-      "question": "In a study, children separated from their parents during war show increased anxiety and aggression. This finding is consistent with:",
-      "options": [
-        "Bowlby's theory of maternal deprivation",
-        "Ainsworth's attachment styles",
-        "Bandura's social learning theory",
+        "Bowlby's maternal deprivation hypothesis",
+        "Ainsworth's attachment theory",
+        "Lorenz's imprinting theory",
         "Freud's psychosexual stages"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The increased anxiety and aggression align with Bowlby's theory on the negative impacts of maternal deprivation."
+      "explanation": "Bowlby's theory suggests that deprivation can lead to intellectual retardation, explaining the lower IQ scores."
+    },
+    {
+      "id": "maternal-deprivation-q12",
+      "question": "A child displays high levels of anxiety and withdrawal following a short separation from their mother. What does this behavior suggest about the child's attachment?",
+      "options": [
+        "Insecure attachment due to maternal deprivation",
+        "Secure attachment with normal separation anxiety",
+        "Avoidant attachment style",
+        "Disorganized attachment style"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The child's anxiety and withdrawal post-separation suggest an insecure attachment possibly stemming from deprivation."
     },
     {
       "id": "maternal-deprivation-q13",
-      "question": "What is a methodological critique of Bowlby's 44 thieves study?",
+      "question": "How did Rutter's research challenge Bowlby's maternal deprivation hypothesis?",
       "options": [
-        "Lack of control over extraneous variables",
-        "Use of a large and diverse sample",
-        "High internal validity",
-        "Use of longitudinal data"
+        "By showing that deprivation effects can be overcome with adequate social stimulation",
+        "By proving that maternal care is unnecessary for healthy attachment",
+        "By demonstrating that deprivation has no long-term effects",
+        "By indicating that deprivation only affects physical development"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The study lacked control over extraneous variables, limiting the ability to establish a causal relationship between deprivation and outcomes."
+      "explanation": "Rutter's research highlighted that with adequate care, the negative effects of early deprivation can be mitigated."
     },
     {
       "id": "maternal-deprivation-q14",
-      "question": "How does Rutter's view on deprivation differ from Bowlby's?",
+      "question": "Which methodological issue is a common criticism of Bowlby's 44 Thieves study?",
       "options": [
-        "Rutter distinguishes between deprivation and privation, while Bowlby does not.",
-        "Rutter believes deprivation always leads to psychopathy.",
-        "Rutter argues that deprivation has no effect on development.",
-        "Rutter agrees completely with Bowlby's theories."
+        "The use of a biased sample",
+        "The lack of a control group",
+        "The over-reliance on animal studies",
+        "The lack of longitudinal data"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Rutter differentiates between deprivation (loss of attachment) and privation (lack of attachment), providing a nuanced view compared to Bowlby."
+      "explanation": "Critics argue that Bowlby's study used a biased sample, affecting the generalizability of the results."
     },
     {
       "id": "maternal-deprivation-q15",
-      "question": "Which of the following is a limitation of the concept of maternal deprivation?",
+      "question": "What is a limitation of using retrospective data in the study of maternal deprivation?",
       "options": [
-        "It does not account for individual differences in resilience.",
-        "It provides a comprehensive understanding of all attachment issues.",
-        "It is universally accepted without criticism.",
-        "It considers genetic factors as primary."
+        "It can lead to inaccurate recall and bias",
+        "It is too time-consuming",
+        "It provides too much qualitative data",
+        "It is not suitable for adult participants"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The concept of maternal deprivation does not account for the variability in individual resilience, leading to differing outcomes."
+      "explanation": "Retrospective data may be unreliable due to inaccurate recall and potential bias, affecting study validity."
     }
   ]
 }

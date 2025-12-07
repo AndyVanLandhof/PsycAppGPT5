@@ -5,106 +5,106 @@
   "subTopic": "depression",
   "subTopicTitle": "Depression",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:35:27.214Z",
+  "generatedAt": "2025-12-07T18:30:45.699Z",
   "items": [
     {
-      "question": "What is depression?",
-      "answer": "Depression is a mood disorder characterized by persistent sadness, lack of interest, and impaired daily functioning.",
+      "question": "What is depression in terms of psychopathology?",
+      "answer": "Depression is a mood disorder characterized by persistent sadness, loss of interest, and a range of emotional, cognitive, physical, and behavioral symptoms.",
       "ao": "AO1"
     },
     {
-      "question": "Define unipolar depression.",
-      "answer": "Unipolar depression involves depressive episodes without manic or hypomanic states, leading to persistent low mood and other symptoms.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define bipolar disorder.",
-      "answer": "Bipolar disorder is characterized by alternating episodes of depression and mania or hypomania.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What are cognitive symptoms of depression?",
-      "answer": "Cognitive symptoms include negative thinking, low self-esteem, and difficulty concentrating.",
+      "question": "Define the term 'cognitive bias' in the context of depression.",
+      "answer": "Cognitive bias in depression refers to distorted ways of thinking, such as negative views about oneself, the world, and the future.",
       "ao": "AO1"
     },
     {
       "question": "What did Beck (1967) propose about depression?",
-      "answer": "Beck (1967) proposed the cognitive triad, suggesting depression is maintained by negative views of the self, world, and future.",
+      "answer": "Beck (1967) proposed the cognitive triad, which suggests depression is caused by negative thinking patterns about the self, the world, and the future.",
       "ao": "AO1"
     },
     {
-      "question": "What did Ellis (1962) suggest in his ABC model?",
-      "answer": "Ellis (1962) suggested depression results from irrational beliefs activated by negative events, leading to emotional consequences.",
+      "question": "What are the key symptoms of major depressive disorder?",
+      "answer": "Key symptoms include persistent sadness, loss of interest, fatigue, changes in appetite or sleep, feelings of worthlessness, and difficulty concentrating.",
       "ao": "AO1"
     },
     {
-      "question": "What are behavioral symptoms of depression?",
-      "answer": "Behavioral symptoms include changes in activity levels, disrupted sleep patterns, and changes in appetite.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What are the emotional symptoms of depression?",
-      "answer": "Emotional symptoms include persistent sadness, feelings of hopelessness, and irritability.",
+      "question": "Define 'learned helplessness' in relation to depression.",
+      "answer": "Learned helplessness is a state where individuals feel unable to control events, leading to passive behavior and potentially contributing to depression.",
       "ao": "AO1"
     },
     {
       "question": "What did Seligman (1975) find about learned helplessness?",
-      "answer": "Seligman (1975) found that experiencing uncontrollable stressors can lead to learned helplessness, contributing to depression.",
+      "answer": "Seligman (1975) found that exposure to uncontrollable events can lead to learned helplessness, which is linked to the development of depressive symptoms.",
       "ao": "AO1"
     },
     {
       "question": "What is the role of serotonin in depression?",
-      "answer": "Low levels of serotonin are associated with mood regulation deficits, contributing to depressive symptoms.",
+      "answer": "Serotonin is a neurotransmitter that regulates mood. Low levels of serotonin are associated with symptoms of depression.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'negative schema'.",
-      "answer": "Negative schema refers to a pattern of negative thought processes, often developed in childhood, influencing one's perception of the world.",
+      "question": "Define 'cognitive restructuring' in CBT for depression.",
+      "answer": "Cognitive restructuring is a process in CBT where negative thought patterns are identified and challenged to reduce depressive symptoms.",
       "ao": "AO1"
     },
     {
-      "question": "What did Koster et al. (2005) find about attention biases?",
-      "answer": "Koster et al. (2005) found that depressed individuals have attention biases towards negative information, perpetuating depressive symptoms.",
+      "question": "What did Ellis (1962) propose in his ABC model?",
+      "answer": "Ellis (1962) proposed the ABC model, suggesting that depression results from irrational beliefs about activating events, leading to consequences like depression.",
       "ao": "AO1"
     },
     {
-      "question": "Apply Beck's cognitive triad to this scenario: 'Jane believes she is unlovable, the world is unfair, and her future is bleak.'",
-      "answer": "Jane's beliefs exemplify Beck's cognitive triad, with negative views of the self (unlovable), the world (unfair), and the future (bleak).",
+      "question": "What are the three components of Beck's negative triad?",
+      "answer": "The three components are negative views about the self, the world, and the future.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'schema' in the context of cognitive theories of depression.",
+      "answer": "A schema is a mental framework that helps organize and interpret information; in depression, negative schemas can distort perception.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Lewinsohn et al. (1985) find about life events and depression?",
+      "answer": "Lewinsohn et al. (1985) found that negative life events increase the risk of developing depression, especially in those with poor coping mechanisms.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Beck's cognitive triad apply to a student failing exams?",
+      "answer": "The student may have negative thoughts about their abilities (self), believe exams will always be difficult (world), and think they will never succeed (future).",
       "ao": "AO2"
     },
     {
-      "question": "How does Ellis's ABC model apply to this scenario: 'Tom loses his job and believes he will never succeed, leading to depression'?",
-      "answer": "Tom's belief ('never succeed') is an irrational belief (B) activated by losing his job (A), leading to depression (C).",
+      "question": "Apply Ellis's ABC model to someone losing a job.",
+      "answer": "Activating event: losing a job; Belief: 'I am worthless'; Consequence: depression. Changing the belief can alter emotional response.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of learned helplessness to this scenario: 'Maria has failed multiple exams and feels she cannot improve.'",
-      "answer": "Maria's repeated failures contribute to learned helplessness, making her feel incapable of improvement.",
+      "question": "How might learned helplessness explain a patient's unwillingness to try new therapies?",
+      "answer": "The patient may perceive new therapies as uncontrollable or ineffective, reinforcing passivity and hopelessness.",
       "ao": "AO2"
     },
     {
-      "question": "How can negative schema explain this scenario: 'John interprets neutral comments as criticism'?",
-      "answer": "John's negative schema leads him to perceive neutral comments as criticism, reinforcing depressive thoughts.",
+      "question": "Apply the concept of serotonin to a case of persistent low mood.",
+      "answer": "Low serotonin levels might explain the persistent low mood, suggesting a biochemical basis for the patient's depression.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of Beck's cognitive theory of depression.",
-      "answer": "Beck's cognitive theory is supported by empirical evidence showing depressed individuals have negative thinking patterns.",
+      "question": "Give one strength of the cognitive explanation for depression.",
+      "answer": "The cognitive explanation is supported by effective treatments like CBT, which target and change negative thought patterns, reducing symptoms.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of Ellis's ABC model.",
-      "answer": "The ABC model may overlook biological factors, focusing solely on cognitive processes in depression.",
+      "question": "Give one limitation of the biological approach to depression.",
+      "answer": "The biological approach may overlook environmental factors, such as life events and personal history, limiting its comprehensiveness.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Seligman's learned helplessness research.",
-      "answer": "Seligman's research relies on animal studies, which may lack generalizability to human depression.",
+      "question": "Evaluate the methodology of Seligman (1975)'s learned helplessness study.",
+      "answer": "Seligman's study used animal research, which may not generalize to humans, raising ethical concerns and questions about applicability.",
       "ao": "AO3"
     },
     {
-      "question": "Give one strength of the biological explanation for depression.",
-      "answer": "The biological explanation is supported by evidence linking neurotransmitter imbalances, like low serotonin, to depression.",
+      "question": "Evaluate the effectiveness of CBT for depression.",
+      "answer": "CBT is effective for many, with lasting benefits, but may not suit patients with severe symptoms or those resistant to engaging with therapy.",
       "ao": "AO3"
     }
   ]

@@ -5,11 +5,11 @@
   "subTopic": "nervous-system",
   "subTopicTitle": "The divisions of the nervous system",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:29:54.487Z",
+  "generatedAt": "2025-12-07T18:17:12.876Z",
   "items": [
     {
       "id": "nervous-system-q1",
-      "question": "Which division of the nervous system is responsible for the fight-or-flight response?",
+      "question": "Which part of the nervous system is responsible for the 'fight or flight' response?",
       "options": [
         "Sympathetic nervous system",
         "Parasympathetic nervous system",
@@ -18,141 +18,141 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The sympathetic nervous system activates the body's arousal response in stressful situations, preparing for 'fight or flight'."
+      "explanation": "The sympathetic nervous system triggers physiological arousal preparing the body for 'fight or flight'."
     },
     {
       "id": "nervous-system-q2",
-      "question": "What are the two main components of the central nervous system?",
+      "question": "What is the main function of the parasympathetic nervous system?",
       "options": [
-        "Brain and spinal cord",
-        "Brain and peripheral nerves",
-        "Spinal cord and sensory neurons",
-        "Peripheral nerves and motor neurons"
+        "To conserve energy and restore the body to a resting state",
+        "To initiate the 'fight or flight' response",
+        "To process sensory information",
+        "To control voluntary movements"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The central nervous system is composed of the brain and spinal cord, responsible for processing and sending information."
+      "explanation": "The parasympathetic nervous system conserves energy by slowing down the heart rate and increasing intestinal activity."
     },
     {
       "id": "nervous-system-q3",
-      "question": "Which division of the peripheral nervous system is involved in voluntary movement?",
+      "question": "Which component of the nervous system connects the brain to the peripheral nervous system?",
       "options": [
-        "Somatic nervous system",
-        "Autonomic nervous system",
-        "Central nervous system",
-        "Parasympathetic nervous system"
+        "Spinal cord",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Cerebral cortex"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The somatic nervous system controls voluntary movements by transmitting signals between the brain and the muscles."
+      "explanation": "The spinal cord serves as a major pathway for information connecting the brain to the peripheral nervous system."
     },
     {
       "id": "nervous-system-q4",
-      "question": "What is the primary role of the parasympathetic nervous system?",
+      "question": "What is the primary role of the peripheral nervous system?",
       "options": [
-        "Rest and digest functions",
-        "Fight or flight responses",
-        "Processing sensory information",
-        "Controlling voluntary movements"
+        "To relay messages between the brain and the rest of the body",
+        "To process and interpret sensory information",
+        "To regulate emotion and behavior",
+        "To control involuntary functions like breathing"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The parasympathetic nervous system is involved in rest and digest functions, helping to conserve energy and return the body to a state of calm."
+      "explanation": "The peripheral nervous system connects the central nervous system to limbs and organs, transmitting information."
     },
     {
       "id": "nervous-system-q5",
-      "question": "Which researcher is associated with the study of the 'split-brain' patients?",
+      "question": "Which of the following is NOT a function of the autonomic nervous system?",
       "options": [
-        "Roger Sperry (1968)",
-        "Ivan Pavlov (1927)",
-        "B.F. Skinner (1938)",
-        "John Watson (1913)"
+        "Voluntary muscle control",
+        "Regulation of heart rate",
+        "Control of digestive processes",
+        "Regulation of respiratory rate"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Roger Sperry conducted research on split-brain patients in 1968, demonstrating lateralization of brain function."
+      "explanation": "The autonomic nervous system regulates involuntary body functions, whereas voluntary muscle control is managed by the somatic nervous system."
     },
     {
       "id": "nervous-system-q6",
-      "question": "What part of the brain is primarily responsible for regulating heart rate, breathing, and blood pressure?",
+      "question": "What is the role of the somatic nervous system?",
       "options": [
-        "Medulla oblongata",
-        "Cerebellum",
+        "To control voluntary movements and transmit sensory information",
+        "To regulate involuntary bodily functions",
+        "To connect the brain to the endocrine system",
+        "To manage emotional responses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The somatic nervous system controls voluntary movements and conveys sensory information to the central nervous system."
+    },
+    {
+      "id": "nervous-system-q7",
+      "question": "Which part of the nervous system is directly involved in reflex actions?",
+      "options": [
+        "Spinal cord",
+        "Cerebral cortex",
         "Hypothalamus",
         "Amygdala"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The medulla oblongata, located in the brainstem, is crucial for autonomic control of heart rate, breathing, and blood pressure."
-    },
-    {
-      "id": "nervous-system-q7",
-      "question": "Which part of the brain is associated with the regulation of emotions and memory formation?",
-      "options": [
-        "Limbic system",
-        "Occipital lobe",
-        "Parietal lobe",
-        "Frontal lobe"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The limbic system, including structures like the hippocampus and amygdala, is key in emotion regulation and memory formation."
+      "explanation": "Reflex actions are controlled by the spinal cord, which processes information without involving the brain."
     },
     {
       "id": "nervous-system-q8",
-      "question": "Which structure connects the two hemispheres of the brain?",
+      "question": "Who conducted a study on the lateralization of brain function that supports the division of the nervous system?",
       "options": [
-        "Corpus callosum",
-        "Thalamus",
-        "Cerebral cortex",
-        "Basal ganglia"
+        "Roger Sperry (1968)",
+        "Ivan Pavlov (1904)",
+        "John B. Watson (1913)",
+        "Albert Bandura (1961)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The corpus callosum is a band of nerve fibers that connects the left and right hemispheres of the brain, allowing communication between them."
+      "explanation": "Roger Sperry's split-brain research in 1968 demonstrated the different functions of the brain's hemispheres."
     },
     {
       "id": "nervous-system-q9",
-      "question": "What is the main function of the autonomic nervous system?",
+      "question": "Which nervous system division is primarily responsible for transmitting sensory information to the central nervous system?",
       "options": [
-        "Regulating involuntary body functions",
-        "Controlling voluntary muscle movements",
-        "Processing sensory information",
-        "Facilitating cognitive functions"
+        "Somatic nervous system",
+        "Autonomic nervous system",
+        "Sympathetic nervous system",
+        "Enteric nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The autonomic nervous system regulates involuntary body functions such as heart rate, digestion, and respiratory rate."
+      "explanation": "The somatic nervous system transmits sensory information from receptors to the central nervous system."
     },
     {
       "id": "nervous-system-q10",
-      "question": "A patient with damage to their spinal cord is unable to move their legs. Which part of the nervous system is likely affected?",
+      "question": "A patient experiences a rapid heartbeat and sweating in a stressful situation. Which part of the nervous system is most likely activated?",
       "options": [
-        "Central nervous system",
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
         "Somatic nervous system",
-        "Autonomic nervous system",
-        "Parasympathetic nervous system"
+        "Central nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The central nervous system, which includes the spinal cord, is responsible for transmitting motor signals to the muscles, enabling movement."
+      "explanation": "The sympathetic nervous system is activated during stress, causing increased heart rate and sweating."
     },
     {
       "id": "nervous-system-q11",
-      "question": "After a stressful presentation, Alice feels her heart rate slowing and breathing becoming regular. Which nervous system is taking action?",
+      "question": "If a person has difficulty coordinating their movements, which part of the nervous system might be compromised?",
       "options": [
-        "Parasympathetic nervous system",
+        "Cerebellum",
         "Sympathetic nervous system",
-        "Somatic nervous system",
-        "Central nervous system"
+        "Parasympathetic nervous system",
+        "Medulla oblongata"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The parasympathetic nervous system helps the body return to a state of calm by slowing heart rate and normalizing breathing."
+      "explanation": "The cerebellum is involved in coordinating movement and balance; damage here affects motor control."
     },
     {
       "id": "nervous-system-q12",
-      "question": "John experiences increased salivation and digestion after eating. Which nervous system is responsible?",
+      "question": "A researcher finds that increased activity in one division of the nervous system correlates with relaxation and decreased stress. Which division is this likely to be?",
       "options": [
         "Parasympathetic nervous system",
         "Sympathetic nervous system",
@@ -161,46 +161,46 @@
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The parasympathetic nervous system stimulates digestion and salivation as part of its 'rest and digest' functions."
+      "explanation": "The parasympathetic nervous system promotes relaxation and reduces stress by conserving energy."
     },
     {
       "id": "nervous-system-q13",
-      "question": "What is a limitation of using case studies, such as those of split-brain patients, in biopsychology?",
+      "question": "What is a weakness of using animal studies to understand the human nervous system?",
       "options": [
         "Lack of generalizability",
-        "High control over variables",
-        "Ease of replication",
-        "Uniform results across studies"
+        "High internal validity",
+        "Ethical considerations",
+        "Ease of control"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Case studies often involve unique individuals, limiting the ability to generalize findings to the wider population."
+      "explanation": "Animal studies may lack generalizability to humans due to differences in complexity between species."
     },
     {
       "id": "nervous-system-q14",
-      "question": "Why might research into the autonomic nervous system be considered reductionist?",
+      "question": "How does the central nervous system differ from the peripheral nervous system in terms of function?",
       "options": [
-        "It oversimplifies complex behaviors",
-        "It accounts for multiple variables",
-        "It provides comprehensive explanations",
-        "It uses holistic approaches"
+        "The CNS processes information, while the PNS transmits information",
+        "The CNS controls voluntary muscles, while the PNS regulates involuntary muscles",
+        "The CNS is involved in emotional processing, while the PNS is not",
+        "The CNS is responsible for homeostasis, while the PNS is not"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Reductionism in such research suggests complex behaviors can be understood entirely through physiological processes, ignoring psychological factors."
+      "explanation": "The central nervous system processes and interprets information, while the peripheral nervous system transmits it."
     },
     {
       "id": "nervous-system-q15",
-      "question": "How does the use of brain imaging techniques enhance our understanding of the nervous system?",
+      "question": "What is a limitation of the 'fight or flight' model of stress response?",
       "options": [
-        "They provide detailed images of brain activity",
-        "They simplify the interpretation of behaviors",
-        "They eliminate the need for other research methods",
-        "They offer subjective insights into mental processes"
+        "It does not account for other responses like 'tend and befriend'",
+        "It lacks empirical support",
+        "It is only applicable to non-human animals",
+        "It ignores the role of the central nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Brain imaging techniques, like fMRI, provide detailed, objective images of brain activity, enhancing our understanding of its functions."
+      "explanation": "The 'fight or flight' model is limited as it doesn't account for alternative responses such as 'tend and befriend', especially in females."
     }
   ]
 }

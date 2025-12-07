@@ -5,202 +5,202 @@
   "subTopic": "definitions-abnormality",
   "subTopicTitle": "Definitions of abnormality",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:34:17.785Z",
+  "generatedAt": "2025-12-07T18:18:47.463Z",
   "items": [
     {
       "id": "definitions-abnormality-q1",
-      "question": "Which of the following is a definition of abnormality based on statistical infrequency?",
+      "question": "Which of the following is a definition of abnormality that focuses on violation of social norms?",
       "options": [
-        "Behaviors that are rare within the general population",
-        "Behaviors that deviate from societal norms",
-        "Behaviors that cause personal distress",
-        "Behaviors that fail to function adequately"
+        "Deviation from social norms",
+        "Statistical infrequency",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Statistical infrequency defines abnormality as behaviors that are statistically rare within the population."
+      "explanation": "Deviation from social norms defines abnormality based on behaviors that violate societal expectations."
     },
     {
       "id": "definitions-abnormality-q2",
-      "question": "Who proposed the criteria for ideal mental health?",
+      "question": "According to Jahoda (1958), which of the following is NOT a criterion for ideal mental health?",
       "options": [
-        "Marie Jahoda",
-        "Sigmund Freud",
-        "John Bowlby",
-        "Albert Bandura"
+        "Resistance to stress",
+        "Accurate perception of reality",
+        "Personal growth and self-actualization",
+        "Conformity to societal expectations"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "ao": "AO1",
-      "explanation": "Marie Jahoda (1958) proposed six criteria for ideal mental health, including autonomy and self-actualization."
+      "explanation": "Jahoda's criteria for ideal mental health focus on individual well-being and not societal conformity."
     },
     {
       "id": "definitions-abnormality-q3",
-      "question": "Which definition of abnormality involves deviation from social norms?",
+      "question": "Which definition of abnormality is most likely used when considering cultural relativism?",
       "options": [
-        "Behaviors that violate society's rules",
-        "Behaviors that are statistically rare",
-        "Behaviors that cause personal distress",
-        "Behaviors that result in functional impairment"
+        "Deviation from social norms",
+        "Statistical infrequency",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Deviation from social norms defines abnormality as behaviors that go against societal expectations."
+      "explanation": "Deviation from social norms takes cultural context into account, making it relevant to cultural relativism."
     },
     {
       "id": "definitions-abnormality-q4",
-      "question": "What is one limitation of defining abnormality as deviation from social norms?",
+      "question": "What is a limitation of the statistical infrequency definition of abnormality?",
       "options": [
-        "It may vary over time and between cultures",
-        "It is too focused on measurable data",
-        "It ignores the subjective experience of distress",
-        "It considers environmental factors only"
+        "It does not account for rare but desirable traits",
+        "It relies too heavily on subjective interpretations",
+        "It ignores the role of cultural differences",
+        "It fails to consider individual distress"
       ],
       "correctAnswer": 0,
-      "ao": "AO3",
-      "explanation": "Social norms vary across cultures and time, so what is considered abnormal in one context may not be in another."
+      "ao": "AO1",
+      "explanation": "Statistical infrequency does not distinguish between rare traits that are positive or negative."
     },
     {
       "id": "definitions-abnormality-q5",
-      "question": "Which definition of abnormality focuses on an individual's ability to cope with daily life?",
+      "question": "Who proposed the concept of 'failure to function adequately' as a definition of abnormality?",
       "options": [
-        "Failure to function adequately",
-        "Statistical infrequency",
-        "Deviation from ideal mental health",
-        "Deviation from social norms"
+        "Rosenhan and Seligman",
+        "Jahoda",
+        "Freud",
+        "Beck"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Failure to function adequately defines abnormality based on an individual's ability to perform daily activities."
+      "explanation": "Rosenhan and Seligman proposed the 'failure to function adequately' definition, focusing on daily life disruption."
     },
     {
       "id": "definitions-abnormality-q6",
-      "question": "According to Rosenhan and Seligman, which of the following is NOT a feature of failure to function adequately?",
+      "question": "Which of the following definitions of abnormality includes the idea of self-actualization?",
       "options": [
-        "Statistical rarity",
-        "Observer discomfort",
-        "Unpredictability",
-        "Irrationality"
+        "Deviation from ideal mental health",
+        "Failure to function adequately",
+        "Statistical infrequency",
+        "Deviation from social norms"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Statistical rarity is not a feature of failure to function but rather relates to statistical infrequency."
+      "explanation": "Deviation from ideal mental health includes self-actualization as one of Jahoda's criteria."
     },
     {
       "id": "definitions-abnormality-q7",
-      "question": "Which of the following is a limitation of the statistical infrequency definition of abnormality?",
+      "question": "Which definition of abnormality involves assessing an individual's ability to cope with everyday life?",
       "options": [
-        "It does not account for the desirability of behavior",
-        "It is too subjective",
-        "It is culturally biased",
-        "It focuses on social norms"
+        "Failure to function adequately",
+        "Deviation from social norms",
+        "Deviation from ideal mental health",
+        "Statistical infrequency"
       ],
       "correctAnswer": 0,
-      "ao": "AO3",
-      "explanation": "Statistical infrequency does not consider whether a statistically rare behavior is positive or negative."
+      "ao": "AO1",
+      "explanation": "Failure to function adequately focuses on disruptions in daily functioning as a sign of abnormality."
     },
     {
       "id": "definitions-abnormality-q8",
-      "question": "Which researcher conducted a study that highlighted the problem of labeling individuals as abnormal?",
+      "question": "Which researcher conducted a study challenging the reliability of psychiatric diagnoses by using pseudo-patients?",
       "options": [
-        "David Rosenhan",
-        "Albert Ellis",
-        "Aaron Beck",
-        "Carl Rogers"
+        "Rosenhan",
+        "Beck",
+        "Ellis",
+        "Jahoda"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "David Rosenhan's (1973) study 'On Being Sane in Insane Places' demonstrated issues with psychiatric labeling."
+      "explanation": "Rosenhan's 1973 study used pseudo-patients to highlight the challenges in psychiatric diagnosis reliability."
     },
     {
       "id": "definitions-abnormality-q9",
-      "question": "Which definition of abnormality is concerned with meeting a set of criteria for optimal psychological well-being?",
-      "options": [
-        "Deviation from ideal mental health",
-        "Failure to function adequately",
-        "Statistical infrequency",
-        "Deviation from social norms"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Deviation from ideal mental health, as proposed by Jahoda, involves meeting criteria for psychological well-being."
-    },
-    {
-      "id": "definitions-abnormality-q10",
-      "question": "A student often feels anxious about exams, which affects their concentration. Which definition of abnormality might best explain this situation?",
-      "options": [
-        "Failure to function adequately",
-        "Deviation from social norms",
-        "Statistical infrequency",
-        "Deviation from ideal mental health"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The student's anxiety affects their daily functioning, aligning with the failure to function adequately definition."
-    },
-    {
-      "id": "definitions-abnormality-q11",
-      "question": "A culture believes that hearing voices is a sign of spiritual communication. Which definition of abnormality might conflict with this belief?",
-      "options": [
-        "Deviation from social norms",
-        "Failure to function adequately",
-        "Statistical infrequency",
-        "Deviation from ideal mental health"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "Hearing voices may not be seen as abnormal if it aligns with cultural norms, challenging the deviation from social norms definition."
-    },
-    {
-      "id": "definitions-abnormality-q12",
-      "question": "A person feels unhappy with their high level of empathy, which often leads to distress. Which definition of abnormality is least applicable?",
-      "options": [
-        "Statistical infrequency",
-        "Failure to function adequately",
-        "Deviation from ideal mental health",
-        "Deviation from social norms"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "While having high empathy may cause distress, it is not statistically infrequent, making this definition less applicable."
-    },
-    {
-      "id": "definitions-abnormality-q13",
       "question": "Which of the following is a strength of the deviation from ideal mental health definition?",
       "options": [
         "It provides a comprehensive approach to mental health",
-        "It is culturally universal",
-        "It is based on observable behaviors",
-        "It avoids labeling individuals"
+        "It relies on objective statistical measures",
+        "It is highly culturally specific",
+        "It focuses solely on societal norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Deviation from ideal mental health offers a holistic approach to assessing mental well-being."
+    },
+    {
+      "id": "definitions-abnormality-q10",
+      "question": "A patient is unable to leave their house due to extreme anxiety. Which definition of abnormality best applies?",
+      "options": [
+        "Failure to function adequately",
+        "Deviation from social norms",
+        "Statistical infrequency",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The inability to perform daily activities like leaving the house indicates a failure to function adequately."
+    },
+    {
+      "id": "definitions-abnormality-q11",
+      "question": "In a particular culture, speaking to spirits is common. How should this behavior be classified?",
+      "options": [
+        "Not abnormal, as it aligns with cultural norms",
+        "Abnormal, due to statistical infrequency",
+        "Abnormal, as it deviates from ideal mental health",
+        "Not abnormal, as it indicates personal growth"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Within this cultural context, speaking to spirits is a norm and not considered abnormal."
+    },
+    {
+      "id": "definitions-abnormality-q12",
+      "question": "A person who consistently achieves high scores on intelligence tests might be seen as abnormal under which definition?",
+      "options": [
+        "Statistical infrequency",
+        "Deviation from social norms",
+        "Failure to function adequately",
+        "Deviation from ideal mental health"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Statistical infrequency would label exceptionally high scores as abnormal due to rarity."
+    },
+    {
+      "id": "definitions-abnormality-q13",
+      "question": "Which criticism applies to the deviation from social norms definition of abnormality?",
+      "options": [
+        "It is subject to abuse based on cultural differences",
+        "It provides a comprehensive view of mental health",
+        "It relies on objective criteria",
+        "It is too focused on individual distress"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "This definition considers a wide range of factors contributing to mental well-being, offering a holistic view."
+      "explanation": "Deviation from social norms can lead to misuse, especially when cultural differences are not considered."
     },
     {
       "id": "definitions-abnormality-q14",
-      "question": "Which definition of abnormality might be criticized for being too subjective?",
+      "question": "Why might the statistical infrequency definition of abnormality be considered limited?",
       "options": [
-        "Deviation from ideal mental health",
-        "Statistical infrequency",
-        "Failure to function adequately",
-        "Deviation from social norms"
+        "It does not capture the context of behaviors",
+        "It considers cultural factors too heavily",
+        "It focuses on subjective experiences",
+        "It is overly reliant on personal opinions"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Deviation from ideal mental health involves subjective criteria, such as self-actualization, which may vary between individuals."
+      "explanation": "Statistical infrequency ignores the context, labeling rare but harmless traits as abnormal."
     },
     {
       "id": "definitions-abnormality-q15",
-      "question": "What is a common criticism of using statistical infrequency as a sole definition of abnormality?",
+      "question": "What is a major limitation of the 'failure to function adequately' definition?",
       "options": [
-        "It does not account for cultural differences",
-        "It may label beneficial traits as abnormal",
-        "It is difficult to measure",
-        "It focuses too heavily on environmental factors"
+        "It can be subjective and culturally dependent",
+        "It relies too heavily on statistical data",
+        "It is overly focused on positive mental health",
+        "It does not account for societal norms"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Statistical infrequency may label positive traits, like high intelligence, as abnormal, which is misleading."
+      "explanation": "This definition's reliance on subjective and cultural judgments can limit its applicability across contexts."
     }
   ]
 }

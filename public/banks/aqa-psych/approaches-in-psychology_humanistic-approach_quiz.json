@@ -5,202 +5,202 @@
   "subTopic": "humanistic-approach",
   "subTopicTitle": "Humanistic approach",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:29:21.081Z",
+  "generatedAt": "2025-12-07T18:16:57.897Z",
   "items": [
     {
       "id": "humanistic-approach-q1",
-      "question": "Who is most closely associated with the development of the humanistic approach in psychology?",
+      "question": "Who is considered the founder of the Humanistic approach in psychology?",
       "options": [
         "Carl Rogers",
-        "B.F. Skinner",
         "Sigmund Freud",
+        "B.F. Skinner",
         "John Watson"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Carl Rogers is one of the founding figures of the humanistic approach, emphasizing concepts such as self-actualization and unconditional positive regard."
+      "explanation": "Carl Rogers, along with Abraham Maslow, is known for developing the Humanistic approach, focusing on personal growth and self-actualization."
     },
     {
       "id": "humanistic-approach-q2",
-      "question": "Which concept is central to Carl Rogers' theory of personality?",
+      "question": "Which concept is central to Maslow's theory within the Humanistic approach?",
       "options": [
-        "Unconditional positive regard",
-        "Operant conditioning",
-        "The unconscious mind",
-        "Classical conditioning"
+        "Hierarchy of Needs",
+        "Operant Conditioning",
+        "Psychosexual Stages",
+        "Observational Learning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Unconditional positive regard is a key component of Rogers' approach, where acceptance is given regardless of the individual's actions."
+      "explanation": "Maslow's Hierarchy of Needs outlines a progression of human needs, from physiological to self-actualization."
     },
     {
       "id": "humanistic-approach-q3",
-      "question": "According to Maslow, what is the highest level on the hierarchy of needs?",
+      "question": "What is the term used by Carl Rogers to describe the innate drive to achieve one's full potential?",
       "options": [
         "Self-actualization",
-        "Esteem",
-        "Belongingness and love",
-        "Physiological needs"
+        "Conditioned Response",
+        "Unconscious Motives",
+        "Negative Reinforcement"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Self-actualization sits at the top of Maslow's hierarchy, representing the full realization of one's potential."
+      "explanation": "Self-actualization is a key concept in Rogers' theory, referring to the innate tendency to fulfill one's potential."
     },
     {
       "id": "humanistic-approach-q4",
-      "question": "In Maslow's hierarchy of needs, which level focuses on personal safety and security?",
+      "question": "According to Rogers, what is the cause of incongruence in a person's self-concept?",
       "options": [
-        "Safety needs",
-        "Esteem needs",
-        "Physiological needs",
-        "Self-actualization"
+        "Mismatch between self-concept and ideal self",
+        "Failure to complete psychosexual stages",
+        "Lack of reinforcement",
+        "Observational learning deficits"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Safety needs are concerned with protection from elements, security, order, law, and stability."
+      "explanation": "Incongruence occurs when there is a discrepancy between an individual's self-concept and their ideal self, leading to feelings of discomfort and maladjustment."
     },
     {
       "id": "humanistic-approach-q5",
-      "question": "What is a key characteristic of the humanistic approach?",
+      "question": "Which of the following is NOT one of the levels in Maslow's Hierarchy of Needs?",
       "options": [
-        "Emphasis on free will",
-        "Focus on observable behavior",
-        "Emphasis on environmental stimuli",
-        "Focus on unconscious processes"
+        "Cognitive Needs",
+        "Safety Needs",
+        "Physiological Needs",
+        "Cultural Needs"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "ao": "AO1",
-      "explanation": "The humanistic approach prioritizes free will and individual experience over deterministic views."
+      "explanation": "Maslow's Hierarchy includes Physiological, Safety, Belongingness, Esteem, and Self-Actualization needs; Cultural Needs is not one of them."
     },
     {
       "id": "humanistic-approach-q6",
-      "question": "Which of the following is a criticism of the humanistic approach?",
+      "question": "What therapy did Carl Rogers develop based on his Humanistic principles?",
       "options": [
-        "Lack of empirical evidence",
-        "Too deterministic",
-        "Over-reliance on animal studies",
-        "Too focused on pathology"
+        "Client-Centered Therapy",
+        "Rational Emotive Behavior Therapy",
+        "Systematic Desensitization",
+        "Cognitive Behavioral Therapy"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The humanistic approach is often criticized for lacking empirical evidence due to its subjective nature."
+      "explanation": "Client-Centered Therapy, developed by Rogers, emphasizes providing a supportive environment to facilitate personal growth."
     },
     {
       "id": "humanistic-approach-q7",
-      "question": "Rogers' concept of 'conditions of worth' refers to:",
+      "question": "In which year did Carl Rogers publish 'Client-Centered Therapy'?",
       "options": [
-        "Acceptance only when certain conditions are met",
-        "Unconditional acceptance",
-        "Innate biological drives",
-        "Social learning processes"
+        "1951",
+        "1965",
+        "1943",
+        "1972"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Conditions of worth occur when acceptance is conditional on meeting certain standards, affecting self-concept."
+      "explanation": "Carl Rogers published 'Client-Centered Therapy' in 1951, outlining his Humanistic approach to psychology."
     },
     {
       "id": "humanistic-approach-q8",
-      "question": "Which humanistic psychologist developed the concept of 'peak experiences'?",
+      "question": "What term describes the acceptance of a person without conditions, according to Rogers?",
       "options": [
-        "Abraham Maslow",
-        "Carl Rogers",
-        "Ivan Pavlov",
-        "Albert Bandura"
+        "Unconditional Positive Regard",
+        "Positive Reinforcement",
+        "Conditional Regard",
+        "Negative Regard"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Maslow introduced 'peak experiences' as moments of intense joy and fulfillment, central to self-actualization."
+      "explanation": "Unconditional Positive Regard is the acceptance and support of a person regardless of what they say or do, fundamental to Rogers' therapeutic approach."
     },
     {
       "id": "humanistic-approach-q9",
-      "question": "Which method did Rogers use to explore the self-concept?",
+      "question": "Which of these is a characteristic of a self-actualized person, according to Maslow?",
       "options": [
-        "Q-sort technique",
-        "Free association",
-        "Operant conditioning",
-        "Systematic desensitization"
+        "Creativity",
+        "Social Conformity",
+        "Dependence on others",
+        "Indifference to personal growth"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The Q-sort technique involves sorting statements to assess congruence between the actual self and ideal self."
+      "explanation": "Creativity, along with autonomy and a problem-centered approach, is a characteristic of self-actualized individuals as described by Maslow."
     },
     {
       "id": "humanistic-approach-q10",
-      "question": "A therapist using unconditional positive regard is likely to:",
+      "question": "Jane feels unsatisfied in her job despite being financially secure. According to Maslow, which need might she be seeking to fulfill?",
       "options": [
-        "Accept a client without judgment",
-        "Focus on past traumas",
-        "Use punishment to change behavior",
-        "Analyze a client's dreams"
+        "Self-Actualization",
+        "Safety Needs",
+        "Physiological Needs",
+        "Esteem Needs"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "ao": "AO2",
-      "explanation": "Unconditional positive regard involves accepting a client without judgment, fostering a supportive therapeutic environment."
+      "explanation": "Jane may be seeking to fulfill Esteem Needs, which involve achieving personal success and recognition, beyond basic safety and physiological needs."
     },
     {
       "id": "humanistic-approach-q11",
-      "question": "A client feels they must achieve high grades to be valued by their parents. This is an example of:",
+      "question": "Tom is receiving therapy and feels heard and accepted by his therapist. This approach is likely based on which Humanistic principle?",
       "options": [
-        "Conditions of worth",
-        "Self-actualization",
-        "Peak experience",
-        "Safety needs"
+        "Unconditional Positive Regard",
+        "Classical Conditioning",
+        "Negative Reinforcement",
+        "Operant Conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Conditions of worth arise when acceptance is conditional on certain achievements, affecting the individual’s self-worth."
+      "explanation": "The therapist's acceptance and understanding align with Rogers' principle of Unconditional Positive Regard, essential in client-centered therapy."
     },
     {
       "id": "humanistic-approach-q12",
-      "question": "If a person reaches their full potential in life, they are said to have achieved:",
+      "question": "Sarah is motivated to join a community group because she feels lonely. Which level of Maslow's Hierarchy does this behavior represent?",
       "options": [
-        "Self-actualization",
-        "Esteem needs",
-        "Safety needs",
-        "Belongingness and love"
+        "Belongingness and Love Needs",
+        "Esteem Needs",
+        "Self-Actualization",
+        "Safety Needs"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Self-actualization is the realization of personal potential, self-fulfillment, and seeking personal growth and peak experiences."
+      "explanation": "Sarah's desire for social connection and acceptance aligns with the Belongingness and Love Needs in Maslow's Hierarchy."
     },
     {
       "id": "humanistic-approach-q13",
-      "question": "Which is a strength of the humanistic approach?",
+      "question": "One criticism of the Humanistic approach is that it is overly:",
       "options": [
-        "Emphasizes individual experience",
-        "Provides a deterministic explanation",
-        "Relies heavily on scientific methods",
-        "Focuses on animal behavior"
+        "Optimistic about human nature",
+        "Deterministic",
+        "Reductionist",
+        "Focused on unconscious processes"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The humanistic approach is praised for emphasizing individual experience and personal agency, countering deterministic views."
+      "explanation": "The Humanistic approach is often criticized for being overly optimistic about human nature, assuming that people always strive for growth and improvement."
     },
     {
       "id": "humanistic-approach-q14",
-      "question": "Which approach contrasts with humanism due to its deterministic perspective?",
+      "question": "Compared to the Humanistic approach, the Psychodynamic approach is more:",
       "options": [
-        "Behaviorist approach",
-        "Psychodynamic approach",
-        "Cognitive approach",
-        "Biological approach"
+        "Focused on unconscious motives",
+        "Emphasizing personal growth",
+        "Concerned with conscious thoughts",
+        "Optimistic about human potential"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The behaviorist approach is deterministic, focusing on environmental influences, contrasting with humanism's free will emphasis."
+      "explanation": "The Psychodynamic approach, pioneered by Freud, emphasizes unconscious motives and conflicts, contrasting with the Humanistic focus on conscious experiences and growth."
     },
     {
       "id": "humanistic-approach-q15",
-      "question": "A criticism of the humanistic approach is that it is:",
+      "question": "Which of the following is a methodological critique of Humanistic research?",
       "options": [
-        "Too subjective to measure scientifically",
-        "Too focused on the unconscious mind",
-        "Overly reliant on animal research",
-        "Too deterministic"
+        "Lack of empirical evidence",
+        "Over-reliance on animal studies",
+        "Inability to explain behavior through environmental factors",
+        "Focus on genetic influences"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Humanistic psychology is often criticized for being too subjective and lacking scientific rigor due to its focus on personal experience."
+      "explanation": "The Humanistic approach often lacks empirical evidence due to its emphasis on subjective experiences, making it difficult to measure scientifically."
     }
   ]
 }

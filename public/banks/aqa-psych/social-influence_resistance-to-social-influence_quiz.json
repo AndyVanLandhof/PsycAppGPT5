@@ -5,202 +5,202 @@
   "subTopic": "resistance-to-social-influence",
   "subTopicTitle": "Resistance to social influence",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:12:15.473Z",
+  "generatedAt": "2025-12-07T18:11:32.908Z",
   "items": [
     {
       "id": "resistance-to-social-influence-q1",
-      "question": "What is the term used to describe the ability to withstand social pressure to conform or obey?",
+      "question": "What is the term for the ability to withstand social pressure to conform or obey?",
       "options": [
         "Resistance to social influence",
+        "Conformity",
         "Social facilitation",
-        "Social loafing",
-        "Pluralistic ignorance"
+        "Obedience"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Resistance to social influence involves maintaining independence in the face of social pressure."
+      "explanation": "Resistance to social influence refers to the ability to withstand social pressure to conform or obey."
     },
     {
       "id": "resistance-to-social-influence-q2",
-      "question": "Which study by Asch demonstrated the role of social support in resisting conformity?",
+      "question": "Who conducted a study in 1982 that investigated resistance to conformity by introducing a dissenting confederate?",
       "options": [
-        "Asch (1951)",
-        "Milgram (1963)",
-        "Zimbardo (1971)",
+        "Allen and Levine",
+        "Milgram",
+        "Asch",
+        "Zimbardo"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Allen and Levine (1982) studied resistance to conformity by introducing a dissenting confederate."
+    },
+    {
+      "id": "resistance-to-social-influence-q3",
+      "question": "Which type of locus of control is associated with greater resistance to social influence?",
+      "options": [
+        "Internal locus of control",
+        "External locus of control",
+        "Central locus of control",
+        "Peripheral locus of control"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "An internal locus of control is associated with greater resistance to social influence."
+    },
+    {
+      "id": "resistance-to-social-influence-q4",
+      "question": "In Asch's conformity studies, what effect did having an ally have on the participant's likelihood to conform?",
+      "options": [
+        "Decreased conformity",
+        "Increased conformity",
+        "No effect on conformity",
+        "Caused confusion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Having an ally decreased conformity in Asch's studies, as participants felt more supported in their dissent."
+    },
+    {
+      "id": "resistance-to-social-influence-q5",
+      "question": "According to Milgram's 1963 study, what percentage of participants administered the highest shock level when alone?",
+      "options": [
+        "65%",
+        "45%",
+        "25%",
+        "85%"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Milgram's study, 65% of participants administered the highest shock level when alone."
+    },
+    {
+      "id": "resistance-to-social-influence-q6",
+      "question": "What concept did Rotter introduce to explain why some people resist pressure to conform or obey?",
+      "options": [
+        "Locus of control",
+        "Social identity theory",
+        "Deindividuation",
+        "Social facilitation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rotter introduced the concept of locus of control to explain resistance to social influence."
+    },
+    {
+      "id": "resistance-to-social-influence-q7",
+      "question": "In Milgram's variation with two disobedient confederates, what happened to the participant's obedience levels?",
+      "options": [
+        "Obedience dropped significantly",
+        "Obedience increased",
+        "Obedience remained the same",
+        "Participants became confused"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Obedience dropped significantly when participants were with two disobedient confederates, highlighting social support's role."
+    },
+    {
+      "id": "resistance-to-social-influence-q8",
+      "question": "What is the term for the reduction in personal responsibility felt when others are present?",
+      "options": [
+        "Diffusion of responsibility",
+        "Social loafing",
+        "Deindividuation",
+        "Bystander effect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Diffusion of responsibility refers to the reduction in personal responsibility when others are present."
+    },
+    {
+      "id": "resistance-to-social-influence-q9",
+      "question": "Which study demonstrated that social support can help individuals resist pressure to conform in a simulated jury setting?",
+      "options": [
+        "Allen and Levine (1971)",
+        "Zimbardo (1973)",
+        "Sherif (1935)",
         "Festinger (1957)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Asch's (1951) study showed that the presence of a dissenting confederate dramatically reduced conformity rates."
-    },
-    {
-      "id": "resistance-to-social-influence-q3",
-      "question": "Which concept refers to the perception that outcomes are due to one's own efforts or external factors?",
-      "options": [
-        "Locus of control",
-        "Self-efficacy",
-        "Social identity",
-        "Cognitive dissonance"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Locus of control, as proposed by Rotter (1966), explains how individuals attribute causes to outcomes."
-    },
-    {
-      "id": "resistance-to-social-influence-q4",
-      "question": "According to Milgram's obedience studies, what percentage of participants continued to the highest voltage when the authority figure was absent?",
-      "options": [
-        "20.5%",
-        "65%",
-        "84%",
-        "45%"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "In the variation where the experimenter was absent, obedience dropped to 20.5%."
-    },
-    {
-      "id": "resistance-to-social-influence-q5",
-      "question": "Which factor is NOT considered to contribute to resistance to social influence?",
-      "options": [
-        "High level of authoritarianism",
-        "Social support",
-        "Internal locus of control",
-        "High moral reasoning"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "High levels of authoritarianism typically increase conformity and obedience, not resistance."
-    },
-    {
-      "id": "resistance-to-social-influence-q6",
-      "question": "Who conducted research on the role of social support in reducing obedience?",
-      "options": [
-        "Milgram (1974)",
-        "Asch (1955)",
-        "Hofling (1966)",
-        "Sherif (1935)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Milgram's (1974) variation showed that the presence of disobedient peers reduced obedience."
-    },
-    {
-      "id": "resistance-to-social-influence-q7",
-      "question": "Which researcher proposed the concept of locus of control?",
-      "options": [
-        "Rotter (1966)",
-        "Bandura (1977)",
-        "Tajfel (1970)",
-        "Sherif (1935)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Rotter (1966) introduced the concept of locus of control to explain individual differences in resistance."
-    },
-    {
-      "id": "resistance-to-social-influence-q8",
-      "question": "What percentage of participants resisted obedience in Milgram's baseline experiment?",
-      "options": [
-        "35%",
-        "50%",
-        "20%",
-        "65%"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "In Milgram's original study, 35% of participants refused to administer the highest shock level."
-    },
-    {
-      "id": "resistance-to-social-influence-q9",
-      "question": "Which of the following is a dispositional factor affecting resistance to social influence?",
-      "options": [
-        "Internal locus of control",
-        "Group size",
-        "Task difficulty",
-        "Proximity of authority"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "An internal locus of control is a personality trait that can increase resistance to social pressures."
+      "explanation": "Allen and Levine (1971) showed that social support helps resist conformity in a simulated jury."
     },
     {
       "id": "resistance-to-social-influence-q10",
-      "question": "Emma is less likely to conform to her peers when she has a friend who supports her viewpoint. This is an example of:",
+      "question": "Sarah is in a group project where everyone agrees on a wrong answer. She remembers her teacher mentioning a study where dissent reduced conformity. Which study might she be recalling?",
       "options": [
-        "Social support",
-        "Compliance",
-        "Majority influence",
-        "Identification"
+        "Asch's line experiment",
+        "Zimbardo's prison experiment",
+        "Sherif's autokinetic effect study",
+        "Milgram's obedience study"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Social support refers to the presence of others who resist the pressure to conform, providing confidence to others to also resist."
+      "explanation": "Sarah is likely recalling Asch's line experiment where a dissenting opinion reduced conformity."
     },
     {
       "id": "resistance-to-social-influence-q11",
-      "question": "During an office meeting, John disagrees with a majority decision. He feels confident because a colleague also disagrees. This scenario illustrates:",
+      "question": "Tom is tempted to skip a red light because he sees others doing it. He recalls a study about obedience and decides to wait. Which study might have influenced his decision?",
       "options": [
-        "Social support in resisting conformity",
-        "Informational social influence",
-        "Normative social influence",
-        "Minority influence"
+        "Milgram's obedience study",
+        "Asch's conformity study",
+        "Zimbardo's prison study",
+        "Sherif's autokinetic study"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "John’s confidence is bolstered by social support from a colleague, reducing conformity."
+      "explanation": "Milgram's obedience study likely influenced Tom's decision by highlighting the importance of authority and rules."
     },
     {
       "id": "resistance-to-social-influence-q12",
-      "question": "In a classroom setting, Sarah often speaks up against the teacher's opinions because she believes strongly in her own understanding. This behavior exemplifies:",
+      "question": "Lena refuses to follow her friends into a restricted area at a concert. She thinks the risk isn't worth it and recalls a theory about personal control. Which theory is she applying?",
       "options": [
-        "Internal locus of control",
-        "Groupthink",
-        "Obedience",
-        "Social facilitation"
+        "Locus of control",
+        "Social identity theory",
+        "Bystander effect",
+        "Cognitive dissonance"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "An internal locus of control leads Sarah to rely on her own judgments rather than conforming to authority."
+      "explanation": "Lena is applying the locus of control theory, emphasizing her internal control over decisions."
     },
     {
       "id": "resistance-to-social-influence-q13",
-      "question": "Which of the following is a limitation of Milgram's study in explaining resistance to social influence?",
+      "question": "What is a major critique of the external validity of Milgram's obedience studies?",
       "options": [
-        "Lacks ecological validity",
-        "High internal validity",
-        "Wide generalizability",
-        "Focuses on dispositional factors"
+        "The artificial setting",
+        "The lack of authority figures",
+        "The use of children as participants",
+        "The absence of a control group"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Milgram's study is criticized for lacking ecological validity as the lab setting may not reflect real-world situations."
+      "explanation": "A major critique is the artificial setting, which may not reflect real-world obedience scenarios."
     },
     {
       "id": "resistance-to-social-influence-q14",
-      "question": "How does locus of control influence resistance to obedience, according to research?",
+      "question": "In evaluating Asch's conformity study, what is a limitation regarding the sample used?",
       "options": [
-        "Internal locus of control is associated with greater resistance",
-        "External locus of control increases resistance",
-        "Both internal and external locus have no impact",
-        "External locus of control promotes independence"
+        "All male participants",
+        "All female participants",
+        "Diverse age range",
+        "Varied cultural backgrounds"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Research suggests that individuals with an internal locus of control are more likely to resist obedience due to belief in personal agency."
+      "explanation": "A limitation is the use of all male participants, which limits the generalizability of the findings."
     },
     {
       "id": "resistance-to-social-influence-q15",
-      "question": "Why might social support be considered a stronger influence on resistance than locus of control?",
+      "question": "How does locus of control theory compare to social identity theory in explaining resistance to social influence?",
       "options": [
-        "Social support provides immediate, visible reinforcement",
-        "Locus of control is more situational",
-        "Social support is less reliable",
-        "Locus of control is universally applicable"
+        "Focuses on individual control vs. group belonging",
+        "Emphasizes group norms vs. authority influence",
+        "Highlights cognitive processes vs. behavior reinforcement",
+        "Contrasts external vs. internal motivation"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Social support offers immediate reinforcement through the presence of allies, making resistance more achievable."
+      "explanation": "Locus of control focuses on individual control over outcomes, while social identity theory emphasizes group belonging."
     }
   ]
 }

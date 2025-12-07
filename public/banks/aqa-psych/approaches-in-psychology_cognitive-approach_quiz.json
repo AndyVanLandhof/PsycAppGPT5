@@ -5,202 +5,202 @@
   "subTopic": "cognitive-approach",
   "subTopicTitle": "Cognitive approach",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:27:34.521Z",
+  "generatedAt": "2025-12-07T18:15:55.477Z",
   "items": [
     {
       "id": "cognitive-approach-q1",
-      "question": "Which of the following researchers is associated with the development of the computer analogy in cognitive psychology?",
+      "question": "Which of the following is a key assumption of the cognitive approach in psychology?",
       "options": [
-        "Ulric Neisser",
-        "B.F. Skinner",
-        "Sigmund Freud",
-        "John Watson"
+        "Mental processes can be scientifically studied using models and inferences.",
+        "Behavior is learned through conditioning and reinforcement.",
+        "Our unconscious drives influence our behavior.",
+        "Human behavior can be explained by the structure of the brain alone."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Ulric Neisser is known as the 'father of cognitive psychology' and advocated for the computer analogy to explain human information processing."
+      "explanation": "The cognitive approach posits that mental processes, such as perception and memory, can be scientifically studied through models and inferences."
     },
     {
       "id": "cognitive-approach-q2",
-      "question": "What is the main focus of the cognitive approach in psychology?",
+      "question": "Who is associated with the development of the cognitive theory known as the 'multi-store model' of memory?",
       "options": [
-        "Observable behavior",
-        "Unconscious processes",
-        "Cognitive processes",
-        "Social interactions"
+        "Atkinson and Shiffrin (1968)",
+        "Bandura (1961)",
+        "Skinner (1948)",
+        "Freud (1900)"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The cognitive approach focuses on understanding internal mental processes such as perception, memory, and problem-solving."
+      "explanation": "Atkinson and Shiffrin (1968) developed the multi-store model, which describes memory in terms of three stores: sensory register, short-term memory, and long-term memory."
     },
     {
       "id": "cognitive-approach-q3",
-      "question": "In the context of cognitive psychology, what is a schema?",
+      "question": "In the study by Loftus and Palmer (1974), what was the main finding regarding the effect of language on memory?",
       "options": [
-        "A mental framework for organizing information",
-        "A reinforcement schedule",
-        "A defense mechanism",
-        "A neural pathway"
+        "The wording of questions can influence eyewitness testimony.",
+        "Memory is primarily influenced by the frequency of exposure.",
+        "Memory recall is unaffected by external suggestions.",
+        "Eyewitness testimony is always accurate and reliable."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A schema is a cognitive framework or concept that helps organize and interpret information in the brain."
+      "explanation": "Loftus and Palmer (1974) found that the wording of questions, such as using 'smashed' versus 'hit', can alter participants' memories of an event."
     },
     {
       "id": "cognitive-approach-q4",
-      "question": "Which study by Loftus and Palmer investigated the effect of language on memory recall?",
+      "question": "What is 'schema theory' in the cognitive approach?",
       "options": [
-        "1974 study on eyewitness testimony",
-        "1954 study on attachment",
-        "1999 study on aggression",
-        "1961 study on conformity"
+        "It refers to mental frameworks that help organize and interpret information.",
+        "It describes the biological structures that underpin cognitive functions.",
+        "It is a theory that focuses on the reinforcement of behavior.",
+        "It explains how genes influence cognitive development."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Loftus and Palmer (1974) conducted a study on how the phrasing of questions can influence eyewitness memory recall of events."
+      "explanation": "Schema theory posits that schemas are mental frameworks that organize and interpret information, influencing how we perceive and remember events."
     },
     {
       "id": "cognitive-approach-q5",
-      "question": "What does the term 'cognitive neuroscience' refer to?",
+      "question": "What did Baddeley and Hitch (1974) propose about working memory?",
       "options": [
-        "The study of the brain's structure in relation to cognitive functions",
-        "The study of genetic influences on behavior",
-        "The examination of social influences on cognition",
-        "The analysis of childhood experiences on adult behavior"
+        "It consists of multiple components, including the central executive.",
+        "It is a single, unitary store that processes all information.",
+        "It operates in the unconscious mind, influencing behavior.",
+        "It is identical to short-term memory."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Cognitive neuroscience explores how brain structures and functions relate to cognitive processes."
+      "explanation": "Baddeley and Hitch (1974) proposed that working memory consists of multiple components, including the central executive, phonological loop, and visuospatial sketchpad."
     },
     {
       "id": "cognitive-approach-q6",
-      "question": "Which concept suggests that human memory can be likened to a computer's information processing system?",
+      "question": "Which cognitive approach concept involves the use of computer models to explain mental processes?",
       "options": [
-        "Memory encoding",
-        "Cognitive schema",
-        "Information processing model",
-        "Psychodynamic theory"
+        "Information processing theory",
+        "Classical conditioning",
+        "Social learning theory",
+        "Biological preparedness"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The information processing model likens human memory to a computer, with processes such as encoding, storage, and retrieval."
+      "explanation": "Information processing theory uses computer models to describe how information is encoded, stored, and retrieved by the human mind, paralleling a computer's operations."
     },
     {
       "id": "cognitive-approach-q7",
-      "question": "Which cognitive bias involves focusing on information that confirms one's preconceptions?",
+      "question": "Cognitive neuroscience combines which two fields of study?",
       "options": [
-        "Confirmation bias",
-        "Hindsight bias",
-        "Anchoring bias",
-        "Availability heuristic"
+        "Cognitive psychology and neuroscience",
+        "Cognitive psychology and behavioral genetics",
+        "Neuroscience and behaviorism",
+        "Developmental psychology and cognitive psychology"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Confirmation bias refers to the tendency to search for, interpret, and remember information that confirms one's preexisting beliefs."
+      "explanation": "Cognitive neuroscience is an interdisciplinary field that combines principles from cognitive psychology and neuroscience to understand how brain function underlies cognitive processes."
     },
     {
       "id": "cognitive-approach-q8",
-      "question": "In cognitive psychology, what is the role of 'attention' in processing information?",
+      "question": "What is the main focus of cognitive behavioral therapy (CBT)?",
       "options": [
-        "It filters information to focus on relevant stimuli",
-        "It stores information for long-term use",
-        "It retrieves information from memory",
-        "It encodes information into neural pathways"
+        "Changing maladaptive thought patterns to influence behavior positively",
+        "Analyzing unconscious conflicts and past traumas",
+        "Using medication to balance neurotransmitter levels",
+        "Observing and modifying outward behavior through reinforcement"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Attention is a cognitive process that filters information, allowing individuals to focus on important stimuli while ignoring others."
+      "explanation": "CBT focuses on identifying and changing maladaptive thought patterns to influence emotions and behaviors positively."
     },
     {
       "id": "cognitive-approach-q9",
-      "question": "Which of the following is a core assumption of the cognitive approach?",
+      "question": "Which of the following best describes the term 'cognitive bias'?",
       "options": [
-        "Behavior is learned through conditioning",
-        "Behavior is driven by unconscious motives",
-        "Mental processes can be scientifically studied",
-        "Behavior is influenced by genetic predispositions"
+        "Systematic deviations from rationality in judgment",
+        "Accurate perception of reality",
+        "Enhanced memory recall of past events",
+        "Random errors in memory storage"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The cognitive approach assumes that mental processes can be studied scientifically, using models and experiments."
+      "explanation": "Cognitive biases are systematic patterns of deviation from norm or rationality in judgment, leading to illogical conclusions or decisions."
     },
     {
       "id": "cognitive-approach-q10",
-      "question": "A student remembers the main points of a lecture by organizing the information into categories. Which cognitive process is she using?",
+      "question": "A student is trying to memorize vocabulary for a psychology exam. She creates sentences using the new words. Which cognitive technique is she using?",
       "options": [
-        "Chunking",
-        "Rehearsal",
-        "Elaboration",
-        "Priming"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The student is using chunking, a cognitive strategy that involves organizing information into manageable units or categories."
-    },
-    {
-      "id": "cognitive-approach-q11",
-      "question": "A patient has difficulty recalling past events after a car accident. Which part of the brain is likely affected?",
-      "options": [
-        "Hippocampus",
-        "Amygdala",
-        "Frontal lobe",
-        "Cerebellum"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The hippocampus is crucial for memory formation and recall, and damage to it can impair the ability to remember past events."
-    },
-    {
-      "id": "cognitive-approach-q12",
-      "question": "A teacher uses a series of questions to guide students in understanding a complex concept. Which cognitive principle is this an example of?",
-      "options": [
-        "Scaffolding",
-        "Modeling",
+        "Elaborative rehearsal",
+        "Maintenance rehearsal",
         "Classical conditioning",
         "Operant conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Scaffolding involves providing support and guidance to students to help them understand complex concepts, often by breaking them down into smaller parts."
+      "explanation": "Elaborative rehearsal involves linking new information with existing knowledge or creating meaning, which enhances memory retention."
+    },
+    {
+      "id": "cognitive-approach-q11",
+      "question": "In a study, participants were asked to recall a list of words. Those who visualized the words remembered more. What cognitive concept does this illustrate?",
+      "options": [
+        "Dual coding hypothesis",
+        "Selective attention",
+        "Semantic memory processing",
+        "Operant conditioning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The dual coding hypothesis suggests that information is more easily remembered when it is encoded both visually and verbally."
+    },
+    {
+      "id": "cognitive-approach-q12",
+      "question": "A person hears a song and it triggers a vivid childhood memory. Which cognitive process is responsible for this phenomenon?",
+      "options": [
+        "Retrieval cue",
+        "Encoding specificity",
+        "Semantic memory",
+        "Procedural memory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A retrieval cue is a stimulus that helps access information stored in long-term memory, such as a song triggering a specific memory."
     },
     {
       "id": "cognitive-approach-q13",
-      "question": "What is one criticism of the cognitive approach in psychology?",
+      "question": "What is one limitation of the cognitive approach in explaining human behavior?",
       "options": [
-        "It relies too heavily on subjective interpretations",
-        "It ignores the influence of cultural factors",
-        "It underestimates the role of emotions",
-        "It focuses too much on observable behavior"
+        "It often overlooks emotional and social factors.",
+        "It ignores the role of unconscious processes.",
+        "It lacks scientific rigor and empirical support.",
+        "It only focuses on observable behaviors."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The cognitive approach has been criticized for underestimating the role of emotions in influencing cognitive processes."
+      "explanation": "A limitation of the cognitive approach is that it may overlook the influence of emotions and social context on cognitive processes."
     },
     {
       "id": "cognitive-approach-q14",
-      "question": "How does the cognitive approach differ from the behaviorist approach?",
+      "question": "How does the cognitive approach compare with the behaviorist approach in terms of research methods?",
       "options": [
-        "It focuses more on mental processes than observable behavior",
-        "It emphasizes the role of the environment in shaping behavior",
-        "It relies on genetic explanations for behavior",
-        "It considers unconscious motives as primary drivers of behavior"
+        "The cognitive approach relies more on controlled experiments and cognitive models.",
+        "The cognitive approach focuses solely on naturalistic observation.",
+        "The behaviorist approach uses introspective methods.",
+        "The behaviorist approach emphasizes qualitative data over quantitative data."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Unlike the behaviorist approach, which focuses on observable behavior, the cognitive approach emphasizes internal mental processes."
+      "explanation": "The cognitive approach often uses controlled experiments and cognitive models to study mental processes, whereas the behaviorist approach focuses on observable behavior."
     },
     {
       "id": "cognitive-approach-q15",
-      "question": "What is a limitation of using computer models to explain human cognition?",
+      "question": "Which of the following is a strength of the cognitive approach in psychology?",
       "options": [
-        "They cannot account for the influence of emotions",
-        "They are too simplistic in explaining behavior",
-        "They overlook the impact of reinforcement",
-        "They are based on outdated technology"
+        "It integrates scientific methods with the study of mental processes.",
+        "It provides a comprehensive understanding of unconscious motivations.",
+        "It focuses exclusively on environmental determinants of behavior.",
+        "It emphasizes introspection as a primary research method."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Computer models are limited in explaining human cognition because they often fail to account for the influence of emotions on mental processes."
+      "explanation": "A strength of the cognitive approach is its integration of scientific methods to study mental processes, enhancing the reliability and validity of its findings."
     }
   ]
 }

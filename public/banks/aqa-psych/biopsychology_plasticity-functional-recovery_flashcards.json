@@ -5,106 +5,106 @@
   "subTopic": "plasticity-functional-recovery",
   "subTopicTitle": "Plasticity and functional recovery",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:33:15.623Z",
+  "generatedAt": "2025-12-07T18:30:03.105Z",
   "items": [
     {
       "question": "What is brain plasticity?",
-      "answer": "Brain plasticity is the brain's ability to change and adapt as a result of experience, learning, or injury.",
+      "answer": "Brain plasticity refers to the brain's ability to change and adapt as a result of experience and learning.",
       "ao": "AO1"
     },
     {
       "question": "Define functional recovery.",
-      "answer": "Functional recovery is the brain's ability to redistribute or transfer functions from damaged areas to undamaged areas after trauma.",
+      "answer": "Functional recovery is the brain's ability to recover and compensate for lost functions after brain damage.",
       "ao": "AO1"
     },
     {
-      "question": "What did Maguire et al. (2000) find about taxi drivers' brains?",
-      "answer": "Maguire et al. found that London taxi drivers had a larger posterior hippocampus, suggesting that spatial navigation experiences can lead to structural brain changes.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Hubel and Wiesel (1963) discover in their study?",
-      "answer": "Hubel and Wiesel found that sewing one eye shut in kittens led to changes in the brain's structure, demonstrating neural plasticity.",
+      "question": "What did Maguire et al. (2000) find about taxi drivers?",
+      "answer": "Maguire et al. (2000) found that London taxi drivers had a larger posterior hippocampus, associated with navigational skills, compared to non-taxi drivers.",
       "ao": "AO1"
     },
     {
       "question": "What is synaptic pruning?",
-      "answer": "Synaptic pruning is the process where weaker synaptic connections are eliminated and stronger connections are strengthened, enhancing brain efficiency.",
+      "answer": "Synaptic pruning is the process where extra neurons and synaptic connections are eliminated to increase the efficiency of neuronal transmissions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Draganski et al. (2006) find about medical students?",
+      "answer": "Draganski et al. (2006) found increased grey matter in the brains of medical students after exams, indicating learning-induced plasticity.",
       "ao": "AO1"
     },
     {
       "question": "Define neural regeneration.",
-      "answer": "Neural regeneration refers to the growth of new neurons and connections after brain injury or damage.",
+      "answer": "Neural regeneration involves the regrowth of damaged neurons or the formation of new neurons to replace damaged ones.",
       "ao": "AO1"
     },
     {
-      "question": "What did Draganski et al. (2006) find about juggling?",
-      "answer": "Draganski et al. found that learning to juggle increased grey matter in brain areas involved in visual and motor activity, illustrating plasticity.",
+      "question": "What did Boyke et al. (2008) find about older adults?",
+      "answer": "Boyke et al. (2008) found that learning to juggle increased grey matter in older adults, demonstrating plasticity in aging brains.",
       "ao": "AO1"
     },
     {
-      "question": "What is cortical remapping?",
-      "answer": "Cortical remapping is the process where brain functions are reorganized to different areas after damage.",
+      "question": "What role do stem cells play in functional recovery?",
+      "answer": "Stem cells can differentiate into various cell types, potentially replacing damaged neurons and aiding functional recovery.",
       "ao": "AO1"
     },
     {
-      "question": "What did Kempermann et al. (1998) find in enriched environments?",
-      "answer": "Kempermann et al. found that rats in enriched environments developed more new neurons in the hippocampus than those in standard conditions.",
+      "question": "What did Kuhn et al. (2014) find about video games?",
+      "answer": "Kuhn et al. (2014) found that playing video games can increase grey matter in brain regions involved in spatial navigation, strategic planning, and working memory.",
       "ao": "AO1"
     },
     {
-      "question": "Define axonal sprouting.",
-      "answer": "Axonal sprouting is the growth of new nerve endings that connect with other undamaged neurons to form new pathways after injury.",
+      "question": "Define cortical remapping.",
+      "answer": "Cortical remapping is the brain's ability to reassign functions to different brain areas after injury.",
       "ao": "AO1"
     },
     {
-      "question": "What did Elbert et al. (1995) find about musicians?",
-      "answer": "Elbert et al. found that musicians had greater cortical representation for the fingers of their left hand, indicating motor plasticity.",
+      "question": "What is the role of rehabilitation in functional recovery?",
+      "answer": "Rehabilitation involves therapies and exercises designed to stimulate affected areas of the brain and promote functional recovery after injury.",
       "ao": "AO1"
     },
     {
-      "question": "What did Tajiri et al. (2013) find about stem cells in rodents?",
-      "answer": "Tajiri et al. found that stem cell transplants in rats enhanced recovery after brain injury, showing potential for functional recovery.",
+      "question": "What did Taub and Berman (1968) find about monkeys?",
+      "answer": "Taub and Berman (1968) found that monkeys with sensory nerve damage could still regain some motor control, suggesting compensatory mechanisms.",
       "ao": "AO1"
     },
     {
-      "question": "How does brain plasticity apply to stroke recovery?",
-      "answer": "After a stroke, undamaged areas of the brain can adapt and compensate for damaged areas, aiding recovery through plasticity.",
+      "question": "How does brain plasticity apply to learning new skills?",
+      "answer": "Brain plasticity allows for changes in neural pathways and synapses, facilitating the learning and mastering of new skills.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of plasticity to learning a new skill.",
-      "answer": "Learning a new skill, like playing piano, can induce plastic changes in the brain's motor cortex, enhancing synaptic connections.",
+      "question": "Apply functional recovery to this scenario: A patient regains speech after a stroke.",
+      "answer": "The patient's brain has engaged in functional recovery, potentially through cortical remapping or the activation of secondary language areas.",
       "ao": "AO2"
     },
     {
-      "question": "How does functional recovery apply to traumatic brain injury?",
-      "answer": "After a traumatic brain injury, functional recovery allows the brain to compensate by reorganizing functions to undamaged regions, aiding rehabilitation.",
+      "question": "How does synaptic pruning apply to adolescent brain development?",
+      "answer": "During adolescence, synaptic pruning eliminates weaker synaptic connections, enhancing the efficiency of neural networks involved in complex cognitive tasks.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of synaptic pruning to adolescence.",
-      "answer": "During adolescence, synaptic pruning occurs, where unnecessary neural connections are eliminated, refining brain structure for more efficient functioning.",
+      "question": "Apply the concept of neural regeneration to spinal cord injuries.",
+      "answer": "Neural regeneration aims to repair or replace damaged neurons in the spinal cord, potentially restoring some lost motor functions.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of research into brain plasticity.",
-      "answer": "Research into brain plasticity has practical applications, such as improving rehabilitation techniques for patients recovering from brain injuries.",
+      "question": "Give one strength of research on brain plasticity.",
+      "answer": "A strength is its real-world application, such as improving rehabilitation strategies for stroke patients to enhance recovery outcomes.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of plasticity research.",
-      "answer": "A limitation is that much plasticity research relies on animal studies, which may not fully generalize to humans due to species differences.",
+      "question": "Give one limitation of functional recovery research.",
+      "answer": "A limitation is the variability in recovery among individuals, making it difficult to predict outcomes and standardize treatment protocols.",
       "ao": "AO3"
     },
     {
       "question": "Evaluate the methodology of Maguire et al. (2000).",
-      "answer": "Maguire et al. used MRI scans providing objective and reliable data, but the study's correlational nature means causation cannot be inferred.",
+      "answer": "Maguire et al. used a natural experiment design, which limits causal conclusions, but provides high ecological validity by studying real-life taxi drivers.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodological approach of Hubel and Wiesel's study.",
-      "answer": "Hubel and Wiesel's study was pioneering, showing plasticity, but ethical concerns arise due to the invasive procedures on animals.",
+      "question": "Evaluate the methodology of Draganski et al. (2006).",
+      "answer": "Draganski et al. employed MRI scans, providing robust and objective measures of brain structure changes, but the study lacked control over extraneous variables.",
       "ao": "AO3"
     }
   ]

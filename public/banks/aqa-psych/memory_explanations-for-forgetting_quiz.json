@@ -5,202 +5,202 @@
   "subTopic": "explanations-for-forgetting",
   "subTopicTitle": "Explanations for forgetting",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:15:15.302Z",
+  "generatedAt": "2025-12-07T18:12:51.561Z",
   "items": [
     {
       "id": "explanations-for-forgetting-q1",
-      "question": "What is the main concept behind the interference theory of forgetting?",
+      "question": "Which of the following is explained by the interference theory of forgetting?",
       "options": [
-        "Forgetting occurs because memories compete with one another.",
-        "Forgetting happens due to decay over time.",
-        "Forgetting is due to displacement from the short-term memory.",
-        "Forgetting results from the lack of retrieval cues."
+        "Forgetting occurs because new information disrupts the recall of older information.",
+        "Forgetting occurs because information decays over time.",
+        "Forgetting occurs due to a lack of retrieval cues.",
+        "Forgetting occurs because information is never encoded in the first place."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Interference theory suggests that forgetting occurs when memories interfere with one another, particularly when they are similar."
+      "explanation": "Interference theory suggests forgetting happens when new information interferes with the retrieval of old information."
     },
     {
       "id": "explanations-for-forgetting-q2",
-      "question": "Which study is most associated with the concept of retroactive interference?",
+      "question": "According to Tulving and Thomson (1973), which type of forgetting is due to the absence of appropriate cues?",
       "options": [
-        "Müller and Pilzecker (1900)",
-        "Tulving and Psotka (1971)",
-        "Peterson and Peterson (1959)",
-        "Baddeley and Hitch (1977)"
+        "Cue-dependent forgetting",
+        "Trace decay forgetting",
+        "Motivated forgetting",
+        "Proactive interference"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Müller and Pilzecker's study is linked to retroactive interference, demonstrating how new learning can interfere with the recall of previously learned information."
+      "explanation": "Tulving and Thomson's cue-dependent forgetting theory posits that memory failure is due to the absence of appropriate retrieval cues."
     },
     {
       "id": "explanations-for-forgetting-q3",
-      "question": "What is a key finding from the Godden and Baddeley (1975) study on context-dependent forgetting?",
+      "question": "What is the key assumption of retrieval failure theory?",
       "options": [
-        "Recall was better when learning and recall environments matched.",
-        "Recall was unaffected by environmental context.",
-        "Recall was better when learning occurred underwater.",
-        "Recall was better for words learned in a quiet environment."
+        "Forgetting is due to the absence of cues needed to access stored information.",
+        "Forgetting occurs because information is overwritten by new information.",
+        "Forgetting happens because information simply decays over time.",
+        "Forgetting is a result of intentional repression of memories."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Godden and Baddeley found that recall was better when the learning and recall environments matched, demonstrating context-dependent forgetting."
+      "explanation": "Retrieval failure theory suggests that forgetting occurs when there are insufficient cues to retrieve information from memory."
     },
     {
       "id": "explanations-for-forgetting-q4",
-      "question": "Which of the following is an example of proactive interference?",
+      "question": "In Baddeley and Hitch's (1977) study on rugby players, what was found to be the main cause of forgetting?",
       "options": [
-        "An old phone number interfering with the recall of a new one.",
-        "A new address making it difficult to remember an old one.",
-        "Memorizing a new language disrupts the recall of another language.",
-        "Forgetting due to lack of rehearsal."
+        "Interference from games played in between",
+        "Decay of memory over time",
+        "Lack of rehearsal of game details",
+        "Damage to the hippocampus"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Proactive interference occurs when older information interferes with the recall of newer information, such as an old phone number interfering with the recall of a new one."
+      "explanation": "Their study showed that forgetting was more related to the number of games played (interference) than the time elapsed since the games."
     },
     {
       "id": "explanations-for-forgetting-q5",
-      "question": "What is a retrieval cue?",
+      "question": "What did Godden and Baddeley's (1975) study with divers demonstrate about context-dependent forgetting?",
       "options": [
-        "A prompt that helps access information stored in long-term memory.",
-        "A method of organizing information in short-term memory.",
-        "A process of encoding information deeply.",
-        "A mechanism for rehearsing information to prevent decay."
+        "Memory is better when the learning and recall environments match.",
+        "Memory is unaffected by changes in physical context.",
+        "Memory is better when information is rehearsed.",
+        "Memory is unaffected by the emotional state of the learner."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A retrieval cue is a prompt or signal that can help trigger the recall of information stored in long-term memory."
+      "explanation": "Their study found that divers recalled information better when tested in the same environment in which they learned the information."
     },
     {
       "id": "explanations-for-forgetting-q6",
-      "question": "Which of the following is NOT a type of interference?",
+      "question": "According to the decay theory of forgetting, what happens to memory traces over time?",
       "options": [
-        "Associative interference",
-        "Proactive interference",
-        "Retroactive interference",
-        "Modal interference"
+        "Memory traces fade away due to disuse.",
+        "Memory traces become distorted over time.",
+        "Memory traces are erased by new information.",
+        "Memory traces are inaccessible due to a lack of cues."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Modal interference is not recognized as a type of interference in memory; proactive and retroactive are the main types."
+      "explanation": "Decay theory posits that memory traces weaken and fade over time if they are not actively used."
     },
     {
       "id": "explanations-for-forgetting-q7",
-      "question": "What did Tulving and Psotka (1971) demonstrate about retrieval cues?",
-      "options": [
-        "Retrieval cues can greatly reduce forgetting.",
-        "Retrieval cues have no effect on memory recall.",
-        "Retrieval cues only work in short-term memory.",
-        "Retrieval cues are more effective than rehearsal."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Tulving and Psotka demonstrated that the presence of retrieval cues significantly reduces forgetting, indicating their importance in accessing stored information."
-    },
-    {
-      "id": "explanations-for-forgetting-q8",
-      "question": "How does the encoding specificity principle explain forgetting?",
-      "options": [
-        "Forgetting occurs when the initial encoding context is not recreated.",
-        "Forgetting is due to decay over time.",
-        "Forgetting is caused by interference from similar memories.",
-        "Forgetting results from the displacement of information."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The encoding specificity principle suggests that memory is more easily retrieved when the context at retrieval matches the context during encoding."
-    },
-    {
-      "id": "explanations-for-forgetting-q9",
-      "question": "Who proposed the idea of state-dependent forgetting?",
-      "options": [
-        "Tulving (1975)",
-        "Godden and Baddeley (1975)",
-        "Carter and Cassaday (1998)",
-        "Müller and Pilzecker (1900)"
-      ],
-      "correctAnswer": 2,
-      "ao": "AO1",
-      "explanation": "Carter and Cassaday proposed state-dependent forgetting, where recall is improved if the individual's internal state at retrieval matches the state during encoding."
-    },
-    {
-      "id": "explanations-for-forgetting-q10",
-      "question": "Anna studied for her exam in a quiet library. If she takes her exam in a noisy hall, what might she experience according to context-dependent forgetting?",
-      "options": [
-        "She may forget more due to the change in environment.",
-        "She will remember more due to the change in environment.",
-        "Her recall will be unaffected by the environment.",
-        "She will remember more due to increased stress."
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "Context-dependent forgetting suggests that a change in environment, such as moving from a quiet library to a noisy hall, can impair recall."
-    },
-    {
-      "id": "explanations-for-forgetting-q11",
-      "question": "During a psychology test, John could not remember a theory he studied. Later, in the same room where he learned it, he recalled it. What does this scenario illustrate?",
-      "options": [
-        "Context-dependent memory",
-        "State-dependent memory",
-        "Proactive interference",
-        "Retroactive interference"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "This scenario illustrates context-dependent memory, where recall is improved when the context during retrieval matches the context during learning."
-    },
-    {
-      "id": "explanations-for-forgetting-q12",
-      "question": "Sarah struggles to learn Spanish vocabulary because she frequently confuses it with French words she learned earlier. Which type of interference is this?",
+      "question": "Which type of interference occurs when old information hinders the recall of newly learned information?",
       "options": [
         "Proactive interference",
         "Retroactive interference",
-        "Associative interference",
-        "Modal interference"
+        "Cue-dependent interference",
+        "Trace decay interference"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Proactive interference happens when older memories interfere with the retrieval of more recently learned information."
+    },
+    {
+      "id": "explanations-for-forgetting-q8",
+      "question": "Which study by Loftus and Palmer (1974) investigated the effect of leading questions on memory recall?",
+      "options": [
+        "The study of car crash videos and differing speed estimates",
+        "The study of eyewitness testimony and weapon focus",
+        "The study of children's memory and misleading information",
+        "The study of context dependency and recall in divers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Loftus and Palmer's study showed how leading questions could distort eyewitness testimony."
+    },
+    {
+      "id": "explanations-for-forgetting-q9",
+      "question": "Underwood (1957) is associated with which concept in memory research?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "State-dependent forgetting",
+        "Cue-dependent forgetting"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Underwood's research highlighted proactive interference, where prior learning affects the recall of new information."
+    },
+    {
+      "id": "explanations-for-forgetting-q10",
+      "question": "Sophie studied French before learning Spanish. She often uses French words in her Spanish exams. What type of interference is she experiencing?",
+      "options": [
+        "Proactive interference",
+        "Retroactive interference",
+        "Context-dependent forgetting",
+        "Decay"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Sarah's difficulty is due to proactive interference, where previously learned French words interfere with learning new Spanish vocabulary."
+      "explanation": "Sophie's prior knowledge of French is interfering with her ability to recall Spanish, illustrating proactive interference."
+    },
+    {
+      "id": "explanations-for-forgetting-q11",
+      "question": "During a biology exam, Tim can't remember a specific term until he hears a classmate mention a related topic. What type of forgetting has Tim experienced?",
+      "options": [
+        "Retrieval failure due to lack of cues",
+        "Proactive interference",
+        "Retroactive interference",
+        "Decay"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Tim's inability to recall the term until given a related cue suggests retrieval failure due to a lack of appropriate retrieval cues."
+    },
+    {
+      "id": "explanations-for-forgetting-q12",
+      "question": "Emily studied for her psychology test in the library but took the test in class. She struggled to recall information. What type of forgetting might this exemplify?",
+      "options": [
+        "Context-dependent forgetting",
+        "State-dependent forgetting",
+        "Trace decay",
+        "Proactive interference"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Emily's difficulty recalling information due to the change in environment suggests context-dependent forgetting."
     },
     {
       "id": "explanations-for-forgetting-q13",
-      "question": "What is a limitation of the interference theory of forgetting?",
+      "question": "What is a main criticism of the interference theory of forgetting?",
       "options": [
-        "It does not account for forgetting in real-life settings as well as laboratory settings.",
-        "It suggests that all memories are forgotten at the same rate.",
-        "It only explains forgetting in the short-term memory.",
-        "It assumes that memory decay is the main cause of forgetting."
+        "It doesn't explain forgetting in real-life settings as well as in laboratory settings.",
+        "It overemphasizes the role of physiological processes in memory.",
+        "It cannot account for the influence of external retrieval cues.",
+        "It assumes that forgetting is primarily due to decay over time."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Interference theory is often criticized for its limited applicability to real-life settings, as much of the supporting research is conducted in controlled laboratory environments."
+      "explanation": "Interference theory is often criticized for explaining forgetting better in artificial lab settings than in complex real-world situations."
     },
     {
       "id": "explanations-for-forgetting-q14",
-      "question": "How does the encoding specificity principle provide a more comprehensive explanation for forgetting compared to interference theory?",
+      "question": "Which criticism is commonly made about Tulving and Thomson's cue-dependent forgetting theory?",
       "options": [
-        "It considers both context and retrieval cues in memory recall.",
-        "It only focuses on the decay of memory traces over time.",
-        "It is solely concerned with the effects of interference.",
-        "It suggests that interference is the only cause of forgetting."
+        "It cannot easily be tested in a laboratory setting.",
+        "It ignores the role of interference in forgetting.",
+        "It assumes all forgetting is due to the decay of memory traces.",
+        "It relies heavily on the concept of repression."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO3",
-      "explanation": "The encoding specificity principle offers a more comprehensive explanation by considering the importance of context and retrieval cues, beyond interference alone."
+      "explanation": "A criticism of cue-dependent forgetting is that it overlooks the role of interference as a cause of forgetting."
     },
     {
       "id": "explanations-for-forgetting-q15",
-      "question": "What is a methodological criticism of the studies supporting context-dependent forgetting?",
+      "question": "Which of the following is a limitation of decay theory?",
       "options": [
-        "They often lack ecological validity due to artificial settings.",
-        "They fail to control for individual differences in memory capacity.",
-        "They rely too heavily on qualitative data.",
-        "They often involve unethical manipulation of participants' environments."
+        "It cannot explain forgetting of information that is frequently rehearsed.",
+        "It overestimates the role of external cues in memory retrieval.",
+        "It fails to account for proactive interference.",
+        "It assumes forgetting is primarily due to retrieval failure."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Studies on context-dependent forgetting are frequently criticized for lacking ecological validity, as they often use artificial environments that may not reflect real-world conditions."
+      "explanation": "Decay theory is limited as it cannot account for forgetting of information that is regularly rehearsed and actively used."
     }
   ]
 }

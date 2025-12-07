@@ -5,106 +5,106 @@
   "subTopic": "endocrine-system",
   "subTopicTitle": "The endocrine system",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:31:04.498Z",
+  "generatedAt": "2025-12-07T18:29:17.351Z",
   "items": [
     {
       "question": "What is the endocrine system?",
-      "answer": "A network of glands that secrete hormones to regulate bodily functions, including growth, metabolism, and mood.",
+      "answer": "The endocrine system is a network of glands that secrete hormones into the bloodstream to regulate bodily functions.",
       "ao": "AO1"
     },
     {
-      "question": "Define hormones.",
-      "answer": "Chemical messengers released by glands into the bloodstream to target organs and tissues.",
+      "question": "Define 'hormone'.",
+      "answer": "Hormones are chemical messengers secreted by endocrine glands that travel through the bloodstream to target organs.",
       "ao": "AO1"
     },
     {
-      "question": "What is the function of the pituitary gland?",
-      "answer": "Known as the 'master gland,' it releases hormones that regulate other glands in the endocrine system.",
+      "question": "What is the role of the pituitary gland?",
+      "answer": "The pituitary gland, often called the 'master gland', controls other endocrine glands and regulates growth, metabolism, and reproductive processes.",
       "ao": "AO1"
     },
     {
-      "question": "What did Selye (1936) find about stress and the endocrine system?",
-      "answer": "Selye found that stress activates the hypothalamic-pituitary-adrenal (HPA) axis, leading to cortisol release.",
+      "question": "Define 'adrenaline' and its function.",
+      "answer": "Adrenaline is a hormone released by the adrenal glands that prepares the body for 'fight or flight' by increasing heart rate and energy availability.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'adrenaline'.",
-      "answer": "A hormone secreted by the adrenal glands, crucial in the fight or flight response by increasing heart rate and energy availability.",
+      "question": "What did Selye (1936) find about stress response?",
+      "answer": "Selye (1936) found that stress triggers a general adaptation syndrome, involving alarm, resistance, and exhaustion stages mediated by hormonal changes.",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of the thyroid gland?",
-      "answer": "The thyroid gland regulates metabolism by releasing hormones such as thyroxine.",
+      "question": "What is the function of cortisol?",
+      "answer": "Cortisol, a hormone released by the adrenal cortex, helps regulate metabolism, reduce inflammation, and assist with memory formulation.",
       "ao": "AO1"
     },
     {
-      "question": "What is the pineal gland responsible for?",
-      "answer": "The pineal gland secretes melatonin, which regulates sleep-wake cycles.",
+      "question": "Define 'negative feedback' in the endocrine system.",
+      "answer": "Negative feedback is a mechanism where increased output of a hormone inhibits its further release, maintaining homeostasis.",
       "ao": "AO1"
     },
     {
-      "question": "What did Taylor et al. (2000) find about gender differences in stress responses?",
-      "answer": "Taylor et al. found that females are more likely to exhibit a 'tend and befriend' response due to oxytocin.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define the term 'negative feedback' in the endocrine system.",
-      "answer": "A self-regulating mechanism where hormone release is reduced when levels return to normal.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is the role of insulin in the body?",
+      "question": "What is the function of insulin?",
       "answer": "Insulin, produced by the pancreas, regulates blood glucose levels by facilitating cellular glucose uptake.",
       "ao": "AO1"
     },
     {
-      "question": "What did Cannon (1932) contribute to understanding stress?",
-      "answer": "Cannon coined 'fight or flight response,' highlighting adrenaline's role in immediate stress reactions.",
+      "question": "What did Taylor et al. (2000) propose about stress response?",
+      "answer": "Taylor et al. (2000) proposed the 'tend and befriend' response, suggesting females may respond to stress with nurturing activities and forming alliances.",
       "ao": "AO1"
     },
     {
-      "question": "What is the hypothalamus's role in the endocrine system?",
-      "answer": "The hypothalamus links the nervous system to the endocrine system, controlling the pituitary gland.",
+      "question": "What is the role of the thyroid gland?",
+      "answer": "The thyroid gland produces hormones like thyroxine that regulate metabolism, energy levels, and growth.",
       "ao": "AO1"
     },
     {
-      "question": "How does adrenaline apply to emergency situations?",
-      "answer": "Adrenaline increases heart rate and energy, enabling individuals to respond quickly to threats.",
+      "question": "Define 'oxytocin' and its primary functions.",
+      "answer": "Oxytocin is a hormone involved in childbirth, lactation, and social bonding, often called the 'love hormone'.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the function of the hypothalamus in the endocrine system?",
+      "answer": "The hypothalamus links the nervous system to the endocrine system via the pituitary gland, regulating body temperature, hunger, and circadian rhythms.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the fight or flight response apply to sudden danger?",
+      "answer": "In sudden danger, adrenaline is released, increasing heart rate and energy, preparing the body to either confront or flee the threat.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of negative feedback to thyroid hormone regulation.",
-      "answer": "Increased thyroxine inhibits TSH release from the pituitary, reducing thyroid activity and maintaining balance.",
+      "question": "Apply the concept of 'negative feedback' to blood sugar regulation.",
+      "answer": "When blood sugar rises, insulin is secreted to lower it. Once normal, insulin secretion reduces, demonstrating negative feedback.",
       "ao": "AO2"
     },
     {
-      "question": "How does cortisol apply to chronic stress scenarios?",
-      "answer": "Prolonged stress causes continuous cortisol release, affecting immune function and increasing health risks.",
+      "question": "How does oxytocin apply to social bonding scenarios?",
+      "answer": "In social bonding, oxytocin enhances trust and emotional connections, promoting group cohesion and cooperation.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the role of insulin to a person with diabetes.",
-      "answer": "In diabetes, insulin dysfunction leads to poor glucose regulation, requiring external insulin or lifestyle changes.",
+      "question": "Apply cortisol function to stress management during exams.",
+      "answer": "Cortisol increases glucose availability for heightened awareness and energy during exams, but prolonged elevation can impair concentration.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of the endocrine system's response to stress.",
-      "answer": "The endocrine system's stress response is adaptive, preparing the body for immediate action and survival.",
+      "question": "Give one strength of using hormones to understand behavior.",
+      "answer": "Hormonal studies provide a biological basis for behaviors, offering objective, measurable data that enhance understanding of physiological processes.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of using animal studies in endocrine research.",
-      "answer": "Animal studies may lack generalizability due to physiological differences between animals and humans.",
+      "question": "Give one limitation of the endocrine system research.",
+      "answer": "Endocrine research often lacks ecological validity as lab conditions may not reflect real-world hormonal responses and interactions.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Selye's (1936) research on stress.",
-      "answer": "Selye's research was pioneering but criticized for lack of specificity and over-reliance on animal models.",
+      "question": "Evaluate the methodology of Selye's (1936) research.",
+      "answer": "Selye's research used animal models, which may not fully generalize to humans, though it provided foundational insights into stress physiology.",
       "ao": "AO3"
     },
     {
-      "question": "Give one strength of using hormone assays in research.",
-      "answer": "Hormone assays provide objective, quantifiable data, enhancing reliability and validity of findings.",
+      "question": "Evaluate the 'tend and befriend' theory by Taylor et al. (2000).",
+      "answer": "The theory highlights gender differences in stress response, supported by evolutionary context, but may oversimplify complex hormonal interactions.",
       "ao": "AO3"
     }
   ]

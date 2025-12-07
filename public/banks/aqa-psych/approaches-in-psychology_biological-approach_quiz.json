@@ -5,202 +5,202 @@
   "subTopic": "biological-approach",
   "subTopicTitle": "Biological approach",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:28:11.768Z",
+  "generatedAt": "2025-12-07T18:16:21.646Z",
   "items": [
     {
       "id": "biological-approach-q1",
-      "question": "What is the main focus of the biological approach in psychology?",
+      "question": "Which of the following is a key assumption of the biological approach in psychology?",
       "options": [
-        "Examining the influence of genetics and physiology on behavior",
-        "Understanding the role of unconscious processes in behavior",
-        "Analyzing the impact of environmental factors on learning",
-        "Exploring the influence of social interactions on behavior"
+        "Behavior is influenced by genetic inheritance and biological processes.",
+        "Behavior is primarily shaped by environmental factors and learning.",
+        "Human behavior can be understood by analyzing conscious thoughts.",
+        "Behavior is determined by unconscious desires and conflicts."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The biological approach emphasizes the role of biological processes and structures, such as genetics and the brain, in influencing behavior."
+      "explanation": "The biological approach emphasizes the role of genetics and biological processes in shaping behavior."
     },
     {
       "id": "biological-approach-q2",
-      "question": "Which technique is commonly used in the biological approach to study brain activity?",
+      "question": "What is the primary focus of the study conducted by Broca in 1861?",
       "options": [
-        "Functional Magnetic Resonance Imaging (fMRI)",
-        "Classical Conditioning",
-        "Self-report questionnaires",
-        "Observational methods"
+        "The role of the frontal lobe in speech production.",
+        "The role of the occipital lobe in visual processing.",
+        "The function of the hippocampus in memory formation.",
+        "The function of the amygdala in emotional regulation."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "fMRI is a neuroimaging procedure used to measure and map brain activity by detecting changes in blood flow."
+      "explanation": "Broca's study focused on the frontal lobe's role in speech production, identified through observations of patients with speech impairments."
     },
     {
       "id": "biological-approach-q3",
-      "question": "Who conducted a famous study on the genetic basis of intelligence in twins?",
+      "question": "Which neurotransmitter is commonly associated with mood regulation?",
       "options": [
-        "Bouchard et al. (1990)",
-        "Bandura et al. (1961)",
-        "Milgram (1963)",
-        "Asch (1951)"
+        "Serotonin",
+        "Dopamine",
+        "Acetylcholine",
+        "GABA"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bouchard et al. (1990) conducted the Minnesota Twin Study, which examined the genetic influence on intelligence."
+      "explanation": "Serotonin is a neurotransmitter that is well-known for its role in mood regulation and is often linked to depression."
     },
     {
       "id": "biological-approach-q4",
-      "question": "According to the biological approach, how are neurotransmitters linked to behavior?",
+      "question": "What is the function of the corpus callosum in the brain?",
       "options": [
-        "They transmit signals across synapses, affecting mood and behavior",
-        "They are released in response to environmental stimuli",
-        "They are involved in the storage of long-term memories",
-        "They influence behavior by altering genetic expression"
+        "To connect the two hemispheres and facilitate interhemispheric communication.",
+        "To regulate autonomic functions such as heart rate and digestion.",
+        "To process visual information received from the eyes.",
+        "To control voluntary movements in the body."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Neurotransmitters are chemicals that transmit signals across synapses and can influence mood, arousal, and behavior."
+      "explanation": "The corpus callosum is a bundle of nerve fibers that connects the left and right hemispheres of the brain, allowing communication between them."
     },
     {
       "id": "biological-approach-q5",
-      "question": "Which of the following is a key assumption of the biological approach?",
+      "question": "Which brain imaging technique uses magnetic fields and radio waves to produce images of the brain?",
       "options": [
-        "Behavior is inherited and influenced by genetic factors",
-        "Behavior is primarily learned through conditioning",
-        "Behavior is shaped by unconscious conflicts",
-        "Behavior is determined by cognitive processes"
+        "MRI (Magnetic Resonance Imaging)",
+        "EEG (Electroencephalogram)",
+        "CT (Computed Tomography)",
+        "PET (Positron Emission Tomography)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A key assumption of the biological approach is that behavior has a genetic basis and can be inherited."
+      "explanation": "MRI uses magnetic fields and radio waves to create detailed images of the brain, offering insights into its structure."
     },
     {
       "id": "biological-approach-q6",
-      "question": "Which brain structure is primarily associated with the regulation of emotions according to the biological approach?",
+      "question": "What did Roger Sperry's split-brain research in the 1960s reveal about brain function?",
       "options": [
-        "The amygdala",
-        "The hippocampus",
-        "The cerebellum",
-        "The medulla oblongata"
+        "The two hemispheres have specialized functions that can operate independently.",
+        "All brain functions are equally distributed across both hemispheres.",
+        "The left hemisphere is solely responsible for all cognitive functions.",
+        "The right hemisphere is solely responsible for language processing."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The amygdala is involved in processing emotions such as fear and pleasure."
+      "explanation": "Sperry's research showed that each hemisphere has specialized functions, and they can operate independently when the corpus callosum is severed."
     },
     {
       "id": "biological-approach-q7",
-      "question": "What is the role of the genotype in the biological approach?",
+      "question": "Which of the following is an example of a genotype?",
       "options": [
-        "It is the genetic makeup of an individual that influences their potential characteristics",
-        "It is the observable characteristics resulting from genetic and environmental influences",
-        "It refers to learned behaviors acquired through experience",
-        "It is the set of cultural norms that guide behavior"
+        "The genetic makeup of an individual for a specific trait, such as eye color.",
+        "The observable characteristics of an individual, such as height.",
+        "The influence of environmental factors on behavior.",
+        "The role of the frontal lobe in decision making."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The genotype is an individual's genetic makeup, influencing potential characteristics and traits."
+      "explanation": "A genotype refers to the genetic constitution of an individual organism, especially regarding specific traits."
     },
     {
       "id": "biological-approach-q8",
-      "question": "Which study by Raine et al. (1997) investigated the brains of violent offenders?",
+      "question": "Which hormone is primarily released during the fight-or-flight response?",
       "options": [
-        "PET scans of murderers pleading NGRI",
-        "Observational study of aggression in prisons",
-        "Longitudinal study of criminal behavior",
-        "Survey on childhood experiences of offenders"
+        "Adrenaline",
+        "Insulin",
+        "Melatonin",
+        "Thyroxine"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Raine et al. (1997) used PET scans to study the brain activity of murderers pleading Not Guilty by Reason of Insanity (NGRI)."
+      "explanation": "Adrenaline, also known as epinephrine, is released during the fight-or-flight response, preparing the body for rapid action."
     },
     {
       "id": "biological-approach-q9",
-      "question": "Which hormone is primarily associated with stress response in the biological approach?",
+      "question": "Which area of the brain is primarily associated with the regulation of emotions and memory?",
       "options": [
-        "Cortisol",
-        "Dopamine",
-        "Serotonin",
-        "Oxytocin"
+        "The amygdala",
+        "The cerebellum",
+        "The motor cortex",
+        "The occipital lobe"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Cortisol is a hormone released in response to stress, playing a role in the body's 'fight or flight' response."
+      "explanation": "The amygdala is crucial for processing emotions and is also involved in forming and storing memories linked to emotional events."
     },
     {
       "id": "biological-approach-q10",
-      "question": "A psychologist is studying two siblings, one of whom has a genetic disorder that affects emotional regulation. Which concept from the biological approach is being directly applied?",
+      "question": "A patient with damage to their Broca's area is likely to experience difficulties in which of the following?",
       "options": [
-        "Genetic predisposition",
-        "Neuroplasticity",
-        "Cultural transmission",
-        "Social learning"
+        "Producing coherent speech",
+        "Understanding written language",
+        "Recognizing familiar faces",
+        "Coordinating voluntary movements"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The concept of genetic predisposition is applied, as the focus is on how genetic factors influence emotional regulation."
+      "explanation": "Damage to Broca's area often results in Broca's aphasia, characterized by difficulties in speech production and language expression."
     },
     {
       "id": "biological-approach-q11",
-      "question": "During an experiment, it is found that participants with a specific genetic marker perform better on memory tasks. Which aspect of the biological approach is being tested?",
+      "question": "A person is experiencing intense stress before an exam. Which biological system is primarily responsible for this response?",
       "options": [
-        "Influence of genetics on cognitive abilities",
-        "Impact of social factors on learning",
-        "Role of unconscious processes in memory",
-        "Effect of environmental stressors on cognition"
+        "Sympathetic nervous system",
+        "Parasympathetic nervous system",
+        "Endocrine system",
+        "Central nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The study examines how genetic factors, specifically a genetic marker, influence cognitive abilities such as memory."
+      "explanation": "The sympathetic nervous system activates the body's fight-or-flight response, increasing heart rate and alertness during stressful situations."
     },
     {
       "id": "biological-approach-q12",
-      "question": "A researcher is investigating how brain damage affects personality changes. Which method would be most appropriate?",
+      "question": "A researcher is studying the genetic basis of aggression by comparing identical twins raised apart. What research method are they using?",
       "options": [
-        "Case study",
-        "Naturalistic observation",
-        "Self-report survey",
-        "Field experiment"
+        "Twin studies",
+        "Case studies",
+        "Longitudinal studies",
+        "Cross-sectional studies"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Case studies provide in-depth information about individuals with brain damage, aiding in understanding the impact on personality."
+      "explanation": "Twin studies, particularly those involving identical twins raised apart, are used to assess the genetic and environmental influences on traits like aggression."
     },
     {
       "id": "biological-approach-q13",
-      "question": "One criticism of the biological approach is its reductionism. What does this mean?",
+      "question": "One criticism of the biological approach is that it is often reductionist. What does this mean?",
       "options": [
-        "It simplifies complex behaviors to basic biological components",
-        "It relies too heavily on environmental explanations",
-        "It ignores the role of early childhood experiences",
-        "It overemphasizes the importance of cultural factors"
+        "It simplifies complex behaviors to basic biological components.",
+        "It overemphasizes the role of the environment in behavior.",
+        "It ignores the influence of unconscious processes.",
+        "It places too much emphasis on cultural factors."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Reductionism in the biological approach means reducing complex behaviors to simpler biological components, possibly overlooking other influences."
+      "explanation": "Reductionism in the biological approach refers to explaining complex behaviors by breaking them down into basic biological elements, such as genes and neurotransmitters."
     },
     {
       "id": "biological-approach-q14",
-      "question": "How does the biological approach compare to the cognitive approach in terms of explaining behavior?",
+      "question": "How does the biological approach compare to the cognitive approach in explaining human behavior?",
       "options": [
-        "The biological approach focuses on physiological processes, while the cognitive approach emphasizes mental processes",
-        "Both approaches focus solely on environmental influences",
-        "The cognitive approach ignores biological factors",
-        "The biological approach considers cultural differences more than the cognitive approach"
+        "The biological approach focuses on physical processes, while the cognitive approach focuses on mental processes.",
+        "Both approaches emphasize the role of genetics in shaping behavior.",
+        "The biological approach is more concerned with social influences on behavior.",
+        "The cognitive approach ignores biological factors entirely."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The biological approach emphasizes physiological processes, while the cognitive approach focuses on mental processes such as thinking and memory."
+      "explanation": "The biological approach emphasizes physical and biological processes, while the cognitive approach focuses on mental processes like perception and memory."
     },
     {
       "id": "biological-approach-q15",
-      "question": "In terms of methodological evaluation, what is a major strength of using brain scans in the biological approach?",
+      "question": "Why might the biological approach be criticized for its deterministic view of behavior?",
       "options": [
-        "They provide objective and reliable data about brain structure and activity",
-        "They offer subjective insights into personal experiences",
-        "They are cost-effective and widely available",
-        "They allow for easy manipulation of genetic variables"
+        "It suggests behavior is predetermined by biological factors, limiting free will.",
+        "It neglects the role of unconscious motives in behavior.",
+        "It overstates the influence of cultural and social factors.",
+        "It fails to account for individual learning experiences."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Brain scans provide objective, reliable data on brain structure and activity, enhancing the scientific rigor of the biological approach."
+      "explanation": "The biological approach is often seen as deterministic because it suggests that behavior is largely governed by biological factors, reducing the role of free will."
     }
   ]
 }

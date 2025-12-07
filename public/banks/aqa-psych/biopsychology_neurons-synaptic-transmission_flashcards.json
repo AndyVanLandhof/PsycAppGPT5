@@ -5,106 +5,106 @@
   "subTopic": "neurons-synaptic-transmission",
   "subTopicTitle": "Neurons and synaptic transmission",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:30:18.669Z",
+  "generatedAt": "2025-12-07T18:29:02.480Z",
   "items": [
     {
       "question": "What is a neuron?",
-      "answer": "A neuron is a nerve cell that transmits information throughout the nervous system via electrical and chemical signals.",
+      "answer": "A neuron is a specialized cell that transmits electrical and chemical signals in the nervous system.",
       "ao": "AO1"
     },
     {
-      "question": "Define synaptic transmission.",
-      "answer": "Synaptic transmission is the process by which neurotransmitters are released by one neuron and bind to receptors on another, facilitating neuronal communication.",
+      "question": "Define synapse.",
+      "answer": "A synapse is the junction between two neurons, where neurotransmitters are released to transmit signals.",
       "ao": "AO1"
     },
     {
-      "question": "What is the function of the myelin sheath?",
-      "answer": "The myelin sheath insulates axons, increasing the speed of electrical transmission along the neuron.",
+      "question": "What is synaptic transmission?",
+      "answer": "Synaptic transmission is the process of transferring information from one neuron to another at a synapse.",
       "ao": "AO1"
     },
     {
-      "question": "What did Sherrington (1906) find about synapses?",
-      "answer": "Sherrington discovered the synapse, identifying it as the gap between neurons where chemical communication occurs.",
+      "question": "What did Otto Loewi (1921) discover about neurotransmission?",
+      "answer": "Otto Loewi discovered that neurotransmission involves chemical messengers by demonstrating that acetylcholine could slow heart rate.",
       "ao": "AO1"
     },
     {
       "question": "Define action potential.",
-      "answer": "An action potential is a rapid electrical impulse that travels down the axon, triggered when a neuron reaches a threshold level of depolarization.",
+      "answer": "Action potential is a rapid rise and fall in electrical charge across a neuron's membrane, leading to signal transmission.",
       "ao": "AO1"
     },
     {
-      "question": "What role do neurotransmitters play in synaptic transmission?",
-      "answer": "Neurotransmitters are chemical messengers released from the synaptic vesicles in the presynaptic neuron, crossing the synaptic gap to bind to receptors on the postsynaptic neuron.",
+      "question": "What is the role of neurotransmitters?",
+      "answer": "Neurotransmitters are chemicals that transmit signals across a synapse from one neuron to another.",
       "ao": "AO1"
     },
     {
-      "question": "What is the difference between excitatory and inhibitory neurotransmitters?",
-      "answer": "Excitatory neurotransmitters increase the likelihood of a neuron firing, while inhibitory neurotransmitters decrease this likelihood.",
+      "question": "What is the function of the myelin sheath?",
+      "answer": "The myelin sheath insulates axons, speeding up the transmission of electrical impulses along the neuron.",
       "ao": "AO1"
     },
     {
-      "question": "Define synaptic plasticity.",
-      "answer": "Synaptic plasticity is the ability of synapses to strengthen or weaken over time, in response to increases or decreases in their activity.",
+      "question": "Define reuptake.",
+      "answer": "Reuptake is the process by which neurotransmitters are reabsorbed by the presynaptic neuron after transmission.",
       "ao": "AO1"
     },
     {
-      "question": "What did Hebb (1949) propose about synaptic connections?",
-      "answer": "Hebb proposed that synaptic connections strengthen with repeated activity, summarized by the phrase 'cells that fire together, wire together.'",
+      "question": "What is the function of the axon terminal?",
+      "answer": "The axon terminal releases neurotransmitters into the synapse to transmit signals to the next neuron.",
       "ao": "AO1"
     },
     {
-      "question": "Describe the function of the axon terminal.",
-      "answer": "The axon terminal is the endpoint of a neuron where neurotransmitters are stored and released into the synaptic gap.",
+      "question": "What did Sherrington (1906) find about synapses?",
+      "answer": "Sherrington found that synapses are specialized for chemical transmission, suggesting a delay in signal transmission.",
       "ao": "AO1"
     },
     {
-      "question": "What is reuptake in synaptic transmission?",
-      "answer": "Reuptake is the process by which neurotransmitters are reabsorbed by the presynaptic neuron after transmission across the synaptic gap.",
+      "question": "Define excitatory neurotransmitter.",
+      "answer": "An excitatory neurotransmitter increases the likelihood that the receiving neuron will generate an action potential.",
       "ao": "AO1"
     },
     {
-      "question": "What did Otto Loewi (1921) discover about neurotransmitters?",
-      "answer": "Loewi demonstrated that chemical substances (later identified as neurotransmitters) are involved in nerve signal transmission.",
+      "question": "What is an inhibitory neurotransmitter?",
+      "answer": "An inhibitory neurotransmitter decreases the likelihood of the neuron firing an action potential.",
       "ao": "AO1"
     },
     {
-      "question": "How does synaptic transmission apply to treating depression?",
-      "answer": "Antidepressants, like SSRIs, block the reuptake of serotonin, increasing its availability and enhancing mood.",
+      "question": "Apply synaptic transmission to this scenario: A student is studying and suddenly feels alert after drinking coffee.",
+      "answer": "Caffeine increases the release of excitatory neurotransmitters, such as dopamine, enhancing alertness by increasing synaptic transmission.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of inhibitory neurotransmitters to anxiety disorders.",
-      "answer": "GABA, an inhibitory neurotransmitter, reduces neural activity. Low GABA levels may lead to increased anxiety, suggesting treatments could focus on enhancing GABA activity.",
+      "question": "How does reuptake inhibition apply to antidepressants?",
+      "answer": "Antidepressants like SSRIs inhibit the reuptake of serotonin, increasing its availability in the synapse, improving mood.",
       "ao": "AO2"
     },
     {
-      "question": "How does the myelin sheath apply to multiple sclerosis (MS)?",
-      "answer": "In MS, the immune system damages the myelin sheath, slowing neuronal transmission and causing symptoms like muscle weakness and coordination issues.",
+      "question": "Apply the concept of action potential to a reflex action.",
+      "answer": "In a reflex action, a stimulus triggers action potentials that travel along sensory neurons to the spinal cord, initiating a response.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of synaptic plasticity to learning.",
-      "answer": "Learning involves synaptic plasticity, where frequent activation of synapses strengthens connections, forming long-term memories.",
+      "question": "How does the myelin sheath apply to multiple sclerosis?",
+      "answer": "In multiple sclerosis, the degradation of the myelin sheath slows down nerve impulse transmission, causing motor and sensory impairments.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of studying synaptic transmission.",
-      "answer": "Research on synaptic transmission has led to effective treatments for mental health disorders, such as antidepressants targeting serotonin pathways.",
+      "question": "Give one strength of the chemical synapse model.",
+      "answer": "The chemical synapse model explains the specificity of neurotransmitter actions, allowing targeted drug development for mental health disorders.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of the chemical transmission model.",
-      "answer": "The chemical transmission model may oversimplify complex interactions, ignoring factors like electrical synapses and glial cell involvement.",
+      "question": "Give one limitation of synaptic transmission research.",
+      "answer": "Many synaptic transmission studies are conducted on animals, which may not fully generalize to human synaptic processes.",
       "ao": "AO3"
     },
     {
       "question": "Evaluate the methodology of Loewi's (1921) study.",
-      "answer": "Loewi's study was groundbreaking but limited by its simple experimental design and lack of modern controls, which may affect replicability.",
+      "answer": "Loewi's study was groundbreaking but limited by its simplistic and indirect measurement of neurotransmitter effects on heart rate.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the practical applications of synaptic plasticity research.",
-      "answer": "Synaptic plasticity research has practical applications in neurorehabilitation, aiding recovery after brain injuries, but translating findings to real-world treatments can be challenging.",
+      "question": "Give one strength of using action potentials to study neuron function.",
+      "answer": "Action potentials provide objective, quantifiable data on neural activity, allowing precise measurement of neuronal response to stimuli.",
       "ao": "AO3"
     }
   ]

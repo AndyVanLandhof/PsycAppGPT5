@@ -5,106 +5,106 @@
   "subTopic": "ocd",
   "subTopicTitle": "OCD",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:36:08.020Z",
+  "generatedAt": "2025-12-07T18:31:01.666Z",
   "items": [
     {
       "question": "What is OCD?",
-      "answer": "Obsessive-Compulsive Disorder (OCD) is an anxiety disorder characterized by unwanted repetitive thoughts (obsessions) and actions (compulsions).",
+      "answer": "Obsessive-Compulsive Disorder (OCD) is an anxiety disorder characterized by unwanted, intrusive thoughts (obsessions) and repetitive behaviors or mental acts (compulsions).",
       "ao": "AO1"
     },
     {
-      "question": "Define obsessions in OCD.",
-      "answer": "Obsessions are intrusive, unwanted thoughts, images, or urges that cause distress or anxiety.",
+      "question": "Define obsessions in the context of OCD.",
+      "answer": "Obsessions are persistent, intrusive thoughts, impulses, or images that cause significant anxiety or distress in individuals with OCD.",
       "ao": "AO1"
     },
     {
-      "question": "Define compulsions in OCD.",
-      "answer": "Compulsions are repetitive behaviors or mental acts driven by obsessions, aimed at reducing distress or preventing a feared event.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Szechtman et al. (1998) find about OCD?",
-      "answer": "They found that high levels of dopamine can induce compulsive behaviors, suggesting a neurochemical basis for OCD.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What role does serotonin play in OCD?",
-      "answer": "Low levels of serotonin are implicated in OCD, as serotonin regulates mood and anxiety, affecting obsessive thoughts.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Nestadt et al. (2010) find about OCD?",
-      "answer": "They found a higher prevalence of OCD among first-degree relatives, suggesting a genetic component.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define the role of the orbitofrontal cortex in OCD.",
-      "answer": "The orbitofrontal cortex is involved in decision-making and error detection; dysfunction may lead to OCD symptoms.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Soomro et al. (2009) find about SSRIs in treating OCD?",
-      "answer": "They found SSRIs significantly more effective than placebos in reducing OCD symptoms, supporting their use as a treatment.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define cognitive-behavioral therapy (CBT) for OCD.",
-      "answer": "CBT for OCD involves exposing patients to their obsessions and preventing compulsive responses, altering maladaptive thoughts.",
+      "question": "Define compulsions in the context of OCD.",
+      "answer": "Compulsions are repetitive behaviors or mental acts that an individual feels driven to perform in response to an obsession, aimed at reducing anxiety.",
       "ao": "AO1"
     },
     {
       "question": "What did Menzies et al. (2007) find about brain structure in OCD?",
-      "answer": "They found structural abnormalities in brain regions like the orbitofrontal cortex in individuals with OCD.",
+      "answer": "Menzies et al. (2007) found that individuals with OCD have lower grey matter volume in the orbitofrontal cortex, suggesting a neurological basis for the disorder.",
       "ao": "AO1"
     },
     {
-      "question": "Define the two-process model in OCD.",
-      "answer": "The two-process model explains OCD through classical conditioning of obsessions and operant conditioning of compulsions.",
+      "question": "What is the role of serotonin in OCD?",
+      "answer": "Low levels of serotonin, a neurotransmitter, are associated with OCD, affecting mood and anxiety regulation, contributing to the disorder's symptoms.",
       "ao": "AO1"
     },
     {
       "question": "What is the genetic explanation for OCD?",
-      "answer": "The genetic explanation suggests OCD is heritable, with specific genes like COMT and SERT linked to the disorder.",
+      "answer": "The genetic explanation suggests that OCD may be inherited, with evidence from twin studies indicating higher concordance rates in monozygotic twins.",
       "ao": "AO1"
     },
     {
-      "question": "How does the orbitofrontal cortex dysfunction apply to OCD symptoms?",
-      "answer": "Dysfunction may lead to heightened error detection and compulsive behavior to correct perceived errors.",
+      "question": "What did Soomro et al. (2008) find about SSRIs and OCD?",
+      "answer": "Soomro et al. (2008) found that selective serotonin reuptake inhibitors (SSRIs) are effective in reducing OCD symptoms, supporting the role of serotonin in the disorder.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'neural explanation' in OCD.",
+      "answer": "Neural explanations focus on the role of brain structures and neurotransmitters in OCD, such as abnormalities in the orbitofrontal cortex and serotonin dysfunction.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the two-process model in the context of OCD?",
+      "answer": "The two-process model explains OCD through classical conditioning (acquisition of obsessions) and operant conditioning (maintenance through compulsions).",
+      "ao": "AO1"
+    },
+    {
+      "question": "What are SSRIs, and how are they used in treating OCD?",
+      "answer": "Selective Serotonin Reuptake Inhibitors (SSRIs) are antidepressants that increase serotonin levels, used to reduce OCD symptoms by improving mood and anxiety.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Nestadt et al. (2010) find about OCD heredity?",
+      "answer": "Nestadt et al. (2010) found that first-degree relatives of OCD patients have a higher risk of developing the disorder, supporting genetic factors.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is ERP in the context of OCD treatment?",
+      "answer": "Exposure and Response Prevention (ERP) is a behavioral therapy for OCD involving exposure to obsessive thoughts and prevention of compulsive responses.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the two-process model apply to a person who checks locks repeatedly?",
+      "answer": "The obsession with safety (classical conditioning) leads to anxiety, and checking locks (compulsion) reduces anxiety, reinforcing the behavior (operant conditioning).",
       "ao": "AO2"
     },
     {
-      "question": "Apply the two-process model to explain compulsive handwashing.",
-      "answer": "Handwashing may begin as a response to a conditioned fear of germs (classical conditioning) and persists due to anxiety reduction (operant conditioning).",
+      "question": "Apply ERP to this scenario: A person avoids public places to prevent contamination.",
+      "answer": "ERP would involve gradual exposure to public places while preventing the compulsive behavior of avoidance, reducing anxiety over time.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the genetic explanation to a family with multiple OCD cases.",
-      "answer": "A family with multiple OCD cases supports the genetic explanation, suggesting heritable factors contribute to the disorder.",
+      "question": "How can the genetic explanation of OCD be applied to a family with multiple cases?",
+      "answer": "If several family members have OCD, it suggests a genetic predisposition, making it likely that the disorder is inherited within the family.",
       "ao": "AO2"
     },
     {
-      "question": "How does serotonin deficiency apply to OCD treatment?",
-      "answer": "SSRIs increase serotonin levels, alleviating symptoms, supporting serotonin's role in OCD.",
+      "question": "Apply the neural explanation to a case where brain imaging shows abnormalities in the orbitofrontal cortex.",
+      "answer": "The abnormalities in the orbitofrontal cortex indicate a neural basis for OCD symptoms, potentially leading to obsessive and compulsive behaviors.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of CBT for OCD.",
-      "answer": "CBT is effective, with lasting effects; it addresses cognitive processes underlying OCD, not just symptoms.",
+      "question": "Give one strength of using SSRIs to treat OCD.",
+      "answer": "SSRIs are effective in reducing OCD symptoms in many patients, providing a non-invasive treatment option that can improve quality of life.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of the biological approach to OCD.",
-      "answer": "The biological approach may overemphasize genetics and neurochemistry, neglecting environmental and cognitive factors.",
+      "question": "Give one limitation of the genetic explanation for OCD.",
+      "answer": "The genetic explanation does not account for environmental factors that may trigger or exacerbate OCD symptoms, limiting its comprehensiveness.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Szechtman et al. (1998).",
-      "answer": "Their research is limited by its animal model, which may not fully generalize to human OCD symptoms.",
+      "question": "Evaluate the methodology of Soomro et al. (2008) in their study on SSRIs.",
+      "answer": "Soomro et al. (2008) used meta-analysis of randomized controlled trials, providing high-quality evidence but may suffer from publication bias.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the use of SSRIs in treating OCD.",
-      "answer": "SSRIs are effective but have side effects and may not address underlying causes, showing a need for combined approaches.",
+      "question": "Give one limitation of the neural explanation for OCD.",
+      "answer": "The neural explanation may be reductionist, oversimplifying complex behaviors by attributing them solely to brain structures and neurotransmitters.",
       "ao": "AO3"
     }
   ]

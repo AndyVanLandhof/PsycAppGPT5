@@ -5,106 +5,106 @@
   "subTopic": "nervous-system",
   "subTopicTitle": "The divisions of the nervous system",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:29:42.263Z",
+  "generatedAt": "2025-12-07T18:28:50.083Z",
   "items": [
     {
-      "question": "What is the central nervous system (CNS)?",
-      "answer": "The CNS is composed of the brain and spinal cord, responsible for processing information and controlling responses.",
+      "question": "What is the function of the central nervous system (CNS)?",
+      "answer": "The CNS processes information received from the sensory organs and sends instructions for action to the body. It consists of the brain and spinal cord.",
       "ao": "AO1"
     },
     {
       "question": "Define the peripheral nervous system (PNS).",
-      "answer": "The PNS connects the CNS to the rest of the body and is divided into the somatic and autonomic nervous systems.",
+      "answer": "The PNS connects the CNS to limbs and organs. It consists of the somatic and autonomic nervous systems.",
       "ao": "AO1"
     },
     {
       "question": "What is the role of the somatic nervous system?",
-      "answer": "The somatic nervous system controls voluntary movements and transmits sensory and motor information to and from the CNS.",
+      "answer": "The somatic nervous system controls voluntary movements by transmitting signals from the CNS to skeletal muscles.",
       "ao": "AO1"
     },
     {
       "question": "Define the autonomic nervous system (ANS).",
-      "answer": "The ANS regulates involuntary body functions and is divided into the sympathetic and parasympathetic branches.",
+      "answer": "The ANS regulates involuntary bodily functions, such as heart rate and digestion. It includes the sympathetic and parasympathetic systems.",
       "ao": "AO1"
     },
     {
-      "question": "What does the sympathetic nervous system do?",
-      "answer": "The sympathetic nervous system prepares the body for 'fight or flight' response by increasing heart rate, dilating pupils, etc.",
+      "question": "What is the function of the sympathetic nervous system?",
+      "answer": "The sympathetic nervous system prepares the body for 'fight or flight' responses by increasing heart rate and energy availability.",
       "ao": "AO1"
     },
     {
-      "question": "What is the function of the parasympathetic nervous system?",
-      "answer": "The parasympathetic nervous system conserves energy by slowing heart rate and increasing digestive activities, promoting 'rest and digest'.",
+      "question": "What role does the parasympathetic nervous system play?",
+      "answer": "The parasympathetic nervous system conserves energy and promotes 'rest and digest' activities by slowing heart rate and aiding digestion.",
       "ao": "AO1"
     },
     {
-      "question": "What did Taylor et al. (2000) find about stress responses?",
-      "answer": "Taylor et al. found that females often exhibit a 'tend and befriend' response to stress, differing from the traditional 'fight or flight' model.",
+      "question": "What did Taylor et al. (2000) find about the 'tend and befriend' response?",
+      "answer": "Taylor et al. found that females often exhibit a 'tend and befriend' response to stress, involving nurturing and seeking social support, as an alternative to 'fight or flight'.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'homeostasis'.",
-      "answer": "Homeostasis is the body's ability to maintain a stable internal environment despite external changes.",
+      "question": "What is the role of sensory neurons?",
+      "answer": "Sensory neurons transmit information from sensory receptors to the CNS, allowing the brain to process sensory experiences.",
       "ao": "AO1"
     },
     {
-      "question": "What is a neuron?",
-      "answer": "A neuron is a nerve cell that transmits electrical and chemical signals throughout the nervous system.",
+      "question": "Define motor neurons.",
+      "answer": "Motor neurons carry instructions from the CNS to muscles and glands, facilitating movement and responses.",
       "ao": "AO1"
     },
     {
-      "question": "Define 'synapse'.",
-      "answer": "A synapse is the junction between two neurons where neurotransmitters are released to transmit impulses.",
+      "question": "What is the role of relay neurons?",
+      "answer": "Relay neurons connect sensory and motor neurons within the CNS, enabling communication and signal processing.",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of neurotransmitters?",
-      "answer": "Neurotransmitters are chemicals that transmit signals across a synapse from one neuron to another.",
+      "question": "What did Cannon (1932) propose about the autonomic nervous system?",
+      "answer": "Cannon proposed the 'fight or flight' model, suggesting the autonomic nervous system prepares the body to confront or flee from threats.",
       "ao": "AO1"
     },
     {
-      "question": "What did Broca (1861) discover about brain function?",
-      "answer": "Broca identified a brain region responsible for speech production, known as Broca's area, located in the frontal lobe.",
+      "question": "Define homeostasis in the context of the ANS.",
+      "answer": "Homeostasis refers to the ANS's role in maintaining a stable internal environment by regulating bodily functions like temperature and heart rate.",
       "ao": "AO1"
     },
     {
-      "question": "How does the fight or flight response apply to a sudden loud noise?",
-      "answer": "The sympathetic nervous system activates, increasing heart rate and alertness to prepare the body for a potential threat.",
+      "question": "How does the ANS apply to a stressful job interview scenario?",
+      "answer": "The sympathetic nervous system would activate, increasing heart rate and energy, preparing the candidate to perform well under stress.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the role of the parasympathetic nervous system to post-exercise recovery.",
-      "answer": "The parasympathetic nervous system slows heart rate and facilitates digestion, aiding in recovery after physical exertion.",
+      "question": "Apply the somatic nervous system to playing a musical instrument.",
+      "answer": "The somatic nervous system controls finger movements and coordination, allowing a musician to play notes and rhythms accurately.",
       "ao": "AO2"
     },
     {
-      "question": "How does the autonomic nervous system apply to digestion?",
-      "answer": "The parasympathetic branch promotes digestion by increasing digestive secretions and muscle contractions in the digestive tract.",
+      "question": "How does the PNS apply to recovering from exercise?",
+      "answer": "The parasympathetic nervous system aids recovery by slowing the heart rate and promoting digestion and energy restoration post-exercise.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the role of neurotransmitters to depression.",
-      "answer": "Imbalances in neurotransmitters like serotonin and dopamine are linked to depression, affecting mood and emotional regulation.",
+      "question": "Apply the concept of the 'fight or flight' response to a surprise encounter with a wild animal.",
+      "answer": "The sympathetic nervous system would trigger an increased heart rate and adrenaline release, preparing the body to either confront or escape the animal.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of using fMRI in studying the brain.",
-      "answer": "fMRI provides high spatial resolution images of brain activity, allowing researchers to pinpoint active brain regions accurately.",
+      "question": "Give one strength of the 'fight or flight' response model.",
+      "answer": "The model is supported by empirical evidence showing physiological changes under stress, such as increased heart rate, providing a clear biological basis.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of the fight or flight response model.",
-      "answer": "The model may be overly simplistic, as it doesn't account for alternative responses like 'tend and befriend' in females.",
+      "question": "Give one limitation of the 'fight or flight' response model.",
+      "answer": "The model is limited as it overlooks gender differences, such as the 'tend and befriend' response observed in females.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Broca's (1861) research.",
-      "answer": "Broca's case study provided crucial insights but lacked generalizability due to reliance on a single patient's brain damage.",
+      "question": "Evaluate the methodology of Cannon's (1932) study on 'fight or flight'.",
+      "answer": "Cannon's study used animal models, which may limit generalizability to human responses due to species differences in stress reactions.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of using animal studies in biopsychology.",
-      "answer": "Animal studies may not accurately reflect human behaviors due to differences in physiology and cognition, limiting generalizability.",
+      "question": "Evaluate the role of the parasympathetic nervous system in stress recovery.",
+      "answer": "The parasympathetic nervous system effectively counteracts the sympathetic response, but individual differences in recovery speed may limit the general applicability of this role.",
       "ao": "AO3"
     }
   ]

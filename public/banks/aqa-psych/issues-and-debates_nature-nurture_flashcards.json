@@ -5,106 +5,106 @@
   "subTopic": "nature-nurture",
   "subTopicTitle": "The nature-nurture debate",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:42:34.157Z",
+  "generatedAt": "2025-12-07T18:32:55.154Z",
   "items": [
     {
       "question": "What is the nature-nurture debate?",
-      "answer": "The nature-nurture debate concerns the relative importance of genetic inheritance (nature) versus environmental influences (nurture) on human behavior.",
+      "answer": "The nature-nurture debate concerns whether human behavior is determined by genetics (nature) or environment and experience (nurture).",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'nature' in the context of the nature-nurture debate.",
+      "answer": "'Nature' refers to the influence of genetic inheritance and other biological factors on behavior.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'nurture' in the context of the nature-nurture debate.",
+      "answer": "'Nurture' refers to the influence of external factors such as environment, experience, and learning on behavior.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Plomin et al. (1997) find about intelligence?",
+      "answer": "Plomin et al. (1997) found that intelligence has a significant genetic component, with heritability estimates around 50%.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the interactionist approach in the nature-nurture debate?",
+      "answer": "The interactionist approach suggests that nature and nurture interact in complex ways to shape behavior and characteristics.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is epigenetics?",
+      "answer": "Epigenetics involves changes in gene expression caused by mechanisms other than changes in the DNA sequence, often due to environmental influences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Rutter et al. (2001) find about Romanian orphans?",
+      "answer": "Rutter et al. (2001) found that Romanian orphans adopted before six months of age showed significant developmental catch-up, highlighting the impact of nurture.",
       "ao": "AO1"
     },
     {
       "question": "Define 'heritability'.",
-      "answer": "Heritability is the proportion of variance in a trait within a population that is attributed to genetic differences.",
+      "answer": "Heritability is a statistical measure indicating the extent to which genetic factors account for variations in a trait within a population.",
       "ao": "AO1"
     },
     {
-      "question": "What did Gottesman and Shields (1966) find about schizophrenia?",
-      "answer": "Gottesman and Shields found higher concordance rates for schizophrenia in MZ twins (42%) compared to DZ twins (9%), suggesting a genetic influence.",
+      "question": "What did the Minnesota Twin Study (Bouchard et al., 1990) find about personality?",
+      "answer": "The study found that identical twins reared apart had similar personality traits, suggesting a strong genetic influence.",
       "ao": "AO1"
     },
     {
-      "question": "What is the 'nurture' aspect of the debate?",
-      "answer": "Nurture refers to the environmental factors, including upbringing, culture, and experiences, that influence behavior and development.",
+      "question": "What is the diathesis-stress model?",
+      "answer": "The diathesis-stress model posits that psychological disorders develop due to a genetic vulnerability (diathesis) triggered by environmental stressors.",
       "ao": "AO1"
     },
     {
-      "question": "Define 'interactionism' in the nature-nurture debate.",
-      "answer": "Interactionism is the perspective that both genetic and environmental factors interact and influence human behavior.",
+      "question": "What did Bandura (1977) contribute to the nurture side of the debate?",
+      "answer": "Bandura's social learning theory emphasized the role of observational learning and imitation, highlighting environmental influences on behavior.",
       "ao": "AO1"
     },
     {
-      "question": "What did Plomin et al. (1977) find about intelligence?",
-      "answer": "Plomin et al. found that both genetic and environmental factors contribute to intelligence, supporting an interactionist approach.",
+      "question": "Define 'gene-environment correlation'.",
+      "answer": "Gene-environment correlation occurs when an individual's genetic makeup influences their exposure to certain environments.",
       "ao": "AO1"
     },
     {
-      "question": "What is the 'nature' aspect of the debate?",
-      "answer": "Nature refers to the biological and genetic factors that influence behavior, such as genes and brain chemistry.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define 'epigenetics' in the context of this debate.",
-      "answer": "Epigenetics involves changes in gene expression caused by mechanisms other than changes in the DNA sequence, often influenced by environmental factors.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Bouchard et al. (1990) find in their twin study?",
-      "answer": "Bouchard et al. found that MZ twins reared apart had similar IQ scores, indicating a strong genetic component to intelligence.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define 'biological determinism'.",
-      "answer": "Biological determinism is the belief that behavior is controlled entirely by genetic and biological factors.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is environmental determinism?",
-      "answer": "Environmental determinism is the belief that behavior is shaped solely by environmental factors and experiences.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define 'gene-environment interaction'.",
-      "answer": "Gene-environment interaction occurs when the effect of an environmental factor on behavior is dependent on an individual's genetic makeup.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Apply the concept of 'nature' to the development of language in children.",
-      "answer": "Language development might be attributed to innate biological structures, like Chomsky's LAD, suggesting a strong nature influence.",
+      "question": "How does the interactionist approach apply to phobias?",
+      "answer": "In phobias, genetic predispositions (nature) may interact with traumatic experiences (nurture), leading to the development of irrational fears.",
       "ao": "AO2"
     },
     {
-      "question": "How does the nurture perspective apply to aggression?",
-      "answer": "Aggression could be seen as a learned behavior through environmental influences like social learning, as Bandura's Bobo doll study suggests.",
+      "question": "Apply epigenetics to a scenario where a child develops obesity.",
+      "answer": "A child with a genetic predisposition to obesity may experience changes in gene expression due to poor diet and lack of exercise (nurture), leading to obesity.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the interactionist approach to explaining depression.",
-      "answer": "Depression might result from a genetic predisposition triggered by stressful life events, reflecting both nature and nurture influences.",
+      "question": "How does the diathesis-stress model apply to depression?",
+      "answer": "An individual with a genetic vulnerability to depression may develop the disorder when exposed to significant life stressors, such as bereavement.",
       "ao": "AO2"
     },
     {
-      "question": "How does epigenetics apply to the nature-nurture debate?",
-      "answer": "Epigenetics shows that environmental factors can affect gene expression, demonstrating the interplay between nature and nurture.",
+      "question": "Apply gene-environment correlation to intelligence.",
+      "answer": "Children with high genetic potential for intelligence may seek out intellectually stimulating environments, enhancing their cognitive skills further.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of the interactionist approach.",
-      "answer": "The interactionist approach is supported by evidence that both genetic and environmental factors contribute to complex behaviors, offering a comprehensive explanation.",
+      "question": "Give one strength of the nature-nurture debate.",
+      "answer": "The debate highlights the importance of both genetic and environmental factors, encouraging a holistic understanding of human behavior.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of the nature perspective.",
-      "answer": "The nature perspective may neglect the role of environmental influences, leading to an oversimplified understanding of behavior.",
+      "question": "Give one limitation of focusing solely on nature.",
+      "answer": "Focusing only on nature may lead to deterministic views, ignoring the potential for change through environmental interventions.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Bouchard et al. (1990) twin study.",
-      "answer": "The study's strength is its control over genetic variables, but its limitation is potential environmental variation among separated twins.",
+      "question": "Evaluate the methodology of the Minnesota Twin Study.",
+      "answer": "The study used a large, diverse sample of twins, enhancing generalizability. However, the reliance on self-report data may introduce bias.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodological issues in Gottesman and Shields (1966).",
-      "answer": "The study's reliance on concordance rates may overlook environmental factors, but it highlights a possible genetic link to schizophrenia.",
+      "question": "Evaluate the methodology of Rutter et al.'s study on Romanian orphans.",
+      "answer": "The longitudinal design provided rich insights into developmental changes. However, lack of control over pre-adoption conditions limits causal conclusions.",
       "ao": "AO3"
     }
   ]

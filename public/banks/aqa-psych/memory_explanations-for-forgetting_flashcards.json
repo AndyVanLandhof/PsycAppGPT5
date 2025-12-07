@@ -5,106 +5,106 @@
   "subTopic": "explanations-for-forgetting",
   "subTopicTitle": "Explanations for forgetting",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:14:55.003Z",
+  "generatedAt": "2025-12-07T18:25:37.424Z",
   "items": [
     {
-      "question": "What is retrieval failure?",
-      "answer": "Retrieval failure occurs when information is stored in memory but cannot be accessed due to lack of retrieval cues.",
+      "question": "What is proactive interference?",
+      "answer": "Proactive interference occurs when older memories interfere with the retrieval of newer memories.",
       "ao": "AO1"
     },
     {
-      "question": "Define proactive interference.",
-      "answer": "Proactive interference is when older memories disrupt the recall of newer memories.",
+      "question": "What is retroactive interference?",
+      "answer": "Retroactive interference occurs when new memories disrupt the retrieval of older memories.",
       "ao": "AO1"
     },
     {
-      "question": "Define retroactive interference.",
-      "answer": "Retroactive interference occurs when newer memories disrupt the recall of older memories.",
+      "question": "Define retrieval failure.",
+      "answer": "Retrieval failure is the inability to access a memory due to the absence of cues present at encoding.",
       "ao": "AO1"
     },
     {
       "question": "What did Tulving and Pearlstone (1966) find about retrieval cues?",
-      "answer": "Tulving and Pearlstone found that participants recalled more words when given category cues, demonstrating the importance of retrieval cues in memory.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Godden and Baddeley (1975) find about context-dependent forgetting?",
-      "answer": "They found that divers recalled words better in the same context (land or water) where they learned them, supporting context-dependent memory.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is state-dependent forgetting?",
-      "answer": "State-dependent forgetting occurs when recall is easier in the same physical or emotional state as when the memory was encoded.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Carter and Cassaday (1998) find about state-dependent forgetting?",
-      "answer": "Carter and Cassaday found that participants recalled information better when their internal state at recall matched their state during learning (e.g., on or off antihistamines).",
+      "answer": "They found that participants recalled more words when given category names as cues compared to free recall.",
       "ao": "AO1"
     },
     {
       "question": "What is the encoding specificity principle?",
-      "answer": "The encoding specificity principle, proposed by Tulving, states that memory is most effective when information present at encoding is also available at retrieval.",
+      "answer": "The encoding specificity principle states that memory is improved when information available at encoding is also present at retrieval.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'cue' in the context of memory.",
-      "answer": "A cue is a stimulus that aids retrieval of information from long-term memory.",
+      "question": "What did Godden and Baddeley (1975) discover about context-dependent forgetting?",
+      "answer": "Memory recall was better when the learning and recall environments matched, such as learning and recalling underwater.",
       "ao": "AO1"
     },
     {
-      "question": "What is the tip-of-the-tongue phenomenon?",
-      "answer": "The tip-of-the-tongue phenomenon is a state where one cannot quite recall a familiar word or name but feels close to remembering it.",
+      "question": "What did Carter and Cassaday (1998) find about state-dependent forgetting?",
+      "answer": "Memory recall was better when participants' physiological states at learning and recall matched, such as being sober or on antihistamines.",
       "ao": "AO1"
     },
     {
-      "question": "What did McGeoch and McDonald (1931) study about interference?",
-      "answer": "They studied how similarity of material affects interference, finding that more similar information increases the likelihood of interference.",
+      "question": "Define context-dependent forgetting.",
+      "answer": "Context-dependent forgetting occurs when environmental cues present at encoding are absent during recall.",
       "ao": "AO1"
     },
     {
-      "question": "What is decay theory?",
-      "answer": "Decay theory suggests that memories fade over time if they are not accessed or used.",
+      "question": "Define state-dependent forgetting.",
+      "answer": "State-dependent forgetting occurs when the internal state at encoding differs from the state during recall.",
       "ao": "AO1"
     },
     {
-      "question": "How does proactive interference apply to studying for multiple subjects?",
-      "answer": "Proactive interference might cause confusion in recalling new material for a subject if previously studied subjects have similar content.",
+      "question": "What is a retrieval cue?",
+      "answer": "A retrieval cue is a trigger or hint that helps access information stored in memory.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Baddeley and Hitch (1977) find about interference?",
+      "answer": "Rugby players who played fewer matches had better recall of team names, suggesting interference affects memory retrieval.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define interference theory.",
+      "answer": "Interference theory suggests that forgetting occurs because memories interfere with each other, especially if similar.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does interference apply to forgetting a new phone number?",
+      "answer": "Proactive interference may occur if your old phone number disrupts your ability to remember the new one.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the encoding specificity principle to a student preparing for exams.",
-      "answer": "A student should try to study in environments similar to their exam environment to enhance recall, as similar cues will aid retrieval.",
+      "question": "Apply the encoding specificity principle to revising for exams.",
+      "answer": "Revising in a quiet room similar to the exam setting may enhance recall due to contextual cue similarity.",
       "ao": "AO2"
     },
     {
-      "question": "How does context-dependent forgetting apply to eyewitness testimony?",
-      "answer": "Eyewitnesses might recall events more accurately if they revisit the crime scene, as environmental cues can trigger memory retrieval.",
+      "question": "How might state-dependent forgetting affect performance in a public speaking scenario?",
+      "answer": "If you practiced while relaxed but feel anxious during the speech, the mismatch can hinder recall.",
       "ao": "AO2"
     },
     {
-      "question": "Apply state-dependent forgetting to a person who drinks coffee while studying.",
-      "answer": "A person who drinks coffee while studying may recall information better if they consume coffee before the exam due to state-dependent memory.",
+      "question": "Apply context-dependent forgetting to losing keys after moving house.",
+      "answer": "If you placed keys in a specific spot before moving and fail to remember this in a new home, it's context-dependent forgetting.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of retrieval failure as an explanation for forgetting.",
-      "answer": "Retrieval failure is supported by substantial empirical evidence, such as Tulving and Pearlstone's study, which emphasizes the role of cues in memory recall.",
+      "question": "Give one strength of research into retrieval failure.",
+      "answer": "It has practical applications in improving recall, such as using context reinstatement techniques in eyewitness testimony.",
       "ao": "AO3"
     },
     {
       "question": "Give one limitation of interference theory.",
-      "answer": "Interference theory may not fully explain forgetting in real-world settings as it often relies on artificial lab-based tasks and lacks ecological validity.",
+      "answer": "Interference theory is often criticized for its lack of ecological validity due to reliance on artificial lab tasks.",
       "ao": "AO3"
     },
     {
       "question": "Evaluate the methodology of Godden and Baddeley (1975).",
-      "answer": "The study has high ecological validity due to the naturalistic setting, but its generalizability is limited as divers are not representative of the general population.",
+      "answer": "The study's ecological validity is high due to realistic settings, but the sample of divers limits generalizability.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Carter and Cassaday (1998).",
-      "answer": "The study provides strong evidence for state-dependent forgetting, but the use of antihistamines limits generalizability due to potential side effects affecting participants differently.",
+      "question": "Evaluate the methodology of Tulving and Pearlstone (1966).",
+      "answer": "The study has high internal validity due to controlled lab conditions, but lacks ecological validity due to artificial tasks.",
       "ao": "AO3"
     }
   ]

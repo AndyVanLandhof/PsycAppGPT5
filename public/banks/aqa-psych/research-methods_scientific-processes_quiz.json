@@ -5,202 +5,202 @@
   "subTopic": "scientific-processes",
   "subTopicTitle": "Scientific processes",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:39:53.149Z",
+  "generatedAt": "2025-12-07T18:21:07.150Z",
   "items": [
     {
       "id": "scientific-processes-q1",
-      "question": "What is the main purpose of a pilot study?",
+      "question": "What does the term 'operationalisation' refer to in psychological research?",
       "options": [
-        "To identify potential issues in the research design",
-        "To collect preliminary data for analysis",
-        "To ensure the research findings are generalizable",
-        "To confirm the reliability of the data"
+        "Defining variables in practical, measurable terms",
+        "Choosing a sample size for the study",
+        "Developing a hypothesis for the research",
+        "Selecting a research method"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A pilot study is a small-scale preliminary study conducted to identify potential issues in the research design and refine the methodology before the full-scale research is conducted."
+      "explanation": "Operationalisation involves turning abstract concepts into measurable observations, essential for empirical testing."
     },
     {
       "id": "scientific-processes-q2",
-      "question": "In an experiment, what is an independent variable?",
+      "question": "Which research method did Bandura et al. (1961) use in their famous Bobo doll experiment?",
       "options": [
-        "The variable that is manipulated by the researcher",
-        "The variable that is measured by the researcher",
-        "The constant variable that is not changed",
-        "The variable that is affected by the dependent variable"
+        "Laboratory experiment",
+        "Field experiment",
+        "Naturalistic observation",
+        "Case study"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The independent variable is the one that the researcher manipulates to observe its effect on the dependent variable."
+      "explanation": "Bandura conducted a laboratory experiment to control variables and observe the effects of modeled aggression on children."
     },
     {
       "id": "scientific-processes-q3",
-      "question": "What does a positive correlation indicate?",
+      "question": "What is a key feature of a double-blind procedure?",
       "options": [
-        "As one variable increases, the other variable also increases",
-        "As one variable increases, the other variable decreases",
-        "There is no relationship between the two variables",
-        "The variables both decrease together"
+        "Neither participants nor researchers know who is in the experimental or control group",
+        "Participants know the hypothesis but not the procedures",
+        "Only the researchers know the group assignments",
+        "Participants are aware of all details of the study"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A positive correlation indicates that as one variable increases, the other variable also increases, reflecting a direct relationship."
+      "explanation": "Double-blind procedures eliminate bias by ensuring neither participants nor researchers know group assignments."
     },
     {
       "id": "scientific-processes-q4",
-      "question": "What is internal validity?",
+      "question": "In Milgram's (1963) study on obedience, what role did the 'teacher' play?",
       "options": [
-        "The extent to which the results can be generalized",
-        "The accuracy of the measurement",
-        "The extent to which a study establishes a trustworthy cause-and-effect relationship",
-        "The consistency of a study's results over time"
+        "Administering electric shocks to the learner",
+        "Observing the experiment unobtrusively",
+        "Taking notes on the learner's behavior",
+        "Providing feedback to the experimenter"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Internal validity refers to the degree to which a study accurately establishes a cause-and-effect relationship between variables, without influence from extraneous variables."
+      "explanation": "The 'teacher' in Milgram's study was instructed to administer shocks to the learner, testing obedience to authority."
     },
     {
       "id": "scientific-processes-q5",
-      "question": "In Milgram's (1963) study on obedience, what was the main ethical concern?",
+      "question": "Which sampling method involves selecting participants who are readily available?",
       "options": [
-        "Lack of informed consent",
-        "The use of deception",
-        "The ecological validity of the study",
-        "The small sample size"
+        "Opportunity sampling",
+        "Random sampling",
+        "Stratified sampling",
+        "Systematic sampling"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Milgram's study involved deception as participants were misled about the true nature of the experiment, which raised significant ethical concerns."
+      "explanation": "Opportunity sampling involves choosing participants based on their availability and willingness, often leading to convenience."
     },
     {
       "id": "scientific-processes-q6",
-      "question": "What is the primary function of a control group in an experiment?",
+      "question": "What does the term 'internal validity' refer to in research?",
       "options": [
-        "To serve as a baseline for comparison",
-        "To receive the experimental treatment",
-        "To ensure all variables are manipulated",
-        "To guarantee participant blinding"
+        "The extent to which the study measures what it intends to",
+        "The ability to generalize findings to other settings",
+        "The consistency of a study's results over time",
+        "The accuracy of the measurement tools used"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A control group serves as a baseline to compare the effects of the independent variable in the experimental group."
+      "explanation": "Internal validity assesses whether the study's design allows for a clear causal relationship between variables."
     },
     {
       "id": "scientific-processes-q7",
-      "question": "Who conducted the Stanford prison experiment?",
+      "question": "What is a common issue with self-report methods such as questionnaires?",
       "options": [
-        "Philip Zimbardo",
-        "Solomon Asch",
-        "Albert Bandura",
-        "Stanley Milgram"
+        "Social desirability bias",
+        "Lack of ecological validity",
+        "Observer bias",
+        "Confounding variables"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Philip Zimbardo conducted the Stanford prison experiment in 1971 to study the psychological effects of perceived power."
+      "explanation": "Self-report methods can be affected by social desirability bias, where participants may alter responses to be viewed more favorably."
     },
     {
       "id": "scientific-processes-q8",
-      "question": "What is demand characteristics?",
+      "question": "What is meant by 'counterbalancing' in experimental design?",
       "options": [
-        "Cues that influence participants' behavior",
-        "A measure of the study's reliability",
-        "A type of research design",
-        "A statistical method for data analysis"
+        "Alternating the order of conditions for participants",
+        "Balancing the number of participants in each group",
+        "Ensuring equal representation of genders",
+        "Using random assignment to groups"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Demand characteristics refer to cues in an experiment that might inform participants of the purpose of the study, influencing their behavior."
+      "explanation": "Counterbalancing is used to control for order effects by varying the conditions' sequence for participants."
     },
     {
       "id": "scientific-processes-q9",
-      "question": "What is operationalization in research?",
+      "question": "Which of the following is a disadvantage of using a longitudinal research design?",
       "options": [
-        "Defining variables in practical, measurable terms",
-        "Gathering data from secondary sources",
-        "Ensuring the reliability of findings",
-        "Random allocation of participants to conditions"
+        "It can be time-consuming and expensive",
+        "It provides only a snapshot of behavior",
+        "It lacks ecological validity",
+        "It often requires small sample sizes"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Operationalization involves defining variables in practical, measurable terms to ensure clarity and consistency in data collection."
+      "explanation": "Longitudinal studies track participants over time, which can be costly and require significant resources."
     },
     {
       "id": "scientific-processes-q10",
-      "question": "A researcher finds a correlation of -0.85 between stress levels and hours of sleep. What does this imply?",
+      "question": "A researcher wants to assess the effect of sleep on memory recall. Participants are given a list of words to memorize and then tested after different amounts of sleep. What is the independent variable?",
       "options": [
-        "As stress levels increase, hours of sleep decrease",
-        "As stress levels increase, hours of sleep increase",
-        "There is no relationship between stress and sleep",
-        "Both stress and sleep decrease together"
+        "Amount of sleep",
+        "Memory recall score",
+        "List of words",
+        "Time of day"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "A correlation of -0.85 indicates a strong negative relationship, meaning as stress levels increase, hours of sleep tend to decrease."
+      "explanation": "The independent variable is manipulated by the researcher; in this case, it is the amount of sleep given to participants."
     },
     {
       "id": "scientific-processes-q11",
-      "question": "A study investigates the effect of noise on concentration. Which of the following is the dependent variable?",
+      "question": "In a study on stress and performance, participants are randomly assigned to either a high-stress or low-stress condition. What is the dependent variable?",
       "options": [
-        "Concentration levels",
-        "Noise levels",
-        "Time of day",
-        "Room temperature"
+        "Performance level",
+        "Stress condition",
+        "Random assignment",
+        "Participant age"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "In this study, concentration levels are the dependent variable as they are being measured to see how they are affected by noise."
+      "explanation": "The dependent variable is the outcome being measured, which in this study is the performance level of participants."
     },
     {
       "id": "scientific-processes-q12",
-      "question": "In a double-blind study, who is unaware of the group allocations?",
+      "question": "A psychologist conducts an experiment to see if background music affects test scores. What role does the background music play in this experiment?",
       "options": [
-        "Both participants and researchers",
-        "Only the participants",
-        "Only the researchers",
-        "The data analysts"
+        "Independent variable",
+        "Dependent variable",
+        "Extraneous variable",
+        "Control variable"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "In a double-blind study, both participants and researchers are unaware of group allocations to prevent bias in treatment administration and evaluation."
+      "explanation": "The background music is the independent variable, as it is the factor manipulated to observe its effect on test scores."
     },
     {
       "id": "scientific-processes-q13",
-      "question": "Which of the following is a limitation of using self-report methods in research?",
+      "question": "What is a potential limitation of using a laboratory experiment in psychological research?",
       "options": [
-        "They can lead to social desirability bias",
-        "They are time-consuming to administer",
-        "They require expensive equipment",
-        "They are difficult to replicate"
+        "Lack of ecological validity",
+        "Inability to control variables",
+        "Limited internal validity",
+        "Difficulty in measuring variables"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Self-report methods can lead to social desirability bias, where participants may respond in a way they think is more socially acceptable."
+      "explanation": "Laboratory experiments often lack ecological validity, as they may not accurately reflect real-world settings due to controlled conditions."
     },
     {
       "id": "scientific-processes-q14",
-      "question": "How could researcher bias affect the outcomes of a study?",
+      "question": "Why might a researcher choose a natural experiment over a laboratory experiment?",
       "options": [
-        "It may lead to the researcher's expectations influencing the results",
-        "It ensures the study is ethically conducted",
-        "It guarantees the reliability of the results",
-        "It increases the generalizability of the study"
+        "To enhance ecological validity",
+        "To ensure random assignment",
+        "To eliminate confounding variables",
+        "To increase control over variables"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Researcher bias occurs when a researcher's expectations or preferences influence the outcomes of a study, potentially skewing the results."
+      "explanation": "Natural experiments are chosen for their ecological validity, as they observe effects in real-world settings, though with less control."
     },
     {
       "id": "scientific-processes-q15",
-      "question": "What is a major strength of using a laboratory experiment?",
+      "question": "Which is a primary advantage of field experiments compared to laboratory experiments?",
       "options": [
-        "High level of control over variables",
-        "High ecological validity",
-        "Low cost and simplicity",
-        "Flexibility in changing the hypothesis"
+        "Higher ecological validity",
+        "Greater control over extraneous variables",
+        "Ability to use random sampling",
+        "Easier to replicate"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Laboratory experiments offer a high level of control over variables, allowing researchers to establish cause-and-effect relationships more reliably."
+      "explanation": "Field experiments have higher ecological validity because they occur in natural settings, making findings more generalizable to real life."
     }
   ]
 }

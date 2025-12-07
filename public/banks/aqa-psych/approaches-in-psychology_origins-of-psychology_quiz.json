@@ -5,15 +5,15 @@
   "subTopic": "origins-of-psychology",
   "subTopicTitle": "Origins of psychology",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:20:41.640Z",
+  "generatedAt": "2025-12-07T18:14:59.657Z",
   "items": [
     {
       "id": "origins-of-psychology-q1",
-      "question": "Who is considered the 'father of psychology' and founded the first psychology lab in 1879?",
+      "question": "Who is considered the father of psychology and founded the first psychology laboratory?",
       "options": [
         "Wilhelm Wundt",
         "Sigmund Freud",
-        "William James",
+        "Ivan Pavlov",
         "John Watson"
       ],
       "correctAnswer": 0,
@@ -22,16 +22,16 @@
     },
     {
       "id": "origins-of-psychology-q2",
-      "question": "What approach in psychology emphasizes the role of unconscious processes and childhood experiences?",
+      "question": "Which approach in psychology focuses on the role of the unconscious mind?",
       "options": [
-        "Psychodynamic",
-        "Behaviorist",
+        "Psychoanalytic",
+        "Humanistic",
         "Cognitive",
-        "Humanistic"
+        "Behaviorist"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The psychodynamic approach, pioneered by Freud, focuses on unconscious processes and early childhood experiences."
+      "explanation": "The psychoanalytic approach, developed by Sigmund Freud, emphasizes the influence of the unconscious mind on behavior."
     },
     {
       "id": "origins-of-psychology-q3",
@@ -39,168 +39,168 @@
       "options": [
         "Introspection",
         "Case studies",
-        "Naturalistic observation",
-        "Experiments"
+        "Longitudinal studies",
+        "Surveys"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Wundt used introspection, a method where individuals report their conscious experiences in response to stimuli."
+      "explanation": "Wundt used introspection, a method involving self-examination of conscious thoughts and feelings."
     },
     {
       "id": "origins-of-psychology-q4",
-      "question": "Which psychologist proposed the hierarchy of needs, a theory of motivation?",
+      "question": "What did John Watson believe should be the focus of psychological study?",
       "options": [
-        "Abraham Maslow",
-        "Carl Rogers",
-        "B.F. Skinner",
-        "Albert Bandura"
+        "Observable behavior",
+        "The unconscious mind",
+        "Cognitive processes",
+        "Human potential and growth"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Abraham Maslow is known for his hierarchy of needs, a motivational theory in psychology."
+      "explanation": "John Watson, a key figure in behaviorism, argued that psychology should focus on observable behavior rather than internal mental states."
     },
     {
       "id": "origins-of-psychology-q5",
-      "question": "In which year did Sigmund Freud publish 'The Interpretation of Dreams'?",
+      "question": "Which psychologist is associated with the hierarchy of needs theory?",
       "options": [
-        "1900",
-        "1895",
-        "1910",
-        "1923"
+        "Abraham Maslow",
+        "B.F. Skinner",
+        "Carl Rogers",
+        "Jean Piaget"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Freud's seminal work, 'The Interpretation of Dreams,' was published in 1900, marking a key moment in psychoanalytic theory."
+      "explanation": "Abraham Maslow developed the hierarchy of needs, which is often depicted as a pyramid with physiological needs at the base."
     },
     {
       "id": "origins-of-psychology-q6",
-      "question": "Which approach to psychology focuses on observable behaviors and the processes of learning?",
+      "question": "In what year did Sigmund Freud publish 'The Interpretation of Dreams'?",
       "options": [
-        "Behaviorist",
-        "Cognitive",
-        "Humanistic",
-        "Biological"
+        "1900",
+        "1895",
+        "1913",
+        "1920"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The behaviorist approach, associated with Watson and Skinner, emphasizes observable behaviors and learning processes."
+      "explanation": "Sigmund Freud published 'The Interpretation of Dreams' in 1900, marking a significant contribution to the field of psychoanalysis."
     },
     {
       "id": "origins-of-psychology-q7",
-      "question": "Who is known for developing the theory of operant conditioning?",
+      "question": "Which approach is most associated with the study of perception and problem-solving?",
       "options": [
-        "B.F. Skinner",
+        "Cognitive",
+        "Behaviorist",
+        "Humanistic",
+        "Psychoanalytic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The cognitive approach focuses on internal processes such as perception, memory, and problem-solving."
+    },
+    {
+      "id": "origins-of-psychology-q8",
+      "question": "Who developed the theory of classical conditioning?",
+      "options": [
         "Ivan Pavlov",
+        "B.F. Skinner",
         "Jean Piaget",
         "Carl Jung"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "B.F. Skinner developed operant conditioning, focusing on how consequences shape voluntary behavior."
-    },
-    {
-      "id": "origins-of-psychology-q8",
-      "question": "What is the primary focus of the cognitive approach in psychology?",
-      "options": [
-        "Mental processes",
-        "Social interactions",
-        "Genetic influences",
-        "Emotional responses"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The cognitive approach centers on mental processes such as perception, memory, and problem-solving."
+      "explanation": "Ivan Pavlov is known for his research on classical conditioning, which he discovered through experiments with dogs."
     },
     {
       "id": "origins-of-psychology-q9",
-      "question": "Which study is considered a landmark in the development of social learning theory?",
+      "question": "Which psychologist is credited with founding the humanistic approach?",
       "options": [
-        "Bandura et al., 1961",
-        "Milgram, 1963",
-        "Zimbardo et al., 1971",
-        "Asch, 1951"
+        "Carl Rogers",
+        "Sigmund Freud",
+        "John Watson",
+        "Albert Bandura"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bandura's 1961 study on aggression with the Bobo doll is key to social learning theory, demonstrating learned behavior through observation."
+      "explanation": "Carl Rogers, alongside Abraham Maslow, is considered a major figure in the development of the humanistic approach."
     },
     {
       "id": "origins-of-psychology-q10",
-      "question": "Sarah has developed a fear of dogs after being bitten as a child. Which approach would explain her fear as a result of learned associations?",
+      "question": "A researcher conducting a study on memory finds that participants remember more words from a list when they relate them to personal experiences. Which approach does this finding support?",
       "options": [
-        "Behaviorist",
         "Cognitive",
-        "Humanistic",
-        "Biological"
+        "Behaviorist",
+        "Biological",
+        "Psychoanalytic"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The behaviorist approach explains Sarah's fear through classical conditioning, where the dog bite became associated with fear."
+      "explanation": "This finding supports the cognitive approach, which emphasizes the importance of mental processes like memory and personal relevance."
     },
     {
       "id": "origins-of-psychology-q11",
-      "question": "John struggles with anxiety and is seeking therapy. His therapist focuses on understanding his unconscious conflicts. What type of therapy is this?",
+      "question": "In an experiment, a psychologist observes that children who watch violent TV shows tend to exhibit more aggressive behavior. Which psychological approach does this scenario illustrate?",
       "options": [
+        "Social learning theory",
         "Psychoanalytic",
-        "Cognitive-behavioral",
         "Humanistic",
-        "Biological"
+        "Cognitive"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Psychoanalytic therapy, derived from Freud's theories, focuses on resolving unconscious conflicts to alleviate anxiety."
+      "explanation": "This scenario illustrates social learning theory, which suggests behavior is learned through observing and imitating others."
     },
     {
       "id": "origins-of-psychology-q12",
-      "question": "A researcher is studying how people's memory recall varies with different types of background noise. Which psychological approach is this study most aligned with?",
+      "question": "A therapist uses techniques such as free association to help clients uncover repressed memories. Which approach is the therapist utilizing?",
       "options": [
-        "Cognitive",
+        "Psychoanalytic",
         "Behaviorist",
-        "Psychodynamic",
-        "Biological"
+        "Cognitive",
+        "Humanistic"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This study aligns with the cognitive approach, which investigates mental processes like memory."
+      "explanation": "The therapist is utilizing the psychoanalytic approach, which involves techniques like free association to explore the unconscious mind."
     },
     {
       "id": "origins-of-psychology-q13",
-      "question": "Which limitation is often associated with the introspective method used by Wilhelm Wundt?",
+      "question": "What is a major criticism of introspection as a method in psychology?",
       "options": [
-        "Lack of objectivity",
-        "Lack of replicability",
-        "Lack of ecological validity",
-        "Lack of ethical considerations"
+        "It lacks scientific reliability",
+        "It ignores environmental influences",
+        "It oversimplifies complex behaviors",
+        "It focuses too much on observable behavior"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Introspection is criticized for its lack of objectivity, as it relies on subjective self-reporting, which can vary between individuals."
+      "explanation": "Introspection is criticized for lacking scientific reliability because it relies on subjective self-report rather than objective measurement."
     },
     {
       "id": "origins-of-psychology-q14",
-      "question": "What is a major criticism of the behaviorist approach in psychology?",
+      "question": "How does the behaviorist approach differ from the cognitive approach?",
       "options": [
-        "Neglects mental processes",
-        "Overemphasis on genetics",
-        "Lack of scientific rigor",
-        "Focuses too much on free will"
+        "Behaviorism focuses on observable behavior, while cognitive psychology studies mental processes.",
+        "Behaviorism studies the mind, while cognitive psychology focuses on behavior.",
+        "Both focus on the unconscious mind.",
+        "Both emphasize biological factors in behavior."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The behaviorist approach is criticized for neglecting mental processes, as it focuses exclusively on observable behavior."
+      "explanation": "Behaviorism focuses on observable behavior and dismisses the study of mental processes, unlike cognitive psychology, which studies internal processes."
     },
     {
       "id": "origins-of-psychology-q15",
-      "question": "How does the humanistic approach differ from the psychodynamic approach in terms of assumptions about human nature?",
+      "question": "What is a limitation of the humanistic approach in psychology?",
       "options": [
-        "Emphasizes free will",
-        "Focuses on unconscious motives",
-        "Centers on observable behavior",
-        "Relies on conditioning principles"
+        "It lacks empirical evidence",
+        "It overemphasizes biological factors",
+        "It is too focused on early childhood experiences",
+        "It ignores the role of the unconscious mind"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The humanistic approach emphasizes free will and self-actualization, contrasting with the psychodynamic focus on unconscious motives."
+      "explanation": "A limitation of the humanistic approach is that it often lacks empirical evidence due to its emphasis on subjective experiences and self-report."
     }
   ]
 }

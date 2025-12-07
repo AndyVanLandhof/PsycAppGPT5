@@ -5,202 +5,202 @@
   "subTopic": "obedience",
   "subTopicTitle": "Obedience",
   "type": "quiz",
-  "generatedAt": "2025-12-06T10:11:29.975Z",
+  "generatedAt": "2025-12-07T18:11:16.307Z",
   "items": [
     {
       "id": "obedience-q1",
-      "question": "What was the primary aim of Milgram's 1963 study on obedience?",
+      "question": "Who conducted the most famous study on obedience involving a shock generator?",
       "options": [
-        "To investigate the extent to which individuals would obey authority figures, even when instructed to harm another person.",
-        "To determine if people conform to group pressure when their opinions are publicly known.",
-        "To explore how people change their opinions in ambiguous situations.",
-        "To examine the effect of group size on conformity rates."
+        "Stanley Milgram",
+        "Philip Zimbardo",
+        "Solomon Asch",
+        "Leon Festinger"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Milgram aimed to explore obedience to authority figures, even when orders involved harming others."
+      "explanation": "Stanley Milgram conducted the 1963 study on obedience where participants were instructed to administer shocks to a learner."
     },
     {
       "id": "obedience-q2",
-      "question": "In Milgram's original study, what percentage of participants administered the maximum 450-volt shock?",
+      "question": "In Milgram's experiment, what percentage of participants administered the highest shock level of 450 volts?",
       "options": [
         "65%",
         "50%",
-        "75%",
-        "90%"
+        "35%",
+        "20%"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "65% of participants in Milgram's study delivered the maximum shock, showing high levels of obedience."
+      "explanation": "Milgram's 1963 study found that 65% of participants were willing to administer the maximum 450 volts."
     },
     {
       "id": "obedience-q3",
-      "question": "According to Milgram (1974), which factor significantly influenced obedience levels in his experiments?",
+      "question": "Which term describes changing one's behavior in response to a direct order from an authority figure?",
       "options": [
-        "Proximity of the authority figure",
-        "Age of the participants",
-        "Gender of the participants",
-        "Time of day the experiment was conducted"
+        "Obedience",
+        "Compliance",
+        "Conformity",
+        "Normative Social Influence"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Proximity of the authority figure was a key factor, with closer proximity leading to higher obedience."
+      "explanation": "Obedience involves following direct orders, typically from someone in a position of authority."
     },
     {
       "id": "obedience-q4",
-      "question": "What role did the 'learner' play in Milgram's obedience study?",
+      "question": "What was a key situational variable that Milgram found to affect obedience levels?",
       "options": [
-        "The learner was a confederate pretending to be shocked.",
-        "The learner was the experimenter giving orders.",
-        "The learner was the participant administering shocks.",
-        "The learner was an external observer of the experiment."
+        "Proximity",
+        "Personality",
+        "Age",
+        "Gender"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The learner was a confederate who pretended to receive shocks, testing the participant's obedience."
+      "explanation": "Milgram identified proximity as a factor; obedience decreased when the teacher and learner were closer."
     },
     {
       "id": "obedience-q5",
-      "question": "Which variation of Milgram's study showed the lowest levels of obedience?",
+      "question": "In the context of obedience, what does the term 'agentic state' refer to?",
       "options": [
-        "When the participant had to physically place the learner's hand on a shock plate.",
-        "When the authority figure was absent.",
-        "When the study was conducted in a run-down office.",
-        "When the learner was in the same room as the participant."
+        "A mental state where individuals see themselves as agents for executing others' orders",
+        "A mental state where individuals act according to their own principles",
+        "A mental state characterized by a high level of self-awareness",
+        "A mental state of cognitive dissonance"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Obedience dropped significantly when the authority figure was absent, indicating the role of authoritative presence."
+      "explanation": "The 'agentic state' is when people see themselves as instruments for carrying out orders, reducing personal responsibility."
     },
     {
       "id": "obedience-q6",
-      "question": "In the context of Milgram's study, what does 'agentic state' refer to?",
+      "question": "Which study provided evidence for the role of legitimacy of authority in obedience?",
       "options": [
-        "A mental state where individuals see themselves as agents carrying out others' orders.",
-        "A state of confusion when individuals cannot make decisions.",
-        "A mental state characterized by complete independence from authority figures.",
-        "A psychological condition where individuals refuse to follow any orders."
+        "Milgram (1963)",
+        "Asch (1951)",
+        "Zimbardo (1973)",
+        "Sherif (1936)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Agentic state describes when individuals view themselves as executing orders from authority, not acting independently."
+      "explanation": "Milgram showed that the perceived legitimacy of the authority figure influenced obedience levels."
     },
     {
       "id": "obedience-q7",
-      "question": "What was a key ethical concern in Milgram's obedience study?",
+      "question": "Which of the following is NOT a factor affecting obedience according to Milgram's variations?",
       "options": [
-        "Participants were deceived about the true nature of the study.",
-        "The sample size was too small to generalize.",
-        "The study was not conducted in a laboratory setting.",
-        "Participants were not paid for their participation."
+        "Uniform",
+        "Proximity",
+        "Task difficulty",
+        "Location"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Deception about the shocks being real was a major ethical issue, raising concerns about informed consent."
+      "explanation": "Milgram's variations found that uniform, proximity, and location affected obedience, but not task difficulty."
     },
     {
       "id": "obedience-q8",
-      "question": "What does the term 'legitimacy of authority' imply in the context of obedience?",
+      "question": "What was the primary ethical concern raised by Milgram's obedience study?",
       "options": [
-        "The perception that an authority figure is justified and has the right to give orders.",
-        "The belief that authority figures are always correct.",
-        "The idea that people in authority are more knowledgeable.",
-        "The assumption that authority figures are morally superior."
+        "Deception",
+        "Sampling bias",
+        "Lack of ecological validity",
+        "Observer bias"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Legitimacy of authority refers to the perception that an authority figure has the legitimate right to give orders."
+      "explanation": "Milgram's study involved deception, as participants believed they were administering real shocks, raising ethical concerns."
     },
     {
       "id": "obedience-q9",
-      "question": "Which factor did not affect obedience in Milgram's variations?",
+      "question": "What concept suggests that people obey orders to maintain social harmony and avoid conflict?",
       "options": [
-        "The personality of the participant.",
-        "The proximity of the learner.",
-        "The setting of the experiment.",
-        "The presence of disobedient peers."
+        "Normative Social Influence",
+        "Informational Social Influence",
+        "Agentic Shift",
+        "Cognitive Dissonance"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Milgram's study focused on situational factors, not individual personality traits, influencing obedience."
+      "explanation": "Normative social influence involves conforming to others' expectations to be liked and accepted, which can apply to obedience."
     },
     {
       "id": "obedience-q10",
-      "question": "A teacher instructs students to follow a new rule, but one student refuses, citing a previous incident where the rule led to negative consequences. What factor is influencing the student's decision?",
+      "question": "A teacher instructs a student to stay late and clean the classroom, claiming it is a school policy. The student complies, believing the teacher has the authority. What concept does this scenario illustrate?",
       "options": [
-        "Past experience",
         "Legitimacy of authority",
-        "Agentic state",
-        "Social support"
+        "Autonomous state",
+        "Minority influence",
+        "Social loafing"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The student's decision is influenced by past experience, which affects their perception of the rule's value."
+      "explanation": "The scenario illustrates legitimacy of authority, where the student obeys due to believing the teacher has the right to give orders."
     },
     {
       "id": "obedience-q11",
-      "question": "A manager notices that employees are more likely to follow orders when she is present in the office. Which concept from Milgram's study does this scenario illustrate?",
+      "question": "During a fire drill, everyone obeys the safety officer's orders to exit the building quickly. This obedience is most likely due to:",
       "options": [
-        "Proximity of authority",
-        "Group pressure",
-        "Agentic state",
-        "Legitimacy of authority"
+        "Perceived authority and expertise",
+        "Fear of punishment",
+        "Desire for social approval",
+        "Personal conviction"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This scenario illustrates how the physical presence of an authority figure (proximity) increases obedience."
+      "explanation": "The obedience is due to the perceived authority and expertise of the safety officer in emergency situations."
     },
     {
       "id": "obedience-q12",
-      "question": "In a survey, people reported lower obedience to authority figures during remote work compared to in-office work. What could explain this based on Milgram's findings?",
+      "question": "In a hospital experiment, nurses obeyed a doctor's phone orders to administer a drug against hospital policy. This illustrates:",
       "options": [
-        "Decreased proximity of authority figures",
-        "Increased personal responsibility",
-        "More lenient work policies",
-        "Higher levels of autonomy"
+        "Agentic state",
+        "Informational influence",
+        "Legitimacy of authority",
+        "Minority influence"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO2",
-      "explanation": "Remote work decreases the physical proximity of authority figures, leading to lower obedience, as suggested by Milgram."
+      "explanation": "The nurses' obedience despite policy violations reflects legitimacy of authority, trusting the doctor's judgement."
     },
     {
       "id": "obedience-q13",
-      "question": "Which of the following is a valid critique of Milgram's obedience study?",
+      "question": "Which criticism is often leveled at Milgram's study regarding its setting?",
       "options": [
-        "The study lacked ecological validity due to its artificial laboratory setting.",
-        "The study's findings were not replicable in other cultural contexts.",
-        "It failed to measure any form of compliance accurately.",
-        "The study had a biased sample of female participants only."
+        "Lack of ecological validity",
+        "Unrepresentative sample",
+        "Observer bias",
+        "Unethical treatment of participants"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Milgram's study is critiqued for lacking ecological validity due to its artificial setting, affecting generalizability."
+      "explanation": "Milgram's study is criticized for lack of ecological validity as it was conducted in a lab setting, not reflecting real-world scenarios."
     },
     {
       "id": "obedience-q14",
-      "question": "How does Burger's (2009) replication of Milgram's study address ethical concerns?",
+      "question": "How can the findings of Milgram's study be generalized to real-world situations?",
       "options": [
-        "By implementing a maximum voltage of 150 volts.",
-        "By using a more diverse participant sample.",
-        "By conducting the study in a more natural setting.",
-        "By ensuring participants were unaware of the study's true nature."
+        "They demonstrate the power of situational factors in obedience",
+        "They show personality is more influential than situational factors",
+        "They confirm obedience is consistent across all cultures",
+        "They reveal that most people are inherently disobedient"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Burger addressed ethical concerns by stopping the experiment at 150 volts to reduce stress and ensure safety."
+      "explanation": "Milgram's study highlights situational factors, such as authority presence, as powerful influences on obedience."
     },
     {
       "id": "obedience-q15",
-      "question": "What is a significant difference between Milgram's original study and subsequent replications in terms of findings?",
+      "question": "Which of the following is a limitation of using volunteer sampling in Milgram's study?",
       "options": [
-        "Levels of obedience were lower in replications due to increased awareness of ethical issues.",
-        "Replications found higher levels of obedience due to more advanced experimental methods.",
-        "There was no difference in obedience levels between the original and replicated studies.",
-        "Replications showed that only specific personality types exhibited high obedience."
+        "It may not be representative of the general population",
+        "It leads to increased experimenter bias",
+        "It results in a lack of informed consent",
+        "It causes increased demand characteristics"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Awareness of ethical issues and societal changes have led to lower obedience levels in some replications compared to Milgram's original study."
+      "explanation": "Volunteer sampling can lead to an unrepresentative sample, as participants may share certain characteristics influencing results."
     }
   ]
 }

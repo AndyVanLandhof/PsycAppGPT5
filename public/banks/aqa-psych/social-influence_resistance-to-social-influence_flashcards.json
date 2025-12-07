@@ -5,106 +5,106 @@
   "subTopic": "resistance-to-social-influence",
   "subTopicTitle": "Resistance to social influence",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:11:58.608Z",
+  "generatedAt": "2025-12-07T18:24:40.440Z",
   "items": [
     {
-      "question": "What is social support in the context of resisting social influence?",
-      "answer": "Social support refers to the presence of others who resist pressures to conform or obey, providing a model for individuals to follow.",
+      "question": "What is social support in the context of resistance to social influence?",
+      "answer": "Social support refers to the presence of others who resist pressures to conform or obey, which can help individuals resist social influence themselves.",
       "ao": "AO1"
     },
     {
       "question": "Define locus of control.",
-      "answer": "Locus of control refers to how much individuals believe they can control events affecting them, categorized as internal (control over own life) or external (controlled by outside factors).",
+      "answer": "Locus of control is a personality trait that refers to the extent to which individuals believe they have control over the events in their lives.",
       "ao": "AO1"
     },
     {
-      "question": "What did Rotter (1966) find about locus of control?",
-      "answer": "Rotter found that individuals with an internal locus of control were more likely to resist social pressure compared to those with an external locus.",
+      "question": "What did Asch (1951) find about social support?",
+      "answer": "Asch found that the presence of a dissenting confederate reduced conformity rates significantly, demonstrating the role of social support in resistance.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define internal locus of control.",
+      "answer": "Internal locus of control is when individuals believe they have personal control over their lives and outcomes are a result of their actions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Milgram (1974) find about disobedient models?",
+      "answer": "Milgram found that the presence of disobedient peers reduced obedience rates, highlighting the impact of social support on resistance.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define external locus of control.",
+      "answer": "External locus of control is when individuals believe their lives are controlled by external factors, such as luck or other people.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Rotter (1966) propose about locus of control?",
+      "answer": "Rotter proposed that individuals with an internal locus of control are more likely to resist social influence due to a sense of personal responsibility.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Gamson et al. (1982) find about group resistance?",
+      "answer": "Gamson et al. found that groups were more likely to resist unjust authority compared to individuals, highlighting the role of social support in resistance.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the concept of minority influence.",
+      "answer": "Minority influence occurs when a smaller group influences the majority to accept the minority's beliefs or behavior, often leading to internalization.",
       "ao": "AO1"
     },
     {
       "question": "What is the role of consistency in minority influence?",
-      "answer": "Consistency in a minority's viewpoint can increase interest from others, leading to deeper processing and eventual social change.",
+      "answer": "Consistency in minority viewpoints can lead to increased interest and influence, as it signals commitment and confidence in the minority's beliefs.",
       "ao": "AO1"
     },
     {
-      "question": "What did Asch (1951) find about conformity and social support?",
-      "answer": "Asch found that the presence of a dissenting confederate reduced conformity rates from 32% to 5%, showing the effect of social support.",
+      "question": "What did Moscovici (1969) find about minority influence?",
+      "answer": "Moscovici found that a consistent minority could influence a majority in a color perception task, showing the power of consistency in minority influence.",
       "ao": "AO1"
     },
     {
-      "question": "Define minority influence.",
-      "answer": "Minority influence occurs when a smaller group or individual influences the majority to accept a new belief or behavior.",
+      "question": "What is the augmentation principle in social influence?",
+      "answer": "The augmentation principle suggests that if a minority demonstrates commitment by making personal sacrifices, it increases their influence over the majority.",
       "ao": "AO1"
     },
     {
-      "question": "What did Milgram (1963) find about obedience?",
-      "answer": "Milgram found that 65% of participants obeyed orders to administer the highest level of shocks, showing high levels of obedience to authority.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is the augmentation principle in minority influence?",
-      "answer": "The augmentation principle suggests that if a minority shows commitment through sacrifice or risk, it's more likely to influence the majority.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Moscovici et al. (1969) find about minority influence?",
-      "answer": "Moscovici found that a consistent minority could influence the majority to incorrectly identify blue slides as green in 8.42% of trials.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define obedience.",
-      "answer": "Obedience is the act of following orders or instructions from an authority figure.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is the snowball effect in social change?",
-      "answer": "The snowball effect describes how minority influence gradually gains momentum, leading to widespread social change as more people adopt the minority view.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is the role of flexibility in minority influence?",
-      "answer": "Flexibility refers to the minority's willingness to adapt and compromise, which can increase their influence over the majority.",
-      "ao": "AO1"
-    },
-    {
-      "question": "How does locus of control apply to this scenario: A student refuses to cheat despite peer pressure?",
-      "answer": "The student may have an internal locus of control, believing they control their actions and are not influenced by external pressures.",
+      "question": "How does internal locus of control apply to resisting peer pressure?",
+      "answer": "An individual with an internal locus of control is more likely to resist peer pressure as they feel responsible for their actions and outcomes.",
       "ao": "AO2"
     },
     {
-      "question": "Apply social support to this scenario: A worker refuses to participate in unethical practices after a colleague speaks out.",
-      "answer": "The presence of a dissenting colleague provides social support, reducing conformity pressures and encouraging ethical behavior.",
+      "question": "Apply social support to this scenario: A student refuses to cheat on a test despite peer pressure.",
+      "answer": "The student's resistance is strengthened by observing a classmate who also refuses to cheat, providing social support against peer pressure.",
       "ao": "AO2"
     },
     {
-      "question": "How does minority influence apply to environmental activism?",
-      "answer": "Consistent and committed environmental activists can gradually influence public opinion and policy, leading to increased environmental awareness and change.",
+      "question": "How does minority influence apply to social change movements?",
+      "answer": "Social change movements can succeed by maintaining consistency, commitment, and flexibility, gradually influencing the majority to adopt their views.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the snowball effect to this scenario: A new recycling initiative gains popularity in a community.",
-      "answer": "As more individuals adopt recycling, the behavior becomes widespread, with initial adopters influencing others, illustrating the snowball effect.",
+      "question": "Apply the augmentation principle to a protest leader's hunger strike.",
+      "answer": "The protest leader's hunger strike demonstrates commitment to their cause, strengthening their influence over others to support the movement.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of research on social support.",
-      "answer": "Research on social support, such as Asch's study, demonstrates its practical application in understanding and reducing conformity in real-world settings.",
+      "question": "Give one strength of Moscovici's (1969) study on minority influence.",
+      "answer": "A strength of Moscovici's study is its controlled laboratory setting, allowing for precise manipulation and measurement of variables, enhancing internal validity.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Milgram's (1963) study on obedience.",
-      "answer": "Milgram's study was criticized for ethical issues, including deception and psychological harm, but praised for its controlled environment and valuable insights into obedience.",
+      "question": "Evaluate the methodology of Asch's (1951) conformity study.",
+      "answer": "Asch's study is critiqued for artificiality and lack of ecological validity, as judgment tasks lack real-world significance, potentially affecting generalizability.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of research on locus of control.",
-      "answer": "Research on locus of control may be culturally biased, as the concept might not hold the same significance in collectivist cultures compared to individualistic ones.",
+      "question": "Give one limitation of the locus of control concept.",
+      "answer": "A limitation of locus of control is its oversimplification, as it doesn't account for situational factors influencing resistance to social influence.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Moscovici et al.'s (1969) study on minority influence.",
-      "answer": "Moscovici's study used artificial tasks, potentially limiting ecological validity, but provided valuable insights into the processes of minority influence.",
+      "question": "Evaluate the methodology of Milgram's (1974) obedience study.",
+      "answer": "Milgram's study is criticized for ethical issues, including deception and psychological stress, raising questions about participant welfare and informed consent.",
       "ao": "AO3"
     }
   ]

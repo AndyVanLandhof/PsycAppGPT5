@@ -5,106 +5,106 @@
   "subTopic": "multi-store-model",
   "subTopicTitle": "Multi-store model",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:13:35.504Z",
+  "generatedAt": "2025-12-07T18:25:08.761Z",
   "items": [
     {
       "question": "What is the multi-store model of memory?",
-      "answer": "The multi-store model is a linear model proposed by Atkinson and Shiffrin (1968) describing memory as composed of three stores: sensory register, short-term memory, and long-term memory.",
+      "answer": "The multi-store model is a theory by Atkinson & Shiffrin (1968) suggesting memory consists of three stores: sensory register, short-term memory (STM), and long-term memory (LTM).",
       "ao": "AO1"
     },
     {
       "question": "Define sensory register in the multi-store model.",
-      "answer": "The sensory register is the first store in the multi-store model where sensory information is held briefly, allowing for initial processing before it is transferred to short-term memory.",
+      "answer": "The sensory register is the initial stage of memory where sensory information is stored briefly before transferring to short-term memory, if attended to.",
       "ao": "AO1"
     },
     {
-      "question": "What did Miller (1956) find about short-term memory?",
-      "answer": "Miller (1956) discovered that short-term memory has a capacity of 7±2 items, suggesting it can hold between 5 and 9 pieces of information at a time.",
+      "question": "What is the duration of short-term memory according to the model?",
+      "answer": "Short-term memory has a duration of approximately 18-30 seconds without rehearsal.",
       "ao": "AO1"
     },
     {
-      "question": "How is information transferred from short-term to long-term memory?",
-      "answer": "Information is transferred from short-term to long-term memory through a process called rehearsal, which involves repeatedly practicing or reviewing the information.",
+      "question": "How is information transferred from STM to LTM?",
+      "answer": "Information is transferred from STM to LTM through rehearsal, especially elaborative rehearsal that involves deep processing of information.",
       "ao": "AO1"
     },
     {
-      "question": "Define long-term memory according to the multi-store model.",
-      "answer": "Long-term memory is the final store in the multi-store model, where information is held indefinitely with a potentially unlimited capacity and duration.",
+      "question": "What did Miller (1956) find about STM capacity?",
+      "answer": "Miller (1956) found that the capacity of short-term memory is 7±2 items or chunks of information.",
       "ao": "AO1"
     },
     {
-      "question": "What did Peterson and Peterson (1959) find about the duration of short-term memory?",
-      "answer": "Peterson and Peterson (1959) found that short-term memory has a brief duration of about 18-30 seconds without rehearsal.",
+      "question": "Define long-term memory in the multi-store model.",
+      "answer": "Long-term memory is the final stage in the multi-store model, where information is stored indefinitely and has a potentially unlimited capacity.",
       "ao": "AO1"
     },
     {
-      "question": "What is the role of attention in the multi-store model?",
-      "answer": "Attention is the process by which information in the sensory register is selectively focused on and transferred to short-term memory for further processing.",
+      "question": "What is the encoding process in STM?",
+      "answer": "In STM, encoding is primarily acoustic, meaning information is stored based on how it sounds.",
       "ao": "AO1"
     },
     {
-      "question": "What did Glanzer and Cunitz (1966) find about the serial position effect?",
-      "answer": "Glanzer and Cunitz (1966) found that when recalling a list of words, people tend to remember the first and last items better than those in the middle, demonstrating the primacy and recency effects.",
+      "question": "What is the encoding process in LTM?",
+      "answer": "In LTM, encoding is primarily semantic, meaning information is stored based on its meaning.",
       "ao": "AO1"
     },
     {
-      "question": "How does encoding differ in short-term and long-term memory?",
-      "answer": "Short-term memory primarily encodes information acoustically, while long-term memory encodes information semantically, based on meaning.",
+      "question": "What did Peterson & Peterson (1959) find about STM duration?",
+      "answer": "Peterson & Peterson (1959) found that STM duration is around 18 seconds without rehearsal.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley (1966) find about encoding in short-term memory?",
-      "answer": "Baddeley (1966) found that short-term memory is more likely to confuse acoustically similar words, suggesting it primarily encodes information acoustically.",
+      "question": "What role does attention play in the multi-store model?",
+      "answer": "Attention is crucial for transferring information from the sensory register to short-term memory.",
       "ao": "AO1"
     },
     {
-      "question": "What is retrieval according to the multi-store model?",
-      "answer": "Retrieval is the process of accessing and bringing information from long-term memory back to short-term memory for use.",
+      "question": "Define rehearsal in the context of the multi-store model.",
+      "answer": "Rehearsal involves the repeated practice of information to maintain it in STM and transfer it to LTM.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'chunking' in the context of memory.",
-      "answer": "Chunking is a memory technique that involves grouping individual pieces of information into larger, meaningful units, which can increase the capacity of short-term memory.",
+      "question": "What did Bahrick et al. (1975) find about LTM duration?",
+      "answer": "Bahrick et al. (1975) found that LTM can retain information for a lifetime, as shown by participants recalling classmates decades after graduation.",
       "ao": "AO1"
     },
     {
-      "question": "Apply the multi-store model to this scenario: A student remembers the first few items on a list better than the middle ones.",
-      "answer": "This scenario demonstrates the primacy effect, where items at the beginning of a list are better remembered due to longer rehearsal in short-term memory, enhancing transfer to long-term memory.",
+      "question": "Apply the multi-store model to this scenario: A student repeatedly reads notes to remember them for an exam.",
+      "answer": "The student uses rehearsal to transfer information from STM to LTM, as per the multi-store model.",
       "ao": "AO2"
     },
     {
-      "question": "How does the multi-store model apply to learning a new language?",
-      "answer": "Learning a language involves encoding vocabulary in short-term memory through rehearsal, which then transfers to long-term memory for retention and retrieval during conversations.",
+      "question": "How does the multi-store model explain forgetting in STM?",
+      "answer": "Forgetting in STM occurs due to decay of information without rehearsal or displacement by new information.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the multi-store model to this scenario: Forgetting a phone number quickly after hearing it.",
-      "answer": "This scenario illustrates the short duration of short-term memory, where information like a phone number is forgotten quickly if not rehearsed or transferred to long-term memory.",
+      "question": "Apply the multi-store model to a scenario where someone forgets a phone number after hearing it once.",
+      "answer": "The person did not rehearse the number, leading to forgetting due to STM's limited duration.",
       "ao": "AO2"
     },
     {
-      "question": "How does the multi-store model explain revising for an exam?",
-      "answer": "Revising involves rehearsing information in short-term memory, which strengthens the transfer and storage in long-term memory, improving retrieval during an exam.",
+      "question": "How does the multi-store model account for the primacy effect?",
+      "answer": "The primacy effect occurs as the first items received more rehearsal, transferring them to LTM.",
       "ao": "AO2"
     },
     {
       "question": "Give one strength of the multi-store model.",
-      "answer": "A strength of the multi-store model is its ability to explain the distinction between short-term and long-term memory, supported by evidence such as the serial position effect.",
+      "answer": "A strength is its empirical support from studies like Peterson & Peterson (1959), which confirm the distinct duration and capacity of STM.",
       "ao": "AO3"
     },
     {
       "question": "Give one limitation of the multi-store model.",
-      "answer": "A limitation of the multi-store model is its oversimplification of memory processes, ignoring the complexity of interactions between different memory stores and processes like retrieval.",
+      "answer": "A limitation is that it oversimplifies memory processes and doesn't account for the complexity of STM, such as shown in Baddeley's working memory model.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Peterson and Peterson (1959).",
-      "answer": "Peterson and Peterson's (1959) study used a controlled lab experiment, providing reliable results but lacking ecological validity due to artificial tasks that may not reflect real-world memory use.",
+      "question": "Evaluate the methodology of Miller's (1956) study on STM.",
+      "answer": "Miller's study used controlled lab conditions, providing reliable results, but it lacks ecological validity as the tasks don't reflect real-life memory use.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Glanzer and Cunitz (1966).",
-      "answer": "Glanzer and Cunitz (1966) used a lab experiment, affirming the serial position effect, but the artificial setting may limit generalizability to everyday memory tasks.",
+      "question": "Evaluate the methodology of Peterson & Peterson's (1959) study.",
+      "answer": "Their study had high control over variables, providing reliable data on STM duration, but artificial tasks may not represent everyday memory processes.",
       "ao": "AO3"
     }
   ]

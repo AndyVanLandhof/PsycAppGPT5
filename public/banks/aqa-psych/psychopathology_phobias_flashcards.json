@@ -5,106 +5,106 @@
   "subTopic": "phobias",
   "subTopicTitle": "Phobias",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:34:44.130Z",
+  "generatedAt": "2025-12-07T18:30:33.105Z",
   "items": [
     {
       "question": "What is a phobia?",
-      "answer": "A phobia is an anxiety disorder characterized by an irrational and persistent fear of an object, situation, or activity.",
+      "answer": "A phobia is an irrational fear of an object or situation that is disproportionate to the actual danger posed.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'specific phobia'.",
-      "answer": "A specific phobia is an intense, irrational fear of a specific object or situation, such as spiders or flying.",
+      "question": "Define 'agoraphobia'.",
+      "answer": "Agoraphobia is the fear of being in situations where escape might be difficult or help unavailable, often leading to avoidance of open or crowded spaces.",
       "ao": "AO1"
     },
     {
-      "question": "What did Menzies and Clarke (1993) find about phobias?",
-      "answer": "Menzies and Clarke (1993) found that many phobias are acquired through classical conditioning and maintained through operant conditioning.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define 'social phobia'.",
-      "answer": "Social phobia, or social anxiety disorder, is the fear of social situations where one might be embarrassed or judged.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is agoraphobia?",
-      "answer": "Agoraphobia is the fear of being in situations where escape might be difficult or help unavailable, often leading to avoidance of places.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define 'classical conditioning' in the context of phobias.",
-      "answer": "Classical conditioning is a learning process where a neutral stimulus becomes associated with a fear response, contributing to phobia development.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What role does operant conditioning play in phobias?",
-      "answer": "Operant conditioning maintains phobias through negative reinforcement, where avoiding the phobic stimulus reduces anxiety, reinforcing avoidance behavior.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Watson and Rayner (1920) demonstrate with Little Albert?",
-      "answer": "Watson and Rayner (1920) demonstrated that phobias could be conditioned in humans by associating a neutral stimulus with a frightening event.",
+      "question": "What did Watson and Rayner (1920) find about phobias?",
+      "answer": "Watson and Rayner demonstrated that phobias could be classically conditioned in their study with Little Albert, who developed a fear of white rats.",
       "ao": "AO1"
     },
     {
       "question": "Define 'systematic desensitization'.",
-      "answer": "Systematic desensitization is a behavioral therapy technique that reduces phobic anxiety through gradual exposure to the feared object or situation.",
+      "answer": "Systematic desensitization is a behavioral therapy that reduces phobic anxiety through gradual exposure to the feared stimulus paired with relaxation techniques.",
       "ao": "AO1"
     },
     {
-      "question": "What is flooding therapy?",
-      "answer": "Flooding is a behavioral therapy that exposes patients to their phobic stimulus without gradual buildup to extinguish the fear response quickly.",
+      "question": "What is 'flooding' in the treatment of phobias?",
+      "answer": "Flooding is a behavioral treatment for phobias involving immediate and intense exposure to the phobic stimulus without gradual buildup, aiming to extinguish the fear response.",
       "ao": "AO1"
     },
     {
-      "question": "What did Öst (1987) find about flooding?",
-      "answer": "Öst (1987) found flooding to be an effective treatment for phobias, with rapid exposure leading to quick extinction of the fear response.",
+      "question": "What did Mowrer (1947) propose about phobia acquisition?",
+      "answer": "Mowrer proposed the two-process model, suggesting phobias are acquired through classical conditioning and maintained through operant conditioning.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'preparedness' in the context of phobias.",
+      "answer": "Preparedness is the evolutionary predisposition to develop certain phobias more easily because they historically posed threats to survival.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is 'social phobia'?",
+      "answer": "Social phobia, or social anxiety disorder, is an intense fear of social situations due to concerns about being judged or embarrassed.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Ost et al. (1991) find about genetic factors in phobias?",
+      "answer": "Ost et al. found a higher concordance rate for blood-injection-injury phobia in identical twins compared to fraternal twins, suggesting a genetic component.",
       "ao": "AO1"
     },
     {
       "question": "Define 'cognitive-behavioral therapy' (CBT) for phobias.",
-      "answer": "CBT for phobias involves changing maladaptive thoughts and behaviors associated with the phobic stimulus, combining cognitive restructuring with exposure techniques.",
+      "answer": "CBT for phobias involves altering distorted thoughts about the feared object or situation, combined with exposure to reduce anxiety.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is 'virtual reality exposure therapy'?",
+      "answer": "Virtual reality exposure therapy uses VR technology to simulate phobic situations, allowing safe, controlled exposure to reduce anxiety.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Di Nardo et al. (1988) find about phobias?",
+      "answer": "Di Nardo et al. found that not everyone who experiences a traumatic event develops a phobia, indicating that cognitive factors may play a role.",
       "ao": "AO1"
     },
     {
       "question": "How does classical conditioning apply to a fear of dogs?",
-      "answer": "A person bitten by a dog may develop a fear of dogs through classical conditioning, associating dogs (neutral stimulus) with pain and fear (unconditioned response).",
+      "answer": "A person may associate a neutral stimulus (dog) with an unconditioned stimulus (bite) that produces fear, leading to a conditioned fear response to dogs.",
       "ao": "AO2"
     },
     {
-      "question": "Apply operant conditioning to this scenario: A person avoids elevators due to claustrophobia.",
-      "answer": "Avoiding elevators reduces anxiety, negatively reinforcing the avoidance behavior, thus maintaining the phobia through operant conditioning.",
+      "question": "Apply systematic desensitization to a fear of flying.",
+      "answer": "Systematic desensitization for flying would involve creating a fear hierarchy, starting with imagining a plane and gradually progressing to boarding a flight, paired with relaxation techniques.",
       "ao": "AO2"
     },
     {
-      "question": "How does systematic desensitization apply to a fear of heights?",
-      "answer": "A person gradually exposed to increasing heights, starting with pictures and moving to real situations, learns to manage anxiety through relaxation techniques.",
+      "question": "How might operant conditioning maintain a fear of heights?",
+      "answer": "Avoiding heights reduces anxiety, negatively reinforcing avoidance behavior, thereby maintaining the phobia through operant conditioning.",
       "ao": "AO2"
     },
     {
-      "question": "Apply cognitive-behavioral therapy to a fear of public speaking.",
-      "answer": "CBT helps a person identify irrational thoughts about public speaking and gradually exposes them to speaking situations to reduce anxiety.",
+      "question": "Apply the concept of preparedness to explain a fear of snakes.",
+      "answer": "A fear of snakes may be explained by evolutionary preparedness, as snakes posed a historical threat, making individuals more prone to develop this phobia.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of systematic desensitization.",
-      "answer": "Systematic desensitization is effective for a wide range of phobias, with a high success rate due to gradual exposure and relaxation techniques.",
+      "question": "Give one strength of the two-process model.",
+      "answer": "The two-process model is supported by empirical evidence, such as Watson and Rayner's study, demonstrating the role of conditioning in phobia acquisition.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of flooding therapy.",
-      "answer": "Flooding can be highly distressing and traumatic for phobia patients, leading to potential dropouts and ethical concerns regarding patient welfare.",
+      "question": "Evaluate the methodology of Watson and Rayner (1920).",
+      "answer": "Watson and Rayner's study lacked ethical standards, as Little Albert was subjected to distress without informed consent or debriefing, raising ethical concerns.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Watson and Rayner's (1920) study.",
-      "answer": "Watson and Rayner's study lacked ecological validity and had ethical issues, as it deliberately induced fear in a child without informed consent.",
+      "question": "Give one limitation of systematic desensitization.",
+      "answer": "Systematic desensitization may not address underlying cognitive factors, limiting its effectiveness for phobias with cognitive components beyond behavioral symptoms.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of the behavioral approach to phobias.",
-      "answer": "The behavioral approach neglects cognitive factors, focusing solely on observable behavior, which may oversimplify complex phobic responses.",
+      "question": "Evaluate the use of flooding in treating phobias.",
+      "answer": "Flooding can be highly effective and fast but may cause significant distress, leading to ethical concerns and high dropout rates due to its intensity.",
       "ao": "AO3"
     }
   ]

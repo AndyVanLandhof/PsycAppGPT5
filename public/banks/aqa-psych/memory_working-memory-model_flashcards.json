@@ -5,106 +5,106 @@
   "subTopic": "working-memory-model",
   "subTopicTitle": "Working memory model",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:14:12.724Z",
+  "generatedAt": "2025-12-07T18:25:25.687Z",
   "items": [
     {
       "question": "What is the working memory model?",
-      "answer": "A model proposed by Baddeley and Hitch (1974) to replace the short-term memory store with multiple components handling different information types.",
+      "answer": "Proposed by Baddeley and Hitch (1974), it describes a multi-component system for temporary storage and manipulation of information.",
       "ao": "AO1"
     },
     {
       "question": "Define the central executive in the working memory model.",
-      "answer": "The central executive is responsible for directing attention and processing resources to various slave systems in the working memory model.",
+      "answer": "The central executive is the component that directs attention and coordinates the activities of the other components.",
       "ao": "AO1"
     },
     {
-      "question": "What is the function of the phonological loop?",
-      "answer": "The phonological loop processes auditory information and preserves the order of information through its phonological store and articulatory control process.",
+      "question": "What is the phonological loop?",
+      "answer": "The phonological loop is a component of working memory that deals with auditory information and language.",
       "ao": "AO1"
     },
     {
       "question": "Define the visuo-spatial sketchpad.",
-      "answer": "The visuo-spatial sketchpad stores visual and spatial information and is used for navigation and the manipulation of visual images.",
+      "answer": "The visuo-spatial sketchpad is a component that processes visual and spatial information, often referred to as the 'inner eye'.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley et al. (1975) find about word length effect?",
-      "answer": "Shorter words are recalled more easily than longer words due to the phonological loop's limited capacity, known as the word length effect.",
+      "question": "What is the episodic buffer?",
+      "answer": "Introduced by Baddeley (2000), the episodic buffer integrates information from other components and long-term memory into a single complex structure.",
       "ao": "AO1"
     },
     {
-      "question": "What role does the episodic buffer play?",
-      "answer": "Introduced by Baddeley in 2000, the episodic buffer integrates information from the phonological loop, visuo-spatial sketchpad, and long-term memory.",
+      "question": "What did Baddeley et al. (1975) find about the phonological loop?",
+      "answer": "They found that people have difficulty remembering lists of long words compared to short words, supporting the phonological loop's capacity limitation.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define articulatory suppression.",
+      "answer": "Articulatory suppression involves repeating an irrelevant sound, preventing rehearsal in the phonological loop, thereby impairing memory performance.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What evidence supports the visuo-spatial sketchpad?",
+      "answer": "Baddeley and Hitch (1974) showed that participants struggled with simultaneous visual and spatial tasks, indicating separate processing resources.",
       "ao": "AO1"
     },
     {
       "question": "What did Logie (1995) propose about the visuo-spatial sketchpad?",
-      "answer": "Logie proposed that the visuo-spatial sketchpad consists of a visual cache for shape and color, and an inner scribe for spatial and movement information.",
+      "answer": "Logie suggested it consists of two parts: the visual cache (stores information) and the inner scribe (processes spatial and movement information).",
       "ao": "AO1"
     },
     {
-      "question": "Define the articulatory suppression effect.",
-      "answer": "Articulatory suppression is the interference with the phonological loop's function by repeating irrelevant sounds, which hinders verbal memory tasks.",
+      "question": "What is the role of the episodic buffer?",
+      "answer": "It serves as a temporary store that integrates information from different sources and maintains a sense of time sequencing.",
       "ao": "AO1"
     },
     {
-      "question": "What did Baddeley et al. (1973) find about dual-task performance?",
-      "answer": "Baddeley et al. found that performing two tasks simultaneously is easier when they use different components of the working memory model.",
+      "question": "How does the working memory model differ from the multi-store model?",
+      "answer": "Unlike the unitary short-term memory in the multi-store model, the working memory model proposes multiple components for processing different information types.",
       "ao": "AO1"
     },
     {
-      "question": "What is the capacity of the phonological loop?",
-      "answer": "The phonological loop has a limited capacity, typically enough to hold about 2 seconds worth of spoken information.",
+      "question": "What is dual-task performance in the working memory model?",
+      "answer": "Dual-task performance involves performing two tasks simultaneously, supporting separate components in working memory when tasks don't interfere.",
       "ao": "AO1"
     },
     {
-      "question": "Define 'slave systems' in the working memory model.",
-      "answer": "Slave systems are components of the working memory model, including the phonological loop and visuo-spatial sketchpad, that are controlled by the central executive.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Baddeley (1996) suggest about the central executive's role in attention?",
-      "answer": "Baddeley suggested that the central executive's role is akin to a supervisor, managing attention and switching between tasks.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Apply the working memory model to this scenario: A student struggles to follow verbal instructions while copying diagrams.",
-      "answer": "The student's difficulty suggests a limited capacity in the phonological loop and visuo-spatial sketchpad, highlighting the need for separate processing of auditory and visual information.",
+      "question": "Apply the working memory model to this scenario: A student struggles to listen to a lecture while taking detailed notes.",
+      "answer": "This scenario illustrates the limited capacity of the central executive, which struggles to divide attention between auditory and manual tasks.",
       "ao": "AO2"
     },
     {
-      "question": "How does the working memory model apply to multitasking?",
-      "answer": "Multitasking is more efficient when tasks use different components of the working memory model, reducing interference within a single component.",
+      "question": "How does the phonological loop apply to learning a new language?",
+      "answer": "The phonological loop aids in learning new vocabulary by temporarily storing and rehearsing sounds, facilitating language acquisition.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of articulatory suppression to a scenario where a person repeats a word while memorizing a list.",
-      "answer": "Repeating a word while memorizing a list uses the articulatory control process, hindering the phonological loop's ability to process the list, leading to reduced recall.",
+      "question": "Apply the visuo-spatial sketchpad to a scenario: Navigating a new city using a map.",
+      "answer": "The visuo-spatial sketchpad allows processing of spatial information from the map, assisting in navigation and orientation.",
       "ao": "AO2"
     },
     {
-      "question": "How does the episodic buffer apply to integrating information from multiple sources?",
-      "answer": "The episodic buffer integrates information from the phonological loop, visuo-spatial sketchpad, and long-term memory, facilitating comprehensive understanding and recall.",
+      "question": "How does the episodic buffer apply to reading a novel?",
+      "answer": "The episodic buffer integrates textual information with existing knowledge, allowing readers to create a cohesive narrative understanding.",
       "ao": "AO2"
     },
     {
       "question": "Give one strength of the working memory model.",
-      "answer": "The working memory model is supported by dual-task studies showing separate processing systems, providing a detailed understanding of short-term memory functions.",
+      "answer": "It offers a more detailed explanation of short-term memory processes compared to the multi-store model, supported by experimental evidence.",
       "ao": "AO3"
     },
     {
       "question": "Give one limitation of the working memory model.",
-      "answer": "The model lacks clarity on the central executive's exact functioning, leading to criticism of its vagueness and undefined processes.",
+      "answer": "The central executive's exact function remains vague and difficult to test experimentally, indicating an incomplete understanding.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Baddeley et al.'s (1975) word length effect study.",
-      "answer": "The study's controlled lab setting ensures high internal validity but lacks ecological validity, as tasks may not represent real-world memory use.",
+      "question": "Evaluate the methodology of Baddeley et al. (1975) study on word length effect.",
+      "answer": "The controlled lab setting provides strong internal validity, but artificial tasks limit ecological validity and generalization.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Baddeley et al.'s (1973) dual-task study.",
-      "answer": "The study's experimental design provides strong evidence for separate processing systems but may not account for individual differences in multitasking ability.",
+      "question": "Evaluate the methodology of dual-task studies in working memory research.",
+      "answer": "Dual-task studies demonstrate processing capacity, but often use artificial stimuli, limiting ecological validity and real-world application.",
       "ao": "AO3"
     }
   ]

@@ -5,11 +5,21 @@
   "subTopic": "data-handling-analysis",
   "subTopicTitle": "Data handling and analysis",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:40:19.651Z",
+  "generatedAt": "2025-12-07T18:32:16.014Z",
   "items": [
     {
-      "question": "What is a mean in data analysis?",
-      "answer": "The mean is the average of a set of numbers, calculated by adding all the numbers together and dividing by the count of numbers.",
+      "question": "What is quantitative data?",
+      "answer": "Quantitative data is numerical information that can be measured and quantified, allowing for statistical analysis.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define qualitative data.",
+      "answer": "Qualitative data is non-numerical information that provides descriptive insights into participants' thoughts, feelings, and experiences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a mean?",
+      "answer": "The mean is the average of a set of numbers, calculated by dividing the sum of all values by the number of values.",
       "ao": "AO1"
     },
     {
@@ -19,92 +29,82 @@
     },
     {
       "question": "What did Milgram (1963) find about obedience?",
-      "answer": "Milgram found that 65% of participants administered the highest shock level, demonstrating high levels of obedience to authority.",
+      "answer": "Milgram (1963) found that 65% of participants administered the maximum 450-volt shock, demonstrating high levels of obedience to authority.",
       "ao": "AO1"
     },
     {
-      "question": "What is a null hypothesis?",
-      "answer": "A null hypothesis is a statement suggesting no effect or relationship between variables, used as a default assumption until evidence suggests otherwise.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define qualitative data.",
-      "answer": "Qualitative data is non-numerical information that captures qualities or characteristics, often collected through interviews or observations.",
+      "question": "Define correlation coefficient.",
+      "answer": "A correlation coefficient is a statistical measure that expresses the extent to which two variables are linearly related, ranging from -1 to +1.",
       "ao": "AO1"
     },
     {
       "question": "What is a case study?",
-      "answer": "A case study is an in-depth investigation of a single individual, group, or event to explore causation and find underlying principles.",
+      "answer": "A case study is an in-depth investigation of an individual, group, or event, providing detailed qualitative data.",
       "ao": "AO1"
     },
     {
-      "question": "What is the purpose of a pilot study?",
-      "answer": "A pilot study aims to test the feasibility, time, cost, risk, and adverse events in a small scale before a full-scale research project.",
+      "question": "Define reliability.",
+      "answer": "Reliability refers to the consistency of a research study or measuring test, producing similar results under consistent conditions.",
       "ao": "AO1"
     },
     {
-      "question": "Define reliability in psychological research.",
-      "answer": "Reliability refers to the consistency of a measure; a test is reliable if it produces similar results under consistent conditions.",
+      "question": "What is validity?",
+      "answer": "Validity refers to the extent to which a test measures what it claims to measure.",
       "ao": "AO1"
     },
     {
-      "question": "What is content analysis?",
-      "answer": "Content analysis is a research technique used to make replicable and valid inferences by interpreting and coding textual material.",
+      "question": "What did Loftus and Palmer (1974) find about memory?",
+      "answer": "Loftus and Palmer (1974) found that the wording of questions can influence eyewitness testimony, altering participants' recall of events.",
       "ao": "AO1"
     },
     {
-      "question": "What did Loftus and Palmer (1974) study?",
-      "answer": "Loftus and Palmer studied the effect of leading questions on eyewitness testimony, finding that wording can distort memory recall.",
+      "question": "Define independent variable.",
+      "answer": "An independent variable is the variable manipulated by the researcher to observe its effect on the dependent variable.",
       "ao": "AO1"
     },
     {
-      "question": "Define the term 'confounding variable'.",
-      "answer": "A confounding variable is an outside influence that changes the effect of a dependent and independent variable, threatening internal validity.",
+      "question": "What is a dependent variable?",
+      "answer": "A dependent variable is the variable being tested and measured in an experiment, affected by changes in the independent variable.",
       "ao": "AO1"
     },
     {
-      "question": "What is an operational definition?",
-      "answer": "An operational definition specifies the precise procedure for measuring a variable, ensuring clarity and replicability in research.",
-      "ao": "AO1"
-    },
-    {
-      "question": "How does random sampling apply to a study on stress?",
-      "answer": "Random sampling ensures each person in the target population has an equal chance of selection, minimizing bias in stress level results.",
+      "question": "How does random sampling apply to research?",
+      "answer": "Random sampling ensures each member of the population has an equal chance of being selected, reducing sampling bias.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of demand characteristics to this scenario: A researcher observes participants who know they are being studied.",
-      "answer": "Participants may alter their behavior due to awareness of being observed, potentially skewing the study's results due to demand characteristics.",
+      "question": "Apply the concept of operationalization to this scenario: Measuring stress in students.",
+      "answer": "Operationalization involves defining stress in measurable terms, such as using a standardized stress questionnaire or measuring cortisol levels.",
       "ao": "AO2"
     },
     {
-      "question": "How does counterbalancing apply to a repeated measures design?",
-      "answer": "Counterbalancing addresses order effects by varying the sequence of conditions for participants, enhancing the study's internal validity.",
+      "question": "How does counterbalancing apply to repeated measures designs?",
+      "answer": "Counterbalancing is used in repeated measures designs to control for order effects by varying the sequence of conditions for participants.",
       "ao": "AO2"
     },
     {
-      "question": "Apply the concept of ecological validity to a laboratory experiment on memory.",
-      "answer": "Ecological validity assesses how well the experiment's results generalize to real-world memory scenarios outside the lab setting.",
+      "question": "Apply the concept of demand characteristics to this scenario: Participants in a lab setting.",
+      "answer": "Participants may alter their behavior due to perceived expectations in a lab setting, influenced by demand characteristics.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of using a double-blind procedure.",
-      "answer": "A double-blind procedure reduces bias, as neither participants nor researchers are aware of group assignments, enhancing the study's validity.",
+      "question": "Give one strength of using quantitative data.",
+      "answer": "Quantitative data allows for statistical analysis, making it easier to identify patterns and generalize findings.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Bandura et al.'s (1961) study.",
-      "answer": "The lab setting of Bandura's study on aggression offers control over variables but lacks ecological validity due to artificiality.",
+      "question": "Evaluate the methodology of Bandura et al. (1961).",
+      "answer": "Bandura's study has high control over variables but lacks ecological validity due to its artificial setting.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of using self-report measures.",
-      "answer": "Self-report measures can be biased due to social desirability, where participants may answer in a way they deem favorable.",
+      "question": "Give one limitation of using qualitative data.",
+      "answer": "Qualitative data can be subjective and harder to replicate, potentially leading to bias in interpretation.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the use of longitudinal studies in psychological research.",
-      "answer": "Longitudinal studies provide data on changes over time but are time-consuming and may suffer from participant attrition affecting results.",
+      "question": "Evaluate the use of case studies in psychological research.",
+      "answer": "Case studies provide detailed insights but lack generalizability due to the focus on a single subject or event.",
       "ao": "AO3"
     }
   ]
