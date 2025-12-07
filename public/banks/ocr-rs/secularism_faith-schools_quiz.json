@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "secularism",
+  "topicTitle": "Secularism",
+  "subTopic": "faith-schools",
+  "subTopicTitle": "Faith in Public Education",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T17:01:21.781Z",
+  "items": [
+    {
+      "id": "faith-schools-q1",
+      "question": "Which concept refers to the idea that religion should be excluded from public education and kept a private matter?",
+      "options": [
+        "Secularism",
+        "Pluralism",
+        "Fundamentalism",
+        "Multiculturalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Secularism advocates for the separation of religion from civic affairs and public education."
+    },
+    {
+      "id": "faith-schools-q2",
+      "question": "Who is the author of the book 'The Secular Age' that discusses the move from a society where belief in God is unchallenged to one in which it is one option among others?",
+      "options": [
+        "Charles Taylor",
+        "Richard Dawkins",
+        "Alister McGrath",
+        "Karen Armstrong"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Charles Taylor's 'The Secular Age' (2007) explores the shift in societal attitudes towards religion."
+    },
+    {
+      "id": "faith-schools-q3",
+      "question": "In which year was the Education Act, which allowed religious education in schools, passed in the United Kingdom?",
+      "options": [
+        "1944",
+        "1965",
+        "1979",
+        "1992"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Education Act of 1944, also known as the Butler Act, introduced compulsory religious education in schools."
+    },
+    {
+      "id": "faith-schools-q4",
+      "question": "What is the term for the coexistence of multiple religious traditions within a single school curriculum?",
+      "options": [
+        "Multifaith education",
+        "Mono-religious education",
+        "Secular education",
+        "Exclusive education"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Multifaith education involves teaching about various religious traditions within the school curriculum."
+    },
+    {
+      "id": "faith-schools-q5",
+      "question": "Who argued that secularism in education can lead to a more inclusive society by reducing religious conflicts?",
+      "options": [
+        "John Rawls",
+        "Karl Marx",
+        "Emile Durkheim",
+        "Sigmund Freud"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Rawls suggested that secularism in public institutions promotes inclusivity and reduces religious tensions."
+    },
+    {
+      "id": "faith-schools-q6",
+      "question": "Which study suggested that secular education systems tend to produce students with higher levels of critical thinking?",
+      "options": [
+        "Davies et al. (2014)",
+        "Smith & Jones (2003)",
+        "Brown & Johnson (2008)",
+        "Taylor & Green (2010)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Davies et al. (2014) found that secular education systems encourage critical thinking and independent learning."
+    },
+    {
+      "id": "faith-schools-q7",
+      "question": "Which philosopher is known for the statement 'Religion is the opium of the people' that supports the idea of secularism?",
+      "options": [
+        "Karl Marx",
+        "Friedrich Nietzsche",
+        "John Stuart Mill",
+        "Jean-Jacques Rousseau"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Marx's critique of religion as an 'opium' supports secularism by challenging religious influence in societal structures."
+    },
+    {
+      "id": "faith-schools-q8",
+      "question": "Which of the following is a key argument for maintaining religious education within public schools?",
+      "options": [
+        "Cultural heritage",
+        "Economic efficiency",
+        "Political stability",
+        "Technological advancement"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cultural heritage is often cited as a reason to include religious education, helping students understand their cultural identity."
+    },
+    {
+      "id": "faith-schools-q9",
+      "question": "What is the primary purpose of secular education according to proponents?",
+      "options": [
+        "To promote social cohesion",
+        "To preserve religious traditions",
+        "To advance economic growth",
+        "To improve technological skills"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Proponents argue that secular education promotes social cohesion by fostering a neutral environment free from religious bias."
+    },
+    {
+      "id": "faith-schools-q10",
+      "question": "A school decides to replace religious assemblies with ethical discussions. Which aspect of secularism does this best illustrate?",
+      "options": [
+        "Separation of church and state",
+        "Freedom of expression",
+        "Promotion of atheism",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This change illustrates the separation of church and state by removing religious practices from public education."
+    },
+    {
+      "id": "faith-schools-q11",
+      "question": "A parent argues that the presence of religious symbols in a public school violates secular principles. Which principle is likely being referenced?",
+      "options": [
+        "Neutrality",
+        "Inclusivity",
+        "Pluralism",
+        "Diversity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The principle of neutrality is at stake, as secular principles demand that public spaces should not favor any particular religion."
+    },
+    {
+      "id": "faith-schools-q12",
+      "question": "A study finds that students from secular schools score higher in science but lower in religious knowledge. What does this suggest about secular education?",
+      "options": [
+        "It prioritizes scientific literacy",
+        "It fails in moral education",
+        "It excludes all religious content",
+        "It promotes scientific atheism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The findings suggest that secular education focuses more on scientific literacy, potentially at the expense of religious knowledge."
+    },
+    {
+      "id": "faith-schools-q13",
+      "question": "What is a potential criticism of secularism in education according to critics?",
+      "options": [
+        "Loss of cultural identity",
+        "Lack of technological skills",
+        "Inadequate economic focus",
+        "Reduced political engagement"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that secularism may lead to a loss of cultural identity by minimizing the role of religious traditions in education."
+    },
+    {
+      "id": "faith-schools-q14",
+      "question": "How might secularism in education be critiqued from a multicultural perspective?",
+      "options": [
+        "It marginalizes religious minorities",
+        "It enhances cultural understanding",
+        "It promotes global citizenship",
+        "It supports cultural integration"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "From a multicultural perspective, secularism can be critiqued for potentially marginalizing religious minorities by not accommodating diverse religious practices."
+    },
+    {
+      "id": "faith-schools-q15",
+      "question": "What is a common argument against the secularization of education from a religious standpoint?",
+      "options": [
+        "It erodes moral values",
+        "It enhances religious tolerance",
+        "It improves educational quality",
+        "It increases student autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious critics often argue that secularization erodes moral values traditionally taught through religious education."
+    }
+  ]
+}

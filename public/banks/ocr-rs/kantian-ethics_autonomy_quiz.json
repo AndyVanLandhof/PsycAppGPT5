@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "autonomy",
+  "subTopicTitle": "Moral Autonomy",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:46:18.365Z",
+  "items": [
+    {
+      "id": "autonomy-q1",
+      "question": "What is Immanuel Kant's definition of 'moral autonomy'?",
+      "options": [
+        "The ability to make decisions based on personal moral laws one has given oneself.",
+        "The capacity to act according to desires and inclinations.",
+        "Following societal norms and rules as a basis for moral decision-making.",
+        "Relying on religious texts for moral guidance."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant defined moral autonomy as the ability to legislate one's own moral laws, acting according to the categorical imperative."
+    },
+    {
+      "id": "autonomy-q2",
+      "question": "Which work by Kant primarily addresses the concept of moral autonomy?",
+      "options": [
+        "Groundwork for the Metaphysics of Morals",
+        "Critique of Pure Reason",
+        "Prolegomena to Any Future Metaphysics",
+        "Religion within the Bounds of Bare Reason"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's 'Groundwork for the Metaphysics of Morals' is where he extensively develops his idea of moral autonomy and duty."
+    },
+    {
+      "id": "autonomy-q3",
+      "question": "How does Kant's idea of autonomy differ from heteronomy?",
+      "options": [
+        "Autonomy involves self-legislation, whereas heteronomy involves external influence.",
+        "Autonomy relies on external laws, while heteronomy is self-imposed.",
+        "Autonomy is based on emotions, whereas heteronomy is based on reason.",
+        "Autonomy is following societal rules, while heteronomy is acting independently."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant distinguishes autonomy as self-legislated moral law, while heteronomy involves being governed by external factors."
+    },
+    {
+      "id": "autonomy-q4",
+      "question": "Which of the following best illustrates Kant's concept of duty?",
+      "options": [
+        "Helping others out of a sense of moral obligation, not personal gain.",
+        "Acting kindly because it makes you feel good.",
+        "Donating to charity for social recognition.",
+        "Following the law to avoid punishment."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kantian duty involves performing actions out of moral obligation, independent of personal desires or external rewards."
+    },
+    {
+      "id": "autonomy-q5",
+      "question": "What is the role of the categorical imperative in moral autonomy?",
+      "options": [
+        "It serves as a universal law that guides autonomous moral decision-making.",
+        "It dictates actions based on individual preferences.",
+        "It encourages actions that maximize personal happiness.",
+        "It guides decisions according to societal expectations."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The categorical imperative is central to Kantian ethics as it provides a universal principle for autonomous moral decisions."
+    },
+    {
+      "id": "autonomy-q6",
+      "question": "Which philosopher critiqued Kant's moral autonomy by emphasizing the role of emotions in moral decision-making?",
+      "options": [
+        "David Hume",
+        "Jeremy Bentham",
+        "John Stuart Mill",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume critiqued Kantian ethics by arguing that emotions, not pure reason, play a critical role in moral decision-making."
+    },
+    {
+      "id": "autonomy-q7",
+      "question": "What does Kant mean by 'ends in themselves'?",
+      "options": [
+        "Humans should be treated with intrinsic value, not merely as means to an end.",
+        "Goals that are achieved through personal desires.",
+        "Outcomes that are determined by societal norms.",
+        "Things that are valued for their utility."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's concept of 'ends in themselves' refers to treating individuals with intrinsic value, respecting their autonomy and dignity."
+    },
+    {
+      "id": "autonomy-q8",
+      "question": "In Kantian ethics, what is the significance of 'universalizability'?",
+      "options": [
+        "An action is morally right if it can be universally applied without contradiction.",
+        "An action is right if it benefits the majority.",
+        "An action is justified if it aligns with cultural values.",
+        "An action is ethical if it brings personal satisfaction."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's principle of universalizability holds that for an action to be moral, it must be applicable as a universal law."
+    },
+    {
+      "id": "autonomy-q9",
+      "question": "Which study examined the practical application of Kantian ethics in business decision-making?",
+      "options": [
+        "Crane and Matten (2007)",
+        "Milgram (1963)",
+        "Asch (1951)",
+        "Zimbardo (1971)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Crane and Matten (2007) explored the application of Kantian ethics in business, focusing on ethical decision-making frameworks."
+    },
+    {
+      "id": "autonomy-q10",
+      "question": "A company chooses to implement fair labor practices worldwide, despite higher costs, based on Kantian ethics. What principle are they following?",
+      "options": [
+        "Treating workers as ends in themselves.",
+        "Maximizing shareholder value.",
+        "Pursuing profit as the primary goal.",
+        "Adhering to cultural relativism."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "By prioritizing fair labor, the company treats workers with intrinsic value, aligning with Kant's principle of treating individuals as ends."
+    },
+    {
+      "id": "autonomy-q11",
+      "question": "A manager decides to promote an employee based on merit rather than personal connections. Which Kantian principle does this illustrate?",
+      "options": [
+        "Acting according to duty and universalizability.",
+        "Maximizing utility.",
+        "Following societal norms.",
+        "Pursuing personal gain."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The manager's decision reflects Kant's principle of duty and fairness, as actions are based on merit rather than personal bias."
+    },
+    {
+      "id": "autonomy-q12",
+      "question": "In a scenario where a doctor must choose between saving one patient or many, what would a Kantian ethicist likely prioritize?",
+      "options": [
+        "Saving the life that can be morally justified as a universal law.",
+        "Saving the most lives possible.",
+        "Minimizing harm to the greatest number.",
+        "Following hospital protocol regardless of outcomes."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A Kantian ethicist would prioritize decisions that can be universally justified, focusing on duty rather than outcomes."
+    },
+    {
+      "id": "autonomy-q13",
+      "question": "How might Kantian ethics be criticized for its approach to moral dilemmas?",
+      "options": [
+        "It is inflexible and does not adequately consider consequences.",
+        "It allows for too much personal interpretation.",
+        "It is overly concerned with emotions and empathy.",
+        "It focuses solely on cultural norms."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue Kantian ethics is inflexible, lacking consideration for outcomes, which can lead to impractical moral decisions."
+    },
+    {
+      "id": "autonomy-q14",
+      "question": "What is a common critique of Kantian ethics in comparison to utilitarianism?",
+      "options": [
+        "Kantian ethics ignores outcomes, while utilitarianism focuses on the greatest good.",
+        "Kantian ethics prioritizes emotions over reason, unlike utilitarianism.",
+        "Kantian ethics is too focused on cultural norms compared to utilitarianism.",
+        "Kantian ethics is more subjective than utilitarianism."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is often critiqued for ignoring the consequences of actions, unlike utilitarianism, which emphasizes the greatest good."
+    },
+    {
+      "id": "autonomy-q15",
+      "question": "Which of the following is a limitation of Kant's moral autonomy?",
+      "options": [
+        "It may not account for complex emotional and relational factors.",
+        "It overly relies on emotional appeals.",
+        "It lacks a clear method for calculating moral actions.",
+        "It prioritizes cultural norms over individual reasoning."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kant's focus on reason and duty may overlook emotional and relational aspects that influence moral decision-making."
+    }
+  ]
+}

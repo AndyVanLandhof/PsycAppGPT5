@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "pluralism",
+  "topicTitle": "Religious Pluralism",
+  "subTopic": "pluralism",
+  "subTopicTitle": "Pluralism",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:58:46.923Z",
+  "items": [
+    {
+      "id": "pluralism-q1",
+      "question": "Who is the main proponent of the 'theology of religions' that includes exclusivism, inclusivism, and pluralism?",
+      "options": [
+        "Alan Race",
+        "John Hick",
+        "Karl Rahner",
+        "Paul Knitter"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alan Race introduced the categorization of exclusivism, inclusivism, and pluralism in the context of theology of religions."
+    },
+    {
+      "id": "pluralism-q2",
+      "question": "Which philosopher is known for advocating the 'Copernican Revolution' in religious studies?",
+      "options": [
+        "John Hick",
+        "Immanuel Kant",
+        "Karl Barth",
+        "Rudolf Otto"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick proposed the 'Copernican Revolution' to suggest that all religions revolve around a single divine reality rather than Christianity being the center."
+    },
+    {
+      "id": "pluralism-q3",
+      "question": "What is the primary focus of pluralism in the context of religious studies?",
+      "options": [
+        "Acknowledging the truth claims of one's own faith",
+        "Recognizing the exclusivity of religious truth",
+        "Emphasizing the commonalities in different religions",
+        "Denying the legitimacy of other religions"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pluralism seeks to identify and emphasize the shared truths and values among different religions."
+    },
+    {
+      "id": "pluralism-q4",
+      "question": "Which scholar developed the concept of 'Anonymous Christians'?",
+      "options": [
+        "Karl Rahner",
+        "Hans Küng",
+        "John Hick",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Rahner's concept of 'Anonymous Christians' suggests that people can be saved through Christ even if they do not explicitly identify as Christians."
+    },
+    {
+      "id": "pluralism-q5",
+      "question": "In what year did John Hick publish 'God Has Many Names'?",
+      "options": [
+        "1982",
+        "1976",
+        "1993",
+        "1967"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick's 'God Has Many Names', published in 1982, explores the pluralist approach to understanding the divine."
+    },
+    {
+      "id": "pluralism-q6",
+      "question": "What is the primary criticism of religious pluralism from an exclusivist perspective?",
+      "options": [
+        "It undermines the unique truth claims of individual religions",
+        "It fails to recognize the importance of religious rituals",
+        "It overestimates the similarities between different faiths",
+        "It disregards the historical context of religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivists argue that pluralism undermines the unique truth claims and salvific exclusivity of their own faith."
+    },
+    {
+      "id": "pluralism-q7",
+      "question": "Which term describes the belief that one's own religion holds the complete and final truth?",
+      "options": [
+        "Exclusivism",
+        "Inclusivism",
+        "Pluralism",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivism is the belief that one's own religion possesses the absolute truth, to the exclusion of other religions."
+    },
+    {
+      "id": "pluralism-q8",
+      "question": "What does the term 'inclusivism' refer to in religious studies?",
+      "options": [
+        "The belief that all religions are equally valid",
+        "The acceptance of some truths in other religions",
+        "The view that only one religion is true",
+        "The idea that no religion can claim truth"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Inclusivism holds that while one's own religion is completely true, other religions may hold partial truths."
+    },
+    {
+      "id": "pluralism-q9",
+      "question": "Which researcher is associated with the theory of 'Global Theology'?",
+      "options": [
+        "Paul Knitter",
+        "Hans Küng",
+        "Karl Rahner",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Knitter is known for his work on 'Global Theology', which advocates for interfaith dialogue and cooperation."
+    },
+    {
+      "id": "pluralism-q10",
+      "question": "A Christian student argues that salvation is possible only through explicit faith in Jesus Christ. Which theological position does this represent?",
+      "options": [
+        "Exclusivism",
+        "Inclusivism",
+        "Pluralism",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This argument represents exclusivism, which asserts that salvation is only attainable through explicit faith in Jesus Christ."
+    },
+    {
+      "id": "pluralism-q11",
+      "question": "In a multi-faith discussion, participants agree that their respective religions provide equally valid paths to the divine. Which concept are they demonstrating?",
+      "options": [
+        "Exclusivism",
+        "Inclusivism",
+        "Pluralism",
+        "Fundamentalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The participants are demonstrating pluralism, which acknowledges multiple valid paths to the divine."
+    },
+    {
+      "id": "pluralism-q12",
+      "question": "An interfaith organization focuses on shared ethical principles across religions to promote peace. Which approach does this illustrate?",
+      "options": [
+        "Pluralism",
+        "Exclusivism",
+        "Inclusivism",
+        "Relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The organization illustrates pluralism by focusing on shared values and fostering cooperation among different faiths."
+    },
+    {
+      "id": "pluralism-q13",
+      "question": "What is a common critique of John Hick's pluralist hypothesis?",
+      "options": [
+        "It oversimplifies the differences between religions",
+        "It fails to recognize the historical context of religious texts",
+        "It overemphasizes the role of religious rituals",
+        "It focuses too much on the afterlife"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Hick's pluralist hypothesis oversimplifies religious differences by focusing on commonalities and neglecting unique doctrinal aspects."
+    },
+    {
+      "id": "pluralism-q14",
+      "question": "In evaluating pluralism, what is a significant methodological challenge?",
+      "options": [
+        "Defining the criteria for religious truth",
+        "Understanding the role of religious rituals",
+        "Analyzing the historical development of religions",
+        "Studying religious texts in their original languages"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Defining criteria for religious truth poses a challenge as pluralism seeks to reconcile diverse, often contradictory, truth claims across religions."
+    },
+    {
+      "id": "pluralism-q15",
+      "question": "Comparatively, why might inclusivism be seen as more theologically conservative than pluralism?",
+      "options": [
+        "It maintains the primacy of one's own religious truth",
+        "It accepts all religions as equally valid",
+        "It rejects the need for salvation",
+        "It denies the existence of God"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Inclusivism is more conservative as it maintains the superiority of one's own religion while acknowledging partial truths in others, unlike pluralism which sees all as equally valid."
+    }
+  ]
+}

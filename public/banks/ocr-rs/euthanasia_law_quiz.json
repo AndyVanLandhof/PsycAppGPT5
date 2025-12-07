@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "euthanasia",
+  "topicTitle": "Euthanasia",
+  "subTopic": "law",
+  "subTopicTitle": "Legal and Religious Debates",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:48:54.313Z",
+  "items": [
+    {
+      "id": "law-q1",
+      "question": "What does the term 'euthanasia' specifically refer to?",
+      "options": [
+        "The act of intentionally ending a life to relieve pain and suffering",
+        "Any medical procedure that results in death",
+        "The withdrawal of life-sustaining treatment",
+        "Administering a lethal dose of medication without consent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Euthanasia is defined as intentionally ending a life to relieve pain and suffering, distinct from withdrawal of treatment or non-consensual actions."
+    },
+    {
+      "id": "law-q2",
+      "question": "Which philosopher is known for advocating for 'preference utilitarianism', which might support euthanasia?",
+      "options": [
+        "Peter Singer",
+        "Immanuel Kant",
+        "Thomas Aquinas",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Peter Singer's preference utilitarianism prioritizes actions that fulfill the preferences of individuals, potentially supporting euthanasia to relieve suffering."
+    },
+    {
+      "id": "law-q3",
+      "question": "Which legal case in the UK was significant in the discussion of euthanasia and withdrawal of treatment?",
+      "options": [
+        "Airedale NHS Trust v Bland (1993)",
+        "R v Brown (1994)",
+        "R v Dudley and Stephens (1884)",
+        "Roe v Wade (1973)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Airedale NHS Trust v Bland case allowed withdrawal of treatment from patients in a persistent vegetative state, marking a significant legal discussion on euthanasia."
+    },
+    {
+      "id": "law-q4",
+      "question": "What is the primary ethical concern of the Catholic Church regarding euthanasia?",
+      "options": [
+        "Sanctity of life",
+        "Autonomy of the individual",
+        "Utilitarian benefit",
+        "Legal precedents"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Catholic Church opposes euthanasia primarily due to the belief in the sanctity of life, meaning all life is sacred and should not be prematurely ended."
+    },
+    {
+      "id": "law-q5",
+      "question": "Which country was the first to legalize euthanasia in 2002?",
+      "options": [
+        "Netherlands",
+        "Switzerland",
+        "Belgium",
+        "Canada"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Netherlands became the first country to legalize euthanasia in 2002, setting a precedent for other nations."
+    },
+    {
+      "id": "law-q6",
+      "question": "What was the conclusion of the study by Seale (2009) about UK doctors' attitudes towards euthanasia?",
+      "options": [
+        "Most UK doctors oppose euthanasia",
+        "Most UK doctors support euthanasia",
+        "UK doctors are evenly split on euthanasia",
+        "UK doctors are generally unaware of euthanasia issues"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Seale (2009) found that a significant number of UK doctors oppose euthanasia, reflecting ethical and professional concerns."
+    },
+    {
+      "id": "law-q7",
+      "question": "What does 'active euthanasia' involve?",
+      "options": [
+        "Administering a lethal substance to cause death",
+        "Withdrawing treatment to allow natural death",
+        "Providing palliative care",
+        "Signing a do-not-resuscitate order"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Active euthanasia involves directly administering a substance to cause death, unlike passive measures such as withdrawal of treatment."
+    },
+    {
+      "id": "law-q8",
+      "question": "Which religious tradition is most likely to endorse passive euthanasia?",
+      "options": [
+        "Buddhism",
+        "Judaism",
+        "Islam",
+        "Hinduism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Buddhism, with its emphasis on intention and compassion, might endorse passive euthanasia where suffering is minimized."
+    },
+    {
+      "id": "law-q9",
+      "question": "In which year did Belgium legalize euthanasia?",
+      "options": [
+        "2002",
+        "2005",
+        "2010",
+        "2008"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Belgium legalized euthanasia in 2002, following the Netherlands and contributing to the European debate on the issue."
+    },
+    {
+      "id": "law-q10",
+      "question": "A patient is terminally ill and requests euthanasia to avoid prolonged suffering. How might a utilitarian approach this situation?",
+      "options": [
+        "Support euthanasia if it maximizes happiness",
+        "Reject euthanasia as morally wrong",
+        "Consider euthanasia irrelevant",
+        "Ignore the patient's wishes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A utilitarian would evaluate euthanasia based on its consequences, supporting it if it results in greater overall happiness by relieving suffering."
+    },
+    {
+      "id": "law-q11",
+      "question": "A doctor faces a legal dilemma in a country where euthanasia is illegal. How might Kantian ethics guide their decision?",
+      "options": [
+        "Follow the law and not perform euthanasia",
+        "Perform euthanasia to respect patient autonomy",
+        "Ignore legal constraints",
+        "Focus on the outcome rather than rules"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Kantian ethics emphasizes duty and adherence to rules, suggesting the doctor should follow the law and not perform euthanasia."
+    },
+    {
+      "id": "law-q12",
+      "question": "A family requests withdrawal of life support for a comatose relative. How might a virtue ethicist approach this decision?",
+      "options": [
+        "Consider compassion and practical wisdom",
+        "Focus solely on legal outcomes",
+        "Reject withdrawal based on rights",
+        "Base decision on utilitarian calculation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A virtue ethicist would consider virtues like compassion and practical wisdom, balancing family wishes and patient dignity."
+    },
+    {
+      "id": "law-q13",
+      "question": "What is a key criticism of using utilitarianism to justify euthanasia?",
+      "options": [
+        "It may overlook individual rights",
+        "It is too focused on individual intentions",
+        "It disregards the importance of rules",
+        "It relies overly on religious principles"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Utilitarianism can be criticized for potentially overlooking individual rights by focusing solely on overall happiness."
+    },
+    {
+      "id": "law-q14",
+      "question": "How does the concept of the 'slippery slope' argument challenge the legalization of euthanasia?",
+      "options": [
+        "It suggests that legalizing euthanasia may lead to less stringent safeguards",
+        "It argues that euthanasia respects individual autonomy",
+        "It claims that euthanasia is universally accepted",
+        "It supports euthanasia for economic reasons"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The 'slippery slope' argument posits that legalizing euthanasia could erode safeguards, leading to unintended expansions of its use."
+    },
+    {
+      "id": "law-q15",
+      "question": "How might virtue ethics be criticized when applied to decisions about euthanasia?",
+      "options": [
+        "It lacks clear guidance for action",
+        "It is overly focused on consequences",
+        "It ignores individual autonomy",
+        "It relies too heavily on legal precedents"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Virtue ethics may be criticized for lacking specific action-guiding principles, making it difficult to apply in complex decisions like euthanasia."
+    }
+  ]
+}

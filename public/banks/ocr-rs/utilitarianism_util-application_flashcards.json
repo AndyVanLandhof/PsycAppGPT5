@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "utilitarianism",
+  "topicTitle": "Utilitarianism",
+  "subTopic": "util-application",
+  "subTopicTitle": "Applications & Examples",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:58:20.391Z",
+  "items": [
+    {
+      "question": "What is utilitarianism?",
+      "answer": "Utilitarianism is an ethical theory that advocates actions that maximize happiness or pleasure for the greatest number.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'hedonic calculus'.",
+      "answer": "Hedonic calculus is a method proposed by Bentham for calculating the moral rightness of an action based on its capacity to produce pleasure.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Bentham propose in 1789?",
+      "answer": "In 1789, Bentham proposed utilitarianism in his work 'An Introduction to the Principles of Morals and Legislation', emphasizing the greatest happiness principle.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'act utilitarianism'.",
+      "answer": "Act utilitarianism assesses each individual action based on whether it produces the greatest good for the greatest number.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'rule utilitarianism'.",
+      "answer": "Rule utilitarianism considers the consequences of adopting certain rules that lead to the greatest good when followed generally.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the difference between higher and lower pleasures according to Mill?",
+      "answer": "Mill distinguishes higher pleasures (intellectual) from lower pleasures (bodily), asserting higher pleasures are more valuable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Mill argue in 'Utilitarianism' (1863)?",
+      "answer": "In 1863, Mill argued for qualitative differences in pleasures, suggesting intellectual pleasures are superior to physical ones.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'preference utilitarianism'.",
+      "answer": "Preference utilitarianism prioritizes actions that fulfill the preferences or interests of those affected, rather than just maximizing pleasure.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Singer propose in 1979?",
+      "answer": "In 1979, Singer proposed preference utilitarianism, emphasizing the importance of considering individual preferences for ethical decisions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'greatest happiness principle'?",
+      "answer": "The greatest happiness principle holds that actions are right if they promote the greatest happiness for the greatest number.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What does the principle of utility state?",
+      "answer": "The principle of utility states that actions are right if they are useful or for the benefit of a majority.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a criticism of hedonic calculus?",
+      "answer": "A criticism of hedonic calculus is that it is impractical to calculate all potential pleasures and pains for every action.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does utilitarianism apply to lying to a friend?",
+      "answer": "Utilitarianism may justify lying to a friend if the lie results in greater overall happiness than telling the truth.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply act utilitarianism to a charity donation scenario.",
+      "answer": "Act utilitarianism would evaluate the donation based on whether it maximizes happiness for the greatest number affected by the contribution.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does rule utilitarianism apply to traffic laws?",
+      "answer": "Rule utilitarianism would support traffic laws if, generally followed, they lead to greater safety and happiness for the community.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply preference utilitarianism to animal rights.",
+      "answer": "Preference utilitarianism would consider the preferences of animals, advocating actions that respect their interests and well-being.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of utilitarianism.",
+      "answer": "One strength of utilitarianism is its straightforward focus on maximizing happiness, which is a common-sense ethical goal.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of utilitarianism.",
+      "answer": "A limitation is that utilitarianism can justify morally questionable actions if they lead to a greater overall good.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Bentham's utilitarianism.",
+      "answer": "Bentham's utilitarianism is criticized for its reliance on hedonic calculus, which is often seen as impractical and overly simplistic.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate Mill's distinction between higher and lower pleasures.",
+      "answer": "Mill's distinction is praised for recognizing qualitative differences but criticized for its subjective assessment of pleasure value.",
+      "ao": "AO3"
+    }
+  ]
+}

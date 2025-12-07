@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "secularism",
+  "topicTitle": "Secularism",
+  "subTopic": "richard-dawkins",
+  "subTopicTitle": "Critiques from New Atheism",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T17:01:38.178Z",
+  "items": [
+    {
+      "id": "richard-dawkins-q1",
+      "question": "Who is the author of 'The God Delusion', a key text in New Atheism?",
+      "options": [
+        "Richard Dawkins",
+        "Christopher Hitchens",
+        "Sam Harris",
+        "Daniel Dennett"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Dawkins published 'The God Delusion' in 2006, critiquing religion as a delusion."
+    },
+    {
+      "id": "richard-dawkins-q2",
+      "question": "What is a central critique of religion by New Atheists like Sam Harris?",
+      "options": [
+        "Religion is necessary for morality",
+        "Religion is a source of conflict",
+        "Religion is scientifically verified",
+        "Religion enhances social cohesion"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "New Atheists argue that religion often leads to conflict, a point emphasized by Sam Harris in 'The End of Faith'."
+    },
+    {
+      "id": "richard-dawkins-q3",
+      "question": "Which term describes the belief that religion should be excluded from civic affairs and public education?",
+      "options": [
+        "Secularism",
+        "Pluralism",
+        "Ecumenism",
+        "Fundamentalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Secularism advocates for the separation of religion from civic affairs and public education."
+    },
+    {
+      "id": "richard-dawkins-q4",
+      "question": "In 'God is Not Great', what does Christopher Hitchens argue about the impact of religion?",
+      "options": [
+        "Religion is a source of all morality",
+        "Religion poisons everything",
+        "Religion is a personal journey",
+        "Religion is scientifically valid"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hitchens' book, 'God is Not Great', argues that religion 'poisons everything', critiquing its influence on society."
+    },
+    {
+      "id": "richard-dawkins-q5",
+      "question": "Which of the following is NOT a typical argument made by New Atheists?",
+      "options": [
+        "Religion is a natural part of human evolution",
+        "Religion is irrational",
+        "Religion hinders scientific progress",
+        "Religion is a source of violence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "New Atheists typically argue against the necessity of religion, not that it is a natural evolutionary process."
+    },
+    {
+      "id": "richard-dawkins-q6",
+      "question": "What is the primary focus of Daniel Dennett's book 'Breaking the Spell'?",
+      "options": [
+        "Religion as a natural phenomenon",
+        "Religion as a psychological delusion",
+        "Religion as a source of ethical guidance",
+        "Religion as a political tool"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Dennett's 'Breaking the Spell' examines religion from a scientific perspective as a natural phenomenon."
+    },
+    {
+      "id": "richard-dawkins-q7",
+      "question": "What year was 'The End of Faith' by Sam Harris published?",
+      "options": [
+        "2004",
+        "2006",
+        "2008",
+        "2010"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'The End of Faith' by Sam Harris, critiquing religion's role in society, was published in 2004."
+    },
+    {
+      "id": "richard-dawkins-q8",
+      "question": "Which New Atheist is known for the phrase 'Religion is a virus of the mind'?",
+      "options": [
+        "Richard Dawkins",
+        "Sam Harris",
+        "Daniel Dennett",
+        "Christopher Hitchens"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Dawkins used the phrase 'Religion is a virus of the mind' to describe religious belief as a meme."
+    },
+    {
+      "id": "richard-dawkins-q9",
+      "question": "Which concept is often used by New Atheists to argue against the existence of God?",
+      "options": [
+        "The Problem of Evil",
+        "The Cosmological Argument",
+        "The Ontological Argument",
+        "The Moral Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "New Atheists frequently use the Problem of Evil to argue against the existence of an all-good, all-powerful God."
+    },
+    {
+      "id": "richard-dawkins-q10",
+      "question": "A student argues that religion provides comfort and purpose, thus should not be dismissed. Which New Atheist argument challenges this view?",
+      "options": [
+        "Religion causes conflict",
+        "Religion is irrational",
+        "Religion is a placebo",
+        "Religion hinders progress"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "New Atheists may argue that religion acts as a placebo, offering false comfort without addressing underlying issues."
+    },
+    {
+      "id": "richard-dawkins-q11",
+      "question": "In a debate, someone claims religious moral teachings are essential for ethics. Which New Atheist would counter that morality can be secular?",
+      "options": [
+        "Richard Dawkins",
+        "Christopher Hitchens",
+        "Sam Harris",
+        "Daniel Dennett"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Sam Harris argues for a secular basis of morality, notably in his book 'The Moral Landscape'."
+    },
+    {
+      "id": "richard-dawkins-q12",
+      "question": "During a discussion, a claim is made that religion is beneficial for mental health. What is a New Atheist counterpoint?",
+      "options": [
+        "Religion is a personal choice",
+        "Religion creates dependency",
+        "Religion is scientifically accurate",
+        "Religion is a cultural norm"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "New Atheists might argue that religion creates dependency, offering simple answers rather than promoting critical thinking."
+    },
+    {
+      "id": "richard-dawkins-q13",
+      "question": "What is a methodological criticism of New Atheism's approach to religion?",
+      "options": [
+        "Over-reliance on anecdotal evidence",
+        "Lack of empirical data",
+        "Failure to consider cultural contexts",
+        "Overemphasis on theology"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Critics argue New Atheism often overlooks the cultural context of religious beliefs, focusing instead on universal critiques."
+    },
+    {
+      "id": "richard-dawkins-q14",
+      "question": "How does New Atheism differ from traditional atheism?",
+      "options": [
+        "It is more confrontational",
+        "It is less scientific",
+        "It supports religious practices",
+        "It focuses on Eastern religions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "New Atheism is characterized by its vocal and confrontational stance against religion, unlike traditional atheism."
+    },
+    {
+      "id": "richard-dawkins-q15",
+      "question": "Which criticism is often leveled at New Atheism regarding its treatment of religious people?",
+      "options": [
+        "Too inclusive",
+        "Overly empathetic",
+        "Dismissive of believers",
+        "Supportive of religious diversity"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "New Atheism is often criticized for being dismissive and overly critical of religious individuals, not just their beliefs."
+    }
+  ]
+}

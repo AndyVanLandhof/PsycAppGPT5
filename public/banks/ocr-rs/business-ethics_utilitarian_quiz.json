@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "business-ethics",
+  "topicTitle": "Business Ethics",
+  "subTopic": "utilitarian",
+  "subTopicTitle": "Utilitarianism in Business",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:49:52.437Z",
+  "items": [
+    {
+      "id": "utilitarian-q1",
+      "question": "Which philosopher is most commonly associated with utilitarianism?",
+      "options": [
+        "Jeremy Bentham",
+        "Immanuel Kant",
+        "John Rawls",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jeremy Bentham is known for developing the principle of utilitarianism, which evaluates actions based on their consequences for overall happiness."
+    },
+    {
+      "id": "utilitarian-q2",
+      "question": "What is the primary focus of utilitarianism in the context of business ethics?",
+      "options": [
+        "Maximizing shareholder profit",
+        "Maximizing overall happiness",
+        "Following corporate laws",
+        "Adhering to personal morals"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Utilitarianism focuses on the greatest good for the greatest number, thus emphasizing overall happiness rather than just profit or personal morals."
+    },
+    {
+      "id": "utilitarian-q3",
+      "question": "Which of the following best describes act utilitarianism?",
+      "options": [
+        "Evaluating each action individually for its consequences",
+        "Following established rules that maximize happiness",
+        "Prioritizing individual rights over consequences",
+        "Focusing on the intentions behind actions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Act utilitarianism evaluates each action on its own to determine the outcome that maximizes happiness."
+    },
+    {
+      "id": "utilitarian-q4",
+      "question": "Which concept did John Stuart Mill introduce to enhance Bentham's utilitarianism?",
+      "options": [
+        "Higher and lower pleasures",
+        "Categorical imperative",
+        "Veil of ignorance",
+        "Golden mean"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Stuart Mill introduced the distinction between higher and lower pleasures to address criticisms of Bentham's utilitarianism."
+    },
+    {
+      "id": "utilitarian-q5",
+      "question": "In what way does rule utilitarianism differ from act utilitarianism?",
+      "options": [
+        "It focuses on specific actions",
+        "It considers the long-term consequences of following rules",
+        "It disregards the consequences of actions",
+        "It emphasizes strict adherence to laws"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Rule utilitarianism evaluates the consequences of following rules over the long term, as opposed to act utilitarianism's focus on individual actions."
+    },
+    {
+      "id": "utilitarian-q6",
+      "question": "Which study by Solomon (1993) discusses the role of utilitarianism in business ethics?",
+      "options": [
+        "Ethics and Excellence",
+        "Business as a System",
+        "The Moral Manager",
+        "Corporate Conscience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Solomon's 'Ethics and Excellence' (1993) explores how utilitarian principles can be applied within business ethics to improve corporate responsibility."
+    },
+    {
+      "id": "utilitarian-q7",
+      "question": "What is a common criticism of utilitarianism in business practices?",
+      "options": [
+        "It ignores the consequences",
+        "It can justify unethical actions",
+        "It prioritizes personal gain",
+        "It is too focused on regulations"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "A criticism is that utilitarianism might justify unethical actions if they produce a net increase in happiness, potentially ignoring individual rights."
+    },
+    {
+      "id": "utilitarian-q8",
+      "question": "How does utilitarianism address the issue of environmental sustainability in business?",
+      "options": [
+        "By prioritizing immediate profits",
+        "By considering long-term ecological impact",
+        "By ignoring environmental factors",
+        "By focusing solely on stakeholder happiness"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Utilitarianism considers the long-term ecological impact of business decisions, aiming to produce the greatest overall good, including environmental sustainability."
+    },
+    {
+      "id": "utilitarian-q9",
+      "question": "Which principle is used by utilitarians to measure the moral worth of an action?",
+      "options": [
+        "The pleasure principle",
+        "The greatest happiness principle",
+        "The duty principle",
+        "The principle of autonomy"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Utilitarians use the greatest happiness principle to evaluate actions by their ability to produce the most happiness for the most people."
+    },
+    {
+      "id": "utilitarian-q10",
+      "question": "A company considering layoffs to reduce costs while increasing overall shareholder value is using which ethical approach?",
+      "options": [
+        "Virtue ethics",
+        "Deontological ethics",
+        "Utilitarianism",
+        "Care ethics"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Utilitarianism evaluates the decision based on its consequences, weighing the increased shareholder value against the negative impact on laid-off employees."
+    },
+    {
+      "id": "utilitarian-q11",
+      "question": "A business decides to implement environmentally friendly practices that initially increase costs but reduce long-term harm. This decision reflects which ethical theory?",
+      "options": [
+        "Divine command theory",
+        "Utilitarianism",
+        "Egoism",
+        "Natural law"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Utilitarianism supports decisions that reduce long-term harm and increase overall well-being, even if initial costs are higher."
+    },
+    {
+      "id": "utilitarian-q12",
+      "question": "A company uses data analytics to predict consumer behavior and increase sales, potentially invading privacy. How might a utilitarian approach this?",
+      "options": [
+        "Reject it due to rights violations",
+        "Support it for maximizing profit",
+        "Evaluate it based on overall benefits and harms",
+        "Ignore privacy issues for business growth"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "A utilitarian would assess the overall benefits and harms, balancing increased sales against potential privacy violations."
+    },
+    {
+      "id": "utilitarian-q13",
+      "question": "What is a key methodological critique of utilitarianism in business ethics?",
+      "options": [
+        "Difficulty in measuring happiness",
+        "Overemphasis on intention",
+        "Neglect of economic factors",
+        "Too much focus on individual rights"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Utilitarianism is often critiqued for its challenge in quantifying and comparing happiness or well-being in business contexts."
+    },
+    {
+      "id": "utilitarian-q14",
+      "question": "How does utilitarianism compare to Kantian ethics in business decision-making?",
+      "options": [
+        "Utilitarianism focuses on duties; Kantian ethics focuses on outcomes",
+        "Utilitarianism is less flexible than Kantian ethics",
+        "Utilitarianism emphasizes outcomes; Kantian ethics emphasizes duties",
+        "Both have the same focus on consequences"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Utilitarianism emphasizes the outcomes and overall happiness, while Kantian ethics focuses on the adherence to duties and moral rules."
+    },
+    {
+      "id": "utilitarian-q15",
+      "question": "Why might utilitarianism be preferred over deontological ethics in a corporate setting?",
+      "options": [
+        "It provides clear-cut rules to follow",
+        "It allows for flexible decision-making based on outcomes",
+        "It focuses on individual rights",
+        "It disregards the consequences of actions"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Utilitarianism is often favored in corporate settings for its flexibility and focus on outcomes, facilitating adaptive decision-making based on overall benefits."
+    }
+  ]
+}

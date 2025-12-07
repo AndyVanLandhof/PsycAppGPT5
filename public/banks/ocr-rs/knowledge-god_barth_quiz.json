@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "barth",
+  "subTopicTitle": "Barth and Calvin",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:55:17.226Z",
+  "items": [
+    {
+      "id": "barth-q1",
+      "question": "According to Calvin, what is the 'sensus divinitatis'?",
+      "options": [
+        "An innate sense of God in all humans",
+        "The revealed word of God through scripture",
+        "The moral law written on our hearts",
+        "A feeling of awe in nature"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Calvin proposes the 'sensus divinitatis' as an innate sense or awareness of God that exists within every person."
+    },
+    {
+      "id": "barth-q2",
+      "question": "What does Barth argue is the primary way to gain knowledge of God?",
+      "options": [
+        "Through revelation in Jesus Christ",
+        "Through the natural world",
+        "Through human reason",
+        "Through church tradition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Barth emphasizes that true knowledge of God can only come through divine revelation, particularly through Jesus Christ."
+    },
+    {
+      "id": "barth-q3",
+      "question": "In which work does Calvin elaborate on his views about the knowledge of God?",
+      "options": [
+        "Institutes of the Christian Religion",
+        "Summa Theologica",
+        "City of God",
+        "Confessions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Calvin's 'Institutes of the Christian Religion' discusses his ideas on the knowledge of God, including the 'sensus divinitatis'."
+    },
+    {
+      "id": "barth-q4",
+      "question": "Which concept does Barth use to describe God's transcendence and the need for revelation?",
+      "options": [
+        "The infinite qualitative distinction",
+        "The analogia entis",
+        "The principle of sufficient reason",
+        "The divine accommodation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Barth speaks of the 'infinite qualitative distinction' between God and humanity, highlighting the necessity of revelation."
+    },
+    {
+      "id": "barth-q5",
+      "question": "How does Calvin view the role of the Holy Spirit in understanding scripture?",
+      "options": [
+        "The Holy Spirit illuminates scripture for true understanding",
+        "The Holy Spirit is unnecessary for understanding scripture",
+        "The Holy Spirit only helps the clergy understand scripture",
+        "The Holy Spirit replaces the need for scripture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Calvin believes the Holy Spirit plays a crucial role in illuminating and interpreting scripture for believers."
+    },
+    {
+      "id": "barth-q6",
+      "question": "Barth criticized which philosophical approach for limiting God to human understanding?",
+      "options": [
+        "Natural theology",
+        "Logical positivism",
+        "Empiricism",
+        "Deism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Barth was critical of 'natural theology', which attempts to know God through human reason and observation, outside of revelation."
+    },
+    {
+      "id": "barth-q7",
+      "question": "Which term describes Calvin's belief that humans are unable to comprehend God fully?",
+      "options": [
+        "Divine incomprehensibility",
+        "Moral incapacity",
+        "Epistemic humility",
+        "Human finitude"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Calvin discusses 'divine incomprehensibility', indicating that human minds cannot fully grasp the nature of God."
+    },
+    {
+      "id": "barth-q8",
+      "question": "What role does 'faith' play in Barth's theology?",
+      "options": [
+        "It is the response to God's revelation",
+        "It is a substitute for reason",
+        "It disregards the need for scripture",
+        "It is purely an emotional experience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Barth's theology, faith is the human response to the revelation of God, emphasizing trust over understanding."
+    },
+    {
+      "id": "barth-q9",
+      "question": "Which scholar argued that Barth's rejection of natural theology was too extreme?",
+      "options": [
+        "Emil Brunner",
+        "Rudolf Bultmann",
+        "Paul Tillich",
+        "Reinhold Niebuhr"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Emil Brunner famously disagreed with Barth, arguing that Barth's rejection of natural theology was overly radical."
+    },
+    {
+      "id": "barth-q10",
+      "question": "A student claims that Calvin's 'sensus divinitatis' is similar to a religious experience. What is a key difference?",
+      "options": [
+        "The 'sensus divinitatis' is innate, not event-based",
+        "It involves a vision of God",
+        "It requires a church setting",
+        "It is a product of intense prayer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Unlike religious experiences, which are event-based, the 'sensus divinitatis' is an innate awareness present in all humans."
+    },
+    {
+      "id": "barth-q11",
+      "question": "If a person feels a deep sense of order and beauty in nature, which theological perspective might they be experiencing?",
+      "options": [
+        "Natural theology",
+        "Barth's revelation theology",
+        "Calvin's doctrine of predestination",
+        "Existential theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural theology suggests that knowledge of God can be gained through the observation of nature and its beauty."
+    },
+    {
+      "id": "barth-q12",
+      "question": "In a debate, someone argues that God can be known through reason alone. Which theologian would disagree most strongly?",
+      "options": [
+        "Karl Barth",
+        "Thomas Aquinas",
+        "John Hick",
+        "Alvin Plantinga"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Karl Barth would disagree with this view, as he argued that God can only be truly known through divine revelation, not reason alone."
+    },
+    {
+      "id": "barth-q13",
+      "question": "How might one critique Barth's emphasis on revelation over natural theology?",
+      "options": [
+        "It could limit the universality of God's accessibility",
+        "It overemphasizes human reason",
+        "It dismisses the historical context of scripture",
+        "It aligns too closely with scientific views"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Barth's emphasis on revelation may limit the universality of accessing God, as it dismisses natural theology's broader reach."
+    },
+    {
+      "id": "barth-q14",
+      "question": "What is a potential weakness in Calvin's reliance on the 'sensus divinitatis' as evidence of God's existence?",
+      "options": [
+        "It is subjective and varies between individuals",
+        "It is based on empirical observation",
+        "It requires advanced theological training",
+        "It is universally accepted across all faiths"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The 'sensus divinitatis' may be critiqued for its subjectivity, as it can vary significantly between individuals and cultures."
+    },
+    {
+      "id": "barth-q15",
+      "question": "Comparatively, how does Barth's view of God's knowledge differ from that of Aquinas?",
+      "options": [
+        "Barth emphasizes revelation, Aquinas emphasizes reason",
+        "Both emphasize natural theology",
+        "Barth denies the need for scripture",
+        "Aquinas rejects the role of the church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Barth emphasizes divine revelation as the sole source of knowledge of God, whereas Aquinas allows for reason and natural theology as well."
+    }
+  ]
+}

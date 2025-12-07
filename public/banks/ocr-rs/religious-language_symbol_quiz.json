@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-language",
+  "topicTitle": "Religious Language",
+  "subTopic": "symbol",
+  "subTopicTitle": "Symbolism & Myth",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:41:07.169Z",
+  "items": [
+    {
+      "id": "symbol-q1",
+      "question": "Which philosopher is associated with the theory of religious language as non-cognitive symbols?",
+      "options": [
+        "Paul Tillich",
+        "Rudolf Bultmann",
+        "A.J. Ayer",
+        "Ludwig Wittgenstein"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Tillich argued that religious language functions as symbols that point to a deeper reality beyond the literal meaning."
+    },
+    {
+      "id": "symbol-q2",
+      "question": "What did Rudolf Bultmann suggest regarding religious myths?",
+      "options": [
+        "They should be demythologized to find existential meaning",
+        "They are essential for religious truth",
+        "They are historical accounts",
+        "They are literal truths"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bultmann believed myths should be interpreted existentially rather than literally, a process he called 'demythologizing'."
+    },
+    {
+      "id": "symbol-q3",
+      "question": "In which year did Paul Tillich publish 'Dynamics of Faith'?",
+      "options": [
+        "1957",
+        "1963",
+        "1948",
+        "1972"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Tillich's 'Dynamics of Faith', published in 1957, explores the symbolic nature of religious language."
+    },
+    {
+      "id": "symbol-q4",
+      "question": "Who argued that religious symbols participate in the reality to which they point?",
+      "options": [
+        "Mircea Eliade",
+        "Karl Barth",
+        "Paul Tillich",
+        "Rudolf Otto"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Paul Tillich suggested that symbols participate in the reality they signify, making them more than mere signs."
+    },
+    {
+      "id": "symbol-q5",
+      "question": "According to Mircea Eliade, what role do myths play in religion?",
+      "options": [
+        "They provide a sacred history",
+        "They are literal truths",
+        "They are irrelevant",
+        "They are fictional stories"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Eliade viewed myths as creating a sacred history that connects believers to their faith's origins."
+    },
+    {
+      "id": "symbol-q6",
+      "question": "What concept did Ludwig Wittgenstein introduce to describe how words gain meaning in different contexts?",
+      "options": [
+        "Language games",
+        "Verification principle",
+        "Demythologization",
+        "Symbolic interactionism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Wittgenstein's concept of 'language games' explains how meaning is context-dependent, crucial for understanding religious language."
+    },
+    {
+      "id": "symbol-q7",
+      "question": "Which philosopher is known for the phrase 'God-talk is evidently nonsense'?",
+      "options": [
+        "A.J. Ayer",
+        "Paul Tillich",
+        "Rudolf Bultmann",
+        "Ludwig Wittgenstein"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A.J. Ayer, a logical positivist, argued that religious language lacks empirical verification, thus is nonsensical."
+    },
+    {
+      "id": "symbol-q8",
+      "question": "Who emphasized the existential interpretation of religious symbols?",
+      "options": [
+        "Paul Tillich",
+        "Rudolf Bultmann",
+        "Karl Barth",
+        "John Hick"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Rudolf Bultmann focused on the existential meaning behind religious symbols, beyond their literal interpretation."
+    },
+    {
+      "id": "symbol-q9",
+      "question": "Which work by Paul Ricoeur addresses the symbolic function of language in religious texts?",
+      "options": [
+        "The Symbolism of Evil",
+        "Dynamics of Faith",
+        "The Idea of the Holy",
+        "The Sacred and the Profane"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 'The Symbolism of Evil', Ricoeur discusses how symbols convey complex religious concepts beyond literal language."
+    },
+    {
+      "id": "symbol-q10",
+      "question": "A religious symbol fails to convey its intended meaning in a new cultural context. What might this suggest?",
+      "options": [
+        "The symbol is not universally applicable",
+        "The symbol is inherently meaningless",
+        "The symbol needs reinterpretation",
+        "The symbol is obsolete"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Symbols are culturally bound, and their meanings may not transfer universally without reinterpretation."
+    },
+    {
+      "id": "symbol-q11",
+      "question": "How might a religious believer apply myth to understand their faith tradition?",
+      "options": [
+        "By seeing myths as reflections of deeper truths",
+        "By dismissing myths as irrelevant",
+        "By literal interpretation",
+        "By ignoring them"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Believers often view myths as narratives that reflect deeper truths about existence and faith, rather than literal history."
+    },
+    {
+      "id": "symbol-q12",
+      "question": "A student claims religious symbols are just artistic expressions. How might this be critiqued?",
+      "options": [
+        "Symbols also convey deep religious truths",
+        "Symbols are merely decorative",
+        "Symbols are always misunderstood",
+        "Symbols are irrelevant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "While artistic, symbols in religion often point to profound truths and realities beyond mere aesthetics."
+    },
+    {
+      "id": "symbol-q13",
+      "question": "What is a key criticism of Tillich's view on symbols?",
+      "options": [
+        "They may be too subjective",
+        "They are too literal",
+        "They are irrelevant to modern faith",
+        "They are historically inaccurate"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Tillich's view is critiqued for being subjective, as symbols can be interpreted in numerous personal ways, lacking objective clarity."
+    },
+    {
+      "id": "symbol-q14",
+      "question": "How might the verification principle challenge religious language?",
+      "options": [
+        "It dismisses language lacking empirical evidence",
+        "It supports all religious statements",
+        "It affirms all meaningful religious language",
+        "It ignores empirical data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The verification principle, central to logical positivism, challenges religious language by requiring empirical evidence for meaningfulness."
+    },
+    {
+      "id": "symbol-q15",
+      "question": "In comparing Tillich and Wittgenstein, what is a key difference in their views on religious language?",
+      "options": [
+        "Tillich sees symbols as participatory, Wittgenstein sees language as context-dependent",
+        "Both see language as static",
+        "Both reject religious language",
+        "Tillich sees symbols as literal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Tillich emphasizes participatory symbolism, whereas Wittgenstein focuses on the contextual nature of language games."
+    }
+  ]
+}

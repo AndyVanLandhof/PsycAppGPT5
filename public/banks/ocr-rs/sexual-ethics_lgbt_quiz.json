@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "sexual-ethics",
+  "topicTitle": "Sexual Ethics",
+  "subTopic": "lgbt",
+  "subTopicTitle": "Christian Responses to LGBTQ+",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:51:07.368Z",
+  "items": [
+    {
+      "id": "lgbt-q1",
+      "question": "Which term is used to describe the belief that same-sex relationships are morally acceptable within Christianity?",
+      "options": [
+        "Affirmative Theology",
+        "Negative Theology",
+        "Exclusive Theology",
+        "Selective Theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Affirmative Theology supports the inclusion of LGBTQ+ individuals within Christian morality."
+    },
+    {
+      "id": "lgbt-q2",
+      "question": "Which Christian denomination is known for its official acceptance of same-sex marriage?",
+      "options": [
+        "United Church of Christ",
+        "Southern Baptist Convention",
+        "Roman Catholic Church",
+        "Eastern Orthodox Church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The United Church of Christ has officially accepted same-sex marriage, distinguishing it from many other Christian denominations."
+    },
+    {
+      "id": "lgbt-q3",
+      "question": "In what year did the Episcopal Church in the USA approve a liturgy for blessing same-sex unions?",
+      "options": [
+        "2012",
+        "2005",
+        "2015",
+        "1999"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 2012, the Episcopal Church approved a liturgy for blessing same-sex unions, marking a significant moment in its history."
+    },
+    {
+      "id": "lgbt-q4",
+      "question": "Who conducted a study on the attitudes of Christian denominations towards LGBTQ+ rights titled 'Christianity and Homosexuality Reconciled'?",
+      "options": [
+        "L. William Countryman",
+        "John Boswell",
+        "Stanley Grenz",
+        "Robert Gagnon"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Boswell's work 'Christianity and Homosexuality Reconciled' explores how different denominations approach LGBTQ+ rights."
+    },
+    {
+      "id": "lgbt-q5",
+      "question": "The term 'clobber passages' refers to which aspect of the LGBTQ+ Christian debate?",
+      "options": [
+        "Biblical verses used to condemn homosexuality",
+        "Passages supporting gender equality",
+        "Verses advocating for love and acceptance",
+        "Sections of the Bible omitted in modern translations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 'clobber passages' are specific Bible verses often cited to condemn homosexuality, forming a central part of the LGBTQ+ Christian debate."
+    },
+    {
+      "id": "lgbt-q6",
+      "question": "Which scholar argues that the Bible's 'clobber passages' are misinterpreted when used to condemn homosexuality?",
+      "options": [
+        "Matthew Vines",
+        "Robert Gagnon",
+        "Al Mohler",
+        "N.T. Wright"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Matthew Vines argues in his work that traditional interpretations of 'clobber passages' are flawed and do not inherently condemn homosexuality."
+    },
+    {
+      "id": "lgbt-q7",
+      "question": "Which event in 1969 is often credited with sparking the modern LGBTQ+ rights movement, influencing Christian groups' responses?",
+      "options": [
+        "Stonewall Riots",
+        "Compton's Cafeteria Riot",
+        "Harvey Milk Election",
+        "The Lavender Scare"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Stonewall Riots of 1969 are widely regarded as the catalyst for the modern LGBTQ+ rights movement, affecting how Christian groups approach LGBTQ+ issues."
+    },
+    {
+      "id": "lgbt-q8",
+      "question": "What does the acronym 'LGBTQ+' stand for in the context of sexual ethics?",
+      "options": [
+        "Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others",
+        "Lesbian, Gay, Bisexual, Transgender, Quaker",
+        "Lesbian, Genderfluid, Bisexual, Transgender, Queer",
+        "Lesbian, Gay, Binary, Transgender, Queer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "LGBTQ+ stands for Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others, representing a broad spectrum of sexual and gender identities."
+    },
+    {
+      "id": "lgbt-q9",
+      "question": "Which biblical book contains the story of Sodom and Gomorrah, often cited in discussions about homosexuality?",
+      "options": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Deuteronomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The story of Sodom and Gomorrah is found in the Book of Genesis and is frequently referenced in debates over biblical views on homosexuality."
+    },
+    {
+      "id": "lgbt-q10",
+      "question": "A Christian school is considering adopting an inclusive policy towards LGBTQ+ students. Which ethical principle might best support this decision?",
+      "options": [
+        "Agape love",
+        "Prosperity Gospel",
+        "Divine Retribution",
+        "Original Sin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Agape love, which emphasizes unconditional love and acceptance, could justify adopting an inclusive policy for LGBTQ+ students."
+    },
+    {
+      "id": "lgbt-q11",
+      "question": "A local church is debating whether to allow same-sex marriages. Which theological concept could be used to argue against this practice?",
+      "options": [
+        "Natural Law",
+        "Progressive Revelation",
+        "Theosis",
+        "Predestination"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural Law, which often holds traditional views on human nature and marriage, could be used to argue against same-sex marriages."
+    },
+    {
+      "id": "lgbt-q12",
+      "question": "A Christian organization wants to create a support group for LGBTQ+ youth. What biblical message might they use to promote inclusivity?",
+      "options": [
+        "Love your neighbor as yourself",
+        "An eye for an eye",
+        "The meek shall inherit the earth",
+        "Render unto Caesar"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The biblical message of 'Love your neighbor as yourself' can serve as a strong foundation for promoting inclusivity and support for LGBTQ+ youth."
+    },
+    {
+      "id": "lgbt-q13",
+      "question": "Which methodological critique applies to studies using biblical texts to discuss LGBTQ+ issues?",
+      "options": [
+        "Textual interpretations can be subjective",
+        "Lack of scientific rigor",
+        "Overreliance on quantitative data",
+        "Excessive focus on secondary sources"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Studies using biblical texts often face the critique of subjective textual interpretations, which can lead to varied conclusions about LGBTQ+ issues."
+    },
+    {
+      "id": "lgbt-q14",
+      "question": "How might the Roman Catholic Church's stance on homosexuality be critically compared to the Metropolitan Community Church's view?",
+      "options": [
+        "The Catholic Church maintains traditional views, while the MCC is affirming and inclusive",
+        "Both churches have a strict anti-LGBTQ+ stance",
+        "The MCC is more conservative than the Catholic Church",
+        "Both churches fully embrace LGBTQ+ individuals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Roman Catholic Church traditionally holds conservative views on homosexuality, contrasting with the Metropolitan Community Church's affirming and inclusive approach."
+    },
+    {
+      "id": "lgbt-q15",
+      "question": "Which critique is often directed at religious institutions that maintain traditional views on LGBTQ+ issues?",
+      "options": [
+        "They may be seen as lacking inclusivity and adapting to modern values",
+        "They focus too much on social justice",
+        "They are overly secular",
+        "They excessively promote prosperity theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious institutions maintaining traditional views on LGBTQ+ issues are often criticized for lacking inclusivity and failing to adapt to modern societal values."
+    }
+  ]
+}

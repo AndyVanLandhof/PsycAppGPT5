@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "reason",
+  "subTopicTitle": "Role of Reason in Ethics",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:43:11.893Z",
+  "items": [
+    {
+      "id": "reason-q1",
+      "question": "What is the primary role of reason in Natural Law theory according to Thomas Aquinas?",
+      "options": [
+        "To discern moral actions by understanding God's eternal law",
+        "To determine subjective truths about personal happiness",
+        "To analyze empirical data about human behavior",
+        "To reject the idea of any objective moral standards"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas argued that reason is used to understand God's eternal law, which forms the basis for Natural Law."
+    },
+    {
+      "id": "reason-q2",
+      "question": "Which of the following is NOT one of the primary precepts in Aquinas's Natural Law?",
+      "options": [
+        "Preservation of life",
+        "Reproduction",
+        "Pursuit of wealth",
+        "Education of the young"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The pursuit of wealth is not a primary precept; the primary precepts are about fundamental purposes like life, reproduction, and education."
+    },
+    {
+      "id": "reason-q3",
+      "question": "In what way does Natural Law theory argue that human nature is significant?",
+      "options": [
+        "Human nature is inherently sinful and must be controlled",
+        "Human nature provides a guide to what is morally good",
+        "Human nature is entirely subjective and varies by culture",
+        "Human nature is irrelevant to ethical considerations"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Natural Law theory holds that human nature reveals moral truths and guides ethical behavior."
+    },
+    {
+      "id": "reason-q4",
+      "question": "Which philosopher is known for critiquing the role of reason in Natural Law by emphasizing emotions?",
+      "options": [
+        "David Hume",
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume critiqued the reliance on reason in ethics, emphasizing the role of emotions in moral judgments."
+    },
+    {
+      "id": "reason-q5",
+      "question": "How does the principle of double effect relate to Natural Law?",
+      "options": [
+        "It allows an action with both good and bad effects if the intention is good",
+        "It permits any action that achieves a good outcome",
+        "It rejects any action with any negative consequences",
+        "It emphasizes the emotional impact of ethical decisions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The principle of double effect in Natural Law allows actions with negative side effects if the primary intention is good."
+    },
+    {
+      "id": "reason-q6",
+      "question": "What is the 'synderesis rule' in Aquinas's Natural Law?",
+      "options": [
+        "The innate human ability to do evil",
+        "The innate human tendency to pursue good and avoid evil",
+        "The natural inclination towards selfishness",
+        "The rejection of natural instincts in moral decision-making"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Aquinas believed in the synderesis rule, which is the natural human inclination to seek good and avoid evil."
+    },
+    {
+      "id": "reason-q7",
+      "question": "Which of these is a secondary precept derived from the primary precept of preservation of life?",
+      "options": [
+        "Do not commit murder",
+        "Promote economic growth",
+        "Seek personal happiness",
+        "Reduce taxes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Secondary precepts like 'do not commit murder' are derived from primary precepts like the preservation of life."
+    },
+    {
+      "id": "reason-q8",
+      "question": "According to Natural Law, why is lying considered wrong?",
+      "options": [
+        "It contradicts the primary precept of living in society",
+        "It can sometimes be justified if the outcome is positive",
+        "It is only wrong if it causes harm",
+        "It is not addressed by Natural Law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lying contradicts the primary precept of living in society, as trust is essential for societal functioning."
+    },
+    {
+      "id": "reason-q9",
+      "question": "Which of the following best describes 'apparent goods' in Natural Law?",
+      "options": [
+        "Goods that seem desirable but do not fulfill natural purposes",
+        "Goods that are universally accepted as beneficial",
+        "Goods that are only beneficial to certain cultures",
+        "Goods that align perfectly with primary precepts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Apparent goods seem desirable but ultimately do not fulfill the natural purposes outlined by Natural Law."
+    },
+    {
+      "id": "reason-q10",
+      "question": "A doctor must decide whether to administer a pain-relieving drug that will hasten a patient's death. How might Natural Law apply?",
+      "options": [
+        "The primary intention to relieve pain justifies the action",
+        "The action is justified if the patient consents",
+        "Administering the drug is wrong because the outcome is death",
+        "Natural Law does not consider such situations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "According to the principle of double effect, if the primary intention is to relieve pain, the action can be morally permissible."
+    },
+    {
+      "id": "reason-q11",
+      "question": "An engineer must decide whether to cut corners to meet a deadline. How would Natural Law evaluate this?",
+      "options": [
+        "Cutting corners undermines the primary precept of living in society",
+        "The outcome justifies the means if the project succeeds",
+        "It is permissible if it benefits the most people",
+        "Natural Law does not apply to professional ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Cutting corners would undermine societal trust, contradicting the primary precept of living in society."
+    },
+    {
+      "id": "reason-q12",
+      "question": "A student is tempted to cheat on an exam to get a good grade. Applying Natural Law, what should they consider?",
+      "options": [
+        "Cheating contradicts the primary precept of living in society",
+        "The good grade justifies the means",
+        "Cheating is acceptable if it doesn't harm others",
+        "Natural Law supports personal success above all"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Cheating would breach societal trust, conflicting with the primary precept of living harmoniously in society."
+    },
+    {
+      "id": "reason-q13",
+      "question": "Which critique challenges the universality of Natural Law due to cultural differences?",
+      "options": [
+        "Cultural relativism",
+        "Moral absolutism",
+        "Utilitarianism",
+        "Deontology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Cultural relativism argues that moral values vary between cultures, challenging the universal claims of Natural Law."
+    },
+    {
+      "id": "reason-q14",
+      "question": "How does Natural Law compare to Utilitarianism in terms of decision-making?",
+      "options": [
+        "Natural Law focuses on moral principles, while Utilitarianism focuses on outcomes",
+        "Both prioritize outcomes over principles",
+        "Both reject the role of consequences in ethical decisions",
+        "Natural Law considers cultural norms, unlike Utilitarianism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Natural Law emphasizes adherence to moral principles, whereas Utilitarianism evaluates actions based on their outcomes."
+    },
+    {
+      "id": "reason-q15",
+      "question": "What is a common critique regarding the rigidity of Natural Law?",
+      "options": [
+        "It fails to account for individual circumstances",
+        "It is too flexible and subjective",
+        "It does not provide clear guidance",
+        "It overemphasizes emotions in ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Natural Law is too rigid, often failing to account for individual circumstances in ethical decision-making."
+    }
+  ]
+}

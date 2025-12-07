@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "practices-identity",
+  "topicTitle": "Practices Shaping Religious Identity",
+  "subTopic": "worship",
+  "subTopicTitle": "Worship and Liturgy",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:57:12.044Z",
+  "items": [
+    {
+      "id": "worship-q1",
+      "question": "What is the primary purpose of liturgy in Christian worship?",
+      "options": [
+        "To provide a structured form of communal worship",
+        "To ensure all services are identical",
+        "To entertain the congregation",
+        "To replace personal prayer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Liturgy provides a structured form of communal worship, ensuring a cohesive and shared experience."
+    },
+    {
+      "id": "worship-q2",
+      "question": "Which term describes the belief that the bread and wine become the actual body and blood of Christ during Eucharist?",
+      "options": [
+        "Transubstantiation",
+        "Consubstantiation",
+        "Memorialism",
+        "Symbolism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Transubstantiation is the belief in the literal transformation of the bread and wine, a key doctrine in Catholicism."
+    },
+    {
+      "id": "worship-q3",
+      "question": "Who proposed the idea of 'the invisible church'?",
+      "options": [
+        "Augustine of Hippo",
+        "Martin Luther",
+        "John Calvin",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "John Calvin introduced the concept of 'the invisible church' as the true body of believers known only to God."
+    },
+    {
+      "id": "worship-q4",
+      "question": "In what year was the Book of Common Prayer first published?",
+      "options": [
+        "1549",
+        "1539",
+        "1552",
+        "1563"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Book of Common Prayer was first published in 1549, standardizing Anglican worship."
+    },
+    {
+      "id": "worship-q5",
+      "question": "Which Christian denomination primarily uses the Divine Liturgy of St. John Chrysostom?",
+      "options": [
+        "Eastern Orthodox",
+        "Roman Catholic",
+        "Anglican",
+        "Lutheran"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Divine Liturgy of St. John Chrysostom is central to Eastern Orthodox worship."
+    },
+    {
+      "id": "worship-q6",
+      "question": "Which researcher conducted a study on the role of music in worship and its impact on congregation engagement?",
+      "options": [
+        "Thomas D. Pettit (2008)",
+        "Andrew Newberg (2001)",
+        "Linda Woodhead (2013)",
+        "Grace Davie (1994)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas D. Pettit (2008) explored the role of music in enhancing engagement and emotional response during worship."
+    },
+    {
+      "id": "worship-q7",
+      "question": "In which religious tradition is the Seder meal a significant liturgical practice?",
+      "options": [
+        "Judaism",
+        "Christianity",
+        "Islam",
+        "Hinduism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Seder meal is a central liturgical practice in Judaism, particularly during Passover."
+    },
+    {
+      "id": "worship-q8",
+      "question": "What is the primary focus of Pentecostal worship services?",
+      "options": [
+        "Spontaneous expression and the gifts of the Spirit",
+        "Traditional liturgy and rituals",
+        "Solemn reflection and meditation",
+        "Adherence to historical creeds"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pentecostal worship emphasizes spontaneous expression and the active presence of the Holy Spirit."
+    },
+    {
+      "id": "worship-q9",
+      "question": "Which liturgical season is marked by anticipation and preparation for Easter in Christianity?",
+      "options": [
+        "Lent",
+        "Advent",
+        "Epiphany",
+        "Pentecost"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lent is the season of preparation and reflection leading up to Easter."
+    },
+    {
+      "id": "worship-q10",
+      "question": "A Christian church decides to incorporate more modern music into its services to attract younger members. What is this an example of?",
+      "options": [
+        "Contextualization of worship",
+        "Traditionalism",
+        "Ritualistic conformity",
+        "Doctrinal rigidity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This decision reflects contextualization, adapting worship practices to engage a specific demographic."
+    },
+    {
+      "id": "worship-q11",
+      "question": "A study finds that liturgical changes in a church resulted in increased attendance. What type of analysis does this scenario require?",
+      "options": [
+        "Impact analysis",
+        "Doctrinal analysis",
+        "Ritualistic evaluation",
+        "Historical analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Impact analysis evaluates the effects of changes on church attendance and engagement."
+    },
+    {
+      "id": "worship-q12",
+      "question": "A researcher is examining the role of liturgy in fostering community identity. What methodological approach is most suitable?",
+      "options": [
+        "Ethnography",
+        "Quantitative survey",
+        "Content analysis",
+        "Experimental study"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Ethnography is suitable for studying cultural and community identity through participant observation."
+    },
+    {
+      "id": "worship-q13",
+      "question": "How does the Catholic Mass differ from a typical Protestant service in terms of liturgy?",
+      "options": [
+        "Catholic Mass follows a strict liturgical order, while Protestant services may vary more",
+        "Protestant services are longer than Catholic Mass",
+        "Catholic Mass is less focused on the sermon",
+        "Protestant services typically exclude sacraments"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Catholic Mass follows a detailed liturgical structure, whereas Protestant services often allow more variability."
+    },
+    {
+      "id": "worship-q14",
+      "question": "What is a common critique of highly structured liturgical practices?",
+      "options": [
+        "They may limit personal spiritual expression",
+        "They ensure uniformity and cohesion",
+        "They encourage spontaneous worship",
+        "They are universally engaging"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A critique is that structured liturgy can limit individual expression, though it promotes uniformity."
+    },
+    {
+      "id": "worship-q15",
+      "question": "How might modern technological advancements be critiqued in the context of traditional worship practices?",
+      "options": [
+        "They can distract from the sacredness of worship",
+        "They enhance the authenticity of worship",
+        "They universally improve engagement",
+        "They are essential for doctrinal accuracy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue technology might distract from worship's sacred elements, although it can improve engagement."
+    }
+  ]
+}

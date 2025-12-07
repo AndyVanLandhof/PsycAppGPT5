@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "ancient-philosophical-influences",
+  "topicTitle": "Ancient Philosophical Influences",
+  "subTopic": "impact",
+  "subTopicTitle": "Influence on Christian Theology",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:33:07.216Z",
+  "items": [
+    {
+      "id": "impact-q1",
+      "question": "Which philosopher is known for the theory of Forms, which influenced early Christian theology?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Epicurus",
+        "Socrates"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato's theory of Forms proposed non-material abstract forms as the highest reality, influencing Christian concepts of heaven and divine perfection."
+    },
+    {
+      "id": "impact-q2",
+      "question": "What is the primary focus of Aristotle's 'Nicomachean Ethics'?",
+      "options": [
+        "Virtue Ethics",
+        "Utilitarianism",
+        "Deontological Ethics",
+        "Existentialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's 'Nicomachean Ethics' emphasizes Virtue Ethics, focusing on achieving eudaimonia through virtuous living."
+    },
+    {
+      "id": "impact-q3",
+      "question": "Which concept from Plato's philosophy influenced Augustine's view on the nature of evil?",
+      "options": [
+        "The Allegory of the Cave",
+        "The Form of the Good",
+        "The Divided Line",
+        "The Theory of Recollection"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Plato's Form of the Good influenced Augustine's belief that evil is a privation of good, similar to the absence of true forms."
+    },
+    {
+      "id": "impact-q4",
+      "question": "Who argued that the soul is more important than the body, a view that influenced Christian dualism?",
+      "options": [
+        "Plato",
+        "Epicurus",
+        "Zeno",
+        "Democritus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato believed the soul was eternal and more important than the body, which laid groundwork for Christian dualistic views."
+    },
+    {
+      "id": "impact-q5",
+      "question": "Which philosopher's ideas on causality and purpose influenced Aquinas' Five Ways?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Pythagoras",
+        "Socrates"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's concepts of causality and teleology were foundational for Aquinas' Five Ways, especially the arguments from motion and final cause."
+    },
+    {
+      "id": "impact-q6",
+      "question": "What is the key difference between Plato's and Aristotle's views on universals?",
+      "options": [
+        "Plato believed in abstract Forms, Aristotle believed in concrete particulars",
+        "Plato believed in empirical observation, Aristotle believed in innate knowledge",
+        "Plato believed in materialism, Aristotle believed in idealism",
+        "Plato believed in hedonism, Aristotle believed in asceticism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato posited abstract Forms existing independently of the physical world, while Aristotle believed universals exist within particular things."
+    },
+    {
+      "id": "impact-q7",
+      "question": "Which philosopher's emphasis on reason and logic influenced the development of Christian theology during the Scholastic period?",
+      "options": [
+        "Aristotle",
+        "Epicurus",
+        "Seneca",
+        "Heraclitus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aristotle's emphasis on logic and reason was integral to Scholasticism, influencing theologians like Thomas Aquinas."
+    },
+    {
+      "id": "impact-q8",
+      "question": "Which philosophical concept did Augustine integrate into his theological work, 'Confessions'?",
+      "options": [
+        "Platonic Forms",
+        "Aristotelian Ethics",
+        "Epicurean Hedonism",
+        "Stoic Determinism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine incorporated the concept of Platonic Forms into his 'Confessions', especially in understanding the nature of God and creation."
+    },
+    {
+      "id": "impact-q9",
+      "question": "Who is known for the idea that the highest form of knowledge is knowledge of the Good, influencing Christian moral teaching?",
+      "options": [
+        "Plato",
+        "Epicurus",
+        "Aristotle",
+        "Protagoras"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Plato's idea that knowledge of the Good is the highest form of knowledge influenced Christian moral teaching about divine truth and goodness."
+    },
+    {
+      "id": "impact-q10",
+      "question": "A theologian is attempting to reconcile the idea of an all-powerful God with the existence of evil. Which ancient philosophical influence might they draw upon?",
+      "options": [
+        "Augustine's Privation Theory, influenced by Plato",
+        "Epicurus' Hedonism",
+        "Aristotle's Virtue Ethics",
+        "Heraclitus' Doctrine of Flux"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Augustine's Privation Theory, influenced by Plato, suggests evil is not a substance but a lack of good, helping reconcile the existence of evil with an all-good God."
+    },
+    {
+      "id": "impact-q11",
+      "question": "A philosopher is using Aristotle's Four Causes to explain natural phenomena. Which Christian theological concept might this align with?",
+      "options": [
+        "Aquinas' Five Ways",
+        "Augustine's Doctrine of Original Sin",
+        "Calvin's Predestination",
+        "Luther's Sola Fide"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aquinas' Five Ways uses Aristotle's Four Causes to explain the existence of God, aligning natural phenomena with divine purpose."
+    },
+    {
+      "id": "impact-q12",
+      "question": "In a debate on the immortality of the soul, which ancient philosopher's ideas might a Christian theologian reference?",
+      "options": [
+        "Plato",
+        "Epicurus",
+        "Zeno",
+        "Heraclitus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A Christian theologian might reference Plato, who posited the immortality of the soul, aligning with Christian teachings on eternal life."
+    },
+    {
+      "id": "impact-q13",
+      "question": "Which philosopher's critique of the senses as unreliable influenced the epistemological foundations of Christian theology?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Epicurus",
+        "Democritus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Plato's skepticism of sensory knowledge influenced Christian thought on the limits of human understanding and the need for divine revelation."
+    },
+    {
+      "id": "impact-q14",
+      "question": "How might Aristotle's concept of 'telos' be evaluated in comparison to Christian eschatological views?",
+      "options": [
+        "Both emphasize an ultimate purpose or end",
+        "Aristotle rejected any notion of purpose",
+        "Christianity has no concept of an ultimate end",
+        "Aristotle's telos is purely materialistic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Both Aristotle's 'telos' and Christian eschatology emphasize an ultimate purpose or end, though Christianity focuses on eternal life with God."
+    },
+    {
+      "id": "impact-q15",
+      "question": "What is a potential critique of using Platonic philosophy to explain Christian doctrines?",
+      "options": [
+        "It relies on abstract forms not explicitly mentioned in scripture",
+        "It fully aligns with biblical teachings",
+        "It emphasizes materialism over spirituality",
+        "It rejects the existence of a divine being"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A critique is that Platonic philosophy relies on abstract forms, which are not explicitly mentioned in scripture, potentially leading to theological tensions."
+    }
+  ]
+}

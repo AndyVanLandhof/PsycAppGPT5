@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-language",
+  "topicTitle": "Religious Language",
+  "subTopic": "logical",
+  "subTopicTitle": "Verification/Falsification",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:40:19.907Z",
+  "items": [
+    {
+      "id": "logical-q1",
+      "question": "Which philosopher is most associated with the Verification Principle?",
+      "options": [
+        "A.J. Ayer",
+        "Ludwig Wittgenstein",
+        "Karl Popper",
+        "Rudolf Carnap"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A.J. Ayer popularized the Verification Principle in his 1936 book 'Language, Truth, and Logic'."
+    },
+    {
+      "id": "logical-q2",
+      "question": "What does the Verification Principle claim?",
+      "options": [
+        "A statement is meaningful if it can be empirically verified.",
+        "A statement is meaningful if it can be falsified.",
+        "A statement is meaningful if it is logically coherent.",
+        "A statement is meaningful if it is universally accepted."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Verification Principle asserts that for a statement to be meaningful, it must be verifiable through empirical evidence."
+    },
+    {
+      "id": "logical-q3",
+      "question": "Who introduced the concept of 'falsification' to challenge the Verification Principle?",
+      "options": [
+        "Karl Popper",
+        "A.J. Ayer",
+        "Ludwig Wittgenstein",
+        "Anthony Flew"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Popper introduced the concept of falsification, arguing that scientific theories should be testable and disprovable."
+    },
+    {
+      "id": "logical-q4",
+      "question": "Which example best illustrates a statement that can be empirically verified?",
+      "options": [
+        "The Eiffel Tower is in Paris.",
+        "Beauty is in the eye of the beholder.",
+        "God exists.",
+        "Justice is fair."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The statement 'The Eiffel Tower is in Paris' can be empirically verified by visiting Paris or checking reliable sources."
+    },
+    {
+      "id": "logical-q5",
+      "question": "In what year did A.J. Ayer publish 'Language, Truth, and Logic'?",
+      "options": [
+        "1936",
+        "1929",
+        "1945",
+        "1959"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A.J. Ayer's influential book was published in 1936, introducing the Verification Principle to a wider audience."
+    },
+    {
+      "id": "logical-q6",
+      "question": "What is a primary criticism of the Verification Principle?",
+      "options": [
+        "It is self-refuting.",
+        "It is too broad.",
+        "It is empirically unjustifiable.",
+        "It supports metaphysics."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Verification Principle is often criticized as self-refuting because the principle itself cannot be empirically verified."
+    },
+    {
+      "id": "logical-q7",
+      "question": "Who argued that religious language is non-cognitive and symbolic?",
+      "options": [
+        "Paul Tillich",
+        "Bertrand Russell",
+        "Karl Popper",
+        "Rudolf Carnap"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Tillich viewed religious language as non-cognitive and symbolic, expressing deeper truths."
+    },
+    {
+      "id": "logical-q8",
+      "question": "Which philosopher is associated with the Parable of the Gardener?",
+      "options": [
+        "Anthony Flew",
+        "John Hick",
+        "A.J. Ayer",
+        "Karl Popper"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anthony Flew used the Parable of the Gardener to illustrate the falsification principle's critique of religious statements."
+    },
+    {
+      "id": "logical-q9",
+      "question": "Which theory suggests that religious statements are not factually meaningful but express emotions?",
+      "options": [
+        "Emotivism",
+        "Logical Positivism",
+        "Realism",
+        "Verificationism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Emotivism suggests that religious statements express emotions and are not factually meaningful."
+    },
+    {
+      "id": "logical-q10",
+      "question": "How might an adherent of falsificationism respond to the claim 'God loves everyone'?",
+      "options": [
+        "Ask what evidence would disprove it",
+        "Accept it as a verified truth",
+        "Consider it a meaningless statement",
+        "Interpret it as a metaphor"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Falsificationism would challenge the claim by asking what potential evidence could disprove it, testing its meaningfulness."
+    },
+    {
+      "id": "logical-q11",
+      "question": "What is a challenge to falsificationism regarding religious language?",
+      "options": [
+        "Religious claims are non-falsifiable",
+        "Religious claims are verifiable",
+        "Religious claims are universally accepted",
+        "Religious claims are logically incoherent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A challenge to falsificationism is that religious claims are often non-falsifiable, yet they are still meaningful to believers."
+    },
+    {
+      "id": "logical-q12",
+      "question": "According to Karl Popper, what distinguishes science from non-science?",
+      "options": [
+        "Falsifiability",
+        "Verifiability",
+        "Logical coherence",
+        "Empirical evidence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Popper argued that falsifiability, not verifiability, distinguishes science from non-science."
+    },
+    {
+      "id": "logical-q13",
+      "question": "Which example best represents a falsifiable statement?",
+      "options": [
+        "All swans are white.",
+        "Beauty exists.",
+        "God is love.",
+        "Justice is blind."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The statement 'All swans are white' is falsifiable because finding a non-white swan would disprove it."
+    },
+    {
+      "id": "logical-q14",
+      "question": "What aspect of A.J. Ayer's Verification Principle is often critiqued?",
+      "options": [
+        "Its self-refuting nature",
+        "Its support for metaphysical claims",
+        "Its reliance on subjective interpretation",
+        "Its lack of empirical basis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Ayer's Verification Principle is critiqued for being self-refuting, as the principle itself cannot be empirically verified."
+    },
+    {
+      "id": "logical-q15",
+      "question": "Who argued that religious language can be meaningful within a form of life?",
+      "options": [
+        "Ludwig Wittgenstein",
+        "A.J. Ayer",
+        "Paul Tillich",
+        "Karl Popper"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Wittgenstein suggested that religious language is meaningful within its own 'form of life', emphasizing its context-bound use."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "pluralism",
+  "topicTitle": "Religious Pluralism",
+  "subTopic": "truth",
+  "subTopicTitle": "Truth and Salvation Outside Christianity?",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:59:07.073Z",
+  "items": [
+    {
+      "id": "truth-q1",
+      "question": "What is the main argument of John Hick's theory of religious pluralism?",
+      "options": [
+        "All religions are valid paths to the same ultimate reality.",
+        "Christianity is the only true path to salvation.",
+        "Religions should be ranked based on their moral teachings.",
+        "Only religions that promote peace are valid."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick argued that all religions are valid paths to the same ultimate reality, emphasizing a pluralistic view of salvation."
+    },
+    {
+      "id": "truth-q2",
+      "question": "Which term is used to describe the belief that salvation is possible outside of Christianity?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Universalism",
+        "Relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Inclusivism suggests that salvation can be found outside Christianity, though it maintains Christianity as the fullest expression of truth."
+    },
+    {
+      "id": "truth-q3",
+      "question": "According to Karl Rahner, what is the role of 'anonymous Christians'?",
+      "options": [
+        "Non-Christians who unknowingly follow Christ's teachings",
+        "Christians who secretly practice other faiths",
+        "Individuals who publicly renounce Christianity",
+        "Christians who avoid public worship"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Rahner introduced the concept of 'anonymous Christians' to describe non-Christians who live by God's grace and Jesus's teachings unknowingly."
+    },
+    {
+      "id": "truth-q4",
+      "question": "In 1965, which major document was released by the Catholic Church addressing religious pluralism?",
+      "options": [
+        "Nostra Aetate",
+        "Humanae Vitae",
+        "Dei Verbum",
+        "Lumen Gentium"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Nostra Aetate, issued in 1965, acknowledged the truth and holiness in other religions and promoted dialogue and understanding."
+    },
+    {
+      "id": "truth-q5",
+      "question": "Who proposed the 'copernican revolution' in theology, advocating for a shift from Christianity as the center to God as the center?",
+      "options": [
+        "John Hick",
+        "Karl Rahner",
+        "Gavin D'Costa",
+        "Paul Knitter"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick suggested a 'copernican revolution' in theology, moving the focus from Christianity to God as the center of all religions."
+    },
+    {
+      "id": "truth-q6",
+      "question": "Which philosopher criticized religious pluralism by arguing that it diminishes the truth claims of individual religions?",
+      "options": [
+        "Gavin D'Costa",
+        "John Hick",
+        "Karl Rahner",
+        "Alvin Plantinga"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gavin D'Costa argues that religious pluralism undermines the distinct truth claims of individual religions and their unique revelations."
+    },
+    {
+      "id": "truth-q7",
+      "question": "What does the term 'exclusivism' signify in the context of religious pluralism?",
+      "options": [
+        "Salvation is only through one particular faith.",
+        "All religions are equally valid.",
+        "Non-religious paths can also lead to salvation.",
+        "Religious truth is culturally relative."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivism holds that salvation is only possible through one specific faith, typically Christianity in its context."
+    },
+    {
+      "id": "truth-q8",
+      "question": "Which scholar is associated with the critique of pluralism known as the 'pluralist hypothesis'?",
+      "options": [
+        "Gavin D'Costa",
+        "Paul Knitter",
+        "John Hick",
+        "Alvin Plantinga"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "John Hick proposed the 'pluralist hypothesis,' which suggests that all major world religions are equally valid responses to the same ultimate reality."
+    },
+    {
+      "id": "truth-q9",
+      "question": "What is the central claim of Alvin Plantinga's critique of religious pluralism?",
+      "options": [
+        "Religious pluralism is self-defeating because it assumes a privileged position.",
+        "All religions inherently contradict each other.",
+        "Pluralism ignores the cultural context of religious beliefs.",
+        "Religious truth is subjective and varies by individual."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga argues that religious pluralism is self-defeating because it assumes its own position is superior, contradicting its own premise."
+    },
+    {
+      "id": "truth-q10",
+      "question": "A Christian university is considering whether to include courses on non-Christian religions in their curriculum. Which approach to religious pluralism is most in line with this decision?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Fundamentalism",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Inclusivism supports recognizing and understanding truths found in other religions, aligning with the decision to include such courses."
+    },
+    {
+      "id": "truth-q11",
+      "question": "A survey finds that students with exposure to multiple religions are more empathetic towards diverse beliefs. Which theory of religious pluralism does this best support?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Pluralism",
+        "Universalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Pluralism supports the idea that exposure to multiple religions can foster understanding and empathy, as it values all religions equally."
+    },
+    {
+      "id": "truth-q12",
+      "question": "A non-Christian visitor feels spiritually fulfilled after attending a Christian retreat. Which concept does this illustrate?",
+      "options": [
+        "Anonymous Christianity",
+        "Exclusivism",
+        "Fundamentalism",
+        "Secularism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates 'Anonymous Christianity,' where a non-Christian experiences spiritual fulfillment through Christian practices."
+    },
+    {
+      "id": "truth-q13",
+      "question": "How does the concept of religious pluralism challenge traditional Christian teachings?",
+      "options": [
+        "It suggests that salvation can be found through other faiths.",
+        "It reinforces the idea that Christianity is the one true faith.",
+        "It denies the importance of religious practice altogether.",
+        "It promotes atheism as a viable alternative to faith."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious pluralism challenges traditional Christian teachings by proposing that salvation can be achieved through various faiths, not just Christianity."
+    },
+    {
+      "id": "truth-q14",
+      "question": "Which of the following is a critique of John Hick's pluralist hypothesis?",
+      "options": [
+        "It oversimplifies the distinct teachings of different religions.",
+        "It accurately represents all religious truths.",
+        "It provides a perfect solution for interfaith dialogue.",
+        "It fails to recognize any commonalities between faiths."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that John Hick's pluralist hypothesis oversimplifies religious differences and undermines the distinctiveness of each faith's teachings."
+    },
+    {
+      "id": "truth-q15",
+      "question": "Why might some theologians resist the concept of religious pluralism?",
+      "options": [
+        "It threatens the exclusivity of salvation through Christ.",
+        "It provides a comprehensive understanding of global faiths.",
+        "It aligns with the idea of a universal truth.",
+        "It encourages dialogue between different faiths."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Theologians may resist religious pluralism as it challenges the exclusivity of salvation through Christ, a core tenet of traditional Christianity."
+    }
+  ]
+}

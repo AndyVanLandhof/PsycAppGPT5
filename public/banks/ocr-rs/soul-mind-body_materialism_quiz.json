@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "soul-mind-body",
+  "topicTitle": "Soul, Mind and Body",
+  "subTopic": "materialism",
+  "subTopicTitle": "Materialist Critiques",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:34:30.785Z",
+  "items": [
+    {
+      "id": "materialism-q1",
+      "question": "Which philosopher is known for the materialist critique that the mind is simply a function of the brain and has no separate existence?",
+      "options": [
+        "Gilbert Ryle",
+        "René Descartes",
+        "John Locke",
+        "Plato"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gilbert Ryle critiqued the Cartesian dualism, describing the concept of the mind as a 'ghost in the machine'."
+    },
+    {
+      "id": "materialism-q2",
+      "question": "What is the main idea behind physicalism in the philosophy of mind?",
+      "options": [
+        "The mind is a non-physical entity",
+        "Mental states are brain states",
+        "The soul is immortal",
+        "The mind and body are separate"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Physicalism posits that mental states are identical to brain states, rejecting the dualist separation of mind and body."
+    },
+    {
+      "id": "materialism-q3",
+      "question": "Which study is most associated with challenging dualist perspectives by showing the brain's influence on behavior?",
+      "options": [
+        "Phineas Gage (1848)",
+        "Stanford Prison Experiment (1971)",
+        "Milgram Experiment (1963)",
+        "Asch Conformity Experiments (1951)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Phineas Gage study showcased how brain injury could alter personality, supporting a materialist view of mind-body interaction."
+    },
+    {
+      "id": "materialism-q4",
+      "question": "Which philosopher argued that the concept of 'soul' is unnecessary because consciousness can be explained by brain processes?",
+      "options": [
+        "Daniel Dennett",
+        "Thomas Aquinas",
+        "Socrates",
+        "Immanuel Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Daniel Dennett is known for his materialist view that consciousness arises from brain processes without needing a separate soul."
+    },
+    {
+      "id": "materialism-q5",
+      "question": "What is the term used to describe the idea that mental states are realized by physical states in the brain?",
+      "options": [
+        "Dualism",
+        "Functionalism",
+        "Idealism",
+        "Empiricism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Functionalism posits that mental states are defined by their functional roles and can be realized by physical states."
+    },
+    {
+      "id": "materialism-q6",
+      "question": "Who argued for the theory of eliminative materialism, suggesting that common-sense mental states do not truly exist?",
+      "options": [
+        "Paul Churchland",
+        "Sigmund Freud",
+        "Carl Jung",
+        "J.J.C. Smart"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Churchland proposed eliminative materialism, which argues that folk psychology concepts like beliefs and desires are illusory."
+    },
+    {
+      "id": "materialism-q7",
+      "question": "Which philosopher is known for the 'identity theory', which equates mental states with brain states?",
+      "options": [
+        "J.J.C. Smart",
+        "Bertrand Russell",
+        "David Hume",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "J.J.C. Smart is a proponent of the identity theory, which claims that mental states are identical to brain states."
+    },
+    {
+      "id": "materialism-q8",
+      "question": "What is the 'category mistake' in the context of mind-body philosophy?",
+      "options": [
+        "Attributing physical properties to non-physical entities",
+        "Confusing a part for the whole",
+        "Mistaking mental states for brain states",
+        "Describing non-physical processes in physical terms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gilbert Ryle coined the term 'category mistake' to describe the error of treating the mind as an independent entity like the body."
+    },
+    {
+      "id": "materialism-q9",
+      "question": "Which of the following is NOT a materialist critique of dualism?",
+      "options": [
+        "The problem of interaction",
+        "Neuroscientific evidence of brain activity",
+        "The soul's immortality",
+        "The lack of empirical evidence for a separate mind"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The soul's immortality is a concept associated with dualism, not a critique of it."
+    },
+    {
+      "id": "materialism-q10",
+      "question": "A neuroscientist is studying the brain activity of a patient during decision-making tasks. Which philosophical perspective does this research best support?",
+      "options": [
+        "Materialism",
+        "Dualism",
+        "Idealism",
+        "Parapsychology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Materialism is supported by the study of brain activity correlating with mental processes, suggesting physical bases for decisions."
+    },
+    {
+      "id": "materialism-q11",
+      "question": "A psychologist explains that emotional responses can be traced back to specific neurochemical reactions. Which materialist concept does this scenario illustrate?",
+      "options": [
+        "Functionalism",
+        "Eliminative materialism",
+        "Substance dualism",
+        "Idealism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Eliminative materialism posits that common-sense psychological concepts can be explained by neurochemical processes."
+    },
+    {
+      "id": "materialism-q12",
+      "question": "In a study, researchers found that stimulating a specific brain area altered subjects' perceptions. What does this finding imply about the mind-body relationship?",
+      "options": [
+        "Support for dualism",
+        "Evidence for materialism",
+        "Proof of the soul's existence",
+        "Validation of idealism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "This finding supports materialism, indicating that physical brain changes can affect mental perceptions."
+    },
+    {
+      "id": "materialism-q13",
+      "question": "Which of the following is a critique of materialism from a dualist perspective?",
+      "options": [
+        "It oversimplifies complex mental phenomena",
+        "It lacks empirical support",
+        "It ignores the existence of the soul",
+        "It relies too heavily on introspection"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Dualists often critique materialism for oversimplifying the complex nature of mental phenomena and consciousness."
+    },
+    {
+      "id": "materialism-q14",
+      "question": "How do materialists typically respond to the claim that consciousness cannot be fully explained by physical processes?",
+      "options": [
+        "By arguing consciousness is an illusion",
+        "By accepting the mystery",
+        "By positing a non-physical realm",
+        "By denying the existence of consciousness"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Materialists often argue that what we consider consciousness might be an emergent property or even an illusion of brain processes."
+    },
+    {
+      "id": "materialism-q15",
+      "question": "What challenge does the 'hard problem of consciousness' present to materialist theories?",
+      "options": [
+        "Explaining how physical processes give rise to subjective experiences",
+        "Determining the existence of the soul",
+        "Understanding the immortality of the mind",
+        "Finding empirical evidence for dualism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The 'hard problem of consciousness', coined by David Chalmers, challenges materialists to explain how subjective experiences arise from physical processes."
+    }
+  ]
+}

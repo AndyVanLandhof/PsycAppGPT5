@@ -4,6 +4,7 @@ import { useVaultService } from "../hooks/useVaultService";
 import { useElevenLabsTTS } from "../hooks/useElevenLabsTTS";
 import { getSelectedCurriculum } from "../config/curricula";
 import { logPlannerEvent } from "../progress/plannerEvents";
+import { logAttempt } from "../utils/attemptTracker";
 import { Loader2, Volume2, Pause, StopCircle, ChevronLeft, ChevronRight, RotateCcw, Shuffle, History, Play, Download, Save, FileText, Calendar, Clock, Target } from "lucide-react";
 import jsPDF from 'jspdf';
 
@@ -370,6 +371,56 @@ function FlashcardView({ topic, onBack }) {
       }
       return null;
     } catch (_) { return null; }
+  };
+
+  // Track which bank was last used
+  const [lastBankUsed, setLastBankUsed] = useState(null);
+
+  // Load Core Flashcards from pre-generated banks (split into Bank 1 or Bank 2)
+  const loadCoreFlashcards = async (bankNumber = 1) => {
+    setIsLoading(true);
+    try {
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
+      console.log('[Flashcards] Loading core flashcards from:', bankPath, 'Bank:', bankNumber);
+      
+      const response = await fetch(bankPath);
+      if (!response.ok) {
+        console.warn('[Flashcards] Core bank not found:', bankPath);
+        alert('Core flashcards not available for this topic. Try "Generate New Flashcards" instead.');
+        setIsLoading(false);
+        return;
+      }
+      
+      const bankData = await response.json();
+      if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
+        // Split into two banks of 10 each
+        const allCards = bankData.items;
+        const midpoint = Math.ceil(allCards.length / 2);
+        const selectedCards = bankNumber === 1 
+          ? allCards.slice(0, midpoint)  // Bank 1: first 10
+          : allCards.slice(midpoint);     // Bank 2: second 10
+        
+        console.log('[Flashcards] Loaded Bank', bankNumber, ':', selectedCards.length, 'flashcards');
+        setLastBankUsed(bankNumber);
+        
+        // Store bank number in localStorage for attempt tracking
+        try {
+          const bankKey = `${curr}:flash-last-bank-${topic.id}-${topic.subTopic.id}`;
+          localStorage.setItem(bankKey, String(bankNumber));
+        } catch (_) {}
+        
+        loadFromLabSet(selectedCards);
+      } else {
+        console.warn('[Flashcards] Core bank is empty');
+        alert('Core flashcards not available for this topic. Try "Generate New Flashcards" instead.');
+      }
+    } catch (err) {
+      console.error('[Flashcards] Error loading core flashcards:', err);
+      alert('Failed to load core flashcards. Try "Generate New Flashcards" instead.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const persistLab = (cards) => {
@@ -741,7 +792,11 @@ Return in this JSON format:
       setTimeout(() => {
         setSessionComplete(true);
         saveSession();
-        try { logPlannerEvent({ phase: 'reinforce', topicId: topic.id, subId: topic.subTopic.id, theme: topic.subTopic.title, curriculum: null }); } catch(_){ }
+        // Log attempt with bank info
+        try { 
+          logAttempt(topic.id, topic.subTopic.id, 'flashcards', lastBankUsed);
+          logPlannerEvent({ phase: 'reinforce', topicId: topic.id, subId: topic.subTopic.id, theme: topic.subTopic.title, curriculum: null }); 
+        } catch(_){ }
       }, 2000);
     } else {
       // Auto-advance after 2 seconds
@@ -1586,29 +1641,6 @@ Return in this JSON format:
             <p className="text-gray-600">Test your knowledge with AI-generated flashcards</p>
           </div>
           <div className="flex gap-3 flex-wrap">
-            {/* SRS Mode Toggle */}
-            <button
-              onClick={() => setSrsMode(!srsMode)}
-              className={`px-4 py-2 rounded-lg transition-colors font-semibold ${
-                srsMode 
-                  ? 'bg-green-600 text-white hover:bg-green-700' 
-                  : 'bg-blue-600 text-white hover:bg-blue-700'
-              }`}
-            >
-              {srsMode ? 'SRS Mode' : 'Regular Mode'}
-            </button>
-            
-            {/* SRS Stats Button */}
-            {srsCards.length > 0 && (
-              <button
-                onClick={() => setShowSrsStats(!showSrsStats)}
-                className="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors font-semibold"
-              >
-                <Target className="w-4 h-4 inline mr-2" />
-                SRS Stats
-              </button>
-            )}
-            
             {sessionHistory.length > 0 && (
               <button
                 onClick={() => setShowHistory(true)}
@@ -1625,48 +1657,31 @@ Return in this JSON format:
                 View Summaries ({storedSummaries.length})
               </button>
             )}
-            {/* Source controls like Quiz: LIVE/LAB and Refresh Lab */}
-            {!srsMode && (
-              <>
-                <button
-                  onClick={() => { setSourceSet('live'); generateFlashcards({ source: 'live' }); }}
-                  className={`px-4 py-2 rounded-lg font-semibold ${sourceSet==='live' ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white' : 'bg-gray-100 text-gray-700'}`}
-                >
-                  LIVE
-                </button>
-                <button
-                  onClick={() => { setSourceSet('lab'); generateFlashcards({ source: 'lab' }); }}
-                  className={`px-4 py-2 rounded-lg font-semibold ${sourceSet==='lab' ? 'bg-emerald-600 text-white' : 'bg-gray-100 text-gray-700'}`}
-                >
-                  LAB
-                </button>
-                <button
-                  onClick={() => generateFlashcards({ refreshLab: true, source: 'lab' })}
-                  className="px-4 py-2 rounded-lg font-semibold bg-emerald-100 text-emerald-700 hover:bg-emerald-200"
-                  title="Rebuild and save new LAB set"
-                >
-                  Refresh LAB
-                </button>
-              </>
-            )}
-            <button
-              onClick={generateFlashcards}
-              disabled={!isVaultLoaded() || isLoading}
-              className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all font-semibold disabled:opacity-50"
-            >
-              {isLoading ? 'Generating...' : 'Start Session'}
-            </button>
           </div>
         </div>
 
         {/* Controls */}
         <div className="bg-white border rounded-lg shadow-sm p-6">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 flex-wrap">
               <button
-                onClick={generateFlashcards}
+                onClick={() => loadCoreFlashcards(1)}
+                disabled={isLoading}
+                className="px-5 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all font-semibold disabled:opacity-50"
+              >
+                📚 Bank 1 (1-10)
+              </button>
+              <button
+                onClick={() => loadCoreFlashcards(2)}
+                disabled={isLoading}
+                className="px-5 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-all font-semibold disabled:opacity-50"
+              >
+                📚 Bank 2 (11-20)
+              </button>
+              <button
+                onClick={() => generateFlashcards({ source: 'live' })}
                 disabled={!isVaultLoaded() || isLoading}
-                className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all font-semibold disabled:opacity-50"
+                className="px-5 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all font-semibold disabled:opacity-50"
               >
                 {isLoading ? (
                   <div className="flex items-center gap-2">
@@ -1674,17 +1689,25 @@ Return in this JSON format:
                     Generating...
                   </div>
                 ) : (
-                  'Generate New Flashcards'
+                  '✨ Generate New Flashcards'
                 )}
               </button>
               
               {sessionFlashcards.length > 0 && (
-                <button
-                  onClick={handleShuffle}
-                  className="px-4 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-semibold"
-                >
-                  Shuffle & Restart
-                </button>
+                <>
+                  <button
+                    onClick={handleShuffle}
+                    className="px-4 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-semibold"
+                  >
+                    🔀 Shuffle
+                  </button>
+                  <button
+                    onClick={() => { setCurrentIndex(0); setStep(1); }}
+                    className="px-4 py-3 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-semibold"
+                  >
+                    🔄 Restart
+                  </button>
+                </>
               )}
             </div>
             
@@ -1704,14 +1727,6 @@ Return in this JSON format:
             </div>
           </div>
         </div>
-
-        {/* Flash Library (saved LAB sets) */}
-        {!srsMode && (
-          <div className="bg-white border rounded-lg shadow-sm p-6">
-            <div className="text-sm font-semibold text-gray-800 mb-2">Flash Library</div>
-            <FlashLibraryPreview topic={topic} onUse={loadFromLabSet} />
-          </div>
-        )}
 
         {/* Stats */}
         {sessionStats.total > 0 && (

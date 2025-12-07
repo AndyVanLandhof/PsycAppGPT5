@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "euthanasia",
+  "topicTitle": "Euthanasia",
+  "subTopic": "types",
+  "subTopicTitle": "Types of Euthanasia",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:48:04.170Z",
+  "items": [
+    {
+      "id": "types-q1",
+      "question": "What is the term used to describe euthanasia conducted with the consent of the patient?",
+      "options": [
+        "Voluntary euthanasia",
+        "Involuntary euthanasia",
+        "Non-voluntary euthanasia",
+        "Passive euthanasia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Voluntary euthanasia involves the explicit consent of the patient, distinguishing it from involuntary and non-voluntary forms."
+    },
+    {
+      "id": "types-q2",
+      "question": "Which of the following is an example of passive euthanasia?",
+      "options": [
+        "Withholding life-sustaining treatment",
+        "Administering a lethal injection",
+        "Assisted suicide",
+        "Switching off a life-support machine without consent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Passive euthanasia involves withholding or withdrawing treatment that would prolong life, such as life-sustaining treatment."
+    },
+    {
+      "id": "types-q3",
+      "question": "James Rachels is known for arguing against which distinction in euthanasia?",
+      "options": [
+        "Active vs passive euthanasia",
+        "Voluntary vs involuntary euthanasia",
+        "Euthanasia vs assisted suicide",
+        "Legal vs illegal euthanasia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rachels argued against the moral distinction between active and passive euthanasia, suggesting both lead to the same outcome."
+    },
+    {
+      "id": "types-q4",
+      "question": "Which type of euthanasia is performed when a patient is unable to consent, such as in a coma?",
+      "options": [
+        "Non-voluntary euthanasia",
+        "Voluntary euthanasia",
+        "Involuntary euthanasia",
+        "Active euthanasia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Non-voluntary euthanasia occurs when the patient cannot consent due to their condition, like being in a coma."
+    },
+    {
+      "id": "types-q5",
+      "question": "Which philosopher argued that it is ethical to end a life to relieve unbearable suffering?",
+      "options": [
+        "Peter Singer",
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Peter Singer, a utilitarian, argues that ending a life to relieve suffering can be ethical if it maximizes overall happiness."
+    },
+    {
+      "id": "types-q6",
+      "question": "What does the term 'mercy killing' most closely relate to?",
+      "options": [
+        "Active euthanasia",
+        "Passive euthanasia",
+        "Involuntary euthanasia",
+        "Assisted suicide"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mercy killing refers to active euthanasia, where one takes direct action to end a life to relieve suffering."
+    },
+    {
+      "id": "types-q7",
+      "question": "Which of the following scenarios represents involuntary euthanasia?",
+      "options": [
+        "Ending life without patient consent",
+        "Patient requests life-ending intervention",
+        "Family consents on behalf of unconscious patient",
+        "Doctor refuses further treatment at patient's request"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Involuntary euthanasia happens when life is ended without the patient's consent and against their wishes."
+    },
+    {
+      "id": "types-q8",
+      "question": "In what year did the Netherlands first legalize euthanasia?",
+      "options": [
+        "2002",
+        "1995",
+        "1999",
+        "2005"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Netherlands became the first country to legalize euthanasia in 2002, setting a precedent for other nations."
+    },
+    {
+      "id": "types-q9",
+      "question": "Who conducted a notable study on attitudes towards euthanasia in the UK in 1996?",
+      "options": [
+        "Hendry et al.",
+        "Rachels et al.",
+        "Singer et al.",
+        "Kant et al."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hendry et al. (1996) conducted a study exploring public attitudes towards euthanasia in the UK, revealing diverse opinions."
+    },
+    {
+      "id": "types-q10",
+      "question": "A terminally ill patient decides to refuse further chemotherapy. Which type of euthanasia is this scenario most closely related to?",
+      "options": [
+        "Passive euthanasia",
+        "Active euthanasia",
+        "Involuntary euthanasia",
+        "Assisted suicide"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Refusing treatment, such as chemotherapy, aligns with passive euthanasia as it involves withholding life-prolonging measures."
+    },
+    {
+      "id": "types-q11",
+      "question": "A doctor administers a lethal dose of medication at a patient's request. What type of euthanasia is this?",
+      "options": [
+        "Voluntary euthanasia",
+        "Non-voluntary euthanasia",
+        "Involuntary euthanasia",
+        "Passive euthanasia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Administering a lethal dose at the patient's request is voluntary euthanasia, as it involves consent and active involvement."
+    },
+    {
+      "id": "types-q12",
+      "question": "A family consents to withdraw life support from a comatose patient with no hope of recovery. What form of euthanasia does this represent?",
+      "options": [
+        "Non-voluntary euthanasia",
+        "Voluntary euthanasia",
+        "Involuntary euthanasia",
+        "Active euthanasia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario reflects non-voluntary euthanasia, as the patient cannot consent, and the decision is made by others."
+    },
+    {
+      "id": "types-q13",
+      "question": "How does utilitarianism generally view euthanasia?",
+      "options": [
+        "Permissible if it maximizes happiness",
+        "Always impermissible",
+        "Permissible only if legal",
+        "Permissible if it follows religious doctrines"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Utilitarianism considers euthanasia permissible if it results in the greatest overall happiness and reduces suffering."
+    },
+    {
+      "id": "types-q14",
+      "question": "What is a key criticism of the slippery slope argument against euthanasia?",
+      "options": [
+        "Lack of empirical evidence",
+        "It is universally accepted",
+        "It supports voluntary euthanasia",
+        "It aligns with religious ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The slippery slope argument often lacks empirical evidence, making it a speculative concern rather than a factual claim."
+    },
+    {
+      "id": "types-q15",
+      "question": "How does Kantian ethics generally approach euthanasia?",
+      "options": [
+        "Opposes due to the intrinsic value of life",
+        "Supports if it alleviates suffering",
+        "Neutral, based on legal status",
+        "Supports if it aligns with personal autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics opposes euthanasia, emphasizing the intrinsic value of life and duty over consequences like suffering alleviation."
+    }
+  ]
+}

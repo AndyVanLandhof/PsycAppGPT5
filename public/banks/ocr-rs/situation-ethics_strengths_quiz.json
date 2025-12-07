@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "strengths",
+  "subTopicTitle": "Strengths & Weaknesses",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:44:49.763Z",
+  "items": [
+    {
+      "id": "strengths-q1",
+      "question": "Who is the primary proponent of Situation Ethics?",
+      "options": [
+        "Joseph Fletcher",
+        "Jeremy Bentham",
+        "Immanuel Kant",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher is known for developing Situation Ethics in the 1960s, emphasizing love as the guiding principle."
+    },
+    {
+      "id": "strengths-q2",
+      "question": "In what year did Joseph Fletcher publish 'Situation Ethics: The New Morality'?",
+      "options": [
+        "1966",
+        "1958",
+        "1972",
+        "1984"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher's influential book, 'Situation Ethics: The New Morality', was published in 1966, introducing his ethical theory."
+    },
+    {
+      "id": "strengths-q3",
+      "question": "What is the key principle of Situation Ethics?",
+      "options": [
+        "Agape love",
+        "Utilitarian happiness",
+        "Categorical imperative",
+        "Golden mean"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The key principle of Situation Ethics is 'agape love', which focuses on unconditional love as the basis for moral decision-making."
+    },
+    {
+      "id": "strengths-q4",
+      "question": "According to Situation Ethics, how should moral decisions be made?",
+      "options": [
+        "Based on the most loving outcome",
+        "By following universal laws",
+        "By maximizing pleasure",
+        "By adhering to cultural norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics argues that moral decisions should be made based on achieving the most loving outcome in each situation."
+    },
+    {
+      "id": "strengths-q5",
+      "question": "Which of the following is NOT one of Fletcher's principles of Situation Ethics?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Hedonism",
+        "Personalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Hedonism is not one of Fletcher's principles; the principles are pragmatism, relativism, personalism, and positivism."
+    },
+    {
+      "id": "strengths-q6",
+      "question": "Fletcher's Situation Ethics suggests that rules are:",
+      "options": [
+        "Guidelines to be broken if love demands",
+        "Absolute and unchanging",
+        "Culturally determined",
+        "Secondary to happiness"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Situation Ethics, rules are seen as guidelines that can be set aside if love demands a different action in a particular situation."
+    },
+    {
+      "id": "strengths-q7",
+      "question": "Which biblical event does Fletcher use to illustrate Situation Ethics?",
+      "options": [
+        "Jesus healing on the Sabbath",
+        "The Sermon on the Mount",
+        "The Ten Commandments",
+        "The parable of the sower"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Fletcher uses the example of Jesus healing on the Sabbath to illustrate the flexibility of agape love over strict rule-following."
+    },
+    {
+      "id": "strengths-q8",
+      "question": "What is a criticism of Situation Ethics according to its detractors?",
+      "options": [
+        "It lacks clear guidelines",
+        "It is too rigid",
+        "It ignores individual happiness",
+        "It overemphasizes cultural norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Critics argue that Situation Ethics lacks clear guidelines, making moral decision-making subjective and potentially inconsistent."
+    },
+    {
+      "id": "strengths-q9",
+      "question": "Which theologian critiqued Situation Ethics by arguing it is overly individualistic?",
+      "options": [
+        "William Barclay",
+        "Thomas Aquinas",
+        "John Stuart Mill",
+        "Karl Barth"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Barclay critiqued Situation Ethics for being overly individualistic, potentially leading to subjective and unreliable decisions."
+    },
+    {
+      "id": "strengths-q10",
+      "question": "A doctor must choose between saving one patient with a rare condition or using the resources to help ten others with minor ailments. What would Situation Ethics likely suggest?",
+      "options": [
+        "Save the one patient if it is the most loving action",
+        "Save the ten, as more people benefit",
+        "Follow hospital protocol without exception",
+        "Consult legal guidelines first"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would suggest saving the one patient if it is considered the most loving action, prioritizing agape love over strict utilitarian calculation."
+    },
+    {
+      "id": "strengths-q11",
+      "question": "In a scenario where lying can prevent a greater harm, what would Situation Ethics advise?",
+      "options": [
+        "Lie if it leads to a more loving outcome",
+        "Always tell the truth",
+        "Consider cultural norms first",
+        "Follow the law strictly"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would advise lying if it leads to a more loving outcome, as it prioritizes love over fixed moral rules."
+    },
+    {
+      "id": "strengths-q12",
+      "question": "A teacher is considering breaking a school rule to help a struggling student. Which principle of Situation Ethics applies here?",
+      "options": [
+        "Relativism",
+        "Hedonism",
+        "Kantianism",
+        "Egoism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Relativism in Situation Ethics allows for breaking rules if it achieves the most loving outcome, making it applicable in this scenario."
+    },
+    {
+      "id": "strengths-q13",
+      "question": "How does Situation Ethics compare to Utilitarianism in terms of moral guidance?",
+      "options": [
+        "Situation Ethics focuses on love, not utility",
+        "Both prioritize pleasure",
+        "They are identical in practice",
+        "Utilitarianism is based on divine command"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Situation Ethics focuses on agape love as the guiding principle, whereas Utilitarianism is centered on utility and pleasure maximization."
+    },
+    {
+      "id": "strengths-q14",
+      "question": "What methodological criticism is often leveled against Situation Ethics?",
+      "options": [
+        "It is too subjective",
+        "It relies on empirical data",
+        "It is too empirically grounded",
+        "It ignores ethical relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Situation Ethics is too subjective, leading to inconsistent and unpredictable moral decisions due to its reliance on individual judgment."
+    },
+    {
+      "id": "strengths-q15",
+      "question": "Compared to Natural Law, Situation Ethics is considered more:",
+      "options": [
+        "Flexible and context-based",
+        "Strict and rule-based",
+        "Focused on eternal law",
+        "Concerned with legalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Situation Ethics is seen as more flexible and context-based, allowing for decisions to be made based on love rather than strict adherence to rules, unlike Natural Law."
+    }
+  ]
+}

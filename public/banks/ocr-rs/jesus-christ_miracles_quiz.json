@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "jesus-christ",
+  "topicTitle": "The Person of Jesus Christ",
+  "subTopic": "miracles",
+  "subTopicTitle": "Miracles and Authority",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:56:16.006Z",
+  "items": [
+    {
+      "id": "miracles-q1",
+      "question": "Which Gospel primarily emphasizes the miracles of Jesus as signs pointing to his divine authority?",
+      "options": [
+        "Gospel of John",
+        "Gospel of Matthew",
+        "Gospel of Mark",
+        "Gospel of Luke"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Gospel of John is known for its 'signs' which demonstrate Jesus' divine authority, such as turning water into wine."
+    },
+    {
+      "id": "miracles-q2",
+      "question": "In the story of the calming of the storm, what does Jesus' actions demonstrate?",
+      "options": [
+        "His authority over nature",
+        "His ability to heal the sick",
+        "His power to forgive sins",
+        "His knowledge of future events"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jesus calming the storm (Mark 4:35-41) illustrates his divine authority over nature, a key aspect of his miraculous power."
+    },
+    {
+      "id": "miracles-q3",
+      "question": "Which term is used to describe the study of Jesus' miracles as evidence of his divinity?",
+      "options": [
+        "Christology",
+        "Soteriology",
+        "Eschatology",
+        "Pneumatology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Christology involves the study of the nature and work of Christ, including his miracles as evidence of his divinity."
+    },
+    {
+      "id": "miracles-q4",
+      "question": "According to Rudolf Bultmann (1941), how should the miracles of Jesus be understood?",
+      "options": [
+        "As mythological elements",
+        "As literal historical events",
+        "As parabolic teachings",
+        "As symbolic gestures"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bultmann argued that the miracles are mythological elements that convey theological truths rather than literal events."
+    },
+    {
+      "id": "miracles-q5",
+      "question": "Which miracle is unique to the Gospel of John?",
+      "options": [
+        "Turning water into wine",
+        "Feeding of the 5,000",
+        "Walking on water",
+        "Healing the blind man"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The miracle of turning water into wine at Cana is unique to the Gospel of John (John 2:1-11)."
+    },
+    {
+      "id": "miracles-q6",
+      "question": "What aspect of Jesus' authority is emphasized in the miracle of the paralytic man?",
+      "options": [
+        "Authority to forgive sins",
+        "Authority over death",
+        "Authority over nature",
+        "Authority to teach"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The healing of the paralytic (Mark 2:1-12) highlights Jesus' authority to forgive sins, which is questioned by the Pharisees."
+    },
+    {
+      "id": "miracles-q7",
+      "question": "According to N.T. Wright (1996), what is the primary purpose of Jesus' miracles?",
+      "options": [
+        "To announce the Kingdom of God",
+        "To prove his divinity",
+        "To gain followers",
+        "To defy religious authorities"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "N.T. Wright argues that Jesus' miracles primarily served to announce the inauguration of the Kingdom of God."
+    },
+    {
+      "id": "miracles-q8",
+      "question": "In which Gospel does Jesus' first miracle involve the healing of a leper?",
+      "options": [
+        "Gospel of Mark",
+        "Gospel of John",
+        "Gospel of Luke",
+        "Gospel of Matthew"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In the Gospel of Mark (Mark 1:40-45), Jesus' first recorded miracle is the healing of a leper."
+    },
+    {
+      "id": "miracles-q9",
+      "question": "What is the significance of the miracle of the feeding of the 5,000 in all four Gospels?",
+      "options": [
+        "It emphasizes Jesus' compassion",
+        "It highlights Jesus' teaching authority",
+        "It signifies Jesus as the bread of life",
+        "It marks the beginning of his public ministry"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The miracle of the feeding of the 5,000 signifies Jesus as the bread of life, a theme especially emphasized in John 6."
+    },
+    {
+      "id": "miracles-q10",
+      "question": "A student reads a passage where Jesus heals a blind man by spitting on the ground and making mud. What might be the theological implication of this miracle?",
+      "options": [
+        "Jesus' power is connected to creation",
+        "Jesus needs physical materials to heal",
+        "Jesus' miracles are purely spiritual",
+        "Jesus' healing was limited to physical ailments"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This miracle, found in John 9, can imply Jesus' divine power in creation, as he uses earth materials to restore sight."
+    },
+    {
+      "id": "miracles-q11",
+      "question": "Consider a scenario where a researcher claims Jesus' miracles are symbolic narratives. Which theological perspective might support this view?",
+      "options": [
+        "Bultmann's demythologization",
+        "Calvinist literalism",
+        "Catholic sacramentalism",
+        "Pentecostal experientialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Bultmann's approach to demythologizing the New Testament supports understanding miracles as symbolic rather than literal."
+    },
+    {
+      "id": "miracles-q12",
+      "question": "In the context of Jesus raising Lazarus from the dead, a student argues this demonstrates Jesus' power over life and death. Which theological theme does this align with?",
+      "options": [
+        "Eternal life",
+        "Social justice",
+        "Moral teaching",
+        "Community service"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The raising of Lazarus (John 11) highlights the theme of eternal life, demonstrating Jesus' authority over life and death."
+    },
+    {
+      "id": "miracles-q13",
+      "question": "From a historical-critical perspective, what is a common critique of the miracle accounts in the Gospels?",
+      "options": [
+        "They lack independent attestation",
+        "They were added in the 4th century",
+        "They contradict Old Testament prophecies",
+        "They were written by non-Eyewitnesses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Historical-critical scholars often argue that miracles lack independent attestation outside the Gospel narratives."
+    },
+    {
+      "id": "miracles-q14",
+      "question": "How does David Hume's skepticism challenge the credibility of Jesus' miracles?",
+      "options": [
+        "He argues miracles violate natural laws",
+        "He suggests miracles are metaphors",
+        "He claims miracles are exaggerated",
+        "He believes miracles are only symbolic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "David Hume posited that miracles violate natural laws and are therefore highly improbable and not credible."
+    },
+    {
+      "id": "miracles-q15",
+      "question": "In comparing the Synoptic Gospels, what is a notable difference in the presentation of Jesus' miracles?",
+      "options": [
+        "John focuses more on symbolic acts",
+        "Matthew has fewer miracles",
+        "Mark omits healing miracles",
+        "Luke lacks nature miracles"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike the Synoptics, John includes more symbolic acts and 'signs' rather than just miracles, emphasizing deeper theological meanings."
+    }
+  ]
+}

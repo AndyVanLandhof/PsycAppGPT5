@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "good-will",
+  "subTopicTitle": "Good Will & Duty",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:57:11.701Z",
+  "items": [
+    {
+      "question": "What is the Good Will in Kantian ethics?",
+      "answer": "The Good Will is the only intrinsically good thing, according to Kant, acting from duty and moral law without consideration of outcomes.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'duty' in Kantian ethics.",
+      "answer": "Duty refers to the necessity to act in accordance with the moral law, as dictated by reason, irrespective of personal desires.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a categorical imperative?",
+      "answer": "A categorical imperative is an absolute, unconditional requirement that asserts its authority in all circumstances, derived from reason.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'hypothetical imperative' in Kantian ethics.",
+      "answer": "A hypothetical imperative is a conditional rule that applies only if one desires the outcome it specifies, e.g., 'If you want X, do Y.'",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Kant (1785) assert about moral actions?",
+      "answer": "Kant asserted that moral actions are those performed out of duty and adherence to the moral law, not based on their consequences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'kingdom of ends' in Kantian ethics?",
+      "answer": "The 'kingdom of ends' is a hypothetical state where all individuals act according to universal laws, treating others as ends in themselves.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does reason play in Kantian ethics?",
+      "answer": "Reason is central in Kantian ethics, guiding individuals to discern and follow the moral law, independent of emotions or inclinations.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is autonomy in the context of Kantian ethics?",
+      "answer": "Autonomy is the capacity to legislate moral law for oneself, acting according to reason rather than external influence or desires.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'maxim' in Kantian philosophy.",
+      "answer": "A maxim is a personal principle or rule of conduct that one uses to guide actions, which can be tested by the categorical imperative.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the principle of universalisability?",
+      "answer": "The principle of universalisability requires that one act only according to maxims that can be willed as universal laws.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the difference between duty and inclination?",
+      "answer": "Duty is acting from moral obligation, while inclination is acting based on personal desires or emotions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the second formulation of the categorical imperative?",
+      "answer": "The second formulation states: act so that you treat humanity, whether in your own person or in another, always as an end and never as a means only.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply Kant's categorical imperative to the scenario: Lying to a friend.",
+      "answer": "Kant would argue that lying fails the universalisability test as a moral law, thus it is unethical, and one should always tell the truth.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does duty apply to a soldier following orders?",
+      "answer": "A soldier acts morally if following orders aligns with the moral law, acting out of duty rather than fear or personal gain.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Kantian ethics to a scenario: Stealing to feed a family.",
+      "answer": "Kantian ethics would deem stealing unethical as it cannot be universalized without contradiction, even if intended to feed a family.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How would Kantian ethics view euthanasia?",
+      "answer": "Euthanasia would be seen as unethical as it treats life instrumentally, violating the principle of treating individuals as ends in themselves.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Kantian ethics.",
+      "answer": "Kantian ethics provides a clear, rational framework for moral decision-making that emphasizes consistency and respect for individuals.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Kantian ethics.",
+      "answer": "Kantian ethics can be rigid, ignoring the moral significance of outcomes and real-world complexities in ethical decision-making.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the universalisability test.",
+      "answer": "The universalisability test provides a logical method to assess maxims, but critics argue it can be too abstract and impractical.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate Kant's approach to moral worth.",
+      "answer": "Kant's focus on duty over consequences ensures moral purity, but it overlooks the ethical significance of intentions and outcomes.",
+      "ao": "AO3"
+    }
+  ]
+}

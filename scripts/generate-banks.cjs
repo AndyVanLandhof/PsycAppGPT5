@@ -133,7 +133,8 @@ const ocrTopics = {
     subTopics: [
       { id: "plato", title: "Plato's Theory of Forms" },
       { id: "aristotle", title: "Aristotle's Four Causes" },
-      { id: "comparison", title: "Plato vs Aristotle" }
+      { id: "comparison", title: "Plato vs Aristotle" },
+      { id: "impact", title: "Influence on Christian Theology" }
     ]
   },
   "soul-mind-body": {
@@ -142,7 +143,18 @@ const ocrTopics = {
     subTopics: [
       { id: "plato-soul", title: "Plato's View of the Soul" },
       { id: "aristotle-soul", title: "Aristotle's View of the Soul" },
-      { id: "descartes", title: "Descartes' Dualism" }
+      { id: "descartes", title: "Descartes' Dualism" },
+      { id: "materialism", title: "Materialist Critiques" }
+    ]
+  },
+  "nature-attributes-god": {
+    id: "nature-attributes-god",
+    title: "Nature or Attributes of God",
+    subTopics: [
+      { id: "omnipotence", title: "Omnipotence" },
+      { id: "omniscience", title: "Omniscience" },
+      { id: "benevolence", title: "Benevolence" },
+      { id: "eternity", title: "Eternity and Free Will" }
     ]
   },
   "arguments-existence-god": {
@@ -151,7 +163,8 @@ const ocrTopics = {
     subTopics: [
       { id: "cosmological", title: "Cosmological Argument" },
       { id: "teleological", title: "Teleological Argument" },
-      { id: "ontological", title: "Ontological Argument" }
+      { id: "ontological", title: "Ontological Argument" },
+      { id: "challenges", title: "Critiques of These Arguments" }
     ]
   },
   "problem-of-evil": {
@@ -159,7 +172,9 @@ const ocrTopics = {
     title: "Problem of Evil",
     subTopics: [
       { id: "logical", title: "Logical Problem of Evil" },
-      { id: "theodicies", title: "Theodicies and Defenses" }
+      { id: "evidential", title: "Evidential Problem of Evil" },
+      { id: "theodicies", title: "Theodicies and Defenses" },
+      { id: "free-will", title: "Free Will and Soul-Making" }
     ]
   },
   "religious-experience": {
@@ -168,7 +183,28 @@ const ocrTopics = {
     subTopics: [
       { id: "types", title: "Types of Religious Experience" },
       { id: "otto-james", title: "Otto & William James" },
-      { id: "verification", title: "Verification Challenges" }
+      { id: "verification", title: "Verification Challenges" },
+      { id: "psychology", title: "Psychological Explanations" }
+    ]
+  },
+  "religious-language": {
+    id: "religious-language",
+    title: "Religious Language",
+    subTopics: [
+      { id: "via", title: "Via Negativa & Analogical Language" },
+      { id: "logical", title: "Verification/Falsification" },
+      { id: "language-games", title: "Language Games (Wittgenstein)" },
+      { id: "symbol", title: "Symbolism & Myth" }
+    ]
+  },
+  "miracles": {
+    id: "miracles",
+    title: "Miracles",
+    subTopics: [
+      { id: "definitions", title: "Definitions of Miracles" },
+      { id: "hume", title: "Hume's Critique" },
+      { id: "modern", title: "Modern Miracles" },
+      { id: "value", title: "Value in Religious Practice" }
     ]
   },
   "natural-law": {
@@ -176,7 +212,9 @@ const ocrTopics = {
     title: "Natural Law",
     subTopics: [
       { id: "aquinas", title: "Aquinas' 5 Primary Precepts" },
-      { id: "double-effect", title: "Doctrine of Double Effect" }
+      { id: "reason", title: "Role of Reason in Ethics" },
+      { id: "double-effect", title: "Doctrine of Double Effect" },
+      { id: "applications", title: "Application to Modern Issues" }
     ]
   },
   "situation-ethics": {
@@ -184,7 +222,19 @@ const ocrTopics = {
     title: "Situation Ethics",
     subTopics: [
       { id: "agape", title: "Agape and Relativism" },
-      { id: "principles", title: "Four Working Principles" }
+      { id: "principles", title: "Four Working Principles" },
+      { id: "strengths", title: "Strengths & Weaknesses" },
+      { id: "examples", title: "Applications to Real Scenarios" }
+    ]
+  },
+  "kantian-ethics": {
+    id: "kantian-ethics",
+    title: "Kantian Ethics",
+    subTopics: [
+      { id: "good-will", title: "Good Will & Duty" },
+      { id: "categorical", title: "Categorical Imperative" },
+      { id: "autonomy", title: "Moral Autonomy" },
+      { id: "challenges", title: "Criticisms of Kant" }
     ]
   },
   "utilitarianism": {
@@ -192,7 +242,39 @@ const ocrTopics = {
     title: "Utilitarianism",
     subTopics: [
       { id: "bentham-hedonic", title: "Bentham & the Hedonic Calculus" },
-      { id: "mill-rule-util", title: "Mill & Rule Utilitarianism" }
+      { id: "mill-rule-util", title: "Mill & Rule Utilitarianism" },
+      { id: "util-objections", title: "Criticisms & Objections" },
+      { id: "util-application", title: "Applications & Examples" }
+    ]
+  },
+  "euthanasia": {
+    id: "euthanasia",
+    title: "Euthanasia",
+    subTopics: [
+      { id: "types", title: "Types of Euthanasia" },
+      { id: "natural", title: "Natural Law & Euthanasia" },
+      { id: "situation", title: "Situation Ethics & Euthanasia" },
+      { id: "law", title: "Legal and Religious Debates" }
+    ]
+  },
+  "business-ethics": {
+    id: "business-ethics",
+    title: "Business Ethics",
+    subTopics: [
+      { id: "csr", title: "Corporate Social Responsibility" },
+      { id: "kant", title: "Kantian Views on Business" },
+      { id: "utilitarian", title: "Utilitarianism in Business" },
+      { id: "case", title: "Controversial Case Studies" }
+    ]
+  },
+  "sexual-ethics": {
+    id: "sexual-ethics",
+    title: "Sexual Ethics",
+    subTopics: [
+      { id: "marriage", title: "Traditional Marriage Views" },
+      { id: "contraception", title: "Contraception and Religion" },
+      { id: "lgbt", title: "Christian Responses to LGBTQ+" },
+      { id: "gender", title: "Feminist and Secular Challenges" }
     ]
   },
   "augustine": {
@@ -200,7 +282,78 @@ const ocrTopics = {
     title: "Augustine's Teachings",
     subTopics: [
       { id: "original", title: "Original Sin" },
-      { id: "grace", title: "Grace and Salvation" }
+      { id: "grace", title: "Grace and Salvation" },
+      { id: "freedom", title: "Human Freedom and Will" },
+      { id: "critics", title: "Modern Criticisms" }
+    ]
+  },
+  "death-afterlife": {
+    id: "death-afterlife",
+    title: "Death & Afterlife",
+    subTopics: [
+      { id: "judgment", title: "Judgment and Heaven" },
+      { id: "resurrection", title: "Resurrection vs Reincarnation" },
+      { id: "hell", title: "Hell, Purgatory & Universalism" },
+      { id: "eschatology", title: "Eschatological Beliefs" }
+    ]
+  },
+  "knowledge-god": {
+    id: "knowledge-god",
+    title: "Knowledge of God's Existence",
+    subTopics: [
+      { id: "revelation", title: "Natural and Revealed Theology" },
+      { id: "aquinas", title: "Aquinas' Five Ways" },
+      { id: "barth", title: "Barth and Calvin" },
+      { id: "criticism", title: "Critiques of Knowledge Claims" }
+    ]
+  },
+  "jesus-christ": {
+    id: "jesus-christ",
+    title: "The Person of Jesus Christ",
+    subTopics: [
+      { id: "divine", title: "Jesus as Divine and Human" },
+      { id: "miracles", title: "Miracles and Authority" },
+      { id: "resurrection", title: "Resurrection and Salvation" },
+      { id: "liberation", title: "Liberation Theology & Ethics" }
+    ]
+  },
+  "practices-identity": {
+    id: "practices-identity",
+    title: "Practices Shaping Religious Identity",
+    subTopics: [
+      { id: "worship", title: "Worship and Liturgy" },
+      { id: "sacraments", title: "Sacraments" },
+      { id: "community", title: "Community and Fellowship" }
+    ]
+  },
+  "pluralism": {
+    id: "pluralism",
+    title: "Religious Pluralism",
+    subTopics: [
+      { id: "exclusivism", title: "Exclusivism" },
+      { id: "inclusivism", title: "Inclusivism" },
+      { id: "pluralism", title: "Pluralism" },
+      { id: "truth", title: "Truth and Salvation Outside Christianity?" }
+    ]
+  },
+  "gender": {
+    id: "gender",
+    title: "Gender and Theology",
+    subTopics: [
+      { id: "roles", title: "Biblical Gender Roles" },
+      { id: "liberation", title: "Feminist Theology" },
+      { id: "ordination", title: "Women in Church Leadership" },
+      { id: "intersectionality", title: "Gender, Race and Class" }
+    ]
+  },
+  "secularism": {
+    id: "secularism",
+    title: "Secularism",
+    subTopics: [
+      { id: "decline", title: "Secularisation Thesis" },
+      { id: "response", title: "Christian Responses" },
+      { id: "faith-schools", title: "Faith in Public Education" },
+      { id: "richard-dawkins", title: "Critiques from New Atheism" }
     ]
   }
 };

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "death-afterlife",
+  "topicTitle": "Death & Afterlife",
+  "subTopic": "resurrection",
+  "subTopicTitle": "Resurrection vs Reincarnation",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:53:29.909Z",
+  "items": [
+    {
+      "id": "resurrection-q1",
+      "question": "What is the primary difference between resurrection and reincarnation?",
+      "options": [
+        "Resurrection involves a single life after death, while reincarnation involves multiple lives.",
+        "Resurrection involves the soul entering a new body, while reincarnation involves the same body.",
+        "Resurrection is a concept in Hinduism, while reincarnation is a concept in Christianity.",
+        "Resurrection guarantees enlightenment, while reincarnation does not."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Resurrection is typically a one-time event leading to eternal life, whereas reincarnation involves the soul living multiple lives in different bodies."
+    },
+    {
+      "id": "resurrection-q2",
+      "question": "Which religious tradition is most associated with the belief in resurrection?",
+      "options": [
+        "Christianity",
+        "Hinduism",
+        "Buddhism",
+        "Jainism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Christianity is primarily associated with the belief in resurrection, particularly through the resurrection of Jesus Christ."
+    },
+    {
+      "id": "resurrection-q3",
+      "question": "In Hinduism, what is the term used for the cycle of death and rebirth?",
+      "options": [
+        "Samsara",
+        "Moksha",
+        "Karma",
+        "Dharma"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Samsara refers to the cycle of death and rebirth in Hindu philosophy, while Moksha is liberation from this cycle."
+    },
+    {
+      "id": "resurrection-q4",
+      "question": "According to St. Paul in 1 Corinthians 15, what is a key feature of the resurrected body?",
+      "options": [
+        "It is imperishable",
+        "It is invisible",
+        "It is the same as the earthly body",
+        "It is only spiritual"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "St. Paul describes the resurrected body as imperishable, contrasting with the perishable earthly body."
+    },
+    {
+      "id": "resurrection-q5",
+      "question": "What is the ultimate goal of reincarnation in Buddhism?",
+      "options": [
+        "Achieving Nirvana",
+        "Attaining Heaven",
+        "Becoming a Deva",
+        "Reuniting with ancestors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Nirvana is the ultimate goal in Buddhism, representing liberation from the cycle of rebirth and suffering."
+    },
+    {
+      "id": "resurrection-q6",
+      "question": "Which philosopher argued for the immortality of the soul in 'Phaedo'?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Epicurus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 'Phaedo', Plato explores arguments for the immortality of the soul through dialogues involving Socrates."
+    },
+    {
+      "id": "resurrection-q7",
+      "question": "What is one argument against resurrection based on physicalism?",
+      "options": [
+        "It contradicts the view that consciousness arises solely from physical processes.",
+        "It supports dualism, which denies the physical nature of reality.",
+        "It aligns with the idea that the body is a temporary vessel.",
+        "It suggests the soul is separate from the body."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Physicalism argues that all phenomena, including consciousness, arise from physical processes, challenging the concept of resurrection."
+    },
+    {
+      "id": "resurrection-q8",
+      "question": "Who conducted a study on near-death experiences that supported the idea of life after death?",
+      "options": [
+        "Raymond Moody (1975)",
+        "Sigmund Freud (1900)",
+        "Carl Jung (1952)",
+        "B.F. Skinner (1948)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Raymond Moody's 1975 study on near-death experiences provided anecdotal evidence supporting the concept of life after death."
+    },
+    {
+      "id": "resurrection-q9",
+      "question": "Which text is a primary source of doctrine regarding resurrection in Islam?",
+      "options": [
+        "The Quran",
+        "The Bhagavad Gita",
+        "The Torah",
+        "The Tripitaka"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Quran is the central religious text of Islam and contains doctrines on resurrection and the afterlife."
+    },
+    {
+      "id": "resurrection-q10",
+      "question": "A person claims to remember a past life as a historical figure. Which belief system does this scenario most likely align with?",
+      "options": [
+        "Reincarnation",
+        "Resurrection",
+        "Annihilationism",
+        "Materialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The claim aligns with reincarnation, where individuals may believe they have lived previous lives."
+    },
+    {
+      "id": "resurrection-q11",
+      "question": "A researcher is studying the impact of cultural beliefs on views about the afterlife. Which methodology might they use?",
+      "options": [
+        "Cross-cultural survey",
+        "Longitudinal study",
+        "Randomized controlled trial",
+        "Phenomenological analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A cross-cultural survey allows researchers to compare beliefs across different cultural groups, providing insights into cultural impacts on afterlife views."
+    },
+    {
+      "id": "resurrection-q12",
+      "question": "A community believes in achieving enlightenment through multiple rebirths. Which religious philosophy does this reflect?",
+      "options": [
+        "Buddhism",
+        "Christianity",
+        "Islam",
+        "Judaism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Buddhism holds the belief in achieving enlightenment (Nirvana) through cycles of rebirth and karma."
+    },
+    {
+      "id": "resurrection-q13",
+      "question": "How does Hick's replica theory attempt to address the problem of personal identity in resurrection?",
+      "options": [
+        "By proposing a divine recreation of the individual in another realm",
+        "By suggesting the soul migrates to an identical body",
+        "By denying the existence of a soul",
+        "By equating resurrection with reincarnation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Hick's replica theory suggests God creates a perfect replica of the deceased individual in another realm, maintaining personal identity."
+    },
+    {
+      "id": "resurrection-q14",
+      "question": "What is a common critique of reincarnation from a scientific perspective?",
+      "options": [
+        "Lack of empirical evidence supporting the transfer of consciousness",
+        "Contradiction with the idea of a linear timeline",
+        "Incompatibility with belief in a single afterlife",
+        "Disagreement with traditional religious doctrine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "One critique is the lack of empirical evidence for consciousness surviving death and moving to a new body."
+    },
+    {
+      "id": "resurrection-q15",
+      "question": "Which of the following is a challenge to resurrection from a philosophical standpoint?",
+      "options": [
+        "The logical impossibility of bodily continuity",
+        "The lack of historical accounts",
+        "Contradictions with free will",
+        "The idea of a finite universe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A philosophical challenge is the logical impossibility of bodily continuity, questioning how the same body can be resurrected after decomposition."
+    }
+  ]
+}

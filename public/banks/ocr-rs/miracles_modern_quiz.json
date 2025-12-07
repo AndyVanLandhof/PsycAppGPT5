@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "miracles",
+  "topicTitle": "Miracles",
+  "subTopic": "modern",
+  "subTopicTitle": "Modern Miracles",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:42:09.134Z",
+  "items": [
+    {
+      "id": "modern-q1",
+      "question": "Who defined a miracle as 'a transgression of a law of nature by a particular volition of the Deity, or by the interposition of some invisible agent'?",
+      "options": [
+        "David Hume",
+        "Thomas Aquinas",
+        "Richard Swinburne",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume provided this definition in his critique of miracles, emphasizing their violation of natural laws."
+    },
+    {
+      "id": "modern-q2",
+      "question": "Which philosopher argued that miracles are 'natural events with religious significance'?",
+      "options": [
+        "Richard Swinburne",
+        "Maurice Wiles",
+        "Alvin Plantinga",
+        "John Hick"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Maurice Wiles suggested that miracles should be seen as natural occurrences that hold religious meaning, rather than violations of natural laws."
+    },
+    {
+      "id": "modern-q3",
+      "question": "According to Richard Swinburne, which of the following conditions does NOT need to be satisfied for an event to be considered a miracle?",
+      "options": [
+        "The event involves a violation of a natural law",
+        "The event has religious significance",
+        "The event is witnessed by a large crowd",
+        "The event is caused by a deity"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Swinburne's criteria do not include the necessity of being witnessed by a large crowd, focusing instead on the nature and significance of the event."
+    },
+    {
+      "id": "modern-q4",
+      "question": "Which of the following is a modern example of a miracle claim investigated by the Catholic Church?",
+      "options": [
+        "The healing at Lourdes",
+        "The Shroud of Turin",
+        "The apparitions at Fatima",
+        "The weeping statue of Akita"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The healing miracles at Lourdes are widely recognized and have been subject to investigation by the Catholic Church."
+    },
+    {
+      "id": "modern-q5",
+      "question": "In what year did David Hume publish his influential critique of miracles in 'An Enquiry Concerning Human Understanding'?",
+      "options": [
+        "1748",
+        "1758",
+        "1720",
+        "1765"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume's critique of miracles was published in 1748, challenging the rationality of believing in miracles."
+    },
+    {
+      "id": "modern-q6",
+      "question": "Which theologian argued against the literal interpretation of miracles, emphasizing their symbolic meaning?",
+      "options": [
+        "Paul Tillich",
+        "Rudolf Bultmann",
+        "Karl Barth",
+        "Reinhold Niebuhr"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Rudolf Bultmann advocated for demythologizing the Bible, focusing on the existential meaning behind miracle narratives."
+    },
+    {
+      "id": "modern-q7",
+      "question": "Who wrote 'Miracles', a book defending the plausibility of miracles in the modern world?",
+      "options": [
+        "C.S. Lewis",
+        "Richard Swinburne",
+        "Alvin Plantinga",
+        "John Polkinghorne"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "C.S. Lewis authored 'Miracles', arguing for their possibility and significance in a theological context."
+    },
+    {
+      "id": "modern-q8",
+      "question": "Which philosopher's concept of 'contingency miracles' allows for miracles without violation of natural laws?",
+      "options": [
+        "Alvin Plantinga",
+        "John Hick",
+        "Keith Ward",
+        "Michael Martin"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Hick introduced the idea of 'contingency miracles', where events occur in accordance with natural laws but have divine significance."
+    },
+    {
+      "id": "modern-q9",
+      "question": "What is the term used to describe a miracle where divine intervention is believed to occur within the bounds of natural laws?",
+      "options": [
+        "Non-interventionist miracle",
+        "Soft miracle",
+        "Contingency miracle",
+        "Providential miracle"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Contingency miracles involve divine action that aligns with natural processes, as proposed by John Hick."
+    },
+    {
+      "id": "modern-q10",
+      "question": "A woman claims that after praying, her terminal illness was suddenly cured without medical explanation. How might an empiricist respond to this claim?",
+      "options": [
+        "It is a genuine miracle",
+        "It requires more empirical evidence",
+        "It is a coincidence",
+        "It is a divine intervention"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "An empiricist would seek further empirical evidence before accepting the miracle claim, focusing on observable and verifiable data."
+    },
+    {
+      "id": "modern-q11",
+      "question": "If a modern miracle claim is analyzed using scientific methods and found lacking empirical support, which conclusion is most consistent with a scientific worldview?",
+      "options": [
+        "The claim is likely a miracle",
+        "The claim is not scientifically substantiated",
+        "The claim is a test of faith",
+        "The claim should be accepted on faith"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "A scientific worldview relies on empirical evidence, so a lack of support suggests the claim is not substantiated."
+    },
+    {
+      "id": "modern-q12",
+      "question": "A researcher conducts a study on reported miracles and finds that most can be explained by psychological phenomena. Which conclusion is most consistent with this finding?",
+      "options": [
+        "Miracles are illusions",
+        "Miracles are divine acts",
+        "Miracles are psychological interpretations",
+        "Miracles are supernatural"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The study's findings suggest that many reported miracles may be psychological interpretations rather than supernatural events."
+    },
+    {
+      "id": "modern-q13",
+      "question": "How did Hume argue that human testimony is unreliable for proving miracles?",
+      "options": [
+        "People are prone to lying",
+        "No miracle has enough reliable witnesses",
+        "Miracles contradict natural laws",
+        "Miracles can be explained by science"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Hume argued that no miracles have enough reliable witnesses to outweigh the improbability of violating natural laws."
+    },
+    {
+      "id": "modern-q14",
+      "question": "What criticism might be made of relying on religious texts as evidence for miracles?",
+      "options": [
+        "They are culturally biased",
+        "They are based on historical facts",
+        "They are scientifically accurate",
+        "They are universally accepted"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious texts may reflect cultural biases and historical contexts, limiting their reliability as evidence for miracles."
+    },
+    {
+      "id": "modern-q15",
+      "question": "Which of the following is a critique of the criteria used by Swinburne to establish a miracle's occurrence?",
+      "options": [
+        "They are too strict",
+        "They rely on subjective interpretation",
+        "They do not involve eyewitnesses",
+        "They are based on scientific evidence"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Swinburne's criteria involve subjective interpretation of religious significance, which can be critiqued for lacking objectivity."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "jesus-christ",
+  "topicTitle": "The Person of Jesus Christ",
+  "subTopic": "liberation",
+  "subTopicTitle": "Liberation Theology & Ethics",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:56:56.097Z",
+  "items": [
+    {
+      "id": "liberation-q1",
+      "question": "Who is considered the founder of Liberation Theology?",
+      "options": [
+        "Gustavo Gutiérrez",
+        "Leonardo Boff",
+        "Óscar Romero",
+        "Jon Sobrino"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gustavo Gutiérrez is widely recognized as the founder of Liberation Theology, with his seminal work 'A Theology of Liberation' published in 1971."
+    },
+    {
+      "id": "liberation-q2",
+      "question": "Which key concept in Liberation Theology emphasizes the preferential treatment for the poor?",
+      "options": [
+        "Preferential Option for the Poor",
+        "Solidarity with the Oppressed",
+        "Communal Sharing",
+        "Economic Redistribution"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 'Preferential Option for the Poor' is a central tenet in Liberation Theology, advocating for the prioritization of the needs of the poor and marginalized."
+    },
+    {
+      "id": "liberation-q3",
+      "question": "In which year was the Conference of Latin American Bishops in Medellín, which endorsed Liberation Theology principles?",
+      "options": [
+        "1968",
+        "1974",
+        "1983",
+        "1991"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 1968 Conference of Latin American Bishops in Medellín was crucial in promoting Liberation Theology, focusing on social justice and economic inequalities."
+    },
+    {
+      "id": "liberation-q4",
+      "question": "Which theologian argued that Jesus is a 'subversive wisdom teacher' in the context of Liberation Theology?",
+      "options": [
+        "Marcus Borg",
+        "Gustavo Gutiérrez",
+        "Leonardo Boff",
+        "Óscar Romero"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marcus Borg describes Jesus as a 'subversive wisdom teacher', emphasizing his role in challenging social norms and political injustices."
+    },
+    {
+      "id": "liberation-q5",
+      "question": "What is the primary ethical focus of Liberation Theology?",
+      "options": [
+        "Social justice and liberation",
+        "Personal salvation",
+        "Ritual purity",
+        "Divine retribution"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Liberation Theology primarily focuses on social justice and liberation, addressing systemic inequalities and advocating for the oppressed."
+    },
+    {
+      "id": "liberation-q6",
+      "question": "Which biblical event is often cited in Liberation Theology as a symbol of liberation and hope?",
+      "options": [
+        "Exodus",
+        "Crucifixion",
+        "Resurrection",
+        "Pentecost"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Exodus is frequently referenced in Liberation Theology as a powerful narrative of liberation from oppression and divine intervention for justice."
+    },
+    {
+      "id": "liberation-q7",
+      "question": "Which aspect of Jesus's teachings is emphasized in Liberation Theology?",
+      "options": [
+        "Social justice",
+        "Mystical experiences",
+        "End times prophecy",
+        "Traditional rituals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Liberation Theology emphasizes Jesus's teachings on social justice, focusing on his actions and parables that challenge social hierarchies and support the marginalized."
+    },
+    {
+      "id": "liberation-q8",
+      "question": "What does Liberation Theology critique about traditional Christian theology?",
+      "options": [
+        "Its focus on personal sin",
+        "Its emphasis on community",
+        "Its historical accuracy",
+        "Its ritualistic practices"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Liberation Theology critiques traditional Christian theology for focusing excessively on personal sin rather than addressing social and systemic injustices."
+    },
+    {
+      "id": "liberation-q9",
+      "question": "Which of the following is a criticism of Liberation Theology by the Catholic Church?",
+      "options": [
+        "Marxist influence",
+        "Lack of historical context",
+        "Overemphasis on rituals",
+        "Focus on personal sin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "One key criticism by the Catholic Church is Liberation Theology's Marxist influence, as it draws on Marxist concepts to analyze socio-economic power structures."
+    },
+    {
+      "id": "liberation-q10",
+      "question": "A local church decides to donate a portion of its land to build affordable housing for low-income families. How does this action align with Liberation Theology?",
+      "options": [
+        "It embodies the preferential option for the poor.",
+        "It demonstrates a focus on personal sin.",
+        "It prioritizes end times prophecy.",
+        "It focuses on ritualistic practices."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This action aligns with the 'preferential option for the poor' by directly addressing the needs of the marginalized and supporting social justice initiatives."
+    },
+    {
+      "id": "liberation-q11",
+      "question": "A priest in a small community organizes a protest against unjust labor practices. Which aspect of Liberation Theology does this exemplify?",
+      "options": [
+        "Action against systemic injustice",
+        "Focus on mystical experiences",
+        "Emphasis on individual salvation",
+        "Promotion of ritual purity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Organizing a protest against unjust labor practices exemplifies Liberation Theology's focus on taking action against systemic injustices to support oppressed communities."
+    },
+    {
+      "id": "liberation-q12",
+      "question": "A school incorporates lessons on social justice inspired by Liberation Theology into their curriculum. Which of the following is most likely their educational objective?",
+      "options": [
+        "Promote critical consciousness",
+        "Teach ritualistic practices",
+        "Focus on end times prophecy",
+        "Emphasize personal sin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Incorporating social justice lessons aims to promote 'critical consciousness', encouraging students to analyze and challenge socio-economic inequalities, a core principle of Liberation Theology."
+    },
+    {
+      "id": "liberation-q13",
+      "question": "How does Liberation Theology's use of Marxist analysis affect its credibility among traditional theologians?",
+      "options": [
+        "It is often criticized for compromising theological integrity.",
+        "It enhances its credibility by providing economic insights.",
+        "It is universally accepted by traditional theologians.",
+        "It is irrelevant to theological discussions."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Many traditional theologians criticize Liberation Theology for using Marxist analysis, arguing it compromises theological integrity by aligning too closely with secular ideologies."
+    },
+    {
+      "id": "liberation-q14",
+      "question": "Compare the focus of Liberation Theology with traditional Christian doctrines.",
+      "options": [
+        "Liberation Theology emphasizes socio-political liberation, while traditional doctrines focus on personal salvation.",
+        "Both focus equally on socio-political liberation.",
+        "Traditional doctrines prioritize socio-political liberation over personal salvation.",
+        "Liberation Theology and traditional doctrines both focus primarily on end times."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Liberation Theology focuses on socio-political liberation and justice, contrasting with traditional doctrines that often emphasize personal salvation and spiritual concerns."
+    },
+    {
+      "id": "liberation-q15",
+      "question": "Evaluate the impact of Liberation Theology on modern Christian ethics.",
+      "options": [
+        "It has significantly influenced modern Christian ethics by integrating social justice concerns.",
+        "It has had little impact on modern Christian ethics.",
+        "It has caused modern Christian ethics to ignore traditional values.",
+        "It has led to the abandonment of all traditional ethical considerations."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Liberation Theology has significantly influenced modern Christian ethics, integrating social justice and advocacy for the oppressed into contemporary ethical considerations."
+    }
+  ]
+}

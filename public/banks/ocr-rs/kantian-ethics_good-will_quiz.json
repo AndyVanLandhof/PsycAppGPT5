@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "good-will",
+  "subTopicTitle": "Good Will & Duty",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:45:32.283Z",
+  "items": [
+    {
+      "id": "good-will-q1",
+      "question": "What is the fundamental principle of Kantian ethics?",
+      "options": [
+        "Categorical Imperative",
+        "Utilitarian Principle",
+        "Divine Command Theory",
+        "Virtue Ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kantian ethics is based on the Categorical Imperative, which is a universal moral law that applies to all rational beings (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q2",
+      "question": "According to Kant, what is the only thing that is good without qualification?",
+      "options": [
+        "Good Will",
+        "Pleasure",
+        "Happiness",
+        "Virtue"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "For Kant, the Good Will is the only intrinsic good, as it is good in itself regardless of the consequences (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q3",
+      "question": "In Kantian ethics, what is the role of duty?",
+      "options": [
+        "To act according to moral law",
+        "To maximize happiness",
+        "To follow divine commands",
+        "To cultivate personal virtues"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant argues that duty involves acting in accordance with the moral law, as dictated by the Categorical Imperative (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q4",
+      "question": "What is the first formulation of the Categorical Imperative?",
+      "options": [
+        "Act only according to that maxim whereby you can at the same time will that it should become a universal law",
+        "Act to bring about the greatest happiness for the greatest number",
+        "Treat others as you would like to be treated",
+        "Act in accordance with God's will"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The first formulation of the Categorical Imperative involves universalizability of maxims (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q5",
+      "question": "Which of the following best describes 'autonomy' in Kantian ethics?",
+      "options": [
+        "The ability to legislate moral laws for oneself",
+        "Dependence on external moral codes",
+        "Acting according to one's desires",
+        "Following societal norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Autonomy in Kantian ethics refers to self-legislation, where moral agents determine their own laws (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q6",
+      "question": "How does Kant distinguish between hypothetical and categorical imperatives?",
+      "options": [
+        "Hypothetical imperatives are conditional, categorical imperatives are unconditional",
+        "Both are unconditional",
+        "Hypothetical imperatives are moral laws, categorical imperatives are personal preferences",
+        "Hypothetical imperatives focus on past actions, categorical imperatives focus on future actions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hypothetical imperatives are conditional and depend on desires, while categorical imperatives are unconditional and apply universally (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q7",
+      "question": "Which philosopher's work is foundational for Kantian ethics?",
+      "options": [
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "Aristotle",
+        "Jeremy Bentham"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant is the philosopher who developed Kantian ethics and formulated the Categorical Imperative (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q8",
+      "question": "What is an example of a duty according to Kantian ethics?",
+      "options": [
+        "Telling the truth regardless of consequences",
+        "Maximizing pleasure",
+        "Pursuing personal happiness",
+        "Following societal customs"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Telling the truth is a duty in Kantian ethics as it aligns with acting according to the Categorical Imperative (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q9",
+      "question": "According to Kant, what is the relationship between duty and inclination?",
+      "options": [
+        "Duty should be followed regardless of inclination",
+        "Inclination is more important than duty",
+        "Duty and inclination should always align",
+        "Duty is irrelevant if inclination is strong"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kantian ethics posits that duty takes precedence over inclination; moral actions should be guided by duty (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q10",
+      "question": "A person donates to charity solely because it makes them feel good. According to Kantian ethics, is this action morally praiseworthy?",
+      "options": [
+        "No, because the action is not done from duty",
+        "Yes, because it results in a good outcome",
+        "No, because charity is not a universal duty",
+        "Yes, because any charitable act is good"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Kantian ethics asserts that actions are only morally praiseworthy if done from duty, not inclination (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q11",
+      "question": "An employee tells the truth to their boss, even when it might result in getting fired. How would Kantian ethics evaluate this action?",
+      "options": [
+        "Morally commendable, as it is done from duty",
+        "Morally wrong, as it could harm the employee",
+        "Neutral, as outcomes do not matter",
+        "Only commendable if it benefits the company"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Kantian ethics views actions performed from a sense of duty as morally commendable, regardless of consequences (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q12",
+      "question": "A student helps a peer with their homework to ensure they pass the class. How does Kantian ethics view this action?",
+      "options": [
+        "Morally neutral, as it is not done from duty",
+        "Morally praiseworthy, as it benefits the peer",
+        "Morally wrong, as it encourages dependency",
+        "Morally praiseworthy, as all help is good"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "In Kantian ethics, the moral value of an action lies in the intent; if not done from duty, it is morally neutral (Kant, 1785)."
+    },
+    {
+      "id": "good-will-q13",
+      "question": "Which criticism is often leveled against Kantian ethics?",
+      "options": [
+        "It is too rigid and does not account for consequences",
+        "It focuses too much on outcomes and not intentions",
+        "It relies heavily on emotional responses",
+        "It is too flexible and lacks clear guidelines"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is criticized for being inflexible, as it prioritizes duty over consequences (Schneewind, 2009)."
+    },
+    {
+      "id": "good-will-q14",
+      "question": "How does Kantian ethics compare to Utilitarianism?",
+      "options": [
+        "Kantian ethics focuses on intentions, while Utilitarianism focuses on consequences",
+        "Both focus on maximizing happiness",
+        "Kantian ethics is more concerned with societal norms",
+        "Utilitarianism is more rigid than Kantian ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics emphasizes the importance of intentions and duty, unlike Utilitarianism, which focuses on outcomes (Mill, 1863)."
+    },
+    {
+      "id": "good-will-q15",
+      "question": "What is a common methodological critique of Kant's Categorical Imperative?",
+      "options": [
+        "It lacks practical applicability in complex situations",
+        "It relies too heavily on empirical data",
+        "It is too subjective and varies between individuals",
+        "It changes according to cultural norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Categorical Imperative is often criticized for its lack of practical guidance in complex moral dilemmas (Rawls, 2000)."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "miracles",
+  "topicTitle": "Miracles",
+  "subTopic": "value",
+  "subTopicTitle": "Value in Religious Practice",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:42:31.992Z",
+  "items": [
+    {
+      "id": "value-q1",
+      "question": "Which philosopher is most commonly associated with the view that miracles are violations of the laws of nature?",
+      "options": [
+        "David Hume",
+        "Richard Swinburne",
+        "Thomas Aquinas",
+        "R.F. Holland"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume (1748) argued that miracles are violations of the laws of nature, which is a commonly discussed definition in philosophy."
+    },
+    {
+      "id": "value-q2",
+      "question": "What is the main purpose of miracles according to the Gospel of John?",
+      "options": [
+        "To demonstrate Jesus' divinity",
+        "To provide moral teachings",
+        "To illustrate the power of faith",
+        "To show the importance of prayer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In the Gospel of John, miracles are presented as 'signs' that indicate Jesus' divinity and support his claims."
+    },
+    {
+      "id": "value-q3",
+      "question": "Which term describes a miracle that has symbolic significance beyond its literal occurrence?",
+      "options": [
+        "Sign",
+        "Wonder",
+        "Prodigy",
+        "Marvel"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The term 'sign' is used to describe miracles that have symbolic significance, especially in the context of the Gospel of John."
+    },
+    {
+      "id": "value-q4",
+      "question": "Who proposed the 'contingency definition' of miracles, emphasizing their unexpectedness?",
+      "options": [
+        "R.F. Holland",
+        "David Hume",
+        "Richard Swinburne",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "R.F. Holland suggested that miracles are contingent events that have religious significance, rather than violations of natural laws."
+    },
+    {
+      "id": "value-q5",
+      "question": "In which work did Thomas Aquinas discuss his understanding of miracles?",
+      "options": [
+        "Summa Theologica",
+        "City of God",
+        "Confessions",
+        "The Guide for the Perplexed"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas discusses his understanding of miracles in 'Summa Theologica', where he classifies them into different types based on their relation to natural laws."
+    },
+    {
+      "id": "value-q6",
+      "question": "Which of the following is a key characteristic of miracles according to Richard Swinburne?",
+      "options": [
+        "They must have religious significance",
+        "They are purely coincidental",
+        "They are always beneficial",
+        "They occur frequently"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Swinburne argues that for an event to be considered a miracle, it must have religious significance and point towards a divine being."
+    },
+    {
+      "id": "value-q7",
+      "question": "Which of the following best represents a 'miracle' according to the Catholic Church's understanding?",
+      "options": [
+        "An event that defies natural explanation and is attributed to divine intervention",
+        "A religious experience of personal transformation",
+        "A natural event with significant consequences",
+        "A moral teaching from a religious figure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Catholic Church views miracles as events that defy natural explanation and are attributed to divine intervention, often requiring verification by the Church."
+    },
+    {
+      "id": "value-q8",
+      "question": "Who criticized the concept of miracles as being based on unreliable testimony and insufficient evidence?",
+      "options": [
+        "David Hume",
+        "Richard Swinburne",
+        "Alvin Plantinga",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume criticized the concept of miracles, arguing that they are often based on unreliable testimony and lack sufficient evidence to be credible."
+    },
+    {
+      "id": "value-q9",
+      "question": "What is a common critique of Hume's argument against miracles?",
+      "options": [
+        "He dismisses the possibility of God acting in the world",
+        "He relies too heavily on scientific evidence",
+        "He is overly optimistic about human nature",
+        "He fails to consider the role of personal experience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common critique of Hume's argument is that he dismisses the possibility of divine intervention, thus ruling out miracles a priori."
+    },
+    {
+      "id": "value-q10",
+      "question": "A patient diagnosed with a terminal illness experiences a sudden and complete recovery after a prayer session. Which interpretation aligns with R.F. Holland's view on miracles?",
+      "options": [
+        "A coincidence with religious significance",
+        "A violation of natural laws",
+        "A scientifically unexplained event",
+        "A placebo effect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "R.F. Holland would interpret this as a coincidence that holds religious significance, rather than a direct violation of natural laws."
+    },
+    {
+      "id": "value-q11",
+      "question": "During a religious pilgrimage, a statue is reported to weep tears. How might a scientist approach this claim?",
+      "options": [
+        "Investigate for natural causes",
+        "Accept it as a miracle",
+        "Declare it a hoax immediately",
+        "Consider it a subjective experience"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A scientist would likely investigate for natural causes, such as condensation or other physical explanations, before accepting it as a miracle."
+    },
+    {
+      "id": "value-q12",
+      "question": "A person claims to have witnessed a miraculous healing at a religious site. What would be the most critical approach to evaluating this claim?",
+      "options": [
+        "Examine medical records for evidence",
+        "Accept the testimony based on faith",
+        "Assume it is a placebo effect",
+        "Consider it a psychological phenomenon"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critically evaluating the claim requires examining medical records to verify the healing and consider natural explanations before attributing it to a miracle."
+    },
+    {
+      "id": "value-q13",
+      "question": "Which philosopher argued that the probability of miracles should be assessed through Bayes' theorem?",
+      "options": [
+        "Richard Swinburne",
+        "David Hume",
+        "R.F. Holland",
+        "Anthony Flew"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Swinburne suggested that Bayes' theorem could be used to assess the probability of miracles, incorporating prior probabilities and evidence."
+    },
+    {
+      "id": "value-q14",
+      "question": "A person reports a vision of a religious figure giving them guidance. According to William James, how might this be categorized?",
+      "options": [
+        "A mystical experience",
+        "A miracle",
+        "A hallucination",
+        "A placebo effect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William James would likely categorize such a vision as a mystical experience, which is characterized by feelings of unity and religious insight."
+    },
+    {
+      "id": "value-q15",
+      "question": "Which of the following is a potential strength of believing in miracles within religious practice?",
+      "options": [
+        "Enhances faith and community",
+        "Provides empirical evidence",
+        "Guarantees moral behavior",
+        "Eliminates suffering"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Belief in miracles can enhance faith and community by providing shared experiences and reinforcing religious commitment."
+    }
+  ]
+}

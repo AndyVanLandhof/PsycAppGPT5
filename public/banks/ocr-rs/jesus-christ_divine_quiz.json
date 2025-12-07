@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "jesus-christ",
+  "topicTitle": "The Person of Jesus Christ",
+  "subTopic": "divine",
+  "subTopicTitle": "Jesus as Divine and Human",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:55:53.682Z",
+  "items": [
+    {
+      "id": "divine-q1",
+      "question": "Which term refers to the belief that Jesus is fully God and fully man?",
+      "options": [
+        "Hypostatic Union",
+        "Trinitarian Doctrine",
+        "Monophysitism",
+        "Nestorianism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Hypostatic Union is the theological term used to describe Jesus as both fully divine and fully human."
+    },
+    {
+      "id": "divine-q2",
+      "question": "What is the significance of the Council of Chalcedon (451 AD) in the context of Jesus' nature?",
+      "options": [
+        "It declared Jesus as only divine",
+        "It affirmed Jesus as fully divine and fully human",
+        "It rejected the concept of the Trinity",
+        "It established the New Testament canon"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The Council of Chalcedon affirmed the doctrine of the Hypostatic Union, declaring Jesus as both fully divine and fully human."
+    },
+    {
+      "id": "divine-q3",
+      "question": "Which Gospel emphasizes Jesus' humanity by highlighting his emotions and physical needs?",
+      "options": [
+        "Gospel of John",
+        "Gospel of Matthew",
+        "Gospel of Luke",
+        "Gospel of Mark"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The Gospel of Mark emphasizes Jesus' humanity by depicting his emotions and physical needs."
+    },
+    {
+      "id": "divine-q4",
+      "question": "Which scholar argued that Jesus' divinity is a later development in Christian theology?",
+      "options": [
+        "Bart Ehrman",
+        "N.T. Wright",
+        "C.S. Lewis",
+        "Karl Rahner"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bart Ehrman is known for arguing that the divinity of Jesus was a theological development over time."
+    },
+    {
+      "id": "divine-q5",
+      "question": "What does the term 'kenosis' refer to in Philippians 2:7?",
+      "options": [
+        "Jesus' self-emptying",
+        "Jesus' resurrection",
+        "Jesus' baptism",
+        "Jesus' temptation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kenosis refers to the concept of Jesus 'emptying himself,' as described in Philippians 2:7, highlighting his humility."
+    },
+    {
+      "id": "divine-q6",
+      "question": "Which heresy claimed that Jesus only appeared to be human?",
+      "options": [
+        "Docetism",
+        "Arianism",
+        "Ebionism",
+        "Adoptionism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Docetism is the heresy that claimed Jesus only appeared to have a human body and was not truly incarnate."
+    },
+    {
+      "id": "divine-q7",
+      "question": "In which Gospel does Jesus explicitly refer to himself as 'I am,' linking to the divine name revealed in Exodus?",
+      "options": [
+        "Gospel of John",
+        "Gospel of Matthew",
+        "Gospel of Mark",
+        "Gospel of Luke"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Gospel of John features several 'I am' statements by Jesus, connecting him to the divine name in Exodus."
+    },
+    {
+      "id": "divine-q8",
+      "question": "Which event in Jesus' life is often cited as evidence of his divinity?",
+      "options": [
+        "The Transfiguration",
+        "The Sermon on the Mount",
+        "The Feeding of the 5000",
+        "The Parable of the Sower"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Transfiguration is seen as evidence of Jesus' divinity, as he is revealed in glory with Moses and Elijah."
+    },
+    {
+      "id": "divine-q9",
+      "question": "Which early Christian creed affirms the belief in Jesus as 'true God from true God'?",
+      "options": [
+        "Nicene Creed",
+        "Apostles' Creed",
+        "Athanasian Creed",
+        "Chalcedonian Creed"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Nicene Creed affirms the belief in Jesus as 'true God from true God,' emphasizing his divine nature."
+    },
+    {
+      "id": "divine-q10",
+      "question": "A friend argues that Jesus' actions of performing miracles demonstrate his divinity. Which theological perspective supports this view?",
+      "options": [
+        "Classical Christology",
+        "Adoptionism",
+        "Ebionism",
+        "Docetism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Classical Christology supports the view that Jesus' miracles are evidence of his divine nature."
+    },
+    {
+      "id": "divine-q11",
+      "question": "Consider a scenario where a theologian is analyzing the dual nature of Jesus. Which Gospel would provide narratives that emphasize both his human and divine nature?",
+      "options": [
+        "Gospel of John",
+        "Gospel of Luke",
+        "Gospel of Matthew",
+        "Gospel of Mark"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The Gospel of Luke offers narratives that highlight both Jesus' humanity and divinity, providing a balanced perspective."
+    },
+    {
+      "id": "divine-q12",
+      "question": "A student is examining the portrayal of Jesus as divine in early Christian texts. Which document should they prioritize?",
+      "options": [
+        "Gospel of John",
+        "Didache",
+        "Epistle of James",
+        "Shepherd of Hermas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Gospel of John is a key text that emphasizes the divine nature of Jesus through its theological narratives."
+    },
+    {
+      "id": "divine-q13",
+      "question": "What is a critical argument against the historical reliability of the Gospel accounts of Jesus' divinity?",
+      "options": [
+        "They were written by biased believers",
+        "They are consistent with Roman historical records",
+        "They were written in multiple languages",
+        "They were immediately accepted by all early Christians"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that the Gospel accounts may lack historical reliability as they were written by believers with theological agendas."
+    },
+    {
+      "id": "divine-q14",
+      "question": "Which of the following is a methodological critique of using the Gospel of John as evidence for Jesus' divinity?",
+      "options": [
+        "It was written much later than other Gospels",
+        "It lacks any reference to Jesus' miracles",
+        "It was the first Gospel written",
+        "It focuses solely on Jesus' teachings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Gospel of John was written later than the Synoptic Gospels, leading some scholars to question its historical reliability."
+    },
+    {
+      "id": "divine-q15",
+      "question": "Compare the portrayal of Jesus' divinity in the Synoptic Gospels and the Gospel of John. What is a key difference?",
+      "options": [
+        "The Synoptic Gospels have fewer direct claims of divinity",
+        "The Synoptic Gospels include the story of Lazarus",
+        "The Gospel of John lacks a crucifixion narrative",
+        "The Gospel of John omits parables"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Synoptic Gospels generally have fewer direct claims of divinity compared to the Gospel of John, which emphasizes Jesus' divine identity."
+    }
+  ]
+}

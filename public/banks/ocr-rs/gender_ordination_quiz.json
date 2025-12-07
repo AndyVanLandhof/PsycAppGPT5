@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "gender",
+  "topicTitle": "Gender and Theology",
+  "subTopic": "ordination",
+  "subTopicTitle": "Women in Church Leadership",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T17:00:03.611Z",
+  "items": [
+    {
+      "id": "ordination-q1",
+      "question": "Which Christian denomination was the first to ordain women as priests in 1974?",
+      "options": [
+        "The Episcopal Church",
+        "The Roman Catholic Church",
+        "The Orthodox Church",
+        "The Methodist Church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Episcopal Church in the USA ordained women as priests in 1974, setting a precedent for other denominations."
+    },
+    {
+      "id": "ordination-q2",
+      "question": "In which year did the Church of England first ordain women as priests?",
+      "options": [
+        "1994",
+        "1984",
+        "2004",
+        "2014"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Church of England ordained its first women priests in 1994 after a lengthy debate within the church."
+    },
+    {
+      "id": "ordination-q3",
+      "question": "Who was the first female bishop in the Church of England?",
+      "options": [
+        "Libby Lane",
+        "Katharine Jefferts Schori",
+        "Barbara Harris",
+        "Elizabeth Eaton"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Libby Lane became the first female bishop in the Church of England in 2015."
+    },
+    {
+      "id": "ordination-q4",
+      "question": "According to the Pauline epistles, which role should women not hold in the church?",
+      "options": [
+        "Teaching authority over men",
+        "Leading prayer groups",
+        "Participating in worship",
+        "Contributing financially"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 1 Timothy 2:12, Paul states women should not have teaching authority over men, which has influenced church leadership roles."
+    },
+    {
+      "id": "ordination-q5",
+      "question": "What theological concept suggests that men and women have different roles that complement each other?",
+      "options": [
+        "Complementarianism",
+        "Egalitarianism",
+        "Patriarchalism",
+        "Feminism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Complementarianism is the belief in inherently different roles for men and women that complement each other within a religious context."
+    },
+    {
+      "id": "ordination-q6",
+      "question": "Which feminist theologian argued that traditional Christian theology is patriarchal and called for its reform?",
+      "options": [
+        "Rosemary Radford Ruether",
+        "Mary Daly",
+        "Sarah Coakley",
+        "Karen Armstrong"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Mary Daly was a radical feminist theologian who argued that traditional Christian theology is fundamentally patriarchal."
+    },
+    {
+      "id": "ordination-q7",
+      "question": "Which Pope reaffirmed the Catholic Church's position against the ordination of women in 1994?",
+      "options": [
+        "Pope John Paul II",
+        "Pope Benedict XVI",
+        "Pope Francis",
+        "Pope Paul VI"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pope John Paul II issued the apostolic letter Ordinatio Sacerdotalis in 1994, confirming the ban on women's ordination."
+    },
+    {
+      "id": "ordination-q8",
+      "question": "What is the name of the movement within Christianity that supports the full inclusion of women in church leadership?",
+      "options": [
+        "Egalitarian Movement",
+        "Complementarian Movement",
+        "Traditionalist Movement",
+        "Conservative Movement"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Egalitarian Movement advocates for equal roles for men and women in church leadership, opposing gender-based restrictions."
+    },
+    {
+      "id": "ordination-q9",
+      "question": "Which denomination was the first to ordain a woman as a bishop in 1989?",
+      "options": [
+        "The Episcopal Church",
+        "The Church of England",
+        "The Roman Catholic Church",
+        "The Orthodox Church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Episcopal Church in the USA ordained Barbara Harris as the first female bishop in 1989."
+    },
+    {
+      "id": "ordination-q10",
+      "question": "In a survey of churchgoers, 60% support women in leadership roles. What theological viewpoint might they align with?",
+      "options": [
+        "Egalitarianism",
+        "Complementarianism",
+        "Fundamentalism",
+        "Patriarchalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Those who support women in leadership roles are likely aligned with Egalitarianism, which advocates for gender equality in church roles."
+    },
+    {
+      "id": "ordination-q11",
+      "question": "A church allows women to lead worship but not to preach. Which theological stance does this reflect?",
+      "options": [
+        "Complementarianism",
+        "Egalitarianism",
+        "Feminism",
+        "Modernism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This reflects Complementarianism, where different roles are assigned based on gender, allowing some leadership but not teaching authority over men."
+    },
+    {
+      "id": "ordination-q12",
+      "question": "In a debate, a speaker argues that historical context should influence current church practices on gender. What is this an example of?",
+      "options": [
+        "Contextual theology",
+        "Systematic theology",
+        "Biblical literalism",
+        "Dogmatic theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Contextual theology considers the historical and cultural context of scripture to inform contemporary practices and beliefs."
+    },
+    {
+      "id": "ordination-q13",
+      "question": "Which of the following is a critique of using Pauline epistles to deny women leadership roles?",
+      "options": [
+        "Cultural context of the time",
+        "Paul's authority as an apostle",
+        "Literal interpretation of the Bible",
+        "Infallibility of scripture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that the cultural context of the time influenced Paul's writings, and these should not be applied rigidly today."
+    },
+    {
+      "id": "ordination-q14",
+      "question": "How might an egalitarian critique the complementarian view on church leadership?",
+      "options": [
+        "It perpetuates gender inequality",
+        "It maintains biblical fidelity",
+        "It supports traditional roles",
+        "It allows for unique contributions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Egalitarians argue that complementarianism perpetuates gender inequality and limits women's roles in leadership."
+    },
+    {
+      "id": "ordination-q15",
+      "question": "Which methodological critique can be made about studies on gender and church leadership?",
+      "options": [
+        "Overreliance on qualitative data",
+        "Comprehensive use of historical data",
+        "Balanced representation of all denominations",
+        "Incorporation of diverse theological perspectives"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Studies often rely heavily on qualitative data, which can be subjective and may not represent broader trends across denominations."
+    }
+  ]
+}

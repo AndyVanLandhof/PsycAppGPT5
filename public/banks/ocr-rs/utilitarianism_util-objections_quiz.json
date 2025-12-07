@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "utilitarianism",
+  "topicTitle": "Utilitarianism",
+  "subTopic": "util-objections",
+  "subTopicTitle": "Criticisms & Objections",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:47:31.809Z",
+  "items": [
+    {
+      "id": "util-objections-q1",
+      "question": "Who is considered the founder of Utilitarianism?",
+      "options": [
+        "Jeremy Bentham",
+        "John Stuart Mill",
+        "G.E. Moore",
+        "Immanuel Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jeremy Bentham is credited as the founder of Utilitarianism with his work 'An Introduction to the Principles of Morals and Legislation' published in 1789."
+    },
+    {
+      "id": "util-objections-q2",
+      "question": "What is the principle of utility?",
+      "options": [
+        "The greatest happiness for the greatest number",
+        "The categorical imperative",
+        "The greatest good for oneself",
+        "The pursuit of individual freedom"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The principle of utility, central to Utilitarianism, is focused on achieving the greatest happiness for the greatest number of people."
+    },
+    {
+      "id": "util-objections-q3",
+      "question": "Which of the following is a criticism of Bentham's Utilitarianism?",
+      "options": [
+        "It ignores individual rights",
+        "It is too focused on intentions",
+        "It relies on a rigid class system",
+        "It prioritizes duty over consequences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bentham's Utilitarianism is criticized for ignoring individual rights, as it focuses solely on outcomes rather than moral rights or justice."
+    },
+    {
+      "id": "util-objections-q4",
+      "question": "How did John Stuart Mill modify Bentham's Utilitarianism?",
+      "options": [
+        "By introducing higher and lower pleasures",
+        "By focusing solely on individual happiness",
+        "By rejecting the principle of utility",
+        "By emphasizing deontological ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mill introduced a qualitative distinction between higher and lower pleasures, arguing that intellectual and moral pleasures are superior to physical pleasures."
+    },
+    {
+      "id": "util-objections-q5",
+      "question": "Which philosopher is known for the 'Experience Machine' criticism against Utilitarianism?",
+      "options": [
+        "Robert Nozick",
+        "John Stuart Mill",
+        "Jeremy Bentham",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Robert Nozick proposed the 'Experience Machine' thought experiment to argue against Utilitarianism, suggesting people value reality over mere pleasurable experiences."
+    },
+    {
+      "id": "util-objections-q6",
+      "question": "What is 'act utilitarianism'?",
+      "options": [
+        "Evaluating each action based on its consequences",
+        "Following rules that maximize happiness",
+        "Placing the highest value on personal intentions",
+        "Prioritizing religious duties over consequences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Act utilitarianism involves evaluating the consequences of each individual action to determine if it maximizes happiness."
+    },
+    {
+      "id": "util-objections-q7",
+      "question": "What is a common objection to rule utilitarianism?",
+      "options": [
+        "It can lead to rigid rule-following",
+        "It ignores the consequences of actions",
+        "It promotes selfish behavior",
+        "It undervalues cultural traditions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rule utilitarianism is often criticized for potentially leading to rigid rule-following, even when breaking a rule might result in more happiness."
+    },
+    {
+      "id": "util-objections-q8",
+      "question": "Which study challenges the practical application of Utilitarianism by highlighting moral intuition?",
+      "options": [
+        "Trolley Problem by Philippa Foot, 1967",
+        "Cognitive Dissonance by Leon Festinger, 1957",
+        "Stanford Prison Experiment by Philip Zimbardo, 1971",
+        "Social Learning Theory by Albert Bandura, 1977"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Philippa Foot's Trolley Problem illustrates the challenges of applying utilitarian principles, as people's moral intuitions often conflict with utilitarian calculations."
+    },
+    {
+      "id": "util-objections-q9",
+      "question": "Which of the following is a criticism of preference utilitarianism?",
+      "options": [
+        "It can justify harming individuals if enough people benefit",
+        "It focuses too much on emotional responses",
+        "It disregards the notion of justice",
+        "It fails to consider environmental consequences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Preference utilitarianism, which seeks to satisfy the preferences of the majority, can justify harming individuals if it results in a net preference satisfaction."
+    },
+    {
+      "id": "util-objections-q10",
+      "question": "A hospital has one liver available for transplant and five patients in need. According to act utilitarianism, what should the hospital do?",
+      "options": [
+        "Transplant the liver to the patient who will live the longest",
+        "Consider which patient has the most dependents",
+        "Give the liver to the patient with the highest chance of survival",
+        "Use the liver to save as many patients as possible"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO2",
+      "explanation": "Act utilitarianism would suggest using the liver in a way that maximizes overall happiness, potentially saving more than one patient if possible."
+    },
+    {
+      "id": "util-objections-q11",
+      "question": "A company is considering a policy that would slightly reduce wages but significantly increase workplace safety. How might a rule utilitarian approach this decision?",
+      "options": [
+        "Implement the policy, as safety rules generally lead to greater happiness",
+        "Reject the policy, as wage reduction is inherently wrong",
+        "Conduct a survey to assess employee preferences",
+        "Focus on the individual action rather than the rule"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Rule utilitarianism might support the policy if safety rules generally lead to greater happiness and well-being, even if it means slight wage reductions."
+    },
+    {
+      "id": "util-objections-q12",
+      "question": "A utilitarian is asked to choose between two charity projects: one feeding the homeless and another funding education. What would a utilitarian consider?",
+      "options": [
+        "Which project maximizes overall happiness",
+        "Which project aligns with religious teachings",
+        "Which project requires less resources",
+        "Which project is more popular among donors"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A utilitarian would evaluate which project maximizes overall happiness, considering long-term impacts and the number of people benefited."
+    },
+    {
+      "id": "util-objections-q13",
+      "question": "How does the 'tyranny of the majority' critique challenge utilitarianism?",
+      "options": [
+        "It argues utilitarianism can justify harming minorities",
+        "It claims utilitarianism neglects emotional well-being",
+        "It suggests utilitarianism is too difficult to calculate",
+        "It indicates utilitarianism is inherently selfish"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The 'tyranny of the majority' critique suggests that utilitarianism can justify actions that harm minorities if they increase the happiness of the majority."
+    },
+    {
+      "id": "util-objections-q14",
+      "question": "In what way does Kantian ethics provide a critique of utilitarianism?",
+      "options": [
+        "By emphasizing duty over consequences",
+        "By focusing on the greatest happiness",
+        "By prioritizing emotional responses",
+        "By considering personal preferences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics critiques utilitarianism by emphasizing duty and moral rules over the consequences of actions, thus challenging the utilitarian focus on outcomes."
+    },
+    {
+      "id": "util-objections-q15",
+      "question": "Why might utilitarianism be criticized for being too demanding?",
+      "options": [
+        "It requires constant calculation of consequences",
+        "It allows for too much personal freedom",
+        "It often results in vague moral rules",
+        "It fails to consider long-term impact"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Utilitarianism can be seen as too demanding because it requires individuals to constantly calculate the consequences of their actions to maximize happiness."
+    }
+  ]
+}

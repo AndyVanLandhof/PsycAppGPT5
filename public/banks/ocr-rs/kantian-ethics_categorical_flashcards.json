@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "categorical",
+  "subTopicTitle": "Categorical Imperative",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:57:21.168Z",
+  "items": [
+    {
+      "question": "What is the Categorical Imperative?",
+      "answer": "A moral law that is universal and unconditional, guiding actions based on duty rather than consequences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the first formulation of the Categorical Imperative.",
+      "answer": "Act only according to that maxim whereby you can at the same time will that it should become a universal law.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the second formulation of the Categorical Imperative?",
+      "answer": "Act in such a way that you treat humanity, whether in your own person or in the person of any other, always as an end and never as a means only.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the third formulation of the Categorical Imperative.",
+      "answer": "Act as if you were through your maxims a legislating member in the universal kingdom of ends.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Kant argue about moral actions (1797)?",
+      "answer": "Kant argued that moral actions are those performed out of duty according to the Categorical Imperative, not based on their consequences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'maxim' in Kantian ethics.",
+      "answer": "A maxim is a subjective principle of action, a rule that an individual uses to guide their decisions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does reason play in Kantian ethics?",
+      "answer": "Reason identifies moral duties through the Categorical Imperative, guiding actions irrespective of desires or outcomes.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is meant by 'duty' in Kantian ethics?",
+      "answer": "Duty refers to the necessity of action performed out of respect for the moral law.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a hypothetical imperative?",
+      "answer": "A hypothetical imperative is a command that applies conditionally, depending on a person's desires (e.g., 'If you want X, do Y').",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'universalizability' in Kantian ethics.",
+      "answer": "Universalizability requires that a maxim be applicable to all rational beings without contradiction.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did O’Neill (1989) say about Kantian ethics?",
+      "answer": "O’Neill emphasized Kant's focus on treating individuals as ends in themselves, promoting respect and autonomy.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is meant by 'autonomy' in Kantian ethics?",
+      "answer": "Autonomy is the capacity to act according to one's own rational principles, free from external control.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the Categorical Imperative apply to lying?",
+      "answer": "According to the Categorical Imperative, lying is morally wrong because if universalized, it would erode trust and contradict the concept of truth.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Categorical Imperative to stealing.",
+      "answer": "Stealing fails the test of universalizability as a universal law of theft would undermine the concept of personal property.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How would Kantian ethics approach a promise-breaking scenario?",
+      "answer": "Kantian ethics would condemn breaking promises as it cannot be universalized without undermining the notion of trust.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Kant's ethics to the scenario of assisted suicide.",
+      "answer": "Assisted suicide violates the principle of treating humanity as an end, as it uses life as a means to an end of alleviating suffering.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Kantian ethics.",
+      "answer": "Kantian ethics offers clear moral guidelines, emphasizing duty and universal laws that ensure fairness and consistency.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Kantian ethics.",
+      "answer": "Kantian ethics can be overly rigid, ignoring the complexity of moral situations and the potential need for flexibility.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Kant's ethical theory.",
+      "answer": "Kant's theory relies on rationality and logical consistency but lacks empirical testing, which can limit its practical application.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Critique the Categorical Imperative's universality.",
+      "answer": "The universality requirement can be criticized for being impractical in complex scenarios where absolute rules may lead to moral dilemmas.",
+      "ao": "AO3"
+    }
+  ]
+}

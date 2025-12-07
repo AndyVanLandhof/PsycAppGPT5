@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "practices-identity",
+  "topicTitle": "Practices Shaping Religious Identity",
+  "subTopic": "community",
+  "subTopicTitle": "Community and Fellowship",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:57:42.733Z",
+  "items": [
+    {
+      "id": "community-q1",
+      "question": "What is the term for the Christian practice of sharing a meal to commemorate the Last Supper?",
+      "options": [
+        "Eucharist",
+        "Baptism",
+        "Confirmation",
+        "Ordination"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Eucharist is the term used for the Christian practice of commemorating the Last Supper, where bread and wine are shared."
+    },
+    {
+      "id": "community-q2",
+      "question": "Which researcher conducted a study on the role of religious community in fostering social capital in 2000?",
+      "options": [
+        "Robert Putnam",
+        "Max Weber",
+        "Emile Durkheim",
+        "Clifford Geertz"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Robert Putnam's study in 2000 explored how religious communities can foster social capital by building networks and trust among members."
+    },
+    {
+      "id": "community-q3",
+      "question": "Which of the following is a key characteristic of the Amish religious community?",
+      "options": [
+        "Shunning",
+        "Speaking in tongues",
+        "Meditation",
+        "Pilgrimage"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Shunning is a practice used by the Amish community to maintain religious discipline by socially isolating those who deviate from community norms."
+    },
+    {
+      "id": "community-q4",
+      "question": "In which year did the Second Vatican Council, which significantly reshaped Catholic community practices, conclude?",
+      "options": [
+        "1965",
+        "1955",
+        "1975",
+        "1985"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Second Vatican Council concluded in 1965, bringing significant changes to Catholic practices and community life, such as the use of vernacular languages in Mass."
+    },
+    {
+      "id": "community-q5",
+      "question": "What is the term for the Islamic practice of community prayer on Fridays?",
+      "options": [
+        "Jumu'ah",
+        "Hajj",
+        "Zakat",
+        "Sawm"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jumu'ah is the term for the communal prayer held on Fridays in Islam, considered an important weekly gathering for Muslims."
+    },
+    {
+      "id": "community-q6",
+      "question": "Which religious group is known for their communal living and belief in gender equality?",
+      "options": [
+        "The Shakers",
+        "The Mormons",
+        "The Quakers",
+        "The Pentecostals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Shakers are known for their practice of communal living and strong belief in gender equality, as well as celibacy."
+    },
+    {
+      "id": "community-q7",
+      "question": "Which Hindu festival involves the community coming together to celebrate the victory of light over darkness?",
+      "options": [
+        "Diwali",
+        "Holi",
+        "Navratri",
+        "Dussehra"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Diwali is the Hindu festival of lights, celebrating the victory of light over darkness and good over evil, involving large community gatherings."
+    },
+    {
+      "id": "community-q8",
+      "question": "Which Jewish practice is focused on communal worship and study on the Sabbath?",
+      "options": [
+        "Synagogue service",
+        "Seder meal",
+        "Purim festival",
+        "Circumcision"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The synagogue service is central to Jewish communal worship and study on the Sabbath, emphasizing community and fellowship."
+    },
+    {
+      "id": "community-q9",
+      "question": "What is the name of the Buddhist community of monks, nuns, and lay followers?",
+      "options": [
+        "Sangha",
+        "Dharma",
+        "Karma",
+        "Bodhi"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sangha refers to the Buddhist community of monks, nuns, and lay followers, emphasizing the importance of community in spiritual practice."
+    },
+    {
+      "id": "community-q10",
+      "question": "A researcher observed a religious community where members are encouraged to share meals and resources. Which sociological concept does this best illustrate?",
+      "options": [
+        "Communal living",
+        "Individualism",
+        "Secularization",
+        "Anomie"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Communal living is the concept where members of a community share resources and responsibilities, fostering a sense of unity and identity."
+    },
+    {
+      "id": "community-q11",
+      "question": "In a study of religious communities, it was found that youth participation decreased when technology use increased. What might be a reason for this?",
+      "options": [
+        "Reduced physical community engagement",
+        "Increased religious interest",
+        "Greater access to religious texts",
+        "Enhanced community bonds"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Increased technology use can lead to reduced physical community engagement, as individuals spend more time online rather than participating in communal activities."
+    },
+    {
+      "id": "community-q12",
+      "question": "A religious community emphasizes both traditional rituals and modern practices. How might this dual approach impact its identity?",
+      "options": [
+        "Maintain tradition while adapting",
+        "Reject traditional values",
+        "Ignore modern influences",
+        "Focus solely on rituals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "By combining traditional rituals with modern practices, the community can maintain its core identity while adapting to contemporary contexts."
+    },
+    {
+      "id": "community-q13",
+      "question": "To what extent does Emile Durkheim’s theory of religion as a social glue hold true in modern secular societies?",
+      "options": [
+        "Limited, due to diverse beliefs",
+        "Fully, as religion remains central",
+        "Not at all, religion is declining",
+        "Partially, only in rural areas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Durkheim's theory holds limited applicability in modern secular societies due to the diversity of beliefs and the rise of secularism, although it can still apply in certain contexts."
+    },
+    {
+      "id": "community-q14",
+      "question": "How does Robert Putnam's concept of 'bowling alone' critique the role of religious communities in modern life?",
+      "options": [
+        "Decline in social capital",
+        "Increase in religious attendance",
+        "Strengthening community bonds",
+        "Rise in secular rituals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Putnam's 'bowling alone' highlights the decline in social capital, suggesting that traditional community activities, including religious gatherings, are less central in modern life."
+    },
+    {
+      "id": "community-q15",
+      "question": "Compare the methods used by Max Weber and Emile Durkheim in studying religious communities.",
+      "options": [
+        "Weber focused on individual motivations, Durkheim on social functions",
+        "Both focused on economic impacts",
+        "Durkheim emphasized individual beliefs, Weber on social structures",
+        "Both used ethnographic methods"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Weber's approach focused on the individual's motivations and meanings, while Durkheim emphasized the social functions and cohesion provided by religious communities."
+    }
+  ]
+}

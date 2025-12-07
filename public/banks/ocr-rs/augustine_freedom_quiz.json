@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "freedom",
+  "subTopicTitle": "Human Freedom and Will",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:52:37.768Z",
+  "items": [
+    {
+      "id": "freedom-q1",
+      "question": "Which term did Augustine use to describe the state of humanity after the Fall?",
+      "options": [
+        "Original Sin",
+        "Tabula Rasa",
+        "Divine Grace",
+        "Natural Law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine argued that humanity is tainted by Original Sin as a result of Adam and Eve's disobedience."
+    },
+    {
+      "id": "freedom-q2",
+      "question": "What is the primary consequence of Original Sin according to Augustine?",
+      "options": [
+        "Loss of free will",
+        "Eternal damnation",
+        "Concupiscence",
+        "Immediate death"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Concupiscence refers to the tendency towards sin that Augustine believed was inherited from Original Sin."
+    },
+    {
+      "id": "freedom-q3",
+      "question": "In Augustine's view, what role does divine grace play in human freedom?",
+      "options": [
+        "It enables truly free will",
+        "It restricts human choices",
+        "It has no role",
+        "It enforces divine punishment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine believed that divine grace is necessary for true freedom, as it liberates the will to choose good."
+    },
+    {
+      "id": "freedom-q4",
+      "question": "Which philosopher heavily influenced Augustine's thoughts on will and freedom?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Cicero",
+        "Plotinus"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Plotinus, with his teachings on the One and the soul, greatly influenced Augustine's metaphysical views."
+    },
+    {
+      "id": "freedom-q5",
+      "question": "According to Augustine, what is the state of humanity's will before receiving divine grace?",
+      "options": [
+        "Enslaved to sin",
+        "Neutral",
+        "Naturally good",
+        "Completely free"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine taught that without divine grace, human will is enslaved to sin due to Original Sin."
+    },
+    {
+      "id": "freedom-q6",
+      "question": "Augustine's concept of 'massa damnata' refers to:",
+      "options": [
+        "A collective condemnation",
+        "The church community",
+        "The righteous few",
+        "A sacred assembly"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Massa damnata' is Augustine's idea that humanity is collectively condemned due to Original Sin."
+    },
+    {
+      "id": "freedom-q7",
+      "question": "Which work of Augustine outlines his major thoughts on grace and free will?",
+      "options": [
+        "Confessions",
+        "City of God",
+        "On Free Choice of the Will",
+        "The Enchiridion"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "'On Free Choice of the Will' is where Augustine discusses the interplay of divine grace and human freedom."
+    },
+    {
+      "id": "freedom-q8",
+      "question": "What does Augustine argue is the source of evil?",
+      "options": [
+        "Lack of good",
+        "Satan's influence",
+        "God's creation",
+        "Human nature"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "For Augustine, evil is a privation of good, not a created substance or force."
+    },
+    {
+      "id": "freedom-q9",
+      "question": "How does Augustine's view of the will contrast with Pelagius' view?",
+      "options": [
+        "Augustine believed in original sin; Pelagius did not",
+        "Pelagius emphasized predestination; Augustine did not",
+        "Augustine denied free will entirely; Pelagius affirmed it",
+        "Pelagius believed grace was unnecessary; Augustine disagreed"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pelagius rejected the idea of Original Sin, whereas Augustine saw it as central to human nature and will."
+    },
+    {
+      "id": "freedom-q10",
+      "question": "A student argues that Augustine's view on divine grace implies humans have no free will. Which aspect of Augustine's teaching could refute this claim?",
+      "options": [
+        "Grace enables the will to choose",
+        "Grace is irresistible",
+        "Grace is given to all equally",
+        "Grace is earned through works"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Augustine argued that divine grace enables the will to truly choose good, thus supporting the concept of free will."
+    },
+    {
+      "id": "freedom-q11",
+      "question": "If a person behaves morally, Augustine would say this is due to:",
+      "options": [
+        "Their own willpower",
+        "External influences",
+        "Divine grace at work",
+        "Social conditioning"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Augustine believed that any moral behavior is a result of divine grace working within the individual."
+    },
+    {
+      "id": "freedom-q12",
+      "question": "A historian finds evidence of a community where Augustine's teachings were misapplied to justify fatalism. How might this misunderstanding arise?",
+      "options": [
+        "Confusion over grace's role",
+        "Neglect of human responsibility",
+        "Misinterpretation of predestination",
+        "Emphasis on communal sin"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Misunderstandings of Augustine's views on predestination could lead to fatalistic interpretations."
+    },
+    {
+      "id": "freedom-q13",
+      "question": "How might a critic argue against Augustine's notion that humans require divine grace to achieve moral good?",
+      "options": [
+        "It undermines human autonomy",
+        "It supports atheism",
+        "It contradicts natural law",
+        "It denies God's omnipotence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics might say Augustine's view undermines human autonomy by making moral action dependent on divine intervention."
+    },
+    {
+      "id": "freedom-q14",
+      "question": "In what way might Augustine's views on the will and grace be seen as inconsistent?",
+      "options": [
+        "They appear deterministic",
+        "They contradict the Bible",
+        "They deny the existence of evil",
+        "They ignore philosophical traditions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Some argue that Augustine's emphasis on grace can seem deterministic, conflicting with the notion of free will."
+    },
+    {
+      "id": "freedom-q15",
+      "question": "How does Augustine's perspective on human freedom compare to that of modern existentialists?",
+      "options": [
+        "Focuses on divine grace",
+        "Emphasizes subjective experience",
+        "Denies inherent meaning",
+        "Centers on human choice"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike existentialists, who emphasize individual freedom and choice, Augustine's view is centered on the necessity of divine grace."
+    }
+  ]
+}

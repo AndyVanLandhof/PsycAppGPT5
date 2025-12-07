@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-language",
+  "topicTitle": "Religious Language",
+  "subTopic": "via",
+  "subTopicTitle": "Via Negativa & Analogical Language",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:40:01.216Z",
+  "items": [
+    {
+      "id": "via-q1",
+      "question": "What does the Via Negativa approach emphasize in religious language?",
+      "options": [
+        "Describing God by what God is not",
+        "Using positive attributes to describe God",
+        "Interpreting religious texts literally",
+        "Identifying God with natural phenomena"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Via Negativa, also known as the apophatic way, emphasizes understanding God by negation, focusing on what God is not."
+    },
+    {
+      "id": "via-q2",
+      "question": "Which philosopher is most associated with the concept of Via Negativa?",
+      "options": [
+        "Pseudo-Dionysius the Areopagite",
+        "Thomas Aquinas",
+        "St. Anselm",
+        "William of Ockham"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pseudo-Dionysius the Areopagite is a key figure in developing the Via Negativa approach, emphasizing God's ineffability."
+    },
+    {
+      "id": "via-q3",
+      "question": "In which year did William Alston publish 'Religious Language and Verification'?",
+      "options": [
+        "1964",
+        "1952",
+        "1978",
+        "1985"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Alston's 'Religious Language and Verification' was published in 1964, addressing issues in religious language."
+    },
+    {
+      "id": "via-q4",
+      "question": "What is the key feature of analogical language in theology?",
+      "options": [
+        "Using similarities to describe God",
+        "Literal descriptions of divine attributes",
+        "Metaphorical interpretations of scripture",
+        "Dismissing all human language about God"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Analogical language uses similarities between human experiences and divine attributes to talk about God."
+    },
+    {
+      "id": "via-q5",
+      "question": "Which philosopher is known for the analogy of attribution and proportion in religious language?",
+      "options": [
+        "Thomas Aquinas",
+        "Immanuel Kant",
+        "Rudolf Bultmann",
+        "Søren Kierkegaard"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas developed the theory of analogy, including attribution and proportion, for discussing God."
+    },
+    {
+      "id": "via-q6",
+      "question": "What is a criticism of the Via Negativa approach?",
+      "options": [
+        "It lacks a clear understanding of God's nature",
+        "It overly anthropomorphizes God",
+        "It is too reliant on empirical evidence",
+        "It is limited to specific religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Critics argue that Via Negativa provides little positive understanding of God, focusing solely on negations."
+    },
+    {
+      "id": "via-q7",
+      "question": "Which philosopher argued that religious language is non-cognitive and symbolic?",
+      "options": [
+        "Paul Tillich",
+        "Alvin Plantinga",
+        "Karl Barth",
+        "Richard Swinburne"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Tillich proposed that religious language is symbolic, conveying meaning beyond literal statements."
+    },
+    {
+      "id": "via-q8",
+      "question": "What is an example of analogical language?",
+      "options": [
+        "Describing God as 'father' to indicate a relationship",
+        "Saying God is 'blue' to symbolize mystery",
+        "Claiming God is 'not a creature'",
+        "Stating God 'exists outside time' literally"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Analogical language such as 'father' uses everyday terms to express relational qualities of God without literal interpretation."
+    },
+    {
+      "id": "via-q9",
+      "question": "Which is a challenge in using analogy to describe God?",
+      "options": [
+        "It can lead to misunderstandings if taken literally",
+        "It requires extensive empirical evidence",
+        "It limits divine attributes to human experiences",
+        "It dismisses historical religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Analogical language risks misunderstanding if the analogies are interpreted literally, rather than as symbolic representations."
+    },
+    {
+      "id": "via-q10",
+      "question": "A student argues that Via Negativa is the most respectful approach to talking about God. What is a potential counter-argument?",
+      "options": [
+        "It provides no positive content about God",
+        "It emphasizes divine immanence",
+        "It relies on scientific validation",
+        "It is overly simplistic for theological discourse"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "While respectful, Via Negativa is criticized for lacking positive content, leaving God's nature undefined and abstract."
+    },
+    {
+      "id": "via-q11",
+      "question": "A theologian uses the analogy of 'God as a shepherd'. What is a potential issue with this analogy?",
+      "options": [
+        "It anthropomorphizes God too much",
+        "It is too abstract to understand",
+        "It lacks a historical basis",
+        "It contradicts empirical evidence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Comparing God to a shepherd can overly anthropomorphize God, applying human characteristics to a divine being."
+    },
+    {
+      "id": "via-q12",
+      "question": "A debate arises over whether analogical language can truly convey divine attributes. What is a supporting argument for its use?",
+      "options": [
+        "It allows for partial understanding through relatable concepts",
+        "It requires literal interpretation to be effective",
+        "It is only useful in historical contexts",
+        "It demands empirical validation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Analogical language helps convey divine attributes by using familiar concepts, providing a partial, relatable understanding."
+    },
+    {
+      "id": "via-q13",
+      "question": "How does the Via Negativa approach differ from analogical language in theological discourse?",
+      "options": [
+        "Via Negativa avoids positive descriptions, while analogical language uses them",
+        "Both rely on empirical evidence",
+        "Via Negativa is more historically grounded",
+        "Analogical language dismisses scriptural references"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Via Negativa avoids describing God positively, using negations, while analogical language uses positive, relatable terms."
+    },
+    {
+      "id": "via-q14",
+      "question": "In evaluating the effectiveness of analogical language, what is a common critique?",
+      "options": [
+        "It may oversimplify complex divine attributes",
+        "It provides too much negative content",
+        "It relies heavily on empirical data",
+        "It excludes scientific perspectives"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Analogical language can oversimplify divine attributes, risking misinterpretation through overly simplistic comparisons."
+    },
+    {
+      "id": "via-q15",
+      "question": "When comparing Via Negativa and analogical language, what is a key distinction in their approaches?",
+      "options": [
+        "Via Negativa focuses on negation, while analogy allows for positive description",
+        "Both rely on literal interpretation",
+        "Analogical language is more ancient",
+        "Via Negativa is only applicable to monotheistic religions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The key distinction is that Via Negativa uses negations, avoiding positive attributions, while analogical language allows for them."
+    }
+  ]
+}

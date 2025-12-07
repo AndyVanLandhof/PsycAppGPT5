@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "pluralism",
+  "topicTitle": "Religious Pluralism",
+  "subTopic": "inclusivism",
+  "subTopicTitle": "Inclusivism",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:58:30.357Z",
+  "items": [
+    {
+      "id": "inclusivism-q1",
+      "question": "Who is the key theologian associated with the concept of Inclusivism in Christian theology?",
+      "options": [
+        "Karl Rahner",
+        "John Hick",
+        "Friedrich Schleiermacher",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Rahner is known for his concept of the 'anonymous Christian,' which is central to Inclusivism, suggesting that non-Christians can receive grace."
+    },
+    {
+      "id": "inclusivism-q2",
+      "question": "What term did Karl Rahner use to describe non-Christians who can achieve salvation through Christ's grace?",
+      "options": [
+        "Anonymous Christians",
+        "Secret Believers",
+        "Implicit Followers",
+        "Hidden Disciples"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rahner coined the term 'anonymous Christians' to describe non-Christians who live in accordance with God's grace without explicit knowledge of Christ."
+    },
+    {
+      "id": "inclusivism-q3",
+      "question": "In what year did Karl Rahner publish his influential essay 'Theological Investigations' that discussed Inclusivism?",
+      "options": [
+        "1966",
+        "1955",
+        "1972",
+        "1961"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "'Theological Investigations' was published in 1961, where Rahner elaborated on his ideas about Inclusivism and the 'anonymous Christian'."
+    },
+    {
+      "id": "inclusivism-q4",
+      "question": "Which of the following is a criticism of Inclusivism?",
+      "options": [
+        "It undermines the uniqueness of Christ",
+        "It supports religious exclusivity",
+        "It denies the role of faith",
+        "It promotes religious relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Critics argue that Inclusivism can undermine the uniqueness of Christ by suggesting salvation outside explicit Christian faith."
+    },
+    {
+      "id": "inclusivism-q5",
+      "question": "Which Vatican II document supports an Inclusivist view by acknowledging the presence of truth in other religions?",
+      "options": [
+        "Nostra Aetate",
+        "Lumen Gentium",
+        "Gaudium et Spes",
+        "Dei Verbum"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Lumen Gentium acknowledges that elements of truth can be found in other religions, which aligns with an Inclusivist perspective."
+    },
+    {
+      "id": "inclusivism-q6",
+      "question": "What is the primary difference between Inclusivism and Exclusivism?",
+      "options": [
+        "Inclusivism allows for salvation outside explicit faith in Christ, while Exclusivism does not",
+        "Inclusivism denies the divinity of Christ, while Exclusivism affirms it",
+        "Inclusivism believes in multiple paths to God, while Exclusivism does not",
+        "Inclusivism emphasizes the Old Testament, while Exclusivism focuses on the New Testament"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Inclusivism allows for the possibility of salvation outside explicit faith in Christ, whereas Exclusivism requires explicit faith for salvation."
+    },
+    {
+      "id": "inclusivism-q7",
+      "question": "Which theologian critiqued Inclusivism by stating that it is condescending to other faiths?",
+      "options": [
+        "John Hick",
+        "Paul Knitter",
+        "Hans Küng",
+        "Alvin Plantinga"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick critiqued Inclusivism by arguing it is condescending because it assumes other faiths need Christianity for full truth."
+    },
+    {
+      "id": "inclusivism-q8",
+      "question": "How does Inclusivism differ from Pluralism?",
+      "options": [
+        "Inclusivism maintains the centrality of Christ, while Pluralism suggests many valid paths to God",
+        "Inclusivism denies salvation for non-Christians, while Pluralism includes them",
+        "Inclusivism promotes conversion, while Pluralism does not",
+        "Inclusivism affirms multiple gods, while Pluralism focuses on one"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Inclusivism maintains the centrality of Christ for salvation, unlike Pluralism, which suggests multiple valid paths to God."
+    },
+    {
+      "id": "inclusivism-q9",
+      "question": "Which concept is not associated with Inclusivism?",
+      "options": [
+        "Religious superiority",
+        "Anonymous Christianity",
+        "Partial revelation",
+        "Implicit faith"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Inclusivism does not promote religious superiority; it acknowledges truth and grace can exist outside explicit Christianity."
+    },
+    {
+      "id": "inclusivism-q10",
+      "question": "A Christian missionary encounters a Buddhist community. How might an Inclusivist view this scenario?",
+      "options": [
+        "The Buddhists can receive grace through Christ without knowing him",
+        "The Buddhists must convert to Christianity for salvation",
+        "The Buddhists' beliefs are entirely false",
+        "The Buddhists worship the same God in a different form"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "An Inclusivist would argue that Buddhists can receive grace through Christ without explicit knowledge of Him."
+    },
+    {
+      "id": "inclusivism-q11",
+      "question": "In a sociological study, a group of Christians believe that other religions have partial truths but Christianity is the full truth. What perspective is this?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Pluralism",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This reflects an Inclusivist perspective, where other religions are seen as having partial truths, with Christianity as the full revelation."
+    },
+    {
+      "id": "inclusivism-q12",
+      "question": "A survey finds that a large number of Christians believe salvation is possible for non-Christians. Which theological stance does this reflect?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Pluralism",
+        "Secularism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This reflects Inclusivism, as it suggests salvation is possible for those outside the explicit Christian faith."
+    },
+    {
+      "id": "inclusivism-q13",
+      "question": "What is a methodological critique of Inclusivism?",
+      "options": [
+        "It imposes a Christian framework on other religions",
+        "It lacks a coherent theological foundation",
+        "It fails to account for historical inaccuracies",
+        "It ignores the role of scripture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Inclusivism is critiqued for imposing a Christian framework on other religions, assuming they need Christianity to find truth."
+    },
+    {
+      "id": "inclusivism-q14",
+      "question": "How does John Hick's Pluralism challenge Inclusivism?",
+      "options": [
+        "By arguing that all religions are equally valid paths to the divine",
+        "By denying the existence of God",
+        "By affirming the exclusivity of Christianity",
+        "By promoting atheism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "John Hick's Pluralism challenges Inclusivism by arguing that all religions are equally valid paths to the divine, not just Christianity."
+    },
+    {
+      "id": "inclusivism-q15",
+      "question": "Which argument might a critic use to claim Inclusivism is inherently contradictory?",
+      "options": [
+        "It acknowledges truth in other religions but maintains Christian superiority",
+        "It denies the possibility of salvation",
+        "It rejects the use of reason in theology",
+        "It promotes syncretism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue Inclusivism is contradictory as it acknowledges truth in other religions but still maintains Christian superiority."
+    }
+  ]
+}

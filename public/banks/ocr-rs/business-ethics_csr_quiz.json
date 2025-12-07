@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "business-ethics",
+  "topicTitle": "Business Ethics",
+  "subTopic": "csr",
+  "subTopicTitle": "Corporate Social Responsibility",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:49:12.268Z",
+  "items": [
+    {
+      "id": "csr-q1",
+      "question": "What is Corporate Social Responsibility (CSR)?",
+      "options": [
+        "A business model that helps a company be socially accountable",
+        "A legal obligation for companies to donate to charity",
+        "A strategy to maximize profits regardless of the social impact",
+        "A governmental program mandating business ethics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "CSR is a business model where companies integrate social and environmental concerns in their operations."
+    },
+    {
+      "id": "csr-q2",
+      "question": "Which of the following is a key principle of Milton Friedman's view on business ethics?",
+      "options": [
+        "The primary responsibility of a business is to its shareholders",
+        "Businesses should prioritize environmental sustainability",
+        "Corporate philanthropy should be a top priority",
+        "Businesses have a duty to solve social problems"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Friedman argued that the social responsibility of a business is to increase its profits for shareholders (Friedman, 1970)."
+    },
+    {
+      "id": "csr-q3",
+      "question": "In which year did Archie Carroll propose the 'Pyramid of Corporate Social Responsibility'?",
+      "options": [
+        "1991",
+        "1984",
+        "1976",
+        "2001"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Carroll introduced the Pyramid of CSR in 1991, outlining economic, legal, ethical, and philanthropic responsibilities."
+    },
+    {
+      "id": "csr-q4",
+      "question": "Which ethical theory is most likely to support CSR due to its focus on the greatest good for the greatest number?",
+      "options": [
+        "Utilitarianism",
+        "Deontology",
+        "Virtue Ethics",
+        "Egoism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Utilitarianism supports CSR because it emphasizes outcomes that benefit the majority, aligning with CSR goals."
+    },
+    {
+      "id": "csr-q5",
+      "question": "Which philosopher's theory of the 'invisible hand' is often cited in discussions against CSR?",
+      "options": [
+        "Adam Smith",
+        "Immanuel Kant",
+        "John Rawls",
+        "Jeremy Bentham"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Adam Smith's 'invisible hand' suggests that individuals pursuing their interests can lead to societal benefit, arguing against CSR."
+    },
+    {
+      "id": "csr-q6",
+      "question": "Which of the following is not a component of Carroll’s CSR Pyramid?",
+      "options": [
+        "Social welfare",
+        "Economic responsibility",
+        "Ethical responsibility",
+        "Philanthropic responsibility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Carroll’s CSR Pyramid includes economic, legal, ethical, and philanthropic responsibilities, not social welfare."
+    },
+    {
+      "id": "csr-q7",
+      "question": "What is the primary critique of CSR from a free-market perspective?",
+      "options": [
+        "CSR diverts from profit maximization",
+        "CSR improves brand reputation",
+        "CSR enhances employee satisfaction",
+        "CSR leads to sustainable development"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Free-market advocates argue that CSR diverts resources from profit maximization, which is the main goal of businesses."
+    },
+    {
+      "id": "csr-q8",
+      "question": "Which of the following studies is associated with the impact of CSR on financial performance?",
+      "options": [
+        "Margolis and Walsh (2003)",
+        "Friedman (1970)",
+        "Carroll (1991)",
+        "Smith (1776)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Margolis and Walsh (2003) conducted research on the relationship between CSR and financial performance."
+    },
+    {
+      "id": "csr-q9",
+      "question": "Who argued that businesses have responsibilities to a broader range of stakeholders, not just shareholders?",
+      "options": [
+        "Edward Freeman",
+        "Milton Friedman",
+        "Archie Carroll",
+        "Jeremy Bentham"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Edward Freeman developed the stakeholder theory, which considers the interests of all stakeholders in business decisions."
+    },
+    {
+      "id": "csr-q10",
+      "question": "A company donates a portion of its profits to environmental charities. How does this action align with Carroll's Pyramid of CSR?",
+      "options": [
+        "It fulfills the philanthropic responsibility",
+        "It fulfills the economic responsibility",
+        "It fulfills the legal responsibility",
+        "It fulfills the ethical responsibility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Donating to charities aligns with the philanthropic responsibility, which is the top tier of Carroll’s Pyramid."
+    },
+    {
+      "id": "csr-q11",
+      "question": "A new law requires businesses to reduce carbon emissions. How does this align with Carroll's CSR framework?",
+      "options": [
+        "Legal responsibility",
+        "Philanthropic responsibility",
+        "Economic responsibility",
+        "Ethical responsibility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Under Carroll’s framework, adhering to laws such as reducing emissions is part of a business's legal responsibilities."
+    },
+    {
+      "id": "csr-q12",
+      "question": "A company decides to improve working conditions beyond what is legally required. Which aspect of CSR does this represent?",
+      "options": [
+        "Ethical responsibility",
+        "Economic responsibility",
+        "Legal responsibility",
+        "Philanthropic responsibility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Improving working conditions beyond legal requirements reflects ethical responsibility in Carroll’s CSR framework."
+    },
+    {
+      "id": "csr-q13",
+      "question": "What is a key criticism of CSR based on the argument that it can lead to increased costs?",
+      "options": [
+        "CSR initiatives may reduce a company’s competitive edge",
+        "CSR always results in government intervention",
+        "CSR guarantees increased profit margins",
+        "CSR is universally accepted as beneficial"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that CSR can increase operational costs, potentially reducing a company’s competitive edge."
+    },
+    {
+      "id": "csr-q14",
+      "question": "How does the shareholder theory critique the concept of CSR?",
+      "options": [
+        "CSR diverts focus from maximizing shareholder value",
+        "CSR leads to improved corporate image",
+        "CSR fosters long-term business sustainability",
+        "CSR ensures compliance with legal standards"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Shareholder theory critiques CSR by arguing it diverts resources from the primary goal of maximizing shareholder value."
+    },
+    {
+      "id": "csr-q15",
+      "question": "Which argument suggests that CSR can be a strategic tool for business success?",
+      "options": [
+        "CSR enhances long-term profitability through reputation and loyalty",
+        "CSR simply increases unnecessary costs",
+        "CSR is irrelevant to core business operations",
+        "CSR has no impact on attracting talent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "CSR can enhance long-term profitability by improving a company’s reputation and customer loyalty, making it a strategic tool."
+    }
+  ]
+}

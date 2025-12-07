@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "nature-attributes-god",
+  "topicTitle": "Nature or Attributes of God",
+  "subTopic": "omnipotence",
+  "subTopicTitle": "Omnipotence",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:34:49.053Z",
+  "items": [
+    {
+      "id": "omnipotence-q1",
+      "question": "What is the primary definition of omnipotence in classical theism?",
+      "options": [
+        "The ability to do anything logically possible",
+        "The ability to know everything",
+        "The ability to be present everywhere",
+        "The ability to be morally perfect"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Omnipotence in classical theism is generally defined as the ability to do anything that is logically possible."
+    },
+    {
+      "id": "omnipotence-q2",
+      "question": "According to Thomas Aquinas, how does God’s omnipotence relate to logical contradictions?",
+      "options": [
+        "God can do the logically impossible",
+        "God cannot do logical contradictions",
+        "God chooses not to do logical contradictions",
+        "God's omnipotence is irrelevant to logical contradictions"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Aquinas argued that God's omnipotence does not include the power to do the logically impossible, as contradictions are not 'things' to be done."
+    },
+    {
+      "id": "omnipotence-q3",
+      "question": "Which philosopher is known for the 'Paradox of the Stone'?",
+      "options": [
+        "J.L. Mackie",
+        "David Hume",
+        "Rene Descartes",
+        "Alvin Plantinga"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "J.L. Mackie introduced the 'Paradox of the Stone', questioning whether an omnipotent being could create a stone so heavy that even it could not lift it."
+    },
+    {
+      "id": "omnipotence-q4",
+      "question": "What does the term 'omnipotence paradox' refer to?",
+      "options": [
+        "A challenge to God's ability to be morally perfect",
+        "A contradiction in the concept of an all-powerful being",
+        "A proof of God's non-existence",
+        "A misunderstanding of divine attributes"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The omnipotence paradox highlights a contradiction in the concept of an all-powerful being, such as the 'Paradox of the Stone'."
+    },
+    {
+      "id": "omnipotence-q5",
+      "question": "Which philosopher argues that omnipotence includes the ability to perform self-contradictory acts?",
+      "options": [
+        "Rene Descartes",
+        "Thomas Aquinas",
+        "J.L. Mackie",
+        "Anselm of Canterbury"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rene Descartes argued that God's omnipotence could include performing self-contradictory acts, as God's power is beyond human logic."
+    },
+    {
+      "id": "omnipotence-q6",
+      "question": "What is Alvin Plantinga's stance on omnipotence?",
+      "options": [
+        "Omnipotence means doing anything logically possible",
+        "Omnipotence includes contradictions",
+        "Omnipotence is irrelevant to moral actions",
+        "Omnipotence is the ability to know everything"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga defines omnipotence as the ability to do anything that is logically possible, aligning with classical theistic views."
+    },
+    {
+      "id": "omnipotence-q7",
+      "question": "Which of the following is a key issue with defining omnipotence?",
+      "options": [
+        "Moral perfection",
+        "Logical contradictions",
+        "Knowledge limitations",
+        "Spatial limitations"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Logical contradictions present a key issue in defining omnipotence, as they challenge the coherence of an all-powerful being."
+    },
+    {
+      "id": "omnipotence-q8",
+      "question": "How does Anselm of Canterbury describe God’s omnipotence in the Proslogion?",
+      "options": [
+        "The ability to do anything possible and impossible",
+        "The inability to perform evil",
+        "The ability to do anything consistent with His nature",
+        "The power to create logical contradictions"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Anselm describes God's omnipotence as the ability to do anything consistent with His nature, which includes moral purity."
+    },
+    {
+      "id": "omnipotence-q9",
+      "question": "Which philosopher suggested that omnipotence is incompatible with free will?",
+      "options": [
+        "Anthony Kenny",
+        "J.L. Mackie",
+        "Richard Swinburne",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anthony Kenny proposed that omnipotence might be incompatible with the existence of free will, as it raises questions about divine control over human actions."
+    },
+    {
+      "id": "omnipotence-q10",
+      "question": "A student claims that if God is omnipotent, He should be able to create a universe where evil does not exist. Which philosophical issue does this scenario highlight?",
+      "options": [
+        "The Problem of Evil",
+        "The Ontological Argument",
+        "The Cosmological Argument",
+        "The Teleological Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario highlights 'The Problem of Evil', questioning how an omnipotent and benevolent God can coexist with evil in the universe."
+    },
+    {
+      "id": "omnipotence-q11",
+      "question": "In a debate, a speaker argues that omnipotence means God can do anything except violate His own nature. How does this view relate to classical theism?",
+      "options": [
+        "It supports classical theism",
+        "It contradicts classical theism",
+        "It is unrelated to classical theism",
+        "It redefines classical theism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This view aligns with classical theism, which often suggests that omnipotence does not include actions contrary to God's nature."
+    },
+    {
+      "id": "omnipotence-q12",
+      "question": "Consider a scenario where God is said to be unable to create a square circle. What aspect of omnipotence does this scenario illustrate?",
+      "options": [
+        "God's moral limitations",
+        "God's logical limitations",
+        "God's spatial limitations",
+        "God's knowledge limitations"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates the logical limitations of omnipotence, as creating a square circle is a logical contradiction."
+    },
+    {
+      "id": "omnipotence-q13",
+      "question": "Evaluate the argument that omnipotence must include the ability to perform logically contradictory acts.",
+      "options": [
+        "It misunderstands the nature of logical contradictions",
+        "It supports the classical view of omnipotence",
+        "It aligns with Aquinas' views",
+        "It is a widely accepted theological position"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "This argument misunderstands the nature of logical contradictions, which are not actions but rather nonsensical concepts."
+    },
+    {
+      "id": "omnipotence-q14",
+      "question": "Compare Aquinas and Descartes on their views of God's omnipotence.",
+      "options": [
+        "Aquinas includes logical contradictions; Descartes does not",
+        "Descartes includes logical contradictions; Aquinas does not",
+        "Both exclude logical contradictions",
+        "Both include logical contradictions"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Descartes includes logical contradictions in God's omnipotence, whereas Aquinas does not, seeing them as nonsensical."
+    },
+    {
+      "id": "omnipotence-q15",
+      "question": "Critically assess the impact of the 'Paradox of the Stone' on the concept of omnipotence.",
+      "options": [
+        "It reinforces the traditional view of omnipotence",
+        "It has no impact on the concept of omnipotence",
+        "It challenges the coherence of omnipotence",
+        "It supports the view of God's moral perfection"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The 'Paradox of the Stone' challenges the coherence of omnipotence by presenting a scenario that questions the consistency of an all-powerful being."
+    }
+  ]
+}

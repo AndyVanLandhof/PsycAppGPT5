@@ -152,19 +152,165 @@ function StudySession({ topic, onBack }) {
         const srsSignals = allUnits.map((u) => ({ subTopicId, kuId: u.id, grade: srsGradeFor(u) }));
         feedback = { successful, missed, overall, _ar: ar, _units: allUnits, _srsSignals: srsSignals, _microPrompts: microPrompts(allUnits, kus) };
       } else {
-        // Legacy prompt path if no KU map available
-        const legacyPrompt = `You are an expert AQA Psychology teacher analyzing a student's recall attempt for AQA Psychology 7182.\n\nTOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nSTUDENT'S RECALL:\n"${userAnswer}"\n\nAnalyze this recall and provide specific feedback. You must return ONLY a valid JSON object with this exact structure:\n\n{\n  "successful": [\n    "specific concept or study they mentioned correctly",\n    "another specific point they got right",\n    "third specific thing they recalled well"\n  ],\n  "missed": [\n    "important concept they didn't mention",\n    "key study or researcher they missed",\n    "critical mechanism or process they omitted"\n  ],\n  "overall": "Brief encouraging comment about their effort and what to focus on next"\n}\n\nRules:\n- Each bullet point must be specific (not generic like "some content")\n- Focus on actual concepts, studies, researchers, mechanisms from ${topic.subTopic.title}\n- Keep each bullet under 15 words\n- Be encouraging but honest about gaps\n- Return ONLY the JSON, no other text`;
+        // Curriculum-specific examiner prompts - each board has different marking philosophies
+        // Tone: warm, enthusiastic, supportive - suitable for a 17-year-old sixth-former
+        const buildExaminerPrompt = () => {
+          const baseInfo = `TOPIC: ${topic.title}\nSUB-TOPIC: ${topic.subTopic.title}\n\nSTUDENT'S RECALL:\n"""\n${userAnswer}\n"""`;
+          
+          const toneGuidance = `
+YOUR TONE - You're speaking to a bright 17-year-old sixth-former:
+- Be WARM and ENTHUSIASTIC - celebrate what they got right with genuine praise
+- Be SPECIFIC in your praise - "Brilliant point about X!" not just "Good"
+- For gaps, be HONEST but CONSTRUCTIVE - frame as "next steps" not failures
+- Use encouraging language: "You've nailed...", "Really strong on...", "To push this further..."
+- Keep it conversational and supportive, like a favourite teacher who believes in them
+- Never be condescending - treat them as capable young adults
+- The "overall" comment should feel personal and motivating`;
+          
+          if (curriculum === 'aqa-psych') {
+            return `You are a brilliant, enthusiastic AQA Psychology teacher who genuinely loves the subject (7182).
+
+${baseInfo}
+
+${toneGuidance}
+
+YOUR MARKING APPROACH:
+- AQA rewards ACCURACY and DETAIL - look for correct terminology, named studies, researchers, dates
+- Credit paraphrased concepts even if not using exact textbook language
+- Recognize when students demonstrate UNDERSTANDING even without perfect recall
+- Be thorough: scan the ENTIRE response before deciding what's missing
+- Don't mark something as "missed" if the student clearly addressed it, even partially
+
+CHECKLIST - scan for these in the student's answer:
+□ Key theories/models and their components
+□ Named studies (researcher + brief finding counts as credit)
+□ Psychological terminology used correctly
+□ Evaluation points (strengths/limitations)
+□ Real-world applications or examples
+
+Return ONLY valid JSON:
+{
+  "successful": ["Brilliant - you nailed X!", "Really strong on Y", ...],  // ALL concepts right (up to 6)
+  "partial": ["Good start on X - try adding...", ...],  // mentioned but incomplete (up to 3)
+  "missed": ["Worth adding: X", "For top marks, include Y", ...],  // genuinely NOT mentioned (up to 4)
+  "overall": "Warm, personal 1-2 sentence comment that celebrates strengths and gives one clear next step"
+}
+
+Be GENEROUS and ENCOURAGING. If in doubt, give credit!`;
+          }
+          
+          if (curriculum === 'ocr-rs') {
+            return `You are a passionate, insightful OCR Religious Studies teacher who loves philosophical debate (H573).
+
+${baseInfo}
+
+${toneGuidance}
+
+YOUR MARKING APPROACH - OCR's Assessment Objectives:
+- AO1: Knowledge and understanding - credit accurate explanations of concepts, thinkers, arguments
+- AO2: Analysis and evaluation - credit critical engagement, comparing viewpoints, logical reasoning
+- OCR values QUALITY OF ARGUMENT over rote memorization
+- Credit sophisticated expression of ideas even without naming every scholar
+- Recognize philosophical INSIGHT - students who "get it" conceptually deserve credit
+- Be thorough: scan the ENTIRE response before deciding what's missing
+
+CHECKLIST - scan for these in the student's answer:
+□ Key philosophical concepts explained (Forms, telos, causation, etc.)
+□ Named philosophers and their positions (Plato, Aristotle, Aquinas, etc.)
+□ Contrasts and comparisons between views
+□ Evaluation/critical analysis of arguments
+□ Technical terminology used appropriately
+□ Logical structure and coherent argument
+
+Return ONLY valid JSON:
+{
+  "successful": ["Excellent grasp of X!", "You've really understood Y", ...],  // ALL concepts right (up to 6)
+  "partial": ["Nice start on X - could develop by...", ...],  // mentioned but incomplete (up to 3)  
+  "missed": ["To strengthen this, add X", "Examiners love seeing Y", ...],  // genuinely NOT mentioned (up to 4)
+  "overall": "Warm, encouraging 1-2 sentences celebrating their philosophical thinking and one tip for even better marks"
+}
+
+Be FAIR and ENTHUSIASTIC. Celebrate their insights!`;
+          }
+          
+          if (curriculum === 'edexcel-englit') {
+            return `You are an inspiring, passionate Edexcel English Literature teacher who loves texts and ideas.
+
+${baseInfo}
+
+${toneGuidance}
+
+YOUR MARKING APPROACH - Edexcel's Assessment Objectives:
+- AO1: Articulate informed, personal responses using literary concepts
+- AO2: Analyse ways meanings are shaped (language, form, structure)
+- AO3: Demonstrate understanding of contexts (historical, social, cultural)
+- AO4: Explore connections across texts (for comparison questions)
+- AO5: Explore different interpretations (critical perspectives)
+- Credit ENGAGEMENT with the text - personal response matters
+- Value close reading and textual evidence, even without exact quotations
+- Recognize critical thinking about themes, characters, techniques
+
+CHECKLIST - scan for these in the student's answer:
+□ Key themes and ideas from the text
+□ Character analysis and development
+□ Literary techniques identified (imagery, symbolism, structure, etc.)
+□ Contextual understanding (author's era, social issues, etc.)
+□ Critical perspectives or interpretations
+□ Personal engagement and response
+
+Return ONLY valid JSON:
+{
+  "successful": ["Lovely insight on X!", "Really perceptive about Y", ...],  // ALL concepts right (up to 6)
+  "partial": ["Good thinking on X - push further by...", ...],  // mentioned but incomplete (up to 3)
+  "missed": ["Would love to see you explore X", "Don't forget Y - it's gold!", ...],  // genuinely NOT mentioned (up to 4)
+  "overall": "Warm 1-2 sentences that celebrate their engagement with the text and suggest one way to deepen their response"
+}
+
+Be SUPPORTIVE and GENUINE. Value their personal voice!`;
+          }
+          
+          // Default fallback
+          return `You are an experienced A-Level examiner analyzing a student's recall.
+
+${baseInfo}
+
+Analyze thoroughly. Give credit for demonstrated understanding. Only mark as missed what is genuinely absent.
+
+Return ONLY valid JSON:
+{
+  "successful": ["point 1", "point 2", ...],
+  "partial": ["point 1", ...],
+  "missed": ["point 1", "point 2", ...],
+  "overall": "Encouraging summary"
+}`;
+        };
+        
+        const legacyPrompt = buildExaminerPrompt();
+
+        console.log('[AO1 Marking] Sending legacy prompt:', legacyPrompt.substring(0, 200));
         const res = await callAIWithPublicSources(legacyPrompt, topic.title, topic.subTopic.title);
+        console.log('[AO1 Marking] Raw AI response:', res);
+        
         let parsed = null;
         try {
           const jsonMatch = res.match(/\{[\s\S]*\}/);
           const jsonStr = jsonMatch ? jsonMatch[0] : res;
           parsed = JSON.parse(jsonStr);
-        } catch (_) {
+        } catch (parseErr) {
+          console.error('[AO1 Marking] JSON parse error:', parseErr, 'Response:', res);
           parsed = null;
         }
-        if (!parsed || !parsed.successful || !parsed.missed || !parsed.overall) throw new Error('Invalid feedback');
-        feedback = parsed;
+        if (!parsed || !parsed.successful || !parsed.overall) {
+          console.error('[AO1 Marking] Invalid feedback structure:', parsed);
+          throw new Error('Invalid feedback');
+        }
+        // Normalize: ensure arrays exist, handle legacy responses without 'partial'
+        feedback = {
+          successful: Array.isArray(parsed.successful) ? parsed.successful : [],
+          partial: Array.isArray(parsed.partial) ? parsed.partial : [],
+          missed: Array.isArray(parsed.missed) ? parsed.missed : [],
+          overall: parsed.overall || 'Good effort!'
+        };
       }
 
       setAo1Feedback(feedback);
@@ -200,36 +346,43 @@ function StudySession({ topic, onBack }) {
         }
       } catch (_) {}
       setPhase('ao1-feedback');
-      // Guided flow: auto-progress AO1 -> AO1 summary -> AO2 scenario
-      if (flowMode === 'guided') {
-        setTimeout(() => {
-          try { setPhase('ao1-reveal'); } catch(_) {}
-          setTimeout(() => { try { generateScenario(); } catch(_) {} }, 400);
-        }, 250);
-      }
+      // NOTE: Removed auto-advance. User should click "Continue" to proceed.
+      // This ensures they see their feedback before moving on.
     } catch (e) {
       console.error('[AO1 Marking] Error:', e);
       const userInputLower = (userAnswer || '').toLowerCase();
-      if (userInputLower.includes('nothing') || userInputLower.includes('know') || userInputLower.length < 10) {
+      const answerLength = (userAnswer || '').trim().length;
+      
+      if (userInputLower.includes('nothing') || userInputLower.includes("don't know") || answerLength < 20) {
+        // User genuinely didn't know much
         setAo1Feedback({
           successful: [],
           missed: [
             `Key concepts and definitions in ${topic.subTopic.title}`,
-            `Important studies and researchers (e.g., specific names and years)`,
-            `Mechanisms and processes specific to ${topic.subTopic.title}`,
+            `Important thinkers, studies or arguments`,
             `How ${topic.subTopic.title} relates to ${topic.title}`
           ],
-          overall: `It's okay to start from scratch! Focus on learning the basic concepts, key studies, and how they connect to ${topic.subTopic.title}.`
+          overall: `It's okay to start from scratch! Focus on learning the basic concepts first.`,
+          _analysisError: true
+        });
+      } else if (answerLength > 200) {
+        // User wrote a substantial answer but AI marking failed
+        setAo1Feedback({
+          successful: [`Your response shows engagement with ${topic.subTopic.title}`],
+          missed: [],
+          overall: `⚠️ AI analysis couldn't process your response. Your answer appears thoughtful - review it against your notes to self-assess. Try submitting again if the issue persists.`,
+          _analysisError: true,
+          _userAnswer: userAnswer.substring(0, 500) + (userAnswer.length > 500 ? '...' : '')
         });
       } else {
         setAo1Feedback({
           successful: [`You recalled some aspects of ${topic.subTopic.title}`],
           missed: [
-            `Key studies and researchers in ${topic.subTopic.title}`,
-            `Specific mechanisms and processes`,
-            `Important definitions and concepts`
+            `More specific terminology and key thinkers`,
+            `Detailed arguments or evidence`
           ],
-          overall: `Good effort! Focus on learning the specific studies, researchers, and mechanisms for ${topic.subTopic.title}.`
+          overall: `Good effort! Try adding more specific details next time.`,
+          _analysisError: true
         });
       }
       setPhase('ao1-feedback');
@@ -257,8 +410,8 @@ function StudySession({ topic, onBack }) {
   };
 
   const generateScenario = async () => {
-    // Transition immediately so the user sees progress
-    setPhase('scenario-answer');
+    // Transition to scenario phase where user can write their answer
+    setPhase('scenario');
     setLoading(true);
     setScenario({ scenario: 'Preparing scenario…', model: '' });
     try {
@@ -370,10 +523,19 @@ function StudySession({ topic, onBack }) {
   if (phase === 'ao1-feedback') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="max-w-3xl mx-auto p-6">
+        <div className="max-w-5xl mx-auto p-6">
           <button onClick={() => setPhase('ao1-prompt')} className="text-blue-600 underline mb-4">← Back</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
             <h3 className="font-semibold">Your Recall Analysis</h3>
+            
+            {ao1Feedback?._analysisError && (
+              <div className="bg-amber-50 border border-amber-300 rounded-lg p-3 mb-2">
+                <p className="text-sm text-amber-800">
+                  ⚠️ <strong>AI analysis encountered an issue.</strong> The feedback below may be approximate. 
+                  Try clicking "Mark My Recall" again, or compare your answer to the model answer.
+                </p>
+              </div>
+            )}
             
             {(() => {
               const subId = topic.subTopic.id;
@@ -386,14 +548,14 @@ function StudySession({ topic, onBack }) {
                 : (ao1Feedback?.successful || []);
               const partial = units
                 ? units.filter(u => Number(u.score) === 0.5).map(u => labelById.get(u.id) || u.id)
-                : [];
+                : (ao1Feedback?.partial || []); // Now supports legacy examiner "partial" feedback
               const zero = units
                 ? units.filter(u => Number(u.score) === 0).map(u => labelById.get(u.id) || u.id)
                 : (ao1Feedback?.missed || []);
               return (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-3 gap-4">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-medium text-green-800 mb-2">✅ Successfully Recalled</h4>
+                    <h4 className="font-medium text-green-800 mb-2 text-sm">✅ Recalled</h4>
                     <ul className="space-y-1">
                       {full.map((point, i) => (
                         <li key={i} className="text-sm text-green-700 flex items-start gap-2">
@@ -405,7 +567,7 @@ function StudySession({ topic, onBack }) {
                     </ul>
                   </div>
                   <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                    <h4 className="font-medium text-yellow-800 mb-2">🟡 Got Some</h4>
+                    <h4 className="font-medium text-yellow-800 mb-2 text-sm">🟡 Partial</h4>
                     <ul className="space-y-1">
                       {partial.map((point, i) => (
                         <li key={i} className="text-sm text-yellow-800 flex items-start gap-2">
@@ -417,7 +579,7 @@ function StudySession({ topic, onBack }) {
                     </ul>
                   </div>
                   <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                    <h4 className="font-medium text-red-800 mb-2">❌ Missed Completely</h4>
+                    <h4 className="font-medium text-red-800 mb-2 text-sm">❌ To Add</h4>
                     <ul className="space-y-1">
                       {zero.map((point, i) => (
                         <li key={i} className="text-sm text-red-800 flex items-start gap-2">
@@ -474,7 +636,14 @@ function StudySession({ topic, onBack }) {
               </div>
             )}
             
-            <button onClick={revealAO1} className="px-4 py-2 bg-blue-600 text-white rounded">See Full AO1 Summary</button>
+            <div className="flex gap-3 flex-wrap">
+              <button onClick={revealAO1} className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                See Full AO1 Summary →
+              </button>
+              <button onClick={onBack} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                Done - Back to Topic
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -505,11 +674,19 @@ function StudySession({ topic, onBack }) {
         <div className="max-w-3xl mx-auto p-6">
           <button onClick={() => setPhase('ao1-reveal')} className="text-blue-600 underline mb-4">← Back</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h3 className="font-semibold">Apply to Scenario</h3>
+            <h3 className="font-semibold">AO2: Apply to Scenario</h3>
+            <p className="text-sm text-gray-600">Read the scenario below and apply your knowledge from {topic.subTopic?.title || topic.title}.</p>
             <div className="text-sm bg-green-50 border border-green-200 p-3 rounded"><strong>Scenario:</strong> {scenario?.scenario}</div>
             <textarea value={scenarioAnswer} onChange={(e)=>setScenarioAnswer(e.target.value)} rows={6} className="w-full border rounded p-3" placeholder="Write your applied answer..."/>
-            <button onClick={markScenario} disabled={!scenarioAnswer.trim() || loading} className="px-4 py-2 bg-green-600 text-white rounded disabled:opacity-50">Quick Mark</button>
-            {loading && <div className="flex items-center gap-2 text-xs text-gray-500"><Loader2 className="w-4 h-4 animate-spin"/>Preparing…</div>}
+            <div className="flex gap-3 flex-wrap">
+              <button onClick={markScenario} disabled={!scenarioAnswer.trim() || loading} className="px-4 py-2 bg-green-600 text-white rounded disabled:opacity-50 hover:bg-green-700">
+                Mark My Answer →
+              </button>
+              <button onClick={onBack} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                Done - Back to Topic
+              </button>
+            </div>
+            {loading && <div className="flex items-center gap-2 text-xs text-gray-500"><Loader2 className="w-4 h-4 animate-spin"/>Marking…</div>}
           </div>
         </div>
       </div>
@@ -547,22 +724,33 @@ function StudySession({ topic, onBack }) {
   if (phase === 'finish') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="max-w-3xl mx-auto p-6">
-          <button onClick={() => setPhase('scenario-answer')} className="text-blue-600 underline mb-4">← Back</button>
-          <div className="bg-white rounded-lg shadow p-6 space-y-4 text-center">
-            <CheckCircle className="w-10 h-10 text-green-600 mx-auto"/>
-            <h3 className="font-semibold">Session Complete</h3>
+        <div className="max-w-5xl mx-auto p-6">
+          <button onClick={() => setPhase('scenario')} className="text-blue-600 underline mb-4">← Back to Scenario</button>
+          <div className="bg-white rounded-lg shadow p-6 space-y-4">
+            <div className="text-center">
+              <CheckCircle className="w-10 h-10 text-green-600 mx-auto"/>
+              <h3 className="font-semibold mt-2">AO2 Scenario Marked!</h3>
+            </div>
             {marking && (
-              <div className="text-sm bg-gray-50 border p-3 rounded">
-                <div>Mark: {marking.mark ?? '—'}/{marking.max ?? 16} {marking.band ? `(${marking.band})` : ''}</div>
-                {Array.isArray(marking.improvements) && (
-                  <ul className="list-disc ml-5 mt-2 text-left">
-                    {marking.improvements.map((it,i)=>(<li key={i}>{it}</li>))}
-                  </ul>
+              <div className="bg-gray-50 border rounded-lg p-4">
+                <div className="text-center font-medium text-lg mb-3">
+                  Mark: {marking.mark ?? '—'}/{marking.max ?? 16} {marking.band ? <span className="text-blue-600">({marking.band})</span> : ''}
+                </div>
+                {Array.isArray(marking.improvements) && marking.improvements.length > 0 && (
+                  <div>
+                    <h4 className="font-medium text-sm text-gray-700 mb-2">To improve:</h4>
+                    <ul className="list-disc ml-5 space-y-1 text-sm text-gray-600">
+                      {marking.improvements.map((it,i)=>(<li key={i}>{it}</li>))}
+                    </ul>
+                  </div>
                 )}
               </div>
             )}
-            <button onClick={onBack} className="px-4 py-2 bg-blue-600 text-white rounded">Back to Topic</button>
+            <div className="flex justify-center">
+              <button onClick={onBack} className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                Done - Back to Topic
+              </button>
+            </div>
           </div>
         </div>
       </div>

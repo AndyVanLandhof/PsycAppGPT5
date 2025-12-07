@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "gender",
+  "topicTitle": "Gender and Theology",
+  "subTopic": "intersectionality",
+  "subTopicTitle": "Gender, Race and Class",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T17:00:22.893Z",
+  "items": [
+    {
+      "id": "intersectionality-q1",
+      "question": "Who argued that traditional Christian theology often reflects patriarchal ideologies?",
+      "options": [
+        "Rosemary Radford Ruether",
+        "Mary Daly",
+        "Judith Butler",
+        "Simone de Beauvoir"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rosemary Radford Ruether, in her works such as 'Sexism and God-Talk' (1983), critiques the patriarchal nature of traditional Christian theology."
+    },
+    {
+      "id": "intersectionality-q2",
+      "question": "Which term describes the belief in the inherent superiority of one's own race?",
+      "options": [
+        "Ethnocentrism",
+        "Patriarchy",
+        "Androcentrism",
+        "Racialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ethnocentrism is the belief in the superiority of one's own ethnic group, often leading to prejudice and discrimination."
+    },
+    {
+      "id": "intersectionality-q3",
+      "question": "Which feminist theologian focused on the concept of 'womanist' theology?",
+      "options": [
+        "Alice Walker",
+        "Rosemary Radford Ruether",
+        "Mary Daly",
+        "Elisabeth Schüssler Fiorenza"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alice Walker coined 'womanist' to describe a form of feminism that centers on the experiences and struggles of Black women."
+    },
+    {
+      "id": "intersectionality-q4",
+      "question": "What is the main focus of liberation theology?",
+      "options": [
+        "Race",
+        "Gender equality",
+        "Class struggle",
+        "Environmentalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Liberation theology primarily focuses on addressing class oppression and social injustice, advocating for the poor and marginalized."
+    },
+    {
+      "id": "intersectionality-q5",
+      "question": "In what year did Mary Daly publish 'Beyond God the Father'?",
+      "options": [
+        "1973",
+        "1984",
+        "1991",
+        "1968"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Daly's 'Beyond God the Father' was published in 1973, challenging patriarchal structures within Christianity."
+    },
+    {
+      "id": "intersectionality-q6",
+      "question": "Which term refers to the intersection of race, gender, and class in understanding individual experiences?",
+      "options": [
+        "Intersectionality",
+        "Feminism",
+        "Patriarchy",
+        "Androcentrism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Intersectionality, a term coined by Kimberlé Crenshaw, examines how overlapping social identities impact experiences of oppression."
+    },
+    {
+      "id": "intersectionality-q7",
+      "question": "Which scholar is associated with 'Black Theology'?",
+      "options": [
+        "James Cone",
+        "Gustavo Gutiérrez",
+        "Martin Luther King Jr.",
+        "Malcolm X"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "James Cone is a key figure in Black Theology, emphasizing the liberation of Black people from social, political, and theological oppression."
+    },
+    {
+      "id": "intersectionality-q8",
+      "question": "What concept did Judith Butler introduce in her work 'Gender Trouble'?",
+      "options": [
+        "Performativity",
+        "Patriarchy",
+        "Matriarchy",
+        "Essentialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Judith Butler's 'Gender Trouble' (1990) introduced the concept of gender performativity, challenging traditional gender norms."
+    },
+    {
+      "id": "intersectionality-q9",
+      "question": "Which of the following terms best describes a society dominated by men in roles of political leadership, moral authority, and control of property?",
+      "options": [
+        "Patriarchy",
+        "Matriarchy",
+        "Egalitarianism",
+        "Androcentrism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Patriarchy refers to a social system where men hold primary power and dominate roles of leadership and authority."
+    },
+    {
+      "id": "intersectionality-q10",
+      "question": "A religious community decides to reinterpret sacred texts to promote gender equality. Which approach are they applying?",
+      "options": [
+        "Liberation theology",
+        "Feminist hermeneutics",
+        "Traditionalism",
+        "Sociological reductionism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Feminist hermeneutics involves reinterpreting religious texts to uncover and challenge patriarchal interpretations."
+    },
+    {
+      "id": "intersectionality-q11",
+      "question": "A study finds that women of color face unique challenges in religious institutions. Which concept best explains this finding?",
+      "options": [
+        "Intersectionality",
+        "Androcentrism",
+        "Essentialism",
+        "Secularism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Intersectionality explains how various social identities intersect, contributing to unique experiences of oppression for women of color."
+    },
+    {
+      "id": "intersectionality-q12",
+      "question": "A church's leadership team comprises only men from affluent backgrounds. Which theological critique could be applied?",
+      "options": [
+        "Intersectional analysis",
+        "Eschatological critique",
+        "Theodicy",
+        "Transcendentalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Intersectional analysis would critique the homogeneity of the leadership team, highlighting issues of gender and class exclusion."
+    },
+    {
+      "id": "intersectionality-q13",
+      "question": "How does Rosemary Radford Ruether's approach to theology differ from traditional views?",
+      "options": [
+        "It integrates feminist perspectives",
+        "It focuses solely on scriptural literalism",
+        "It rejects historical context",
+        "It emphasizes predestination"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Ruether incorporates feminist critiques into theology, challenging traditional patriarchal interpretations of religious texts."
+    },
+    {
+      "id": "intersectionality-q14",
+      "question": "What is a potential critique of using a solely feminist lens in theological studies?",
+      "options": [
+        "It might overlook other forms of oppression",
+        "It is universally accepted",
+        "It focuses exclusively on eschatology",
+        "It denies the existence of patriarchy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A solely feminist lens may neglect the intersection of other identities, such as race and class, in understanding oppression."
+    },
+    {
+      "id": "intersectionality-q15",
+      "question": "In comparing feminist and liberation theologies, what is a key difference?",
+      "options": [
+        "Feminist theology focuses on gender, liberation theology on class",
+        "Liberation theology is more secular",
+        "Feminist theology is older",
+        "Liberation theology ignores race"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Feminist theology primarily addresses gender issues, while liberation theology often emphasizes class struggle and social justice."
+    }
+  ]
+}

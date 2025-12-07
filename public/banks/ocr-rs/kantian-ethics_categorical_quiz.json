@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "categorical",
+  "subTopicTitle": "Categorical Imperative",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:45:53.175Z",
+  "items": [
+    {
+      "id": "categorical-q1",
+      "question": "What is the first formulation of Kant's Categorical Imperative?",
+      "options": [
+        "Act only according to that maxim whereby you can at the same time will that it should become a universal law.",
+        "Act in such a way that you treat humanity, whether in your own person or in the person of any other, always at the same time as an end and never merely as a means to an end.",
+        "Act as if you were a legislating member of a universal kingdom of ends.",
+        "Act according to the maxim that would be accepted by the majority."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The first formulation emphasizes universalizability, a key aspect of Kantian ethics."
+    },
+    {
+      "id": "categorical-q2",
+      "question": "Who is the philosopher credited with developing the concept of the Categorical Imperative?",
+      "options": [
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "John Stuart Mill",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant is the philosopher who introduced the Categorical Imperative in his works."
+    },
+    {
+      "id": "categorical-q3",
+      "question": "In what year was Kant's 'Groundwork of the Metaphysics of Morals' published?",
+      "options": [
+        "1785",
+        "1776",
+        "1804",
+        "1790"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's 'Groundwork of the Metaphysics of Morals' was published in 1785, outlining his ethical framework."
+    },
+    {
+      "id": "categorical-q4",
+      "question": "Which of the following is NOT a formulation of the Categorical Imperative?",
+      "options": [
+        "Act in such a way that you always treat humanity as an end in itself.",
+        "Act only according to that maxim which allows you to gain personal happiness.",
+        "Act only according to that maxim whereby you can at the same time will that it should become a universal law.",
+        "Act as if you were a legislating member of a universal kingdom of ends."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Seeking personal happiness is not part of any Categorical Imperative formulation."
+    },
+    {
+      "id": "categorical-q5",
+      "question": "What is a key feature of Kant's Categorical Imperative?",
+      "options": [
+        "It is absolute and unconditional.",
+        "It is based on the consequences of actions.",
+        "It changes according to circumstances.",
+        "It is primarily focused on emotional responses."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Categorical Imperative is absolute and unconditional, guiding moral actions."
+    },
+    {
+      "id": "categorical-q6",
+      "question": "Which term best describes Kant's ethical theory?",
+      "options": [
+        "Deontological",
+        "Teleological",
+        "Utilitarian",
+        "Virtue-based"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's ethics are deontological, focusing on duty rather than consequences."
+    },
+    {
+      "id": "categorical-q7",
+      "question": "Which of the following is a criticism of Kantian ethics?",
+      "options": [
+        "It does not account for the complexities of human emotions.",
+        "It allows too much flexibility in moral decision-making.",
+        "It is primarily concerned with the outcomes of actions.",
+        "It fails to provide a clear method for emotional expression."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kantian ethics is often criticized for not considering emotions in moral reasoning."
+    },
+    {
+      "id": "categorical-q8",
+      "question": "According to Kant, what determines the moral worth of an action?",
+      "options": [
+        "The intention behind the action",
+        "The happiness it produces",
+        "The popularity of the action",
+        "The tradition it follows"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant argued that the intention or motive determines an action's moral worth."
+    },
+    {
+      "id": "categorical-q9",
+      "question": "What does Kant mean by 'autonomy' in his ethical theory?",
+      "options": [
+        "The capacity of an individual to legislate moral laws for themselves.",
+        "The freedom to pursue personal desires without restriction.",
+        "The state of being independent from all societal norms.",
+        "The ability to act based on emotions and intuitions."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Autonomy in Kantian ethics refers to self-governance according to moral laws one sets."
+    },
+    {
+      "id": "categorical-q10",
+      "question": "A company considers lying about its product safety to boost sales. According to Kantian ethics, is this permissible?",
+      "options": [
+        "No, because lying cannot be universalized without contradiction.",
+        "Yes, if it maximizes profits for the company.",
+        "Yes, if it makes the majority of customers happy.",
+        "No, because it violates governmental policy."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Lying fails the universalizability test of the first formulation of the Categorical Imperative."
+    },
+    {
+      "id": "categorical-q11",
+      "question": "A student is tempted to cheat on an exam to maintain a scholarship. What would Kant say about this action?",
+      "options": [
+        "Cheating is wrong because it cannot be universalized as a moral law.",
+        "Cheating is acceptable if it leads to future success.",
+        "Cheating is permissible if no one finds out.",
+        "Cheating is wrong because it breaks school rules."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Kantian ethics would reject cheating as it cannot be universalized without contradiction."
+    },
+    {
+      "id": "categorical-q12",
+      "question": "An employee considers stealing office supplies for personal use. How would Kant's ethics evaluate this action?",
+      "options": [
+        "Stealing is wrong because it cannot be willed as a universal law.",
+        "Stealing is acceptable if it does not harm anyone.",
+        "Stealing is permissible if it helps the employee save money.",
+        "Stealing is wrong because it is against company policy."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Stealing cannot be universalized, thus failing Kant's Categorical Imperative."
+    },
+    {
+      "id": "categorical-q13",
+      "question": "How does Kantian ethics compare to Utilitarianism?",
+      "options": [
+        "Kantian ethics focuses on duty, while Utilitarianism focuses on consequences.",
+        "Kantian ethics prioritizes happiness, while Utilitarianism does not.",
+        "Kantian ethics is flexible, while Utilitarianism is rigid.",
+        "Kantian ethics is based on emotions, while Utilitarianism is based on duties."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is deontological, focusing on duty, unlike Utilitarianism which is consequentialist."
+    },
+    {
+      "id": "categorical-q14",
+      "question": "What is a methodological critique of Kant's Categorical Imperative?",
+      "options": [
+        "It is too rigid and does not allow for exceptions.",
+        "It is too focused on the outcomes of actions.",
+        "It provides too much flexibility in moral reasoning.",
+        "It is based solely on empirical evidence."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kant's Categorical Imperative is often seen as too rigid, not allowing for exceptions."
+    },
+    {
+      "id": "categorical-q15",
+      "question": "Which approach to ethics is more likely to consider cultural differences, Kantian ethics or Virtue Ethics?",
+      "options": [
+        "Virtue Ethics, as it considers the role of societal norms in shaping virtues.",
+        "Kantian Ethics, as it allows for subjective moral laws.",
+        "Kantian Ethics, as it emphasizes cultural relativism.",
+        "Virtue Ethics, as it is based on universal laws."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Virtue Ethics considers societal norms and cultural differences unlike Kantian ethics."
+    }
+  ]
+}

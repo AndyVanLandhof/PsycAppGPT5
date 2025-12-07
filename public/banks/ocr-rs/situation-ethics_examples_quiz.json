@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "situation-ethics",
+  "topicTitle": "Situation Ethics",
+  "subTopic": "examples",
+  "subTopicTitle": "Applications to Real Scenarios",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:45:10.624Z",
+  "items": [
+    {
+      "id": "examples-q1",
+      "question": "Who is the primary proponent of Situation Ethics?",
+      "options": [
+        "Joseph Fletcher",
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher introduced Situation Ethics in his 1966 book, 'Situation Ethics: The New Morality'."
+    },
+    {
+      "id": "examples-q2",
+      "question": "What is the fundamental principle of Situation Ethics?",
+      "options": [
+        "Love is the only intrinsic good",
+        "The greatest happiness for the greatest number",
+        "Duty for duty's sake",
+        "Actions are right if they conform to natural law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics holds that love (agape) is the only intrinsic good, guiding moral decisions."
+    },
+    {
+      "id": "examples-q3",
+      "question": "Which of the following best describes the concept of 'agape' in Situation Ethics?",
+      "options": [
+        "Selfless, unconditional love",
+        "Romantic love",
+        "Familial affection",
+        "Friendship"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Agape is selfless, unconditional love for others, central to Situation Ethics."
+    },
+    {
+      "id": "examples-q4",
+      "question": "According to Situation Ethics, which of the following is NOT a principle of moral decision-making?",
+      "options": [
+        "Pragmatism",
+        "Relativism",
+        "Legalism",
+        "Personalism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Situation Ethics rejects Legalism, which is rule-based, in favor of flexible principles like pragmatism and personalism."
+    },
+    {
+      "id": "examples-q5",
+      "question": "In which year did Joseph Fletcher publish 'Situation Ethics: The New Morality'?",
+      "options": [
+        "1966",
+        "1972",
+        "1958",
+        "1949"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher's book 'Situation Ethics: The New Morality' was published in 1966."
+    },
+    {
+      "id": "examples-q6",
+      "question": "Situation Ethics is often compared to which of the following ethical theories?",
+      "options": [
+        "Utilitarianism",
+        "Kantian Ethics",
+        "Virtue Ethics",
+        "Divine Command Theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics and Utilitarianism both focus on consequences but differ in their core principles."
+    },
+    {
+      "id": "examples-q7",
+      "question": "Which term describes Situation Ethics' focus on individual circumstances rather than universal laws?",
+      "options": [
+        "Relativism",
+        "Absolutism",
+        "Deontology",
+        "Naturalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Situation Ethics employs relativism, focusing on context and individual situations over universal laws."
+    },
+    {
+      "id": "examples-q8",
+      "question": "Which principle of Situation Ethics emphasizes that love should be the ruling norm of Christian decision-making?",
+      "options": [
+        "Theological Positivism",
+        "Pragmatism",
+        "Personalism",
+        "Relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Theological Positivism suggests love should guide Christian decisions, aligning with Situation Ethics."
+    },
+    {
+      "id": "examples-q9",
+      "question": "According to Fletcher, how many general principles (or 'working principles') are there in Situation Ethics?",
+      "options": [
+        "Four",
+        "Six",
+        "Five",
+        "Seven"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Fletcher outlined six working principles in Situation Ethics to guide moral decision-making."
+    },
+    {
+      "id": "examples-q10",
+      "question": "A doctor must decide whether to break confidentiality to prevent harm. How does Situation Ethics apply?",
+      "options": [
+        "It supports breaking confidentiality if it maximizes love",
+        "It always upholds confidentiality",
+        "It follows legal guidelines strictly",
+        "It never supports breaking confidentiality"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would support breaking confidentiality if doing so promotes the most loving outcome."
+    },
+    {
+      "id": "examples-q11",
+      "question": "In a scenario where lying prevents harm, how would Situation Ethics evaluate this action?",
+      "options": [
+        "It is justified if it results in the most loving outcome",
+        "Lying is always wrong",
+        "It depends on cultural norms",
+        "It is justified only if it prevents physical harm"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics allows for lying if it promotes love and prevents harm, aligning with its flexible, context-dependent approach."
+    },
+    {
+      "id": "examples-q12",
+      "question": "A nurse must prioritize patients due to limited resources. How does Situation Ethics inform this decision?",
+      "options": [
+        "Prioritize based on which action shows the most love",
+        "Follow hospital policy strictly",
+        "Offer equal treatment to all",
+        "Prioritize based on first-come, first-served"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would guide the nurse to prioritize actions that demonstrate the most love and care."
+    },
+    {
+      "id": "examples-q13",
+      "question": "What is a criticism of Situation Ethics from a deontological perspective?",
+      "options": [
+        "It lacks fixed rules and may lead to moral chaos",
+        "It is too rigid and inflexible",
+        "It prioritizes rules over relationships",
+        "It ignores the consequences of actions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Deontologists criticize Situation Ethics for its lack of fixed rules, which they argue can lead to inconsistent moral judgments."
+    },
+    {
+      "id": "examples-q14",
+      "question": "How does Situation Ethics compare to Utilitarianism in terms of decision-making?",
+      "options": [
+        "Both focus on outcomes, but Situation Ethics prioritizes love",
+        "Both rely on strict adherence to rules",
+        "Utilitarianism focuses on love, while Situation Ethics on happiness",
+        "Both theories reject the importance of consequences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "While both focus on outcomes, Situation Ethics prioritizes love, whereas Utilitarianism prioritizes happiness or utility."
+    },
+    {
+      "id": "examples-q15",
+      "question": "What is a potential weakness of Situation Ethics regarding cultural relativism?",
+      "options": [
+        "It may lead to inconsistent moral standards across cultures",
+        "It enforces a single moral standard",
+        "It ignores cultural differences entirely",
+        "It is too focused on legalistic traditions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Situation Ethics may lead to inconsistent standards, as it allows for cultural and situational variability in moral decisions."
+    }
+  ]
+}

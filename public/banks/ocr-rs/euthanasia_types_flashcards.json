@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "euthanasia",
+  "topicTitle": "Euthanasia",
+  "subTopic": "types",
+  "subTopicTitle": "Types of Euthanasia",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:58:30.038Z",
+  "items": [
+    {
+      "question": "What is voluntary euthanasia?",
+      "answer": "Voluntary euthanasia involves ending a person's life at their own request to relieve suffering.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define non-voluntary euthanasia.",
+      "answer": "Non-voluntary euthanasia occurs when a decision to end a person's life is made for them as they cannot consent.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is involuntary euthanasia?",
+      "answer": "Involuntary euthanasia is ending a person's life against their will or without their explicit consent.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is passive euthanasia?",
+      "answer": "Passive euthanasia involves withdrawing or withholding life-sustaining treatment, allowing the person to die naturally.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define active euthanasia.",
+      "answer": "Active euthanasia involves directly taking actions to cause a person's death, such as administering a lethal injection.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Quill (1991) find about euthanasia?",
+      "answer": "Quill (1991) documented a case where a physician assisted a terminally ill patient in dying, raising ethical debates.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is physician-assisted suicide?",
+      "answer": "Physician-assisted suicide is where a doctor provides a patient with the means to end their own life voluntarily.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the doctrine of double effect.",
+      "answer": "The doctrine of double effect allows actions causing harm if the harm is not intended and the action has a proportionate good effect.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Battin et al. (2007) find about euthanasia?",
+      "answer": "Battin et al. (2007) found no evidence of a slippery slope effect in legal euthanasia cases in Oregon and the Netherlands.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the legal status of euthanasia in the Netherlands?",
+      "answer": "Euthanasia is legal in the Netherlands if strict conditions are met, including patient consent and unbearable suffering.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the sanctity of life principle.",
+      "answer": "The sanctity of life principle holds that human life is inherently valuable and should be protected and preserved.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the slippery slope argument in euthanasia debates?",
+      "answer": "The slippery slope argument suggests that legalizing euthanasia could lead to less stringent practices and abuses.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the sanctity of life principle apply to a case of voluntary euthanasia?",
+      "answer": "The sanctity of life principle may oppose voluntary euthanasia, arguing that life should be preserved regardless of suffering.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the doctrine of double effect to a case where pain relief hastens death.",
+      "answer": "If a doctor administers pain relief knowing it may hasten death, the doctrine allows it if the intention is to alleviate pain.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does active euthanasia apply to a terminally ill patient requesting a lethal injection?",
+      "answer": "In active euthanasia, the physician would directly administer a lethal injection as per the patient's request to end suffering.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply passive euthanasia to a scenario where life support is withdrawn.",
+      "answer": "In passive euthanasia, withdrawing life support allows the patient to die naturally from their underlying condition.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of legal euthanasia in the Netherlands.",
+      "answer": "One strength is that it provides a framework ensuring informed consent and regulated practice, protecting patient autonomy.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the slippery slope argument.",
+      "answer": "A limitation is the lack of empirical evidence showing increased euthanasia abuses where it is legally regulated.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Battin et al. (2007).",
+      "answer": "Battin et al. used cross-national data, enhancing generalizability, but cultural differences may affect applicability to other contexts.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of using the doctrine of double effect in euthanasia.",
+      "answer": "A limitation is that it relies on subjective judgment of intention, which can be difficult to determine objectively.",
+      "ao": "AO3"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "nature-attributes-god",
+  "topicTitle": "Nature or Attributes of God",
+  "subTopic": "omniscience",
+  "subTopicTitle": "Omniscience",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:35:06.549Z",
+  "items": [
+    {
+      "id": "omniscience-q1",
+      "question": "Which philosopher is most closely associated with the concept of God's omniscience in relation to free will?",
+      "options": [
+        "Boethius",
+        "Aquinas",
+        "Descartes",
+        "Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Boethius is known for discussing the problem of divine foreknowledge and free will in his work 'The Consolation of Philosophy'."
+    },
+    {
+      "id": "omniscience-q2",
+      "question": "In which of his works does Thomas Aquinas discuss God's omniscience?",
+      "options": [
+        "Summa Theologica",
+        "City of God",
+        "Nicomachean Ethics",
+        "The Republic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas addresses God's omniscience in 'Summa Theologica', where he explores the nature and attributes of God."
+    },
+    {
+      "id": "omniscience-q3",
+      "question": "What term describes the ability of God to know all true propositions?",
+      "options": [
+        "Omniscience",
+        "Omnipotence",
+        "Omnipresence",
+        "Omnibenevolence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Omniscience refers to God's attribute of possessing complete and infinite knowledge."
+    },
+    {
+      "id": "omniscience-q4",
+      "question": "Which philosopher argued that God's knowledge is analogous to human knowledge but infinitely greater?",
+      "options": [
+        "Aquinas",
+        "Aristotle",
+        "Kant",
+        "Spinoza"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas proposed that God’s knowledge is analogous to human knowledge, though infinitely greater in scope and depth."
+    },
+    {
+      "id": "omniscience-q5",
+      "question": "According to which philosopher does God's knowledge imply the existence of a deterministic universe?",
+      "options": [
+        "Spinoza",
+        "Leibniz",
+        "Hume",
+        "Anselm"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Spinoza believed that God’s complete knowledge entailed a deterministic universe where everything is predetermined."
+    },
+    {
+      "id": "omniscience-q6",
+      "question": "In 'The Freedom of the Will' (1957), which philosopher discussed the implications of God's omniscience for human freedom?",
+      "options": [
+        "Jonathan Edwards",
+        "William James",
+        "John Locke",
+        "David Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jonathan Edwards' work 'The Freedom of the Will' challenges the compatibility of divine omniscience with human freedom."
+    },
+    {
+      "id": "omniscience-q7",
+      "question": "Which term refers to God's foreknowledge of all future events?",
+      "options": [
+        "Prescience",
+        "Providence",
+        "Preordination",
+        "Predestination"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Prescience is the term used to describe God's knowledge of all future events."
+    },
+    {
+      "id": "omniscience-q8",
+      "question": "Which philosopher is known for the concept that God knows all possibilities, not just actualities?",
+      "options": [
+        "Leibniz",
+        "Hume",
+        "Locke",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Leibniz proposed that God knows all possibilities, which allows God to choose the best possible world."
+    },
+    {
+      "id": "omniscience-q9",
+      "question": "How does the concept of 'middle knowledge', associated with Luis de Molina, relate to God's omniscience?",
+      "options": [
+        "It suggests God knows what free creatures would do under any circumstance",
+        "It implies God knows the future as a fixed timeline",
+        "It posits that God only knows necessary truths",
+        "It describes God's knowledge as entirely passive"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Middle knowledge, proposed by Luis de Molina, suggests that God knows all potential decisions of free creatures in any hypothetical situation."
+    },
+    {
+      "id": "omniscience-q10",
+      "question": "A person claims that if God is omniscient, then humans cannot have free will. Which philosophical problem does this scenario illustrate?",
+      "options": [
+        "The problem of divine foreknowledge and free will",
+        "The problem of evil",
+        "The Euthyphro dilemma",
+        "The problem of causality"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates the philosophical problem concerning whether divine foreknowledge is compatible with human free will."
+    },
+    {
+      "id": "omniscience-q11",
+      "question": "Which scenario best demonstrates the challenge to omniscience from the perspective of open theism?",
+      "options": [
+        "God's knowledge of future free will actions is limited to possibilities",
+        "God knows every event that will happen with certainty",
+        "God predetermines all events in the universe",
+        "God's knowledge changes as time progresses"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Open theism posits that God's knowledge of future free will actions includes possibilities, not certainties, challenging traditional omniscience."
+    },
+    {
+      "id": "omniscience-q12",
+      "question": "Consider a deity that can foresee all human actions but chooses not to intervene. What theological concept is being tested here?",
+      "options": [
+        "Divine passibility",
+        "Divine hiddenness",
+        "Divine foreknowledge",
+        "Divine immutability"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The concept of divine foreknowledge is being tested here, as it relates to God's ability to foresee actions without intervening."
+    },
+    {
+      "id": "omniscience-q13",
+      "question": "How does Richard Swinburne's view on God's omniscience differ from traditional views?",
+      "options": [
+        "He suggests God's knowledge is limited to actualities",
+        "He denies God has timeless knowledge",
+        "He believes God's knowledge includes counterfactuals",
+        "He asserts God knows only necessary truths"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Swinburne challenges traditional views by suggesting God’s knowledge is not timeless but rather temporal and responsive."
+    },
+    {
+      "id": "omniscience-q14",
+      "question": "Which critique challenges the coherence of God's omniscience and temporal knowledge?",
+      "options": [
+        "God's knowledge of temporal events implies change",
+        "God cannot know future free actions",
+        "God's knowledge is limited by logical paradoxes",
+        "God's knowledge is confined to the present"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The critique that God's knowledge of temporal events implies change challenges the coherence of God's traditional omniscience."
+    },
+    {
+      "id": "omniscience-q15",
+      "question": "How does the concept of omniscience pose a challenge to process theology?",
+      "options": [
+        "Process theology denies immutable divine knowledge",
+        "Process theology asserts God’s knowledge is unchanging",
+        "Process theology claims God knows all potential futures",
+        "Process theology suggests God knows everything instantly"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Process theology challenges traditional omniscience by denying that God has immutable knowledge, suggesting divine knowledge is dynamic."
+    }
+  ]
+}

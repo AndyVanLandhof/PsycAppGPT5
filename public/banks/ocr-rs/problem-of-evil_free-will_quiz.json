@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "free-will",
+  "subTopicTitle": "Free Will and Soul-Making",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:38:24.454Z",
+  "items": [
+    {
+      "id": "free-will-q1",
+      "question": "Who proposed the soul-making theodicy?",
+      "options": [
+        "John Hick",
+        "Augustine of Hippo",
+        "Irenaeus",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick developed the soul-making theodicy, drawing on the ideas of Irenaeus, to explain the presence of evil as a means for spiritual growth."
+    },
+    {
+      "id": "free-will-q2",
+      "question": "What is the primary purpose of evil in the soul-making theodicy?",
+      "options": [
+        "To test human obedience",
+        "To punish sinners",
+        "To facilitate spiritual growth",
+        "To demonstrate divine power"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "In the soul-making theodicy, evil serves as a catalyst for spiritual and moral development, aligning with the views of John Hick."
+    },
+    {
+      "id": "free-will-q3",
+      "question": "Which philosopher is known for the free will defense against the problem of evil?",
+      "options": [
+        "Alvin Plantinga",
+        "Richard Swinburne",
+        "David Hume",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga is credited with the free will defense, arguing that free will is valuable enough to justify the existence of evil."
+    },
+    {
+      "id": "free-will-q4",
+      "question": "In Hick's theodicy, which term describes the world as a place of moral and spiritual development?",
+      "options": [
+        "Vale of Soul-Making",
+        "City of God",
+        "Kingdom of Ends",
+        "Realm of Necessity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hick uses the term 'Vale of Soul-Making' to describe the world as a place where souls are developed through experiences, including suffering."
+    },
+    {
+      "id": "free-will-q5",
+      "question": "Which criticism is commonly leveled against the soul-making theodicy?",
+      "options": [
+        "It underestimates the severity of suffering",
+        "It denies God's omniscience",
+        "It suggests God is not omnipotent",
+        "It relies too heavily on scriptural interpretation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Critics argue that the soul-making theodicy underestimates the intensity and unfair distribution of suffering, which is not always conducive to growth."
+    },
+    {
+      "id": "free-will-q6",
+      "question": "What does the term 'epistemic distance' refer to in Hick's theodicy?",
+      "options": [
+        "The gap between human and divine understanding",
+        "The limited knowledge of God's existence",
+        "The separation allowing free will",
+        "The concept of moral evil"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Epistemic distance refers to the idea that God maintains a distance from humans to allow genuine free will without coercion."
+    },
+    {
+      "id": "free-will-q7",
+      "question": "According to Irenaeus, what is the ultimate goal for humanity in the context of evil?",
+      "options": [
+        "To achieve divine likeness",
+        "To understand suffering",
+        "To eradicate evil",
+        "To prove God's existence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Irenaeus believed the ultimate goal for humanity is to achieve divine likeness, where evil plays a role in the development process."
+    },
+    {
+      "id": "free-will-q8",
+      "question": "Which concept suggests that free will necessitates the possibility of evil?",
+      "options": [
+        "Moral necessity",
+        "Libertarian free will",
+        "Compatibilism",
+        "Determinism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Libertarian free will holds that true free will requires the possibility of choosing evil, thus explaining its existence."
+    },
+    {
+      "id": "free-will-q9",
+      "question": "What is a key difference between Augustinian and Irenaean theodicies?",
+      "options": [
+        "Augustinian focuses on the fall, Irenaean on development",
+        "Augustinian denies evil, Irenaean embraces it",
+        "Augustinian sees evil as a test, Irenaean as a punishment",
+        "Augustinian is based on revelation, Irenaean on reason"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustinian theodicy focuses on the fall of man as the source of evil, while Irenaean theodicy views evil as necessary for human development."
+    },
+    {
+      "id": "free-will-q10",
+      "question": "A student argues that free will should not lead to unnecessary suffering. Which theodicy would be most challenged by this view?",
+      "options": [
+        "Augustinian theodicy",
+        "Process theodicy",
+        "Soul-making theodicy",
+        "Molinist theodicy"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The soul-making theodicy would be challenged as it justifies suffering as necessary for spiritual growth, which the student's view contradicts."
+    },
+    {
+      "id": "free-will-q11",
+      "question": "A scenario describes a world where all actions are predestined. Which problem of evil response does this undermine?",
+      "options": [
+        "Free will defense",
+        "Soul-making theodicy",
+        "Evidential problem of evil",
+        "Logical problem of evil"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "If all actions are predestined, it undermines the free will defense, which relies on genuine freedom to choose between good and evil."
+    },
+    {
+      "id": "free-will-q12",
+      "question": "In a debate, one student says, 'Evil exists so we can improve.' Which theodicy does this align with?",
+      "options": [
+        "Soul-making theodicy",
+        "Process theodicy",
+        "Augustinian theodicy",
+        "Free will defense"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The statement aligns with the soul-making theodicy, which posits that evil exists for humans to develop morally and spiritually."
+    },
+    {
+      "id": "free-will-q13",
+      "question": "What is a major criticism of Hick's soul-making theodicy from a moral standpoint?",
+      "options": [
+        "It justifies all forms of suffering",
+        "It denies the existence of God",
+        "It fails to address natural evil",
+        "It relies on biblical literalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A significant criticism is that it appears to justify all forms of suffering, which can be seen as morally problematic."
+    },
+    {
+      "id": "free-will-q14",
+      "question": "Which aspect of the free will defense is often critiqued for not addressing natural evil adequately?",
+      "options": [
+        "Human responsibility",
+        "Moral choices",
+        "God's omniscience",
+        "Existential freedom"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The free will defense is critiqued for not adequately addressing natural evil, as it focuses primarily on moral choices made by free agents."
+    },
+    {
+      "id": "free-will-q15",
+      "question": "When comparing Irenaean and Augustinian theodicies, which is more optimistic about human nature?",
+      "options": [
+        "Irenaean theodicy",
+        "Augustinian theodicy",
+        "Both are equally optimistic",
+        "Neither is optimistic"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Irenaean theodicy is more optimistic, viewing evil as a necessary part of development towards divine likeness, whereas Augustinian focuses on the fall and sin."
+    }
+  ]
+}

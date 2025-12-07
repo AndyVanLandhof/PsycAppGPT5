@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "pluralism",
+  "topicTitle": "Religious Pluralism",
+  "subTopic": "exclusivism",
+  "subTopicTitle": "Exclusivism",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:58:09.057Z",
+  "items": [
+    {
+      "id": "exclusivism-q1",
+      "question": "Which of the following best describes the concept of exclusivism in religious studies?",
+      "options": [
+        "The belief that one's own religion is the sole and exclusive source of truth.",
+        "The belief that all religions are equally valid paths to the divine.",
+        "The belief that all religions contain some elements of truth.",
+        "The belief that religious truth is subjective and varies for each individual."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivism holds that only one religion is true and all others are false, rejecting the validity of other religious paths."
+    },
+    {
+      "id": "exclusivism-q2",
+      "question": "Which theologian is most associated with the idea of 'extra ecclesiam nulla salus' (no salvation outside the Church)?",
+      "options": [
+        "Saint Augustine",
+        "John Hick",
+        "Karl Rahner",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Saint Augustine is associated with the exclusivist doctrine that salvation is only possible through the Church."
+    },
+    {
+      "id": "exclusivism-q3",
+      "question": "In which year did Karl Barth publish his influential work 'Church Dogmatics' that emphasizes exclusivism?",
+      "options": [
+        "1932",
+        "1945",
+        "1968",
+        "1919"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Barth's 'Church Dogmatics', published in 1932, is a key text emphasizing the exclusivity of Christian revelation."
+    },
+    {
+      "id": "exclusivism-q4",
+      "question": "Which of the following is a criticism often levied against exclusivism?",
+      "options": [
+        "It is seen as intolerant and dismissive of other religious experiences.",
+        "It leads to the blending of religious beliefs and practices.",
+        "It supports the idea that all religions are equally valid.",
+        "It promotes religious relativism and subjectivity."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Exclusivism is often criticized for its perceived intolerance and dismissal of the validity of other religious experiences."
+    },
+    {
+      "id": "exclusivism-q5",
+      "question": "Which of the following is NOT a feature of exclusivist theology?",
+      "options": [
+        "Acceptance of religious pluralism",
+        "Emphasis on the uniqueness of one's own religious truth",
+        "Rejection of the salvific value of other religions",
+        "Commitment to evangelism and conversion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivism does not accept religious pluralism, which is instead a feature of inclusivist or pluralist theologies."
+    },
+    {
+      "id": "exclusivism-q6",
+      "question": "Which religious scholar developed the 'theology of religions' framework that includes exclusivism, inclusivism, and pluralism?",
+      "options": [
+        "Alan Race",
+        "Paul Tillich",
+        "Rudolf Bultmann",
+        "Hans Küng"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alan Race introduced the 'theology of religions' framework categorizing positions into exclusivism, inclusivism, and pluralism."
+    },
+    {
+      "id": "exclusivism-q7",
+      "question": "In 'The Myth of Christian Uniqueness' (1987), which author argues against exclusivism?",
+      "options": [
+        "John Hick",
+        "Karl Rahner",
+        "Gavin D'Costa",
+        "Paul Knitter"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Paul Knitter, in 'The Myth of Christian Uniqueness', argues against exclusivism and for a more pluralistic approach."
+    },
+    {
+      "id": "exclusivism-q8",
+      "question": "Which of these is an example of exclusivist practice in Christianity?",
+      "options": [
+        "Missionary work with the aim of conversion",
+        "Interfaith dialogue for mutual understanding",
+        "Participation in multi-religious ceremonies",
+        "Adoption of syncretic beliefs from other religions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Exclusivist Christians often engage in missionary work to convert others, reflecting their belief in the sole truth of their faith."
+    },
+    {
+      "id": "exclusivism-q9",
+      "question": "What is the main critique of religious exclusivism according to pluralist theology?",
+      "options": [
+        "It fails to recognize the equal validity of other religious paths.",
+        "It excessively emphasizes personal religious experience.",
+        "It dilutes the doctrinal specifics of a given faith.",
+        "It promotes excessive religious syncretism."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Pluralist theology critiques exclusivism for not acknowledging that other religions might also hold valid truths."
+    },
+    {
+      "id": "exclusivism-q10",
+      "question": "A Christian missionary encounters a remote tribe with a distinct religion. How might an exclusivist respond?",
+      "options": [
+        "They might seek to convert the tribe to Christianity.",
+        "They might adopt some of the tribe's beliefs.",
+        "They might engage in dialogue to learn about the tribe's religion.",
+        "They might acknowledge the tribe's religion as equally valid."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "An exclusivist would likely attempt to convert the tribe, believing Christianity to be the only true path to salvation."
+    },
+    {
+      "id": "exclusivism-q11",
+      "question": "In a study comparing religious attitudes, which finding would most support exclusivism?",
+      "options": [
+        "Most respondents believe only one religion leads to salvation.",
+        "Respondents show openness to multiple religious truths.",
+        "Most respondents practice elements from various religions.",
+        "Respondents express uncertainty about religious truth."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Exclusivism is supported by the belief in a single true religion, reflecting the survey's result where most see one path to salvation."
+    },
+    {
+      "id": "exclusivism-q12",
+      "question": "How does exclusivism typically affect interfaith relations?",
+      "options": [
+        "It can create tension due to its rejection of other religions.",
+        "It fosters harmonious interfaith dialogue and cooperation.",
+        "It leads to the blending of different religious traditions.",
+        "It promotes religious relativism and openness."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Exclusivism often creates tension in interfaith contexts because it dismisses the validity of other religions."
+    },
+    {
+      "id": "exclusivism-q13",
+      "question": "Which of these scholars is known for critiquing exclusivism and advocating for inclusivism instead?",
+      "options": [
+        "Karl Rahner",
+        "John Hick",
+        "Paul Tillich",
+        "Rudolf Otto"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Karl Rahner critiqued exclusivism and proposed inclusivism, which acknowledges some truth in other religions."
+    },
+    {
+      "id": "exclusivism-q14",
+      "question": "What is a potential methodological issue with studies supporting exclusivism?",
+      "options": [
+        "They may rely on biased sampling of religious groups.",
+        "They often include diverse religious perspectives.",
+        "They focus too much on empirical evidence.",
+        "They ignore historical religious developments."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Studies supporting exclusivism can be methodologically flawed if they rely on biased samples, misrepresenting broader religious views."
+    },
+    {
+      "id": "exclusivism-q15",
+      "question": "Which theological position argues that truth can be found in all religions but is fulfilled in one's own faith?",
+      "options": [
+        "Inclusivism",
+        "Exclusivism",
+        "Pluralism",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Inclusivism suggests that while other religions hold truth, it is ultimately fulfilled within one's own religious tradition."
+    }
+  ]
+}

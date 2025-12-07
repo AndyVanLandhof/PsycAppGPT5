@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "gender",
+  "topicTitle": "Gender and Theology",
+  "subTopic": "liberation",
+  "subTopicTitle": "Feminist Theology",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:59:43.981Z",
+  "items": [
+    {
+      "id": "liberation-q1",
+      "question": "Who coined the term 'patriarchal religion' in the context of feminist theology?",
+      "options": [
+        "Mary Daly",
+        "Rosemary Radford Ruether",
+        "Elizabeth Cady Stanton",
+        "Sallie McFague"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Daly is known for her critique of the patriarchal structures within Christianity, coining the term 'patriarchal religion'."
+    },
+    {
+      "id": "liberation-q2",
+      "question": "In which year did Rosemary Radford Ruether publish 'Sexism and God-Talk'?",
+      "options": [
+        "1983",
+        "1979",
+        "1990",
+        "1976"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rosemary Radford Ruether's 'Sexism and God-Talk' was published in 1983, a seminal work in feminist theology."
+    },
+    {
+      "id": "liberation-q3",
+      "question": "What is Elisabeth Schüssler Fiorenza known for in feminist theology?",
+      "options": [
+        "Developing the concept of 'woman-church'",
+        "Promoting the idea of 'thealogy'",
+        "Critiquing the 'malestream' history of theology",
+        "Introducing 'panentheism'"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Elisabeth Schüssler Fiorenza is known for her critique of the 'malestream' history of theology, advocating for a feminist approach."
+    },
+    {
+      "id": "liberation-q4",
+      "question": "Which feminist theologian argued for the re-interpretation of the Bible to include women's experiences?",
+      "options": [
+        "Phyllis Trible",
+        "Dorothy Day",
+        "Simone de Beauvoir",
+        "Mary Wollstonecraft"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Phyllis Trible is known for her feminist biblical criticism, advocating for the re-interpretation of the Bible to include women's experiences."
+    },
+    {
+      "id": "liberation-q5",
+      "question": "What is the main idea behind 'thealogy'?",
+      "options": [
+        "The study of women's history in religion",
+        "The divine is imagined as female",
+        "The critique of patriarchal religious texts",
+        "The practice of women leading religious rituals"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Thealogy is the study of the divine as imagined as female, offering an alternative to traditional, male-centered theology."
+    },
+    {
+      "id": "liberation-q6",
+      "question": "Which text by Mary Daly critiques the institutional church as inherently patriarchal?",
+      "options": [
+        "Beyond God the Father",
+        "The Second Sex",
+        "The Feminine Mystique",
+        "A Vindication of the Rights of Woman"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 'Beyond God the Father', Mary Daly critiques the institutional church as inherently patriarchal and calls for a feminist spiritual revolution."
+    },
+    {
+      "id": "liberation-q7",
+      "question": "Who is the author of 'Gyn/Ecology', a key text in feminist theology?",
+      "options": [
+        "Mary Daly",
+        "Rosemary Radford Ruether",
+        "Judith Butler",
+        "Carol P. Christ"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Daly authored 'Gyn/Ecology', a work that critiques the historical and cultural oppression of women."
+    },
+    {
+      "id": "liberation-q8",
+      "question": "In feminist theology, what does the term 'kyriarchy' refer to?",
+      "options": [
+        "A system of multiple intersecting social dominations",
+        "A matriarchal religious system",
+        "A critique of economic systems",
+        "The study of ancient female deities"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kyriarchy, a term coined by Elisabeth Schüssler Fiorenza, refers to a system of intersecting social dominations beyond just patriarchy."
+    },
+    {
+      "id": "liberation-q9",
+      "question": "Which feminist theologian is known for the concept of 'womanist theology'?",
+      "options": [
+        "Jacquelyn Grant",
+        "Mary Daly",
+        "Rosemary Radford Ruether",
+        "Phyllis Trible"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jacquelyn Grant is associated with 'womanist theology', which focuses on the experiences and perspectives of Black women in theology."
+    },
+    {
+      "id": "liberation-q10",
+      "question": "A local church decides to use gender-neutral language for God in its liturgy. Which feminist theological principle are they applying?",
+      "options": [
+        "Reconstructive theology",
+        "Kyriarchy",
+        "Thealogical criticism",
+        "Woman-church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Using gender-neutral language aligns with reconstructive theology, which seeks to reinterpret religious language to be more inclusive."
+    },
+    {
+      "id": "liberation-q11",
+      "question": "A university's religious studies department incorporates feminist theology into its curriculum. What might be a key focus in this course?",
+      "options": [
+        "Exploring the matriarchal structures of ancient religions",
+        "Critically examining traditional religious texts for gender bias",
+        "Studying the economic impact of religion",
+        "Analyzing religious art"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "A key focus would be critically examining traditional religious texts for gender bias, an essential aspect of feminist theology."
+    },
+    {
+      "id": "liberation-q12",
+      "question": "A feminist theologian argues that traditional religious roles limit women's participation in spiritual leadership. What might this critique involve?",
+      "options": [
+        "Examining how male-centric language in liturgy affects female identity",
+        "Analyzing the economic role of women in religious communities",
+        "Studying women's roles in non-monotheistic religions",
+        "Evaluating the historical accuracy of religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This critique would involve examining how male-centric language and roles in liturgy can affect women's identity and participation in spiritual leadership."
+    },
+    {
+      "id": "liberation-q13",
+      "question": "Which methodological critique is often made against the feminist theological approach?",
+      "options": [
+        "It lacks empirical evidence",
+        "It doesn't consider historical context",
+        "It is too focused on Western perspectives",
+        "It fails to address contemporary issues"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "A common critique is that feminist theology can be too focused on Western perspectives, potentially overlooking non-Western feminist insights."
+    },
+    {
+      "id": "liberation-q14",
+      "question": "How might feminist theology be critiqued when compared to liberation theology?",
+      "options": [
+        "Feminist theology offers a broader critique of oppression",
+        "Liberation theology is more inclusive of women's perspectives",
+        "Feminist theology is less focused on class issues",
+        "Both equally address economic inequalities"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Feminist theology is sometimes critiqued for being less focused on class issues compared to liberation theology, which integrates class struggle."
+    },
+    {
+      "id": "liberation-q15",
+      "question": "What is a potential limitation of using feminist theology as a sole interpretative framework for religious texts?",
+      "options": [
+        "It ignores historical interpretations",
+        "It may overlook non-gender-based forms of oppression",
+        "It focuses too heavily on scriptural literalism",
+        "It cannot be applied to contemporary religions"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Feminist theology might overlook non-gender-based forms of oppression, focusing primarily on gender, potentially neglecting other intersecting identities."
+    }
+  ]
+}

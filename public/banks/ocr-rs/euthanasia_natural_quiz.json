@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "euthanasia",
+  "topicTitle": "Euthanasia",
+  "subTopic": "natural",
+  "subTopicTitle": "Natural Law & Euthanasia",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:48:22.428Z",
+  "items": [
+    {
+      "id": "natural-q1",
+      "question": "What is the primary precept of Natural Law most relevant to the debate on euthanasia?",
+      "options": [
+        "Preservation of life",
+        "Reproduction",
+        "Education of children",
+        "Living in society"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The primary precept of preservation of life is central to Natural Law, which generally opposes euthanasia."
+    },
+    {
+      "id": "natural-q2",
+      "question": "Who is the philosopher most associated with Natural Law theory?",
+      "options": [
+        "Thomas Aquinas",
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas is the key philosopher associated with Natural Law, which forms the basis of many arguments against euthanasia."
+    },
+    {
+      "id": "natural-q3",
+      "question": "What is the doctrine of double effect in relation to euthanasia?",
+      "options": [
+        "A moral principle allowing actions that have both a good and a bad effect",
+        "A principle that always opposes euthanasia",
+        "A secular argument for euthanasia",
+        "An argument supporting passive euthanasia only"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The doctrine of double effect allows actions that have a negative consequence if the intention is to bring about a good effect, relevant in discussions about pain relief that may hasten death."
+    },
+    {
+      "id": "natural-q4",
+      "question": "According to Natural Law, what is the moral status of euthanasia?",
+      "options": [
+        "Intrinsically wrong",
+        "Conditionally acceptable",
+        "Morally neutral",
+        "Always right"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Natural Law deems euthanasia intrinsically wrong as it violates the precept of preserving life."
+    },
+    {
+      "id": "natural-q5",
+      "question": "Which of the following is not a primary precept of Natural Law?",
+      "options": [
+        "Worship God",
+        "Seek happiness",
+        "Reproduction",
+        "Educate offspring"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "While 'seek happiness' might be a goal, it is not listed as one of the primary precepts in Aquinas' Natural Law."
+    },
+    {
+      "id": "natural-q6",
+      "question": "In Natural Law theory, what is the role of human reason?",
+      "options": [
+        "To discern the natural order and purpose",
+        "To maximize happiness",
+        "To follow divine command without question",
+        "To prioritize individual autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Human reason in Natural Law is used to understand the natural order and purpose, guiding moral decisions."
+    },
+    {
+      "id": "natural-q7",
+      "question": "Which scholar critiqued Natural Law for its rigidity and lack of compassion?",
+      "options": [
+        "Kai Nielsen",
+        "Alasdair MacIntyre",
+        "Peter Singer",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kai Nielsen critiqued Natural Law for being too rigid and not adequately addressing the complexities of moral situations like euthanasia."
+    },
+    {
+      "id": "natural-q8",
+      "question": "In which work did Thomas Aquinas outline his Natural Law theory?",
+      "options": [
+        "Summa Theologica",
+        "Nicomachean Ethics",
+        "Critique of Pure Reason",
+        "Principia Ethica"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas outlined his Natural Law theory in the 'Summa Theologica'."
+    },
+    {
+      "id": "natural-q9",
+      "question": "What is an apparent good according to Natural Law?",
+      "options": [
+        "An action that seems good but does not align with the ultimate purpose",
+        "An action that is universally good",
+        "A good that is culturally relative",
+        "An action that is good only for some individuals"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "An apparent good is one that appears beneficial but does not fulfill true human purpose as defined by Natural Law."
+    },
+    {
+      "id": "natural-q10",
+      "question": "A doctor administers pain relief that unintentionally hastens a patient's death. According to Natural Law, which principle might justify this action?",
+      "options": [
+        "Doctrine of double effect",
+        "Principle of utility",
+        "Principle of respect for autonomy",
+        "Principle of beneficence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The doctrine of double effect might justify administering pain relief, as the intention is to alleviate pain, not to hasten death."
+    },
+    {
+      "id": "natural-q11",
+      "question": "A patient in a persistent vegetative state is kept alive on life support. A Natural Law theorist would likely argue that:",
+      "options": [
+        "Life support should be maintained as life must be preserved",
+        "Life support should be withdrawn to respect autonomy",
+        "Decisions should be based on the potential for recovery",
+        "Life support should be withdrawn to reduce suffering"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural Law emphasizes preserving life, so maintaining life support aligns with its principles."
+    },
+    {
+      "id": "natural-q12",
+      "question": "A hospital is deciding whether to implement an assisted dying policy. From a Natural Law perspective, this policy would likely be considered:",
+      "options": [
+        "Morally unacceptable",
+        "Conditionally acceptable",
+        "Morally neutral",
+        "A matter of personal choice"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural Law would likely consider assisted dying morally unacceptable as it contradicts the precept of preserving life."
+    },
+    {
+      "id": "natural-q13",
+      "question": "How does Natural Law theory compare to Utilitarianism in the context of euthanasia?",
+      "options": [
+        "Natural Law focuses on moral absolutes, while Utilitarianism considers consequences",
+        "Both theories focus on the greatest happiness",
+        "Natural Law and Utilitarianism both strictly oppose euthanasia",
+        "Both theories prioritize individual autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Natural Law focuses on moral absolutes and adherence to primary precepts, while Utilitarianism evaluates actions based on their outcomes."
+    },
+    {
+      "id": "natural-q14",
+      "question": "What is a primary critique of Natural Law regarding its approach to euthanasia?",
+      "options": [
+        "It is inflexible and does not consider individual circumstances",
+        "It prioritizes human emotions over reason",
+        "It relies too heavily on statistical data",
+        "It supports euthanasia only in limited cases"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A primary critique of Natural Law is its rigidity, as it does not account for the nuances of individual circumstances, such as in cases of euthanasia."
+    },
+    {
+      "id": "natural-q15",
+      "question": "In comparing Natural Law to Situation Ethics, which statement is true regarding euthanasia?",
+      "options": [
+        "Natural Law is rule-based, while Situation Ethics is context-based",
+        "Both theories strictly oppose euthanasia",
+        "Both theories support euthanasia under certain conditions",
+        "Natural Law and Situation Ethics both prioritize legal guidelines"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Natural Law adheres to fixed moral rules, while Situation Ethics assesses each situation contextually, allowing for more flexibility in cases like euthanasia."
+    }
+  ]
+}

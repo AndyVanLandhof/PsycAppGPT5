@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "sexual-ethics",
+  "topicTitle": "Sexual Ethics",
+  "subTopic": "contraception",
+  "subTopicTitle": "Contraception and Religion",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:50:46.172Z",
+  "items": [
+    {
+      "id": "contraception-q1",
+      "question": "Which Christian denomination traditionally opposes the use of artificial contraception?",
+      "options": [
+        "Roman Catholic Church",
+        "Anglican Church",
+        "Methodist Church",
+        "Lutheran Church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Roman Catholic Church opposes artificial contraception based on the belief in natural law and the purpose of sex as procreative."
+    },
+    {
+      "id": "contraception-q2",
+      "question": "In what year did the Anglican Church first accept the use of contraception?",
+      "options": [
+        "1930",
+        "1955",
+        "1968",
+        "1978"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Anglican Church accepted the use of contraception at the Lambeth Conference in 1930, marking a significant shift from traditional Christian views."
+    },
+    {
+      "id": "contraception-q3",
+      "question": "Which Hindu text often cited in discussions of sexual ethics emphasizes the importance of dharma (duty) in family life?",
+      "options": [
+        "The Bhagavad Gita",
+        "The Upanishads",
+        "The Ramayana",
+        "The Vedas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Bhagavad Gita emphasizes dharma, which in the context of family life includes the duty to have children and uphold family values."
+    },
+    {
+      "id": "contraception-q4",
+      "question": "According to Islamic teachings, which form of contraception is generally permissible?",
+      "options": [
+        "Withdrawal method (Al-azl)",
+        "Sterilization",
+        "Birth control pills",
+        "Intrauterine device (IUD)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The withdrawal method, or Al-azl, is generally permissible in Islam as it was practiced during the Prophet Muhammad's time with his knowledge."
+    },
+    {
+      "id": "contraception-q5",
+      "question": "Which papal encyclical reaffirmed the Catholic Church's opposition to artificial contraception in 1968?",
+      "options": [
+        "Humanae Vitae",
+        "Evangelium Vitae",
+        "Lumen Gentium",
+        "Gaudium et Spes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Humanae Vitae, issued by Pope Paul VI in 1968, reaffirmed the Catholic Church's stance against artificial contraception, emphasizing the sanctity of human life and procreation."
+    },
+    {
+      "id": "contraception-q6",
+      "question": "Which of the following principles is central to Natural Law Theory as applied to sexual ethics?",
+      "options": [
+        "The principle of double effect",
+        "The categorical imperative",
+        "The harm principle",
+        "The principle of utility"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The principle of double effect is central to Natural Law Theory, allowing actions that have both good and bad effects if the intention is morally good."
+    },
+    {
+      "id": "contraception-q7",
+      "question": "Who is the author of 'Situation Ethics: The New Morality' which discusses the role of love in ethical decision-making?",
+      "options": [
+        "Joseph Fletcher",
+        "James Gustafson",
+        "Paul Tillich",
+        "Reinhold Niebuhr"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher authored 'Situation Ethics: The New Morality' in 1966, advocating for decisions based on love rather than absolute rules."
+    },
+    {
+      "id": "contraception-q8",
+      "question": "Which Buddhist concept discourages actions that lead to attachment and suffering, relevant in discussions of contraception?",
+      "options": [
+        "Upādāna (clinging)",
+        "Anicca (impermanence)",
+        "Dukkha (suffering)",
+        "Anatta (non-self)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Upādāna, or clinging, is discouraged in Buddhism as it leads to attachment and suffering, relevant to ethical discussions on contraception."
+    },
+    {
+      "id": "contraception-q9",
+      "question": "What is the primary ethical concern in Judaism regarding contraception?",
+      "options": [
+        "Preservation of life",
+        "Preventing idolatry",
+        "Observing the Sabbath",
+        "Maintaining dietary laws"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Judaism, the preservation of life is a primary concern, and contraception is evaluated based on whether it upholds this principle."
+    },
+    {
+      "id": "contraception-q10",
+      "question": "A Catholic couple is considering using contraception due to health concerns. How might Natural Law Theory be applied in their decision-making?",
+      "options": [
+        "By prioritizing the couple's health as a primary good",
+        "By following the church's teaching without exception",
+        "By considering the lesser of two evils",
+        "By emphasizing the end justifies the means"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Natural Law Theory prioritizes primary goods such as health, allowing the couple to weigh their health against other considerations."
+    },
+    {
+      "id": "contraception-q11",
+      "question": "A study shows that access to contraception leads to a reduction in unintended pregnancies. How might a Utilitarian evaluate this finding?",
+      "options": [
+        "By focusing on the overall happiness and well-being increase",
+        "By considering the moral intentions of contraception use",
+        "By assessing the adherence to religious doctrines",
+        "By evaluating the naturalness of contraception methods"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A Utilitarian would evaluate the finding based on the increase in overall happiness and reduction in negative consequences like unintended pregnancies."
+    },
+    {
+      "id": "contraception-q12",
+      "question": "A Muslim couple is using contraception to space out pregnancies for economic reasons. How might this be justified in Islamic ethics?",
+      "options": [
+        "By considering the welfare of the existing family",
+        "By strictly adhering to religious prohibitions",
+        "By prioritizing desires over religious teachings",
+        "By consulting secular ethical theories"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Islamic ethics may justify this approach by prioritizing the welfare of the family, recognizing the need for responsible parenthood."
+    },
+    {
+      "id": "contraception-q13",
+      "question": "What methodological critique might be made about studies linking religious beliefs with contraception use?",
+      "options": [
+        "Religious beliefs are often complex and not easily categorized",
+        "Studies typically have large sample sizes",
+        "There is an overemphasis on quantitative data",
+        "Religious texts are interpreted uniformly across communities"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious beliefs are complex and vary widely, making it challenging to categorize them simply in studies, which can lead to oversimplified conclusions."
+    },
+    {
+      "id": "contraception-q14",
+      "question": "How might a Kantian critique the use of contraception based on his ethical framework?",
+      "options": [
+        "Contraception could be seen as treating people as means to an end",
+        "Contraception aligns with universal moral laws",
+        "Contraception prioritizes personal happiness over duty",
+        "Contraception is inherently contrary to nature"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A Kantian might argue that using contraception treats procreation, and therefore people, as means to an end, conflicting with the principle of treating humanity as an end in itself."
+    },
+    {
+      "id": "contraception-q15",
+      "question": "What is a significant challenge in comparing religious and secular approaches to contraception ethics?",
+      "options": [
+        "Differing foundational principles",
+        "Uniformity in ethical conclusions",
+        "Lack of historical context",
+        "Agreement on human rights"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A significant challenge is the differing foundational principles, as religious approaches often derive from sacred texts, while secular approaches may emphasize autonomy and rights."
+    }
+  ]
+}

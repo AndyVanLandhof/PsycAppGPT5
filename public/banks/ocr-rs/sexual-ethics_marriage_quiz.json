@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "sexual-ethics",
+  "topicTitle": "Sexual Ethics",
+  "subTopic": "marriage",
+  "subTopicTitle": "Traditional Marriage Views",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:50:27.456Z",
+  "items": [
+    {
+      "id": "marriage-q1",
+      "question": "What is the primary purpose of traditional Christian marriage according to Augustine?",
+      "options": [
+        "Procreation",
+        "Companionship",
+        "Economic stability",
+        "Social status"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine emphasized procreation as the primary purpose of marriage, viewing it as a duty to produce offspring."
+    },
+    {
+      "id": "marriage-q2",
+      "question": "According to Thomas Aquinas, which of the following virtues is most closely associated with marriage?",
+      "options": [
+        "Justice",
+        "Charity",
+        "Temperance",
+        "Fortitude"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Aquinas linked marriage with charity, emphasizing love and the mutual benefit of the spouses."
+    },
+    {
+      "id": "marriage-q3",
+      "question": "Which biblical book is often cited regarding the union of marriage as 'two becoming one flesh'?",
+      "options": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The phrase 'two becoming one flesh' is found in Genesis 2:24, emphasizing the intimate union in marriage."
+    },
+    {
+      "id": "marriage-q4",
+      "question": "In which year did the Church of England first allow divorcees to remarry in church?",
+      "options": [
+        "1981",
+        "2002",
+        "1990",
+        "1975"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The Church of England permitted the remarriage of divorced individuals in church in 2002, reflecting a shift in traditional views."
+    },
+    {
+      "id": "marriage-q5",
+      "question": "Which sociologist argued that traditional marriage serves to regulate sexual behavior?",
+      "options": [
+        "Talcott Parsons",
+        "Max Weber",
+        "Émile Durkheim",
+        "Zygmunt Bauman"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Talcott Parsons argued that marriage serves to stabilize social order by regulating sexual behavior."
+    },
+    {
+      "id": "marriage-q6",
+      "question": "What is the term for the Catholic belief that marriage is a sacrament?",
+      "options": [
+        "Covenant",
+        "Ordinance",
+        "Vocation",
+        "Sacramentum"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "In Catholicism, marriage is considered a 'Sacramentum', reflecting its sacred and divine nature."
+    },
+    {
+      "id": "marriage-q7",
+      "question": "Which philosopher's views on marriage included the idea of mutual duties and support?",
+      "options": [
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "Friedrich Nietzsche",
+        "Jean-Jacques Rousseau"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Stuart Mill emphasized the importance of mutual duties and support within marriage, advocating for equality between partners."
+    },
+    {
+      "id": "marriage-q8",
+      "question": "What is the Protestant principle that allows for the dissolution of marriage under certain conditions?",
+      "options": [
+        "Annulment",
+        "Dispensation",
+        "Divorce",
+        "Separation"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Protestantism generally accepts divorce, allowing marriage dissolution under conditions like adultery or abandonment."
+    },
+    {
+      "id": "marriage-q9",
+      "question": "Which Pope issued the encyclical 'Humanae Vitae' reaffirming the prohibition of artificial contraception?",
+      "options": [
+        "Pope Leo XIII",
+        "Pope John Paul II",
+        "Pope Paul VI",
+        "Pope Benedict XVI"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pope Paul VI issued 'Humanae Vitae' in 1968, reaffirming the Catholic Church's stance against artificial contraception."
+    },
+    {
+      "id": "marriage-q10",
+      "question": "A couple decides to get married in a civil ceremony rather than a religious one. Which ethical issue might this raise in traditional religious contexts?",
+      "options": [
+        "Abandonment",
+        "Commitment",
+        "Sanctity",
+        "Equality"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "In traditional religious contexts, a civil ceremony might raise issues regarding the 'sanctity' of marriage as a divine institution."
+    },
+    {
+      "id": "marriage-q11",
+      "question": "A study finds a correlation between religious adherence and lower divorce rates. Which ethical perspective might this support?",
+      "options": [
+        "Utilitarianism",
+        "Virtue Ethics",
+        "Natural Law",
+        "Situation Ethics"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Natural Law, which emphasizes the importance of marriage stability and procreation, might be supported by lower divorce rates in religious adherents."
+    },
+    {
+      "id": "marriage-q12",
+      "question": "A survey shows increased acceptance of same-sex marriage in contemporary society. How might a traditional religious viewpoint interpret this data?",
+      "options": [
+        "Moral decline",
+        "Social progress",
+        "Cultural relativism",
+        "Economic change"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "From a traditional religious perspective, increased acceptance of same-sex marriage might be seen as a sign of 'moral decline'."
+    },
+    {
+      "id": "marriage-q13",
+      "question": "Critics argue that traditional views on marriage often neglect the role of women. Which feminist critique does this represent?",
+      "options": [
+        "Essentialism",
+        "Patriarchy",
+        "Intersectionality",
+        "Postmodernism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The critique of traditional marriage views as neglecting women's roles aligns with feminist critiques of 'patriarchy', emphasizing male dominance."
+    },
+    {
+      "id": "marriage-q14",
+      "question": "How does the concept of covenant in Christian marriage differ from a legal contract?",
+      "options": [
+        "Based on love",
+        "Legally binding",
+        "Focused on procreation",
+        "Non-legally binding"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A covenant in Christian marriage is based on 'love' and spiritual commitment, contrasting with a legal contract's focus on legal obligations."
+    },
+    {
+      "id": "marriage-q15",
+      "question": "Which philosopher's critique of marriage focuses on the loss of individual freedom?",
+      "options": [
+        "Simone de Beauvoir",
+        "Karl Marx",
+        "Arthur Schopenhauer",
+        "Michel Foucault"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Arthur Schopenhauer critiqued marriage for causing the loss of individual freedom, emphasizing its restrictive nature."
+    }
+  ]
+}

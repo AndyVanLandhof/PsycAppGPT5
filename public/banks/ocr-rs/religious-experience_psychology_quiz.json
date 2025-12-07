@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-experience",
+  "topicTitle": "Religious Experience",
+  "subTopic": "psychology",
+  "subTopicTitle": "Psychological Explanations",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:39:41.663Z",
+  "items": [
+    {
+      "id": "psychology-q1",
+      "question": "Which psychologist is known for proposing that religious experiences are a result of a wish-fulfillment process?",
+      "options": [
+        "Sigmund Freud",
+        "William James",
+        "Carl Jung",
+        "B.F. Skinner"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Freud suggested that religious experiences are illusions rooted in subconscious desires."
+    },
+    {
+      "id": "psychology-q2",
+      "question": "What was the main focus of William James' study of religious experiences?",
+      "options": [
+        "The Varieties of Religious Experience",
+        "The Interpretation of Dreams",
+        "The Archetypes and the Collective Unconscious",
+        "Beyond Freedom and Dignity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William James explored the diversity of religious experiences and their psychological explanations in his work titled 'The Varieties of Religious Experience'."
+    },
+    {
+      "id": "psychology-q3",
+      "question": "Which term describes the belief that religious experiences are genuine encounters with the divine?",
+      "options": [
+        "Mysticism",
+        "Materialism",
+        "Reductionism",
+        "Naturalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mysticism refers to the belief in direct, personal experience of the divine or ultimate reality."
+    },
+    {
+      "id": "psychology-q4",
+      "question": "Who argued that religious experiences are projections of the collective unconscious?",
+      "options": [
+        "Carl Jung",
+        "Sigmund Freud",
+        "Erich Fromm",
+        "Alfred Adler"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Jung believed that religious experiences stem from the collective unconscious, a shared reservoir of archetypes."
+    },
+    {
+      "id": "psychology-q5",
+      "question": "Which of the following best describes the term 'numinous experience'?",
+      "options": [
+        "An encounter with a transcendent presence",
+        "A hallucination due to mental illness",
+        "A logical deduction about the nature of reality",
+        "A social construct created by human culture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Numinous experience refers to a feeling of awe and wonder in the presence of something greater than oneself, often associated with the divine."
+    },
+    {
+      "id": "psychology-q6",
+      "question": "In what year did Sigmund Freud publish 'The Future of an Illusion'?",
+      "options": [
+        "1927",
+        "1901",
+        "1933",
+        "1915"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Freud's 'The Future of an Illusion', published in 1927, critiques religion as an illusion based on human wishes."
+    },
+    {
+      "id": "psychology-q7",
+      "question": "Which researcher is known for the 'God Helmet' experiments?",
+      "options": [
+        "Michael Persinger",
+        "Andrew Newberg",
+        "Richard Dawkins",
+        "Daniel Dennett"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Michael Persinger conducted the 'God Helmet' experiments, which induced religious experiences through electromagnetic stimulation of the brain."
+    },
+    {
+      "id": "psychology-q8",
+      "question": "What did Rudolf Otto mean by the term 'mysterium tremendum et fascinans'?",
+      "options": [
+        "A fearful and fascinating mystery",
+        "A clear and logical proposition",
+        "A deceptive and misleading illusion",
+        "A comforting and familiar presence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Otto's term refers to the dual nature of numinous experiences, which are both awe-inspiring and terrifying."
+    },
+    {
+      "id": "psychology-q9",
+      "question": "Which psychologist suggested that religious experiences could be a result of temporal lobe epilepsy?",
+      "options": [
+        "Vilayanur S. Ramachandran",
+        "Sigmund Freud",
+        "Carl Jung",
+        "William James"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ramachandran proposed that temporal lobe epilepsy could cause intense religious experiences due to its effects on the brain."
+    },
+    {
+      "id": "psychology-q10",
+      "question": "A person reports feeling a profound sense of peace and connection with the universe while meditating. Which psychological explanation might best apply?",
+      "options": [
+        "A peak experience as described by Maslow",
+        "A hallucination due to psychosis",
+        "A symptom of obsessive-compulsive disorder",
+        "A sign of cognitive dissonance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Maslow described peak experiences as profound moments of love, understanding, and happiness, which can occur during meditation."
+    },
+    {
+      "id": "psychology-q11",
+      "question": "A study finds that people who frequently engage in prayer report higher levels of life satisfaction. How might a reductionist interpret this finding?",
+      "options": [
+        "It is a result of endorphin release during prayer",
+        "It confirms the existence of a divine being",
+        "It suggests prayer is a social construct",
+        "It shows people are delusional"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A reductionist might argue that the positive feelings are due to physiological changes like endorphin release, rather than spiritual reasons."
+    },
+    {
+      "id": "psychology-q12",
+      "question": "A researcher claims that religious experiences have similar neural patterns to drug-induced states. What psychological theory does this support?",
+      "options": [
+        "Neurotheology",
+        "Existentialism",
+        "Behaviorism",
+        "Humanism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Neurotheology studies the neural mechanisms that underlie religious experiences, suggesting similarities with states induced by drugs."
+    },
+    {
+      "id": "psychology-q13",
+      "question": "What is a major criticism of Freud's explanation of religious experiences?",
+      "options": [
+        "Lack of empirical evidence",
+        "Overemphasis on neurological factors",
+        "Dismissal of cultural influences",
+        "Focus on positive outcomes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Freud's theory is critiqued for lacking empirical evidence and relying heavily on theoretical constructs without direct observation."
+    },
+    {
+      "id": "psychology-q14",
+      "question": "How might one critique the validity of Persinger's 'God Helmet' experiments?",
+      "options": [
+        "Results are not consistently replicable",
+        "Lack of participant diversity",
+        "Over-reliance on qualitative data",
+        "Excessive sample size"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Persinger's results are not consistently replicable, raising questions about the reliability of the findings."
+    },
+    {
+      "id": "psychology-q15",
+      "question": "In comparing Freud and Jung's views on religious experience, what is a key difference?",
+      "options": [
+        "Freud viewed them as illusory, Jung considered them archetypal",
+        "Freud saw them as divine, Jung viewed them as neurotic",
+        "Freud saw them as cultural, Jung viewed them as social constructs",
+        "Freud considered them positive, Jung saw them as negative"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Freud viewed religious experiences as illusions based on desires, while Jung saw them as expressions of the collective unconscious."
+    }
+  ]
+}

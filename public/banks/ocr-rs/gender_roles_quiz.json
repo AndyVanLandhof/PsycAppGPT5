@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "gender",
+  "topicTitle": "Gender and Theology",
+  "subTopic": "roles",
+  "subTopicTitle": "Biblical Gender Roles",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:59:24.624Z",
+  "items": [
+    {
+      "id": "roles-q1",
+      "question": "Which biblical passage is commonly cited to support traditional gender roles?",
+      "options": [
+        "Ephesians 5:22-33",
+        "Matthew 5:9",
+        "John 3:16",
+        "Genesis 1:1"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ephesians 5:22-33 discusses the roles of husbands and wives, often cited in discussions of traditional gender roles."
+    },
+    {
+      "id": "roles-q2",
+      "question": "Which feminist theologian argued that the Bible is inherently patriarchal?",
+      "options": [
+        "Mary Daly",
+        "C.S. Lewis",
+        "Karl Barth",
+        "John Calvin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Daly, a radical feminist theologian, argued that the Bible and Christianity are inherently patriarchal."
+    },
+    {
+      "id": "roles-q3",
+      "question": "In what year did Rosemary Radford Ruether publish 'Sexism and God-Talk'?",
+      "options": [
+        "1983",
+        "1995",
+        "1975",
+        "1968"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rosemary Radford Ruether published 'Sexism and God-Talk' in 1983, a seminal work in feminist theology."
+    },
+    {
+      "id": "roles-q4",
+      "question": "Which biblical figure is often viewed as a model of female submission?",
+      "options": [
+        "Sarah",
+        "Miriam",
+        "Deborah",
+        "Esther"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sarah is often viewed as a model of female submission, particularly in her relationship to Abraham."
+    },
+    {
+      "id": "roles-q5",
+      "question": "What is the term for the belief that men and women have different but complementary roles?",
+      "options": [
+        "Complementarianism",
+        "Egalitarianism",
+        "Patriarchalism",
+        "Hierarchicalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Complementarianism is the belief that men and women have different but complementary roles."
+    },
+    {
+      "id": "roles-q6",
+      "question": "According to 1 Timothy 2:12, what is a woman's role in the church?",
+      "options": [
+        "She should not teach or have authority over a man",
+        "She should lead the congregation",
+        "She should interpret scripture",
+        "She should baptize new members"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "1 Timothy 2:12 states that a woman should not teach or have authority over a man, reflecting traditional gender roles."
+    },
+    {
+      "id": "roles-q7",
+      "question": "Who is known for the concept of 'the maleness of Christ' in theological discourse?",
+      "options": [
+        "Elizabeth A. Johnson",
+        "Karl Rahner",
+        "Thomas Aquinas",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Elizabeth A. Johnson is known for discussing 'the maleness of Christ' and its implications for gender roles in theology."
+    },
+    {
+      "id": "roles-q8",
+      "question": "Which council declared that women are not eligible for priesthood in the Catholic Church?",
+      "options": [
+        "Second Vatican Council",
+        "Council of Trent",
+        "Council of Nicaea",
+        "First Council of Constantinople"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Second Vatican Council reaffirmed the Catholic Church's position that women are not eligible for priesthood."
+    },
+    {
+      "id": "roles-q9",
+      "question": "Who is considered the first woman apostle according to Paul in Romans 16:7?",
+      "options": [
+        "Junia",
+        "Priscilla",
+        "Mary Magdalene",
+        "Phoebe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Junia is mentioned by Paul in Romans 16:7 and is considered by some scholars to be the first woman apostle."
+    },
+    {
+      "id": "roles-q10",
+      "question": "A church decides to ordain women as priests. Which gender role theory are they likely applying?",
+      "options": [
+        "Egalitarianism",
+        "Complementarianism",
+        "Patriarchalism",
+        "Creationism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Egalitarianism advocates for equal roles for men and women, including ordination, reflecting this church's decision."
+    },
+    {
+      "id": "roles-q11",
+      "question": "A congregation follows strict male leadership, with no female pastors. What belief does this reflect?",
+      "options": [
+        "Complementarianism",
+        "Egalitarianism",
+        "Feminism",
+        "Liberalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Complementarianism is the belief in distinct gender roles, often reflected in male-only leadership in religious settings."
+    },
+    {
+      "id": "roles-q12",
+      "question": "In a survey, women report feeling excluded from leadership roles in their church. What might this suggest?",
+      "options": [
+        "The church practices complementarianism",
+        "The church has a feminist theology",
+        "The church practices egalitarianism",
+        "The church is non-denominational"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "If women feel excluded from leadership, it may indicate the church practices complementarianism, restricting certain roles to men."
+    },
+    {
+      "id": "roles-q13",
+      "question": "Which critique of traditional gender roles in the Bible argues they reflect historical context rather than divine command?",
+      "options": [
+        "Historical-critical method",
+        "Literal interpretation",
+        "Allegorical interpretation",
+        "Systematic theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The historical-critical method critiques traditional gender roles by considering them as products of historical context, not divine command."
+    },
+    {
+      "id": "roles-q14",
+      "question": "Which argument suggests that gender roles in the Bible are culturally conditioned rather than divinely ordained?",
+      "options": [
+        "Social constructivism",
+        "Divine command theory",
+        "Moral absolutism",
+        "Natural law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Social constructivism argues that gender roles are culturally conditioned, challenging the notion of them being divinely ordained."
+    },
+    {
+      "id": "roles-q15",
+      "question": "What critique is often leveled against feminist theology regarding its interpretation of biblical texts?",
+      "options": [
+        "It imposes modern values onto ancient texts",
+        "It enhances traditional interpretations",
+        "It strictly adheres to literal meanings",
+        "It disregards historical context"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common critique of feminist theology is that it imposes modern values onto ancient texts, potentially distorting original meanings."
+    }
+  ]
+}

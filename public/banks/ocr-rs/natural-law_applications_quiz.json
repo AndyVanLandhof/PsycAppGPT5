@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "natural-law",
+  "topicTitle": "Natural Law",
+  "subTopic": "applications",
+  "subTopicTitle": "Application to Modern Issues",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:43:52.798Z",
+  "items": [
+    {
+      "id": "applications-q1",
+      "question": "What is the primary precept of Natural Law according to Thomas Aquinas?",
+      "options": [
+        "To do good and avoid evil",
+        "To preserve life",
+        "To reproduce",
+        "To educate the young"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas' primary precept is to 'do good and avoid evil,' which forms the basis of all secondary precepts."
+    },
+    {
+      "id": "applications-q2",
+      "question": "Which philosopher is most closely associated with the development of Natural Law theory?",
+      "options": [
+        "Thomas Hobbes",
+        "Aristotle",
+        "Thomas Aquinas",
+        "Immanuel Kant"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas is credited with developing Natural Law theory in the 13th century, drawing on Aristotelian principles."
+    },
+    {
+      "id": "applications-q3",
+      "question": "According to Natural Law theory, which act would be considered intrinsically evil?",
+      "options": [
+        "Lying",
+        "Stealing to feed a starving family",
+        "Killing in self-defense",
+        "Breaking a promise to protect a friend"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lying is seen as intrinsically evil because it goes against the natural order and the precept to live in truth."
+    },
+    {
+      "id": "applications-q4",
+      "question": "Which aspect of Natural Law is most concerned with the function and purpose of things?",
+      "options": [
+        "Efficient cause",
+        "Final cause",
+        "Material cause",
+        "Formal cause"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The final cause refers to the purpose or end goal of an object or action, a key aspect of Natural Law."
+    },
+    {
+      "id": "applications-q5",
+      "question": "In what way does Natural Law theory address the issue of euthanasia?",
+      "options": [
+        "Euthanasia can be morally permissible if it reduces suffering",
+        "Euthanasia is always wrong as it violates the precept to preserve life",
+        "Euthanasia is acceptable if the person consents",
+        "Euthanasia can be justified in cases of terminal illness"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Natural Law strictly forbids euthanasia as it directly opposes the primary precept of preserving life."
+    },
+    {
+      "id": "applications-q6",
+      "question": "What is a secondary precept in Natural Law?",
+      "options": [
+        "A principle derived from reason",
+        "A guideline that is absolute and unchangeable",
+        "A flexible rule based on the situation",
+        "An application of a primary precept to specific circumstances"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Secondary precepts are applications of primary precepts to specific situations, allowing for more detailed moral guidance."
+    },
+    {
+      "id": "applications-q7",
+      "question": "Which of the following is NOT considered one of the primary precepts of Natural Law?",
+      "options": [
+        "To worship God",
+        "To live in an ordered society",
+        "To pursue pleasure",
+        "To educate children"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The pursuit of pleasure is not a primary precept; instead, Natural Law emphasizes order, education, and worship."
+    },
+    {
+      "id": "applications-q8",
+      "question": "Which document outlines the application of Natural Law in the Catholic Church's teaching?",
+      "options": [
+        "Humanae Vitae",
+        "Lumen Gentium",
+        "Rerum Novarum",
+        "Gaudium et Spes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Humanae Vitae, issued by Pope Paul VI in 1968, applies Natural Law principles to issues of birth control and human sexuality."
+    },
+    {
+      "id": "applications-q9",
+      "question": "According to Aquinas, what is the consequence of acting against one's conscience?",
+      "options": [
+        "It is always justified",
+        "It is a sin",
+        "It can be excused if done for a good reason",
+        "It is only wrong if it harms others"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Aquinas held that acting against one's conscience is sinful because conscience is the application of knowledge of God's law."
+    },
+    {
+      "id": "applications-q10",
+      "question": "A hospital considers withdrawing life support from a patient in a vegetative state. How might Natural Law theory evaluate this decision?",
+      "options": [
+        "It would be permissible if the family consents",
+        "It is impermissible because it violates the precept to preserve life",
+        "It is permissible as it prevents prolonging suffering",
+        "It would be considered morally neutral"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Natural Law would likely view withdrawing life support as impermissible because it contravenes the precept to preserve life."
+    },
+    {
+      "id": "applications-q11",
+      "question": "A company decides to lie about the environmental impact of its products. How would Natural Law theory likely assess this action?",
+      "options": [
+        "Acceptable if it benefits the company financially",
+        "Wrong, as it violates the precept to live in truth",
+        "Permissible if it doesn't harm anyone directly",
+        "Justifiable if it protects jobs"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Natural Law emphasizes the importance of truthfulness, so lying would be seen as intrinsically wrong."
+    },
+    {
+      "id": "applications-q12",
+      "question": "A doctor refuses to perform an abortion due to their belief in Natural Law. How might they justify this decision?",
+      "options": [
+        "Abortion is a personal choice and should be respected",
+        "Abortion is wrong because it goes against the precept to reproduce",
+        "Abortion is permissible in cases of rape",
+        "Abortion is acceptable if it prevents future suffering"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Natural Law holds reproduction as a primary precept, so abortion is seen as contrary to this principle."
+    },
+    {
+      "id": "applications-q13",
+      "question": "Which criticism is often leveled against Natural Law theory regarding its adaptability?",
+      "options": [
+        "It is too flexible and subjective",
+        "It lacks a basis in historical tradition",
+        "It is too rigid and absolutist",
+        "It is irrelevant to modern ethical issues"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Critics argue that Natural Law is too rigid and does not account for the complexities of modern ethical dilemmas."
+    },
+    {
+      "id": "applications-q14",
+      "question": "How does Natural Law theory compare to Utilitarianism in terms of moral decision-making?",
+      "options": [
+        "Both are focused on the consequences of actions",
+        "Natural Law is more concerned with duty and purpose than outcomes",
+        "Utilitarianism is more focused on rules and duties",
+        "Both theories prioritize individual rights"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Natural Law emphasizes duty and intrinsic purposes, whereas Utilitarianism focuses on the outcomes and consequences of actions."
+    },
+    {
+      "id": "applications-q15",
+      "question": "What is a common methodological critique of Natural Law theory?",
+      "options": [
+        "It relies too heavily on empirical evidence",
+        "It dismisses the role of divine command",
+        "It assumes universal human nature without sufficient evidence",
+        "It is overly focused on human psychology"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Critics argue that Natural Law assumes a universal human nature that is not empirically substantiated, questioning its foundational assumptions."
+    }
+  ]
+}

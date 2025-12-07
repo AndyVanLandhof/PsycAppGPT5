@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "miracles",
+  "topicTitle": "Miracles",
+  "subTopic": "hume",
+  "subTopicTitle": "Hume's Critique",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:41:50.074Z",
+  "items": [
+    {
+      "id": "hume-q1",
+      "question": "What is David Hume's primary definition of a miracle?",
+      "options": [
+        "A violation of the laws of nature",
+        "An extraordinary coincidence",
+        "A divine intervention",
+        "An event that inspires faith"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume defines a miracle as 'a violation of the laws of nature,' suggesting it is an event that cannot be explained by natural laws."
+    },
+    {
+      "id": "hume-q2",
+      "question": "In which work did Hume present his critique of miracles?",
+      "options": [
+        "An Enquiry Concerning Human Understanding",
+        "The Treatise of Human Nature",
+        "The Dialogues Concerning Natural Religion",
+        "The Natural History of Religion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume's critique of miracles is found in 'An Enquiry Concerning Human Understanding,' particularly in Section X."
+    },
+    {
+      "id": "hume-q3",
+      "question": "According to Hume, why should we be skeptical of miracle reports?",
+      "options": [
+        "Human testimony is often unreliable",
+        "Only ancient miracles are credible",
+        "Miracles occur frequently",
+        "Scientific evidence validates miracles"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume argues that human testimony is unreliable, especially regarding extraordinary claims like miracles."
+    },
+    {
+      "id": "hume-q4",
+      "question": "What is Hume's principle of 'proportioning belief to evidence'?",
+      "options": [
+        "Belief should be based on the strongest available evidence",
+        "Belief should favor miraculous explanations",
+        "Belief should be equally distributed among all possibilities",
+        "Belief should rely on religious authority"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume's principle states that belief should be proportioned to the evidence's strength, with stronger evidence warranting stronger belief."
+    },
+    {
+      "id": "hume-q5",
+      "question": "Which of the following is NOT a reason Hume gives for the unreliability of miracle reports?",
+      "options": [
+        "Miracles are often reported by uneducated people",
+        "Miracles only occur in distant lands",
+        "Miracles are used to support religious propaganda",
+        "Miracles are often witnessed by large crowds"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Hume argues that miracles are often reported in distant lands or by uneducated people and are used for religious propaganda, but not that they are witnessed by large crowds."
+    },
+    {
+      "id": "hume-q6",
+      "question": "In Hume's view, how does the concept of 'uniform experience' relate to miracles?",
+      "options": [
+        "Uniform experience suggests that natural laws are consistent",
+        "Uniform experience indicates miracles are common",
+        "Uniform experience confirms the reality of miracles",
+        "Uniform experience is irrelevant to miracle claims"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume believes 'uniform experience' supports the consistency of natural laws, making miracles, which violate these laws, highly improbable."
+    },
+    {
+      "id": "hume-q7",
+      "question": "According to Hume, what role does the 'passion of surprise and wonder' play in miracle reports?",
+      "options": [
+        "It enhances the credibility of reports",
+        "It makes reports less believable",
+        "It leads to exaggeration and distortion",
+        "It has no effect on the perception of reports"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Hume suggests that the 'passion of surprise and wonder' can lead to the exaggeration and distortion of miracle reports."
+    },
+    {
+      "id": "hume-q8",
+      "question": "Which philosopher's work does Hume critique in his discussion on miracles?",
+      "options": [
+        "St. Thomas Aquinas",
+        "René Descartes",
+        "John Locke",
+        "Blaise Pascal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hume critiques the work of St. Thomas Aquinas, who argued for the possibility of miracles as acts of God."
+    },
+    {
+      "id": "hume-q9",
+      "question": "How does Hume's concept of 'inductive reasoning' relate to his critique of miracles?",
+      "options": [
+        "Inductive reasoning supports the belief in miracles",
+        "Inductive reasoning challenges the credibility of miracles",
+        "Inductive reasoning is irrelevant to miracle assessment",
+        "Inductive reasoning confirms religious experiences"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hume uses inductive reasoning to argue that past experiences of natural law consistency make miracle claims less credible."
+    },
+    {
+      "id": "hume-q10",
+      "question": "A religious leader claims a miracle occurred when a statue began to weep. According to Hume's critique, what should be the primary response?",
+      "options": [
+        "Investigate alternative natural explanations",
+        "Accept the miracle as divine intervention",
+        "Consult religious texts for validation",
+        "Gather more testimonies from believers"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Hume would suggest investigating natural explanations first, as miracles violate natural laws and are inherently improbable."
+    },
+    {
+      "id": "hume-q11",
+      "question": "A local news report claims a miraculous healing took place. Applying Hume's principles, what should a skeptic consider first?",
+      "options": [
+        "The credibility of the witnesses",
+        "The religious significance of the healing",
+        "The number of people healed",
+        "The historical context of the healing"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Hume emphasizes assessing the credibility and reliability of witnesses when evaluating miracle claims."
+    },
+    {
+      "id": "hume-q12",
+      "question": "A man claims a vision of an angel saved him from danger. How would Hume suggest evaluating this claim?",
+      "options": [
+        "Examine if the vision had natural causes",
+        "Praise the man for his spiritual experience",
+        "Accept the claim as evidence of divine protection",
+        "Consider the man's religious background"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Hume would recommend examining possible natural causes for the vision, as extraordinary claims require extraordinary evidence."
+    },
+    {
+      "id": "hume-q13",
+      "question": "How does Swinburne's argument for miracles differ from Hume's critique?",
+      "options": [
+        "Swinburne argues for the plausibility of miracles based on religious experiences",
+        "Swinburne denies the possibility of miracles altogether",
+        "Swinburne agrees entirely with Hume's skepticism",
+        "Swinburne believes miracles only occur in specific religions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Swinburne argues that religious experiences can provide evidence for miracles, contrasting with Hume's skepticism."
+    },
+    {
+      "id": "hume-q14",
+      "question": "Which methodological critique can be made against Hume's argument against miracles?",
+      "options": [
+        "He assumes uniformity of nature without sufficient justification",
+        "He provides empirical evidence for miracles",
+        "He relies too heavily on religious testimony",
+        "He dismisses all scientific evidence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "One critique is that Hume assumes the uniformity of nature without fully justifying this assumption, which is a key part of his argument."
+    },
+    {
+      "id": "hume-q15",
+      "question": "How might a postmodern perspective critique Hume's view on miracles?",
+      "options": [
+        "It challenges the universal application of natural laws",
+        "It fully supports Hume's skepticism",
+        "It ignores the cultural context of miracle claims",
+        "It argues that miracles are universally accepted"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A postmodern critique might challenge the universal application of natural laws, suggesting that different cultures may interpret miracles differently."
+    }
+  ]
+}

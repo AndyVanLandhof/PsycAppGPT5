@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "criticism",
+  "subTopicTitle": "Critiques of Knowledge Claims",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:55:33.552Z",
+  "items": [
+    {
+      "id": "criticism-q1",
+      "question": "Which philosopher famously argued for the 'Five Ways' to demonstrate the existence of God?",
+      "options": [
+        "Thomas Aquinas",
+        "William Paley",
+        "David Hume",
+        "Immanuel Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas formulated the 'Five Ways' in the 13th century to argue for the existence of God."
+    },
+    {
+      "id": "criticism-q2",
+      "question": "What is the central claim of Anselm's Ontological Argument?",
+      "options": [
+        "God is the greatest conceivable being",
+        "God is the unmoved mover",
+        "God is the cause of all motion",
+        "God is the designer of the universe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anselm's Ontological Argument claims God is 'that than which nothing greater can be conceived'."
+    },
+    {
+      "id": "criticism-q3",
+      "question": "Which philosopher is known for the critique of religious experience as a basis for belief in God?",
+      "options": [
+        "Sigmund Freud",
+        "William James",
+        "Karl Marx",
+        "Bertrand Russell"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Sigmund Freud argued that religious experiences could be psychological projections rather than evidence of God's existence."
+    },
+    {
+      "id": "criticism-q4",
+      "question": "What is the principle of 'verification' as used by logical positivists?",
+      "options": [
+        "A statement is only meaningful if it can be empirically verified",
+        "A statement is true if it corresponds to reality",
+        "A statement is only meaningful if it is logically coherent",
+        "A statement is true if it is consistent with religious doctrine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Logical positivists maintain that statements are meaningful only if they can be empirically verified."
+    },
+    {
+      "id": "criticism-q5",
+      "question": "Who wrote 'The God Delusion', arguing against the existence of God?",
+      "options": [
+        "Richard Dawkins",
+        "Alvin Plantinga",
+        "John Hick",
+        "C.S. Lewis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Richard Dawkins, a prominent atheist, wrote 'The God Delusion' in 2006, arguing against belief in God."
+    },
+    {
+      "id": "criticism-q6",
+      "question": "Which philosopher argued that belief in God could be 'properly basic'?",
+      "options": [
+        "Alvin Plantinga",
+        "Friedrich Nietzsche",
+        "Rene Descartes",
+        "Soren Kierkegaard"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga proposed that belief in God could be foundational and not based on evidence."
+    },
+    {
+      "id": "criticism-q7",
+      "question": "What is the 'Euthyphro Dilemma' primarily concerned with?",
+      "options": [
+        "The nature of piety and goodness",
+        "The existence of evil in a world governed by God",
+        "The relationship between faith and reason",
+        "The reliability of religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Euthyphro Dilemma, posed by Plato, questions whether something is good because God commands it, or if God commands it because it is good."
+    },
+    {
+      "id": "criticism-q8",
+      "question": "Which philosopher's work is associated with the 'design argument' for God's existence?",
+      "options": [
+        "William Paley",
+        "David Hume",
+        "Blaise Pascal",
+        "Anselm of Canterbury"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Paley is known for the design argument, particularly the analogy of the watchmaker, as evidence of God's existence."
+    },
+    {
+      "id": "criticism-q9",
+      "question": "In which year was the verification principle popularized by the Vienna Circle?",
+      "options": [
+        "1928",
+        "1945",
+        "1910",
+        "1960"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Vienna Circle popularized the verification principle in 1928 as a means of determining the meaningfulness of statements."
+    },
+    {
+      "id": "criticism-q10",
+      "question": "A student claims they have had a religious experience that proves the existence of God. Which philosophical critique could be used to challenge this claim?",
+      "options": [
+        "Verification principle",
+        "Ontological Argument",
+        "The Five Ways",
+        "Pascal's Wager"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The verification principle challenges the claim by questioning whether the experience can be empirically verified."
+    },
+    {
+      "id": "criticism-q11",
+      "question": "A survey shows that people who report religious experiences often have them during times of stress. Which philosopher's critique does this support?",
+      "options": [
+        "Sigmund Freud",
+        "Immanuel Kant",
+        "Thomas Aquinas",
+        "William Paley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Sigmund Freud's critique suggests that religious experiences could stem from psychological needs, such as stress relief."
+    },
+    {
+      "id": "criticism-q12",
+      "question": "A student argues that belief in God is 'properly basic' and doesn't require evidence. This view aligns with which philosopher?",
+      "options": [
+        "Alvin Plantinga",
+        "David Hume",
+        "Bertrand Russell",
+        "William Paley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Alvin Plantinga argues that belief in God can be 'properly basic' and does not depend on evidence."
+    },
+    {
+      "id": "criticism-q13",
+      "question": "How did David Hume critique the design argument for God's existence?",
+      "options": [
+        "By arguing that the complexity in the universe could arise naturally",
+        "By suggesting that God's existence is self-evident",
+        "By discussing the reliability of religious texts",
+        "By emphasizing the role of faith over reason"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "David Hume critiqued the design argument by suggesting that natural explanations could account for the universe's complexity without invoking a designer."
+    },
+    {
+      "id": "criticism-q14",
+      "question": "Which of the following is a major weakness of the Ontological Argument?",
+      "options": [
+        "It relies on a priori reasoning",
+        "It assumes the existence of evil",
+        "It is based on empirical evidence",
+        "It focuses on subjective experiences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Ontological Argument's reliance on a priori reasoning is considered a weakness since it doesn't depend on empirical evidence."
+    },
+    {
+      "id": "criticism-q15",
+      "question": "In what way does Karl Marx critique religious belief as a form of knowledge?",
+      "options": [
+        "He views it as an opiate that dulls the masses",
+        "He argues for faith as the ultimate truth",
+        "He sees it as essential for social cohesion",
+        "He suggests it provides a rational basis for morality"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Karl Marx critiques religion by suggesting it is an 'opiate of the masses', used to dull and control people rather than provide genuine knowledge."
+    }
+  ]
+}

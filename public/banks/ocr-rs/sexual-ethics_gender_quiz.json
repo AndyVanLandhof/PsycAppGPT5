@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "sexual-ethics",
+  "topicTitle": "Sexual Ethics",
+  "subTopic": "gender",
+  "subTopicTitle": "Feminist and Secular Challenges",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:51:27.028Z",
+  "items": [
+    {
+      "id": "gender-q1",
+      "question": "Which feminist scholar argued that traditional sexual ethics have been shaped by patriarchal structures to control women's sexuality?",
+      "options": [
+        "Andrea Dworkin",
+        "John Stuart Mill",
+        "Sigmund Freud",
+        "Alfred Kinsey"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Andrea Dworkin critiqued how patriarchal structures influence societal norms around sexuality."
+    },
+    {
+      "id": "gender-q2",
+      "question": "Which term refers to the belief that sexual ethics should be based on personal and mutual consent rather than traditional moral norms?",
+      "options": [
+        "Libertarianism",
+        "Utilitarianism",
+        "Situation Ethics",
+        "Cultural Relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Libertarianism emphasizes individual freedom and consent as central to ethical decisions, including sexual ethics."
+    },
+    {
+      "id": "gender-q3",
+      "question": "In which year did Simone de Beauvoir publish 'The Second Sex', a foundational text in feminist theory?",
+      "options": [
+        "1949",
+        "1963",
+        "1975",
+        "1984"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Published in 1949, 'The Second Sex' is a critical analysis of women's oppression and a key text in feminist philosophy."
+    },
+    {
+      "id": "gender-q4",
+      "question": "Which concept did Michel Foucault introduce to describe the manner in which sexual behavior is regulated by societal norms?",
+      "options": [
+        "Biopower",
+        "Superstructure",
+        "Hegemony",
+        "Libidinal Economy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Foucault's concept of 'biopower' explores how societies regulate populations through norms around sexuality."
+    },
+    {
+      "id": "gender-q5",
+      "question": "Which feminist perspective emphasizes the intersectionality of gender, race, class, and sexuality in understanding women's experiences?",
+      "options": [
+        "Radical Feminism",
+        "Liberal Feminism",
+        "Intersectional Feminism",
+        "Cultural Feminism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Intersectional feminism considers how various social identities overlap and impact women's experiences."
+    },
+    {
+      "id": "gender-q6",
+      "question": "Which philosopher is known for developing the 'care ethics' approach that challenges traditional ethical theories?",
+      "options": [
+        "Carol Gilligan",
+        "Immanuel Kant",
+        "John Rawls",
+        "Alasdair MacIntyre"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Carol Gilligan's 'care ethics' emphasizes relationships and context in moral reasoning, contrasting with more abstract ethical theories."
+    },
+    {
+      "id": "gender-q7",
+      "question": "Which study, conducted by Alfred Kinsey in the mid-20th century, challenged prevailing norms about sexual behavior in the United States?",
+      "options": [
+        "Kinsey Reports",
+        "Hawthorne Studies",
+        "Stanford Prison Experiment",
+        "Tuskegee Syphilis Study"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Kinsey Reports revealed a greater diversity in sexual behavior than previously acknowledged in American society."
+    },
+    {
+      "id": "gender-q8",
+      "question": "Which feminist theologian argued that traditional religion often reinforces patriarchal norms and called for a rethinking of religious texts?",
+      "options": [
+        "Mary Daly",
+        "C.S. Lewis",
+        "Karl Barth",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mary Daly critiqued traditional religious interpretations as perpetuating male dominance and advocated for feminist re-evaluation."
+    },
+    {
+      "id": "gender-q9",
+      "question": "Which philosophical theory focuses on the maximization of pleasure and minimization of pain as the basis for ethical behavior?",
+      "options": [
+        "Utilitarianism",
+        "Deontology",
+        "Virtue Ethics",
+        "Natural Law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Utilitarianism, as proposed by philosophers like Jeremy Bentham, evaluates actions based on their ability to produce pleasure and reduce pain."
+    },
+    {
+      "id": "gender-q10",
+      "question": "A company implements a new policy allowing employees to discuss their experiences with workplace sexual ethics. Which feminist principle does this scenario best illustrate?",
+      "options": [
+        "Promoting Intersectionality",
+        "Encouraging Collective Action",
+        "Advocating for Transparency",
+        "Challenging Gender Roles"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "This scenario illustrates the feminist principle of advocating for transparency and open discussion about ethical issues."
+    },
+    {
+      "id": "gender-q11",
+      "question": "In a survey, 70% of participants believe that traditional sexual ethics are outdated. How might a secular ethicist interpret this data?",
+      "options": [
+        "As evidence of moral decay",
+        "As a call for more religious education",
+        "As a shift towards individual autonomy",
+        "As a need for stricter laws"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "A secular ethicist might interpret this data as reflecting a societal shift towards prioritizing individual autonomy over traditional norms."
+    },
+    {
+      "id": "gender-q12",
+      "question": "A researcher finds that women in patriarchal societies report lower sexual satisfaction compared to those in egalitarian societies. Which feminist perspective does this support?",
+      "options": [
+        "Radical Feminism",
+        "Cultural Feminism",
+        "Liberal Feminism",
+        "Ecofeminism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This finding supports radical feminism, which argues that patriarchal structures negatively impact women's well-being, including sexual satisfaction."
+    },
+    {
+      "id": "gender-q13",
+      "question": "How might a feminist critique the methodology of traditional sexual ethics research?",
+      "options": [
+        "By highlighting the lack of quantitative data",
+        "By pointing out the exclusion of women's voices",
+        "By arguing for more religious perspectives",
+        "By emphasizing the need for larger sample sizes"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Feminists often critique traditional research for excluding women's voices and experiences, leading to biased conclusions."
+    },
+    {
+      "id": "gender-q14",
+      "question": "Which critique might a feminist make about the use of Kantian ethics in sexual ethics?",
+      "options": [
+        "It overemphasizes consequences",
+        "It lacks universal applicability",
+        "It neglects the importance of consent",
+        "It prioritizes duty over relationships"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "A feminist critique of Kantian ethics might focus on its emphasis on duty, which can overlook the relational aspects important in feminist ethics."
+    },
+    {
+      "id": "gender-q15",
+      "question": "Which argument might a secular ethicist use to critique religious sexual ethics?",
+      "options": [
+        "They are not comprehensive enough",
+        "They rely too heavily on tradition",
+        "They focus excessively on individualism",
+        "They prioritize emotional responses"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Secular ethicists often critique religious sexual ethics for relying heavily on tradition, which may not align with contemporary ethical reasoning."
+    }
+  ]
+}

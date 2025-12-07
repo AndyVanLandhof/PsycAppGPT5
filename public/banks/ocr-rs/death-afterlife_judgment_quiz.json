@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "death-afterlife",
+  "topicTitle": "Death & Afterlife",
+  "subTopic": "judgment",
+  "subTopicTitle": "Judgment and Heaven",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:53:13.282Z",
+  "items": [
+    {
+      "id": "judgment-q1",
+      "question": "According to Christian eschatology, what is the final judgment that determines one's eternal destiny?",
+      "options": [
+        "The Last Judgment",
+        "The Day of Atonement",
+        "The Great Tribulation",
+        "The Rapture"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Last Judgment is a Christian belief in a final evaluation of humanity, determining eternal destiny."
+    },
+    {
+      "id": "judgment-q2",
+      "question": "Which philosopher argued that heaven is a state of eternal happiness achieved through knowledge and virtue?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Descartes",
+        "Aquinas"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Aquinas integrated Christian theology with Aristotelian philosophy, arguing for heaven as eternal happiness through knowledge and virtue."
+    },
+    {
+      "id": "judgment-q3",
+      "question": "What term describes the belief that only a select few are predestined for salvation?",
+      "options": [
+        "Universalism",
+        "Predestination",
+        "Election",
+        "Annulment"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Election refers to the belief that God chooses certain individuals for salvation, often contrasted with universal salvation."
+    },
+    {
+      "id": "judgment-q4",
+      "question": "In which book of the Bible is the concept of the New Heaven and New Earth described?",
+      "options": [
+        "Genesis",
+        "Revelation",
+        "Psalms",
+        "Isaiah"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Revelation describes the New Heaven and New Earth as part of the eschatological vision in Christian theology."
+    },
+    {
+      "id": "judgment-q5",
+      "question": "Who proposed the idea of heaven as a 'beatific vision' where one sees God face to face?",
+      "options": [
+        "Thomas Aquinas",
+        "Martin Luther",
+        "John Calvin",
+        "St. Augustine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Thomas Aquinas proposed the beatific vision as the ultimate direct communication with God, where believers see Him face to face."
+    },
+    {
+      "id": "judgment-q6",
+      "question": "What is the term for the belief in an intermediate state where souls are purified before entering heaven?",
+      "options": [
+        "Purgatory",
+        "Limbo",
+        "Sheol",
+        "Gehenna"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Purgatory is a Catholic doctrine describing an intermediate state for purification before entering heaven."
+    },
+    {
+      "id": "judgment-q7",
+      "question": "Which council affirmed the existence of purgatory in response to the Protestant Reformation?",
+      "options": [
+        "Council of Trent",
+        "Council of Nicaea",
+        "Council of Chalcedon",
+        "Vatican II"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Council of Trent (1545-1563) affirmed purgatory's existence in response to Protestant criticisms."
+    },
+    {
+      "id": "judgment-q8",
+      "question": "According to John Hick, what is the purpose of the afterlife?",
+      "options": [
+        "Moral Development",
+        "Immediate Judgment",
+        "Eternal Punishment",
+        "Divine Reward"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick viewed the afterlife as an opportunity for souls to continue their moral and spiritual development."
+    },
+    {
+      "id": "judgment-q9",
+      "question": "Which theological concept suggests that heaven is not a place but a relationship with God?",
+      "options": [
+        "Immanence",
+        "Eschatology",
+        "Relational Theology",
+        "Transcendence"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Relational theology posits that heaven is a state of being in perfect relationship with God, rather than a physical place."
+    },
+    {
+      "id": "judgment-q10",
+      "question": "Jane believes that her good deeds on Earth will directly determine her place in heaven. Which theological belief does this represent?",
+      "options": [
+        "Works Righteousness",
+        "Sola Fide",
+        "Predestination",
+        "Universalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Works righteousness is the belief that one's actions and deeds can earn a place in heaven."
+    },
+    {
+      "id": "judgment-q11",
+      "question": "A researcher conducts a study comparing beliefs about the afterlife across different cultures. What methodological consideration is most important?",
+      "options": [
+        "Sample Size",
+        "Cultural Bias",
+        "Statistical Significance",
+        "Temporal Validity"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Cultural bias must be considered to ensure that interpretations accurately reflect diverse cultural perspectives."
+    },
+    {
+      "id": "judgment-q12",
+      "question": "A theologian argues that universal salvation undermines the concept of justice. What aspect of the argument should be evaluated?",
+      "options": [
+        "Moral Implications",
+        "Historical Context",
+        "Logical Consistency",
+        "Empirical Evidence"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Evaluating logical consistency helps determine whether the argument coherently addresses the relationship between universal salvation and justice."
+    },
+    {
+      "id": "judgment-q13",
+      "question": "John Calvin's doctrine of predestination emphasizes which aspect of salvation?",
+      "options": [
+        "Human Free Will",
+        "God's Sovereignty",
+        "Moral Actions",
+        "Universal Redemption"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Calvin's predestination doctrine highlights God's sovereignty in determining who is saved, independent of human actions."
+    },
+    {
+      "id": "judgment-q14",
+      "question": "Sarah encounters a near-death experience and claims to have seen a bright light and felt peace. Which interpretation aligns with empirical studies?",
+      "options": [
+        "Psychological Phenomenon",
+        "Proof of Heaven",
+        "Delusion",
+        "Hallucination"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Empirical studies often interpret near-death experiences as psychological phenomena rather than definitive proof of heaven."
+    },
+    {
+      "id": "judgment-q15",
+      "question": "In evaluating the concept of heaven as eternal bliss, what critical perspective might a philosopher offer?",
+      "options": [
+        "Existential Relevance",
+        "Empirical Verification",
+        "Logical Paradox",
+        "Semantic Ambiguity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Philosophers might question the existential relevance of heaven as eternal bliss, probing its implications for meaningful existence."
+    }
+  ]
+}

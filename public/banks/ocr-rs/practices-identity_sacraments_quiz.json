@@ -1,0 +1,193 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "practices-identity",
+  "topicTitle": "Practices Shaping Religious Identity",
+  "subTopic": "sacraments",
+  "subTopicTitle": "Sacraments",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:57:25.738Z",
+  "items": [
+    {
+      "id": "sacraments-q1",
+      "question": "In Christian theology, which sacrament is primarily associated with the forgiveness of sins?",
+      "options": [
+        "Baptism",
+        "Eucharist",
+        "Confirmation",
+        "Anointing of the Sick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Baptism is considered the sacrament that washes away original sin according to Christian doctrine."
+    },
+    {
+      "id": "sacraments-q2",
+      "question": "Which of the following sacraments is explicitly linked to the concept of transubstantiation in Catholic theology?",
+      "options": [
+        "Eucharist",
+        "Baptism",
+        "Marriage",
+        "Confirmation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Catholic doctrine of transubstantiation is the change of the substance of bread and wine into the Body and Blood of Christ during the Eucharist."
+    },
+    {
+      "id": "sacraments-q3",
+      "question": "Who conducted a significant study on the impact of sacraments on religious identity in 1998?",
+      "options": [
+        "Grace Davie",
+        "Emile Durkheim",
+        "Rodney Stark",
+        "Elaine Pagels"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Grace Davie explored religious practices and their importance in shaping religious identity in her 1998 study."
+    },
+    {
+      "id": "sacraments-q4",
+      "question": "Which sacrament is commonly associated with the rite of passage into adulthood in many Christian denominations?",
+      "options": [
+        "Confirmation",
+        "Baptism",
+        "Ordination",
+        "Anointing of the Sick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Confirmation is seen as the rite of passage into spiritual adulthood in many Christian traditions."
+    },
+    {
+      "id": "sacraments-q5",
+      "question": "According to the Council of Trent (1545-1563), how many sacraments are recognized by the Catholic Church?",
+      "options": [
+        "Seven",
+        "Five",
+        "Three",
+        "Nine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Council of Trent recognized seven sacraments as essential to Catholic doctrine."
+    },
+    {
+      "id": "sacraments-q6",
+      "question": "Which sacrament is traditionally believed to confer the Holy Spirit upon the recipient?",
+      "options": [
+        "Confirmation",
+        "Baptism",
+        "Eucharist",
+        "Reconciliation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Confirmation is believed to confer the Holy Spirit upon the recipient, completing the grace of Baptism."
+    },
+    {
+      "id": "sacraments-q7",
+      "question": "Which sacrament is often performed at the bedside of a dying person in Catholicism?",
+      "options": [
+        "Anointing of the Sick",
+        "Baptism",
+        "Holy Orders",
+        "Marriage"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Anointing of the Sick is administered to bring spiritual and physical strength during illness or near death."
+    },
+    {
+      "id": "sacraments-q8",
+      "question": "In Eastern Orthodox Christianity, which sacrament is equivalent to the Catholic Eucharist?",
+      "options": [
+        "Divine Liturgy",
+        "Chrismation",
+        "Baptism",
+        "Penance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Divine Liturgy in Eastern Orthodox Christianity includes the Eucharist, similar to the Catholic tradition."
+    },
+    {
+      "id": "sacraments-q9",
+      "question": "Which of the following did Martin Luther argue was not a true sacrament during the Protestant Reformation?",
+      "options": [
+        "Marriage",
+        "Baptism",
+        "Eucharist",
+        "Confirmation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Martin Luther argued that marriage was not a true sacrament as it was not instituted by Christ."
+    },
+    {
+      "id": "sacraments-q10",
+      "question": "A student observes a Confirmation ceremony and notes the laying on of hands by a bishop. What is the significance of this action?",
+      "options": [
+        "It symbolizes the passing of the Holy Spirit.",
+        "It signifies entry into the church community.",
+        "It represents the forgiveness of sins.",
+        "It marks the beginning of one's ministry."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The laying on of hands in Confirmation symbolizes the passing of the Holy Spirit to the confirmand."
+    },
+    {
+      "id": "sacraments-q11",
+      "question": "During a Eucharistic celebration, a priest mistakenly refers to the 'symbolic presence' of Christ. How might this statement conflict with Catholic doctrine?",
+      "options": [
+        "Catholic doctrine teaches the real presence, not merely symbolic.",
+        "It contradicts the idea of transubstantiation.",
+        "Catholics believe in a spiritual, not symbolic, presence.",
+        "It undermines the importance of the Eucharist."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Catholic doctrine asserts the real presence of Christ in the Eucharist, not merely symbolic."
+    },
+    {
+      "id": "sacraments-q12",
+      "question": "A researcher uses a survey to assess the impact of sacraments on religious commitment. What methodological limitation might they face?",
+      "options": [
+        "Surveys may not capture the depth of personal religious experience.",
+        "Surveys can only be used for quantitative data.",
+        "Surveys are always biased towards the researcher's views.",
+        "Surveys cannot be used to study religious practices."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Surveys may not capture the depth and nuance of personal religious experiences related to sacraments."
+    },
+    {
+      "id": "sacraments-q13",
+      "question": "Which methodological approach might be most effective in studying the personal impact of sacraments on individuals?",
+      "options": [
+        "Qualitative interviews",
+        "Quantitative surveys",
+        "Experimental methods",
+        "Content analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Qualitative interviews allow for in-depth exploration of individuals' personal experiences with sacraments."
+    },
+    {
+      "id": "sacraments-q14",
+      "question": "How does the Eastern Orthodox view on sacraments differ from the Roman Catholic view?",
+      "options": [
+        "Eastern Orthodox focus more on mystery, while Catholics focus on legal definitions.",
+        "Eastern Orthodox have more sacraments.",
+        "Catholics allow non-Christians to participate.",
+        "Eastern Orthodox deny the real presence in the Eucharist."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Eastern Orthodox Christianity emphasizes the mystery of the sacraments more than legalistic definitions used in Catholicism."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "death-afterlife",
+  "topicTitle": "Death & Afterlife",
+  "subTopic": "eschatology",
+  "subTopicTitle": "Eschatological Beliefs",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:54:11.177Z",
+  "items": [
+    {
+      "id": "eschatology-q1",
+      "question": "Which term describes the Christian belief in the resurrection of the body at the end of time?",
+      "options": [
+        "Bodily resurrection",
+        "Reincarnation",
+        "Spiritual resurrection",
+        "Annihilation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bodily resurrection refers to the belief in the physical rising of the dead at the end of times, as per Christian eschatology."
+    },
+    {
+      "id": "eschatology-q2",
+      "question": "What is the primary focus of eschatological beliefs?",
+      "options": [
+        "The end times",
+        "The beginning of time",
+        "The nature of God",
+        "The creation of the universe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Eschatology is the study of the end times, focusing on the ultimate destiny of humanity as per religious beliefs."
+    },
+    {
+      "id": "eschatology-q3",
+      "question": "According to Christianity, what is the final destination for the righteous?",
+      "options": [
+        "Heaven",
+        "Limbo",
+        "Purgatory",
+        "Hell"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Christian doctrine typically holds that the righteous will be rewarded with eternal life in Heaven."
+    },
+    {
+      "id": "eschatology-q4",
+      "question": "Which religious text is the primary source for Islamic eschatological beliefs?",
+      "options": [
+        "Qur'an",
+        "Bible",
+        "Torah",
+        "Vedas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Qur'an is the holy book of Islam and outlines the eschatological beliefs regarding the Day of Judgment."
+    },
+    {
+      "id": "eschatology-q5",
+      "question": "Which scholar proposed the idea that eschatological beliefs serve a psychological function?",
+      "options": [
+        "Carl Jung",
+        "Sigmund Freud",
+        "Emile Durkheim",
+        "Max Weber"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Carl Jung suggested that eschatological beliefs provide psychological comfort by addressing existential questions."
+    },
+    {
+      "id": "eschatology-q6",
+      "question": "In which year did N.T. Wright publish 'Surprised by Hope', a significant work on Christian eschatology?",
+      "options": [
+        "2008",
+        "1995",
+        "2015",
+        "1987"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Surprised by Hope', published in 2008, is a key text by N.T. Wright that explores Christian beliefs about the afterlife."
+    },
+    {
+      "id": "eschatology-q7",
+      "question": "What does the term 'Parousia' refer to in Christian theology?",
+      "options": [
+        "The second coming of Christ",
+        "The creation of the world",
+        "The ascension of Jesus",
+        "The crucifixion of Jesus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Parousia is a term used to describe the anticipated second coming of Christ in Christian eschatology."
+    },
+    {
+      "id": "eschatology-q8",
+      "question": "Which concept involves a temporary state of purification before entering heaven, according to Catholic doctrine?",
+      "options": [
+        "Purgatory",
+        "Limbo",
+        "Annihilation",
+        "Bardo"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Purgatory is a doctrine in Catholicism that describes a temporary state where souls are purified before entering heaven."
+    },
+    {
+      "id": "eschatology-q9",
+      "question": "According to the Book of Revelation, what is the number associated with the Beast, which has eschatological significance?",
+      "options": [
+        "666",
+        "777",
+        "888",
+        "999"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Revelation 13:18 associates the number 666 with the Beast, often interpreted in eschatological contexts."
+    },
+    {
+      "id": "eschatology-q10",
+      "question": "A family is discussing their beliefs about what happens after death. They mention reincarnation as their expectation. Which religious tradition are they likely influenced by?",
+      "options": [
+        "Hinduism",
+        "Christianity",
+        "Islam",
+        "Judaism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Reincarnation is a belief commonly associated with Hinduism, where the soul is reborn into a new body."
+    },
+    {
+      "id": "eschatology-q11",
+      "question": "A group of students are debating the symbolic versus literal interpretation of scriptures regarding the end times. Which methodological approach does this debate touch upon?",
+      "options": [
+        "Hermeneutics",
+        "Empiricism",
+        "Structuralism",
+        "Positivism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Hermeneutics involves interpreting the meaning of texts, often debating literal versus symbolic interpretations."
+    },
+    {
+      "id": "eschatology-q12",
+      "question": "In a survey, 60% of respondents believe in life after death. How might this data influence religious institutions?",
+      "options": [
+        "Develop more afterlife teachings",
+        "Ignore the data",
+        "Focus on creation stories",
+        "Emphasize scientific teachings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A high belief in life after death may encourage religious institutions to focus on doctrines and teachings related to the afterlife."
+    },
+    {
+      "id": "eschatology-q13",
+      "question": "What is a potential criticism of using religious texts as sole evidence for eschatological beliefs?",
+      "options": [
+        "Lack of empirical evidence",
+        "Overreliance on secular sources",
+        "Focus on scientific methodology",
+        "Excessive use of quantitative analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Religious texts lack empirical evidence, which can be a limitation when solely used to support eschatological beliefs."
+    },
+    {
+      "id": "eschatology-q14",
+      "question": "How does the eschatological view in Buddhism differ from that in Christianity?",
+      "options": [
+        "Focus on enlightenment vs. judgment",
+        "Both emphasize heaven",
+        "Both emphasize resurrection",
+        "Focus on eternal punishment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Buddhism focuses on enlightenment and liberation from the cycle of rebirth, whereas Christianity often emphasizes judgment and resurrection."
+    },
+    {
+      "id": "eschatology-q15",
+      "question": "Which methodological critique can be applied to comparative studies of eschatology across different religions?",
+      "options": [
+        "Cultural bias",
+        "Lack of qualitative data",
+        "Overemphasis on empirical analysis",
+        "Neglect of quantitative data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Comparative studies of eschatology may suffer from cultural bias, affecting the interpretation of beliefs across different religions."
+    }
+  ]
+}

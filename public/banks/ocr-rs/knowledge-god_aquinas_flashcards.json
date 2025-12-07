@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "aquinas",
+  "subTopicTitle": "Aquinas' Five Ways",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T13:02:46.074Z",
+  "items": [
+    {
+      "question": "What is Aquinas' First Way?",
+      "answer": "The First Way is the Argument from Motion, which states that everything in motion is moved by something else, ultimately leading to a First Mover, identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Aquinas' Second Way.",
+      "answer": "The Second Way is the Argument from Causation, which claims that every effect has a cause and there must be an uncaused First Cause, which is God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Aquinas' Third Way?",
+      "answer": "The Third Way is the Argument from Contingency, suggesting that because things exist contingently, there must be a necessary being that causes existence, identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Aquinas' Fourth Way.",
+      "answer": "The Fourth Way is the Argument from Gradation, asserting that the existence of varying degrees of perfection implies a perfect being, which is God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Aquinas' Fifth Way?",
+      "answer": "The Fifth Way is the Argument from Design, proposing that the order and purpose observed in the world suggest the existence of an intelligent designer, which is God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Paley (1802) find about design?",
+      "answer": "Paley argued from the watchmaker analogy that the complexity and purpose in natural objects indicate a designer, analogous to a watch, implying God's existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'contingency' in Aquinas' Third Way.",
+      "answer": "Contingency refers to things that exist but could possibly not exist; they are dependent on something else for their existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is meant by 'uncaused cause'?",
+      "answer": "An uncaused cause is a first cause that itself was not caused by anything else, necessary for explaining the existence of causation.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What does 'necessary being' mean in Aquinas' context?",
+      "answer": "A necessary being is one that must exist by its own nature and is not dependent on anything else, considered by Aquinas to be God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'teleological argument' in relation to Aquinas.",
+      "answer": "The teleological argument, or argument from design, claims that the order and purpose found in the universe are best explained by the existence of an intelligent designer, i.e., God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the purpose of Aquinas' Five Ways?",
+      "answer": "Aquinas' Five Ways aim to demonstrate the existence of God using logical arguments based on observation of the natural world.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What role does observation play in Aquinas' arguments?",
+      "answer": "Observation of the natural world is central to Aquinas' arguments, as they are empirical, drawing conclusions about God’s existence from what we perceive.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply Aquinas' First Way to this scenario: A rolling ball on a flat surface.",
+      "answer": "According to the First Way, the ball's motion must have been initiated by something else, implying a First Mover that set all things in motion.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Aquinas' Second Way apply to the existence of the universe?",
+      "answer": "The universe's existence as an effect requires a cause, and the Second Way argues for a First Cause that is not caused by anything else, namely God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Aquinas' Third Way to a scenario of a tree growing.",
+      "answer": "The tree's existence is contingent and relies on external factors; the Third Way posits a necessary being that causes contingent beings to exist.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How might Aquinas' Fourth Way be applied to moral values?",
+      "answer": "The gradation of moral values suggests a standard of maximum goodness or perfection, which the Fourth Way identifies as God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Aquinas' Five Ways.",
+      "answer": "Aquinas' Five Ways provide logical, accessible arguments that use empirical evidence from the natural world, making them relatable and understandable.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Aquinas' arguments.",
+      "answer": "Aquinas' reliance on empirical observation may not conclusively lead to the existence of the Christian God, as other explanations for order and causation exist.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Aquinas' Five Ways.",
+      "answer": "Aquinas' use of empirical observation is both a strength and a limitation, as it grounds arguments in reality but also limits them to observable phenomena.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Critique the causation principle in Aquinas' Second Way.",
+      "answer": "The assumption that every effect has a cause is challenged by modern physics, which suggests the possibility of uncaused events at the quantum level.",
+      "ao": "AO3"
+    }
+  ]
+}

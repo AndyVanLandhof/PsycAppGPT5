@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "kantian-ethics",
+  "topicTitle": "Kantian Ethics",
+  "subTopic": "challenges",
+  "subTopicTitle": "Criticisms of Kant",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:57:40.884Z",
+  "items": [
+    {
+      "question": "What is Kant's Categorical Imperative?",
+      "answer": "A universal moral law stating that one should only act according to maxims that can be willed as universal laws.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Kant's concept of 'good will'.",
+      "answer": "The only intrinsically good thing, according to Kant, is a good will, which acts from duty in accordance with moral law.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the difference between hypothetical and categorical imperatives according to Kant?",
+      "answer": "Hypothetical imperatives are conditional and depend on desires; categorical imperatives are unconditional moral laws.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Kant argue about duty?",
+      "answer": "Kant argued that moral actions are performed out of duty and not inclination or consequence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Kant's principle of 'universalizability'?",
+      "answer": "An action is only morally acceptable if the maxim guiding it can be willed as a universal law.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define Kant's 'Kingdom of Ends'.",
+      "answer": "A hypothetical state where all individuals act according to maxims that treat others as ends in themselves.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'Formula of Humanity' in Kantian ethics?",
+      "answer": "The principle that one should never treat humanity, in oneself or others, merely as a means to an end.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Kant's view on lying?",
+      "answer": "Kant argued that lying is always morally wrong as it cannot be universalized without contradiction.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the problem of conflicting duties in Kantian ethics?",
+      "answer": "A criticism that Kantian ethics does not adequately address situations where duties conflict.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Alasdair MacIntyre argue about Kantian ethics?",
+      "answer": "MacIntyre criticized Kantian ethics for being overly rigid and not accounting for moral context.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'deontological ethics'.",
+      "answer": "An ethical theory that emphasizes duties and rules, rather than consequences, to determine moral actions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Hegel criticize about Kant's ethics?",
+      "answer": "Hegel argued that Kant's ethics neglects the development of individual moral character and social contexts.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Apply Kantian ethics to this scenario: Breaking a promise to help a friend.",
+      "answer": "Kantian ethics would argue against breaking a promise, as it cannot be universalized without contradiction.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Kantian ethics apply to the issue of euthanasia?",
+      "answer": "Kantian ethics would generally oppose euthanasia as it treats life as a means to an end, not respecting the Categorical Imperative.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Categorical Imperative to the scenario of stealing food to survive.",
+      "answer": "Stealing cannot be universalized as a law without contradiction, so it is not permissible under Kantian ethics, despite survival.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does Kantian ethics approach the scenario of telling a lie to protect someone?",
+      "answer": "Kantian ethics would argue against lying, as it cannot be universalized, even to protect someone.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of Kantian ethics.",
+      "answer": "A strength is its emphasis on moral duty and universalizability, providing a clear guideline for ethical behavior.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Kantian ethics.",
+      "answer": "A limitation is its rigidity; it does not account for exceptions or the complexity of moral situations.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Kant's ethical theory.",
+      "answer": "Kant's deductive reasoning provides clarity and consistency, but critics argue it lacks empirical validation and adaptability.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate Kant's response to moral dilemmas.",
+      "answer": "Kant's theory struggles with moral dilemmas due to its inflexible nature, often criticized for not providing practical solutions.",
+      "ao": "AO3"
+    }
+  ]
+}

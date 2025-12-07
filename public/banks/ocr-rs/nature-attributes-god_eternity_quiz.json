@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "nature-attributes-god",
+  "topicTitle": "Nature or Attributes of God",
+  "subTopic": "eternity",
+  "subTopicTitle": "Eternity and Free Will",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:35:48.087Z",
+  "items": [
+    {
+      "id": "eternity-q1",
+      "question": "Which philosopher is known for the timeless view of God's eternity?",
+      "options": [
+        "Boethius",
+        "Anselm",
+        "Aquinas",
+        "Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Boethius (c. 480–524) famously described God's eternity as timeless in 'The Consolation of Philosophy'."
+    },
+    {
+      "id": "eternity-q2",
+      "question": "What is the term used to describe God's attribute of being all-knowing?",
+      "options": [
+        "Omnipotence",
+        "Omnipresence",
+        "Omniscience",
+        "Omnibenevolence"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Omniscience refers to the attribute of God being all-knowing, as discussed in various theological texts."
+    },
+    {
+      "id": "eternity-q3",
+      "question": "Which philosopher proposed that God experiences time in a sequential manner?",
+      "options": [
+        "Boethius",
+        "Aquinas",
+        "Swinburne",
+        "Kierkegaard"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Richard Swinburne, a contemporary philosopher, argues in favor of God experiencing time sequentially."
+    },
+    {
+      "id": "eternity-q4",
+      "question": "What is the main critique of the eternal view of God in relation to human free will?",
+      "options": [
+        "It supports predestination.",
+        "It limits God's power.",
+        "It contradicts the notion of divine foreknowledge.",
+        "It undermines the immutability of God."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The eternal view challenges the coherence of divine foreknowledge and human free will, as it seems God already knows future actions."
+    },
+    {
+      "id": "eternity-q5",
+      "question": "In which theological work does Anselm discuss the concept of God as 'that than which nothing greater can be conceived'?",
+      "options": [
+        "Monologion",
+        "Proslogion",
+        "Summa Theologica",
+        "The City of God"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Anselm presents the ontological argument in 'Proslogion', describing God as the greatest conceivable being."
+    },
+    {
+      "id": "eternity-q6",
+      "question": "How does Aquinas propose God interacts with time?",
+      "options": [
+        "God is outside of time and sees all times simultaneously.",
+        "God moves sequentially through time like humans.",
+        "God is limited by time but not space.",
+        "God can only act at specific times."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas, in 'Summa Theologica', argues God exists outside time, viewing all times simultaneously."
+    },
+    {
+      "id": "eternity-q7",
+      "question": "Which philosopher argues that God's omniscience is compatible with human free will?",
+      "options": [
+        "Boethius",
+        "Aquinas",
+        "Plantinga",
+        "Descartes"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Alvin Plantinga argues that God's omniscience includes knowing free actions, preserving human free will."
+    },
+    {
+      "id": "eternity-q8",
+      "question": "Which term describes God existing outside of time?",
+      "options": [
+        "Temporal",
+        "Immutability",
+        "Atemporal",
+        "Immutable"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Atemporal refers to God existing outside time, a concept supported by thinkers like Boethius."
+    },
+    {
+      "id": "eternity-q9",
+      "question": "What is a key challenge of the belief in an eternal God?",
+      "options": [
+        "It contradicts God's omnipotence.",
+        "It implies God cannot know the future.",
+        "It poses issues for understanding prayer and divine interaction.",
+        "It denies God’s omniscience."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "An eternal God presents challenges for prayer and divine interaction, as traditionally these require temporal engagement."
+    },
+    {
+      "id": "eternity-q10",
+      "question": "Scenario: A student claims that if God knows their future actions, they cannot act freely. Which philosophical position does this scenario relate to?",
+      "options": [
+        "Determinism",
+        "Compatibilism",
+        "Libertarianism",
+        "Fatalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Determinism is the belief that all events, including human actions, are determined by previously existing causes."
+    },
+    {
+      "id": "eternity-q11",
+      "question": "Scenario: A philosopher argues that God's knowledge is timeless, and thus God knows all events simultaneously without affecting human choice. What is this view called?",
+      "options": [
+        "Open Theism",
+        "Simple Foreknowledge",
+        "Timeless Knowledge",
+        "Middle Knowledge"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Timeless Knowledge posits that God, being outside of time, knows all events simultaneously, preserving human freedom."
+    },
+    {
+      "id": "eternity-q12",
+      "question": "Scenario: In a debate, a student uses Boethius's concept of God seeing all events at once as a counter-argument to predestination. What concept are they supporting?",
+      "options": [
+        "Temporal Knowledge",
+        "Eternal Present",
+        "Divine Simplicity",
+        "Contingency"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The concept of Eternal Present suggests God sees past, present, and future simultaneously, which supports the coexistence of free will."
+    },
+    {
+      "id": "eternity-q13",
+      "question": "What methodological issue arises when comparing the eternal and everlasting views of God?",
+      "options": [
+        "Lack of empirical evidence",
+        "Inconsistent use of philosophical terminology",
+        "Theological bias in interpretations",
+        "Difficulty in defining timeless existence"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Defining timeless existence is a key challenge, as it is a complex concept without empirical parallels."
+    },
+    {
+      "id": "eternity-q14",
+      "question": "Who is known for proposing the 'Middle Knowledge' theory?",
+      "options": [
+        "Molina",
+        "Calvin",
+        "Luther",
+        "Hume"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Luis de Molina proposed Middle Knowledge, which reconciles divine foreknowledge with human free will."
+    },
+    {
+      "id": "eternity-q15",
+      "question": "Which term describes the belief that God is limited in power and knowledge, allowing for human free will?",
+      "options": [
+        "Openness",
+        "Finite Theism",
+        "Process Theology",
+        "Deism"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Process Theology suggests God is not omnipotent or omniscient in a traditional sense, allowing for human free will."
+    }
+  ]
+}

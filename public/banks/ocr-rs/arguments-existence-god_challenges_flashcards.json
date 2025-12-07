@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "arguments-existence-god",
+  "topicTitle": "Arguments for the Existence of God",
+  "subTopic": "challenges",
+  "subTopicTitle": "Critiques of These Arguments",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:52:23.634Z",
+  "items": [
+    {
+      "question": "What is the Ontological Argument?",
+      "answer": "An a priori argument for God's existence, proposing that God, being the greatest conceivable being, must exist in reality if He exists in the mind.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the Cosmological Argument.",
+      "answer": "An a posteriori argument suggesting that everything has a cause, and the universe's existence leads to the necessity of an uncaused first cause, identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did William Paley propose in 1802?",
+      "answer": "The Teleological Argument, using the watchmaker analogy to argue that the complexity of the universe implies a designer, God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the Moral Argument for God's existence.",
+      "answer": "An argument asserting that objective moral values exist and are best explained by the existence of a moral lawgiver, God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Anselm's Ontological Argument (1078)?",
+      "answer": "Anselm argued that God, being the greatest conceivable being, must exist in reality because existence in reality is greater than existence in the mind alone.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Thomas Aquinas argue about the Cosmological Argument?",
+      "answer": "Aquinas proposed the 'Five Ways', arguing that the existence of God can be proven through observation of causation, motion, contingency, perfection, and design.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the Kalam Cosmological Argument?",
+      "answer": "A philosophical argument stating that the universe has a beginning and therefore must have a cause, which is identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define David Hume's critique of the Teleological Argument.",
+      "answer": "Hume argued that the analogy between human artifacts and the universe is weak and that the existence of evil challenges the idea of an all-powerful, benevolent designer.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Immanuel Kant argue about the Ontological Argument?",
+      "answer": "Kant argued that existence is not a predicate and that the concept of God does not necessitate God's actual existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the Principle of Sufficient Reason.",
+      "answer": "A principle stating that everything must have a reason or cause, often used in the Cosmological Argument to justify the existence of God as the ultimate cause.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is Richard Dawkins' critique of the Teleological Argument?",
+      "answer": "Dawkins argues that natural selection provides a better explanation for the complexity of life than intelligent design.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the concept of 'necessary being' in the Cosmological Argument.",
+      "answer": "A necessary being is one that must exist by its nature and does not depend on anything else for its existence, often identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the Ontological Argument apply to this scenario: A person feels that the concept of God entails His existence?",
+      "answer": "The scenario reflects Anselm's argument that the concept of God as the greatest conceivable being implies that God must exist in reality.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Teleological Argument to this scenario: A person is amazed by the complexity of the human eye.",
+      "answer": "The scenario supports Paley's analogy that complex structures like the eye suggest a designer, which the Teleological Argument identifies as God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the Cosmological Argument apply to this scenario: Someone questions why the universe exists at all?",
+      "answer": "The scenario aligns with the Cosmological Argument's assertion that the universe's existence requires an initial uncaused cause, identified as God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the Moral Argument to this scenario: A person believes in objective moral values.",
+      "answer": "The scenario reflects the Moral Argument's claim that objective moral values are best explained by the existence of a divine moral lawgiver, God.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the Cosmological Argument.",
+      "answer": "It provides a straightforward explanation for the universe's existence, appealing to the intuitive principle that everything must have a cause.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the Ontological Argument.",
+      "answer": "It relies on abstract reasoning and does not provide empirical evidence, which some argue is insufficient for proving God's existence.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of William Paley's Teleological Argument.",
+      "answer": "Paley uses analogy, which is criticized for assuming similarity between man-made objects and the universe, leading to questionable conclusions about a divine designer.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Anselm's Ontological Argument.",
+      "answer": "Relies on a priori reasoning, criticized for assuming that conceptual existence implies actual existence, which some philosophers, like Kant, reject.",
+      "ao": "AO3"
+    }
+  ]
+}

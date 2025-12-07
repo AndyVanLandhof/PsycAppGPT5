@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "problem-of-evil",
+  "topicTitle": "Problem of Evil",
+  "subTopic": "evidential",
+  "subTopicTitle": "Evidential Problem of Evil",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:37:39.424Z",
+  "items": [
+    {
+      "id": "evidential-q1",
+      "question": "What does the evidential problem of evil primarily argue?",
+      "options": [
+        "The existence of evil makes the existence of an all-loving, all-powerful God improbable.",
+        "Evil exists because God allows free will.",
+        "The existence of evil is compatible with an all-powerful God.",
+        "Evil is necessary for soul-making."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The evidential problem of evil argues that the amount and types of evil make it improbable that an omnibenevolent, omnipotent God exists."
+    },
+    {
+      "id": "evidential-q2",
+      "question": "Which philosopher is most associated with the evidential problem of evil?",
+      "options": [
+        "William Rowe",
+        "Alvin Plantinga",
+        "Augustine of Hippo",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Rowe is known for articulating the evidential problem of evil, particularly in his 1979 paper 'The Problem of Evil and Some Varieties of Atheism'."
+    },
+    {
+      "id": "evidential-q3",
+      "question": "Which of the following is an example of gratuitous evil according to Rowe?",
+      "options": [
+        "A fawn suffering in a forest fire",
+        "Natural disasters such as earthquakes",
+        "Human actions like theft and murder",
+        "The concept of original sin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rowe uses the example of a fawn suffering in a forest fire to illustrate gratuitous evil—evil that seems to serve no greater purpose."
+    },
+    {
+      "id": "evidential-q4",
+      "question": "In what year did William Rowe publish his influential paper on the problem of evil?",
+      "options": [
+        "1979",
+        "1968",
+        "1985",
+        "1992"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Rowe's seminal paper 'The Problem of Evil and Some Varieties of Atheism' was published in 1979."
+    },
+    {
+      "id": "evidential-q5",
+      "question": "What is the main difference between moral and natural evil?",
+      "options": [
+        "Moral evil results from human actions, while natural evil results from natural processes.",
+        "Moral evil is intentional, while natural evil is accidental.",
+        "Moral evil is always greater than natural evil.",
+        "Moral evil has a religious aspect, while natural evil does not."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moral evil is caused by human actions, while natural evil arises from natural events and processes."
+    },
+    {
+      "id": "evidential-q6",
+      "question": "Which term describes the idea that evil is necessary for free will?",
+      "options": [
+        "Free Will Defense",
+        "Soul-Making Theodicy",
+        "Moral Evil Justification",
+        "Greater Good Argument"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Free Will Defense suggests that evil is a necessary consequence of God granting humans free will."
+    },
+    {
+      "id": "evidential-q7",
+      "question": "What does the term 'gratuitous evil' refer to?",
+      "options": [
+        "Evil that seems unnecessary and serves no greater purpose",
+        "Evil that is justified by a greater good",
+        "Evil that is a result of natural disasters",
+        "Evil that is a direct consequence of human actions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Gratuitous evil refers to unnecessary evil that appears to serve no purpose in a greater plan."
+    },
+    {
+      "id": "evidential-q8",
+      "question": "Which philosopher is known for the 'soul-making theodicy'?",
+      "options": [
+        "John Hick",
+        "David Hume",
+        "Gottfried Leibniz",
+        "Richard Swinburne"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Hick developed the 'soul-making theodicy', arguing that evil and suffering are necessary for spiritual development."
+    },
+    {
+      "id": "evidential-q9",
+      "question": "What is the 'logical problem of evil' focused on?",
+      "options": [
+        "The contradiction between the existence of evil and an omnipotent, omnibenevolent God",
+        "The improbability of God's existence due to the amount of evil",
+        "The necessity of evil for moral development",
+        "The historical context of evil in religious texts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The logical problem of evil argues that the existence of evil is logically incompatible with the existence of an all-powerful, all-loving God."
+    },
+    {
+      "id": "evidential-q10",
+      "question": "A town is devastated by a hurricane, causing significant suffering and loss of life. How might the evidential problem of evil interpret this event?",
+      "options": [
+        "It is evidence against the existence of an omnibenevolent, omnipotent God.",
+        "It serves as a test of faith for the town's inhabitants.",
+        "It is an example of moral evil due to human decisions.",
+        "It is a natural consequence of global warming."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The evidential problem of evil would interpret the hurricane as gratuitous suffering, questioning the existence of a benevolent, powerful deity."
+    },
+    {
+      "id": "evidential-q11",
+      "question": "In a case study, a child suffers from a terminal illness. How might an advocate of the Free Will Defense respond?",
+      "options": [
+        "The illness is not a result of free will but a natural evil.",
+        "The illness serves a greater purpose in God's plan.",
+        "The illness is a test of the family's faith.",
+        "The illness results from the child's past actions."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "An advocate of the Free Will Defense might argue that natural evils like illness aren't directly related to free will, but are part of the broader consequences of a free world."
+    },
+    {
+      "id": "evidential-q12",
+      "question": "A philosopher argues that the existence of evil is necessary for humans to develop virtues like courage. What theory might they be endorsing?",
+      "options": [
+        "Soul-Making Theodicy",
+        "Logical Problem of Evil",
+        "Gratuitous Evil Argument",
+        "Natural Evil Justification"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Soul-Making Theodicy, advocated by John Hick, suggests that evil and suffering are necessary for spiritual and moral development."
+    },
+    {
+      "id": "evidential-q13",
+      "question": "What is a critique of the Free Will Defense in addressing natural evil?",
+      "options": [
+        "Natural evil is not a consequence of human free will.",
+        "Free will should only lead to moral evil.",
+        "The Free Will Defense doesn't address human suffering.",
+        "It overestimates the extent of human freedom."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A common critique is that natural evils, such as earthquakes, aren't a result of human free will, thus not addressed by the Free Will Defense."
+    },
+    {
+      "id": "evidential-q14",
+      "question": "How does the evidential problem of evil differ from the logical problem of evil?",
+      "options": [
+        "The evidential problem focuses on the probability of God's existence given evil, while the logical problem focuses on the logical inconsistency.",
+        "The evidential problem deals with moral evil, while the logical problem deals with natural evil.",
+        "The evidential problem is a modern issue, while the logical problem is ancient.",
+        "The evidential problem is solved by free will, while the logical problem is not."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The evidential problem of evil argues from improbability, while the logical problem claims a contradiction between the existence of evil and an omnipotent, omnibenevolent God."
+    },
+    {
+      "id": "evidential-q15",
+      "question": "Which argument is often used to counter the evidential problem of evil by suggesting evil leads to greater goods?",
+      "options": [
+        "Greater Good Defense",
+        "Free Will Defense",
+        "Logical Consistency Argument",
+        "Natural Order Theodicy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Greater Good Defense posits that certain evils are necessary for achieving greater goods, thus countering the evidential problem."
+    }
+  ]
+}

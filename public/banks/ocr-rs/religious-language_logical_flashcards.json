@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "religious-language",
+  "topicTitle": "Religious Language",
+  "subTopic": "logical",
+  "subTopicTitle": "Verification/Falsification",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T12:54:27.687Z",
+  "items": [
+    {
+      "question": "What is the verification principle?",
+      "answer": "The verification principle asserts that a statement is meaningful only if it is empirically verifiable or analytically true.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the falsification principle.",
+      "answer": "The falsification principle suggests that a statement is meaningful only if it can be proven false under possible conditions.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did A.J. Ayer (1936) propose about religious language?",
+      "answer": "A.J. Ayer argued that religious language is meaningless because it cannot be empirically verified.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Karl Popper argue about scientific theories?",
+      "answer": "Karl Popper claimed that scientific theories are distinguished by their falsifiability, not their verifiability.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'analytic statement'.",
+      "answer": "An analytic statement is true by definition, such as 'All bachelors are unmarried men.'",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is an 'empirically verifiable statement'?",
+      "answer": "An empirically verifiable statement can be tested and confirmed through sensory experience.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Flew (1955) argue about religious statements?",
+      "answer": "Flew argued that religious statements are not falsifiable because believers do not allow any evidence to count against them.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'parable of the gardener'?",
+      "answer": "The parable of the gardener illustrates the idea that religious believers refuse to accept evidence against their beliefs, making their statements unfalsifiable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Wittgenstein's view differ from logical positivists?",
+      "answer": "Wittgenstein believed that religious language has meaning within its own form of life, unlike logical positivists who saw it as meaningless.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is a 'cognitive statement'?",
+      "answer": "A cognitive statement conveys factual information and can be true or false.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'non-cognitive statement'.",
+      "answer": "A non-cognitive statement expresses feelings, intentions, or commands and is not subject to truth or falsity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Hick argue about eschatological verification?",
+      "answer": "Hick proposed that religious claims can be verified after death, an idea known as eschatological verification.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does the verification principle apply to the statement: 'God exists'?",
+      "answer": "The statement 'God exists' is considered meaningless by the verification principle because it cannot be empirically verified or analytically proven.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the falsification principle to the claim: 'Miracles occur'.",
+      "answer": "The claim 'Miracles occur' is unfalsifiable if believers reject any disconfirming evidence, rendering it meaningless by the falsification principle.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does eschatological verification apply to the afterlife?",
+      "answer": "Eschatological verification suggests that claims about the afterlife can be verified after death, thus providing potential meaning.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Wittgenstein's view to religious ceremonies.",
+      "answer": "Wittgenstein would argue that religious ceremonies have meaning within their own language-games, even if not empirically verifiable.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the verification principle.",
+      "answer": "The verification principle emphasizes clarity and precision in language, promoting scientific rigor.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the verification principle.",
+      "answer": "The verification principle is self-refuting, as the principle itself is not empirically verifiable.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Ayer's verification principle.",
+      "answer": "Ayer's verification principle is criticized for being too restrictive, dismissing meaningful metaphysical and ethical statements.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate Flew's falsification principle.",
+      "answer": "Flew's falsification principle effectively challenges religious statements but may overlook the nuanced nature of religious belief.",
+      "ao": "AO3"
+    }
+  ]
+}

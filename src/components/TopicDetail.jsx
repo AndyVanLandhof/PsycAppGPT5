@@ -528,7 +528,7 @@ function TopicDetail({ topic, onBack }) {
                   <span className="text-xs text-gray-600">Review key concepts</span>
                 </button>
                 <div className="mt-2 text-center text-xs text-gray-500 bg-gray-50 rounded-lg py-2 px-3">
-                  <div>Last: <span className="font-medium">{formatLastAttempt(attemptStats.flashcards.lastAttempt)}</span></div>
+                  <div>Last: <span className="font-medium">{formatLastAttempt(attemptStats.flashcards.lastAttempt, attemptStats.flashcards.lastBank)}</span></div>
                   <div>Attempts: <span className="font-medium">{attemptStats.flashcards.count}</span></div>
                 </div>
               </div>

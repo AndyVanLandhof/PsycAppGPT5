@@ -395,6 +395,35 @@ function QuizView({ topic, onBack }) {
     return { ...q, explanation: expl };
   };
 
+  // Shuffle array using Fisher-Yates algorithm
+  const shuffleArray = (arr) => {
+    const shuffled = [...arr];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle options for a question and update correctAnswer to match new position
+  const shuffleQuestionOptions = (q) => {
+    if (!q.options || !Array.isArray(q.options) || q.options.length < 2) return q;
+    
+    const letters = ['A', 'B', 'C', 'D'];
+    const correctIndex = letters.indexOf(q.correctAnswer?.toUpperCase());
+    if (correctIndex === -1) return q;
+    
+    const correctOptionText = q.options[correctIndex];
+    const shuffledOptions = shuffleArray(q.options);
+    const newCorrectIndex = shuffledOptions.indexOf(correctOptionText);
+    
+    return {
+      ...q,
+      options: shuffledOptions,
+      correctAnswer: letters[newCorrectIndex]
+    };
+  };
+
   const loadBankIfAvailable = async () => {
     try {
       // Note: We don't check bankSet here - the caller (generateQuiz) already verified effectiveBankSet === 'lab'
@@ -409,8 +438,8 @@ function QuizView({ topic, onBack }) {
           const bankData = await response.json();
           if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
             console.log('[Quiz] Loaded', bankData.items.length, 'questions from bank file');
-            // Normalize the bank items to match expected format
-            const normalized = bankData.items.map(q => ({
+            // Normalize and SHUFFLE options so correct answer isn't always in same position
+            const normalized = bankData.items.map(q => shuffleQuestionOptions({
               question: q.question,
               options: q.options,
               correctAnswer: q.correctAnswer,
@@ -863,10 +892,10 @@ Return in this JSON format:
         // In Blind Test, immediately advance to next question (no feedback delay)
         setCurrentQuestionIndex(currentQuestionIndex + 1);
       } else {
-        // In Show the Answers, show feedback for 8s
+        // In Show the Answers, show feedback for ~5.5s
         setTimeout(() => {
           setCurrentQuestionIndex(currentQuestionIndex + 1);
-        }, 8000);
+        }, 5500);
       }
     } else {
       if (mode === 'blind') {
@@ -876,7 +905,7 @@ Return in this JSON format:
         setTimeout(() => {
           setQuizComplete(true);
           setShowResults(true);
-        }, 8000);
+        }, 5500);
       }
     }
   };

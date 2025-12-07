@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "augustine",
+  "topicTitle": "Augustine's Teachings",
+  "subTopic": "critics",
+  "subTopicTitle": "Modern Criticisms",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:52:53.762Z",
+  "items": [
+    {
+      "id": "critics-q1",
+      "question": "Which of the following concepts is central to Augustine's teaching about the human condition?",
+      "options": [
+        "Original Sin",
+        "Noble Savage",
+        "Karma",
+        "Tabula Rasa"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine's doctrine of Original Sin is key to his understanding of humanity's fallen nature."
+    },
+    {
+      "id": "critics-q2",
+      "question": "Who is a prominent critic of Augustine's pessimistic view on human nature?",
+      "options": [
+        "Pelagius",
+        "Aquinas",
+        "Aristotle",
+        "Descartes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Pelagius argued against Augustine, emphasizing human free will and the potential for goodness."
+    },
+    {
+      "id": "critics-q3",
+      "question": "What is the significance of the 'Confessions' in Augustine's teaching?",
+      "options": [
+        "It is an autobiographical account of his spiritual journey.",
+        "It is a philosophical treatise on ethics.",
+        "It is a collection of theological debates.",
+        "It is a manual on church governance."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The 'Confessions' detail Augustine's personal conversion story and his views on sin and grace."
+    },
+    {
+      "id": "critics-q4",
+      "question": "Which year is associated with the publication of Augustine's 'City of God'?",
+      "options": [
+        "426 AD",
+        "397 AD",
+        "410 AD",
+        "354 AD"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'City of God' was completed in 426 AD, addressing Rome's fall and contrasting the earthly and heavenly cities."
+    },
+    {
+      "id": "critics-q5",
+      "question": "How does Augustine describe the state of humanity after the Fall?",
+      "options": [
+        "Depraved and dependent on divine grace",
+        "Essentially good and independent",
+        "Morally neutral and self-sufficient",
+        "Perfect and in need of no salvation"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine believed that humanity is depraved due to Original Sin and requires divine grace for salvation."
+    },
+    {
+      "id": "critics-q6",
+      "question": "Which philosopher's ideas did Augustine adapt to form his own theological perspective?",
+      "options": [
+        "Plato",
+        "Socrates",
+        "Epicurus",
+        "Zeno"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine integrated Platonic philosophy, particularly the notion of the ideal forms, into his Christian theology."
+    },
+    {
+      "id": "critics-q7",
+      "question": "In which work does Augustine explore the concept of time and memory?",
+      "options": [
+        "Confessions",
+        "On the Trinity",
+        "City of God",
+        "On Christian Doctrine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In 'Confessions', Augustine delves into the nature of time and memory, particularly in Book XI."
+    },
+    {
+      "id": "critics-q8",
+      "question": "According to Augustine, what is the ultimate end or purpose of human life?",
+      "options": [
+        "Union with God",
+        "Worldly success",
+        "Philosophical enlightenment",
+        "Pursuit of pleasure"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Augustine posited that the ultimate purpose of human life is to achieve union with God."
+    },
+    {
+      "id": "critics-q9",
+      "question": "Which council affirmed Augustine's views on Original Sin and grace?",
+      "options": [
+        "Council of Carthage",
+        "Council of Nicea",
+        "Council of Chalcedon",
+        "Council of Ephesus"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Council of Carthage in 418 AD affirmed Augustine's views against Pelagianism."
+    },
+    {
+      "id": "critics-q10",
+      "question": "Given the following scenario: A student believes that humans are inherently good and can achieve salvation through their own efforts. Which of Augustine's critics might they align with?",
+      "options": [
+        "Pelagius",
+        "Anselm",
+        "Calvin",
+        "Luther"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Pelagius argued against Augustine, claiming that humans are inherently good and capable of achieving salvation through their own efforts."
+    },
+    {
+      "id": "critics-q11",
+      "question": "If a society emphasizes that individuals can choose good without divine intervention, which Augustine concept are they challenging?",
+      "options": [
+        "Original Sin",
+        "Divine Predestination",
+        "Just War Theory",
+        "Trinity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Such a society challenges the concept of Original Sin, which asserts that humans need divine grace to choose good."
+    },
+    {
+      "id": "critics-q12",
+      "question": "In a debate about human nature, a theologian argues that Augustine's view is too pessimistic and undermines human potential. This critique aligns with which modern criticism?",
+      "options": [
+        "Humanism",
+        "Determinism",
+        "Calvinism",
+        "Materialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Humanism, which emphasizes human potential and goodness, often critiques Augustine's pessimistic view of human nature."
+    },
+    {
+      "id": "critics-q13",
+      "question": "Which modern scholar criticized Augustine's views on sex and Original Sin as being overly negative and harmful?",
+      "options": [
+        "Elaine Pagels",
+        "Karl Barth",
+        "Paul Tillich",
+        "Hans Küng"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Elaine Pagels criticized Augustine's views on Original Sin and sexuality as overly negative and influential in shaping harmful church doctrines."
+    },
+    {
+      "id": "critics-q14",
+      "question": "Which methodological critique is often leveled against Augustine's reliance on Plato's philosophy?",
+      "options": [
+        "Over-reliance on non-Christian sources",
+        "Ignorance of Eastern philosophies",
+        "Exclusion of personal experience",
+        "Failure to consider political implications"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Augustine's heavy reliance on Platonic philosophy may undermine the uniqueness of his Christian theology."
+    },
+    {
+      "id": "critics-q15",
+      "question": "In a comparative judgment, how might Augustine's view of predestination be contrasted with that of John Calvin?",
+      "options": [
+        "Augustine's view is less deterministic than Calvin's.",
+        "Augustine was more focused on scripture than Calvin.",
+        "Calvin rejected Augustine's ideas entirely.",
+        "Augustine's view was more optimistic than Calvin's."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Augustine's view of predestination is considered less deterministic than Calvin's, as Calvin emphasized predestination more rigorously."
+    }
+  ]
+}

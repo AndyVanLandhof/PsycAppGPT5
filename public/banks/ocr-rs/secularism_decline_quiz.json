@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "secularism",
+  "topicTitle": "Secularism",
+  "subTopic": "decline",
+  "subTopicTitle": "Secularisation Thesis",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T17:00:42.555Z",
+  "items": [
+    {
+      "id": "decline-q1",
+      "question": "Which sociologist is most closely associated with the secularisation thesis in modern society?",
+      "options": [
+        "Bryan Wilson",
+        "Emile Durkheim",
+        "Karl Marx",
+        "Max Weber"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bryan Wilson is a key figure in the secularisation thesis, arguing for the decline of religious authority in modern societies."
+    },
+    {
+      "id": "decline-q2",
+      "question": "What does the secularisation thesis primarily argue?",
+      "options": [
+        "Religion is becoming more influential in modern societies.",
+        "Religion is declining in social significance.",
+        "Religion is a social construct.",
+        "Religion is a means of social control."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The secularisation thesis posits that religion is losing its social significance and authority in modern societies."
+    },
+    {
+      "id": "decline-q3",
+      "question": "Which study by Steve Bruce supports the secularisation thesis?",
+      "options": [
+        "Religion in the Modern World (2011)",
+        "The Sacred Canopy (1967)",
+        "The Protestant Ethic and the Spirit of Capitalism (1905)",
+        "The Elementary Forms of Religious Life (1912)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Steve Bruce's 'Religion in the Modern World' (2011) supports the secularisation thesis by highlighting the decline of religious influence in modern societies."
+    },
+    {
+      "id": "decline-q4",
+      "question": "What is the term for the belief that religion should not interfere with or be integrated into the public sphere?",
+      "options": [
+        "Secularism",
+        "Agnosticism",
+        "Fundamentalism",
+        "Theocracy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Secularism is the principle that advocates for the separation of religion from civic affairs and governmental functions."
+    },
+    {
+      "id": "decline-q5",
+      "question": "The decline in church attendance in the UK is often used as evidence for which theory?",
+      "options": [
+        "The secularisation thesis",
+        "The liberation theology",
+        "The prosperity gospel",
+        "The divine command theory"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The decline in church attendance is frequently cited as evidence supporting the secularisation thesis."
+    },
+    {
+      "id": "decline-q6",
+      "question": "Which of the following is NOT a factor contributing to secularisation, according to sociologists?",
+      "options": [
+        "Industrialisation",
+        "Increased literacy",
+        "Globalisation",
+        "Reformation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Reformation is a historical religious movement, not a factor in the secularisation process identified by modern sociologists."
+    },
+    {
+      "id": "decline-q7",
+      "question": "In which year did Bryan Wilson publish his influential work 'Religion in Secular Society'?",
+      "options": [
+        "1966",
+        "1975",
+        "1983",
+        "1990"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Bryan Wilson published 'Religion in Secular Society' in 1966, contributing significantly to secularisation debates."
+    },
+    {
+      "id": "decline-q8",
+      "question": "Which sociologist argued that religious pluralism leads to secularisation?",
+      "options": [
+        "Peter Berger",
+        "Thomas Luckmann",
+        "Rodney Stark",
+        "Harold Turner"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Peter Berger argued that religious pluralism undermines religious authority, contributing to secularisation."
+    },
+    {
+      "id": "decline-q9",
+      "question": "The concept of 'believing without belonging' was introduced by which sociologist?",
+      "options": [
+        "Grace Davie",
+        "David Martin",
+        "Paul Heelas",
+        "Linda Woodhead"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Grace Davie introduced the concept of 'believing without belonging', indicating a change in religious practice rather than outright decline."
+    },
+    {
+      "id": "decline-q10",
+      "question": "A recent survey shows a rise in 'nones'—individuals identifying as having no religion—in a European country. How might a secularisation theorist interpret this data?",
+      "options": [
+        "As evidence of declining religious authority",
+        "As a temporary trend with no long-term impact",
+        "As a sign of increasing religious diversity",
+        "As an indication of religious revival"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A secularisation theorist would view the rise in 'nones' as evidence of declining religious authority and influence."
+    },
+    {
+      "id": "decline-q11",
+      "question": "In a study, researchers find that religious rituals are still commonly practiced in a secular society. What might this suggest about secularisation?",
+      "options": [
+        "Secularisation is not occurring at all",
+        "Secularisation is selective and complex",
+        "Secularisation has reversed entirely",
+        "Secularisation is purely theoretical"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The persistence of religious rituals suggests that secularisation is a selective and complex process rather than an absolute decline."
+    },
+    {
+      "id": "decline-q12",
+      "question": "If a sociologist finds that religious institutions still play a significant role in education and politics, what might they conclude about the secularisation thesis?",
+      "options": [
+        "It is completely inaccurate",
+        "It needs to be revised to reflect the complexity",
+        "It is irrelevant in modern society",
+        "It fully explains religious trends"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The continued influence of religious institutions suggests that the secularisation thesis may need revision to account for complex realities."
+    },
+    {
+      "id": "decline-q13",
+      "question": "Critics argue that the secularisation thesis is Eurocentric. What does this mean?",
+      "options": [
+        "It overemphasizes European religious decline",
+        "It ignores religious pluralism",
+        "It focuses on Asian religious practices",
+        "It predicts inevitable religious revival"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The critique of Eurocentrism suggests the secularisation thesis overemphasizes European trends and may not apply globally."
+    },
+    {
+      "id": "decline-q14",
+      "question": "How might postmodern critiques challenge the secularisation thesis?",
+      "options": [
+        "By suggesting that religion is more diverse and individualized",
+        "By arguing that religion is becoming more uniform",
+        "By claiming that secularisation is irreversible",
+        "By asserting that religion has no future relevance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Postmodern critiques argue that religion remains diverse and individualized, challenging the linear narrative of secularisation."
+    },
+    {
+      "id": "decline-q15",
+      "question": "What methodological criticism is often leveled at studies of secularisation?",
+      "options": [
+        "They rely too heavily on qualitative data",
+        "They lack empirical evidence",
+        "They fail to consider cultural context",
+        "They overuse statistical analysis"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "A common methodological criticism is that secularisation studies often fail to consider cultural context, limiting their applicability."
+    }
+  ]
+}

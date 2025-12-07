@@ -5,24 +5,63 @@
   "subTopic": "mill-rule-util",
   "subTopicTitle": "Mill & Rule Utilitarianism",
   "type": "quiz",
-  "generatedAt": "2025-12-06T11:00:14.040Z",
+  "generatedAt": "2025-12-07T16:47:14.836Z",
   "items": [
     {
       "id": "mill-rule-util-q1",
-      "question": "What is the key difference between Act and Rule Utilitarianism?",
+      "question": "What is the primary focus of John Stuart Mill's utilitarianism?",
       "options": [
-        "Act utilitarianism focuses on individual actions, while Rule utilitarianism focuses on general rules.",
-        "Act utilitarianism considers the consequences of rules, while Rule utilitarianism considers individual actions.",
-        "Act utilitarianism was developed by John Stuart Mill, while Rule utilitarianism was developed by Jeremy Bentham.",
-        "Act utilitarianism applies rules universally, while Rule utilitarianism applies them situationally."
+        "Quality of pleasure",
+        "Quantity of pleasure",
+        "Moral duty",
+        "Divine command"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Act utilitarianism evaluates each action based on its consequences, whereas Rule utilitarianism evaluates the consequences of following general rules."
+      "explanation": "Mill emphasized the quality of pleasures over the quantity, unlike Bentham's focus on the total sum of pleasure."
     },
     {
       "id": "mill-rule-util-q2",
-      "question": "Which philosopher is most associated with Rule Utilitarianism?",
+      "question": "In Mill's utilitarianism, what is considered a 'higher pleasure'?",
+      "options": [
+        "Intellectual pursuits",
+        "Sensory enjoyment",
+        "Physical activity",
+        "Financial gain"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mill distinguishes higher pleasures as those that engage the intellect, such as reading and learning, over bodily pleasures."
+    },
+    {
+      "id": "mill-rule-util-q3",
+      "question": "What is the key difference between Act and Rule Utilitarianism?",
+      "options": [
+        "Rule considers the long-term utility of following rules",
+        "Act only considers individual actions",
+        "Rule focuses on divine laws",
+        "Act emphasizes universal laws"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Rule Utilitarianism evaluates the utility of adhering to rules that generally promote the greatest good, unlike Act Utilitarianism which assesses actions individually."
+    },
+    {
+      "id": "mill-rule-util-q4",
+      "question": "According to Mill, how should conflicting moral rules be resolved?",
+      "options": [
+        "By prioritizing higher pleasures",
+        "By democratic voting",
+        "By divine revelation",
+        "By consulting legal systems"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Mill suggests resolving conflicts by considering which rules promote higher pleasures or greater overall happiness."
+    },
+    {
+      "id": "mill-rule-util-q5",
+      "question": "Which philosopher is most closely associated with the development of Rule Utilitarianism?",
       "options": [
         "John Stuart Mill",
         "Jeremy Bentham",
@@ -31,176 +70,137 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "John Stuart Mill is most associated with Rule Utilitarianism, as he emphasized the importance of rules in achieving the greatest good."
-    },
-    {
-      "id": "mill-rule-util-q3",
-      "question": "What is the principle of utility in utilitarianism?",
-      "options": [
-        "The greatest happiness for the greatest number",
-        "The categorical imperative",
-        "The social contract",
-        "The veil of ignorance"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The principle of utility is central to utilitarianism, advocating for actions that maximize happiness for the majority."
-    },
-    {
-      "id": "mill-rule-util-q4",
-      "question": "In Rule Utilitarianism, how are 'rules' determined?",
-      "options": [
-        "By their potential to produce the greatest happiness if generally followed",
-        "By historical precedent",
-        "By individual interpretation",
-        "By government legislation"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Rules in Rule Utilitarianism are evaluated based on their ability to generate the greatest overall happiness if they are generally adhered to."
-    },
-    {
-      "id": "mill-rule-util-q5",
-      "question": "Which work by John Stuart Mill is most associated with his utilitarian philosophy?",
-      "options": [
-        "Utilitarianism (1863)",
-        "Principles of Morals and Legislation (1789)",
-        "Groundwork of the Metaphysics of Morals (1785)",
-        "The Critique of Pure Reason (1781)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Mill's work 'Utilitarianism' published in 1863, outlines his views on the utilitarian ethical framework."
+      "explanation": "John Stuart Mill is credited with developing Rule Utilitarianism, building upon Bentham's initial utilitarian principles."
     },
     {
       "id": "mill-rule-util-q6",
-      "question": "How does Mill's concept of 'higher' and 'lower' pleasures impact utilitarian calculations?",
+      "question": "What is an example of a secondary principle in Rule Utilitarianism?",
       "options": [
-        "It prioritizes quality of pleasure over quantity",
-        "It disregards the intensity of pleasures",
-        "It solely focuses on physical pleasures",
-        "It suggests all pleasures are equal"
+        "Do not lie",
+        "Seek pleasure",
+        "Maximize profit",
+        "Obey authority"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Mill's distinction between 'higher' (intellectual) and 'lower' (bodily) pleasures emphasizes quality over mere quantity in utilitarian assessments."
+      "explanation": "Secondary principles like 'do not lie' are rules that, if generally followed, promote overall happiness according to Rule Utilitarianism."
     },
     {
       "id": "mill-rule-util-q7",
-      "question": "What is a common criticism of Rule Utilitarianism?",
+      "question": "In which work did Mill expand upon his ideas of utilitarianism?",
       "options": [
-        "It can lead to rule-worship",
-        "It disregards individual rights",
-        "It is too flexible",
-        "It focuses on intentions rather than consequences"
+        "Utilitarianism (1863)",
+        "The Principles of Morals and Legislation (1789)",
+        "Critique of Pure Reason (1781)",
+        "Ethics (1677)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Critics argue that Rule Utilitarianism can lead to 'rule-worship', where rules are followed even when they don't lead to the greatest happiness."
+      "explanation": "Mill elaborated on his utilitarian philosophy in his book 'Utilitarianism', published in 1863."
     },
     {
       "id": "mill-rule-util-q8",
-      "question": "Which of the following is a feature of Rule Utilitarianism?",
+      "question": "Which concept did Mill introduce to address criticisms of utilitarianism?",
       "options": [
-        "It allows for exceptions to rules in extreme cases",
-        "It never permits breaking rules",
-        "It focuses on the consequences of each individual act",
-        "It rejects the importance of rules"
+        "Higher and lower pleasures",
+        "Categorical imperative",
+        "Original position",
+        "Egoism"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rule Utilitarianism can allow for exceptions to rules if breaking them will result in greater overall happiness."
+      "explanation": "Mill introduced the distinction between higher and lower pleasures to counter criticisms that utilitarianism values all pleasures equally."
     },
     {
       "id": "mill-rule-util-q9",
-      "question": "How does Rule Utilitarianism address the issue of justice?",
+      "question": "What is the 'harm principle' as proposed by Mill?",
       "options": [
-        "By incorporating rules that promote fairness",
-        "By prioritizing the majority's pleasure",
-        "By ignoring minority rights",
-        "By focusing solely on individual outcomes"
+        "Individuals are free unless they harm others",
+        "Pleasure should be maximized",
+        "Property should be equally distributed",
+        "Moral actions depend on divine will"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rule Utilitarianism incorporates rules that aim to promote fairness and justice while maximizing happiness."
+      "explanation": "Mill's harm principle states that individuals are free to act as they wish unless their actions harm others."
     },
     {
       "id": "mill-rule-util-q10",
-      "question": "In a scenario where lying could potentially save a life, how would a Rule Utilitarian approach it?",
+      "question": "A company decides to lie about its product's benefits to increase sales. How might a Rule Utilitarian evaluate this action?",
       "options": [
-        "They would follow a rule against lying unless it maximizes happiness",
-        "They would lie regardless of consequences",
-        "They would never lie due to moral absolutism",
-        "They would focus solely on individual benefits"
+        "It is wrong, as lying generally leads to negative consequences",
+        "It is acceptable if it increases sales",
+        "It is wrong, as any lie is inherently unethical",
+        "It depends on the intentions behind the action"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "A Rule Utilitarian might consider lying permissible if it aligns with a rule that generally maximizes happiness, such as preserving life."
+      "explanation": "A Rule Utilitarian would deem lying wrong as a general rule against lying promotes greater trust and happiness in society."
     },
     {
       "id": "mill-rule-util-q11",
-      "question": "Given data showing increased happiness from a policy that restricts personal freedoms, how might a Rule Utilitarian justify this policy?",
+      "question": "A local government implements a rule to promote recycling. How would a Rule Utilitarian view this?",
       "options": [
-        "By arguing the rule benefits society overall",
-        "By focusing on maximum individual freedom",
-        "By dismissing societal needs",
-        "By prioritizing individual happiness over societal rules"
+        "It is good, as it generally promotes environmental well-being",
+        "It is bad, as it restricts personal freedom",
+        "It is neutral, as it depends on individual compliance",
+        "It is irrelevant, as only individual actions matter"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "A Rule Utilitarian might justify the policy by arguing that the rule benefits society overall, even at the cost of some personal freedoms."
+      "explanation": "Rule Utilitarianism supports rules that, when generally followed, promote collective benefits like environmental sustainability."
     },
     {
       "id": "mill-rule-util-q12",
-      "question": "A company implements a rule to donate a portion of profits to charity. How would a Rule Utilitarian evaluate this?",
+      "question": "A school bans junk food to promote student health. How might this be justified under Rule Utilitarianism?",
       "options": [
-        "As positive if it increases overall happiness",
-        "As negative if it reduces profits",
-        "As neutral since actions are more important",
-        "As irrelevant to utilitarian ethics"
+        "It promotes overall health and long-term happiness",
+        "It restricts individual choice",
+        "It might reduce cafeteria profits",
+        "It aligns with a zero-tolerance policy"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "A Rule Utilitarian would evaluate the rule positively if it generally increases overall happiness, aligning with utilitarian principles."
+      "explanation": "Under Rule Utilitarianism, policies that support long-term health benefits contribute to greater societal happiness."
     },
     {
       "id": "mill-rule-util-q13",
-      "question": "How does Rule Utilitarianism address the 'tyranny of the majority' problem?",
+      "question": "What is a major criticism of Rule Utilitarianism?",
       "options": [
-        "By establishing rules that protect minority rights",
-        "By allowing the majority to dictate all rules",
-        "By focusing solely on majority happiness",
-        "By ignoring minority concerns entirely"
+        "It can lead to rule fetishism",
+        "It ignores consequences",
+        "It disregards moral intentions",
+        "It focuses too much on individual acts"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Rule Utilitarianism attempts to counteract the 'tyranny of the majority' by establishing rules that protect minority rights while maximizing overall happiness."
+      "explanation": "Rule Utilitarianism can be critiqued for 'rule fetishism', where adherence to rules may override better outcomes in specific situations."
     },
     {
       "id": "mill-rule-util-q14",
-      "question": "What is a methodological critique of Rule Utilitarianism?",
+      "question": "How does Rule Utilitarianism compare with Kantian ethics?",
       "options": [
-        "Difficulty in determining which rules genuinely maximize happiness",
-        "Its lack of historical basis",
-        "Its focus on intentions over outcomes",
-        "Its failure to consider moral emotions"
+        "Rule Utilitarianism considers consequences, Kantian ethics does not",
+        "Both focus on individual consequences",
+        "Both prioritize personal happiness",
+        "Rule Utilitarianism ignores rules, unlike Kantian ethics"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "A common critique is the difficulty in determining which rules genuinely maximize happiness, posing challenges in practical application."
+      "explanation": "Rule Utilitarianism evaluates the consequences of following rules, while Kantian ethics focuses on the inherent morality of actions regardless of outcomes."
     },
     {
       "id": "mill-rule-util-q15",
-      "question": "In comparison to Act Utilitarianism, what is a strength of Rule Utilitarianism?",
+      "question": "What methodological issue might arise when applying Rule Utilitarianism?",
       "options": [
-        "It provides more consistent ethical guidance",
-        "It is more flexible in decision-making",
-        "It focuses more on individual actions",
-        "It disregards long-term consequences"
+        "Difficulty in predicting future consequences",
+        "Lack of clear moral rules",
+        "Overemphasis on moral intentions",
+        "Neglect of individual rights"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Rule Utilitarianism's strength lies in providing more consistent ethical guidance through established rules, compared to Act Utilitarianism's case-by-case basis."
+      "explanation": "Predicting future consequences of rules can be challenging, as it requires forecasting long-term impacts on happiness."
     }
   ]
 }

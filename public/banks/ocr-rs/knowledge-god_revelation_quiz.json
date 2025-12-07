@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "revelation",
+  "subTopicTitle": "Natural and Revealed Theology",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:54:34.217Z",
+  "items": [
+    {
+      "id": "revelation-q1",
+      "question": "What is the primary focus of natural theology?",
+      "options": [
+        "Discovering knowledge of God through nature and reason",
+        "Understanding God through scripture and revelation",
+        "Examining the life of Jesus as the ultimate revelation",
+        "Studying religious experiences as evidence of God"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Natural theology emphasizes understanding God through observation of the natural world and human reason."
+    },
+    {
+      "id": "revelation-q2",
+      "question": "Which philosopher is known for the teleological argument supporting natural theology?",
+      "options": [
+        "William Paley",
+        "John Calvin",
+        "Blaise Pascal",
+        "Søren Kierkegaard"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "William Paley is famous for his watchmaker analogy, which argues for the existence of God through design in nature."
+    },
+    {
+      "id": "revelation-q3",
+      "question": "Who argued that humans have an innate sense of the divine, termed 'sensus divinitatis'?",
+      "options": [
+        "John Calvin",
+        "Thomas Aquinas",
+        "Martin Luther",
+        "John Wesley"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Calvin introduced the concept of 'sensus divinitatis,' suggesting an inherent awareness of God in all humans."
+    },
+    {
+      "id": "revelation-q4",
+      "question": "Which of the following is a characteristic of revealed theology?",
+      "options": [
+        "It relies on divine revelation through scripture",
+        "It is based on empirical observation and reason",
+        "It rejects any form of religious experience",
+        "It is solely concerned with philosophical arguments"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Revealed theology depends on knowledge imparted through divine revelation, primarily found in sacred texts."
+    },
+    {
+      "id": "revelation-q5",
+      "question": "What term did Karl Barth use to describe the impossibility of knowing God through human efforts alone?",
+      "options": [
+        "Crisis of revelation",
+        "Epistemic distance",
+        "Divine hiddenness",
+        "Theology of crisis"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Barth described the necessity of God's self-revelation due to the 'theology of crisis,' emphasizing human limitations."
+    },
+    {
+      "id": "revelation-q6",
+      "question": "Which philosopher critiqued natural theology by arguing that existence is not a predicate?",
+      "options": [
+        "Immanuel Kant",
+        "David Hume",
+        "René Descartes",
+        "Gottfried Leibniz"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant argued against the ontological argument by stating that existence is not a predicate or inherent quality."
+    },
+    {
+      "id": "revelation-q7",
+      "question": "Thomas Aquinas' Five Ways are primarily associated with which theological approach?",
+      "options": [
+        "Natural theology",
+        "Revealed theology",
+        "Mystical theology",
+        "Existential theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas' Five Ways are classical arguments for God's existence based on observation and logical reasoning, central to natural theology."
+    },
+    {
+      "id": "revelation-q8",
+      "question": "What is the main argument of the fideist approach in theology?",
+      "options": [
+        "Faith is independent of reason",
+        "Reason alone is sufficient for belief in God",
+        "Empirical evidence is necessary for faith",
+        "Faith must be based on historical facts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Fideism asserts that faith is independent of, and may even be contrary to, reason in understanding God."
+    },
+    {
+      "id": "revelation-q9",
+      "question": "Which theologian emphasized the importance of personal religious experience in understanding God?",
+      "options": [
+        "Friedrich Schleiermacher",
+        "Thomas Aquinas",
+        "Anselm of Canterbury",
+        "John Calvin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Schleiermacher highlighted the significance of personal religious experiences as a means of understanding the divine."
+    },
+    {
+      "id": "revelation-q10",
+      "question": "A student claims their observation of the natural world leads them to believe in a creator. Which theological approach does this align with?",
+      "options": [
+        "Natural theology",
+        "Revealed theology",
+        "Mystical theology",
+        "Existential theology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The student's belief aligns with natural theology, which seeks knowledge of God through nature and reason."
+    },
+    {
+      "id": "revelation-q11",
+      "question": "In a debate, one participant argues that only through scripture can true knowledge of God be attained. What approach are they advocating?",
+      "options": [
+        "Revealed theology",
+        "Natural theology",
+        "Deism",
+        "Pantheism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The participant is advocating revealed theology, which relies on scripture and divine revelation for knowledge of God."
+    },
+    {
+      "id": "revelation-q12",
+      "question": "A study shows that people raised in religious environments report stronger belief in divine revelation. What does this suggest about revealed theology?",
+      "options": [
+        "Cultural factors influence acceptance of revealed theology",
+        "Revealed theology is universally recognized",
+        "Natural theology is more effective in religious environments",
+        "Revealed theology relies solely on individual experiences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The study suggests that cultural factors, such as a religious upbringing, influence the acceptance and belief in revealed theology."
+    },
+    {
+      "id": "revelation-q13",
+      "question": "What is a potential criticism of natural theology from a revealed theology standpoint?",
+      "options": [
+        "It underestimates the necessity of divine revelation",
+        "It provides undeniable proof of God's existence",
+        "It relies too heavily on scriptural evidence",
+        "It denies the possibility of religious experiences"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "From a revealed theology perspective, natural theology is often criticized for underestimating the necessity and role of divine revelation."
+    },
+    {
+      "id": "revelation-q14",
+      "question": "How does the concept of 'sensus divinitatis' challenge empiricism in understanding God?",
+      "options": [
+        "It suggests an innate knowledge of God beyond empirical evidence",
+        "It relies on physical evidence for God's existence",
+        "It argues that empirical methods are the only way to know God",
+        "It dismisses divine revelation as unnecessary"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "'Sensus divinitatis' challenges empiricism by suggesting an inherent, non-empirical knowledge of God within humans."
+    },
+    {
+      "id": "revelation-q15",
+      "question": "Which approach might argue that the ineffability of religious experiences limits their usefulness in theology?",
+      "options": [
+        "Natural theology",
+        "Revealed theology",
+        "Mystical theology",
+        "Fideism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Natural theology might critique the ineffability of religious experiences as limiting their usefulness, given its emphasis on reason and observation."
+    }
+  ]
+}

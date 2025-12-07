@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "aquinas",
+  "subTopicTitle": "Aquinas' Five Ways",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:54:53.869Z",
+  "items": [
+    {
+      "id": "aquinas-q1",
+      "question": "Which of Aquinas' Five Ways argues from the necessity of a first cause?",
+      "options": [
+        "The Second Way",
+        "The First Way",
+        "The Fourth Way",
+        "The Fifth Way"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Second Way argues for God's existence as the first cause in a chain of causes, moving beyond infinite regress."
+    },
+    {
+      "id": "aquinas-q2",
+      "question": "In Aquinas' Third Way, what is used to demonstrate God's existence?",
+      "options": [
+        "Contingency and necessity",
+        "Motion and change",
+        "Degrees of perfection",
+        "Design and order"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Third Way is based on the concept of contingent beings requiring a necessary being, which is God."
+    },
+    {
+      "id": "aquinas-q3",
+      "question": "Which philosopher's idea of 'motion' influenced Aquinas' First Way?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Descartes",
+        "Kant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas' First Way is influenced by Aristotle's concept of motion as the transition from potentiality to actuality."
+    },
+    {
+      "id": "aquinas-q4",
+      "question": "Which of the following best describes Aquinas' Fifth Way?",
+      "options": [
+        "Argument from design",
+        "Argument from contingency",
+        "Argument from motion",
+        "Argument from efficient cause"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Fifth Way is the teleological argument, which argues for God's existence through the apparent design and purpose in the world."
+    },
+    {
+      "id": "aquinas-q5",
+      "question": "What is the primary focus of Aquinas' Fourth Way?",
+      "options": [
+        "Gradation of being",
+        "Efficient causality",
+        "Necessity and contingency",
+        "Design and purpose"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Fourth Way argues from the gradation of beings, asserting that varying degrees of perfection lead to a perfect being, God."
+    },
+    {
+      "id": "aquinas-q6",
+      "question": "Which of the following is not one of Aquinas' Five Ways?",
+      "options": [
+        "Argument from authority",
+        "Argument from motion",
+        "Argument from efficient cause",
+        "Argument from design"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Argument from authority is not part of Aquinas' Five Ways, which include motion, efficient cause, necessity, gradation, and design."
+    },
+    {
+      "id": "aquinas-q7",
+      "question": "Aquinas' Second Way is often compared to which modern scientific principle?",
+      "options": [
+        "Causality in Physics",
+        "The Theory of Evolution",
+        "The Big Bang Theory",
+        "Quantum Mechanics"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Second Way's causal argument parallels the principle of causality in physics, necessitating a first cause."
+    },
+    {
+      "id": "aquinas-q8",
+      "question": "Which work by Aquinas contains the Five Ways?",
+      "options": [
+        "Summa Theologica",
+        "Nicomachean Ethics",
+        "City of God",
+        "Confessions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas' Five Ways are found in his theological masterpiece, the 'Summa Theologica'."
+    },
+    {
+      "id": "aquinas-q9",
+      "question": "In which century did Thomas Aquinas develop his Five Ways?",
+      "options": [
+        "13th century",
+        "14th century",
+        "12th century",
+        "15th century"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas developed his Five Ways in the 13th century during the Scholastic period."
+    },
+    {
+      "id": "aquinas-q10",
+      "question": "A student claims that Aquinas' argument from motion is outdated due to modern physics. How would you respond?",
+      "options": [
+        "Emphasize that Aquinas' argument is philosophical, not scientific",
+        "Agree and suggest replacing it with quantum mechanics",
+        "Argue that Aquinas' argument does not apply to modern science",
+        "Suggest that Aquinas' argument is only relevant to medieval thought"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aquinas' argument from motion is philosophical, focusing on metaphysical principles, independent of scientific advancements."
+    },
+    {
+      "id": "aquinas-q11",
+      "question": "Consider a world where everything is contingent. According to Aquinas' Third Way, what must exist?",
+      "options": [
+        "A necessary being",
+        "Infinite contingent beings",
+        "Multiple first causes",
+        "An eternal universe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Aquinas' Third Way posits that in a world of contingent beings, a necessary being (God) must exist to account for their existence."
+    },
+    {
+      "id": "aquinas-q12",
+      "question": "Aquinas' Fourth Way discusses degrees of being. What implication does this have for understanding God?",
+      "options": [
+        "It implies a maximal being",
+        "It suggests all beings are equal",
+        "It claims beings are self-caused",
+        "It denies any hierarchy among beings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The Fourth Way posits a maximal being, God, as necessary to explain the varying degrees of perfection among beings."
+    },
+    {
+      "id": "aquinas-q13",
+      "question": "Which philosopher critiqued the cosmological argument by questioning the necessity of a first cause?",
+      "options": [
+        "David Hume",
+        "Immanuel Kant",
+        "René Descartes",
+        "John Locke"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "David Hume critiqued the cosmological argument, questioning the necessity of a first cause and suggesting the universe might be eternally self-sustaining."
+    },
+    {
+      "id": "aquinas-q14",
+      "question": "How does the concept of infinite regress challenge Aquinas' Second Way?",
+      "options": [
+        "It suggests a chain of causes without a beginning",
+        "It supports an uncaused first cause",
+        "It argues for a finite universe",
+        "It implies a single self-caused entity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Infinite regress challenges the Second Way by suggesting an endless chain of causes, negating the need for a first cause."
+    },
+    {
+      "id": "aquinas-q15",
+      "question": "In comparing the Five Ways, which is considered the most similar to William Paley's argument?",
+      "options": [
+        "The Fifth Way",
+        "The First Way",
+        "The Second Way",
+        "The Third Way"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Fifth Way, focusing on design and order in the world, is most similar to William Paley's watchmaker analogy in the teleological argument."
+    }
+  ]
+}

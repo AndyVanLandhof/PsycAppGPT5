@@ -1,0 +1,111 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "knowledge-god",
+  "topicTitle": "Knowledge of God's Existence",
+  "subTopic": "criticism",
+  "subTopicTitle": "Critiques of Knowledge Claims",
+  "type": "flashcards",
+  "generatedAt": "2025-12-07T13:03:12.114Z",
+  "items": [
+    {
+      "question": "What is natural theology?",
+      "answer": "Natural theology is the attempt to discover truths about God through reason and observation of the natural world.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define revealed theology.",
+      "answer": "Revealed theology refers to knowledge of God that is disclosed through divine revelation, like sacred texts or religious experiences.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Aquinas argue about God's existence in Summa Theologica?",
+      "answer": "Aquinas argued that God's existence can be demonstrated through reason and observation, such as the Five Ways.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is fideism?",
+      "answer": "Fideism is the view that knowledge of God depends on faith rather than reason or evidence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is agnosticism?",
+      "answer": "Agnosticism is the belief that the existence of God is unknown or unknowable.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Who is associated with the analogy of the watchmaker and what does it illustrate?",
+      "answer": "William Paley is associated with the watchmaker analogy, illustrating the argument for design and the existence of a designer, God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Hume argue about miracles in 'An Enquiry Concerning Human Understanding'?",
+      "answer": "Hume argued that miracles are improbable and that human testimony is unreliable, thus questioning their use as evidence for God's existence.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define the term 'theodicy'.",
+      "answer": "Theodicy is an explanation of why a benevolent and omnipotent God allows the existence of evil and suffering.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the cosmological argument?",
+      "answer": "The cosmological argument posits that everything that exists has a cause, ultimately leading to a first cause, identified as God.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Dawkins argue in 'The God Delusion'?",
+      "answer": "Dawkins argued that belief in God is irrational and that science provides a better explanation for the universe's complexity.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the ontological argument?",
+      "answer": "The ontological argument claims that God's existence is logically necessary, as God is defined as the greatest conceivable being.",
+      "ao": "AO1"
+    },
+    {
+      "question": "Define 'empirical knowledge'.",
+      "answer": "Empirical knowledge is information obtained through observation or experimentation, relying on sensory experience.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does fideism apply to a person questioning their belief in God?",
+      "answer": "Fideism would suggest this person rely on faith rather than seeking empirical or rational evidence for God's existence.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply the cosmological argument to explain the origin of the universe.",
+      "answer": "The cosmological argument suggests the universe has a first cause due to the impossibility of an infinite regress, pointing to God as the origin.",
+      "ao": "AO2"
+    },
+    {
+      "question": "How does the analogy of the watchmaker apply to the complexity of biological organisms?",
+      "answer": "The analogy suggests that the complexity of organisms, like a watch, implies an intelligent designer, supporting the argument for God's existence.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Apply Hume's critique of miracles to a contemporary claim of a miraculous event.",
+      "answer": "Hume's critique would question the credibility and reliability of the testimonies supporting the miraculous event, suggesting natural explanations instead.",
+      "ao": "AO2"
+    },
+    {
+      "question": "Give one strength of the ontological argument.",
+      "answer": "One strength is its logical nature, which claims God's existence is a necessary truth, not reliant on empirical evidence.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of Paley's design argument.",
+      "answer": "A limitation is the argument's reliance on analogy, which may not adequately prove a designer's existence due to differences between human artifacts and nature.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Evaluate the methodology of Hume's critique of miracles.",
+      "answer": "Hume's methodology is empirical, stressing reliance on experience and probability, but it may dismiss genuine occurrences by focusing heavily on skepticism.",
+      "ao": "AO3"
+    },
+    {
+      "question": "Give one limitation of the cosmological argument.",
+      "answer": "A limitation is the assumption that the universe had a beginning, which quantum physics challenges, potentially undermining the argument's validity.",
+      "ao": "AO3"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "miracles",
+  "topicTitle": "Miracles",
+  "subTopic": "definitions",
+  "subTopicTitle": "Definitions of Miracles",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:41:29.177Z",
+  "items": [
+    {
+      "id": "definitions-q1",
+      "question": "Which philosopher famously defined miracles as 'a transgression of a law of nature by a particular volition of the Deity or by the interposition of some invisible agent'?",
+      "options": [
+        "David Hume",
+        "Thomas Aquinas",
+        "Richard Swinburne",
+        "Rudolf Bultmann"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume defined miracles in this way in his 'Enquiry Concerning Human Understanding' (1748)."
+    },
+    {
+      "id": "definitions-q2",
+      "question": "According to Thomas Aquinas, which type of miracle involves events that God does that nature could not do?",
+      "options": [
+        "Miracle of the First Degree",
+        "Miracle of the Second Degree",
+        "Miracle of the Third Degree",
+        "Miracle of the Fourth Degree"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Aquinas categorized miracles into three degrees; the first degree involves events that surpass the natural order completely."
+    },
+    {
+      "id": "definitions-q3",
+      "question": "Which philosopher argued that a miracle is a violation of the laws of nature and thus, highly improbable?",
+      "options": [
+        "David Hume",
+        "John Hick",
+        "Paul Tillich",
+        "William Lane Craig"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "David Hume argued that miracles are violations of natural laws and are therefore improbable."
+    },
+    {
+      "id": "definitions-q4",
+      "question": "What is the primary criticism of Hume's definition of miracles?",
+      "options": [
+        "It assumes an outdated view of natural laws",
+        "It is too focused on the aesthetic experience",
+        "It ignores the role of faith",
+        "It is too broad and inclusive"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that Hume's understanding of natural laws as absolute is outdated given modern scientific understanding."
+    },
+    {
+      "id": "definitions-q5",
+      "question": "Which philosopher proposed that miracles are events that have religious significance?",
+      "options": [
+        "Paul Tillich",
+        "Maurice Wiles",
+        "Richard Swinburne",
+        "John Hick"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Paul Tillich defined miracles as events that reveal the presence of God and have religious significance."
+    },
+    {
+      "id": "definitions-q6",
+      "question": "According to Richard Swinburne, what are the two types of evidence needed to support a miraculous claim?",
+      "options": [
+        "Historical and experiential",
+        "Scientific and testimonial",
+        "Testimonial and physical",
+        "Logical and empirical"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Swinburne argued that both historical and experiential evidence are needed to substantiate a miraculous claim."
+    },
+    {
+      "id": "definitions-q7",
+      "question": "Which of the following is NOT a criterion used by Swinburne to identify a miracle?",
+      "options": [
+        "It must be a temporary suspension of a natural law",
+        "It must have a religious significance",
+        "It must be performed by a divine agent",
+        "It must bring about good consequences"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "While Swinburne considers religious significance, the idea that miracles must bring about good consequences is not one of his criteria."
+    },
+    {
+      "id": "definitions-q8",
+      "question": "What is the primary function of miracles according to John Hick?",
+      "options": [
+        "To test faith",
+        "To signify a divine message",
+        "To demonstrate God's power",
+        "To validate religious beliefs"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Hick asserted that miracles serve as signs signifying a divine message rather than merely demonstrating divine power."
+    },
+    {
+      "id": "definitions-q9",
+      "question": "Which scholar argued that miracles should not be understood as violations of natural laws but as events that inspire awe and wonder?",
+      "options": [
+        "Maurice Wiles",
+        "Rudolf Bultmann",
+        "John Hick",
+        "Paul Tillich"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Paul Tillich argued that miracles should be events that inspire awe and wonder, rather than violations of natural laws."
+    },
+    {
+      "id": "definitions-q10",
+      "question": "A woman claims that her cancer was miraculously healed after a prayer session. According to Hume's framework, what would be the most likely evaluation?",
+      "options": [
+        "The event is more likely a natural anomaly",
+        "The event must be accepted as a miracle",
+        "The event is a definite miracle due to spontaneity",
+        "The event is a result of divine intervention"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "According to Hume, natural explanations, even if improbable, are preferred over accepting events as miracles."
+    },
+    {
+      "id": "definitions-q11",
+      "question": "A child survives a fall from a significant height without injury. Which philosopher's definition would categorize this as a miracle due to its religious significance?",
+      "options": [
+        "Paul Tillich",
+        "David Hume",
+        "John Hick",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Paul Tillich would categorize this as a miracle if it inspired religious significance and awe."
+    },
+    {
+      "id": "definitions-q12",
+      "question": "A person witnesses a statue weeping tears. According to Swinburne's criteria, which type of evidence would strengthen this claim as a miracle?",
+      "options": [
+        "Testimonial and scientific",
+        "Historical and testimonial",
+        "Experiential and testimonial",
+        "Physical and logical"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Swinburne emphasizes historical and testimonial evidence in validating miraculous claims."
+    },
+    {
+      "id": "definitions-q13",
+      "question": "Which philosopher's criticism of miracles involves the idea that they compromise God's rational consistency?",
+      "options": [
+        "Maurice Wiles",
+        "Paul Tillich",
+        "Richard Swinburne",
+        "Rudolf Bultmann"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Maurice Wiles critiqued miracles by suggesting they undermine the rational consistency of God."
+    },
+    {
+      "id": "definitions-q14",
+      "question": "Between Hume and Swinburne, who places more emphasis on personal testimony in establishing a miracle?",
+      "options": [
+        "Swinburne places more emphasis",
+        "Hume places more emphasis",
+        "Both place equal emphasis",
+        "Neither emphasizes personal testimony"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Swinburne places significant emphasis on testimonial evidence as opposed to Hume, who is skeptical of personal accounts."
+    },
+    {
+      "id": "definitions-q15",
+      "question": "What is a key difference between Hume and Aquinas' understanding of miracles?",
+      "options": [
+        "Aquinas sees them as natural, Hume as violations",
+        "Hume sees them as improbable, Aquinas as divine acts",
+        "Aquinas believes in natural laws, Hume rejects them",
+        "Hume accepts them as divine signs, Aquinas does not"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Hume sees miracles as improbable violations of nature, whereas Aquinas sees them as acts of divine power."
+    }
+  ]
+}

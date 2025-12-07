@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "business-ethics",
+  "topicTitle": "Business Ethics",
+  "subTopic": "case",
+  "subTopicTitle": "Controversial Case Studies",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:50:10.535Z",
+  "items": [
+    {
+      "id": "case-q1",
+      "question": "Which of the following is a key principle of Milton Friedman's view on business ethics?",
+      "options": [
+        "The social responsibility of business is to increase its profits.",
+        "Businesses should prioritize environmental sustainability.",
+        "Corporate social responsibility is essential for long-term success.",
+        "Ethical practices should outweigh profit motives."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Milton Friedman argued that the primary responsibility of a business is to its shareholders, primarily through profit maximization."
+    },
+    {
+      "id": "case-q2",
+      "question": "What ethical issue is most associated with the Enron scandal?",
+      "options": [
+        "Accounting fraud",
+        "Environmental pollution",
+        "Labor exploitation",
+        "Tax evasion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Enron scandal involved significant accounting fraud, where the company used accounting loopholes to hide debt."
+    },
+    {
+      "id": "case-q3",
+      "question": "Which philosopher is known for the 'categorical imperative' relevant to business ethics?",
+      "options": [
+        "Immanuel Kant",
+        "Jeremy Bentham",
+        "John Stuart Mill",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant's categorical imperative is a foundational concept in deontological ethics, emphasizing duty and universalizability."
+    },
+    {
+      "id": "case-q4",
+      "question": "According to the research by Carroll (1991), which component is NOT part of the CSR pyramid?",
+      "options": [
+        "Philanthropic responsibility",
+        "Cultural responsibility",
+        "Ethical responsibility",
+        "Economic responsibility"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Carroll’s CSR Pyramid includes economic, legal, ethical, and philanthropic responsibilities, but not cultural responsibility."
+    },
+    {
+      "id": "case-q5",
+      "question": "Which ethical theory focuses on the greatest happiness principle?",
+      "options": [
+        "Utilitarianism",
+        "Deontology",
+        "Virtue ethics",
+        "Natural law"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Utilitarianism, developed by Jeremy Bentham and John Stuart Mill, is based on the principle of the greatest happiness for the greatest number."
+    },
+    {
+      "id": "case-q6",
+      "question": "What is the primary focus of stakeholder theory in business ethics?",
+      "options": [
+        "Balancing the interests of all stakeholders",
+        "Maximizing shareholder value",
+        "Minimizing costs",
+        "Increasing market share"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Stakeholder theory, as proposed by R. Edward Freeman, emphasizes balancing the interests of all stakeholders affected by business decisions."
+    },
+    {
+      "id": "case-q7",
+      "question": "Which ethical issue is most associated with the Rana Plaza disaster?",
+      "options": [
+        "Unsafe working conditions",
+        "Product safety",
+        "False advertising",
+        "Data privacy breaches"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Rana Plaza disaster highlighted the issue of unsafe working conditions in the garment industry in Bangladesh."
+    },
+    {
+      "id": "case-q8",
+      "question": "Which concept suggests that businesses have an obligation to do no harm beyond what the law requires?",
+      "options": [
+        "Corporate social responsibility",
+        "Shareholder primacy",
+        "Profit maximization",
+        "Laissez-faire capitalism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Corporate social responsibility (CSR) involves businesses going beyond legal obligations to positively impact society."
+    },
+    {
+      "id": "case-q9",
+      "question": "Which philosopher argued that businesses should adhere to a 'veil of ignorance' in ethical decision-making?",
+      "options": [
+        "John Rawls",
+        "Adam Smith",
+        "Friedrich Nietzsche",
+        "Thomas Hobbes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Rawls proposed the 'veil of ignorance' as a thought experiment to ensure fairness in ethical decision-making."
+    },
+    {
+      "id": "case-q10",
+      "question": "A company decides to prioritize profit over environmental safety, resulting in a significant oil spill. Which ethical theory would most criticize this decision?",
+      "options": [
+        "Utilitarianism",
+        "Egoism",
+        "Virtue ethics",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Utilitarianism would criticize this decision as it resulted in harm to the environment and society, outweighing the immediate profits."
+    },
+    {
+      "id": "case-q11",
+      "question": "A tech company introduces a new feature that collects user data without consent, leading to public backlash. Which ethical principle is at stake?",
+      "options": [
+        "Informed consent",
+        "Beneficence",
+        "Justice",
+        "Autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The principle of informed consent is violated when user data is collected without their knowledge or agreement."
+    },
+    {
+      "id": "case-q12",
+      "question": "A retail chain implements a policy to only source materials from fair-trade certified suppliers. Which ethical approach does this exemplify?",
+      "options": [
+        "Deontological ethics",
+        "Egoism",
+        "Moral relativism",
+        "Cultural imperialism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Deontological ethics focuses on duty and principles, and sourcing from fair-trade suppliers aligns with ethical duties toward fairness."
+    },
+    {
+      "id": "case-q13",
+      "question": "What is a major criticism of utilitarianism in business ethics?",
+      "options": [
+        "It can justify harmful actions if they benefit the majority.",
+        "It focuses too much on individual rights.",
+        "It ignores the role of character in decision-making.",
+        "It is too rigid and lacks flexibility."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Utilitarianism is often criticized for potentially justifying harmful actions if they result in a net benefit for the majority."
+    },
+    {
+      "id": "case-q14",
+      "question": "How does Kantian ethics differ from utilitarianism in addressing corporate responsibility?",
+      "options": [
+        "It emphasizes duty over consequences.",
+        "It focuses on outcomes rather than principles.",
+        "It considers cultural norms as the basis for decisions.",
+        "It prioritizes shareholder value above all else."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics differs by emphasizing duty and adherence to moral laws, rather than the consequences of actions."
+    },
+    {
+      "id": "case-q15",
+      "question": "Which of the following is a limitation of stakeholder theory in business ethics?",
+      "options": [
+        "Difficulty in balancing conflicting stakeholder interests",
+        "Focus on profit maximization",
+        "Emphasis on short-term gains",
+        "Neglect of ethical considerations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A limitation of stakeholder theory is the challenge of balancing and reconciling conflicting interests of different stakeholders."
+    }
+  ]
+}

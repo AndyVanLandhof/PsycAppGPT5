@@ -5,106 +5,106 @@
   "subTopic": "mill-rule-util",
   "subTopicTitle": "Mill & Rule Utilitarianism",
   "type": "flashcards",
-  "generatedAt": "2025-12-06T10:59:52.126Z",
+  "generatedAt": "2025-12-07T12:58:01.193Z",
   "items": [
     {
       "question": "What is Rule Utilitarianism?",
-      "answer": "Rule Utilitarianism is a form of utilitarianism that suggests we follow rules that lead to the greatest good for the greatest number.",
+      "answer": "Rule Utilitarianism, proposed by John Stuart Mill, evaluates the morality of actions based on adherence to rules that lead to the greatest good.",
       "ao": "AO1"
     },
     {
-      "question": "Define higher and lower pleasures according to Mill.",
-      "answer": "Higher pleasures involve intellectual and moral faculties, while lower pleasures are bodily and sensory experiences. Mill values higher pleasures more.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What did Mill propose about individual rights?",
-      "answer": "Mill proposed that individual rights should be protected to achieve overall happiness, emphasizing the importance of liberty and harm principle.",
-      "ao": "AO1"
-    },
-    {
-      "question": "What is the harm principle?",
-      "answer": "The harm principle asserts that individuals are free to act unless their actions harm others, a concept central to Mill's utilitarianism.",
-      "ao": "AO1"
-    },
-    {
-      "question": "Define the term 'utility' in utilitarianism.",
-      "answer": "Utility refers to the overall happiness or satisfaction derived from an action, which utilitarianism seeks to maximize.",
+      "question": "Define 'higher and lower pleasures' according to Mill.",
+      "answer": "Mill distinguishes between 'higher' intellectual pleasures and 'lower' bodily pleasures, valuing the former as more significant to human happiness.",
       "ao": "AO1"
     },
     {
       "question": "What did Mill argue about justice and utility?",
-      "answer": "Mill argued that justice is a component of utility, as just actions lead to the greatest happiness.",
+      "answer": "Mill argued that justice is grounded in utility, claiming justice involves rules that promote overall happiness and fairness.",
       "ao": "AO1"
     },
     {
-      "question": "Explain Mill's view on the 'tyranny of the majority'.",
-      "answer": "Mill warned against the 'tyranny of the majority', where the desires of the majority oppress minority rights, conflicting with utilitarian principles.",
+      "question": "What is the 'harm principle' in Mill's Utilitarianism?",
+      "answer": "Mill's harm principle states individuals are free to act unless their actions cause harm to others, aligning with utilitarian ethics.",
       "ao": "AO1"
     },
     {
-      "question": "What role do rules play in Rule Utilitarianism?",
-      "answer": "In Rule Utilitarianism, rules guide actions to maximize overall happiness and are evaluated based on the consequences of consistently following them.",
+      "question": "Define 'weak rule utilitarianism'.",
+      "answer": "Weak rule utilitarianism allows exceptions to rules if breaking them results in greater overall happiness, blending rule and act utilitarianism.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What did Mill propose about individual liberty?",
+      "answer": "Mill proposed that individual liberty is essential for personal and societal happiness, as it encourages diversity of opinions and actions.",
       "ao": "AO1"
     },
     {
       "question": "How does Mill's utilitarianism differ from Bentham's?",
-      "answer": "Mill's utilitarianism emphasizes qualitative assessments of happiness (higher and lower pleasures), while Bentham focuses on quantitative measures (hedonic calculus).",
+      "answer": "Mill emphasizes qualitative differences in pleasures, while Bentham focuses on quantifying pleasures without distinction.",
       "ao": "AO1"
     },
     {
-      "question": "What is the principle of utility?",
-      "answer": "The principle of utility is the idea that the best action is the one that maximizes overall happiness or pleasure.",
+      "question": "What is 'strong rule utilitarianism'?",
+      "answer": "Strong rule utilitarianism suggests that rules should always be followed, as they are created to maximize overall happiness.",
       "ao": "AO1"
     },
     {
-      "question": "What did Mill say about education and pleasure?",
-      "answer": "Mill believed education elevates individuals to appreciate higher pleasures, leading to greater overall happiness.",
+      "question": "Define 'utility' in the context of Mill's utilitarianism.",
+      "answer": "Utility, for Mill, refers to actions maximizing happiness or pleasure and minimizing pain, with a focus on qualitative assessments.",
       "ao": "AO1"
     },
     {
-      "question": "What is the 'Greatest Happiness Principle'?",
-      "answer": "The 'Greatest Happiness Principle' is the foundation of utilitarianism, advocating for actions that produce the greatest happiness for the greatest number.",
+      "question": "What did Mill suggest about moral rules?",
+      "answer": "Mill suggested moral rules are justified if their general observance leads to the greatest happiness for the greatest number.",
       "ao": "AO1"
     },
     {
-      "question": "How does Rule Utilitarianism apply to following traffic laws?",
-      "answer": "Traffic laws promote safety and order, leading to greater overall happiness, thus aligning with Rule Utilitarianism.",
+      "question": "What role does 'education' play in Mill's utilitarianism?",
+      "answer": "Education is crucial for Mill, as it helps individuals appreciate higher pleasures, contributing to personal and societal happiness.",
+      "ao": "AO1"
+    },
+    {
+      "question": "What is the 'greatest happiness principle'?",
+      "answer": "The greatest happiness principle is the idea that actions are right if they promote happiness and wrong if they produce the opposite.",
+      "ao": "AO1"
+    },
+    {
+      "question": "How does Mill's rule utilitarianism apply to lying?",
+      "answer": "Mill's rule utilitarianism suggests that lying is generally wrong, as it undermines trust, except in rare cases where lying prevents greater harm.",
       "ao": "AO2"
     },
     {
-      "question": "Apply Rule Utilitarianism to a scenario where lying prevents harm.",
-      "answer": "Rule Utilitarianism would assess if a general rule against lying maximizes happiness, considering exceptions where lying prevents harm.",
+      "question": "Apply Mill's harm principle to free speech.",
+      "answer": "According to Mill's harm principle, free speech should be protected unless it directly harms others, supporting a utilitarian view of liberty.",
       "ao": "AO2"
     },
     {
-      "question": "How might Rule Utilitarianism apply to public health policies?",
-      "answer": "Public health policies promoting vaccinations can be justified by Rule Utilitarianism if they increase overall societal well-being.",
+      "question": "How might Mill's utilitarianism apply to environmental ethics?",
+      "answer": "Mill's utilitarianism can support environmental protection by valuing long-term happiness and sustainable practices over short-term gains.",
       "ao": "AO2"
     },
     {
-      "question": "Apply Mill's harm principle to freedom of speech.",
-      "answer": "Freedom of speech should be upheld unless it causes harm to others, adhering to Mill's harm principle.",
+      "question": "Apply Mill's theory to a dilemma about resource distribution.",
+      "answer": "Mill would advocate for distributing resources in a way that maximizes collective well-being, prioritizing needs that enhance higher pleasures.",
       "ao": "AO2"
     },
     {
-      "question": "Give one strength of Rule Utilitarianism.",
-      "answer": "Rule Utilitarianism provides a consistent framework for ethical decision-making, promoting overall happiness by following established rules.",
+      "question": "Give one strength of Mill's rule utilitarianism.",
+      "answer": "Mill's rule utilitarianism offers a balanced approach by combining individual rights with the pursuit of general happiness, promoting societal harmony.",
       "ao": "AO3"
     },
     {
-      "question": "Give one limitation of Rule Utilitarianism.",
-      "answer": "Rule Utilitarianism can lead to rigidity, as strict adherence to rules may not account for unique situations requiring exceptions.",
+      "question": "Give one limitation of Mill's focus on higher pleasures.",
+      "answer": "Critics argue Mill's emphasis on higher pleasures is elitist, potentially neglecting the importance of simple pleasures for some individuals.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate Mill's qualitative approach to happiness.",
-      "answer": "Mill's qualitative approach values intellectual pleasures, offering a more nuanced view of happiness, but can be subjective and elitist.",
+      "question": "Evaluate the practicality of Mill's rule utilitarianism.",
+      "answer": "Mill's rule utilitarianism can be challenging to implement, as it requires consensus on which rules maximize happiness and when exceptions apply.",
       "ao": "AO3"
     },
     {
-      "question": "Evaluate the methodology of Mill's utilitarianism.",
-      "answer": "Mill's utilitarianism relies on subjective assessments of higher and lower pleasures, which can lack empirical measurability and consistency.",
+      "question": "Give one critique of Mill's harm principle.",
+      "answer": "Mill's harm principle can be vague, making it difficult to determine what constitutes harm, leading to subjective interpretations.",
       "ao": "AO3"
     }
   ]

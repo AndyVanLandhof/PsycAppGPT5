@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "euthanasia",
+  "topicTitle": "Euthanasia",
+  "subTopic": "situation",
+  "subTopicTitle": "Situation Ethics & Euthanasia",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:48:37.555Z",
+  "items": [
+    {
+      "id": "situation-q1",
+      "question": "Who is the main proponent of Situation Ethics?",
+      "options": [
+        "Joseph Fletcher",
+        "Jeremy Bentham",
+        "Immanuel Kant",
+        "Thomas Aquinas"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher developed the theory of Situation Ethics in the 1960s, emphasizing 'agape' love."
+    },
+    {
+      "id": "situation-q2",
+      "question": "What is the key principle of Situation Ethics?",
+      "options": [
+        "The greatest good for the greatest number",
+        "Love thy neighbor",
+        "Act only according to that maxim by which you can at the same time will that it should become a universal law",
+        "The sanctity of life"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Situation Ethics is based on the principle of love, specifically 'agape' love, which is about selfless care for others."
+    },
+    {
+      "id": "situation-q3",
+      "question": "In what year did Joseph Fletcher publish 'Situation Ethics: The New Morality'?",
+      "options": [
+        "1966",
+        "1972",
+        "1955",
+        "1980"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Fletcher published his influential book 'Situation Ethics: The New Morality' in 1966."
+    },
+    {
+      "id": "situation-q4",
+      "question": "Which of the following best describes 'agape' love in Situation Ethics?",
+      "options": [
+        "Romantic love",
+        "Familial love",
+        "Self-sacrificial love",
+        "Platonic love"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "'Agape' love is self-sacrificial, unconditional love, which is central to Situation Ethics as advocated by Fletcher."
+    },
+    {
+      "id": "situation-q5",
+      "question": "How does Situation Ethics view absolute moral rules?",
+      "options": [
+        "As binding and unchangeable",
+        "As generally reliable but breakable for love",
+        "As irrelevant",
+        "As divinely ordained"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Situation Ethics suggests that moral rules can be set aside if love is better served by doing so."
+    },
+    {
+      "id": "situation-q6",
+      "question": "Which biblical principle is Situation Ethics closely aligned with?",
+      "options": [
+        "Sermon on the Mount",
+        "Ten Commandments",
+        "Golden Rule",
+        "Parable of the Good Samaritan"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The Parable of the Good Samaritan exemplifies 'agape' love, which is central to Situation Ethics."
+    },
+    {
+      "id": "situation-q7",
+      "question": "Which philosopher's ideas are often contrasted with Situation Ethics?",
+      "options": [
+        "Immanuel Kant",
+        "David Hume",
+        "Aristotle",
+        "John Stuart Mill"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant's deontological ethics, based on duty and rules, contrast with Situation Ethics' focus on love."
+    },
+    {
+      "id": "situation-q8",
+      "question": "What does Situation Ethics consider the only intrinsic good?",
+      "options": [
+        "Happiness",
+        "Love",
+        "Justice",
+        "Virtue"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "In Situation Ethics, only love is considered intrinsically good, guiding moral decisions."
+    },
+    {
+      "id": "situation-q9",
+      "question": "What is a potential criticism of Situation Ethics?",
+      "options": [
+        "It is too rigid and rule-bound",
+        "It is difficult to apply consistently",
+        "It lacks a focus on outcomes",
+        "It ignores the role of happiness"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Critics argue Situation Ethics is difficult to apply consistently due to its subjective nature."
+    },
+    {
+      "id": "situation-q10",
+      "question": "A doctor considers euthanasia for a terminally ill patient who is in severe pain and requests to die. How might Situation Ethics evaluate this decision?",
+      "options": [
+        "It depends on whether it serves agape love",
+        "It is immoral regardless of circumstance",
+        "It should be avoided due to its consequences",
+        "It must adhere to legal standards"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would evaluate whether euthanasia serves the most loving outcome for the patient."
+    },
+    {
+      "id": "situation-q11",
+      "question": "A family requests euthanasia for their elderly relative to inherit sooner. How might Situation Ethics respond?",
+      "options": [
+        "It would approve if it benefits the family",
+        "It would reject due to lack of love motivation",
+        "It would follow legal guidelines",
+        "It would consider societal norms"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would likely reject the request as it lacks the motivation of selfless love."
+    },
+    {
+      "id": "situation-q12",
+      "question": "In a country where euthanasia is illegal, a doctor considers performing it out of compassion. How might Situation Ethics approach this?",
+      "options": [
+        "It would prioritize legal adherence",
+        "It would prioritize the loving action",
+        "It would avoid due to possible punishment",
+        "It would depend on public opinion"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Situation Ethics would prioritize the most loving action, potentially disregarding legal restrictions."
+    },
+    {
+      "id": "situation-q13",
+      "question": "How does Situation Ethics compare to Utilitarianism in decision-making?",
+      "options": [
+        "Both prioritize rules over outcomes",
+        "Situation Ethics focuses on love, Utilitarianism on happiness",
+        "Both reject consequences in moral evaluation",
+        "Situation Ethics values duty, Utilitarianism values love"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Situation Ethics focuses on love as a guiding principle, whereas Utilitarianism prioritizes happiness and consequences."
+    },
+    {
+      "id": "situation-q14",
+      "question": "What is a methodological critique of Situation Ethics?",
+      "options": [
+        "It is too reliant on empirical data",
+        "It lacks clear decision-making criteria",
+        "It focuses excessively on outcomes",
+        "It is overly structured and detailed"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Critics argue that Situation Ethics lacks clear criteria, leading to subjective and potentially inconsistent decisions."
+    },
+    {
+      "id": "situation-q15",
+      "question": "Which ethical theory contrasts the most with Situation Ethics concerning moral absolutes?",
+      "options": [
+        "Virtue Ethics",
+        "Kantian Ethics",
+        "Utilitarianism",
+        "Natural Law"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Kantian Ethics is based on absolute moral rules, which contrasts with the flexible, love-focused approach of Situation Ethics."
+    }
+  ]
+}

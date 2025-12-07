@@ -1,0 +1,206 @@
+{
+  "curriculum": "ocr-rs",
+  "topic": "business-ethics",
+  "topicTitle": "Business Ethics",
+  "subTopic": "kant",
+  "subTopicTitle": "Kantian Views on Business",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T16:49:30.290Z",
+  "items": [
+    {
+      "id": "kant-q1",
+      "question": "According to Immanuel Kant, what is the primary basis for ethical decision-making in business?",
+      "options": [
+        "Duty and adherence to moral laws",
+        "Maximizing shareholder value",
+        "Outcome-based consequences",
+        "Personal intuition and feelings"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's ethical framework is deontological, emphasizing duty and adherence to moral laws rather than consequences or personal feelings."
+    },
+    {
+      "id": "kant-q2",
+      "question": "Which of the following best represents Kant's Categorical Imperative in a business context?",
+      "options": [
+        "Act only according to that maxim whereby you can, at the same time, will that it should become a universal law",
+        "Act to maximize the profits of the business",
+        "Act according to what benefits the most people",
+        "Act in a way that aligns with cultural norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's Categorical Imperative requires actions to be universalizable, meaning they could be applied consistently by everyone."
+    },
+    {
+      "id": "kant-q3",
+      "question": "What is one criticism of applying Kantian ethics to business practices?",
+      "options": [
+        "It is too rigid and does not consider outcomes",
+        "It focuses too much on emotions",
+        "It supports unethical profit maximization",
+        "It allows for cultural relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is often criticized for its rigidity and lack of consideration for the consequences of actions."
+    },
+    {
+      "id": "kant-q4",
+      "question": "Which philosopher is most closely associated with Kantian ethics?",
+      "options": [
+        "Immanuel Kant",
+        "John Stuart Mill",
+        "Jeremy Bentham",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Immanuel Kant is the philosopher who developed the deontological framework known as Kantian ethics."
+    },
+    {
+      "id": "kant-q5",
+      "question": "In a business scenario where a company must choose between lying to protect a client's privacy or telling the truth, what would Kantian ethics likely dictate?",
+      "options": [
+        "Tell the truth, as lying cannot be universalized",
+        "Lie to protect the client as it benefits the most people",
+        "Act based on the company's own values",
+        "Consider the potential outcomes before deciding"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Under Kantian ethics, lying is typically not permissible as it cannot be universalized into a moral law."
+    },
+    {
+      "id": "kant-q6",
+      "question": "How does Kantian ethics view the concept of treating people as ends in themselves in a business context?",
+      "options": [
+        "Treating employees and customers with respect and dignity",
+        "Using employees as means to achieve business goals",
+        "Maximizing the utility of all stakeholders",
+        "Adapting to cultural expectations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kantian ethics emphasizes treating individuals as ends in themselves, respecting their inherent dignity and worth."
+    },
+    {
+      "id": "kant-q7",
+      "question": "Which of the following is a potential strength of using Kantian ethics in business decision-making?",
+      "options": [
+        "It provides a clear framework for ethical consistency",
+        "It allows flexibility based on circumstances",
+        "It prioritizes outcomes over processes",
+        "It encourages profit maximization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is praised for its consistency, offering a clear framework for ethical decision-making, irrespective of consequences."
+    },
+    {
+      "id": "kant-q8",
+      "question": "What is a key feature of Kant's moral philosophy that can be applied in business ethics?",
+      "options": [
+        "Universality of moral laws",
+        "Greatest happiness principle",
+        "Market-driven decision-making",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant's philosophy centers on the universality of moral laws, requiring actions to be applicable to all."
+    },
+    {
+      "id": "kant-q9",
+      "question": "In Kantian ethics, what is the significance of 'good will' in business decisions?",
+      "options": [
+        "It is the only thing that is good without qualification",
+        "It is secondary to profit motives",
+        "It is determined by cultural standards",
+        "It is relevant only in personal contexts"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "According to Kant, 'good will' is the only thing that is intrinsically good, making it central to ethical business decisions."
+    },
+    {
+      "id": "kant-q10",
+      "question": "A manager decides to treat all employees fairly, regardless of their performance level. Which Kantian principle does this illustrate?",
+      "options": [
+        "Universality",
+        "Utilitarianism",
+        "Profit maximization",
+        "Cultural relativism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This decision reflects the Kantian principle of universality, treating actions as if they were to become a universal law."
+    },
+    {
+      "id": "kant-q11",
+      "question": "Which study demonstrated potential challenges in applying Kantian ethics to real-world scenarios?",
+      "options": [
+        "Dunfee and Freeman (2003)",
+        "Milgram (1963)",
+        "Asch (1951)",
+        "Zimbardo (1971)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Dunfee and Freeman (2003) explored the practical challenges businesses face when applying rigid ethical frameworks like Kantian ethics."
+    },
+    {
+      "id": "kant-q12",
+      "question": "What would Kant likely say about a business decision made purely to increase profits at the expense of ethical standards?",
+      "options": [
+        "It is unethical, as it uses people as means to an end",
+        "It is acceptable if it benefits shareholders",
+        "It is justified if it aligns with cultural norms",
+        "It is permissible if it follows company policy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Kantian ethics would view this as unethical, as it violates the principle of treating individuals as ends in themselves."
+    },
+    {
+      "id": "kant-q13",
+      "question": "How might Kantian ethics be criticized when compared to Utilitarianism in a business setting?",
+      "options": [
+        "It fails to consider outcomes, unlike Utilitarianism",
+        "It is too focused on personal feelings",
+        "It does not prioritize profit maximization",
+        "It encourages unethical behavior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Kantian ethics is often criticized for its lack of consideration for outcomes, a key focus of Utilitarianism."
+    },
+    {
+      "id": "kant-q14",
+      "question": "Which concept is central to Kant's ethical theory and can influence business practices?",
+      "options": [
+        "Moral duty",
+        "Cultural norms",
+        "Profitability",
+        "Intuition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moral duty is a central concept in Kant's deontological ethics, guiding ethical business practices."
+    },
+    {
+      "id": "kant-q15",
+      "question": "In Kantian ethics, what is the relationship between freedom and moral law in business?",
+      "options": [
+        "True freedom is acting in accordance with moral law",
+        "Freedom is the ability to maximize profits",
+        "Freedom is following one's instincts",
+        "Freedom is adhering to cultural norms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kant believed true freedom involves acting in accordance with moral law, a principle applicable in business ethics."
+    }
+  ]
+}
