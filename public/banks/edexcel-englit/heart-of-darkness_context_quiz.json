@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "context",
+  "subTopicTitle": "Context & Form",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:29:46.416Z",
+  "items": [
+    {
+      "id": "context-q1",
+      "question": "Which of the following correctly identifies the narrative style of 'Heart of Darkness'?",
+      "options": [
+        "Frame narrative",
+        "Stream of consciousness",
+        "Epistolary",
+        "Omniscient third-person"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Heart of Darkness' employs a frame narrative, where the story is recounted by Marlow to other characters on a boat."
+    },
+    {
+      "id": "context-q2",
+      "question": "What is the primary setting of 'Heart of Darkness'?",
+      "options": [
+        "The Congo River",
+        "The Amazon River",
+        "The Nile River",
+        "The Mississippi River"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The novel is primarily set along the Congo River, reflecting the historical context of European exploration in Africa."
+    },
+    {
+      "id": "context-q3",
+      "question": "Who is the author of 'Heart of Darkness'?",
+      "options": [
+        "Joseph Conrad",
+        "Charles Dickens",
+        "Herman Melville",
+        "F. Scott Fitzgerald"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Joseph Conrad, a Polish-British writer, authored 'Heart of Darkness', published in 1899."
+    },
+    {
+      "id": "context-q4",
+      "question": "In what year was 'Heart of Darkness' first published?",
+      "options": [
+        "1899",
+        "1905",
+        "1910",
+        "1885"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Heart of Darkness' was first published in 1899 as a three-part series in Blackwood's Magazine."
+    },
+    {
+      "id": "context-q5",
+      "question": "Which character in 'Heart of Darkness' is a symbol of European colonialism?",
+      "options": [
+        "Kurtz",
+        "Marlow",
+        "The Russian Trader",
+        "The Intended"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kurtz epitomizes the destructive impact of European colonialism through his actions and eventual downfall."
+    },
+    {
+      "id": "context-q6",
+      "question": "What river does Marlow travel on to reach Kurtz in 'Heart of Darkness'?",
+      "options": [
+        "The Thames",
+        "The Congo",
+        "The Amazon",
+        "The Nile"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Marlow's journey to find Kurtz takes place on the Congo River, which is central to the novel's setting."
+    },
+    {
+      "id": "context-q7",
+      "question": "What is the primary theme explored in 'Heart of Darkness'?",
+      "options": [
+        "The duality of human nature",
+        "The futility of war",
+        "The power of love",
+        "The journey of self-discovery"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The novel explores the duality of human nature through its depiction of civilization vs. savagery."
+    },
+    {
+      "id": "context-q8",
+      "question": "Which literary movement is 'Heart of Darkness' often associated with?",
+      "options": [
+        "Modernism",
+        "Romanticism",
+        "Realism",
+        "Postmodernism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Conrad's 'Heart of Darkness' is associated with Modernism due to its narrative structure and themes."
+    },
+    {
+      "id": "context-q9",
+      "question": "Which critical theory would focus on the power dynamics between colonizers and the colonized in 'Heart of Darkness'?",
+      "options": [
+        "Postcolonialism",
+        "Feminism",
+        "Marxism",
+        "Psychoanalysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Postcolonialism examines the effects of colonialism, which is a central theme in 'Heart of Darkness'."
+    },
+    {
+      "id": "context-q10",
+      "question": "If a researcher were to analyze the psychological impact of isolation on Kurtz in 'Heart of Darkness', which aspect of AO2 would they be applying?",
+      "options": [
+        "Application of psychological theories",
+        "Application of historical context",
+        "Application of feminist critique",
+        "Application of linguistic analysis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Analyzing Kurtz's psychological deterioration due to isolation involves applying psychological theories to the text."
+    },
+    {
+      "id": "context-q11",
+      "question": "A student suggests that Marlow's journey represents a critique of European imperialism. Which critical perspective does this align with?",
+      "options": [
+        "Postcolonial critique",
+        "Feminist critique",
+        "Psychoanalytical critique",
+        "Marxist critique"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This perspective aligns with a postcolonial critique, as it examines the impact and critique of imperialism."
+    },
+    {
+      "id": "context-q12",
+      "question": "In a study of narrative techniques, which element would best represent Marlow's storytelling method in 'Heart of Darkness'?",
+      "options": [
+        "Unreliable narrator",
+        "Epistolary structure",
+        "Circular narrative",
+        "Direct discourse"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Marlow's storytelling is non-linear and reflective, often revisiting themes, indicative of a circular narrative."
+    },
+    {
+      "id": "context-q13",
+      "question": "Which of the following is a critique of Conrad's portrayal of African characters in 'Heart of Darkness'?",
+      "options": [
+        "Lack of agency and voice",
+        "Overemphasis on cultural rituals",
+        "Idealization of African landscapes",
+        "Detailed character development"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics argue that African characters are marginalized and lack agency, serving as a critique of the novel's portrayal."
+    },
+    {
+      "id": "context-q14",
+      "question": "How does Chinua Achebe's 1977 critique challenge 'Heart of Darkness'?",
+      "options": [
+        "By labeling it a racist text",
+        "By praising its narrative",
+        "By emphasizing its historical accuracy",
+        "By focusing on its character development"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Chinua Achebe criticized 'Heart of Darkness' in 1977 for its racist depictions of Africa and Africans."
+    },
+    {
+      "id": "context-q15",
+      "question": "What methodological issue arises from using 'Heart of Darkness' as a historical account of colonial Africa?",
+      "options": [
+        "Fictional narrative bias",
+        "Over-reliance on factual data",
+        "Lack of character development",
+        "Excessive use of dialogue"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "As a fictional work, 'Heart of Darkness' presents a narrative bias, limiting its reliability as a historical account."
+    }
+  ]
+}

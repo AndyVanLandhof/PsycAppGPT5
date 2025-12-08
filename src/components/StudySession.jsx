@@ -394,8 +394,7 @@ Return ONLY valid JSON:
   const revealAO1 = () => setPhase('ao1-reveal');
 
   const generateAO3 = async () => {
-    // Transition immediately so the user sees progress
-    setPhase('scenario');
+    // Stay on AO3 phase while loading
     setLoading(true);
     setAo3Text('');
     try {
@@ -637,8 +636,11 @@ Return ONLY valid JSON:
             )}
             
             <div className="flex gap-3 flex-wrap">
-              <button onClick={revealAO1} className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-                See Full AO1 Summary →
+              <button onClick={generateScenario} disabled={loading} className="px-5 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 font-semibold">
+                Move to AO2 →
+              </button>
+              <button onClick={revealAO1} className="px-4 py-2 bg-blue-100 text-blue-700 rounded hover:bg-blue-200">
+                View AO1 Model Answer
               </button>
               <button onClick={onBack} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
                 Done - Back to Topic
@@ -654,14 +656,21 @@ Return ONLY valid JSON:
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="max-w-3xl mx-auto p-6">
-          <button onClick={() => setPhase('ao1-prompt')} className="text-blue-600 underline mb-4">← Back</button>
+          <button onClick={() => setPhase('ao1-feedback')} className="text-blue-600 underline mb-4">← Back to Feedback</button>
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h3 className="font-semibold">AO1 Summary</h3>
+            <h3 className="font-semibold">AO1 Model Answer</h3>
             <div 
               className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-blue-50 border border-blue-200 p-3 rounded"
               dangerouslySetInnerHTML={{ __html: formatBold(formatBullets(ao1Text || (loading ? 'Loading…' : 'No summary available.'))) }}
             />
-            <button onClick={generateScenario} className="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50" disabled={loading}>Next: Scenario</button>
+            <div className="flex gap-3 flex-wrap">
+              <button onClick={generateScenario} disabled={loading} className="px-5 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 font-semibold">
+                Move to AO2 →
+              </button>
+              <button onClick={onBack} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                Done - Back to Topic
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -746,9 +755,58 @@ Return ONLY valid JSON:
                 )}
               </div>
             )}
-            <div className="flex justify-center">
-              <button onClick={onBack} className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+            <div className="flex justify-center gap-3 flex-wrap">
+              {curriculum !== 'ocr-rs' && (
+                <button onClick={() => setPhase('ao3')} className="px-5 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold">
+                  Move to AO3 →
+                </button>
+              )}
+              <button onClick={onBack} className="px-5 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
                 Done - Back to Topic
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (phase === 'ao3') {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="max-w-3xl mx-auto p-6">
+          <button onClick={() => setPhase('finish')} className="text-blue-600 underline mb-4">← Back to AO2 Feedback</button>
+          <div className="bg-white rounded-lg shadow p-6 space-y-4">
+            <h3 className="font-semibold">AO3: Evaluation (PEEL Structure)</h3>
+            <p className="text-sm text-gray-600">
+              Write a critical evaluation using the PEEL structure: <strong>P</strong>oint, <strong>E</strong>vidence, <strong>E</strong>xplain, <strong>L</strong>ink.
+            </p>
+            {ao3Text ? (
+              <div 
+                className="font-sans whitespace-pre-wrap text-base text-gray-800 bg-purple-50 border border-purple-200 p-3 rounded"
+                dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text)) }}
+              />
+            ) : (
+              <div className="text-center py-4">
+                <button 
+                  onClick={generateAO3} 
+                  disabled={loading}
+                  className="px-5 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold disabled:opacity-50"
+                >
+                  {loading ? (
+                    <span className="flex items-center gap-2">
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      Generating AO3 Content...
+                    </span>
+                  ) : (
+                    'Generate AO3 PEEL Evaluation'
+                  )}
+                </button>
+              </div>
+            )}
+            <div className="flex justify-center">
+              <button onClick={onBack} className="px-5 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                Complete - Back to Topic
               </button>
             </div>
           </div>

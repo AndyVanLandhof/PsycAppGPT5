@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "overview",
+  "subTopicTitle": "Plot & Characters",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:29:27.856Z",
+  "items": [
+    {
+      "id": "overview-q1",
+      "question": "What is the central narrative device used in 'Heart of Darkness'?",
+      "options": [
+        "A frame narrative",
+        "A stream of consciousness",
+        "An epistolary format",
+        "A third-person omniscient narration"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Conrad employs a frame narrative where Marlow recounts his story to other characters on a boat."
+    },
+    {
+      "id": "overview-q2",
+      "question": "Who is the primary narrator of 'Heart of Darkness'?",
+      "options": [
+        "Marlow",
+        "Kurtz",
+        "The Director of Companies",
+        "The Accountant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow is the main narrator, sharing his experiences in the Congo to the other passengers on the Nellie."
+    },
+    {
+      "id": "overview-q3",
+      "question": "Which river does Marlow travel on during his journey in 'Heart of Darkness'?",
+      "options": [
+        "The Congo River",
+        "The Nile River",
+        "The Amazon River",
+        "The Zambezi River"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow's journey takes place along the Congo River, symbolizing the journey into the heart of darkness."
+    },
+    {
+      "id": "overview-q4",
+      "question": "What is Kurtz's role in the Congo?",
+      "options": [
+        "He is an ivory trader",
+        "He is a missionary",
+        "He is a soldier",
+        "He is an explorer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kurtz is an ivory trader who becomes a powerful figure among the local population."
+    },
+    {
+      "id": "overview-q5",
+      "question": "What symbolic item does Marlow find at the Inner Station?",
+      "options": [
+        "A human skull",
+        "A painting of a blindfolded woman",
+        "A broken compass",
+        "A map of Africa"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Marlow finds a painting of a blindfolded woman, symbolizing European ignorance and moral blindness."
+    },
+    {
+      "id": "overview-q6",
+      "question": "What is the significance of the patch of grass in the graveyard scene?",
+      "options": [
+        "It symbolizes life amidst death",
+        "It represents colonial wealth",
+        "It indicates Marlow's homeland",
+        "It marks Kurtz's burial site"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The patch of grass symbolizes a small sign of life and hope amidst the pervasive theme of death."
+    },
+    {
+      "id": "overview-q7",
+      "question": "What is the primary theme explored in 'Heart of Darkness'?",
+      "options": [
+        "The duality of human nature",
+        "The importance of family",
+        "The journey towards enlightenment",
+        "The power of technology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The novel explores the duality of human nature, particularly the darkness within."
+    },
+    {
+      "id": "overview-q8",
+      "question": "Which character says the famous line 'The horror! The horror!'?",
+      "options": [
+        "Kurtz",
+        "Marlow",
+        "The Manager",
+        "The Russian"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kurtz utters these words at the end of his life, reflecting his realization of the darkness within himself."
+    },
+    {
+      "id": "overview-q9",
+      "question": "How does Marlow describe his initial impression of the Company’s Chief Accountant?",
+      "options": [
+        "Remarkably well-dressed",
+        "Overwhelmed and disorganized",
+        "Friendly and welcoming",
+        "Indifferent and aloof"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow is struck by the Chief Accountant's immaculate appearance despite the chaos around him."
+    },
+    {
+      "id": "overview-q10",
+      "question": "Marlow encounters a group of native Africans chained together. How does this scene highlight the exploitation theme?",
+      "options": [
+        "By showing their dehumanization",
+        "By emphasizing their voluntary labor",
+        "By depicting their cultural exchange",
+        "By illustrating their independence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The chained Africans symbolize the brutal exploitation and dehumanization under colonial rule."
+    },
+    {
+      "id": "overview-q11",
+      "question": "During Marlow's journey, what role does the fog play in the narrative?",
+      "options": [
+        "It obscures the truth",
+        "It provides a sense of direction",
+        "It symbolizes freedom",
+        "It clears the path"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The fog represents confusion and the inability to see the truth, enhancing the novel's themes of ambiguity."
+    },
+    {
+      "id": "overview-q12",
+      "question": "How does Marlow's perception of Kurtz change throughout the novel?",
+      "options": [
+        "From admiration to disillusionment",
+        "From indifference to friendship",
+        "From fear to respect",
+        "From hatred to love"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Marlow initially admires Kurtz but becomes disillusioned after witnessing his moral decay."
+    },
+    {
+      "id": "overview-q13",
+      "question": "How does Achebe critique 'Heart of Darkness' in his 1977 essay?",
+      "options": [
+        "As a racist text",
+        "As a feminist text",
+        "As a postmodern text",
+        "As a romantic text"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Achebe critiques the novel as racist, arguing that it dehumanizes Africans and perpetuates colonial stereotypes."
+    },
+    {
+      "id": "overview-q14",
+      "question": "In what way does 'Heart of Darkness' challenge the notion of European civilization?",
+      "options": [
+        "By presenting it as morally corrupt",
+        "By depicting it as technologically advanced",
+        "By showing it as culturally superior",
+        "By highlighting its economic success"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The novel challenges European civilization by exposing its moral corruption and hypocrisy."
+    },
+    {
+      "id": "overview-q15",
+      "question": "How does the portrayal of the African landscape contribute to the novel’s themes?",
+      "options": [
+        "It embodies the unknown and the fear of the untamed",
+        "It represents technological advancement",
+        "It highlights European superiority",
+        "It serves as a backdrop for romance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The African landscape is depicted as mysterious and fearsome, reflecting the themes of the unknown and inner darkness."
+    }
+  ]
+}

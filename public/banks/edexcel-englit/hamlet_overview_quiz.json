@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "overview",
+  "subTopicTitle": "Plot & Characters",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:27:45.962Z",
+  "items": [
+    {
+      "id": "overview-q1",
+      "question": "Which character in \"Hamlet\" is the first to see the ghost of King Hamlet?",
+      "options": [
+        "Marcellus",
+        "Horatio",
+        "Bernardo",
+        "Francisco"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Bernardo is the first to see the ghost, as indicated in Act 1, Scene 1."
+    },
+    {
+      "id": "overview-q2",
+      "question": "What is the primary reason for Hamlet's delay in avenging his father's death?",
+      "options": [
+        "Fear of Claudius",
+        "Uncertainty about the ghost's truth",
+        "Desire for power",
+        "Lack of opportunity"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet's delay is largely due to his uncertainty about whether the ghost is truthful, as reflected in his soliloquies."
+    },
+    {
+      "id": "overview-q3",
+      "question": "In Act 3, Scene 1, what does Hamlet mean when he says, \"To be or not to be, that is the question\"?",
+      "options": [
+        "He is contemplating suicide.",
+        "He is deciding whether to confront Claudius.",
+        "He is considering leaving Denmark.",
+        "He is questioning the existence of ghosts."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In this soliloquy, Hamlet is contemplating the nature of existence and the idea of suicide."
+    },
+    {
+      "id": "overview-q4",
+      "question": "Which character provides comic relief in \"Hamlet\"?",
+      "options": [
+        "Polonius",
+        "Ophelia",
+        "The Gravedigger",
+        "Gertrude"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The Gravedigger provides comic relief with his witty banter in Act 5, Scene 1."
+    },
+    {
+      "id": "overview-q5",
+      "question": "Who is sent to Norway to deliver a message to Fortinbras?",
+      "options": [
+        "Rosencrantz and Guildenstern",
+        "Voltemand and Cornelius",
+        "Marcellus and Bernardo",
+        "Osric and Reynaldo"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Voltemand and Cornelius are sent by Claudius to convey a message to Fortinbras in Act 1, Scene 2."
+    },
+    {
+      "id": "overview-q6",
+      "question": "What does Hamlet ask Horatio to do during the play-within-a-play?",
+      "options": [
+        "Distract Claudius",
+        "Watch Claudius for signs of guilt",
+        "Sit with Ophelia",
+        "Leave the room"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet asks Horatio to observe Claudius for any signs of guilt during the play in Act 3, Scene 2."
+    },
+    {
+      "id": "overview-q7",
+      "question": "How does Ophelia die?",
+      "options": [
+        "Drowns in a river",
+        "Poisoned by Claudius",
+        "Stabbed by Hamlet",
+        "Falls from a tower"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ophelia drowns in a river, as described by Gertrude in Act 4, Scene 7."
+    },
+    {
+      "id": "overview-q8",
+      "question": "Which character says, \"Something is rotten in the state of Denmark\"?",
+      "options": [
+        "Hamlet",
+        "Horatio",
+        "Marcellus",
+        "Laertes"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Marcellus makes this observation in Act 1, Scene 4, indicating the corruption in Denmark."
+    },
+    {
+      "id": "overview-q9",
+      "question": "Who kills Polonius?",
+      "options": [
+        "Claudius",
+        "Hamlet",
+        "Laertes",
+        "Horatio"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet accidentally kills Polonius, mistaking him for Claudius in Act 3, Scene 4."
+    },
+    {
+      "id": "overview-q10",
+      "question": "In Act 3, Scene 4, Hamlet confronts his mother. What is the result?",
+      "options": [
+        "Gertrude repents and helps Hamlet",
+        "Gertrude remains loyal to Claudius",
+        "Gertrude is killed by Hamlet",
+        "Gertrude goes mad"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Despite Hamlet's confrontation, Gertrude remains loyal to Claudius, as seen in her subsequent actions."
+    },
+    {
+      "id": "overview-q11",
+      "question": "During the play-within-a-play, how does Claudius react?",
+      "options": [
+        "He laughs",
+        "He cries",
+        "He leaves abruptly",
+        "He falls asleep"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Claudius abruptly leaves the play-within-a-play, confirming his guilt in Act 3, Scene 2."
+    },
+    {
+      "id": "overview-q12",
+      "question": "What does the ghost reveal to Hamlet in Act 1, Scene 5?",
+      "options": [
+        "Claudius killed King Hamlet",
+        "Gertrude was unfaithful",
+        "Laertes is planning revenge",
+        "Fortinbras is attacking Denmark"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The ghost reveals that Claudius murdered King Hamlet, prompting Hamlet's quest for revenge."
+    },
+    {
+      "id": "overview-q13",
+      "question": "How does the use of soliloquies in \"Hamlet\" contribute to the play's exploration of internal conflict?",
+      "options": [
+        "They provide comic relief",
+        "They conceal the plot",
+        "They reveal Hamlet's inner thoughts",
+        "They create confusion about the timeline"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Soliloquies reveal Hamlet's internal struggles, enhancing the play's exploration of internal conflict."
+    },
+    {
+      "id": "overview-q14",
+      "question": "Compare Ophelia's madness to Hamlet's feigned madness. How do they differ?",
+      "options": [
+        "Ophelia's madness is genuine, while Hamlet's is not",
+        "Both are feigned",
+        "Both are genuine",
+        "Hamlet's madness is genuine, while Ophelia's is not"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Ophelia's madness is genuine, marked by her erratic behavior, whereas Hamlet's is a strategic guise."
+    },
+    {
+      "id": "overview-q15",
+      "question": "Evaluate the role of Fortinbras in the play. How does he serve as a foil to Hamlet?",
+      "options": [
+        "Both seek revenge but Fortinbras is more decisive",
+        "Both are indecisive",
+        "Fortinbras seeks power, not revenge",
+        "They have no similarities"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Fortinbras serves as a foil by being decisive and action-oriented, contrasting Hamlet's indecision."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "themes",
+  "subTopicTitle": "Themes & Motifs",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:28:02.722Z",
+  "items": [
+    {
+      "id": "themes-q1",
+      "question": "Which theme in 'Hamlet' is most associated with the character of Ophelia?",
+      "options": [
+        "Madness",
+        "Revenge",
+        "Ambition",
+        "Corruption"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ophelia's descent into madness is one of the central themes explored through her character, particularly in Act 4, Scene 5."
+    },
+    {
+      "id": "themes-q2",
+      "question": "In 'Hamlet', which motif is reinforced by the recurring use of the word 'rotten'?",
+      "options": [
+        "Decay",
+        "Love",
+        "Ambition",
+        "Wisdom"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The motif of decay is highlighted by Marcellus's line 'Something is rotten in the state of Denmark' in Act 1, Scene 4."
+    },
+    {
+      "id": "themes-q3",
+      "question": "Which theme is predominantly explored through Hamlet's soliloquies?",
+      "options": [
+        "Existentialism",
+        "Supernatural",
+        "Political Corruption",
+        "Romantic Love"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hamlet's soliloquies, like 'To be or not to be', delve deeply into existential themes about life, death, and the human condition."
+    },
+    {
+      "id": "themes-q4",
+      "question": "Which character in 'Hamlet' embodies the theme of political corruption most clearly?",
+      "options": [
+        "Claudius",
+        "Polonius",
+        "Laertes",
+        "Horatio"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "King Claudius's usurpation of the throne and subsequent actions highlight the theme of political corruption."
+    },
+    {
+      "id": "themes-q5",
+      "question": "Which motif is evident in Hamlet's interactions with the ghost of King Hamlet?",
+      "options": [
+        "Revenge",
+        "Decay",
+        "Madness",
+        "Betrayal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The motif of revenge is central to Hamlet's interactions with his father's ghost, who demands that Hamlet avenge his murder."
+    },
+    {
+      "id": "themes-q6",
+      "question": "Which theme does the play-within-a-play ('The Mousetrap') primarily explore?",
+      "options": [
+        "Appearance vs. Reality",
+        "Loyalty",
+        "Love",
+        "Fate"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'The Mousetrap' explores the theme of appearance vs. reality by revealing the truth about King Claudius's guilt."
+    },
+    {
+      "id": "themes-q7",
+      "question": "Which theme is highlighted by Hamlet's relationship with Gertrude?",
+      "options": [
+        "Betrayal",
+        "Friendship",
+        "Honor",
+        "Ambition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hamlet feels betrayed by Gertrude's quick remarriage, which he sees as a betrayal of her love for his father."
+    },
+    {
+      "id": "themes-q8",
+      "question": "Which motif is represented by Yorick's skull in 'Hamlet'?",
+      "options": [
+        "Mortality",
+        "Sanity",
+        "Love",
+        "Revenge"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Yorick's skull serves as a reminder of mortality and the inevitability of death, a central concern in the play."
+    },
+    {
+      "id": "themes-q9",
+      "question": "Which term best describes the theme of uncertainty that permeates 'Hamlet'?",
+      "options": [
+        "Ambivalence",
+        "Certainty",
+        "Resolution",
+        "Clarity"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ambivalence and uncertainty are pervasive themes in 'Hamlet', as characters grapple with doubt and indecision."
+    },
+    {
+      "id": "themes-q10",
+      "question": "Imagine Hamlet witnesses a political scandal in modern-day Denmark. Which theme would this scenario most likely explore?",
+      "options": [
+        "Corruption",
+        "Love",
+        "Ambition",
+        "Madness"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "A political scandal would highlight the theme of corruption, reflecting the deceit and moral decay found in the play."
+    },
+    {
+      "id": "themes-q11",
+      "question": "If Ophelia were to write a letter to Hamlet expressing her feelings, which theme would her letter most likely address?",
+      "options": [
+        "Love and Betrayal",
+        "Revenge",
+        "Political Intrigue",
+        "Fate"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Ophelia's letter would likely address themes of love and betrayal, reflecting her complex relationship with Hamlet."
+    },
+    {
+      "id": "themes-q12",
+      "question": "If Laertes were to seek revenge through legal means, which theme would this approach challenge?",
+      "options": [
+        "Revenge",
+        "Madness",
+        "Ambition",
+        "Decay"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "By seeking legal retribution, Laertes would challenge the traditional theme of revenge that involves personal vendettas."
+    },
+    {
+      "id": "themes-q13",
+      "question": "How does the theme of revenge in 'Hamlet' compare to its portrayal in Thomas Kyd's 'The Spanish Tragedy' (1587)?",
+      "options": [
+        "Both explore revenge as a destructive force",
+        "Only 'Hamlet' portrays revenge",
+        "Only 'The Spanish Tragedy' portrays revenge",
+        "Neither play addresses revenge"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Both plays explore revenge as a destructive force, though 'Hamlet' delves deeper into the psychological effects on the protagonist."
+    },
+    {
+      "id": "themes-q14",
+      "question": "Evaluate how the use of soliloquies in 'Hamlet' compares to their use in Christopher Marlowe's 'Doctor Faustus' (1604).",
+      "options": [
+        "Both use soliloquies to explore inner conflict",
+        "Only 'Hamlet' uses soliloquies",
+        "Only 'Doctor Faustus' uses soliloquies",
+        "Neither play uses soliloquies"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Both plays employ soliloquies to reveal the protagonists' inner conflicts and moral dilemmas, enriching character development."
+    },
+    {
+      "id": "themes-q15",
+      "question": "Critically assess the portrayal of madness in 'Hamlet' compared to its portrayal in Shakespeare's 'Macbeth' (1606).",
+      "options": [
+        "Both depict madness as a response to guilt and ambition",
+        "Only 'Hamlet' features madness",
+        "Only 'Macbeth' features madness",
+        "Neither play features madness"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Madness in both plays is portrayed as a response to guilt and ambition, but 'Hamlet' focuses more on feigned madness and its consequences."
+    }
+  ]
+}

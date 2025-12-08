@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "overview",
+  "subTopicTitle": "Key Poems & Themes",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:31:20.664Z",
+  "items": [
+    {
+      "id": "overview-q1",
+      "question": "Which poem in the 'Poems of the Decade' anthology explores themes of cultural identity and diaspora?",
+      "options": [
+        "'Please Hold' by Ciaran O'Driscoll",
+        "'An Easy Passage' by Julia Copus",
+        "'The Lammas Hireling' by Ian Duhig",
+        "'Look We Have Coming to Dover!' by Daljit Nagra"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Daljit Nagra's 'Look We Have Coming to Dover!' addresses cultural identity and the immigrant experience, reflecting themes of diaspora."
+    },
+    {
+      "id": "overview-q2",
+      "question": "In 'Chainsaw Versus the Pampas Grass', what does the chainsaw symbolize?",
+      "options": [
+        "Industrialization",
+        "Masculinity",
+        "Nature",
+        "Technology"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The chainsaw in Simon Armitage's poem symbolizes masculinity and aggressive power dynamics."
+    },
+    {
+      "id": "overview-q3",
+      "question": "Which poem features a speaker reflecting on the passage of time and the inevitability of aging?",
+      "options": [
+        "'Giuseppe' by Roderick Ford",
+        "'To My Nine-Year-Old Self' by Helen Dunmore",
+        "'The Gun' by Vicki Feaver",
+        "'Ode on a Grayson Perry Urn' by Tim Turnbull"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Helen Dunmore's 'To My Nine-Year-Old Self' features a speaker looking back on their younger self, reflecting on time and aging."
+    },
+    {
+      "id": "overview-q4",
+      "question": "What is the central theme of 'Material' by Ros Barber?",
+      "options": [
+        "Environmentalism",
+        "Family and Memory",
+        "War and Conflict",
+        "Romantic Love"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Ros Barber's 'Material' explores themes of family, memory, and the transition from childhood to adulthood."
+    },
+    {
+      "id": "overview-q5",
+      "question": "Which poem uses the form of a dramatic monologue to convey its themes?",
+      "options": [
+        "'The Deliverer' by Tishani Doshi",
+        "'Eat Me' by Patience Agbabi",
+        "'The Fox in the National Museum of Wales' by Robert Minhinnick",
+        "'Please Hold' by Ciaran O'Driscoll"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Patience Agbabi's 'Eat Me' is written as a dramatic monologue, exploring themes of control and consumption."
+    },
+    {
+      "id": "overview-q6",
+      "question": "In 'Out of the Bag' by Seamus Heaney, who is the 'doctor' figure the child imagines?",
+      "options": [
+        "A magician",
+        "A priest",
+        "Santa Claus",
+        "A family member"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Heaney's 'Out of the Bag', the child imagines the doctor as a magician, reflecting the mystery and awe surrounding birth."
+    },
+    {
+      "id": "overview-q7",
+      "question": "Which poem deals with the aftermath of a violent event, focusing on guilt and memory?",
+      "options": [
+        "'The Furthest Distances I've Travelled' by Leontia Flynn",
+        "'History' by John Burnside",
+        "'Giuseppe' by Roderick Ford",
+        "'The Fox in the National Museum of Wales' by Robert Minhinnick"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Roderick Ford's 'Giuseppe' explores themes of guilt and memory in the context of a violent, traumatic past event."
+    },
+    {
+      "id": "overview-q8",
+      "question": "In 'The Deliverer' by Tishani Doshi, what issue is primarily highlighted?",
+      "options": [
+        "Climate change",
+        "Female infanticide",
+        "Cultural assimilation",
+        "Urbanization"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Tishani Doshi's 'The Deliverer' illuminates the issue of female infanticide and the societal attitudes towards gender."
+    },
+    {
+      "id": "overview-q9",
+      "question": "Which poem uses vivid imagery to contrast modern life with historical events?",
+      "options": [
+        "'The Fox in the National Museum of Wales' by Robert Minhinnick",
+        "'Ode on a Grayson Perry Urn' by Tim Turnbull",
+        "'Chainsaw Versus the Pampas Grass' by Simon Armitage",
+        "'Material' by Ros Barber"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Tim Turnbull's 'Ode on a Grayson Perry Urn' contrasts contemporary culture with historical art forms, using vivid imagery."
+    },
+    {
+      "id": "overview-q10",
+      "question": "In a study of 'Look We Have Coming to Dover!', students were asked to analyze its use of language. Which of the following best represents a likely focus of their analysis?",
+      "options": [
+        "Use of scientific terminology",
+        "Incorporation of dialect and slang",
+        "Formal diction",
+        "Religious symbolism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Daljit Nagra's poem uses dialect and slang to reflect the multicultural and immigrant experiences."
+    },
+    {
+      "id": "overview-q11",
+      "question": "A student compares 'Material' and 'To My Nine-Year-Old Self' for their treatment of nostalgia. What key difference might they identify?",
+      "options": [
+        "'Material' is more focused on the future",
+        "'To My Nine-Year-Old Self' is more critical of the past",
+        "'Material' uses humor to address nostalgia",
+        "'To My Nine-Year-Old Self' romanticizes childhood"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "'To My Nine-Year-Old Self' contains a critical reflection on the past, contrasting with 'Material's' more sentimental tone."
+    },
+    {
+      "id": "overview-q12",
+      "question": "How might a reader interpret the contrast between the chainsaw and pampas grass in 'Chainsaw Versus the Pampas Grass'?",
+      "options": [
+        "As a critique of modern technology",
+        "As a metaphor for industrial decline",
+        "As a representation of gender conflict",
+        "As a commentary on environmental change"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The poem contrasts the violent masculinity of the chainsaw with the natural femininity of the pampas grass, symbolizing gender conflict."
+    },
+    {
+      "id": "overview-q13",
+      "question": "Which poem might be criticized for lacking a clear narrative structure, leading to potential confusion for readers?",
+      "options": [
+        "'The Gun' by Vicki Feaver",
+        "'History' by John Burnside",
+        "'Eat Me' by Patience Agbabi",
+        "'An Easy Passage' by Julia Copus"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "John Burnside's 'History' is often noted for its fragmented structure, which can make its narrative harder to follow."
+    },
+    {
+      "id": "overview-q14",
+      "question": "When comparing 'The Deliverer' and 'Giuseppe', which aspect might a critic focus on as a key difference?",
+      "options": [
+        "The use of first-person narration",
+        "The depiction of cultural settings",
+        "The exploration of guilt",
+        "The theme of parental relationships"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "While both poems explore dark themes, 'The Deliverer' and 'Giuseppe' differ significantly in their cultural settings and contexts."
+    },
+    {
+      "id": "overview-q15",
+      "question": "What methodological critique might be leveled against the use of dramatic monologue in 'Eat Me'?",
+      "options": [
+        "It creates emotional distance",
+        "It limits perspective to a single viewpoint",
+        "It oversimplifies complex themes",
+        "It relies heavily on historical context"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The dramatic monologue in 'Eat Me' restricts the narrative to a single perspective, which may limit the exploration of broader themes."
+    }
+  ]
+}

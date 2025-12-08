@@ -358,6 +358,63 @@ const ocrTopics = {
   }
 };
 
+// English Literature topics (Edexcel 9ET0)
+const englishLitTopics = {
+  "hamlet": {
+    id: "hamlet",
+    title: "Hamlet (Shakespeare)",
+    subTopics: [
+      { id: "overview", title: "Plot & Characters" },
+      { id: "themes", title: "Themes & Motifs" },
+      { id: "context-critics", title: "Context & Critical Perspectives" }
+    ]
+  },
+  "waiting-for-godot": {
+    id: "waiting-for-godot",
+    title: "Waiting for Godot (Beckett)",
+    subTopics: [
+      { id: "overview", title: "Plot & Characters" },
+      { id: "themes", title: "Themes & Motifs" },
+      { id: "performance", title: "Performance & Staging" }
+    ]
+  },
+  "heart-of-darkness": {
+    id: "heart-of-darkness",
+    title: "Heart of Darkness (Conrad)",
+    subTopics: [
+      { id: "overview", title: "Plot & Characters" },
+      { id: "context", title: "Context & Form" },
+      { id: "comparative", title: "Comparative & Critical Analysis" }
+    ]
+  },
+  "lonely-londoners": {
+    id: "lonely-londoners",
+    title: "The Lonely Londoners (Selvon)",
+    subTopics: [
+      { id: "overview", title: "Plot & Characters" },
+      { id: "context", title: "Context & Form" },
+      { id: "comparative", title: "Comparative & Critical Analysis" }
+    ]
+  },
+  "poems-of-the-decade": {
+    id: "poems-of-the-decade",
+    title: "Poems of the Decade (Anthology)",
+    subTopics: [
+      { id: "overview", title: "Key Poems & Themes" },
+      { id: "comparison", title: "Comparison Skills & Techniques" }
+    ]
+  },
+  "keats-selected": {
+    id: "keats-selected",
+    title: "Keats — Selected Poems",
+    subTopics: [
+      { id: "overview", title: "Key Poems & Biography" },
+      { id: "odes", title: "Major Odes Analysis" },
+      { id: "comparison", title: "Comparison Skills & Techniques" }
+    ]
+  }
+};
+
 const CURRICULA = {
   'aqa-psych': {
     name: 'AQA Psychology 7182',
@@ -368,6 +425,11 @@ const CURRICULA = {
     name: 'OCR Religious Studies H573',
     topics: ocrTopics,
     spec: 'OCR Religious Studies H573'
+  },
+  'edexcel-englit': {
+    name: 'Edexcel English Literature 9ET0',
+    topics: englishLitTopics,
+    spec: 'Edexcel English Literature 9ET0'
   }
 };
 

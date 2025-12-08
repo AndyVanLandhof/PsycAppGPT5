@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "overview",
+  "subTopicTitle": "Key Poems & Biography",
+  "type": "quiz",
+  "generatedAt": "2025-12-07T22:31:51.011Z",
+  "items": [
+    {
+      "id": "overview-q1",
+      "question": "In which year was John Keats born?",
+      "options": [
+        "1795",
+        "1798",
+        "1792",
+        "1801"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "John Keats was born on October 31, 1795, in London, England."
+    },
+    {
+      "id": "overview-q2",
+      "question": "Which of the following poems is NOT written by John Keats?",
+      "options": [
+        "Ode to a Nightingale",
+        "Sonnet 18",
+        "La Belle Dame sans Merci",
+        "To Autumn"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Sonnet 18 is written by William Shakespeare, not John Keats."
+    },
+    {
+      "id": "overview-q3",
+      "question": "What is the primary theme explored in 'Ode on a Grecian Urn'?",
+      "options": [
+        "The transient nature of life",
+        "The beauty of nature",
+        "The power of love",
+        "The passage of time"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem explores the theme of the transient nature of life versus the permanence of art."
+    },
+    {
+      "id": "overview-q4",
+      "question": "Which poem by Keats begins with the line 'Season of mists and mellow fruitfulness'?",
+      "options": [
+        "Ode to Psyche",
+        "To Autumn",
+        "Ode on Melancholy",
+        "Bright Star"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "'To Autumn' starts with this line, capturing the essence of the season."
+    },
+    {
+      "id": "overview-q5",
+      "question": "Who was John Keats' primary romantic interest, often mentioned in his biographies?",
+      "options": [
+        "Fanny Brawne",
+        "Emily Brontë",
+        "Mary Shelley",
+        "Jane Austen"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Fanny Brawne was Keats' fiancée and a significant figure in his life and poetry."
+    },
+    {
+      "id": "overview-q6",
+      "question": "Which of the following is a notable characteristic of Keats' poetry?",
+      "options": [
+        "Use of heroic couplets",
+        "Emphasis on imagination and beauty",
+        "Focus on social reform",
+        "Use of satirical tone"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Keats' poetry often emphasizes imagination and the beauty of the natural world."
+    },
+    {
+      "id": "overview-q7",
+      "question": "In which year did John Keats die?",
+      "options": [
+        "1821",
+        "1830",
+        "1815",
+        "1826"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Keats died of tuberculosis on February 23, 1821, in Rome."
+    },
+    {
+      "id": "overview-q8",
+      "question": "Which poem contains the line 'Beauty is truth, truth beauty'?",
+      "options": [
+        "Ode on a Grecian Urn",
+        "Endymion",
+        "Hyperion",
+        "Ode to Psyche"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "This famous line appears in 'Ode on a Grecian Urn', summarizing the poem's theme."
+    },
+    {
+      "id": "overview-q9",
+      "question": "What is the form of 'La Belle Dame sans Merci'?",
+      "options": [
+        "Ballad",
+        "Sonnet",
+        "Villanelle",
+        "Free verse"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem is written in the form of a ballad, with a simple and direct narrative style."
+    },
+    {
+      "id": "overview-q10",
+      "question": "Consider the poem 'To Autumn'. What mood is predominantly conveyed through the imagery?",
+      "options": [
+        "Melancholic",
+        "Serene",
+        "Chaotic",
+        "Joyful"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The imagery in 'To Autumn' conveys a serene mood, celebrating the abundance and tranquility of the season."
+    },
+    {
+      "id": "overview-q11",
+      "question": "In 'Ode to a Nightingale', how does Keats describe the nightingale's song?",
+      "options": [
+        "A mournful lament",
+        "An immortal voice",
+        "A harsh cry",
+        "A joyful call"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Keats describes the nightingale's song as an 'immortal voice', highlighting its timeless beauty."
+    },
+    {
+      "id": "overview-q12",
+      "question": "Which of the following scenarios best captures the essence of negative capability, a concept associated with Keats?",
+      "options": [
+        "A scientist seeks definitive answers to a complex question",
+        "A poet embraces uncertainty and ambiguity in art",
+        "A philosopher argues for clear and distinct ideas",
+        "A historian constructs a detailed timeline of events"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Negative capability involves embracing uncertainty and ambiguity, as Keats believed a poet should."
+    },
+    {
+      "id": "overview-q13",
+      "question": "What is a common critique of Keats' use of language in his odes?",
+      "options": [
+        "Over-reliance on archaic language",
+        "Excessive use of technical jargon",
+        "Lack of emotional depth",
+        "Inconsistent meter"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Critics sometimes note Keats' use of archaic language, which can make his poetry seem distant to modern readers."
+    },
+    {
+      "id": "overview-q14",
+      "question": "How does Keats' portrayal of nature in 'Ode to a Nightingale' compare to Wordsworth's portrayal of nature?",
+      "options": [
+        "Keats views nature as more chaotic than Wordsworth",
+        "Keats sees nature as transcendent, while Wordsworth sees it as comforting",
+        "Both poets view nature as a source of moral lessons",
+        "Keats sees nature as mundane, while Wordsworth finds it mystical"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Keats often sees nature as transcendent and otherworldly, whereas Wordsworth finds comfort and moral insight in nature."
+    },
+    {
+      "id": "overview-q15",
+      "question": "In terms of poetic form, how do Keats' 'Ode to a Nightingale' and 'Ode on a Grecian Urn' differ?",
+      "options": [
+        "'Ode to a Nightingale' uses a consistent rhyme scheme, while 'Ode on a Grecian Urn' does not",
+        "'Ode to a Nightingale' is written in free verse, unlike 'Ode on a Grecian Urn'",
+        "'Ode on a Grecian Urn' employs a more complex stanza structure than 'Ode to a Nightingale'",
+        "Both use identical stanza structures and rhyme schemes"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "'Ode on a Grecian Urn' has a more complex stanza structure, with a varied rhyme scheme compared to the more uniform structure of 'Ode to a Nightingale'."
+    }
+  ]
+}
