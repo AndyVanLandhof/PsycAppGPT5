@@ -16,6 +16,8 @@ function StudySession({ topic, onBack }) {
   const [marking, setMarking] = useState(null);
   const [loading, setLoading] = useState(false);
   const [ao1Feedback, setAo1Feedback] = useState(null);
+  const [ao3Answer, setAo3Answer] = useState('');
+  const [ao3Feedback, setAo3Feedback] = useState(null);
   const [flowMode, setFlowMode] = useState(() => {
     try { return localStorage.getItem('session-flow-mode') || 'guided'; } catch(_) { return 'guided'; }
   });
@@ -57,6 +59,79 @@ function StudySession({ topic, onBack }) {
       const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
       setAo1Text(res);
     } catch (_) {}
+  };
+
+  // Direct AO access functions for Free mode
+  const startAO1Direct = async () => {
+    setPhase('ao1-prompt');
+    try {
+      const p = buildAO1SummaryPrompt(topic.title, topic.subTopic.title);
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
+      setAo1Text(res);
+    } catch (_) {}
+  };
+
+  const startAO2Direct = async () => {
+    generateScenario();
+  };
+
+  const startAO3Direct = async () => {
+    setPhase('ao3-prompt');
+    setAo3Answer('');
+    setAo3Feedback(null);
+    // Prefetch model answer in background
+    try {
+      const p = buildAO3EvaluationPrompt(topic.title, topic.subTopic.title);
+      const res = await callAIWithPublicSources(p, topic.title, topic.subTopic.title);
+      setAo3Text(res);
+    } catch (e) {
+      setAo3Text('');
+    }
+  };
+
+  const markAO3Answer = async () => {
+    if (!ao3Answer.trim()) return;
+    setLoading(true);
+    try {
+      const examBoard = curriculum === 'ocr-rs' ? 'OCR Religious Studies' : curriculum === 'edexcel-englit' ? 'Edexcel English Literature' : 'AQA Psychology';
+      const prompt = `You are a ${examBoard} examiner marking a student's AO3 evaluation response using PEEL structure.
+
+TOPIC: ${topic.title}
+SUB-TOPIC: ${topic.subTopic.title}
+
+STUDENT'S PEEL RESPONSE:
+${ao3Answer}
+
+Mark this AO3 evaluation. Be warm and encouraging like a supportive teacher, but honest about areas for improvement.
+
+Return STRICT JSON:
+{
+  "strengths": ["What they did well - be specific and enthusiastic"],
+  "improvements": ["Areas to develop - constructive and kind"],
+  "peelScore": {
+    "point": "Brief comment on their Point",
+    "evidence": "Brief comment on their Evidence",
+    "explain": "Brief comment on their Explanation",
+    "link": "Brief comment on their Link back"
+  },
+  "overall": "Encouraging overall comment with specific praise and one key tip"
+}`;
+      const res = await callAIWithPublicSources(prompt, topic.title, topic.subTopic.title);
+      let parsed;
+      try { 
+        parsed = JSON.parse(res); 
+      } catch {
+        const match = res.match(/\{[\s\S]*\}/);
+        parsed = match ? JSON.parse(match[0]) : { overall: 'Good effort! Review the model answer for comparison.', strengths: [], improvements: [] };
+      }
+      setAo3Feedback(parsed);
+      setPhase('ao3-feedback');
+    } catch (e) {
+      setAo3Feedback({ overall: 'Sorry, could not analyze your response. Please compare with the model answer.', strengths: [], improvements: [] });
+      setPhase('ao3-feedback');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const markUserRecall = async () => {
@@ -467,23 +542,57 @@ Return ONLY valid JSON:
             </div>
             <div className="grid grid-cols-1 gap-4 text-base text-left">
               <div className="p-4 bg-blue-50 rounded border border-blue-200">
-                <div className="flex items-center gap-2 text-lg font-semibold"><BookOpen className="w-5 h-5"/> AO1 recall</div>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-lg font-semibold"><BookOpen className="w-5 h-5"/> AO1 Recall</div>
+                  {flowMode === 'free' && (
+                    <button 
+                      onClick={startAO1Direct}
+                      className="px-3 py-1.5 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 font-medium flex items-center gap-1"
+                    >
+                      <Play className="w-3 h-3"/> Start
+                    </button>
+                  )}
+                </div>
                 <p className="mt-2 text-sm md:text-base text-blue-800">Recall core terms, theories and studies accurately. Tests knowledge/understanding (AO1).</p>
               </div>
               <div className="p-4 bg-green-50 rounded border border-green-200">
-                <div className="flex items-center gap-2 text-lg font-semibold"><Clock className="w-5 h-5"/> Scenario (AO2) + quick mark</div>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-lg font-semibold"><Clock className="w-5 h-5"/> Scenario (AO2)</div>
+                  {flowMode === 'free' && (
+                    <button 
+                      onClick={startAO2Direct}
+                      className="px-3 py-1.5 bg-green-600 text-white text-sm rounded-lg hover:bg-green-700 font-medium flex items-center gap-1"
+                    >
+                      <Play className="w-3 h-3"/> Start
+                    </button>
+                  )}
+                </div>
                 <p className="mt-2 text-sm md:text-base text-green-800">Apply concepts to a novel scenario and explain them in context. Tests application {curriculum==='ocr-rs' ? '(AO2 analysis/evaluation)' : '(AO2)'}.</p>
               </div>
               {curriculum !== 'ocr-rs' && (
                 <div className="p-4 bg-purple-50 rounded border border-purple-200">
-                  <div className="flex items-center gap-2 text-lg font-semibold"><Target className="w-5 h-5"/> AO3 PEEL</div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-lg font-semibold"><Target className="w-5 h-5"/> AO3 PEEL</div>
+                    {flowMode === 'free' && (
+                      <button 
+                        onClick={startAO3Direct}
+                        className="px-3 py-1.5 bg-purple-600 text-white text-sm rounded-lg hover:bg-purple-700 font-medium flex items-center gap-1"
+                      >
+                        <Play className="w-3 h-3"/> Start
+                      </button>
+                    )}
+                  </div>
                   <p className="mt-2 text-sm md:text-base text-purple-800"><span className="font-medium">PEEL</span>: Point • Evidence • Explain • Link. Tests analysis and evaluation (AO3).</p>
                 </div>
               )}
             </div>
-            <button onClick={startSession} className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 font-semibold">
-              <Play className="w-4 h-4 inline mr-2"/> Start Session
-            </button>
+            {flowMode === 'guided' ? (
+              <button onClick={startSession} className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 font-semibold">
+                <Play className="w-4 h-4 inline mr-2"/> Start Guided Session
+              </button>
+            ) : (
+              <p className="text-sm text-gray-500 italic">Choose an AO above to begin, or switch to Guided mode for the full flow.</p>
+            )}
           </div>
         </div>
       </div>
@@ -771,6 +880,152 @@ Return ONLY valid JSON:
     );
   }
 
+  // AO3 Direct Access - User writes PEEL response
+  if (phase === 'ao3-prompt') {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100">
+        <div className="max-w-3xl mx-auto p-6">
+          <button onClick={() => setPhase('intro')} className="text-purple-600 underline mb-4">← Back to Study Session</button>
+          <div className="bg-white rounded-lg shadow p-6 space-y-4">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-800">AO3: PEEL Evaluation</h3>
+              <p className="text-sm text-gray-600">{topic.title} — {topic.subTopic.title}</p>
+            </div>
+            <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+              <p className="text-sm text-purple-800 mb-2">
+                Write a critical evaluation paragraph using the <strong>PEEL</strong> structure:
+              </p>
+              <ul className="text-sm text-purple-700 space-y-1 ml-4">
+                <li><strong>P</strong>oint – State your evaluative argument</li>
+                <li><strong>E</strong>vidence – Support with studies, scholars or examples</li>
+                <li><strong>E</strong>xplain – Analyse why this matters</li>
+                <li><strong>L</strong>ink – Connect back to the question/topic</li>
+              </ul>
+            </div>
+            <textarea 
+              value={ao3Answer} 
+              onChange={(e) => setAo3Answer(e.target.value)} 
+              rows={8} 
+              className="w-full border rounded p-3" 
+              placeholder={`Write your PEEL evaluation of ${topic.subTopic.title}...`}
+            />
+            <div className="flex items-center justify-between">
+              <button 
+                onClick={markAO3Answer} 
+                disabled={!ao3Answer.trim() || loading} 
+                className="px-4 py-2 bg-purple-600 text-white rounded disabled:opacity-50"
+              >
+                Mark My PEEL
+              </button>
+              {loading && (
+                <div className="flex items-center gap-2 text-xs text-gray-500">
+                  <Loader2 className="w-4 h-4 animate-spin"/>
+                  Analysing your evaluation…
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // AO3 Feedback - Show marking and model answer
+  if (phase === 'ao3-feedback') {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100">
+        <div className="max-w-4xl mx-auto p-6">
+          <button onClick={() => setPhase('ao3-prompt')} className="text-purple-600 underline mb-4">← Back to Writing</button>
+          <div className="bg-white rounded-lg shadow p-6 space-y-4">
+            <h3 className="font-semibold text-lg">Your AO3 Evaluation Feedback</h3>
+            
+            {/* Overall comment */}
+            {ao3Feedback?.overall && (
+              <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                <p className="text-purple-800">{ao3Feedback.overall}</p>
+              </div>
+            )}
+            
+            {/* Strengths and Improvements side by side */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                <h4 className="font-medium text-green-800 mb-2">✅ Strengths</h4>
+                <ul className="space-y-1">
+                  {(ao3Feedback?.strengths || []).map((s, i) => (
+                    <li key={i} className="text-sm text-green-700 flex items-start gap-2">
+                      <span className="text-green-500 mt-1">•</span>
+                      <span>{s}</span>
+                    </li>
+                  ))}
+                  {(!ao3Feedback?.strengths || ao3Feedback.strengths.length === 0) && (
+                    <li className="text-sm text-gray-500">—</li>
+                  )}
+                </ul>
+              </div>
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                <h4 className="font-medium text-amber-800 mb-2">💡 To Improve</h4>
+                <ul className="space-y-1">
+                  {(ao3Feedback?.improvements || []).map((s, i) => (
+                    <li key={i} className="text-sm text-amber-700 flex items-start gap-2">
+                      <span className="text-amber-500 mt-1">•</span>
+                      <span>{s}</span>
+                    </li>
+                  ))}
+                  {(!ao3Feedback?.improvements || ao3Feedback.improvements.length === 0) && (
+                    <li className="text-sm text-gray-500">—</li>
+                  )}
+                </ul>
+              </div>
+            </div>
+
+            {/* PEEL breakdown if available */}
+            {ao3Feedback?.peelScore && (
+              <div className="grid grid-cols-4 gap-2 text-sm">
+                <div className="bg-blue-50 border border-blue-200 rounded p-2">
+                  <div className="font-medium text-blue-800">Point</div>
+                  <p className="text-blue-700 text-xs mt-1">{ao3Feedback.peelScore.point || '—'}</p>
+                </div>
+                <div className="bg-blue-50 border border-blue-200 rounded p-2">
+                  <div className="font-medium text-blue-800">Evidence</div>
+                  <p className="text-blue-700 text-xs mt-1">{ao3Feedback.peelScore.evidence || '—'}</p>
+                </div>
+                <div className="bg-blue-50 border border-blue-200 rounded p-2">
+                  <div className="font-medium text-blue-800">Explain</div>
+                  <p className="text-blue-700 text-xs mt-1">{ao3Feedback.peelScore.explain || '—'}</p>
+                </div>
+                <div className="bg-blue-50 border border-blue-200 rounded p-2">
+                  <div className="font-medium text-blue-800">Link</div>
+                  <p className="text-blue-700 text-xs mt-1">{ao3Feedback.peelScore.link || '—'}</p>
+                </div>
+              </div>
+            )}
+            
+            {/* Model Answer */}
+            {ao3Text && (
+              <div className="border-t pt-4 mt-4">
+                <h4 className="font-medium text-gray-800 mb-2">📚 Model PEEL Answer</h4>
+                <div 
+                  className="font-sans whitespace-pre-wrap text-sm text-gray-700 bg-gray-50 border p-3 rounded"
+                  dangerouslySetInnerHTML={{ __html: formatBold(formatPEEL(ao3Text)) }}
+                />
+              </div>
+            )}
+            
+            <div className="flex justify-center gap-3 pt-2">
+              <button onClick={() => setPhase('intro')} className="px-5 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                Back to Session Menu
+              </button>
+              <button onClick={onBack} className="px-5 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                Done - Back to Topic
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Original AO3 phase (from Guided flow)
   if (phase === 'ao3') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
