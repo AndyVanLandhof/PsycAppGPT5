@@ -204,15 +204,20 @@ function InteractiveExam({ paperId, onBack }) {
     
     const loadPaper = async () => {
       try {
+        // Check if file is PDF (not yet supported for interactive exams)
+        if (paper.questionFile.endsWith('.pdf')) {
+          throw new Error(`PDF files are not yet supported for interactive exams. Please ensure extracted text files (.txt) are available in the vault for ${paper.paper}.`);
+        }
+        
         // Load question paper
         const qRes = await fetch(paper.questionFile);
-        if (!qRes.ok) throw new Error('Failed to load question paper');
+        if (!qRes.ok) throw new Error(`Failed to load question paper: ${qRes.status} ${qRes.statusText}`);
         const qText = await qRes.text();
         
         // Parse questions
         const parsed = parseQuestionsFromText(qText);
         if (parsed.length === 0) {
-          throw new Error('No questions could be parsed from the paper');
+          throw new Error('No questions could be parsed from the paper. The file may need to be re-extracted from PDF.');
         }
         setQuestions(parsed);
         
@@ -221,11 +226,19 @@ function InteractiveExam({ paperId, onBack }) {
         parsed.forEach((q, i) => { initialAnswers[i] = ''; });
         setAnswers(initialAnswers);
         
-        // Load mark scheme
-        const msRes = await fetch(paper.markSchemeFile);
-        if (msRes.ok) {
-          const msText = await msRes.text();
-          setMarkSchemeText(msText);
+        // Load mark scheme (handle both .txt and .pdf)
+        if (paper.markSchemeFile.endsWith('.pdf')) {
+          console.warn('Mark scheme is PDF - marking will proceed without mark scheme context');
+          setMarkSchemeText('');
+        } else {
+          const msRes = await fetch(paper.markSchemeFile);
+          if (msRes.ok) {
+            const msText = await msRes.text();
+            setMarkSchemeText(msText);
+          } else {
+            console.warn('Could not load mark scheme - marking will proceed without it');
+            setMarkSchemeText('');
+          }
         }
         
         setTimeRemaining(paper.duration * 60); // Convert to seconds
@@ -302,6 +315,25 @@ function InteractiveExam({ paperId, onBack }) {
         const questionPattern = new RegExp(`0\\s*${q.number.replace('.', '\\s*\\.\\s*')}[\\s\\S]*?(?=0\\s*\\d|$)`, 'i');
         const markSchemeSection = markSchemeText.match(questionPattern)?.[0] || '';
         
+        // Exam board specific marking guidance
+        const markingGuidance = curriculum === 'aqa-psych' 
+          ? `AQA Psychology marking approach:
+- Use level descriptors (Level 1/2/3) for extended responses
+- Award marks for each valid point in shorter questions
+- Credit accurate terminology and named studies with dates
+- AO1 = knowledge, AO2 = application, AO3 = evaluation`
+          : curriculum === 'ocr-rs'
+          ? `OCR Religious Studies marking approach:
+- Use level descriptors for extended responses (typically 10 or 15 mark questions)
+- Credit accurate use of specialist terminology
+- Look for clear argument structure and logical progression
+- Credit valid alternative interpretations where appropriate`
+          : `Edexcel English Literature marking approach:
+- Use level descriptors for extended responses
+- Credit close textual analysis and use of quotations
+- Look for awareness of context, form, and critical perspectives
+- Credit personal response and engagement with the text`;
+
         const prompt = `You are an expert ${examBoard} examiner marking a student's exam answer. You must mark EXACTLY as a real examiner would, using the official mark scheme criteria.
 
 QUESTION ${q.number} [${q.marks} marks]:
@@ -313,6 +345,8 @@ ${answer}
 ${markSchemeSection ? `===== OFFICIAL MARK SCHEME FOR THIS QUESTION =====
 ${markSchemeSection.substring(0, 4000)}
 ===== END MARK SCHEME =====` : ''}
+
+${markingGuidance}
 
 MARKING INSTRUCTIONS:
 1. Use the LEVEL DESCRIPTORS from the mark scheme to determine the level (if provided)

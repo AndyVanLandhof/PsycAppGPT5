@@ -88,6 +88,8 @@ export const PAST_PAPER_INDEX = {
     },
   ],
   'ocr-rs': [
+    // NOTE: OCR papers currently point to PDFs - interactive exams require extracted .txt files
+    // To enable these papers, extract the PDFs using the vault extraction process
     // Christianity June 2022
     {
       id: 'ocr-h573-c-jun22',
@@ -96,8 +98,8 @@ export const PAST_PAPER_INDEX = {
       level: 'A2',
       paper: 'Paper 3: Developments in Christian Thought',
       code: 'H573/03',
-      questionFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Exam Paper.pdf',
-      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Mark Scheme.pdf',
+      questionFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Exam Paper.pdf', // TODO: Extract to .txt
+      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Mark Scheme.pdf', // TODO: Extract to .txt
       duration: 120,
       totalMarks: 120,
       sections: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Christian Moral Principles']
@@ -110,8 +112,8 @@ export const PAST_PAPER_INDEX = {
       level: 'A2',
       paper: 'Paper 3: Developments in Christian Thought',
       code: 'H573/03',
-      questionFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2023 Exam Paper.pdf',
-      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2023 Mark Scheme.pdf',
+      questionFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2023 Exam Paper.pdf', // TODO: Extract to .txt
+      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2023 Mark Scheme.pdf', // TODO: Extract to .txt
       duration: 120,
       totalMarks: 120,
       sections: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Christian Moral Principles']
@@ -119,6 +121,7 @@ export const PAST_PAPER_INDEX = {
   ],
   'edexcel-englit': [
     // No past papers in vault yet - placeholder
+    // When adding papers, ensure questionFile and markSchemeFile point to .txt extracted files, not PDFs
   ]
 };
 
