@@ -1,8 +1,101 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Clock, CheckCircle, AlertCircle, Loader2, ChevronLeft, ChevronRight, Send, FileText } from 'lucide-react';
+import { Clock, CheckCircle, AlertCircle, Loader2, ChevronLeft, ChevronRight, Send, FileText, ChevronDown, ChevronUp, Eye, BookOpen } from 'lucide-react';
 import { getSelectedCurriculum } from '../config/curricula';
 import { getPaperById } from '../config/pastPaperIndex';
 import { useAIService } from '../hooks/useAIService';
+
+/**
+ * Expandable question result component
+ */
+function QuestionResult({ result: r, index }) {
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [showMarkScheme, setShowMarkScheme] = useState(false);
+  
+  return (
+    <div className="bg-white rounded-lg shadow p-4">
+      <div className="flex items-start justify-between mb-2">
+        <div>
+          <span className="font-semibold">Question {r.question}</span>
+          {r.questionText && (
+            <p className="text-sm text-gray-600 mt-1 max-w-xl">{r.questionText.substring(0, 150)}{r.questionText.length > 150 ? '...' : ''}</p>
+          )}
+        </div>
+        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+          r.awarded === r.maxMarks ? 'bg-green-100 text-green-700' :
+          r.awarded > 0 ? 'bg-amber-100 text-amber-700' :
+          'bg-red-100 text-red-700'
+        }`}>
+          {r.awarded}/{r.maxMarks}
+        </span>
+      </div>
+      
+      {r.levelDescriptor && (
+        <p className="text-sm text-purple-600 mb-2 font-medium">{r.levelDescriptor}</p>
+      )}
+      
+      <p className="text-gray-700 mb-3">{r.feedback}</p>
+      
+      {r.strengths.length > 0 && (
+        <div className="mb-2">
+          <span className="text-sm font-medium text-green-700">✓ Strengths:</span>
+          <ul className="text-sm text-green-600 ml-4">
+            {r.strengths.map((s, j) => <li key={j}>• {s}</li>)}
+          </ul>
+        </div>
+      )}
+      
+      {r.improvements.length > 0 && (
+        <div className="mb-3">
+          <span className="text-sm font-medium text-amber-700">→ To improve:</span>
+          <ul className="text-sm text-amber-600 ml-4">
+            {r.improvements.map((s, j) => <li key={j}>• {s}</li>)}
+          </ul>
+        </div>
+      )}
+      
+      {/* Expandable sections */}
+      <div className="border-t pt-3 mt-3 space-y-2">
+        {/* Your Answer */}
+        {r.studentAnswer && (
+          <div>
+            <button
+              onClick={() => setShowAnswer(!showAnswer)}
+              className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800"
+            >
+              <Eye className="w-4 h-4" />
+              {showAnswer ? 'Hide' : 'View'} Your Answer
+              {showAnswer ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+            </button>
+            {showAnswer && (
+              <div className="mt-2 p-3 bg-gray-50 rounded text-sm text-gray-700 whitespace-pre-wrap">
+                {r.studentAnswer || <em className="text-gray-400">No answer provided</em>}
+              </div>
+            )}
+          </div>
+        )}
+        
+        {/* Mark Scheme */}
+        {r.markSchemeSection && (
+          <div>
+            <button
+              onClick={() => setShowMarkScheme(!showMarkScheme)}
+              className="flex items-center gap-2 text-sm text-purple-600 hover:text-purple-800"
+            >
+              <BookOpen className="w-4 h-4" />
+              {showMarkScheme ? 'Hide' : 'View'} Official Mark Scheme
+              {showMarkScheme ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+            </button>
+            {showMarkScheme && (
+              <div className="mt-2 p-3 bg-purple-50 border border-purple-200 rounded text-sm text-gray-700 whitespace-pre-wrap max-h-96 overflow-y-auto">
+                {r.markSchemeSection}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 /**
  * Parse questions from extracted text file
@@ -205,7 +298,11 @@ function InteractiveExam({ paperId, onBack }) {
       }
       
       try {
-        const prompt = `You are an expert ${examBoard} examiner marking a student's exam answer.
+        // Extract the relevant mark scheme section for this question
+        const questionPattern = new RegExp(`0\\s*${q.number.replace('.', '\\s*\\.\\s*')}[\\s\\S]*?(?=0\\s*\\d|$)`, 'i');
+        const markSchemeSection = markSchemeText.match(questionPattern)?.[0] || '';
+        
+        const prompt = `You are an expert ${examBoard} examiner marking a student's exam answer. You must mark EXACTLY as a real examiner would, using the official mark scheme criteria.
 
 QUESTION ${q.number} [${q.marks} marks]:
 ${q.text}
@@ -213,18 +310,24 @@ ${q.text}
 STUDENT'S ANSWER:
 ${answer}
 
-${markSchemeText ? `MARK SCHEME EXTRACT (use this to guide your marking):
-${markSchemeText.substring(0, 3000)}` : ''}
+${markSchemeSection ? `===== OFFICIAL MARK SCHEME FOR THIS QUESTION =====
+${markSchemeSection.substring(0, 4000)}
+===== END MARK SCHEME =====` : ''}
 
-Mark this answer fairly but rigorously according to ${examBoard} standards.
+MARKING INSTRUCTIONS:
+1. Use the LEVEL DESCRIPTORS from the mark scheme to determine the level (if provided)
+2. Check the POSSIBLE CONTENT list - credit valid points even if not listed ("Credit other relevant content")
+3. Apply the specific marking rules (e.g., "Just naming X is not creditworthy")
+4. Be fair but rigorous - partial credit for partial answers
+5. For ${q.marks > 4 ? 'extended responses, use a "best fit" approach across levels' : 'short answers, award marks for each valid point made'}
 
 Return STRICT JSON:
 {
   "awarded": <number 0 to ${q.marks}>,
-  "feedback": "Brief overall comment",
-  "strengths": ["What they did well"],
-  "improvements": ["What could be better"],
-  "levelDescriptor": "e.g. Level 2 - Clear explanation with some detail"
+  "feedback": "Brief overall comment explaining the mark",
+  "strengths": ["Specific things done well, referencing mark scheme criteria"],
+  "improvements": ["Specific gaps, referencing what was needed from mark scheme"],
+  "levelDescriptor": "e.g. Level 2 (3-4 marks) - Some knowledge evident but lacks clarity"
 }`;
         
         const res = await callAIWithPublicSources(prompt, paper.paper, q.section || 'Exam');
@@ -238,12 +341,15 @@ Return STRICT JSON:
         
         questionResults.push({
           question: q.number,
+          questionText: q.text,
+          studentAnswer: answer,
           maxMarks: q.marks,
           awarded: Math.min(parsed.awarded || 0, q.marks),
           feedback: parsed.feedback || '',
           strengths: parsed.strengths || [],
           improvements: parsed.improvements || [],
-          levelDescriptor: parsed.levelDescriptor || ''
+          levelDescriptor: parsed.levelDescriptor || '',
+          markSchemeSection: markSchemeSection.substring(0, 2000) || ''
         });
       } catch (e) {
         questionResults.push({
@@ -477,38 +583,7 @@ Return STRICT JSON:
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800">Question Breakdown</h2>
             {results.questions.map((r, i) => (
-              <div key={i} className="bg-white rounded-lg shadow p-4">
-                <div className="flex items-start justify-between mb-2">
-                  <span className="font-semibold">Question {r.question}</span>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    r.awarded === r.maxMarks ? 'bg-green-100 text-green-700' :
-                    r.awarded > 0 ? 'bg-amber-100 text-amber-700' :
-                    'bg-red-100 text-red-700'
-                  }`}>
-                    {r.awarded}/{r.maxMarks}
-                  </span>
-                </div>
-                {r.levelDescriptor && (
-                  <p className="text-sm text-purple-600 mb-2">{r.levelDescriptor}</p>
-                )}
-                <p className="text-gray-700 mb-3">{r.feedback}</p>
-                {r.strengths.length > 0 && (
-                  <div className="mb-2">
-                    <span className="text-sm font-medium text-green-700">✓ Strengths:</span>
-                    <ul className="text-sm text-green-600 ml-4">
-                      {r.strengths.map((s, j) => <li key={j}>• {s}</li>)}
-                    </ul>
-                  </div>
-                )}
-                {r.improvements.length > 0 && (
-                  <div>
-                    <span className="text-sm font-medium text-amber-700">→ To improve:</span>
-                    <ul className="text-sm text-amber-600 ml-4">
-                      {r.improvements.map((s, j) => <li key={j}>• {s}</li>)}
-                    </ul>
-                  </div>
-                )}
-              </div>
+              <QuestionResult key={i} result={r} index={i} />
             ))}
           </div>
         </div>
