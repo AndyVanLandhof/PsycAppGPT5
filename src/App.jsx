@@ -21,6 +21,8 @@ import QuizLab from './pages/QuizLab.jsx';
 import QuizBankReview from './pages/QuizBankReview.jsx';
 import VaultDirectory from './pages/VaultDirectory.jsx';
 import Planner from './pages/Planner.jsx';
+import ActualPastPapers from './pages/ActualPastPapers.jsx';
+import SyntheticPastPapers from './pages/SyntheticPastPapers.jsx';
 import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
 import { topicData as rsTopicsAll } from './topicData.js';
 import { KUsBySubTopic } from './data/knowledgeMaps';
@@ -246,6 +248,14 @@ function App() {
     return <Planner onBack={() => setView('home')} />;
   }
 
+  if (view === 'actual-past-papers') {
+    return <ActualPastPapers onBack={() => setView('home')} />;
+  }
+
+  if (view === 'synthetic-past-papers') {
+    return <SyntheticPastPapers onBack={() => setView('home')} />;
+  }
+
   if (view === 'topic-detail' && selectedTopic) {
     return <TopicDetail topic={selectedTopic} onBack={() => setView('home')} />;
   }
@@ -295,6 +305,25 @@ function App() {
             <Section title="Option 3" topics={getTopicsByComponent('Option 3', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
           </>
         )}
+        {/* Practice Exams */}
+        <div className="mt-12">
+          <div className="text-center text-indigo-700 font-semibold text-2xl mb-3">📝 Practice Exams</div>
+          <div className="flex flex-wrap justify-center items-center gap-4">
+            <button
+              onClick={() => setView('actual-past-papers')}
+              className="flex items-center gap-2 text-lg px-6 py-3 border-2 border-slate-400 bg-white rounded-lg hover:bg-slate-50 font-semibold shadow-sm hover:shadow transition-all"
+            >
+              📄 Actual Past Papers
+            </button>
+            <button
+              onClick={() => setView('synthetic-past-papers')}
+              className="flex items-center gap-2 text-lg px-6 py-3 border-2 border-purple-400 bg-white rounded-lg hover:bg-purple-50 font-semibold shadow-sm hover:shadow transition-all"
+            >
+              ✨ Synthetic Past Papers
+            </button>
+          </div>
+        </div>
+
         {/* Tools & Setup */}
         <div className="mt-12">
           <div className="text-center text-purple-700 font-semibold text-2xl mb-3">Tools & Setup</div>

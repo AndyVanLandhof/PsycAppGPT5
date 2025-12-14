@@ -1,0 +1,237 @@
+import React, { useState } from 'react';
+import { Sparkles, Clock, Play, CheckCircle, Loader2 } from 'lucide-react';
+import { getSelectedCurriculum } from '../config/curricula';
+import { useAIService } from '../hooks/useAIService';
+
+// Paper configurations by curriculum
+const PAPER_CONFIG = {
+  'aqa-psych': {
+    examBoard: 'AQA',
+    subject: 'Psychology',
+    code: '7182',
+    papers: [
+      { id: 'paper1', name: 'Paper 1: Introductory Topics', duration: '2 hours', marks: 96, topics: ['Social Influence', 'Memory', 'Attachment', 'Psychopathology'] },
+      { id: 'paper2', name: 'Paper 2: Psychology in Context', duration: '2 hours', marks: 96, topics: ['Approaches', 'Biopsychology', 'Research Methods'] },
+      { id: 'paper3', name: 'Paper 3: Issues and Options', duration: '2 hours', marks: 96, topics: ['Issues and Debates', 'Relationships', 'Schizophrenia', 'Forensic Psychology'] },
+    ]
+  },
+  'ocr-rs': {
+    examBoard: 'OCR',
+    subject: 'Religious Studies',
+    code: 'H573',
+    papers: [
+      { id: 'paper1', name: 'Paper 1: Philosophy of Religion', duration: '2 hours', marks: 120, topics: ['Ancient Philosophical Influences', 'Soul, Mind and Body', 'Arguments for God', 'Religious Experience', 'Religious Language'] },
+      { id: 'paper2', name: 'Paper 2: Religion and Ethics', duration: '2 hours', marks: 120, topics: ['Natural Law', 'Situation Ethics', 'Kantian Ethics', 'Utilitarianism', 'Euthanasia', 'Business Ethics'] },
+      { id: 'paper3', name: 'Paper 3: Developments in Christian Thought', duration: '2 hours', marks: 120, topics: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Jesus Christ', 'Pluralism', 'Secularism'] },
+    ]
+  },
+  'edexcel-englit': {
+    examBoard: 'Edexcel',
+    subject: 'English Literature',
+    code: '9ET0',
+    papers: [
+      { id: 'paper1', name: 'Paper 1: Drama', duration: '2 hours 15 mins', marks: 60, topics: ['Hamlet', 'Waiting for Godot', 'Tragedy/Comedy Critical Anthology'] },
+      { id: 'paper2', name: 'Paper 2: Prose', duration: '1 hour 15 mins', marks: 40, topics: ['Heart of Darkness', 'The Lonely Londoners', 'Comparative Themes'] },
+      { id: 'paper3', name: 'Paper 3: Poetry', duration: '2 hours 15 mins', marks: 60, topics: ['Poems of the Decade', 'Keats Selected Poems', 'Unseen Poetry'] },
+    ]
+  }
+};
+
+function SyntheticPastPapers({ onBack }) {
+  const curriculum = getSelectedCurriculum() || 'aqa-psych';
+  const config = PAPER_CONFIG[curriculum] || PAPER_CONFIG['aqa-psych'];
+  const [selectedPaper, setSelectedPaper] = useState(null);
+  const [generatedPaper, setGeneratedPaper] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const { callAIWithPublicSources } = useAIService();
+
+  const generatePaper = async (paper) => {
+    setSelectedPaper(paper);
+    setLoading(true);
+    setGeneratedPaper(null);
+
+    try {
+      const prompt = `You are an expert ${config.examBoard} ${config.subject} examiner creating a synthetic past paper.
+
+PAPER: ${paper.name}
+DURATION: ${paper.duration}
+TOTAL MARKS: ${paper.marks}
+TOPICS TO COVER: ${paper.topics.join(', ')}
+
+Create a realistic exam paper with questions that match the ${config.examBoard} ${config.code} specification style.
+
+For ${curriculum === 'aqa-psych' ? 'AQA Psychology' : curriculum === 'ocr-rs' ? 'OCR Religious Studies' : 'Edexcel English Literature'}:
+${curriculum === 'aqa-psych' ? `
+- Include a mix of short answer (2-6 marks), application questions (4-8 marks), and extended response (8-16 marks)
+- Use scenarios/stimulus material where appropriate
+- Cover AO1 (knowledge), AO2 (application), and AO3 (evaluation)` : 
+curriculum === 'ocr-rs' ? `
+- Include 'Explain' questions (10 marks), 'Analyse' questions (10 marks), and 'Evaluate' questions (15 marks)
+- Cover AO1 (knowledge) and AO2 (analysis/evaluation)
+- Use the standard OCR question stems` :
+`
+- Include extract-based questions and comparative questions
+- Cover AO1 (knowledge), AO2 (analysis), AO3 (context), AO4 (connections), AO5 (critical views)
+- Include timed writing guidance`}
+
+Return STRICT JSON:
+{
+  "title": "Paper title",
+  "instructions": "Brief exam instructions",
+  "sections": [
+    {
+      "name": "Section name",
+      "questions": [
+        {
+          "number": "1",
+          "text": "Question text",
+          "marks": 8,
+          "guidance": "Brief guidance for student"
+        }
+      ]
+    }
+  ],
+  "totalMarks": ${paper.marks}
+}`;
+
+      const res = await callAIWithPublicSources(prompt, paper.name, paper.topics[0]);
+      let parsed;
+      try {
+        parsed = JSON.parse(res);
+      } catch {
+        const match = res.match(/\{[\s\S]*\}/);
+        parsed = match ? JSON.parse(match[0]) : null;
+      }
+      setGeneratedPaper(parsed);
+    } catch (e) {
+      console.error('Failed to generate paper:', e);
+      setGeneratedPaper({ error: 'Failed to generate paper. Please try again.' });
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (selectedPaper && (loading || generatedPaper)) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-100 to-indigo-200">
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <button onClick={() => { setSelectedPaper(null); setGeneratedPaper(null); }} className="text-purple-600 underline mb-6">← Back to Paper Selection</button>
+          
+          {loading ? (
+            <div className="bg-white rounded-lg shadow p-8 text-center">
+              <Loader2 className="w-12 h-12 animate-spin text-purple-600 mx-auto mb-4" />
+              <h2 className="text-xl font-semibold text-gray-800">Generating {selectedPaper.name}...</h2>
+              <p className="text-gray-600 mt-2">Creating exam-style questions based on the specification</p>
+            </div>
+          ) : generatedPaper?.error ? (
+            <div className="bg-white rounded-lg shadow p-8 text-center">
+              <p className="text-red-600">{generatedPaper.error}</p>
+              <button onClick={() => generatePaper(selectedPaper)} className="mt-4 px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                Try Again
+              </button>
+            </div>
+          ) : generatedPaper ? (
+            <div className="bg-white rounded-lg shadow p-6 space-y-6">
+              <div className="text-center border-b pb-4">
+                <h2 className="text-2xl font-bold text-gray-800">{generatedPaper.title}</h2>
+                <p className="text-gray-600 mt-1">{config.examBoard} {config.subject} • {selectedPaper.duration} • {generatedPaper.totalMarks} marks</p>
+              </div>
+              
+              {generatedPaper.instructions && (
+                <div className="bg-gray-50 rounded p-4 text-sm text-gray-700">
+                  <strong>Instructions:</strong> {generatedPaper.instructions}
+                </div>
+              )}
+
+              {(generatedPaper.sections || []).map((section, sIdx) => (
+                <div key={sIdx} className="space-y-4">
+                  <h3 className="text-lg font-semibold text-purple-800 border-b border-purple-200 pb-2">{section.name}</h3>
+                  {(section.questions || []).map((q, qIdx) => (
+                    <div key={qIdx} className="bg-gray-50 rounded-lg p-4">
+                      <div className="flex justify-between items-start mb-2">
+                        <span className="font-semibold text-gray-800">Question {q.number}</span>
+                        <span className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">{q.marks} marks</span>
+                      </div>
+                      <p className="text-gray-700 mb-2">{q.text}</p>
+                      {q.guidance && (
+                        <p className="text-sm text-gray-500 italic">💡 {q.guidance}</p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ))}
+
+              <div className="flex justify-center gap-4 pt-4 border-t">
+                <button onClick={() => generatePaper(selectedPaper)} className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                  🔄 Generate New Paper
+                </button>
+                <button onClick={() => { setSelectedPaper(null); setGeneratedPaper(null); }} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                  Choose Different Paper
+                </button>
+              </div>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 to-indigo-200">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <button onClick={onBack} className="text-purple-600 underline mb-6">← Back to Home</button>
+        
+        <div className="text-center mb-8">
+          <div className="flex justify-center items-center gap-3 mb-2">
+            <Sparkles className="w-8 h-8 text-purple-700" />
+            <h1 className="text-3xl font-bold text-purple-800">Synthetic Past Papers</h1>
+          </div>
+          <p className="text-purple-600">{config.examBoard} {config.subject} ({config.code})</p>
+          <p className="text-sm text-gray-600 mt-2">AI-generated exam papers matching the specification style</p>
+        </div>
+
+        {/* Paper selection */}
+        <div className="space-y-4">
+          {config.papers.map((paper) => (
+            <div key={paper.id} className="bg-white rounded-lg shadow p-5 hover:shadow-md transition-shadow">
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-semibold text-gray-800">{paper.name}</h3>
+                  <div className="flex items-center gap-4 mt-2 text-sm text-gray-600">
+                    <span className="flex items-center gap-1"><Clock className="w-4 h-4" /> {paper.duration}</span>
+                    <span>{paper.marks} marks</span>
+                  </div>
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    {paper.topics.map((t, i) => (
+                      <span key={i} className="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">{t}</span>
+                    ))}
+                  </div>
+                </div>
+                <button
+                  onClick={() => generatePaper(paper)}
+                  className="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 flex items-center gap-2"
+                >
+                  <Play className="w-4 h-4" /> Generate
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Info */}
+        <div className="mt-8 bg-purple-50 border border-purple-200 rounded-lg p-4">
+          <h3 className="font-semibold text-purple-800 mb-2">✨ About Synthetic Papers</h3>
+          <ul className="text-sm text-purple-700 space-y-1">
+            <li>• Generated by AI to match the {config.examBoard} specification style</li>
+            <li>• Includes realistic question types and mark allocations</li>
+            <li>• Perfect for extra practice beyond past papers</li>
+            <li>• Each generation creates a unique paper</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default SyntheticPastPapers;
+
