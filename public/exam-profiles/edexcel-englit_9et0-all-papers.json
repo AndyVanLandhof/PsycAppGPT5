@@ -1,0 +1,48 @@
+{
+  "examBoard": "Edexcel",
+  "subject": "English Literature",
+  "specCode": "9ET0",
+  "papersCovered": [
+    "Paper 1 Drama",
+    "Paper 2 Prose",
+    "Paper 3 Poetry and unseen"
+  ],
+  "markingPrinciples": [
+    "Examiners must apply the mark scheme consistently, ensuring fair and reliable results.",
+    "Focus on the quality of the argument and analysis rather than quantity of content.",
+    "Consider the integration of context, critical perspectives, and textual evidence in responses.",
+    "Ensure that marks reflect the balance of assessment objectives as outlined in the mark scheme."
+  ],
+  "aoEmphasis": {
+    "AO1": "Evaluates the clarity and coherence of the student's argument, their engagement with the text, and the use of critical perspectives.",
+    "AO2": "Assesses the student's ability to analyze the writer's use of form, structure, and language, and how these shape meanings.",
+    "AO3": "Judges the student's understanding of the significance of contextual factors and their ability to integrate these into their analysis.",
+    "AO4": "Considers the student's ability to make connections and comparisons between texts, where relevant."
+  },
+  "levelDescriptorsSummary": [
+    "Low band: Basic understanding with limited analysis; often descriptive or narrative.",
+    "Mid band: Clear understanding with some analysis; context and critical views may be present but not fully integrated.",
+    "High band: Sophisticated and perceptive analysis; well-integrated use of context and critical perspectives; coherent and fluent argument."
+  ],
+  "commonStrengths": [
+    "Strong candidates often provide detailed textual analysis and integrate quotations seamlessly.",
+    "They construct well-conceptualized arguments and demonstrate a sophisticated understanding of context.",
+    "They engage critically with multiple interpretations and perspectives."
+  ],
+  "commonWeaknesses": [
+    "Weaker responses tend to narrate rather than analyze.",
+    "There is often a lack of depth in AO2, with superficial comments on language or structure.",
+    "Context is sometimes added as an afterthought rather than integrated into the analysis."
+  ],
+  "topBandAdvice": [
+    "For Drama: Focus on the dramatic impact and how characters and themes are developed through dialogue and stagecraft.",
+    "For Prose: Pay attention to narrative techniques and how they contribute to the themes and character development.",
+    "For Poetry: Analyze the use of poetic form and devices, and how they contribute to the overall meaning and effect."
+  ],
+  "typicalQuestionTypes": [
+    "Explore how [character/theme] is presented in [text]. Focus on AO2 and AO3.",
+    "Discuss the significance of [contextual factor] in [text]. Emphasizes AO3.",
+    "Compare how [theme/character] is treated in two texts. Focus on AO4 connections."
+  ],
+  "feedbackTone": "Feedback should be firm but supportive, offering specific insights into how well the student addressed AO1–AO4, and providing guidance on precision and depth of analysis."
+}

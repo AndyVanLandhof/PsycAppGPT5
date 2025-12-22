@@ -1,0 +1,51 @@
+{
+  "examBoard": "OCR",
+  "subject": "Religious Studies",
+  "component": "Philosophy of Religion",
+  "syllabusCode": "H573",
+  "papersSampled": [
+    "666950-question-paper-philosophy-of-religion_extracted.txt",
+    "676875-question-paper-philosophy-of-religion_extracted.txt",
+    "703894-question-paper-philosophy-of-religion_extracted.txt"
+  ],
+  "markingPrinciples": [
+    "Focus on the demands of the question and ensure responses are relevant.",
+    "Evaluate throughout the essay, not just at the end.",
+    "Use a breadth and/or depth approach to demonstrate understanding.",
+    "Reward unexpected but valid approaches that demonstrate understanding.",
+    "Ensure that analysis and evaluation are clearly linked to the knowledge presented."
+  ],
+  "aoEmphasis": {
+    "AO1": "Demonstrates comprehensive knowledge and understanding of religious and philosophical thought and teaching.",
+    "AO2": "Shows sophisticated analysis and evaluation of philosophical arguments, with a focus on developing a coherent argument."
+  },
+  "levelDescriptorsSummary": [
+    "Low band: Basic understanding with limited analysis; often descriptive.",
+    "Mid band: Good understanding with some analysis; evaluation may lack depth.",
+    "High band: Excellent understanding with thorough analysis and nuanced evaluation; consistently focused on the question."
+  ],
+  "commonStrengths": [
+    "Embedding evaluation throughout the essay.",
+    "Focusing directly on the question rather than general topics.",
+    "Using a hypothesis at the beginning to guide the essay.",
+    "Selecting relevant material rather than everything known about the topic."
+  ],
+  "commonWeaknesses": [
+    "Writing everything known from the syllabus without tailoring it to the question.",
+    "Confusing philosophical ideas or misapplying them.",
+    "Evaluating by merely juxtaposing different views without deeper analysis.",
+    "Using pre-prepared responses that ignore the specific question asked."
+  ],
+  "topBandAdvice": [
+    "Clearly outline your argument at the beginning and maintain focus throughout.",
+    "Integrate evaluation into your explanations, rather than adding it as an afterthought.",
+    "Use precise and relevant examples to support your analysis.",
+    "Demonstrate a nuanced understanding of philosophical arguments and their implications."
+  ],
+  "typicalQuestionTypes": [
+    "Evaluate [philosopher's] approach to [topic]. - Requires critical analysis of the philosopher's views and their implications.",
+    "Discuss the statement: '[Philosophical claim].' - Involves exploring arguments for and against the claim and reaching a reasoned conclusion.",
+    "Critically assess [philosophical argument]. - Demands a detailed examination of the argument's strengths and weaknesses."
+  ],
+  "feedbackTone": "Firm but encouraging, specific, and focused on how to improve exam technique and understanding."
+}

@@ -1,0 +1,51 @@
+{
+  "examBoard": "AQA",
+  "subject": "Psychology",
+  "paper": "AS Paper 1 – Introductory Topics in Psychology",
+  "syllabusCode": "7181/1",
+  "papersSampled": [
+    "AQA-71811-QP-JUN19",
+    "AQA-71811-QP-JUN22"
+  ],
+  "markingPrinciples": [
+    "Use the mark scheme as a guide but be open to alternative valid answers.",
+    "Focus on clarity, coherence, and use of specialist terminology.",
+    "Apply level descriptors to determine the quality of response.",
+    "Credit application of knowledge to scenarios and data.",
+    "Evaluate answers based on the balance and integration of AO1, AO2, and AO3."
+  ],
+  "aoEmphasis": {
+    "AO1": "Judged on the clarity and accuracy of knowledge and understanding of psychological concepts, theories, and studies.",
+    "AO2": "Assessed based on the ability to apply psychological knowledge to novel scenarios, experiments, or data interpretation.",
+    "AO3": "Evaluated on the depth of analysis, evaluation, and discussion of issues, debates, and methodological considerations."
+  },
+  "levelDescriptorsSummary": [
+    "Low band: Basic knowledge with limited application or evaluation; lacks clarity and coherence.",
+    "Mid band: Good understanding with some application and evaluation; generally clear but may lack depth.",
+    "High band: Comprehensive and detailed knowledge, well-applied and evaluated; clear, coherent, and well-structured."
+  ],
+  "commonStrengths": [
+    "Clear and accurate definitions of key terms.",
+    "Effective use of psychological terminology.",
+    "Ability to apply theories to novel scenarios.",
+    "Structured answers with logical flow."
+  ],
+  "commonWeaknesses": [
+    "Superficial evaluation or lack of depth in analysis.",
+    "Failure to apply knowledge to the specific context of the question.",
+    "Inaccurate or vague definitions of key concepts.",
+    "Poor organization and lack of coherence in responses."
+  ],
+  "topBandAdvice": [
+    "Ensure thorough understanding and accurate use of key terms and theories.",
+    "Apply knowledge to the specific context of the question, using examples where possible.",
+    "Provide balanced evaluation with clear arguments and counterarguments.",
+    "Structure answers logically, with clear introductions and conclusions."
+  ],
+  "typicalQuestionTypes": [
+    "16-mark evaluate: Requires balanced analysis and evaluation of a theory or study.",
+    "8-mark discuss: Involves outlining and discussing a concept or theory with some evaluation.",
+    "Short AO1 items: Focus on defining or describing key terms or theories."
+  ],
+  "feedbackTone": "Firm but supportive, focusing on exam technique and specific guidance on improving AO1, AO2, and AO3 skills."
+}

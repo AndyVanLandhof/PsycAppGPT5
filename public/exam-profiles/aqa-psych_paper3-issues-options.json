@@ -1,0 +1,48 @@
+{
+  "examBoard": "AQA",
+  "subject": "Psychology",
+  "paper": "A-level Paper 3 – Issues and options in psychology",
+  "syllabusCode": "7182/3",
+  "papersSampled": [
+    "AQA-71823-QP-JUN22_extracted.txt",
+    "June 2018 QP - Paper 3 AQA Psychology A-level_extracted.txt"
+  ],
+  "markingPrinciples": [
+    "Apply a level of response marking scheme, starting from the lowest level and working up.",
+    "Use indicative content as a guide but credit other valid points.",
+    "Focus on the balance of AO1, AO2, and AO3, particularly in extended responses.",
+    "Consider the clarity, coherence, and focus of the response, as well as the use of specialist terminology.",
+    "Use a best-fit approach when responses cover aspects of different levels."
+  ],
+  "aoEmphasis": {
+    "AO1": "Judged based on accurate and detailed knowledge of psychological theories, studies, and concepts relevant to issues and debates and chosen option topics.",
+    "AO2": "Assessed through the application of psychological knowledge to scenarios, stems, or data provided in the questions, demonstrating understanding in context.",
+    "AO3": "Evaluated based on the depth and quality of analysis, evaluation, and discussion, including the use of evidence, counter-arguments, and consideration of methodological issues."
+  },
+  "levelDescriptorsSummary": [
+    "Low band: Basic knowledge, limited application, and superficial evaluation with little depth.",
+    "Mid band: Accurate knowledge with some detail, appropriate application, and some effective evaluation.",
+    "High band: Comprehensive knowledge, effective application, and thorough evaluation with well-developed arguments."
+  ],
+  "commonStrengths": [
+    "Clear and coherent outlines of psychological concepts and theories.",
+    "Effective use of specialist terminology.",
+    "Ability to apply knowledge to novel scenarios or data."
+  ],
+  "commonWeaknesses": [
+    "Superficial evaluation lacking depth or detail.",
+    "Failure to adequately apply knowledge to the specifics of the question stem.",
+    "Over-reliance on rote-learned content without adaptation to the question."
+  ],
+  "topBandAdvice": [
+    "Ensure a balanced response with appropriate AO1, AO2, and AO3 coverage.",
+    "Develop evaluation points thoroughly with evidence and counter-arguments.",
+    "Integrate issues and debates effectively into your discussion."
+  ],
+  "typicalQuestionTypes": [
+    "16-mark 'discuss' questions requiring balanced AO1, AO2, and AO3.",
+    "24-mark option essays focusing on depth and breadth of knowledge and evaluation.",
+    "Questions requiring application of psychological knowledge to scenarios or data."
+  ],
+  "feedbackTone": "Feedback should be firm but supportive, focusing on exam technique and specific improvements in AO1, AO2, and AO3, with attention to detail in option topics."
+}

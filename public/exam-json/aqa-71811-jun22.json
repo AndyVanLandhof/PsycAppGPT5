@@ -1,0 +1,93 @@
+{
+  "examBoard": "AQA",
+  "subject": "Psychology",
+  "code": "7181/1",
+  "paper": "AS Paper 1 – Introductory topics in psychology",
+  "year": 2022,
+  "session": "June",
+  "durationMinutes": 90,
+  "totalMarks": 72,
+  "sections": ["Social Influence", "Memory"],
+  "questions": [
+    {
+      "number": "1",
+      "section": "Social Influence",
+      "marks": 1,
+      "text": "In Milgram’s experiment on obedience to authority, 65% of participants gave the maximum shock when the experimenter was in the same room as the participant.\n\nFor variations of Milgram’s experiment, which of the following statements is true?\n\n(A) When the experimenter and two disobedient confederates were in the same room as the participant, obedience levels increased.\n(B) When the experimenter and two obedient confederates were in the same room as the participant, obedience levels decreased.\n(C) When the experimenter gave instructions over the phone, obedience levels increased.\n(D) When the experimenter was in a different room to the participant, obedience levels decreased.\n\nWrite your chosen letter and a brief justification."
+    },
+    {
+      "number": "2",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "Explain what is meant by social change in the context of social influence."
+    },
+    {
+      "number": "3",
+      "section": "Social Influence",
+      "marks": 6,
+      "text": "Steph’s psychology teacher is leaving at the end of term. Steph would like to organise a surprise fancy dress party for her, but the rest of the class are not convinced that it is a good idea.\n\nUse your knowledge of two or more factors affecting minority influence (for example: consistency, commitment, flexibility, style of thinking) to explain how Steph can persuade the rest of her class to accept her idea."
+    },
+    {
+      "number": "4",
+      "section": "Social Influence",
+      "marks": 6,
+      "text": "Describe the procedure of Zimbardo’s research into social roles (the Stanford prison experiment)."
+    },
+    {
+      "number": "5",
+      "section": "Social Influence",
+      "marks": 3,
+      "text": "Explain one limitation of Zimbardo’s research into social roles."
+    },
+    {
+      "number": "6.1",
+      "section": "Social Influence",
+      "marks": 4,
+      "text": "A psychologist investigated differences in conformity between two age groups. Each participant completed a questionnaire to assess their level of conformity and was given an overall score (higher score = higher conformity). The psychologist then calculated average scores for each age group.\n\nTable 1 (described):\n- Group A (ages 11–15): Mean = 25, Median = 29, Mode = 33\n- Group B (ages 16–20): Mean = 25, Median = 21, Mode = 18\n\nIdentify the type of distribution that the data suggest for each of Groups A and B. In each case justify your answer."
+    },
+    {
+      "number": "6.2",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "Using the same conformity study and Table 1 above, explain what the difference in mode values of the two age groups shows."
+    },
+    {
+      "number": "7.1",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "A researcher investigated the accuracy of eyewitness testimony. Whilst students were listening to a lecture, they saw a man steal a bag from the floor at the front of the lecture hall.\n\nIn Condition A, 10 students were asked individually to estimate the man’s height in metres.\nIn Condition B, 10 other students took part in a group discussion about what they had seen. They were then asked individually to estimate the man’s height in metres.\n\nIdentify the experimental design used in this study and justify your answer."
+    },
+    {
+      "number": "7.2",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "In the eyewitness testimony study described above, identify the operationalised dependent variable."
+    },
+    {
+      "number": "7.3",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "Explain why the data in this eyewitness testimony study is primary data."
+    },
+    {
+      "number": "7.4",
+      "section": "Social Influence",
+      "marks": 2,
+      "text": "A week later, the same students were asked to describe the man’s facial features, and to estimate his age in years and weight in kilograms.\n\nIdentify the qualitative data collected by the researcher in this follow-up and justify your answer."
+    },
+    {
+      "number": "8",
+      "section": "Memory",
+      "marks": 4,
+      "text": "Briefly evaluate retrieval failure as an explanation for forgetting. Refer to research evidence in your answer."
+    },
+    {
+      "number": "9",
+      "section": "Memory",
+      "marks": 12,
+      "text": "Describe and evaluate the multi-store model of memory. In your answer you should refer to features such as the structure of the model (sensory register, short-term memory, long-term memory), coding, capacity and duration, and at least one strength and one limitation of the model."
+    }
+  ]
+}
+
+

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Loader2, Clock, BookOpen, Target, CheckCircle, Play } from 'lucide-react';
 import { getSelectedCurriculum } from '../config/curricula';
 import { useAIService } from '../hooks/useAIService';
@@ -18,10 +18,59 @@ function StudySession({ topic, onBack }) {
   const [ao1Feedback, setAo1Feedback] = useState(null);
   const [ao3Answer, setAo3Answer] = useState('');
   const [ao3Feedback, setAo3Feedback] = useState(null);
+  const [examinerProfile, setExaminerProfile] = useState(null); // e.g. OCR Philosophy of Religion profile
   const [flowMode, setFlowMode] = useState(() => {
     try { return localStorage.getItem('session-flow-mode') || 'guided'; } catch(_) { return 'guided'; }
   });
   const { callAIWithPublicSources } = useAIService();
+
+  // Load examiner profile for OCR Philosophy of Religion and AQA Psych Papers (used to shape AO3 feedback)
+  useEffect(() => {
+    let cancelled = false;
+    async function loadProfile() {
+      try {
+        if (curriculum === 'ocr-rs' && topic?.component === 'Philosophy') {
+          const res = await fetch('/exam-profiles/ocr-rs_philosophy-of-religion.json');
+          if (!res.ok) {
+            setExaminerProfile(null);
+            return;
+          }
+          const json = await res.json();
+          if (!cancelled) setExaminerProfile(json);
+          return;
+        }
+        if (curriculum === 'aqa-psych') {
+          // Paper 1: Introductory Topics – social influence, memory, attachment, psychopathology
+          if (['social-influence', 'memory', 'attachment', 'psychopathology'].includes(topic?.id)) {
+            const res = await fetch('/exam-profiles/aqa-psych_paper1-intro-topics.json');
+            if (!res.ok) {
+              setExaminerProfile(null);
+              return;
+            }
+            const json = await res.json();
+            if (!cancelled) setExaminerProfile(json);
+            return;
+          }
+          // Paper 2: Psychology in Context – approaches, biopsychology, research methods
+          if (['approaches-in-psychology', 'biopsychology', 'research-methods'].includes(topic?.id)) {
+            const res = await fetch('/exam-profiles/aqa-psych_paper2-context.json');
+            if (!res.ok) {
+              setExaminerProfile(null);
+              return;
+            }
+            const json = await res.json();
+            if (!cancelled) setExaminerProfile(json);
+            return;
+          }
+        }
+        setExaminerProfile(null);
+      } catch {
+        if (!cancelled) setExaminerProfile(null);
+      }
+    }
+    loadProfile();
+    return () => { cancelled = true; };
+  }, [curriculum, topic?.component, topic?.id]);
 
   // Convert markdown bold to HTML bold
   const formatBold = (text) => {
@@ -94,7 +143,16 @@ function StudySession({ topic, onBack }) {
     setLoading(true);
     try {
       const examBoard = curriculum === 'ocr-rs' ? 'OCR Religious Studies' : curriculum === 'edexcel-englit' ? 'Edexcel English Literature' : 'AQA Psychology';
-      const prompt = `You are a ${examBoard} examiner marking a student's AO3 evaluation response using PEEL structure.
+      let profileHint = '';
+      if (examinerProfile) {
+        if (curriculum === 'ocr-rs' && topic?.component === 'Philosophy') {
+          profileHint = `\n\nYou are marking OCR H573 Philosophy of Religion. Apply these real-world examiner habits:\n- Marking principles: ${examinerProfile.markingPrinciples?.join('; ') || ''}\n- Common weaknesses to watch for: ${examinerProfile.commonWeaknesses?.join('; ') || ''}\n- Top-band advice: ${examinerProfile.topBandAdvice?.join('; ') || ''}\nFeedback tone: ${examinerProfile.feedbackTone || 'firm but encouraging, exam-focused.'}\n`;
+        } else if (curriculum === 'aqa-psych' && ['social-influence', 'memory', 'attachment', 'psychopathology'].includes(topic?.id)) {
+          profileHint = `\n\nYou are marking AQA AS Psychology Paper 1 (Introductory Topics). Apply these real examiner habits:\n- Marking principles: ${examinerProfile.markingPrinciples?.join('; ') || ''}\n- AO focus: AO1 = ${examinerProfile.aoEmphasis?.AO1 || ''}; AO2 = ${examinerProfile.aoEmphasis?.AO2 || ''}; AO3 = ${examinerProfile.aoEmphasis?.AO3 || ''}\n- Common weaknesses: ${examinerProfile.commonWeaknesses?.join('; ') || ''}\n- Top-band advice: ${examinerProfile.topBandAdvice?.join('; ') || ''}\nFeedback tone: ${examinerProfile.feedbackTone || 'firm but supportive, exam-technique focused.'}\n`;
+        }
+      }
+
+      const prompt = `You are a ${examBoard} examiner marking a student's AO3 evaluation response using PEEL structure.${profileHint}
 
 TOPIC: ${topic.title}
 SUB-TOPIC: ${topic.subTopic.title}

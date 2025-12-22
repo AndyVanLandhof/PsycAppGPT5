@@ -118,7 +118,8 @@ function Section({ title, topics, setTopic }) {
 function App() {
   const [view, setView] = useState('home');
   const [selectedTopicId, setSelectedTopicId] = useState(null);
-  const [curriculum, setCurriculum] = useState(() => getSelectedCurriculum() || null);
+  // Always start on subject chooser on load/refresh; user selection sets curriculum
+  const [curriculum, setCurriculum] = useState(null);
 
   // Determine topics source
   const psychTopicsAll = psychologyTopics;
