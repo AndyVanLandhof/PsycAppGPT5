@@ -123,8 +123,11 @@ Use these examples ONLY as a style and format guide.
 Now generate a set of NEW synthetic questions with the following constraints:
 - All questions are for H573/01 Philosophy of Religion (A Level).
 - Each question is a single long-form essay question worth 40 marks.
-- Command words and style should match OCR usage: e.g. "Analyse...", "Critically assess...",
-  "To what extent...", "Discuss...".
+- COMMAND WORDS for 40-mark questions MUST be one of:
+  - "Evaluate..."
+  - "Critically assess..."
+  - "To what extent..."
+  Do NOT use other command words (such as "Analyse" or "Discuss") for 40-mark essays.
 - Each question should integrate AO1 (knowledge/understanding) and AO2 (analysis/evaluation).
 - COVERAGE:
   - Some questions focusing on Ancient philosophical influences (Plato, Aristotle).
@@ -132,8 +135,20 @@ Now generate a set of NEW synthetic questions with the following constraints:
   - Some on Arguments for the existence of God.
   - Some on Religious Experience.
   - Some on Religious Language.
+- SPEC LANGUAGE:
+  - Where appropriate, use explicit OCR specification terminology, for example:
+    - "Plato's Theory of Forms", "Aristotle's four causes", "soul, mind and body"
+    - "cosmological argument", "teleological argument", "ontological argument"
+    - "verification principle", "falsification principle", "logical positivism"
+    - "mystical and numinous religious experiences"
+  - Avoid vague paraphrases when a clear specification term exists.
 - Do NOT invent content that is clearly outside the OCR H573 Philosophy of Religion specification.
 - Avoid simply cloning existing past-paper questions; vary focus, emphasis, or combinations of topics.
+- Each question should NOT be a generic "strengths and weaknesses" of an entire topic.
+  Instead, target a specific claim, debate, comparison, or tension (for example, a particular
+  philosopher's argument, a specific objection, or a defined aspect of religious belief).
+- Assume an A-level cohort aiming for grades A–C: questions should expect reference to named
+  philosophers, key concepts and sustained evaluation rather than purely descriptive answers.
 
 Return STRICT JSON:
 {
@@ -144,7 +159,7 @@ Return STRICT JSON:
       "id": "Q1",
       "topicArea": "Ancient philosophical influences",
       "subArea": "Plato and Aristotle on reality",
-      "commandWord": "Critically assess",
+      "commandWord": "Critically assess", // must be one of: "Evaluate", "Critically assess", "To what extent"
       "text": "Full 40-mark essay question...",
       "marks": 40,
       "intendedAO1Weight": 0.5,

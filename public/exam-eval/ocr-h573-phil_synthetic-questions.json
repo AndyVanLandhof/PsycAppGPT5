@@ -1,0 +1,58 @@
+{
+  "spec": "OCR H573/01 Philosophy of Religion",
+  "generatedAt": "2025-12-23T08:27:30.915Z",
+  "model": "gpt-4o",
+  "totalTarget": 40,
+  "questions": [
+    {
+      "id": "Q1",
+      "topicArea": "Ancient philosophical influences",
+      "subArea": "Plato and Aristotle on reality",
+      "commandWord": "Critically assess",
+      "text": "Critically assess the claim that Plato's Theory of Forms provides a more coherent account of reality than Aristotle's concept of substance.",
+      "marks": 40,
+      "intendedAO1Weight": 0.5,
+      "intendedAO2Weight": 0.5
+    },
+    {
+      "id": "Q2",
+      "topicArea": "Soul, Mind and Body",
+      "subArea": "Dualism and Materialism",
+      "commandWord": "To what extent",
+      "text": "To what extent does Descartes' dualism successfully address the relationship between the soul, mind, and body?",
+      "marks": 40,
+      "intendedAO1Weight": 0.5,
+      "intendedAO2Weight": 0.5
+    },
+    {
+      "id": "Q3",
+      "topicArea": "Arguments for the existence of God",
+      "subArea": "Ontological argument",
+      "commandWord": "Evaluate",
+      "text": "Evaluate the effectiveness of Anselm's ontological argument in proving the existence of God, with reference to Gaunilo's and Kant's criticisms.",
+      "marks": 40,
+      "intendedAO1Weight": 0.5,
+      "intendedAO2Weight": 0.5
+    },
+    {
+      "id": "Q4",
+      "topicArea": "Religious Experience",
+      "subArea": "Mystical and numinous experiences",
+      "commandWord": "To what extent",
+      "text": "To what extent can mystical and numinous experiences be considered reliable evidence for the existence of God?",
+      "marks": 40,
+      "intendedAO1Weight": 0.5,
+      "intendedAO2Weight": 0.5
+    },
+    {
+      "id": "Q5",
+      "topicArea": "Religious Language",
+      "subArea": "Verification and falsification principles",
+      "commandWord": "Critically assess",
+      "text": "Critically assess the impact of the verification and falsification principles on the meaningfulness of religious language.",
+      "marks": 40,
+      "intendedAO1Weight": 0.5,
+      "intendedAO2Weight": 0.5
+    }
+  ]
+}

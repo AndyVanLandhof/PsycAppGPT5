@@ -233,6 +233,7 @@ function InteractiveExam({ paperId, onBack }) {
   const [markSchemeText, setMarkSchemeText] = useState('');
   const [results, setResults] = useState(null);
   const [markingProgress, setMarkingProgress] = useState(0);
+  const [showInstructions, setShowInstructions] = useState(false);
   
   const { callAIWithPublicSources } = useAIService();
   
@@ -552,14 +553,35 @@ Return STRICT JSON:
               <Clock className="w-5 h-5" />
               <span className="font-mono font-semibold">{formatTime(timeRemaining)}</span>
             </div>
-            <div className="text-sm text-gray-500">
-              {answeredCount}/{questions.length} answered
+            <div className="flex items-center gap-4">
+              <button
+                type="button"
+                onClick={() => setShowInstructions(prev => !prev)}
+                className="text-xs text-blue-600 underline hover:text-blue-800"
+              >
+                {showInstructions ? 'Hide instructions' : 'View instructions'}
+              </button>
+              <div className="text-sm text-gray-500">
+                {answeredCount}/{questions.length} answered
+              </div>
             </div>
           </div>
         </div>
         
         {/* Question area */}
         <div className="max-w-4xl mx-auto px-4 py-6">
+          {showInstructions && (
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4 text-sm text-amber-800">
+              <h3 className="font-semibold mb-2">Exam Instructions</h3>
+              <ul className="space-y-1">
+                <li>• Time limit: {paper.duration} minutes</li>
+                <li>• Answer all questions in the spaces provided (unless the paper states otherwise).</li>
+                <li>• You can move freely between questions using the navigation buttons below.</li>
+                <li>• Your typed answers are preserved when you switch between questions.</li>
+              </ul>
+            </div>
+          )}
+
           <div className="bg-white rounded-lg shadow p-6 mb-4">
             <div className="flex items-start justify-between mb-4">
               <div>
@@ -623,6 +645,21 @@ Return STRICT JSON:
                 <Send className="w-5 h-5" /> Submit Exam
               </button>
             )}
+          </div>
+
+          {/* Optional stop exam control */}
+          <div className="mt-6 flex justify-center">
+            <button
+              type="button"
+              onClick={() => {
+                if (window.confirm('Are you sure you want to stop this exam and go back? Your current answers will be lost.')) {
+                  onBack();
+                }
+              }}
+              className="text-sm text-red-600 underline hover:text-red-700"
+            >
+              Stop exam &amp; go back to papers
+            </button>
           </div>
         </div>
       </div>

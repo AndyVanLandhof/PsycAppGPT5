@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "spec": "OCR H573/01 Philosophy of Religion",
+    "model": "claude-3-7-sonnet-20250219",
+    "totalQuestions": 5,
+    "counts": {
+      "onSpec": 5,
+      "offSpec": 0,
+      "tooSimilar": 0
+    },
+    "styleMatch": {
+      "mean": 0.8400000000000001
+    }
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "topicArea": "Ancient philosophical influences",
+      "subArea": "Plato and Aristotle on reality",
+      "commandWord": "Critically assess",
+      "marks": 40,
+      "text": "Critically assess the claim that Plato's Theory of Forms provides a more coherent account of reality than Aristotle's concept of substance.",
+      "eval": {
+        "onSpec": true,
+        "specTopicGuess": "Ancient philosophical influences - Plato's Theory of Forms and Aristotle's concept of substance",
+        "commandWordOk": true,
+        "marksAppropriate": true,
+        "styleMatchScore": 0.9,
+        "difficultyBand": "typical",
+        "tooSimilarToReal": false,
+        "closestRealQuestionStyle": "Similar to OCR's comparative philosophical assessment questions, asking for critical evaluation between two philosophical positions",
+        "issues": [
+          "The question is valid but would benefit from a slight rewording to better match OCR's tendency to frame questions as statements to be evaluated rather than claims to be assessed"
+        ],
+        "overallComment": "This is a well-constructed question that appropriately targets the ancient philosophical influences section of the specification. It correctly asks students to compare and evaluate two key philosophical positions (Plato and Aristotle) on reality, requiring both AO1 knowledge and AO2 evaluation skills. The command term and mark allocation are appropriate for an OCR H573/01 essay question."
+      }
+    },
+    {
+      "id": "Q2",
+      "topicArea": "Soul, Mind and Body",
+      "subArea": "Dualism and Materialism",
+      "commandWord": "To what extent",
+      "marks": 40,
+      "text": "To what extent does Descartes' dualism successfully address the relationship between the soul, mind, and body?",
+      "eval": {
+        "onSpec": true,
+        "specTopicGuess": "Soul, mind and body: Descartes' dualism, philosophical problems with interactionism, dualism, materialism and the soul",
+        "commandWordOk": true,
+        "marksAppropriate": true,
+        "styleMatchScore": 0.8,
+        "difficultyBand": "typical",
+        "tooSimilarToReal": false,
+        "closestRealQuestionStyle": "Similar to the 'To what extent' style questions that focus on evaluating a specific philosophical position",
+        "issues": [
+          "The question could be more precise about which aspects of Descartes' dualism to evaluate (e.g., interactionism specifically)",
+          "The phrase 'soul, mind, and body' might create some confusion as Descartes primarily discusses mind-body dualism"
+        ],
+        "overallComment": "This is a generally acceptable OCR H573/01 question that targets a core area of the specification. It uses the appropriate command term and mark allocation, though it could benefit from slightly more precise wording to focus students on specific aspects of Cartesian dualism. The question would allow students to demonstrate both AO1 knowledge and AO2 evaluation skills."
+      }
+    },
+    {
+      "id": "Q3",
+      "topicArea": "Arguments for the existence of God",
+      "subArea": "Ontological argument",
+      "commandWord": "Evaluate",
+      "marks": 40,
+      "text": "Evaluate the effectiveness of Anselm's ontological argument in proving the existence of God, with reference to Gaunilo's and Kant's criticisms.",
+      "eval": {
+        "onSpec": true,
+        "specTopicGuess": "Philosophical language and thought: Ontological argument for the existence of God",
+        "commandWordOk": true,
+        "marksAppropriate": true,
+        "styleMatchScore": 0.7,
+        "difficultyBand": "typical",
+        "tooSimilarToReal": false,
+        "closestRealQuestionStyle": "Similar to the 'Critically assess...' style questions but more specifically directs students to evaluate with reference to specific critics",
+        "issues": [
+          "The question is slightly more directive than typical OCR questions by specifically naming Gaunilo and Kant",
+          "OCR questions tend to be more open-ended, allowing students to choose which criticisms to discuss"
+        ],
+        "overallComment": "This question is largely acceptable as it addresses core content from the specification and uses an appropriate command word for a 40-mark question. However, it's slightly more prescriptive than typical OCR questions by specifically naming the critics students should reference. A more OCR-typical approach might be to simply ask students to evaluate the effectiveness of Anselm's ontological argument without specifying which criticisms to include."
+      }
+    },
+    {
+      "id": "Q4",
+      "topicArea": "Religious Experience",
+      "subArea": "Mystical and numinous experiences",
+      "commandWord": "To what extent",
+      "marks": 40,
+      "text": "To what extent can mystical and numinous experiences be considered reliable evidence for the existence of God?",
+      "eval": {
+        "onSpec": true,
+        "specTopicGuess": "Religious experience as evidence for the existence of God, including mystical and numinous experiences",
+        "commandWordOk": true,
+        "marksAppropriate": true,
+        "styleMatchScore": 0.9,
+        "difficultyBand": "typical",
+        "tooSimilarToReal": false,
+        "closestRealQuestionStyle": "Similar to OCR's typical 'To what extent' questions that ask for evaluation of evidence for God's existence",
+        "issues": [
+          "No significant issues - this is a well-formed question that aligns with the specification"
+        ],
+        "overallComment": "This is an excellent synthetic question that accurately reflects the OCR H573/01 specification content on religious experience. The command word 'To what extent' appropriately signals the evaluative nature required for a 40-mark question, and the wording is clear and focused on a key philosophical issue within the religious experience topic area."
+      }
+    },
+    {
+      "id": "Q5",
+      "topicArea": "Religious Language",
+      "subArea": "Verification and falsification principles",
+      "commandWord": "Critically assess",
+      "marks": 40,
+      "text": "Critically assess the impact of the verification and falsification principles on the meaningfulness of religious language.",
+      "eval": {
+        "onSpec": true,
+        "specTopicGuess": "Religious language: the Verification Principle and the challenges it presents to religious language; the Falsification Principle and the challenges it presents to religious language",
+        "commandWordOk": true,
+        "marksAppropriate": true,
+        "styleMatchScore": 0.9,
+        "difficultyBand": "typical",
+        "tooSimilarToReal": false,
+        "closestRealQuestionStyle": "Similar in structure to OCR questions that ask for critical assessment of philosophical principles",
+        "issues": [
+          "The question is slightly broad in that it covers both verification and falsification principles together, though this is manageable"
+        ],
+        "overallComment": "This is an excellent OCR-style question that directly addresses core content from the Religious Language section of the specification. It uses the appropriate command word for a 40-mark essay and requires students to evaluate both verification and falsification principles in relation to religious language. The question is challenging but fair and would allow students to demonstrate their knowledge and evaluative skills."
+      }
+    }
+  ]
+}

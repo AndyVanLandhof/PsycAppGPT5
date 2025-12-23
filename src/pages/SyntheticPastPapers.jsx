@@ -12,9 +12,33 @@ const PAPER_CONFIG = {
     subject: 'Psychology',
     code: '7182',
     papers: [
-      { id: 'paper1', name: 'Paper 1: Introductory Topics', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Social Influence', 'Memory', 'Attachment', 'Psychopathology'] },
-      { id: 'paper2', name: 'Paper 2: Psychology in Context', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Approaches', 'Biopsychology', 'Research Methods'] },
-      { id: 'paper3', name: 'Paper 3: Issues and Options', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Issues and Debates', 'Relationships', 'Schizophrenia', 'Forensic Psychology'] },
+      {
+        id: 'paper1',
+        name: 'Paper 1: Introductory Topics',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 96,
+        paperCode: '7182/1',
+        topics: ['Social Influence', 'Memory', 'Attachment', 'Psychopathology']
+      },
+      {
+        id: 'paper2',
+        name: 'Paper 2: Psychology in Context',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 96,
+        paperCode: '7182/2',
+        topics: ['Approaches', 'Biopsychology', 'Research Methods']
+      },
+      {
+        id: 'paper3',
+        name: 'Paper 3: Issues and Options',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 96,
+        paperCode: '7182/3',
+        topics: ['Issues and Debates', 'Relationships', 'Schizophrenia', 'Forensic Psychology']
+      },
     ]
   },
   'ocr-rs': {
@@ -57,9 +81,33 @@ const PAPER_CONFIG = {
     subject: 'English Literature',
     code: '9ET0',
     papers: [
-      { id: 'paper1', name: 'Paper 1: Drama', duration: '2 hours 15 mins', durationMinutes: 135, marks: 60, topics: ['Hamlet', 'Waiting for Godot', 'Tragedy/Comedy Critical Anthology'] },
-      { id: 'paper2', name: 'Paper 2: Prose', duration: '1 hour 15 mins', durationMinutes: 75, marks: 40, topics: ['Heart of Darkness', 'The Lonely Londoners', 'Comparative Themes'] },
-      { id: 'paper3', name: 'Paper 3: Poetry', duration: '2 hours 15 mins', durationMinutes: 135, marks: 60, topics: ['Poems of the Decade', 'Keats Selected Poems', 'Unseen Poetry'] },
+      {
+        id: 'paper1',
+        name: 'Paper 1: Drama',
+        duration: '2 hours 15 mins',
+        durationMinutes: 135,
+        marks: 60,
+        paperCode: '9ET0/01',
+        topics: ['Hamlet', 'Waiting for Godot', 'Tragedy/Comedy Critical Anthology']
+      },
+      {
+        id: 'paper2',
+        name: 'Paper 2: Prose',
+        duration: '1 hour 15 mins',
+        durationMinutes: 75,
+        marks: 40,
+        paperCode: '9ET0/02',
+        topics: ['Heart of Darkness', 'The Lonely Londoners', 'Comparative Themes']
+      },
+      {
+        id: 'paper3',
+        name: 'Paper 3: Poetry',
+        duration: '2 hours 15 mins',
+        durationMinutes: 135,
+        marks: 60,
+        paperCode: '9ET0/03',
+        topics: ['Poems of the Decade', 'Keats Selected Poems', 'Unseen Poetry']
+      },
     ]
   }
 };
