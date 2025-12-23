@@ -1,0 +1,2054 @@
+{
+  "meta": {
+    "paper": "9ET0/03 Paper 3: Poetry",
+    "year": 2019,
+    "session": "June",
+    "code": "9ET0/03"
+  },
+  "generatedAt": "2025-12-22T15:54:58.628Z",
+  "summary": {
+    "paperId": "edexcel-9et0-p3-jun19",
+    "model": "claude-3-7-sonnet-20250219",
+    "totalSamples": 78,
+    "byLabel": {
+      "A*": {
+        "count": 26,
+        "meanDiff": 0.9230769230769231,
+        "sumDiff": 24,
+        "awarded": [
+          22,
+          26,
+          22,
+          16,
+          25,
+          24,
+          22,
+          22,
+          24,
+          18,
+          22,
+          24,
+          24,
+          18,
+          25,
+          24,
+          24,
+          24,
+          25,
+          25,
+          22,
+          24,
+          26,
+          22,
+          24,
+          22
+        ],
+        "target": [
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
+        ]
+      },
+      "B": {
+        "count": 26,
+        "meanDiff": 0.3076923076923077,
+        "sumDiff": 8,
+        "awarded": [
+          18,
+          18,
+          15,
+          17,
+          18,
+          18,
+          14,
+          18,
+          18,
+          16,
+          18,
+          18,
+          18,
+          16,
+          18,
+          18,
+          16,
+          18,
+          16,
+          18,
+          17,
+          18,
+          17,
+          18,
+          18,
+          18
+        ],
+        "target": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ]
+      },
+      "C": {
+        "count": 26,
+        "meanDiff": -1.3461538461538463,
+        "sumDiff": -35,
+        "awarded": [
+          14,
+          15,
+          10,
+          12,
+          14,
+          12,
+          12,
+          12,
+          10,
+          12,
+          12,
+          12,
+          14,
+          14,
+          12,
+          12,
+          12,
+          14,
+          12,
+          12,
+          12,
+          15,
+          12,
+          14,
+          15,
+          12
+        ],
+        "target": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      }
+    },
+    "global": {
+      "count": 78,
+      "meanAbsError": 1.5256410256410255
+    }
+  },
+  "results": [
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "1",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "High Level 4 - The response shows good knowledge and understanding of both poems with a developed comparative analysis, though lacking the sophistication and depth required for Level 5.",
+      "feedback": "This is a well-structured comparative response that demonstrates good knowledge of both poems and makes thoughtful connections between them. The analysis of poetic methods is developed, though could be more detailed, and contextual understanding is present but somewhat generalized.",
+      "strengths": [
+        "Clear comparative structure throughout the response",
+        "Good understanding of key themes in both poems",
+        "Effective analysis of some poetic techniques like enjambment and imperative voice",
+        "Recognition of how form and structure contribute to meaning",
+        "Makes connections between imagery and thematic concerns"
+      ],
+      "improvements": [
+        "Provide more detailed textual analysis with specific quotations",
+        "Develop contextual discussion beyond general statements about the poets",
+        "Explore alternative interpretations more explicitly",
+        "Analyze the significance of specific language choices in greater depth",
+        "Consider the poems' endings and their significance to meaning"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "1",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some developed analysis with reasonable knowledge of the texts, but lacks depth in critical interpretation and contextual understanding.",
+      "feedback": "The response offers a competent comparison of the two poems with some analysis of language and form, but lacks depth in critical interpretation and contextual understanding. The comparison is somewhat mechanical and would benefit from more detailed textual analysis.",
+      "strengths": [
+        "Clear comparison between the two poems with identified similarities and differences",
+        "Some analysis of language features like metaphor and repetition",
+        "Recognition of structural elements in 'Eat Me'",
+        "Attempts to explore thematic concerns of identity, power and control"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific language choices and their effects",
+        "Include relevant contextual factors (historical, social, literary contexts)",
+        "Explore alternative interpretations of the poems more thoroughly",
+        "Use more specific textual evidence with closer analysis of quotations",
+        "Develop a more sophisticated critical argument about the poems' meanings"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "1",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 (13-18 marks). The response shows some understanding of the poems with basic comparison and limited analysis.",
+      "feedback": "The answer demonstrates basic understanding of both poems with some attempt at comparison, but lacks depth of analysis, contextual awareness, and detailed exploration of poetic techniques.",
+      "strengths": [
+        "Identifies the central themes of relationships in both poems",
+        "Makes some valid comparisons between the poems' approaches to relationships",
+        "Recognizes some key imagery in both poems",
+        "Attempts to discuss structure in 'Eat Me'"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of language, form and structure",
+        "Include relevant contextual factors that influence the poems",
+        "Provide specific textual evidence with more quotations",
+        "Explore alternative interpretations of the poems",
+        "Analyze the poets' methods more thoroughly",
+        "Consider the significance of voice and tone in both poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "2",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 26,
+      "diff": 4,
+      "levelDescriptor": "High Level 5 - The response demonstrates sophisticated comparative analysis with perceptive understanding of both poems, showing assured knowledge and a well-developed, coherent argument.",
+      "feedback": "This is an accomplished comparative analysis that explores the unusual events in both poems with sophistication and insight. The response demonstrates perceptive understanding of how both poets use the intersection of myth and reality to reflect on human nature and moral complexities.",
+      "strengths": [
+        "Sophisticated comparative analysis that maintains focus on both poems throughout",
+        "Perceptive understanding of how both poets use unusual events to explore human nature",
+        "Detailed analysis of language, structure and symbolism in both poems",
+        "Well-developed argument with clear progression of ideas",
+        "Thoughtful exploration of moral ambiguities and human actions in both texts"
+      ],
+      "improvements": [
+        "Could develop more specific contextual discussion beyond the brief mention of 'wartime atrocities'",
+        "Analysis of form could be more detailed, particularly regarding poetic techniques",
+        "Could include more direct quotations to support the analysis",
+        "Could explore alternative interpretations more explicitly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "2",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - Shows some understanding of the poems with some relevant analysis, but lacks depth in critical interpretation and contextual awareness",
+      "feedback": "The response offers a competent comparison of the two poems with some analysis of language and structure, but lacks depth in critical interpretation and contextual awareness. The comparison is sustained throughout but would benefit from more detailed textual analysis and exploration of wider contexts.",
+      "strengths": [
+        "Sustained comparison between the two poems throughout the response",
+        "Some analysis of language and imagery in both poems",
+        "Recognition of key themes such as human intervention and moral complexity",
+        "Clear structure with a logical progression of ideas"
+      ],
+      "improvements": [
+        "Include more detailed analysis of specific poetic techniques and their effects",
+        "Develop critical interpretations with more nuance and depth",
+        "Incorporate relevant contextual factors that influence the poems",
+        "Use more precise quotations to support analytical points",
+        "Explore alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "2",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 15,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 (15/30) - The answer shows some understanding of the poems with basic comparison and analysis, but lacks depth and development.",
+      "feedback": "This response offers a straightforward comparison between the two poems, identifying some key symbols and themes. The analysis is generally accurate but underdeveloped, with limited exploration of poetic techniques and contexts.",
+      "strengths": [
+        "Identifies clear points of comparison between the two poems",
+        "Recognizes some key symbols (trees representing unity/division, mermaid as symbol of difference)",
+        "Attempts to analyze tone in 'Giuseppe' as 'matter-of-fact'",
+        "Makes some valid observations about the endings of both poems"
+      ],
+      "improvements": [
+        "Develop analysis of language, form and structure with specific examples",
+        "Include more detailed textual references and quotations to support points",
+        "Consider wider contexts (historical, literary, cultural) that inform the poems",
+        "Explore alternative interpretations of the poems",
+        "Develop a more sophisticated argument about the poets' intentions and methods"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "3",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - Competent and generally convincing response with good analysis and comparison",
+      "feedback": "This is a competent response that demonstrates good understanding of divine revelation in both texts, with effective analysis of language and some contextual awareness. The comparison between texts is clear, though could be more integrated throughout.",
+      "strengths": [
+        "Clear understanding of divine revelation as a theme in both texts",
+        "Good analysis of language features like alliteration and imagery",
+        "Effective comparison between the two texts' treatment of revelation",
+        "Appropriate contextual references to medieval mystery plays",
+        "Well-structured response with a clear argument"
+      ],
+      "improvements": [
+        "Could develop more detailed textual analysis with specific quotations",
+        "Needs more exploration of form and structure beyond basic observations",
+        "Contextual discussion could be more deeply integrated with textual analysis",
+        "Could explore alternative interpretations more explicitly",
+        "Comparison could be more sustained throughout rather than sectioned"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "3",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 15,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the texts with basic comparison, but lacks depth of analysis and development.",
+      "feedback": "This response offers a basic comparison of divine revelation in both texts with some relevant points, but lacks detailed textual analysis and development of ideas. The contextual understanding is limited, and the argument is not fully developed.",
+      "strengths": [
+        "Identifies the key theme of divine revelation in both texts",
+        "Makes some valid comparisons between the two texts",
+        "Notes the transformation of the shepherds from fear to joy in both texts",
+        "Briefly acknowledges the medieval mystery play context"
+      ],
+      "improvements": [
+        "Include more specific textual evidence and quotations to support points",
+        "Analyze language, form and structure in greater detail",
+        "Develop a more sophisticated argument about the significance of divine revelation",
+        "Explore the religious and historical contexts more thoroughly",
+        "Consider alternative interpretations of the texts"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "3",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 10,
+      "diff": -4,
+      "levelDescriptor": "Low Level 2. The answer shows basic knowledge and understanding with limited comparison between texts.",
+      "feedback": "This response demonstrates basic knowledge of both texts but lacks detailed analysis, contextual understanding, and developed comparisons. The answer is very brief and underdeveloped.",
+      "strengths": [
+        "Identifies the relevant sections in both texts",
+        "Makes a basic comparison between the shepherds' reactions in both texts",
+        "Recognizes the religious significance of the angel's appearance",
+        "Briefly mentions the historical context of medieval mystery plays"
+      ],
+      "improvements": [
+        "Provide specific textual evidence with quotations to support points",
+        "Analyze language, form and structure in detail",
+        "Develop the comparison between texts with more specific examples",
+        "Explore different interpretations of the divine revelation scenes",
+        "Discuss the significance of the shepherds as representatives of humanity",
+        "Expand on the dramatic and theological purposes of these scenes",
+        "Consider how these scenes function within the larger structure of each play"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "4",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 16,
+      "diff": -6,
+      "levelDescriptor": "Low Level 3 - Shows some understanding but lacks development and detailed analysis",
+      "feedback": "The response demonstrates some knowledge of the text and makes basic points about working life in 'Noah's Flood', with limited comparison to 'Everyman'. However, it lacks detailed textual analysis, specific references, and development of contextual factors.",
+      "strengths": [
+        "Identifies the theme of work as a divine mandate and familial duty",
+        "Makes a basic comparison between 'Noah's Flood' and 'Everyman'",
+        "Recognizes some language features like imperative verbs",
+        "Shows awareness of medieval religious context"
+      ],
+      "improvements": [
+        "Include specific textual references and quotations from the lines specified",
+        "Develop analysis of language, form and structure with more precision",
+        "Expand on the contextual factors of medieval drama and religious beliefs",
+        "Provide more detailed comparison between the texts",
+        "Engage more critically with different interpretations of the texts"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "4",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 17,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - Shows some understanding of the text and makes some relevant points, but lacks detailed analysis and development",
+      "feedback": "The answer shows basic understanding of 'Noah's Flood' and makes a relevant comparison to 'Everyman', but lacks detailed textual analysis, specific examples, and developed contextual discussion.",
+      "strengths": [
+        "Identifies key themes of duty and obedience in relation to working life",
+        "Makes a valid comparison between 'Noah's Flood' and 'Everyman'",
+        "Recognizes some language features like repetition and imperative verbs",
+        "Shows awareness of medieval context and religious influences"
+      ],
+      "improvements": [
+        "Include specific textual evidence with direct quotations from both texts",
+        "Develop analysis of language, form and structure in greater detail",
+        "Expand on the medieval context and its influence on representations of work",
+        "Provide more nuanced interpretation of the texts rather than general observations",
+        "Explore the dramatic elements of both texts as poetic dramas"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "4",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows basic knowledge with limited development and some relevant connections",
+      "feedback": "The answer demonstrates basic understanding of the text with some attempt at comparison, but lacks detailed analysis and contextual exploration. The response identifies some relevant points about work in 'Noah's Flood' and makes a basic comparison to 'Everyman', but development is limited.",
+      "strengths": [
+        "Identifies the theme of work in 'Noah's Flood' with some textual reference",
+        "Makes a basic comparison with 'Everyman'",
+        "Recognizes the religious context of both texts",
+        "Attempts to discuss language with reference to 'build' and 'labour'"
+      ],
+      "improvements": [
+        "Develop analysis of specific language, form and structure with detailed textual evidence",
+        "Explore historical and literary contexts in greater depth",
+        "Provide more specific textual references with quotations",
+        "Develop a more sophisticated argument about different representations of work",
+        "Consider wider interpretations and critical perspectives"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "5",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 25,
+      "diff": 3,
+      "levelDescriptor": "High Level 4 - The response demonstrates sophisticated knowledge, perceptive analysis, and thoughtful contextual understanding, but lacks some depth in textual exploration and development of ideas to reach Level 5.",
+      "feedback": "This is a sophisticated response that demonstrates excellent knowledge of the text with perceptive analysis of Chaucer's presentation of the Wife of Bath's rebellion against authority. The answer shows strong critical engagement with the text through detailed analysis of language and context, though it could develop more detailed textual exploration.",
+      "strengths": [
+        "Sophisticated understanding of the Wife of Bath's character and her rebellion against patriarchal authority",
+        "Perceptive analysis of key textual moments, including the lion and painter allusion",
+        "Strong engagement with contextual factors of 14th century attitudes to women and marriage",
+        "Clear, coherent argument with well-integrated textual evidence",
+        "Thoughtful analysis of language and structure to support interpretations"
+      ],
+      "improvements": [
+        "Could include more detailed close analysis of specific language features and poetic techniques",
+        "Would benefit from exploring a wider range of textual examples from the poem",
+        "Could develop more nuanced discussion of alternative critical interpretations",
+        "More explicit discussion of how form contributes to meaning would strengthen the response"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "5",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of the text with some relevant analysis, but lacks depth and development in places.",
+      "feedback": "This response demonstrates some understanding of the Wife of Bath as a rebellious character, with some analysis of language and context. However, it lacks detailed textual evidence, thorough analysis of poetic techniques, and comprehensive contextual discussion.",
+      "strengths": [
+        "Clear focus on the question about rebellion against authority",
+        "Some relevant textual references to the Wife's arguments and actions",
+        "Basic understanding of the Wife's character and her challenge to medieval norms",
+        "Some awareness of contextual factors related to gender roles"
+      ],
+      "improvements": [
+        "Include more specific quotations and detailed textual analysis",
+        "Analyze Chaucer's poetic techniques and narrative methods more thoroughly",
+        "Develop a more nuanced discussion of medieval contexts and attitudes",
+        "Explore alternative interpretations of the Wife's character and motivations",
+        "Provide more detailed analysis of how language, form and structure contribute to the presentation of rebellion"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "5",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - shows some understanding of the text with basic analysis and some awareness of context",
+      "feedback": "The answer demonstrates a basic understanding of the Wife of Bath's character and her rebellion against authority, but lacks detailed textual analysis and development of contextual factors. The response identifies relevant sections of the text but offers limited close reading.",
+      "strengths": [
+        "Identifies key sections of the text that show the Wife challenging authority",
+        "Recognizes the Wife's rejection of Church teachings on marriage",
+        "Makes some reference to the Wife's relationship with Jankyn",
+        "Shows awareness that the Wife challenges medieval expectations of women"
+      ],
+      "improvements": [
+        "Provide more detailed analysis of Chaucer's language, form and structure",
+        "Include specific quotations with close analysis rather than general references",
+        "Develop contextual understanding of medieval attitudes to women and marriage more fully",
+        "Explore the complexity and possible contradictions in the Wife's character",
+        "Consider Chaucer's narrative methods and how they contribute to the presentation of authority"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "6",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates a strong, detailed and perceptive analysis with well-developed arguments, though lacks the exceptional insight and sophistication of Level 5",
+      "feedback": "This is a well-developed response that shows strong understanding of the Wife of Bath's character and her treatment of husbands. The analysis of language and context is detailed, with good textual support. However, it lacks the exceptional depth and critical sophistication needed for Level 5.",
+      "strengths": [
+        "Clear focus on the Wife's treatment of husbands with specific textual references",
+        "Good analysis of literary techniques like hyperbole and rhetorical questions",
+        "Strong contextual understanding of medieval gender roles",
+        "Effective discussion of power dynamics in the Wife's marriages",
+        "Coherent argument about the Wife's agency and manipulation"
+      ],
+      "improvements": [
+        "Could develop more detailed close analysis of specific language choices",
+        "Needs more exploration of alternative critical interpretations",
+        "Could engage more deeply with the complexity of Chaucer's narrative voice",
+        "Would benefit from more extensive quotation and analysis",
+        "Could explore the ambiguity in Chaucer's presentation more fully"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "6",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of the text with some relevant analysis, but lacks depth and development in both textual evidence and critical interpretation.",
+      "feedback": "This response demonstrates some understanding of the Wife of Bath's character and her relationships with her husbands, with some relevant textual references. However, it lacks detailed analysis of Chaucer's methods and sufficient textual evidence to support claims. The contextual discussion is somewhat generalized.",
+      "strengths": [
+        "Identifies the Wife's desire for control in her marriages",
+        "References specific line numbers from the text (194-223, 575-600)",
+        "Makes some attempt to discuss Chaucer's narrative techniques",
+        "Recognizes the Wife's challenge to medieval gender roles",
+        "Identifies the different dynamic with Jankyn compared to earlier husbands"
+      ],
+      "improvements": [
+        "Include more specific textual evidence with direct quotations",
+        "Develop more detailed analysis of Chaucer's language, form and structure",
+        "Provide more nuanced discussion of medieval contexts and attitudes to marriage",
+        "Explore the Wife's contradictions and complexities more fully",
+        "Analyze Chaucer's narrative voice and the ambiguity of his presentation of the Wife"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "6",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3. The response shows some understanding of the text with basic analysis and limited contextual awareness.",
+      "feedback": "This response demonstrates a basic understanding of the Wife of Bath's character and her relationships, but lacks detailed textual analysis and development of ideas. The contextual understanding is limited, and the argument lacks sophistication.",
+      "strengths": [
+        "Identifies the Wife of Bath's desire for control in her marriages",
+        "Makes reference to specific sections of the text (lines 194-223 and 575-600)",
+        "Shows some awareness of medieval gender expectations",
+        "Recognizes the Wife's challenge to conventional female roles"
+      ],
+      "improvements": [
+        "Provide more detailed analysis of Chaucer's language, form and structure",
+        "Include specific quotations to support points made",
+        "Develop a more nuanced understanding of the Wife's character and motivations",
+        "Explore the complexities of medieval attitudes toward marriage and gender more thoroughly",
+        "Consider alternative interpretations of the Wife's character and actions",
+        "Analyze how Chaucer's narrative techniques contribute to characterization"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "7",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - The answer demonstrates a secure, developed understanding of the poems with a coherent argument, though lacks the sophistication and depth of analysis needed for Level 5.",
+      "feedback": "This is a competent comparative analysis that addresses dramatic devices in both poems with clear understanding. The response shows good knowledge of both texts and makes relevant connections, though the analysis could be more detailed and nuanced.",
+      "strengths": [
+        "Clear understanding of both poems and their dramatic devices",
+        "Effective comparison of the different approaches to dramatic elements",
+        "Good awareness of Metaphysical poetry characteristics",
+        "Appropriate contextual references to 17th century and Renaissance attitudes",
+        "Coherent argument structure with logical progression"
+      ],
+      "improvements": [
+        "Needs more detailed textual analysis with specific quotations",
+        "Could explore language and form in greater depth",
+        "Would benefit from more nuanced discussion of religious and philosophical contexts",
+        "Analysis of dramatic devices could be more sophisticated",
+        "Could develop the comparison of the poets' contrasting worldviews further"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "7",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 14,
+      "diff": -3,
+      "levelDescriptor": "Low Level 3 - Shows some understanding of the poems with basic comparison and limited analysis",
+      "feedback": "The answer shows basic knowledge of both poems with some attempt at comparison, but lacks depth of analysis, contextual understanding, and detailed exploration of poetic techniques.",
+      "strengths": [
+        "Identifies key features of both poems (Vaughan's imagery, Donne's dramatic monologue)",
+        "Makes some attempt to compare the poems' dramatic devices",
+        "Recognizes Donne's use of conceit and Vaughan's spiritual themes",
+        "Shows basic understanding of the poems' content"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific language, form and structure",
+        "Include relevant contextual factors (religious/historical context)",
+        "Provide more specific textual evidence with quotations",
+        "Explore alternative interpretations of the poems",
+        "Develop a more sophisticated argument about the dramatic elements",
+        "Analyze how the dramatic devices specifically relate to the poets' meanings"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "7",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows basic knowledge of the poems with some attempt at comparison, but lacks depth of analysis and contextual understanding",
+      "feedback": "This response shows basic understanding of both poems and makes some straightforward comparisons of their dramatic devices, but lacks detailed analysis of poetic techniques and contextual exploration",
+      "strengths": [
+        "Identifies the basic dramatic elements in both poems",
+        "Makes some valid comparisons between the poems' approaches",
+        "Recognizes Vaughan's use of light imagery",
+        "Identifies Donne's conversational tone"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific poetic techniques",
+        "Include relevant contextual factors (religious, metaphysical traditions)",
+        "Explore the poems' meanings and purposes in greater depth",
+        "Use more specific textual evidence with closer analysis",
+        "Consider the significance of form and structure more explicitly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "8",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - Competent and generally convincing response with good analysis and comparison, but lacking the sophistication and depth required for Level 5",
+      "feedback": "This is a competent response that demonstrates good understanding of both poems and makes relevant connections between them. The analysis of language and form is generally convincing, with some effective exploration of metaphysical conceits and imagery. However, the response lacks the depth and sophistication of textual analysis required for the highest level.",
+      "strengths": [
+        "Clear understanding of both poems' central themes and contrasts",
+        "Good identification of metaphysical elements in both poems",
+        "Effective comparison of how both poets use contrasts to explore deeper truths",
+        "Recognition of formal elements like Lovelace's iambic tetrameter",
+        "Some relevant contextual references to the English Civil War"
+      ],
+      "improvements": [
+        "More detailed analysis of specific language choices and their effects",
+        "Greater exploration of the poems' structures and how they contribute to meaning",
+        "More extensive quotation and close reading of both texts",
+        "Deeper engagement with alternative interpretations",
+        "More nuanced discussion of historical and literary contexts"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "8",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Low Level 4 - The answer shows sound knowledge and understanding of the poems with a generally coherent argument, but lacks depth in analysis and development of ideas.",
+      "feedback": "This response demonstrates sound knowledge of both poems with some relevant analysis and contextual understanding. The comparison between the poems is clear but underdeveloped, with limited detailed exploration of language, form and structure.",
+      "strengths": [
+        "Clear identification of the central themes in both poems",
+        "Some analysis of poetic techniques (e.g., rhyme scheme, meter in Lovelace)",
+        "Relevant contextual information about the English Civil War",
+        "Appropriate comparison of the metaphysical elements in both poems",
+        "Coherent structure with introduction and conclusion"
+      ],
+      "improvements": [
+        "Develop analysis of specific language choices with more detailed quotations",
+        "Explore form and structure more thoroughly beyond basic observations",
+        "Provide more nuanced interpretation of the poems' meanings",
+        "Develop the comparison between the poems with more specific parallels",
+        "Include more detailed exploration of the metaphysical tradition and its influence"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "8",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding of the poems with basic comparisons and limited analysis",
+      "feedback": "This response demonstrates basic knowledge of both poems with some attempt at comparison, but lacks detailed analysis of poetic techniques and offers limited contextual understanding. The connections between the poems remain underdeveloped.",
+      "strengths": [
+        "Identifies the central themes in both poems (love vs. honor in Lovelace, love vs. time in Donne)",
+        "Makes some basic comparisons between the two poems",
+        "Recognizes the regular rhyme scheme in Lovelace's poem",
+        "Includes some relevant historical context about Lovelace"
+      ],
+      "improvements": [
+        "Analyze specific language, imagery and poetic techniques in greater detail",
+        "Include specific quotations from the poems to support points",
+        "Develop a more sophisticated understanding of the poems' meanings and speakers' attitudes",
+        "Explore the form and structure of both poems more thoroughly",
+        "Provide more detailed contextual information about both poets and their literary traditions",
+        "Develop more nuanced comparisons between the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "9",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates assured knowledge, perceptive understanding and a well-developed argument, with good comparative analysis, but lacks some of the sophistication and nuance required for Level 5.",
+      "feedback": "This is a strong comparative analysis that effectively explores the theme of constancy across both poems with clear understanding of poetic techniques and contexts. The argument is coherent and well-structured, with good integration of textual evidence and analytical points.",
+      "strengths": [
+        "Clear comparative framework focusing on the contrasting approaches to constancy",
+        "Good understanding of poetic techniques in both texts (form, structure, rhetorical questions, metaphors)",
+        "Effective integration of contextual factors (Jacobean/Elizabethan attitudes to love)",
+        "Well-structured argument with logical progression",
+        "Thoughtful conclusion that synthesizes the comparison"
+      ],
+      "improvements": [
+        "Could include more specific textual evidence, particularly from Shakespeare's sonnet",
+        "Analysis of language could be more detailed and nuanced in places",
+        "Could explore more deeply the philosophical implications of the different views of constancy",
+        "Contextual discussion could be more precisely linked to specific textual features",
+        "Could demonstrate more awareness of alternative critical interpretations"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "9",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of the poems with basic comparison and limited analysis",
+      "feedback": "The response offers a basic comparison between the two poems with some understanding of their different approaches to constancy. However, analysis of poetic techniques is limited, and contextual discussion lacks depth and specificity.",
+      "strengths": [
+        "Clear identification of the contrasting approaches to constancy in both poems",
+        "Some attempt to analyze form (stanza structure, rhyme scheme)",
+        "Basic understanding of the poems' themes",
+        "Attempts to make connections between the poems"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of language, imagery and poetic devices",
+        "Include more specific textual evidence with closer reading",
+        "Deepen contextual understanding with more specific historical/literary context",
+        "Explore the complexity of Donne's metaphysical style and Shakespeare's sonnet conventions",
+        "Consider alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "9",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 10,
+      "diff": -4,
+      "levelDescriptor": "Low Level 2 - Basic response with limited development and analysis",
+      "feedback": "This answer shows a basic understanding of the theme of constancy in both poems but lacks detailed analysis, contextual awareness, and developed comparisons. The response is very brief and underdeveloped.",
+      "strengths": [
+        "Identifies the central theme of constancy in both poems",
+        "Recognizes the contrasting attitudes toward constancy in Donne and Shakespeare",
+        "Makes some attempt at comparison between the two poems",
+        "Shows basic understanding of the poems' content"
+      ],
+      "improvements": [
+        "Develop analysis of specific language, form and structure in both poems",
+        "Include relevant contextual factors (literary, historical, biographical)",
+        "Use specific quotations and analyze them in detail",
+        "Explore the complexity of Donne's irony and Shakespeare's philosophical stance",
+        "Develop a more sophisticated argument about the poets' differing approaches",
+        "Consider the significance of form (metaphysical poetry vs sonnet)",
+        "Expand the response with more detailed textual evidence"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "10",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 18,
+      "diff": -4,
+      "levelDescriptor": "Mid Level 4 - The response shows a good understanding of the poems with some developed analysis, but lacks the depth and sophistication needed for Level 5",
+      "feedback": "This is a competent response that makes valid comparisons between the two poems and demonstrates good knowledge of Donne's work. The analysis of language and form is present but not consistently developed, and while contextual factors are mentioned, they could be more thoroughly integrated.",
+      "strengths": [
+        "Clear identification of extremes in both poems with specific examples",
+        "Recognition of structural elements like the Petrarchan sonnet form and volta in 'Holy Sonnet V'",
+        "Some relevant contextual information about Donne's religious conversion",
+        "Effective comparison between the poems' treatment of sin and redemption"
+      ],
+      "improvements": [
+        "More detailed close analysis of language, imagery and poetic techniques",
+        "Greater depth in exploring how form contributes to meaning",
+        "More specific textual references and quotations to support points",
+        "More nuanced discussion of how historical/religious context shapes the poems",
+        "Expand analysis beyond the few quoted phrases to demonstrate wider textual knowledge"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "10",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 16,
+      "diff": -1,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems with basic comparisons, but lacks detailed analysis and development.",
+      "feedback": "The response demonstrates some understanding of Donne's poetry and makes basic comparisons between the two poems, focusing on the theme of extremes. However, it lacks detailed textual analysis, offers limited exploration of contexts, and needs more developed arguments with supporting evidence.",
+      "strengths": [
+        "Identifies a clear comparative focus on 'extremes' in both poems",
+        "Recognizes some key imagery in both poems",
+        "Makes basic connections between the poems' structures and themes",
+        "Shows awareness of Donne's religious context"
+      ],
+      "improvements": [
+        "Provide more detailed analysis of language, form and structure",
+        "Include specific quotations with close analysis",
+        "Develop a more nuanced argument about how extremes function differently across the poems",
+        "Explore the religious and historical contexts in greater depth",
+        "Consider alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "10",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3. The answer shows some understanding of the poems and makes basic comparisons, but lacks depth of analysis and detailed textual support.",
+      "feedback": "This response offers a basic comparative analysis of Donne's use of extremes in the two poems, with some relevant points about religious themes, but lacks detailed textual exploration and contextual understanding.",
+      "strengths": [
+        "Identifies a clear comparative focus on Donne's use of extremes in both poems",
+        "Recognizes some key imagery like 'little world' and the contrast of 'black sin' and 'white soul'",
+        "Makes a basic attempt to link the poems through their shared religious themes",
+        "Shows awareness of structural elements in 'A Hymn to God the Father'"
+      ],
+      "improvements": [
+        "Develop analysis with more specific textual references and quotations",
+        "Explore language, form and structure in greater depth",
+        "Provide more detailed contextual information about Donne's religious beliefs and the metaphysical tradition",
+        "Examine the complexity of Donne's religious thought rather than just stating general themes",
+        "Consider alternative interpretations of the poems",
+        "Extend the comparative analysis beyond basic thematic connections"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "11",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - Perceptive and assured response with some excellent analysis, but lacking the depth and sophistication needed for Level 5",
+      "feedback": "This is a perceptive response that demonstrates secure knowledge of both poems with thoughtful analysis of language and form. The contextual understanding is sound, and the comparative elements are well-integrated. However, it lacks the depth of textual exploration and the more nuanced critical perspectives needed for the highest level.",
+      "strengths": [
+        "Clear understanding of Blake's critique of institutions and hypocrisy in both poems",
+        "Effective analysis of key poetic techniques like rhetorical questions and repetition",
+        "Good integration of contextual factors relating to Blake's era and beliefs",
+        "Thoughtful comparative approach that identifies thematic connections between poems",
+        "Well-structured argument with a coherent line of reasoning"
+      ],
+      "improvements": [
+        "Needs more detailed close analysis of specific language choices and their effects",
+        "Could explore a wider range of interpretations or critical perspectives",
+        "Would benefit from more extensive quotation and closer engagement with the text",
+        "Could develop the discussion of form and structure in greater depth",
+        "Needs to explore the complexity of Blake's vision of human nature more fully"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "11",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The response shows a clear understanding of the poems but lacks detailed analysis and development of ideas",
+      "feedback": "This response demonstrates sound knowledge of Blake's poems with some relevant contextual understanding and comparison. However, it lacks detailed textual analysis and development of ideas about human nature.",
+      "strengths": [
+        "Clear understanding of Blake's critical view of religious institutions in 'Holy Thursday'",
+        "Some relevant quotations from the poem to support points",
+        "Appropriate contextual reference to the industrial revolution",
+        "Effective comparison with 'The Chimney Sweeper' from Songs of Experience",
+        "Recognition of Blake's social critique and moral concerns"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of language, form and structure",
+        "Explore a wider range of textual evidence from both poems",
+        "Provide more specific historical/social context for Blake's critique",
+        "Develop a more nuanced argument about Blake's presentation of human nature",
+        "Include more detailed exploration of poetic techniques and their effects"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "11",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows some understanding of the poems but lacks depth of analysis and detailed textual support",
+      "feedback": "The answer shows basic understanding of Blake's 'Holy Thursday' and makes a brief comparison to 'The Chimney Sweeper', but lacks detailed analysis and textual support. Contextual understanding is present but underdeveloped, and the argument about human nature is simplistic.",
+      "strengths": [
+        "Identifies a relevant theme in Blake's poetry (flawed human nature)",
+        "Makes some attempt to analyze language ('misery', 'rich')",
+        "Includes some basic contextual information about poverty in Blake's time",
+        "Attempts to compare two relevant poems",
+        "Recognizes Blake's critical stance toward institutions"
+      ],
+      "improvements": [
+        "Provide more detailed textual analysis with specific quotations",
+        "Develop a more nuanced argument about Blake's presentation of human nature",
+        "Analyze poetic techniques and form in greater detail",
+        "Integrate contextual information more effectively with textual analysis",
+        "Explore alternative interpretations of the poems",
+        "Develop the comparison between the poems more thoroughly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "12",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The response demonstrates a strong, detailed understanding of the poems with perceptive analysis, though lacking some of the sophistication and nuance needed for Level 5.",
+      "feedback": "This is a well-developed comparative analysis that shows strong understanding of both poems and their relationship to personal reflection. The response makes effective connections between the texts and demonstrates good awareness of contextual factors, though some points could be developed with more specific textual evidence.",
+      "strengths": [
+        "Clear understanding of how both poets use nature as a vehicle for personal reflection",
+        "Effective analysis of poetic techniques like enjambment and structure",
+        "Good contextual awareness of Romantic ideals and their influence",
+        "Coherent comparative approach that maintains focus on the question",
+        "Well-structured argument with logical progression"
+      ],
+      "improvements": [
+        "Include more specific textual evidence from both poems to support claims",
+        "Develop analysis of language with more precise terminology and deeper exploration",
+        "Provide more detailed discussion of how form contributes to meaning in both poems",
+        "Explore alternative interpretations to demonstrate more critical engagement",
+        "Deepen contextual discussion with more specific biographical details"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "12",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some developed analysis with reasonable knowledge and understanding, but lacks depth in textual exploration and contextual integration",
+      "feedback": "This response demonstrates reasonable knowledge of both texts with some analysis of language and form, and makes appropriate connections between the poems. However, it lacks detailed textual exploration, specific quotation analysis, and deeper contextual understanding.",
+      "strengths": [
+        "Clear comparison of the two poems' approaches to nature and reflection",
+        "Some understanding of Romantic principles",
+        "Recognition of structural elements like Keats's volta",
+        "Appropriate identification of different poetic techniques (blank verse, enjambment)",
+        "Logical organization with a clear conclusion"
+      ],
+      "improvements": [
+        "Include more specific textual evidence with detailed analysis",
+        "Develop deeper analysis of language, form and structure",
+        "Integrate more specific historical and literary context",
+        "Explore alternative interpretations of the poems",
+        "Provide more detailed comparison of specific moments in both texts"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "12",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3. The response shows some understanding of the poems with limited analysis and basic connections between texts.",
+      "feedback": "This response demonstrates a basic understanding of both poems with some attempt at comparison, but lacks detailed analysis of poetic techniques and offers limited contextual discussion of Romanticism.",
+      "strengths": [
+        "Identifies the sonnet form in Keats' poem and blank verse in Wordsworth's",
+        "Makes some valid connections between the poems regarding their treatment of nature",
+        "Shows awareness of the Romantic period as context",
+        "Recognizes the structural shift in Keats' sonnet"
+      ],
+      "improvements": [
+        "Include specific textual analysis with quotations from both poems",
+        "Develop analysis of language, imagery and poetic techniques",
+        "Expand on the contextual discussion of Romanticism with more specific details",
+        "Provide more detailed exploration of the poems' themes and meanings",
+        "Develop a more sophisticated comparative argument throughout"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "13",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The response shows a well-developed and detailed understanding of the poems with perceptive analysis, though lacking some of the sophistication and nuance required for Level 5.",
+      "feedback": "This is a strong response that demonstrates detailed knowledge of both poems with perceptive analysis of language, form and structure. The comparison between the poems is well-developed, showing how Keats presents different perspectives on death. However, the response would benefit from more sustained critical analysis and deeper contextual integration.",
+      "strengths": [
+        "Clear understanding of both poems with well-selected textual evidence",
+        "Effective analysis of poetic techniques such as metaphor and form",
+        "Good comparative approach showing contrasting attitudes to death",
+        "Recognition of the significance of the sonnet form in 'When I have fears'",
+        "Thoughtful exploration of Keats's complex relationship with mortality"
+      ],
+      "improvements": [
+        "Develop more sustained critical analysis of language and form",
+        "Integrate contextual factors more thoroughly throughout the response",
+        "Explore alternative interpretations more explicitly",
+        "Provide more detailed analysis of the structure of 'Ode to a Nightingale'",
+        "Develop the discussion of how Keats's personal circumstances influenced his poetry"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "13",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of the poems with some relevant analysis, but lacks depth in critical interpretation and contextual awareness.",
+      "feedback": "This response demonstrates a sound understanding of both poems with some analysis of language and form, but lacks detailed exploration of contexts and offers limited critical interpretation. The comparison between the poems is present but could be more developed.",
+      "strengths": [
+        "Clear understanding of the basic themes in both poems",
+        "Recognition of the sonnet form in 'When I have fears' and its structural significance",
+        "Some analysis of key metaphors like 'glean'd my teeming brain'",
+        "Identifies the contrast in attitudes toward death between the poems",
+        "Makes connections between the poems in terms of their treatment of mortality"
+      ],
+      "improvements": [
+        "Deepen analysis of poetic techniques and their effects",
+        "Include more specific textual references and quotations from 'Ode to a Nightingale'",
+        "Develop contextual understanding of Keats's life, illness, and Romantic ideals",
+        "Explore alternative critical interpretations of the poems",
+        "Analyze the significance of form more thoroughly, especially in 'Ode to a Nightingale'",
+        "Develop a more nuanced argument about Keats's complex relationship with death"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "13",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems with basic comparison, but lacks depth of analysis and detailed exploration of contexts.",
+      "feedback": "The response offers a basic comparison of Keats's treatment of death in the two poems with some relevant points, but lacks detailed textual analysis and contextual exploration. The argument is straightforward rather than developed.",
+      "strengths": [
+        "Identifies the central theme of death in both poems",
+        "Makes some valid comparative points about different attitudes to death",
+        "Includes some brief reference to textual details (e.g., 'teeming brain', 'unreflecting love')",
+        "Brief acknowledgment of Romantic period context"
+      ],
+      "improvements": [
+        "Develop a more sophisticated argument with clearer structure",
+        "Analyze language, form and structure in greater detail",
+        "Explore the sonnets' form and its relationship to meaning more thoroughly",
+        "Provide more specific textual evidence and quotations",
+        "Develop contextual understanding of Keats's life, illness, and Romantic ideals",
+        "Consider alternative interpretations of the poems",
+        "Explore the philosophical dimensions of Keats's treatment of mortality"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "14",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 18,
+      "diff": -4,
+      "levelDescriptor": "Mid Level 4 - Competent and generally convincing response with some analysis and comparison, but lacking depth and development",
+      "feedback": "This is a competent response that shows understanding of both poems and makes relevant connections between them regarding the theme of imagination. However, it lacks the depth of analysis and detailed exploration of poetic techniques needed for higher levels.",
+      "strengths": [
+        "Clear understanding of the central theme of imagination in both poems",
+        "Appropriate identification of the Romantic context",
+        "Some analysis of poetic techniques (e.g., extended metaphor, sonnet form)",
+        "Effective comparison between the two poems' approaches to imagination",
+        "Recognition of the significance of form in both poems"
+      ],
+      "improvements": [
+        "Needs more detailed textual analysis with specific quotations",
+        "Should explore language and poetic devices in greater depth",
+        "Could develop the contextual discussion beyond general Romantic ideals",
+        "Needs more nuanced exploration of the differences between the poets' approaches",
+        "Should include more specific references to poetic form and structure"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "14",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 16,
+      "diff": -1,
+      "levelDescriptor": "Low Level 3. The answer shows some understanding of the poems and makes basic comparisons, but lacks depth of analysis and detailed textual support.",
+      "feedback": "This response demonstrates some understanding of both poems and makes relevant comparisons, but lacks the detailed analysis and contextual awareness needed for a higher mark. The exploration of language, form and structure is limited, and the argument lacks development.",
+      "strengths": [
+        "Identifies the form of 'On First Looking into Chapman's Homer' as a Petrarchan sonnet",
+        "Recognizes key imagery in both poems (e.g., 'realms of gold', Xanadu)",
+        "Makes some relevant connections between the poems regarding imagination",
+        "Shows awareness of Romantic ideals in both poems"
+      ],
+      "improvements": [
+        "Develop analysis of specific language features with more detailed quotations",
+        "Explore the significance of form and structure more thoroughly",
+        "Include more specific contextual information about Romantic poetry",
+        "Develop a more nuanced argument about the differences in the poets' approaches",
+        "Analyze how specific poetic techniques create meaning and effect",
+        "Include more detailed exploration of the poems' themes beyond imagination"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "14",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - shows some understanding of the poems with basic comparison, but lacks depth of analysis and contextual awareness",
+      "feedback": "The answer shows basic understanding of both poems with some relevant points about imagination, but lacks detailed analysis of poetic techniques and wider contextual knowledge of Romantic poetry",
+      "strengths": [
+        "Identifies imagination as a key theme in both poems",
+        "Makes some valid comparisons between the poems' approaches to imagination",
+        "Recognizes Keats' use of exploration metaphor",
+        "Notes the dreamlike quality of 'Kubla Khan'",
+        "Shows awareness of the sonnet form in Keats' poem"
+      ],
+      "improvements": [
+        "Analyze specific language techniques and their effects in more detail",
+        "Include more quotations to support points",
+        "Develop understanding of Romantic context beyond basic observations",
+        "Explore the significance of form more thoroughly (e.g., fragmented nature of 'Kubla Khan')",
+        "Consider alternative interpretations of the poems",
+        "Develop a more sophisticated argument about imagination in Romantic poetry"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "15",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 25,
+      "diff": 3,
+      "levelDescriptor": "High Level 4 - The answer demonstrates assured knowledge of the poems with perceptive analysis of language and form, good contextual understanding, and effective comparative connections.",
+      "feedback": "This is a sophisticated response that shows strong understanding of both poems, with detailed analysis of sensory imagery and thoughtful connections between the texts. The answer demonstrates perceptive engagement with the poems' themes and contexts.",
+      "strengths": [
+        "Detailed analysis of sensory imagery in both poems with specific textual references",
+        "Thoughtful exploration of how imagery connects to the poems' broader themes",
+        "Clear understanding of Victorian context and its influence on Tennyson's work",
+        "Effective comparative analysis that identifies both similarities and differences",
+        "Well-structured argument with a clear conceptual focus on sensory experience"
+      ],
+      "improvements": [
+        "Could develop more specific analysis of poetic form and structure",
+        "More detailed exploration of the historical/literary contexts of Keats' work needed",
+        "Could include more varied textual evidence from both poems",
+        "Analysis of language could be more sustained throughout",
+        "Could engage more explicitly with alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "15",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The response shows a clear understanding of both poems with some analysis of techniques, but lacks depth in critical exploration and detailed contextual integration.",
+      "feedback": "This response demonstrates sound knowledge of both poems with some analysis of sensory imagery, but lacks the detailed exploration and critical engagement needed for higher levels. The comparison between the poems is present but somewhat superficial.",
+      "strengths": [
+        "Clear identification of sensory imagery in both poems",
+        "Some analysis of how imagery relates to themes (loss in Tennyson, escapism in Keats)",
+        "Basic comparison between the two poets' approaches",
+        "Some awareness of Victorian context for Tennyson"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific language techniques and their effects",
+        "Include more specific textual references and quotations to support points",
+        "Integrate deeper contextual understanding of both poets and their literary/historical contexts",
+        "Explore alternative interpretations of the poems",
+        "Develop a more sophisticated comparative framework that goes beyond basic similarities/differences"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "15",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows some understanding but lacks depth of analysis and detailed textual support",
+      "feedback": "The answer shows basic understanding of both poems with some attempt at comparison, but lacks detailed analysis of poetic techniques and contextual discussion is limited. The response is brief and underdeveloped.",
+      "strengths": [
+        "Makes a valid comparison between the poems' different approaches to sensory experience",
+        "Identifies the night setting in Tennyson and its connection to mood",
+        "Recognizes sensory imagery in Keats' poem",
+        "Attempts to link form to meaning in a basic way"
+      ],
+      "improvements": [
+        "Develop analysis of specific poetic techniques (meter, rhyme, structure)",
+        "Include more detailed textual references and quotations",
+        "Expand contextual discussion beyond brief mention of Victorian attitudes",
+        "Analyze how language creates meaning more explicitly",
+        "Develop a more sophisticated comparative argument",
+        "Consider alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "16",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates a strong, sustained and coherent argument with good critical analysis and contextual understanding, but lacks some depth in textual evidence and more nuanced interpretations.",
+      "feedback": "This is a well-structured comparative analysis that effectively explores social conventions in both poems with good contextual awareness. The argument about gender restrictions is coherent and sustained throughout, with some perceptive insights into both texts.",
+      "strengths": [
+        "Clear, sustained argument about social conventions and gender restrictions",
+        "Effective comparison between the two poems' approaches to societal constraints",
+        "Good contextual understanding of Victorian gender roles",
+        "Thoughtful analysis of structural elements in both poems",
+        "Coherent organization with logical progression of ideas"
+      ],
+      "improvements": [
+        "Include more specific textual evidence and quotations to support claims",
+        "Develop more nuanced analysis of language techniques",
+        "Explore alternative interpretations of the poems",
+        "Provide more detailed analysis of form and its relationship to meaning",
+        "Deepen the exploration of the poets' differing perspectives"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "16",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of both poems with some relevant analysis, but lacks depth and development in critical interpretation and contextual exploration.",
+      "feedback": "The response demonstrates a sound understanding of both poems with some relevant analysis of language and form. There is an attempt to connect the poems thematically around social conventions and women's roles, with some contextual references. However, the analysis lacks depth and textual evidence is limited.",
+      "strengths": [
+        "Clear thematic focus on social conventions and women's roles in Victorian society",
+        "Some relevant analysis of language and form in both poems",
+        "Attempts to make connections between the poems through the theme of confinement",
+        "Some contextual awareness of Victorian ideals and Browning's personal life"
+      ],
+      "improvements": [
+        "Include more specific textual evidence and quotations to support points",
+        "Develop a more nuanced analysis of poetic techniques and their effects",
+        "Explore alternative interpretations of the poems more thoroughly",
+        "Provide more detailed contextual discussion beyond the 'Angel in the House' concept",
+        "Analyze the form and structure of the poems in greater depth"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "16",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding of the poems but lacks depth of analysis and detailed textual support",
+      "feedback": "This response shows basic understanding of both poems with some attempt at comparison, but lacks detailed analysis of poetic techniques and offers limited textual evidence. The contextual discussion is general rather than specific, and the comparative points remain underdeveloped.",
+      "strengths": [
+        "Identifies a clear thematic link between the poems about social conventions limiting women",
+        "Makes some attempt to discuss form in Browning's poem (regular rhyme scheme)",
+        "Shows basic understanding of the narrative in both poems",
+        "Includes some relevant contextual information about Victorian gender roles",
+        "Attempts to make connections between the poems"
+      ],
+      "improvements": [
+        "Provide more detailed textual analysis with specific quotations",
+        "Analyze poetic techniques more thoroughly (imagery, language choices, structure)",
+        "Develop a more nuanced argument about how each poet presents their ideas",
+        "Include more specific historical/literary context rather than general statements",
+        "Explore alternative interpretations of the poems",
+        "Develop comparative points with greater precision and depth"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "17",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates assured knowledge of the poems with a well-developed argument, but lacks the exceptional insight and critical sophistication needed for Level 5",
+      "feedback": "This is a strong comparative analysis that addresses vanity in both poems with clear understanding of Hardy's techniques and contexts. The response shows assured knowledge and makes effective connections between the poems, though it could develop more nuanced analysis of specific textual details.",
+      "strengths": [
+        "Clear comparative framework focusing on vanity as a theme in both poems",
+        "Good understanding of Hardy's critique of Victorian social conventions",
+        "Effective analysis of form, particularly the dialogic structure in 'The Ruined Maid'",
+        "Strong awareness of contextual factors influencing Hardy's portrayal of vanity",
+        "Well-structured argument with logical progression"
+      ],
+      "improvements": [
+        "Include more specific textual references and quotations to support points",
+        "Develop a more nuanced analysis of Hardy's language choices and poetic techniques",
+        "Explore alternative interpretations of the poems to demonstrate critical sophistication",
+        "Provide more detailed analysis of the poems' structures and how they contribute to meaning",
+        "Deepen contextual discussion with more specific historical details about Victorian society"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "17",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 16,
+      "diff": -1,
+      "levelDescriptor": "Low Level 3 - The response shows some knowledge with limited understanding, offers some developed analysis, and makes some connections between texts",
+      "feedback": "The answer demonstrates some knowledge of both poems with a basic comparative approach, but lacks detailed analysis of poetic techniques and offers limited contextual discussion without specific textual evidence",
+      "strengths": [
+        "Identifies a clear thematic focus on vanity in both poems",
+        "Makes some connections between the poems regarding societal expectations",
+        "Recognizes the importance of clothing imagery in both poems",
+        "Attempts to discuss form in relation to meaning"
+      ],
+      "improvements": [
+        "Include specific textual evidence with direct quotations to support points",
+        "Develop more detailed analysis of poetic techniques (meter, rhythm, figurative language)",
+        "Provide more specific historical/social context for Victorian attitudes to women",
+        "Explore alternative interpretations of the poems",
+        "Analyze the poems' structures more thoroughly",
+        "Develop a more nuanced argument about Hardy's presentation of vanity"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "17",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows some understanding of the poems with basic comparison, but lacks detailed analysis and development",
+      "feedback": "The answer shows basic understanding of both poems with some attempt at comparison, but lacks detailed analysis of language, form and structure. Contextual references are limited and undeveloped. The response needs more specific textual evidence and deeper exploration of Hardy's techniques.",
+      "strengths": [
+        "Identifies the theme of vanity in both poems",
+        "Makes some attempt to compare the poems' treatment of societal pressures",
+        "Recognizes the dialogue structure in 'The Ruined Maid'",
+        "Notes the rhyme scheme in 'Some ladies dress in muslin full and white'"
+      ],
+      "improvements": [
+        "Provide more specific textual evidence and quotations",
+        "Analyze language and poetic techniques in greater detail",
+        "Develop contextual understanding of Victorian society and gender roles",
+        "Explore the irony and tone in 'The Ruined Maid' more fully",
+        "Consider alternative interpretations of the poems",
+        "Analyze form and structure more thoroughly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "18",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The response shows a thorough understanding of both poems with perceptive analysis, but lacks the consistent excellence and originality of Level 5",
+      "feedback": "This is a well-developed comparative analysis that demonstrates strong understanding of both poems with thoughtful exploration of how hardship is depicted. The response makes effective connections between the texts and considers relevant contexts, though could develop more detailed analysis of poetic techniques.",
+      "strengths": [
+        "Clear focus on the question about hardship throughout",
+        "Effective comparison of the poems' approaches to hardship",
+        "Good understanding of the extended metaphor in 'Up-Hill'",
+        "Thoughtful integration of contextual factors",
+        "Well-structured argument with logical progression"
+      ],
+      "improvements": [
+        "More detailed analysis of specific language techniques and their effects",
+        "Greater exploration of form and structure, particularly in 'The Darkling Thrush'",
+        "More extensive use of short quotations to support points",
+        "Deeper consideration of alternative interpretations",
+        "More nuanced discussion of the poems' conclusions about hardship"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "18",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows some understanding of the poems with some relevant analysis, but lacks depth in critical exploration and detailed textual support.",
+      "feedback": "The response offers a basic comparison of how hardship is presented in both poems with some analysis of language and form, but lacks detailed textual evidence and deeper critical engagement with the poems.",
+      "strengths": [
+        "Clear identification of the central metaphor in 'Up-Hill' as representing life's difficulties",
+        "Recognition of the dialogue structure in Rossetti's poem and its purpose",
+        "Some relevant contextual points about Rossetti's Christian faith",
+        "Appropriate comparison of the different approaches to hardship in both poems",
+        "Basic understanding of Hardy's use of setting to convey hardship"
+      ],
+      "improvements": [
+        "Include more specific textual evidence with detailed analysis of language choices",
+        "Develop analysis of poetic techniques beyond basic identification",
+        "Explore the nuances of tone and voice more thoroughly in both poems",
+        "Provide more detailed exploration of historical and literary contexts",
+        "Analyze the form and structure of both poems more explicitly",
+        "Engage more critically with alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "18",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3. The response shows some understanding of the poems with basic analysis and comparison, but lacks depth and development.",
+      "feedback": "The answer demonstrates basic knowledge of both poems with some attempt at comparison, but analysis is limited and contexts are only briefly mentioned. The response lacks detailed exploration of poetic techniques and wider interpretations.",
+      "strengths": [
+        "Identifies the conversational structure in 'Up-Hill'",
+        "Makes a valid comparison between the poems' different approaches to hope/resolution",
+        "Recognizes Rossetti's religious context briefly",
+        "Identifies some key imagery in Hardy's poem"
+      ],
+      "improvements": [
+        "Develop analysis of specific poetic techniques (meter, rhyme, form)",
+        "Include more detailed textual evidence with precise quotations",
+        "Explore multiple interpretations of the poems",
+        "Develop contextual discussion beyond basic biographical details",
+        "Analyze how language creates meaning rather than just identifying features"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "19",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 25,
+      "diff": 3,
+      "levelDescriptor": "High Level 5 - The response demonstrates sophisticated knowledge, perceptive understanding, and a well-developed argument with excellent integration of AOs.",
+      "feedback": "This is a sophisticated response that demonstrates perceptive understanding of both poems, with excellent comparative analysis of how relationships are presented through barriers and loss. The argument is coherent and well-developed, with strong integration of textual analysis and contextual understanding.",
+      "strengths": [
+        "Sophisticated comparative framework focusing on barriers and loss as lenses for understanding relationships",
+        "Perceptive analysis of poetic techniques including form, structure, and language",
+        "Strong understanding of how the villanelle form in 'One Art' reflects emotional control",
+        "Effective integration of quotations that support the argument",
+        "Clear understanding of how context informs both poems"
+      ],
+      "improvements": [
+        "Could develop more detailed analysis of specific language choices in both poems",
+        "Might explore alternative interpretations of the poems more explicitly",
+        "Could include more specific contextual detail about Bishop's personal experiences",
+        "Analysis of 'Mending Wall' could explore the neighbor's character more fully",
+        "Could examine the progression of loss in 'One Art' in more detail"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "19",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 16,
+      "diff": -1,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems with basic comparison and limited analysis",
+      "feedback": "This response demonstrates basic understanding of both poems with some comparison, but lacks detailed analysis of poetic techniques and offers limited contextual discussion. The comparison is somewhat superficial and the analysis of language, form and structure is underdeveloped.",
+      "strengths": [
+        "Identifies the central theme of relationships in both poems",
+        "Recognizes the metaphorical significance of the wall in Frost's poem",
+        "Makes some attempt to compare the different approaches to relationships",
+        "Includes some basic contextual points for both poems"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific poetic techniques (imagery, structure, rhythm, etc.)",
+        "Include more specific textual references and quotations to support points",
+        "Deepen the comparative analysis beyond thematic similarities/differences",
+        "Provide more developed contextual discussion with clearer links to interpretation",
+        "Explore alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "19",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows basic understanding of the poems with some comparison, but lacks depth of analysis and detailed exploration",
+      "feedback": "The response offers a basic comparison of the two poems with some understanding of relationships as presented in each, but lacks detailed analysis of poetic techniques and contextual factors. The comparison is present but underdeveloped.",
+      "strengths": [
+        "Identifies the central themes in both poems (barriers in relationships in 'Mending Wall' and time's effect on relationships in 'Mean Time')",
+        "Recognizes the significance of the repeated line 'Good fences make good neighbours'",
+        "Makes some attempt to compare the poems in terms of their approach to relationships",
+        "Shows basic understanding of the poets' use of language"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of specific poetic techniques (imagery, metaphor, form, etc.)",
+        "Include more specific textual references and quotations to support points",
+        "Consider contextual factors that influence the poems (literary, historical, social contexts)",
+        "Explore alternative interpretations of the poems",
+        "Develop a more sophisticated comparative framework that goes beyond thematic similarities",
+        "Analyze the significance of structure and form in more depth"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "20",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 25,
+      "diff": 3,
+      "levelDescriptor": "High Level 4 - The response demonstrates a sophisticated, detailed and perceptive comparative analysis with excellent critical engagement, though lacks some of the sustained excellence needed for Level 5.",
+      "feedback": "This is a sophisticated response that demonstrates perceptive comparative analysis of how both poets use art and culture of the past. The student shows excellent understanding of both poems, with detailed analysis of language, form and structure, and makes meaningful connections between the texts with relevant contextual references.",
+      "strengths": [
+        "Sophisticated understanding of both poems and their thematic concerns",
+        "Detailed analysis of poetic techniques including structure, language and imagery",
+        "Perceptive exploration of how both poets use art as a lens to critique their contemporary worlds",
+        "Well-integrated contextual discussion that enhances the analysis",
+        "Clear, coherent comparative approach throughout"
+      ],
+      "improvements": [
+        "Could develop more specific textual analysis with direct quotations from 'The Shield of Achilles'",
+        "Analysis of language effects could be more detailed and nuanced in places",
+        "Could explore more varied interpretations of the poems",
+        "More detailed discussion of the poets' specific literary/historical contexts would strengthen the response"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "20",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - Shows some understanding with relevant points, but lacks depth and development",
+      "feedback": "The answer shows sound knowledge of both poems with some analysis of techniques and contexts, but lacks detailed exploration of language and form. The comparison between the poems is present but could be more sustained and integrated throughout.",
+      "strengths": [
+        "Clear understanding of both poems' central themes",
+        "Some relevant contextual points about post-war anxieties and Romantic period",
+        "Makes connections between the poems' use of historical references",
+        "Identifies some key techniques like Auden's ironic use of form"
+      ],
+      "improvements": [
+        "Needs more detailed analysis of specific language and poetic techniques",
+        "Should include more textual evidence with close reading",
+        "Could develop the comparative analysis more thoroughly throughout",
+        "Needs to explore alternative interpretations more explicitly",
+        "Should engage more deeply with the poems' forms and structures"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "20",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems with basic comparisons, but lacks detailed analysis and development.",
+      "feedback": "This response demonstrates basic knowledge of both poems with some attempt at comparison, but lacks depth of analysis, detailed textual evidence, and developed contextual understanding.",
+      "strengths": [
+        "Identifies the central themes in both poems (art reflecting society in 'Shield of Achilles' and impermanence in 'Ozymandias')",
+        "Makes some basic connections between the poems regarding their use of art objects",
+        "Recognizes the ironic contrast in 'The Shield of Achilles' between classical form and modern content",
+        "Shows awareness of some contextual factors (post-war setting for Auden, Romantic period for Shelley)"
+      ],
+      "improvements": [
+        "Include specific textual evidence and quotations to support points",
+        "Develop analysis of language, form and structure in both poems",
+        "Explore the poems' contexts in greater depth and with more specificity",
+        "Provide more detailed comparison of poetic techniques and their effects",
+        "Develop a more coherent argument about the significance of the comparison"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "21",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - The response shows a good understanding of both poems with some detailed analysis, but lacks the sustained critical exploration and sophisticated connections needed for Level 5.",
+      "feedback": "This is a competent comparative analysis that addresses time in both poems with clear understanding and some detailed analysis. The response makes relevant contextual connections and demonstrates good knowledge of both texts, though the analysis could be more developed with closer textual engagement.",
+      "strengths": [
+        "Clear understanding of both poems' treatment of time",
+        "Effective comparison of Eliot's fragmented time versus Marvell's linear urgency",
+        "Good integration of relevant contextual factors (modernism, post-WWI, metaphysical poetry)",
+        "Appropriate use of textual evidence with some analysis",
+        "Coherent argument structure with logical progression"
+      ],
+      "improvements": [
+        "Develop more detailed analysis of language, form and structure",
+        "Include more specific textual references with closer examination",
+        "Explore alternative interpretations more explicitly",
+        "Deepen the exploration of how poetic techniques create meaning",
+        "Provide more nuanced discussion of how contexts shape the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "21",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 17,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding of the poems but lacks depth of analysis and detailed exploration",
+      "feedback": "This response demonstrates some understanding of both poems and makes basic connections between them regarding the theme of time. However, it lacks detailed analysis of poetic techniques, offers limited contextual discussion, and needs more specific textual evidence to support claims.",
+      "strengths": [
+        "Identifies the central theme of time in both poems",
+        "Recognizes different approaches to time in each poem",
+        "Makes some attempt to discuss context (modernism for Eliot, metaphysical poetry for Marvell)",
+        "Includes some specific references to the texts"
+      ],
+      "improvements": [
+        "Develop analysis of language, form and structure with more specific examples",
+        "Provide more detailed textual evidence to support claims",
+        "Expand contextual discussion with more specific historical/literary details",
+        "Develop a more sophisticated comparative framework throughout",
+        "Explore alternative interpretations of the poems",
+        "Analyze how specific poetic techniques create meaning"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "21",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding of both poems but lacks depth of analysis and detailed exploration of language, form and structure.",
+      "feedback": "This response makes some valid points about time in both poems and attempts comparison, but lacks detailed textual analysis and development of ideas. The contextual references are brief and undeveloped.",
+      "strengths": [
+        "Identifies a central theme (time) in both poems",
+        "Makes some attempt at comparison between the poems",
+        "Recognizes different treatments of time in each poem",
+        "Brief mention of relevant contexts (modernism, carpe diem)"
+      ],
+      "improvements": [
+        "Develop analysis with more specific textual evidence and quotations",
+        "Explore language, form and structure in greater detail",
+        "Expand on contextual factors with more specific knowledge",
+        "Develop a more sustained and coherent argument",
+        "Include more detailed exploration of poetic techniques"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "22",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates assured knowledge of the poems with a well-developed argument, but lacks the exceptional insight and originality needed for Level 5",
+      "feedback": "This is a well-structured, analytical response that demonstrates strong knowledge of both poems and makes effective comparisons between them. The analysis of language, form and structure is detailed, with good contextual understanding of modernism. However, it lacks the exceptional depth and originality required for the highest level.",
+      "strengths": [
+        "Clear comparative approach throughout the response",
+        "Detailed analysis of poetic techniques including structure, imagery, and form",
+        "Good understanding of Eliot's characterization techniques",
+        "Effective integration of textual evidence",
+        "Strong awareness of modernist context and post-WWI disillusionment"
+      ],
+      "improvements": [
+        "Could develop more specific analysis of language choices with closer reading",
+        "Needs more detailed exploration of alternative interpretations",
+        "Could include more varied critical perspectives on Eliot's work",
+        "Would benefit from more extensive quotation and closer textual analysis",
+        "Could explore the gender dynamics in 'Portrait of a Lady' more critically"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "22",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Low Level 4 - Shows secure knowledge and understanding of the poems with a generally coherent argument, but lacks depth and development in places",
+      "feedback": "This response demonstrates sound knowledge of both poems with some analysis of techniques, but lacks the detailed exploration and critical engagement needed for higher levels. The comparative approach is present but not fully developed.",
+      "strengths": [
+        "Clear understanding of both poems and their characters",
+        "Some analysis of poetic techniques like structure and imagery",
+        "Makes connections between the poems' themes and characters",
+        "Recognizes modernist context and its influence on the poems"
+      ],
+      "improvements": [
+        "Needs more detailed textual analysis with specific quotations",
+        "Should develop critical interpretations more thoroughly",
+        "Could explore alternative readings of the poems",
+        "Needs more precise analysis of language, form and structure",
+        "Should integrate contextual factors more thoroughly throughout"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "22",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 15,
+      "diff": 1,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems with basic comparison and limited analysis",
+      "feedback": "This response demonstrates a basic understanding of both poems with some attempt at comparison. The analysis is underdeveloped, with limited textual evidence and superficial engagement with Eliot's techniques.",
+      "strengths": [
+        "Identifies some key themes in both poems (isolation, uncertainty, social anxiety)",
+        "Recognizes structural elements like the three-part structure in 'Portrait of a Lady'",
+        "Makes some connections between the poems' characters and their shared concerns",
+        "Brief mention of historical context (post-WWI)"
+      ],
+      "improvements": [
+        "Develop analysis with specific textual evidence and quotations",
+        "Explore Eliot's poetic techniques in greater depth (language, imagery, form)",
+        "Provide more detailed analysis of how the characters are presented",
+        "Expand on the contextual factors that influenced Eliot's work",
+        "Develop a more sophisticated argument about Eliot's presentation of character"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "23",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 26,
+      "diff": 4,
+      "levelDescriptor": "High Level 5. The response demonstrates sophisticated, perceptive analysis with assured comparative approach, though could develop more detailed textual analysis.",
+      "feedback": "This is an accomplished response that demonstrates sophisticated understanding of both poems, with perceptive analysis of how past influences identity. The comparative approach is assured and the contextual elements are well-integrated. The analysis of language and form is strong but could be more detailed with closer textual reference.",
+      "strengths": [
+        "Sophisticated understanding of both poems' treatment of the past and identity",
+        "Assured comparative approach throughout the response",
+        "Well-integrated contextual discussion that informs interpretation",
+        "Clear conceptual understanding of the poems' thematic concerns",
+        "Effective analysis of tone, imagery and structure"
+      ],
+      "improvements": [
+        "Include more specific textual references and quotations to support analysis",
+        "Develop more detailed analysis of poetic techniques and their effects",
+        "Explore the nuances of form and structure in greater depth",
+        "Consider alternative critical interpretations more explicitly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "23",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 17,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding of the poems with some relevant points, but lacks depth of analysis and detailed exploration.",
+      "feedback": "This response demonstrates some understanding of both poems and makes basic comparisons, but lacks detailed analysis of poetic techniques and offers limited contextual discussion.",
+      "strengths": [
+        "Identifies the central theme of reflection on the past in both poems",
+        "Makes some attempt to compare the different tones of the poems",
+        "Recognizes some structural elements like Holden's regular stanzas",
+        "Acknowledges the historical contexts of both poems"
+      ],
+      "improvements": [
+        "Provide specific textual evidence with direct quotations to support points",
+        "Analyze poetic techniques in greater depth (language, form, structure)",
+        "Develop more nuanced discussion of contexts and their influence on the poems",
+        "Explore alternative interpretations of the poems",
+        "Offer more detailed comparative analysis throughout"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "23",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - Shows basic knowledge and understanding with some relevant points, but lacks development and detailed analysis",
+      "feedback": "This response shows basic understanding of both poems with some attempt at comparison, but lacks detailed analysis of poetic techniques and contextual factors. The essay identifies themes but doesn't develop arguments fully.",
+      "strengths": [
+        "Identifies the theme of the past in both poems",
+        "Makes some basic comparisons between the poems",
+        "Recognizes some imagery in both poems",
+        "Attempts to consider contextual factors briefly"
+      ],
+      "improvements": [
+        "Develop analysis of specific poetic techniques (form, structure, language) with quotations",
+        "Explore contextual factors in greater depth",
+        "Provide more detailed textual evidence to support points",
+        "Develop a more coherent argument about the poets' attitudes to the past",
+        "Include more specific critical interpretation of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "24",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "High Level 4 - Shows secure knowledge and understanding of the poems with a developed argument, but lacks the sophistication and depth of analysis needed for Level 5",
+      "feedback": "This is a thoughtful response that makes good connections between the poems and demonstrates secure understanding of how the outsider perspective is presented. The analysis is developed but sometimes lacks specificity, particularly regarding 'Horror Comic' where some claims lack textual support.",
+      "strengths": [
+        "Clear conceptual understanding of the outsider perspective in both poems",
+        "Good comparative approach that identifies thematic connections",
+        "Some effective analysis of poetic techniques (e.g., enjambment in 'Horror Comic')",
+        "Relevant contextual points that inform the interpretation",
+        "Well-structured response with a coherent argument"
+      ],
+      "improvements": [
+        "Include more specific textual evidence from 'Horror Comic' to support claims",
+        "Develop a more nuanced analysis of form and structure in both poems",
+        "Provide more detailed exploration of language choices and their effects",
+        "Deepen contextual discussion with more specific historical/biographical details",
+        "Engage more critically with alternative interpretations of the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "24",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The response shows generally sound knowledge and understanding of the poems with some development of ideas, but lacks depth and specificity in analysis.",
+      "feedback": "This response demonstrates sound knowledge of both poems with some attempt at comparison, but lacks detailed textual analysis and development of interpretations. The contextual references are general rather than specific, and the connections between the poems need more development.",
+      "strengths": [
+        "Clear identification of the outsider perspective in both poems",
+        "Some attempt to analyze structural features like enjambment in 'Horror Comic'",
+        "Recognition of different tones and approaches in the two poems",
+        "Some contextual awareness of mid-20th century concerns"
+      ],
+      "improvements": [
+        "Include specific quotations and closer analysis of language and poetic techniques",
+        "Develop more detailed analysis of form and structure in both poems",
+        "Provide more specific contextual information rather than general statements",
+        "Explore the poems' themes and meanings in greater depth",
+        "Make more explicit and developed comparisons between the poems"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "24",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 14,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - The response shows some understanding but is underdeveloped with limited analysis and connections",
+      "feedback": "The answer shows basic understanding of both poems with some attempt to connect them thematically around the concept of outsiders. However, analysis is limited, contextual references are general, and the comparative approach lacks depth and development.",
+      "strengths": [
+        "Identifies relevant aspects of both poems related to the outsider theme",
+        "Makes some attempt to analyze language in 'Horror Comic' (e.g., 'blood-red ink')",
+        "Recognizes some structural elements (enjambment in 'Horror Comic')",
+        "Attempts to include some contextual information for both poems",
+        "Makes basic connections between the poems around the theme of outsiders"
+      ],
+      "improvements": [
+        "Develop analysis of poetic techniques with more specific examples and explanation of effects",
+        "Include more detailed exploration of form and structure in both poems",
+        "Provide more specific contextual information with clearer links to interpretation",
+        "Develop a more sophisticated comparative approach that explores similarities and differences in depth",
+        "Support points with more detailed textual evidence and quotations",
+        "Develop a clearer critical argument about the poems' treatment of outsiders"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "25",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 24,
+      "diff": 2,
+      "levelDescriptor": "High Level 4 - The answer demonstrates assured knowledge of the poems with a well-developed, coherent argument. Analysis is detailed and contexts are well-integrated, though could be more nuanced.",
+      "feedback": "This is a sophisticated response that compares the poems effectively, showing strong understanding of both texts and their approaches to death. The analysis of language, form and structure is detailed, and contextual factors are integrated well. The comparison is sustained throughout.",
+      "strengths": [
+        "Clear, sustained comparison between the two poems' approaches to death",
+        "Detailed analysis of poetic techniques like Larkin's regular quatrains and Thomas's villanelle form",
+        "Good integration of relevant contextual factors",
+        "Sophisticated understanding of the poets' contrasting attitudes to mortality",
+        "Well-structured argument that builds effectively"
+      ],
+      "improvements": [
+        "Could include more specific textual references and quotations to support points",
+        "Analysis of language could be more detailed in places",
+        "Contextual discussion could be more nuanced and developed",
+        "Could explore alternative interpretations more explicitly",
+        "More detailed exploration of how specific poetic devices create meaning"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "25",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Mid Level 3 - The answer shows a clear understanding of both poems with some developed analysis, but lacks the depth and sophistication of higher levels",
+      "feedback": "This response offers a clear comparison between the two poems with some analysis of language, form and context, but lacks detailed textual evidence and more nuanced exploration of poetic techniques",
+      "strengths": [
+        "Clear comparison of the contrasting approaches to death in both poems",
+        "Recognition of key formal elements like Larkin's rhyme scheme and Thomas's villanelle form",
+        "Some contextual awareness of Larkin's post-war disillusionment and Thomas's personal circumstances",
+        "Identification of key tonal differences between the poems"
+      ],
+      "improvements": [
+        "Include specific quotations and closer analysis of language choices",
+        "Develop more detailed analysis of poetic techniques and their effects",
+        "Explore the poems' structures more thoroughly and their relationship to meaning",
+        "Provide more specific contextual details and their influence on the poems",
+        "Develop a more nuanced argument about the poets' attitudes to death"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "25",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 15,
+      "diff": 1,
+      "levelDescriptor": "Low Level 3 - Basic response with some relevant points but limited development and analysis",
+      "feedback": "The answer shows a basic understanding of both poems with some relevant comparisons, but lacks depth of analysis, contextual awareness, and detailed exploration of poetic techniques.",
+      "strengths": [
+        "Identifies the central themes of both poems correctly",
+        "Makes some valid comparisons between the poems' approaches to death",
+        "Recognizes Thomas's villanelle form and its effect",
+        "Notes the personal nature of Thomas's poem versus Larkin's more general approach"
+      ],
+      "improvements": [
+        "Develop analysis of specific language choices and their effects",
+        "Include more detailed exploration of poetic techniques beyond basic form",
+        "Incorporate relevant contextual factors (historical/biographical/literary)",
+        "Support points with more specific textual references and quotations",
+        "Develop a more sophisticated argument about the poets' attitudes to mortality"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "26",
+      "label": "A*",
+      "targetMarks": 22,
+      "awarded": 22,
+      "diff": 0,
+      "levelDescriptor": "Mid Level 4 - Shows secure knowledge and understanding of the poems with a well-developed argument, but lacks the sophistication and depth of analysis required for Level 5",
+      "feedback": "This is a competent response that demonstrates good understanding of both poems and makes effective comparisons. The analysis of language and form is generally sound, with some contextual awareness, though both could be developed further with more specific textual evidence.",
+      "strengths": [
+        "Clear comparative structure throughout the response",
+        "Good understanding of the different perspectives in each poem",
+        "Effective analysis of the wind symbolism in 'Wedding-Wind'",
+        "Recognition of the contrasting structures and their significance",
+        "Some contextual awareness of Larkin's post-war writing"
+      ],
+      "improvements": [
+        "Include more specific textual references and quotations to support points",
+        "Develop deeper analysis of language techniques beyond basic imagery",
+        "Expand contextual discussion beyond general post-war references",
+        "Consider alternative interpretations of the poems",
+        "Analyze the significance of specific formal features in more detail"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "26",
+      "label": "B",
+      "targetMarks": 17,
+      "awarded": 18,
+      "diff": 1,
+      "levelDescriptor": "Low Level 4 - The answer shows sound knowledge and understanding of the poems with a developed argument, but lacks depth in analysis and contextual integration.",
+      "feedback": "This is a competent response that makes valid comparisons between the two poems, with some analysis of language and form, but lacks depth in critical interpretation and contextual exploration.",
+      "strengths": [
+        "Clear comparison of the different representations of happiness in both poems",
+        "Some analysis of poetic techniques like enjambment and repetition",
+        "Recognition of structural differences between the poems",
+        "Attempt to integrate contextual information about post-war setting"
+      ],
+      "improvements": [
+        "Deepen analysis of specific language choices with more quotations",
+        "Explore the ambiguities in 'Wedding-Wind' rather than presenting it as purely joyful",
+        "Develop more nuanced discussion of the disillusionment in 'Love Songs in Age'",
+        "Integrate more specific contextual factors relevant to Larkin's poetry",
+        "Consider alternative interpretations of the poems",
+        "Analyze form and structure more thoroughly"
+      ]
+    },
+    {
+      "paperId": "edexcel-9et0-p3-jun19",
+      "questionNumber": "26",
+      "label": "C",
+      "targetMarks": 14,
+      "awarded": 12,
+      "diff": -2,
+      "levelDescriptor": "Low Level 3 - The answer shows some understanding of the poems but lacks depth of analysis and detailed textual support.",
+      "feedback": "This response offers a basic comparison of the two poems with some understanding of how happiness is presented, but lacks detailed analysis of language, form and structure. Contextual references are limited and undeveloped.",
+      "strengths": [
+        "Identifies a clear comparative point about different perspectives on happiness in both poems",
+        "Recognizes the wind as a symbol in 'Wedding-Wind'",
+        "Makes a valid observation about structure in 'Love Songs in Age'",
+        "Attempts to connect both poems to Larkin's interests"
+      ],
+      "improvements": [
+        "Include specific textual references and quotations to support points",
+        "Analyze Larkin's language choices in greater detail",
+        "Develop analysis of form and structure in both poems",
+        "Provide more specific contextual information rather than general post-war references",
+        "Explore alternative interpretations of the poems",
+        "Develop a more sophisticated argument about Larkin's presentation of happiness"
+      ]
+    }
+  ]
+}

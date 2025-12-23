@@ -38,7 +38,9 @@ function ActualPastPapers({ onBack }) {
     );
   }
   
-  const displayPapers = selectedYear ? papersByYear[selectedYear] : availablePapers;
+  // Defensive: ensure we always have an array to map over
+  const displayPapersRaw = selectedYear ? papersByYear[selectedYear] : availablePapers;
+  const displayPapers = Array.isArray(displayPapersRaw) ? displayPapersRaw : [];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200">

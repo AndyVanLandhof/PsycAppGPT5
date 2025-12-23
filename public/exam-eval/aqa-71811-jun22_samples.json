@@ -1,0 +1,338 @@
+{
+  "paperId": "aqa-71811-jun22",
+  "meta": {
+    "paper": "AS Paper 1 – Introductory topics in psychology",
+    "year": 2022,
+    "session": "June",
+    "code": "7181/1"
+  },
+  "generatedAt": "2025-12-22T10:40:35.576Z",
+  "model": "gpt-4o",
+  "questions": [
+    {
+      "questionNumber": "1",
+      "maxMarks": 1,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 1,
+          "rationale": "This answer correctly identifies the true statement and provides a clear explanation based on Milgram's findings about increased physical separation leading to decreased obedience.",
+          "text": "D - When the experimenter was in a different room to the participant, obedience levels decreased. This is because the physical presence of the authority figure was a key factor in participants' obedience. Without the experimenter's presence, participants felt less pressure to comply."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This response identifies the correct statement and provides a brief reasoning, showing an understanding of how the authority figure's absence impacted obedience.",
+          "text": "D - When the experimenter was in a different room, obedience dropped. Being in another room made the authority less direct, so people were less likely to follow orders."
+        },
+        {
+          "label": "C",
+          "targetMarks": 0,
+          "rationale": "This answer selects an incorrect statement, showing a misunderstanding of how the experiment's variations affected obedience.",
+          "text": "C - When the experimenter gave instructions over the phone, obedience levels increased. This is because participants didn't have the pressure of the authority figure being right there."
+        }
+      ]
+    },
+    {
+      "questionNumber": "2",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This answer should be top band because it clearly defines social change and links it to social influence theories, mentioning key concepts like minority influence and the role of time in changing societal norms, which demonstrates a comprehensive understanding.",
+          "text": "Social change refers to significant alterations in social behavior patterns and cultural values over time, often influenced by social processes like minority influence. For example, when a small group advocates for change, through consistent and committed actions, they can eventually shift the majority's opinion, as seen in historical movements like civil rights."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This answer should achieve a mid B band mark because it provides a clear definition of social change and connects it to the concept of social influence, although it lacks depth and specific examples.",
+          "text": "Social change is when there are big changes in society's norms and behaviors, often because of social influence. For instance, a minority group can influence the majority over time, causing changes in attitudes and beliefs."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This answer should be mid C band because it provides a basic definition of social change but lacks detail on how social influence specifically contributes to these changes.",
+          "text": "Social change is when society changes the way it thinks or acts. Social influence can cause this, like when people start to follow a new trend."
+        }
+      ]
+    },
+    {
+      "questionNumber": "3",
+      "maxMarks": 6,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 5,
+          "rationale": "This answer provides a clear and well-detailed explanation of two factors affecting minority influence: consistency and flexibility. The student effectively applies these concepts to Steph's situation with coherent reasoning and appropriate terminology, matching the criteria for the top band.",
+          "text": "To persuade her classmates about the surprise fancy dress party, Steph should use consistency and flexibility. Consistency involves sticking to her idea by regularly reminding the class of the fun and unique nature of a fancy dress party. By showing consistent enthusiasm, Steph can make her idea more compelling. Additionally, she can demonstrate flexibility by listening to her classmates' concerns and being willing to adapt, like agreeing to have a theme everyone finds enjoyable or ensuring the party doesn’t clash with anyone’s schedules. By balancing consistency with flexibility, she can influence her classmates to see her idea positively and potentially change their minds over time."
+        },
+        {
+          "label": "B",
+          "targetMarks": 4,
+          "rationale": "This answer demonstrates knowledge of two factors, consistency and commitment, but lacks the depth and clarity of a top-band response. The student applies these factors to Steph's situation, but the explanation is less detailed, leading to a mid B-grade mark.",
+          "text": "Steph can persuade her class by being consistent and showing commitment. She needs to keep mentioning the party idea to show she really believes in it, which is consistency. Also, commitment can be shown if she offers to organise or fund part of the party, showing how serious she is about it. These actions can make her classmates more likely to agree with her plan, as they'll see how important it is to her."
+        },
+        {
+          "label": "C",
+          "targetMarks": 3,
+          "rationale": "This response demonstrates basic knowledge of the factors of consistency and commitment but lacks depth and clarity. The application to Steph's scenario is present but underdeveloped, which corresponds to a mid C-grade mark.",
+          "text": "Steph should use consistency by always talking about the party idea, which might make her classmates more used to it. Commitment could mean she tells them she's happy to do a lot of the planning or even pay for some things. This might help her classmates see the party as a good idea if they know she’s committed."
+        }
+      ]
+    },
+    {
+      "questionNumber": "4",
+      "maxMarks": 6,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 5,
+          "rationale": "This answer provides a clear and detailed description of Zimbardo's procedure, covering key points such as the selection and treatment of participants, the roles assigned, and the setup of the mock prison. Specialist terminology is used appropriately and the account is coherent, demonstrating a top-band level of understanding.",
+          "text": "Zimbardo's study, known as the Stanford prison experiment, aimed to investigate social roles. He recruited 24 male college students from the US through volunteer sampling and assessed them to ensure they were psychologically stable. Participants were randomly assigned to either the role of 'prisoner' or 'guard'. The experiment took place in a mock prison set up in the basement of Stanford University. Prisoners were unexpectedly arrested at their homes, brought to the 'prison', deloused, and given uniforms and ID numbers. They were housed in small cells with three prisoners each and given basic rights like meals and toilet breaks. Guards wore uniforms, carried clubs, and wore reflective sunglasses to prevent eye contact. They were instructed to maintain order without physical violence. Zimbardo acted as the prison superintendent. Although planned for two weeks, the experiment was terminated after six days due to extreme behaviors exhibited by participants."
+        },
+        {
+          "label": "B",
+          "targetMarks": 4,
+          "rationale": "This response includes several key elements of Zimbardo's procedure, such as the setting, participant selection, and roles assigned. However, it lacks some finer details and the use of specialist terminology is less consistent, making it a mid B-level answer.",
+          "text": "In Zimbardo's study, he looked at how people conform to social roles by setting up a mock prison in Stanford University's basement. He selected 24 male students who were tested to be mentally stable. They were randomly assigned as either prisoners or guards. The prisoners were picked up from their homes, taken to the prison, and given uniforms and ID numbers. They had to follow strict rules and lived in small cells. Guards wore uniforms and sunglasses and were told to keep order but not to physically harm prisoners. The study was supposed to last two weeks, but it ended after six days because things got out of hand."
+        },
+        {
+          "label": "C",
+          "targetMarks": 3,
+          "rationale": "This answer provides a basic description of the procedure but lacks depth and clarity. Key points are mentioned, but the explanation is not detailed and some important elements are not included, placing it in the mid C band.",
+          "text": "Zimbardo's experiment was about social roles. He used a fake prison at Stanford University and got students to take part. They were either guards or prisoners, and it was decided by chance. Prisoners were arrested at home and given numbers. Guards got uniforms and things like sunglasses. The experiment was meant to last two weeks but stopped after six days because of how the people were acting."
+        }
+      ]
+    },
+    {
+      "questionNumber": "5",
+      "maxMarks": 3,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 3,
+          "rationale": "This answer clearly and coherently explains a limitation of Zimbardo's study by addressing ethical issues, providing specific examples, and demonstrating a strong understanding of the study's implications.",
+          "text": "One limitation of Zimbardo's research into social roles is the significant ethical issues it raised, particularly concerning the lack of protection from psychological harm. Participants in the Stanford prison experiment experienced severe stress and emotional distress; for instance, some had to be released early due to extreme reactions. This suggests that the study was not adequately prepared to handle the psychological impact of the simulated prison environment, which questions whether the risks were ethically justified. Moreover, the participants' right to withdraw was compromised, as they felt pressured to continue, which further violates ethical guidelines."
+        },
+        {
+          "label": "B",
+          "targetMarks": 2,
+          "rationale": "This answer mentions a limitation with some detail but lacks depth in explaining the ethical implications, reducing clarity and coherence compared to a top-band response.",
+          "text": "A limitation of Zimbardo's research is the ethical problems, like the lack of informed consent and protection from harm. Participants were not fully aware of what they would face, leading to distress. For example, some guards acted harshly, causing prisoners to break down. These issues make us question if the study was ethically acceptable."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This answer identifies a limitation but provides minimal explanation and lacks coherence, reflecting a basic understanding of the topic.",
+          "text": "Zimbardo's study had ethical issues. Participants were harmed and distressed. This is a problem because it wasn't safe for them."
+        }
+      ]
+    },
+    {
+      "questionNumber": "6.1",
+      "maxMarks": 4,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 4,
+          "rationale": "This answer clearly identifies the type of skewed distribution for both groups and provides a correct and precise justification, indicating a deep understanding of the concept. Each point is made with clarity and directly aligns with the mark scheme requirements.",
+          "text": "For Group A, the data suggests a negatively skewed distribution because the mean score (25) is less than both the median (29) and the mode (33), indicating that there are some lower scores pulling the mean down. Therefore, the mean is to the left of the median and mode in the distribution. For Group B, the scores indicate a positively skewed distribution since the mean (25) is higher than the median (21) and the mode (18), showing that higher scores are pulling the mean up. In this case, the mean is positioned to the right of the median and mode."
+        },
+        {
+          "label": "B",
+          "targetMarks": 3,
+          "rationale": "This answer correctly identifies the type of skew for both groups but is less detailed in its explanation compared to the top-band answer. It lacks a bit of depth but still meets the core requirements of the mark scheme.",
+          "text": "Group A's data shows a negatively skewed distribution because the mean (25) is less than the median (29) and the mode (33). This means the scores are more spread out on the higher end. For Group B, the distribution is positively skewed as the mean (25) is greater than the median (21) and mode (18), which means there are more scores on the lower end."
+        },
+        {
+          "label": "C",
+          "targetMarks": 2,
+          "rationale": "This answer identifies the skewness correctly but provides a minimal explanation. It addresses the basic concept but lacks the clarity and detail needed for higher marks.",
+          "text": "The scores for Group A suggest a negatively skewed distribution since the mean is lower than the median and mode. For Group B, the distribution is positively skewed because the mean is higher than the median and mode."
+        }
+      ]
+    },
+    {
+      "questionNumber": "6.2",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This answer clearly explains the difference in mode values between the two age groups, directly addressing what the difference shows about conformity in each group. It demonstrates an understanding of the concept and uses clear language.",
+          "text": "The difference in mode values between the two age groups shows that younger people tend to conform more frequently than older people. This is evident because the most common conformity score is much higher in the younger age group compared to the older age group, suggesting that age might influence how often individuals conform to group norms."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This answer provides a basic explanation of the difference in mode values, but lacks depth in explaining what this suggests about conformity levels between the two age groups. It identifies a difference but doesn't fully explore its implications.",
+          "text": "The mode for the younger age group is higher than the mode for the older age group. This shows that younger people conform more often than older people, but it doesn't say much about why this happens."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This answer attempts to explain the difference but is somewhat muddled. It acknowledges a difference in conformity scores but does not clearly articulate what this implies about the two age groups in a comprehensive way.",
+          "text": "The younger group has a higher mode for conformity scores than the older group. This means that conformity happens more with younger people, but the answer doesn't really go into detail about what that means."
+        }
+      ]
+    },
+    {
+      "questionNumber": "7.1",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This answer clearly identifies the experimental design as independent measures and provides a succinct and accurate justification, aligning with the mark scheme requirements for full marks.",
+          "text": "The experimental design used in this study is an independent measures design. This is because two separate groups of students were used for each condition: one group was asked individually, and the other group had a group discussion before being asked. Each group only experienced one condition."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This answer identifies the correct design but lacks the precision in explanation found in the top-band answer. The justification is present but could be more clearly articulated.",
+          "text": "The study uses an independent measures design since different students took part in each condition. So, like, one group was asked alone and the other group had a chat first."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "The answer correctly identifies the design, but the explanation is more basic and lacks detail, fitting the criteria for a mid C-grade response.",
+          "text": "It's an independent design because each condition had different students. They weren't the same people in both groups."
+        }
+      ]
+    },
+    {
+      "questionNumber": "7.2",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This answer correctly identifies and operationalises the dependent variable by specifying that it's the 'estimated height of the thief in metres', which precisely aligns with the mark scheme's requirements for full marks.",
+          "text": "The operationalised dependent variable in the study is the estimated height of the thief in metres. This means the participants' guesses about the thief's height were recorded using a specific unit of measurement, which helps in ensuring the data's accuracy and consistency."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This answer identifies the dependent variable as the estimated height but fails to fully operationalise it by specifying the unit of measurement, resulting in a partial mark according to the mark scheme.",
+          "text": "The dependent variable in the study is the estimated height of the thief. Participants had to guess how tall the thief was based on what they remembered."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This answer mentions the dependent variable as height but lacks operationalisation and clarity, which keeps it in the mid C grade band according to the mark scheme.",
+          "text": "The dependent variable is the height of the thief. They wanted to see how tall people thought he was."
+        }
+      ]
+    },
+    {
+      "questionNumber": "7.3",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This response clearly explains that the data is primary because it is collected specifically for the study on eyewitness testimony, making an explicit link to the context of estimating height.",
+          "text": "The data in the eyewitness testimony study is primary because it was collected directly from the participants specifically for this research. The participants' height estimates are firsthand responses, gathered by the researchers to understand how people perceive height in a testimony situation."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This response gives a basic explanation and mentions the data is firsthand but lacks a detailed link to the context of the study, which would be needed for full marks.",
+          "text": "It's primary data because it's collected from the participants directly for this eyewitness study. The height estimates are the original responses from the people involved."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This response gives a limited explanation focusing on the data being firsthand, but it lacks clarity and a link to the specific context of the study.",
+          "text": "The data is primary because it's firsthand data from the participants. It's collected by the researchers for their study."
+        }
+      ]
+    },
+    {
+      "questionNumber": "7.4",
+      "maxMarks": 2,
+      "section": "Social Influence",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 2,
+          "rationale": "This answer clearly identifies the qualitative data as the description of the man's facial features and provides a coherent justification that it uses words to give a detailed account.",
+          "text": "The qualitative data collected is the description of the man's facial features. This is because the data is expressed in words, providing a detailed and subjective account of what the man looks like, which allows for a deeper understanding beyond mere numbers."
+        },
+        {
+          "label": "B",
+          "targetMarks": 1,
+          "rationale": "This answer identifies the qualitative data correctly but provides a less detailed justification for why it's considered qualitative, lacking depth in explanation.",
+          "text": "The qualitative data is the description of the man's face. This is because it involves using words rather than numbers to describe how he looks."
+        },
+        {
+          "label": "C",
+          "targetMarks": 1,
+          "rationale": "This answer identifies the qualitative data but the justification is vague and not fully articulated, reflecting a more basic understanding.",
+          "text": "The description of the man's facial features is qualitative data because it uses words to say what his face looks like."
+        }
+      ]
+    },
+    {
+      "questionNumber": "8",
+      "maxMarks": 4,
+      "section": "Memory",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 4,
+          "rationale": "This answer is top band because it clearly and effectively evaluates retrieval failure with detailed reference to research evidence. It uses psychological terminology appropriately and demonstrates a coherent understanding of the topic.",
+          "text": "Retrieval failure is a strong explanation for forgetting, as shown by studies on context-dependent forgetting. For instance, Godden and Baddeley (1975) found that divers who learned information underwater recalled it better in the same environment than on land, indicating that environmental cues play a significant role in retrieval. Similarly, state-dependent forgetting is supported by Overton (1972), who found that people who learned material in a drunk state recalled it better when drunk again. These studies suggest that the absence of appropriate retrieval cues leads to forgetting. However, retrieval failure might be less influential when recognition tests, instead of free recall, are used, as recognition provides additional cues."
+        },
+        {
+          "label": "B",
+          "targetMarks": 3,
+          "rationale": "This mid B-grade answer provides a clear evaluation with some evidence, but lacks the depth and breadth of the top band. It demonstrates some understanding of retrieval failure and its limitations but is less detailed.",
+          "text": "Retrieval failure is when we forget things because we don't have the right cues to recall them. For example, Godden and Baddeley (1975) showed that divers remembered more words when tested in the same place they learned them. This supports the idea that context is important. However, in real life, the context has to be very different to make a big impact, and retrieval failure might not explain forgetting in all situations, like when we have recognition tests instead of recall."
+        },
+        {
+          "label": "C",
+          "targetMarks": 2,
+          "rationale": "This mid C-grade answer shows some basic evaluation of retrieval failure with minimal reference to research. The explanation lacks clarity and detail, and the terminology is not well developed, matching the characteristics of a lower band response.",
+          "text": "Retrieval failure is when we forget because we can't remember the cues. Studies like Godden and Baddeley show this with divers, but it doesn't always work in real life. Sometimes cues aren't enough to help us remember, especially if the test is different."
+        }
+      ]
+    },
+    {
+      "questionNumber": "9",
+      "maxMarks": 12,
+      "section": "Memory",
+      "samples": [
+        {
+          "label": "A*",
+          "targetMarks": 11,
+          "rationale": "This answer should be top band because it provides a clear, coherent, and detailed explanation of the multi-store model with accurate use of specialist terminology. It effectively evaluates the model using evidence and critical analysis, which aligns with the mark scheme requirements for high-level responses.",
+          "text": "The multi-store model of memory, proposed by Atkinson and Shiffrin in 1968, describes memory as consisting of three distinct stores: the sensory register, short-term memory (STM), and long-term memory (LTM). Information first enters the sensory register, which has a large capacity but very short duration, only lasting about half a second. Coding here is modality-specific, meaning it depends on the senses, like visual or auditory. Attention is required to transfer information from the sensory register to STM.\n\nSTM is described as having a limited capacity of 7±2 items, as suggested by Miller, and a duration of about 18-30 seconds without rehearsal. Information in STM is primarily coded acoustically. To retain information longer, it must be rehearsed, and through rehearsal, it can be transferred to LTM. LTM is considered to have unlimited capacity and can store information for a lifetime, with coding primarily semantic.\n\nOne strength of the multi-store model is that it is supported by research evidence. For example, Glanzer and Cunitz's (1966) serial position effect experiment supports the distinction between STM and LTM, showing that the recency effect occurs due to the last items being in STM, while the primacy effect reflects items rehearsed into LTM.\n\nHowever, the model is criticized for being too simplistic, viewing STM and LTM as unitary stores. Evidence from cases like KF, who had impaired verbal STM but intact visual STM, suggests that STM might have multiple components. Additionally, the model's emphasis on maintenance rehearsal is challenged by Craik and Tulving's (1975) finding that elaborative, or deeper processing, leads to better recall.\n\nOverall, while the multi-store model laid the foundation for understanding memory, it has been refined by further research that highlights the complexity of memory processes."
+        },
+        {
+          "label": "B",
+          "targetMarks": 7,
+          "rationale": "This answer fits the mid B band as it demonstrates accurate knowledge of the multi-store model with some effective evaluation. The response is mostly clear and organized, though it lacks some depth and detail required for higher marks, and there are minor omissions.",
+          "text": "The multi-store model of memory, by Atkinson and Shiffrin, describes memory as having three stores: sensory register, short-term memory (STM), and long-term memory (LTM). The sensory register holds information from our senses for a very brief time, and if we pay attention, it moves to STM. STM has a limited capacity of around 7 items and lasts about 20 seconds unless rehearsed. Information can then be transferred to LTM, which has unlimited capacity and duration.\n\nOne strength is that the model is supported by research, like Glanzer and Cunitz's study showing the serial position effect. This supports the idea of separate STM and LTM stores. However, the model is criticized for being too simple. For example, case studies like KF show that STM might not be a single store as he could remember visual information but not verbal.\n\nOverall, the multi-store model is good for understanding how memory works, but it doesn't explain everything, like how memories are formed without rehearsal."
+        },
+        {
+          "label": "C",
+          "targetMarks": 5,
+          "rationale": "This answer is characteristic of a mid C band as it provides limited knowledge and focuses mainly on description. There is some evaluation, but it is not highly effective. The response lacks clarity and organization, and there are inaccuracies in the use of specialist terminology.",
+          "text": "The multi-store model of memory is a theory that explains memory in terms of three stores: sensory register, short-term memory, and long-term memory. The sensory register is where we first receive information, and if we pay attention, it goes to short-term memory. STM can hold a small amount of information for a short time. If we rehearse it, it can move to long-term memory, which can hold a lot of information for a long time.\n\nOne good thing about the model is that it explains how rehearsal moves information to long-term memory. But a problem is that it might be too simple because it doesn't explain everything, like how we remember things without rehearsing them.\n\nIn conclusion, the multi-store model gives a basic idea of how memory works, but there are more things that need to be explained."
+        }
+      ]
+    }
+  ]
+}

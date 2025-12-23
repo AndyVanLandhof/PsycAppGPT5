@@ -2,17 +2,19 @@ import React, { useState } from 'react';
 import { Sparkles, Clock, Play, CheckCircle, Loader2 } from 'lucide-react';
 import { getSelectedCurriculum } from '../config/curricula';
 import { useAIService } from '../hooks/useAIService';
+import SyntheticExam from './SyntheticExam.jsx';
 
 // Paper configurations by curriculum
+// durationMinutes is used for the timed SyntheticExam; duration is the display label.
 const PAPER_CONFIG = {
   'aqa-psych': {
     examBoard: 'AQA',
     subject: 'Psychology',
     code: '7182',
     papers: [
-      { id: 'paper1', name: 'Paper 1: Introductory Topics', duration: '2 hours', marks: 96, topics: ['Social Influence', 'Memory', 'Attachment', 'Psychopathology'] },
-      { id: 'paper2', name: 'Paper 2: Psychology in Context', duration: '2 hours', marks: 96, topics: ['Approaches', 'Biopsychology', 'Research Methods'] },
-      { id: 'paper3', name: 'Paper 3: Issues and Options', duration: '2 hours', marks: 96, topics: ['Issues and Debates', 'Relationships', 'Schizophrenia', 'Forensic Psychology'] },
+      { id: 'paper1', name: 'Paper 1: Introductory Topics', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Social Influence', 'Memory', 'Attachment', 'Psychopathology'] },
+      { id: 'paper2', name: 'Paper 2: Psychology in Context', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Approaches', 'Biopsychology', 'Research Methods'] },
+      { id: 'paper3', name: 'Paper 3: Issues and Options', duration: '2 hours', durationMinutes: 120, marks: 96, topics: ['Issues and Debates', 'Relationships', 'Schizophrenia', 'Forensic Psychology'] },
     ]
   },
   'ocr-rs': {
@@ -20,9 +22,34 @@ const PAPER_CONFIG = {
     subject: 'Religious Studies',
     code: 'H573',
     papers: [
-      { id: 'paper1', name: 'Paper 1: Philosophy of Religion', duration: '2 hours', marks: 120, topics: ['Ancient Philosophical Influences', 'Soul, Mind and Body', 'Arguments for God', 'Religious Experience', 'Religious Language'] },
-      { id: 'paper2', name: 'Paper 2: Religion and Ethics', duration: '2 hours', marks: 120, topics: ['Natural Law', 'Situation Ethics', 'Kantian Ethics', 'Utilitarianism', 'Euthanasia', 'Business Ethics'] },
-      { id: 'paper3', name: 'Paper 3: Developments in Christian Thought', duration: '2 hours', marks: 120, topics: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Jesus Christ', 'Pluralism', 'Secularism'] },
+      {
+        id: 'paper1',
+        name: 'Paper 1: Philosophy of Religion',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 120,
+        paperCode: 'H573/01',
+        questionsToAnswer: 3, // mirror "answer 3 of 4" behaviour
+        topics: ['Ancient Philosophical Influences', 'Soul, Mind and Body', 'Arguments for God', 'Religious Experience', 'Religious Language']
+      },
+      {
+        id: 'paper2',
+        name: 'Paper 2: Religion and Ethics',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 120,
+        paperCode: 'H573/02',
+        topics: ['Natural Law', 'Situation Ethics', 'Kantian Ethics', 'Utilitarianism', 'Euthanasia', 'Business Ethics']
+      },
+      {
+        id: 'paper3',
+        name: 'Paper 3: Developments in Christian Thought',
+        duration: '2 hours',
+        durationMinutes: 120,
+        marks: 120,
+        paperCode: 'H573/03',
+        topics: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Jesus Christ', 'Pluralism', 'Secularism']
+      },
     ]
   },
   'edexcel-englit': {
@@ -30,9 +57,9 @@ const PAPER_CONFIG = {
     subject: 'English Literature',
     code: '9ET0',
     papers: [
-      { id: 'paper1', name: 'Paper 1: Drama', duration: '2 hours 15 mins', marks: 60, topics: ['Hamlet', 'Waiting for Godot', 'Tragedy/Comedy Critical Anthology'] },
-      { id: 'paper2', name: 'Paper 2: Prose', duration: '1 hour 15 mins', marks: 40, topics: ['Heart of Darkness', 'The Lonely Londoners', 'Comparative Themes'] },
-      { id: 'paper3', name: 'Paper 3: Poetry', duration: '2 hours 15 mins', marks: 60, topics: ['Poems of the Decade', 'Keats Selected Poems', 'Unseen Poetry'] },
+      { id: 'paper1', name: 'Paper 1: Drama', duration: '2 hours 15 mins', durationMinutes: 135, marks: 60, topics: ['Hamlet', 'Waiting for Godot', 'Tragedy/Comedy Critical Anthology'] },
+      { id: 'paper2', name: 'Paper 2: Prose', duration: '1 hour 15 mins', durationMinutes: 75, marks: 40, topics: ['Heart of Darkness', 'The Lonely Londoners', 'Comparative Themes'] },
+      { id: 'paper3', name: 'Paper 3: Poetry', duration: '2 hours 15 mins', durationMinutes: 135, marks: 60, topics: ['Poems of the Decade', 'Keats Selected Poems', 'Unseen Poetry'] },
     ]
   }
 };
@@ -43,14 +70,53 @@ function SyntheticPastPapers({ onBack }) {
   const [selectedPaper, setSelectedPaper] = useState(null);
   const [generatedPaper, setGeneratedPaper] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [startExam, setStartExam] = useState(false);
   const { callAIWithPublicSources } = useAIService();
 
   const generatePaper = async (paper) => {
     setSelectedPaper(paper);
     setLoading(true);
     setGeneratedPaper(null);
+    setStartExam(false);
 
     try {
+      const isAqa = curriculum === 'aqa-psych';
+      const isOcr = curriculum === 'ocr-rs';
+      const isEng = curriculum === 'edexcel-englit';
+
+      let styleHint = '';
+      if (isAqa) {
+        styleHint = `
+- Include a mix of short answer (2–6 marks), application questions (4–8 marks), and extended response (8–16 marks)
+- Use scenarios/stimulus material where appropriate
+- Cover AO1 (knowledge), AO2 (application), and AO3 (evaluation)`;
+      } else if (isOcr) {
+        if (paper.id === 'paper1') {
+          // OCR H573/01 – Philosophy of Religion style
+          styleHint = `
+- Mirror OCR H573/01 Philosophy of Religion format
+- Create exactly FOUR long-form essay questions, numbered 1–4, each worth 40 marks (total 120 marks)
+- Each 40-mark question should integrate AO1 (knowledge/understanding) and AO2 (analysis/evaluation) in one combined essay
+- Use authentic OCR-style command stems such as "Analyse...", "To what extent...", "Critically assess...", "Discuss..."
+- Ensure coverage across these areas: Ancient philosophical influences; Soul, mind and body; Arguments for the existence of God; Religious experience / religious language (you may combine closely-related areas in a single question)
+- Make the paper instructions clear that this is a 2-hour exam with FOUR questions on the paper and the candidate must answer ANY THREE of the four 40-mark questions
+- Return exactly one section named "Philosophy of Religion" containing exactly four questions with "number": "1", "2", "3", "4" and each "marks": 40
+- Set "totalMarks" to 120 in the JSON.`;
+        } else {
+          styleHint = `
+- Create long-form essay questions in the OCR H573 style (typically 40-mark essays combining AO1 and AO2)
+- Use OCR-style command words such as "Analyse...", "Evaluate...", "To what extent..."
+- Cover AO1 (knowledge/understanding) and AO2 (analysis/evaluation) in each question
+- Ensure the total marks equal ${paper.marks}`;
+        }
+      } else if (isEng) {
+        styleHint = `
+- Include extract-based and/or comparative essay questions
+- Cover AO1 (knowledge), AO2 (analysis of language/form/structure), AO3 (context), AO4 (connections/comparisons), AO5 (critical interpretations)
+- Use Edexcel 9ET0-style wording and mark weighting
+- Ensure the total marks equal ${paper.marks}`;
+      }
+
       const prompt = `You are an expert ${config.examBoard} ${config.subject} examiner creating a synthetic past paper.
 
 PAPER: ${paper.name}
@@ -60,19 +126,8 @@ TOPICS TO COVER: ${paper.topics.join(', ')}
 
 Create a realistic exam paper with questions that match the ${config.examBoard} ${config.code} specification style.
 
-For ${curriculum === 'aqa-psych' ? 'AQA Psychology' : curriculum === 'ocr-rs' ? 'OCR Religious Studies' : 'Edexcel English Literature'}:
-${curriculum === 'aqa-psych' ? `
-- Include a mix of short answer (2-6 marks), application questions (4-8 marks), and extended response (8-16 marks)
-- Use scenarios/stimulus material where appropriate
-- Cover AO1 (knowledge), AO2 (application), and AO3 (evaluation)` : 
-curriculum === 'ocr-rs' ? `
-- Include 'Explain' questions (10 marks), 'Analyse' questions (10 marks), and 'Evaluate' questions (15 marks)
-- Cover AO1 (knowledge) and AO2 (analysis/evaluation)
-- Use the standard OCR question stems` :
-`
-- Include extract-based questions and comparative questions
-- Cover AO1 (knowledge), AO2 (analysis), AO3 (context), AO4 (connections), AO5 (critical views)
-- Include timed writing guidance`}
+For ${config.examBoard} ${config.subject}:
+${styleHint}
 
 Return STRICT JSON:
 {
@@ -110,6 +165,43 @@ Return STRICT JSON:
       setLoading(false);
     }
   };
+
+  // If we have a fully generated paper and the user has chosen to start the exam,
+  // hand off to the SyntheticExam component which mirrors the InteractiveExam UX.
+  if (selectedPaper && generatedPaper && !loading && startExam) {
+    const flatQuestions = [];
+    (generatedPaper.sections || []).forEach((section) => {
+      (section.questions || []).forEach((q, idx) => {
+        flatQuestions.push({
+          number: q.number || String(flatQuestions.length + 1),
+          text: q.text,
+          marks: q.marks,
+          section: section.name || '',
+        });
+      });
+    });
+
+    return (
+      <SyntheticExam
+        curriculum={curriculum}
+        paperMeta={{
+          title: generatedPaper.title || selectedPaper.name,
+          session: 'Synthetic',
+          year: 'N/A',
+          code: selectedPaper.paperCode || config.code,
+          durationMinutes: selectedPaper.durationMinutes,
+          totalMarks: generatedPaper.totalMarks || selectedPaper.marks,
+          questionsToAnswer: selectedPaper.questionsToAnswer || null,
+        }}
+        questions={flatQuestions}
+        onBack={() => {
+          setStartExam(false);
+          setSelectedPaper(null);
+          setGeneratedPaper(null);
+        }}
+      />
+    );
+  }
 
   if (selectedPaper && (loading || generatedPaper)) {
     return (
@@ -162,10 +254,23 @@ Return STRICT JSON:
               ))}
 
               <div className="flex justify-center gap-4 pt-4 border-t">
-                <button onClick={() => generatePaper(selectedPaper)} className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                <button
+                  onClick={() => setStartExam(true)}
+                  className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 font-semibold"
+                >
+                  ▶ Start Timed Exam
+                </button>
+                <button onClick={() => generatePaper(selectedPaper)} className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded hover:bg-purple-50">
                   🔄 Generate New Paper
                 </button>
-                <button onClick={() => { setSelectedPaper(null); setGeneratedPaper(null); }} className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
+                <button
+                  onClick={() => {
+                    setSelectedPaper(null);
+                    setGeneratedPaper(null);
+                    setStartExam(false);
+                  }}
+                  className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300"
+                >
                   Choose Different Paper
                 </button>
               </div>

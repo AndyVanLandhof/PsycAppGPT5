@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "paper": "AS Paper 1 – Introductory topics in psychology",
+    "year": 2022,
+    "session": "June",
+    "code": "7181/1"
+  },
+  "generatedAt": "2025-12-22T10:48:57.537Z",
+  "summary": {
+    "paperId": "aqa-71811-jun22",
+    "model": "claude-3-7-sonnet-20250219",
+    "totalSamples": 39,
+    "byLabel": {
+      "A*": {
+        "count": 13,
+        "meanDiff": -0.23076923076923078,
+        "sumDiff": -3,
+        "awarded": [
+          1,
+          2,
+          3,
+          5,
+          3,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4,
+          10
+        ],
+        "target": [
+          1,
+          2,
+          5,
+          5,
+          3,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4,
+          11
+        ]
+      },
+      "B": {
+        "count": 13,
+        "meanDiff": 0.46153846153846156,
+        "sumDiff": 6,
+        "awarded": [
+          1,
+          2,
+          3,
+          4,
+          3,
+          4,
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          7
+        ],
+        "target": [
+          1,
+          1,
+          4,
+          4,
+          2,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          7
+        ]
+      },
+      "C": {
+        "count": 13,
+        "meanDiff": 0.3076923076923077,
+        "sumDiff": 4,
+        "awarded": [
+          0,
+          1,
+          3,
+          3,
+          1,
+          4,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          5
+        ],
+        "target": [
+          0,
+          1,
+          3,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          5
+        ]
+      }
+    },
+    "global": {
+      "count": 39,
+      "meanAbsError": 0.38461538461538464
+    }
+  },
+  "results": [
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "1",
+      "label": "A*",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Full mark awarded",
+      "feedback": "The student has correctly identified option D as the true statement about Milgram's variation experiments, which is the only correct answer according to the mark scheme.",
+      "strengths": [
+        "Correctly selected option D",
+        "Demonstrated understanding of why obedience decreased in this variation (though this wasn't required for the mark)"
+      ],
+      "improvements": [
+        "No improvements needed for this multiple-choice question - the student has selected the correct answer"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "1",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student has correctly identified option D as the true statement about Milgram's variations, and has accurately explained that obedience decreased when the authority figure was in a different room.",
+      "strengths": [
+        "Correctly selected option D",
+        "Provided accurate explanation about the remote condition decreasing obedience",
+        "Demonstrated understanding of the relationship between proximity and obedience levels"
+      ],
+      "improvements": [
+        "No improvements needed for this multiple-choice question as the correct answer was selected with appropriate explanation"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "1",
+      "label": "C",
+      "targetMarks": 0,
+      "awarded": 0,
+      "diff": 0,
+      "levelDescriptor": "No credit",
+      "feedback": "The student has selected option C, which is incorrect. The correct answer is D - when the experimenter was in a different room to the participant, obedience levels decreased.",
+      "strengths": [
+        "The student has attempted to provide a logical explanation for their answer"
+      ],
+      "improvements": [
+        "The student has selected the wrong option. The correct answer is D, not C",
+        "The student has confused the direction of the effect - when the experimenter was in a different room, obedience actually decreased, not increased"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "2",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded as the answer provides a clear and accurate definition with an appropriate example",
+      "feedback": "The answer correctly defines social change as significant alterations in social behavior patterns and cultural values over time, and provides a relevant example of minority influence leading to social change through the civil rights movement.",
+      "strengths": [
+        "Clear definition of social change that captures the essential meaning",
+        "Explains the mechanism of social change through minority influence",
+        "Provides a specific and relevant example (civil rights movement)",
+        "Shows understanding of how consistent and committed actions can lead to change"
+      ],
+      "improvements": [
+        "While not necessary for full marks, the answer could have been more concise as this is only a 2-mark question"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "2",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as the answer provides a clear and accurate definition of social change",
+      "feedback": "The student has provided a complete definition of social change that includes reference to changes in society's norms and behaviors, and has correctly linked this to social influence processes, specifically mentioning minority influence.",
+      "strengths": [
+        "Correctly identifies social change as involving changes in society's norms and behaviors",
+        "Makes appropriate link to social influence processes",
+        "Provides a relevant example of how social change can occur (minority influence)",
+        "Shows understanding that social change involves shifts in attitudes and beliefs over time"
+      ],
+      "improvements": [
+        "While not necessary for full marks, the answer could have been strengthened by mentioning specific examples of social change movements"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "2",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Basic knowledge with partial accuracy",
+      "feedback": "The answer shows basic knowledge of what social change is but lacks the specific detail required for full marks",
+      "strengths": [
+        "Correctly identifies that social change involves society changing its thinking or actions",
+        "Makes a relevant link to social influence"
+      ],
+      "improvements": [
+        "Needs to include a specific example of social change (e.g. minority influence leading to women's suffrage)",
+        "Should explain a specific mechanism of how social influence leads to social change",
+        "The example of 'following a new trend' is too vague and doesn't clearly demonstrate understanding of social change as a psychological concept"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "3",
+      "label": "A*",
+      "targetMarks": 5,
+      "awarded": 3,
+      "diff": -2,
+      "levelDescriptor": "Level 2, as the answer shows knowledge of two factors affecting minority influence but application lacks clarity in places",
+      "feedback": "The student correctly identifies consistency and flexibility as factors affecting minority influence, but the explanation lacks psychological detail and precise application to Steph's situation",
+      "strengths": [
+        "Correctly identifies two relevant factors: consistency and flexibility",
+        "Makes some attempt to apply these factors to Steph's situation",
+        "Shows basic understanding of how these factors could help persuade classmates"
+      ],
+      "improvements": [
+        "Needs to explain consistency in more psychological depth (e.g., reference to Moscovici's work)",
+        "Should elaborate on how flexibility relates to minority influence theory",
+        "Could include more specific examples of how Steph might demonstrate commitment",
+        "Missing reference to potential conversion or snowball effect over time",
+        "Terminology could be used more precisely with clearer links to psychological theory"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "3",
+      "label": "B",
+      "targetMarks": 4,
+      "awarded": 3,
+      "diff": -1,
+      "levelDescriptor": "Level 2 - Knowledge of two factors affecting minority influence is evident with some effective application to Steph's situation",
+      "feedback": "The answer correctly identifies consistency and commitment as two factors affecting minority influence with some application to Steph's situation, but lacks sufficient detail and elaboration to reach Level 3",
+      "strengths": [
+        "Correctly identifies two relevant factors: consistency and commitment",
+        "Makes some attempt to apply both factors to Steph's situation",
+        "Shows basic understanding of how these factors could help persuade the class"
+      ],
+      "improvements": [
+        "Needs more detailed explanation of how consistency works in minority influence (e.g., resisting social pressure over time)",
+        "Should elaborate on why commitment is effective (e.g., augmentation principle)",
+        "Could include psychological theory/research to support the explanation",
+        "Application to Steph's situation could be more developed and explicit",
+        "Could include additional factors like flexibility or the snowball effect"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "3",
+      "label": "C",
+      "targetMarks": 3,
+      "awarded": 3,
+      "diff": 0,
+      "levelDescriptor": "Low Level 2 - Knowledge of two factors is evident with some application, but lacks clarity in places",
+      "feedback": "The student correctly identifies two factors affecting minority influence (consistency and commitment) and makes some attempt to apply them to Steph's situation, but the explanation lacks detail and clarity in places.",
+      "strengths": [
+        "Correctly identifies consistency as a factor affecting minority influence",
+        "Correctly identifies commitment as a factor affecting minority influence",
+        "Makes some attempt to apply both factors to Steph's situation"
+      ],
+      "improvements": [
+        "Needs more detailed explanation of how consistency works in minority influence",
+        "Could elaborate on how commitment leads to minority influence through the augmentation principle",
+        "Application to Steph's situation could be more explicit and developed",
+        "Could include additional factors such as flexibility or the snowball effect",
+        "Terminology could be used more appropriately and with greater precision"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "4",
+      "label": "A*",
+      "targetMarks": 5,
+      "awarded": 5,
+      "diff": 0,
+      "levelDescriptor": "Level 3 (5 marks) - The answer is clear, detailed and generally accurate with appropriate use of specialist terminology",
+      "feedback": "The answer provides detailed knowledge of Zimbardo's procedure with good accuracy and appropriate terminology. It covers most key aspects of the procedure but lacks some specific details that would warrant full marks.",
+      "strengths": [
+        "Accurately describes the sample (24 male college students) and sampling method (volunteer)",
+        "Includes the psychological assessment of participants",
+        "Details the random assignment to roles",
+        "Describes the mock prison setting at Stanford University",
+        "Explains the prisoner experience (arrest, delousing, uniforms, ID numbers)",
+        "Includes details about prisoner conditions (cells, basic rights)",
+        "Describes guard uniforms and equipment (clubs, reflective sunglasses)",
+        "Mentions Zimbardo's role as superintendent",
+        "Notes the early termination of the study"
+      ],
+      "improvements": [
+        "Could mention the payment of $15 per day",
+        "Missing specific details about guard shifts (8-hour shifts in teams of 3)",
+        "Doesn't mention that guards were allowed off-site after shifts",
+        "Could be more precise about the planned duration (7-14 days)",
+        "Could include more detail about prisoner rights (e.g., 3 meals, 3 supervised toilet trips per day, 2 visits per week)"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "4",
+      "label": "B",
+      "targetMarks": 4,
+      "awarded": 4,
+      "diff": 0,
+      "levelDescriptor": "High Level 2 - The answer contains several accurate details of Zimbardo's procedure but lacks some clarity and detail needed for Level 3",
+      "feedback": "The student provides accurate information about key aspects of Zimbardo's procedure including participant selection, random assignment, treatment of prisoners and guards, and early termination. However, the answer lacks some important procedural details and precision needed for Level 3.",
+      "strengths": [
+        "Correctly identifies the setting (Stanford University basement)",
+        "Accurately describes the selection of 24 male students who were mentally stable",
+        "Correctly explains the random assignment to prisoner or guard roles",
+        "Describes the arrest procedure for prisoners and their treatment (uniforms, ID numbers)",
+        "Mentions guard uniforms and sunglasses correctly",
+        "Accurately notes the early termination after 6 days instead of 2 weeks"
+      ],
+      "improvements": [
+        "No mention of the payment ($15 per day) for participants",
+        "Missing details about the observational nature of the study",
+        "No mention of Zimbardo's role as prison superintendent",
+        "Lacks specific details about guards working in shifts (8-hour shifts in teams of 3)",
+        "Missing information about prisoner rights (3 meals, toilet trips, visits)",
+        "Could include more precise details about the planned duration (7-14 days)"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "4",
+      "label": "C",
+      "targetMarks": 3,
+      "awarded": 3,
+      "diff": 0,
+      "levelDescriptor": "Low Level 2 - Some knowledge of the procedure is evident but lacks detail and clarity",
+      "feedback": "The answer covers some basic elements of Zimbardo's prison study procedure but lacks detail and precision. It identifies the setting, random allocation to roles, some details about prisoner/guard treatment, and early termination, but misses many procedural details.",
+      "strengths": [
+        "Correctly identifies the setting (Stanford University)",
+        "Mentions random allocation to roles of guards and prisoners",
+        "Includes some details about prisoner treatment (arrest at home, given numbers)",
+        "Notes guard uniforms and sunglasses",
+        "Correctly states the study was terminated early (after 6 days)"
+      ],
+      "improvements": [
+        "No mention of participant selection (24 male students, psychologically assessed)",
+        "Missing details about payment ($15 per day)",
+        "No information about prisoner conditions (cells, rights, meals, toilet visits)",
+        "Limited information about guard instructions and shift patterns",
+        "No mention of Zimbardo's role as superintendent",
+        "Missing details about planned duration (2 weeks)",
+        "Lacks precision about the observational nature of the study"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "5",
+      "label": "A*",
+      "targetMarks": 3,
+      "awarded": 3,
+      "diff": 0,
+      "levelDescriptor": "Full 3 marks - clear and coherent explanation of an ethical limitation with supporting examples",
+      "feedback": "The student provides a clear and detailed explanation of the ethical limitation regarding lack of protection from psychological harm, with specific examples and elaboration on the implications for the study's ethical standing.",
+      "strengths": [
+        "Clearly identifies a specific ethical limitation (lack of protection from psychological harm)",
+        "Provides a concrete example to support the limitation (participants being released early due to extreme reactions)",
+        "Elaborates on the implications of this limitation (questioning whether risks were justified)",
+        "Further develops the ethical issue by noting the compromised right to withdraw",
+        "Response is coherent and well-structured"
+      ],
+      "improvements": [
+        "Could have included more specific details about exactly how participants were harmed psychologically",
+        "Could have made more explicit reference to ethical guidelines that were violated"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "5",
+      "label": "B",
+      "targetMarks": 2,
+      "awarded": 3,
+      "diff": 1,
+      "levelDescriptor": "Full 3 marks - clear and coherent explanation of an ethical limitation with supporting example",
+      "feedback": "The student clearly identifies and explains ethical issues as a limitation, specifically focusing on lack of informed consent and protection from harm, with a relevant example from the study to support their argument.",
+      "strengths": [
+        "Clearly identifies a specific limitation (ethical issues)",
+        "Explains two aspects of the ethical limitation (informed consent and protection from harm)",
+        "Provides a specific example from the study (guards acting harshly causing prisoners to break down)",
+        "Links the limitation to the validity/acceptability of the research"
+      ],
+      "improvements": [
+        "Could have elaborated slightly more on how these ethical issues specifically affected the validity of the findings",
+        "Could have mentioned that Zimbardo had to terminate the study early due to these ethical concerns"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "5",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Level 1 - muddled or limited explanation",
+      "feedback": "The student identifies an ethical issue (harm and distress to participants) but provides a very limited explanation without specific details from Zimbardo's study or elaboration on why this is a significant limitation.",
+      "strengths": [
+        "Correctly identifies an ethical issue as a limitation",
+        "Mentions participant harm and distress which is relevant"
+      ],
+      "improvements": [
+        "Needs to provide specific examples from Zimbardo's study to support the point",
+        "Should elaborate on the ethical principles violated (e.g., protection from harm)",
+        "Could discuss implications for the validity of findings due to ethical issues",
+        "Could mention Zimbardo's failure to intervene earlier despite participant distress",
+        "Should explain why this limitation matters for the research findings or methodology"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.1",
+      "label": "A*",
+      "targetMarks": 4,
+      "awarded": 4,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded as all required elements are present and correct",
+      "feedback": "The student correctly identified both distributions and provided accurate justifications for each, showing clear understanding of how the relationship between mean, median and mode determines skew",
+      "strengths": [
+        "Correctly identified Group A as negatively skewed",
+        "Accurately justified Group A's skew by noting mean (25) is less than median (29) and mode (33)",
+        "Correctly identified Group B as positively skewed",
+        "Accurately justified Group B's skew by noting mean (25) is higher than median (21) and mode (18)"
+      ],
+      "improvements": []
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.1",
+      "label": "B",
+      "targetMarks": 3,
+      "awarded": 4,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as all required elements are present and correct",
+      "feedback": "The student correctly identified both distributions and provided accurate justifications for each by comparing the mean, median, and mode values.",
+      "strengths": [
+        "Correctly identified Group A as negatively skewed",
+        "Correctly identified Group B as positively skewed",
+        "Provided accurate justification for Group A by comparing mean (25) to median (29) and mode (33)",
+        "Provided accurate justification for Group B by comparing mean (25) to median (21) and mode (18)"
+      ],
+      "improvements": [
+        "Could have been more explicit about the mean being 'to the left' of the distribution for Group A and 'to the right' for Group B, though the comparison of values is sufficient"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.1",
+      "label": "C",
+      "targetMarks": 2,
+      "awarded": 4,
+      "diff": 2,
+      "levelDescriptor": "Full marks awarded as all required elements are present and correct",
+      "feedback": "The student correctly identified both distributions and provided appropriate justifications for each one based on the relationships between the mean, median and mode.",
+      "strengths": [
+        "Correctly identified Group A as negatively skewed",
+        "Correctly justified Group A's skew by noting the mean is lower than median and mode",
+        "Correctly identified Group B as positively skewed",
+        "Correctly justified Group B's skew by noting the mean is higher than median and mode"
+      ],
+      "improvements": [
+        "No improvements needed - the answer is concise and fully addresses all requirements of the question"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.2",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded as the answer clearly explains what the difference in mode values shows",
+      "feedback": "The student correctly identifies that the difference in mode values indicates younger people conform more frequently than older people, with clear explanation of what this means in terms of the data",
+      "strengths": [
+        "Correctly interprets that the younger age group has a higher mode value for conformity",
+        "Clearly explains that this shows younger people tend to conform more frequently",
+        "Demonstrates understanding that the mode represents the most common conformity score",
+        "Links the data to a possible conclusion about age influencing conformity"
+      ],
+      "improvements": [
+        "Could have been more specific about the actual mode values shown in the data (though this wasn't required for full marks)"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.2",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as the answer clearly explains what the difference in mode values shows",
+      "feedback": "The student correctly identifies that the mode for the younger age group is higher than the mode for the older age group, indicating that younger people conform more often than older people.",
+      "strengths": [
+        "Correctly identifies that the mode for the younger age group is higher than for the older age group",
+        "Clearly explains what this difference means in terms of conformity (younger people conform more often)",
+        "Answer is concise and directly addresses what the question asks"
+      ],
+      "improvements": [
+        "The second part of the answer about not knowing why this happens is not required by the question, though it doesn't detract from the correct explanation"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "6.2",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Limited explanation",
+      "feedback": "The student correctly identifies that the younger group has a higher mode for conformity scores, but the explanation lacks precision and clarity about what this specifically means in terms of the most frequent scores.",
+      "strengths": [
+        "Correctly identifies that the younger group has a higher mode for conformity scores",
+        "Makes a basic link to conformity being higher in younger people"
+      ],
+      "improvements": [
+        "Should clearly state that the most frequent conformity score in the younger group was higher than the most frequent score in the older group",
+        "Avoid vague statements like 'the answer doesn't really go into detail' which is irrelevant to the question",
+        "Be more precise about what the mode values specifically indicate rather than making general statements about conformity"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.1",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student correctly identified the experimental design as independent measures and provided a clear justification explaining that different groups of participants were used for each condition.",
+      "strengths": [
+        "Correctly identified the design as independent measures",
+        "Provided a clear justification that different groups were used (one group asked individually, one group had discussion)",
+        "Explained that each group only experienced one condition, which reinforces the independent measures nature"
+      ],
+      "improvements": []
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.1",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student correctly identified the experimental design as independent measures and provided a clear justification explaining that different students participated in each condition.",
+      "strengths": [
+        "Correctly identified the design as independent measures",
+        "Provided a clear justification that different participants were used in each condition",
+        "Elaborated on the conditions to demonstrate understanding"
+      ],
+      "improvements": [
+        "Could use more formal language instead of phrases like 'So, like...'",
+        "Could be more precise about the exact conditions rather than describing one as 'had a chat first'"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.1",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student correctly identified the experimental design as independent and provided a clear justification explaining that different students were used in each condition.",
+      "strengths": [
+        "Correctly identified the design as independent",
+        "Provided a clear justification that different participants (students) were used in each condition",
+        "Answer is concise and addresses both parts of the question"
+      ],
+      "improvements": [
+        "Could have used more precise psychological terminology (e.g., 'independent measures design' rather than just 'independent design')",
+        "Could have elaborated slightly on why this makes it independent measures (though not necessary for full marks)"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.2",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student correctly identified the operationalised dependent variable as the estimated height of the thief in metres, including both the variable being measured and the specific unit of measurement.",
+      "strengths": [
+        "Correctly identified the dependent variable (estimated height of thief)",
+        "Included the unit of measurement (metres) which shows operationalisation",
+        "Demonstrated understanding of what makes a variable operationalised"
+      ],
+      "improvements": [
+        "No improvements needed for this answer - it fully meets the requirements of the mark scheme"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.2",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Partial credit - 1 mark out of 2",
+      "feedback": "The student correctly identified the dependent variable as the estimated height of the thief, but did not fully operationalise it by specifying the unit of measurement (metres).",
+      "strengths": [
+        "Correctly identified that the dependent variable was the estimated height of the thief",
+        "Showed understanding that the DV was what participants had to estimate/remember"
+      ],
+      "improvements": [
+        "Failed to include the unit of measurement (metres) which is required for full operationalisation",
+        "For full marks, should have stated 'estimated height of the thief in metres'"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.2",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Partial credit (1 mark out of 2)",
+      "feedback": "The student correctly identified the dependent variable as the height of the thief, but did not fully operationalise it by specifying the unit of measurement (metres).",
+      "strengths": [
+        "Correctly identified that the dependent variable was the estimated height of the thief"
+      ],
+      "improvements": [
+        "Failed to include the unit of measurement (metres) which is required for full operationalisation",
+        "A complete answer would be 'the estimated height of the thief in metres'"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.3",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded as the answer meets all requirements for 2 marks",
+      "feedback": "The answer clearly explains why the data is primary with explicit links to the context of the eyewitness testimony study",
+      "strengths": [
+        "Correctly identifies the data as primary",
+        "Explains that it was collected directly from participants specifically for this research",
+        "Makes explicit reference to the context (height estimates in eyewitness testimony)",
+        "Mentions the firsthand nature of the responses"
+      ],
+      "improvements": [
+        "No significant improvements needed as the answer fully addresses the question requirements"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.3",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as the answer clearly explains why the data is primary with explicit links to the study context",
+      "feedback": "The answer correctly identifies that primary data is collected directly from participants and makes explicit reference to the height estimates being original responses in the context of the eyewitness study.",
+      "strengths": [
+        "Correctly identifies that primary data is collected directly from participants",
+        "Makes explicit reference to the context of the eyewitness study",
+        "Specifically mentions that height estimates are original responses from participants"
+      ],
+      "improvements": [
+        "Could have elaborated slightly on the purpose of collecting the data specifically for this research, though this isn't necessary for full marks"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.3",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 1,
+      "diff": 0,
+      "levelDescriptor": "Basic level response with partial understanding",
+      "feedback": "The student correctly identifies that primary data is firsthand data collected by researchers, but fails to make an explicit link to the specific context of this study.",
+      "strengths": [
+        "Correctly identifies that primary data is firsthand data",
+        "Recognizes that primary data is collected by researchers for their specific study"
+      ],
+      "improvements": [
+        "Needs to explicitly link to the context of this study (eye witness testimony/height estimate)",
+        "Should mention that the height estimates were original data collected specifically for this research",
+        "Avoid generic definitions and focus on the specific data collected in this study"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.4",
+      "label": "A*",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Full marks awarded",
+      "feedback": "The student correctly identified the qualitative data (description of facial features) and provided a clear justification explaining why this is qualitative data (expressed in words, providing detailed subjective account).",
+      "strengths": [
+        "Correctly identified the qualitative data as the description of the man's facial features",
+        "Provided a clear justification that the data is expressed in words",
+        "Expanded on the justification by explaining that qualitative data provides detailed and subjective accounts"
+      ],
+      "improvements": [
+        "No improvements needed - the answer fully meets the requirements of the mark scheme"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.4",
+      "label": "B",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as both components are present",
+      "feedback": "The student correctly identified the qualitative data (description of the man's face) and provided a clear justification (it uses words rather than numbers)",
+      "strengths": [
+        "Correctly identified the qualitative data as the description of the man's face",
+        "Provided a clear justification explaining that qualitative data uses words rather than numbers",
+        "Answer is concise but contains all required elements"
+      ],
+      "improvements": [
+        "Could have been more specific about the 'facial features' rather than just 'face'",
+        "Could have elaborated slightly more on why descriptive words constitute qualitative data"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "7.4",
+      "label": "C",
+      "targetMarks": 1,
+      "awarded": 2,
+      "diff": 1,
+      "levelDescriptor": "Full marks awarded as both components of the answer are present",
+      "feedback": "The student correctly identified the qualitative data (description of facial features) and provided a valid justification (uses words to describe)",
+      "strengths": [
+        "Correctly identified the description of facial features as the qualitative data",
+        "Provided a clear justification that qualitative data uses words to describe"
+      ],
+      "improvements": [
+        "Could have elaborated slightly on the justification by mentioning that qualitative data provides rich, detailed descriptions rather than numerical measurements"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "8",
+      "label": "A*",
+      "targetMarks": 4,
+      "awarded": 4,
+      "diff": 0,
+      "levelDescriptor": "High Level 2 - The answer provides clear, detailed and effective evaluation with appropriate terminology",
+      "feedback": "This is an excellent answer that provides detailed evaluation of retrieval failure as an explanation for forgetting, using appropriate studies as evidence and considering limitations of the theory.",
+      "strengths": [
+        "Accurately describes relevant studies (Godden & Baddeley, Overton) to support evaluation",
+        "Explains how these studies demonstrate context-dependent and state-dependent forgetting",
+        "Makes a clear link between the studies and retrieval failure theory",
+        "Identifies a limitation regarding recognition vs. free recall tests",
+        "Uses appropriate psychological terminology throughout"
+      ],
+      "improvements": [
+        "Could have included application of the explanation (e.g., use of mnemonics or cognitive interview techniques)",
+        "Might have elaborated on how significant the context differences need to be in real life"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "8",
+      "label": "B",
+      "targetMarks": 3,
+      "awarded": 3,
+      "diff": 0,
+      "levelDescriptor": "Level 2, lower end (3 marks) - Clear evaluation with some detail but could have more depth",
+      "feedback": "The answer provides clear evaluation of retrieval failure with appropriate evidence and limitations, showing good understanding of the concept. It includes relevant research and two clear evaluation points.",
+      "strengths": [
+        "Accurately describes retrieval failure as an explanation for forgetting",
+        "Provides relevant supporting evidence (Godden & Baddeley, 1975)",
+        "Includes two clear evaluation points: context needs to be very different in real life, and the explanation may not apply to recognition tests",
+        "Uses appropriate terminology throughout"
+      ],
+      "improvements": [
+        "Could include more detailed evaluation points or additional studies",
+        "Could elaborate on the distinction between recall and recognition tests",
+        "Could include application of the explanation (e.g., use of mnemonics)",
+        "More elaboration on the limitations would strengthen the answer to reach the full 4 marks"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "8",
+      "label": "C",
+      "targetMarks": 2,
+      "awarded": 2,
+      "diff": 0,
+      "levelDescriptor": "Low Level 2 - the answer has some evaluation but lacks detail and elaboration",
+      "feedback": "The student provides some evaluation of retrieval failure with reference to research evidence, but the evaluation lacks detail and elaboration. The answer identifies limitations but doesn't fully develop these points.",
+      "strengths": [
+        "Correctly identifies retrieval failure as being about cues",
+        "Makes appropriate reference to Godden and Baddeley's study as supporting evidence",
+        "Attempts to evaluate by noting that it 'doesn't always work in real life'",
+        "Makes a relevant point about cues not always being sufficient"
+      ],
+      "improvements": [
+        "Needs more specific detail about the Godden and Baddeley study to strengthen the evaluation",
+        "Could elaborate on why context needs to be very different in real life to have an effect",
+        "Should explain how retrieval failure is tested differently (free recall vs recognition)",
+        "Could include application points such as how this explanation can be used to improve memory",
+        "Terminology could be used more effectively throughout the answer"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "9",
+      "label": "A*",
+      "targetMarks": 11,
+      "awarded": 10,
+      "diff": -1,
+      "levelDescriptor": "Low Level 4 - The answer demonstrates accurate and detailed knowledge of the multi-store model with effective evaluation, though some minor expansion is lacking",
+      "feedback": "This is a well-structured answer that accurately describes the key components of the multi-store model and provides effective evaluation with appropriate evidence. It reaches Level 4 but doesn't quite achieve full marks due to some minor limitations in the depth of evaluation.",
+      "strengths": [
+        "Accurate description of all three stores (sensory register, STM, LTM) with correct details about capacity, duration and coding",
+        "Clear explanation of the processes of attention and rehearsal for information transfer between stores",
+        "Good use of supporting evidence (Glanzer and Cunitz) to evaluate the model",
+        "Effective criticism regarding the simplistic nature of the model with relevant case study (KF)",
+        "Good discussion of elaborative vs maintenance rehearsal with reference to Craik and Tulving",
+        "Well-organized structure with clear specialist terminology throughout"
+      ],
+      "improvements": [
+        "Could include more detailed evaluation points - for example, discussing more case studies like HM or Clive Wearing",
+        "Lacks comparison with alternative models of memory (e.g., Working Memory Model) which would strengthen the evaluation",
+        "Could expand on explanations of forgetting in each store",
+        "The evaluation of research evidence could be more detailed, discussing methodological limitations"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "9",
+      "label": "B",
+      "targetMarks": 7,
+      "awarded": 7,
+      "diff": 0,
+      "levelDescriptor": "Low Level 3 - The answer shows good knowledge of the model with some evaluation, but lacks some detail and depth in both description and evaluation",
+      "feedback": "This answer demonstrates sound knowledge of the multi-store model with accurate description of the three stores and their characteristics. There is some evaluation with reference to supporting evidence and criticism of the model's simplicity. However, the answer lacks detail in both description and evaluation sections, and could include more research evidence.",
+      "strengths": [
+        "Accurately identifies the three stores (sensory register, STM, LTM)",
+        "Correctly describes key characteristics of each store (capacity, duration)",
+        "Includes the role of attention and rehearsal in transferring information",
+        "Uses relevant research evidence (Glanzer and Cunitz) to support the model",
+        "Includes case study evidence (KF) to challenge the model",
+        "Shows understanding that the model is too simplistic"
+      ],
+      "improvements": [
+        "Could provide more detail about the coding in each store (e.g., acoustic in STM, semantic in LTM)",
+        "Needs more elaboration on how information transfers between stores",
+        "Should include more research evidence to support or challenge the model",
+        "Could discuss alternative models of memory for comparison",
+        "Evaluation points need more development and explanation",
+        "Could discuss elaborative vs. maintenance rehearsal",
+        "No mention of explanations of forgetting within the model"
+      ]
+    },
+    {
+      "paperId": "aqa-71811-jun22",
+      "questionNumber": "9",
+      "label": "C",
+      "targetMarks": 5,
+      "awarded": 5,
+      "diff": 0,
+      "levelDescriptor": "Level 2 (upper). The answer shows limited knowledge of the multi-store model with basic description of the stores, but lacks detail and has some omissions. Evaluation is present but limited in effectiveness.",
+      "feedback": "The answer provides a basic outline of the multi-store model identifying the three stores and some basic processes, but lacks detail on characteristics of each store. Evaluation is limited to one brief point about rehearsal and one criticism about simplicity, without elaboration or evidence.",
+      "strengths": [
+        "Correctly identifies the three stores (sensory register, STM, LTM)",
+        "Mentions key processes like attention and rehearsal",
+        "Includes some basic characteristics of the stores (e.g., STM has limited capacity/duration)",
+        "Makes an attempt at evaluation with a strength and limitation"
+      ],
+      "improvements": [
+        "Provide more detailed characteristics of each store (specific capacity, duration, and coding)",
+        "Include the structural nature of the model more explicitly",
+        "Support evaluation points with specific studies/evidence (e.g., case studies like HM or KF)",
+        "Discuss alternative models or more detailed criticisms (e.g., working memory model comparison)",
+        "Include more on different types of rehearsal (maintenance vs. elaborative)",
+        "Expand on how the model explains forgetting in each store"
+      ]
+    }
+  ]
+}

@@ -100,23 +100,43 @@ function QuestionResult({ result: r, index }) {
 /**
  * Parse questions from extracted text file
  * Returns array of { number, text, marks, section }
+ *
+ * Note on AQA-style layout:
+ * Some AS / A-level AQA papers put a scenario *before* the question number
+ * (e.g. the Ian car accident vignette before question 0 2 in 7181/2 Jun 2022).
+ * Our parser keeps a small "preamble" buffer for any such text that appears
+ * *after* the previous question's marks line and *before* the next question
+ * number, and attaches that preamble to the NEXT question instead of the
+ * previous one.
  */
 function parseQuestionsFromText(text) {
   const questions = [];
   const lines = text.split('\n');
-  
+
   let currentSection = '';
   let currentQuestion = null;
   let questionBuffer = [];
-  
+  let pendingPreamble = [];
+  let questionComplete = false; // true once we've seen [x marks] for the current question
+
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    
-    // Skip page markers and formatting
-    if (line.startsWith('---') || line.match(/^\*\d+\*$/) || line.match(/^IB\//) || line === 'Do not write' || line === 'outside the' || line === 'box' || line === 'Extra space' || line === 'Turn over ►') {
+    const rawLine = lines[i];
+    const line = rawLine.trim();
+
+    // Skip page markers and common boilerplate
+    if (
+      line.startsWith('---') ||
+      line.match(/^\*\d+\*$/) ||
+      line.match(/^IB\//) ||
+      line === 'Do not write' ||
+      line === 'outside the' ||
+      line === 'box' ||
+      line === 'Extra space' ||
+      line === 'Turn over ►'
+    ) {
       continue;
     }
-    
+
     // Detect section headers
     if (line.match(/^Section [A-Z]$/i)) {
       continue;
@@ -125,18 +145,18 @@ function parseQuestionsFromText(text) {
       currentSection = line;
       continue;
     }
-    
+
     // Detect question numbers (e.g., "0 1", "0 2", "0 7 . 1")
     const questionMatch = line.match(/^0\s*(\d+)(?:\s*\.\s*(\d+))?$/);
     if (questionMatch) {
-      // Save previous question
+      // Save previous question (if any)
       if (currentQuestion && questionBuffer.length > 0) {
         currentQuestion.text = questionBuffer.join(' ').trim();
         if (currentQuestion.text && currentQuestion.marks > 0) {
           questions.push({ ...currentQuestion });
         }
       }
-      
+
       const mainNum = questionMatch[1];
       const subNum = questionMatch[2];
       currentQuestion = {
@@ -145,26 +165,48 @@ function parseQuestionsFromText(text) {
         marks: 0,
         section: currentSection
       };
-      questionBuffer = [];
+
+      // If we have a preamble buffered (e.g. vignette before this question),
+      // start this question's text with it.
+      questionBuffer = pendingPreamble.length ? [...pendingPreamble] : [];
+      pendingPreamble = [];
+      questionComplete = false;
       continue;
     }
-    
+
     // Detect marks
     const marksMatch = line.match(/\[(\d+)\s*marks?\]/i);
     if (marksMatch && currentQuestion) {
-      currentQuestion.marks = parseInt(marksMatch[1]);
-      // Remove marks from the line and add to buffer
+      currentQuestion.marks = parseInt(marksMatch[1], 10);
       const cleanLine = line.replace(/\[(\d+)\s*marks?\]/i, '').trim();
-      if (cleanLine) questionBuffer.push(cleanLine);
+      if (cleanLine) {
+        questionBuffer.push(cleanLine);
+      }
+      // After we've seen the marks line, treat subsequent narrative as
+      // potential preamble for the NEXT question (AQA-style scenarios).
+      questionComplete = true;
       continue;
     }
-    
-    // Add line to question buffer
-    if (currentQuestion && line && !line.match(/^\d+$/) && line.length > 2) {
-      questionBuffer.push(line);
+
+    // Decide where to store this line:
+    //  - if we have an open question and it isn't "complete" yet, add to that question
+    //  - if the last question is complete and we haven't hit the next number yet,
+    //    treat substantial lines as preamble for the NEXT question.
+    if (line && !line.match(/^\d+$/) && line.length > 2) {
+      if (currentQuestion && !questionComplete) {
+        questionBuffer.push(line);
+      } else if (questionComplete) {
+        // Filter out obvious boilerplate / headings here too
+        if (
+          !line.match(/^Section [A-Z]$/i) &&
+          !['Social Influence', 'Memory', 'Attachment', 'Psychopathology', 'Approaches', 'Biopsychology', 'Research Methods'].includes(line)
+        ) {
+          pendingPreamble.push(line);
+        }
+      }
     }
   }
-  
+
   // Don't forget the last question
   if (currentQuestion && questionBuffer.length > 0) {
     currentQuestion.text = questionBuffer.join(' ').trim();
@@ -172,7 +214,7 @@ function parseQuestionsFromText(text) {
       questions.push(currentQuestion);
     }
   }
-  
+
   // Filter out invalid questions
   return questions.filter(q => q.text.length > 10 && q.marks > 0);
 }
@@ -349,11 +391,14 @@ ${markSchemeSection.substring(0, 4000)}
 ${markingGuidance}
 
 MARKING INSTRUCTIONS:
-1. Use the LEVEL DESCRIPTORS from the mark scheme to determine the level (if provided)
-2. Check the POSSIBLE CONTENT list - credit valid points even if not listed ("Credit other relevant content")
-3. Apply the specific marking rules (e.g., "Just naming X is not creditworthy")
-4. Be fair but rigorous - partial credit for partial answers
-5. For ${q.marks > 4 ? 'extended responses, use a "best fit" approach across levels' : 'short answers, award marks for each valid point made'}
+1. Use the LEVEL DESCRIPTORS from the mark scheme to determine the level (if provided).
+2. Check the POSSIBLE CONTENT list – credit valid points even if not listed ("Credit other relevant content").
+3. Apply the specific marking rules (e.g. "Just naming X is not creditworthy").
+4. DO NOT infer student intent or award marks for material that is not explicitly present in the answer.
+5. If the answer sits between two levels, use a best fit judgement across the descriptors; only move into a higher band when there is clear, sustained evidence, but do not look for excuses to mark down.
+6. Be fair but rigorous – partial credit for partial answers.
+7. For ${q.marks > 4 ? 'extended responses, use a "best fit" approach across levels' : 'short answers, award marks for each valid point made'}.
+8. In your comments, make a short separate judgement on AO1 (knowledge/understanding) and AO2 (application/analysis/evaluation), and explain briefly why this answer is NOT in the next higher level.
 
 Return STRICT JSON:
 {
@@ -361,7 +406,10 @@ Return STRICT JSON:
   "feedback": "Brief overall comment explaining the mark",
   "strengths": ["Specific things done well, referencing mark scheme criteria"],
   "improvements": ["Specific gaps, referencing what was needed from mark scheme"],
-  "levelDescriptor": "e.g. Level 2 (3-4 marks) - Some knowledge evident but lacks clarity"
+  "levelDescriptor": "e.g. Level 2 (3-4 marks) - Some knowledge evident but lacks clarity",
+  "ao1Comment": "Short comment on AO1 performance (knowledge/understanding only)",
+  "ao2Comment": "Short comment on AO2 performance (application/analysis/evaluation)",
+  "whyNotNextLevel": "One or two sentences explaining why this is not in the next higher level"
 }`;
         
         const res = await callAIWithPublicSources(prompt, paper.paper, q.section || 'Exam');
@@ -383,6 +431,9 @@ Return STRICT JSON:
           strengths: parsed.strengths || [],
           improvements: parsed.improvements || [],
           levelDescriptor: parsed.levelDescriptor || '',
+          ao1Comment: parsed.ao1Comment || '',
+          ao2Comment: parsed.ao2Comment || '',
+          whyNotNextLevel: parsed.whyNotNextLevel || '',
           markSchemeSection: markSchemeSection.substring(0, 2000) || ''
         });
       } catch (e) {
