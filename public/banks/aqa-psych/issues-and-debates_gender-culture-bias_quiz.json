@@ -5,202 +5,202 @@
   "subTopic": "gender-culture-bias",
   "subTopicTitle": "Gender and culture in Psychology",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:21:49.043Z",
+  "generatedAt": "2025-12-28T14:21:16.685Z",
   "items": [
     {
       "id": "gender-culture-bias-q1",
-      "question": "What is the term for the assumption that male behavior is the norm, leading to biased views in psychological research?",
+      "question": "What does 'alpha bias' in gender refer to?",
       "options": [
-        "Androcentrism",
-        "Ethnocentrism",
-        "Alpha bias",
-        "Beta bias"
+        "Exaggerating differences between genders",
+        "Minimizing differences between genders",
+        "Assuming one gender is superior",
+        "Ignoring gender differences altogether"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Androcentrism refers to the practice of centering research and theories around male experiences, often ignoring female perspectives."
+      "explanation": "Alpha bias regards exaggerating differences, often leading to one gender being undervalued."
     },
     {
       "id": "gender-culture-bias-q2",
-      "question": "Which type of bias occurs when cultural differences are ignored, and all cultures are viewed as the same?",
+      "question": "Which study is associated with androcentrism in psychology?",
       "options": [
-        "Beta bias",
-        "Alpha bias",
-        "Cultural relativism",
-        "Ethnocentrism"
+        "Freud's theory of psychosexual development",
+        "Bandura's Bobo doll experiment",
+        "Milgram's obedience study",
+        "Asch's conformity experiments"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Beta bias involves minimizing or ignoring cultural differences, assuming that findings in one culture apply universally."
+      "explanation": "Freud's theories are criticized for being androcentric as they were developed based on male experiences."
     },
     {
       "id": "gender-culture-bias-q3",
-      "question": "In which study did Margaret Mead initially conclude that gender roles were culturally determined?",
+      "question": "What is ethnocentrism in psychological research?",
       "options": [
-        "Samoa study, 1928",
-        "Kibbutz study, 1951",
-        "New Guinea study, 1935",
-        "Zuni study, 1945"
+        "Evaluating other cultures by one's own cultural norms",
+        "Assuming all cultures are the same",
+        "Studying cultural differences objectively",
+        "Focusing only on Western cultures"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Margaret Mead's 1935 study in New Guinea showed cultural variations in gender roles, suggesting they were not biologically determined."
+      "explanation": "Ethnocentrism involves viewing other cultures through the lens of one's own cultural standards."
     },
     {
       "id": "gender-culture-bias-q4",
-      "question": "In what year did Berry conduct his study on cross-cultural conformity?",
+      "question": "Who proposed the emic and etic approaches in cross-cultural psychology?",
       "options": [
-        "1967",
-        "1984",
-        "1976",
-        "1958"
+        "John Berry in 1969",
+        "Harry Harlow in 1958",
+        "Philip Zimbardo in 1971",
+        "Leon Festinger in 1957"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Berry's 1967 study examined conformity across different cultures, showing variations that suggested cultural influences on behavior."
+      "explanation": "John Berry introduced emic and etic distinctions to describe different approaches to studying cultures."
     },
     {
       "id": "gender-culture-bias-q5",
-      "question": "Which term best describes the tendency to favor one's own cultural group over others?",
+      "question": "Which of the following best illustrates cultural relativism?",
       "options": [
-        "Ethnocentrism",
-        "Cultural relativism",
-        "Androcentrism",
-        "Beta bias"
+        "Understanding a culture's practices within their own context",
+        "Judging all cultures by a universal standard",
+        "Assuming cultural differences are only superficial",
+        "Promoting one's own culture as superior"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Ethnocentrism is the tendency to evaluate other cultures based on the standards of one's own culture, often leading to bias."
+      "explanation": "Cultural relativism involves assessing a culture based on its own norms and values rather than external standards."
     },
     {
       "id": "gender-culture-bias-q6",
-      "question": "Which psychologist is known for studying the universality of emotions?",
+      "question": "What is the main criticism of Kohlberg's theory of moral development regarding gender?",
       "options": [
-        "Paul Ekman",
-        "John Berry",
-        "Margaret Mead",
-        "Geert Hofstede"
+        "It was based mainly on male participants",
+        "It included too many female participants",
+        "It focused on cultural differences",
+        "It ignored the role of biology"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Paul Ekman's research indicated that basic emotions are universal across cultures, despite cultural differences in expression."
+      "explanation": "Kohlberg's theory is criticized for gender bias because his research was based primarily on male participants."
     },
     {
       "id": "gender-culture-bias-q7",
-      "question": "What concept involves the recognition and respect of cultural differences without making value judgments?",
+      "question": "What does the term 'imposed etic' refer to in cross-cultural research?",
       "options": [
-        "Cultural relativism",
-        "Ethnocentrism",
-        "Androcentrism",
-        "Alpha bias"
+        "Applying one's cultural norms to another culture",
+        "Incorporating multiple cultures' norms",
+        "Developing a new cultural perspective",
+        "Rejecting any cultural norms in research"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Cultural relativism is the idea that a person's beliefs and activities should be understood based on that person's own culture."
+      "explanation": "An imposed etic occurs when researchers apply their own cultural norms to study other cultures, potentially leading to bias."
     },
     {
       "id": "gender-culture-bias-q8",
-      "question": "Which type of bias exaggerates differences between genders?",
+      "question": "Which study is often cited for demonstrating cultural bias in intelligence testing?",
       "options": [
-        "Alpha bias",
-        "Beta bias",
-        "Androcentrism",
-        "Cultural bias"
+        "Jensen's study on race and IQ (1969)",
+        "Gardner's multiple intelligences theory",
+        "Spearman's two-factor theory",
+        "Sternberg's triarchic theory"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Alpha bias refers to the tendency to exaggerate differences between genders, often leading to gender stereotyping."
+      "explanation": "Jensen's study is criticized for cultural bias as it suggested racial differences in IQ, overlooking socio-cultural factors."
     },
     {
       "id": "gender-culture-bias-q9",
-      "question": "Which researcher argued for the existence of cultural dimensions affecting behavior?",
+      "question": "Who criticized Kohlberg's stages of moral development from a gender perspective?",
       "options": [
-        "Geert Hofstede",
-        "Paul Ekman",
-        "Margaret Mead",
-        "John Berry"
+        "Carol Gilligan",
+        "Albert Bandura",
+        "Lev Vygotsky",
+        "Jean Piaget"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Geert Hofstede's research identified cultural dimensions, such as individualism vs. collectivism, affecting behavior across cultures."
+      "explanation": "Carol Gilligan critiqued Kohlberg's model for its male-centric bias, proposing a female-oriented perspective on moral reasoning."
     },
     {
       "id": "gender-culture-bias-q10",
-      "question": "In a study, Japanese participants showed higher conformity rates than American participants. What cultural concept does this illustrate?",
+      "question": "A study finds that men are more aggressive than women due to higher testosterone levels. Which type of bias might this represent?",
       "options": [
-        "Collectivism",
-        "Individualism",
-        "Androcentrism",
-        "Ethnocentrism"
+        "Biological determinism",
+        "Cultural bias",
+        "Social determinism",
+        "Androcentrism"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The scenario illustrates collectivism, a cultural orientation where group harmony and consensus are valued over individual opinions."
+      "explanation": "The study may exhibit biological determinism by attributing behavior solely to biological factors without considering environmental influences."
     },
     {
       "id": "gender-culture-bias-q11",
-      "question": "A researcher assumes that findings from a study on American college students apply to all humans. What type of bias is this demonstrating?",
+      "question": "A researcher assumes that a Western model of intelligence applies universally. What issue does this illustrate?",
       "options": [
-        "Ethnocentrism",
-        "Beta bias",
+        "Imposed etic",
         "Alpha bias",
+        "Beta bias",
         "Cultural relativism"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The scenario shows beta bias, as it assumes cultural findings from one group are universally applicable without considering differences."
+      "explanation": "This scenario illustrates an imposed etic, as the researcher applies Western concepts of intelligence universally without cultural consideration."
     },
     {
       "id": "gender-culture-bias-q12",
-      "question": "A psychologist designs an intelligence test based on Western standards and applies it globally. What issue does this raise?",
+      "question": "In a cross-cultural study, if researchers ignore cultural differences and assume all findings apply universally, what bias does this demonstrate?",
       "options": [
-        "Cultural bias",
-        "Androcentrism",
+        "Beta bias",
         "Alpha bias",
-        "Beta bias"
+        "Ethnocentrism",
+        "Androcentrism"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The use of a Western-based intelligence test globally could lead to cultural bias, as it may not accurately reflect intelligence in other cultures."
+      "explanation": "Beta bias occurs when cultural differences are ignored, assuming that findings are universally applicable."
     },
     {
       "id": "gender-culture-bias-q13",
-      "question": "Which critique applies to Kohlberg's theory of moral development based on its sampling?",
+      "question": "Which of the following is a critique of gender bias in psychological research?",
       "options": [
-        "Androcentrism, as it was based on male participants",
-        "Ethnocentrism, as it favored Western cultures",
-        "Beta bias, as it minimized gender differences",
-        "Alpha bias, as it exaggerated cultural differences"
+        "It can lead to misleading conclusions about gender differences.",
+        "It always reflects biological realities.",
+        "It encourages a focus on individual differences.",
+        "It typically enhances research validity."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Kohlberg's theory was critiqued for androcentrism because it was developed using male participants, potentially overlooking female moral reasoning."
+      "explanation": "Gender bias can lead to skewed conclusions about gender differences, impacting the validity and applicability of research findings."
     },
     {
       "id": "gender-culture-bias-q14",
-      "question": "What limitation is associated with cross-cultural research when using Western methodologies?",
+      "question": "What is a common methodological issue in cross-cultural research?",
       "options": [
-        "Imposed etic",
-        "Cultural relativism",
-        "Beta bias",
-        "Alpha bias"
+        "Use of culturally biased assessment tools",
+        "Over-reliance on qualitative data",
+        "Excessive sample sizes",
+        "Neglecting biological factors"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Imposed etic occurs when researchers apply their own cultural norms to studies of other cultures, potentially leading to misinterpretation."
+      "explanation": "Cross-cultural research often uses tools developed in one culture, which may not be valid in another, leading to biased results."
     },
     {
       "id": "gender-culture-bias-q15",
-      "question": "What is a major criticism of the Strange Situation in understanding attachment across cultures?",
+      "question": "How can psychological research address cultural bias?",
       "options": [
-        "Ethnocentrism, as it was developed in the USA",
-        "Androcentrism, as it focused on female infants",
-        "Beta bias, as it assumed all children react similarly",
-        "Alpha bias, as it exaggerated attachment differences"
+        "By incorporating diverse cultural perspectives",
+        "By focusing solely on Western cultures",
+        "By standardizing all research methods",
+        "By emphasizing biological factors over cultural ones"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Strange Situation has been criticized for ethnocentrism because it was developed in a Western context and may not apply to other cultures."
+      "explanation": "Incorporating diverse cultural perspectives helps reduce cultural bias by ensuring research is applicable across different cultural contexts."
     }
   ]
 }

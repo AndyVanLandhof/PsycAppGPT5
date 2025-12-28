@@ -5,20 +5,20 @@
   "subTopic": "ocd",
   "subTopicTitle": "OCD",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:19:38.253Z",
+  "generatedAt": "2025-12-28T14:19:23.216Z",
   "items": [
     {
       "id": "ocd-q1",
-      "question": "What is the main characteristic of Obsessive-Compulsive Disorder (OCD)?",
+      "question": "What is the main component of the biological explanation of OCD?",
       "options": [
-        "Recurrent intrusive thoughts and repetitive behaviors",
-        "Extreme mood swings",
-        "Significant memory loss",
-        "Persistent feelings of sadness"
+        "Genetic inheritance",
+        "Classical conditioning",
+        "Observational learning",
+        "Cognitive distortions"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "OCD is characterized by recurrent intrusive thoughts (obsessions) and repetitive behaviors (compulsions) to reduce anxiety."
+      "explanation": "The biological explanation suggests OCD is primarily caused by genetic inheritance, supported by findings of higher concordance rates in twin studies."
     },
     {
       "id": "ocd-q2",
@@ -26,181 +26,181 @@
       "options": [
         "Serotonin",
         "Dopamine",
-        "GABA",
-        "Acetylcholine"
+        "Norepinephrine",
+        "Glutamate"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Research has shown that serotonin levels are often disrupted in individuals with OCD."
+      "explanation": "Serotonin is linked to OCD as low levels are believed to contribute to the symptoms, supported by the effectiveness of SSRIs in treatment."
     },
     {
       "id": "ocd-q3",
-      "question": "According to the biological approach, OCD is primarily caused by:",
+      "question": "According to the cognitive explanation, what maintains OCD symptoms?",
       "options": [
-        "Genetic factors",
-        "Learned behaviors",
-        "Unconscious conflicts",
-        "Environmental stressors"
+        "Cognitive distortions",
+        "Negative reinforcement",
+        "Positive reinforcement",
+        "Observational learning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The biological approach emphasizes genetic and neurochemical factors as key causes of OCD."
+      "explanation": "Cognitive distortions, such as overestimating danger, are thought to maintain OCD symptoms by perpetuating anxiety and compulsive behavior."
     },
     {
       "id": "ocd-q4",
-      "question": "In the study by Menzies et al. (2007), what brain structure was found to be different in patients with OCD?",
+      "question": "Which of the following is a common compulsion in OCD?",
       "options": [
-        "The orbitofrontal cortex",
-        "The amygdala",
-        "The hippocampus",
-        "The cerebellum"
+        "Checking",
+        "Repressing",
+        "Daydreaming",
+        "Avoidance"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Menzies et al. (2007) found abnormalities in the orbitofrontal cortex of individuals with OCD."
+      "explanation": "Checking is a common compulsion in OCD, where individuals repeatedly verify things like locked doors to alleviate anxiety."
     },
     {
       "id": "ocd-q5",
-      "question": "What is the main focus of Cognitive-Behavioral Therapy (CBT) when treating OCD?",
+      "question": "Who conducted a notable twin study on OCD in 1998?",
       "options": [
-        "Changing thought patterns",
-        "Medicating symptoms",
-        "Exploring childhood issues",
-        "Increasing physical activity"
+        "Carey and Gottesman",
+        "Nestadt et al.",
+        "Mowrer and Rescorla",
+        "Rachman and Hodgson"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "CBT focuses on changing maladaptive thought patterns and behaviors associated with OCD."
+      "explanation": "Nestadt et al. (2000) conducted a twin study showing higher concordance rates for OCD in monozygotic twins compared to dizygotic twins."
     },
     {
       "id": "ocd-q6",
-      "question": "Which of the following is NOT a common compulsion seen in OCD?",
+      "question": "Which brain area is implicated in OCD due to its role in error detection?",
       "options": [
-        "Counting",
-        "Washing",
-        "Checking",
-        "Withdrawing from social situations"
+        "Anterior cingulate cortex",
+        "Hippocampus",
+        "Amygdala",
+        "Prefrontal cortex"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Withdrawing from social situations is more related to social anxiety than OCD compulsions."
+      "explanation": "The anterior cingulate cortex is involved in error detection and is often hyperactive in those with OCD, contributing to their compulsions."
     },
     {
       "id": "ocd-q7",
-      "question": "Which genetic study found a higher concordance rate for OCD in identical twins compared to fraternal twins?",
+      "question": "Which type of therapy is most effective for treating OCD according to research?",
       "options": [
-        "Carey and Gottesman (1981)",
-        "Nestadt et al. (2000)",
-        "Rosenhan (1973)",
-        "Zohar et al. (1996)"
+        "Cognitive-behavioral therapy",
+        "Psychoanalysis",
+        "Humanistic therapy",
+        "Systematic desensitization"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Carey and Gottesman (1981) found a higher concordance rate for OCD in identical twins, suggesting a genetic component."
+      "explanation": "Cognitive-behavioral therapy, specifically exposure and response prevention, is most effective for treating OCD by reducing compulsive behaviors."
     },
     {
       "id": "ocd-q8",
-      "question": "Which of the following is a limitation of the biological approach to explaining OCD?",
+      "question": "What is the estimated prevalence of OCD in the general population?",
       "options": [
-        "It ignores environmental factors",
-        "It provides no treatment options",
-        "It overemphasizes conscious control",
-        "It lacks empirical support"
+        "1-2%",
+        "5-6%",
+        "10-12%",
+        "15-20%"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The biological approach is criticized for ignoring environmental and psychological factors that may contribute to OCD."
+      "explanation": "OCD affects approximately 1-2% of the general population, indicating it is a relatively common mental health disorder."
     },
     {
       "id": "ocd-q9",
-      "question": "Which therapy involves exposing the patient to the source of their anxiety without allowing them to perform their compulsive behavior?",
+      "question": "Which psychological approach primarily focuses on irrational beliefs in OCD?",
       "options": [
-        "Exposure and Response Prevention (ERP)",
-        "Client-Centered Therapy",
-        "Systematic Desensitization",
-        "Psychoanalysis"
+        "Cognitive",
+        "Behavioral",
+        "Biological",
+        "Psychodynamic"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Exposure and Response Prevention (ERP) involves exposing patients to their anxiety triggers while preventing the compulsive response."
+      "explanation": "The cognitive approach addresses irrational beliefs and cognitive distortions as key factors in the development and maintenance of OCD."
     },
     {
       "id": "ocd-q10",
-      "question": "John is terrified of germs and spends hours each day washing his hands. Which aspect of OCD does this behavior exemplify?",
+      "question": "Jane frequently washes her hands to avoid contamination. Her behavior is best explained by which learning principle?",
       "options": [
-        "Compulsions",
-        "Obsessions",
-        "Avoidance",
-        "Phobias"
+        "Negative reinforcement",
+        "Classical conditioning",
+        "Positive punishment",
+        "Observational learning"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "John's handwashing is a compulsion, a repetitive behavior aimed at reducing anxiety associated with his obsession with germs."
+      "explanation": "Jane's handwashing is negatively reinforced as it reduces her anxiety about contamination, making the behavior more likely to occur."
     },
     {
       "id": "ocd-q11",
-      "question": "Emily constantly fears she left the stove on and repeatedly checks it throughout the day. What OCD symptom does this illustrate?",
+      "question": "Tom has an intrusive thought that his house may catch fire if he doesn't check the stove. What is this thought an example of?",
       "options": [
-        "Checking compulsion",
-        "Hoarding",
-        "Counting obsession",
-        "Cleaning compulsion"
+        "Obsessive thought",
+        "Compulsive behavior",
+        "Cognitive distortion",
+        "Delusion"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Emily's repetitive checking behavior is a typical compulsion in OCD aimed at reducing anxiety about potential harm."
+      "explanation": "Tom's thought is an obsessive thought, characterized by repetitive and intrusive ideas that cause significant anxiety."
     },
     {
       "id": "ocd-q12",
-      "question": "A study finds a significant reduction in OCD symptoms after patients undergo ERP therapy. This result supports which type of explanation?",
+      "question": "A researcher finds that patients with OCD show increased activity in the orbitofrontal cortex. This finding is most relevant to which explanation of OCD?",
       "options": [
-        "Behavioral",
-        "Biological",
-        "Psychodynamic",
-        "Humanistic"
+        "Biological explanation",
+        "Behavioral explanation",
+        "Cognitive explanation",
+        "Psychodynamic explanation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "ERP is based on behavioral principles, and a reduction in symptoms supports the effectiveness of behavioral interventions for OCD."
+      "explanation": "Increased activity in the orbitofrontal cortex supports the biological explanation of OCD, which implicates brain structures in the disorder."
     },
     {
       "id": "ocd-q13",
-      "question": "Which of the following is a critique of the genetic explanation for OCD?",
+      "question": "Which of the following is a limitation of the genetic explanation for OCD?",
       "options": [
-        "It cannot account for the role of environmental triggers",
-        "It overemphasizes cultural factors",
-        "It ignores neurochemical factors",
-        "It provides an overly simplistic view of synaptic transmission"
+        "It cannot account for all OCD cases",
+        "It overemphasizes environmental influences",
+        "It lacks empirical support",
+        "It is too deterministic"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The genetic explanation is critiqued for not considering environmental factors that may also contribute to OCD development."
+      "explanation": "The genetic explanation cannot account for all OCD cases as environmental factors also play a significant role, indicating a more complex interaction."
     },
     {
       "id": "ocd-q14",
-      "question": "How does the cognitive explanation of OCD differ from the biological explanation?",
+      "question": "What is a major criticism of using SSRIs to treat OCD?",
       "options": [
-        "Focuses on thought processes rather than brain structures",
-        "Emphasizes synaptic transmission",
-        "Relies on genetic predisposition",
-        "Utilizes pharmacological interventions"
+        "They can have side effects",
+        "They are ineffective",
+        "They require cognitive therapy",
+        "They cure OCD"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The cognitive explanation focuses on maladaptive thought processes, whereas the biological explanation emphasizes brain structures and neurochemistry."
+      "explanation": "A major criticism of SSRIs is their side effects, which can include nausea and insomnia, highlighting the need for careful management."
     },
     {
       "id": "ocd-q15",
-      "question": "What is a strength of using SSRIs in the treatment of OCD?",
+      "question": "How does the cognitive approach to OCD differ from the biological approach?",
       "options": [
-        "They can reduce symptoms for many patients",
-        "They are effective in all cases",
-        "They address underlying psychological issues",
-        "They cure OCD permanently"
+        "Focuses on thought patterns instead of brain structures",
+        "Suggests OCD is learned behavior",
+        "Emphasizes unconscious conflicts",
+        "Focuses on genetic inheritance"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "SSRIs are effective for many patients in reducing OCD symptoms by increasing serotonin levels in the brain."
+      "explanation": "The cognitive approach differs by focusing on maladaptive thought patterns, whereas the biological approach looks at brain structures and genetics."
     }
   ]
 }

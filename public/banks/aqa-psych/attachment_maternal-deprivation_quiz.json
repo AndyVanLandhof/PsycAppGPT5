@@ -5,202 +5,202 @@
   "subTopic": "maternal-deprivation",
   "subTopicTitle": "Maternal deprivation",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:14:45.541Z",
+  "generatedAt": "2025-12-28T14:14:51.448Z",
   "items": [
     {
       "id": "maternal-deprivation-q1",
-      "question": "What is the main premise of Bowlby's theory of maternal deprivation?",
+      "question": "Who developed the Maternal Deprivation Hypothesis?",
       "options": [
-        "Prolonged separation from the mother in early childhood can lead to serious emotional and cognitive consequences.",
-        "Children form attachments with the first person who feeds them.",
-        "Attachment is based on the quality of the caregiving rather than the quantity of time spent together.",
-        "Secure attachments in infancy lead to better social relationships in adulthood."
+        "John Bowlby",
+        "Harry Harlow",
+        "Mary Ainsworth",
+        "Sigmund Freud"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby proposed that continuous maternal care is essential for normal psychological development."
+      "explanation": "John Bowlby proposed the Maternal Deprivation Hypothesis, emphasizing the importance of a continuous relationship with a primary caregiver."
     },
     {
       "id": "maternal-deprivation-q2",
-      "question": "According to Bowlby, what is the critical period for attachment formation?",
+      "question": "According to Bowlby, what is the critical period for attachment?",
       "options": [
-        "0 to 2 years",
-        "0 to 5 years",
-        "2.5 to 5 years",
-        "5 to 7 years"
+        "0-2 years",
+        "2-5 years",
+        "5-7 years",
+        "7-10 years"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby suggested that the critical period for forming attachments is within the first two years of life."
+      "explanation": "Bowlby suggested that the critical period for forming attachments is between birth and 2 years."
     },
     {
       "id": "maternal-deprivation-q3",
-      "question": "Which study is often cited as evidence for the effects of maternal deprivation?",
+      "question": "What was the main finding of Bowlby's 44 thieves study (1944)?",
       "options": [
-        "Harlow's monkey studies (1958)",
-        "Lorenz's imprinting studies (1935)",
-        "Ainsworth's Strange Situation (1970)",
-        "Rutter's Romanian orphan studies (1981)"
+        "Maternal deprivation leads to affectionless psychopathy",
+        "Separation anxiety occurs in all children",
+        "Secure attachments lead to better social skills",
+        "Attachment styles are consistent over time"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Harlow's studies demonstrated the importance of caregiving and companionship in social and cognitive development."
+      "explanation": "Bowlby's study found that a high percentage of juvenile thieves experienced early prolonged separation from their mothers and were affectionless psychopaths."
     },
     {
       "id": "maternal-deprivation-q4",
-      "question": "Which of the following is NOT a consequence of maternal deprivation, according to Bowlby?",
+      "question": "Which of the following is NOT a consequence of maternal deprivation according to Bowlby?",
       "options": [
         "Affectionless psychopathy",
+        "Social competence",
         "Intellectual retardation",
-        "Secure attachment",
-        "Delinquency"
+        "Increased aggression"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "Secure attachment is not a consequence of deprivation; rather, deprivation can lead to insecure attachment."
+      "explanation": "Bowlby posited that maternal deprivation could result in affectionless psychopathy, intellectual retardation, and increased aggression, but not increased social competence."
     },
     {
       "id": "maternal-deprivation-q5",
-      "question": "Bowlby's theory of maternal deprivation emphasizes the importance of which type of attachment?",
+      "question": "In Bowlby's theory, what is meant by 'monotropy'?",
       "options": [
-        "Monotropic",
-        "Polytropic",
-        "Biotropic",
-        "Symbiotic"
+        "A child's attachment to one primary caregiver",
+        "Multiple attachments are equally important",
+        "Attachment to peers",
+        "Attachment that is only formed later in life"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby believed in the concept of monotropy, where one primary attachment is crucial for development."
+      "explanation": "Monotropy refers to Bowlby's belief that a child has an innate tendency to become attached to one main attachment figure."
     },
     {
       "id": "maternal-deprivation-q6",
-      "question": "What did Robertson and Robertson's study (1968) demonstrate about short-term separation?",
+      "question": "Which study provided evidence against Bowlby's Maternal Deprivation Hypothesis?",
       "options": [
-        "Short-term separation can lead to distress but recovery is possible if reunification occurs.",
-        "Children are unaffected by brief separations from their caregiver.",
-        "Separation leads to permanent attachment disruption.",
-        "Short-term separation results in immediate developmental delays."
+        "Rutter's Romanian Orphans Study (1998)",
+        "Ainsworth's Strange Situation (1970)",
+        "Harlow's Monkeys (1958)",
+        "Lorenz's Geese (1935)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Robertson and Robertson found that children displayed distress but could recover with a supportive environment."
+      "explanation": "Rutter's study of Romanian orphans indicated that many children could recover from deprivation, contradicting Bowlby's idea of irreversible damage."
     },
     {
       "id": "maternal-deprivation-q7",
-      "question": "Which researcher criticized Bowlby's theory of maternal deprivation by emphasizing the role of social and environmental factors?",
+      "question": "What is the main criticism of the 44 thieves study?",
       "options": [
-        "Michael Rutter",
-        "Mary Ainsworth",
-        "Harry Harlow",
-        "Konrad Lorenz"
+        "It lacked a control group",
+        "It used a large sample size",
+        "It was conducted in a naturalistic setting",
+        "It focused on cognitive development"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rutter argued that deprivation's effects are influenced by other social and environmental factors, not just separation."
+      "explanation": "A major criticism is the lack of a control group, which makes it difficult to establish a causal relationship between deprivation and affectionless psychopathy."
     },
     {
       "id": "maternal-deprivation-q8",
-      "question": "What is a potential long-term effect of maternal deprivation identified by Bowlby?",
+      "question": "What does 'institutionalisation' refer to in the context of attachment?",
       "options": [
-        "Affectionless psychopathy",
-        "Enhanced cognitive skills",
-        "Increased sociability",
-        "Improved emotional regulation"
+        "Effects of living in an orphanage",
+        "Secure attachment formation",
+        "Emotional bonding with family",
+        "Peer influence on attachment"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby noted that affectionless psychopathy, characterized by a lack of empathy, is a potential effect of deprivation."
+      "explanation": "Institutionalisation refers to the effects on attachment and development due to being raised in an institutional setting, such as an orphanage."
     },
     {
       "id": "maternal-deprivation-q9",
-      "question": "Which of the following best describes the term 'affectionless psychopathy' as used by Bowlby?",
+      "question": "What was the key finding from Harlow's monkey studies relevant to attachment?",
       "options": [
-        "An inability to show affection or concern for others",
-        "A heightened sense of empathy and emotional sensitivity",
-        "A preference for solitary activities",
-        "An unusually strong attachment to multiple caregivers"
+        "Comfort is more important than food for attachment",
+        "Food is the primary factor in attachment",
+        "Attachment is innate and automatic",
+        "Socialization is not necessary for attachment"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Affectionless psychopathy refers to an individual's lack of empathy and inability to care for others, per Bowlby."
+      "explanation": "Harlow's studies demonstrated that infant monkeys preferred a comforting cloth surrogate mother over a wire one that provided food, highlighting the importance of comfort."
     },
     {
       "id": "maternal-deprivation-q10",
-      "question": "A child who was separated from their mother for several months exhibits difficulties forming relationships at school. Which concept does this scenario illustrate?",
+      "question": "A child who spent their early years in an orphanage is struggling in school and forming friendships. Which concept best explains this?",
       "options": [
         "Maternal deprivation",
-        "Imprinting",
-        "Separation anxiety",
+        "Secure attachment",
+        "Authoritative parenting",
         "Stranger anxiety"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The scenario illustrates maternal deprivation, which can lead to issues in forming future relationships."
+      "explanation": "Maternal deprivation may explain the child's difficulties in forming attachments and subsequent social and academic challenges."
     },
     {
       "id": "maternal-deprivation-q11",
-      "question": "A researcher observes that children in an orphanage have lower IQ scores than children raised with their families. What theory might explain this observation?",
+      "question": "A psychologist is studying children adopted from institutions. She notices some recover well, while others struggle. Which study supports this variability?",
       "options": [
-        "Bowlby's maternal deprivation hypothesis",
-        "Ainsworth's attachment theory",
-        "Lorenz's imprinting theory",
-        "Freud's psychosexual stages"
+        "Rutter's Romanian Orphans Study (1998)",
+        "Ainsworth's Strange Situation (1970)",
+        "Bowlby's 44 Thieves Study (1944)",
+        "Harlow's Monkeys (1958)"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Bowlby's theory suggests that deprivation can lead to intellectual retardation, explaining the lower IQ scores."
+      "explanation": "Rutter's study found variability in outcomes for children adopted from institutions, with some showing remarkable recovery while others faced ongoing challenges."
     },
     {
       "id": "maternal-deprivation-q12",
-      "question": "A child displays high levels of anxiety and withdrawal following a short separation from their mother. What does this behavior suggest about the child's attachment?",
+      "question": "A teacher observes that a student is overly dependent on adults and struggles with peers. Which attachment issue might this indicate?",
       "options": [
-        "Insecure attachment due to maternal deprivation",
-        "Secure attachment with normal separation anxiety",
-        "Avoidant attachment style",
-        "Disorganized attachment style"
+        "Maternal deprivation",
+        "Stranger anxiety",
+        "Disinhibited attachment",
+        "Secure attachment"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO2",
-      "explanation": "The child's anxiety and withdrawal post-separation suggest an insecure attachment possibly stemming from deprivation."
+      "explanation": "Disinhibited attachment, often resulting from institutional care, can cause children to seek attention from all adults and have difficulty with peer relationships."
     },
     {
       "id": "maternal-deprivation-q13",
-      "question": "How did Rutter's research challenge Bowlby's maternal deprivation hypothesis?",
+      "question": "What is a methodological criticism of Harlow's monkey studies?",
       "options": [
-        "By showing that deprivation effects can be overcome with adequate social stimulation",
-        "By proving that maternal care is unnecessary for healthy attachment",
-        "By demonstrating that deprivation has no long-term effects",
-        "By indicating that deprivation only affects physical development"
+        "Ethical concerns regarding animal treatment",
+        "Lack of a control group",
+        "Small sample size",
+        "Human applicability"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Rutter's research highlighted that with adequate care, the negative effects of early deprivation can be mitigated."
+      "explanation": "Harlow's studies are criticized for ethical issues due to the distress caused to the monkeys, raising questions about the morality of the research."
     },
     {
       "id": "maternal-deprivation-q14",
-      "question": "Which methodological issue is a common criticism of Bowlby's 44 Thieves study?",
+      "question": "How does the concept of 'privation' differ from 'deprivation' in attachment theory?",
       "options": [
-        "The use of a biased sample",
-        "The lack of a control group",
-        "The over-reliance on animal studies",
-        "The lack of longitudinal data"
+        "Privation is never having formed an attachment, while deprivation is loss of an attachment",
+        "Privation refers to loss of an attachment, while deprivation is never having formed one",
+        "Both refer to loss of an attachment",
+        "Both refer to never having formed an attachment"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Critics argue that Bowlby's study used a biased sample, affecting the generalizability of the results."
+      "explanation": "Privation means an attachment was never formed, whereas deprivation refers to the loss of an established attachment."
     },
     {
       "id": "maternal-deprivation-q15",
-      "question": "What is a limitation of using retrospective data in the study of maternal deprivation?",
+      "question": "Which of the following is an argument against the universality of Bowlby's critical period?",
       "options": [
-        "It can lead to inaccurate recall and bias",
-        "It is too time-consuming",
-        "It provides too much qualitative data",
-        "It is not suitable for adult participants"
+        "Rutter's findings on recovery after deprivation",
+        "Ainsworth's attachment types",
+        "Harlow's emphasis on comfort",
+        "Freud's psychosexual stages"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Retrospective data may be unreliable due to inaccurate recall and potential bias, affecting study validity."
+      "explanation": "Rutter's research demonstrated that children could recover from early deprivation, suggesting that the critical period for attachment may not be as rigid as Bowlby proposed."
     }
   ]
 }

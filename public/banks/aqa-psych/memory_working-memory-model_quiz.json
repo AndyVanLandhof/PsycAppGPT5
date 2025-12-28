@@ -5,128 +5,128 @@
   "subTopic": "working-memory-model",
   "subTopicTitle": "Working memory model",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:12:30.828Z",
+  "generatedAt": "2025-12-28T14:12:46.834Z",
   "items": [
     {
       "id": "working-memory-model-q1",
-      "question": "Which component of the working memory model is responsible for processing auditory information?",
-      "options": [
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
-        "Episodic buffer",
-        "Central executive"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The phonological loop processes auditory information, as proposed by Baddeley and Hitch (1974)."
-    },
-    {
-      "id": "working-memory-model-q2",
-      "question": "What role does the central executive play in the working memory model?",
-      "options": [
-        "Coordinates the activities of the other components",
-        "Stores visual and spatial information",
-        "Processes auditory information",
-        "Links working memory with long-term memory"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The central executive is responsible for coordinating the activities of the phonological loop, visuo-spatial sketchpad, and episodic buffer (Baddeley & Hitch, 1974)."
-    },
-    {
-      "id": "working-memory-model-q3",
-      "question": "According to Baddeley (2000), which component was added to the working memory model to address the integration of information?",
-      "options": [
-        "Episodic buffer",
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
-        "Central executive"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Baddeley (2000) introduced the episodic buffer to integrate information from different sources into a coherent whole."
-    },
-    {
-      "id": "working-memory-model-q4",
-      "question": "Which component of the working memory model is primarily involved in visual and spatial processing?",
-      "options": [
-        "Visuo-spatial sketchpad",
-        "Phonological loop",
-        "Central executive",
-        "Episodic buffer"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The visuo-spatial sketchpad is involved in processing visual and spatial information as per Baddeley and Hitch (1974)."
-    },
-    {
-      "id": "working-memory-model-q5",
-      "question": "Who were the original proposers of the working memory model?",
+      "question": "Who proposed the Working Memory Model?",
       "options": [
         "Baddeley and Hitch",
         "Atkinson and Shiffrin",
-        "Craik and Lockhart",
-        "Tulving and Thompson"
+        "Tulving",
+        "Loftus and Palmer"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The working memory model was originally proposed by Baddeley and Hitch in 1974."
+      "explanation": "Baddeley and Hitch proposed the Working Memory Model in 1974, highlighting the structure of short-term memory."
+    },
+    {
+      "id": "working-memory-model-q2",
+      "question": "Which component of the Working Memory Model is responsible for verbal information?",
+      "options": [
+        "Phonological loop",
+        "Visuo-spatial sketchpad",
+        "Central executive",
+        "Episodic buffer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The phonological loop handles verbal information, consisting of the phonological store and articulatory process."
+    },
+    {
+      "id": "working-memory-model-q3",
+      "question": "What does the central executive do in the Working Memory Model?",
+      "options": [
+        "Coordinates the activities of the subsystems",
+        "Stores visual and spatial information",
+        "Processes verbal information",
+        "Stores integrated information"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The central executive is responsible for directing attention and coordinating the activities of the other components."
+    },
+    {
+      "id": "working-memory-model-q4",
+      "question": "Which study provided evidence for the separate existence of the phonological loop?",
+      "options": [
+        "Baddeley et al. (1975)",
+        "Peterson and Peterson (1959)",
+        "Miller (1956)",
+        "Glanzer and Cunitz (1966)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Baddeley et al. (1975) provided evidence through the word length effect, supporting the phonological loop's role in verbal memory."
+    },
+    {
+      "id": "working-memory-model-q5",
+      "question": "In the Working Memory Model, what is the role of the visuo-spatial sketchpad?",
+      "options": [
+        "Stores visual and spatial information",
+        "Processes verbal information",
+        "Coordinates subsystem activities",
+        "Integrates information from different sources"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The visuo-spatial sketchpad is responsible for storing and processing visual and spatial information."
     },
     {
       "id": "working-memory-model-q6",
-      "question": "What is the primary function of the phonological store within the phonological loop?",
+      "question": "What was the purpose of the episodic buffer added to the Working Memory Model in 2000?",
       "options": [
-        "Holds speech-based information for 1-2 seconds",
-        "Coordinates the entire memory system",
-        "Integrates information from multiple sources",
-        "Processes visual information"
+        "To integrate information from different sources",
+        "To store auditory information",
+        "To focus attention",
+        "To process visual information"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The phonological store holds speech-based information for a short period, typically 1-2 seconds (Baddeley, 1986)."
+      "explanation": "The episodic buffer was added to integrate information across the phonological loop, visuo-spatial sketchpad, and long-term memory."
     },
     {
       "id": "working-memory-model-q7",
-      "question": "What is the capacity of the visuo-spatial sketchpad according to Baddeley (1986)?",
+      "question": "Which of the following is NOT a component of the Working Memory Model?",
       "options": [
-        "Limited capacity",
-        "Unlimited capacity",
-        "Dependent on the central executive",
-        "Capacity equal to the phonological loop"
+        "Long-term memory",
+        "Phonological loop",
+        "Visuo-spatial sketchpad",
+        "Central executive"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The visuo-spatial sketchpad has a limited capacity for storing visual and spatial information, as per Baddeley (1986)."
+      "explanation": "Long-term memory is not a component of the Working Memory Model, which focuses on short-term memory processes."
     },
     {
       "id": "working-memory-model-q8",
-      "question": "Which component of the working memory model acts as a bridge between working memory and long-term memory?",
+      "question": "What evidence did Logie (1995) provide for the existence of two separate components within the visuo-spatial sketchpad?",
       "options": [
-        "Episodic buffer",
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
-        "Central executive"
+        "Visuo-cache and inner scribe",
+        "Phonological store and articulatory control",
+        "Central executive function",
+        "Episodic buffer integration"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The episodic buffer serves as a bridge between working memory and long-term memory, integrating information (Baddeley, 2000)."
+      "explanation": "Logie (1995) suggested that the visuo-spatial sketchpad consists of the visuo-cache for storing visual data and the inner scribe for spatial processing."
     },
     {
       "id": "working-memory-model-q9",
-      "question": "In Baddeley's working memory model, which component is responsible for attentional control?",
+      "question": "Which component of the Working Memory Model is thought to have limited capacity?",
       "options": [
         "Central executive",
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
-        "Episodic buffer"
+        "Long-term memory",
+        "Episodic buffer",
+        "Phonological loop"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The central executive is responsible for attentional control within the working memory model (Baddeley & Hitch, 1974)."
+      "explanation": "The central executive is described as having a limited capacity and primarily focuses on attention control and resource allocation."
     },
     {
       "id": "working-memory-model-q10",
-      "question": "A student is trying to remember a phone number by repeating it to themselves. Which component of the working memory model are they primarily using?",
+      "question": "During a class experiment, students were asked to memorize a list of words while repeating the word 'the' out loud. Which component of the Working Memory Model is being overloaded in this task?",
       "options": [
         "Phonological loop",
         "Visuo-spatial sketchpad",
@@ -135,72 +135,72 @@
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The student is using the phonological loop, which is involved in verbal rehearsal and short-term storage of auditory information."
+      "explanation": "Repeating 'the' engages the phonological loop, which can interfere with storing the list of words, demonstrating its limited capacity."
     },
     {
       "id": "working-memory-model-q11",
-      "question": "During a study, participants are asked to recall a sequence of visually presented numbers while simultaneously solving a puzzle. Which component is likely being overloaded?",
+      "question": "A patient with brain damage can remember visual patterns but struggles with verbal instructions. Which component of their Working Memory is likely impaired?",
       "options": [
-        "Visuo-spatial sketchpad",
         "Phonological loop",
-        "Episodic buffer",
-        "Central executive"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The visuo-spatial sketchpad is likely overloaded due to the simultaneous processing of visual information from the numbers and the puzzle."
-    },
-    {
-      "id": "working-memory-model-q12",
-      "question": "A researcher asks participants to remember a list of words while ignoring background noise. Which component is primarily being tested?",
-      "options": [
+        "Visuo-spatial sketchpad",
         "Central executive",
-        "Phonological loop",
-        "Visuo-spatial sketchpad",
         "Episodic buffer"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The central executive is being tested as it is responsible for focusing attention and filtering out irrelevant information."
+      "explanation": "The patient's difficulty with verbal instructions suggests an impairment in the phonological loop, which processes verbal information."
+    },
+    {
+      "id": "working-memory-model-q12",
+      "question": "A student is able to navigate a new route while talking on the phone. Which components of the Working Memory Model are being utilized?",
+      "options": [
+        "Visuo-spatial sketchpad and phonological loop",
+        "Central executive and episodic buffer",
+        "Episodic buffer and visuo-spatial sketchpad",
+        "Phonological loop and episodic buffer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The visuo-spatial sketchpad handles navigation, while the phonological loop processes verbal conversation."
     },
     {
       "id": "working-memory-model-q13",
-      "question": "What is a criticism of the central executive in the working memory model?",
+      "question": "What is a limitation of the central executive as described in the Working Memory Model?",
       "options": [
-        "It is vaguely defined and lacks clarity",
+        "It lacks detailed explanation of its processes",
+        "It cannot process visual information",
         "It has unlimited capacity",
-        "It only processes verbal information",
-        "It cannot integrate information from different sources"
+        "It processes only verbal information"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The central executive is criticized for being vaguely defined, as it is not clear how it functions or manages multiple tasks (Baddeley, 2003)."
+      "explanation": "The central executive is criticized for being poorly defined and lacking detail on how it functions or processes information."
     },
     {
       "id": "working-memory-model-q14",
-      "question": "How does the working memory model differ from the multi-store model of memory proposed by Atkinson and Shiffrin (1968)?",
+      "question": "How does the Working Memory Model improve on the Multi-Store Model?",
       "options": [
-        "It emphasizes active processing rather than passive storage",
-        "It only includes short-term memory",
-        "It does not account for long-term memory",
-        "It focuses solely on sensory memory"
+        "It provides a more detailed account of short-term memory",
+        "It integrates long-term memory processes",
+        "It explains the transfer to long-term memory",
+        "It focuses solely on sensory input"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The working memory model focuses on active processing of information, unlike the passive storage emphasized in the multi-store model."
+      "explanation": "The Working Memory Model provides a more detailed and dynamic explanation of short-term memory compared to the Multi-Store Model's unitary view."
     },
     {
       "id": "working-memory-model-q15",
-      "question": "What evidence supports the distinction between the phonological loop and the visuo-spatial sketchpad?",
+      "question": "What is a methodological strength of Baddeley et al.'s (1975) research supporting the phonological loop?",
       "options": [
-        "Dual-task studies show separate processing",
-        "Both have unlimited capacity",
-        "They rely on the same neural pathways",
-        "They process information at the same speed"
+        "Use of controlled laboratory experiments",
+        "Large sample size",
+        "Longitudinal data collection",
+        "Ethnographic fieldwork"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Dual-task studies demonstrate that tasks using the phonological loop and visuo-spatial sketchpad do not interfere with each other, indicating separate processing systems (Baddeley & Hitch, 1974)."
+      "explanation": "Baddeley et al. (1975) used controlled laboratory experiments, which allowed for precise manipulation of variables and reliable results."
     }
   ]
 }

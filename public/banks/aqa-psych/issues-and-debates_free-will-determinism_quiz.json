@@ -5,202 +5,202 @@
   "subTopic": "free-will-determinism",
   "subTopicTitle": "Free will and determinism",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:22:13.902Z",
+  "generatedAt": "2025-12-28T14:21:35.533Z",
   "items": [
     {
       "id": "free-will-determinism-q1",
-      "question": "Which psychological approach is most closely associated with the concept of free will?",
+      "question": "Which of the following best defines 'free will' in the context of psychology?",
       "options": [
-        "Humanistic",
-        "Behaviorist",
-        "Biological",
-        "Cognitive"
+        "The ability to make choices that are not determined by biological or external forces.",
+        "The influence of genetic predispositions on behavior.",
+        "The idea that all behavior is determined by past experiences.",
+        "The concept that behavior is shaped by cultural norms."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The humanistic approach, particularly associated with Carl Rogers and Abraham Maslow, emphasizes free will and personal agency."
+      "explanation": "Free will refers to the capacity to make choices independent of deterministic influences."
     },
     {
       "id": "free-will-determinism-q2",
-      "question": "Which type of determinism is most closely linked with the influence of genes on behavior?",
-      "options": [
-        "Biological determinism",
-        "Environmental determinism",
-        "Psychic determinism",
-        "Social determinism"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Biological determinism suggests that behavior is controlled by genetic and physiological factors."
-    },
-    {
-      "id": "free-will-determinism-q3",
-      "question": "Who conducted a study that suggested behavior is determined by unconscious forces?",
-      "options": [
-        "Sigmund Freud",
-        "Albert Bandura",
-        "Jean Piaget",
-        "B.F. Skinner"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Sigmund Freud proposed that unconscious forces and childhood experiences shape behavior, a concept known as psychic determinism."
-    },
-    {
-      "id": "free-will-determinism-q4",
-      "question": "Which study demonstrated the impact of environmental determinism on behavior?",
-      "options": [
-        "Bandura et al. (1961) Bobo doll experiment",
-        "Milgram (1963) study on obedience",
-        "Harlow's (1958) study on attachment",
-        "Zimbardo (1971) Stanford prison experiment"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Bandura's study showed that behavior can be learned through environmental influences, such as observing aggression in others."
-    },
-    {
-      "id": "free-will-determinism-q5",
-      "question": "What is the key difference between hard determinism and soft determinism?",
-      "options": [
-        "Soft determinism allows for free will, hard determinism does not",
-        "Hard determinism is more scientific than soft determinism",
-        "Soft determinism is another term for free will",
-        "Hard determinism only applies to biological factors"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Soft determinism suggests that behavior is determined but individuals still have the ability to make conscious choices, unlike hard determinism which denies free will."
-    },
-    {
-      "id": "free-will-determinism-q6",
-      "question": "Which researcher argued that 'free will is an illusion'?",
+      "question": "Who is most closely associated with the idea of hard determinism?",
       "options": [
         "B.F. Skinner",
         "Carl Rogers",
-        "Albert Bandura",
-        "Wilhelm Wundt"
+        "Abraham Maslow",
+        "Sigmund Freud"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "B.F. Skinner, a behaviorist, argued that free will is an illusion and that all behavior is the result of conditioning."
+      "explanation": "B.F. Skinner, a behaviorist, believed that behavior is determined by environmental factors."
+    },
+    {
+      "id": "free-will-determinism-q3",
+      "question": "Which study by Libet is often cited in discussions about the limitations of free will?",
+      "options": [
+        "Libet et al. (1983)",
+        "Libet et al. (1975)",
+        "Libet et al. (1990)",
+        "Libet et al. (2000)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Libet et al. (1983) found that brain activity occurred before conscious decision-making, challenging the concept of free will."
+    },
+    {
+      "id": "free-will-determinism-q4",
+      "question": "What is the primary focus of soft determinism?",
+      "options": [
+        "That behavior is determined but there is room for personal agency.",
+        "That all behavior is predetermined by genetics.",
+        "That free will is an illusion and all actions are externally controlled.",
+        "That behavior is entirely random and unpredictable."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Soft determinism suggests that while behavior is influenced by determinism, individuals still have the capacity for choice."
+    },
+    {
+      "id": "free-will-determinism-q5",
+      "question": "Which psychological approach is most aligned with the concept of free will?",
+      "options": [
+        "Humanistic psychology",
+        "Behaviorism",
+        "Psychoanalysis",
+        "Biological psychology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Humanistic psychology, particularly advocated by Carl Rogers and Abraham Maslow, emphasizes personal agency and free will."
+    },
+    {
+      "id": "free-will-determinism-q6",
+      "question": "What does biological determinism suggest?",
+      "options": [
+        "Behavior is controlled by genetic and biological factors.",
+        "Behavior is shaped solely by environmental influences.",
+        "Individuals have complete free will over their actions.",
+        "Cultural factors have the most significant influence on behavior."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Biological determinism posits that biological factors, such as genetics, dictate behavior."
     },
     {
       "id": "free-will-determinism-q7",
-      "question": "Which concept refers to the idea that behavior is caused by unconscious conflicts?",
+      "question": "Which term describes the idea that behavior can be influenced by unconscious forces?",
       "options": [
         "Psychic determinism",
-        "Biological determinism",
         "Environmental determinism",
-        "Social determinism"
+        "Biological determinism",
+        "Cultural determinism"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Psychic determinism, a concept in Freudian theory, suggests behavior is driven by unconscious conflicts and desires."
+      "explanation": "Psychic determinism is the concept, often associated with Freud, that unconscious processes can influence behavior."
     },
     {
       "id": "free-will-determinism-q8",
-      "question": "What does the term 'reciprocal determinism' refer to?",
+      "question": "What is environmental determinism?",
       "options": [
-        "The interaction of personal, behavioral, and environmental influences",
-        "The genetic predisposition to certain behaviors",
-        "The influence of childhood experiences on adult behavior",
-        "The conscious control over one's actions"
+        "The belief that behavior is shaped by external environmental factors.",
+        "The concept that behavior is determined by genetic predispositions.",
+        "The idea that free will is the primary driver of behavior.",
+        "The theory that cultural values have no impact on behavior."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Albert Bandura's concept of reciprocal determinism suggests that personal, behavioral, and environmental factors influence each other."
+      "explanation": "Environmental determinism suggests that behavior is primarily shaped by environmental influences, such as upbringing and social context."
     },
     {
       "id": "free-will-determinism-q9",
-      "question": "Which of the following is an example of environmental determinism?",
+      "question": "Which of the following researchers is associated with the belief in free will?",
       "options": [
-        "Learning a language through exposure",
-        "Inheriting a genetic predisposition for a trait",
-        "Developing a phobia due to unconscious fears",
-        "Making a choice based on personal beliefs"
+        "Carl Rogers",
+        "B.F. Skinner",
+        "John Watson",
+        "Ivan Pavlov"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Environmental determinism refers to behaviors learned from the environment, such as acquiring language through exposure."
+      "explanation": "Carl Rogers, a humanistic psychologist, emphasized the role of free will and personal agency in human behavior."
     },
     {
       "id": "free-will-determinism-q10",
-      "question": "Sarah chooses to work late every night because she believes it will lead to a promotion. Which concept does this scenario best illustrate?",
+      "question": "Emma decides to study psychology because she feels it aligns with her interests. Which concept is being demonstrated?",
       "options": [
-        "Soft determinism",
+        "Free will",
         "Hard determinism",
         "Biological determinism",
-        "Psychic determinism"
+        "Environmental determinism"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Sarah's decision reflects soft determinism, where behavior is determined by goals and intentions but still involves personal choice."
+      "explanation": "Emma's decision based on personal interest reflects free will, as it is a choice made independently of deterministic factors."
     },
     {
       "id": "free-will-determinism-q11",
-      "question": "John’s aggressive behavior is attributed to a genetic predisposition. How would this be classified?",
+      "question": "Tom grew up in a family of musicians and becomes a successful composer. How might his career choice be explained by environmental determinism?",
       "options": [
-        "Biological determinism",
-        "Environmental determinism",
-        "Social determinism",
-        "Psychic determinism"
+        "His environment influenced his exposure and interest in music.",
+        "He has a genetic predisposition for musical talent.",
+        "His career choice was completely random.",
+        "He exercised free will independent of his upbringing."
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This scenario exemplifies biological determinism, where behavior is influenced by genetic factors."
+      "explanation": "Environmental determinism would suggest Tom's musical career was shaped by his upbringing in a musically inclined family."
     },
     {
       "id": "free-will-determinism-q12",
-      "question": "Lucy decides to volunteer at a local shelter because she feels it aligns with her personal values. What does this suggest about her beliefs?",
+      "question": "Lucy often feels anxious in social settings due to past experiences of bullying. Which type of determinism applies here?",
       "options": [
-        "She believes in free will",
-        "She is influenced by psychic determinism",
-        "She is a proponent of biological determinism",
-        "She is subject to environmental determinism"
+        "Psychic determinism",
+        "Biological determinism",
+        "Free will",
+        "Cultural determinism"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Lucy's decision suggests she believes in free will, making choices based on her values and personal agency."
+      "explanation": "Lucy’s anxiety can be explained by psychic determinism, where past unconscious experiences influence current behavior."
     },
     {
       "id": "free-will-determinism-q13",
-      "question": "Which of the following is a criticism of determinism in psychology?",
+      "question": "How does the concept of determinism challenge the notion of moral responsibility?",
       "options": [
-        "It underestimates individual differences",
-        "It is too focused on individual autonomy",
-        "It overemphasizes the role of consciousness",
-        "It is too simplistic in explaining behavior"
+        "It suggests that individuals may not be fully accountable for actions determined by external factors.",
+        "It argues that all actions are freely chosen, increasing accountability.",
+        "It holds that moral values are biologically ingrained.",
+        "It suggests that cultural norms solely dictate moral behavior."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Determinism is criticized for underestimating individual differences and failing to account for the complexity of human behavior."
+      "explanation": "Determinism implies that if behavior is pre-determined, individuals may not bear full moral responsibility for their actions."
     },
     {
       "id": "free-will-determinism-q14",
-      "question": "What is a main critique of the concept of free will in psychology?",
+      "question": "Which of the following is a criticism of hard determinism?",
       "options": [
-        "It lacks empirical support",
-        "It neglects the role of the environment",
-        "It is overly deterministic",
-        "It ignores biological influences"
+        "It undermines the concept of personal agency and accountability.",
+        "It overemphasizes the role of free will in behavior.",
+        "It lacks empirical evidence supporting genetic influences.",
+        "It ignores the impact of unconscious processes."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The concept of free will is often criticized for lacking empirical support, as it is difficult to measure or observe directly."
+      "explanation": "A major criticism is that hard determinism negates individual responsibility by attributing all behavior to external influences."
     },
     {
       "id": "free-will-determinism-q15",
-      "question": "How does the concept of free will differ from determinism in terms of scientific testability?",
+      "question": "How might the existence of free will be seen as beneficial in a therapeutic context?",
       "options": [
-        "Determinism is more testable",
-        "Free will is more testable",
-        "Both are equally testable",
-        "Neither is scientifically testable"
+        "It empowers clients to take responsibility for change.",
+        "It suggests that all behavior is biologically determined.",
+        "It implies that past experiences dictate all future actions.",
+        "It asserts that cultural factors are the primary influence on behavior."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Determinism is generally considered more scientifically testable because it relies on observable and measurable factors."
+      "explanation": "In therapy, emphasizing free will can encourage clients to feel empowered to make changes and take responsibility for their actions."
     }
   ]
 }

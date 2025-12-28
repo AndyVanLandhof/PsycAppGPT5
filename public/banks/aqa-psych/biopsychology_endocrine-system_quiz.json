@@ -5,202 +5,202 @@
   "subTopic": "endocrine-system",
   "subTopicTitle": "The endocrine system",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:17:43.646Z",
+  "generatedAt": "2025-12-28T14:17:29.204Z",
   "items": [
     {
       "id": "endocrine-system-q1",
-      "question": "Which gland is primarily responsible for releasing adrenaline into the bloodstream?",
+      "question": "Which gland is primarily responsible for regulating metabolism?",
       "options": [
+        "Thyroid gland",
         "Adrenal gland",
         "Pituitary gland",
-        "Thyroid gland",
         "Pancreas"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The adrenal glands release adrenaline, especially during the fight-or-flight response."
+      "explanation": "The thyroid gland produces hormones such as thyroxine, which regulate metabolism."
     },
     {
       "id": "endocrine-system-q2",
-      "question": "What is the role of the hypothalamus in the endocrine system?",
+      "question": "What is the main function of insulin?",
       "options": [
-        "Regulates the release of hormones from the pituitary gland",
-        "Directly secretes adrenaline",
-        "Produces digestive enzymes",
-        "Controls blood sugar levels"
+        "Regulate blood sugar levels",
+        "Stimulate adrenaline release",
+        "Control growth and development",
+        "Regulate circadian rhythms"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The hypothalamus links the nervous system to the endocrine system via the pituitary gland."
+      "explanation": "Insulin, produced by the pancreas, helps to lower blood glucose levels."
     },
     {
       "id": "endocrine-system-q3",
-      "question": "Which hormone is released by the pineal gland?",
+      "question": "Who conducted the key study on the effects of adrenaline on emotion?",
       "options": [
-        "Melatonin",
-        "Insulin",
-        "Cortisol",
-        "Testosterone"
+        "Schachter and Singer (1962)",
+        "Milner and Scoville (1957)",
+        "Broca (1861)",
+        "Harlow (1848)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The pineal gland is responsible for the production of melatonin, which regulates sleep patterns."
+      "explanation": "Schachter and Singer (1962) examined how adrenaline influenced emotional experience."
     },
     {
       "id": "endocrine-system-q4",
-      "question": "What is the primary function of insulin in the body?",
-      "options": [
-        "Regulates blood glucose levels",
-        "Increases heart rate",
-        "Stimulates growth",
-        "Aids in digestion"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Insulin, produced by the pancreas, helps to lower blood glucose levels by facilitating cellular uptake."
-    },
-    {
-      "id": "endocrine-system-q5",
-      "question": "Which hormone is primarily associated with the fight-or-flight response?",
+      "question": "Which hormone is primarily involved in the 'fight or flight' response?",
       "options": [
         "Adrenaline",
         "Melatonin",
-        "Thyroxine",
-        "Insulin"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Adrenaline is released in response to stress and is a key hormone in the fight-or-flight response."
-    },
-    {
-      "id": "endocrine-system-q6",
-      "question": "What is the function of the thyroid gland?",
-      "options": [
-        "Regulates metabolism",
-        "Controls blood calcium levels",
-        "Produces insulin",
-        "Releases adrenaline"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The thyroid gland produces hormones that regulate metabolic rate and energy use."
-    },
-    {
-      "id": "endocrine-system-q7",
-      "question": "Which hormone is secreted by the ovaries?",
-      "options": [
-        "Estrogen",
-        "Testosterone",
-        "Cortisol",
-        "Insulin"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Estrogen is a hormone produced by the ovaries and is involved in the regulation of the menstrual cycle."
-    },
-    {
-      "id": "endocrine-system-q8",
-      "question": "What is the primary effect of cortisol on the body?",
-      "options": [
-        "Increases blood sugar levels",
-        "Decreases heart rate",
-        "Promotes sleep",
-        "Inhibits digestion"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Cortisol is a stress hormone that increases blood glucose levels and assists in metabolism."
-    },
-    {
-      "id": "endocrine-system-q9",
-      "question": "Which researcher is known for studying the effects of cortisol on stress responses?",
-      "options": [
-        "Hans Selye (1936)",
-        "Ivan Pavlov (1927)",
-        "Sigmund Freud (1900)",
-        "Jean Piaget (1936)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Hans Selye is known for his research on stress and the effects of cortisol, developing the General Adaptation Syndrome."
-    },
-    {
-      "id": "endocrine-system-q10",
-      "question": "A patient experiences increased heart rate and sweating during a job interview. Which hormone is most likely involved?",
-      "options": [
-        "Adrenaline",
-        "Insulin",
-        "Melatonin",
+        "Oxytocin",
         "Estrogen"
       ],
       "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Adrenaline, released by the adrenal glands, prepares the body for a quick response to threat."
+    },
+    {
+      "id": "endocrine-system-q5",
+      "question": "What is the role of the pituitary gland in the endocrine system?",
+      "options": [
+        "It is the 'master gland', controlling other glands.",
+        "It regulates blood glucose levels.",
+        "It produces digestive enzymes.",
+        "It maintains circadian rhythms."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The pituitary gland is known as the 'master gland' because it regulates other endocrine glands."
+    },
+    {
+      "id": "endocrine-system-q6",
+      "question": "Which hormone is responsible for regulating the sleep-wake cycle?",
+      "options": [
+        "Melatonin",
+        "Cortisol",
+        "Testosterone",
+        "Insulin"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Melatonin, produced by the pineal gland, helps regulate circadian rhythms and sleep patterns."
+    },
+    {
+      "id": "endocrine-system-q7",
+      "question": "Which of the following hormones is released by the adrenal cortex?",
+      "options": [
+        "Cortisol",
+        "Adrenaline",
+        "Insulin",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Cortisol is a glucocorticoid hormone released by the adrenal cortex during stress."
+    },
+    {
+      "id": "endocrine-system-q8",
+      "question": "Which researcher studied the link between cortisol levels and stress?",
+      "options": [
+        "Selye (1936)",
+        "Pavlov (1927)",
+        "Bandura (1961)",
+        "Kohlberg (1968)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hans Selye (1936) conducted extensive research on stress and identified cortisol as a stress hormone."
+    },
+    {
+      "id": "endocrine-system-q9",
+      "question": "Which hormone is involved in childbirth and lactation?",
+      "options": [
+        "Oxytocin",
+        "Progesterone",
+        "Insulin",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Oxytocin plays a crucial role in childbirth by causing contractions and is also involved in lactation."
+    },
+    {
+      "id": "endocrine-system-q10",
+      "question": "A patient with a tumor in their adrenal gland presents with high blood pressure and anxiety. What hormone is likely overproduced?",
+      "options": [
+        "Adrenaline",
+        "Melatonin",
+        "Insulin",
+        "Thyroxine"
+      ],
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The fight-or-flight response, involving adrenaline, is responsible for increased heart rate and sweating."
+      "explanation": "Overproduction of adrenaline, due to an adrenal gland tumor, can cause symptoms like high blood pressure and anxiety."
     },
     {
       "id": "endocrine-system-q11",
-      "question": "A person with hypothyroidism might exhibit which of the following symptoms?",
+      "question": "A researcher measures the blood glucose levels of participants before and after administering a hormone. Which hormone are they likely studying?",
       "options": [
-        "Fatigue and weight gain",
-        "Increased heart rate",
-        "High energy levels",
-        "Insomnia"
+        "Insulin",
+        "Cortisol",
+        "Adrenaline",
+        "Testosterone"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Hypothyroidism is characterized by low thyroid hormone levels, leading to fatigue and weight gain."
+      "explanation": "Changes in blood glucose levels before and after administration suggest the study of insulin, which regulates blood sugar."
     },
     {
       "id": "endocrine-system-q12",
-      "question": "During an exam, a student feels anxious and their hands shake. What hormone is likely causing this reaction?",
+      "question": "A student reports feeling unusually sleepy during the day despite adequate nighttime sleep. Which hormone might be involved?",
       "options": [
-        "Adrenaline",
-        "Insulin",
-        "Testosterone",
-        "Melatonin"
+        "Melatonin",
+        "Cortisol",
+        "Oxytocin",
+        "Adrenaline"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Adrenaline is involved in the body's stress response, causing symptoms like shaking and anxiety."
+      "explanation": "An imbalance in melatonin, which regulates sleep-wake cycles, may cause excessive sleepiness during the day."
     },
     {
       "id": "endocrine-system-q13",
-      "question": "Which of the following is a limitation of using blood tests to measure hormone levels?",
+      "question": "What is a major criticism of Schachter and Singer's (1962) study on adrenaline and emotion?",
       "options": [
-        "Hormone levels fluctuate throughout the day",
-        "Blood tests are non-invasive",
-        "Blood tests are quick to administer",
-        "Hormones do not affect behavior"
+        "Lack of ecological validity",
+        "No control group used",
+        "Sample size was too large",
+        "Study was conducted only on animals"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Hormone levels naturally fluctuate, making it difficult to obtain accurate measurements at a single point in time."
+      "explanation": "The study's artificial setting and tasks reduce its ecological validity, questioning the real-world applicability of findings."
     },
     {
       "id": "endocrine-system-q14",
-      "question": "Why might animal studies on the endocrine system not fully generalize to humans?",
+      "question": "How does the endocrine system compare to the nervous system in terms of speed?",
       "options": [
-        "Differences in physiology",
-        "Animals do not produce hormones",
-        "Animal studies are unethical",
-        "Hormone levels are consistent across species"
+        "It is generally slower",
+        "It is faster",
+        "It has the same speed",
+        "Speed depends on the organ involved"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Physiological differences between animals and humans can limit the generalizability of findings from animal studies."
+      "explanation": "The endocrine system operates more slowly than the nervous system as it relies on hormonal signals in the bloodstream."
     },
     {
       "id": "endocrine-system-q15",
-      "question": "What is a potential issue with correlational studies in hormone research?",
+      "question": "What methodological issue might affect the reliability of studies measuring hormone levels in stress research?",
       "options": [
-        "They cannot establish causation",
-        "They provide precise control over variables",
-        "They are always ethically problematic",
-        "They are inexpensive to conduct"
+        "Variability in individual hormone responses",
+        "Inability to measure hormones",
+        "Lack of technology to analyze data",
+        "No ethical guidelines"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Correlational studies can identify relationships but cannot determine causation, limiting their conclusiveness."
+      "explanation": "Individual differences in hormone responses can lead to variability in results, affecting study reliability."
     }
   ]
 }

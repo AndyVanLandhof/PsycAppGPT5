@@ -29,7 +29,7 @@ import EnglishThemesView from './EnglishThemesView';
 import EnglishCriticismView from './EnglishCriticismView';
 import EnglishExamView from './EnglishExamView';
 import EnglishAskView from './EnglishAskView';
-import { getEnglishTextURL } from '../config/englishTextLinks';
+import { getEnglishTextURL, getEnglishChunksURL } from '../config/englishTextLinks';
 import EnglishPastPapersView from './EnglishPastPapersView';
 
 function TopicDetail({ topic, onBack }) {
@@ -39,6 +39,9 @@ function TopicDetail({ topic, onBack }) {
   const [selectedStage, setSelectedStage] = useState('Learn');
   const [selectedOption, setSelectedOption] = useState('study');
   const [showTextModal, setShowTextModal] = useState(false);
+  const [textLoading, setTextLoading] = useState(false);
+  const [textError, setTextError] = useState('');
+  const [textContent, setTextContent] = useState('');
 
   const progressId = `${topic.id}:${selectedSubTopic || ''}`;
   const { topicState, status, actions } = useTopicProgress(progressId);
@@ -87,7 +90,7 @@ function TopicDetail({ topic, onBack }) {
   const englishParts = isEngLit ? getEnglishParts(topic.id) : [];
   const openEnglishText = () => {
     try {
-      const url = getEnglishTextURL(topic.id, selectedPart);
+      const url = getEnglishChunksURL(topic.id) || getEnglishTextURL(topic.id, selectedPart);
       if (url) {
         setShowTextModal(true);
       } else {
@@ -95,6 +98,178 @@ function TopicDetail({ topic, onBack }) {
       }
     } catch(_) {}
   };
+
+  // Simple matcher to pick relevant chunks for the selected part
+  const selectChunksForPart = (chunks, partId, label) => {
+    if (!Array.isArray(chunks) || !chunks.length) return [];
+    const norm = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const tLabel = norm(label || partId || '');
+
+    // Helper to check act/scene/part/chapter tokens
+    const matches = (title) => {
+      const t = norm(title);
+      if (!t) return false;
+      // Act / Scene
+      const actMatch = tLabel.match(/act\s+([ivx0-9]+)/);
+      if (actMatch && !t.includes(`act ${actMatch[1]}`)) return false;
+      const sceneMatch = tLabel.match(/scene\s+([ivx0-9]+)/);
+      if (sceneMatch && !t.includes(`scene ${sceneMatch[1]}`)) return false;
+      // Part / Chapter / Episode
+      if (tLabel.includes('part ') && !t.includes('part ')) return false;
+      if (tLabel.includes('chapter ') && !t.includes('chapter ')) return false;
+      // Keyword overlap (for Beckett episodes / Lonely Londoners episodes)
+      const keywords = tLabel.split(' ').filter(w => w.length > 3);
+      if (keywords.length) {
+        const hit = keywords.some(k => t.includes(k));
+        if (!hit && (actMatch || sceneMatch)) return false;
+        if (!hit && keywords.length > 0) return false;
+      }
+      return true;
+    };
+
+    // Summary → take first few chunks as overview
+    if (partId === 'summary') {
+      return chunks.slice(0, 3);
+    }
+
+    // Whole-novel fallback
+    if (partId === 'whole') {
+      return chunks.slice(0, 12);
+    }
+
+    const direct = chunks.filter(c => matches(c.title || ''));
+    if (direct.length) return direct;
+
+    // If nothing matched, fall back to a small slice starting at first chunk to avoid empty modal
+    return chunks.slice(0, 2);
+  };
+
+  // Utilities for plays: extract sections from full extracted text (better boundaries than chunks)
+  const roman = ['i','ii','iii','iv','v','vi','vii','viii','ix','x','xi','xii','xiii','xiv','xv'];
+  const toRoman = (n) => roman[n-1] ? roman[n-1].toUpperCase() : String(n);
+  const sliceHamletSection = (fullText, partId) => {
+    if (!fullText) return '';
+    const actScene = partId.match(/act-(\d+)-scene-(\d+)/);
+    const actOnly = partId.match(/act-(\d+)/);
+    const targetAct = actScene ? Number(actScene[1]) : (actOnly ? Number(actOnly[1]) : null);
+    const targetScene = actScene ? Number(actScene[2]) : null;
+    const rxAct = new RegExp(`ACT\\s+${toRoman(targetAct || 1)}`, 'i');
+    const rxNextAct = new RegExp(`\\nACT\\s+([IVXLC]+)`, 'i');
+    const actMatch = fullText.match(rxAct);
+    if (!actMatch) return '';
+    const actStart = actMatch.index || 0;
+    const rest = fullText.slice(actStart);
+    const nextActMatch = rest.slice(1).match(rxNextAct);
+    const actEnd = nextActMatch ? (nextActMatch.index + actStart + 1) : fullText.length;
+    const actText = fullText.slice(actStart, actEnd);
+    if (!targetScene) return actText.trim();
+    const rxScene = new RegExp(`SCENE\\s+${toRoman(targetScene)}\\b`, 'i');
+    const sceneMatch = actText.match(rxScene);
+    if (!sceneMatch) return actText.trim();
+    const sceneStart = sceneMatch.index || 0;
+    const restScene = actText.slice(sceneStart + 1);
+    const nextSceneMatch = restScene.match(/\\nSCENE\\s+[IVXLC]+/i);
+    const sceneEnd = nextSceneMatch ? (nextSceneMatch.index + sceneStart + 1) : actText.length;
+    return actText.slice(sceneStart, sceneEnd).trim();
+  };
+
+  const sliceGodotSection = (fullText, partId) => {
+    if (!fullText) return '';
+    const actNum = partId.includes('act-2') ? 2 : 1;
+    const rxAct = new RegExp(`ACT\\s+${toRoman(actNum)}`, 'i');
+    const rxNextAct = new RegExp(`\\nACT\\s+${actNum === 1 ? 'II' : 'III'}`, 'i');
+    const actMatch = fullText.match(rxAct);
+    if (!actMatch) return '';
+    const actStart = actMatch.index || 0;
+    const rest = fullText.slice(actStart + 1);
+    const nextActMatch = rest.match(rxNextAct);
+    const actEnd = nextActMatch ? (nextActMatch.index + actStart + 1) : fullText.length;
+    return fullText.slice(actStart, actEnd).trim();
+  };
+
+  const sliceConradSection = (fullText, partId) => {
+    if (!fullText) return '';
+    // Split into Part I / II / III using headings on their own line (I, II, III)
+    const parts = fullText.split(/\n(?=I{1,3}\s*$)/m);
+    const pick = partId.startsWith('part-1') ? parts[0] : partId.startsWith('part-2') ? parts[1] : partId.startsWith('part-3') ? parts[2] : parts[0];
+    const trimmed = (pick || '').trim();
+    if (!trimmed) return '';
+    // For summary, keep a short slice
+    if (partId === 'summary') {
+      return trimmed.split('\n').slice(0, 8).join('\n').trim();
+    }
+    return trimmed;
+  };
+
+  const fetchEnglishSection = async () => {
+    setTextLoading(true);
+    setTextError('');
+    setTextContent('');
+    try {
+      const chunkUrl = getEnglishChunksURL(topic.id);
+      const textUrl = getEnglishTextURL(topic.id, selectedPart);
+
+      // Plays: slice from extracted text for more reliable boundaries
+      if (topic.id === 'hamlet' || topic.id === 'waiting-for-godot') {
+        if (!textUrl) throw new Error('Full text not available for this title.');
+        const res = await fetch(textUrl);
+        if (!res.ok) throw new Error('Could not load the text file.');
+        const raw = await res.text();
+        const clean = raw.replace(/^\uFEFF/, '').trim();
+        const sliced = topic.id === 'hamlet'
+          ? sliceHamletSection(clean, selectedPart)
+          : sliceGodotSection(clean, selectedPart);
+        if (!sliced) {
+          throw new Error('Could not locate that act/scene in the text.');
+        }
+        setTextContent(sliced);
+        return;
+      }
+
+      // Heart of Darkness: slice by Part I/II/III from extracted text
+      if (topic.id === 'heart-of-darkness') {
+        if (!textUrl) throw new Error('Full text not available for this title.');
+        const res = await fetch(textUrl);
+        if (!res.ok) throw new Error('Could not load the text file.');
+        const raw = await res.text();
+        const clean = raw.replace(/^\uFEFF/, '').trim();
+        const sliced = sliceConradSection(clean, selectedPart);
+        if (!sliced) {
+          throw new Error('Could not locate that part in the text.');
+        }
+        setTextContent(sliced);
+        return;
+      }
+
+      if (!chunkUrl) throw new Error('Chunked text not available for this title.');
+      const res = await fetch(chunkUrl);
+      if (!res.ok) throw new Error('Could not load the text file.');
+      const rawText = await res.text();
+      const cleanText = rawText.replace(/^\uFEFF/, '').trim();
+      let data = [];
+      try {
+        const parsed = JSON.parse(cleanText);
+        data = Array.isArray(parsed?.chunks) ? parsed.chunks : (Array.isArray(parsed) ? parsed : []);
+      } catch (e) {
+        throw new Error('Failed to parse text chunks.');
+      }
+      const partLabel = (englishParts.find(p => p.id === selectedPart)?.label) || selectedPart;
+      const selectedChunks = selectChunksForPart(data, selectedPart, partLabel);
+      const combined = selectedChunks.map(c => c.content || c.text || '').join('\n\n').trim();
+      setTextContent(combined || 'No matching section found in the text.');
+    } catch (err) {
+      setTextError(err?.message || 'Failed to load text.');
+    } finally {
+      setTextLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (showTextModal && isEngLit) {
+      fetchEnglishSection();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showTextModal, selectedPart, topic.id]);
   const sharedProps = {
     topic: {
       ...topic,
@@ -690,25 +865,24 @@ function TopicDetail({ topic, onBack }) {
         </div>
       </div>
       {showTextModal && (() => {
-        const base = getEnglishTextURL(topic.id, selectedPart);
-        const src = base ? (base + (base.includes('?') ? '&' : '?') + 'action=render') : '';
+        const partLabel = (getEnglishParts(topic.id).find(p=>p.id===selectedPart)?.label) || '';
         return (
           <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-lg shadow-xl w-full max-w-5xl max-h-[90vh] flex flex-col">
               <div className="px-4 py-3 border-b flex items-center justify-between">
-                <div className="font-semibold text-gray-800">{topic.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{(getEnglishParts(topic.id).find(p=>p.id===selectedPart)?.label) || ''}</span></> : null}</div>
+                <div className="font-semibold text-gray-800">{topic.title}{isEngLit && selectedPart ? <> — <span className="text-emerald-700">{partLabel}</span></> : null}</div>
                 <div className="flex items-center gap-2">
-                  {base && (
-                    <a href={base} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">Open in new tab</a>
-                  )}
                   <button onClick={()=>setShowTextModal(false)} className="px-3 py-1 rounded border text-sm">Close</button>
                 </div>
               </div>
-              <div className="flex-1 overflow-hidden">
-                {src ? (
-                  <iframe title="Original Text" src={src} className="w-full h-full" />
-                ) : (
-                  <div className="p-4 text-sm text-gray-700">Full text not available.</div>
+              <div className="flex-1 overflow-y-auto p-4">
+                {textLoading && <div className="text-sm text-gray-600">Loading section…</div>}
+                {textError && <div className="text-sm text-red-600">{textError}</div>}
+                {!textLoading && !textError && textContent && (
+                  <pre className="whitespace-pre-wrap text-sm leading-6 font-serif text-gray-900">{textContent}</pre>
+                )}
+                {!textLoading && !textError && !textContent && (
+                  <div className="text-sm text-gray-600">No text available for this section.</div>
                 )}
               </div>
             </div>

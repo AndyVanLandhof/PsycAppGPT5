@@ -5,202 +5,202 @@
   "subTopic": "explanations-for-conformity",
   "subTopicTitle": "Explanations for conformity",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:10:56.562Z",
+  "generatedAt": "2025-12-28T14:11:17.180Z",
   "items": [
     {
       "id": "explanations-for-conformity-q1",
-      "question": "Who proposed the Dual Process Dependency Model of conformity?",
+      "question": "What is the primary focus of informational social influence?",
       "options": [
-        "Deutsch and Gerard",
-        "Asch",
-        "Milgram",
-        "Zimbardo"
+        "The desire to be correct",
+        "The desire to be liked",
+        "The fear of rejection",
+        "The need for social identity"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Deutsch and Gerard (1955) proposed the Dual Process Dependency Model, which includes informational and normative social influence as explanations for conformity."
+      "explanation": "Informational social influence is driven by the desire to be correct, relying on others for information when uncertain."
     },
     {
       "id": "explanations-for-conformity-q2",
-      "question": "What is the main focus of informational social influence?",
+      "question": "Which study is most associated with normative social influence?",
       "options": [
-        "The desire to be right",
-        "The desire to be liked",
-        "The desire to be unique",
-        "The desire to rebel"
+        "Asch (1951)",
+        "Milgram (1963)",
+        "Zimbardo (1971)",
+        "Sherif (1935)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Informational social influence is based on the desire to be correct, leading individuals to conform because they believe others possess more accurate information."
+      "explanation": "Asch's study on conformity demonstrated normative social influence, where participants conformed to group pressure to be liked or accepted."
     },
     {
       "id": "explanations-for-conformity-q3",
-      "question": "In Asch's conformity experiment (1951), what was the approximate percentage of participants who conformed at least once?",
+      "question": "What is the main finding of Sherif's (1935) study using the autokinetic effect?",
       "options": [
-        "75%",
-        "45%",
-        "60%",
-        "30%"
+        "People conform to group norms in ambiguous situations",
+        "People conform to authority figures even when harming others",
+        "Groups develop a social hierarchy quickly",
+        "People resist conforming when they have an ally"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "In Asch's (1951) study, approximately 75% of participants conformed at least once to the incorrect majority."
+      "explanation": "Sherif found that in ambiguous situations, individuals conform to group norms, demonstrating informational social influence."
     },
     {
       "id": "explanations-for-conformity-q4",
-      "question": "Normative social influence is primarily driven by which of the following?",
+      "question": "Which concept best explains why people might change their behavior to match a majority group in public but not in private?",
       "options": [
-        "The need for social acceptance",
-        "The need for personal growth",
-        "The need for cognitive consistency",
-        "The need for leadership"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Normative social influence is driven by the need for social acceptance and the desire to fit in with a group."
-    },
-    {
-      "id": "explanations-for-conformity-q5",
-      "question": "Which study is most associated with the concept of minority influence?",
-      "options": [
-        "Moscovici et al. (1969)",
-        "Zimbardo (1971)",
-        "Milgram (1963)",
-        "Asch (1951)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Moscovici et al. (1969) conducted a study demonstrating how a consistent minority can influence the majority, leading to the concept of minority influence."
-    },
-    {
-      "id": "explanations-for-conformity-q6",
-      "question": "Which of the following is NOT a factor affecting conformity according to Asch's research?",
-      "options": [
-        "Task difficulty",
-        "Group unanimity",
-        "Anonymity",
-        "Group size"
-      ],
-      "correctAnswer": 2,
-      "ao": "AO1",
-      "explanation": "Anonymity was not identified as a factor affecting conformity in Asch's research; factors included task difficulty, group unanimity, and group size."
-    },
-    {
-      "id": "explanations-for-conformity-q7",
-      "question": "Sherif's study on the autokinetic effect (1936) is an example of which type of social influence?",
-      "options": [
-        "Informational social influence",
-        "Normative social influence",
-        "Minority influence",
+        "Compliance",
+        "Internalization",
+        "Identification",
         "Obedience"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Sherif's (1936) experiment demonstrated informational social influence, where individuals look to others for guidance in ambiguous situations."
+      "explanation": "Compliance involves changing behavior publicly to fit in with a group while privately maintaining personal beliefs."
+    },
+    {
+      "id": "explanations-for-conformity-q5",
+      "question": "What did Milgram's (1963) study primarily aim to investigate?",
+      "options": [
+        "Obedience to authority",
+        "Conformity to group norms",
+        "Social identity theory",
+        "Minority influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Milgram aimed to investigate the extent to which individuals would obey authority figures, even when asked to harm others."
+    },
+    {
+      "id": "explanations-for-conformity-q6",
+      "question": "In Zimbardo's (1971) Stanford prison experiment, what was demonstrated about social roles?",
+      "options": [
+        "People quickly conform to assigned roles",
+        "Individuals resist social roles when they conflict with personal beliefs",
+        "Authority figures have little impact on behavior",
+        "Minority influence is more powerful than majority influence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The study showed that individuals quickly conform to social roles, even when these roles involve negative behaviors."
+    },
+    {
+      "id": "explanations-for-conformity-q7",
+      "question": "What is the main characteristic of minority influence according to Moscovici?",
+      "options": [
+        "Consistency",
+        "Flexibility",
+        "Authority",
+        "Coercion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moscovici highlighted that consistency within the minority group is crucial for influencing the majority."
     },
     {
       "id": "explanations-for-conformity-q8",
-      "question": "What is a key characteristic of a group that increases conformity according to research findings?",
+      "question": "Which factor increases conformity according to Asch's findings?",
       "options": [
-        "Unanimity",
-        "Diversity",
-        "Anonymity",
-        "Flexibility"
+        "Group size increases up to 3 people",
+        "Unanimity is broken",
+        "The task difficulty is decreased",
+        "Presence of a dissenting confederate"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Research indicates that unanimity within a group significantly increases conformity, as seen in Asch's experiments."
+      "explanation": "Asch found that conformity increases with group size, but only up to three people; beyond that, the effect plateaus."
     },
     {
       "id": "explanations-for-conformity-q9",
-      "question": "What was the main conclusion of Asch's study on conformity?",
+      "question": "What did Jenness (1932) investigate in his study on conformity?",
       "options": [
-        "People conform due to normative social influence",
-        "People are inherently obedient",
-        "Group size has no effect on conformity",
-        "Minorities have more influence than majorities"
+        "Estimation of beans in a jar",
+        "Electric shock obedience",
+        "Conformity in line length judgment",
+        "Prison role conformity"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Asch concluded that people conform mainly due to normative social influence, as individuals tend to follow the majority to fit in."
+      "explanation": "Jenness studied conformity by asking participants to estimate the number of beans in a jar, showing that estimates converged after discussion."
     },
     {
       "id": "explanations-for-conformity-q10",
-      "question": "In a study scenario, participants conformed more when they were unsure about the correct answer to a difficult question. What type of social influence does this demonstrate?",
+      "question": "A student changes their answer in class after noticing that their peers have given a different answer. What type of conformity does this represent?",
       "options": [
-        "Informational social influence",
-        "Normative social influence",
         "Compliance",
+        "Obedience",
+        "Internalization",
         "Identification"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This scenario demonstrates informational social influence, where individuals conform because they are uncertain and believe others have more knowledge."
+      "explanation": "The student changes their answer publicly to align with the group, demonstrating compliance, where public behavior changes but private beliefs may not."
     },
     {
       "id": "explanations-for-conformity-q11",
-      "question": "A student changes their answer in a group discussion to match the group's incorrect choice to avoid being the odd one out. What does this example illustrate?",
+      "question": "A person adopts new beliefs and behaviors because they genuinely agree with them after joining a new group. What type of conformity is this?",
       "options": [
-        "Normative social influence",
-        "Informational social influence",
-        "Internalisation",
-        "Minority influence"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "This example illustrates normative social influence, where the student conforms to the group's choice to avoid social rejection."
-    },
-    {
-      "id": "explanations-for-conformity-q12",
-      "question": "During a jury deliberation, one juror changes their vote after hearing arguments from others who seem more knowledgeable. Which explanation for conformity is applicable here?",
-      "options": [
-        "Informational social influence",
-        "Normative social influence",
+        "Internalization",
         "Compliance",
+        "Identification",
         "Obedience"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This scenario illustrates informational social influence, as the juror conforms based on the belief that others have more accurate information."
+      "explanation": "Internalization occurs when an individual genuinely adopts the beliefs and behaviors of a group, both publicly and privately."
+    },
+    {
+      "id": "explanations-for-conformity-q12",
+      "question": "During a group discussion, a member consistently supports a minority opinion, leading others to reconsider their views. Which aspect of minority influence is being demonstrated?",
+      "options": [
+        "Consistency",
+        "Flexibility",
+        "Majority size",
+        "Social impact"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The consistent support of a minority opinion leads others to reconsider their views, demonstrating the importance of consistency in minority influence."
     },
     {
       "id": "explanations-for-conformity-q13",
-      "question": "Which of the following is a limitation of Asch's conformity study?",
+      "question": "What is a key criticism of Asch's (1951) study on conformity?",
       "options": [
-        "Lack of ecological validity",
-        "Use of a control group",
-        "High external validity",
-        "No ethical concerns"
+        "Lack of ecological validity due to artificial task",
+        "The sample was too diverse",
+        "The study lacked a control group",
+        "Participants were deceived about the task's purpose"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Asch's study is criticized for its lack of ecological validity, as the artificial setting does not reflect real-world situations."
+      "explanation": "Asch's study is criticized for lacking ecological validity, as the task of judging line lengths is artificial and does not reflect real-life conformity."
     },
     {
       "id": "explanations-for-conformity-q14",
-      "question": "How can Moscovici's study on minority influence be critiqued in terms of ecological validity?",
+      "question": "How does Moscovici's study on minority influence differ methodologically from Asch's study on majority influence?",
       "options": [
-        "It used artificial tasks",
-        "It had a large sample size",
-        "It was conducted in a natural setting",
-        "It used real-life scenarios"
+        "Moscovici used colored slides, while Asch used line judgments",
+        "Asch had a larger sample size",
+        "Moscovici's study was conducted in a lab setting",
+        "Moscovici's study involved real-life scenarios"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Moscovici's study used artificial tasks and settings, which limits its ecological validity as it may not apply to real-world situations."
+      "explanation": "Moscovici's study used colored slides to study minority influence, contrasting with Asch's use of line judgments to study majority influence."
     },
     {
       "id": "explanations-for-conformity-q15",
-      "question": "A criticism of the explanations for conformity is that they often overlook the role of which factor?",
+      "question": "What is a limitation of using lab experiments to study social influence?",
       "options": [
-        "Individual differences",
-        "Cultural differences",
-        "Group size",
-        "Task difficulty"
+        "They often lack ecological validity",
+        "They provide a high level of control",
+        "They allow for the manipulation of variables",
+        "They are more ethical than field experiments"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Explanations for conformity often overlook individual differences, such as personality traits, which can affect how and why people conform."
+      "explanation": "Lab experiments often lack ecological validity because the controlled environment and artificial tasks do not reflect real-world settings."
     }
   ]
 }

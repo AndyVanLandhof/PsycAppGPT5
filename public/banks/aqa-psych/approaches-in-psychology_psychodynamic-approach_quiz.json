@@ -5,24 +5,24 @@
   "subTopic": "psychodynamic-approach",
   "subTopicTitle": "Psychodynamic approach",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:16:40.385Z",
+  "generatedAt": "2025-12-28T14:16:30.993Z",
   "items": [
     {
       "id": "psychodynamic-approach-q1",
-      "question": "Which of the following is a key concept of the psychodynamic approach?",
+      "question": "Who is considered the founder of the psychodynamic approach?",
       "options": [
-        "Unconscious mind",
-        "Classical conditioning",
-        "Cognitive schemas",
-        "Self-actualization"
+        "Sigmund Freud",
+        "Carl Rogers",
+        "B.F. Skinner",
+        "Jean Piaget"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The unconscious mind is central to psychodynamic theory, as proposed by Freud, affecting behavior and thought."
+      "explanation": "Sigmund Freud developed the psychodynamic approach, focusing on unconscious processes and childhood experiences."
     },
     {
       "id": "psychodynamic-approach-q2",
-      "question": "According to Freud, which part of the personality operates on the 'pleasure principle'?",
+      "question": "According to Freud, which part of the personality operates on the pleasure principle?",
       "options": [
         "Id",
         "Ego",
@@ -31,176 +31,176 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The id operates on the pleasure principle, seeking immediate gratification of its desires."
+      "explanation": "The Id operates on the pleasure principle, seeking immediate gratification and driven by basic instincts."
     },
     {
       "id": "psychodynamic-approach-q3",
-      "question": "In the context of Freud's psychosexual stages, at which stage does the Oedipus complex occur?",
+      "question": "In Freud's theory, what is the purpose of defense mechanisms?",
+      "options": [
+        "To protect the ego from anxiety",
+        "To enhance memory recall",
+        "To improve social interactions",
+        "To increase cognitive development"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Defense mechanisms protect the ego from anxiety by unconsciously distorting reality."
+    },
+    {
+      "id": "psychodynamic-approach-q4",
+      "question": "Which psychosexual stage is associated with the Oedipus complex?",
       "options": [
         "Phallic stage",
         "Oral stage",
-        "Latency stage",
-        "Genital stage"
+        "Anal stage",
+        "Latency stage"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
       "explanation": "The Oedipus complex occurs during the phallic stage, where a child feels desire for the opposite-sex parent."
     },
     {
-      "id": "psychodynamic-approach-q4",
-      "question": "Which of the following is a method used by Freud to access the unconscious mind?",
-      "options": [
-        "Dream analysis",
-        "Systematic desensitization",
-        "Structured interviews",
-        "Naturalistic observation"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Dream analysis is used in psychodynamic therapy to uncover unconscious material."
-    },
-    {
       "id": "psychodynamic-approach-q5",
-      "question": "Who is known for the study of defense mechanisms within the psychodynamic approach?",
+      "question": "What is the main focus of the psychodynamic approach?",
       "options": [
-        "Anna Freud",
-        "John Watson",
-        "Jean Piaget",
-        "B.F. Skinner"
+        "Unconscious processes",
+        "Observable behavior",
+        "Cognitive processes",
+        "Genetic influences"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Anna Freud expanded on her father's work by studying defense mechanisms in detail."
+      "explanation": "The psychodynamic approach emphasizes unconscious processes and early childhood experiences."
     },
     {
       "id": "psychodynamic-approach-q6",
-      "question": "What is the primary focus of the psychodynamic approach in psychology?",
+      "question": "Which of the following is NOT a defense mechanism described by Freud?",
       "options": [
-        "Internal conflicts and unconscious forces",
-        "Observable behavior and environment",
-        "Cognitive processes and structures",
-        "Biological processes and genetics"
+        "Rationalization",
+        "Operant conditioning",
+        "Repression",
+        "Displacement"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "The psychodynamic approach focuses on internal conflicts and unconscious forces as main drivers of behavior."
+      "explanation": "Operant conditioning is a behaviorist concept, not a Freudian defense mechanism."
     },
     {
       "id": "psychodynamic-approach-q7",
-      "question": "In Freud's theory, which component of personality is responsible for mediating between the id and the superego?",
+      "question": "Which study is associated with the psychodynamic approach?",
       "options": [
-        "Ego",
-        "Id",
-        "Superego",
-        "Conscious"
+        "Little Hans (1909)",
+        "Pavlov's Dogs (1927)",
+        "Bandura's Bobo Doll (1961)",
+        "Loftus and Palmer (1974)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The ego mediates between the desires of the id and the moral constraints of the superego."
+      "explanation": "Freud's study of Little Hans (1909) is a classic example of applying the psychodynamic approach."
     },
     {
       "id": "psychodynamic-approach-q8",
-      "question": "Which psychodynamic concept involves redirecting emotions from a 'dangerous' object to a 'safer' one?",
+      "question": "What is the term for the part of the mind containing thoughts a person is currently aware of?",
       "options": [
-        "Displacement",
-        "Projection",
-        "Sublimation",
-        "Repression"
+        "Conscious",
+        "Preconscious",
+        "Unconscious",
+        "Subconscious"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Displacement involves shifting emotions from a threatening target to a less threatening one."
+      "explanation": "The conscious mind contains thoughts and perceptions a person is currently aware of."
     },
     {
       "id": "psychodynamic-approach-q9",
-      "question": "What is the primary method used by Freud to explore the unconscious mind?",
+      "question": "Which of the following describes the role of the superego according to Freud?",
       "options": [
-        "Free association",
-        "Operant conditioning",
-        "Cognitive restructuring",
-        "Systematic desensitization"
+        "Moral conscience",
+        "Pleasure seeker",
+        "Reality mediator",
+        "Memory storage"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Freud used free association to explore the unconscious mind by encouraging patients to speak freely."
+      "explanation": "The superego acts as the moral conscience, reflecting societal standards and values."
     },
     {
       "id": "psychodynamic-approach-q10",
-      "question": "A student becomes overly competitive in sports after being demoted from a leadership role in a group project. Which defense mechanism is this an example of?",
+      "question": "A client in therapy suddenly becomes angry and critical of their therapist, which is an example of which psychodynamic concept?",
       "options": [
-        "Compensation",
-        "Repression",
-        "Rationalization",
-        "Regression"
+        "Transference",
+        "Operant conditioning",
+        "Systematic desensitization",
+        "Schemas"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Compensation involves covering up perceived weaknesses by emphasizing strengths in other areas."
+      "explanation": "Transference occurs when a client projects feelings for significant people onto the therapist."
     },
     {
       "id": "psychodynamic-approach-q11",
-      "question": "During a therapy session, a client expresses dislike for his boss but later accuses his therapist of not liking him. Which defense mechanism is this?",
+      "question": "A child who starts wetting the bed again after the birth of a sibling is demonstrating which defense mechanism?",
       "options": [
+        "Regression",
+        "Repression",
         "Projection",
-        "Displacement",
-        "Denial",
         "Sublimation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Projection involves attributing one's own unacceptable feelings to others."
+      "explanation": "Regression involves reverting to an earlier developmental stage to cope with stress."
     },
     {
       "id": "psychodynamic-approach-q12",
-      "question": "A child who feels neglected at home starts acting out in school. According to psychodynamic theory, what might this behavior represent?",
+      "question": "A person who is unaware of hostile feelings towards a friend may be using which defense mechanism?",
       "options": [
-        "Displacement",
-        "Sublimation",
+        "Repression",
         "Rationalization",
-        "Identification"
+        "Displacement",
+        "Reaction formation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Displacement is redirecting emotions from one source to another, such as acting out elsewhere."
+      "explanation": "Repression involves unconsciously blocking unacceptable thoughts or feelings from awareness."
     },
     {
       "id": "psychodynamic-approach-q13",
-      "question": "What is a major limitation of Freud's case study method in psychodynamic research?",
+      "question": "Which of the following is a common critique of Freud's theory?",
       "options": [
-        "Lack of generalizability",
-        "Over-reliance on quantitative data",
-        "Use of control groups",
-        "Emphasis on biological factors"
+        "Lack of empirical evidence",
+        "Over-reliance on biological factors",
+        "Focus on observable behavior",
+        "Excessive emphasis on adulthood"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Freud's case studies often lack generalizability due to their subjective and small-sample nature."
+      "explanation": "Freud's theory is often criticized for its lack of empirical evidence and reliance on case studies."
     },
     {
       "id": "psychodynamic-approach-q14",
-      "question": "How does the psychodynamic approach differ from the behaviorist approach in terms of explaining behavior?",
+      "question": "How does the psychodynamic approach differ from the behaviorist approach?",
       "options": [
-        "Focuses on unconscious processes vs. observable behavior",
-        "Emphasizes genetics vs. environment",
-        "Prioritizes cognitive processes vs. reinforcement",
-        "Uses experimental data vs. introspection"
+        "Focuses on unconscious vs. observable behavior",
+        "Emphasizes biological vs. environmental factors",
+        "Focuses on adulthood vs. childhood development",
+        "Relies on quantitative vs. qualitative data"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The psychodynamic approach emphasizes unconscious processes, while behaviorism focuses on observable behavior."
+      "explanation": "The psychodynamic approach focuses on unconscious processes, unlike the behaviorist approach which emphasizes observable behavior."
     },
     {
       "id": "psychodynamic-approach-q15",
-      "question": "Which of the following is a critique of the psychodynamic approach regarding scientific validity?",
+      "question": "What is a major limitation in using case studies in the psychodynamic approach?",
       "options": [
-        "Lack of falsifiability",
-        "Over-reliance on animal studies",
-        "Focus on external behaviors",
-        "Excessive use of statistical methods"
+        "Lack of generalizability",
+        "High external validity",
+        "Reliability issues",
+        "Ease of replication"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Psychodynamic concepts are often criticized for being unfalsifiable, as they can't be empirically tested."
+      "explanation": "Case studies often lack generalizability due to their focus on individual, unique cases."
     }
   ]
 }

@@ -5,16 +5,16 @@
   "subTopic": "plasticity-functional-recovery",
   "subTopicTitle": "Plasticity and functional recovery",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:18:32.002Z",
+  "generatedAt": "2025-12-28T14:18:21.340Z",
   "items": [
     {
       "id": "plasticity-functional-recovery-q1",
-      "question": "What is meant by 'brain plasticity'?",
+      "question": "What is brain plasticity?",
       "options": [
-        "The brain's ability to change and adapt as a result of experience.",
-        "The brain's capacity to store memories indefinitely.",
-        "The fixed neural structures that determine behavior.",
-        "The brain's ability to process information at high speeds."
+        "The brain's ability to change and adapt as a result of experience",
+        "The brain's inability to recover from injury",
+        "The fixed structure of the brain over a lifetime",
+        "The brain's ability to store memories permanently"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
@@ -22,185 +22,185 @@
     },
     {
       "id": "plasticity-functional-recovery-q2",
-      "question": "Which researcher is known for their work on the effects of juggling on brain structure?",
+      "question": "Which researcher conducted a study on taxi drivers and brain plasticity?",
       "options": [
-        "Draganski et al. (2004)",
         "Maguire et al. (2000)",
-        "Sperry (1968)",
-        "Broca (1861)"
+        "Broca (1865)",
+        "Wernicke (1874)",
+        "Sperry (1968)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Draganski et al. (2004) conducted a study that showed changes in the brain's structure in participants who learned to juggle."
+      "explanation": "Maguire et al. (2000) studied London taxi drivers and found increased hippocampal volume, demonstrating plasticity in response to spatial navigation."
     },
     {
       "id": "plasticity-functional-recovery-q3",
-      "question": "What is 'functional recovery' in the context of brain injury?",
+      "question": "What did the study by Hubel and Wiesel (1963) demonstrate about neural plasticity?",
       "options": [
-        "The brain's ability to transfer functions from a damaged area to undamaged areas.",
-        "The complete healing of all neurons after injury.",
-        "The process of forgetting traumatic memories.",
-        "The brain's reduction in cognitive ability post-injury."
+        "The critical period for visual development",
+        "The brain's ability to recover from language deficits",
+        "The role of the amygdala in emotional processing",
+        "The influence of hormones on brain development"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Functional recovery involves the brain redistributing or transferring functions to undamaged areas following an injury."
+      "explanation": "Hubel and Wiesel (1963) found that visual deprivation in kittens led to changes in neurons in the visual cortex, highlighting the critical period for visual development."
     },
     {
       "id": "plasticity-functional-recovery-q4",
-      "question": "According to Maguire et al. (2000), which brain region showed increased grey matter in London taxi drivers?",
+      "question": "Which of the following is an example of functional recovery?",
       "options": [
-        "Hippocampus",
-        "Amygdala",
-        "Cerebellum",
-        "Prefrontal Cortex"
+        "Rehabilitation after a stroke",
+        "The natural decline in cognitive function with age",
+        "The inability to form new memories",
+        "Genetic predisposition to brain disorders"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Maguire et al. (2000) found that London taxi drivers had more grey matter in the posterior hippocampus, a region associated with spatial navigation."
+      "explanation": "Functional recovery refers to the brain's ability to compensate for lost functions after damage, such as through rehabilitation after a stroke."
     },
     {
       "id": "plasticity-functional-recovery-q5",
-      "question": "Which concept is illustrated by the ability to regain lost functions through therapy after a stroke?",
+      "question": "What is synaptic pruning?",
       "options": [
-        "Functional recovery",
-        "Synaptic pruning",
-        "Genetic determinism",
-        "Hemispheric lateralization"
+        "The elimination of weak or unused synaptic connections",
+        "The creation of new neurons",
+        "The strengthening of all synaptic connections",
+        "The transfer of information across synapses"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Functional recovery is demonstrated by the brain's ability to reorganize and recover functions through therapeutic interventions."
+      "explanation": "Synaptic pruning is the process where extra neurons and synaptic connections are eliminated to increase the efficiency of neuronal transmissions."
     },
     {
       "id": "plasticity-functional-recovery-q6",
-      "question": "What is synaptic pruning?",
+      "question": "Which is NOT a factor that can influence brain plasticity?",
       "options": [
-        "The process of eliminating weaker synaptic connections while strengthening others.",
-        "The creation of new neurons in the adult brain.",
-        "The brain's ability to develop new synapses in response to learning.",
-        "The degeneration of neurons due to aging."
+        "Fixed genetic structure",
+        "Learning new skills",
+        "Experiencing trauma",
+        "Environmental enrichment"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Synaptic pruning involves eliminating weaker synaptic connections to enhance the efficiency of the brain's neural networks."
+      "explanation": "While genetics play a role in brain development, brain plasticity is primarily influenced by experience and environmental factors."
     },
     {
       "id": "plasticity-functional-recovery-q7",
-      "question": "Who conducted research on rats to demonstrate the effects of an enriched environment on brain plasticity?",
+      "question": "Which study demonstrated that the adult brain can undergo significant plastic changes?",
       "options": [
-        "Rosenzweig et al. (1962)",
-        "Broca (1861)",
-        "Wernicke (1874)",
-        "Hebb (1949)"
+        "Draganski et al. (2006)",
+        "Asch (1951)",
+        "Milgram (1963)",
+        "Bandura et al. (1961)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rosenzweig et al. (1962) conducted studies showing that rats in enriched environments had increased cortical thickness compared to those in deprived conditions."
+      "explanation": "Draganski et al. (2006) showed that learning to juggle increased grey matter in the visual and motor areas of the brain, demonstrating plasticity."
     },
     {
       "id": "plasticity-functional-recovery-q8",
-      "question": "What is the primary focus of functional magnetic resonance imaging (fMRI) in studying brain plasticity?",
+      "question": "What is the role of the hippocampus in brain plasticity?",
       "options": [
-        "Measuring changes in blood flow to indicate neural activity.",
-        "Recording electrical activity on the scalp.",
-        "Assessing the structural changes in the brain.",
-        "Measuring the growth of new neurons."
+        "It is involved in forming new memories and spatial navigation",
+        "It regulates emotions and fear responses",
+        "It processes visual information",
+        "It controls voluntary movements"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "fMRI measures brain activity by detecting changes in blood flow, indicating which areas of the brain are active during specific tasks."
+      "explanation": "The hippocampus is crucial for forming new memories and has been shown to be plastic, particularly in studies involving spatial navigation."
     },
     {
       "id": "plasticity-functional-recovery-q9",
-      "question": "Which of the following is NOT a factor influencing functional recovery after brain injury?",
+      "question": "What is neural regeneration?",
       "options": [
-        "The individual's level of education",
-        "The time elapsed since the injury",
-        "The individual's blood type",
-        "The extent of the injury"
+        "The growth of new neurons and neural pathways",
+        "The repair of damaged muscle tissues",
+        "The constant firing of neurons",
+        "The degeneration of neural connections"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "While education, time since injury, and extent of injury affect recovery, blood type does not influence functional recovery."
+      "explanation": "Neural regeneration refers to the process by which new neurons and neural pathways are created, contributing to brain plasticity and recovery."
     },
     {
       "id": "plasticity-functional-recovery-q10",
-      "question": "A patient who has undergone hemispherectomy shows improvement in coordination and speech. Which concept does this illustrate?",
+      "question": "A patient recovers the ability to speak after a stroke. Which concept does this scenario illustrate?",
       "options": [
-        "Brain plasticity and functional recovery",
-        "Genetic predisposition",
-        "Cognitive dissonance",
-        "Social learning theory"
+        "Functional recovery",
+        "Synaptic pruning",
+        "Hemispheric specialization",
+        "Neural degeneration"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The improvement in coordination and speech after hemispherectomy demonstrates the brain's plasticity and its capacity for functional recovery."
+      "explanation": "This scenario illustrates functional recovery, where the brain compensates for lost functions, often through reorganization or the use of alternative pathways."
     },
     {
       "id": "plasticity-functional-recovery-q11",
-      "question": "A study finds that older adults who engage in regular mental exercises show less cognitive decline. How does this relate to brain plasticity?",
+      "question": "A study shows that musicians have larger brain areas related to finger movements. What does this exemplify?",
       "options": [
-        "Mental exercises may promote synaptic growth and neural resilience.",
-        "Older adults naturally have less cognitive decline.",
-        "Brain plasticity decreases with age.",
-        "Cognitive decline is solely due to genetics."
+        "Experience-dependent plasticity",
+        "Genetic predetermined plasticity",
+        "Cortical degeneration",
+        "Neural stasis"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Regular mental exercises can stimulate synaptic growth, supporting the idea that the brain remains plastic even in older age."
+      "explanation": "This exemplifies experience-dependent plasticity, where specific skills and experiences lead to structural brain changes."
     },
     {
       "id": "plasticity-functional-recovery-q12",
-      "question": "A child learns to play the piano, and over time, their brain structure changes. This is an example of:",
+      "question": "A young child's brain is more adaptable compared to an adult's brain. What does this suggest?",
       "options": [
-        "Experience-dependent plasticity",
-        "Genetic determinism",
-        "Environmental determinism",
-        "Innate reflexes"
+        "Higher plasticity in early development",
+        "Fixed neural structures in childhood",
+        "Greater memory capacity in adults",
+        "Complete inability to recover in adults"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Learning to play the piano causes experience-dependent plasticity, where the brain changes in response to skill acquisition."
+      "explanation": "This suggests higher plasticity in early development, allowing children to recover functions more readily than adults due to more malleable neural structures."
     },
     {
       "id": "plasticity-functional-recovery-q13",
-      "question": "What is a limitation of using fMRI scans in research on brain plasticity?",
+      "question": "What is a limitation of animal studies in research on brain plasticity?",
       "options": [
-        "They have poor temporal resolution.",
-        "They provide no information on brain structure.",
-        "They are invasive and uncomfortable for participants.",
-        "They can only measure activity in the cerebellum."
+        "Differences in brain complexity between species",
+        "The inability to conduct controlled experiments",
+        "The ethical treatment of human participants",
+        "The infinite plasticity observed in animal brains"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "fMRI scans have poor temporal resolution, meaning they cannot precisely measure the timing of brain activity changes."
+      "explanation": "Animal studies are limited by differences in brain complexity and structure, which may not fully represent human brain plasticity."
     },
     {
       "id": "plasticity-functional-recovery-q14",
-      "question": "Why might case studies of individuals with brain lesions be limited in understanding brain plasticity?",
+      "question": "How does age affect brain plasticity?",
       "options": [
-        "They often lack generalizability to the wider population.",
-        "They provide too much quantitative data.",
-        "They focus exclusively on synaptic pruning.",
-        "They can only be conducted on children."
+        "Plasticity decreases with age but does not disappear",
+        "Plasticity increases with age",
+        "Plasticity is unaffected by age",
+        "Plasticity is higher in older adults than in children"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Case studies often involve unique individuals, making it difficult to generalize findings to the broader population."
+      "explanation": "Although plasticity decreases with age, it does not disappear completely, allowing for some adaptability in the adult brain."
     },
     {
       "id": "plasticity-functional-recovery-q15",
-      "question": "How does the concept of 'age-related plasticity' challenge previous beliefs about the brain?",
+      "question": "Why might functional recovery be limited after a certain period post-injury?",
       "options": [
-        "It suggests that the brain remains adaptable throughout life.",
-        "It supports the idea that plasticity only occurs in early childhood.",
-        "It indicates that plasticity stops after adolescence.",
-        "It implies that plasticity is solely determined by genetics."
+        "There is a critical period for recovery where plasticity is maximized",
+        "The brain stops forming new connections after injury",
+        "All recovery processes are immediate and temporary",
+        "Neural degeneration accelerates recovery"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Age-related plasticity challenges the notion that plasticity is limited to early development, showing adaptability can occur at any age."
+      "explanation": "There is a critical period post-injury where plasticity is maximized, after which the potential for functional recovery diminishes."
     }
   ]
 }

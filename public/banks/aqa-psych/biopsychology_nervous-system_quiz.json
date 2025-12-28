@@ -5,11 +5,11 @@
   "subTopic": "nervous-system",
   "subTopicTitle": "The divisions of the nervous system",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:17:12.876Z",
+  "generatedAt": "2025-12-28T14:16:58.424Z",
   "items": [
     {
       "id": "nervous-system-q1",
-      "question": "Which part of the nervous system is responsible for the 'fight or flight' response?",
+      "question": "Which division of the nervous system is responsible for the 'fight or flight' response?",
       "options": [
         "Sympathetic nervous system",
         "Parasympathetic nervous system",
@@ -18,141 +18,141 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The sympathetic nervous system triggers physiological arousal preparing the body for 'fight or flight'."
+      "explanation": "The sympathetic nervous system prepares the body for action in threatening situations."
     },
     {
       "id": "nervous-system-q2",
-      "question": "What is the main function of the parasympathetic nervous system?",
+      "question": "What is the primary function of the somatic nervous system?",
       "options": [
-        "To conserve energy and restore the body to a resting state",
-        "To initiate the 'fight or flight' response",
+        "To control voluntary movements",
+        "To regulate involuntary functions",
         "To process sensory information",
-        "To control voluntary movements"
+        "To manage the fight or flight response"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The parasympathetic nervous system conserves energy by slowing down the heart rate and increasing intestinal activity."
+      "explanation": "The somatic nervous system controls voluntary muscle movements and transmits sensory information to the CNS."
     },
     {
       "id": "nervous-system-q3",
-      "question": "Which component of the nervous system connects the brain to the peripheral nervous system?",
+      "question": "Which part of the nervous system is involved in calming the body and conserving energy?",
       "options": [
-        "Spinal cord",
-        "Cerebellum",
-        "Medulla oblongata",
-        "Cerebral cortex"
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Central nervous system",
+        "Peripheral nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The spinal cord serves as a major pathway for information connecting the brain to the peripheral nervous system."
+      "explanation": "The parasympathetic nervous system helps to calm the body and conserve energy, often described as 'rest and digest.'"
     },
     {
       "id": "nervous-system-q4",
-      "question": "What is the primary role of the peripheral nervous system?",
+      "question": "What is the main role of the central nervous system (CNS)?",
       "options": [
-        "To relay messages between the brain and the rest of the body",
-        "To process and interpret sensory information",
-        "To regulate emotion and behavior",
-        "To control involuntary functions like breathing"
+        "To process information and initiate responses",
+        "To transmit signals from sensory organs",
+        "To maintain homeostasis",
+        "To produce hormones"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The peripheral nervous system connects the central nervous system to limbs and organs, transmitting information."
+      "explanation": "The CNS, consisting of the brain and spinal cord, processes information and coordinates activities throughout the body."
     },
     {
       "id": "nervous-system-q5",
-      "question": "Which of the following is NOT a function of the autonomic nervous system?",
+      "question": "Which researcher conducted a study on the split-brain patients to understand the lateralization of brain function?",
       "options": [
-        "Voluntary muscle control",
-        "Regulation of heart rate",
-        "Control of digestive processes",
-        "Regulation of respiratory rate"
+        "Roger Sperry (1968)",
+        "Ivan Pavlov (1927)",
+        "B.F. Skinner (1948)",
+        "John Watson (1913)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The autonomic nervous system regulates involuntary body functions, whereas voluntary muscle control is managed by the somatic nervous system."
+      "explanation": "Roger Sperry's research on split-brain patients demonstrated the specialization of the brain's hemispheres."
     },
     {
       "id": "nervous-system-q6",
-      "question": "What is the role of the somatic nervous system?",
+      "question": "What is the role of the peripheral nervous system (PNS)?",
       "options": [
-        "To control voluntary movements and transmit sensory information",
-        "To regulate involuntary bodily functions",
-        "To connect the brain to the endocrine system",
-        "To manage emotional responses"
+        "To connect the CNS to the limbs and organs",
+        "To process emotions and thoughts",
+        "To regulate temperature",
+        "To produce reflex actions"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The somatic nervous system controls voluntary movements and conveys sensory information to the central nervous system."
+      "explanation": "The PNS connects the CNS to the limbs and organs, facilitating communication between the brain and the body."
     },
     {
       "id": "nervous-system-q7",
-      "question": "Which part of the nervous system is directly involved in reflex actions?",
+      "question": "Which system is primarily responsible for the 'rest and digest' state?",
       "options": [
-        "Spinal cord",
-        "Cerebral cortex",
-        "Hypothalamus",
-        "Amygdala"
+        "Parasympathetic nervous system",
+        "Sympathetic nervous system",
+        "Somatic nervous system",
+        "Central nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Reflex actions are controlled by the spinal cord, which processes information without involving the brain."
+      "explanation": "The parasympathetic nervous system is responsible for conserving energy and aiding in bodily processes like digestion."
     },
     {
       "id": "nervous-system-q8",
-      "question": "Who conducted a study on the lateralization of brain function that supports the division of the nervous system?",
+      "question": "Which of the following is a function of the autonomic nervous system (ANS)?",
       "options": [
-        "Roger Sperry (1968)",
-        "Ivan Pavlov (1904)",
-        "John B. Watson (1913)",
-        "Albert Bandura (1961)"
+        "Regulating involuntary bodily functions",
+        "Controlling voluntary muscle movements",
+        "Processing sensory information",
+        "Maintaining balance"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Roger Sperry's split-brain research in 1968 demonstrated the different functions of the brain's hemispheres."
+      "explanation": "The ANS regulates involuntary functions such as heart rate, digestion, and respiratory rate."
     },
     {
       "id": "nervous-system-q9",
-      "question": "Which nervous system division is primarily responsible for transmitting sensory information to the central nervous system?",
+      "question": "In which part of the nervous system do interneurons predominantly operate?",
       "options": [
-        "Somatic nervous system",
+        "Central nervous system",
+        "Peripheral nervous system",
         "Autonomic nervous system",
-        "Sympathetic nervous system",
-        "Enteric nervous system"
+        "Somatic nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The somatic nervous system transmits sensory information from receptors to the central nervous system."
+      "explanation": "Interneurons are primarily found in the CNS, where they connect sensory and motor pathways."
     },
     {
       "id": "nervous-system-q10",
-      "question": "A patient experiences a rapid heartbeat and sweating in a stressful situation. Which part of the nervous system is most likely activated?",
+      "question": "A patient is experiencing increased heart rate and sweating due to anxiety. Which division of the nervous system is most likely activated?",
       "options": [
         "Sympathetic nervous system",
         "Parasympathetic nervous system",
-        "Somatic nervous system",
-        "Central nervous system"
+        "Central nervous system",
+        "Somatic nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The sympathetic nervous system is activated during stress, causing increased heart rate and sweating."
+      "explanation": "The sympathetic nervous system is activated in stress, leading to increased heart rate and sweating."
     },
     {
       "id": "nervous-system-q11",
-      "question": "If a person has difficulty coordinating their movements, which part of the nervous system might be compromised?",
+      "question": "A person touches a hot stove and immediately withdraws their hand. Which nervous system is primarily responsible for this reflex action?",
       "options": [
-        "Cerebellum",
-        "Sympathetic nervous system",
+        "Somatic nervous system",
+        "Autonomic nervous system",
         "Parasympathetic nervous system",
-        "Medulla oblongata"
+        "Central nervous system"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The cerebellum is involved in coordinating movement and balance; damage here affects motor control."
+      "explanation": "The somatic nervous system controls reflex actions such as withdrawing from painful stimuli."
     },
     {
       "id": "nervous-system-q12",
-      "question": "A researcher finds that increased activity in one division of the nervous system correlates with relaxation and decreased stress. Which division is this likely to be?",
+      "question": "While sleeping, which division of the nervous system is primarily active to maintain homeostasis?",
       "options": [
         "Parasympathetic nervous system",
         "Sympathetic nervous system",
@@ -161,46 +161,46 @@
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The parasympathetic nervous system promotes relaxation and reduces stress by conserving energy."
+      "explanation": "During sleep, the parasympathetic nervous system is active to conserve energy and maintain homeostasis."
     },
     {
       "id": "nervous-system-q13",
-      "question": "What is a weakness of using animal studies to understand the human nervous system?",
+      "question": "What is a key limitation of research into the sympathetic nervous system's role in stress response?",
       "options": [
-        "Lack of generalizability",
-        "High internal validity",
-        "Ethical considerations",
-        "Ease of control"
+        "Over-reliance on animal studies",
+        "Lack of consideration for individual differences",
+        "Ethical issues in experimental manipulation",
+        "Difficulty in measuring physiological responses"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Animal studies may lack generalizability to humans due to differences in complexity between species."
+      "explanation": "Research often relies on animal studies, which may not fully generalize to human stress responses."
     },
     {
       "id": "nervous-system-q14",
-      "question": "How does the central nervous system differ from the peripheral nervous system in terms of function?",
+      "question": "How does the parasympathetic nervous system differ from the sympathetic nervous system in terms of energy management?",
       "options": [
-        "The CNS processes information, while the PNS transmits information",
-        "The CNS controls voluntary muscles, while the PNS regulates involuntary muscles",
-        "The CNS is involved in emotional processing, while the PNS is not",
-        "The CNS is responsible for homeostasis, while the PNS is not"
+        "Conserves energy vs. expends energy",
+        "Increases arousal vs. reduces arousal",
+        "Processes voluntary actions vs. involuntary actions",
+        "Releases adrenaline vs. releases acetylcholine"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The central nervous system processes and interprets information, while the peripheral nervous system transmits it."
+      "explanation": "The parasympathetic system conserves energy by promoting restful functions, while the sympathetic system expends energy for 'fight or flight.'"
     },
     {
       "id": "nervous-system-q15",
-      "question": "What is a limitation of the 'fight or flight' model of stress response?",
+      "question": "Which methodological issue is a concern in studies measuring autonomic nervous system activity?",
       "options": [
-        "It does not account for other responses like 'tend and befriend'",
-        "It lacks empirical support",
-        "It is only applicable to non-human animals",
-        "It ignores the role of the central nervous system"
+        "Invasive measurement techniques",
+        "Confounding variables",
+        "Observer bias",
+        "Small sample sizes"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The 'fight or flight' model is limited as it doesn't account for alternative responses such as 'tend and befriend', especially in females."
+      "explanation": "Invasive techniques may cause discomfort or stress, potentially affecting the results of studies on autonomic activity."
     }
   ]
 }

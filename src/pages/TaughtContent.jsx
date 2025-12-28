@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import psychologyTopics from '../psychologyTopics';
 import { topicData as rsTopics } from '../topicData';
+import englishLitTopics from '../englishLitTopics';
 import { themeMap } from '../data/themeMap';
 import { getSelectedCurriculum } from '../config/curricula';
 
@@ -24,7 +25,12 @@ function saveTaught(data) {
 
 export default function TaughtContent({ onBack }) {
   const curriculum = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
-  const topicsSrc = curriculum === 'ocr-rs' ? rsTopics : psychologyTopics;
+  const topicsSrc =
+    curriculum === 'ocr-rs'
+      ? rsTopics
+      : curriculum === 'edexcel-englit'
+        ? englishLitTopics
+        : psychologyTopics;
   const [taught, setTaught] = useState(() => loadTaught());
   const [query, setQuery] = useState('');
 
@@ -74,7 +80,15 @@ export default function TaughtContent({ onBack }) {
           <div className="flex items-center justify-between gap-3 flex-wrap">
             <div>
               <h2 className="text-xl font-semibold">Taught Content</h2>
-              <div className="text-sm text-gray-600">Curriculum: {curriculum === 'ocr-rs' ? 'OCR Religious Studies' : 'AQA Psychology'} — mark themes as taught to prioritise the planner.</div>
+              <div className="text-sm text-gray-600">
+                Curriculum:{' '}
+                {curriculum === 'ocr-rs'
+                  ? 'OCR Religious Studies'
+                  : curriculum === 'edexcel-englit'
+                    ? 'Edexcel English Literature'
+                    : 'AQA Psychology'}{' '}
+                — mark themes as taught to prioritise the planner.
+              </div>
             </div>
             <input value={query} onChange={(e)=>setQuery(e.target.value)} placeholder="Search topic/sub-topic/theme" className="px-3 py-2 border rounded w-64"/>
           </div>

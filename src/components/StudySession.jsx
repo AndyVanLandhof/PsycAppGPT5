@@ -18,13 +18,13 @@ function StudySession({ topic, onBack }) {
   const [ao1Feedback, setAo1Feedback] = useState(null);
   const [ao3Answer, setAo3Answer] = useState('');
   const [ao3Feedback, setAo3Feedback] = useState(null);
-  const [examinerProfile, setExaminerProfile] = useState(null); // e.g. OCR Philosophy of Religion profile
+  const [examinerProfile, setExaminerProfile] = useState(null); // e.g. OCR Philosophy / AQA / Edexcel profiles
   const [flowMode, setFlowMode] = useState(() => {
     try { return localStorage.getItem('session-flow-mode') || 'guided'; } catch(_) { return 'guided'; }
   });
   const { callAIWithPublicSources } = useAIService();
 
-  // Load examiner profile for OCR Philosophy of Religion and AQA Psych Papers (used to shape AO3 feedback)
+  // Load examiner profile for OCR Philosophy of Religion, AQA Psych and Edexcel EngLit (used to shape AO3 feedback)
   useEffect(() => {
     let cancelled = false;
     async function loadProfile() {
@@ -62,6 +62,16 @@ function StudySession({ topic, onBack }) {
             if (!cancelled) setExaminerProfile(json);
             return;
           }
+        }
+        if (curriculum === 'edexcel-englit') {
+          const res = await fetch('/exam-profiles/edexcel-englit_9et0-all-papers.json');
+          if (!res.ok) {
+            setExaminerProfile(null);
+            return;
+          }
+          const json = await res.json();
+          if (!cancelled) setExaminerProfile(json);
+          return;
         }
         setExaminerProfile(null);
       } catch {
@@ -149,6 +159,8 @@ function StudySession({ topic, onBack }) {
           profileHint = `\n\nYou are marking OCR H573 Philosophy of Religion. Apply these real-world examiner habits:\n- Marking principles: ${examinerProfile.markingPrinciples?.join('; ') || ''}\n- Common weaknesses to watch for: ${examinerProfile.commonWeaknesses?.join('; ') || ''}\n- Top-band advice: ${examinerProfile.topBandAdvice?.join('; ') || ''}\nFeedback tone: ${examinerProfile.feedbackTone || 'firm but encouraging, exam-focused.'}\n`;
         } else if (curriculum === 'aqa-psych' && ['social-influence', 'memory', 'attachment', 'psychopathology'].includes(topic?.id)) {
           profileHint = `\n\nYou are marking AQA AS Psychology Paper 1 (Introductory Topics). Apply these real examiner habits:\n- Marking principles: ${examinerProfile.markingPrinciples?.join('; ') || ''}\n- AO focus: AO1 = ${examinerProfile.aoEmphasis?.AO1 || ''}; AO2 = ${examinerProfile.aoEmphasis?.AO2 || ''}; AO3 = ${examinerProfile.aoEmphasis?.AO3 || ''}\n- Common weaknesses: ${examinerProfile.commonWeaknesses?.join('; ') || ''}\n- Top-band advice: ${examinerProfile.topBandAdvice?.join('; ') || ''}\nFeedback tone: ${examinerProfile.feedbackTone || 'firm but supportive, exam-technique focused.'}\n`;
+        } else if (curriculum === 'edexcel-englit') {
+          profileHint = `\n\nYou are marking Edexcel 9ET0 A-level English Literature. Apply these real examiner habits:\n- Marking principles: ${examinerProfile.markingPrinciples?.join('; ') || ''}\n- AO focus: AO1 = ${examinerProfile.aoEmphasis?.AO1 || ''}; AO2 = ${examinerProfile.aoEmphasis?.AO2 || ''}; AO3 = ${examinerProfile.aoEmphasis?.AO3 || ''}; AO4 = ${examinerProfile.aoEmphasis?.AO4 || ''}\n- Common weaknesses: ${examinerProfile.commonWeaknesses?.join('; ') || ''}\n- Top-band advice: ${examinerProfile.topBandAdvice?.join('; ') || ''}\nFeedback tone: ${examinerProfile.feedbackTone || 'warm, enthusiastic, but exam-focused.'}\n`;
         }
       }
 

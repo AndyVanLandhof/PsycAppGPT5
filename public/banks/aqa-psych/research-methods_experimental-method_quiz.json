@@ -5,202 +5,202 @@
   "subTopic": "experimental-method",
   "subTopicTitle": "Experimental method",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:19:55.283Z",
+  "generatedAt": "2025-12-28T14:19:38.024Z",
   "items": [
     {
       "id": "experimental-method-q1",
-      "question": "Which of the following is a key feature of a laboratory experiment?",
+      "question": "What is the primary aim of a laboratory experiment?",
       "options": [
-        "Controlled environment",
-        "Use of deception",
-        "Natural setting",
-        "Lack of control over variables"
+        "To establish a cause-and-effect relationship",
+        "To explore participants' subjective experiences",
+        "To gather data in a natural setting",
+        "To observe behavior without intervention"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Laboratory experiments are characterized by their controlled environments, allowing researchers to manipulate variables and measure outcomes precisely."
+      "explanation": "Laboratory experiments aim to control variables to establish cause-and-effect relationships."
     },
     {
       "id": "experimental-method-q2",
-      "question": "What is the main purpose of random assignment in experiments?",
+      "question": "In Milgram's (1963) obedience study, what was the main dependent variable?",
       "options": [
-        "To ensure generalizability",
-        "To control for participant variables",
-        "To identify cause and effect",
-        "To increase sample size"
+        "The maximum voltage of shock administered",
+        "The number of participants who refused to participate",
+        "The level of empathy shown by participants",
+        "The time taken to administer each shock"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Random assignment helps control for participant variables by evenly distributing them across experimental conditions, reducing bias."
+      "explanation": "Milgram measured obedience by the maximum voltage participants were willing to administer."
     },
     {
       "id": "experimental-method-q3",
-      "question": "Who conducted the famous 'obedience to authority' experiment in 1963?",
+      "question": "Which of the following best describes an independent variable?",
       "options": [
-        "Stanley Milgram",
-        "Philip Zimbardo",
-        "Solomon Asch",
-        "Albert Bandura"
+        "A variable that is manipulated by the researcher",
+        "A variable that remains constant across conditions",
+        "A variable that is measured to see the effect of manipulation",
+        "A variable that acts as a confounding factor"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Stanley Milgram conducted his obedience experiments in 1963, exploring how far people would go in obeying an authority figure."
+      "explanation": "An independent variable is manipulated to observe its effect on the dependent variable."
     },
     {
       "id": "experimental-method-q4",
-      "question": "In an independent groups design, what is a major advantage?",
+      "question": "What did Loftus and Palmer (1974) investigate in their study?",
       "options": [
-        "Participant variables are controlled",
-        "No order effects",
-        "Fewer participants needed",
-        "Easier to conduct statistical analysis"
+        "The effect of leading questions on eyewitness testimony",
+        "The stages of memory processing",
+        "The impact of anxiety on recall",
+        "The duration of short-term memory"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Independent groups design avoids order effects because each participant is only exposed to one condition of the experiment."
+      "explanation": "Loftus and Palmer studied how wording of questions affected eyewitness testimony."
     },
     {
       "id": "experimental-method-q5",
-      "question": "What is a distinguishing feature of a double-blind procedure?",
+      "question": "Which term describes the extent to which findings can be generalized beyond the study?",
       "options": [
-        "Only the researcher is unaware of the conditions",
-        "Both participants and researchers are unaware of the conditions",
-        "Only participants are unaware of the conditions",
-        "Neither participants nor researchers are involved in the study"
+        "External validity",
+        "Internal reliability",
+        "Construct validity",
+        "Face validity"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "In a double-blind procedure, both the participants and the researchers do not know which condition the participants are in, reducing bias."
+      "explanation": "External validity refers to the generalizability of study findings to other settings."
     },
     {
       "id": "experimental-method-q6",
-      "question": "What is a confounding variable?",
+      "question": "What is a key feature of a double-blind experiment?",
       "options": [
-        "A variable that is manipulated by the researcher",
-        "A variable that varies systematically with the independent variable",
-        "A variable that is kept constant throughout the experiment",
-        "A variable that is measured as the outcome"
+        "Both participants and researchers are unaware of group allocations",
+        "Only participants are unaware of the hypothesis",
+        "Only researchers are aware of group allocations",
+        "Participants are aware of group allocations but not the hypothesis"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A confounding variable varies systematically with the independent variable, potentially affecting the dependent variable and leading to erroneous conclusions."
+      "explanation": "Double-blind experiments prevent both participants and researchers from being biased by not knowing group allocations."
     },
     {
       "id": "experimental-method-q7",
-      "question": "Which study is commonly associated with the development of the social learning theory?",
+      "question": "In Bandura's (1961) Bobo doll experiment, what was the primary method used?",
       "options": [
-        "Bandura et al. (1961)",
-        "Milgram (1963)",
-        "Asch (1951)",
-        "Zimbardo (1971)"
+        "Observation",
+        "Interview",
+        "Questionnaire",
+        "Case study"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Albert Bandura's 1961 Bobo doll experiment demonstrated observational learning, forming the basis for social learning theory."
+      "explanation": "Bandura used observation to study the imitation of aggressive behavior in children."
     },
     {
       "id": "experimental-method-q8",
-      "question": "What does the term 'ecological validity' refer to in experimental research?",
+      "question": "Which of the following is an example of a confounding variable?",
       "options": [
-        "The accuracy of the measurement tools",
-        "The degree to which findings can be generalized to real-life settings",
-        "The extent to which the study is free from bias",
-        "The consistency of the results over time"
+        "A variable that systematically varies with the independent variable",
+        "A variable that is held constant across all conditions",
+        "A variable that is deliberately manipulated",
+        "A variable that measures the outcome of an experiment"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Ecological validity refers to the extent to which research findings can be applied to real-world settings, beyond the controlled conditions of the experiment."
+      "explanation": "A confounding variable is one that varies with the independent variable, potentially affecting the results."
     },
     {
       "id": "experimental-method-q9",
-      "question": "Which of the following is a disadvantage of using field experiments?",
+      "question": "What is the main purpose of random allocation in experiments?",
       "options": [
-        "High control over variables",
-        "Lack of informed consent",
-        "Difficult to replicate",
-        "High ecological validity"
+        "To reduce the impact of participant variables",
+        "To ensure high ecological validity",
+        "To manipulate the independent variable",
+        "To increase the sample size"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Field experiments often occur in natural settings, making them difficult to replicate due to less control over extraneous variables."
+      "explanation": "Random allocation helps to evenly distribute participant variables across conditions, reducing bias."
     },
     {
       "id": "experimental-method-q10",
-      "question": "A researcher conducts an experiment to test the effect of sleep on cognitive performance. Participants are randomly assigned to either a sleep or no-sleep condition. What is the independent variable?",
+      "question": "A researcher investigates if music affects study performance. What is the independent variable?",
       "options": [
-        "Cognitive performance",
-        "Sleep condition",
-        "Participant age",
-        "Type of cognitive test"
-      ],
-      "correctAnswer": 1,
-      "ao": "AO2",
-      "explanation": "The independent variable is the sleep condition, as it is the variable manipulated by the researcher to observe its effect on cognitive performance."
-    },
-    {
-      "id": "experimental-method-q11",
-      "question": "During an experiment on stress reduction, participants are unaware of whether they are receiving a new therapy or a placebo. What type of experimental design is this?",
-      "options": [
-        "Single-blind",
-        "Double-blind",
-        "Matched pairs",
-        "Repeated measures"
+        "Presence or absence of music",
+        "Study performance score",
+        "Amount of time spent studying",
+        "Type of music played"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "This is a single-blind design because participants are unaware of the condition they are in, which helps reduce bias."
+      "explanation": "The independent variable is the one manipulated by the researcher, which in this case is the presence or absence of music."
+    },
+    {
+      "id": "experimental-method-q11",
+      "question": "During an experiment, a participant's heart rate is measured after exercise. What type of data is this?",
+      "options": [
+        "Physiological data",
+        "Self-report data",
+        "Qualitative data",
+        "Secondary data"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Physiological data refers to biological measurements like heart rate, collected in an objective manner."
     },
     {
       "id": "experimental-method-q12",
-      "question": "In a study on memory recall, researchers find that participants under high stress remember fewer words. What is the dependent variable?",
+      "question": "A study finds a positive correlation between stress and errors made in a task. What can be concluded?",
       "options": [
-        "Level of stress",
-        "Number of words remembered",
-        "Type of memory test",
-        "Participant age"
+        "Higher stress is associated with more errors",
+        "Stress causes errors",
+        "Errors lead to increased stress",
+        "There is no relationship between stress and errors"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The dependent variable is the number of words remembered, as it is the outcome measured by the researchers in response to changes in stress levels."
+      "explanation": "A positive correlation indicates that as one variable increases, so does the other, but causality cannot be inferred."
     },
     {
       "id": "experimental-method-q13",
-      "question": "Why might a researcher choose a natural experiment over a laboratory experiment?",
+      "question": "What is a limitation of field experiments compared to laboratory experiments?",
       "options": [
-        "To have more control over variables",
-        "To reduce ethical concerns",
-        "To increase ecological validity",
-        "To simplify data analysis"
+        "Lower control over extraneous variables",
+        "Higher levels of artificiality",
+        "Lower ecological validity",
+        "Greater demand characteristics"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Natural experiments occur in real-world settings, providing higher ecological validity as findings are more applicable to real-life situations."
+      "explanation": "Field experiments have less control over extraneous variables, which can affect the validity of the results."
     },
     {
       "id": "experimental-method-q14",
-      "question": "What is a limitation of using repeated measures design in experiments?",
+      "question": "How does the use of standardization improve an experiment's reliability?",
       "options": [
-        "Increased sample size requirements",
-        "Increased demand characteristics",
-        "Participant variability",
-        "Presence of order effects"
+        "By ensuring consistency in procedures across participants",
+        "By increasing the number of participants",
+        "By making the experiment more realistic",
+        "By reducing the time taken to conduct the experiment"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Repeated measures designs can lead to order effects, where the order of conditions affects participant performance, potentially confounding results."
+      "explanation": "Standardization involves using consistent procedures, which helps to ensure the experiment can be reliably replicated."
     },
     {
       "id": "experimental-method-q15",
-      "question": "In the context of experimental designs, what is a major advantage of using matched pairs design?",
+      "question": "What is a disadvantage of using repeated measures design in experiments?",
       "options": [
-        "It requires fewer participants",
-        "It controls for participant variables",
-        "It eliminates all order effects",
-        "It simplifies random sampling"
+        "Order effects can influence results",
+        "Greater risk of participant variability",
+        "Requires more participants",
+        "Increased demand characteristics"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Matched pairs design involves pairing participants with similar characteristics, controlling for participant variables and reducing variability between conditions."
+      "explanation": "Repeated measures designs can result in order effects, where the sequence of conditions affects participants’ responses."
     }
   ]
 }

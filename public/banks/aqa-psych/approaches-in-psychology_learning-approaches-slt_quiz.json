@@ -5,202 +5,202 @@
   "subTopic": "learning-approaches-slt",
   "subTopicTitle": "Learning approaches: Social Learning Theory",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:15:34.189Z",
+  "generatedAt": "2025-12-28T14:15:47.303Z",
   "items": [
     {
       "id": "learning-approaches-slt-q1",
       "question": "Who developed the Social Learning Theory?",
       "options": [
         "Albert Bandura",
-        "Sigmund Freud",
         "B.F. Skinner",
-        "Ivan Pavlov"
+        "Sigmund Freud",
+        "Jean Piaget"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Albert Bandura developed the Social Learning Theory, emphasizing the role of observation and imitation in learning."
+      "explanation": "Albert Bandura introduced the Social Learning Theory emphasizing the role of observational learning, imitation, and modeling."
     },
     {
       "id": "learning-approaches-slt-q2",
-      "question": "What is the process where individuals learn by observing others?",
+      "question": "What is the key process in Social Learning Theory that involves watching and copying the behavior of others?",
       "options": [
-        "Observational learning",
-        "Classical conditioning",
-        "Operant conditioning",
-        "Insight learning"
+        "Modeling",
+        "Conditioning",
+        "Reinforcement",
+        "Cognition"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Observational learning is the process by which individuals learn by watching others, a key component of Social Learning Theory."
+      "explanation": "Modeling is the process where individuals observe and imitate the behavior of role models."
     },
     {
       "id": "learning-approaches-slt-q3",
-      "question": "In Bandura's Bobo doll experiment (1961), what behavior did children exhibit after observing an aggressive model?",
+      "question": "In Bandura's original 1961 Bobo doll study, what behavior did children exhibit after observing an aggressive model?",
       "options": [
-        "They imitated aggressive behaviors",
-        "They showed no change in behavior",
-        "They became more cooperative",
-        "They were less interested in the doll"
+        "They displayed aggressive behavior towards the doll",
+        "They ignored the doll",
+        "They became fearful of the doll",
+        "They engaged in cooperative play with the doll"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Children imitated the aggressive behaviors of the model, demonstrating the impact of observational learning."
+      "explanation": "Children who observed an aggressive model were more likely to imitate aggressive actions towards the Bobo doll."
     },
     {
       "id": "learning-approaches-slt-q4",
-      "question": "Which term describes the reinforcement received by a model that influences an observer's behavior?",
+      "question": "Which of the following is NOT a key component of Bandura's Social Learning Theory?",
       "options": [
-        "Vicarious reinforcement",
-        "Direct reinforcement",
-        "Intrinsic motivation",
-        "Intrinsic reinforcement"
+        "Cognitive processes",
+        "Attention",
+        "Motivation",
+        "Unconscious drives"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "ao": "AO1",
-      "explanation": "Vicarious reinforcement occurs when an observer sees a model receiving reinforcement, influencing their own likelihood of imitating the behavior."
+      "explanation": "Unconscious drives are associated with Freud's psychoanalytic theory, not Bandura's Social Learning Theory."
     },
     {
       "id": "learning-approaches-slt-q5",
-      "question": "Which component of Social Learning Theory involves retaining observed behavior in memory?",
+      "question": "What role does 'vicarious reinforcement' play in Social Learning Theory?",
       "options": [
-        "Retention",
-        "Attention",
-        "Reproduction",
-        "Motivation"
+        "It involves learning through the observation of consequences experienced by others",
+        "It is direct reinforcement received by the learner",
+        "It refers to rewards that are imagined rather than real",
+        "It is reinforcement that occurs after a random interval"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Retention is the process of storing observed behaviors in memory for later reproduction."
+      "explanation": "Vicarious reinforcement occurs when individuals learn about the consequences of a behavior by observing others being rewarded or punished."
     },
     {
       "id": "learning-approaches-slt-q6",
-      "question": "What role does 'attention' play in the process of observational learning?",
+      "question": "In Social Learning Theory, what is 'retention'?",
       "options": [
-        "It determines which behaviors are observed and learned",
-        "It ensures behaviors are encoded in memory",
-        "It facilitates the reproduction of behavior",
-        "It provides motivation to imitate behavior"
+        "The process of remembering observed behaviors",
+        "The ability to perform a behavior",
+        "The initial attention to a model",
+        "Motivation to imitate a model"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Attention determines which behaviors are focused on and subsequently learned through observation."
+      "explanation": "Retention involves storing observed behaviors in memory to be recalled later."
     },
     {
       "id": "learning-approaches-slt-q7",
-      "question": "Which factor increases the likelihood of a behavior being imitated according to Social Learning Theory?",
+      "question": "Which study demonstrated that children are more likely to imitate same-sex models?",
       "options": [
-        "Similarity to the model",
-        "Complexity of the behavior",
-        "The model's age",
-        "The observer's mood"
+        "Bandura's Bobo Doll Experiment (1961)",
+        "Watson's Little Albert Experiment (1920)",
+        "Asch's Conformity Experiments (1951)",
+        "Zimbardo's Stanford Prison Experiment (1971)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Similarity to the model increases the likelihood of imitation, as observers are more likely to emulate those they perceive as similar to themselves."
+      "explanation": "Bandura's Bobo Doll Experiment showed that children were more likely to imitate models of the same sex."
     },
     {
       "id": "learning-approaches-slt-q8",
-      "question": "Which of the following is NOT a process outlined by Bandura in the Social Learning Theory?",
+      "question": "What is the significance of 'motivation' in Social Learning Theory?",
       "options": [
-        "Motivation",
-        "Reproduction",
-        "Conditioning",
-        "Retention"
+        "It influences the likelihood of reproducing the behavior",
+        "It's irrelevant to learning",
+        "It determines the initial ability to observe a model",
+        "It eliminates the need for attention"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Conditioning is not part of the processes outlined in Social Learning Theory, which includes attention, retention, reproduction, and motivation."
+      "explanation": "Motivation affects whether an observed behavior is imitated, often influenced by anticipated rewards or punishments."
     },
     {
       "id": "learning-approaches-slt-q9",
-      "question": "How does the concept of 'self-efficacy' relate to Social Learning Theory?",
+      "question": "Which term describes the influence of observing the consequences of a model's actions in Social Learning Theory?",
       "options": [
-        "It influences the motivation to perform observed behaviors",
-        "It is unrelated to observational learning",
-        "It is a form of direct reinforcement",
-        "It describes the retention process"
+        "Vicarious learning",
+        "Direct learning",
+        "Classical conditioning",
+        "Operant conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Self-efficacy influences an individual's belief in their ability to perform a behavior, affecting their motivation to imitate observed actions."
+      "explanation": "Vicarious learning involves observing the outcomes of a model's behavior and learning from it."
     },
     {
       "id": "learning-approaches-slt-q10",
-      "question": "A student observes a peer being rewarded for answering a question in class. According to Social Learning Theory, how might this influence the student?",
+      "question": "Maria watches her older sister get praised for cleaning her room. According to Social Learning Theory, what is Maria likely to do?",
       "options": [
-        "The student is more likely to participate in class",
-        "The student will ignore the behavior",
-        "The student will become anxious",
-        "The student will avoid participating"
+        "Clean her room to receive similar praise",
+        "Ignore the situation",
+        "Avoid cleaning her room",
+        "Criticize her sister for cleaning"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The student is likely to be motivated by vicarious reinforcement, increasing the likelihood of their own participation."
+      "explanation": "Maria is likely to imitate her sister's behavior due to vicarious reinforcement, expecting similar praise."
     },
     {
       "id": "learning-approaches-slt-q11",
-      "question": "A child sees their sibling getting praised for cleaning their room. According to Social Learning Theory, what might the child do?",
+      "question": "A student observes a peer getting a detention for talking in class. How might this influence the student's behavior according to Social Learning Theory?",
       "options": [
-        "Start cleaning their own room",
-        "Ignore the praise",
-        "Complain about unfair treatment",
-        "Become upset and cry"
+        "The student is less likely to talk in class",
+        "The student will talk more in class",
+        "The student becomes indifferent to classroom rules",
+        "The student will report the peer to the teacher"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The child is likely to clean their own room due to vicarious reinforcement, as they observe the sibling being rewarded."
+      "explanation": "Observing negative consequences (vicarious punishment) can deter the student from engaging in the same behavior."
     },
     {
       "id": "learning-approaches-slt-q12",
-      "question": "In an experiment, participants observed a model receiving punishment for aggressive behavior. Based on Social Learning Theory, what is the most likely outcome for the observers?",
+      "question": "A child sees a character on TV being rewarded for sharing. According to Social Learning Theory, what is the child likely to do?",
       "options": [
-        "They are less likely to imitate the aggressive behavior",
-        "They will imitate the behavior despite the punishment",
-        "They will show increased aggression",
-        "They will be unaffected by the model's punishment"
+        "The child is likely to share more",
+        "The child will become possessive",
+        "The child will ignore the behavior",
+        "The child will act aggressively"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Observers are less likely to imitate a behavior when they see the model being punished, due to vicarious punishment."
+      "explanation": "Observing a character being rewarded for a behavior can lead to the child imitating the behavior due to vicarious reinforcement."
     },
     {
       "id": "learning-approaches-slt-q13",
-      "question": "Which of the following is a criticism of Social Learning Theory?",
+      "question": "How does Social Learning Theory differ from classical conditioning?",
       "options": [
-        "It underestimates biological factors",
-        "It overemphasizes the role of reinforcement",
-        "It ignores observational learning",
-        "It lacks empirical support"
+        "It emphasizes observational learning",
+        "It focuses on stimulus-response associations",
+        "It involves only involuntary responses",
+        "It ignores cognitive processes"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Social Learning Theory is criticized for underestimating biological influences on behavior, focusing instead on environmental factors."
+      "explanation": "Social Learning Theory emphasizes learning through observation and imitation, unlike classical conditioning which focuses on stimulus-response associations."
     },
     {
       "id": "learning-approaches-slt-q14",
-      "question": "How does Social Learning Theory differ from Operant Conditioning?",
+      "question": "A critique of Social Learning Theory is that it may overlook which aspect of behavior?",
       "options": [
-        "It includes observational learning, while Operant Conditioning relies on reinforcement",
-        "It focuses solely on biological factors",
-        "It ignores the role of observation in learning",
-        "It is based on classical conditioning principles"
+        "Biological influences",
+        "The role of environment",
+        "Cognitive processes",
+        "Observational learning"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Social Learning Theory includes the concept of observational learning, unlike Operant Conditioning which depends on reinforcement and punishment."
+      "explanation": "Social Learning Theory has been critiqued for underestimating biological influences on behavior, focusing more on environmental factors."
     },
     {
       "id": "learning-approaches-slt-q15",
-      "question": "What methodological concern is often raised about Bandura's Bobo doll experiment?",
+      "question": "Compared to behaviorism, Social Learning Theory places more emphasis on which element?",
       "options": [
-        "Lack of ecological validity",
-        "Too large a sample size",
-        "Excessive control of variables",
-        "Overemphasis on biological data"
+        "Cognitive processes",
+        "External reinforcement",
+        "Involuntary responses",
+        "Operant conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Bobo doll experiment is criticized for its lack of ecological validity, as the laboratory setting may not reflect real-world environments."
+      "explanation": "Social Learning Theory integrates cognitive processes such as attention and retention, unlike traditional behaviorism which focuses on observable behaviors."
     }
   ]
 }

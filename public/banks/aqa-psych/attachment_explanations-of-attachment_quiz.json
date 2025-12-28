@@ -5,128 +5,154 @@
   "subTopic": "explanations-of-attachment",
   "subTopicTitle": "Explanations of attachment",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:13:56.150Z",
+  "generatedAt": "2025-12-28T14:14:01.787Z",
   "items": [
     {
       "id": "explanations-of-attachment-q1",
-      "question": "What is the primary focus of Bowlby's attachment theory?",
+      "question": "Which psychologist is known for developing the Learning Theory of attachment?",
       "options": [
-        "The evolutionary basis of attachment",
-        "The role of reinforcement in attachment",
-        "The importance of feeding in attachment",
-        "The stages of cognitive development"
+        "Dollard and Miller",
+        "John Bowlby",
+        "Mary Ainsworth",
+        "Harry Harlow"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby emphasized the evolutionary basis of attachment, suggesting it is an innate system that increases survival chances."
+      "explanation": "Dollard and Miller proposed the Learning Theory, which suggests that attachment is a result of conditioning."
     },
     {
       "id": "explanations-of-attachment-q2",
-      "question": "According to Ainsworth's Strange Situation, which attachment type is characterized by strong anxiety and resistance to comfort?",
+      "question": "What is the primary focus of Bowlby's monotropic theory of attachment?",
       "options": [
-        "Insecure-resistant",
-        "Secure",
-        "Insecure-avoidant",
-        "Disorganized"
+        "The importance of a primary attachment figure",
+        "The role of operant conditioning",
+        "The impact of peer relationships",
+        "The significance of the internal working model"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Insecure-resistant attachment is marked by high anxiety and ambivalence towards the caregiver, resisting comfort."
+      "explanation": "Bowlby's monotropic theory emphasizes the idea that infants form a primary attachment to one caregiver, which is crucial for development."
     },
     {
       "id": "explanations-of-attachment-q3",
-      "question": "Which researcher is associated with the concept of 'cupboard love' in attachment theory?",
+      "question": "In Harlow's 1958 study with rhesus monkeys, what did the monkeys prefer?",
       "options": [
-        "Dollard and Miller",
-        "Harlow",
-        "Bowlby",
-        "Ainsworth"
+        "Cloth mother",
+        "Wire mother with food",
+        "Wire mother without food",
+        "Wooden mother"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Dollard and Miller proposed 'cupboard love', suggesting attachment forms primarily through feeding."
+      "explanation": "Harlow found that monkeys preferred the comfort of a cloth mother over a wire mother, even when the wire mother provided food."
     },
     {
       "id": "explanations-of-attachment-q4",
-      "question": "Harlow's study on rhesus monkeys demonstrated the importance of which factor in attachment?",
+      "question": "Which of the following is a concept from Bowlby's theory of attachment?",
       "options": [
-        "Comfort",
-        "Nourishment",
-        "Proximity",
-        "Imprinting"
+        "Critical period",
+        "Reinforcement",
+        "Classical conditioning",
+        "Social learning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Harlow's study highlighted the significance of comfort over nourishment, as monkeys preferred the cloth mother."
+      "explanation": "Bowlby proposed a critical period during which attachments must form, or they may not form at all."
     },
     {
       "id": "explanations-of-attachment-q5",
-      "question": "Which of the following is a key concept in Bowlby's monotropic theory?",
+      "question": "What is one key feature of the internal working model according to Bowlby?",
       "options": [
-        "Critical period",
-        "Classical conditioning",
-        "Social learning",
-        "Operant conditioning"
+        "It influences future relationships",
+        "It is based on operant conditioning",
+        "It is unrelated to early attachment",
+        "It is fixed and unchangeable"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bowlby's theory includes the idea of a 'critical period' during which attachment must form for healthy development."
+      "explanation": "Bowlby suggested the internal working model acts as a template for future relationships based on early attachments."
     },
     {
       "id": "explanations-of-attachment-q6",
-      "question": "In the Strange Situation, what behavior is typically observed in securely attached infants?",
+      "question": "Which of the following is NOT a feature of Ainsworth's Strange Situation?",
       "options": [
-        "Distress at separation and joy at reunion",
-        "Indifference to caregiver's presence",
-        "Extreme anxiety at separation",
-        "Anger at reunion"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Securely attached infants are distressed when the caregiver leaves and seek comfort upon their return."
-    },
-    {
-      "id": "explanations-of-attachment-q7",
-      "question": "What did Lorenz's study on imprinting in geese demonstrate?",
-      "options": [
-        "Imprinting occurs during a critical period",
-        "Geese form attachments based on nourishment",
-        "Imprinting can happen at any time",
-        "Geese prefer human caregivers over their mothers"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Lorenz found that imprinting in geese occurs during a critical period shortly after hatching."
-    },
-    {
-      "id": "explanations-of-attachment-q8",
-      "question": "Which of the following is NOT a component of Bowlby's internal working model?",
-      "options": [
-        "Attachment safety",
-        "Future relationships",
-        "Self-worth",
-        "Cognitive schemas"
+        "Proximity seeking",
+        "Stranger anxiety",
+        "Separation anxiety",
+        "Reinforcement schedule"
       ],
       "correctAnswer": 3,
       "ao": "AO1",
-      "explanation": "Bowlby's internal working model involves attachment safety, future relationships, and self-worth, but not cognitive schemas directly."
+      "explanation": "The Strange Situation assesses attachment by observing behaviors like proximity seeking, stranger anxiety, and separation anxiety; reinforcement schedule is not part of it."
     },
     {
-      "id": "explanations-of-attachment-q9",
-      "question": "According to Schaffer and Emerson (1964), at what age do infants typically begin to form multiple attachments?",
+      "id": "explanations-of-attachment-q7",
+      "question": "According to Learning Theory, why do infants form attachments with caregivers?",
       "options": [
-        "9 months",
-        "12 months",
-        "6 months",
-        "3 months"
+        "Because caregivers provide food",
+        "Because of evolutionary instincts",
+        "To develop social skills",
+        "To establish independence"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Schaffer and Emerson found that infants start forming multiple attachments around the age of 9 months."
+      "explanation": "Learning Theory suggests attachments form because caregivers provide food, which is a primary reinforcer."
+    },
+    {
+      "id": "explanations-of-attachment-q8",
+      "question": "Mary Ainsworth identified which type of attachment in her Strange Situation study?",
+      "options": [
+        "Secure attachment",
+        "Disorganized attachment",
+        "Anxious attachment",
+        "Avoidant attachment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Ainsworth identified secure attachment as one of the attachment styles in the Strange Situation."
+    },
+    {
+      "id": "explanations-of-attachment-q9",
+      "question": "Which study is associated with the concept of imprinting in attachment?",
+      "options": [
+        "Lorenz (1935)",
+        "Harlow (1958)",
+        "Bowlby (1969)",
+        "Ainsworth (1970)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lorenz's study with geese demonstrated imprinting, where young animals form attachments during a critical period."
     },
     {
       "id": "explanations-of-attachment-q10",
-      "question": "Tom, a 1-year-old, becomes highly distressed when his mother leaves the room and is inconsolable by strangers. What type of attachment might Tom have?",
+      "question": "A child cries when their mother leaves the room but is comforted upon her return. What attachment style does this best illustrate?",
+      "options": [
+        "Secure attachment",
+        "Insecure-avoidant attachment",
+        "Insecure-resistant attachment",
+        "Disorganized attachment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This behavior is characteristic of secure attachment, where the child seeks comfort from the caregiver and is easily soothed."
+    },
+    {
+      "id": "explanations-of-attachment-q11",
+      "question": "A child shows little reaction when their caregiver leaves and returns in the Strange Situation. What type of attachment does this indicate?",
+      "options": [
+        "Insecure-avoidant",
+        "Secure",
+        "Insecure-resistant",
+        "Disorganized"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Insecure-avoidant attachment is characterized by a lack of distress upon separation and minimal reaction upon reunion."
+    },
+    {
+      "id": "explanations-of-attachment-q12",
+      "question": "In a research study, infants show high stranger anxiety and are difficult to comfort upon reunion. Which attachment style are they likely displaying?",
       "options": [
         "Insecure-resistant",
         "Secure",
@@ -135,72 +161,46 @@
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Tom's high distress and inability to be comforted by strangers suggest an insecure-resistant attachment."
-    },
-    {
-      "id": "explanations-of-attachment-q11",
-      "question": "A researcher observes that children who were securely attached as infants tend to have better peer relationships later in life. This observation supports which concept?",
-      "options": [
-        "Internal working model",
-        "Operant conditioning",
-        "Critical period",
-        "Imprinting"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "The internal working model suggests early attachment influences future relationships, supporting the observation."
-    },
-    {
-      "id": "explanations-of-attachment-q12",
-      "question": "In a study, infants with a secure attachment were found to explore their environment more confidently. What does this behavior exemplify?",
-      "options": [
-        "Secure base behavior",
-        "Separation anxiety",
-        "Stranger anxiety",
-        "Imprinting"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO2",
-      "explanation": "Securely attached infants use the caregiver as a secure base from which to explore their environment."
+      "explanation": "Insecure-resistant attachment involves high stranger anxiety and difficult comfort upon reunion with the caregiver."
     },
     {
       "id": "explanations-of-attachment-q13",
-      "question": "Which of the following is a critique of Harlow's research with rhesus monkeys?",
+      "question": "What is a criticism of the Learning Theory of attachment?",
       "options": [
-        "Ethical concerns regarding animal treatment",
-        "Lack of control over variables",
-        "Overemphasis on feeding",
-        "Failure to establish a critical period"
+        "It overlooks the role of innate biological factors",
+        "It is the only theory supported by evidence",
+        "It applies only to non-human animals",
+        "It ignores the role of fathers"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Harlow's research faced ethical criticism due to the distress caused to the monkeys involved in the study."
+      "explanation": "Learning Theory is criticized for overlooking innate biological factors and the role of comfort and security in attachment."
     },
     {
       "id": "explanations-of-attachment-q14",
-      "question": "Which methodological issue is a limitation of Ainsworth's Strange Situation?",
+      "question": "Which of the following is a methodological criticism of Harlow's 1958 study?",
       "options": [
-        "Cultural bias",
         "Lack of ecological validity",
-        "Inaccurate measurement of attachment",
-        "Over-reliance on self-report data"
+        "Use of a large sample size",
+        "Inability to replicate findings",
+        "Use of human subjects"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Strange Situation has been criticized for cultural bias, as attachment behaviors may differ across cultures."
+      "explanation": "Harlow's study lacked ecological validity as it was conducted in an artificial lab setting, not reflecting real-life conditions."
     },
     {
       "id": "explanations-of-attachment-q15",
-      "question": "How does Bowlby's monotropic theory differ from learning theory in explaining attachment?",
+      "question": "How does the monotropic theory differ from the Learning Theory in explaining attachment?",
       "options": [
-        "Focuses on innate mechanisms rather than learned behaviors",
-        "Emphasizes feeding as the primary factor",
-        "Suggests attachment is formed through reinforcement",
-        "Denies the role of any biological factors"
+        "Monotropic theory emphasizes biological factors",
+        "Learning Theory focuses on innate drives",
+        "Both theories highlight the role of fathers",
+        "Monotropic theory relies on reinforcement"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Bowlby's theory emphasizes innate mechanisms for attachment, contrasting with learning theory's focus on learned behaviors."
+      "explanation": "The monotropic theory emphasizes biological and evolutionary factors, whereas the Learning Theory focuses on conditioning and reinforcement."
     }
   ]
 }

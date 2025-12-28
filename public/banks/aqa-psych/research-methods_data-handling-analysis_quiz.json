@@ -5,202 +5,202 @@
   "subTopic": "data-handling-analysis",
   "subTopicTitle": "Data handling and analysis",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:21:30.794Z",
+  "generatedAt": "2025-12-28T14:20:59.733Z",
   "items": [
     {
       "id": "data-handling-analysis-q1",
-      "question": "What is the main advantage of using a repeated measures design in an experiment?",
+      "question": "What is the primary purpose of a pilot study?",
       "options": [
-        "It controls for participant variables.",
-        "It eliminates order effects.",
-        "It requires fewer participants to achieve the same power.",
-        "It completely removes demand characteristics."
+        "To identify potential issues in the study design",
+        "To collect large-scale data",
+        "To publish preliminary findings",
+        "To ensure ethical approval"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Repeated measures designs control for participant variables because the same participants are used in all conditions, reducing individual differences."
+      "explanation": "Pilot studies are small-scale trials that help researchers refine study procedures and identify potential problems before the main study."
     },
     {
       "id": "data-handling-analysis-q2",
-      "question": "In a study by Loftus and Palmer (1974), what was the independent variable?",
+      "question": "Which measure of central tendency is most affected by extreme scores?",
       "options": [
-        "The verb used in the critical question.",
-        "The speed of the car in the video.",
-        "The participants' age.",
-        "The color of the car in the video."
+        "Mean",
+        "Median",
+        "Mode",
+        "Range"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The independent variable was the wording of the question, specifically the verb used ('smashed', 'collided', etc.), which affected speed estimates."
+      "explanation": "The mean is sensitive to extreme scores as it involves all data points in its calculation, unlike the median and mode."
     },
     {
       "id": "data-handling-analysis-q3",
-      "question": "Which of the following is a key feature of a double-blind experimental design?",
+      "question": "What does a correlation coefficient of -0.8 indicate?",
       "options": [
-        "Neither participants nor researchers know who is receiving the treatment.",
-        "Only the participants know the purpose of the study.",
-        "Only the researchers know who is in the control group.",
-        "Participants are randomly assigned to groups by the researchers."
+        "A strong negative relationship between two variables",
+        "No relationship between two variables",
+        "A weak positive relationship between two variables",
+        "A perfect negative relationship between two variables"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "In a double-blind design, neither the participants nor the experimenters know who is receiving a particular treatment, minimizing bias."
+      "explanation": "A correlation coefficient of -0.8 suggests a strong negative correlation, meaning as one variable increases, the other tends to decrease."
     },
     {
       "id": "data-handling-analysis-q4",
-      "question": "What is a primary advantage of using a pilot study?",
+      "question": "In Milgram’s (1963) study on obedience, what percentage of participants administered the highest shock level of 450 volts?",
       "options": [
-        "It helps to identify potential problems before the main study.",
-        "It guarantees the validity of the research findings.",
-        "It increases the generalizability of the results.",
-        "It allows researchers to avoid ethical issues."
+        "65%",
+        "45%",
+        "85%",
+        "25%"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Pilot studies are small-scale trials run before the main research, helping to identify and rectify any unforeseen issues in the study design."
+      "explanation": "Milgram found that 65% of participants were willing to administer the maximum 450 volts, highlighting the power of authority in obedience."
     },
     {
       "id": "data-handling-analysis-q5",
-      "question": "Which of the following best describes a Type I error?",
+      "question": "Which of the following is NOT a type of experimental design?",
       "options": [
-        "Rejecting a true null hypothesis.",
-        "Accepting a false null hypothesis.",
-        "Accepting a true alternative hypothesis.",
-        "Rejecting a false alternative hypothesis."
+        "Cross-sectional",
+        "Independent groups",
+        "Repeated measures",
+        "Matched pairs"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A Type I error occurs when a true null hypothesis is incorrectly rejected, leading to a false positive result."
+      "explanation": "Cross-sectional is a study type, not an experimental design. The other options are valid experimental designs."
     },
     {
       "id": "data-handling-analysis-q6",
-      "question": "What does a correlation coefficient of -0.85 indicate?",
+      "question": "What is the main advantage of using a double-blind procedure?",
       "options": [
-        "A strong negative relationship between two variables.",
-        "A weak negative relationship between two variables.",
-        "No relationship between two variables.",
-        "A strong positive relationship between two variables."
+        "It reduces experimenter and participant bias",
+        "It ensures participants are randomly assigned",
+        "It increases the sample size",
+        "It simplifies data analysis"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A correlation coefficient of -0.85 indicates a strong negative relationship, meaning as one variable increases, the other tends to decrease."
+      "explanation": "Double-blind procedures help eliminate both participant and experimenter biases by keeping both parties unaware of the conditions."
     },
     {
       "id": "data-handling-analysis-q7",
-      "question": "In Milgram's obedience study (1963), what was the primary dependent variable?",
+      "question": "In Bandura's (1961) Bobo doll study, what was being primarily investigated?",
       "options": [
-        "The highest voltage shock administered by the participant.",
-        "The number of participants who refused to continue.",
-        "The time taken to administer the first shock.",
-        "The participant's verbal responses during the experiment."
+        "Observational learning",
+        "Classical conditioning",
+        "Operant conditioning",
+        "Cognitive dissonance"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The dependent variable was the maximum voltage shock administered by participants, which measured their level of obedience."
+      "explanation": "Bandura's study focused on observational learning, demonstrating that children imitate aggressive behavior observed in adults."
     },
     {
       "id": "data-handling-analysis-q8",
-      "question": "What is the Hawthorne effect?",
+      "question": "Which of the following is a qualitative research method?",
       "options": [
-        "Changes in behavior when individuals know they are being observed.",
-        "Improved performance due to increased practice.",
-        "Errors in data due to experimenter bias.",
-        "The influence of the independent variable on the dependent variable."
+        "Thematic analysis",
+        "Meta-analysis",
+        "ANOVA",
+        "Chi-square test"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The Hawthorne effect refers to the alteration of behavior by the subjects of a study due to their awareness of being observed."
+      "explanation": "Thematic analysis is used to identify patterns or themes within qualitative data, unlike statistical tests which are quantitative."
     },
     {
       "id": "data-handling-analysis-q9",
-      "question": "Which statistical test would be most appropriate for comparing the means of two independent groups?",
+      "question": "What is the primary role of an independent variable in an experiment?",
       "options": [
-        "Independent t-test",
-        "Chi-squared test",
-        "Spearman's rank correlation",
-        "Paired t-test"
+        "To be manipulated by the researcher",
+        "To remain constant throughout the study",
+        "To be measured as the outcome",
+        "To be used as a control"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "An independent t-test is used to compare the means of two independent groups to determine if there is a statistically significant difference between them."
+      "explanation": "The independent variable is the one manipulated by researchers to observe its effect on the dependent variable."
     },
     {
       "id": "data-handling-analysis-q10",
-      "question": "A researcher finds a strong positive correlation between hours studied and exam scores. What type of data analysis would best represent this relationship?",
+      "question": "A study finds that as the number of hours studied increases, test scores also increase. What type of correlation is this?",
       "options": [
-        "Scatterplot",
-        "Bar chart",
-        "Histogram",
-        "Pie chart"
+        "Positive correlation",
+        "Negative correlation",
+        "Zero correlation",
+        "Curvilinear correlation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "A scatterplot is the most appropriate tool to depict the relationship between two continuous variables, such as hours studied and exam scores."
+      "explanation": "A positive correlation exists when increases in one variable correspond with increases in another, as with study hours and test scores."
     },
     {
       "id": "data-handling-analysis-q11",
-      "question": "A psychologist is studying the effect of temperature on concentration levels. What would be an appropriate operational definition of concentration?",
+      "question": "A researcher conducts a study on stress levels in two different cities. Which statistical test should be used to compare the mean stress levels of the two cities?",
       "options": [
-        "The number of tasks completed within a set time period.",
-        "The room temperature in degrees Celsius.",
-        "The subjective feeling of focus reported by participants.",
-        "The type of tasks participants are asked to complete."
+        "Independent t-test",
+        "Paired t-test",
+        "Chi-square test",
+        "Pearson's r"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Operational definitions specify how variables are measured. Here, concentration is operationally defined as the number of tasks completed."
+      "explanation": "An independent t-test is appropriate for comparing the means of two independent groups on a continuous outcome."
     },
     {
       "id": "data-handling-analysis-q12",
-      "question": "If a researcher wants to measure anxiety levels in participants using a standardized questionnaire, what type of data is being collected?",
+      "question": "In a memory experiment, participants recall more words from a list when given meaningful categories. What does this scenario illustrate?",
       "options": [
-        "Quantitative data",
-        "Qualitative data",
-        "Nominal data",
-        "Ordinal data"
+        "The effect of semantic encoding",
+        "The use of maintenance rehearsal",
+        "The impact of visual encoding",
+        "The role of episodic memory"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Standardized questionnaires typically produce quantitative data, allowing for statistical analysis and comparison between participants."
+      "explanation": "Semantic encoding involves encoding information with meaning, which enhances memory recall, as shown in this scenario."
     },
     {
       "id": "data-handling-analysis-q13",
-      "question": "One limitation of a case study method is:",
+      "question": "Which of the following is a limitation of longitudinal studies?",
       "options": [
-        "Lack of generalizability due to the focus on a single case.",
-        "The inability to gather detailed qualitative data.",
-        "The necessity for a large sample size.",
-        "The difficulty in controlling variables in a laboratory setting."
+        "They are time-consuming and may suffer from participant attrition",
+        "They provide insufficient data for analysis",
+        "They cannot establish causal relationships",
+        "They require fewer resources compared to cross-sectional studies"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Case studies focus on a single instance, providing in-depth data but limiting generalizability to broader populations."
+      "explanation": "Longitudinal studies are extensive and can lose participants over time, impacting the study's results."
     },
     {
       "id": "data-handling-analysis-q14",
-      "question": "How does the presence of demand characteristics affect the validity of a study?",
+      "question": "Why might a researcher choose a field experiment over a laboratory experiment?",
       "options": [
-        "They decrease internal validity by influencing participant behavior.",
-        "They increase internal validity by enhancing participant engagement.",
-        "They have no effect on the validity of the study.",
-        "They decrease external validity by affecting the study's generalizability."
+        "To increase ecological validity",
+        "To control all extraneous variables",
+        "To reduce participant variability",
+        "To improve the reliability of the findings"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Demand characteristics can lead participants to alter their behavior based on perceived expectations, thus reducing internal validity."
+      "explanation": "Field experiments are conducted in natural settings, which enhances ecological validity compared to lab experiments."
     },
     {
       "id": "data-handling-analysis-q15",
-      "question": "Why might researchers choose a mixed-methods approach for their study?",
+      "question": "Which of the following is a disadvantage of using self-report questionnaires in research?",
       "options": [
-        "To provide a more comprehensive understanding by combining quantitative and qualitative data.",
-        "To increase sample size without additional resources.",
-        "To focus solely on qualitative data analysis.",
-        "To ensure all data is collected in a controlled environment."
+        "They can lead to social desirability bias",
+        "They are costly and time-consuming",
+        "They provide data with low reliability",
+        "They limit the generalizability of findings"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Mixed-methods research combines qualitative and quantitative approaches, offering a more comprehensive perspective on a research question."
+      "explanation": "Self-report questionnaires can lead to social desirability bias, where participants may not respond truthfully to present themselves favorably."
     }
   ]
 }

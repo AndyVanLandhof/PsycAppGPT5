@@ -98,8 +98,72 @@ function QuestionResult({ result: r, index }) {
 }
 
 /**
+ * Fallback parser for Edexcel-style papers (e.g. 9ET0/03) where questions are
+ * indicated by "1  ..." / "2  ..." lines and marks by "(Total for Question X = NN marks)".
+ */
+function parseEdexcelStyleQuestions(text) {
+  const lines = text.split('\n');
+  const questions = [];
+  let currentSection = '';
+
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
+    const line = raw.trim();
+
+    // Track section headers (e.g. "SECTION A: ..." / "SECTION B:")
+    const secMatch = line.match(/^SECTION\s+([A-Z])/i);
+    if (secMatch) {
+      currentSection = `Section ${secMatch[1].toUpperCase()}`;
+      continue;
+    }
+
+    const m = line.match(/\(Total for Question\s+(\d+)\s*=\s*(\d+)\s*marks\)/i);
+    if (!m) continue;
+    const qNum = m[1];
+    const marks = parseInt(m[2], 10);
+
+    // Walk backwards to find the starting line (e.g. "1  Read the poem...")
+    let start = i - 1;
+    while (start >= 0) {
+      const s = lines[start].trim();
+      if (!s) { start++; break; }
+      if (/^\d+\s+/.test(s)) break;
+      start--;
+    }
+    if (start < 0) start = 0;
+
+    const buffer = [];
+    for (let j = start; j < i; j++) {
+      const t = lines[j].trim();
+      if (!t) continue;
+      if (t.startsWith('SECTION')) continue;
+      if (t === 'EITHER' || t === 'OR') continue;
+      if (t.startsWith('Answer ONE question')) continue;
+      if (t.startsWith('Indicate which question you are answering')) continue;
+      buffer.push(t);
+    }
+
+    const qText = buffer.join(' ').trim();
+    if (qText.length > 10 && marks > 0) {
+      questions.push({
+        number: qNum,
+        text: qText,
+        marks,
+        section: currentSection || ''
+      });
+    }
+  }
+
+  return questions;
+}
+
+/**
  * Parse questions from extracted text file
  * Returns array of { number, text, marks, section }
+ *
+ * Primary mode: AQA/OCR-style "0 N" numbering with [x marks] lines.
+ * Fallback: if nothing is found and the text contains "Total for Question",
+ * use an Edexcel-style parser for 9ET0/03-style papers.
  *
  * Note on AQA-style layout:
  * Some AS / A-level AQA papers put a scenario *before* the question number
@@ -138,7 +202,7 @@ function parseQuestionsFromText(text) {
     }
 
     // Detect section headers
-    if (line.match(/^Section [A-Z]$/i)) {
+    if (line.match(/^Section [A-Z]$/i) || line.match(/^SECTION [A-Z]/)) {
       continue;
     }
     if (['Social Influence', 'Memory', 'Attachment', 'Psychopathology', 'Approaches', 'Biopsychology', 'Research Methods'].includes(line)) {
@@ -199,6 +263,7 @@ function parseQuestionsFromText(text) {
         // Filter out obvious boilerplate / headings here too
         if (
           !line.match(/^Section [A-Z]$/i) &&
+          !line.match(/^SECTION [A-Z]/) &&
           !['Social Influence', 'Memory', 'Attachment', 'Psychopathology', 'Approaches', 'Biopsychology', 'Research Methods'].includes(line)
         ) {
           pendingPreamble.push(line);
@@ -216,7 +281,16 @@ function parseQuestionsFromText(text) {
   }
 
   // Filter out invalid questions
-  return questions.filter(q => q.text.length > 10 && q.marks > 0);
+  const primary = questions.filter(q => q.text.length > 10 && q.marks > 0);
+  if (primary.length > 0) return primary;
+
+  // Fallback: Edexcel-style parsing when no AQA/OCR-style questions found
+  if (text.includes('Total for Question')) {
+    const edexcelQs = parseEdexcelStyleQuestions(text);
+    if (edexcelQs.length > 0) return edexcelQs;
+  }
+
+  return primary;
 }
 
 function InteractiveExam({ paperId, onBack }) {
@@ -234,6 +308,8 @@ function InteractiveExam({ paperId, onBack }) {
   const [results, setResults] = useState(null);
   const [markingProgress, setMarkingProgress] = useState(0);
   const [showInstructions, setShowInstructions] = useState(false);
+  const [selectedSectionAQuestion, setSelectedSectionAQuestion] = useState(null);
+  const [selectedSectionBQuestion, setSelectedSectionBQuestion] = useState(null);
   
   const { callAIWithPublicSources } = useAIService();
   
@@ -323,6 +399,32 @@ function InteractiveExam({ paperId, onBack }) {
   };
   
   const startExam = () => {
+    setExamState('inProgress');
+  };
+
+  const startEdexcelDramaExam = () => {
+    if (!selectedSectionAQuestion || !selectedSectionBQuestion) {
+      // Require one choice from each section
+      // eslint-disable-next-line no-alert
+      alert('Please choose one question from Section A and one question from Section B before starting the exam.');
+      return;
+    }
+    // Filter down to the two chosen questions and reinitialise answers
+    const chosenNumbers = [selectedSectionAQuestion, selectedSectionBQuestion];
+    const chosen = questions.filter(q => chosenNumbers.includes(String(q.number)));
+    if (chosen.length !== 2) {
+      // eslint-disable-next-line no-alert
+      alert('There was a problem selecting your questions. Please try again.');
+      return;
+    }
+    const initialAnswers = {};
+    chosen.forEach((q, idx) => {
+      initialAnswers[idx] = '';
+    });
+    setQuestions(chosen);
+    setAnswers(initialAnswers);
+    setCurrentQ(0);
+    setShowInstructions(false);
     setExamState('inProgress');
   };
   
@@ -435,6 +537,7 @@ Return STRICT JSON:
           ao1Comment: parsed.ao1Comment || '',
           ao2Comment: parsed.ao2Comment || '',
           whyNotNextLevel: parsed.whyNotNextLevel || '',
+          section: q.section || '',
           markSchemeSection: markSchemeSection.substring(0, 2000) || ''
         });
       } catch (e) {
@@ -449,8 +552,31 @@ Return STRICT JSON:
       }
     }
     
-    const totalAwarded = questionResults.reduce((sum, r) => sum + r.awarded, 0);
-    const totalMax = questions.reduce((sum, q) => sum + q.marks, 0);
+    // Compute totals; handle "answer N of M" patterns for certain papers
+    let totalAwarded;
+    let totalMax;
+    if (curriculum === 'edexcel-englit' && paper && paper.code === '9ET0/01') {
+      // Edexcel Drama 9ET0/01: effectively one 30-mark question from Section A and one from Section B
+      const secA = questionResults.filter(r => String(r.section || '').toLowerCase().includes('section a'));
+      const secB = questionResults.filter(r => String(r.section || '').toLowerCase().includes('section b'));
+      const half = Math.floor(questionResults.length / 2) || questionResults.length;
+      const groupA = secA.length ? secA : questionResults.slice(0, half);
+      const groupB = secB.length ? secB : questionResults.slice(half);
+
+      const bestInGroup = (arr) => {
+        if (!arr.length) return null;
+        return arr.reduce((best, r) => (r.awarded || 0) > (best?.awarded || 0) ? r : best, arr[0]);
+      };
+
+      const bestA = bestInGroup(groupA);
+      const bestB = bestInGroup(groupB);
+
+      totalAwarded = (bestA ? bestA.awarded || 0 : 0) + (bestB ? bestB.awarded || 0 : 0);
+      totalMax = (bestA ? bestA.maxMarks || 0 : 0) + (bestB ? bestB.maxMarks || 0 : 0);
+    } else {
+      totalAwarded = questionResults.reduce((sum, r) => sum + (r.awarded || 0), 0);
+      totalMax = questions.reduce((sum, q) => sum + (q.marks || 0), 0);
+    }
     const percentage = totalMax > 0 ? Math.round((totalAwarded / totalMax) * 100) : 0;
     
     setResults({
@@ -489,6 +615,8 @@ Return STRICT JSON:
   }
   
   if (examState === 'ready') {
+    const isEdexcelDrama = curriculum === 'edexcel-englit' && paper && paper.code === '9ET0/01';
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200">
         <div className="max-w-3xl mx-auto px-4 py-8">
@@ -502,7 +630,7 @@ Return STRICT JSON:
             <div className="grid grid-cols-3 gap-4 mb-8">
               <div className="bg-slate-50 rounded-lg p-4">
                 <div className="text-2xl font-bold text-slate-700">{questions.length}</div>
-                <div className="text-sm text-slate-500">Questions</div>
+                <div className="text-sm text-slate-500">Available Questions</div>
               </div>
               <div className="bg-slate-50 rounded-lg p-4">
                 <div className="text-2xl font-bold text-slate-700">{paper.totalMarks}</div>
@@ -518,7 +646,11 @@ Return STRICT JSON:
               <h3 className="font-semibold text-amber-800 mb-2">⚠️ Exam Conditions</h3>
               <ul className="text-sm text-amber-700 space-y-1">
                 <li>• The timer will start when you click "Start Exam"</li>
-                <li>• Answer all questions in the spaces provided</li>
+                <li>
+                  • {isEdexcelDrama
+                    ? 'You only need to answer ONE question from Section A and ONE question from Section B. The examiner will use your best question from each section when calculating your mark.'
+                    : 'Answer all questions in the spaces provided.'}
+                </li>
                 <li>• Your answers will be marked by AI using the official mark scheme</li>
                 <li>• You can navigate between questions at any time</li>
               </ul>

@@ -5,202 +5,202 @@
   "subTopic": "phobias",
   "subTopicTitle": "Phobias",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:19:05.140Z",
+  "generatedAt": "2025-12-28T14:18:54.431Z",
   "items": [
     {
       "id": "phobias-q1",
-      "question": "Which of the following best describes a phobia according to the DSM-5?",
+      "question": "Which of the following is a defining characteristic of phobias according to the DSM-5?",
       "options": [
-        "An intense, irrational fear of a specific object or situation.",
-        "A general feeling of anxiety without a specific focus.",
-        "A persistent feeling of sadness or hopelessness.",
-        "A prolonged state of elevated mood and energy."
+        "Intense fear or anxiety about a specific object or situation",
+        "Persistent low mood and lack of interest",
+        "Recurring depressive episodes",
+        "Obsessive thoughts and compulsive behaviors"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The DSM-5 defines a phobia as an intense, irrational fear of a specific object or situation."
+      "explanation": "Phobias are characterized by intense fear or anxiety about a specific object or situation as defined in the DSM-5."
     },
     {
       "id": "phobias-q2",
-      "question": "Which researcher developed the two-process model of phobia acquisition?",
+      "question": "According to the two-process model, what is the role of classical conditioning in the development of phobias?",
       "options": [
-        "Mowrer (1947)",
-        "Beck (1967)",
-        "Freud (1909)",
-        "Skinner (1948)"
+        "It is responsible for the maintenance of phobias",
+        "It is responsible for the initial acquisition of phobias",
+        "It prevents the extinction of phobias",
+        "It explains avoidance behaviors in phobias"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "The two-process model, involving classical and operant conditioning, was proposed by Mowrer in 1947."
+      "explanation": "Classical conditioning is responsible for the initial acquisition of phobias by associating a neutral stimulus with a fear response."
     },
     {
       "id": "phobias-q3",
-      "question": "What type of conditioning is involved in the maintenance of phobias according to the two-process model?",
+      "question": "Who conducted the Little Albert experiment, which demonstrated the acquisition of phobias through classical conditioning?",
       "options": [
-        "Operant conditioning",
-        "Classical conditioning",
-        "Observational learning",
-        "Imitation"
+        "John B. Watson and Rosalie Rayner (1920)",
+        "B.F. Skinner and John Watson (1948)",
+        "Albert Bandura and John B. Watson (1961)",
+        "Sigmund Freud and Carl Jung (1909)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Operant conditioning maintains phobias through negative reinforcement, where avoidance reduces anxiety."
+      "explanation": "The Little Albert experiment by John B. Watson and Rosalie Rayner (1920) showed that phobias could be acquired through classical conditioning."
     },
     {
       "id": "phobias-q4",
-      "question": "Which of the following is NOT a characteristic of phobias?",
+      "question": "In the context of phobias, what is 'systematic desensitization'?",
       "options": [
-        "Persistent fear",
-        "Avoidance behavior",
-        "Lack of emotional response",
-        "Excessive anxiety"
+        "A method of cognitive restructuring",
+        "A behavioral therapy involving gradual exposure",
+        "A psychoanalytic technique",
+        "A form of drug therapy"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "Lack of emotional response is incorrect; phobias are characterized by excessive emotional responses like anxiety."
+      "explanation": "Systematic desensitization is a behavioral therapy technique that involves gradual exposure to the phobic stimulus to reduce anxiety."
     },
     {
       "id": "phobias-q5",
-      "question": "Systematic desensitization was developed by which psychologist?",
+      "question": "What is the main goal of flooding as a treatment for phobias?",
       "options": [
-        "Wolpe (1958)",
-        "Ellis (1962)",
-        "Rogers (1951)",
-        "Bandura (1977)"
+        "To teach relaxation techniques",
+        "To immediately expose the patient to a high level of the phobic stimulus",
+        "To slowly introduce the phobic stimulus in steps",
+        "To explore unconscious conflicts"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "Systematic desensitization, a behavioral therapy for phobias, was developed by Wolpe in 1958."
+      "explanation": "Flooding involves immediate and prolonged exposure to the phobic stimulus to extinguish the fear response."
     },
     {
       "id": "phobias-q6",
-      "question": "Which cognitive-behavioral therapy technique involves challenging irrational beliefs?",
+      "question": "Which of the following is a symptom of agoraphobia?",
       "options": [
-        "Cognitive restructuring",
-        "Flooding",
-        "Hypnosis",
-        "Aversion therapy"
+        "Fear of confined spaces",
+        "Fear of having a panic attack in public",
+        "Fear of spiders",
+        "Fear of heights"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "Cognitive restructuring involves identifying and challenging irrational beliefs to change maladaptive thinking."
+      "explanation": "Agoraphobia often involves a fear of having a panic attack in public places or situations where escape might be difficult."
     },
     {
       "id": "phobias-q7",
-      "question": "In Watson and Rayner's study with Little Albert, what was the unconditioned stimulus (UCS)?",
+      "question": "What is a key feature that distinguishes a specific phobia from generalized anxiety disorder?",
       "options": [
-        "The loud noise",
-        "The white rat",
-        "Albert's crying",
-        "The laboratory setting"
+        "The presence of obsessive-compulsive behaviors",
+        "The focus on a specific object or situation",
+        "The chronic nature of the anxiety",
+        "The presence of mood swings"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO1",
-      "explanation": "The loud noise was the unconditioned stimulus that naturally elicited a fear response in Little Albert."
+      "explanation": "A specific phobia involves fear or anxiety about a specific object or situation, unlike generalized anxiety disorder, which is more diffuse."
     },
     {
       "id": "phobias-q8",
-      "question": "According to evolutionary theory, why might phobias of snakes or spiders be common?",
+      "question": "What did Menzies and Clarke (1993) find about the role of genetic factors in the development of phobias?",
       "options": [
-        "They posed survival threats to ancestors.",
-        "They are frequently encountered in daily life.",
-        "They are inherently more frightening.",
-        "They are more poisonous than other animals."
+        "Genetic factors have no influence on phobia development",
+        "Phobias are entirely learned behaviors",
+        "Genetic factors play a significant role in the development of phobias",
+        "Phobias are more influenced by environmental factors"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Evolutionary theory suggests phobias of snakes or spiders are common because they posed survival threats to ancestors."
+      "explanation": "Menzies and Clarke (1993) found that genetic factors play a significant role in the development of phobias, indicating a biological predisposition."
     },
     {
       "id": "phobias-q9",
-      "question": "What is the primary aim of flooding therapy for phobias?",
+      "question": "Which of the following therapies is based on the principle of counterconditioning?",
       "options": [
-        "To extinguish the learned fear response by exposure to the feared object.",
-        "To gradually introduce the feared object.",
-        "To replace the fear response with relaxation.",
-        "To identify the underlying cause of the phobia."
+        "Systematic desensitization",
+        "Flooding",
+        "Cognitive-behavioral therapy",
+        "Psychoanalysis"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Flooding aims to extinguish the learned fear response by exposing the person to the feared object until anxiety diminishes."
+      "explanation": "Systematic desensitization is based on counterconditioning, which aims to replace the fear response with a relaxation response."
     },
     {
       "id": "phobias-q10",
-      "question": "Lucy has a fear of dogs. Her therapist uses systematic desensitization. Which step would likely come first?",
+      "question": "Jane developed an intense fear of dogs after being bitten by one as a child. According to the two-process model, what mechanism maintains her phobia?",
       "options": [
-        "Teaching Lucy relaxation techniques",
-        "Gradually exposing Lucy to a picture of a dog",
-        "Introducing Lucy to a real dog",
-        "Discussing Lucy's fear of dogs"
+        "Classical conditioning",
+        "Operant conditioning",
+        "Social learning",
+        "Biological preparedness"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO2",
-      "explanation": "Systematic desensitization begins with teaching relaxation techniques to manage anxiety."
+      "explanation": "Operant conditioning maintains her phobia as avoiding dogs reduces anxiety, thus negatively reinforcing the avoidance behavior."
     },
     {
       "id": "phobias-q11",
-      "question": "Tom is afraid of heights. His therapist uses flooding. What is Tom likely to experience?",
+      "question": "Tom has a fear of heights and avoids climbing stairs. His therapist asks him to imagine climbing a staircase while practicing relaxation techniques. What therapy is being used here?",
       "options": [
-        "Being immediately exposed to a high place without gradual steps",
-        "Gradual exposure to increasing heights",
-        "Relaxation training before exposure",
-        "Cognitive restructuring to challenge fear"
+        "Systematic desensitization",
+        "Flooding",
+        "Cognitive-behavioral therapy",
+        "Psychodynamic therapy"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Flooding involves immediate exposure to the fear source, in this case, a high place, without gradual steps."
+      "explanation": "The therapist is using systematic desensitization by pairing the fear imagery with relaxation techniques to reduce anxiety."
     },
     {
       "id": "phobias-q12",
-      "question": "Sarah has a fear of flying. What would be an example of avoidance behavior?",
+      "question": "Sarah has a phobia of flying and avoids all air travel. Her therapist takes her to an airport and watches planes taking off while practicing deep breathing techniques. What therapeutic approach is this?",
       "options": [
-        "Refusing to travel even when necessary",
-        "Learning about aviation safety",
-        "Practicing relaxation techniques",
-        "Discussing her fear with a therapist"
+        "Systematic desensitization",
+        "Flooding",
+        "Participant modeling",
+        "Cognitive restructuring"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO2",
-      "explanation": "Avoidance behavior involves actions like refusing to fly, which prevent confronting the feared situation."
+      "explanation": "This is an example of flooding, where Sarah is exposed to the feared situation (airport) to reduce her anxiety through prolonged exposure."
     },
     {
       "id": "phobias-q13",
-      "question": "What is a limitation of using flooding as a treatment for phobias?",
+      "question": "What is a potential limitation of systematic desensitization as a treatment for phobias?",
       "options": [
-        "It can be highly distressing for patients.",
-        "It takes a long time to see results.",
-        "It requires gradual exposure.",
-        "It focuses only on cognitive aspects."
+        "It can cause high levels of anxiety in patients",
+        "It may not address underlying cognitive factors",
+        "It is only effective for social phobias",
+        "It requires medication to be effective"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO3",
-      "explanation": "Flooding can be highly distressing due to the intense exposure, which might not be suitable for all patients."
+      "explanation": "A limitation of systematic desensitization is that it may not address the underlying cognitive factors contributing to the phobia."
     },
     {
       "id": "phobias-q14",
-      "question": "How does the cognitive approach to treating phobias differ from the behavioral approach?",
+      "question": "How does the evolutionary explanation account for the prevalence of certain phobias over others?",
       "options": [
-        "It focuses on changing thought patterns rather than behavior.",
-        "It uses medication to treat symptoms.",
-        "It involves biological interventions.",
-        "It is based on observational learning principles."
+        "Phobias are entirely learned behaviors",
+        "Some phobias have survival value and thus are more common",
+        "All phobias are equally prevalent across cultures",
+        "Phobias are primarily due to social learning"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO3",
-      "explanation": "The cognitive approach differs by focusing on changing thought patterns, unlike the behavioral approach that targets behavior."
+      "explanation": "The evolutionary explanation suggests that phobias of things like snakes or heights are more common because they posed survival threats to ancestors."
     },
     {
       "id": "phobias-q15",
-      "question": "What is a strength of systematic desensitization compared to flooding?",
+      "question": "Which of the following is a criticism of the two-process model in explaining phobias?",
       "options": [
-        "It is generally more acceptable to patients due to gradual exposure.",
-        "It provides faster results.",
-        "It requires less therapist involvement.",
-        "It is less structured and more flexible."
+        "It overemphasizes genetic factors",
+        "It ignores the role of cognitive factors",
+        "It fails to account for the role of classical conditioning",
+        "It is too focused on social influences"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "ao": "AO3",
-      "explanation": "Systematic desensitization is often more acceptable as it uses gradual exposure, reducing patient distress."
+      "explanation": "A criticism of the two-process model is that it ignores cognitive factors, focusing mainly on behavioral aspects of phobia acquisition and maintenance."
     }
   ]
 }

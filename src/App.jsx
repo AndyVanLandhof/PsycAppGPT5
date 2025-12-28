@@ -272,7 +272,7 @@ function App() {
             <BookOpen className="w-10 h-10" />
             <h1 className="inline-block text-5xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-[1.2] pb-1">
               {curriculum === 'ocr-rs' ? 'OCR Religious Studies H573' : (curriculum === 'edexcel-englit' ? 'Edexcel English Literature 9ET0' : 'AQA Psychology 7182')}
-            </h1>
+          </h1>
           </div>
           <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
         </div>
@@ -310,18 +310,18 @@ function App() {
         <div className="mt-12">
           <div className="text-center text-indigo-700 font-semibold text-2xl mb-3">📝 Practice Exams</div>
           <div className="flex flex-wrap justify-center items-center gap-4">
-            <button
+          <button
               onClick={() => setView('actual-past-papers')}
               className="flex items-center gap-2 text-lg px-6 py-3 border-2 border-slate-400 bg-white rounded-lg hover:bg-slate-50 font-semibold shadow-sm hover:shadow transition-all"
-            >
+          >
               📄 Actual Past Papers
-            </button>
-            <button
+          </button>
+          <button
               onClick={() => setView('synthetic-past-papers')}
               className="flex items-center gap-2 text-lg px-6 py-3 border-2 border-purple-400 bg-white rounded-lg hover:bg-purple-50 font-semibold shadow-sm hover:shadow transition-all"
-            >
+          >
               ✨ Synthetic Past Papers
-            </button>
+          </button>
           </div>
         </div>
 
@@ -329,10 +329,10 @@ function App() {
         <div className="mt-12">
           <div className="text-center text-purple-700 font-semibold text-2xl mb-3">Tools & Setup</div>
           <div className="flex flex-wrap justify-center items-center gap-3">
-            <button
+          <button
               onClick={() => setView('settings')}
-              className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-            >
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
               <Settings className="w-5 h-5" />
               Settings
             </button>
@@ -348,11 +348,11 @@ function App() {
             {curriculum !== 'ocr-rs' ? (
               <button onClick={() => setView('srs-dashboard')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">
                 <RefreshCw className="w-5 h-5" /> SRS Dashboard
-              </button>
+          </button>
             ) : (
               <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">
                 <RefreshCw className="w-5 h-5" /> SRS Dashboard (soon)
-              </button>
+          </button>
             )}
             {curriculum !== 'ocr-rs' ? (
               <button onClick={() => setView('topic-progress-demo')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧭 Topic Progress Demo</button>
@@ -366,14 +366,14 @@ function App() {
             <button onClick={() => setView('quiz-lab')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Quiz Lab</button>
             <button onClick={() => setView('quiz-review')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📋 Quiz Bank Review</button>
             <button onClick={() => setView('vault-directory')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📂 Vault Directory</button>
-            <button
+          <button
               onClick={() => { if (confirm('Reset ALL progress for all topics? This cannot be undone.')) { resetAllProgressStorage(); } }}
-              className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
-              title="Clears all progressive tracking data"
-            >
-              ♻️ Reset All Progress
-            </button>
-          </div>
+            className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
+            title="Clears all progressive tracking data"
+          >
+            ♻️ Reset All Progress
+          </button>
+        </div>
         </div>
       </div>
     </div>

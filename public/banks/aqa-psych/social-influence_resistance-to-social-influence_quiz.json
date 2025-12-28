@@ -5,202 +5,202 @@
   "subTopic": "resistance-to-social-influence",
   "subTopicTitle": "Resistance to social influence",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:11:32.908Z",
+  "generatedAt": "2025-12-28T14:11:54.063Z",
   "items": [
     {
       "id": "resistance-to-social-influence-q1",
       "question": "What is the term for the ability to withstand social pressure to conform or obey?",
       "options": [
         "Resistance to social influence",
-        "Conformity",
-        "Social facilitation",
-        "Obedience"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Resistance to social influence refers to the ability to withstand social pressure to conform or obey."
-    },
-    {
-      "id": "resistance-to-social-influence-q2",
-      "question": "Who conducted a study in 1982 that investigated resistance to conformity by introducing a dissenting confederate?",
-      "options": [
-        "Allen and Levine",
-        "Milgram",
-        "Asch",
-        "Zimbardo"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Allen and Levine (1982) studied resistance to conformity by introducing a dissenting confederate."
-    },
-    {
-      "id": "resistance-to-social-influence-q3",
-      "question": "Which type of locus of control is associated with greater resistance to social influence?",
-      "options": [
-        "Internal locus of control",
-        "External locus of control",
-        "Central locus of control",
-        "Peripheral locus of control"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "An internal locus of control is associated with greater resistance to social influence."
-    },
-    {
-      "id": "resistance-to-social-influence-q4",
-      "question": "In Asch's conformity studies, what effect did having an ally have on the participant's likelihood to conform?",
-      "options": [
-        "Decreased conformity",
-        "Increased conformity",
-        "No effect on conformity",
-        "Caused confusion"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Having an ally decreased conformity in Asch's studies, as participants felt more supported in their dissent."
-    },
-    {
-      "id": "resistance-to-social-influence-q5",
-      "question": "According to Milgram's 1963 study, what percentage of participants administered the highest shock level when alone?",
-      "options": [
-        "65%",
-        "45%",
-        "25%",
-        "85%"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "In Milgram's study, 65% of participants administered the highest shock level when alone."
-    },
-    {
-      "id": "resistance-to-social-influence-q6",
-      "question": "What concept did Rotter introduce to explain why some people resist pressure to conform or obey?",
-      "options": [
-        "Locus of control",
-        "Social identity theory",
-        "Deindividuation",
+        "Social loafing",
+        "Groupthink",
         "Social facilitation"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rotter introduced the concept of locus of control to explain resistance to social influence."
+      "explanation": "Resistance to social influence refers to the ability to remain independent and resist the pressure to conform or obey."
+    },
+    {
+      "id": "resistance-to-social-influence-q2",
+      "question": "Which study conducted by Asch in 1951 is most closely related to conformity?",
+      "options": [
+        "Line judgment task",
+        "Stanford prison experiment",
+        "Obedience to authority",
+        "Bobo doll experiment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Asch's 1951 study involved a line judgment task where participants conformed to incorrect majority answers."
+    },
+    {
+      "id": "resistance-to-social-influence-q3",
+      "question": "In Milgram's 1963 study, what percentage of participants administered the maximum shock level of 450 volts?",
+      "options": [
+        "65%",
+        "45%",
+        "85%",
+        "30%"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Milgram's study, 65% of participants continued to the highest level of 450 volts, demonstrating obedience to authority."
+    },
+    {
+      "id": "resistance-to-social-influence-q4",
+      "question": "Which factor is NOT associated with increasing resistance to social influence?",
+      "options": [
+        "High internal locus of control",
+        "Presence of social support",
+        "Ambiguous task",
+        "Strong moral beliefs"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "An ambiguous task can decrease resistance as individuals may look to others for guidance, leading to conformity."
+    },
+    {
+      "id": "resistance-to-social-influence-q5",
+      "question": "Who conducted a study in 1971 that demonstrated the impact of social roles on behavior?",
+      "options": [
+        "Zimbardo",
+        "Milgram",
+        "Asch",
+        "Bandura"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Zimbardo's 1971 Stanford prison experiment showed how social roles can influence individual behavior and lead to conformity."
+    },
+    {
+      "id": "resistance-to-social-influence-q6",
+      "question": "What is the role of a disobedient model in reducing obedience?",
+      "options": [
+        "Provides social support",
+        "Increases task difficulty",
+        "Encourages social loafing",
+        "Promotes groupthink"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "A disobedient model provides social support and demonstrates that resistance to authority is possible, reducing obedience."
     },
     {
       "id": "resistance-to-social-influence-q7",
-      "question": "In Milgram's variation with two disobedient confederates, what happened to the participant's obedience levels?",
+      "question": "According to Rotter, what personality characteristic is associated with resistance to social influence?",
       "options": [
-        "Obedience dropped significantly",
-        "Obedience increased",
-        "Obedience remained the same",
-        "Participants became confused"
+        "Internal locus of control",
+        "External locus of control",
+        "High neuroticism",
+        "Low openness"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Obedience dropped significantly when participants were with two disobedient confederates, highlighting social support's role."
+      "explanation": "Individuals with an internal locus of control feel they have personal control over their actions, increasing resistance to social influence."
     },
     {
       "id": "resistance-to-social-influence-q8",
-      "question": "What is the term for the reduction in personal responsibility felt when others are present?",
+      "question": "Which study by Moscovici in 1969 explored the impact of a consistent minority on the majority?",
       "options": [
-        "Diffusion of responsibility",
-        "Social loafing",
-        "Deindividuation",
-        "Bystander effect"
+        "Blue-green slides experiment",
+        "Line judgment task",
+        "Obedience to authority",
+        "Stanford prison experiment"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Diffusion of responsibility refers to the reduction in personal responsibility when others are present."
+      "explanation": "Moscovici's 1969 study demonstrated that a consistent minority could influence the majority in a color perception task."
     },
     {
       "id": "resistance-to-social-influence-q9",
-      "question": "Which study demonstrated that social support can help individuals resist pressure to conform in a simulated jury setting?",
+      "question": "What is the effect of social support on conformity levels according to Asch's research?",
       "options": [
-        "Allen and Levine (1971)",
-        "Zimbardo (1973)",
-        "Sherif (1935)",
-        "Festinger (1957)"
+        "Decreases conformity",
+        "Increases conformity",
+        "No effect on conformity",
+        "Increases obedience"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Allen and Levine (1971) showed that social support helps resist conformity in a simulated jury."
+      "explanation": "Asch found that social support, such as the presence of another dissenting individual, significantly decreases conformity levels."
     },
     {
       "id": "resistance-to-social-influence-q10",
-      "question": "Sarah is in a group project where everyone agrees on a wrong answer. She remembers her teacher mentioning a study where dissent reduced conformity. Which study might she be recalling?",
+      "question": "Emily refuses to participate in a risky behavior despite her friends' pressure. What concept does this illustrate?",
       "options": [
-        "Asch's line experiment",
-        "Zimbardo's prison experiment",
-        "Sherif's autokinetic effect study",
-        "Milgram's obedience study"
+        "Resistance to social influence",
+        "Social facilitation",
+        "Deindividuation",
+        "Social loafing"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Sarah is likely recalling Asch's line experiment where a dissenting opinion reduced conformity."
+      "explanation": "Emily's refusal to conform to her friends' pressure despite their influence is an example of resistance to social influence."
     },
     {
       "id": "resistance-to-social-influence-q11",
-      "question": "Tom is tempted to skip a red light because he sees others doing it. He recalls a study about obedience and decides to wait. Which study might have influenced his decision?",
+      "question": "A study found that groups with an ally are less likely to conform. This finding supports which concept?",
       "options": [
-        "Milgram's obedience study",
-        "Asch's conformity study",
-        "Zimbardo's prison study",
-        "Sherif's autokinetic study"
+        "Social support",
+        "Informational social influence",
+        "Groupthink",
+        "Social loafing"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Milgram's obedience study likely influenced Tom's decision by highlighting the importance of authority and rules."
+      "explanation": "The presence of an ally in a group provides social support, which reduces conformity by making it easier to resist group pressure."
     },
     {
       "id": "resistance-to-social-influence-q12",
-      "question": "Lena refuses to follow her friends into a restricted area at a concert. She thinks the risk isn't worth it and recalls a theory about personal control. Which theory is she applying?",
+      "question": "During a team meeting, Alex often speaks out against the majority view, providing alternative suggestions. What concept does this demonstrate?",
       "options": [
-        "Locus of control",
-        "Social identity theory",
-        "Bystander effect",
-        "Cognitive dissonance"
+        "Minority influence",
+        "Social facilitation",
+        "Obedience",
+        "Social loafing"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Lena is applying the locus of control theory, emphasizing her internal control over decisions."
+      "explanation": "Alex's behavior exemplifies minority influence, where a smaller group or individual presents alternative views to the majority."
     },
     {
       "id": "resistance-to-social-influence-q13",
-      "question": "What is a major critique of the external validity of Milgram's obedience studies?",
+      "question": "Which criticism is often leveled at Milgram's 1963 study on ethical grounds?",
       "options": [
-        "The artificial setting",
-        "The lack of authority figures",
-        "The use of children as participants",
-        "The absence of a control group"
+        "Lack of informed consent",
+        "Small sample size",
+        "No control group",
+        "Unrealistic setting"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "A major critique is the artificial setting, which may not reflect real-world obedience scenarios."
+      "explanation": "Milgram's study has been criticized for ethical issues, particularly the lack of informed consent about the true nature of the experiment."
     },
     {
       "id": "resistance-to-social-influence-q14",
-      "question": "In evaluating Asch's conformity study, what is a limitation regarding the sample used?",
+      "question": "What is a key methodological issue with Zimbardo's 1971 Stanford prison experiment?",
       "options": [
-        "All male participants",
-        "All female participants",
-        "Diverse age range",
-        "Varied cultural backgrounds"
+        "Lack of ecological validity",
+        "Use of deception",
+        "Unrepresentative sample",
+        "No control group"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO3",
-      "explanation": "A limitation is the use of all male participants, which limits the generalizability of the findings."
+      "explanation": "Zimbardo's experiment used a sample of male college students, which limits the generalizability of the findings to wider populations."
     },
     {
       "id": "resistance-to-social-influence-q15",
-      "question": "How does locus of control theory compare to social identity theory in explaining resistance to social influence?",
+      "question": "Which study challenges the external validity of Asch's 1951 line judgment task?",
       "options": [
-        "Focuses on individual control vs. group belonging",
-        "Emphasizes group norms vs. authority influence",
-        "Highlights cognitive processes vs. behavior reinforcement",
-        "Contrasts external vs. internal motivation"
+        "Perrin and Spencer (1980)",
+        "Zimbardo (1971)",
+        "Moscovici (1969)",
+        "Milgram (1963)"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Locus of control focuses on individual control over outcomes, while social identity theory emphasizes group belonging."
+      "explanation": "Perrin and Spencer's 1980 study found much lower conformity rates, suggesting that Asch's findings may not apply across different contexts and times."
     }
   ]
 }

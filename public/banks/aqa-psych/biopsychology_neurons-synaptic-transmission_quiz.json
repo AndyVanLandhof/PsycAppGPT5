@@ -5,76 +5,63 @@
   "subTopic": "neurons-synaptic-transmission",
   "subTopicTitle": "Neurons and synaptic transmission",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:17:30.356Z",
+  "generatedAt": "2025-12-28T14:17:17.715Z",
   "items": [
     {
       "id": "neurons-synaptic-transmission-q1",
-      "question": "What is the primary function of a motor neuron?",
+      "question": "What is the primary function of the myelin sheath on a neuron?",
       "options": [
-        "To transmit impulses from the central nervous system to muscles",
-        "To carry sensory information to the brain",
-        "To connect sensory and motor neurons",
-        "To process information within the brain"
+        "To increase the speed of electrical transmission along the axon",
+        "To protect the neuron from damage",
+        "To store neurotransmitters",
+        "To conduct synaptic transmission"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Motor neurons transmit impulses from the central nervous system to muscles to facilitate movement."
+      "explanation": "The myelin sheath acts as an insulating layer, allowing electrical signals to travel more quickly along the axon."
     },
     {
       "id": "neurons-synaptic-transmission-q2",
-      "question": "Who conducted a pioneering study on synaptic transmission in the giant squid axon?",
+      "question": "Which type of neuron is primarily responsible for carrying signals from the central nervous system to muscles?",
       "options": [
-        "Hodgkin and Huxley (1952)",
-        "Broca (1861)",
-        "Wernicke (1874)",
-        "Rogers and Kesner (2003)"
+        "Motor neurons",
+        "Sensory neurons",
+        "Interneurons",
+        "Relay neurons"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Hodgkin and Huxley (1952) conducted a groundbreaking study on action potentials using the giant squid axon."
+      "explanation": "Motor neurons transmit impulses from the central nervous system to muscles, leading to movement."
     },
     {
       "id": "neurons-synaptic-transmission-q3",
-      "question": "Which of the following is NOT a type of neuron?",
+      "question": "Who conducted the first studies on the synaptic transmission and when?",
       "options": [
-        "Glial neuron",
-        "Sensory neuron",
-        "Motor neuron",
-        "Interneuron"
+        "Charles Sherrington in 1897",
+        "John Watson in 1913",
+        "Ivan Pavlov in 1903",
+        "Sigmund Freud in 1900"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Glial cells are not neurons; they provide support and protection for neurons."
+      "explanation": "Charles Sherrington's work in 1897 was pivotal in understanding synaptic transmission."
     },
     {
       "id": "neurons-synaptic-transmission-q4",
-      "question": "Which structure is primarily responsible for neurotransmitter release in a neuron?",
+      "question": "What role do neurotransmitters play in synaptic transmission?",
       "options": [
-        "Axon terminal",
-        "Dendrite",
-        "Myelin sheath",
-        "Soma"
+        "They transmit signals across a synapse",
+        "They generate action potentials",
+        "They protect axons",
+        "They insulate neurons"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The axon terminal is where neurotransmitters are released into the synaptic cleft."
+      "explanation": "Neurotransmitters are chemical messengers that transmit signals across the synaptic gap between neurons."
     },
     {
       "id": "neurons-synaptic-transmission-q5",
-      "question": "What is the role of the myelin sheath in neuronal communication?",
-      "options": [
-        "To increase the speed of electrical impulses",
-        "To act as a receptor for neurotransmitters",
-        "To produce neurotransmitters",
-        "To initiate synaptic transmission"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The myelin sheath insulates axons, increasing the speed of electrical impulse transmission."
-    },
-    {
-      "id": "neurons-synaptic-transmission-q6",
-      "question": "Which neurotransmitter is primarily associated with the 'fight or flight' response?",
+      "question": "Which neurotransmitter is primarily involved in the fight or flight response?",
       "options": [
         "Noradrenaline",
         "Dopamine",
@@ -83,124 +70,137 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Noradrenaline is a key neurotransmitter in the sympathetic nervous system, associated with the 'fight or flight' response."
+      "explanation": "Noradrenaline, also known as norepinephrine, is involved in the body's response to stress and is part of the fight or flight response."
+    },
+    {
+      "id": "neurons-synaptic-transmission-q6",
+      "question": "What process describes the reabsorption of a neurotransmitter by the sending neuron after it has performed its function?",
+      "options": [
+        "Reuptake",
+        "Depolarization",
+        "Synaptic pruning",
+        "Neurogenesis"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Reuptake is the process where neurotransmitters are reabsorbed by the presynaptic neuron after transmitting a neural impulse."
     },
     {
       "id": "neurons-synaptic-transmission-q7",
-      "question": "Which of the following best describes synaptic transmission?",
+      "question": "What happens during an action potential?",
       "options": [
-        "Chemical process where neurotransmitters cross the synaptic gap",
-        "Electrical process within the axon",
-        "Mechanical process involving nerve impulses",
-        "Optical process involving light detection"
+        "A rapid reversal of the membrane potential occurs",
+        "Neurotransmitters are released into the synaptic cleft",
+        "The neuron returns to its resting state",
+        "The neuron becomes hyperpolarized"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Synaptic transmission is a chemical process where neurotransmitters cross the synaptic gap to transmit signals between neurons."
+      "explanation": "During an action potential, there is a rapid reversal of the membrane potential that travels along the axon."
     },
     {
       "id": "neurons-synaptic-transmission-q8",
-      "question": "What is reuptake in the context of synaptic transmission?",
+      "question": "What is the role of the axon terminal in a neuron?",
       "options": [
-        "Reabsorption of neurotransmitters by the presynaptic neuron",
-        "Release of neurotransmitters into the synaptic cleft",
-        "Degradation of neurotransmitters by enzymes",
-        "Binding of neurotransmitters to receptors"
+        "To release neurotransmitters into the synaptic cleft",
+        "To generate action potentials",
+        "To receive incoming signals",
+        "To process information within the cell body"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Reuptake is the process by which neurotransmitters are reabsorbed by the presynaptic neuron after crossing the synapse."
+      "explanation": "The axon terminal is responsible for releasing neurotransmitters into the synaptic cleft to communicate with the next neuron."
     },
     {
       "id": "neurons-synaptic-transmission-q9",
-      "question": "What is the primary function of neurotransmitters?",
+      "question": "Which part of the neuron contains the nucleus?",
       "options": [
-        "To transmit signals across synapses",
-        "To generate electrical impulses",
-        "To form the structure of the neuron",
-        "To protect neurons from damage"
+        "Cell body (soma)",
+        "Dendrites",
+        "Axon",
+        "Myelin sheath"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Neurotransmitters are chemical messengers that transmit signals across synapses from one neuron to another."
+      "explanation": "The cell body, or soma, contains the nucleus and is responsible for maintaining the neuron's health."
     },
     {
       "id": "neurons-synaptic-transmission-q10",
-      "question": "A patient with a damaged myelin sheath may exhibit symptoms primarily due to:",
+      "question": "A patient presents with muscle weakness due to a lack of acetylcholine at neuromuscular junctions. What condition is this likely to be?",
       "options": [
-        "Slower nerve impulse transmission",
-        "Excessive neurotransmitter production",
-        "Enhanced synaptic efficiency",
-        "Increased neural connectivity"
+        "Myasthenia gravis",
+        "Parkinson's disease",
+        "Multiple sclerosis",
+        "Alzheimer's disease"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Damage to the myelin sheath slows down nerve impulse transmission, leading to symptoms like those seen in multiple sclerosis."
+      "explanation": "Myasthenia gravis is characterized by muscle weakness due to antibodies blocking acetylcholine receptors at neuromuscular junctions."
     },
     {
       "id": "neurons-synaptic-transmission-q11",
-      "question": "A person is unable to move their right arm. This suggests a possible issue with which type of neuron?",
+      "question": "A researcher finds that a new drug increases serotonin levels in the brain. Which disorder might this drug be used to treat?",
       "options": [
-        "Motor neuron",
-        "Sensory neuron",
-        "Interneuron",
-        "Mirror neuron"
+        "Depression",
+        "Schizophrenia",
+        "Epilepsy",
+        "Parkinson's disease"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Motor neurons control voluntary movements; damage to these neurons can result in an inability to move specific body parts."
+      "explanation": "Increased serotonin levels are often targeted in the treatment of depression, as serotonin is linked to mood regulation."
     },
     {
       "id": "neurons-synaptic-transmission-q12",
-      "question": "In an experiment, increased levels of dopamine were linked to enhanced learning in participants. This suggests that dopamine:",
+      "question": "During a study, a patient exhibits improved mood after an increase in dopamine levels. Which condition is this change most likely associated with?",
       "options": [
-        "Plays a role in reward and motivation",
-        "Inhibits synaptic transmission",
-        "Causes muscle contraction",
-        "Decreases neural plasticity"
+        "Parkinson's disease",
+        "Anxiety disorder",
+        "Alzheimer's disease",
+        "Myasthenia gravis"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Dopamine is associated with reward, motivation, and learning processes, enhancing synaptic transmission."
+      "explanation": "Dopamine is associated with mood and reward pathways, and increasing its levels can improve mood in conditions like Parkinson's disease, which involves dopamine deficits."
     },
     {
       "id": "neurons-synaptic-transmission-q13",
-      "question": "Why might fMRI be considered a superior method for studying brain activity compared to EEG?",
+      "question": "What is one limitation of using post-mortem examinations in studying neurotransmitter systems?",
       "options": [
-        "It provides better spatial resolution",
-        "It is less expensive",
-        "It measures electrical activity",
-        "It has better temporal resolution"
+        "It does not allow for the study of live brain activity",
+        "It is too costly and time-consuming",
+        "It cannot identify genetic influences",
+        "It relies on self-report data"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "fMRI provides better spatial resolution, allowing for more precise localization of brain activity compared to EEG."
+      "explanation": "Post-mortem examinations cannot study live brain activity, limiting our understanding of dynamic neurotransmitter processes."
     },
     {
       "id": "neurons-synaptic-transmission-q14",
-      "question": "What is a limitation of using post-mortem examinations in studying brain function?",
+      "question": "How does the synaptic transmission model challenge the traditional reflex arc model?",
       "options": [
-        "They cannot determine cause and effect",
-        "They provide real-time data",
-        "They are non-invasive",
-        "They have high ecological validity"
+        "It emphasizes chemical over purely electrical processes",
+        "It negates the role of the central nervous system",
+        "It suggests neurons do not communicate",
+        "It dismisses the importance of the spinal cord"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Post-mortem examinations cannot establish cause and effect as they study the brain after death, lacking real-time functionality."
+      "explanation": "The synaptic transmission model highlights the chemical processes, challenging the purely electrical perspective of the reflex arc model."
     },
     {
       "id": "neurons-synaptic-transmission-q15",
-      "question": "How does the synaptic transmission process support Hebb's theory of learning?",
+      "question": "What is a major criticism of using animal studies to understand human synaptic transmission?",
       "options": [
-        "It demonstrates neural plasticity",
-        "It shows fixed neural pathways",
-        "It supports the idea of innate behaviors",
-        "It contradicts the idea of learning through experience"
+        "Differences in complexity between human and animal brains",
+        "Ethical concerns over human participants",
+        "The high cost of animal research",
+        "Variability in human neurotransmitter systems"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Synaptic transmission supports Hebb's theory by showing that synaptic connections can strengthen, demonstrating neural plasticity and learning."
+      "explanation": "Animal studies may not fully replicate the complexity of human brains, leading to questions about the applicability of findings to humans."
     }
   ]
 }

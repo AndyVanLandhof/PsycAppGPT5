@@ -5,202 +5,202 @@
   "subTopic": "types-of-conformity",
   "subTopicTitle": "Types of conformity",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:10:36.569Z",
+  "generatedAt": "2025-12-28T14:10:55.540Z",
   "items": [
     {
       "id": "types-of-conformity-q1",
-      "question": "Which type of conformity involves publicly conforming to the views or behaviours of others while privately maintaining one's own beliefs?",
+      "question": "What type of conformity involves publicly conforming while privately disagreeing?",
       "options": [
         "Compliance",
         "Identification",
         "Internalisation",
-        "Integration"
+        "Normative influence"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Compliance is when individuals conform publicly to the views or actions of others but do not change their private beliefs."
+      "explanation": "Compliance is when an individual changes their behavior publicly to fit in with a group while privately maintaining their own beliefs."
     },
     {
       "id": "types-of-conformity-q2",
-      "question": "Which study by Asch (1951) is famous for investigating conformity through line judgments?",
+      "question": "Which psychologist(s) conducted a famous study on conformity using line judgments?",
       "options": [
-        "Line Length Study",
-        "Line Comparison Experiment",
-        "Line Judgment Task",
-        "Line Distortion Test"
+        "Solomon Asch, 1951",
+        "Stanley Milgram, 1963",
+        "Philip Zimbardo, 1971",
+        "Muzafar Sherif, 1935"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Asch's (1951) line judgment task demonstrated the power of normative social influence and compliance."
+      "explanation": "Solomon Asch conducted a study in 1951 where participants conformed to incorrect majority opinions in a line judgment task."
     },
     {
       "id": "types-of-conformity-q3",
-      "question": "What is the main difference between informational social influence and normative social influence?",
+      "question": "What does normative social influence typically lead to?",
       "options": [
-        "Informational leads to internalisation; normative leads to compliance",
-        "Informational is about fitting in; normative is about being correct",
-        "Informational occurs in ambiguous situations; normative occurs in clear situations",
-        "Informational leads to identification; normative leads to internalisation"
+        "Compliance",
+        "Identification",
+        "Internalisation",
+        "Independence"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Informational social influence leads to internalisation as people accept information from others as evidence of reality, while normative social influence leads to compliance to fit in."
+      "explanation": "Normative social influence leads to compliance as individuals conform to be accepted or liked by a group."
     },
     {
       "id": "types-of-conformity-q4",
-      "question": "Which type of conformity is most likely to occur when a person adopts the beliefs or behaviors of a group permanently?",
+      "question": "In the context of social influence, what does 'internalisation' refer to?",
       "options": [
-        "Compliance",
-        "Identification",
-        "Integration",
-        "Internalisation"
+        "Adopting group norms both privately and publicly",
+        "Changing behavior due to direct orders",
+        "Conforming to fit in with a group",
+        "Adopting a role model's behavior"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Internalisation involves adopting the beliefs or behaviors of a group both publicly and privately, often permanently."
+      "explanation": "Internalisation occurs when an individual adopts the beliefs or behaviors of a group both publicly and privately."
     },
     {
       "id": "types-of-conformity-q5",
-      "question": "Sherif's (1935) autokinetic effect study is associated with which type of social influence?",
+      "question": "Who proposed the dual-process dependency model of social influence?",
       "options": [
-        "Normative social influence",
-        "Informational social influence",
-        "Social identity",
-        "Obedience"
+        "Deutsch and Gerard, 1955",
+        "Festinger, 1957",
+        "Zimbardo, 1971",
+        "Sherif, 1935"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Sherif's (1935) study demonstrated informational social influence as participants looked to others for guidance in an ambiguous situation."
+      "explanation": "Deutsch and Gerard proposed the dual-process dependency model, which includes informational and normative social influences."
     },
     {
       "id": "types-of-conformity-q6",
-      "question": "What is the primary focus of Zimbardo's Stanford prison experiment (1971)?",
+      "question": "Which type of conformity involves adopting the beliefs or behaviors of a group because of a desire to be right?",
       "options": [
-        "Obedience to authority",
-        "Conformity to social roles",
         "Informational influence",
-        "Minority influence"
+        "Normative influence",
+        "Compliance",
+        "Obedience"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Zimbardo's Stanford prison experiment focused on how individuals conform to social roles, illustrating the power of situational factors."
+      "explanation": "Informational influence occurs when individuals conform because they believe the group is competent and has the correct information."
     },
     {
       "id": "types-of-conformity-q7",
-      "question": "Which type of conformity involves adopting the beliefs or behaviors of a group because of a desire to be a member of that group?",
+      "question": "What was the main finding of Asch's 1951 line study?",
       "options": [
-        "Compliance",
-        "Internalisation",
-        "Identification",
-        "Integration"
+        "Participants conformed to a majority even when the answer was obviously incorrect",
+        "Participants obeyed authority figures despite moral conflict",
+        "Individuals acted aggressively in roles given to them",
+        "People conformed more in ambiguous situations"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Identification occurs when individuals conform to the expectations of a social role or group they wish to be associated with."
+      "explanation": "Asch found that participants conformed to a majority view even when it was clearly incorrect, highlighting the power of conformity."
     },
     {
       "id": "types-of-conformity-q8",
-      "question": "What did Milgram's (1963) study primarily investigate?",
+      "question": "Which study demonstrated conformity to social roles in a simulated prison environment?",
       "options": [
-        "Conformity",
-        "Obedience",
-        "Social roles",
-        "Minority influence"
+        "Zimbardo, 1971",
+        "Asch, 1951",
+        "Milgram, 1963",
+        "Sherif, 1935"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Milgram's (1963) study investigated obedience to authority, demonstrating how people follow orders even against their morals."
+      "explanation": "Zimbardo's 1971 Stanford prison experiment showed conformity to social roles, as participants adopted behaviors associated with their assigned roles."
     },
     {
       "id": "types-of-conformity-q9",
-      "question": "Which factor is NOT typically associated with increasing conformity in group settings?",
+      "question": "In Milgram's study of obedience, what percentage of participants administered the highest shock level?",
       "options": [
-        "Group size",
-        "Unanimity",
-        "Task difficulty",
-        "Social class"
+        "65%",
+        "50%",
+        "75%",
+        "85%"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Social class is not typically identified as a direct factor affecting conformity, unlike group size, unanimity, and task difficulty."
+      "explanation": "In Milgram's 1963 study, 65% of participants continued to the highest shock level, demonstrating high levels of obedience to authority."
     },
     {
       "id": "types-of-conformity-q10",
-      "question": "Sarah changes her answer to a math problem after seeing her classmates' answers, believing they are more knowledgeable. This is an example of:",
+      "question": "Sarah changes her opinion about a political issue after discussing it with her peers, genuinely adopting their viewpoint. What type of conformity does this illustrate?",
       "options": [
-        "Normative social influence",
-        "Informational social influence",
+        "Internalisation",
         "Compliance",
-        "Social identity theory"
+        "Identification",
+        "Normative influence"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Sarah's change is due to informational social influence, as she assumes her classmates have better information."
+      "explanation": "Sarah's genuine adoption of the group's viewpoint indicates internalisation, as she has changed both her public and private beliefs."
     },
     {
       "id": "types-of-conformity-q11",
-      "question": "During a group project, Tom agrees with the majority opinion to avoid conflict, even though he disagrees privately. This scenario illustrates:",
+      "question": "Tom wears a suit to work because his colleagues do, even though he prefers casual clothes. Which type of conformity is Tom demonstrating?",
       "options": [
+        "Compliance",
         "Internalisation",
         "Identification",
-        "Compliance",
         "Informational influence"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Tom's behavior is an example of compliance, as he conforms publicly without changing his private beliefs."
+      "explanation": "Tom is demonstrating compliance, as he is conforming publicly by wearing a suit while privately preferring casual clothes."
     },
     {
       "id": "types-of-conformity-q12",
-      "question": "Emma begins to dress and act like her new group of friends at university, even when not with them. This behavior is an example of:",
+      "question": "Lisa starts smoking because her friends do, and she wants to be part of the group. What type of conformity does this represent?",
       "options": [
-        "Compliance",
         "Identification",
         "Internalisation",
-        "Conformity bias"
+        "Compliance",
+        "Informational influence"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Emma's behavior is an example of identification, as she adopts the behaviors of a group she desires to belong to."
+      "explanation": "Lisa is showing identification as she adopts behaviors to be associated with a specific group, though it may not reflect her private beliefs."
     },
     {
       "id": "types-of-conformity-q13",
-      "question": "What is a major criticism of Asch's (1951) conformity study regarding its methodological design?",
+      "question": "Which of the following is a critique of Asch's 1951 line study?",
       "options": [
-        "High ecological validity",
-        "Low internal validity",
-        "Cultural bias",
-        "Lack of ethical considerations"
-      ],
-      "correctAnswer": 2,
-      "ao": "AO3",
-      "explanation": "Asch's study is criticized for cultural bias, as it was conducted in a Western, individualistic society, limiting generalizability."
-    },
-    {
-      "id": "types-of-conformity-q14",
-      "question": "Which methodological issue is a common criticism of Zimbardo's Stanford prison experiment?",
-      "options": [
-        "Low control over variables",
-        "Lack of informed consent",
-        "Sample size",
-        "Researcher bias"
-      ],
-      "correctAnswer": 3,
-      "ao": "AO3",
-      "explanation": "Zimbardo's dual role as researcher and prison superintendent may have introduced researcher bias, affecting the study's outcomes."
-    },
-    {
-      "id": "types-of-conformity-q15",
-      "question": "In evaluating conformity research, what is a significant limitation regarding ecological validity?",
-      "options": [
-        "Studies are often conducted in artificial settings",
-        "High ecological validity limits control",
-        "Ethical concerns reduce ecological validity",
-        "Field studies lack ecological validity"
+        "Lack of ecological validity",
+        "High levels of ethical concern",
+        "Limited sample diversity",
+        "Inconsistent measurement tools"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Conformity studies often occur in artificial settings, such as labs, which may not reflect real-life social interactions, affecting ecological validity."
+      "explanation": "Asch's study is critiqued for lack of ecological validity as it was conducted in a controlled lab setting that may not reflect real-world conformity."
+    },
+    {
+      "id": "types-of-conformity-q14",
+      "question": "How might cultural differences affect the findings of Asch's conformity study?",
+      "options": [
+        "Collectivist cultures may show higher conformity",
+        "Individualist cultures show higher conformity",
+        "Cultural differences have no effect on conformity",
+        "Conformity is higher in cultures with strong power distance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Research suggests that collectivist cultures, which value group harmony, may exhibit higher levels of conformity compared to individualist cultures."
+    },
+    {
+      "id": "types-of-conformity-q15",
+      "question": "What is a limitation of the Stanford prison experiment by Zimbardo (1971)?",
+      "options": [
+        "Ethical concerns related to participant wellbeing",
+        "Inability to replicate findings",
+        "Limited control over variables",
+        "Lack of historical relevance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The Stanford prison experiment is criticized for ethical concerns, particularly regarding the psychological harm experienced by participants."
     }
   ]
 }

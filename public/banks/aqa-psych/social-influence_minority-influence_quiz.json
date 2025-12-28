@@ -5,202 +5,202 @@
   "subTopic": "minority-influence",
   "subTopicTitle": "Minority influence",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:11:53.265Z",
+  "generatedAt": "2025-12-28T14:12:12.659Z",
   "items": [
     {
       "id": "minority-influence-q1",
-      "question": "Which of the following researchers conducted a key study on minority influence using a color perception task?",
+      "question": "What is the main concept of minority influence?",
       "options": [
-        "Moscovici et al. (1969)",
-        "Asch (1951)",
-        "Milgram (1963)",
-        "Zimbardo (1971)"
+        "A small group can change the beliefs of the majority through consistency, commitment, and flexibility.",
+        "A majority can change the beliefs of a minority through peer pressure.",
+        "A minority can change its own beliefs to conform to the majority.",
+        "A small group can maintain its beliefs despite majority pressure."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Moscovici et al. (1969) is known for studying minority influence using a color perception task where confederates consistently called a blue slide green."
+      "explanation": "Minority influence refers to the process by which a smaller group changes the attitudes of the larger group through consistency, commitment, and flexibility."
     },
     {
       "id": "minority-influence-q2",
-      "question": "What is a key component required for a minority to influence the majority according to Moscovici?",
-      "options": [
-        "Flexibility",
-        "Majority size",
-        "Social identity",
-        "Conformity pressure"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Flexibility is crucial as it allows the minority to be seen as reasonable and adaptable, which can enhance their influence."
-    },
-    {
-      "id": "minority-influence-q3",
-      "question": "Which term describes the effect when a minority viewpoint eventually becomes the majority position?",
-      "options": [
-        "Social cryptomnesia",
-        "Majority influence",
-        "Social facilitation",
-        "Groupthink"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Social cryptomnesia occurs when the majority adopts the minority viewpoint but forgets the origins of the idea."
-    },
-    {
-      "id": "minority-influence-q4",
-      "question": "What role does consistency play in minority influence?",
-      "options": [
-        "It increases the minority's credibility",
-        "It decreases the minority's influence",
-        "It has no effect on influence",
-        "It leads to compliance only"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Consistency over time and agreement among the minority members enhances the minority’s credibility, making their viewpoint more compelling."
-    },
-    {
-      "id": "minority-influence-q5",
-      "question": "In Moscovici's study, what percentage of participants conformed to the minority at least once?",
-      "options": [
-        "32%",
-        "8%",
-        "50%",
-        "65%"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "32% of participants in Moscovici’s study conformed to the minority and called the blue slides green at least once."
-    },
-    {
-      "id": "minority-influence-q6",
-      "question": "Which researcher proposed the 'conversion theory' of minority influence?",
+      "question": "Who conducted a famous study on minority influence in 1969?",
       "options": [
         "Moscovici",
         "Asch",
-        "Zimbardo",
-        "Milgram"
+        "Milgram",
+        "Zimbardo"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Moscovici proposed the conversion theory, suggesting that minorities can lead to deeper cognitive processing and change."
+      "explanation": "Moscovici conducted a study in 1969 that demonstrated the impact of a consistent minority on the majority's opinions."
+    },
+    {
+      "id": "minority-influence-q3",
+      "question": "According to Moscovici's study, what color were the slides shown to participants?",
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Yellow"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moscovici's study involved participants being shown blue slides and a minority consistently stating they were green."
+    },
+    {
+      "id": "minority-influence-q4",
+      "question": "Which term describes the ability of a minority to remain consistent in their views over time?",
+      "options": [
+        "Diachronic consistency",
+        "Synchronic consistency",
+        "Cognitive dissonance",
+        "Social cryptomnesia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Diachronic consistency refers to the minority maintaining the same stance over time, which is crucial for influencing the majority."
+    },
+    {
+      "id": "minority-influence-q5",
+      "question": "What is a key factor that enhances the influence of a minority group?",
+      "options": [
+        "Flexibility",
+        "Hostility",
+        "Aggression",
+        "Indifference"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Flexibility, or the willingness to adapt and negotiate, enhances the influence of a minority as it prevents them from appearing rigid."
+    },
+    {
+      "id": "minority-influence-q6",
+      "question": "Which of the following is NOT a principle of minority influence?",
+      "options": [
+        "Consistency",
+        "Commitment",
+        "Obedience",
+        "Flexibility"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Obedience is not a principle of minority influence. The principles are consistency, commitment, and flexibility."
     },
     {
       "id": "minority-influence-q7",
-      "question": "What did Nemeth (1986) suggest is important for effective minority influence?",
+      "question": "What does the term 'augmentation principle' refer to in the context of minority influence?",
       "options": [
-        "Flexibility",
-        "Rigidity",
-        "Majority size",
-        "Obedience"
+        "When a minority's influence is increased due to their willingness to suffer for their views.",
+        "When a minority becomes a majority.",
+        "When a majority group's influence is weakened.",
+        "When a minority adopts the majority's views."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Nemeth highlighted that flexibility, rather than rigidity, is important in minority influence to prevent the minority from being perceived as unreasonable."
+      "explanation": "The augmentation principle suggests that a minority's influence is increased when they demonstrate commitment through willingness to suffer for their views."
     },
     {
       "id": "minority-influence-q8",
-      "question": "Which of the following is NOT a characteristic of successful minority influence?",
+      "question": "What is the term for the gradual process by which minority ideas become mainstream?",
       "options": [
-        "Inflexibility",
-        "Commitment",
-        "Consistency",
-        "Flexibility"
+        "Social cryptomnesia",
+        "Social facilitation",
+        "Social loafing",
+        "Deindividuation"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Inflexibility is not conducive to minority influence as it can make the minority seem dogmatic and unyielding."
+      "explanation": "Social cryptomnesia refers to the process where minority ideas are integrated into the majority, often without remembering the source of the change."
     },
     {
       "id": "minority-influence-q9",
-      "question": "What is the term for when the majority begins to question their own beliefs due to the influence of a consistent minority?",
+      "question": "Which of the following best describes the snowball effect in minority influence?",
       "options": [
-        "Cognitive conflict",
-        "Normative influence",
-        "Obedience",
-        "Informational social influence"
+        "Minority influence grows as more people adopt the minority view.",
+        "A sudden shift in majority opinion.",
+        "When a minority loses influence rapidly.",
+        "Minority views are ignored by the majority."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Cognitive conflict occurs when the consistent presence of a minority causes the majority to rethink their own views."
+      "explanation": "The snowball effect refers to the process where minority influence gains momentum, leading more people to adopt the minority view."
     },
     {
       "id": "minority-influence-q10",
-      "question": "A small group of environmental activists consistently protests outside a factory every month. Over time, the local community starts supporting their cause, and the factory changes its policies. Which aspect of minority influence does this scenario illustrate?",
+      "question": "In a classroom setting, a small group of students consistently advocates for a new teaching method. Eventually, most of the class adopts this method. What principle of minority influence does this scenario illustrate?",
       "options": [
         "Consistency",
-        "Normative social influence",
+        "Obedience",
         "Social loafing",
         "Deindividuation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The scenario illustrates consistency, as the activists' regular protests eventually lead to the majority adopting their viewpoint."
+      "explanation": "The scenario illustrates consistency, as the small group maintained their advocacy, eventually swaying the majority."
     },
     {
       "id": "minority-influence-q11",
-      "question": "During a jury deliberation, one juror consistently argues for a not guilty verdict. Over time, other jurors begin to consider this viewpoint more seriously. What process is at work here?",
+      "question": "A minority group in a workplace advocates for flexible working hours. Initially dismissed, their persistence and adaptability eventually lead to company-wide changes. Which principle of minority influence is demonstrated here?",
       "options": [
-        "Minority influence",
-        "Conformity due to informational influence",
-        "Obedience",
-        "Social facilitation"
+        "Flexibility",
+        "Social loafing",
+        "Majority influence",
+        "Obedience"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The consistent argument from the juror represents minority influence, leading others to consider the minority viewpoint."
+      "explanation": "The group's persistence and adaptability illustrate flexibility, a key principle of minority influence that led to organizational change."
     },
     {
       "id": "minority-influence-q12",
-      "question": "In a classroom, a student consistently opposes the use of plastic and gradually convinces classmates to use eco-friendly products. What is this an example of?",
+      "question": "In an experiment, a minority group argues for a specific environmental policy. They demonstrate their commitment by participating in related community service. Which principle is being used?",
       "options": [
-        "Minority influence",
-        "Deindividuation",
-        "Social loafing",
-        "Normative influence"
+        "Commitment",
+        "Social facilitation",
+        "Conformity",
+        "Deindividuation"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The student's consistent stance against plastic uses minority influence to change the behavior of classmates."
+      "explanation": "Commitment is demonstrated through the group’s active participation, indicating their dedication to the cause, thus enhancing their influence."
     },
     {
       "id": "minority-influence-q13",
-      "question": "Which of the following is a critique of Moscovici's (1969) study on minority influence?",
+      "question": "What is a major criticism of Moscovici's study on minority influence?",
       "options": [
         "Lack of ecological validity",
-        "High external validity",
-        "Absence of a control group",
-        "Too large a sample size"
+        "High ecological validity",
+        "Excessive focus on individual differences",
+        "Underestimation of majority influence"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Moscovici's study is critiqued for lack of ecological validity as the artificial setting and task may not generalize to real-world minority influence."
+      "explanation": "Moscovici's study is criticized for lack of ecological validity as it was conducted in a lab setting, which may not reflect real-world dynamics."
     },
     {
       "id": "minority-influence-q14",
-      "question": "How does Nemeth's concept of flexibility in minority influence contrast with Moscovici's emphasis on consistency?",
+      "question": "How does minority influence differ from majority influence in terms of the process of change?",
       "options": [
-        "Flexibility allows for adaptability, while consistency focuses on steadfastness",
-        "Flexibility leads to conformity, while consistency leads to obedience",
-        "Flexibility is less effective than consistency",
-        "Flexibility ignores the significance of majority size"
+        "Minority influence involves deeper processing of ideas",
+        "Minority influence leads to compliance",
+        "Majority influence involves deeper processing of ideas",
+        "Majority influence leads to internalization"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Nemeth argues that flexibility allows minorities to appear reasonable, while Moscovici emphasizes that consistency is key to maintaining credibility."
+      "explanation": "Minority influence involves deeper cognitive processing as individuals must consider why the minority maintains its stance, often leading to internalization."
     },
     {
       "id": "minority-influence-q15",
-      "question": "What is a limitation of the conversion theory in explaining minority influence?",
+      "question": "What limitation is associated with the use of artificial tasks in studies of minority influence?",
       "options": [
-        "It underestimates the role of social identity",
-        "It overemphasizes obedience",
-        "It ignores the role of majority size",
-        "It focuses only on short-term influence"
+        "They may not generalize to real-world situations",
+        "They enhance the external validity of the findings",
+        "They focus too much on qualitative data",
+        "They reduce the control over variables"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The conversion theory is limited as it may underestimate the role of social identity and group membership in the process of minority influence."
+      "explanation": "Artificial tasks often lack ecological validity, limiting the generalizability of findings to real-world minority influence scenarios."
     }
   ]
 }

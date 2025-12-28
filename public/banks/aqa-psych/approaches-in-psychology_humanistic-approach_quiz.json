@@ -5,202 +5,202 @@
   "subTopic": "humanistic-approach",
   "subTopicTitle": "Humanistic approach",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:16:57.897Z",
+  "generatedAt": "2025-12-28T14:16:46.646Z",
   "items": [
     {
       "id": "humanistic-approach-q1",
-      "question": "Who is considered the founder of the Humanistic approach in psychology?",
+      "question": "Who developed the concept of the 'hierarchy of needs'?",
       "options": [
+        "Abraham Maslow",
         "Carl Rogers",
         "Sigmund Freud",
-        "B.F. Skinner",
-        "John Watson"
+        "B.F. Skinner"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Carl Rogers, along with Abraham Maslow, is known for developing the Humanistic approach, focusing on personal growth and self-actualization."
+      "explanation": "Abraham Maslow introduced the hierarchy of needs in 1943, which is a key concept in the humanistic approach."
     },
     {
       "id": "humanistic-approach-q2",
-      "question": "Which concept is central to Maslow's theory within the Humanistic approach?",
+      "question": "What is the primary focus of humanistic psychology?",
       "options": [
-        "Hierarchy of Needs",
-        "Operant Conditioning",
-        "Psychosexual Stages",
-        "Observational Learning"
+        "Self-actualization",
+        "Operant conditioning",
+        "Unconscious conflict",
+        "Cognitive distortions"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Maslow's Hierarchy of Needs outlines a progression of human needs, from physiological to self-actualization."
+      "explanation": "Humanistic psychology focuses on self-actualization and personal growth, emphasizing the individual's potential."
     },
     {
       "id": "humanistic-approach-q3",
-      "question": "What is the term used by Carl Rogers to describe the innate drive to achieve one's full potential?",
+      "question": "Which of the following is NOT a characteristic of a self-actualized person, according to Maslow?",
       "options": [
-        "Self-actualization",
-        "Conditioned Response",
-        "Unconscious Motives",
-        "Negative Reinforcement"
+        "Autonomy",
+        "Efficient perceptions of reality",
+        "Strong need for approval",
+        "Creativity"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "ao": "AO1",
-      "explanation": "Self-actualization is a key concept in Rogers' theory, referring to the innate tendency to fulfill one's potential."
+      "explanation": "A self-actualized person is autonomous and creative, with efficient perceptions of reality, but not necessarily dependent on others' approval."
     },
     {
       "id": "humanistic-approach-q4",
-      "question": "According to Rogers, what is the cause of incongruence in a person's self-concept?",
+      "question": "Carl Rogers is best known for which therapeutic approach?",
       "options": [
-        "Mismatch between self-concept and ideal self",
-        "Failure to complete psychosexual stages",
-        "Lack of reinforcement",
-        "Observational learning deficits"
+        "Client-centered therapy",
+        "Psychoanalysis",
+        "Cognitive-behavioral therapy",
+        "Systematic desensitization"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Incongruence occurs when there is a discrepancy between an individual's self-concept and their ideal self, leading to feelings of discomfort and maladjustment."
+      "explanation": "Carl Rogers developed client-centered therapy, emphasizing empathy and unconditional positive regard."
     },
     {
       "id": "humanistic-approach-q5",
-      "question": "Which of the following is NOT one of the levels in Maslow's Hierarchy of Needs?",
+      "question": "What does the term 'congruence' refer to in Rogers' theory?",
       "options": [
-        "Cognitive Needs",
-        "Safety Needs",
-        "Physiological Needs",
-        "Cultural Needs"
-      ],
-      "correctAnswer": 3,
-      "ao": "AO1",
-      "explanation": "Maslow's Hierarchy includes Physiological, Safety, Belongingness, Esteem, and Self-Actualization needs; Cultural Needs is not one of them."
-    },
-    {
-      "id": "humanistic-approach-q6",
-      "question": "What therapy did Carl Rogers develop based on his Humanistic principles?",
-      "options": [
-        "Client-Centered Therapy",
-        "Rational Emotive Behavior Therapy",
-        "Systematic Desensitization",
-        "Cognitive Behavioral Therapy"
+        "Alignment between self-image and actual experience",
+        "Conflict between id and superego",
+        "Agreement between therapist and client",
+        "Consistency between thoughts and behaviors"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Client-Centered Therapy, developed by Rogers, emphasizes providing a supportive environment to facilitate personal growth."
+      "explanation": "Congruence in Rogers' theory refers to the alignment between an individual's self-image and their actual experiences."
+    },
+    {
+      "id": "humanistic-approach-q6",
+      "question": "Which concept refers to the innate drive to fulfill one's potential in humanistic psychology?",
+      "options": [
+        "Self-actualization",
+        "Conditioned response",
+        "Cognitive restructuring",
+        "Defense mechanisms"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Self-actualization is the innate drive in humanistic psychology to fulfill one's potential and reach the highest level of personal development."
     },
     {
       "id": "humanistic-approach-q7",
+      "question": "What is 'unconditional positive regard' in the context of therapy?",
+      "options": [
+        "Accepting the client without judgment",
+        "Providing solutions to client's problems",
+        "Encouraging conditional behaviors",
+        "Analyzing unconscious motives"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Unconditional positive regard, a concept by Rogers, involves accepting and valuing the client without judgment."
+    },
+    {
+      "id": "humanistic-approach-q8",
       "question": "In which year did Carl Rogers publish 'Client-Centered Therapy'?",
       "options": [
         "1951",
-        "1965",
         "1943",
+        "1967",
         "1972"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Carl Rogers published 'Client-Centered Therapy' in 1951, outlining his Humanistic approach to psychology."
-    },
-    {
-      "id": "humanistic-approach-q8",
-      "question": "What term describes the acceptance of a person without conditions, according to Rogers?",
-      "options": [
-        "Unconditional Positive Regard",
-        "Positive Reinforcement",
-        "Conditional Regard",
-        "Negative Regard"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Unconditional Positive Regard is the acceptance and support of a person regardless of what they say or do, fundamental to Rogers' therapeutic approach."
+      "explanation": "Carl Rogers published 'Client-Centered Therapy' in 1951, outlining his humanistic therapeutic approach."
     },
     {
       "id": "humanistic-approach-q9",
-      "question": "Which of these is a characteristic of a self-actualized person, according to Maslow?",
+      "question": "Which of the following best describes the humanistic view of human nature?",
       "options": [
-        "Creativity",
-        "Social Conformity",
-        "Dependence on others",
-        "Indifference to personal growth"
+        "Inherently good",
+        "Driven by unconscious desires",
+        "Conditioned by environment",
+        "Innately aggressive"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Creativity, along with autonomy and a problem-centered approach, is a characteristic of self-actualized individuals as described by Maslow."
+      "explanation": "The humanistic approach views human nature as inherently good, emphasizing personal growth and self-fulfillment."
     },
     {
       "id": "humanistic-approach-q10",
-      "question": "Jane feels unsatisfied in her job despite being financially secure. According to Maslow, which need might she be seeking to fulfill?",
+      "question": "Sarah feels she can't pursue her dream career due to her parents' expectations. Which humanistic concept does this scenario illustrate?",
       "options": [
-        "Self-Actualization",
-        "Safety Needs",
-        "Physiological Needs",
-        "Esteem Needs"
+        "Conditions of worth",
+        "Operant conditioning",
+        "Cognitive dissonance",
+        "Defense mechanisms"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Jane may be seeking to fulfill Esteem Needs, which involve achieving personal success and recognition, beyond basic safety and physiological needs."
+      "explanation": "Conditions of worth occur when individuals perceive they must meet certain conditions to gain acceptance from others, as Sarah feels she must conform to her parents' expectations."
     },
     {
       "id": "humanistic-approach-q11",
-      "question": "Tom is receiving therapy and feels heard and accepted by his therapist. This approach is likely based on which Humanistic principle?",
+      "question": "A client reports feeling disconnected from their true self due to societal pressures. Which humanistic principle is relevant here?",
       "options": [
-        "Unconditional Positive Regard",
-        "Classical Conditioning",
-        "Negative Reinforcement",
-        "Operant Conditioning"
+        "Incongruence",
+        "Negative reinforcement",
+        "Self-efficacy",
+        "Classical conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The therapist's acceptance and understanding align with Rogers' principle of Unconditional Positive Regard, essential in client-centered therapy."
+      "explanation": "Incongruence occurs when there is a disconnect between one's self-concept and experiences, often due to societal pressures."
     },
     {
       "id": "humanistic-approach-q12",
-      "question": "Sarah is motivated to join a community group because she feels lonely. Which level of Maslow's Hierarchy does this behavior represent?",
+      "question": "Tom is encouraged by his therapist to express his feelings without fear of judgment. Which humanistic concept does this illustrate?",
       "options": [
-        "Belongingness and Love Needs",
-        "Esteem Needs",
-        "Self-Actualization",
-        "Safety Needs"
+        "Unconditional positive regard",
+        "Systematic desensitization",
+        "Rational-emotive behavior",
+        "Reciprocal determinism"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Sarah's desire for social connection and acceptance aligns with the Belongingness and Love Needs in Maslow's Hierarchy."
+      "explanation": "Unconditional positive regard involves accepting and valuing the client without judgment, as Tom experiences in therapy."
     },
     {
       "id": "humanistic-approach-q13",
-      "question": "One criticism of the Humanistic approach is that it is overly:",
+      "question": "Which of the following is a criticism of the humanistic approach?",
       "options": [
-        "Optimistic about human nature",
-        "Deterministic",
-        "Reductionist",
-        "Focused on unconscious processes"
+        "Lacks empirical support",
+        "Overemphasizes unconscious motives",
+        "Focuses too much on animal research",
+        "Neglects observable behavior"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Humanistic approach is often criticized for being overly optimistic about human nature, assuming that people always strive for growth and improvement."
+      "explanation": "A common criticism of the humanistic approach is that it lacks empirical support, as its concepts are often difficult to scientifically measure."
     },
     {
       "id": "humanistic-approach-q14",
-      "question": "Compared to the Humanistic approach, the Psychodynamic approach is more:",
+      "question": "How does humanistic psychology differ from psychoanalysis?",
       "options": [
-        "Focused on unconscious motives",
-        "Emphasizing personal growth",
-        "Concerned with conscious thoughts",
-        "Optimistic about human potential"
+        "Focuses on conscious experience",
+        "Emphasizes unconscious conflict",
+        "Relies on deterministic principles",
+        "Utilizes dream analysis"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Psychodynamic approach, pioneered by Freud, emphasizes unconscious motives and conflicts, contrasting with the Humanistic focus on conscious experiences and growth."
+      "explanation": "Humanistic psychology focuses on conscious experience and personal growth, unlike psychoanalysis, which emphasizes unconscious conflict."
     },
     {
       "id": "humanistic-approach-q15",
-      "question": "Which of the following is a methodological critique of Humanistic research?",
+      "question": "Compared to the behaviorist approach, humanistic psychology is often criticized for:",
       "options": [
-        "Lack of empirical evidence",
-        "Over-reliance on animal studies",
-        "Inability to explain behavior through environmental factors",
-        "Focus on genetic influences"
+        "Lack of scientific rigor",
+        "Emphasis on conditioned responses",
+        "Overreliance on animal studies",
+        "Focus on observable behavior"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The Humanistic approach often lacks empirical evidence due to its emphasis on subjective experiences, making it difficult to measure scientifically."
+      "explanation": "Humanistic psychology is often criticized for its lack of scientific rigor, whereas behaviorism focuses on observable and measurable behavior."
     }
   ]
 }

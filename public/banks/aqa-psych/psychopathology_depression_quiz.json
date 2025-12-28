@@ -5,24 +5,50 @@
   "subTopic": "depression",
   "subTopicTitle": "Depression",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:19:21.814Z",
+  "generatedAt": "2025-12-28T14:19:09.627Z",
   "items": [
     {
       "id": "depression-q1",
-      "question": "What is one of the main cognitive characteristics of depression?",
+      "question": "Which of the following is a key characteristic of Beck's cognitive theory of depression?",
       "options": [
-        "Negative schema",
-        "Manic episodes",
-        "Hallucinations",
-        "Obsessive thoughts"
+        "Negative triad",
+        "Classical conditioning",
+        "Operant conditioning",
+        "Systematic desensitization"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Negative schema refers to a pattern of thought that predisposes individuals to interpret information in a biased, negative way, which is a common cognitive characteristic of depression."
+      "explanation": "Beck's cognitive theory of depression focuses on the negative triad: negative views about the self, the world, and the future."
     },
     {
       "id": "depression-q2",
-      "question": "Which neurotransmitter is most commonly associated with depression?",
+      "question": "According to Ellis' ABC model, what does the 'B' stand for?",
+      "options": [
+        "Belief",
+        "Behavior",
+        "Bias",
+        "Burden"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "In Ellis' ABC model, 'B' stands for Belief, which is the belief about an activating event that leads to the emotional consequence."
+    },
+    {
+      "id": "depression-q3",
+      "question": "What is a common cognitive symptom of depression?",
+      "options": [
+        "Irrational beliefs",
+        "Manic episodes",
+        "Lack of empathy",
+        "Hallucinations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Irrational beliefs are a cognitive symptom of depression, as described by cognitive theories such as Beck's and Ellis'."
+    },
+    {
+      "id": "depression-q4",
+      "question": "Which neurotransmitter is commonly associated with depression?",
       "options": [
         "Serotonin",
         "Dopamine",
@@ -31,176 +57,150 @@
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Serotonin is a neurotransmitter that is often linked to mood regulation, and imbalances in serotonin levels are associated with depression."
-    },
-    {
-      "id": "depression-q3",
-      "question": "According to Beck's cognitive theory, which of the following is NOT a component of the cognitive triad?",
-      "options": [
-        "Negative view of the future",
-        "Negative view of the world",
-        "Negative view of the past",
-        "Negative view of the self"
-      ],
-      "correctAnswer": 2,
-      "ao": "AO1",
-      "explanation": "Beck's cognitive triad includes negative views of the self, the world, and the future, but not the past."
-    },
-    {
-      "id": "depression-q4",
-      "question": "Who conducted a study on learned helplessness in dogs, which contributed to the understanding of depression?",
-      "options": [
-        "Seligman (1975)",
-        "Bandura (1961)",
-        "Milgram (1963)",
-        "Zimbardo (1971)"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Seligman (1975) conducted experiments on learned helplessness in dogs, which helped to explain how perceived lack of control can lead to depression."
+      "explanation": "Serotonin is the neurotransmitter most commonly linked to depression, and is often targeted by antidepressant medications."
     },
     {
       "id": "depression-q5",
-      "question": "What type of depression is characterized by episodes of depression alternating with episodes of mania?",
+      "question": "Which psychological approach is the basis for Cognitive Behavioral Therapy (CBT) in treating depression?",
       "options": [
-        "Bipolar disorder",
-        "Major depressive disorder",
-        "Persistent depressive disorder",
-        "Seasonal affective disorder"
+        "Cognitive",
+        "Psychodynamic",
+        "Biological",
+        "Humanistic"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Bipolar disorder includes periods of depression and mania, whereas the other options are forms of unipolar depression."
+      "explanation": "CBT is based on the cognitive approach, focusing on changing negative thought patterns that contribute to depression."
     },
     {
       "id": "depression-q6",
-      "question": "Which of the following is a behavioral characteristic of depression?",
+      "question": "What did Seligman (1975) propose as a cause of depression?",
       "options": [
-        "Loss of energy",
-        "Increased sociability",
-        "Heightened focus",
-        "Improved memory"
+        "Learned helplessness",
+        "Negative reinforcement",
+        "Social learning",
+        "Unconditional positive regard"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Loss of energy is a common behavioral characteristic of depression, affecting one's ability to engage in activities."
+      "explanation": "Seligman proposed that learned helplessness, resulting from repeated exposure to uncontrollable events, can lead to depression."
     },
     {
       "id": "depression-q7",
-      "question": "What is the primary focus of Ellis's ABC model in explaining depression?",
+      "question": "Which study by Alloy et al. (1999) investigated the role of cognitive patterns in depression?",
       "options": [
-        "Cognitive process",
-        "Biological factors",
-        "Environmental triggers",
-        "Social influences"
+        "Longitudinal study on cognitive styles",
+        "Cross-sectional study on serotonin levels",
+        "Case study on childhood trauma",
+        "Experimental study on classical conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Ellis's ABC model focuses on the cognitive process by explaining how irrational beliefs lead to emotional and behavioral consequences."
+      "explanation": "Alloy et al. conducted a longitudinal study examining how cognitive styles affect the development of depression."
     },
     {
       "id": "depression-q8",
-      "question": "According to the diathesis-stress model, what triggers depression in individuals with a predisposition?",
+      "question": "What is the main focus of the psychodynamic approach to understanding depression?",
       "options": [
-        "Stressful life events",
-        "Genetic mutations",
-        "Nutritional deficiencies",
-        "Personality traits"
+        "Unconscious conflicts",
+        "Cognitive distortions",
+        "Genetic predispositions",
+        "Behavioral conditioning"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "The diathesis-stress model suggests that stressful life events can trigger depression in individuals who have a genetic or psychological predisposition."
+      "explanation": "The psychodynamic approach focuses on unconscious conflicts and past experiences as underlying causes of depression."
     },
     {
       "id": "depression-q9",
-      "question": "Which type of therapy is based on the principles of Beck's cognitive theory?",
+      "question": "Which term describes the tendency to focus on negative aspects and overlook positives, often seen in depression?",
       "options": [
-        "Cognitive-behavioral therapy",
-        "Psychoanalysis",
-        "Humanistic therapy",
-        "Gestalt therapy"
+        "Cognitive bias",
+        "Confirmation bias",
+        "Availability heuristic",
+        "Social desirability bias"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Cognitive-behavioral therapy (CBT) is based on Beck's cognitive theory and aims to change negative patterns of thought."
+      "explanation": "Cognitive bias refers to the tendency to focus on negative aspects, a common feature in individuals with depression."
     },
     {
       "id": "depression-q10",
-      "question": "Jane has been feeling sad and hopeless for months, and she struggles with insomnia and appetite loss. Which type of depression is she most likely experiencing?",
+      "question": "Jane has been feeling sad and hopeless for several weeks, impacting her daily functioning. Which psychological treatment is most likely suggested for her?",
       "options": [
-        "Major depressive disorder",
-        "Bipolar disorder",
-        "Seasonal affective disorder",
-        "Postpartum depression"
+        "Cognitive Behavioral Therapy (CBT)",
+        "Electroconvulsive Therapy (ECT)",
+        "Systematic Desensitization",
+        "Rational Emotive Behavior Therapy (REBT)"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Jane's symptoms are characteristic of major depressive disorder, which includes persistent sadness and physical symptoms like insomnia and appetite changes."
+      "explanation": "CBT is often recommended for individuals experiencing depression as it aims to change negative thought patterns and behaviors."
     },
     {
       "id": "depression-q11",
-      "question": "Tom experiences depressive symptoms primarily during the winter months, but feels better when spring arrives. What might Tom be diagnosed with?",
+      "question": "Tom experienced a significant life event before his depressive symptoms appeared. According to Ellis' ABC model, what represents this event?",
       "options": [
-        "Seasonal affective disorder",
-        "Bipolar disorder",
-        "Major depressive disorder",
-        "Dysthymia"
+        "Activating event",
+        "Belief",
+        "Consequence",
+        "Cognitive distortion"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Tom's pattern of experiencing depressive symptoms in the winter suggests seasonal affective disorder, which is linked to changes in seasons."
+      "explanation": "In Ellis' ABC model, the 'A' stands for Activating event, which is the significant life event that triggers beliefs and emotional consequences."
     },
     {
       "id": "depression-q12",
-      "question": "Sara has been diagnosed with depression after losing her job. According to the diathesis-stress model, what role did losing her job play?",
+      "question": "A researcher is studying the effectiveness of a new therapy for depression. She compares two groups: one receiving the therapy and one on a waiting list. What is the waiting list group called?",
       "options": [
-        "Stress trigger",
-        "Genetic predisposition",
-        "Cognitive distortion",
-        "Neurotransmitter imbalance"
+        "Control group",
+        "Experimental group",
+        "Placebo group",
+        "Double-blind group"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "In the diathesis-stress model, losing her job would be considered a stress trigger that could activate Sara's predisposition to depression."
+      "explanation": "The waiting list group serves as a control group to compare the outcomes of the experimental group receiving the new therapy."
     },
     {
       "id": "depression-q13",
-      "question": "What is a limitation of using self-report questionnaires in depression research?",
+      "question": "Which of the following is a limitation of the cognitive approach to explaining depression?",
       "options": [
-        "Social desirability bias",
-        "High reliability",
-        "Objective measurement",
-        "Cost-effectiveness"
+        "It overlooks biological factors",
+        "It focuses too much on childhood experiences",
+        "It is overly deterministic",
+        "It lacks empirical support"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Self-report questionnaires can be influenced by social desirability bias, where participants may respond in a way they think is acceptable rather than truthful."
+      "explanation": "A limitation of the cognitive approach is that it tends to overlook biological factors contributing to depression."
     },
     {
       "id": "depression-q14",
-      "question": "How does the cognitive approach to depression differ from the biological approach?",
+      "question": "How does the effectiveness of CBT compare to medication in treating depression according to research?",
       "options": [
-        "Focuses on thought processes",
-        "Examines genetic factors",
-        "Studies neurotransmitter levels",
-        "Investigates brain structure"
+        "CBT is as effective as medication",
+        "CBT is less effective than medication",
+        "CBT is more effective than medication",
+        "CBT is effective only in combination with medication"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "The cognitive approach focuses on thought processes and cognitive distortions, whereas the biological approach examines genetic and neurochemical factors."
+      "explanation": "Research suggests that CBT is as effective as medication for treating depression, especially in mild to moderate cases."
     },
     {
       "id": "depression-q15",
-      "question": "Why might antidepressants be considered a reductionist treatment for depression?",
+      "question": "What is a potential ethical issue in using placebo treatments in depression research?",
       "options": [
-        "They target only biological factors",
-        "They address cognitive patterns",
-        "They consider social contexts",
-        "They incorporate holistic methods"
+        "Deception",
+        "Lack of informed consent",
+        "Confidentiality breach",
+        "Sampling bias"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Antidepressants are considered reductionist because they primarily target biological factors, such as neurotransmitter levels, without addressing cognitive or social aspects."
+      "explanation": "Using placebos in research can involve deception, as participants may not be aware they are not receiving an active treatment."
     }
   ]
 }

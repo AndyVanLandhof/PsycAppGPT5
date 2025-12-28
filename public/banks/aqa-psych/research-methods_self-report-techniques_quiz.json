@@ -5,202 +5,202 @@
   "subTopic": "self-report-techniques",
   "subTopicTitle": "Self-report techniques",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:20:32.936Z",
+  "generatedAt": "2025-12-28T14:20:12.128Z",
   "items": [
     {
       "id": "self-report-techniques-q1",
-      "question": "What is a key characteristic of a structured interview?",
+      "question": "What is a self-report technique in psychological research?",
       "options": [
-        "It follows a fixed set of questions.",
-        "It allows for free-flowing conversation.",
-        "It avoids any form of questioning.",
-        "It primarily uses open-ended questions."
+        "A method where participants provide information about themselves through questionnaires or interviews.",
+        "An observation method where researchers record participants' behaviors.",
+        "A laboratory experiment where variables are manipulated.",
+        "A field experiment conducted in a natural setting."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "A structured interview follows a predetermined set of questions, ensuring consistency across different interviews."
+      "explanation": "Self-report techniques involve participants providing data about themselves, typically through questionnaires or interviews."
     },
     {
       "id": "self-report-techniques-q2",
-      "question": "Which of the following is a disadvantage of using open-ended questions in questionnaires?",
+      "question": "Which of the following is a key advantage of using structured interviews in research?",
       "options": [
-        "They can lead to biased responses.",
-        "They produce qualitative data that is harder to analyze.",
-        "They limit the depth of responses.",
-        "They restrict the respondent's answers to set options."
+        "They allow for easy comparison between participants.",
+        "They offer deep insights through open-ended questions.",
+        "They are more flexible than unstructured interviews.",
+        "They minimize researcher bias more effectively than other methods."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Open-ended questions generate qualitative data, which is rich but more challenging to analyze compared to quantitative data."
+      "explanation": "Structured interviews provide standardized questions, allowing easy comparison across participants."
     },
     {
       "id": "self-report-techniques-q3",
-      "question": "What is the primary benefit of using closed questions in surveys?",
+      "question": "What is a potential disadvantage of using self-report questionnaires?",
       "options": [
-        "They provide detailed responses.",
-        "They reduce the time required for analysis.",
-        "They encourage respondents to elaborate.",
-        "They help in exploring new topics."
+        "Participants may provide socially desirable responses.",
+        "They are expensive to administer.",
+        "They require extensive training for the researcher.",
+        "They are time-consuming to analyze compared to interviews."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Closed questions produce quantitative data, making it quicker and easier to analyze."
+      "explanation": "Social desirability bias can occur when participants respond in a way they believe is socially acceptable rather than truthful."
     },
     {
       "id": "self-report-techniques-q4",
-      "question": "Who conducted a study on the reliability of self-reports using eyewitnesses in 1974?",
+      "question": "Which of these is an example of an open-ended question in a questionnaire?",
       "options": [
-        "Loftus and Palmer",
-        "Milgram",
-        "Asch",
-        "Zimbardo"
+        "How do you feel about your current job?",
+        "Do you enjoy your job? (Yes/No)",
+        "Rate your job satisfaction on a scale from 1 to 5.",
+        "Do you prefer working alone or in a team?"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Loftus and Palmer (1974) investigated how wording of questions could influence eyewitness testimony reliability."
+      "explanation": "Open-ended questions allow respondents to answer in their own words, providing richer qualitative data."
     },
     {
       "id": "self-report-techniques-q5",
-      "question": "What is a common issue with the validity of self-report data?",
+      "question": "Which researcher is known for their work on the validity of self-reports in psychological research?",
       "options": [
-        "Participants may not understand the questions.",
-        "It is always less reliable than observational data.",
-        "It is impossible to replicate.",
-        "It provides no useful insights."
+        "Paulhus (1991)",
+        "Milgram (1963)",
+        "Bandura (1977)",
+        "Zimbardo (1971)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Participants may misinterpret questions, impacting the validity of their responses."
+      "explanation": "Paulhus (1991) focused on the validity issues in self-reports, such as social desirability and response biases."
     },
     {
       "id": "self-report-techniques-q6",
-      "question": "Which type of bias occurs when participants give socially desirable answers?",
+      "question": "In research methods, what is meant by 'triangulation'?",
       "options": [
-        "Social desirability bias",
-        "Confirmation bias",
-        "Cultural bias",
-        "Observer bias"
+        "Using multiple methods or data sources to enhance the validity of research findings.",
+        "The process of randomly assigning participants to different conditions.",
+        "The use of a control group to establish a baseline for comparison.",
+        "The statistical method of analyzing variance in experimental data."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Social desirability bias occurs when participants alter their responses to be viewed favorably by others."
+      "explanation": "Triangulation involves using multiple methods or data sources to cross-check and validate findings."
     },
     {
       "id": "self-report-techniques-q7",
-      "question": "What is the main focus of a pilot study in research?",
+      "question": "What does the term 'response bias' refer to in self-report methods?",
       "options": [
-        "To test the feasibility of the research design",
-        "To gather a large sample size",
-        "To publish preliminary results",
-        "To confirm the research hypothesis"
+        "A tendency for participants to answer questions in a consistent but inaccurate way.",
+        "The bias introduced by the researcher’s expectations.",
+        "The effect of the survey's wording on participants' responses.",
+        "The influence of the environment on participants' responses."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Pilot studies are small-scale trials to test and refine research methods and procedures."
+      "explanation": "Response bias occurs when participants consistently provide inaccurate responses, often due to social desirability or misunderstanding."
     },
     {
       "id": "self-report-techniques-q8",
-      "question": "Which term describes the extent to which self-report data can be generalized to other settings?",
+      "question": "Which of the following is a disadvantage of open-ended questions in surveys?",
       "options": [
-        "Ecological validity",
-        "Internal validity",
-        "Reliability",
-        "Face validity"
+        "They can be time-consuming to analyze.",
+        "They limit the depth of responses.",
+        "They produce data that is easy to quantify.",
+        "They restrict participants' responses to predefined options."
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Ecological validity refers to the extent to which findings can be generalized to real-world settings."
+      "explanation": "Open-ended questions often generate qualitative data that requires more time for analysis compared to closed questions."
     },
     {
       "id": "self-report-techniques-q9",
-      "question": "In which year did Rosenhan conduct his study on psychiatric hospitals using self-report techniques?",
+      "question": "Which study famously used a self-report method to investigate compliance with authority?",
       "options": [
-        "1973",
-        "1961",
-        "1978",
-        "1985"
+        "Milgram's Obedience Study (1963)",
+        "Asch's Conformity Experiments (1951)",
+        "Bandura's Bobo Doll Experiment (1961)",
+        "Zimbardo's Stanford Prison Experiment (1971)"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Rosenhan's study, conducted in 1973, involved pseudo-patients reporting symptoms to gain admission to psychiatric hospitals."
+      "explanation": "Milgram (1963) used self-report methods to ask participants about their feelings and thoughts after the obedience experiments."
     },
     {
       "id": "self-report-techniques-q10",
-      "question": "A researcher asks participants to report their stress levels after watching a scary movie. What type of data is being collected?",
+      "question": "A psychologist wants to understand students' stress levels during exams using a self-report method. Which method should they use?",
       "options": [
-        "Self-report data",
-        "Observational data",
-        "Secondary data",
-        "Experimental data"
+        "Distribute a questionnaire with both open and closed questions.",
+        "Conduct a naturalistic observation in the exam hall.",
+        "Run a laboratory experiment manipulating stress variables.",
+        "Employ a case study focusing on one student's experience."
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Participants are directly reporting their stress levels, which constitutes self-report data."
+      "explanation": "A questionnaire with open and closed questions allows students to express their stress levels and experiences effectively."
     },
     {
       "id": "self-report-techniques-q11",
-      "question": "In a study on dietary habits, participants underreport their calorie intake. What is this an example of?",
+      "question": "In a study assessing job satisfaction, a researcher finds that respondents consistently rate satisfaction higher when the question is phrased positively. What bias is this an example of?",
       "options": [
-        "Social desirability bias",
-        "Demand characteristics",
-        "Experimenter bias",
-        "Sampling bias"
+        "Question order bias",
+        "Response set bias",
+        "Acquiescence bias",
+        "Leading question bias"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "ao": "AO2",
-      "explanation": "Participants may underreport to present themselves in a more favorable light, indicative of social desirability bias."
+      "explanation": "Leading question bias occurs when the wording of a question influences how respondents answer, often swaying them toward a particular response."
     },
     {
       "id": "self-report-techniques-q12",
-      "question": "A survey asks teenagers about their study habits and finds inconsistent responses. What might this indicate?",
+      "question": "A research team uses a survey to collect data on dietary habits. They decide to include a mix of Likert scale questions and open-ended questions. What is the advantage of this approach?",
       "options": [
-        "Low reliability of self-report",
-        "High internal validity",
-        "Strong ecological validity",
-        "Lack of face validity"
+        "It provides both quantitative and qualitative data.",
+        "It ensures participant anonymity.",
+        "It reduces the need for statistical analysis.",
+        "It guarantees higher response rates."
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Inconsistent responses suggest low reliability, as the results are not stable across repeated measures."
+      "explanation": "Using both Likert scales and open-ended questions allows for the collection of quantitative data for statistical analysis and qualitative data for deeper insights."
     },
     {
       "id": "self-report-techniques-q13",
-      "question": "What is a limitation of using structured interviews compared to unstructured interviews?",
+      "question": "What is one criticism of using self-report measures in psychological research?",
       "options": [
-        "They lack flexibility in exploring new topics.",
-        "They are more prone to interviewer bias.",
-        "They produce less reliable data.",
-        "They require more extensive training for interviewers."
+        "They often lack ecological validity.",
+        "They eliminate the need for triangulation.",
+        "They are always more reliable than observational methods.",
+        "They provide data that is difficult to replicate."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Structured interviews follow a fixed set of questions, limiting the ability to explore new or unexpected topics."
+      "explanation": "Self-reports can sometimes lack ecological validity as participants may not accurately report behaviors or feelings they would exhibit in real-life scenarios."
     },
     {
       "id": "self-report-techniques-q14",
-      "question": "How do self-report techniques compare to observational methods in terms of data collection?",
+      "question": "Why might qualitative self-report data be considered less reliable than quantitative data?",
       "options": [
-        "Self-reports are more subjective and less reliable.",
-        "Self-reports are less prone to bias.",
-        "Observational methods are less time-consuming.",
-        "Self-reports provide more objective data."
+        "Qualitative data is more subjective and open to interpretation.",
+        "Qualitative data is always easier to replicate.",
+        "Quantitative data is always more valid.",
+        "Qualitative data is typically collected through experiments."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Self-report techniques rely on participants' subjective accounts, which can be influenced by biases, reducing reliability."
+      "explanation": "Qualitative data is often more subjective, leading to potential variability in interpretation and analysis, affecting reliability."
     },
     {
       "id": "self-report-techniques-q15",
-      "question": "What is a common criticism of using questionnaires in psychological research?",
+      "question": "How can the validity of self-report data be improved in research?",
       "options": [
-        "They may not capture the depth of participants' experiences.",
-        "They are always expensive to administer.",
-        "They are inherently unreliable.",
-        "They cannot be used in longitudinal studies."
+        "By ensuring anonymity and confidentiality for participants.",
+        "By increasing the sample size dramatically.",
+        "By conducting the study in a laboratory setting.",
+        "By only using closed-ended questions."
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Questionnaires often use closed questions, which can limit the depth and richness of data collected."
+      "explanation": "Anonymity and confidentiality can reduce social desirability bias, encouraging honest reporting and improving data validity."
     }
   ]
 }

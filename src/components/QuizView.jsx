@@ -4,6 +4,7 @@ import { useVaultService } from "../hooks/useVaultService";
 import { useElevenLabsTTS } from "../hooks/useElevenLabsTTS";
 import { Loader2, Volume2, CheckCircle, XCircle, RotateCcw, History, Play, Download, Save, FileText, Pause, StopCircle } from "lucide-react";
 import jsPDF from 'jspdf';
+import { getSelectedCurriculum } from "../config/curricula";
 
 function QuizView({ topic, onBack }) {
   const [questions, setQuestions] = useState([]);
@@ -37,16 +38,55 @@ function QuizView({ topic, onBack }) {
 
   // Load quiz history and stored quizzes from localStorage on mount
   useEffect(() => {
-    const savedHistory = localStorage.getItem(`quiz-history-${topic.subTopic.id}`);
-    if (savedHistory) {
-      setQuizHistory(JSON.parse(savedHistory));
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    const historyKey = `${curr}:quiz-history-${topic.id}-${topic.subTopic.id}`;
+    const legacyHistoryKey = `quiz-history-${topic.subTopic.id}`;
+    const storedKey = `${curr}:quiz-stored-${topic.id}-${topic.subTopic.id}`;
+    const legacyStoredKey = `quiz-stored-${topic.subTopic.id}`;
+
+    try {
+      // History (namespaced, with legacy migration)
+      let history = null;
+      const raw = localStorage.getItem(historyKey);
+      if (raw) {
+        history = JSON.parse(raw);
+      } else {
+        const legacyRaw = localStorage.getItem(legacyHistoryKey);
+        if (legacyRaw) {
+          history = JSON.parse(legacyRaw);
+          // Migrate legacy to namespaced key
+          localStorage.setItem(historyKey, legacyRaw);
+        }
+      }
+      if (history) {
+        setQuizHistory(history);
+      }
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.warn('[Quiz] Failed to load quiz history', e);
     }
-    
-    const savedQuizzes = localStorage.getItem(`quiz-stored-${topic.subTopic.id}`);
-    if (savedQuizzes) {
-      setStoredQuizzes(JSON.parse(savedQuizzes));
+
+    try {
+      // Stored quizzes (namespaced, with legacy migration)
+      let stored = null;
+      const rawStored = localStorage.getItem(storedKey);
+      if (rawStored) {
+        stored = JSON.parse(rawStored);
+      } else {
+        const legacyStored = localStorage.getItem(legacyStoredKey);
+        if (legacyStored) {
+          stored = JSON.parse(legacyStored);
+          localStorage.setItem(storedKey, legacyStored);
+        }
+      }
+      if (stored) {
+        setStoredQuizzes(stored);
+      }
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.warn('[Quiz] Failed to load stored quizzes', e);
     }
-  }, [topic.subTopic.id]);
+  }, [topic.id, topic.subTopic.id]);
 
   // Reset active audio section when audio ends
   useEffect(() => {
@@ -425,51 +465,55 @@ function QuizView({ topic, onBack }) {
   };
 
   const loadBankIfAvailable = async () => {
+    // Note: We don't check bankSet here - the caller (generateQuiz) already verified effectiveBankSet === 'lab'
+    const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
+    
+    // First try to load from pre-generated bank files in public/banks/
+    const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`;
+    console.log('[Quiz] Attempting to load bank from:', bankPath);
     try {
-      // Note: We don't check bankSet here - the caller (generateQuiz) already verified effectiveBankSet === 'lab'
-      const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
-      
-      // First try to load from pre-generated bank files in public/banks/
-      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`;
-      console.log('[Quiz] Attempting to load bank from:', bankPath);
-      try {
-        const response = await fetch(bankPath);
-        if (response.ok) {
-          const bankData = await response.json();
-          if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
-            console.log('[Quiz] Loaded', bankData.items.length, 'questions from bank file');
-            // Normalize and SHUFFLE options so correct answer isn't always in same position
-            const normalized = bankData.items.map(q => shuffleQuestionOptions({
-              question: q.question,
-              options: q.options,
-              correctAnswer: q.correctAnswer,
-              explanation: q.explanation,
-              ao: q.ao
-            }));
-            return normalized;
-          }
+      const response = await fetch(bankPath);
+      if (!response.ok) {
+        console.log('[Quiz] Bank file fetch failed with status', response.status, '— falling back to localStorage');
+      } else {
+        const bankData = await response.json();
+        if (bankData.items && Array.isArray(bankData.items) && bankData.items.length > 0) {
+          console.log('[Quiz] Loaded', bankData.items.length, 'questions from bank file');
+          // Normalize and SHUFFLE options so correct answer isn't always in same position
+          const normalized = bankData.items.map(q => shuffleQuestionOptions({
+            question: q.question,
+            options: q.options,
+            correctAnswer: q.correctAnswer,
+            explanation: q.explanation,
+            ao: q.ao
+          }));
+          return normalized;
+        } else {
+          console.log('[Quiz] Bank file has no items, falling back to localStorage');
         }
-      } catch (fetchErr) {
-        console.log('[Quiz] Bank file not found, trying localStorage fallback');
       }
-      
-      // Fallback to localStorage (legacy behavior)
-      const libKey = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
-      const latestKey = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
-      const libRaw = window?.localStorage?.getItem(libKey);
+    } catch (fetchErr) {
+      console.log('[Quiz] Bank file load threw error, falling back to localStorage:', fetchErr?.message || fetchErr);
+    }
+    
+    // Fallback to localStorage (legacy behavior)
+    const libKey = `quiz-lab-lib-${curr}-${topic.id}-${topic.subTopic.id}`;
+    const latestKey = `quiz-lab-latest-${curr}-${topic.id}-${topic.subTopic.id}`;
+    const libRaw = window?.localStorage?.getItem(libKey);
+    const rawLatest = window?.localStorage?.getItem(latestKey);
+    try {
+      if (rawLatest) {
+        const latest = JSON.parse(rawLatest);
+        if (Array.isArray(latest) && latest.length > 0) return latest;
+      }
+    } catch (_) {}
+    try {
       if (libRaw) {
         const lib = JSON.parse(libRaw);
         if (Array.isArray(lib) && lib.length > 0 && Array.isArray(lib[0]?.items)) return lib[0].items;
       }
-      const raw = window?.localStorage?.getItem(latestKey);
-      if (raw) {
-        const data = JSON.parse(raw);
-        if (Array.isArray(data)) return data;
-      }
-      return null;
-    } catch (_) {
-      return null;
-    }
+    } catch (_) {}
+    return null;
   };
 
   const generateQuiz = async (overrideBankSet = null) => {
@@ -946,7 +990,11 @@ Return in this JSON format:
     const updatedHistory = [quiz, ...quizHistory].slice(0, 20); // Keep last 20 quizzes
     setQuizHistory(updatedHistory);
     try {
+      const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+      const historyKey = `${curr}:quiz-history-${topic.id}-${topic.subTopic.id}`;
       localStorage.setItem(`quiz-history-${topic.subTopic.id}`, JSON.stringify(updatedHistory));
+      // Also save under namespaced key (new schema)
+      localStorage.setItem(historyKey, JSON.stringify(updatedHistory));
     } catch (err) {
       console.error('Failed to save quiz history:', err);
       alert('Failed to save quiz. Your browser storage may be full or unavailable.');
@@ -984,7 +1032,9 @@ Return in this JSON format:
 
     const updatedQuizzes = [quiz, ...storedQuizzes].slice(0, 50); // Keep last 50 quizzes
     setStoredQuizzes(updatedQuizzes);
-    localStorage.setItem(`quiz-stored-${topic.subTopic.id}`, JSON.stringify(updatedQuizzes));
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    const storedKey = `${curr}:quiz-stored-${topic.id}-${topic.subTopic.id}`;
+    localStorage.setItem(storedKey, JSON.stringify(updatedQuizzes));
   };
 
   const exportQuiz = () => {
@@ -1089,7 +1139,9 @@ Return ONLY this JSON:
   const deleteStoredQuiz = (quizId) => {
     const updatedQuizzes = storedQuizzes.filter(quiz => quiz.id !== quizId);
     setStoredQuizzes(updatedQuizzes);
-    localStorage.setItem(`quiz-stored-${topic.subTopic.id}`, JSON.stringify(updatedQuizzes));
+    const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
+    const storedKey = `${curr}:quiz-stored-${topic.id}-${topic.subTopic.id}`;
+    localStorage.setItem(storedKey, JSON.stringify(updatedQuizzes));
   };
 
   const exportStoredQuiz = (quiz) => {

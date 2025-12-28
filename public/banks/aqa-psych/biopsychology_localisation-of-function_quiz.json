@@ -5,141 +5,141 @@
   "subTopic": "localisation-of-function",
   "subTopicTitle": "Localisation of function in the brain",
   "type": "quiz",
-  "generatedAt": "2025-12-07T18:18:15.412Z",
+  "generatedAt": "2025-12-28T14:17:58.292Z",
   "items": [
     {
       "id": "localisation-of-function-q1",
-      "question": "Which part of the brain is primarily responsible for processing visual information?",
+      "question": "Which area of the brain is primarily responsible for language production?",
       "options": [
-        "Occipital lobe",
-        "Parietal lobe",
-        "Frontal lobe",
-        "Temporal lobe"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The occipital lobe is located at the back of the brain and is primarily responsible for processing visual information."
-    },
-    {
-      "id": "localisation-of-function-q2",
-      "question": "Broca's area is most closely associated with which function?",
-      "options": [
-        "Speech production",
-        "Speech comprehension",
-        "Visual processing",
-        "Motor coordination"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Broca's area, located in the frontal lobe, is involved in speech production and was identified by Paul Broca in 1861."
-    },
-    {
-      "id": "localisation-of-function-q3",
-      "question": "Which of the following researchers is associated with the study of split-brain patients?",
-      "options": [
-        "Roger Sperry",
-        "Paul Broca",
-        "Carl Wernicke",
-        "Michael Gazzaniga"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Roger Sperry conducted pioneering research on split-brain patients in the 1960s, which helped understand hemispheric specialization."
-    },
-    {
-      "id": "localisation-of-function-q4",
-      "question": "What is the primary function of the somatosensory cortex?",
-      "options": [
-        "Processing sensory information from the body",
-        "Regulating emotional responses",
-        "Coordinating voluntary movements",
-        "Producing speech"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The somatosensory cortex, located in the parietal lobe, processes sensory information such as touch, temperature, and pain."
-    },
-    {
-      "id": "localisation-of-function-q5",
-      "question": "Who discovered that damage to the left temporal lobe can impair speech comprehension?",
-      "options": [
-        "Carl Wernicke",
-        "Roger Sperry",
-        "Paul Broca",
-        "Michael Gazzaniga"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "Carl Wernicke discovered in 1874 that damage to the left temporal lobe (Wernicke's area) affects speech comprehension."
-    },
-    {
-      "id": "localisation-of-function-q6",
-      "question": "Which area of the brain is associated with the control of voluntary muscles?",
-      "options": [
-        "Motor cortex",
-        "Somatosensory cortex",
-        "Visual cortex",
-        "Auditory cortex"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The motor cortex, located in the frontal lobe, is responsible for the control and coordination of voluntary muscle movements."
-    },
-    {
-      "id": "localisation-of-function-q7",
-      "question": "Which hemisphere of the brain is typically dominant for language in right-handed individuals?",
-      "options": [
-        "Left hemisphere",
-        "Right hemisphere",
-        "Both hemispheres equally",
-        "Neither hemisphere"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "In most right-handed individuals, the left hemisphere is dominant for language functions such as speech and comprehension."
-    },
-    {
-      "id": "localisation-of-function-q8",
-      "question": "In which lobe of the brain is the auditory cortex located?",
-      "options": [
-        "Temporal lobe",
-        "Frontal lobe",
-        "Parietal lobe",
-        "Occipital lobe"
-      ],
-      "correctAnswer": 0,
-      "ao": "AO1",
-      "explanation": "The auditory cortex, responsible for processing sound information, is located in the temporal lobe."
-    },
-    {
-      "id": "localisation-of-function-q9",
-      "question": "Which part of the brain is responsible for understanding spoken and written language?",
-      "options": [
-        "Wernicke's area",
         "Broca's area",
+        "Wernicke's area",
         "Motor cortex",
         "Somatosensory cortex"
       ],
       "correctAnswer": 0,
       "ao": "AO1",
-      "explanation": "Wernicke's area, located in the left temporal lobe, is crucial for language comprehension."
+      "explanation": "Broca's area, located in the left frontal lobe, is responsible for speech production (Broca, 1861)."
+    },
+    {
+      "id": "localisation-of-function-q2",
+      "question": "What is the localisation of function theory?",
+      "options": [
+        "Specific brain areas are responsible for specific functions",
+        "All parts of the brain are equally involved in all functions",
+        "Brain functions are randomly distributed across the cortex",
+        "Brain functions are only located in the left hemisphere"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The localisation of function theory suggests that specific functions have specific locations in the brain."
+    },
+    {
+      "id": "localisation-of-function-q3",
+      "question": "Which researcher conducted split-brain research to study lateralisation?",
+      "options": [
+        "Roger Sperry",
+        "Paul Broca",
+        "Karl Wernicke",
+        "John Hughlings Jackson"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Roger Sperry conducted split-brain research in the 1960s to study how the hemispheres function independently."
+    },
+    {
+      "id": "localisation-of-function-q4",
+      "question": "Which brain area is associated with understanding language?",
+      "options": [
+        "Wernicke's area",
+        "Broca's area",
+        "Occipital lobe",
+        "Cerebellum"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Wernicke's area, located in the left temporal lobe, is responsible for language comprehension (Wernicke, 1874)."
+    },
+    {
+      "id": "localisation-of-function-q5",
+      "question": "What is a key finding from Phineas Gage's accident regarding brain function?",
+      "options": [
+        "The frontal lobe is involved in personality and behavior regulation",
+        "The occipital lobe is crucial for vision",
+        "The cerebellum controls motor coordination",
+        "The temporal lobe is responsible for auditory processing"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Phineas Gage's accident demonstrated the role of the frontal lobe in personality and behavior."
+    },
+    {
+      "id": "localisation-of-function-q6",
+      "question": "Which of the following is NOT a function of the occipital lobe?",
+      "options": [
+        "Processing visual information",
+        "Language comprehension",
+        "Color recognition",
+        "Movement perception"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The occipital lobe is primarily involved in visual processing, not language comprehension."
+    },
+    {
+      "id": "localisation-of-function-q7",
+      "question": "What did Lashley's research suggest about brain function?",
+      "options": [
+        "Functions are distributed across the brain",
+        "All functions are localised to specific areas",
+        "The left hemisphere is dominant for all functions",
+        "The brain's structure is uniform in function"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Lashley's research suggested that functions are distributed across the brain rather than strictly localised."
+    },
+    {
+      "id": "localisation-of-function-q8",
+      "question": "Which area of the brain is primarily involved in voluntary movement?",
+      "options": [
+        "Motor cortex",
+        "Somatosensory cortex",
+        "Broca's area",
+        "Wernicke's area"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The motor cortex, located in the frontal lobe, controls voluntary movements."
+    },
+    {
+      "id": "localisation-of-function-q9",
+      "question": "Which study demonstrated the role of Broca's area in speech production?",
+      "options": [
+        "Broca (1861)",
+        "Wernicke (1874)",
+        "Sperry (1968)",
+        "Gage (1848)"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Broca's study in 1861 identified a patient's speech production issues linked to damage in the left frontal lobe."
     },
     {
       "id": "localisation-of-function-q10",
-      "question": "A patient with damage to the left hemisphere of their brain is having difficulty speaking fluently. Which condition are they most likely experiencing?",
+      "question": "A patient with damage to the left hemisphere is struggling to produce speech but understands it well. Which area is likely affected?",
       "options": [
-        "Broca's aphasia",
-        "Wernicke's aphasia",
-        "Visual agnosia",
-        "Prosopagnosia"
+        "Broca's area",
+        "Wernicke's area",
+        "Motor cortex",
+        "Somatosensory cortex"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Broca's aphasia results from damage to Broca's area in the left hemisphere, affecting speech fluency while preserving comprehension."
+      "explanation": "Damage to Broca's area affects speech production while leaving comprehension intact."
     },
     {
       "id": "localisation-of-function-q11",
-      "question": "After a stroke, a patient can no longer understand language but can still speak fluently. Which area is likely damaged?",
+      "question": "A stroke patient has difficulty comprehending language but can speak fluently. Which area is likely damaged?",
       "options": [
         "Wernicke's area",
         "Broca's area",
@@ -148,59 +148,59 @@
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "Damage to Wernicke's area, located in the left temporal lobe, can result in the inability to comprehend language while leaving speech fluency intact."
+      "explanation": "Damage to Wernicke's area impairs language comprehension but not speech fluency."
     },
     {
       "id": "localisation-of-function-q12",
-      "question": "A patient with damage to the occipital lobe would most likely have difficulty with which function?",
+      "question": "A student is reviewing a brain scan that shows a lesion in the temporal lobe. Which function might be affected?",
       "options": [
-        "Visual perception",
-        "Speech production",
-        "Hearing",
-        "Coordination of movement"
+        "Auditory processing",
+        "Voluntary movement",
+        "Visual processing",
+        "Balance and coordination"
       ],
       "correctAnswer": 0,
       "ao": "AO2",
-      "explanation": "The occipital lobe is primarily responsible for visual processing, so damage here would likely affect visual perception."
+      "explanation": "The temporal lobe is primarily involved in auditory processing, so a lesion here may affect this function."
     },
     {
       "id": "localisation-of-function-q13",
-      "question": "Which of the following is a criticism of the theory of localisation of function in the brain?",
+      "question": "Why might some researchers argue against strict localisation of function?",
       "options": [
-        "Brain functions are often distributed across areas",
-        "The brain has no specialized areas",
-        "Each hemisphere functions independently",
-        "Each lobe has a single function"
+        "Evidence of brain plasticity shows functions can shift locations",
+        "All research supports strict localisation",
+        "Brain functions are uniformly distributed",
+        "Localisation is only relevant for sensory processing"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Research suggests that many functions, such as memory and emotion, involve networks across multiple areas, challenging strict localisation."
+      "explanation": "Brain plasticity suggests that the brain can reorganize itself, challenging the idea of strict localisation."
     },
     {
       "id": "localisation-of-function-q14",
-      "question": "Which study provides evidence against strict localisation of brain function?",
+      "question": "How does the concept of brain plasticity challenge the localisation theory?",
       "options": [
-        "Lashley's study on rats",
-        "Broca's case studies",
-        "Sperry's split-brain research",
-        "Penfield's brain mapping"
+        "Brain functions can adapt to different areas after damage",
+        "All brain functions are fixed to their locations",
+        "Plasticity only affects the peripheral nervous system",
+        "Localisation and plasticity are unrelated"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Lashley's studies in the 1920s showed that complex behaviors, like learning, are not localized to specific areas but distributed across the cortex."
+      "explanation": "Plasticity shows the brain's ability to reassign functions to new areas after damage, challenging fixed localisation."
     },
     {
       "id": "localisation-of-function-q15",
-      "question": "Why might case studies, like those of Broca and Wernicke, be limited in supporting localisation theory?",
+      "question": "What is a limitation of using case studies like Phineas Gage's to support localisation theory?",
       "options": [
-        "They often rely on small, unrepresentative samples",
-        "They always involve laboratory experiments",
-        "They use only quantitative data",
-        "They involve only animal subjects"
+        "They are unique and not generalizable",
+        "They offer comprehensive experimental data",
+        "They are based on large sample sizes",
+        "They provide consistent and replicable results"
       ],
       "correctAnswer": 0,
       "ao": "AO3",
-      "explanation": "Case studies often involve detailed observations of a few individuals, which may not generalize to the wider population, limiting their support for broad theories."
+      "explanation": "Case studies are often unique and not generalizable, limiting the extent to which they can support theories like localisation."
     }
   ]
 }

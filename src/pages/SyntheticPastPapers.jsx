@@ -137,7 +137,20 @@ function SyntheticPastPapers({ onBack }) {
         styleHint = `
 - Include a mix of short answer (2–6 marks), application questions (4–8 marks), and extended response (8–16 marks)
 - Use scenarios/stimulus material where appropriate
-- Cover AO1 (knowledge), AO2 (application), and AO3 (evaluation)`;
+- Cover AO1 (knowledge), AO2 (application), and AO3 (evaluation)
+- Ensure the TOTAL of all question marks equals ${paper.marks}. Do NOT exceed the total marks.
+- Keep sections realistic to the AQA layout for this paper.
+- State clearly: "Answer ALL questions in all sections."
+- Do NOT include hints or guidance lines for candidates (no lightbulb tips or cues).`;
+        if (paper.id === 'paper2') {
+          styleHint += `
+- For Paper 2, match the AQA 7182/2 structure and totals exactly:
+  - Section A: Approaches (3 questions, marks = 6, 8, 16)
+  - Section B: Biopsychology (3 questions, marks = 6, 8, 16)
+  - Section C: Research Methods (3 questions, marks = 6, 10, 20) — total paper marks = 96
+- Keep Section C tied to one shared scenario (e.g., sleep deprivation and cognitive performance) so operationalisation, design, and ethics all reference that same scenario.
+- Do NOT invent extra sections or change the mark pattern; adhere to the above layout.`;
+        }
       } else if (isOcr) {
         if (paper.id === 'paper1') {
           // OCR H573/01 – Philosophy of Religion style
@@ -180,7 +193,7 @@ ${styleHint}
 Return STRICT JSON:
 {
   "title": "Paper title",
-  "instructions": "Brief exam instructions",
+  "instructions": "Brief exam instructions (e.g., Answer all questions.)",
   "sections": [
     {
       "name": "Section name",
@@ -188,8 +201,7 @@ Return STRICT JSON:
         {
           "number": "1",
           "text": "Question text",
-          "marks": 8,
-          "guidance": "Brief guidance for student"
+          "marks": 8
         }
       ]
     }
@@ -205,7 +217,19 @@ Return STRICT JSON:
         const match = res.match(/\{[\s\S]*\}/);
         parsed = match ? JSON.parse(match[0]) : null;
       }
-      setGeneratedPaper(parsed);
+      // Ensure instructions present and strip any unused guidance/hints
+      const cleanedSections = (parsed?.sections || []).map(sec => ({
+        ...sec,
+        questions: (sec.questions || []).map(q => ({
+          ...q,
+          guidance: undefined
+        }))
+      }));
+      setGeneratedPaper({
+        ...parsed,
+        instructions: parsed?.instructions || 'Answer all questions in all sections.',
+        sections: cleanedSections
+      });
     } catch (e) {
       console.error('Failed to generate paper:', e);
       setGeneratedPaper({ error: 'Failed to generate paper. Please try again.' });
@@ -292,10 +316,7 @@ Return STRICT JSON:
                         <span className="font-semibold text-gray-800">Question {q.number}</span>
                         <span className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">{q.marks} marks</span>
                       </div>
-                      <p className="text-gray-700 mb-2">{q.text}</p>
-                      {q.guidance && (
-                        <p className="text-sm text-gray-500 italic">💡 {q.guidance}</p>
-                      )}
+                  <p className="text-gray-700 mb-2">{q.text}</p>
                     </div>
                   ))}
                 </div>
