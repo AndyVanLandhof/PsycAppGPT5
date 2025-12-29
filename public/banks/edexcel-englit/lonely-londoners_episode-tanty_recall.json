@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "episode-tanty",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Tanty — Community & remittances",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:13:53.228Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Tanty's role in the community in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Tanty acts as a mother figure and source of wisdom.",
+        "She organizes social gatherings and supports fellow immigrants.",
+        "Her character represents the communal spirit among Caribbean immigrants."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of remittances in 'The Lonely Londoners'?",
+      "keyPoints": [
+        "Remittances highlight the economic ties to the Caribbean.",
+        "They reflect the immigrants' sense of duty to their families back home.",
+        "Remittances illustrate the financial struggles and sacrifices of the immigrants."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'community' as depicted in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Community is portrayed through mutual support among immigrants.",
+        "Social gatherings and shared experiences strengthen community bonds.",
+        "The community is a source of cultural preservation and identity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Tanty's actions in organizing a gathering help an immigrant struggling with isolation?",
+      "keyPoints": [
+        "Provides a sense of belonging and reduces feelings of loneliness.",
+        "Encourages building connections with others facing similar challenges.",
+        "Strengthens cultural ties and offers emotional support."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with application to scenario",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of remittances to a character's motivation to work long hours.",
+      "keyPoints": [
+        "Character's motivation driven by responsibility to support family back home.",
+        "Working long hours is a sacrifice for financial stability of relatives.",
+        "Reflects cultural expectation to contribute to the family's well-being."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with application to scenario",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In what ways can Tanty's leadership in the community be seen as a form of empowerment?",
+      "keyPoints": [
+        "Her leadership role challenges gender norms.",
+        "Empowers others by providing a platform for collective action.",
+        "Fosters resilience and cultural pride within the community."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with application to scenario",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of community support as depicted in 'The Lonely Londoners'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Community support is crucial for immigrant survival.",
+        "Evidence: Social gatherings and shared experiences.",
+        "Explanation: Provides emotional and practical support.",
+        "Link: Essential for maintaining cultural identity and belonging."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some key points or lacks PEEL structure",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the challenges related to remittances faced by characters in the novel. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Remittances create financial pressure.",
+        "Evidence: Characters working multiple jobs.",
+        "Explanation: Balancing local survival with family obligations.",
+        "Link: Highlights economic struggles of immigrants."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some key points or lacks PEEL structure",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the portrayal of immigrant community dynamics in the novel. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Community dynamics are complex and multifaceted.",
+        "Evidence: Interactions among different Caribbean nationalities.",
+        "Explanation: Reflects both unity and tension within the community.",
+        "Link: Provides an authentic depiction of immigrant experiences."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL",
+        "partial": "Includes some key points or lacks PEEL structure",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    }
+  ]
+}

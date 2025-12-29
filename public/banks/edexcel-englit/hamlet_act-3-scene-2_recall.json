@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-3-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act III, Scene 2",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:46:36.607Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the play-within-a-play in Act III, Scene 2 of 'Hamlet'?",
+      "keyPoints": [
+        "It mirrors the events of King Hamlet's murder",
+        "It is used by Hamlet to gauge King Claudius's guilt",
+        "The play is titled 'The Mousetrap' by Hamlet"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe one theme highlighted in Act III, Scene 2 of 'Hamlet'.",
+      "keyPoints": [
+        "Theme of appearance vs. reality",
+        "Use of the play to uncover truth",
+        "Hamlet's manipulation of theatrical performance"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how Hamlet's behavior in Act III, Scene 2 reflects his attitude towards Gertrude.",
+      "keyPoints": [
+        "Hamlet's critical and confrontational tone",
+        "Use of irony and sarcasm",
+        "Underlying tension in their relationship"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Hamlet did not use the play to confirm Claudius's guilt. How might this have changed the outcome of Act III, Scene 2?",
+      "keyPoints": [
+        "Hamlet may remain uncertain about the ghost's claim",
+        "Lack of confrontation with Claudius",
+        "Potential delay in Hamlet's pursuit of revenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of dramatic irony to Act III, Scene 2. How does Shakespeare use it to enhance the scene?",
+      "keyPoints": [
+        "Audience knows the play mirrors King Hamlet's murder",
+        "Claudius's reaction reveals his guilt to the audience",
+        "Creates tension and anticipation for Hamlet's next move"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the scene change if Claudius did not react to the play-within-a-play?",
+      "keyPoints": [
+        "Hamlet might question the ghost's reliability",
+        "Scene would lack dramatic tension",
+        "Could alter Hamlet's resolve for revenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the play-within-a-play as a device for revealing Claudius's guilt. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: The play is effective in revealing guilt",
+        "Evidence: Claudius's reaction during the play",
+        "Explanation: Guilt confirmed for both Hamlet and the audience",
+        "Link: Establishes a pivotal turning point in the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with coherent PEEL structure",
+        "partial": "Includes some key points, but lacks full PEEL structure",
+        "none": "Lacks coherence or key points of PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of Polonius during the play-within-a-play scene. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Polonius serves as comic relief",
+        "Evidence: His comments and interactions throughout the scene",
+        "Explanation: Highlights his obliviousness and contrasts with serious themes",
+        "Link: Enhances the complexity of the scene by balancing tension"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with coherent PEEL structure",
+        "partial": "Includes some key points, but lacks full PEEL structure",
+        "none": "Lacks coherence or key points of PEEL"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Hamlet's use of language and behavior in Act III, Scene 2 to manipulate the court. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Hamlet uses language to unsettle the court",
+        "Evidence: Use of puns, double meanings, and sarcasm",
+        "Explanation: Displays intelligence and strategic manipulation",
+        "Link: Reflects his internal conflict and complexity of his character"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with coherent PEEL structure",
+        "partial": "Includes some key points, but lacks full PEEL structure",
+        "none": "Lacks coherence or key points of PEEL"
+      }
+    }
+  ]
+}

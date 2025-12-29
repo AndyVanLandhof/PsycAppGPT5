@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "part-1",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Part I",
+  "type": "quiz",
+  "generatedAt": "2025-12-29T09:03:53.820Z",
+  "items": [
+    {
+      "id": "part-1-q1",
+      "question": "What is the primary setting of Part I of Joseph Conrad's 'Heart of Darkness'?",
+      "options": [
+        "The Thames River",
+        "The Congo River",
+        "The Amazon River",
+        "The Mississippi River"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The story begins on the Thames River but Part I primarily takes place along the Congo River, as Marlow recounts his journey."
+    },
+    {
+      "id": "part-1-q2",
+      "question": "Who is the protagonist of 'Heart of Darkness'?",
+      "options": [
+        "Kurtz",
+        "The Narrator",
+        "Marlow",
+        "The Manager"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Marlow is the central character and narrator who recounts his experiences in the Congo."
+    },
+    {
+      "id": "part-1-q3",
+      "question": "In Part I, what is Marlow's initial impression of the Company?",
+      "options": [
+        "Efficient and well-organized",
+        "Chaotic and inefficient",
+        "Benevolent and caring",
+        "Hostile and aggressive"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Marlow perceives the Company as chaotic and inefficient, reflecting the disorganization he encounters."
+    },
+    {
+      "id": "part-1-q4",
+      "question": "Which character is described as having a 'whistle' that Marlow notices in Part I?",
+      "options": [
+        "The Accountant",
+        "The Manager",
+        "The Brickmaker",
+        "The Chief Accountant"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The Chief Accountant is noted for his ability to maintain his appearance despite the harsh environment."
+    },
+    {
+      "id": "part-1-q5",
+      "question": "What symbolic object is Marlow given before leaving for Africa?",
+      "options": [
+        "A map",
+        "A compass",
+        "A book",
+        "A pair of shoes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow is given a map, symbolizing exploration and the unknown."
+    },
+    {
+      "id": "part-1-q6",
+      "question": "What is the significance of the knitting women in Part I?",
+      "options": [
+        "They represent fate",
+        "They are guides",
+        "They symbolize wealth",
+        "They represent the African natives"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The knitting women are reminiscent of the Fates from mythology, symbolizing destiny and foreboding."
+    },
+    {
+      "id": "part-1-q7",
+      "question": "How does Marlow describe his predecessor, Fresleven?",
+      "options": [
+        "Calm and respectful",
+        "Gentle and kind",
+        "Violent and aggressive",
+        "Indifferent and lazy"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Fresleven is described as having died in a violent altercation, highlighting the brutality of the environment."
+    },
+    {
+      "id": "part-1-q8",
+      "question": "What does Marlow observe about the African workers at the Outer Station?",
+      "options": [
+        "They are well-treated",
+        "They are lethargic",
+        "They are starving",
+        "They are hostile"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Marlow observes the dire conditions and starvation faced by the African workers, highlighting colonial exploitation."
+    },
+    {
+      "id": "part-1-q9",
+      "question": "Who is the first person Marlow meets at the Central Station?",
+      "options": [
+        "The Manager",
+        "Kurtz",
+        "The Accountant",
+        "The Brickmaker"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow first meets the Manager, who runs the Central Station."
+    },
+    {
+      "id": "part-1-q10",
+      "question": "Marlow encounters a group of people at the Central Station. How does he describe their behavior?",
+      "options": [
+        "Efficient and disciplined",
+        "Idle and inefficient",
+        "Friendly and welcoming",
+        "Aggressive and confrontational"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Marlow describes the people at the Central Station as idle, reflecting the inefficiency and neglect of the colonial enterprise."
+    },
+    {
+      "id": "part-1-q11",
+      "question": "What event does Marlow witness that reflects the absurdity of colonialism?",
+      "options": [
+        "A chain gang",
+        "A burning ship",
+        "A riot in the streets",
+        "A lavish banquet"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Marlow witnesses a burning ship with no apparent purpose, symbolizing the senseless destruction of colonialism."
+    },
+    {
+      "id": "part-1-q12",
+      "question": "In Part I, Marlow reflects on the journey to Africa on a French ship. What is significant about the ship's actions?",
+      "options": [
+        "It engages in peaceful trade",
+        "It fires blindly into the forest",
+        "It rescues shipwrecked sailors",
+        "It delivers medical supplies"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The French ship fires into the forest without a clear target, symbolizing the indiscriminate violence of colonial powers."
+    },
+    {
+      "id": "part-1-q13",
+      "question": "How does 'Heart of Darkness' Part I challenge the notion of European superiority?",
+      "options": [
+        "By glorifying European technology",
+        "By showing the efficiency of the Company",
+        "By depicting European characters as ignorant and brutal",
+        "By highlighting the advanced civilization of Africa"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Conrad challenges European superiority by portraying European characters as ignorant and brutal, undermining colonial justifications."
+    },
+    {
+      "id": "part-1-q14",
+      "question": "What literary technique does Conrad use to convey Marlow's internal conflict?",
+      "options": [
+        "Dramatic irony",
+        "Foreshadowing",
+        "Stream of consciousness",
+        "Third-person omniscient narration"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Conrad uses stream of consciousness to convey Marlow's internal conflict, providing insight into his thoughts and emotions."
+    },
+    {
+      "id": "part-1-q15",
+      "question": "Compared to contemporary adventure novels, how does 'Heart of Darkness' differ in its portrayal of exploration?",
+      "options": [
+        "It romanticizes exploration",
+        "It presents exploration as a moral journey",
+        "It focuses on personal greed",
+        "It depicts exploration as a quest for fame"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Conrad presents exploration as a moral journey, contrasting with the romanticized and fame-driven narratives of the time."
+    }
+  ]
+}

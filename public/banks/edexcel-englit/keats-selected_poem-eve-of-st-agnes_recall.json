@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-eve-of-st-agnes",
+  "subTopicTitle": "Keats — Selected Poems — The Eve of St Agnes",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:38:10.536Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the main themes present in 'The Eve of St Agnes' by John Keats.",
+      "keyPoints": [
+        "Romantic love and desire",
+        "Supernatural and mysticism",
+        "Contrast between reality and fantasy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the narrative structure of 'The Eve of St Agnes'.",
+      "keyPoints": [
+        "The poem is structured as a narrative with a beginning, middle, and end",
+        "Use of Spenserian stanzas",
+        "Chronological sequence with flashbacks"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the setting in 'The Eve of St Agnes'?",
+      "keyPoints": [
+        "Medieval castle setting",
+        "Cold, wintry night enhances mood and themes",
+        "Contrast between the warmth of Madeline's chamber and the cold outside"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the theme of 'romantic escapism' in 'The Eve of St Agnes' apply to a modern romantic film?",
+      "keyPoints": [
+        "Comparison of idealized love in the poem and film",
+        "Use of setting to create a sense of escapism",
+        "Character's journey from reality to fantasy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme effectively with relevant examples",
+        "partial": "Applies theme with limited examples or detail",
+        "none": "Fails to apply theme or lacks relevant examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If 'The Eve of St Agnes' were to be adapted into a stage play, how could the theme of 'supernatural elements' be portrayed?",
+      "keyPoints": [
+        "Use of lighting and sound to suggest supernatural presence",
+        "Stage directions indicating mystical atmosphere",
+        "Costume and set design reflecting otherworldly elements"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme effectively with creative examples",
+        "partial": "Applies theme with limited or unoriginal examples",
+        "none": "Fails to apply theme or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a director adapting 'The Eve of St Agnes' into a short film. How would you visually portray the contrast between reality and fantasy?",
+      "keyPoints": [
+        "Use of color to differentiate reality from fantasy",
+        "Camera angles and lighting to create mood",
+        "Scene transitions highlighting shifts between states"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies contrast effectively with visual examples",
+        "partial": "Applies contrast with limited visual examples",
+        "none": "Fails to apply contrast or lacks visual examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the Spenserian stanza form used in 'The Eve of St Agnes'.",
+      "keyPoints": [
+        "Creates a lyrical and musical quality",
+        "Allows for detailed description and development of mood",
+        "May challenge modern readers with its complexity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates effectively using PEEL structure with evidence",
+        "partial": "Evaluates with limited use of PEEL structure or evidence",
+        "none": "Lacks evaluation or evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of sensory imagery in enhancing the narrative of 'The Eve of St Agnes'.",
+      "keyPoints": [
+        "Vivid descriptions appeal to the senses",
+        "Helps establish atmosphere and mood",
+        "Engages the reader by creating a more immersive experience"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Assesses effectively using PEEL structure with examples",
+        "partial": "Assesses with limited use of PEEL structure or examples",
+        "none": "Lacks assessment or examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique Keats' portrayal of gender roles in 'The Eve of St Agnes'.",
+      "keyPoints": [
+        "Madeline as passive and object of desire",
+        "Porphyro as active and dominant",
+        "Reflects or challenges contemporary gender norms"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critiques effectively using PEEL structure with examples",
+        "partial": "Critiques with limited use of PEEL structure or examples",
+        "none": "Lacks critique or examples"
+      }
+    }
+  ]
+}

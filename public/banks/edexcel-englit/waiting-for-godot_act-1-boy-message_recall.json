@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-1-boy-message",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act I — The Boy’s message",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:59:34.007Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the purpose of the Boy's message in Act I of 'Waiting for Godot'?",
+      "keyPoints": [
+        "The Boy delivers a message from Mr. Godot, indicating he will not come today but possibly tomorrow.",
+        "The message perpetuates the theme of waiting and uncertainty.",
+        "It introduces an element of hope and despair for Vladimir and Estragon."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the interaction between the Boy and the main characters in Act I.",
+      "keyPoints": [
+        "Vladimir questions the Boy about Mr. Godot and his message.",
+        "Estragon shows impatience and frustration during the interaction.",
+        "The Boy is hesitant and provides limited information."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "How does the Boy's message contribute to the play's structure in Act I?",
+      "keyPoints": [
+        "The message reinforces the cyclical nature of the play.",
+        "It highlights the repetitive and static existence of the characters.",
+        "The message is a pivotal point that maintains the tension of waiting."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are directing a scene where the Boy delivers his message. How would you instruct the Boy to convey the theme of uncertainty?",
+      "keyPoints": [
+        "Instruct the Boy to use hesitant body language and speech.",
+        "Emphasize pauses and eye contact to show uncertainty.",
+        "Direct the Boy to convey a sense of innocence and naivety."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points with creativity and clear understanding",
+        "partial": "Applies some key points but lacks creativity or clarity",
+        "none": "Fails to apply key points or lacks understanding"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the uncertainty of the Boy's message affect Vladimir and Estragon if applied to a modern setting?",
+      "keyPoints": [
+        "They might experience increased anxiety and frustration in a fast-paced world.",
+        "Modern communication might alter their reaction to the uncertainty.",
+        "Their existential crisis could be exacerbated by modern societal pressures."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points with insight into modern contexts",
+        "partial": "Applies some key points but lacks depth or insight",
+        "none": "Fails to apply key points or lacks understanding"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where the Boy's message is delivered by an adult. How might this change the interpretation of the message?",
+      "keyPoints": [
+        "An adult might convey the message with more authority, altering its impact.",
+        "The sense of innocence and ambiguity might be reduced.",
+        "The dynamic between the characters might shift, affecting power relations."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points with thoughtful analysis",
+        "partial": "Applies some key points but lacks full analysis",
+        "none": "Fails to apply key points or lacks understanding"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the significance of the Boy's message in reinforcing the themes of 'Waiting for Godot'. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The message highlights the theme of waiting.",
+        "Evidence: The repeated message 'not today, possibly tomorrow'.",
+        "Explanation: Demonstrates the endless cycle of hope and despair.",
+        "Link: Ties into the existential themes of uncertainty and the human condition."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure with detailed analysis",
+        "partial": "Uses PEEL structure but lacks detail or connection",
+        "none": "Fails to use PEEL structure or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how the Boy's message contributes to the play's absurdist elements. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The message underscores the absurd nature of the play.",
+        "Evidence: Lack of resolution and continuous uncertainty.",
+        "Explanation: Reflects the absurdity of seeking meaning in a meaningless world.",
+        "Link: Connects to Beckett's use of absurdism to challenge traditional narrative forms."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL structure with clear insight",
+        "partial": "Uses PEEL structure but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or lacks critical assessment"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze the role of the Boy's message in the development of the characters' relationship. Use PEEL structure.",
+      "keyPoints": [
+        "Point: The message impacts the dynamic between Vladimir and Estragon.",
+        "Evidence: Their reactions to the Boy's message reflect their differing outlooks.",
+        "Explanation: Highlights Vladimir's persistence versus Estragon's despair.",
+        "Link: Shows how external factors influence their interdependence."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Analyzes using PEEL structure with comprehensive detail",
+        "partial": "Uses PEEL structure but lacks full analysis",
+        "none": "Fails to use PEEL structure or lacks analysis"
+      }
+    }
+  ]
+}

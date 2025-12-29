@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "summary",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Summary",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T17:55:26.364Z",
+  "items": [
+    {
+      "id": "summary-q1",
+      "question": "Which characters are waiting for Godot in Samuel Beckett's play?",
+      "options": [
+        "Vladimir and Estragon",
+        "Pozzo and Lucky",
+        "Gogo and Didi",
+        "The Boy and Lucky"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Vladimir and Estragon are the main characters who wait for Godot throughout the play."
+    },
+    {
+      "id": "summary-q2",
+      "question": "What does Estragon repeatedly struggle with at the beginning of the play?",
+      "options": [
+        "Putting on his shoes",
+        "Climbing a tree",
+        "Reading a letter",
+        "Cooking food"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Estragon is seen struggling with his boots, symbolizing the repetitive and futile nature of their existence."
+    },
+    {
+      "id": "summary-q3",
+      "question": "Which recurring phrase highlights the theme of waiting in the play?",
+      "options": [
+        "'Let's go.'",
+        "'It might be today.'",
+        "'Nothing to be done.'",
+        "'Here he comes.'"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The phrase 'Nothing to be done' emphasizes the existential stagnation faced by the characters."
+    },
+    {
+      "id": "summary-q4",
+      "question": "What role does the tree play in the setting of 'Waiting for Godot'?",
+      "options": [
+        "A symbol of hope",
+        "A marker of time",
+        "A place of rest",
+        "A representation of barrenness"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The barren tree represents the desolation and futility present in the play's setting."
+    },
+    {
+      "id": "summary-q5",
+      "question": "How many acts are in 'Waiting for Godot'?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The play is divided into two acts, both of which mirror each other in structure and content."
+    },
+    {
+      "id": "summary-q6",
+      "question": "Which character is blind in Act II of the play?",
+      "options": [
+        "Vladimir",
+        "Estragon",
+        "Pozzo",
+        "Lucky"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "In Act II, Pozzo is blind, which signifies the loss of direction and control."
+    },
+    {
+      "id": "summary-q7",
+      "question": "Who does Vladimir believe will come to save them?",
+      "options": [
+        "Godot",
+        "The Boy",
+        "A messenger",
+        "A traveler"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Vladimir, like Estragon, waits for Godot, whom they believe will save them."
+    },
+    {
+      "id": "summary-q8",
+      "question": "What does the Boy tell Vladimir and Estragon about Godot?",
+      "options": [
+        "Godot will come tomorrow",
+        "Godot is not coming",
+        "Godot is angry",
+        "Godot is nearby"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The Boy informs them that Godot will not come today but will surely come tomorrow, perpetuating their wait."
+    },
+    {
+      "id": "summary-q9",
+      "question": "Which term best describes the existential themes in 'Waiting for Godot'?",
+      "options": [
+        "Absurdism",
+        "Realism",
+        "Surrealism",
+        "Romanticism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The play is a prime example of absurdism, highlighting the meaninglessness of life and the futility of human effort."
+    },
+    {
+      "id": "summary-q10",
+      "question": "In a scenario where Estragon decides to leave, what is Vladimir's likely response based on Act I?",
+      "options": [
+        "Encourage him",
+        "Leave with him",
+        "Convince him to stay",
+        "Ignore him"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Vladimir consistently persuades Estragon to stay, reflecting their dependence on each other."
+    },
+    {
+      "id": "summary-q11",
+      "question": "If Pozzo and Lucky were to represent a critique of societal roles, what might Pozzo symbolize?",
+      "options": [
+        "Oppression",
+        "Freedom",
+        "Companionship",
+        "Rebellion"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Pozzo's authoritarian treatment of Lucky can symbolize societal oppression."
+    },
+    {
+      "id": "summary-q12",
+      "question": "What does the Boy's repeated appearance signal to the audience?",
+      "options": [
+        "Hope",
+        "Despair",
+        "Cycle of waiting",
+        "Resolution"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The Boy’s appearances mark the continuation of the cycle of waiting without resolution."
+    },
+    {
+      "id": "summary-q13",
+      "question": "How does 'Waiting for Godot' challenge traditional narrative structure?",
+      "options": [
+        "By lacking a clear plot",
+        "By having a single protagonist",
+        "By using flashbacks",
+        "By focusing on romance"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The play defies traditional narrative by having minimal plot development, focusing instead on dialogue and themes."
+    },
+    {
+      "id": "summary-q14",
+      "question": "In comparing 'Waiting for Godot' with 'Endgame', what thematic element is prominent in both?",
+      "options": [
+        "Hope",
+        "Time",
+        "Futility",
+        "Joy"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Both plays feature the theme of futility, highlighting existential despair and stagnation."
+    },
+    {
+      "id": "summary-q15",
+      "question": "What criticism can be directed at the repetitive dialogue in 'Waiting for Godot'?",
+      "options": [
+        "It lacks character development",
+        "It confuses the audience",
+        "It undermines the theme of futility",
+        "It resolves the plot"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "The repetitive dialogue can be seen as a limitation because it may hinder deep character development."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-2-pozzo-blind",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act II — Pozzo blind/Lucky mute",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:01:46.401Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the significance of Pozzo's blindness in Act II of 'Waiting for Godot'.",
+      "keyPoints": [
+        "Pozzo's blindness symbolizes the loss of direction and insight",
+        "Reflects the theme of human suffering and existential uncertainty",
+        "Highlights the play's absurdist elements as characters are trapped in a cycle of dependency"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of Lucky's muteness in Act II?",
+      "keyPoints": [
+        "Represents a loss of agency and further dehumanization",
+        "Contrasts with his verbose monologue in Act I",
+        "Symbolizes the breakdown of communication and meaning"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how the relationship between Pozzo and Lucky changes in Act II.",
+      "keyPoints": [
+        "Shift from master-slave dynamic to one of mutual dependency",
+        "Pozzo's blindness makes him more reliant on Lucky",
+        "Reflects broader themes of powerlessness and interdependence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Pozzo's blindness is a metaphor for modern society's lack of insight. How would this perspective apply to a contemporary context?",
+      "keyPoints": [
+        "Blindness could symbolize societal ignorance or willful blindness to issues",
+        "Could relate to environmental, social, or political challenges",
+        "Highlights the disconnect between awareness and action in modern times"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies the metaphor effectively with contemporary examples",
+        "partial": "Applies metaphor with limited examples or clarity",
+        "none": "Fails to apply metaphor or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider Lucky's muteness as a metaphor for marginalized voices in society. How does this scenario play out in real-world contexts?",
+      "keyPoints": [
+        "Muteness represents the silencing of marginalized or oppressed groups",
+        "Links to issues of representation and lack of platform",
+        "Reflects the struggle for voice and recognition in society"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively applies metaphor with real-world examples",
+        "partial": "Applies metaphor with limited examples or clarity",
+        "none": "Fails to apply metaphor or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Pozzo and Lucky's changed relationship in Act II mirror relationships in hierarchical structures today?",
+      "keyPoints": [
+        "Can reflect employer-employee dynamics where roles and dependencies shift",
+        "Highlights themes of vulnerability and changing power dynamics",
+        "Shows how mutual reliance can alter traditional power hierarchies"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies relationship dynamics with relevant modern examples",
+        "partial": "Applies dynamics with limited examples or clarity",
+        "none": "Fails to apply dynamics or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Beckett's use of blindness and muteness as symbols in conveying existential themes in 'Waiting for Godot'.",
+      "keyPoints": [
+        "Effectively underscores themes of uncertainty and lack of control",
+        "Enhances the absurdist tone by emphasizing communication breakdown",
+        "Can be seen as limiting due to potential over-reliance on symbolism"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates all key points using PEEL structure with examples",
+        "partial": "Evaluates some points with limited use of PEEL structure",
+        "none": "Lacks evaluation or use of PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess whether Pozzo's transformation in Act II adds depth to the play's exploration of human suffering.",
+      "keyPoints": [
+        "Adds depth by illustrating the universality of suffering",
+        "Highlights the theme of inevitable decline and dependency",
+        "May be seen as overly pessimistic or lacking resolution"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Critically assesses all points using PEEL structure with examples",
+        "partial": "Assesses some points with limited use of PEEL structure",
+        "none": "Lacks critical assessment or use of PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how the changes in Pozzo and Lucky's characters in Act II impact the audience's perception of the play's message.",
+      "keyPoints": [
+        "Changes deepen the sense of absurdity and futility",
+        "Challenge audience expectations and provoke reflection on human condition",
+        "May alienate or confuse the audience, impacting message clarity"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates all points using PEEL structure with examples",
+        "partial": "Evaluates some points with limited use of PEEL structure",
+        "none": "Lacks evaluation or use of PEEL structure"
+      }
+    }
+  ]
+}

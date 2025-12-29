@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-1",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 1",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:40:04.178Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Who are the first characters to appear in Act I, Scene 1 of 'Hamlet', and what is their role in this scene?",
+      "keyPoints": [
+        "Bernardo and Francisco are the first characters",
+        "They are guards on watch",
+        "They discuss the appearance of the ghost"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting of Act I, Scene 1 in 'Hamlet'.",
+      "keyPoints": [
+        "The scene is set at Elsinore Castle",
+        "Takes place at night",
+        "A sense of foreboding and tension is created"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the ghost in Act I, Scene 1 of 'Hamlet'?",
+      "keyPoints": [
+        "The ghost resembles the late King Hamlet",
+        "It introduces the theme of uncertainty and foreshadowing",
+        "Raises questions about the state of Denmark"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are Bernardo in Act I, Scene 1. How would you describe your feelings upon seeing the ghost and how might this influence your actions?",
+      "keyPoints": [
+        "Feelings of fear and confusion",
+        "Sense of duty to report the sighting",
+        "Might influence Bernardo to seek out Horatio for validation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail and logical reasoning",
+        "partial": "Includes 1-2 key points or lacks reasoning",
+        "none": "Missing key points or illogical reasoning"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the theme of uncertainty, introduced in Act I, Scene 1, apply to a modern context or scenario?",
+      "keyPoints": [
+        "Modern parallels to political or social uncertainty",
+        "Impact on individuals' decision-making",
+        "Potential for misinformation or fear"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to a modern context",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or unclear application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If you were directing Act I, Scene 1, how would you use lighting and sound to enhance the atmosphere?",
+      "keyPoints": [
+        "Use dim lighting to create a sense of mystery",
+        "Incorporate eerie sounds to heighten tension",
+        "Use of silence to emphasize the ghost's appearance"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with imaginative and practical application",
+        "partial": "Includes 1-2 key points or lacks creativity",
+        "none": "Missing key points or impractical application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the opening scene in establishing the themes of 'Hamlet'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Establishes themes of uncertainty and supernatural",
+        "Evidence: Appearance of the ghost",
+        "Explanation: Sets tone for the play's exploration of reality vs. appearance",
+        "Link: Foreshadows the complex questions Hamlet will face"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with coherent evaluation",
+        "partial": "Includes some PEEL elements or lacks coherence",
+        "none": "Missing PEEL elements or incoherent evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how Shakespeare uses character interactions in Act I, Scene 1 to build tension. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Tension is built through the guards' dialogue",
+        "Evidence: Their nervous exchanges and questioning",
+        "Explanation: Reflects the uncertainty and fear of the supernatural",
+        "Link: Sets the stage for the unease throughout the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with accurate assessment",
+        "partial": "Includes some PEEL elements or lacks assessment",
+        "none": "Missing PEEL elements or inaccurate assessment"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of the supernatural in Act I, Scene 1 and its impact on the audience. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: The supernatural element captures audience interest",
+        "Evidence: The ghost's silent presence",
+        "Explanation: Creates an atmosphere of mystery and foreboding",
+        "Link: Engages audience's curiosity about the plot"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with thorough evaluation",
+        "partial": "Includes some PEEL elements or lacks thoroughness",
+        "none": "Missing PEEL elements or lacks evaluation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "episode-moses",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Moses — Routine & mediation",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:10:03.129Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe Moses' daily routine in 'The Lonely Londoners' and how it reflects his character.",
+      "keyPoints": [
+        "Moses' routine involves waking up early and going to work",
+        "He spends evenings at the local café with fellow immigrants",
+        "His routine reflects a sense of resignation and acceptance of his life in London"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of mediation in Moses' interactions with other characters.",
+      "keyPoints": [
+        "Mediation refers to Moses acting as a go-between for new immigrants",
+        "He helps newcomers navigate the challenges of London life",
+        "This role highlights his experience and leadership within the immigrant community"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the key themes associated with Moses' routines and interactions in 'The Lonely Londoners'?",
+      "keyPoints": [
+        "Themes of alienation and routine",
+        "The struggle for identity in a foreign land",
+        "The importance of community and belonging"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a new immigrant joins Moses' circle. How might Moses' routine and mediation role be affected?",
+      "keyPoints": [
+        "Moses might take on a mentorship role",
+        "His routine could include guiding the newcomer through daily tasks",
+        "The new presence might reinforce Moses' leadership role"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately to scenario with all key points",
+        "partial": "Applies theory but misses some key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Moses' routine change if he were to lose his job? Apply your understanding of his character.",
+      "keyPoints": [
+        "Moses might experience increased alienation and depression",
+        "Loss of job could disrupt his sense of identity and routine",
+        "He might rely more on his community for support"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately to scenario with all key points",
+        "partial": "Applies theory but misses some key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Moses were to relocate to another city, how might his mediation role change?",
+      "keyPoints": [
+        "He may struggle to establish the same level of authority",
+        "His mediation role might diminish until he re-establishes himself",
+        "He would need to adapt to the new environment and social dynamics"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately to scenario with all key points",
+        "partial": "Applies theory but misses some key points or lacks detail",
+        "none": "Fails to apply theory or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Moses' routine as a coping mechanism for his life in London.",
+      "keyPoints": [
+        "Routine provides Moses with a sense of stability",
+        "It helps him maintain a connection with his community",
+        "However, it may also trap him in a cycle of monotony and limit his growth"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates effectively using all key points with explanation",
+        "partial": "Evaluates using some key points but lacks depth",
+        "none": "Fails to evaluate or uses incorrect information"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of Moses' mediation role on his relationships in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Mediation strengthens his leadership status",
+        "It fosters dependence from others, which may burden Moses",
+        "Mediation can create a sense of belonging but also isolate him from deeper personal connections"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates effectively using all key points with explanation",
+        "partial": "Evaluates using some key points but lacks depth",
+        "none": "Fails to evaluate or uses incorrect information"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the portrayal of Moses' routine as a reflection of the immigrant experience in 1950s London.",
+      "keyPoints": [
+        "Routine highlights the struggles and alienation of immigrants",
+        "It reflects the limited opportunities available",
+        "However, it may oversimplify the complexity of individual immigrant experiences"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates effectively using all key points with explanation",
+        "partial": "Evaluates using some key points but lacks depth",
+        "none": "Fails to evaluate or uses incorrect information"
+      }
+    }
+  ]
+}

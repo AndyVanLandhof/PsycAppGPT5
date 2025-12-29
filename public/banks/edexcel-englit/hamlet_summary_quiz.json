@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "summary",
+  "subTopicTitle": "Hamlet (Shakespeare) — Summary",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T17:39:03.211Z",
+  "items": [
+    {
+      "id": "summary-q1",
+      "question": "Who is responsible for the death of King Hamlet?",
+      "options": [
+        "Claudius",
+        "Polonius",
+        "Fortinbras",
+        "Laertes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "King Hamlet was murdered by his brother Claudius, who poured poison into his ear while he slept."
+    },
+    {
+      "id": "summary-q2",
+      "question": "In which country is Elsinore Castle located?",
+      "options": [
+        "Denmark",
+        "England",
+        "Norway",
+        "Poland"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Elsinore Castle, where most of the play takes place, is located in Denmark."
+    },
+    {
+      "id": "summary-q3",
+      "question": "What is the primary reason for Hamlet's feigned madness?",
+      "options": [
+        "To distract Gertrude",
+        "To avenge his father's death",
+        "To confuse Ophelia",
+        "To escape to England"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet pretends to be mad as part of his plan to avenge his father's murder by Claudius."
+    },
+    {
+      "id": "summary-q4",
+      "question": "What does the ghost of King Hamlet instruct Prince Hamlet to do?",
+      "options": [
+        "Kill Gertrude",
+        "Leave Denmark",
+        "Avenge his murder",
+        "Marry Ophelia"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The ghost of King Hamlet tells Prince Hamlet to avenge his murder by killing Claudius."
+    },
+    {
+      "id": "summary-q5",
+      "question": "How does Hamlet confirm Claudius's guilt?",
+      "options": [
+        "By eavesdropping on Claudius's confession",
+        "By staging a play",
+        "By hiring spies",
+        "By confronting Claudius directly"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet stages a play that mimics the murder of his father to observe Claudius's reaction and confirm his guilt."
+    },
+    {
+      "id": "summary-q6",
+      "question": "What advice does Polonius give to Laertes?",
+      "options": [
+        "To thine own self be true",
+        "Neither a borrower nor a lender be",
+        "Get thee to a nunnery",
+        "Something is rotten in the state of Denmark"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Polonius advises Laertes with the line, 'To thine own self be true,' among other pieces of advice."
+    },
+    {
+      "id": "summary-q7",
+      "question": "What does the term 'antic disposition' refer to in the play?",
+      "options": [
+        "The state of Denmark's politics",
+        "Hamlet's feigned madness",
+        "Ophelia's real madness",
+        "Claudius's guilt"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Hamlet refers to his plan to feign madness as putting on an 'antic disposition.'"
+    },
+    {
+      "id": "summary-q8",
+      "question": "What does Yorick's skull symbolize?",
+      "options": [
+        "The inevitability of death",
+        "Hamlet's childhood",
+        "Claudius's betrayal",
+        "Ophelia's innocence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Yorick's skull symbolizes the inevitability of death and the decay of the physical body."
+    },
+    {
+      "id": "summary-q9",
+      "question": "Who accidentally drinks the poisoned cup meant for Hamlet?",
+      "options": [
+        "Gertrude",
+        "Ophelia",
+        "Horatio",
+        "Laertes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Queen Gertrude accidentally drinks the poisoned cup that was intended for Hamlet."
+    },
+    {
+      "id": "summary-q10",
+      "question": "If Hamlet had immediately killed Claudius upon hearing the Ghost’s revelation, which theme might have been less explored?",
+      "options": [
+        "Revenge",
+        "Madness",
+        "Indecision",
+        "Corruption"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The theme of indecision is explored through Hamlet's delay in avenging his father's death, which would be minimized if he acted immediately."
+    },
+    {
+      "id": "summary-q11",
+      "question": "Considering Hamlet’s soliloquies, which psychological conflict is most evident?",
+      "options": [
+        "Ego vs. Superego",
+        "Id vs. Ego",
+        "Conscience vs. Duty",
+        "Desire vs. Fear"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Hamlet's soliloquies reveal his internal conflict between conscience and duty, particularly in avenging his father's murder."
+    },
+    {
+      "id": "summary-q12",
+      "question": "How does Gertrude's description of Ophelia's death reflect the theme of appearance versus reality?",
+      "options": [
+        "It is poetic and romanticized",
+        "It depicts a peaceful scene",
+        "It reveals the harsh truth",
+        "It suggests accidental drowning"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Gertrude’s poetic description contrasts with the brutal reality, highlighting the theme of appearance versus reality."
+    },
+    {
+      "id": "summary-q13",
+      "question": "How does T.S. Eliot critique 'Hamlet' in his 1919 essay?",
+      "options": [
+        "He praises its complexity",
+        "He calls it an artistic failure",
+        "He admires its character depth",
+        "He critiques its historical accuracy"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "T.S. Eliot, in his essay 'Hamlet and His Problems,' famously called the play an 'artistic failure' due to its unresolved themes."
+    },
+    {
+      "id": "summary-q14",
+      "question": "In comparison to other revenge tragedies, how is 'Hamlet' unique according to A.C. Bradley's 1904 analysis?",
+      "options": [
+        "It lacks a clear hero",
+        "It has a philosophical focus",
+        "It ends with a comedic twist",
+        "It avoids supernatural elements"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "A.C. Bradley noted that 'Hamlet' is unique among revenge tragedies for its deep philosophical exploration of life and death."
+    },
+    {
+      "id": "summary-q15",
+      "question": "How does the setting of Elsinore Castle enhance the play's theme of entrapment?",
+      "options": [
+        "It is open and inviting",
+        "It isolates characters",
+        "It serves as a refuge",
+        "It is vibrant and lively"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Elsinore Castle's confining and isolating setting enhances the theme of entrapment, reflecting Hamlet's feeling of being trapped."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "part-1-company-offices",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Part I — Company offices",
+  "type": "recall",
+  "generatedAt": "2025-12-29T09:06:19.175Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting of the Company offices in Part I of Heart of Darkness.",
+      "keyPoints": [
+        "Located in a European city, possibly Brussels",
+        "Described as gloomy and bureaucratic",
+        "Marlow's encounter with the two women knitting black wool"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the significance of the two women Marlow encounters at the Company offices.",
+      "keyPoints": [
+        "Two women knitting black wool",
+        "Symbolic of the Fates from Greek mythology",
+        "Foreboding presence, hinting at the darkness to come"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the role of the Company in Heart of Darkness Part I.",
+      "keyPoints": [
+        "Represents European colonial enterprise",
+        "Facilitates exploitation in Africa",
+        "Symbolizes greed and moral corruption"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Marlow observes the two women knitting black wool at the Company offices. How does this symbolism relate to the theme of fate in the novel?",
+      "keyPoints": [
+        "Black wool symbolizes inevitable doom",
+        "Women likened to the Fates, controlling destiny",
+        "Foreshadows Marlow's journey and the darkness he will encounter"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies symbolism to the theme of fate with relevant examples",
+        "partial": "Attempts to apply symbolism but lacks clarity or detail",
+        "none": "Fails to relate symbolism to the theme of fate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider Marlow's reaction to the Company offices. How does this reflect his attitude towards colonialism?",
+      "keyPoints": [
+        "Marlow's distaste for the bureaucratic nature of the Company",
+        "Reflects skepticism about colonial motives",
+        "His perception of the office as a precursor to the darkness in Africa"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly connects Marlow's reaction to his views on colonialism with examples",
+        "partial": "Some connection but lacks depth or examples",
+        "none": "No clear connection between Marlow's reaction and his views on colonialism"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Marlow had a conversation with the two women at the Company offices. How might this interaction develop the theme of foreboding in the novel?",
+      "keyPoints": [
+        "Marlow might seek understanding of their ominous role",
+        "Women could speak cryptically about fate or the journey",
+        "Interaction would enhance the sense of impending doom"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a plausible interaction that develops the theme of foreboding",
+        "partial": "Interaction proposed but lacks depth or relevance to theme",
+        "none": "Fails to propose a relevant interaction or develop the theme"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Conrad's depiction of the Company offices in setting the tone for the novel. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Gloomy and bureaucratic setting introduces tone",
+        "Evidence: Descriptions of darkness and foreboding",
+        "Explanation: Reflects themes of colonial exploitation",
+        "Link: Sets up the novel's exploration of moral corruption"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis and examples",
+        "partial": "Attempts PEEL structure but lacks depth or examples",
+        "none": "Fails to use PEEL structure or provide relevant analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how the encounter with the two women at the Company offices contributes to the novel’s theme of inevitability. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: The women symbolize fate",
+        "Evidence: Their knitting of black wool",
+        "Explanation: Suggests predestined outcomes and inevitability",
+        "Link: Reinforces the novel’s theme of darkness and doom"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis and examples",
+        "partial": "Attempts PEEL structure but lacks depth or examples",
+        "none": "Fails to use PEEL structure or provide relevant analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of the Company as a critique of European colonialism in Heart of Darkness. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Company symbolizes European greed",
+        "Evidence: Exploitation and moral corruption depicted",
+        "Explanation: Highlights the destructive nature of colonialism",
+        "Link: Conrad’s critique of European imperialism"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis and examples",
+        "partial": "Attempts PEEL structure but lacks depth or examples",
+        "none": "Fails to use PEEL structure or provide relevant analysis"
+      }
+    }
+  ]
+}

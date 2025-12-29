@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-2-scene-1",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act II, Scene 1",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:44:04.098Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify the key events that take place in Act II, Scene 1 of 'Hamlet'.",
+      "keyPoints": [
+        "Reynaldo is sent by Polonius to spy on Laertes in Paris.",
+        "Polonius interprets Hamlet’s madness as a result of Ophelia's rejection.",
+        "Ophelia describes Hamlet’s disheveled appearance and strange behavior to Polonius."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain Polonius’s plan to find out more about Laertes’s behavior in Paris.",
+      "keyPoints": [
+        "Polonius instructs Reynaldo to spread rumors about Laertes.",
+        "Reynaldo is to observe the reactions of Laertes’s acquaintances.",
+        "This method is used to gauge Laertes’s behavior indirectly."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Ophelia’s account of Hamlet’s behavior as she relays it to Polonius.",
+      "keyPoints": [
+        "Ophelia describes Hamlet as appearing disheveled and disturbed.",
+        "Hamlet grabs her wrist and stares at her without speaking.",
+        "Polonius interprets this as a sign of Hamlet’s madness due to love."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Polonius’s decision to spy on Laertes be applied to understanding his character?",
+      "keyPoints": [
+        "Polonius’s actions reflect his manipulative and controlling nature.",
+        "His lack of trust in his own son indicates a propensity for deception.",
+        "This action foreshadows his similar approach to Hamlet and Ophelia."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail related to Polonius’s character",
+        "partial": "Includes 1-2 key points or lacks application to character",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of madness to Hamlet’s behavior as described by Ophelia in this scene.",
+      "keyPoints": [
+        "Hamlet’s behavior appears irrational and alarming to Ophelia.",
+        "His disheveled appearance and silence suggest internal turmoil.",
+        "This incident contributes to the theme of feigned or real madness."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate application to the theme of madness",
+        "partial": "Includes 1-2 key points or lacks clear application to the theme",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In what ways does Polonius’s interpretation of Hamlet’s behavior reflect his own biases?",
+      "keyPoints": [
+        "Polonius attributes Hamlet’s madness to Ophelia’s rejection.",
+        "This reflects Polonius’s obsession with courtly love and control.",
+        "He fails to consider other possible causes for Hamlet’s behavior."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate application to Polonius’s biases",
+        "partial": "Includes 1-2 key points or lacks clear application to biases",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Polonius’s role as a father in this scene using the PEEL structure.",
+      "keyPoints": [
+        "Point: Polonius is a manipulative and controlling father.",
+        "Evidence: He sends Reynaldo to spy on Laertes and uses Ophelia’s relationship for political gain.",
+        "Explanation: These actions show a lack of trust and a tendency to control his children’s lives.",
+        "Link: This portrayal contributes to the wider theme of appearance versus reality."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear PEEL structure and evaluation",
+        "partial": "Includes 2-3 key points or lacks clear PEEL structure",
+        "none": "Missing key points or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Ophelia’s description of Hamlet’s behavior in conveying the theme of madness using the PEEL structure.",
+      "keyPoints": [
+        "Point: Ophelia’s account effectively conveys Hamlet’s apparent madness.",
+        "Evidence: Her description of his disheveled appearance and silent distress.",
+        "Explanation: These details create a vivid image of Hamlet’s unstable state.",
+        "Link: This scene deepens the play’s exploration of madness and appearance."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear PEEL structure and evaluation",
+        "partial": "Includes 2-3 key points or lacks clear PEEL structure",
+        "none": "Missing key points or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the significance of Polonius’s actions in this scene for the development of the plot using the PEEL structure.",
+      "keyPoints": [
+        "Point: Polonius’s actions are crucial for advancing the plot.",
+        "Evidence: His interpretation of Hamlet’s madness leads to further spying.",
+        "Explanation: This sets the stage for future conflicts and misunderstandings.",
+        "Link: Polonius’s actions highlight themes of deceit and manipulation."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with clear PEEL structure and evaluation",
+        "partial": "Includes 2-3 key points or lacks clear PEEL structure",
+        "none": "Missing key points or lacks PEEL structure"
+      }
+    }
+  ]
+}

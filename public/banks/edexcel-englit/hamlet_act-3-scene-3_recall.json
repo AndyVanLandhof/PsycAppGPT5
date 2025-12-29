@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-3-scene-3",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act III, Scene 3",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:47:28.780Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the main events of Act III, Scene 3 in Hamlet.",
+      "keyPoints": [
+        "King Claudius’s soliloquy revealing guilt",
+        "Hamlet's decision not to kill Claudius while he is praying",
+        "Claudius's inability to pray sincerely"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What does Claudius reveal about his internal conflict in Act III, Scene 3?",
+      "keyPoints": [
+        "Acknowledges his guilt for murdering Old Hamlet",
+        "Desire for repentance but unwillingness to give up the crown",
+        "Struggle with the sincerity of his prayer"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the significance of Hamlet’s hesitation to kill Claudius in Act III, Scene 3.",
+      "keyPoints": [
+        "Belief that killing Claudius during prayer would send him to heaven",
+        "Desire for Claudius to be damned",
+        "Insight into Hamlet’s moral and philosophical struggle"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Claudius's prayer had been sincere, how might the outcome of the play differ? Apply your understanding of the scene.",
+      "keyPoints": [
+        "Potential redemption for Claudius",
+        "Possible change in Hamlet’s actions",
+        "Impact on the dramatic tension and plot development"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies understanding accurately with all key points",
+        "partial": "Applies understanding with some inaccuracies or missing key points",
+        "none": "Fails to apply understanding accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a director staging Act III, Scene 3. How would you convey Claudius's internal turmoil? Apply your knowledge of the text.",
+      "keyPoints": [
+        "Use of lighting and sound to convey mood",
+        "Claudius’s body language and facial expressions",
+        "Delivery of Claudius’s soliloquy to reflect his conflict"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies knowledge creatively with all key points",
+        "partial": "Applies knowledge with limited creativity or missing key points",
+        "none": "Fails to apply knowledge effectively"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Hamlet's decision in Act III, Scene 3 be interpreted through a Freudian lens?",
+      "keyPoints": [
+        "Hamlet’s hesitation as an Oedipal complex manifestation",
+        "Conflict between id, ego, and superego",
+        "Subconscious desire to prolong conflict with Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Freudian theory accurately with all key points",
+        "partial": "Applies theory with some inaccuracies or missing key points",
+        "none": "Fails to apply theory accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of dramatic irony in Act III, Scene 3 of Hamlet, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Claudius’s prayer scene as dramatic irony",
+        "Evidence: Hamlet believes Claudius is confessing",
+        "Explanation: Audience knows Claudius cannot truly repent",
+        "Link: Heightens tension and audience engagement"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL with some missing elements or key points",
+        "none": "Fails to use PEEL or missing key analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the moral implications of Hamlet’s decision not to kill Claudius in Act III, Scene 3, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Hamlet’s moral dilemma",
+        "Evidence: Refusal to kill Claudius during prayer",
+        "Explanation: Conflict between justice and revenge",
+        "Link: Reflects on human moral complexity"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL with some missing elements or key points",
+        "none": "Fails to use PEEL or missing key analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Act III, Scene 3 contributes to the overall tragedy of Hamlet, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Scene’s role in advancing the tragic narrative",
+        "Evidence: Hamlet’s missed opportunity for revenge",
+        "Explanation: Foreshadows inevitable downfall",
+        "Link: Integral to the play’s tragic structure"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL with some missing elements or key points",
+        "none": "Fails to use PEEL or missing key analysis"
+      }
+    }
+  ]
+}

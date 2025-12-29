@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-7",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 7",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:53:37.645Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the main events that occur in Act IV, Scene 7 of Hamlet.",
+      "keyPoints": [
+        "Laertes returns to Denmark and conspires with Claudius",
+        "Claudius reveals his plan to have Hamlet killed",
+        "The news of Ophelia's death is delivered"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who is responsible for Ophelia's death according to Act IV, Scene 7, and how is it described?",
+      "keyPoints": [
+        "Ophelia's death is described as a drowning",
+        "The Queen recounts how Ophelia fell into the brook while picking flowers",
+        "It is implied to be accidental"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the role Laertes plays in the plot against Hamlet as revealed in Act IV, Scene 7.",
+      "keyPoints": [
+        "Laertes conspires with Claudius to kill Hamlet",
+        "They plan to use a poisoned sword in a duel",
+        "Laertes seeks revenge for his father's and sister's deaths"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are Laertes in Act IV, Scene 7. How might you justify your agreement to the plot against Hamlet?",
+      "keyPoints": [
+        "Desire for revenge for Polonius's death",
+        "Belief that Hamlet is responsible for Ophelia's madness",
+        "Influence and manipulation by Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with thoughtful application",
+        "partial": "Includes 1-2 key points or lacks depth in application",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of revenge to the dialogue between Claudius and Laertes in Act IV, Scene 7.",
+      "keyPoints": [
+        "Claudius manipulates Laertes's desire for revenge",
+        "Revenge is used as a justification for plotting murder",
+        "The theme underscores the moral corruption in the play"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to the theme",
+        "partial": "Includes 1-2 key points or lacks clarity in application",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the concept of deception to the plans laid out by Claudius and Laertes in this scene?",
+      "keyPoints": [
+        "The use of a rigged duel as a deceptive tactic",
+        "Claudius's manipulation of Laertes's emotions",
+        "The plotting behind Hamlet's back"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with direct application of the concept",
+        "partial": "Includes 1-2 key points or lacks precision in application",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Claudius's character as a manipulator in Act IV, Scene 7.",
+      "keyPoints": [
+        "Claudius's ability to exploit Laertes's grief",
+        "His strategic planning to eliminate Hamlet",
+        "The moral implications of his manipulation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively evaluates with all key points using PEEL structure",
+        "partial": "Evaluates with limited key points or incomplete PEEL structure",
+        "none": "Lacks evaluation or PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the theme of madness as evidenced by Ophelia's demise in Act IV, Scene 7.",
+      "keyPoints": [
+        "Ophelia's madness as a result of her father's death",
+        "The impact on Laertes and the court",
+        "Madness as a recurring theme in the play"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses theme with all key points using PEEL structure",
+        "partial": "Discusses with limited key points or incomplete PEEL structure",
+        "none": "Lacks discussion or PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of fate versus free will in the unfolding events of Act IV, Scene 7.",
+      "keyPoints": [
+        "Laertes's decision to seek revenge",
+        "Claudius's manipulation affecting outcomes",
+        "The role of fate in Ophelia's accidental death"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critically assesses using all key points in PEEL structure",
+        "partial": "Assesses with limited key points or incomplete PEEL structure",
+        "none": "Lacks critical assessment or PEEL structure"
+      }
+    }
+  ]
+}

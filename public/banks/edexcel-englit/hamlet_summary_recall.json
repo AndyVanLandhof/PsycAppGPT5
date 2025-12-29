@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "summary",
+  "subTopicTitle": "Hamlet (Shakespeare) — Summary",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:39:14.984Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the main plot of Shakespeare's 'Hamlet'.",
+      "keyPoints": [
+        "Prince Hamlet seeks revenge for his father's murder",
+        "The ghost of King Hamlet reveals Claudius as the murderer",
+        "Hamlet's feigned madness and internal conflict"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the major themes explored in 'Hamlet'.",
+      "keyPoints": [
+        "Revenge and justice",
+        "Madness and insanity",
+        "Corruption and moral decay"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List the primary characters in 'Hamlet' and their relationships to each other.",
+      "keyPoints": [
+        "Hamlet - the protagonist, Prince of Denmark",
+        "Claudius - Hamlet's uncle and the antagonist",
+        "Gertrude - Hamlet's mother and Queen of Denmark"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply your understanding of the theme of madness to analyze Hamlet's behavior in Act 2, Scene 2.",
+      "keyPoints": [
+        "Hamlet's erratic behavior and conversation with Polonius",
+        "His strategic use of madness to confuse others",
+        "The contrast between his madness and his lucid planning"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme accurately with specific scene details",
+        "partial": "Applies theme with limited scene details",
+        "none": "Fails to apply theme or lacks scene details"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how the theme of corruption is represented in Claudius's role as king.",
+      "keyPoints": [
+        "Claudius's murder of King Hamlet",
+        "His manipulation and deceit to maintain power",
+        "Impact of his corruption on the state of Denmark"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme accurately with specific character analysis",
+        "partial": "Applies theme with limited character analysis",
+        "none": "Fails to apply theme or lacks character analysis"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Discuss how the play's setting contributes to the theme of decay.",
+      "keyPoints": [
+        "The physical decay of Elsinore Castle",
+        "Metaphorical decay reflected in the moral corruption",
+        "Use of imagery such as 'something is rotten in the state of Denmark'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme accurately with specific setting analysis",
+        "partial": "Applies theme with limited setting analysis",
+        "none": "Fails to apply theme or lacks setting analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Shakespeare's use of soliloquies in developing Hamlet's character.",
+      "keyPoints": [
+        "Insight into Hamlet's internal conflicts",
+        "Reveals his philosophical and existential thoughts",
+        "Builds sympathy and understanding for Hamlet's plight"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with specific examples and analysis",
+        "partial": "Evaluates with limited examples or analysis",
+        "none": "Fails to evaluate or lacks examples and analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of Ophelia in 'Hamlet' and her impact on the narrative.",
+      "keyPoints": [
+        "Her relationship with Hamlet and its consequences",
+        "Ophelia's descent into madness",
+        "Her death as a turning point in the play"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with specific examples and analysis",
+        "partial": "Evaluates with limited examples or analysis",
+        "none": "Fails to evaluate or lacks examples and analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically evaluate the theme of revenge and its resolution in the play.",
+      "keyPoints": [
+        "Hamlet's hesitation and internal conflict",
+        "The consequences of revenge on all main characters",
+        "The ultimate futility and destruction caused by revenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with specific examples and analysis",
+        "partial": "Evaluates with limited examples or analysis",
+        "none": "Fails to evaluate or lacks examples and analysis"
+      }
+    }
+  ]
+}

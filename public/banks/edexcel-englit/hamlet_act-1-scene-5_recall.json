@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-5",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 5",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:43:18.359Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the encounter between Hamlet and the Ghost in Act I, Scene 5. What key information does the Ghost reveal to Hamlet?",
+      "keyPoints": [
+        "The Ghost reveals he is Hamlet's father",
+        "The Ghost describes his murder by Claudius",
+        "The Ghost urges Hamlet to seek revenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the Ghost's instructions to Hamlet regarding Gertrude.",
+      "keyPoints": [
+        "The Ghost instructs Hamlet not to harm Gertrude",
+        "He suggests leaving her fate to heaven",
+        "He emphasizes focusing revenge on Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What does the Ghost say about his time in purgatory?",
+      "keyPoints": [
+        "The Ghost describes suffering in purgatory",
+        "He mentions being confined until his sins are purged",
+        "He implies he cannot reveal the full horrors"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Hamlet's encounter with the Ghost in Act I, Scene 5 influence his subsequent actions?",
+      "keyPoints": [
+        "The encounter drives Hamlet to seek revenge",
+        "Creates internal conflict about action versus inaction",
+        "Raises questions about morality and justice"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with application to Hamlet's actions",
+        "partial": "Includes 1-2 key points or lacks application",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a director staging Act I, Scene 5. How would you depict the Ghost to convey its significance?",
+      "keyPoints": [
+        "Use of lighting to create an eerie atmosphere",
+        "Costume suggesting royal past and current torment",
+        "Vocal effects to enhance otherworldliness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application to staging",
+        "partial": "Includes 1-2 key points or lacks detail in staging",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you explain the significance of the Ghost's revelation to Hamlet's character development?",
+      "keyPoints": [
+        "Forces Hamlet to confront his father's murder",
+        "Begins Hamlet's transformation into an avenger",
+        "Introduces the theme of uncertainty in action"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with application to character development",
+        "partial": "Includes 1-2 key points or lacks clear application",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the dramatic impact of the Ghost's revelation on the audience using PEEL structure.",
+      "keyPoints": [
+        "Point: Creates tension and suspense",
+        "Evidence: Ghost's description of murder",
+        "Explanation: Sets the revenge plot in motion",
+        "Link: Engages the audience with moral dilemmas"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes 1-2 key points or lacks evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the theme of revenge in Act I, Scene 5 and its implications for the play's moral landscape.",
+      "keyPoints": [
+        "Point: Revenge is central to the play's conflict",
+        "Evidence: Ghost's demand for revenge",
+        "Explanation: Raises questions about justice and morality",
+        "Link: Sets up the ethical dilemmas faced by Hamlet"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes 1-2 key points or lacks evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of the supernatural in Act I, Scene 5 and its effect on the play's narrative.",
+      "keyPoints": [
+        "Point: The supernatural drives the plot",
+        "Evidence: The Ghost's appearance and revelation",
+        "Explanation: Adds uncertainty and tension",
+        "Link: Influences characters' beliefs and actions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear evaluation using PEEL",
+        "partial": "Includes 1-2 key points or lacks evaluation",
+        "none": "Missing key points or lacks evaluation"
+      }
+    }
+  ]
+}

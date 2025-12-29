@@ -339,9 +339,9 @@ function FlashcardView({ topic, onBack }) {
   const loadLabIfAvailable = async () => {
     try {
       const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
-      
-      // First try to load from pre-generated bank files in public/banks/
-      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
+      const bankPath = curr === 'edexcel-englit'
+        ? `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`
+        : `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
       console.log('[Flashcards] Attempting to load bank from:', bankPath);
       try {
         const response = await fetch(bankPath);
@@ -381,7 +381,9 @@ function FlashcardView({ topic, onBack }) {
     setIsLoading(true);
     try {
       const curr = (getSelectedCurriculum && getSelectedCurriculum()) || 'aqa-psych';
-      const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
+      const bankPath = curr === 'edexcel-englit'
+        ? `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`
+        : `/banks/${curr}/${topic.id}_${topic.subTopic.id}_flashcards.json`;
       console.log('[Flashcards] Loading core flashcards from:', bankPath, 'Bank:', bankNumber);
       
       const response = await fetch(bankPath);

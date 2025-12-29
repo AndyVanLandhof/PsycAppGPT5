@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "summary",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Summary",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:16:33.823Z",
+  "items": [
+    {
+      "id": "summary-q1",
+      "question": "Who is the author of the poem 'Eat Me' featured in the 'Poems of the Decade' anthology?",
+      "options": [
+        "Patience Agbabi",
+        "Eavan Boland",
+        "Simon Armitage",
+        "Jo Shapcott"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Patience Agbabi is known for her poem 'Eat Me', which explores themes of power and control."
+    },
+    {
+      "id": "summary-q2",
+      "question": "In 'The Gun' by Vicki Feaver, what object symbolizes power and destruction?",
+      "options": [
+        "A knife",
+        "A gun",
+        "A sword",
+        "An axe"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The gun in Vicki Feaver's poem symbolizes power and destruction, central to the poem's themes."
+    },
+    {
+      "id": "summary-q3",
+      "question": "Which poem by Simon Armitage in the anthology uses a conversational tone to explore the theme of everyday life?",
+      "options": [
+        "Chainsaw Versus the Pampas Grass",
+        "The Deliverer",
+        "The Lammas Hireling",
+        "The Fox in the National Museum of Wales"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Simon Armitage's 'Chainsaw Versus the Pampas Grass' uses a conversational tone to delve into domestic themes."
+    },
+    {
+      "id": "summary-q4",
+      "question": "What theme is predominantly explored in 'The Deliverer' by Tishani Doshi?",
+      "options": [
+        "Love and relationships",
+        "Cultural identity and loss",
+        "Nature and the environment",
+        "War and peace"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Tishani Doshi's 'The Deliverer' primarily explores cultural identity and the sense of loss."
+    },
+    {
+      "id": "summary-q5",
+      "question": "Which poem by Carol Ann Duffy in the anthology deals with the theme of mental illness?",
+      "options": [
+        "War Photographer",
+        "The Diet",
+        "The Furthest Distances I've Travelled",
+        "Ozymandias"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Carol Ann Duffy's 'The Diet' addresses themes of mental illness through its narrative."
+    },
+    {
+      "id": "summary-q6",
+      "question": "In 'An Easy Passage' by Julia Copus, what is the main symbol for transition and growth?",
+      "options": [
+        "A door",
+        "A window",
+        "A road",
+        "A staircase"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The window in 'An Easy Passage' symbolizes transition and growth, central to the poem's exploration of youth."
+    },
+    {
+      "id": "summary-q7",
+      "question": "Which poem in the anthology features a narrative about a historical figure's reflection on their legacy?",
+      "options": [
+        "Ozymandias",
+        "From the Journal of a Disappointed Man",
+        "The Lammas Hireling",
+        "Giuseppe"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "'Ozymandias' by Percy Bysshe Shelley is about a historical figure reflecting on their legacy."
+    },
+    {
+      "id": "summary-q8",
+      "question": "What is the central theme of 'History' by John Burnside?",
+      "options": [
+        "War and conflict",
+        "Nature and the environment",
+        "Love and relationships",
+        "Cultural identity"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Burnside's 'History' centers around nature and the environment, reflecting on humanity's impact."
+    },
+    {
+      "id": "summary-q9",
+      "question": "Which poem by Daljit Nagra in the anthology uses humor to explore cultural differences?",
+      "options": [
+        "Look We Have Coming to Dover!",
+        "The Map Woman",
+        "Out of the Bag",
+        "The Fox in the National Museum of Wales"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Daljit Nagra's 'Look We Have Coming to Dover!' employs humor to address cultural differences and identity."
+    },
+    {
+      "id": "summary-q10",
+      "question": "In 'The Deliverer' by Tishani Doshi, what scenario highlights the theme of cultural identity?",
+      "options": [
+        "A family reunion",
+        "An adoption process",
+        "A wedding ceremony",
+        "A funeral service"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The adoption process in 'The Deliverer' underscores the theme of cultural identity and displacement."
+    },
+    {
+      "id": "summary-q11",
+      "question": "In 'The Furthest Distances I've Travelled' by Leonita Flynn, which setting is used to reflect on personal growth?",
+      "options": [
+        "A bustling city",
+        "A childhood home",
+        "A foreign country",
+        "A quiet village"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The foreign setting in 'The Furthest Distances I've Travelled' symbolizes personal growth and discovery."
+    },
+    {
+      "id": "summary-q12",
+      "question": "Which aspect of 'Eat Me' by Patience Agbabi highlights the power dynamics in the poem?",
+      "options": [
+        "The use of first-person narrative",
+        "The metaphor of food",
+        "The setting of a family dinner",
+        "The dialogue between characters"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The metaphor of food in 'Eat Me' underscores the power dynamics and control within the relationship."
+    },
+    {
+      "id": "summary-q13",
+      "question": "How does 'The Lammas Hireling' by Ian Duhig challenge traditional narrative structures?",
+      "options": [
+        "By employing a linear timeline",
+        "By using a circular narrative",
+        "By adhering to classical poetic form",
+        "By focusing on a single character's perspective"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Ian Duhig's 'The Lammas Hireling' uses a circular narrative to challenge traditional storytelling norms."
+    },
+    {
+      "id": "summary-q14",
+      "question": "Which methodological critique can be applied to 'Giuseppe' by Roderick Ford when analyzing its historical context?",
+      "options": [
+        "Over-reliance on historical accuracy",
+        "Lack of character development",
+        "Focus on modern-day interpretations",
+        "Inconsistent use of symbolism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "'Giuseppe' is critiqued for its over-reliance on historical accuracy, which can obscure thematic exploration."
+    },
+    {
+      "id": "summary-q15",
+      "question": "What is a comparative strength of 'An Easy Passage' by Julia Copus compared to 'Ozymandias' by Percy Bysshe Shelley?",
+      "options": [
+        "More direct use of historical context",
+        "Richer use of symbolic language",
+        "Greater focus on individual experience",
+        "More complex narrative structure"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "'An Easy Passage' is noted for its focus on individual experience, contrasting with 'Ozymandias' broader historical perspective."
+    }
+  ]
+}

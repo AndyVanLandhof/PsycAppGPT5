@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-5-scene-1",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act V, Scene 1",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:54:19.512Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the significance of the gravedigger scene in Act V, Scene 1 of Hamlet.",
+      "keyPoints": [
+        "The scene provides comic relief and a moment of reflection on death.",
+        "It highlights the theme of mortality and the inevitability of death.",
+        "The gravediggers' conversation with Hamlet reveals Hamlet's contemplative nature and his preoccupation with death."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the symbolism of the skull in Act V, Scene 1.",
+      "keyPoints": [
+        "The skull symbolizes death and the physical consequences of mortality.",
+        "It serves as a memento mori, reminding Hamlet of the inevitability of death.",
+        "Yorick's skull specifically reminds Hamlet of his childhood and the passage of time."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the interaction between Hamlet and the gravediggers.",
+      "keyPoints": [
+        "Hamlet engages in a conversation with the gravedigger, who is unaware of Hamlet's identity.",
+        "The gravedigger uses dark humor and wit, discussing death casually.",
+        "This interaction deepens Hamlet's existential reflections and questions about life and death."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are directing Act V, Scene 1 of Hamlet. How would you use lighting to emphasize the themes of death and mortality?",
+      "keyPoints": [
+        "Use dim or shadowy lighting to create a somber atmosphere.",
+        "Highlight the skull and grave to focus the audience's attention on symbols of mortality.",
+        "Use spotlighting on Hamlet during his soliloquy to emphasize his introspection."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed application",
+        "partial": "Includes 1-2 key points or lacks detailed application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of existentialism to Hamlet's reflections in the gravedigger scene.",
+      "keyPoints": [
+        "Hamlet's musings on Yorick's skull reflect existential questions about the meaning of life and death.",
+        "The scene illustrates Hamlet's struggle with the idea of identity and what remains after death.",
+        "Hamlet's dialogue shows his contemplation of life's futility and the inevitability of death."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate application",
+        "partial": "Includes 1-2 key points or lacks detailed application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider how the theme of social hierarchy is portrayed in the gravedigger scene. How would you direct the actors to convey this theme?",
+      "keyPoints": [
+        "The gravedigger's familiarity and irreverence towards death contrast with Hamlet's noble status.",
+        "Direct actors to use body language that reflects their social status, e.g., gravedigger's casual demeanor vs. Hamlet's introspective posture.",
+        "Dialogue delivery should highlight the gravedigger's wit and Hamlet's philosophical reflection, emphasizing class differences."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed application",
+        "partial": "Includes 1-2 key points or lacks detailed application",
+        "none": "Missing key points or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of using humor in the gravedigger scene to explore serious themes.",
+      "keyPoints": [
+        "Humor provides a contrast to the play's darker themes, offering relief to the audience.",
+        "It allows for a deeper exploration of death by making it approachable and relatable.",
+        "The juxtaposition of humor and seriousness enhances the impact of Hamlet's existential reflections."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detailed evaluation",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how the gravedigger scene contributes to the development of Hamlet’s character.",
+      "keyPoints": [
+        "The scene reveals Hamlet's deepening existential crisis and preoccupation with death.",
+        "Hamlet's interaction with the gravedigger shows his ability to contemplate life beyond his personal struggles.",
+        "This scene underscores Hamlet's intellectual depth and philosophical nature."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detailed evaluation",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of the gravedigger scene in the overall structure and themes of Hamlet.",
+      "keyPoints": [
+        "The scene provides a pivotal moment of reflection before the play's tragic climax.",
+        "It reinforces central themes of death, decay, and the futility of life.",
+        "The gravedigger's perspective offers a counterpoint to the royal court's concerns, broadening the play's thematic scope."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed evaluation using PEEL structure",
+        "partial": "Includes 1-2 key points or lacks detailed evaluation",
+        "none": "Missing key points or inaccurate evaluation"
+      }
+    }
+  ]
+}

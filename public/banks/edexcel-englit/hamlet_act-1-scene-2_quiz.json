@@ -1,0 +1,193 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 2",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T17:40:39.909Z",
+  "items": [
+    {
+      "id": "act-1-scene-2-q1",
+      "question": "In Act I, Scene 2 of Hamlet, who is the new King of Denmark?",
+      "options": [
+        "Claudius",
+        "Hamlet",
+        "Fortinbras",
+        "Polonius"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Claudius is the new King of Denmark, having married Queen Gertrude shortly after the death of King Hamlet."
+    },
+    {
+      "id": "act-1-scene-2-q2",
+      "question": "What relationship does Claudius have to Hamlet?",
+      "options": [
+        "Uncle and stepfather",
+        "Cousin",
+        "Brother",
+        "Father"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Claudius is both Hamlet's uncle and stepfather, having married Hamlet's mother, Gertrude."
+    },
+    {
+      "id": "act-1-scene-2-q3",
+      "question": "What reason does Claudius give for marrying Gertrude?",
+      "options": [
+        "Political stability",
+        "True love",
+        "Financial gain",
+        "Family tradition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Claudius claims he married Gertrude for the sake of political stability in Denmark following the death of the former king."
+    },
+    {
+      "id": "act-1-scene-2-q4",
+      "question": "How does Hamlet feel about his mother's marriage to Claudius?",
+      "options": [
+        "Betrayed and disgusted",
+        "Indifferent",
+        "Joyful",
+        "Relieved"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hamlet feels betrayed and disgusted by his mother's hasty marriage to Claudius, considering it incestuous."
+    },
+    {
+      "id": "act-1-scene-2-q5",
+      "question": "What does Hamlet mean by 'Frailty, thy name is woman'?",
+      "options": [
+        "He is expressing his disappointment in his mother",
+        "He is commenting on Ophelia's weakness",
+        "He is talking about Gertrude's physical frailty",
+        "He is referring to the weakness of all women"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Hamlet is expressing disappointment and anger towards his mother, Gertrude, for remarrying so quickly."
+    },
+    {
+      "id": "act-1-scene-2-q6",
+      "question": "In Act I, Scene 2, what request does Claudius make of Hamlet?",
+      "options": [
+        "Stay in Denmark",
+        "Return to Wittenberg",
+        "Marry Ophelia",
+        "Lead the army"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Claudius requests that Hamlet remain in Denmark instead of returning to his studies in Wittenberg."
+    },
+    {
+      "id": "act-1-scene-2-q7",
+      "question": "What does Laertes seek from King Claudius in this scene?",
+      "options": [
+        "Permission to return to France",
+        "A military position",
+        "Marriage to Ophelia",
+        "A royal pardon"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Laertes asks King Claudius for permission to return to France, which he is granted."
+    },
+    {
+      "id": "act-1-scene-2-q8",
+      "question": "Which character is the first to speak in Act I, Scene 2?",
+      "options": [
+        "Claudius",
+        "Hamlet",
+        "Gertrude",
+        "Horatio"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Claudius is the first character to speak in Act I, Scene 2, addressing the court about his recent marriage and the state of Denmark."
+    },
+    {
+      "id": "act-1-scene-2-q9",
+      "question": "What is the primary setting for Act I, Scene 2 of Hamlet?",
+      "options": [
+        "A room in the castle",
+        "The battlements",
+        "A graveyard",
+        "A church"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The primary setting for Act I, Scene 2 is a room in the castle, where the court is gathered."
+    },
+    {
+      "id": "act-1-scene-2-q10",
+      "question": "Analyze Hamlet's soliloquy in Act I, Scene 2. What does it reveal about his inner conflict?",
+      "options": [
+        "He is torn between action and inaction.",
+        "He is contemplating suicide due to deep despair.",
+        "He is planning revenge against Claudius.",
+        "He feels overjoyed about his mother's marriage."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Hamlet's soliloquy expresses his profound despair and contemplation of suicide, revealing his inner turmoil."
+    },
+    {
+      "id": "act-1-scene-2-q11",
+      "question": "What does the term 'incestuous' imply in the context of Hamlet's view of Gertrude's marriage?",
+      "options": [
+        "A socially unacceptable relationship",
+        "An illegal union",
+        "A politically motivated marriage",
+        "A loving family bond"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "In the context of the play, 'incestuous' implies a socially unacceptable relationship, as Hamlet views his mother's marriage to his uncle as morally wrong."
+    },
+    {
+      "id": "act-1-scene-2-q12",
+      "question": "Evaluate the use of dramatic irony in Act I, Scene 2. How does it affect the audience's understanding?",
+      "options": [
+        "The audience knows Hamlet's father is dead, but he does not.",
+        "The audience is aware of Claudius's guilt, but the characters are not.",
+        "Gertrude is aware of Hamlet's plans, but Claudius is not.",
+        "Claudius knows Hamlet's intentions, but Hamlet does not."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Dramatic irony is present as the audience knows Claudius is guilty of murder, while other characters do not, heightening tension."
+    },
+    {
+      "id": "act-1-scene-2-q13",
+      "question": "Compare Gertrude's and Claudius's speeches in Act I, Scene 2. What does this reveal about their priorities?",
+      "options": [
+        "Claudius is concerned with power, Gertrude with family.",
+        "Both are concerned with political stability.",
+        "Gertrude is more focused on state affairs than Claudius.",
+        "Claudius prioritizes family, Gertrude power."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Claudius's speech is politically charged, focusing on power, while Gertrude's brief words emphasize family and personal matters."
+    },
+    {
+      "id": "act-1-scene-2-q14",
+      "question": "Critique the role of courtly politics in Act I, Scene 2. How does it drive the plot?",
+      "options": [
+        "It creates a backdrop for personal drama.",
+        "It is irrelevant to the main plot.",
+        "It focuses solely on military actions.",
+        "It resolves the main conflict."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Courtly politics create a backdrop for the personal drama, influencing characters' motives and driving the plot forward."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "summary",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Summary",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:16:46.135Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the central themes explored in the Poems of the Decade anthology?",
+      "keyPoints": [
+        "Identity and self-exploration",
+        "Socio-political issues",
+        "Love and relationships"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key themes with accurate detail and examples",
+        "partial": "Includes 1-2 key themes or lacks detail and examples",
+        "none": "Missing key themes or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the use of imagery in 'Chainsaw Versus the Pampas Grass' by Simon Armitage.",
+      "keyPoints": [
+        "Violent and aggressive imagery",
+        "Personification of the chainsaw",
+        "Contrast with the pampas grass"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with examples from the text",
+        "partial": "Includes 1-2 key points or lacks examples",
+        "none": "Missing key points or examples"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'enjambment' and give an example from any poem in the anthology.",
+      "keyPoints": [
+        "Definition of enjambment as a continuation of a sentence without a pause beyond the end of a line",
+        "Example from a specific poem",
+        "Explanation of its effect"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Correct definition, example, and effect explained",
+        "partial": "Correct definition or example, but incomplete explanation",
+        "none": "Incorrect definition or no example"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might a reader interpret the ending of 'Eat Me' by Patience Agbabi?",
+      "keyPoints": [
+        "Ambiguity and open-endedness",
+        "Empowerment vs. victimhood",
+        "Symbolism of water and consumption"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all interpretations with examples from the text",
+        "partial": "Includes 1-2 interpretations or lacks textual evidence",
+        "none": "Missing interpretations or textual evidence"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of postcolonial identity to 'The Deliverer' by Tishani Doshi.",
+      "keyPoints": [
+        "Displacement and cultural identity",
+        "Critique of Western intervention",
+        "Narrative perspective and voice"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies postcolonial theory accurately with examples",
+        "partial": "Applies theory but lacks examples or depth",
+        "none": "Fails to apply theory or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In 'History' by John Burnside, how does the poet use language to convey a sense of loss?",
+      "keyPoints": [
+        "Imagery of destruction and decay",
+        "Contrasts between past and present",
+        "Use of tone and mood"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Detailed application of language use with examples",
+        "partial": "Some application but lacks detail or examples",
+        "none": "Fails to apply or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the use of nature imagery in 'The Fox in the National Museum of Wales' by Robert Minhinnick using PEEL structure.",
+      "keyPoints": [
+        "Point: Nature imagery evokes contrast with the museum setting",
+        "Evidence: Specific examples from the poem",
+        "Explanation: Analysis of imagery's impact",
+        "Link: Connection to themes of nature vs. human constructs"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Complete PEEL structure with detailed analysis",
+        "partial": "Incomplete PEEL structure or lacks detail",
+        "none": "Missing elements of PEEL or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Using PEEL, evaluate the portrayal of gender roles in 'The Lammas Hireling' by Ian Duhig.",
+      "keyPoints": [
+        "Point: Subversion of traditional gender roles",
+        "Evidence: References to the hireling's mysterious character",
+        "Explanation: How this reflects on societal norms",
+        "Link: Broader commentary on gender and power"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Complete PEEL structure with insightful analysis",
+        "partial": "Incomplete PEEL structure or lacking insight",
+        "none": "Missing elements of PEEL or irrelevant analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the use of form and structure in 'Effects' by Alan Jenkins using the PEEL structure.",
+      "keyPoints": [
+        "Point: Use of a single stanza to convey a stream of consciousness",
+        "Evidence: Shifts in time and perspective",
+        "Explanation: Impact on reader's understanding of grief",
+        "Link: Connection to the theme of memory and loss"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Complete PEEL structure with comprehensive analysis",
+        "partial": "Incomplete PEEL structure or lacks comprehensive detail",
+        "none": "Missing elements of PEEL or lacks focus"
+      }
+    }
+  ]
+}

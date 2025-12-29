@@ -43,7 +43,13 @@ function TopicDetail({ topic, onBack }) {
   const [textError, setTextError] = useState('');
   const [textContent, setTextContent] = useState('');
 
-  const progressId = `${topic.id}:${selectedSubTopic || ''}`;
+  // Curriculum helpers (defined once)
+  const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
+  const englishParts = isEngLit ? getEnglishParts(topic.id) : [];
+
+  const progressId = isEngLit
+    ? `${topic.id}:${selectedPart || 'summary'}`
+    : `${topic.id}:${selectedSubTopic || ''}`;
   const { topicState, status, actions } = useTopicProgress(progressId);
   const thresholds = DEFAULT_THRESHOLDS;
   // Bedtime story preloading disabled
@@ -52,10 +58,11 @@ function TopicDetail({ topic, onBack }) {
   const [attemptStats, setAttemptStats] = useState({ flashcards: { count: 0, lastAttempt: null }, quiz: { count: 0, lastAttempt: null }, recall: { count: 0, lastAttempt: null } });
   
   useEffect(() => {
-    if (topic?.id && selectedSubTopic) {
-      setAttemptStats(getAllAttemptStats(topic.id, selectedSubTopic));
+    if (topic?.id) {
+      const key = isEngLit ? selectedPart : selectedSubTopic;
+      if (key) setAttemptStats(getAllAttemptStats(topic.id, key));
     }
-  }, [topic?.id, selectedSubTopic]);
+  }, [topic?.id, selectedSubTopic, selectedPart, isEngLit]);
 
   // Guidance message for current subtopic
   const hasLearned = !!(topicState?.learn?.study || topicState?.learn?.audioStory || topicState?.learn?.conceptMap);
@@ -86,8 +93,6 @@ function TopicDetail({ topic, onBack }) {
   })();
 
   const sub = topic.subTopics.find((s) => s.id === selectedSubTopic);
-  const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
-  const englishParts = isEngLit ? getEnglishParts(topic.id) : [];
   const openEnglishText = () => {
     try {
       const url = getEnglishChunksURL(topic.id) || getEnglishTextURL(topic.id, selectedPart);
@@ -274,8 +279,8 @@ function TopicDetail({ topic, onBack }) {
     topic: {
       ...topic,
       subTopic: {
-        id: sub?.id,
-        title: sub?.title
+        id: isEngLit ? selectedPart : sub?.id,
+        title: isEngLit ? (englishParts.find(p => p.id === selectedPart)?.label || selectedPart) : sub?.title
       }
     },
     onBack: () => {
@@ -284,7 +289,7 @@ function TopicDetail({ topic, onBack }) {
   };
 
   const startSelected = () => {
-    if (!selectedSubTopic) return;
+    if (!selectedSubTopic && !isEngLit) return;
     if (selectedStage === 'Learn') {
       // Bedtime story background preload disabled
       if (selectedOption === 'conceptMap') {

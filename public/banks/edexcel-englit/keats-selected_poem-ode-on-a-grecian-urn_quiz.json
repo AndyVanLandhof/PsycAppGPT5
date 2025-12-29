@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-ode-on-a-grecian-urn",
+  "subTopicTitle": "Keats — Selected Poems — Ode on a Grecian Urn",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:32:44.599Z",
+  "items": [
+    {
+      "id": "poem-ode-on-a-grecian-urn-q1",
+      "question": "What is the main theme explored in Keats' 'Ode on a Grecian Urn'?",
+      "options": [
+        "The permanence of art versus the transience of human life",
+        "The beauty of nature and its restorative power",
+        "The inevitability of death and decay",
+        "The pursuit of personal freedom and autonomy"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem explores how art, represented by the urn, remains unchanged over time, contrasting with the fleeting nature of human existence."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q2",
+      "question": "Which literary device is predominantly used in the line 'Heard melodies are sweet, but those unheard are sweeter'?",
+      "options": [
+        "Paradox",
+        "Simile",
+        "Metaphor",
+        "Alliteration"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The line uses paradox to suggest that the imagined music is more perfect than any actual sound."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q3",
+      "question": "In 'Ode on a Grecian Urn', which phrase suggests the idea of eternal beauty?",
+      "options": [
+        "'Beauty is truth, truth beauty'",
+        "'Thou still unravish'd bride of quietness'",
+        "'When old age shall this generation waste'",
+        "'Bold Lover, never, never canst thou kiss'"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The phrase 'Thou still unravish'd bride of quietness' suggests that the urn remains perpetually beautiful and untouched by time."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q4",
+      "question": "How does Keats personify the urn in 'Ode on a Grecian Urn'?",
+      "options": [
+        "As a timeless storyteller",
+        "As a symbol of mortality",
+        "As a weeping mourner",
+        "As a mighty warrior"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Keats personifies the urn as a 'Sylvan historian', a timeless storyteller that conveys stories through its images."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q5",
+      "question": "Which critic argued that 'Ode on a Grecian Urn' reflects Keats' preoccupation with 'negative capability'?",
+      "options": [
+        "T.S. Eliot",
+        "John Middleton Murry",
+        "F.R. Leavis",
+        "Cleanth Brooks"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "John Middleton Murry (1926) discussed how the poem reflects Keats' idea of 'negative capability', the ability to accept uncertainty and ambiguity."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q6",
+      "question": "What does the phrase 'Cold Pastoral' imply about the urn's depiction of life?",
+      "options": [
+        "It is lifeless and detached",
+        "It is vibrant and dynamic",
+        "It is warm and inviting",
+        "It is chaotic and disordered"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The term 'Cold Pastoral' suggests the urn's scenes are static and lifeless, devoid of the warmth and vitality of real life."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q7",
+      "question": "Which of the following is a recurring symbol in 'Ode on a Grecian Urn'?",
+      "options": [
+        "The nightingale",
+        "The boughs",
+        "The moon",
+        "The river"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The 'boughs' recur in the poem, symbolizing eternal spring and unfulfilled potential."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q8",
+      "question": "What does the urn symbolize at the end of the poem?",
+      "options": [
+        "The ultimate truth",
+        "The fleeting nature of love",
+        "The inevitability of death",
+        "The complexity of human emotions"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The urn symbolizes 'Beauty is truth, truth beauty,' suggesting that art encapsulates an ultimate truth beyond human experience."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q9",
+      "question": "Which term best describes the tone of 'Ode on a Grecian Urn'?",
+      "options": [
+        "Reflective",
+        "Euphoric",
+        "Despairing",
+        "Humorous"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The tone is reflective as Keats contemplates the relationship between art, beauty, and human experience."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q10",
+      "question": "A student argues that the urn in Keats' poem represents a paradox. Which of the following examples supports this view?",
+      "options": [
+        "The painted scenes are full of life, yet they are frozen in time.",
+        "The urn tells a single story with a clear ending.",
+        "The urn depicts historical events with accuracy.",
+        "The urn's beauty lies in its simplicity and lack of detail."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The urn's scenes are lively and dynamic but are paradoxically captured in a moment of stillness, illustrating the paradox of static art depicting life."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q11",
+      "question": "Consider the imagery of the 'Bold Lover' in 'Ode on a Grecian Urn'. What does this imagery suggest about desire?",
+      "options": [
+        "Desire is fulfilling and complete.",
+        "Desire is unattainable and eternal.",
+        "Desire is fleeting and momentary.",
+        "Desire is irrelevant and mundane."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The 'Bold Lover' will never fulfill his desire, suggesting that desire remains eternal and unattainable in the world of art."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q12",
+      "question": "In 'Ode on a Grecian Urn', how does Keats use the imagery of the 'happy boughs'?",
+      "options": [
+        "To represent the cycle of life and death",
+        "To symbolize eternal renewal and unchanging beauty",
+        "To depict the passage of time and decay",
+        "To illustrate the joy of human companionship"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The 'happy boughs' that never shed their leaves symbolize eternal renewal and the unchanging nature of art."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q13",
+      "question": "Critics have debated the meaning of the final lines of 'Ode on a Grecian Urn'. Which perspective suggests that these lines offer a definitive philosophical resolution?",
+      "options": [
+        "New Criticism",
+        "Romanticism",
+        "Psychoanalytic Criticism",
+        "Deconstruction"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "New Criticism often interprets the final lines as offering a clear, self-contained philosophical idea about beauty and truth."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q14",
+      "question": "How might a historical approach to 'Ode on a Grecian Urn' enhance understanding of its themes?",
+      "options": [
+        "By focusing on Keats' personal relationships",
+        "By examining the cultural significance of Greek art in the 19th century",
+        "By analyzing the psychological motivations of the speaker",
+        "By exploring the linguistic style of the poem"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "A historical approach can reveal how the 19th-century fascination with Greek art influences the poem's exploration of timeless beauty."
+    },
+    {
+      "id": "poem-ode-on-a-grecian-urn-q15",
+      "question": "Which critical perspective might argue that 'Ode on a Grecian Urn' reflects Keats' internal conflict about permanence and change?",
+      "options": [
+        "Feminist Criticism",
+        "Biographical Criticism",
+        "Marxist Criticism",
+        "Ecocriticism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Biographical Criticism might explore how Keats' own life experiences and awareness of his mortality inform the poem's themes of permanence and change."
+    }
+  ]
+}

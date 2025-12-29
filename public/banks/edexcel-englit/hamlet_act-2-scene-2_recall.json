@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-2-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act II, Scene 2",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:44:57.025Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main characters involved in Act II, Scene 2 of Hamlet and describe their roles in the scene.",
+      "keyPoints": [
+        "Hamlet - protagonist and Prince of Denmark",
+        "Polonius - Lord Chamberlain, trying to ascertain Hamlet's madness",
+        "Rosencrantz and Guildenstern - Hamlet's friends summoned by the King"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key characters and their roles with accurate detail",
+        "partial": "Includes 1-2 key characters or lacks detail",
+        "none": "Missing key characters or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the significance of the 'fishmonger' conversation between Hamlet and Polonius.",
+      "keyPoints": [
+        "Hamlet's feigned madness",
+        "Polonius' obliviousness and self-importance",
+        "Wordplay and puns reflecting Hamlet's wit"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What purpose do Rosencrantz and Guildenstern serve upon their introduction in this scene?",
+      "keyPoints": [
+        "Spies for King Claudius",
+        "Attempt to uncover the cause of Hamlet's madness",
+        "Reflects themes of betrayal and loyalty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Hamlet's behavior towards Polonius in Act II, Scene 2 reflect the theme of appearance versus reality?",
+      "keyPoints": [
+        "Hamlet's use of madness as a facade",
+        "Polonius' misinterpretation of Hamlet's intentions",
+        "The contrast between Hamlet's true thoughts and outward behavior"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the theme to the scenario with all key points",
+        "partial": "Applies the theme but misses some key points",
+        "none": "Fails to apply the theme or address the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider the introduction of the players in this scene. How does this event foreshadow later developments in the play?",
+      "keyPoints": [
+        "Introduction of the play-within-a-play",
+        "Hamlet's plan to 'catch the conscience of the King'",
+        "Hints at Hamlet's increasing resolve to confirm Claudius' guilt"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively links the event to future developments with all key points",
+        "partial": "Links the event to future developments but misses some key points",
+        "none": "Fails to link the event to future developments"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does Hamlet's soliloquy at the end of Act II, Scene 2 ('O, what a rogue and peasant slave am I!') develop his character?",
+      "keyPoints": [
+        "Reveals deep self-criticism and self-awareness",
+        "Highlights Hamlet's frustration and inaction",
+        "Foreshadows his plan to use the play to test Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Fully applies character development with all key points",
+        "partial": "Applies character development but misses some key points",
+        "none": "Fails to apply character development"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of dramatic irony in Act II, Scene 2 with reference to specific interactions.",
+      "keyPoints": [
+        "Polonius' belief in Hamlet's madness",
+        "Rosencrantz and Guildenstern's obliviousness to Hamlet's awareness",
+        "The audience's insight into Hamlet's true intentions"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates with clear examples and includes all key points",
+        "partial": "Evaluates with limited examples, missing some key points",
+        "none": "Fails to evaluate effectively or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the role of spying and deceit in this scene and its contribution to the play's central themes.",
+      "keyPoints": [
+        "Rosencrantz and Guildenstern's mission",
+        "Polonius' eavesdropping",
+        "The theme of appearance versus reality"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Discusses with clear connections to central themes and includes all key points",
+        "partial": "Discusses with limited connections or missing key points",
+        "none": "Fails to discuss effectively or lacks connection to themes"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Shakespeare uses language in Hamlet's interactions with Rosencrantz and Guildenstern to convey his distrust.",
+      "keyPoints": [
+        "Use of sarcasm and double meanings",
+        "Hamlet's awareness of their true purpose",
+        "Contrast between polite speech and underlying tension"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates language use with detailed examples and includes all key points",
+        "partial": "Evaluates language use but with limited examples or missing key points",
+        "none": "Fails to evaluate language use or lacks examples"
+      }
+    }
+  ]
+}

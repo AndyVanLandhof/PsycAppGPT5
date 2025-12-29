@@ -1,0 +1,150 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-4",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 4",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:42:32.940Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting and atmosphere at the beginning of Act I, Scene 4 in 'Hamlet'.",
+      "keyPoints": [
+        "Setting on the platform at Elsinore",
+        "Cold and dark night",
+        "Tense and foreboding atmosphere"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the main characters present in Act I, Scene 4.",
+      "keyPoints": [
+        "Hamlet",
+        "Horatio",
+        "Marcellus",
+        "Their roles and interactions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the main events that occur in Act I, Scene 4.",
+      "keyPoints": [
+        "Appearance of the Ghost",
+        "Hamlet's reaction",
+        "Decision to follow the Ghost"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Hamlet's decision to follow the Ghost differ if he were a more rational character?",
+      "keyPoints": [
+        "Consideration of potential danger",
+        "Weighing evidence of the Ghost's intentions",
+        "Possibility of seeking guidance from Horatio"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to scenario with all key points",
+        "partial": "Applies theory with 1-2 key points",
+        "none": "Does not apply theory or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Horatio is the one who sees the Ghost in this scene. How might his response differ from Hamlet's?",
+      "keyPoints": [
+        "Horatio's skepticism and rationality",
+        "Potential hesitation to follow",
+        "Possible influence on Hamlet's actions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to scenario with all key points",
+        "partial": "Applies theory with 1-2 key points",
+        "none": "Does not apply theory or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider if Marcellus had intervened when Hamlet decided to follow the Ghost. How might the plot have changed?",
+      "keyPoints": [
+        "Discussion of Marcellus's potential actions",
+        "Impact on Hamlet's decisions",
+        "Possible changes in plot trajectory"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to scenario with all key points",
+        "partial": "Applies theory with 1-2 key points",
+        "none": "Does not apply theory or misses key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the significance of the Ghost's appearance in Act I, Scene 4 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Importance of the Ghost",
+        "Evidence: Description of the scene",
+        "Explanation: Influence on plot and characters",
+        "Link: Connection to themes of uncertainty and supernatural"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points",
+        "partial": "Evaluates with 2-3 key points",
+        "none": "Lacks coherent evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how the setting in Act I, Scene 4 contributes to the scene's tension, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Role of setting in tension",
+        "Evidence: Details of the cold, dark night",
+        "Explanation: How setting amplifies fear and uncertainty",
+        "Link: Connection to overarching play themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points",
+        "partial": "Evaluates with 2-3 key points",
+        "none": "Lacks coherent evaluation or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze the role of Horatio in Act I, Scene 4, using the PEEL structure.",
+      "keyPoints": [
+        "Point: Horatio as a rational character",
+        "Evidence: His interactions in the scene",
+        "Explanation: His influence on Hamlet and the narrative",
+        "Link: Relation to themes of reason vs. emotion"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points",
+        "partial": "Evaluates with 2-3 key points",
+        "none": "Lacks coherent evaluation or key points"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "part-2-eldorado-expedition",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Part II — Eldorado Expedition",
+  "type": "recall",
+  "generatedAt": "2025-12-29T09:10:05.127Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Who leads the Eldorado Expedition in Part II of 'Heart of Darkness', and what is their relationship to other characters?",
+      "keyPoints": [
+        "The Eldorado Expedition is led by the Manager's uncle.",
+        "The uncle is part of the 'Eldorado Exploring Expedition'.",
+        "The uncle's relationship with the Manager is marked by greed and exploitation."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the significance of the Eldorado Expedition's presence in the novel.",
+      "keyPoints": [
+        "The expedition represents European imperialism and exploitation.",
+        "It highlights the greed and moral corruption of the colonizers.",
+        "The failure of the expedition foreshadows the futility of their endeavors."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the outcome of the Eldorado Expedition, and how does it impact the story?",
+      "keyPoints": [
+        "The expedition ends in failure.",
+        "The loss of donkeys symbolizes the futility and cost of their greed.",
+        "It reinforces the theme of the destructive nature of colonialism."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are Marlow witnessing the Eldorado Expedition's preparations. How would you interpret their actions?",
+      "keyPoints": [
+        "Marlow would likely view their actions as reckless and greedy.",
+        "He might see their lack of preparation as indicative of their arrogance.",
+        "Their behavior would reinforce Marlow's critical view of imperialism."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Marlow's perspective to interpret the actions with relevant insight",
+        "partial": "Provides limited or superficial application of Marlow's perspective",
+        "none": "Fails to apply Marlow's perspective or misinterprets the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If the Eldorado Expedition had succeeded, how might this have altered the thematic impact of the novel?",
+      "keyPoints": [
+        "Success might have diminished the critique of imperialism's futility.",
+        "It could have affected the portrayal of European arrogance.",
+        "The novel's message about greed and moral corruption might be weakened."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Thoroughly explores how success would alter thematic impact",
+        "partial": "Touches on theme alteration but lacks depth or clarity",
+        "none": "Does not address the thematic implications accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider the reaction of the native inhabitants to the Eldorado Expedition. How might their perspective differ from that of the European characters?",
+      "keyPoints": [
+        "Natives might perceive the expedition as another exploitative venture.",
+        "They could view it with resentment or as an inevitable burden.",
+        "Their perspective contrasts with European characters' greed and ambition."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively contrasts native and European perspectives with relevant insight",
+        "partial": "Offers some contrast but lacks depth or specificity",
+        "none": "Fails to accurately contrast perspectives or misrepresents them"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the representation of colonial greed through the Eldorado Expedition using the PEEL structure.",
+      "keyPoints": [
+        "Point: The expedition epitomizes colonial greed.",
+        "Evidence: Led by the Manager's uncle, driven by wealth.",
+        "Explanation: Their failure highlights the emptiness of greed.",
+        "Link: Connects to broader themes of imperialism's destructiveness."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure to evaluate with detailed analysis",
+        "partial": "Uses PEEL structure but lacks depth or coherence",
+        "none": "Fails to use PEEL structure or lacks relevant evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the impact of the Eldorado Expedition on Marlow's perception of European imperialism using the PEEL structure.",
+      "keyPoints": [
+        "Point: The expedition deepens Marlow's cynicism.",
+        "Evidence: Their incompetence and ultimate failure.",
+        "Explanation: Reinforces the futility and moral bankruptcy of imperialism.",
+        "Link: Connects to Marlow's broader disillusionment with colonial ideals."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure to critically assess with detailed analysis",
+        "partial": "Uses PEEL structure but lacks depth or coherence",
+        "none": "Fails to use PEEL structure or lacks relevant assessment"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Conrad uses the Eldorado Expedition to critique European colonial ventures using the PEEL structure.",
+      "keyPoints": [
+        "Point: Conrad critiques colonial ventures through the expedition.",
+        "Evidence: Depicts their greed and ultimate failure.",
+        "Explanation: Highlights the moral and practical failures of colonialism.",
+        "Link: Ties into the novel's broader critique of European imperialism."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure to critique with detailed analysis",
+        "partial": "Uses PEEL structure but lacks depth or coherence",
+        "none": "Fails to use PEEL structure or lacks relevant critique"
+      }
+    }
+  ]
+}

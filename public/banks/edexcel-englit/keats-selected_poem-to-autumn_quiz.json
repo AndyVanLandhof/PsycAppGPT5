@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-to-autumn",
+  "subTopicTitle": "Keats — Selected Poems — To Autumn",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:34:57.067Z",
+  "items": [
+    {
+      "id": "poem-to-autumn-q1",
+      "question": "Which season is personified in Keats' 'To Autumn'?",
+      "options": [
+        "Autumn",
+        "Spring",
+        "Summer",
+        "Winter"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Keats personifies autumn throughout the poem, as seen in passages describing the season as a harvester and a cider-presser."
+    },
+    {
+      "id": "poem-to-autumn-q2",
+      "question": "In 'To Autumn,' which activity is NOT associated with the personification of the season?",
+      "options": [
+        "Harvesting apples",
+        "Threshing grain",
+        "Plucking grapes",
+        "Catching fish"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The poem describes activities like harvesting and threshing, but fishing is not mentioned in the context of autumn's labors."
+    },
+    {
+      "id": "poem-to-autumn-q3",
+      "question": "Which literary device is predominantly used in the line: 'Season of mists and mellow fruitfulness'?",
+      "options": [
+        "Alliteration",
+        "Simile",
+        "Metaphor",
+        "Onomatopoeia"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The repetition of the 'm' sound in 'mists and mellow' is an example of alliteration."
+    },
+    {
+      "id": "poem-to-autumn-q4",
+      "question": "What is the primary theme explored in Keats' 'To Autumn'?",
+      "options": [
+        "The transience of time",
+        "The power of love",
+        "The struggle for identity",
+        "The futility of ambition"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem reflects on the passage of time and the natural cycle of growth and decay."
+    },
+    {
+      "id": "poem-to-autumn-q5",
+      "question": "Which of the following sensory images is NOT vividly depicted in 'To Autumn'?",
+      "options": [
+        "Sight",
+        "Sound",
+        "Touch",
+        "Smell"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "While sight, sound, and touch are vividly depicted, the sense of smell is not explicitly emphasized in the poem."
+    },
+    {
+      "id": "poem-to-autumn-q6",
+      "question": "Which stanza of 'To Autumn' focuses on the sounds of the season?",
+      "options": [
+        "First stanza",
+        "Second stanza",
+        "Third stanza",
+        "None of the stanzas"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The third stanza focuses on the sounds of autumn, such as the choir of gnats and the songs of crickets."
+    },
+    {
+      "id": "poem-to-autumn-q7",
+      "question": "What poetic form is 'To Autumn' written in?",
+      "options": [
+        "Sonnet",
+        "Ode",
+        "Ballad",
+        "Epic"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Keats' 'To Autumn' is written as an ode, characterized by its formal and elevated style."
+    },
+    {
+      "id": "poem-to-autumn-q8",
+      "question": "Which of the following is a characteristic feature of Keats' odes reflected in 'To Autumn'?",
+      "options": [
+        "Use of colloquial language",
+        "Focus on personal tragedy",
+        "Celebration of nature",
+        "Critique of society"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Keats' odes often celebrate nature, as seen in 'To Autumn,' which highlights the beauty and abundance of the season."
+    },
+    {
+      "id": "poem-to-autumn-q9",
+      "question": "What is the primary tone of the poem 'To Autumn'?",
+      "options": [
+        "Melancholic",
+        "Joyful",
+        "Reflective",
+        "Despairing"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The tone of 'To Autumn' is reflective, as Keats contemplates the beauty and inevitable change of the season."
+    },
+    {
+      "id": "poem-to-autumn-q10",
+      "question": "Consider the following: 'Close bosom-friend of the maturing sun'. What relationship does this suggest?",
+      "options": [
+        "Hostile",
+        "Distant",
+        "Friendly",
+        "Indifferent"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The phrase suggests a friendly and cooperative relationship between autumn and the sun, highlighting their harmonious work in ripening the fruits."
+    },
+    {
+      "id": "poem-to-autumn-q11",
+      "question": "How does Keats portray the passage of time in 'To Autumn'?",
+      "options": [
+        "Through the sun's setting",
+        "Through the progression of tasks",
+        "Through the changing weather",
+        "Through the aging of people"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Keats illustrates the passage of time by detailing the progression of autumn tasks, from harvesting to the music of the later season."
+    },
+    {
+      "id": "poem-to-autumn-q12",
+      "question": "In 'To Autumn,' how does the imagery of the final stanza compare to that of the first?",
+      "options": [
+        "It is less detailed",
+        "It is more somber",
+        "It is more vibrant",
+        "It is similar"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The final stanza's imagery is more somber, focusing on the end of the day and the approaching end of the year."
+    },
+    {
+      "id": "poem-to-autumn-q13",
+      "question": "What aspect of 'To Autumn' might be considered a limitation when compared to other Romantic poems by Wordsworth?",
+      "options": [
+        "Lack of personal reflection",
+        "Overuse of mythical references",
+        "Excessive focus on emotion",
+        "Complex political themes"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Unlike Wordsworth, who often includes personal reflection, 'To Autumn' is less focused on the poet's personal emotions and more on the season itself."
+    },
+    {
+      "id": "poem-to-autumn-q14",
+      "question": "How does Keats' treatment of nature in 'To Autumn' differ from Shelley's in 'Ode to the West Wind'?",
+      "options": [
+        "Keats focuses on chaos, Shelley on order",
+        "Keats emphasizes growth, Shelley destruction",
+        "Keats depicts indifference, Shelley engagement",
+        "Keats highlights urban life, Shelley pastoral"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Keats emphasizes the growth and abundance of autumn, while Shelley focuses on the destructive and transformative power of the wind."
+    },
+    {
+      "id": "poem-to-autumn-q15",
+      "question": "Which critical perspective might argue that 'To Autumn' idealizes nature at the expense of ignoring societal issues?",
+      "options": [
+        "Marxist",
+        "Feminist",
+        "Psychoanalytic",
+        "Postcolonial"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "A Marxist perspective might critique 'To Autumn' for idealizing nature and ignoring the socio-economic realities of the time."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "summary",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Summary",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:55:36.341Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the plot of 'Waiting for Godot' in your own words.",
+      "keyPoints": [
+        "Two main characters, Vladimir and Estragon, wait for someone named Godot",
+        "The setting is a desolate road with a single tree",
+        "Godot never arrives, and the play is structured into two acts"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes explored in 'Waiting for Godot'.",
+      "keyPoints": [
+        "The absurdity of human existence",
+        "The passage of time",
+        "The nature of hope and despair"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key themes with accurate detail",
+        "partial": "Includes 1-2 key themes or lacks detail",
+        "none": "Missing key themes or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the relationship between Vladimir and Estragon.",
+      "keyPoints": [
+        "They have a co-dependent relationship",
+        "Estragon often looks to Vladimir for guidance",
+        "Their interactions are marked by repetitive and circular dialogue"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are directing a scene from 'Waiting for Godot'. How would you portray the theme of time on stage?",
+      "keyPoints": [
+        "Use of pauses and silences to emphasize waiting",
+        "Repetitive actions to suggest time passing without progress",
+        "Minimalist set design to reflect the monotony of waiting"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory effectively with clear examples",
+        "partial": "Applies some theory but lacks examples or clarity",
+        "none": "Fails to apply theory or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might an actor convey Estragon's frustration with waiting for Godot?",
+      "keyPoints": [
+        "Use of body language such as slumping or pacing",
+        "Tone of voice expressing irritation or weariness",
+        "Interactions with Vladimir to express impatience"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory effectively with clear examples",
+        "partial": "Applies some theory but lacks examples or clarity",
+        "none": "Fails to apply theory or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If you were to modernize 'Waiting for Godot', what contemporary setting could you use and why?",
+      "keyPoints": [
+        "An urban setting like a bus stop or train station",
+        "Reflects modern-day waiting and uncertainty",
+        "Symbolizes the fast-paced yet stagnant nature of modern life"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory effectively with clear examples",
+        "partial": "Applies some theory but lacks examples or clarity",
+        "none": "Fails to apply theory or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the significance of Pozzo and Lucky's relationship in the play using PEEL structure.",
+      "keyPoints": [
+        "Point: Pozzo and Lucky's relationship represents power dynamics",
+        "Evidence: Pozzo's control over Lucky and their interactions",
+        "Explanation: Highlights themes of dependence and exploitation",
+        "Link: Connects to the larger themes of absurdity and human condition"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively evaluates with PEEL structure and detailed analysis",
+        "partial": "Some evaluation with incomplete PEEL structure or lacks detail",
+        "none": "Fails to evaluate or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the role of Godot as a symbol in the play using PEEL structure.",
+      "keyPoints": [
+        "Point: Godot symbolizes hope and the futility of waiting",
+        "Evidence: Characters' endless anticipation and dialogue",
+        "Explanation: Reflects on human quest for meaning",
+        "Link: Connects to existentialist themes and audience interpretation"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively evaluates with PEEL structure and detailed analysis",
+        "partial": "Some evaluation with incomplete PEEL structure or lacks detail",
+        "none": "Fails to evaluate or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze the significance of the setting in 'Waiting for Godot' using PEEL structure.",
+      "keyPoints": [
+        "Point: The barren setting emphasizes existential themes",
+        "Evidence: Minimalist set with a single tree",
+        "Explanation: Reflects the desolation and monotony of waiting",
+        "Link: Reinforces the play's commentary on human existence"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively evaluates with PEEL structure and detailed analysis",
+        "partial": "Some evaluation with incomplete PEEL structure or lacks detail",
+        "none": "Fails to evaluate or lacks relevance"
+      }
+    }
+  ]
+}

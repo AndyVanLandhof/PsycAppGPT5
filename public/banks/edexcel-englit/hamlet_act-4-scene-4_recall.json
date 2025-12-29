@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-4",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 4",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:51:33.780Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the context and significance of Hamlet’s soliloquy in Act IV, Scene 4.",
+      "keyPoints": [
+        "Hamlet encounters Fortinbras’ army",
+        "Reflects on his own inaction",
+        "Contrasts himself with Fortinbras"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes present in Act IV, Scene 4 of Hamlet.",
+      "keyPoints": [
+        "Action vs. inaction",
+        "Honor and ambition",
+        "The nature of human motivation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who are the key characters in Act IV, Scene 4, and what roles do they play?",
+      "keyPoints": [
+        "Hamlet - protagonist reflecting on action",
+        "Fortinbras - represents decisive action",
+        "Captain - conveys Fortinbras’ orders"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key characters with their roles",
+        "partial": "Includes 1-2 characters or lacks role detail",
+        "none": "Missing key characters or roles"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Hamlet's reflections in Act IV, Scene 4 be different if he were more like Fortinbras?",
+      "keyPoints": [
+        "Hamlet might take immediate action",
+        "Less contemplation and more decisiveness",
+        "Potential changes in plot direction"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to scenario with all key points",
+        "partial": "Applies theory with limited key points",
+        "none": "Fails to apply theory or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Hamlet decides to join Fortinbras. How would this impact the play’s themes?",
+      "keyPoints": [
+        "Shift in action vs. inaction theme",
+        "Potential alliance changes political dynamics",
+        "Exploration of ambition and honor"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory with comprehensive analysis",
+        "partial": "Applies theory with some analysis",
+        "none": "Fails to apply theory or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider how the Captain’s report to Hamlet might influence his perspective on revenge.",
+      "keyPoints": [
+        "Comparison of Fortinbras’ goals to Hamlet’s",
+        "Reinforces Hamlet’s desire for honor",
+        "Catalyst for Hamlet’s resolve"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to scenario with all key points",
+        "partial": "Applies theory with limited key points",
+        "none": "Fails to apply theory or misses key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Hamlet’s soliloquy in advancing the play’s themes using PEEL structure.",
+      "keyPoints": [
+        "Point: Soliloquy highlights action vs. inaction",
+        "Evidence: Hamlet’s self-reflection",
+        "Explanation: Deepens audience understanding of his character",
+        "Link: Connects to broader themes of ambition and honor"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL with all key points and clear links",
+        "partial": "Uses PEEL with some key points or weak links",
+        "none": "Lacks PEEL structure or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of Fortinbras as a foil to Hamlet in Act IV, Scene 4 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Fortinbras embodies action",
+        "Evidence: His military campaign",
+        "Explanation: Highlights Hamlet’s indecision",
+        "Link: Enhances understanding of protagonist’s conflict"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL with all key points and clear links",
+        "partial": "Uses PEEL with some key points or weak links",
+        "none": "Lacks PEEL structure or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the Captain’s dialogue as a narrative device in the scene using the PEEL structure.",
+      "keyPoints": [
+        "Point: Provides exposition on Fortinbras",
+        "Evidence: Describes the army’s mission",
+        "Explanation: Sets up thematic contrast with Hamlet",
+        "Link: Advances plot and character dynamics"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL with all key points and clear links",
+        "partial": "Uses PEEL with some key points or weak links",
+        "none": "Lacks PEEL structure or key points"
+      }
+    }
+  ]
+}

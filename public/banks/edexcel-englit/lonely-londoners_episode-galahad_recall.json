@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "episode-galahad",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Galahad — City & racism",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:10:52.357Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Who is Galahad in 'The Lonely Londoners' and what role does he play in the novel?",
+      "keyPoints": [
+        "Galahad is a character representing the experiences of Caribbean immigrants in London",
+        "He struggles with racial discrimination and identity",
+        "His interactions highlight the challenges of assimilation and racism"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe an instance in 'The Lonely Londoners' where Galahad experiences racism.",
+      "keyPoints": [
+        "Galahad's encounter with the white girl in Kensington Gardens",
+        "The incident highlights his feelings of alienation and the social barriers",
+        "Reflects the everyday racism faced by immigrants"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are some of the coping mechanisms Galahad uses to deal with racism in London?",
+      "keyPoints": [
+        "Galahad uses humor and wit to navigate racist encounters",
+        "He tries to maintain a sense of pride and dignity",
+        "Seeks companionship and solidarity within the immigrant community"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Galahad encountering a modern-day scenario of racism in a metropolitan city. How might his reactions differ or remain similar to those depicted in 'The Lonely Londoners'?",
+      "keyPoints": [
+        "Consider changes in societal attitudes towards racism over time",
+        "Galahad might use digital platforms to voice his experiences",
+        "He would still rely on community support and personal resilience"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies context with clear connections to Galahad's character and modern-day scenarios",
+        "partial": "Applies context with limited connections or lacks depth",
+        "none": "Fails to connect the scenario with Galahad's character"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the experiences of Galahad to understand the theme of identity crisis in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Galahad's struggle with his Caribbean identity in a predominantly white society",
+        "His experiences highlight the tension between assimilation and cultural preservation",
+        "Identity crisis is exacerbated by the racism he faces"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively connects Galahad's experiences to the theme of identity crisis",
+        "partial": "Attempts to connect but lacks clarity or detail",
+        "none": "Does not connect Galahad's experiences to the theme"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider how Galahad might respond to a racial microaggression at a workplace. Use examples from 'The Lonely Londoners' to inform your response.",
+      "keyPoints": [
+        "Galahad might use humor to defuse the situation",
+        "He may choose to ignore the microaggression as a coping mechanism",
+        "His response would be influenced by his need to maintain dignity and employment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies examples from the novel to construct a plausible response",
+        "partial": "Attempts to use examples but lacks clarity or detail",
+        "none": "Does not apply examples from the novel"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Selvon’s portrayal of racism through the character of Galahad. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Selvon effectively highlights racial issues through Galahad's experiences",
+        "Evidence: Examples of Galahad's encounters with racism",
+        "Explanation: Discusses the impact on readers' understanding of immigrant struggles",
+        "Link: Connects to broader themes of identity and belonging"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively, with detailed analysis and examples",
+        "partial": "Uses PEEL structure but lacks detail or clear examples",
+        "none": "Does not effectively use PEEL structure or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how the setting of London contributes to Galahad’s experiences of racism in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Point: London is portrayed as both opportunity and oppression",
+        "Evidence: Galahad's experiences in specific London locations",
+        "Explanation: How the city environment influences racial interactions",
+        "Link: Connects to broader themes of alienation and survival"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Detailed assessment with clear connections between setting and experiences",
+        "partial": "Assessment with limited detail or unclear connections",
+        "none": "Does not assess the setting's impact on experiences"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the limitations of Selvon's portrayal of racism through the character of Galahad. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Selvon’s portrayal may not capture the full complexity of racism",
+        "Evidence: Examples from Galahad's experiences that might seem oversimplified",
+        "Explanation: Discuss potential gaps or oversights in depicting systemic issues",
+        "Link: Relate to the historical context of the novel's publication"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively, with critical analysis and examples",
+        "partial": "Uses PEEL structure but lacks critical depth or clear examples",
+        "none": "Does not effectively use PEEL structure or lacks critical analysis"
+      }
+    }
+  ]
+}

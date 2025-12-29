@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-ode-to-a-nightingale",
+  "subTopicTitle": "Keats — Selected Poems — Ode to a Nightingale",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:32:11.022Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Outline the central themes present in Keats' 'Ode to a Nightingale'.",
+      "keyPoints": [
+        "Transience of life and beauty",
+        "Escapism and the desire to transcend reality",
+        "Contrast between the ephemeral and the eternal"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key themes with accurate detail",
+        "partial": "Includes 1-2 key themes or lacks detail",
+        "none": "Missing key themes or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure and form of 'Ode to a Nightingale'.",
+      "keyPoints": [
+        "Consists of eight stanzas",
+        "Each stanza has ten lines",
+        "Iambic pentameter and a specific rhyme scheme (ABABCDECDE)"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately describes the structure and form",
+        "partial": "Describes some aspects of the structure or form",
+        "none": "Fails to describe the structure or form accurately"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of imagery in 'Ode to a Nightingale'.",
+      "keyPoints": [
+        "Nature imagery to contrast reality and imagination",
+        "Imagery of darkness and light",
+        "Sensory imagery to enhance the theme of escapism"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Identifies and explains all key imagery with significance",
+        "partial": "Identifies some imagery but lacks explanation",
+        "none": "Fails to identify or explain key imagery"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Keats' use of sensory imagery in 'Ode to a Nightingale' to a modern poem of your choice.",
+      "keyPoints": [
+        "Identify similar sensory imagery in the modern poem",
+        "Explain how it enhances the theme or emotion",
+        "Draw parallels to Keats' technique"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies Keats' technique with clear parallels and explanation",
+        "partial": "Identifies imagery but lacks clear parallels or explanation",
+        "none": "Fails to apply Keats' technique accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a contemporary poet inspired by 'Ode to a Nightingale'. Write a short stanza of a poem incorporating Keatsian themes.",
+      "keyPoints": [
+        "Incorporates themes of transience or escapism",
+        "Uses rich imagery or sensory language",
+        "Reflects on the ephemeral nature of beauty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Incorporates themes and techniques effectively",
+        "partial": "Touches on themes but lacks depth or clarity",
+        "none": "Fails to incorporate Keatsian themes or techniques"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how Keats' use of contrasts in 'Ode to a Nightingale' can be applied to a narrative or story of your choice.",
+      "keyPoints": [
+        "Identify contrasts in the chosen narrative",
+        "Explain how they enhance the story",
+        "Relate them to Keats' use of contrasts"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Analyzes and applies contrasts effectively",
+        "partial": "Identifies contrasts but lacks depth or clear application",
+        "none": "Fails to apply contrasts accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats' exploration of mortality in 'Ode to a Nightingale' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Keats effectively explores mortality",
+        "Evidence: Use of imagery, language, and tone",
+        "Explanation: How these elements convey the theme",
+        "Link: Overall impact on the reader"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis",
+        "partial": "Uses PEEL but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of nature in 'Ode to a Nightingale' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Nature plays a significant role",
+        "Evidence: Descriptions of the nightingale and surroundings",
+        "Explanation: Connection to themes of beauty and escapism",
+        "Link: Overall contribution to the poem's meaning"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis",
+        "partial": "Uses PEEL but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Keats' personal context influences the themes in 'Ode to a Nightingale' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Keats' personal context influences the themes",
+        "Evidence: References to Keats' letters or biography",
+        "Explanation: How personal experiences shape the poem",
+        "Link: Connection between context and themes"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis",
+        "partial": "Uses PEEL but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or lacks analysis"
+      }
+    }
+  ]
+}

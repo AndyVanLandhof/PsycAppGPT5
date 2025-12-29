@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-giuseppe",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Giuseppe — Roderick Ford",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:25:05.199Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the central theme of Roderick Ford's 'Giuseppe'?",
+      "keyPoints": [
+        "Exploration of guilt and complicity",
+        "Blurring of boundaries between humanity and monstrosity",
+        "Historical and moral implications of wartime actions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify two literary devices used in 'Giuseppe' and their effect.",
+      "keyPoints": [
+        "Use of imagery to evoke empathy or horror",
+        "Symbolism of the mermaid as innocence or victim",
+        "Juxtaposition highlighting moral conflicts"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the narrative perspective in 'Giuseppe' and its significance.",
+      "keyPoints": [
+        "First-person narrative",
+        "Creates a sense of confession and personal involvement",
+        "Reflects the theme of guilt and complicity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of 'Giuseppe' to a scenario where a community must face the consequences of its past actions.",
+      "keyPoints": [
+        "Acknowledgement of complicity and guilt",
+        "Struggle with moral responsibility",
+        "Process of reconciliation or denial"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively to the scenario",
+        "partial": "Applies 1-2 key points or lacks effectiveness",
+        "none": "Fails to apply key points to the scenario"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might a reader's understanding of 'Giuseppe' change if they are aware of historical events like WWII?",
+      "keyPoints": [
+        "Enhanced understanding of historical allusions",
+        "Deeper insight into themes of atrocity and guilt",
+        "Contextualizes the moral dilemmas presented"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively to the historical context",
+        "partial": "Applies 1-2 key points or lacks effectiveness",
+        "none": "Fails to apply key points to the historical context"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider how the poem 'Giuseppe' might be interpreted differently by a modern audience compared to a contemporary one.",
+      "keyPoints": [
+        "Modern awareness of historical atrocities",
+        "Contemporary distance from WWII",
+        "Shift in moral perspectives over time"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points considering both audiences",
+        "partial": "Considers 1-2 key points or lacks depth",
+        "none": "Fails to consider key points for both audiences"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the poem's use of a mythical creature to convey its themes. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Mythical creature symbolizes innocence",
+        "Evidence: Mermaids as innocent beings",
+        "Explanation: Highlights human monstrosity",
+        "Link: Reinforces the theme of blurred moral boundaries"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed analysis",
+        "partial": "Includes 2-3 PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess how 'Giuseppe' addresses the theme of silence and complicity. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Silence as complicity",
+        "Evidence: Lack of dialogue from the mermaid",
+        "Explanation: Silence of witnesses as moral failure",
+        "Link: Emphasizes the theme of shared guilt"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed analysis",
+        "partial": "Includes 2-3 PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how effectively 'Giuseppe' evokes empathy in the reader. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Evoking empathy through vivid imagery",
+        "Evidence: Graphic descriptions of the mermaid's fate",
+        "Explanation: Reader's emotional response to injustice",
+        "Link: Enhances the impact of the poem's moral message"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed analysis",
+        "partial": "Includes 2-3 PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or inaccurate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-eat-me",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Eat Me — Patience Agbabi",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:17:25.618Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the key themes explored in Patience Agbabi's poem 'Eat Me'?",
+      "keyPoints": [
+        "Power and control",
+        "Consumption and desire",
+        "Body image and identity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the narrative perspective used in 'Eat Me' by Patience Agbabi.",
+      "keyPoints": [
+        "First-person perspective",
+        "Voice of an oppressed woman",
+        "Direct address to the partner"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of the poem's structure in 'Eat Me'.",
+      "keyPoints": [
+        "Dramatic monologue",
+        "Regular tercet stanzas",
+        "Consistent rhyme scheme reflecting control"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the theme of power dynamics in 'Eat Me' by Patience Agbabi be relevant in a modern societal context?",
+      "keyPoints": [
+        "Power imbalance in relationships",
+        "Relevance to contemporary discussions on consent",
+        "Reflection of societal pressures on body image"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme effectively to modern context with examples",
+        "partial": "Mentions theme relevance but lacks examples or depth",
+        "none": "Fails to connect theme to modern context accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of 'control through consumption' from 'Eat Me' to another literary work of your choice.",
+      "keyPoints": [
+        "Identify a literary work",
+        "Explain control through consumption in that work",
+        "Draw parallels to 'Eat Me'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Makes clear connections between the works with examples",
+        "partial": "Mentions another work but lacks detailed connections",
+        "none": "Fails to connect 'Eat Me' to another work accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a character from a different poem in the anthology. How might they respond to the protagonist in 'Eat Me'?",
+      "keyPoints": [
+        "Select a character",
+        "Explain potential interaction",
+        "Consider themes or experiences they share"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a thoughtful interaction scenario with clear reasoning",
+        "partial": "Provides a scenario but lacks depth or clarity",
+        "none": "Fails to create a plausible interaction scenario"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the use of language in conveying the theme of oppression in 'Eat Me'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Language creates vivid imagery",
+        "Evidence: Use of grotesque metaphors",
+        "Explanation: Enhances theme of oppression",
+        "Link: Connect back to overall theme"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure with detailed analysis",
+        "partial": "Attempts PEEL structure but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or analyze language effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the impact of the poem's ending in 'Eat Me'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Ending signifies liberation",
+        "Evidence: Protagonist's act of defiance",
+        "Explanation: Shift in power dynamics",
+        "Link: Reinforces theme of empowerment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure with detailed evaluation",
+        "partial": "Attempts PEEL structure but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or evaluate impact effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of repetition in emphasizing themes in 'Eat Me'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Repetition highlights obsession",
+        "Evidence: Reiteration of key phrases",
+        "Explanation: Emphasizes control and consumption",
+        "Link: Connects to broader themes of the poem"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure with detailed analysis",
+        "partial": "Attempts PEEL structure but lacks depth or clarity",
+        "none": "Fails to use PEEL structure or analyze repetition effectively"
+      }
+    }
+  ]
+}

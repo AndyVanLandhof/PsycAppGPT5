@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-genetics",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Genetics — Sinéad Morrissey",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:27:01.128Z",
+  "items": [
+    {
+      "id": "poem-genetics-q1",
+      "question": "What is the primary theme explored in Sinéad Morrissey's poem 'Genetics'?",
+      "options": [
+        "Family and Heritage",
+        "Nature and Environment",
+        "War and Conflict",
+        "Love and Betrayal"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem 'Genetics' primarily explores the theme of family and heritage, highlighting the sense of connection through inherited traits."
+    },
+    {
+      "id": "poem-genetics-q2",
+      "question": "Which poetic form does 'Genetics' by Sinéad Morrissey employ?",
+      "options": [
+        "Villanelle",
+        "Sonnet",
+        "Haiku",
+        "Free Verse"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Morrissey's 'Genetics' is written in a villanelle form, characterized by its repeating lines and rigid structure."
+    },
+    {
+      "id": "poem-genetics-q3",
+      "question": "In 'Genetics,' which part of the body is frequently referenced to symbolize familial connection?",
+      "options": [
+        "Hands",
+        "Eyes",
+        "Heart",
+        "Feet"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem frequently references hands as a symbol of familial connection, illustrating how physical traits are passed down through generations."
+    },
+    {
+      "id": "poem-genetics-q4",
+      "question": "What literary device is predominantly used in 'Genetics' to emphasize the repetitive nature of inheritance?",
+      "options": [
+        "Alliteration",
+        "Refrain",
+        "Metaphor",
+        "Enjambment"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The poem uses a refrain, repeating lines to emphasize the continuity and repetition inherent in genetic inheritance."
+    },
+    {
+      "id": "poem-genetics-q5",
+      "question": "Which of the following is a key image used by Morrissey in 'Genetics' to convey the poem's message?",
+      "options": [
+        "Mirror",
+        "Bridge",
+        "River",
+        "Photograph"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The image of a bridge is used to convey the connection between past and future generations, symbolizing the continuity of family lineage."
+    },
+    {
+      "id": "poem-genetics-q6",
+      "question": "How does Morrissey structure 'Genetics' to reflect the poem's thematic concerns?",
+      "options": [
+        "With a cyclical structure",
+        "With a linear progression",
+        "With a fragmented form",
+        "With a chronological order"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The cyclical structure of the villanelle reflects the poem's themes of continuity and the cyclical nature of genetic inheritance."
+    },
+    {
+      "id": "poem-genetics-q7",
+      "question": "Which line from the poem 'Genetics' exemplifies the use of paradox?",
+      "options": [
+        "'My father's in my fingers'",
+        "'I know my parents made me'",
+        "'We know our parents make us'",
+        "'We are our own parents' children'"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The line 'We are our own parents' children' exemplifies paradox by suggesting both independence and dependence on parental identity."
+    },
+    {
+      "id": "poem-genetics-q8",
+      "question": "What is the effect of the poem's regular rhyme scheme in 'Genetics'?",
+      "options": [
+        "Creates a sense of harmony",
+        "Disrupts the poem's flow",
+        "Highlights emotional discord",
+        "Conveys unpredictability"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The regular rhyme scheme creates a sense of harmony, reflecting the interconnectedness and balance within family relationships."
+    },
+    {
+      "id": "poem-genetics-q9",
+      "question": "Which critical perspective could be used to analyze 'Genetics' by Sinéad Morrissey?",
+      "options": [
+        "Psychoanalytic Criticism",
+        "Marxist Criticism",
+        "Postcolonial Criticism",
+        "Eco-Criticism"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Psychoanalytic criticism can be used to explore themes of identity and the familial unconscious in 'Genetics.'"
+    },
+    {
+      "id": "poem-genetics-q10",
+      "question": "How might the poem 'Genetics' be interpreted in terms of personal identity?",
+      "options": [
+        "It suggests identity is solely shaped by individual choices.",
+        "It implies identity is a blend of inherited traits and personal experiences.",
+        "It argues that identity is fixed and unchangeable.",
+        "It portrays identity as a random construct."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The poem suggests that identity is a blend of inherited traits and personal experiences, highlighting the influence of genetics and family."
+    },
+    {
+      "id": "poem-genetics-q11",
+      "question": "Which scenario best illustrates the theme of 'Genetics' by Sinéad Morrissey?",
+      "options": [
+        "A person feeling disconnected from their family history.",
+        "A person discovering a trait they share with a grandparent.",
+        "A person rejecting their family's values.",
+        "A person moving away from their hometown."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Discovering a shared trait with a grandparent illustrates the theme of inherited familial connections central to 'Genetics.'"
+    },
+    {
+      "id": "poem-genetics-q12",
+      "question": "In a study comparing themes of inheritance in poetry, what finding might support the analysis of 'Genetics'?",
+      "options": [
+        "Most poems ignore familial influence.",
+        "Few poems depict a positive view of inheritance.",
+        "Many poems emphasize the continuity of genetic traits.",
+        "Inheritance is often portrayed as a burden."
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The finding that many poems emphasize the continuity of genetic traits supports the thematic analysis of 'Genetics.'"
+    },
+    {
+      "id": "poem-genetics-q13",
+      "question": "How does 'Genetics' compare to other poems in the 'Poems of the Decade' anthology in terms of structure?",
+      "options": [
+        "It uses free verse unlike most others.",
+        "It employs a strict villanelle form.",
+        "It relies on a narrative structure.",
+        "It lacks formal structure compared to others."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "'Genetics' employs a strict villanelle form, which is distinct compared to the varied structures in the anthology."
+    },
+    {
+      "id": "poem-genetics-q14",
+      "question": "What critique might be made about the use of the villanelle form in 'Genetics'?",
+      "options": [
+        "It limits the emotional depth of the poem.",
+        "It enhances the chaotic theme of the poem.",
+        "It detracts from the poem's thematic concerns.",
+        "It oversimplifies the poem's message."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "One might critique that the rigid structure of the villanelle limits the emotional depth that could be explored in a freer form."
+    },
+    {
+      "id": "poem-genetics-q15",
+      "question": "When evaluating 'Genetics,' which aspect might contrast with postmodern poetry trends?",
+      "options": [
+        "Its focus on fragmented identity.",
+        "Its adherence to traditional form.",
+        "Its use of ironic tone.",
+        "Its absence of narrative voice."
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The adherence to traditional form in 'Genetics' contrasts with the postmodern trend of rejecting strict poetic structures."
+    }
+  ]
+}

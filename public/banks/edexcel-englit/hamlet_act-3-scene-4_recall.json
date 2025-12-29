@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-3-scene-4",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act III, Scene 4",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:48:16.011Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the 'closet scene' in Act III, Scene 4 of Hamlet?",
+      "keyPoints": [
+        "The confrontation between Hamlet and Gertrude",
+        "The murder of Polonius",
+        "Revelation of Hamlet's inner conflict and madness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Hamlet's interaction with the Ghost in Act III, Scene 4.",
+      "keyPoints": [
+        "Ghost appears to remind Hamlet of his purpose",
+        "Hamlet's reaction to the Ghost",
+        "Gertrude's inability to see the Ghost"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the themes highlighted in Act III, Scene 4 of Hamlet.",
+      "keyPoints": [
+        "Theme of madness",
+        "Theme of family and betrayal",
+        "Theme of revenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Gertrude's perception of Hamlet change if she could see the Ghost in Act III, Scene 4?",
+      "keyPoints": [
+        "Consideration of Gertrude's belief in Hamlet's madness",
+        "Potential change in her understanding of Hamlet's actions",
+        "Impact on her loyalty to Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately to the scenario with all key points",
+        "partial": "Applies theory with some points or lacks depth",
+        "none": "Fails to apply theory or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of dramatic irony to the events of Act III, Scene 4.",
+      "keyPoints": [
+        "Gertrude's ignorance of the Ghost's presence",
+        "Audience's awareness of Hamlet's true intentions",
+        "Polonius's misinterpretation of the situation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies dramatic irony accurately with all key points",
+        "partial": "Applies dramatic irony with some points or lacks depth",
+        "none": "Fails to apply dramatic irony or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does Shakespeare use language to convey tension in Act III, Scene 4?",
+      "keyPoints": [
+        "Use of sharp and accusatory dialogue",
+        "Imagery and symbolism of the 'mirror' and 'dagger'",
+        "Contrasts between calm and chaotic speech"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies language analysis accurately with all key points",
+        "partial": "Applies language analysis with some points or lacks depth",
+        "none": "Fails to apply language analysis or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Hamlet's treatment of Gertrude in Act III, Scene 4 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Hamlet's harshness towards Gertrude",
+        "Evidence: Quotations or descriptions from the scene",
+        "Explanation: Hamlet's motivations and emotional state",
+        "Link: How this affects their relationship"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates thoroughly using PEEL with all key points",
+        "partial": "Evaluates with some points or lacks depth",
+        "none": "Fails to evaluate or uses PEEL incorrectly"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of Polonius's death in Act III, Scene 4 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Consequences of Polonius's death",
+        "Evidence: How it is presented in the scene",
+        "Explanation: Impact on the plot and characters",
+        "Link: Foreshadowing future events in the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Assesses thoroughly using PEEL with all key points",
+        "partial": "Assesses with some points or lacks depth",
+        "none": "Fails to assess or uses PEEL incorrectly"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the moral ambiguity of Hamlet's actions in Act III, Scene 4 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Hamlet's moral dilemmas",
+        "Evidence: Actions and decisions made in the scene",
+        "Explanation: Justifications and contradictions",
+        "Link: Broader implications for the play's themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates thoroughly using PEEL with all key points",
+        "partial": "Evaluates with some points or lacks depth",
+        "none": "Fails to evaluate or uses PEEL incorrectly"
+      }
+    }
+  ]
+}

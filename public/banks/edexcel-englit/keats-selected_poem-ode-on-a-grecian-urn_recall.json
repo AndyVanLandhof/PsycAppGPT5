@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-ode-on-a-grecian-urn",
+  "subTopicTitle": "Keats — Selected Poems — Ode on a Grecian Urn",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:32:56.651Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the main themes explored in 'Ode on a Grecian Urn' by John Keats?",
+      "keyPoints": [
+        "Transience vs. permanence",
+        "Beauty and truth",
+        "Imagination vs. reality"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure and form of 'Ode on a Grecian Urn'.",
+      "keyPoints": [
+        "Five stanzas",
+        "Ten-line stanzas",
+        "Iambic pentameter",
+        "Alternate rhyme scheme"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain two literary devices used in 'Ode on a Grecian Urn'.",
+      "keyPoints": [
+        "Imagery - vivid descriptions of the urn",
+        "Paradox - 'Beauty is truth, truth beauty'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes both key points with accurate detail",
+        "partial": "Includes 1 key point or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a curator at a museum. How would you describe the significance of the urn depicted in Keats' poem to visitors?",
+      "keyPoints": [
+        "Depicts eternal scenes",
+        "Represents timeless beauty",
+        "Encapsulates human emotions and stories"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies key points effectively and in context",
+        "partial": "Applies 1-2 key points with some context",
+        "none": "Fails to apply key points or lacks context"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might an art historian interpret the phrase 'still unravish'd bride of quietness' from 'Ode on a Grecian Urn'?",
+      "keyPoints": [
+        "Represents untouched beauty",
+        "Symbolizes permanence",
+        "Contrasts with change and decay"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively and in context",
+        "partial": "Applies 1-2 key points with some context",
+        "none": "Fails to apply key points or lacks context"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If you were to create a modern adaptation of 'Ode on a Grecian Urn', what contemporary object might serve a similar symbolic function and why?",
+      "keyPoints": [
+        "Object with cultural significance",
+        "Represents both beauty and timelessness",
+        "Invites contemplation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively and in context",
+        "partial": "Applies 1-2 key points with some context",
+        "none": "Fails to apply key points or lacks context"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats' use of imagery in conveying the poem's themes. Use PEEL to structure your response.",
+      "keyPoints": [
+        "Imagery creates vivid scenes",
+        "Enhances themes of permanence and beauty",
+        "Supports the paradoxical nature of truth"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points using PEEL structure effectively",
+        "partial": "Evaluates 1-2 key points with incomplete PEEL structure",
+        "none": "Fails to evaluate key points or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of the narrator in 'Ode on a Grecian Urn' and how it influences the reader’s understanding. Use PEEL to structure your response.",
+      "keyPoints": [
+        "Narrator as observer and interpreter",
+        "Influences perception of beauty and truth",
+        "Creates a tension between reality and idealism"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points using PEEL structure effectively",
+        "partial": "Evaluates 1-2 key points with incomplete PEEL structure",
+        "none": "Fails to evaluate key points or lacks PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically discuss the statement 'Beauty is truth, truth beauty' in the context of the poem. Use PEEL to structure your response.",
+      "keyPoints": [
+        "Explores paradoxical meaning",
+        "Links beauty to eternal truth",
+        "Challenges reader's perception of reality"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points using PEEL structure effectively",
+        "partial": "Evaluates 1-2 key points with incomplete PEEL structure",
+        "none": "Fails to evaluate key points or lacks PEEL structure"
+      }
+    }
+  ]
+}

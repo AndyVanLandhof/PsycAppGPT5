@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-lammas-hireling",
+  "subTopicTitle": "Poems of the Decade (Anthology) — The Lammas Hireling — Ian Duhig",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:21:23.544Z",
+  "items": [
+    {
+      "id": "poem-lammas-hireling-q1",
+      "question": "Which of the following best describes the structure of Ian Duhig's 'The Lammas Hireling'?",
+      "options": [
+        "A dramatic monologue",
+        "A sonnet",
+        "A free verse poem",
+        "A villanelle"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem is structured as a dramatic monologue, where a single character speaks to an implied listener."
+    },
+    {
+      "id": "poem-lammas-hireling-q2",
+      "question": "What is the central theme of 'The Lammas Hireling'?",
+      "options": [
+        "The supernatural",
+        "Romantic love",
+        "Nature's beauty",
+        "Political conflict"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem explores themes of the supernatural, as indicated by the transformations and mysterious events described."
+    },
+    {
+      "id": "poem-lammas-hireling-q3",
+      "question": "In 'The Lammas Hireling', what is the significance of the Lammas fair?",
+      "options": [
+        "It marks the beginning of autumn",
+        "It is a traditional time for hiring farm workers",
+        "It celebrates the harvest",
+        "It is a religious festival"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The Lammas fair traditionally involved hiring workers, which relates to the poem's central narrative."
+    },
+    {
+      "id": "poem-lammas-hireling-q4",
+      "question": "What literary device is predominantly used in the line 'the fox trap biting' from 'The Lammas Hireling'?",
+      "options": [
+        "Metaphor",
+        "Personification",
+        "Simile",
+        "Alliteration"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The trap is given human-like qualities, exemplifying personification."
+    },
+    {
+      "id": "poem-lammas-hireling-q5",
+      "question": "Which historical context is relevant to understanding 'The Lammas Hireling'?",
+      "options": [
+        "Irish folklore",
+        "World War I",
+        "The Industrial Revolution",
+        "The English Civil War"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem draws on elements of Irish folklore, particularly in its depiction of the supernatural."
+    },
+    {
+      "id": "poem-lammas-hireling-q6",
+      "question": "What does the hireling transform into, according to the poem's narrator?",
+      "options": [
+        "A hare",
+        "A wolf",
+        "A crow",
+        "A goat"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The hireling is described as transforming into a hare, suggesting supernatural elements."
+    },
+    {
+      "id": "poem-lammas-hireling-q7",
+      "question": "Who is the implied listener in 'The Lammas Hireling'?",
+      "options": [
+        "A police officer",
+        "A friend",
+        "A priest",
+        "A ghost"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "The monologue is directed towards a priest, as indicated by the narrator's confessional tone."
+    },
+    {
+      "id": "poem-lammas-hireling-q8",
+      "question": "What is the significance of the line 'I hunted down her torn voice to his pale form' in 'The Lammas Hireling'?",
+      "options": [
+        "It shows the narrator's guilt",
+        "It illustrates the narrator's love",
+        "It reveals a connection to nature",
+        "It highlights industrialization"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The line suggests the narrator's guilt and internal conflict over the supernatural events."
+    },
+    {
+      "id": "poem-lammas-hireling-q9",
+      "question": "How does the poem 'The Lammas Hireling' end?",
+      "options": [
+        "With a clear resolution",
+        "With ambiguity",
+        "With a violent action",
+        "With a romantic reconciliation"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The poem ends ambiguously, leaving the reader uncertain about the reality of the events."
+    },
+    {
+      "id": "poem-lammas-hireling-q10",
+      "question": "If a character in 'The Lammas Hireling' suddenly reveals a hidden agenda, which literary device is being employed?",
+      "options": [
+        "Foreshadowing",
+        "Irony",
+        "Dramatic irony",
+        "Denouement"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "Irony is used when there is a contrast between appearance and reality, such as a hidden agenda."
+    },
+    {
+      "id": "poem-lammas-hireling-q11",
+      "question": "A reader interprets the hireling's transformation as a metaphor for economic exploitation. What type of analysis is this?",
+      "options": [
+        "Marxist",
+        "Psychoanalytic",
+        "Feminist",
+        "Postcolonial"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "This is a Marxist analysis, focusing on themes of economic power and exploitation."
+    },
+    {
+      "id": "poem-lammas-hireling-q12",
+      "question": "A student argues that 'The Lammas Hireling' critiques modernity through its rustic setting. How might this be applied to a theme?",
+      "options": [
+        "The tension between tradition and change",
+        "The inevitability of progress",
+        "The beauty of urban life",
+        "The superiority of technology"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The rustic setting contrasts with modernity, highlighting the tension between tradition and change."
+    },
+    {
+      "id": "poem-lammas-hireling-q13",
+      "question": "How does the use of enjambment in 'The Lammas Hireling' affect the poem's pacing?",
+      "options": [
+        "It slows down the reading",
+        "It creates a disjointed rhythm",
+        "It accelerates the pace",
+        "It makes the poem feel more formal"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "Enjambment accelerates the poem's pace by allowing ideas to flow across lines without pause."
+    },
+    {
+      "id": "poem-lammas-hireling-q14",
+      "question": "Consider the use of supernatural elements in 'The Lammas Hireling' compared to Yeats' poetry. What is a key difference?",
+      "options": [
+        "Yeats uses them for political allegory",
+        "Both use them for humor",
+        "Yeats focuses on realism",
+        "Duhig avoids folklore altogether"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Yeats often uses supernatural elements as political allegory, whereas Duhig emphasizes mystery and ambiguity."
+    },
+    {
+      "id": "poem-lammas-hireling-q15",
+      "question": "Evaluate the reliability of the narrator in 'The Lammas Hireling'. Which factor most undermines their credibility?",
+      "options": [
+        "The narrator's confession of murder",
+        "The supernatural events",
+        "The logical sequence of events",
+        "The narrator's consistent tone"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The supernatural events challenge the narrator's reliability, making them appear delusional or deceptive."
+    }
+  ]
+}

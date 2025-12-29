@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "episode-arrival",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Arrival — Newcomers & Moses",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:09:16.658Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the initial impression of London given by newcomers in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Sense of hope and opportunity",
+        "Contrast with reality of cold and unwelcoming environment",
+        "Moses's role in guiding newcomers"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of Moses's character in the novel.",
+      "keyPoints": [
+        "Moses as a mentor and guide for newcomers",
+        "Represents the struggles and resilience of Caribbean immigrants",
+        "Symbol of cultural and emotional survival"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What are the key themes introduced in the arrival section of 'The Lonely Londoners'?",
+      "keyPoints": [
+        "Displacement and identity",
+        "Hope versus reality",
+        "Community and isolation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Moses's experience change if he arrived in modern-day London instead of the 1950s?",
+      "keyPoints": [
+        "Modern multiculturalism and potential for acceptance",
+        "Continued challenges of racism and economic inequality",
+        "Differences in immigration policies"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies historical and present-day context with detailed examples",
+        "partial": "Applies context but lacks examples or depth",
+        "none": "Fails to apply context accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of 'otherness' to the experiences of newcomers in the novel.",
+      "keyPoints": [
+        "Feeling of alienation in a foreign city",
+        "Social and racial barriers faced by immigrants",
+        "Struggle to maintain cultural identity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly applies the concept with relevant examples from the text",
+        "partial": "Applies the concept but lacks examples or clarity",
+        "none": "Fails to apply the concept accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does Moses's relationship with newcomers reflect the theme of community?",
+      "keyPoints": [
+        "Moses's supportive role in their adjustment",
+        "Shared experiences and solidarity among immigrants",
+        "Challenges in forming a cohesive community"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies the theme with examples from the novel",
+        "partial": "Applies the theme but lacks examples or depth",
+        "none": "Fails to apply the theme accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Selvon's use of dialect in portraying the newcomer's experiences.",
+      "keyPoints": [
+        "Authenticity and realism in character voices",
+        "Connection to cultural identity and heritage",
+        "Potential barriers to understanding for some readers"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure to evaluate with all key points and examples",
+        "partial": "Evaluates with some key points but lacks examples or depth",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the portrayal of London as a city of contrasts in the novel.",
+      "keyPoints": [
+        "Juxtaposition of immigrant dreams versus harsh realities",
+        "Diverse experiences within the city",
+        "Symbolism of the city as both opportunity and obstacle"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure to assess with all key points and examples",
+        "partial": "Assesses with some key points but lacks examples or depth",
+        "none": "Fails to assess effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Selvon presents the theme of survival in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Daily struggles of immigrants in an unwelcoming environment",
+        "Moses's resilience and adaptability",
+        "Community support as a survival mechanism"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure to evaluate with all key points and examples",
+        "partial": "Evaluates with some key points but lacks examples or depth",
+        "none": "Fails to evaluate effectively"
+      }
+    }
+  ]
+}

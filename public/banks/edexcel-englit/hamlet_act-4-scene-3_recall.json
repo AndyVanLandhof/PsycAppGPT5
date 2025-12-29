@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-3",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 3",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:50:55.205Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the situation that leads to Hamlet being sent to England in Act IV, Scene 3.",
+      "keyPoints": [
+        "Claudius's fear of Hamlet's threat to his throne",
+        "Claudius's plan to have Hamlet executed in England",
+        "Claudius's manipulation of Rosencrantz and Guildenstern"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how Claudius justifies sending Hamlet to England.",
+      "keyPoints": [
+        "Claudius claims it is for Hamlet's safety",
+        "Mentions public unrest and Hamlet's unpredictable behavior",
+        "Claudius's hidden motive of eliminating Hamlet"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the main themes present in Act IV, Scene 3 of Hamlet.",
+      "keyPoints": [
+        "Theme of deception and deceit",
+        "Theme of death and mortality",
+        "Theme of power and corruption"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are Claudius. How would you justify sending Hamlet to England to the court? Apply your understanding of his character and motives.",
+      "keyPoints": [
+        "Mention of protecting the kingdom",
+        "Reference to Hamlet's erratic behavior",
+        "Hidden motive to secure personal power"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies understanding accurately with all key points",
+        "partial": "Applies understanding with 1-2 key points or lacks depth",
+        "none": "Fails to apply understanding or includes inaccuracies"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of deception from Act IV, Scene 3 to a modern context. Provide an example of a similar situation in contemporary society.",
+      "keyPoints": [
+        "Example of political manipulation",
+        "Comparison of motivations for deception",
+        "Impact of deception on public perception"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application with relevant example and all key points",
+        "partial": "Application with some relevance and 1-2 key points",
+        "none": "Irrelevant or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the concept of loyalty as seen in Rosencrantz and Guildenstern's actions in Act IV, Scene 3 to a personal relationship?",
+      "keyPoints": [
+        "Loyalty to authority versus personal ethics",
+        "Impact of blind loyalty on relationships",
+        "Potential conflicts and consequences"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurate application with personal example and all key points",
+        "partial": "Application with some relevance and 1-2 key points",
+        "none": "Irrelevant or inaccurate application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Claudius's leadership in Act IV, Scene 3 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Claudius's strategic manipulation",
+        "Evidence: Plan to send Hamlet to England",
+        "Explanation: Secures his power, but unethical",
+        "Link: Reflects broader theme of corruption"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Coherent evaluation with PEEL structure and accurate detail",
+        "partial": "Evaluation with some structure or missing elements",
+        "none": "Lacks structure or contains inaccuracies"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Analyze the effectiveness of Shakespeare's use of dramatic irony in Act IV, Scene 3.",
+      "keyPoints": [
+        "Point: Audience's awareness of Claudius's true intentions",
+        "Evidence: Claudius's speech about Hamlet's safety",
+        "Explanation: Increases tension and audience engagement",
+        "Link: Enhances theme of appearance vs. reality"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Coherent analysis with PEEL structure and accurate detail",
+        "partial": "Analysis with some structure or missing elements",
+        "none": "Lacks structure or contains inaccuracies"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of Rosencrantz and Guildenstern in advancing the plot of Act IV, Scene 3.",
+      "keyPoints": [
+        "Point: Function as tools of Claudius",
+        "Evidence: Their mission to escort Hamlet",
+        "Explanation: Illustrates theme of loyalty and betrayal",
+        "Link: Their actions propel the plot towards climax"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Coherent assessment with PEEL structure and accurate detail",
+        "partial": "Assessment with some structure or missing elements",
+        "none": "Lacks structure or contains inaccuracies"
+      }
+    }
+  ]
+}

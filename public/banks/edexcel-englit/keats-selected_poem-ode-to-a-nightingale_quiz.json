@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-ode-to-a-nightingale",
+  "subTopicTitle": "Keats — Selected Poems — Ode to a Nightingale",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:32:00.667Z",
+  "items": [
+    {
+      "id": "poem-ode-to-a-nightingale-q1",
+      "question": "Which of the following is a key theme in Keats's 'Ode to a Nightingale'?",
+      "options": [
+        "Transience of life",
+        "Social inequality",
+        "Industrialization",
+        "Political revolution"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The transience of life is a key theme, as reflected in the contrast between the ephemeral human life and the eternal song of the nightingale."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q2",
+      "question": "What is the primary meter used in 'Ode to a Nightingale'?",
+      "options": [
+        "Iambic pentameter",
+        "Trochaic tetrameter",
+        "Dactylic hexameter",
+        "Spondaic monometer"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The poem primarily uses iambic pentameter, a common meter in English poetry, providing a rhythmic structure."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q3",
+      "question": "Which mythological figure does Keats reference in 'Ode to a Nightingale'?",
+      "options": [
+        "Bacchus",
+        "Aphrodite",
+        "Zeus",
+        "Apollo"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Keats refers to Bacchus, the Roman god of wine, in the context of seeking escape through intoxication."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q4",
+      "question": "How does Keats describe the nightingale's song in the poem?",
+      "options": [
+        "Immortal",
+        "Melancholic",
+        "Joyful",
+        "Discordant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Keats describes the nightingale's song as 'immortal', emphasizing its timeless quality compared to the mortality of humans."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q5",
+      "question": "What sensory imagery is predominantly used in the second stanza of 'Ode to a Nightingale'?",
+      "options": [
+        "Auditory",
+        "Tactile",
+        "Visual",
+        "Olfactory"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Olfactory imagery is used to describe the flowers and their scents, enhancing the vividness of the natural setting."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q6",
+      "question": "Which literary device is used when Keats writes 'Already with thee!' in 'Ode to a Nightingale'?",
+      "options": [
+        "Apostrophe",
+        "Alliteration",
+        "Personification",
+        "Metaphor"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Apostrophe is used as Keats directly addresses the nightingale, creating an intimate tone."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q7",
+      "question": "What is the rhyme scheme of each stanza in 'Ode to a Nightingale'?",
+      "options": [
+        "ABABCDCDECE",
+        "ABBAABBACDC",
+        "AABBCCDDEE",
+        "ABABCDEDCE"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The rhyme scheme ABABCDCDECE is used consistently throughout the poem, contributing to its structured form."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q8",
+      "question": "In 'Ode to a Nightingale', which season does Keats implicitly reference to convey a sense of renewal?",
+      "options": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Spring is implicitly referenced through imagery of flowers and growth, symbolizing renewal and new beginnings."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q9",
+      "question": "What is the tone of the final stanza in 'Ode to a Nightingale'?",
+      "options": [
+        "Reflective",
+        "Joyful",
+        "Angry",
+        "Indifferent"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The tone is reflective as Keats contemplates the nature of reality and the fleeting beauty of the nightingale's song."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q10",
+      "question": "In 'Ode to a Nightingale', how does Keats's use of sensory imagery enhance the reader's understanding?",
+      "options": [
+        "It creates a vivid and immersive experience.",
+        "It confuses the reader with too many details.",
+        "It distracts from the poem's main themes.",
+        "It simplifies complex emotions."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Sensory imagery creates a vivid and immersive experience, allowing readers to engage more deeply with the themes."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q11",
+      "question": "Which of the following best describes the effect of the nightingale's song on the speaker in 'Ode to a Nightingale'?",
+      "options": [
+        "It inspires a desire for immortality.",
+        "It leads to feelings of isolation.",
+        "It incites anger towards nature.",
+        "It causes confusion about reality."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The song inspires a desire for immortality, as the speaker envies the timeless existence of the nightingale."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q12",
+      "question": "How does Keats's exploration of mortality in 'Ode to a Nightingale' reflect Romantic ideals?",
+      "options": [
+        "By emphasizing the beauty in nature and its transcendence over human life.",
+        "By highlighting technological advancements.",
+        "By focusing on social and political change.",
+        "By dismissing nature as irrelevant."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Keats emphasizes the beauty in nature and its transcendence over human life, a core Romantic ideal."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q13",
+      "question": "How does Keats's 'Ode to a Nightingale' differ from 'Ode on a Grecian Urn' in its treatment of art and nature?",
+      "options": [
+        "The nightingale symbolizes nature's ephemeral beauty, while the urn represents eternal art.",
+        "Both poems focus on the permanence of art over nature.",
+        "Both works dismiss the significance of nature.",
+        "The urn symbolizes nature's ephemeral beauty, while the nightingale represents eternal art."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "In 'Ode to a Nightingale', the nightingale symbolizes nature's ephemeral beauty, contrasting with the eternal art of the urn in 'Ode on a Grecian Urn'."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q14",
+      "question": "What criticism do some scholars, like Jack Stillinger (1999), have about Keats's use of escapism in 'Ode to a Nightingale'?",
+      "options": [
+        "It detracts from confronting reality.",
+        "It enhances the poem's emotional depth.",
+        "It offers a realistic portrayal of human experience.",
+        "It simplifies the complex themes of the poem."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Some scholars like Stillinger criticize the escapism for detracting from confronting reality, although it enriches the emotional depth."
+    },
+    {
+      "id": "poem-ode-to-a-nightingale-q15",
+      "question": "How does Keats's personal context, as discussed by biographer Andrew Motion (1997), influence the themes in 'Ode to a Nightingale'?",
+      "options": [
+        "His experiences with illness and loss inform the poem's meditations on mortality.",
+        "His political beliefs shape the poem's revolutionary themes.",
+        "His travels inspire the exotic imagery.",
+        "His scientific interests influence the poem's structure."
+      ],
+      "correctAnswer": 0,
+      "ao": "AO3",
+      "explanation": "Motion notes how Keats's experiences with illness and loss deeply inform the poem's meditations on mortality and desire for transcendence."
+    }
+  ]
+}

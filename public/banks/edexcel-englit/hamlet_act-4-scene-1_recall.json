@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-1",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 1",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:49:19.321Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What significant event does Queen Gertrude report in Act IV, Scene 1 of Hamlet?",
+      "keyPoints": [
+        "Queen Gertrude reports Polonius's death",
+        "She describes Hamlet's actions in killing Polonius",
+        "Gertrude's conversation with Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "How does King Claudius react to the news of Polonius's death in Act IV, Scene 1?",
+      "keyPoints": [
+        "Claudius is concerned about his own safety",
+        "He realizes the threat Hamlet poses",
+        "Claudius decides to send Hamlet to England"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe how Act IV, Scene 1 of Hamlet sets the stage for subsequent events in the play.",
+      "keyPoints": [
+        "Claudius's decision to send Hamlet to England",
+        "The political implications of Polonius's death",
+        "Increased tension and urgency in the plot"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are King Claudius. How would you justify your decision to send Hamlet to England after hearing about Polonius's death?",
+      "keyPoints": [
+        "Threat to Claudius's rule and safety",
+        "Need to manage the fallout of Polonius's death",
+        "Political strategy to handle potential unrest"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a coherent justification using all key points",
+        "partial": "Provides some justification but lacks coherence or detail",
+        "none": "Fails to justify the decision or misses key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "As Queen Gertrude, how would you explain your conflicting loyalties between Hamlet and Claudius in Act IV, Scene 1?",
+      "keyPoints": [
+        "Loyalty to her son Hamlet",
+        "Marital duty to Claudius",
+        "Emotional turmoil and conflict"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clearly explains conflicting loyalties using all key points",
+        "partial": "Mentions some points but lacks clarity or depth",
+        "none": "Fails to address conflicting loyalties or is unclear"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply your understanding of dramatic irony to evaluate Claudius's ignorance of Gertrude's true allegiance in Act IV, Scene 1.",
+      "keyPoints": [
+        "Gertrude's partial revelation of Hamlet's actions",
+        "Claudius's misinterpretation of Gertrude's loyalty",
+        "Audience awareness of Gertrude's internal conflict"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies dramatic irony using all key points",
+        "partial": "Applies dramatic irony but lacks some key points",
+        "none": "Fails to apply dramatic irony or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Act IV, Scene 1 contributes to the theme of political intrigue in Hamlet using the PEEL structure.",
+      "keyPoints": [
+        "Point: Scene heightens political tension",
+        "Evidence: Claudius's reaction to Polonius's death",
+        "Explanation: Power dynamics and threat to throne",
+        "Link: Connects to broader play themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Attempts PEEL structure but lacks one or more key points",
+        "none": "Does not use PEEL structure or lacks clarity"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of Queen Gertrude in advancing the plot in Act IV, Scene 1 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Gertrude's report is pivotal",
+        "Evidence: Details of Polonius's death",
+        "Explanation: Drives Claudius's decisions",
+        "Link: Sets up further action in the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Attempts PEEL structure but lacks one or more key points",
+        "none": "Does not use PEEL structure or lacks clarity"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of dramatic tension in Act IV, Scene 1 in contributing to the overall atmosphere of Hamlet using the PEEL structure.",
+      "keyPoints": [
+        "Point: Scene builds dramatic tension",
+        "Evidence: Claudius's fear and urgency",
+        "Explanation: Heightens suspense for audience",
+        "Link: Contributes to tragedy's unfolding"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Attempts PEEL structure but lacks one or more key points",
+        "none": "Does not use PEEL structure or lacks clarity"
+      }
+    }
+  ]
+}

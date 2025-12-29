@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-5",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 5",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:52:16.646Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the state of Ophelia's mental condition in Act IV, Scene 5 of Hamlet.",
+      "keyPoints": [
+        "Ophelia's descent into madness",
+        "Her disjointed singing and speech",
+        "Signs of grief and loss related to her father's death"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes present in Act IV, Scene 5 of Hamlet.",
+      "keyPoints": [
+        "Madness",
+        "Revenge and justice",
+        "Grief and loss"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the role of Laertes in Act IV, Scene 5.",
+      "keyPoints": [
+        "Laertes' return to Denmark",
+        "His reaction to Ophelia's madness",
+        "His desire for revenge against Hamlet"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are staging Act IV, Scene 5 of Hamlet. How would you portray Ophelia's madness?",
+      "keyPoints": [
+        "Use of costume and makeup to reflect disarray",
+        "Ophelia's movements and gestures to show confusion",
+        "Vocal delivery of her lines with erratic pacing"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the theme of revenge in Act IV, Scene 5 to modern-day scenarios?",
+      "keyPoints": [
+        "Parallel of personal vendettas in contemporary conflicts",
+        "Impact of revenge on mental health",
+        "Consequences of revenge-driven actions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of grief as seen in Act IV, Scene 5 to a personal experience or a fictional narrative.",
+      "keyPoints": [
+        "Expression of grief through behavior and speech",
+        "Impact on relationships and decision-making",
+        "Coping mechanisms and eventual resolution"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Shakespeare's portrayal of madness in Act IV, Scene 5 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Shakespeare's use of language to convey madness",
+        "Evidence: Ophelia's fragmented speech and songs",
+        "Explanation: How this reflects her mental state",
+        "Link: The impact on the audience's understanding of her character"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and analysis",
+        "partial": "Includes some key points with limited explanation or analysis",
+        "none": "Lacks key points or coherent analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess Laertes' response to his father's death in Act IV, Scene 5 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Laertes' immediate desire for revenge",
+        "Evidence: His confrontation with Claudius",
+        "Explanation: The influence of his emotions on his actions",
+        "Link: Comparison to Hamlet's response to his own father's death"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and analysis",
+        "partial": "Includes some key points with limited explanation or analysis",
+        "none": "Lacks key points or coherent analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the theme of political instability in Act IV, Scene 5 using the PEEL structure.",
+      "keyPoints": [
+        "Point: The impact of Ophelia's madness on the court",
+        "Evidence: Laertes' rebellion against Claudius",
+        "Explanation: How these events reflect the larger political chaos",
+        "Link: The theme's significance in the play as a whole"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all key points with detailed explanation and analysis",
+        "partial": "Includes some key points with limited explanation or analysis",
+        "none": "Lacks key points or coherent analysis"
+      }
+    }
+  ]
+}

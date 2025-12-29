@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "part-1",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Part I",
+  "type": "recall",
+  "generatedAt": "2025-12-29T09:04:14.184Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the Congo River in Part I of Heart of Darkness?",
+      "keyPoints": [
+        "The Congo River represents the journey into the unknown and the heart of darkness.",
+        "It serves as a physical and symbolic barrier between civilization and the wilderness.",
+        "The river's winding path mirrors the complexity and unpredictability of Marlow's journey."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe Marlow's initial impressions of the Company in Part I.",
+      "keyPoints": [
+        "Marlow perceives the Company as inefficient and indifferent.",
+        "He observes the bureaucratic nature and the lack of moral clarity.",
+        "His interactions reveal the Company's greed and exploitation."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does the theme of imperialism play in Part I of Heart of Darkness?",
+      "keyPoints": [
+        "Imperialism is depicted as a force of exploitation and moral corruption.",
+        "The Company's activities highlight the dehumanizing effects of colonialism.",
+        "Marlow's observations critique the facade of 'civilizing mission'."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Marlow encounters a native African worker who shares their perspective on the Company's operations. How might Marlow's understanding of the Company and its impact change?",
+      "keyPoints": [
+        "Marlow might gain a deeper understanding of the exploitation and suffering caused by the Company.",
+        "He could experience a shift in perspective, seeing the natives as victims rather than savages.",
+        "Marlow may begin questioning his own complicity and the moral justification of imperialism."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies key concepts accurately to the scenario",
+        "partial": "Applies some concepts but lacks depth or accuracy",
+        "none": "Fails to apply concepts or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scene where Marlow witnesses a conflict between Company agents. How should he interpret this incident in the context of imperialism?",
+      "keyPoints": [
+        "Marlow might see it as a reflection of the internal chaos and moral decay within the Company.",
+        "The conflict could highlight the competition and greed driving colonial exploitation.",
+        "Marlow might recognize the futility and destructiveness of imperial ambitions."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies key concepts accurately to the scenario",
+        "partial": "Applies some concepts but lacks depth or accuracy",
+        "none": "Fails to apply concepts or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Marlow had an opportunity to speak to Kurtz at this point in the story, how might the conversation influence his views on the Company's mission?",
+      "keyPoints": [
+        "Kurtz might provide insights into the true nature of the Company's operations.",
+        "Marlow could be influenced by Kurtz's charismatic yet morally ambiguous stance.",
+        "The conversation might deepen Marlow's skepticism about the Company's motives."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies key concepts accurately to the scenario",
+        "partial": "Applies some concepts but lacks depth or accuracy",
+        "none": "Fails to apply concepts or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Conrad's use of framing narrative in Part I of Heart of Darkness.",
+      "keyPoints": [
+        "The framing narrative establishes a layered storytelling approach.",
+        "It creates a sense of distance and unreliability in Marlow's recounting.",
+        "The structure enhances themes of perception and truth."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and examples",
+        "partial": "Evaluates with some key points or lacks clear examples",
+        "none": "Lacks evaluation or clear structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the portrayal of the African landscape in Part I and its impact on the novel's themes.",
+      "keyPoints": [
+        "The landscape is depicted as mysterious and intimidating.",
+        "It symbolizes the unknown and the darkness within humanity.",
+        "Conrad uses it to challenge notions of civilization vs. savagery."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and examples",
+        "partial": "Evaluates with some key points or lacks clear examples",
+        "none": "Lacks evaluation or clear structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the depiction of European characters in Part I and its significance to the novel's critique of imperialism.",
+      "keyPoints": [
+        "European characters are portrayed as greedy and morally corrupt.",
+        "Their actions and attitudes highlight the hypocrisy of imperialism.",
+        "Conrad uses them to question the moral superiority of Europeans."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and examples",
+        "partial": "Evaluates with some key points or lacks clear examples",
+        "none": "Lacks evaluation or clear structure"
+      }
+    }
+  ]
+}

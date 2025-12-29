@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-ode-on-melancholy",
+  "subTopicTitle": "Keats — Selected Poems — Ode on Melancholy",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:33:41.875Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes explored in Keats' 'Ode on Melancholy'.",
+      "keyPoints": [
+        "Transience of joy and beauty",
+        "Nature's role in emotion",
+        "The inevitability of melancholy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the structure of 'Ode on Melancholy' and how does it contribute to its meaning?",
+      "keyPoints": [
+        "Three ten-line stanzas",
+        "Iambic pentameter",
+        "Structure reflects progression from advice to resolution"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the significance of classical references in 'Ode on Melancholy'.",
+      "keyPoints": [
+        "References to Lethe and Psyche",
+        "Connection to Greek mythology",
+        "Enhances themes of beauty and sadness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of transience in 'Ode on Melancholy' to a modern context, such as social media.",
+      "keyPoints": [
+        "Transience of happiness in online interactions",
+        "Comparisons with fleeting beauty",
+        "Melancholy resulting from the ephemerality of digital content"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the theme effectively with relevant examples",
+        "partial": "Applies theme but lacks examples or depth",
+        "none": "Fails to apply theme or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How could 'Ode on Melancholy' be used to understand the emotional impact of climate change?",
+      "keyPoints": [
+        "Nature imagery in the poem",
+        "Emotional responses to environmental changes",
+        "Parallel between natural decay and melancholy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies poem's themes effectively to climate change with examples",
+        "partial": "Applies theme with limited examples or depth",
+        "none": "Fails to apply theme or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Relate the advice given in 'Ode on Melancholy' to coping mechanisms in contemporary mental health practices.",
+      "keyPoints": [
+        "Acknowledgement of negative emotions",
+        "Avoidance of quick fixes",
+        "Embracing the complexity of emotions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Relates advice effectively to contemporary practices with examples",
+        "partial": "Relates advice but lacks examples or depth",
+        "none": "Fails to relate advice to practices or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of natural imagery in conveying the poem's themes.",
+      "keyPoints": [
+        "Evocative descriptions of nature",
+        "Symbolism in natural elements",
+        "Contrast between beauty and decay"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with detailed examples and analysis",
+        "partial": "Some evaluation with limited examples or depth",
+        "none": "Fails to evaluate or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of contrast in enhancing the emotional depth of 'Ode on Melancholy'.",
+      "keyPoints": [
+        "Juxtaposition of joy and melancholy",
+        "Contrast between vibrant life and inevitable death",
+        "Enhances understanding of complex emotions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Assesses with detailed examples and analysis",
+        "partial": "Some assessment with limited examples or depth",
+        "none": "Fails to assess or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the use of imperative voice in 'Ode on Melancholy' and its impact on the reader.",
+      "keyPoints": [
+        "Direct address to the reader",
+        "Creates urgency and immediacy",
+        "Encourages active engagement with themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critiques with detailed examples and analysis",
+        "partial": "Some critique with limited examples or depth",
+        "none": "Fails to critique or lacks examples"
+      }
+    }
+  ]
+}

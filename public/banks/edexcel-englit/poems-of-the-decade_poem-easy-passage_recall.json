@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-easy-passage",
+  "subTopicTitle": "Poems of the Decade (Anthology) — An Easy Passage — Julia Copus",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:20:10.310Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the main themes explored in 'An Easy Passage' by Julia Copus?",
+      "keyPoints": [
+        "Transition from childhood to adulthood",
+        "The fleeting nature of youth",
+        "Social class and limitations"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting of the poem 'An Easy Passage'.",
+      "keyPoints": [
+        "Takes place in a suburban area",
+        "Setting includes a house by the sea",
+        "The poem captures a moment in a hot summer day"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of the poem's title, 'An Easy Passage'.",
+      "keyPoints": [
+        "Refers to the transition from childhood to adulthood",
+        "Suggests a seemingly simple journey",
+        "Highlights the ease and risk of the moment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the theme of transition in 'An Easy Passage' apply to a person's experience moving from high school to university?",
+      "keyPoints": [
+        "Both involve significant life changes",
+        "Feelings of uncertainty and anticipation",
+        "Involves leaving behind a familiar environment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme accurately with relevant examples",
+        "partial": "Attempts to apply theme but lacks depth or relevance",
+        "none": "Fails to apply theme or is irrelevant"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a person is starting their first job. How can the imagery in 'An Easy Passage' be related to this experience?",
+      "keyPoints": [
+        "Imagery of crossing thresholds",
+        "Sense of vulnerability and exposure",
+        "The balance between excitement and fear"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately relates imagery to the scenario with examples",
+        "partial": "Relates imagery but lacks clarity or depth",
+        "none": "Fails to relate imagery or is irrelevant"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the metaphor of the 'narrow windowsill' from 'An Easy Passage' to a decision-making process.",
+      "keyPoints": [
+        "Symbolizes a precarious position",
+        "Involves risk and potential consequences",
+        "Represents a point of no return"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies metaphor with coherent examples",
+        "partial": "Applies metaphor but lacks coherence or detail",
+        "none": "Fails to apply metaphor or is irrelevant"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Julia Copus's use of imagery in conveying the themes of the poem.",
+      "keyPoints": [
+        "Imagery vividly captures the moment",
+        "Enhances the theme of transition",
+        "Creates a relatable and evocative scene"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates imagery with clear examples and coherent argument",
+        "partial": "Evaluates imagery but lacks depth or clarity",
+        "none": "Fails to evaluate imagery or is irrelevant"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of the poem's structure on its overall meaning.",
+      "keyPoints": [
+        "Free verse reflects the unpredictability of adolescence",
+        "Lack of strict rhyme scheme mirrors the fluidity of transition",
+        "Enjambment emphasizes continuous movement"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Assesses structure with detailed examples and coherent analysis",
+        "partial": "Assesses structure but lacks detail or coherence",
+        "none": "Fails to assess structure or is irrelevant"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically analyze the role of social class in shaping the experiences depicted in 'An Easy Passage'.",
+      "keyPoints": [
+        "Social class impacts opportunities and limitations",
+        "Contrast between the girl's freedom and the secretary's constraints",
+        "Highlights societal expectations and norms"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Analyzes social class with detailed examples and coherent argument",
+        "partial": "Analyzes social class but lacks depth or clarity",
+        "none": "Fails to analyze social class or is irrelevant"
+      }
+    }
+  ]
+}

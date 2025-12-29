@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-chapmans-homer",
+  "subTopicTitle": "Keats — Selected Poems — On First Looking into Chapman's Homer",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:37:25.017Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the main theme of 'On First Looking into Chapman's Homer'.",
+      "keyPoints": [
+        "The theme of discovery and exploration",
+        "The transformative power of literature",
+        "Keats's awe and wonder upon encountering Chapman's translation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of the simile used in the poem.",
+      "keyPoints": [
+        "Simile comparing Keats's experience to an astronomer discovering a new planet",
+        "Highlights the magnitude of Keats's revelation",
+        "Emphasizes the newness and excitement of the discovery"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who are the historical figures mentioned in the poem, and what is their significance?",
+      "keyPoints": [
+        "Cortez and his discovery of the Pacific Ocean",
+        "Homer as the original author",
+        "Chapman as the translator who opened up Homer’s world to Keats"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Keats’s choice of metaphor change if he were describing a modern discovery, such as the internet?",
+      "keyPoints": [
+        "Consider the impact and reach of the internet",
+        "New metaphor might involve a vast network or digital landscape",
+        "Retain the theme of exploration and revelation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with relevant modern metaphor",
+        "partial": "Attempts application but lacks detail or relevance",
+        "none": "Fails to apply theory or uses inappropriate metaphor"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Keats writing about a scientific discovery instead of a literary one. How might the poem’s imagery change?",
+      "keyPoints": [
+        "Shift from literary to scientific imagery",
+        "Use of more technical or precise language",
+        "Maintain the sense of awe and discovery"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with suitable imagery changes",
+        "partial": "Attempts application but lacks detailed or relevant imagery",
+        "none": "Fails to apply theory or uses inappropriate imagery"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of 'sublime' as used in Romantic poetry to Keats's experience in the poem.",
+      "keyPoints": [
+        "Definition of the 'sublime' in Romantic literature",
+        "Keats’s overwhelming emotional response",
+        "Connection between the sublime and the vastness of discovery"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies concept with accurate detail and relevance",
+        "partial": "Attempts application but lacks detail or clarity",
+        "none": "Fails to apply concept or is inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the poem’s structure in conveying Keats’s sense of discovery.",
+      "keyPoints": [
+        "Structure of a Petrarchan sonnet",
+        "Octave presents the initial experience",
+        "Sestet provides the emotional response and revelation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates structure with clear PEEL and detailed analysis",
+        "partial": "Attempts evaluation but lacks detail or coherence",
+        "none": "Fails to evaluate or uses incorrect analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess how Keats uses language to convey his emotional reaction to Chapman's translation.",
+      "keyPoints": [
+        "Use of vivid imagery and similes",
+        "Emphasis on personal transformation",
+        "Language that evokes awe and wonder"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Assesses language use with clear PEEL and detailed analysis",
+        "partial": "Attempts assessment but lacks detail or coherence",
+        "none": "Fails to assess or uses incorrect analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the historical accuracy of Keats's reference to Cortez in the poem.",
+      "keyPoints": [
+        "Keats mentions Cortez instead of Balboa",
+        "Historical inaccuracy in terms of who discovered the Pacific",
+        "Poetic license and its impact on the poem’s message"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critiques with clear PEEL and acknowledges poetic license",
+        "partial": "Attempts critique but lacks detail or coherence",
+        "none": "Fails to critique or uses incorrect information"
+      }
+    }
+  ]
+}

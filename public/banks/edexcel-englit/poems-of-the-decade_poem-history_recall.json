@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-history",
+  "subTopicTitle": "Poems of the Decade (Anthology) — History — John Burnside",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:19:31.340Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the central theme of John Burnside's poem 'History' in the Poems of the Decade anthology?",
+      "keyPoints": [
+        "Exploration of memory and time",
+        "Interplay between personal and historical events",
+        "Impact of past events on present identity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List three literary devices used by Burnside in 'History' and their effects.",
+      "keyPoints": [
+        "Imagery to evoke sensory experiences",
+        "Enjambment to create a flowing narrative",
+        "Symbolism to convey deeper meanings"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting and context of 'History' by John Burnside.",
+      "keyPoints": [
+        "Set on a beach post-9/11",
+        "Context of global uncertainty and fear",
+        "Contrasts between natural environment and human events"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of memory from Burnside's 'History' to a personal event you have experienced. How does your memory of this event shape your identity?",
+      "keyPoints": [
+        "Description of a personal event",
+        "Connection between memory and identity",
+        "Reflection on how memory influences perception of self"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies theme with personal insight and connection",
+        "partial": "Makes some connection but lacks depth or personal insight",
+        "none": "Fails to apply theme or lacks personal reflection"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a character in a similar setting to Burnside's 'History'. How might the environment influence your thoughts and emotions?",
+      "keyPoints": [
+        "Description of environmental influence",
+        "Emotional response to setting",
+        "Connection to broader themes of time and memory"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Detailed application of setting's influence on thoughts and emotions",
+        "partial": "Some connection to environment but lacks detail",
+        "none": "Little to no application of environmental influence"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a historical event of significance. How could the themes in 'History' by Burnside be applied to this event?",
+      "keyPoints": [
+        "Identification of historical event",
+        "Application of themes like memory and identity",
+        "Impact of event on personal and collective consciousness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies themes to historical event with clarity",
+        "partial": "Applies some themes but lacks depth or clarity",
+        "none": "Fails to connect themes to historical event"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Burnside's use of imagery in conveying the themes of 'History'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point - Imagery creates vivid scenes",
+        "Evidence - Examples from the text",
+        "Explain - How imagery supports themes",
+        "Link - Connection back to overall effectiveness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clear evaluation using PEEL with examples and logical explanation",
+        "partial": "Attempts evaluation but lacks examples or logical explanation",
+        "none": "No clear evaluation or use of PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of the natural environment in 'History' by Burnside. Use the PEEL structure.",
+      "keyPoints": [
+        "Point - Environment as a backdrop to human events",
+        "Evidence - Descriptions in the text",
+        "Explain - Contrast between nature and human history",
+        "Link - Effectiveness in highlighting themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clear assessment using PEEL with examples and logical explanation",
+        "partial": "Attempts assessment but lacks examples or logical explanation",
+        "none": "No clear assessment or use of PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the impact of the poem's structure on its themes. Use the PEEL structure.",
+      "keyPoints": [
+        "Point - Structure reflects fragmented thoughts",
+        "Evidence - Use of enjambment and stanza breaks",
+        "Explain - How structure mirrors themes of time and memory",
+        "Link - Overall impact on reader's understanding"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Clear evaluation using PEEL with examples and logical explanation",
+        "partial": "Attempts evaluation but lacks examples or logical explanation",
+        "none": "No clear evaluation or use of PEEL structure"
+      }
+    }
+  ]
+}

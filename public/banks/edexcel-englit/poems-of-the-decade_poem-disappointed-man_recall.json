@@ -1,0 +1,145 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-disappointed-man",
+  "subTopicTitle": "Poems of the Decade (Anthology) — From the Journal of a Disappointed Man — Andrew Motion",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:27:59.713Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the central theme of 'From the Journal of a Disappointed Man' by Andrew Motion.",
+      "keyPoints": [
+        "Exploration of masculinity and the male identity",
+        "Contrast between physical labor and intellectual observation",
+        "Sense of disillusionment and futility"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain two literary devices used in 'From the Journal of a Disappointed Man'.",
+      "keyPoints": [
+        "Imagery: vivid descriptions of the physical labor and setting",
+        "Enjambment: used to convey the fluidity of thought and observation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes both literary devices with explanations",
+        "partial": "Includes one device or lacks explanation",
+        "none": "Missing or incorrect devices"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the speaker's perspective in the poem 'From the Journal of a Disappointed Man'.",
+      "keyPoints": [
+        "Observer rather than participant",
+        "Skeptical and slightly detached",
+        "Reflective and introspective"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the poem's meaning change if the speaker was an active participant in the work rather than an observer?",
+      "keyPoints": [
+        "Shift from detached observation to personal involvement",
+        "Potential for greater emotional engagement",
+        "Possible change in the tone from disillusionment to a sense of accomplishment or frustration"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Addresses all key points with clarity",
+        "partial": "Touches on 1-2 points or lacks depth",
+        "none": "Does not address the scenario or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of disillusionment from the poem to a modern context. How might this theme be relevant today?",
+      "keyPoints": [
+        "Modern context of work-life balance and job satisfaction",
+        "Feelings of inadequacy or unfulfillment in contemporary society",
+        "Relevance to the gig economy and temporary work"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme effectively with relevant examples",
+        "partial": "Applies theme but with limited examples or relevance",
+        "none": "Fails to apply theme to modern context"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the use of enjambment in the poem affect a reader's understanding of the speaker's experience?",
+      "keyPoints": [
+        "Creates a sense of continuity and flow in thought",
+        "Encourages reader to focus on the observational nature of the speaker",
+        "Reflects the ongoing and unresolved nature of the speaker's thoughts"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Explains the effect of enjambment thoroughly",
+        "partial": "Mentions enjambment but lacks depth in explanation",
+        "none": "Does not address enjambment or its effect"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Andrew Motion's use of imagery in conveying the poem's central themes.",
+      "keyPoints": [
+        "Imagery vividly depicts the setting and labor, enhancing the theme of masculinity",
+        "Conveys the contrast between the physical and intellectual worlds",
+        "Strengthens the overall sense of disillusionment and detachment"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates with detailed analysis and examples",
+        "partial": "Limited evaluation with some examples",
+        "none": "Lacks evaluation or relevant examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the poem's relevance to contemporary discussions about gender roles and expectations.",
+      "keyPoints": [
+        "Challenges traditional views of masculinity",
+        "Reflects ongoing discussions about gender identity and expectations",
+        "Highlights the tension between societal roles and personal identity"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough assessment with relevant contemporary examples",
+        "partial": "Some assessment but lacks depth or examples",
+        "none": "Fails to connect poem with contemporary issues"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how the poem's structure contributes to its overall impact on the reader.",
+      "keyPoints": [
+        "Free verse structure reflects the unpredictability of the speaker's thoughts",
+        "Enjambment adds to the fluidity and ongoing nature of the speaker's observations",
+        "Lack of rhyme scheme emphasizes the disjointed and unsatisfying nature of the experience"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates structure with detailed analysis and impact",
+        "partial": "Mentions structure but lacks detailed impact analysis",
+        "none": "Lacks evaluation of structure or its impact"
+      }
+    }
+  ]
+}

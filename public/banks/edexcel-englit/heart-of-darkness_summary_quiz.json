@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "summary",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Summary",
+  "type": "quiz",
+  "generatedAt": "2025-12-29T09:02:41.363Z",
+  "items": [
+    {
+      "id": "summary-q1",
+      "question": "What is the primary setting of Joseph Conrad's 'Heart of Darkness'?",
+      "options": [
+        "The Congo River",
+        "The Amazon River",
+        "The Nile River",
+        "The Mississippi River"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The novella is set primarily on the Congo River, reflecting the European colonization of Africa."
+    },
+    {
+      "id": "summary-q2",
+      "question": "Who is the narrator of 'Heart of Darkness'?",
+      "options": [
+        "Marlow",
+        "Kurtz",
+        "The Manager",
+        "The Accountant"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Marlow narrates the story, recounting his journey into the Congo and his encounters."
+    },
+    {
+      "id": "summary-q3",
+      "question": "What is Kurtz's role in the colonial enterprise?",
+      "options": [
+        "Chief of the Inner Station",
+        "Manager of the Central Station",
+        "Captain of a steamship",
+        "Owner of a trading company"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kurtz is the Chief of the Inner Station, collecting ivory and exerting influence over the natives."
+    },
+    {
+      "id": "summary-q4",
+      "question": "Which phrase is famously associated with Kurtz?",
+      "options": [
+        "The horror! The horror!",
+        "The truth! The truth!",
+        "The light! The light!",
+        "The fall! The fall!"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Kurtz's last words, 'The horror! The horror!', signify his realization of the darkness within himself and humanity."
+    },
+    {
+      "id": "summary-q5",
+      "question": "How does Conrad portray the European colonialists in the novella?",
+      "options": [
+        "As benevolent bringers of civilization",
+        "As greedy and exploitative",
+        "As skilled navigators",
+        "As misunderstood heroes"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Conrad critiques colonialism by depicting Europeans as greedy and exploitative in their pursuit of ivory."
+    },
+    {
+      "id": "summary-q6",
+      "question": "Which character represents the 'civilized' world Marlow leaves behind?",
+      "options": [
+        "The Accountant",
+        "The Russian Trader",
+        "The Company Director",
+        "Kurtz's Fiancée"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Kurtz's Fiancée embodies the idealized European values and ignorance of the true horrors of colonialism."
+    },
+    {
+      "id": "summary-q7",
+      "question": "Which literary technique is most prevalent in 'Heart of Darkness'?",
+      "options": [
+        "Stream of consciousness",
+        "Epistolary narrative",
+        "Framed narrative",
+        "Omniscient narration"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Conrad uses a framed narrative, with Marlow's story being told within the larger context of a group on the Thames."
+    },
+    {
+      "id": "summary-q8",
+      "question": "What is the symbolic significance of the Congo River in the novella?",
+      "options": [
+        "It represents life and fertility",
+        "It symbolizes the journey into the self",
+        "It is a barrier to freedom",
+        "It is a path to enlightenment"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The Congo River symbolizes Marlow's journey into the depths of his own psyche and the darkness of humanity."
+    },
+    {
+      "id": "summary-q9",
+      "question": "What does the ivory symbolize in 'Heart of Darkness'?",
+      "options": [
+        "Purity and innocence",
+        "Wealth and exploitation",
+        "Peace and tranquility",
+        "Knowledge and wisdom"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Ivory represents the wealth derived from exploitation and the greed driving European colonialism."
+    },
+    {
+      "id": "summary-q10",
+      "question": "Marlow's journey is often seen as an exploration of what theme?",
+      "options": [
+        "The duality of human nature",
+        "The triumph of technology",
+        "The beauty of nature",
+        "The simplicity of rural life"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Marlow's journey explores the duality of human nature, revealing both civilization and savagery."
+    },
+    {
+      "id": "summary-q11",
+      "question": "How does Conrad use light and darkness as symbols?",
+      "options": [
+        "To contrast good and evil",
+        "To highlight technological advances",
+        "To depict cultural differences",
+        "To show geographical locations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "Conrad uses light and darkness to symbolize the moral ambiguity and complexity of human nature."
+    },
+    {
+      "id": "summary-q12",
+      "question": "In what way does Marlow's story affect the listeners aboard the Nellie?",
+      "options": [
+        "They fall asleep",
+        "They are indifferent",
+        "They are deeply unsettled",
+        "They are amused"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Marlow's story leaves the listeners aboard the Nellie deeply unsettled, questioning their own beliefs."
+    },
+    {
+      "id": "summary-q13",
+      "question": "What critique does Chinua Achebe offer about 'Heart of Darkness' (1977)?",
+      "options": [
+        "It is a masterpiece of English literature",
+        "It perpetuates racist stereotypes",
+        "It accurately depicts African culture",
+        "It idealizes European colonialism"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Achebe critiques the novella for perpetuating racist stereotypes, arguing it dehumanizes Africans."
+    },
+    {
+      "id": "summary-q14",
+      "question": "How does 'Heart of Darkness' challenge the notion of European superiority?",
+      "options": [
+        "By depicting European technology as advanced",
+        "By showcasing African societies as primitive",
+        "By exposing the moral corruption of Europeans",
+        "By highlighting European economic success"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The novella challenges European superiority by exposing the moral corruption and hypocrisy of colonizers."
+    },
+    {
+      "id": "summary-q15",
+      "question": "How does the narrative structure of 'Heart of Darkness' affect its reliability?",
+      "options": [
+        "It creates a clear and objective perspective",
+        "It introduces bias and subjectivity",
+        "It ensures an accurate historical account",
+        "It simplifies the complex themes"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The framed narrative introduces bias and subjectivity, as it relies on Marlow's personal account and perceptions."
+    }
+  ]
+}

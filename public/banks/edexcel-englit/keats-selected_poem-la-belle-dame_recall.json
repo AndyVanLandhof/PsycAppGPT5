@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-la-belle-dame",
+  "subTopicTitle": "Keats — Selected Poems — La Belle Dame sans Merci",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:35:53.113Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the central theme of 'La Belle Dame sans Merci' by John Keats?",
+      "keyPoints": [
+        "Exploration of the supernatural and enchantment",
+        "The theme of unrequited love and loss",
+        "The destructive nature of obsession and desire"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting and atmosphere in 'La Belle Dame sans Merci'.",
+      "keyPoints": [
+        "Medieval, desolate landscape",
+        "The season of late autumn or winter",
+        "Creates a sense of mystery and foreboding"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the narrative structure of 'La Belle Dame sans Merci'.",
+      "keyPoints": [
+        "Ballad form with quatrains",
+        "Dialogue between the knight and the speaker",
+        "Circular structure leading back to the knight's desolation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the theme of unrequited love in 'La Belle Dame sans Merci' manifest in a modern-day setting?",
+      "keyPoints": [
+        "Unrequited love expressed through modern digital communication",
+        "The transient nature of online relationships",
+        "Emotional impact on individuals feeling abandoned"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the theme to a modern context with relevant examples",
+        "partial": "Applies the theme but lacks examples or depth",
+        "none": "Fails to connect the theme to a modern context"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a film adaptation of 'La Belle Dame sans Merci'. How would you visually represent the supernatural elements?",
+      "keyPoints": [
+        "Use of ethereal lighting and special effects",
+        "Mysterious and enchanting landscapes",
+        "Symbolic imagery to represent enchantment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Provides a detailed and imaginative visual representation",
+        "partial": "Mentions some visual elements but lacks detail",
+        "none": "Fails to address the supernatural elements visually"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How can the knight's experience in 'La Belle Dame sans Merci' be related to the concept of 'toxic relationships'?",
+      "keyPoints": [
+        "Knight's enthrallment parallels emotional manipulation",
+        "Feeling of being trapped and powerless",
+        "Negative impact on mental and physical well-being"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively relates the knight's experience to toxic relationships",
+        "partial": "Makes a connection but lacks depth or clarity",
+        "none": "Fails to relate to toxic relationships"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats' use of imagery in conveying the poem's themes in 'La Belle Dame sans Merci'.",
+      "keyPoints": [
+        "Imagery creates vivid and haunting visuals",
+        "Conveys the themes of enchantment and desolation",
+        "Enhances the emotional impact on the reader"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough evaluation with examples and detailed analysis",
+        "partial": "Some evaluation with limited examples or analysis",
+        "none": "Lacks evaluation or fails to reference imagery"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the portrayal of the femme fatale archetype in 'La Belle Dame sans Merci'.",
+      "keyPoints": [
+        "The lady as an alluring but dangerous figure",
+        "Impact on the knight and his subsequent downfall",
+        "Reflects societal views on female power and sexuality"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Insightful critique with evidence and balanced analysis",
+        "partial": "Some critique with limited evidence or scope",
+        "none": "Lacks critical assessment or evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the influence of Romantic ideals in 'La Belle Dame sans Merci'.",
+      "keyPoints": [
+        "Emphasis on emotion and individual experience",
+        "Nature as a powerful and mysterious force",
+        "Interest in the supernatural and the exotic"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Comprehensive discussion with clear links to Romantic ideals",
+        "partial": "Discusses some Romantic elements but lacks depth",
+        "none": "Fails to connect with Romantic ideals"
+      }
+    }
+  ]
+}

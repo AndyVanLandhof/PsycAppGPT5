@@ -433,6 +433,118 @@ const CURRICULA = {
   }
 };
 
+// English parts (acts/scenes/chapters/poems)
+const englishParts = {
+  // Drama
+  'hamlet': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'act-1-scene-1', title: 'Act I, Scene 1' },
+    { id: 'act-1-scene-2', title: 'Act I, Scene 2' },
+    { id: 'act-1-scene-3', title: 'Act I, Scene 3' },
+    { id: 'act-1-scene-4', title: 'Act I, Scene 4' },
+    { id: 'act-1-scene-5', title: 'Act I, Scene 5' },
+    { id: 'act-2-scene-1', title: 'Act II, Scene 1' },
+    { id: 'act-2-scene-2', title: 'Act II, Scene 2' },
+    { id: 'act-3-scene-1', title: 'Act III, Scene 1' },
+    { id: 'act-3-scene-2', title: 'Act III, Scene 2' },
+    { id: 'act-3-scene-3', title: 'Act III, Scene 3' },
+    { id: 'act-3-scene-4', title: 'Act III, Scene 4' },
+    { id: 'act-4-scene-1', title: 'Act IV, Scene 1' },
+    { id: 'act-4-scene-2', title: 'Act IV, Scene 2' },
+    { id: 'act-4-scene-3', title: 'Act IV, Scene 3' },
+    { id: 'act-4-scene-4', title: 'Act IV, Scene 4' },
+    { id: 'act-4-scene-5', title: 'Act IV, Scene 5' },
+    { id: 'act-4-scene-6', title: 'Act IV, Scene 6' },
+    { id: 'act-4-scene-7', title: 'Act IV, Scene 7' },
+    { id: 'act-5-scene-1', title: 'Act V, Scene 1' },
+    { id: 'act-5-scene-2', title: 'Act V, Scene 2' },
+  ],
+  'waiting-for-godot': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'act-1', title: 'Act I' },
+    { id: 'act-1-opening', title: 'Act I — Opening' },
+    { id: 'act-1-pozzo-lucky-arrive', title: 'Act I — Pozzo & Lucky arrive' },
+    { id: 'act-1-lucky-speech', title: 'Act I — Lucky’s speech' },
+    { id: 'act-1-departure', title: 'Act I — Departure' },
+    { id: 'act-1-boy-message', title: 'Act I — The Boy’s message' },
+    { id: 'act-2', title: 'Act II' },
+    { id: 'act-2-tree-leaves', title: 'Act II — The tree' },
+    { id: 'act-2-pozzo-blind', title: 'Act II — Pozzo blind/Lucky mute' },
+    { id: 'act-2-memory-forgetting', title: 'Act II — Memory/forgetting' },
+    { id: 'act-2-boy-returns', title: 'Act II — The Boy returns' },
+    { id: 'act-2-ending', title: 'Act II — Ending' },
+  ],
+  // Prose
+  'heart-of-darkness': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'part-1', title: 'Part I' },
+    { id: 'part-1-thames-frame', title: 'Part I — Thames frame' },
+    { id: 'part-1-company-offices', title: 'Part I — Company offices' },
+    { id: 'part-1-outer-station', title: 'Part I — Outer Station' },
+    { id: 'part-1-grove-of-death', title: 'Part I — “Grove of death”' },
+    { id: 'part-2', title: 'Part II' },
+    { id: 'part-2-eldorado-expedition', title: 'Part II — Eldorado Expedition' },
+    { id: 'part-2-up-river', title: 'Part II — Up-river' },
+    { id: 'part-2-fog-attack', title: 'Part II — Fog & attack' },
+    { id: 'part-2-brickmaker', title: 'Part II — Brickmaker' },
+    { id: 'part-3', title: 'Part III' },
+    { id: 'part-3-inner-station', title: 'Part III — Inner Station' },
+    { id: 'part-3-kurtz-encounter', title: 'Part III — Kurtz encountered' },
+    { id: 'part-3-the-horror', title: 'Part III — “The horror!”' },
+    { id: 'part-3-the-intended', title: 'Part III — The Intended' },
+  ],
+  'lonely-londoners': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'whole', title: 'Whole Novel' },
+    { id: 'episode-arrival', title: 'Arrival — Newcomers & Moses' },
+    { id: 'episode-moses', title: 'Moses — Routine & mediation' },
+    { id: 'episode-galahad', title: 'Galahad — City & racism' },
+    { id: 'episode-cap', title: 'Cap — Hustle & resourcefulness' },
+    { id: 'episode-bart', title: 'Bart — Status & colorism' },
+    { id: 'episode-summer-sequence', title: 'Summer sequence — Carnival' },
+    { id: 'episode-tanty', title: 'Tanty — Community & remittances' },
+    { id: 'episode-hyde-park', title: 'Hyde Park — Leisure & gaze' },
+    { id: 'episode-winter', title: 'Winter — Cold & hardship' },
+    { id: 'episode-closing', title: 'Closing — Moses’s reflection' },
+  ],
+  // Poetry
+  'poems-of-the-decade': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'poem-eat-me', title: 'Eat Me — Patience Agbabi' },
+    { id: 'poem-chainsaw', title: 'Chainsaw Versus the Pampas Grass — Simon Armitage' },
+    { id: 'poem-material', title: 'Material — Ros Barber' },
+    { id: 'poem-history', title: 'History — John Burnside' },
+    { id: 'poem-easy-passage', title: 'An Easy Passage — Julia Copus' },
+    { id: 'poem-deliverer', title: 'The Deliverer — Tishani Doshi' },
+    { id: 'poem-lammas-hireling', title: 'The Lammas Hireling — Ian Duhig' },
+    { id: 'poem-nine-year-old-self', title: 'To My Nine-Year-Old Self — Helen Dunmore' },
+    { id: 'poem-minor-role', title: 'A Minor Role — U A Fanthorpe' },
+    { id: 'poem-gun', title: 'The Gun — Vicki Feaver' },
+    { id: 'poem-furthest-distances', title: "The Furthest Distances I've Travelled — Leontia Flynn" },
+    { id: 'poem-giuseppe', title: 'Giuseppe — Roderick Ford' },
+    { id: 'poem-out-of-the-bag', title: 'Out of the Bag — Seamus Heaney' },
+    { id: 'poem-effects', title: 'Effects — Alan Jenkins' },
+    { id: 'poem-genetics', title: 'Genetics — Sinéad Morrissey' },
+    { id: 'poem-disappointed-man', title: 'From the Journal of a Disappointed Man — Andrew Motion' },
+    { id: 'poem-look-we-have-coming', title: 'Look We Have Coming to Dover! — Daljit Nagra' },
+    { id: 'poem-please-hold', title: 'Please Hold — Ciaran O’Driscoll' },
+    { id: 'poem-on-her-blindness', title: 'On Her Blindness — Adam Thorpe' },
+    { id: 'poem-grayson-perry-urn', title: 'Ode on a Grayson Perry Urn — Tim Turnbull' },
+  ],
+  'keats-selected': [
+    { id: 'summary', title: 'Summary' },
+    { id: 'poem-ode-to-a-nightingale', title: 'Ode to a Nightingale' },
+    { id: 'poem-ode-on-a-grecian-urn', title: 'Ode on a Grecian Urn' },
+    { id: 'poem-ode-on-melancholy', title: 'Ode on Melancholy' },
+    { id: 'poem-ode-to-psyche', title: 'Ode to Psyche' },
+    { id: 'poem-to-autumn', title: 'To Autumn' },
+    { id: 'poem-la-belle-dame', title: 'La Belle Dame sans Merci' },
+    { id: 'poem-bright-star', title: 'Bright Star' },
+    { id: 'poem-chapmans-homer', title: "On First Looking into Chapman's Homer" },
+    { id: 'poem-eve-of-st-agnes', title: 'The Eve of St Agnes' },
+  ],
+};
+
 // ============================================================================
 // Prompt Templates
 // ============================================================================
@@ -699,6 +811,48 @@ async function generateAll(options = {}) {
     for (const topic of filteredTopics) {
       console.log(`\n  📖 ${topic.title}`);
       
+      // Special handling for Edexcel EngLit: iterate per-part/poem using englishParts
+      if (curriculumId === 'edexcel-englit') {
+        const parts = englishParts[topic.id] || [];
+        for (const part of parts) {
+          const subTopic = { id: part.id, title: `${topic.title} — ${part.title}` };
+          for (const type of types) {
+            const label = `${type.padEnd(10)} ${subTopic.title}`;
+            process.stdout.write(`    ⏳ ${label}...`);
+            
+            try {
+              let bank;
+              switch (type) {
+                case 'flashcards':
+                  bank = await generateFlashcards(curriculumId, topic, subTopic);
+                  break;
+                case 'quiz':
+                  bank = await generateQuiz(curriculumId, topic, subTopic);
+                  break;
+                case 'recall':
+                  bank = await generateRecall(curriculumId, topic, subTopic);
+                  break;
+              }
+              
+              const filepath = saveBank(bank);
+              const itemCount = bank.items?.length || 0;
+              process.stdout.write(`\r    ✅ ${label} (${itemCount} items) → ${path.basename(filepath)}\n`);
+              totalGenerated++;
+              
+              // Rate limiting
+              await delay(RATE_LIMIT_DELAY_MS);
+              
+            } catch (error) {
+              process.stdout.write(`\r    ❌ ${label} - ${error.message}\n`);
+              totalErrors++;
+            }
+          }
+        }
+        // Skip subTopics loop for englit
+        continue;
+      }
+      
+      // Default (AQA, OCR)
       for (const subTopic of topic.subTopics) {
         for (const type of types) {
           const label = `${type.padEnd(10)} ${subTopic.title}`;

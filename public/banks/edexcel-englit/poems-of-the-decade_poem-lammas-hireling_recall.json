@@ -1,0 +1,151 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-lammas-hireling",
+  "subTopicTitle": "Poems of the Decade (Anthology) — The Lammas Hireling — Ian Duhig",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:21:35.549Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify the key themes present in 'The Lammas Hireling' by Ian Duhig.",
+      "keyPoints": [
+        "Transformation",
+        "Guilt and confession",
+        "Supernatural elements",
+        "Isolation and secrecy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the narrative perspective in 'The Lammas Hireling'.",
+      "keyPoints": [
+        "First-person perspective",
+        "Unreliable narrator",
+        "Confessional tone"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List and explain two literary devices used in 'The Lammas Hireling' by Ian Duhig.",
+      "keyPoints": [
+        "Imagery",
+        "Symbolism",
+        "Enjambment",
+        "Alliteration"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the theme of transformation in 'The Lammas Hireling' be applied to a character undergoing change in another poem from the anthology?",
+      "keyPoints": [
+        "Identify the other poem and character",
+        "Explain the transformation in both poems",
+        "Discuss similarities and differences"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies theme to both poems with accurate comparison",
+        "partial": "Applies theme but lacks depth or comparison",
+        "none": "Fails to apply theme accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of an unreliable narrator from 'The Lammas Hireling' to a character in a novel or play you have studied.",
+      "keyPoints": [
+        "Identify the character",
+        "Explain the unreliability in both texts",
+        "Discuss the impact on the audience"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Applies concept accurately with clear comparison",
+        "partial": "Applies concept but lacks depth or detail",
+        "none": "Fails to apply concept accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where a character experiences guilt. How can 'The Lammas Hireling' inform your understanding of this emotion?",
+      "keyPoints": [
+        "Describe the scenario",
+        "Connect guilt in both context",
+        "Analyze the expression of guilt"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Connects the emotion accurately with detailed analysis",
+        "partial": "Connects emotion but lacks depth or detail",
+        "none": "Fails to connect emotion accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the imagery in 'The Lammas Hireling' using the PEEL structure.",
+      "keyPoints": [
+        "Point: State the effectiveness",
+        "Evidence: Quote imagery",
+        "Explanation: Analyze impact",
+        "Link: Relate back to themes"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with detailed analysis",
+        "partial": "Uses PEEL structure but lacks depth or detail",
+        "none": "Fails to use PEEL structure effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the theme of secrecy in 'The Lammas Hireling' and its contribution to the poem's overall meaning.",
+      "keyPoints": [
+        "Point: Identify secrecy theme",
+        "Evidence: Quote supporting text",
+        "Explanation: Analyze role of secrecy",
+        "Link: Connect to poem's meaning"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Evaluates theme effectively with detailed analysis",
+        "partial": "Evaluates theme but lacks depth or detail",
+        "none": "Fails to evaluate theme effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the use of supernatural elements in 'The Lammas Hireling'.",
+      "keyPoints": [
+        "Point: State the use of supernatural",
+        "Evidence: Quote examples",
+        "Explanation: Analyze its impact",
+        "Link: Connect to poem's themes"
+      ],
+      "wordRange": "150-200",
+      "markingCriteria": {
+        "full": "Assesses supernatural elements with detailed analysis",
+        "partial": "Assesses but lacks depth or detail",
+        "none": "Fails to assess supernatural elements effectively"
+      }
+    }
+  ]
+}

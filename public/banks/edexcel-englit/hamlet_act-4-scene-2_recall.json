@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-4-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act IV, Scene 2",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:50:04.121Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the interaction between Hamlet and Rosencrantz and Guildenstern in Act IV, Scene 2.",
+      "keyPoints": [
+        "Hamlet's dismissive attitude towards Rosencrantz and Guildenstern",
+        "The metaphor of the sponge used by Hamlet",
+        "Hamlet's awareness of their allegiance to Claudius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the metaphor of the 'sponge' as used by Hamlet in this scene.",
+      "keyPoints": [
+        "The sponge metaphor refers to Rosencrantz and Guildenstern absorbing the king's favor",
+        "Implying they are tools of the king, used and discarded as needed",
+        "Symbolizes their lack of integrity and independence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize Hamlet's attitude towards his own fate in this scene.",
+      "keyPoints": [
+        "Hamlet displays a sense of inevitability about his fate",
+        "He is resigned to the course of events set in motion",
+        "Shows awareness of being manipulated by those around him"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of betrayal to the relationship between Hamlet and Rosencrantz and Guildenstern in this scene.",
+      "keyPoints": [
+        "Rosencrantz and Guildenstern's loyalty to Claudius over Hamlet",
+        "Hamlet's awareness of their betrayal",
+        "The impact of betrayal on Hamlet's trust and isolation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme with all key points accurately",
+        "partial": "Applies theme with some points or lacks detail",
+        "none": "Misapplies theme or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does Shakespeare use dramatic irony in the interaction between Hamlet and his former friends?",
+      "keyPoints": [
+        "Audience's awareness of Rosencrantz and Guildenstern's true intentions",
+        "Hamlet's indirect communication and sarcasm",
+        "Tension created by Hamlet's hidden knowledge versus their ignorance"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies dramatic irony with all key points accurately",
+        "partial": "Applies dramatic irony with some points or lacks detail",
+        "none": "Misapplies dramatic irony or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how Hamlet's language in this scene reflects his state of mind.",
+      "keyPoints": [
+        "Use of sarcasm and wit",
+        "Reflects his disillusionment and frustration",
+        "Indicates his strategic and cautious nature"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies language analysis with all key points accurately",
+        "partial": "Applies language analysis with some points or lacks detail",
+        "none": "Misapplies language analysis or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Shakespeare's portrayal of espionage and deceit in this scene using the PEEL structure.",
+      "keyPoints": [
+        "Point: Espionage is a central theme",
+        "Evidence: Rosencrantz and Guildenstern's role as informants",
+        "Explain: Highlights themes of trust and betrayal",
+        "Link: Contributes to the play's tension and Hamlet's isolation"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed evaluation",
+        "partial": "Includes some PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the use of metaphors in this scene using PEEL structure.",
+      "keyPoints": [
+        "Point: Metaphors enhance thematic depth",
+        "Evidence: 'Sponge' metaphor",
+        "Explain: Conveys manipulation and lack of integrity",
+        "Link: Reinforces themes of deceit and power dynamics"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed evaluation",
+        "partial": "Includes some PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or lacks evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the impact of Hamlet's interactions with Rosencrantz and Guildenstern on the development of the play's central themes using PEEL structure.",
+      "keyPoints": [
+        "Point: Interaction highlights themes of betrayal and loyalty",
+        "Evidence: Hamlet's distrust and sarcasm",
+        "Explain: Reflects broader themes of espionage and manipulation",
+        "Link: Integral to character development and plot progression"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes all PEEL elements with detailed evaluation",
+        "partial": "Includes some PEEL elements or lacks detail",
+        "none": "Missing PEEL elements or lacks evaluation"
+      }
+    }
+  ]
+}

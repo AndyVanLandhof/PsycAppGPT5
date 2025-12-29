@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-3-scene-1",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act III, Scene 1",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:45:45.781Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the 'To be, or not to be' soliloquy in Act III, Scene 1?",
+      "keyPoints": [
+        "Contemplates life and death",
+        "Reflects Hamlet's inner turmoil and existential crisis",
+        "Demonstrates Hamlet's philosophical nature"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who are the key characters present in Act III, Scene 1, and what are their main objectives?",
+      "keyPoints": [
+        "King Claudius and Polonius: To spy on Hamlet",
+        "Hamlet: To contemplate his existence",
+        "Ophelia: Used by Polonius to gauge Hamlet’s madness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of Ophelia in Act III, Scene 1 of Hamlet.",
+      "keyPoints": [
+        "Used as a pawn by Polonius and Claudius",
+        "Represents innocence and victimhood",
+        "Her interaction with Hamlet reveals his conflicted feelings"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are directing a stage production of Hamlet. How would you portray Hamlet's emotional state during the 'To be, or not to be' soliloquy?",
+      "keyPoints": [
+        "Use of lighting to reflect mood (e.g., dim lighting)",
+        "Hamlet's body language (e.g., slouched, contemplative)",
+        "Tone of voice (e.g., introspective, melancholic)"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with creative application",
+        "partial": "Includes 1-2 key points or lacks creativity",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you use costume design to emphasize the themes of appearance vs. reality in Act III, Scene 1?",
+      "keyPoints": [
+        "Contrasting costumes for Hamlet (e.g., disheveled vs. regal)",
+        "Ophelia's attire reflecting innocence vs. manipulation",
+        "Claudius and Polonius in formal attire to indicate deception"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with creative application",
+        "partial": "Includes 1-2 key points or lacks creativity",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If you were to modernize Act III, Scene 1, how would you adapt the setting to reflect contemporary themes?",
+      "keyPoints": [
+        "Use of modern technology (e.g., surveillance cameras)",
+        "Corporate boardroom setting for political intrigue",
+        "Casual clothing to reflect modern existential themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with creative application",
+        "partial": "Includes 1-2 key points or lacks creativity",
+        "none": "Missing key points or lacks application"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the theme of madness in Act III, Scene 1 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Madness is a central theme explored through Hamlet and Ophelia.",
+        "Evidence: Hamlet's erratic behavior and soliloquies.",
+        "Explanation: Reflects both genuine distress and strategic deception.",
+        "Link: Contributes to the play's exploration of reality vs. appearance."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure and includes all key points",
+        "partial": "Uses PEEL structure but lacks detail or misses key points",
+        "none": "Does not use PEEL structure or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Using the PEEL structure, evaluate the role of espionage in Act III, Scene 1.",
+      "keyPoints": [
+        "Point: Espionage drives the plot and creates tension.",
+        "Evidence: Claudius and Polonius spying on Hamlet.",
+        "Explanation: Highlights themes of distrust and deception.",
+        "Link: Reflects the corrupt nature of the court."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure and includes all key points",
+        "partial": "Uses PEEL structure but lacks detail or misses key points",
+        "none": "Does not use PEEL structure or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the portrayal of gender roles in Act III, Scene 1 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Gender roles are highlighted through Ophelia's treatment.",
+        "Evidence: Polonius and Claudius manipulate Ophelia.",
+        "Explanation: Reflects the patriarchal society and Ophelia's lack of agency.",
+        "Link: Contributes to the theme of power dynamics."
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Effectively uses PEEL structure and includes all key points",
+        "partial": "Uses PEEL structure but lacks detail or misses key points",
+        "none": "Does not use PEEL structure or lacks relevance"
+      }
+    }
+  ]
+}

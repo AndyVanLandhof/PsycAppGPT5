@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-bright-star",
+  "subTopicTitle": "Keats — Selected Poems — Bright Star",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:36:39.953Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the main theme of Keats's poem 'Bright Star'.",
+      "keyPoints": [
+        "Theme of eternal love",
+        "Contrast between permanence and transience",
+        "Desire for constancy in a changing world"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the use of imagery in 'Bright Star'.",
+      "keyPoints": [
+        "Imagery of the star as a symbol of permanence",
+        "Imagery of nature to contrast with human experience",
+        "Imagery of watching and stillness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the sonnet form in 'Bright Star'?",
+      "keyPoints": [
+        "Traditional sonnet form reflects timelessness",
+        "Use of iambic pentameter",
+        "Volta introduces a shift in tone or perspective"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the meaning of 'Bright Star' change if the star symbolized something ephemeral rather than eternal?",
+      "keyPoints": [
+        "Change in theme from permanence to transience",
+        "Impact on the expression of love and desire",
+        "Alteration in the tone of longing and constancy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with clear explanation",
+        "partial": "Applies theory with some inaccuracies or lacks depth",
+        "none": "Fails to apply theory or explanation is unclear"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider the poem's ending. How might the poem's message differ if it ended on a note of certainty rather than longing?",
+      "keyPoints": [
+        "Impact on tone from uncertainty to resolution",
+        "Shift in the portrayal of love's nature",
+        "Change in emotional resonance and closure"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with clear explanation",
+        "partial": "Applies theory with some inaccuracies or lacks depth",
+        "none": "Fails to apply theory or explanation is unclear"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Keats had used a different natural element, like the ocean, instead of a star, how would the poem's themes and imagery be affected?",
+      "keyPoints": [
+        "Ocean symbolism might emphasize change and fluidity",
+        "Imagery could focus on movement rather than stillness",
+        "Theme could shift from permanence to the inevitability of change"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory accurately with clear explanation",
+        "partial": "Applies theory with some inaccuracies or lacks depth",
+        "none": "Fails to apply theory or explanation is unclear"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats's use of the star as a symbol in conveying the poem's themes.",
+      "keyPoints": [
+        "Symbolism of the star as eternal and unchanging",
+        "Contrast with human love and mortality",
+        "How effectively this encapsulates the poem's central tension"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes evaluation of all key points using PEEL structure",
+        "partial": "Includes evaluation of 1-2 key points or lacks PEEL structure",
+        "none": "Lacks evaluation or PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of Keats's language choices on the mood of 'Bright Star'.",
+      "keyPoints": [
+        "Use of formal diction to create a sense of timelessness",
+        "How language evokes longing and desire",
+        "Contrast in language between permanence and transience"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes evaluation of all key points using PEEL structure",
+        "partial": "Includes evaluation of 1-2 key points or lacks PEEL structure",
+        "none": "Lacks evaluation or PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically evaluate how the structure of 'Bright Star' influences the reader's understanding of the poem's themes.",
+      "keyPoints": [
+        "Effect of the sonnet structure on theme development",
+        "Role of the volta in shifting perspective",
+        "Connection between structure and emotional impact"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Includes evaluation of all key points using PEEL structure",
+        "partial": "Includes evaluation of 1-2 key points or lacks PEEL structure",
+        "none": "Lacks evaluation or PEEL structure"
+      }
+    }
+  ]
+}

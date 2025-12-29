@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-1",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act I",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T17:56:03.085Z",
+  "items": [
+    {
+      "id": "act-1-q1",
+      "question": "Which character is the first to speak in Act I of 'Waiting for Godot'?",
+      "options": [
+        "Estragon",
+        "Vladimir",
+        "Pozzo",
+        "Lucky"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Estragon is the first to speak, struggling with his boot, setting the tone of the play's focus on waiting and mundane actions."
+    },
+    {
+      "id": "act-1-q2",
+      "question": "What is the main setting of 'Waiting for Godot' Act I?",
+      "options": [
+        "A barren room",
+        "A country road with a tree",
+        "A bustling city street",
+        "A theatre stage"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "The play's setting is notably sparse, with a country road and a single tree, emphasizing the theme of existential emptiness."
+    },
+    {
+      "id": "act-1-q3",
+      "question": "What does Vladimir frequently do throughout Act I that highlights his nervousness?",
+      "options": [
+        "Sings songs",
+        "Paces back and forth",
+        "Checks his hat",
+        "Reads a book"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Vladimir repeatedly checks his hat, a habit that underscores his anxiety and the play's focus on repetitive, meaningless actions."
+    },
+    {
+      "id": "act-1-q4",
+      "question": "Which character arrives in Act I and is described as a master to another character?",
+      "options": [
+        "Godot",
+        "Lucky",
+        "Pozzo",
+        "The boy"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pozzo enters as a master to Lucky, illustrating themes of power and dependence in human relationships."
+    },
+    {
+      "id": "act-1-q5",
+      "question": "What does Estragon suggest doing to pass the time while waiting for Godot?",
+      "options": [
+        "Reading a book",
+        "Taking a nap",
+        "Hanging themselves",
+        "Playing cards"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Estragon suggests they hang themselves, a darkly humorous suggestion that reflects the play's exploration of despair and the absurd."
+    },
+    {
+      "id": "act-1-q6",
+      "question": "How does Pozzo control Lucky in Act I?",
+      "options": [
+        "By yelling commands",
+        "With a whip",
+        "By holding a rope",
+        "Through threats of violence"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Pozzo controls Lucky using a rope, symbolizing the tangible yet oppressive bonds of authority."
+    },
+    {
+      "id": "act-1-q7",
+      "question": "What recurring phrase do both Vladimir and Estragon say in Act I to indicate their endless waiting?",
+      "options": [
+        "'Let's go.'",
+        "'It's time.'",
+        "'Any day now.'",
+        "'He'll come.'"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "The phrase 'Let's go.' is repeated, ironic in its context as they never actually leave, symbolizing their existential inertia."
+    },
+    {
+      "id": "act-1-q8",
+      "question": "Which character has a monologue in Act I that is a stream of consciousness?",
+      "options": [
+        "Estragon",
+        "Vladimir",
+        "Pozzo",
+        "Lucky"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Lucky delivers a lengthy, disjointed monologue, highlighting Beckett's use of language to depict the chaos of thought."
+    },
+    {
+      "id": "act-1-q9",
+      "question": "Who are Vladimir and Estragon waiting for in Act I?",
+      "options": [
+        "Pozzo",
+        "Lucky",
+        "The boy",
+        "Godot"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Godot is the central figure they await, representing the elusive meaning or salvation they seek."
+    },
+    {
+      "id": "act-1-q10",
+      "question": "In Act I, how do Vladimir and Estragon react to Pozzo and Lucky's arrival?",
+      "options": [
+        "With excitement",
+        "With hostility",
+        "With curiosity",
+        "With indifference"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "Their reaction of curiosity to Pozzo and Lucky's arrival breaks the monotony of waiting, illustrating their desire for distraction."
+    },
+    {
+      "id": "act-1-q11",
+      "question": "What does the tree symbolize in Act I when Vladimir and Estragon consider hanging themselves?",
+      "options": [
+        "Hope",
+        "Death",
+        "Life",
+        "Freedom"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO2",
+      "explanation": "The tree is a symbol of death when they contemplate hanging themselves, emphasizing the play's exploration of despair."
+    },
+    {
+      "id": "act-1-q12",
+      "question": "How does the boy's message affect Vladimir and Estragon's actions at the end of Act I?",
+      "options": [
+        "They decide to leave",
+        "They become hopeful",
+        "They remain in place",
+        "They get angry"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "The boy's message that Godot will not come today leads them to remain in place, reinforcing the futility of their wait."
+    },
+    {
+      "id": "act-1-q13",
+      "question": "What is the significance of the hats in Act I of 'Waiting for Godot'?",
+      "options": [
+        "They represent social status",
+        "They are a symbol of identity",
+        "They show the passage of time",
+        "They are a distraction"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "The hats symbolize identity and the interchangeable nature of the characters, reflecting the play’s existential themes."
+    },
+    {
+      "id": "act-1-q14",
+      "question": "How does Beckett's use of pauses in Act I influence the audience's perception of time?",
+      "options": [
+        "Creates a fast pace",
+        "Highlights the absurdity",
+        "Emphasizes the passing of time",
+        "Induces frustration"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Beckett's strategic pauses induce frustration, mirroring the characters' endless wait and the audience's engagement with time."
+    },
+    {
+      "id": "act-1-q15",
+      "question": "In what way does Beckett's portrayal of Pozzo and Lucky's relationship critique societal hierarchies?",
+      "options": [
+        "By showing mutual respect",
+        "Through comedic interaction",
+        "By exaggerating dependence",
+        "Through harmonious balance"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO3",
+      "explanation": "The exaggerated dependence between Pozzo and Lucky critiques societal hierarchies, highlighting the absurdity of power dynamics."
+    }
+  ]
+}

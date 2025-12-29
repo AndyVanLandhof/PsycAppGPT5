@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-grayson-perry-urn",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Ode on a Grayson Perry Urn — Tim Turnbull",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:30:42.410Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes present in Tim Turnbull's 'Ode on a Grayson Perry Urn'.",
+      "keyPoints": [
+        "Contrast between modern life and classical art",
+        "Consumerism and contemporary culture",
+        "Satire of romanticizing everyday life"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key themes with accurate detail",
+        "partial": "Includes 1-2 key themes or lacks detail",
+        "none": "Missing key themes or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What literary devices does Turnbull use in 'Ode on a Grayson Perry Urn'?",
+      "keyPoints": [
+        "Satire",
+        "Imagery",
+        "Allusion to Keats' 'Ode on a Grecian Urn'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Identifies all key literary devices with accurate examples",
+        "partial": "Identifies 1-2 literary devices or lacks examples",
+        "none": "Missing literary devices or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure and form of 'Ode on a Grayson Perry Urn'.",
+      "keyPoints": [
+        "Five stanzas",
+        "Mimics the structure of a traditional ode",
+        "Enjambment and varying line lengths"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Describes all key structural elements with detail",
+        "partial": "Describes 1-2 structural elements or lacks detail",
+        "none": "Missing structural elements or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the theme of consumerism in 'Ode on a Grayson Perry Urn' to modern society?",
+      "keyPoints": [
+        "Link between consumer culture and identity",
+        "Impact of media and advertising",
+        "Reflection on how society values material goods"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme to modern society with relevant examples",
+        "partial": "Applies theme with limited examples or depth",
+        "none": "Fails to apply theme or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a modern object that could be featured on a Perry-style urn. How would Turnbull's themes apply to this object?",
+      "keyPoints": [
+        "Object represents contemporary culture",
+        "Connection to consumerism or societal values",
+        "Potential for satire or juxtaposition"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies themes to chosen object with clear reasoning",
+        "partial": "Applies themes with limited reasoning or clarity",
+        "none": "Fails to apply themes or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how Turnbull's use of imagery in 'Ode on a Grayson Perry Urn' enhances the poem's themes.",
+      "keyPoints": [
+        "Imagery of modern life",
+        "Contrast with classical imagery",
+        "Creates vivid scenes that highlight themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Analyzes imagery with clear examples and relation to themes",
+        "partial": "Analyzes imagery with limited examples or depth",
+        "none": "Fails to analyze imagery or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Turnbull's satirical approach in 'Ode on a Grayson Perry Urn'.",
+      "keyPoints": [
+        "Effectiveness in critiquing modern culture",
+        "Use of humor and irony",
+        "Comparison with Keats' original"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates satirical approach with balanced argument and examples",
+        "partial": "Evaluates with limited argument or examples",
+        "none": "Fails to evaluate or lacks relevant argument"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the impact of Turnbull's poem on the reader's perception of modern art and culture.",
+      "keyPoints": [
+        "Challenges traditional views of art",
+        "Encourages reflection on contemporary culture",
+        "Blurs lines between high art and popular culture"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses impact with clear reasoning and examples",
+        "partial": "Discusses impact with limited reasoning or examples",
+        "none": "Fails to discuss impact or lacks relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the relevance of 'Ode on a Grayson Perry Urn' in the context of today's cultural landscape.",
+      "keyPoints": [
+        "Relevance to current societal issues",
+        "Reflection on lasting impact of consumerism",
+        "Adaptability of themes to current trends"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critiques relevance with detailed analysis and examples",
+        "partial": "Critiques relevance with limited analysis or examples",
+        "none": "Fails to critique relevance or lacks detail"
+      }
+    }
+  ]
+}

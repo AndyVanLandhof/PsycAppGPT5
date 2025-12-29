@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 2",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:40:52.229Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the initial impression of Claudius as presented in Act I, Scene 2 of Hamlet.",
+      "keyPoints": [
+        "Claudius is portrayed as politically astute",
+        "He presents himself as a caring and capable ruler",
+        "There are hints of underlying deceit in his speech"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize Hamlet's soliloquy in Act I, Scene 2.",
+      "keyPoints": [
+        "Hamlet expresses grief and frustration",
+        "He is disillusioned with his mother's hasty remarriage",
+        "He contemplates the nature of existence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main themes introduced in Act I, Scene 2 of Hamlet.",
+      "keyPoints": [
+        "Appearance vs. reality",
+        "Corruption and decay",
+        "Grief and mourning"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Hamlet's response to Gertrude's remarriage differ if he were a modern character?",
+      "keyPoints": [
+        "Modern perspectives on grief and remarriage",
+        "Potential for open communication with Gertrude",
+        "Different societal views on mental health"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies modern context appropriately with all key points",
+        "partial": "Applies some modern context with some key points",
+        "none": "Fails to apply modern context or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine Claudius's speech in Act I, Scene 2 being delivered at a modern political event. How would it be received?",
+      "keyPoints": [
+        "Use of rhetoric and persuasion",
+        "Public perception of authenticity",
+        "Media and public scrutiny"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Fully applies context of modern political events with all key points",
+        "partial": "Applies some context with some key points",
+        "none": "Fails to apply context or lacks key points"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Hamlet's soliloquy was delivered in a contemporary setting, how might the language and tone change?",
+      "keyPoints": [
+        "Use of modern language and slang",
+        "Potential changes in tone to reflect current societal attitudes",
+        "Expression of emotions such as anger and sadness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Fully adapts language and tone with all key points",
+        "partial": "Adapts some language and tone with some key points",
+        "none": "Fails to adapt language and tone or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Claudius’s speech in establishing his character in Act I, Scene 2 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Claudius is established as a shrewd politician",
+        "Evidence: His diplomatic handling of Norway situation",
+        "Explanation: His speech reveals his manipulative nature",
+        "Link: Sets the stage for his role as antagonist"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL structure but missing some key points",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate how Hamlet's soliloquy in Act I, Scene 2 contributes to the development of his character using the PEEL structure.",
+      "keyPoints": [
+        "Point: Soliloquy reveals Hamlet's inner turmoil",
+        "Evidence: His expressions of despair and disillusionment",
+        "Explanation: Provides insight into his mental state",
+        "Link: Foreshadows his later actions"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL structure but missing some key points",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the theme of appearance vs. reality as introduced in Act I, Scene 2 using the PEEL structure.",
+      "keyPoints": [
+        "Point: Theme is central to Claudius's character",
+        "Evidence: His outward show of grief contrasts with his actions",
+        "Explanation: Highlights the duplicity in the court",
+        "Link: Sets up a motif that recurs throughout the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure effectively with all key points",
+        "partial": "Uses PEEL structure but missing some key points",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    }
+  ]
+}

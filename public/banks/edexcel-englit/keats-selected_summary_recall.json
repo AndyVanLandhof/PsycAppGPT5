@@ -1,0 +1,148 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "summary",
+  "subTopicTitle": "Keats — Selected Poems — Summary",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:31:29.002Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Name three key themes found in Keats's 'Ode to a Nightingale' and briefly explain each theme.",
+      "keyPoints": [
+        "Transience and mortality",
+        "Nature and its beauty",
+        "Imagination and escapism"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List and describe two literary devices used by Keats in 'To Autumn'.",
+      "keyPoints": [
+        "Imagery to describe the richness of autumn",
+        "Personification of autumn as a character"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes both key points with accurate detail",
+        "partial": "Includes 1 key point or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the structure of 'Ode on a Grecian Urn' and explain its significance.",
+      "keyPoints": [
+        "The poem consists of five stanzas",
+        "Each stanza is a ten-line ode",
+        "Structure reflects the permanence and beauty of art"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Keats's use of imagery in 'Bright Star' be applied to convey the theme of eternal love?",
+      "keyPoints": [
+        "Imagery of the star as an eternal entity",
+        "Contrast with the transient human condition",
+        "Use of nature to symbolize permanence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively to the scenario",
+        "partial": "Applies 1-2 key points or lacks effectiveness",
+        "none": "Does not apply key points effectively"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply Keats's concept of 'negative capability' to a modern scenario of artistic creation.",
+      "keyPoints": [
+        "Embrace of uncertainty and doubt",
+        "Focus on beauty and emotion over logic",
+        "Example of a modern artist or work"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively to the scenario",
+        "partial": "Applies 1-2 key points or lacks effectiveness",
+        "none": "Does not apply key points effectively"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might Keats's exploration of mortality in 'Ode to a Nightingale' be used to address contemporary issues of existential anxiety?",
+      "keyPoints": [
+        "Nightingale's song as an escape from reality",
+        "Contrast between fleeting life and permanent art",
+        "Relevance to modern existential concerns"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points effectively to the scenario",
+        "partial": "Applies 1-2 key points or lacks effectiveness",
+        "none": "Does not apply key points effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats's use of sensory imagery in 'To Autumn' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Sensory imagery enhances the poem's richness",
+        "Evidence: Detailed descriptions of sights and sounds",
+        "Explanation: Immerses the reader in the autumnal setting",
+        "Link: Contributes to the theme of the season's abundance"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using all key points in PEEL structure with clear evidence",
+        "partial": "Evaluates with 1-2 key points or lacks clear evidence",
+        "none": "Does not use PEEL structure effectively or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of nature in Keats's 'Ode on a Grecian Urn' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Nature is a central theme in the poem",
+        "Evidence: Descriptions of urn's scenes depicting nature",
+        "Explanation: Highlights timelessness and beauty",
+        "Link: Reflects Keats's Romantic ideals"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using all key points in PEEL structure with clear evidence",
+        "partial": "Evaluates with 1-2 key points or lacks clear evidence",
+        "none": "Does not use PEEL structure effectively or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the portrayal of melancholy in 'Ode on Melancholy' using the PEEL structure.",
+      "keyPoints": [
+        "Point: Melancholy is intertwined with beauty",
+        "Evidence: Imagery of transient pleasures",
+        "Explanation: Suggests deeper appreciation of beauty",
+        "Link: Reflects Keats's philosophical views on life"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using all key points in PEEL structure with clear evidence",
+        "partial": "Evaluates with 1-2 key points or lacks clear evidence",
+        "none": "Does not use PEEL structure effectively or lacks key points"
+      }
+    }
+  ]
+}

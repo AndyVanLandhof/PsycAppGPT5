@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-2-boy-returns",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act II — The Boy returns",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:03:18.110Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the role of the Boy in Act II of 'Waiting for Godot'.",
+      "keyPoints": [
+        "The Boy serves as a messenger from Godot",
+        "He informs Vladimir and Estragon that Godot will not come today",
+        "The Boy's return highlights the cyclical nature of the play"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the significance of the Boy forgetting the events of Act I.",
+      "keyPoints": [
+        "Emphasizes themes of memory and forgetfulness",
+        "Highlights the repetitive and futile nature of waiting",
+        "Reflects the existential theme of uncertainty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the Boy's relationship with Godot as portrayed in Act II.",
+      "keyPoints": [
+        "The Boy acts as a link between Godot and the protagonists",
+        "He describes Godot as someone who beats his brother",
+        "The relationship underscores the mysterious and possibly tyrannical nature of Godot"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a scenario where the Boy delivers a different message, stating that Godot will arrive tomorrow. How would this affect the themes of the play?",
+      "keyPoints": [
+        "Alters the sense of perpetual waiting",
+        "Might introduce a sense of hope or expectation",
+        "Could undermine the play’s existential themes of uncertainty and futility"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Thorough application of key themes with clear reasoning",
+        "partial": "Limited application of themes or unclear reasoning",
+        "none": "Fails to apply themes or lacks reasoning"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine the Boy is more expressive and gives detailed information about Godot. How would this change the dynamics between Vladimir, Estragon, and the Boy?",
+      "keyPoints": [
+        "Might reduce the ambiguity and mystery surrounding Godot",
+        "Could change the power dynamic, giving the Boy more influence",
+        "Might affect Vladimir and Estragon's dependence on waiting"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Effectively applies changes to character dynamics with clear analysis",
+        "partial": "Applies changes with limited or unclear analysis",
+        "none": "Fails to apply changes or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Suppose the Boy was a recurring character in each act with more dialogue. How might this impact the development of the plot?",
+      "keyPoints": [
+        "Could provide more insight into Godot, altering the plot’s focus",
+        "Might disrupt the play’s cyclical structure",
+        "Could add depth to the narrative, affecting the tension and anticipation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Detailed application of changes to plot with logical implications",
+        "partial": "Some application of changes but lacks depth or clarity",
+        "none": "Fails to apply changes or lacks logical implications"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the Boy’s role in reinforcing the theme of uncertainty in Act II.",
+      "keyPoints": [
+        "The Boy’s vague messages enhance the theme of uncertainty",
+        "His forgetfulness reflects the unreliable nature of memory",
+        "The recurring message underscores the lack of progress and resolution"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Clear evaluation with PEEL structure and strong thematic connections",
+        "partial": "Limited evaluation, missing some elements of PEEL or thematic links",
+        "none": "Lacks evaluation or fails to use PEEL structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess how the Boy's interaction with Vladimir and Estragon contributes to the theme of existentialism in Act II.",
+      "keyPoints": [
+        "The Boy’s interaction highlights the lack of meaningful communication",
+        "Repetition of the message echoes existential ideas of absurdity",
+        "The Boy's presence emphasizes the uncertainty of human existence"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Comprehensive evaluation with PEEL structure and relevant thematic analysis",
+        "partial": "Basic evaluation with incomplete PEEL or thematic analysis",
+        "none": "Does not evaluate or lacks structured analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically discuss the impact of the Boy’s limited role on the audience’s understanding of 'Waiting for Godot'.",
+      "keyPoints": [
+        "The limited role maintains the play’s ambiguity",
+        "Contributes to the audience's sense of frustration and confusion",
+        "Encourages the audience to focus on the existential themes rather than plot"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Insightful evaluation using PEEL with strong focus on audience perspective",
+        "partial": "Some evaluation with limited use of PEEL or audience focus",
+        "none": "Lacks evaluation or fails to address audience perspective"
+      }
+    }
+  ]
+}

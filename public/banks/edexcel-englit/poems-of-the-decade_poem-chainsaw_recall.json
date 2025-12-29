@@ -1,0 +1,147 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-chainsaw",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Chainsaw Versus the Pampas Grass — Simon Armitage",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:18:09.675Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the central conflict in 'Chainsaw Versus the Pampas Grass' by Simon Armitage.",
+      "keyPoints": [
+        "The conflict between the chainsaw and the pampas grass",
+        "Symbolism of masculinity versus femininity",
+        "Themes of power and nature"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain two literary devices used in 'Chainsaw Versus the Pampas Grass'.",
+      "keyPoints": [
+        "Personification of the chainsaw",
+        "Imagery related to violence and destruction",
+        "Metaphors illustrating dominance and resistance"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the poem's exploration of gender dynamics.",
+      "keyPoints": [
+        "The chainsaw represents aggressive masculinity",
+        "The pampas grass symbolizes passive femininity",
+        "The cyclical nature of the conflict suggests ongoing tension"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine the poem is set in a different environment, such as an urban setting. How might this change the symbolism in 'Chainsaw Versus the Pampas Grass'?",
+      "keyPoints": [
+        "Urban setting might alter the natural versus man-made conflict",
+        "Chainsaw could symbolize industrialization",
+        "Pampas grass might represent nature struggling to survive in urban environments"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory with relevant examples and depth",
+        "partial": "Applies theory but lacks depth or relevance",
+        "none": "Fails to apply theory accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of power from the poem to a real-world scenario involving environmental conservation.",
+      "keyPoints": [
+        "Chainsaw as a metaphor for human destruction of nature",
+        "Pampas grass represents nature's resilience",
+        "Conflict parallels efforts to conserve natural environments against industrial interests"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory with relevant examples and depth",
+        "partial": "Applies theory but lacks depth or relevance",
+        "none": "Fails to apply theory accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would the interpretation of the poem change if the chainsaw were portrayed as a nurturing tool instead?",
+      "keyPoints": [
+        "Shifts the theme from destruction to caretaking",
+        "The pampas grass might symbolize growth and cultivation",
+        "Alters the power dynamic to one of harmony instead of conflict"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory with relevant examples and depth",
+        "partial": "Applies theory but lacks depth or relevance",
+        "none": "Fails to apply theory accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Armitage's use of violent imagery in conveying the poem's themes.",
+      "keyPoints": [
+        "Violent imagery highlights the destructive nature of the chainsaw",
+        "Contributes to the theme of power struggle",
+        "Creates a stark contrast between the chainsaw and the pampas grass"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates effectiveness with clear examples and analysis",
+        "partial": "Attempts evaluation but lacks supporting examples or depth",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the impact of the poem's structure on its overall message.",
+      "keyPoints": [
+        "Free verse structure reflects the chaotic nature of the conflict",
+        "Enjambment emphasizes the relentless nature of the chainsaw",
+        "Lack of formal structure mirrors the untamed nature of the pampas grass"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates impact with clear examples and analysis",
+        "partial": "Attempts evaluation but lacks supporting examples or depth",
+        "none": "Fails to evaluate effectively"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the poem's portrayal of gender roles using the PEEL structure.",
+      "keyPoints": [
+        "Point: The poem reinforces traditional gender stereotypes",
+        "Evidence: Chainsaw as masculine, pampas grass as feminine",
+        "Explanation: Highlights societal views on gender power dynamics",
+        "Link: Suggests ongoing societal struggle with these stereotypes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critiques effectively using PEEL with relevant examples",
+        "partial": "Attempts critique but lacks depth or relevance",
+        "none": "Fails to critique effectively"
+      }
+    }
+  ]
+}

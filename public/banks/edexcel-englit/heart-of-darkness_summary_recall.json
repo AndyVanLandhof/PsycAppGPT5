@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "heart-of-darkness",
+  "topicTitle": "Heart of Darkness (Conrad)",
+  "subTopic": "summary",
+  "subTopicTitle": "Heart of Darkness (Conrad) — Summary",
+  "type": "recall",
+  "generatedAt": "2025-12-29T09:03:02.742Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the primary journey Marlow undertakes in 'Heart of Darkness'.",
+      "keyPoints": [
+        "Marlow's voyage up the Congo River",
+        "His mission to find Kurtz",
+        "The symbolic journey into the 'heart of darkness'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main narrative structure used in 'Heart of Darkness'.",
+      "keyPoints": [
+        "Framed narrative",
+        "Marlow as the primary narrator",
+        "Use of an unnamed first-person narrator"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the character of Kurtz in 'Heart of Darkness'.",
+      "keyPoints": [
+        "Kurtz as a charismatic yet morally ambiguous figure",
+        "His role as a representative of European imperialism",
+        "His descent into madness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of colonialism in 'Heart of Darkness' to a modern context.",
+      "keyPoints": [
+        "Exploitation of resources",
+        "Cultural dominance and its effects",
+        "Parallels with contemporary globalisation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theme effectively with relevant examples",
+        "partial": "Applies theme with limited examples or lacks depth",
+        "none": "Fails to apply theme accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would Marlow's journey be different if set in the 21st century?",
+      "keyPoints": [
+        "Technological advancements affecting travel",
+        "Different societal attitudes towards colonialism",
+        "Modern political contexts"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Considers all aspects effectively with relevant examples",
+        "partial": "Considers some aspects with limited examples",
+        "none": "Fails to consider aspects accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the motif of darkness in 'Heart of Darkness' to describe a modern psychological conflict.",
+      "keyPoints": [
+        "Inner turmoil or moral ambiguity",
+        "Struggle between civilization and savagery",
+        "The concept of the unknown or repressed instincts"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies motif effectively with relevant examples",
+        "partial": "Applies motif with limited examples or lacks depth",
+        "none": "Fails to apply motif accurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Conrad's use of symbolism in 'Heart of Darkness'.",
+      "keyPoints": [
+        "Symbolism of darkness and light",
+        "Symbolic representation of the Congo River",
+        "Effect on reader's understanding of themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates with depth using PEEL structure, covering all key points",
+        "partial": "Evaluates with some use of PEEL, covering some key points",
+        "none": "Fails to evaluate effectively or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the narrative technique used in 'Heart of Darkness' and its impact on the reader.",
+      "keyPoints": [
+        "Use of framed narrative",
+        "Effect of unreliable narration",
+        "Creation of ambiguity and mystery"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Assesses with depth using PEEL structure, covering all key points",
+        "partial": "Assesses with some use of PEEL, covering some key points",
+        "none": "Fails to assess effectively or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the portrayal of imperialism in 'Heart of Darkness'.",
+      "keyPoints": [
+        "Critique of European colonial practices",
+        "Moral and ethical implications",
+        "Impact on indigenous populations"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates with depth using PEEL structure, covering all key points",
+        "partial": "Evaluates with some use of PEEL, covering some key points",
+        "none": "Fails to evaluate effectively or lacks structure"
+      }
+    }
+  ]
+}

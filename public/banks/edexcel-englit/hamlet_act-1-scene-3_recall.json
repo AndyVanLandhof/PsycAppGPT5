@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-1-scene-3",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act I, Scene 3",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:41:45.384Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the advice Polonius gives to Laertes in Act I, Scene 3.",
+      "keyPoints": [
+        "Polonius advises Laertes to be true to himself",
+        "He cautions Laertes to be careful with money and friendships",
+        "Emphasizes the importance of reputation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Outline Ophelia’s response to Laertes’ warnings about Hamlet.",
+      "keyPoints": [
+        "Ophelia promises to heed Laertes’ advice",
+        "She expresses her intention to be cautious",
+        "Hints at her affection for Hamlet despite warnings"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Summarize the role of family duty as portrayed in Act I, Scene 3 of Hamlet.",
+      "keyPoints": [
+        "Laertes and Ophelia are expected to heed Polonius’ advice",
+        "Family duty is shown in the siblings’ interactions",
+        "Polonius exerts control and authority over his children"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are Laertes' friend witnessing his conversation with Polonius. How might you advise Laertes differently based on modern perspectives on autonomy?",
+      "keyPoints": [
+        "Suggest valuing personal autonomy over parental control",
+        "Encourage critical thinking and decision-making",
+        "Discuss the balance between respecting advice and self-discovery"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies modern perspectives accurately with all key points",
+        "partial": "Applies modern perspectives with limited key points or detail",
+        "none": "Fails to apply modern perspectives or lacks accuracy"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If Ophelia had followed Laertes’ advice strictly, how might her relationship with Hamlet change?",
+      "keyPoints": [
+        "Ophelia might distance herself from Hamlet",
+        "Could lead to a less emotionally involved relationship",
+        "Potentially avoid conflict with Polonius"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies scenario accurately with all key points",
+        "partial": "Applies scenario with limited key points or detail",
+        "none": "Fails to apply scenario or lacks accuracy"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how Polonius’ advice might reflect Elizabethan values.",
+      "keyPoints": [
+        "Reflects value of reputation and social standing",
+        "Emphasizes obedience and respect for authority",
+        "Importance of financial prudence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies context accurately with all key points",
+        "partial": "Applies context with limited key points or detail",
+        "none": "Fails to apply context or lacks accuracy"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Polonius’ advice to Laertes. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Polonius' advice is practical but restrictive",
+        "Evidence: Quotes from the text",
+        "Explanation: Discusses the impact on Laertes’ autonomy",
+        "Link: Connects to themes of authority and control"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and depth",
+        "partial": "Evaluates with some PEEL elements or lacks depth",
+        "none": "Fails to evaluate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess the role of gender in the advice given to Ophelia by Laertes and Polonius. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Gender roles influence the advice",
+        "Evidence: Quotes discussing Ophelia’s behavior",
+        "Explanation: Analysis of patriarchal expectations",
+        "Link: Connects to broader gender themes in the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and depth",
+        "partial": "Evaluates with some PEEL elements or lacks depth",
+        "none": "Fails to evaluate or lacks structure"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critique the portrayal of family dynamics in Act I, Scene 3. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Family dynamics are hierarchical and controlling",
+        "Evidence: Quotes highlighting Polonius’ authority",
+        "Explanation: Impact on Ophelia and Laertes’ autonomy",
+        "Link: Relates to themes of obedience and rebellion"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates using PEEL with all key points and depth",
+        "partial": "Evaluates with some PEEL elements or lacks depth",
+        "none": "Fails to evaluate or lacks structure"
+      }
+    }
+  ]
+}

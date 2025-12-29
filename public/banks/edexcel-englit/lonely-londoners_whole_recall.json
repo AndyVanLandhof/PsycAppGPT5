@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "whole",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Whole Novel",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:08:32.110Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Who is Moses Aloetta in 'The Lonely Londoners' and what role does he play in the novel?",
+      "keyPoints": [
+        "Moses Aloetta is a central character and serves as a mentor to new immigrants.",
+        "He is a Trinidadian immigrant who has been living in London for ten years.",
+        "Moses represents the struggles of Caribbean immigrants in London and provides guidance to newcomers."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What is the significance of the setting in 'The Lonely Londoners'?",
+      "keyPoints": [
+        "The setting is post-war London, highlighting the city's transformation and its impact on immigrants.",
+        "London is depicted as both a place of opportunity and alienation for Caribbean immigrants.",
+        "The setting underscores themes of isolation, cultural diversity, and the search for identity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Define the term 'stream of consciousness' and explain its use in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Stream of consciousness is a literary technique that presents thoughts as they occur, often in a disorganized manner.",
+        "Selvon uses this technique to reflect the characters' inner thoughts and emotions.",
+        "It helps convey the chaotic and fragmented experiences of immigrants in London."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How might the themes of 'The Lonely Londoners' be applied to understanding the experience of modern-day immigrants in a global city?",
+      "keyPoints": [
+        "Themes of isolation and identity are still relevant to modern immigrants facing cultural dislocation.",
+        "The search for community and belonging is a common challenge across different time periods.",
+        "Discrimination and economic struggles continue to affect immigrant experiences in global cities."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies themes accurately to modern contexts with examples",
+        "partial": "Applies themes with limited examples or depth",
+        "none": "Misapplies themes or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a character similar to Moses Aloetta living in a different city today. How would his role and challenges differ?",
+      "keyPoints": [
+        "His role as a mentor might remain, but the challenges would include modern issues like digital connectivity.",
+        "He would face different bureaucratic and social challenges specific to the city's culture.",
+        "The experience of racism and community building might vary based on current socio-political climates."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies character role accurately to a new context with clear differences",
+        "partial": "Applies role with limited differences or examples",
+        "none": "Fails to apply role or lacks differences"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of 'search for identity' from 'The Lonely Londoners' to another literary work you have studied.",
+      "keyPoints": [
+        "Identify a literary work with a similar theme (e.g., 'The Namesake' by Jhumpa Lahiri).",
+        "Explain how the theme is explored in both works.",
+        "Discuss similarities and differences in the portrayal of the search for identity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Accurately applies theme to another work with clear comparisons",
+        "partial": "Applies theme with limited comparisons or depth",
+        "none": "Fails to apply theme or lacks comparisons"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Selvon's use of dialect in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "Dialect adds authenticity and depth to the characters' voices.",
+        "It may pose a barrier to understanding for some readers but enhances cultural representation.",
+        "Overall, dialect enriches the narrative by immersing the reader in the characters' world."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates use of dialect with balanced analysis and examples",
+        "partial": "Evaluates with limited analysis or lacks examples",
+        "none": "Fails to evaluate or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the portrayal of London as a character in 'The Lonely Londoners'.",
+      "keyPoints": [
+        "London is depicted as both a place of dreams and harsh realities.",
+        "The city acts as a backdrop that influences and shapes the characters' experiences.",
+        "Selvon presents London as indifferent, highlighting the struggles and resilience of immigrants."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Critically assesses portrayal with detailed analysis and examples",
+        "partial": "Assesses portrayal with limited analysis or lacks examples",
+        "none": "Fails to assess portrayal or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the theme of community in 'The Lonely Londoners' and its significance to the narrative.",
+      "keyPoints": [
+        "Community provides support and a sense of belonging amidst isolation.",
+        "Interactions among characters highlight shared experiences and solidarity.",
+        "The theme underscores the importance of human connection in overcoming adversity."
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates theme with detailed analysis and examples",
+        "partial": "Evaluates with limited analysis or lacks examples",
+        "none": "Fails to evaluate theme or lacks analysis"
+      }
+    }
+  ]
+}

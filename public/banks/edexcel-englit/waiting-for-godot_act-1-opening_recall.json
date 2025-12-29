@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-1-opening",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act I — Opening",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:56:52.358Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the setting of the opening scene in Act I of 'Waiting for Godot'.",
+      "keyPoints": [
+        "A country road",
+        "A tree",
+        "Evening"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who are the two main characters introduced in the opening of Act I, and what is their situation?",
+      "keyPoints": [
+        "Vladimir (Didi)",
+        "Estragon (Gogo)",
+        "They are waiting for someone named Godot"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the significance of the tree in the opening scene of Act I.",
+      "keyPoints": [
+        "Symbol of hope",
+        "Reference to biblical imagery",
+        "Represents the passage of time"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Vladimir and Estragon are waiting for Godot. How does this scenario reflect existential themes in literature?",
+      "keyPoints": [
+        "Theme of meaninglessness",
+        "Human condition and search for purpose",
+        "Absurdity of waiting for something uncertain"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies theory to all key points with examples",
+        "partial": "Applies theory to 1-2 key points or lacks examples",
+        "none": "Fails to apply theory correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "If the setting of the play were a busy street instead of a country road, how might the atmosphere and themes change?",
+      "keyPoints": [
+        "Increased sense of urgency or chaos",
+        "Contrast with isolation theme",
+        "Possible change in interpretation of waiting"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies scenario to all key points effectively",
+        "partial": "Applies scenario to 1-2 key points or lacks depth",
+        "none": "Fails to apply scenario correctly"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider the dialogue between Vladimir and Estragon. How does it reflect the concept of 'Theatre of the Absurd'?",
+      "keyPoints": [
+        "Non-sequential conversation",
+        "Lack of clear purpose or resolution",
+        "Highlights absurdity and futility"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies concept to all key points with examples",
+        "partial": "Applies concept to 1-2 key points or lacks examples",
+        "none": "Fails to apply concept correctly"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the minimalist setting in conveying the themes of 'Waiting for Godot'. Use PEEL structure.",
+      "keyPoints": [
+        "Point: Minimalist setting emphasizes existential themes",
+        "Evidence: Sparse setting reflects emptiness and waiting",
+        "Explanation: Highlights characters' isolation and lack of purpose",
+        "Link: Reinforces the absurdity and futility of their situation"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure with all key points and detailed analysis",
+        "partial": "Uses PEEL structure with some key points or lacks detail",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the role of dialogue in establishing the relationship between Vladimir and Estragon. Use PEEL structure.",
+      "keyPoints": [
+        "Point: Dialogue reveals a co-dependent relationship",
+        "Evidence: Repetitive and circular exchanges",
+        "Explanation: Highlights their mutual reliance and existential angst",
+        "Link: Contributes to the play's themes of absurdity and companionship"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure with all key points and detailed analysis",
+        "partial": "Uses PEEL structure with some key points or lacks detail",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the significance of time in the opening of 'Waiting for Godot'. Use PEEL structure.",
+      "keyPoints": [
+        "Point: Time is depicted as stagnant and meaningless",
+        "Evidence: Lack of progression or clarity about time of day",
+        "Explanation: Reflects the futility and uncertainty of waiting",
+        "Link: Enhances the existential and absurd nature of the play"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL structure with all key points and detailed analysis",
+        "partial": "Uses PEEL structure with some key points or lacks detail",
+        "none": "Fails to use PEEL structure or lacks key points"
+      }
+    }
+  ]
+}

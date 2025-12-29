@@ -1,0 +1,206 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "lonely-londoners",
+  "topicTitle": "The Lonely Londoners (Selvon)",
+  "subTopic": "episode-galahad",
+  "subTopicTitle": "The Lonely Londoners (Selvon) — Galahad — City & racism",
+  "type": "quiz",
+  "generatedAt": "2025-12-28T18:10:38.389Z",
+  "items": [
+    {
+      "id": "episode-galahad-q1",
+      "question": "In 'The Lonely Londoners', what is Galahad's real name?",
+      "options": [
+        "Henry Oliver",
+        "Moses Aloysius",
+        "Bart Johnson",
+        "Joseph Henry"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Galahad's real name is Henry Oliver, which reflects his more formal identity compared to his nickname."
+    },
+    {
+      "id": "episode-galahad-q2",
+      "question": "Which character helps Galahad understand the racial dynamics of London?",
+      "options": [
+        "Moses Aloetta",
+        "Bart",
+        "Cap",
+        "Tanty"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Moses Aloetta often serves as a mentor to Galahad, guiding him through the complexities of life in London."
+    },
+    {
+      "id": "episode-galahad-q3",
+      "question": "What is a recurring theme in the interactions between Galahad and the city?",
+      "options": [
+        "Isolation",
+        "Prosperity",
+        "Alliance",
+        "Contentment"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Isolation is a key theme in 'The Lonely Londoners', particularly in how Galahad experiences the city and its racial tensions."
+    },
+    {
+      "id": "episode-galahad-q4",
+      "question": "How does Galahad typically respond to the racism he encounters in London?",
+      "options": [
+        "With humor",
+        "With anger",
+        "With indifference",
+        "With violence"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO1",
+      "explanation": "Galahad often responds to racial encounters with humor, which is a coping mechanism for the discrimination he faces."
+    },
+    {
+      "id": "episode-galahad-q5",
+      "question": "What symbolic act does Galahad perform when he first sees snow?",
+      "options": [
+        "Throws a snowball",
+        "Writes his name",
+        "Makes a snow angel",
+        "Kicks it"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO1",
+      "explanation": "Galahad writes his name in the snow, symbolizing his assertion of identity in an alien environment."
+    },
+    {
+      "id": "episode-galahad-q6",
+      "question": "Which literary technique does Selvon employ to depict Galahad's encounters with racism?",
+      "options": [
+        "Stream of consciousness",
+        "Third-person omniscience",
+        "Free indirect speech",
+        "Dramatic irony"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Selvon uses free indirect speech to blend Galahad's internal thoughts with the narrative, capturing his personal struggles."
+    },
+    {
+      "id": "episode-galahad-q7",
+      "question": "How does Selvon illustrate the theme of urban alienation in Galahad's experiences?",
+      "options": [
+        "Through Galahad's dialogues",
+        "Through the vibrant descriptions of the city",
+        "Through fragmented narrative structure",
+        "Through Galahad's solitary walks"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "Galahad's solitary walks through the city highlight his feelings of alienation and invisibility within the urban landscape."
+    },
+    {
+      "id": "episode-galahad-q8",
+      "question": "What does Galahad's interaction with the pigeon symbolize in the novel?",
+      "options": [
+        "Hope",
+        "Camaraderie",
+        "Freedom",
+        "Alienation"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO1",
+      "explanation": "The pigeon symbolizes Galahad's alienation, as he projects his struggle for belonging onto the bird."
+    },
+    {
+      "id": "episode-galahad-q9",
+      "question": "Which event exemplifies Galahad's optimism despite racial challenges?",
+      "options": [
+        "His search for a job",
+        "His arrival in London",
+        "His first date",
+        "His encounter with the pigeon"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO1",
+      "explanation": "Galahad's first date shows his optimism as he tries to connect with others despite societal prejudices."
+    },
+    {
+      "id": "episode-galahad-q10",
+      "question": "In a particular scene, Galahad is ignored by a shopkeeper. What does this incident reveal?",
+      "options": [
+        "Racial prejudice in everyday interactions",
+        "Galahad's shy nature",
+        "The shop's busy nature",
+        "Galahad's lack of money"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The shopkeeper's indifference highlights the racial prejudice Galahad faces in routine transactions, showcasing systemic racism."
+    },
+    {
+      "id": "episode-galahad-q11",
+      "question": "When Galahad talks to a fellow immigrant about their struggles, what theme is being explored?",
+      "options": [
+        "Community and solidarity",
+        "Economic prosperity",
+        "Cultural assimilation",
+        "Romantic aspirations"
+      ],
+      "correctAnswer": 0,
+      "ao": "AO2",
+      "explanation": "The dialogue explores themes of community and solidarity among immigrants facing similar racial and social challenges."
+    },
+    {
+      "id": "episode-galahad-q12",
+      "question": "Galahad's experience of being refused a job due to his race highlights which broader societal issue?",
+      "options": [
+        "Economic inequality",
+        "Educational disparity",
+        "Systemic racism",
+        "Cultural differences"
+      ],
+      "correctAnswer": 2,
+      "ao": "AO2",
+      "explanation": "This incident underscores systemic racism, where racial prejudices affect employment opportunities for immigrants."
+    },
+    {
+      "id": "episode-galahad-q13",
+      "question": "How does Selvon's use of dialect in 'The Lonely Londoners' impact the reader's perception of Galahad?",
+      "options": [
+        "It creates a barrier to understanding",
+        "It adds authenticity and relatability",
+        "It makes the text feel outdated",
+        "It simplifies the narrative"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Selvon's use of dialect adds authenticity and relatability, allowing readers to connect with the characters' cultural backgrounds."
+    },
+    {
+      "id": "episode-galahad-q14",
+      "question": "How does the portrayal of London in Selvon's work compare to that in Charles Dickens' novels?",
+      "options": [
+        "Both depict a city full of opportunities",
+        "Both highlight the struggles of marginalized groups",
+        "Selvon portrays a more optimistic city",
+        "Dickens' London is more dangerous"
+      ],
+      "correctAnswer": 1,
+      "ao": "AO3",
+      "explanation": "Both authors highlight the struggles of marginalized groups, though Selvon focuses on racial issues while Dickens often emphasizes class."
+    },
+    {
+      "id": "episode-galahad-q15",
+      "question": "What methodological critique can be made about Selvon's representation of Galahad's experiences?",
+      "options": [
+        "It lacks statistical data",
+        "It is overly romanticized",
+        "It relies heavily on stereotypes",
+        "It provides a narrow perspective"
+      ],
+      "correctAnswer": 3,
+      "ao": "AO3",
+      "explanation": "Selvon's narrative, while powerful, provides a narrow perspective by focusing primarily on a single character's experience."
+    }
+  ]
+}

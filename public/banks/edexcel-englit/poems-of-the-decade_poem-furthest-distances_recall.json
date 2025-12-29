@@ -1,0 +1,145 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-furthest-distances",
+  "subTopicTitle": "Poems of the Decade (Anthology) — The Furthest Distances I've Travelled — Leontia Flynn",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:24:23.852Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the central themes explored in 'The Furthest Distances I've Travelled' by Leontia Flynn?",
+      "keyPoints": [
+        "Travel and its impact on identity",
+        "The contrast between physical and emotional journeys",
+        "Nostalgia and reflection"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Describe the structure and form of 'The Furthest Distances I've Travelled'.",
+      "keyPoints": [
+        "Free verse form",
+        "Use of enjambment",
+        "Varied line lengths reflecting unpredictability of travel"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain two literary devices used in 'The Furthest Distances I've Travelled'.",
+      "keyPoints": [
+        "Imagery such as 'curled like a paperclip'",
+        "Metaphors like 'these crushed valentines'"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes both devices with accurate explanations",
+        "partial": "Includes 1 device or lacks explanations",
+        "none": "Missing devices or inaccurate explanations"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the theme of nostalgia from 'The Furthest Distances I've Travelled' to a modern travel experience?",
+      "keyPoints": [
+        "Reflection on past travels",
+        "Emotional connections formed during travel",
+        "Comparison of past and present experiences"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the theme effectively with examples",
+        "partial": "Applies the theme with limited examples",
+        "none": "Fails to apply the theme or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a scenario where a character is experiencing a journey similar to the one in Flynn's poem. How would their perception of travel change over time?",
+      "keyPoints": [
+        "Initial excitement and novelty",
+        "Gradual realization of deeper emotional significance",
+        "Reflection on personal growth"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies changes in perception effectively with examples",
+        "partial": "Describes changes with limited examples",
+        "none": "Fails to describe changes or lacks examples"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the concept of identity transformation from 'The Furthest Distances I've Travelled' to a character's development in another literary work.",
+      "keyPoints": [
+        "Identity shaped by experiences",
+        "Comparison with another character's journey",
+        "Significance of travel in personal growth"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies the concept effectively with comparisons",
+        "partial": "Applies the concept with limited comparisons",
+        "none": "Fails to apply the concept or lacks comparisons"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the imagery used in 'The Furthest Distances I've Travelled'.",
+      "keyPoints": [
+        "Vivid and relatable imagery",
+        "Conveys the emotional aspect of travel",
+        "Enhances the poem's themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluates with detailed examples and effectiveness",
+        "partial": "Evaluates with limited examples or lacks effectiveness",
+        "none": "Fails to evaluate or lacks examples"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the poem's conclusion. How does it encapsulate the poem's themes?",
+      "keyPoints": [
+        "Reflection on personal growth",
+        "Synthesis of physical and emotional journeys",
+        "Sense of closure and continuity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Assesses with detailed analysis and thematic connections",
+        "partial": "Assesses with limited analysis or lacks connections",
+        "none": "Fails to assess or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the poem's exploration of the idea that travel shapes one's identity. How successfully does it convey this message?",
+      "keyPoints": [
+        "Travel as a metaphor for personal development",
+        "Emotional depth of the speaker's journey",
+        "Effectiveness in conveying identity transformation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Discusses with detailed analysis and message clarity",
+        "partial": "Discusses with limited analysis or lacks clarity",
+        "none": "Fails to discuss or lacks analysis"
+      }
+    }
+  ]
+}

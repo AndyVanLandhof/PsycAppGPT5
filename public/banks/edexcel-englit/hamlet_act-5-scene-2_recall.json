@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "hamlet",
+  "topicTitle": "Hamlet (Shakespeare)",
+  "subTopic": "act-5-scene-2",
+  "subTopicTitle": "Hamlet (Shakespeare) — Act V, Scene 2",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:55:00.961Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the events that lead to the duel between Hamlet and Laertes in Act V, Scene 2.",
+      "keyPoints": [
+        "King Claudius's manipulation",
+        "Laertes's desire for revenge",
+        "Hamlet's acceptance of the challenge"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the significance of the poisoned weapons in Act V, Scene 2.",
+      "keyPoints": [
+        "Symbol of treachery",
+        "Claudius's plan to ensure Hamlet's death",
+        "Foreshadowing of multiple deaths"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does Osric play in Act V, Scene 2, and how does he contribute to the scene?",
+      "keyPoints": [
+        "Messenger of the duel challenge",
+        "Comic relief",
+        "Reflects court sycophancy"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine you are a director staging Act V, Scene 2. How would you convey the theme of betrayal during the duel?",
+      "keyPoints": [
+        "Use of lighting to create tension",
+        "Actors' body language to express suspicion",
+        "Props such as the poisoned sword"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with creative and practical application",
+        "partial": "Includes 1-2 key points or lacks creativity",
+        "none": "Missing key points or impractical suggestions"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the theme of justice to the resolution of conflicts in Act V, Scene 2. How is justice achieved or subverted?",
+      "keyPoints": [
+        "Hamlet's revenge against Claudius",
+        "Laertes's realization and confession",
+        "The deaths of key characters"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with clear application of theme",
+        "partial": "Includes 1-2 key points or lacks clear application",
+        "none": "Missing key points or incorrect application"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider the character of Fortinbras in Act V, Scene 2. How can his arrival be interpreted within the play's themes?",
+      "keyPoints": [
+        "Symbol of political stability",
+        "Contrast with Hamlet's indecision",
+        "Restoration of order"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with insightful application",
+        "partial": "Includes 1-2 key points or lacks depth",
+        "none": "Missing key points or irrelevant interpretation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of the dramatic tension in Act V, Scene 2 using the PEEL structure.",
+      "keyPoints": [
+        "Point: The build-up to the duel",
+        "Evidence: Use of foreshadowing and dialogue",
+        "Explanation: How tension is maintained",
+        "Link: Impact on audience engagement"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Follows PEEL structure with detailed evaluation",
+        "partial": "Attempts PEEL structure but lacks detail or coherence",
+        "none": "Lacks structure or relevance"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate Claudius’s role in the tragic outcomes of Act V, Scene 2 with reference to the PEEL structure.",
+      "keyPoints": [
+        "Point: Claudius's manipulation and deceit",
+        "Evidence: The plan with Laertes",
+        "Explanation: How his actions lead to multiple deaths",
+        "Link: Reflection on themes of power and corruption"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Follows PEEL structure with insightful evaluation",
+        "partial": "Attempts PEEL structure but lacks depth or clarity",
+        "none": "Lacks structure or key points"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the theme of mortality as it is presented in Act V, Scene 2 using a PEEL paragraph.",
+      "keyPoints": [
+        "Point: Centrality of death in the scene",
+        "Evidence: The deaths of Hamlet, Laertes, Gertrude, and Claudius",
+        "Explanation: Reflection on the inevitability of death",
+        "Link: Connection to the play's existential themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Follows PEEL structure with comprehensive evaluation",
+        "partial": "Attempts PEEL structure but lacks detail or insight",
+        "none": "Lacks structure or fails to address theme"
+      }
+    }
+  ]
+}

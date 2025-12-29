@@ -469,7 +469,9 @@ function QuizView({ topic, onBack }) {
     const curr = (window?.localStorage?.getItem('curriculum') || 'aqa-psych');
     
     // First try to load from pre-generated bank files in public/banks/
-    const bankPath = `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`;
+    const bankPath = curr === 'edexcel-englit'
+      ? `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`
+      : `/banks/${curr}/${topic.id}_${topic.subTopic.id}_quiz.json`;
     console.log('[Quiz] Attempting to load bank from:', bankPath);
     try {
       const response = await fetch(bankPath);

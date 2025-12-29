@@ -1,0 +1,146 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-2-memory-forgetting",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act II — Memory/forgetting",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:02:29.736Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Define the role of memory and forgetting in Act II of 'Waiting for Godot'.",
+      "keyPoints": [
+        "Memory plays a significant role in character interactions",
+        "Forgetting exemplifies the cyclic nature of the play",
+        "The characters' selective memory highlights existential themes"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "List at least three instances of memory or forgetting in Act II.",
+      "keyPoints": [
+        "Estragon forgets the events of the previous day",
+        "Vladimir recalls happier times but questions their reality",
+        "Pozzo forgets having met Estragon and Vladimir before"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all instances with brief descriptions",
+        "partial": "Includes 1-2 instances or lacks descriptions",
+        "none": "No relevant instances mentioned"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain how Beckett uses repetition and forgetfulness as a theme in Act II.",
+      "keyPoints": [
+        "Repetition emphasizes the monotony of existence",
+        "Forgetting adds to the absurdity and confusion",
+        "Both elements underscore the futility and cyclic nature of life"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Vladimir tries to remind Estragon of the events from the previous day. How does this reflect the theme of unreliable memory?",
+      "keyPoints": [
+        "Demonstrates the fragility of human memory",
+        "Shows contrast between characters' perceptions of reality",
+        "Highlights existential themes of uncertainty and doubt"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application to scenario is clear and includes all key points",
+        "partial": "Some application, missing key points or lacks detail",
+        "none": "Failure to apply scenario or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Pozzo's inability to remember meeting Estragon and Vladimir previously reflects what larger theme in the play?",
+      "keyPoints": [
+        "Themes of identity and the loss of self",
+        "The absurdity of human experiences being forgotten",
+        "The transient nature of human interactions"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application to scenario is clear and includes all key points",
+        "partial": "Some application, missing key points or lacks detail",
+        "none": "Failure to apply scenario or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does the motif of the tree in Act II mirror the theme of memory and forgetfulness?",
+      "keyPoints": [
+        "The tree serves as a symbol of time passing",
+        "Its changes or lack thereof reflect memory's fluidity",
+        "Contrasts with the characters' fragmented memories"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Application to scenario is clear and includes all key points",
+        "partial": "Some application, missing key points or lacks detail",
+        "none": "Failure to apply scenario or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Beckett's portrayal of memory in contributing to the play's absurdist themes.",
+      "keyPoints": [
+        "Memory's unreliability enhances absurdity",
+        "Forgetting adds to the existential dread",
+        "Critics view it as a commentary on human existence"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluation includes all key points with supporting evidence",
+        "partial": "Evaluation includes 1-2 key points or lacks evidence",
+        "none": "Lacks evaluation or supporting evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss how the motif of forgetting in Act II affects the audience's perception of the characters.",
+      "keyPoints": [
+        "Audience perceives characters as unreliable",
+        "Forgetting creates a sense of empathy or frustration",
+        "Enhances the theme of existential uncertainty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluation includes all key points with supporting evidence",
+        "partial": "Evaluation includes 1-2 key points or lacks evidence",
+        "none": "Lacks evaluation or supporting evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the role of Pozzo's amnesia in the context of Beckett's message about human experience.",
+      "keyPoints": [
+        "Amnesia emphasizes the fleeting nature of human experiences",
+        "Pozzo's condition reflects the loss of identity",
+        "Supports Beckett's themes of confusion and existentialism"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Evaluation includes all key points with supporting evidence",
+        "partial": "Evaluation includes 1-2 key points or lacks evidence",
+        "none": "Lacks evaluation or supporting evidence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "poems-of-the-decade",
+  "topicTitle": "Poems of the Decade (Anthology)",
+  "subTopic": "poem-please-hold",
+  "subTopicTitle": "Poems of the Decade (Anthology) — Please Hold — Ciaran O’Driscoll",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:29:18.201Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Briefly summarize the central theme of 'Please Hold' by Ciaran O'Driscoll.",
+      "keyPoints": [
+        "Exploration of frustration with modern technology",
+        "Critique of impersonal communication",
+        "Satirical tone highlighting societal dependence on automation"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and explain the use of repetition in the poem 'Please Hold'.",
+      "keyPoints": [
+        "Repetition of the phrase 'Please hold'",
+        "Emphasizes endless waiting and frustration",
+        "Reflects monotony and lack of control"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "What role does irony play in 'Please Hold'?",
+      "keyPoints": [
+        "Irony in the contrast between automated responses and human emotion",
+        "Highlighting the absurdity of technological reliance",
+        "Use of irony to critique societal norms"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Imagine a future where technology has advanced even further than in 'Please Hold'. How might the themes of the poem apply to this new scenario?",
+      "keyPoints": [
+        "Continued loss of personal interactions",
+        "Increased frustration and alienation",
+        "Potential for deeper societal critique"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies themes accurately to the scenario with detailed explanation",
+        "partial": "Applies themes with limited explanation or detail",
+        "none": "Fails to apply themes appropriately or inaccurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply the use of tone in 'Please Hold' to another modern setting, such as an online customer service chat.",
+      "keyPoints": [
+        "Impersonal and detached tone",
+        "Frustration evoked by automated responses",
+        "Relates to experiences of inefficiency and disconnection"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies tone effectively to the setting with detailed explanation",
+        "partial": "Applies tone with limited explanation or detail",
+        "none": "Fails to apply tone appropriately or inaccurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Consider a situation where a person is navigating a bureaucratic process. How might the poem's structure mirror their experience?",
+      "keyPoints": [
+        "Repetitive structure mirrors bureaucratic procedures",
+        "Feelings of helplessness and frustration",
+        "Lack of resolution or progress"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies structure effectively to the scenario with detailed explanation",
+        "partial": "Applies structure with limited explanation or detail",
+        "none": "Fails to apply structure appropriately or inaccurately"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Ciaran O'Driscoll's use of satire in 'Please Hold'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Satire effectively critiques modern technology reliance",
+        "Evidence: Use of ironic repetition and impersonal voice",
+        "Explain: Highlights absurdity and frustration in modern communication",
+        "Link: Connects to broader societal implications of technology"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough evaluation using PEEL structure with detailed examples",
+        "partial": "Basic evaluation with some structure but lacking detail",
+        "none": "Inadequate evaluation lacking structure or detail"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Assess how 'Please Hold' reflects contemporary societal issues. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Reflects issues of technological dependency",
+        "Evidence: Depiction of automated systems and loss of personal touch",
+        "Explain: Shows disconnection and frustration in society",
+        "Link: Relates to ongoing debates about technology's role"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough assessment using PEEL structure with detailed examples",
+        "partial": "Basic assessment with some structure but lacking detail",
+        "none": "Inadequate assessment lacking structure or detail"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically analyze the impact of the poem's structure on its message. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Structure enhances the poem's message of frustration",
+        "Evidence: Repetition and lack of progression",
+        "Explain: Mirrors endless cycles of modern life",
+        "Link: Deepens understanding of poem's critique on societal norms"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Thorough analysis using PEEL structure with detailed examples",
+        "partial": "Basic analysis with some structure but lacking detail",
+        "none": "Inadequate analysis lacking structure or detail"
+      }
+    }
+  ]
+}

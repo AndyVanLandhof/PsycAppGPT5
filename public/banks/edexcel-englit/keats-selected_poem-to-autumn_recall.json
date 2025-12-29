@@ -1,0 +1,149 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "keats-selected",
+  "topicTitle": "Keats — Selected Poems",
+  "subTopic": "poem-to-autumn",
+  "subTopicTitle": "Keats — Selected Poems — To Autumn",
+  "type": "recall",
+  "generatedAt": "2025-12-28T18:35:09.204Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "What are the main themes explored in Keats' 'To Autumn'?",
+      "keyPoints": [
+        "The theme of nature and its cyclical process",
+        "The passage of time and the idea of transience",
+        "The theme of abundance and fulfillment"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key themes with accurate detail",
+        "partial": "Includes 1-2 key themes or lacks detail",
+        "none": "Missing key themes or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify and describe the structure of 'To Autumn'.",
+      "keyPoints": [
+        "The poem is an ode with three stanzas",
+        "Each stanza has 11 lines",
+        "The rhyme scheme is ABAB CDEDCCE"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all structural details with accurate detail",
+        "partial": "Includes 1-2 structural details or lacks detail",
+        "none": "Missing structural details or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Who or what is personified in 'To Autumn' and how?",
+      "keyPoints": [
+        "Autumn is personified as a harvester",
+        "Autumn is depicted as a gleaner",
+        "Autumn is shown as a figure of rest and ease"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all examples of personification with accurate detail",
+        "partial": "Includes 1-2 examples of personification or lacks detail",
+        "none": "Missing examples of personification or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Explain how Keats uses sensory imagery in 'To Autumn' to enhance the reader's experience. Provide examples.",
+      "keyPoints": [
+        "Use of visual imagery with descriptions of ripe fruit",
+        "Auditory imagery with sounds of gnats and lambs",
+        "Tactile imagery with the warmth of the sun"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes examples of different types of sensory imagery with detail",
+        "partial": "Includes 1-2 examples or lacks detail",
+        "none": "Missing examples or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Apply your understanding of Romanticism to analyze the depiction of nature in 'To Autumn'.",
+      "keyPoints": [
+        "Emphasis on natural beauty and the sublime",
+        "Celebration of the natural world's cycles",
+        "Reflects Romantic ideals of harmony with nature"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies Romanticism to various aspects of the poem with detail",
+        "partial": "Applies Romanticism to 1-2 aspects or lacks detail",
+        "none": "Fails to apply Romanticism accurately"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How does Keats employ the concept of time in 'To Autumn'? Provide examples.",
+      "keyPoints": [
+        "References to the progression from morning to evening",
+        "Imagery of harvest time symbolizes maturity",
+        "Evocation of the transition from autumn to winter"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes examples of time progression with detail",
+        "partial": "Includes 1-2 examples or lacks detail",
+        "none": "Missing examples or inaccurate"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Keats' use of language in creating a sense of abundance in 'To Autumn'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Keats uses rich and descriptive language",
+        "Evidence: References to ripeness and fullness",
+        "Explanation: Conveys a sense of richness and satisfaction",
+        "Link: Enhances the thematic focus on abundance"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL effectively with detailed evidence and explanation",
+        "partial": "Uses PEEL but lacks detail in evidence or explanation",
+        "none": "Fails to use PEEL or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the portrayal of change in 'To Autumn'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Change is depicted through the transition of seasons",
+        "Evidence: Imagery of autumn preparing for winter",
+        "Explanation: Reflects the inevitability of change",
+        "Link: Ties to broader themes of time and mortality"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL effectively with detailed evidence and explanation",
+        "partial": "Uses PEEL but lacks detail in evidence or explanation",
+        "none": "Fails to use PEEL or inaccurate evaluation"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the role of personification in enhancing the thematic depth of 'To Autumn'. Use the PEEL structure.",
+      "keyPoints": [
+        "Point: Personification gives life to the season",
+        "Evidence: Autumn as a harvester and gleaner",
+        "Explanation: Deepens the connection between humans and nature",
+        "Link: Enhances themes of harmony and fulfillment"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Uses PEEL effectively with detailed evidence and explanation",
+        "partial": "Uses PEEL but lacks detail in evidence or explanation",
+        "none": "Fails to use PEEL or inaccurate evaluation"
+      }
+    }
+  ]
+}

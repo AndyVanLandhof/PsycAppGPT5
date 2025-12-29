@@ -1,0 +1,147 @@
+{
+  "curriculum": "edexcel-englit",
+  "topic": "waiting-for-godot",
+  "topicTitle": "Waiting for Godot (Beckett)",
+  "subTopic": "act-1",
+  "subTopicTitle": "Waiting for Godot (Beckett) — Act I",
+  "type": "recall",
+  "generatedAt": "2025-12-28T17:56:15.029Z",
+  "items": [
+    {
+      "ao": "AO1",
+      "prompt": "Describe the setting of Act I in 'Waiting for Godot' and its significance.",
+      "keyPoints": [
+        "A country road with a single tree",
+        "Sparse and minimalistic setting",
+        "Reflects themes of desolation and existential uncertainty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Identify the main characters introduced in Act I of 'Waiting for Godot'.",
+      "keyPoints": [
+        "Vladimir",
+        "Estragon",
+        "Pozzo",
+        "Lucky"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO1",
+      "prompt": "Explain the concept of 'waiting' as introduced in Act I.",
+      "keyPoints": [
+        "Central theme of waiting for Godot",
+        "Symbolizes hope and existential uncertainty",
+        "Reflects on human condition and meaninglessness"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Includes all key points with accurate detail",
+        "partial": "Includes 1-2 key points or lacks detail",
+        "none": "Missing key points or inaccurate"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "How would you apply the theme of 'absurdity' from Act I to a modern-day context?",
+      "keyPoints": [
+        "Daily routine and monotony",
+        "Search for meaning in a seemingly indifferent universe",
+        "Reflects current societal issues such as isolation or uncertainty"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points to a relevant modern context",
+        "partial": "Applies 1-2 key points or lacks relevance",
+        "none": "Fails to apply key points or lacks clarity"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "In Act I, how do Vladimir and Estragon's interactions illustrate the concept of 'existential companionship'?",
+      "keyPoints": [
+        "Their dialogue shows dependency on each other",
+        "Attempts to distract themselves from existential dread",
+        "Reflects the human need for companionship despite absurdity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to the concept",
+        "partial": "Applies 1-2 key points or lacks depth",
+        "none": "Fails to apply key points or lacks understanding"
+      }
+    },
+    {
+      "ao": "AO2",
+      "prompt": "Analyze how the character of Pozzo in Act I can be seen as a representation of power dynamics.",
+      "keyPoints": [
+        "Pozzo's authoritative behavior over Lucky",
+        "Symbolizes control and dominance",
+        "Reflects societal hierarchies and their absurdity"
+      ],
+      "wordRange": "50-100",
+      "markingCriteria": {
+        "full": "Applies all key points accurately to power dynamics",
+        "partial": "Applies 1-2 key points or lacks coherence",
+        "none": "Fails to apply key points or lacks analysis"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Evaluate the effectiveness of Beckett's use of language in Act I to convey themes of absurdity.",
+      "keyPoints": [
+        "Repetitive and circular dialogue",
+        "Use of pauses and silences",
+        "Conveys the futility and meaninglessness of communication"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points with detailed examples",
+        "partial": "Evaluates 1-2 key points or lacks detail",
+        "none": "Fails to evaluate key points or lacks evidence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Discuss the role of humor in Act I and its impact on the play's exploration of existential themes.",
+      "keyPoints": [
+        "Dark humor and absurd situations",
+        "Highlights the incongruity of human existence",
+        "Creates a contrast between comedy and bleak themes"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points with insightful analysis",
+        "partial": "Evaluates 1-2 key points or lacks insight",
+        "none": "Fails to evaluate key points or lacks coherence"
+      }
+    },
+    {
+      "ao": "AO3",
+      "prompt": "Critically assess the portrayal of time in Act I of 'Waiting for Godot' and its significance.",
+      "keyPoints": [
+        "Non-linear and cyclical nature of time",
+        "Contributes to the sense of stagnation",
+        "Reflects existential themes of waiting and uncertainty"
+      ],
+      "wordRange": "100-150",
+      "markingCriteria": {
+        "full": "Evaluates all key points with comprehensive understanding",
+        "partial": "Evaluates 1-2 key points or lacks depth",
+        "none": "Fails to evaluate key points or lacks clarity"
+      }
+    }
+  ]
+}
