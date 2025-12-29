@@ -160,6 +160,35 @@ export const PAST_PAPER_INDEX = {
       totalMarks: 120,
       sections: ['Augustine', 'Death and Afterlife', 'Knowledge of God', 'Christian Moral Principles']
     },
+    // Philosophy of Religion June 2022 (H573/01) — text extracted
+    {
+      id: 'ocr-h573-01-jun22',
+      year: 2022,
+      session: 'June',
+      level: 'A2',
+      paper: 'Paper 1: Philosophy of Religion',
+      code: 'H573/01',
+      questionFile: '/vault/ocr-rs/vault/PastPapers/Religious Studies/C - June 2022 Exam Paper_extracted.txt',
+      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Mark Scheme_extracted.txt',
+      duration: 120,
+      totalMarks: 120,
+      questionsToAnswer: 3,
+      sections: ['Philosophy of Religion']
+    },
+    // Religion and Ethics June 2022 (H573/02) — text extracted
+    {
+      id: 'ocr-h573-02-jun22',
+      year: 2022,
+      session: 'June',
+      level: 'A2',
+      paper: 'Paper 2: Religion and Ethics',
+      code: 'H573/02',
+      questionFile: '/vault/ocr-rs/vault/PastPapers/Religious Studies/C - June 2022 Exam Paper_extracted.txt',
+      markSchemeFile: '/vault/ocr-rs/vault/Exam Board Materials/C - June 2022 Mark Scheme_extracted.txt',
+      duration: 120,
+      totalMarks: 120,
+      sections: ['Religion and Ethics']
+    },
   ],
   'edexcel-englit': [
     // Edexcel English Literature A-level – sample of interactive papers
