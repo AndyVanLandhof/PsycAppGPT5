@@ -325,17 +325,31 @@ Instructions:
       let parsed;
       try { parsed = JSON.parse(res); } catch { const m = String(res || '').match(/\{[\s\S]*\}/); parsed = m ? JSON.parse(m[0]) : {}; }
 
-      const awardedNum = Number(parsed.awarded);
-      if (!Number.isFinite(awardedNum)) {
+      const getNum = (val) => {
+        const n = Number(val);
+        if (Number.isFinite(n)) return n;
+        if (typeof val === 'string') {
+          const m = val.match(/-?\d+(\.\d+)?/);
+          if (m) {
+            const num = Number(m[0]);
+            if (Number.isFinite(num)) return num;
+          }
+        }
+        return null;
+      };
+
+      const awardedNum = getNum(parsed.awarded);
+      const ao1Num = isOCR ? getNum(parsed.ao1Awarded) : undefined;
+      const ao2Num = isOCR ? getNum(parsed.ao2Awarded) : undefined;
+
+      if (awardedNum === null) {
         throw new Error('Invalid examiner response (awarded missing)');
       }
-      const ao1Num = isOCR ? Number(parsed.ao1Awarded) : undefined;
-      const ao2Num = isOCR ? Number(parsed.ao2Awarded) : undefined;
 
       setFqResult({
         awarded: Math.min(awardedNum, fqMarks),
-        ao1Awarded: isOCR && Number.isFinite(ao1Num) ? Math.min(ao1Num, ao1Max || 0) : undefined,
-        ao2Awarded: isOCR && Number.isFinite(ao2Num) ? Math.min(ao2Num, ao2Max || 0) : undefined,
+        ao1Awarded: isOCR && ao1Num !== null ? Math.min(ao1Num, ao1Max || 0) : undefined,
+        ao2Awarded: isOCR && ao2Num !== null ? Math.min(ao2Num, ao2Max || 0) : undefined,
         feedback: parsed.feedback || '',
         strengths: parsed.strengths || [],
         improvements: parsed.improvements || [],
