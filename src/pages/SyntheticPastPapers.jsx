@@ -127,6 +127,8 @@ function SyntheticPastPapers({ onBack }) {
   const [fqResult, setFqResult] = useState(null);
   const [fqError, setFqError] = useState('');
   const [fqLoading, setFqLoading] = useState(false);
+  const [annotateLoading, setAnnotateLoading] = useState(false);
+  const [annotatedText, setAnnotatedText] = useState('');
 
   const generatePaper = async (paper) => {
     setSelectedPaper(paper);
@@ -361,7 +363,7 @@ Instructions:
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
         whyNotNextLevel: parsed.whyNotNextLevel || '',
-        annotatedEssay: parsed.annotatedEssay || `${fqAnswer}\n[ADD: NO MAJOR GAPS]`
+        annotatedEssay: parsed.annotatedEssay || ''
       });
     } catch (e) {
       setFqError(e?.message || 'Failed to mark this answer.');
@@ -604,11 +606,41 @@ Instructions:
                     </ul>
                   </div>
                 )}
-                {fqResult.annotatedEssay && (
+                {annotatedText && (
                   <div className="bg-gray-50 border border-gray-200 rounded p-3">
                     <strong>Annotated essay (inline coach notes):</strong>
-                    <div className="whitespace-pre-wrap text-sm text-gray-800 mt-2">{fqResult.annotatedEssay}</div>
+                    <div className="whitespace-pre-wrap text-sm text-gray-800 mt-2">{annotatedText}</div>
                   </div>
+                )}
+                {fqResult && !annotatedText && (
+                  <button
+                    onClick={async () => {
+                      if (!fqResult) return;
+                      setAnnotateLoading(true);
+                      try {
+                        const annPrompt = `Annotate the student's essay with inline ALL-CAPS bracketed comments. Keep student text intact; insert immediately after relevant sentence/phrase. Use:
+[ADD: ...] for missing AO1 examples/quotes/critics.
+[EVAL: ...] for stronger AO2 critique/counterpoint/application.
+[CLARIFY: ...] where meaning is unclear.
+[FIX: ...] if factually wrong.
+Return only the annotated essay text.`;
+                        const annRes = await callAIWithPublicSources(
+                          `${annPrompt}\n\nQUESTION: ${fqQuestion}\n\nSTUDENT ANSWER:\n${fqAnswer}`,
+                          'Annotate Essay',
+                          fqQuestion.slice(0, 80)
+                        );
+                        setAnnotatedText(annRes?.trim() || '');
+                      } catch (e) {
+                        setAnnotatedText('Annotation failed.');
+                      } finally {
+                        setAnnotateLoading(false);
+                      }
+                    }}
+                    className="mt-3 px-3 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 disabled:opacity-50"
+                    disabled={annotateLoading}
+                  >
+                    {annotateLoading ? 'Annotating…' : 'Annotate My Answer'}
+                  </button>
                 )}
               </div>
             )}
