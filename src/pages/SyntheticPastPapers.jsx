@@ -626,7 +626,9 @@ Return only the annotated essay text.`;
                           'Annotate Essay',
                           fqQuestion.slice(0, 80)
                         );
-                        setAnnotatedText(annRes?.trim() || '');
+                        const clean = (annRes || '').trim();
+                        const upperBrackets = clean.replace(/\[([^\]]+)\]/g, (_, inner) => `[${inner.toUpperCase()}]`);
+                        setAnnotatedText(upperBrackets);
                       } catch (e) {
                         setAnnotatedText('Annotation failed.');
                       } finally {
