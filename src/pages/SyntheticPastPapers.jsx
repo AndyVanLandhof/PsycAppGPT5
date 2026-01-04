@@ -276,7 +276,12 @@ Return STRICT JSON:
       const ao1Max = isOCR ? Math.min(16, fqMarks) : null;
       const ao2Max = isOCR ? Math.min(24, fqMarks - (ao1Max || 0)) : null;
 
-      const prompt = `You are an expert ${examBoard} examiner. Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2 would look like. Use best-fit and reward breadth + depth generously: if the student clearly covers key thinkers (e.g., Aquinas/Paley vs. Barth/Calvin, Hume/Darwin critiques, authority of revelation, circularity), structured compare/contrast, and some evaluation, place them in the top band unless there are major omissions or factual errors. Implicit references that show understanding count for credit even without verbatim quotes.
+      const prompt = `You are an expert ${examBoard} examiner. Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2 would look like. Use best-fit but be fair-strict: stay at the middle of a band unless you see clear core anchors and evaluation.
+
+Scoring guardrails:
+- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas’ Five Ways or Paley) AND one explicit Revealed Theology anchor (e.g., revelation/authority/Accommodation/Christ/scripture).
+- Credit implicit references, but do NOT assume missing anchors; if absent, cap within band (e.g., mid-Level 3).
+- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin/under-determination for design; circularity/Accommodation for revelation) and ties it to the question.
 
 Candidate context (realism):
 - 17–18 year-old writing under ~40-minute exam pressure for a 40-mark essay.
