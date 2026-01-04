@@ -450,8 +450,14 @@ function QuizView({ topic, onBack }) {
     if (!q.options || !Array.isArray(q.options) || q.options.length < 2) return q;
     
     const letters = ['A', 'B', 'C', 'D'];
-    const correctIndex = letters.indexOf(q.correctAnswer?.toUpperCase());
-    if (correctIndex === -1) return q;
+    // Support both letter (A/B/C/D) and numeric (0-3) correctAnswer
+    let correctIndex = -1;
+    if (Number.isInteger(q.correctAnswer)) {
+      correctIndex = q.correctAnswer;
+    } else if (typeof q.correctAnswer === 'string') {
+      correctIndex = letters.indexOf(q.correctAnswer.toUpperCase());
+    }
+    if (correctIndex < 0 || correctIndex >= q.options.length) return q;
     
     const correctOptionText = q.options[correctIndex];
     const shuffledOptions = shuffleArray(q.options);

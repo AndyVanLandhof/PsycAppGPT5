@@ -142,7 +142,7 @@ function App() {
           if (!hasKU) missing.push(`${t.id}/${st.id}`);
         });
       });
-      if (missing.length > 0) {
+      if (missing.length > 0 && import.meta.env.DEV) {
         // eslint-disable-next-line no-console
         console.warn('[KU] Missing knowledge maps for:', missing);
       }
