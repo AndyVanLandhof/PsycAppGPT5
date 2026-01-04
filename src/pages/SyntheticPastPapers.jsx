@@ -281,6 +281,14 @@ Candidate context (realism):
 - Positive marking: reward what is present; best-fit level judgement; do not item-count.
 - Top band can be earned with ~3–4 named scholars/terms plus 2–3 targeted critiques, if accurate, comparative, and evaluative.
 
+Annotated return:
+- In addition to scores/feedback, return an annotated version of the student's essay where you insert SQUARE-BRACKETED, ALL-CAPS comments inline (keep the student text intact). Insert immediately after the relevant phrase/sentence. Use:
+  - [ADD: ...] for missing AO1 examples/quotes/critics.
+  - [EVAL: ...] for sharper AO2 critique/counterpoint/application.
+  - [CLARIFY: ...] where meaning is unclear.
+  - [FIX: ...] if factually wrong.
+- Keep comments concise; do NOT rewrite their sentences.
+
 QUESTION [${fqMarks} marks]:
 ${fqQuestion}
 
@@ -308,7 +316,8 @@ Instructions:
   "ao1Comment": "Short AO1 note",
   "ao2Comment": "Short AO2/AO3 note",
   ${isOCR ? `"ao1Strengths": ["what AO1 did well"], "ao1Improvements": ["what AO1 missed"], "ao2Strengths": ["what AO2 did well"], "ao2Improvements": ["what AO2 missed"],` : ''}
-  "whyNotNextLevel": "Why not in the next higher band"
+  "whyNotNextLevel": "Why not in the next higher band",
+  "annotatedEssay": "<student essay with inline [ADD]/[EVAL]/[CLARIFY]/[FIX] comments>"
 }`;
 
       const res = await callAIWithPublicSources(prompt, 'Synthetic Free Question', fqQuestion.slice(0, 80));
@@ -328,7 +337,8 @@ Instructions:
         ao1Improvements: parsed.ao1Improvements || [],
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
-        whyNotNextLevel: parsed.whyNotNextLevel || ''
+        whyNotNextLevel: parsed.whyNotNextLevel || '',
+        annotatedEssay: parsed.annotatedEssay || ''
       });
     } catch (e) {
       setFqError(e?.message || 'Failed to mark this answer.');
@@ -569,6 +579,12 @@ Instructions:
                     <ul className="list-disc ml-5">
                       {fqResult.improvements.map((s, i) => <li key={i}>{s}</li>)}
                     </ul>
+                  </div>
+                )}
+                {fqResult.annotatedEssay && (
+                  <div className="bg-gray-50 border border-gray-200 rounded p-3">
+                    <strong>Annotated essay (inline coach notes):</strong>
+                    <div className="whitespace-pre-wrap text-sm text-gray-800 mt-2">{fqResult.annotatedEssay}</div>
                   </div>
                 )}
               </div>
