@@ -258,6 +258,8 @@ Return STRICT JSON:
   const markFreeQuestion = async () => {
     setFqError('');
     setFqResult(null);
+    setAnnotatedText('');
+    setAnnotateLoading(false);
     if (!fqQuestion.trim() || !fqAnswer.trim()) {
       setFqError('Please enter both a question and your answer.');
       return;
@@ -282,15 +284,6 @@ Candidate context (realism):
 - Minor spelling/grammar/typos should NOT be penalized unless meaning is unclear.
 - Positive marking: reward what is present; best-fit level judgement; do not item-count.
 - Top band can be earned with ~3–4 named scholars/terms plus 2–3 targeted critiques, if accurate, comparative, and evaluative.
-
-Annotated return:
-- In addition to scores/feedback, return an annotated version of the student's essay where you insert SQUARE-BRACKETED, ALL-CAPS comments inline (keep the student text intact). Insert immediately after the relevant phrase/sentence. Use:
-  - [ADD: ...] for missing AO1 examples/quotes/critics.
-  - [EVAL: ...] for sharper AO2 critique/counterpoint/application.
-  - [CLARIFY: ...] where meaning is unclear.
-  - [FIX: ...] if factually wrong.
-- Keep comments concise; do NOT rewrite their sentences.
-- annotatedEssay is REQUIRED. If you have no comments, return the original essay unchanged.
 
 QUESTION [${fqMarks} marks]:
 ${fqQuestion}
@@ -319,8 +312,7 @@ Instructions:
   "ao1Comment": "Short AO1 note",
   "ao2Comment": "Short AO2/AO3 note",
   ${isOCR ? `"ao1Strengths": ["what AO1 did well"], "ao1Improvements": ["what AO1 missed"], "ao2Strengths": ["what AO2 did well"], "ao2Improvements": ["what AO2 missed"],` : ''}
-  "whyNotNextLevel": "Why not in the next higher band",
-  "annotatedEssay": "<student essay with inline [ADD]/[EVAL]/[CLARIFY]/[FIX] comments>"
+  "whyNotNextLevel": "Why not in the next higher band"
 }`;
 
       const res = await callAIWithPublicSources(prompt, 'Synthetic Free Question', fqQuestion.slice(0, 80));
