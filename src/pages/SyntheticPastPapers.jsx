@@ -288,6 +288,7 @@ Annotated return:
   - [CLARIFY: ...] where meaning is unclear.
   - [FIX: ...] if factually wrong.
 - Keep comments concise; do NOT rewrite their sentences.
+- annotatedEssay is REQUIRED. If you have no comments, return the original essay unchanged.
 
 QUESTION [${fqMarks} marks]:
 ${fqQuestion}
@@ -338,7 +339,7 @@ Instructions:
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
         whyNotNextLevel: parsed.whyNotNextLevel || '',
-        annotatedEssay: parsed.annotatedEssay || ''
+        annotatedEssay: parsed.annotatedEssay || fqAnswer
       });
     } catch (e) {
       setFqError(e?.message || 'Failed to mark this answer.');
