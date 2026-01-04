@@ -324,10 +324,18 @@ Instructions:
       const res = await callAIWithPublicSources(prompt, 'Synthetic Free Question', fqQuestion.slice(0, 80));
       let parsed;
       try { parsed = JSON.parse(res); } catch { const m = String(res || '').match(/\{[\s\S]*\}/); parsed = m ? JSON.parse(m[0]) : {}; }
+
+      const awardedNum = Number(parsed.awarded);
+      if (!Number.isFinite(awardedNum)) {
+        throw new Error('Invalid examiner response (awarded missing)');
+      }
+      const ao1Num = isOCR ? Number(parsed.ao1Awarded) : undefined;
+      const ao2Num = isOCR ? Number(parsed.ao2Awarded) : undefined;
+
       setFqResult({
-        awarded: Math.min(Number(parsed.awarded || 0), fqMarks),
-        ao1Awarded: isOCR ? Math.min(Number(parsed.ao1Awarded || 0), ao1Max || 0) : undefined,
-        ao2Awarded: isOCR ? Math.min(Number(parsed.ao2Awarded || 0), ao2Max || 0) : undefined,
+        awarded: Math.min(awardedNum, fqMarks),
+        ao1Awarded: isOCR && Number.isFinite(ao1Num) ? Math.min(ao1Num, ao1Max || 0) : undefined,
+        ao2Awarded: isOCR && Number.isFinite(ao2Num) ? Math.min(ao2Num, ao2Max || 0) : undefined,
         feedback: parsed.feedback || '',
         strengths: parsed.strengths || [],
         improvements: parsed.improvements || [],
@@ -339,7 +347,7 @@ Instructions:
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
         whyNotNextLevel: parsed.whyNotNextLevel || '',
-        annotatedEssay: parsed.annotatedEssay || fqAnswer
+        annotatedEssay: parsed.annotatedEssay || `${fqAnswer}\n[ADD: NO MAJOR GAPS]`
       });
     } catch (e) {
       setFqError(e?.message || 'Failed to mark this answer.');
