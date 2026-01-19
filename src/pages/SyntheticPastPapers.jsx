@@ -129,6 +129,77 @@ function SyntheticPastPapers({ onBack }) {
   const [fqLoading, setFqLoading] = useState(false);
   const [annotateLoading, setAnnotateLoading] = useState(false);
   const [annotatedText, setAnnotatedText] = useState('');
+const [annotatedHtml, setAnnotatedHtml] = useState('');
+const [annotationNotes, setAnnotationNotes] = useState([]);
+  const [levelMode, setLevelMode] = useState('alevel'); // 'alevel' | 'university'
+
+  const isEngLit = curriculum === 'edexcel-englit';
+  const isPsych = curriculum === 'aqa-psych';
+  const isOcrRs = curriculum === 'ocr-rs';
+
+  const handleLevelMode = (mode) => {
+    setLevelMode(mode);
+    setFqMarks(mode === 'university' ? 100 : 40);
+  };
+
+  const printFreeQuestion = (includeAnnotated = false) => {
+    if (!fqResult) return;
+    const win = window.open('', '_blank', 'width=900,height=1200');
+    if (!win) return;
+
+    const escapeHtml = (str) =>
+      String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+
+    const listHtml = (title, items) => {
+      if (!Array.isArray(items) || items.length === 0) return '';
+      return `<h4>${escapeHtml(title)}</h4><ul>${items
+        .map((i) => `<li>${escapeHtml(i)}</li>`)
+        .join('')}</ul>`;
+    };
+
+    const body = `
+      <div style="font-family: Arial, sans-serif; color: #111; padding: 16px; line-height: 1.5;">
+        <h2 style="margin: 0 0 12px 0;">Free Question Marking</h2>
+        <p style="margin: 0 0 8px 0;"><strong>Question:</strong> ${escapeHtml(fqQuestion)}</p>
+        <p style="margin: 0 0 8px 0;"><strong>Max marks:</strong> ${escapeHtml(fqMarks)}</p>
+        <p style="margin: 0 0 8px 0;"><strong>Score:</strong> ${escapeHtml(fqResult.awarded)} / ${escapeHtml(fqMarks)}</p>
+        ${fqResult.levelDescriptor ? `<p style="margin: 0 0 8px 0;"><strong>Level:</strong> ${escapeHtml(fqResult.levelDescriptor)}</p>` : ''}
+        ${fqResult.ao1Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO1:</strong> ${escapeHtml(fqResult.ao1Awarded)} / 16</p>` : ''}
+        ${fqResult.ao2Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Awarded)} / 24</p>` : ''}
+        ${fqResult.feedback ? `<p style="margin: 0 0 12px 0;"><strong>Feedback:</strong> ${escapeHtml(fqResult.feedback)}</p>` : ''}
+        ${fqResult.ao1Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO1:</strong> ${escapeHtml(fqResult.ao1Comment)}</p>` : ''}
+        ${fqResult.ao2Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Comment)}</p>` : ''}
+        ${fqResult.ao3Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO3:</strong> ${escapeHtml(fqResult.ao3Comment)}</p>` : ''}
+        ${fqResult.whyNotNextLevel ? `<p style="margin: 0 0 12px 0;"><strong>${levelMode === 'university' ? 'What you need for a First:' : 'Why not next level:'}</strong> ${escapeHtml(fqResult.whyNotNextLevel)}</p>` : ''}
+        ${listHtml('AO1 – What you got right:', fqResult.ao1Strengths)}
+        ${listHtml('AO1 – What you missed / to reach next level:', fqResult.ao1Improvements)}
+        ${listHtml('AO2 – What you got right:', fqResult.ao2Strengths)}
+        ${listHtml('AO2 – What you missed / to reach next level:', fqResult.ao2Improvements)}
+        ${listHtml('Strengths:', fqResult.strengths)}
+        ${listHtml('Improvements:', fqResult.improvements)}
+        ${
+          includeAnnotated
+            ? `
+              <hr style="margin: 16px 0;" />
+              <h3 style="margin: 0 0 8px 0;">Annotated essay (clean text)</h3>
+              <pre style="white-space: pre-wrap; background: #f7f7f7; padding: 12px; border-radius: 6px; border: 1px solid #e2e2e2;">${escapeHtml(annotatedText || '(no annotation returned)')}</pre>
+              ${listHtml('Coach notes (caps):', annotationNotes)}
+            `
+            : ''
+        }
+      </div>
+    `;
+
+    win.document.write(`<!doctype html><html><head><title>Marking Print</title></head><body>${body}</body></html>`);
+    win.document.close();
+    win.focus();
+    win.print();
+  };
 
   const generatePaper = async (paper) => {
     setSelectedPaper(paper);
@@ -259,6 +330,8 @@ Return STRICT JSON:
     setFqError('');
     setFqResult(null);
     setAnnotatedText('');
+    setAnnotatedHtml('');
+    setAnnotationNotes([]);
     setAnnotateLoading(false);
     if (!fqQuestion.trim() || !fqAnswer.trim()) {
       setFqError('Please enter both a question and your answer.');
@@ -276,12 +349,72 @@ Return STRICT JSON:
       const ao1Max = isOCR ? Math.min(16, fqMarks) : null;
       const ao2Max = isOCR ? Math.min(24, fqMarks - (ao1Max || 0)) : null;
 
-      const prompt = `You are an expert ${examBoard} examiner. Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2 would look like. Use best-fit but be fair-strict: stay at the middle of a band unless you see clear core anchors and evaluation.
+      let prompt = '';
+
+      if (levelMode === 'university') {
+        prompt = `You are a university examiner (BA Philosophy, University of Nottingham style). Mark out of 100 using UK HE norms and these bands. You may award ANY integer 0–100 (e.g., 69, 59, 49); the bands are guidance, not hard bins:
+
+- 90–100: Exceptional Class I (“starred first”): superb structure, precise argument, original/innovative thought, outstanding evidence and scholarship, outstanding criticism of others’ arguments, lucid professional presentation.
+- 80–89: Strong First: excellent structure and coherent argument; innovative/original thought; excellent use of reliable academic sources; comprehensive/effective answer; wide-ranging knowledge; accurate analysis and effective criticism; clear writing, accurate English, professional presentation with proper referencing/bibliography.
+- 70–79: First: very good structure/argument, strong knowledge and criticism, clear and well-presented with solid referencing.
+- 60–69: Class II.i (2:1): good/very good structure; sound argument directed to the question; some independence/originality; supports arguments with appropriate evidence; thorough answer to most aspects; good/very good knowledge; wide reading (well digested); appropriate handling of analytical terms; critical awareness and satisfactory analysis; generally clear writing and presentation with referencing.
+- 50–59: Class II.ii (2:2): generally coherent structure; adequate/relevant argument; some independence but often derivative; some evidence, sources may be only partly appropriate; adequate/good answer to main aspects; fair reading; awareness of different views with deficiencies; moderate clarity/presentation and referencing.
+- 40–49: Class III: adequate/weak structure, some irrelevance; limited independence; poorly supported arguments; limited knowledge with errors/omissions; moderate fluency with errors; poor presentation/referencing.
+- 30–39: Soft fail; 0–29: Hard fail (incoherent, minimal knowledge, very poor presentation/referencing).
+
+Criteria: structure/argument, knowledge/understanding, use of sources/scholarship and criticism of others’ arguments, clarity/English/presentation/referencing, relevance to the question.
+
+Tone: Warm, encouraging junior lecturer (candid but kind); highlight what worked, then what to tighten. Borderline calls: if coherent, mostly accurate, and serviceable structure, lean slightly upward within the band.
+
+QUESTION [${fqMarks} marks]:
+${fqQuestion}
+
+STUDENT ANSWER:
+${fqAnswer}
+
+Instructions:
+- Place the script in the best-fit band; justify briefly.
+- Reward what is present; do not infer missing content.
+- Penalize factual errors; allow minor typos.
+- In whatYouNeedForFirst, be specific: e.g., argument thread drifts; self-refutation undeveloped; citations thin beyond Plato/Kuhn/Boghossian; structure/signposting could be clearer; needs a concrete example (e.g., paradigm shift) or page/section for key sources; analysis of opposing views too light.
+- In improvements, suggest 1–2 precise fixes (e.g., complete self-refutation section, add Kuhn example from Structure, tidy spelling “Protagoras”, add clear paragraph signposts, add a well-chosen citation/page).
+- Return STRICT JSON:
+{
+  "awarded": <number 0-100>,
+  "feedback": "Overall comment",
+  "strengths": ["..."],
+  "improvements": ["..."],
+  "levelDescriptor": "Band description",
+  "whatYouNeedForFirst": "What is missing to reach First (70+) band"
+}`;
+      } else {
+        const subjectGuard = isEngLit
+          ? 'Subject = Edexcel English Literature 9ET0. Use only literature material (text, critics, stage/production notes, language/form/structure, historical/contextual links). Do NOT introduce psychology, theology, or RS content.'
+          : isPsych
+            ? 'Subject = AQA Psychology 7182. Use only psychology content (studies, theories, methods, applications). Do NOT introduce theology/RS or literature content.'
+            : 'Subject = OCR Religious Studies H573. Use RS content (philosophy/ethics/theology as appropriate). Do NOT introduce psychology or literature content.';
+
+        const engLitAnchors = isEngLit
+          ? `For Edexcel English Literature, a response that includes at least two of these named critics WITH their work/source title counts as having critical anchors: A.C. Bradley ("Shakespearean Tragedy"), Harvey Granville-Barker (Prefaces), G. Wilson Knight ("The Embassy of Death"), T.S. Eliot ("Hamlet and His Problems"). If two or more are present, do NOT penalize for "missing critical anchors". Do NOT ask for theology in EngLit; keep within literature criticism, language/form/structure, and historical/contextual links.
+
+Top-band sufficiency (ceiling):
+- If the answer has ≥2 of the above critics named with source, ≥3 close-read quotes (word/phrase + effect), and ≥1 contextual link (e.g., succession anxiety, gender norms, stigma around "self-slaughter"/mental health), do NOT ask for more detail/anchors. Place it in the top appropriate band based on coherence/accuracy.
+- Limit "Improvements" to at most 2 concise, specific items when sufficiency is met; otherwise, give up to 3 as needed. Avoid generic "add more detail".`
+          : '';
+
+        prompt = `You are an expert ${examBoard} examiner. ${subjectGuard} Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2/AO3 would look like. Use best-fit but be fair-strict: stay at the middle of a band unless you see clear core anchors and evaluation.
+
+${engLitAnchors}
 
 Scoring guardrails:
-- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas’ Five Ways or Paley) AND one explicit Revealed Theology anchor (e.g., revelation/authority/Accommodation/Christ/scripture).
+${isEngLit
+  ? `- For Edexcel English Literature: if the answer includes at least two named critics with source titles (e.g., Bradley "Shakespearean Tragedy"; Granville-Barker Prefaces; Wilson Knight "The Embassy of Death"; Eliot "Hamlet and His Problems"), do NOT say "critical anchor missing". Evaluate how those critics are used: agree/challenge/complicate, tied to quotes.
+- Push higher when close reading of at least three quoted phrases is clear (e.g., "foul and most unnatural murder" → cosmic disorder; "inky cloak" → performative/inner grief; "Now might I do it pat" → resolve checked by scruple; Ophelia’s song fragments/flowers → language breaking).
+- Keep theology out for EngLit; focus on historical/social/intellectual context (succession anxiety, gender norms, views on suicide/mental health).
+- If the above criteria are met, do NOT ask for additional anchors/detail; mark in the top appropriate band. Give at most 2 concise improvements; avoid generic "add more detail".`
+  : `- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas’ Five Ways or Paley) AND one explicit Revealed Theology anchor (e.g., revelation/authority/Accommodation/Christ/scripture).
 - Credit implicit references, but do NOT assume missing anchors; if absent, cap within band (e.g., mid-Level 3).
-- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin/under-determination for design; circularity/Accommodation for revelation) and ties it to the question.
+- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin/under-determination for design; circularity/Accommodation for revelation) and ties it to the question.`}
 
 Candidate context (realism):
 - 17–18 year-old writing under ~40-minute exam pressure for a 40-mark essay.
@@ -296,29 +429,37 @@ ${fqQuestion}
 STUDENT ANSWER:
 ${fqAnswer}
 
+Subject guardrails:
+- ${isEngLit ? 'English Literature: AO2 = analysis of language/form/structure with close textual quotes; AO3 = contextual insight (e.g., Elizabethan/Jacobean court, gender norms, reception). Cite at least one critic (e.g., Bradley, Granville-Barker, Eliot) or production note where relevant. Avoid unrelated theology/psychology content.' : 'Use subject-appropriate anchors; avoid off-topic domains.'}
+
 Instructions:
 - Use the board's level descriptors/banding to decide the mark.
 - Do not invent content; credit only what is present.
 - Be fair but rigorous; partial credit for partial answers.
-- In AO1 comment: mention at least one concrete piece of content (e.g., key term, theorist, study, date) that the student included, and one high-value item that would lift to top band.
-- In AO2/AO3 comment: give a clear example of how the analysis/evaluation could be deepened (e.g., a specific criticism, counterpoint, or applied example).
+- In AO1 comment: mention at least one concrete piece of content (e.g., key term, theorist, study, date) that the student included, and one high-value item that would lift to top band. ${isEngLit ? 'If a named critic + source is present (e.g., Bradley/Granville-Barker/Wilson Knight/Eliot), say how the answer used or could better use that critic (agree/challenge/complicate).' : ''}
+- In AO2 comment: ${isEngLit ? 'focus on analysis of language/form/structure with a quoted word/phrase and its effect' : 'focus on evaluation/argument quality; give a specific improvement'}.
+- In AO3 comment: ${isEngLit ? 'focus on context (historical/social/intellectual) with one concrete linkage to the text' : 'add a concise contextual or methodological link'}.
 - In whyNotNextLevel: name the missing elements that block the next band (e.g., missing study/quote/example, thin evaluation, limited balance).
 - If the board is OCR RS and this is a 40-mark essay, award AO1 out of 16 and AO2 out of 24. Spell out what was right and what was missing for each AO.
-- For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing (e.g., “Barth’s rejection of natural theology”, “Calvin sensus divinitatis”, “teleological argument as insufficient”, “Aquinas’ Five Ways”, “Augustine’s privation”). Avoid vague phrases like “add more detail”; say exactly what content or critique would raise the band.
+- For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like “add more detail”; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
 - If the answer shows good structure, multiple key figures, and comparative evaluation, err toward higher marks (e.g., 34–38/40 for OCR 40-mark essays) unless there are clear factual gaps or minimal evaluation.
+- Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
+- For strengths and improvements, each bullet must start with a bracketed AO tag: “[AO1] ...” or “[AO2] ...” or “[AO3] ...” (choose the dominant AO for that point). Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
 - Return STRICT JSON:
 {
   "awarded": <number 0-${fqMarks}>,
   ${isOCR ? `"ao1Awarded": <number 0-${ao1Max}>, "ao2Awarded": <number 0-${ao2Max}>,` : ''}
   "feedback": "Overall comment",
-  "strengths": ["..."],
-  "improvements": ["..."],
+  "strengths": ["...","...","..."],
+  "improvements": ["...","...","..."],
   "levelDescriptor": "Level/mark band text",
   "ao1Comment": "Short AO1 note",
-  "ao2Comment": "Short AO2/AO3 note",
+  "ao2Comment": "Short AO2 note (analysis/evaluation)",
+  "ao3Comment": "Short AO3 note (context)",
   ${isOCR ? `"ao1Strengths": ["what AO1 did well"], "ao1Improvements": ["what AO1 missed"], "ao2Strengths": ["what AO2 did well"], "ao2Improvements": ["what AO2 missed"],` : ''}
   "whyNotNextLevel": "Why not in the next higher band"
 }`;
+      }
 
       const res = await callAIWithPublicSources(prompt, 'Synthetic Free Question', fqQuestion.slice(0, 80));
       let parsed;
@@ -350,16 +491,17 @@ Instructions:
         ao1Awarded: isOCR && ao1Num !== null ? Math.min(ao1Num, ao1Max || 0) : undefined,
         ao2Awarded: isOCR && ao2Num !== null ? Math.min(ao2Num, ao2Max || 0) : undefined,
         feedback: parsed.feedback || '',
-        strengths: parsed.strengths || [],
-        improvements: parsed.improvements || [],
+        strengths: Array.isArray(parsed.strengths) ? parsed.strengths.slice(0, 3) : [],
+        improvements: Array.isArray(parsed.improvements) ? parsed.improvements.slice(0, 3) : [],
         levelDescriptor: parsed.levelDescriptor || '',
         ao1Comment: parsed.ao1Comment || '',
         ao2Comment: parsed.ao2Comment || '',
+        ao3Comment: parsed.ao3Comment || '',
         ao1Strengths: parsed.ao1Strengths || [],
         ao1Improvements: parsed.ao1Improvements || [],
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
-        whyNotNextLevel: parsed.whyNotNextLevel || '',
+        whyNotNextLevel: parsed.whatYouNeedForFirst || parsed.whyNotNextLevel || '',
         annotatedEssay: parsed.annotatedEssay || ''
       });
     } catch (e) {
@@ -504,6 +646,22 @@ Instructions:
             <h3 className="font-semibold text-purple-800">Free Question (single marking)</h3>
             <span className="text-xs text-gray-500">{config.examBoard} {config.subject}</span>
           </div>
+          <div className="flex items-center gap-3 mb-3 text-sm">
+            <span className="text-gray-700">Mode:</span>
+            <button
+              onClick={() => handleLevelMode('alevel')}
+              className={`px-3 py-1 rounded border ${levelMode === 'alevel' ? 'bg-purple-600 text-white border-purple-600' : 'bg-white text-gray-700 border-gray-300'}`}
+            >
+              A-Level
+            </button>
+            <button
+              onClick={() => handleLevelMode('university')}
+              className={`px-3 py-1 rounded border ${levelMode === 'university' ? 'bg-purple-600 text-white border-purple-600' : 'bg-white text-gray-700 border-gray-300'}`}
+            >
+              University
+            </button>
+            <span className="text-xs text-gray-500">{levelMode === 'alevel' ? 'Band marking, 40-ish marks' : 'Nottingham-style BA Philosophy, /100'}</span>
+          </div>
           <div className="grid grid-cols-1 gap-3">
             <input
               type="text"
@@ -517,7 +675,7 @@ Instructions:
               <input
                 type="number"
                 min="2"
-                max="40"
+              max="100"
                 value={fqMarks}
                 onChange={(e) => setFqMarks(parseInt(e.target.value, 10) || 0)}
                 className="w-20 border rounded px-2 py-1 text-sm"
@@ -545,6 +703,20 @@ Instructions:
                   <span className="font-semibold text-gray-800">Score: {fqResult.awarded} / {fqMarks}</span>
                   {fqResult.levelDescriptor && <span className="text-gray-600">{fqResult.levelDescriptor}</span>}
                 </div>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => printFreeQuestion(false)}
+                    className="px-3 py-1 bg-white border border-purple-300 text-purple-700 rounded hover:bg-purple-50"
+                  >
+                    Print feedback
+                  </button>
+                  <button
+                    onClick={() => printFreeQuestion(true)}
+                    className="px-3 py-1 bg-white border border-purple-300 text-purple-700 rounded hover:bg-purple-50"
+                  >
+                    Print feedback + annotation
+                  </button>
+                </div>
                 {(fqResult.ao1Awarded !== undefined || fqResult.ao2Awarded !== undefined) && (
                   <div className="flex gap-3 text-gray-700">
                     {fqResult.ao1Awarded !== undefined && <span>AO1: {fqResult.ao1Awarded}{Number.isFinite(fqMarks) && curriculum === 'ocr-rs' ? ` / 16` : ''}</span>}
@@ -553,8 +725,13 @@ Instructions:
                 )}
                 {fqResult.feedback && <div><strong>Feedback:</strong> {fqResult.feedback}</div>}
                 {fqResult.ao1Comment && <div><strong>AO1:</strong> {fqResult.ao1Comment}</div>}
-                {fqResult.ao2Comment && <div><strong>AO2/AO3:</strong> {fqResult.ao2Comment}</div>}
-                {fqResult.whyNotNextLevel && <div><strong>Why not next level:</strong> {fqResult.whyNotNextLevel}</div>}
+                {fqResult.ao2Comment && <div><strong>AO2:</strong> {fqResult.ao2Comment}</div>}
+                {fqResult.ao3Comment && <div><strong>AO3:</strong> {fqResult.ao3Comment}</div>}
+                {fqResult.whyNotNextLevel && (
+                  <div>
+                    <strong>{levelMode === 'university' ? 'What you need for a First:' : 'Why not next level:'}</strong> {fqResult.whyNotNextLevel}
+                  </div>
+                )}
                 {Array.isArray(fqResult.ao1Strengths) && fqResult.ao1Strengths.length > 0 && (
                   <div>
                     <strong>AO1 – What you got right:</strong>
@@ -605,8 +782,25 @@ Instructions:
                 )}
                 {annotatedText && (
                   <div className="bg-gray-50 border border-gray-200 rounded p-3">
-                    <strong>Annotated essay (inline coach notes):</strong>
-                    <div className="whitespace-pre-wrap text-sm text-gray-800 mt-2">{annotatedText}</div>
+                    <strong>Annotated essay (clean text):</strong>
+                    {annotatedHtml ? (
+                      <div
+                        className="whitespace-pre-wrap text-sm text-gray-800 mt-2"
+                        dangerouslySetInnerHTML={{ __html: annotatedHtml }}
+                      />
+                    ) : (
+                      <div className="whitespace-pre-wrap text-sm text-gray-800 mt-2">{annotatedText}</div>
+                    )}
+                    {Array.isArray(annotationNotes) && annotationNotes.length > 0 && (
+                      <div className="mt-3">
+                        <strong>Coach notes (caps):</strong>
+                        <ul className="list-disc ml-5 text-sm text-gray-800">
+                          {annotationNotes.map((n, i) => (
+                            <li key={i}>{n}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 )}
                 {fqResult && !annotatedText && (
@@ -615,22 +809,45 @@ Instructions:
                       if (!fqResult) return;
                       setAnnotateLoading(true);
                       try {
-                        const annPrompt = `Annotate the student's essay with inline ALL-CAPS bracketed comments. Keep student text intact; insert immediately after relevant sentence/phrase. Use:
+                          const annPrompt = `You are a supportive examiner annotating the student's own essay. Do NOT refuse. No safety concerns: simply add study-skills notes. Keep student text intact; insert brief inline ALL-CAPS bracketed comments immediately after the relevant sentence/phrase. Use:
 [ADD: ...] for missing AO1 examples/quotes/critics.
-[EVAL: ...] for stronger AO2 critique/counterpoint/application.
+[EVAL: ...] for stronger AO2 (language/form/structure or argument critique) with a concrete example.
 [CLARIFY: ...] where meaning is unclear.
 [FIX: ...] if factually wrong.
-Return only the annotated essay text.`;
+Return only the annotated essay text.
+Be specific: quote a word/phrase you are commenting on where possible. Include 4–8 inline tags total, each under 12 words.`;
                         const annRes = await callAIWithPublicSources(
                           `${annPrompt}\n\nQUESTION: ${fqQuestion}\n\nSTUDENT ANSWER:\n${fqAnswer}`,
                           'Annotate Essay',
                           fqQuestion.slice(0, 80)
                         );
                         const clean = (annRes || '').trim();
-                        const upperBrackets = clean.replace(/\[([^\]]+)\]/g, (_, inner) => `[${inner.toUpperCase()}]`);
-                        setAnnotatedText(upperBrackets);
+                        const refusal = /i['’]m sorry|cannot assist|can[’']t assist|unable to comply|cannot comply|not able to/i;
+                        const escapeHtml = (str) =>
+                          String(str || '')
+                            .replace(/&/g, '&amp;')
+                            .replace(/</g, '&lt;')
+                            .replace(/>/g, '&gt;')
+                            .replace(/"/g, '&quot;')
+                            .replace(/'/g, '&#39;');
+
+                        if (refusal.test(clean)) {
+                          setAnnotatedText('Annotation unavailable (model declined).');
+                          setAnnotatedHtml('Annotation unavailable (model declined).');
+                          setAnnotationNotes([]);
+                        } else {
+                          const upperBrackets = clean.replace(/\[([^\]]+)\]/g, (_, inner) => `[${inner.toUpperCase()}]`);
+                          const noteMatches = [...upperBrackets.matchAll(/\[([A-Z]+:[^\]]+)\]/g)];
+                          const notes = noteMatches.map((m) => m[1].trim());
+                          const html = escapeHtml(upperBrackets).replace(/\[([A-Z]+:[^\]]+)\]/g, '<strong>[$1]</strong>');
+                          setAnnotatedText(upperBrackets.trim());
+                          setAnnotatedHtml(html.trim());
+                          setAnnotationNotes(notes);
+                        }
                       } catch (e) {
                         setAnnotatedText('Annotation failed.');
+                        setAnnotatedHtml('Annotation failed.');
+                        setAnnotationNotes([]);
                       } finally {
                         setAnnotateLoading(false);
                       }

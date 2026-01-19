@@ -31,6 +31,7 @@ import EnglishExamView from './EnglishExamView';
 import EnglishAskView from './EnglishAskView';
 import { getEnglishTextURL, getEnglishChunksURL } from '../config/englishTextLinks';
 import EnglishPastPapersView from './EnglishPastPapersView';
+import HamletPastPapers from './HamletPastPapers';
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
@@ -42,6 +43,7 @@ function TopicDetail({ topic, onBack }) {
   const [textLoading, setTextLoading] = useState(false);
   const [textError, setTextError] = useState('');
   const [textContent, setTextContent] = useState('');
+  const [showHamletPastPapers, setShowHamletPastPapers] = useState(false);
 
   // Curriculum helpers (defined once)
   const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
@@ -689,6 +691,9 @@ function TopicDetail({ topic, onBack }) {
                 <button onClick={() => setActiveView('eng-ask')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-ask' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>💡 Ask AI</button>
                 <button onClick={() => setActiveView('eng-exam')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-exam' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>🧪 Exam Relevance</button>
                 <button onClick={() => setActiveView('eng-past')} className={`px-4 py-3 rounded-xl font-semibold transition ${activeView==='eng-past' ? 'bg-emerald-100 ring-2 ring-emerald-500' : 'bg-gray-100 hover:bg-gray-200'}`}>📝 Past Papers</button>
+                {topic.id === 'hamlet' && (
+                  <button onClick={() => setShowHamletPastPapers(true)} className="px-4 py-3 rounded-xl font-semibold transition bg-purple-100 hover:bg-purple-200 text-purple-800 ring-2 ring-purple-300">📚 Past Paper Analysis</button>
+                )}
               </div>
             )}
 
@@ -894,6 +899,9 @@ function TopicDetail({ topic, onBack }) {
           </div>
         );
       })()}
+      {showHamletPastPapers && (
+        <HamletPastPapers onClose={() => setShowHamletPastPapers(false)} />
+      )}
     </div>
   );
 }

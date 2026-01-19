@@ -120,6 +120,8 @@ function App() {
   const [selectedTopicId, setSelectedTopicId] = useState(null);
   // Always start on subject chooser on load/refresh; user selection sets curriculum
   const [curriculum, setCurriculum] = useState(null);
+  const [showMindMapModal, setShowMindMapModal] = useState(false);
+  const mindMapUrl = `/vault/ocr-rs/vault/General/${encodeURIComponent('Mind Maps Jan 2026.pdf')}`;
 
   // Determine topics source
   const psychTopicsAll = psychologyTopics;
@@ -291,6 +293,14 @@ function App() {
             <Section title="Philosophy" topics={getTopicsByComponent('Philosophy', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Ethics" topics={getTopicsByComponent('Ethics', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Christianity" topics={getTopicsByComponent('Christianity', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
+            <div className="flex justify-center mt-4">
+              <button
+                onClick={() => setShowMindMapModal(true)}
+                className="px-5 py-2 bg-white border-2 border-purple-400 text-purple-700 rounded-lg font-semibold shadow-sm hover:shadow hover:bg-purple-50 transition"
+              >
+                🧠 Mind Maps (Jan 2026)
+              </button>
+            </div>
           </>
         ) : curriculum === 'edexcel-englit' ? (
           <>
@@ -376,6 +386,31 @@ function App() {
         </div>
         </div>
       </div>
+      {showMindMapModal && (
+        <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center px-4">
+          <div className="bg-white rounded-lg shadow-2xl max-w-5xl w-full h-[80vh] flex flex-col">
+            <div className="flex items-center justify-between px-4 py-3 border-b">
+              <h2 className="text-lg font-semibold text-gray-800">Mind Maps (Jan 2026)</h2>
+              <button
+                onClick={() => setShowMindMapModal(false)}
+                className="text-gray-600 hover:text-gray-800 font-semibold"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="flex-1">
+              <iframe
+                title="Mind Maps Jan 2026"
+                src={mindMapUrl}
+                className="w-full h-full"
+              />
+              <div className="px-4 py-2 text-sm text-gray-600 border-t">
+                Having trouble? <a className="text-purple-700 underline" href={mindMapUrl} target="_blank" rel="noreferrer">Open in a new tab</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
