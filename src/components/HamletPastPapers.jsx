@@ -167,8 +167,15 @@ const HamletPastPapers = ({ onClose }) => {
           <div className="space-y-4">
             {q.ao2.quotes.map((quote, i) => (
               <div key={i} className="bg-white rounded-lg p-4 border border-green-100">
-                <div className="font-serif text-lg text-green-900 mb-2 italic">
-                  {quote.quote}
+                <div className="flex justify-between items-start mb-2">
+                  <div className="font-serif text-lg text-green-900 italic flex-1">
+                    {quote.quote}
+                  </div>
+                  {quote.scene && (
+                    <span className="text-xs bg-green-200 text-green-800 px-2 py-1 rounded ml-2 whitespace-nowrap">
+                      {quote.scene}
+                    </span>
+                  )}
                 </div>
                 <div className="flex gap-2 mb-2">
                   <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">

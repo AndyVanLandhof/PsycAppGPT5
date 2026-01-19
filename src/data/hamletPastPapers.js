@@ -45,21 +45,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"Get thee to a nunnery"',
+              scene: 'Act 3, Scene 1',
               technique: 'Imperative/double meaning',
               effect: 'Command rejects Ophelia while ambiguously referencing both convent and brothel—Shakespeare collapses purity and corruption in one phrase.'
             },
             {
               quote: '"I did love you once" / "I loved you not"',
+              scene: 'Act 3, Scene 1',
               technique: 'Contradiction/antithesis',
               effect: 'The rapid reversal destabilizes Ophelia (and the audience). Truth becomes unknowable—a microcosm of the play\'s epistemological doubt.'
             },
             {
               quote: 'Flower-symbols: rue, rosemary, violets',
+              scene: 'Act 4, Scene 5',
               technique: 'Visual symbolism/fragmented speech',
               effect: 'Ophelia\'s mad scene distributes meaning she cannot speak directly. Rue = regret/abortifacient; rosemary = remembrance; violets (withered) = faithfulness destroyed.'
             },
             {
               quote: '"Forty thousand brothers / Could not with all their quantity of love / Make up my sum"',
+              scene: 'Act 5, Scene 1',
               technique: 'Hyperbole/competitive grief',
               effect: 'Hamlet\'s performative excess at the grave raises questions: is this genuine love finally expressed, or another theatrical mask?'
             }
@@ -169,21 +173,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The spirit that I have seen / May be the devil"',
+              scene: 'Act 2, Scene 2',
               technique: 'Modal verb / uncertainty syntax',
               effect: 'The "may be" encapsulates epistemological doubt—Hamlet cannot know, only suspect. This doubt is dramaturgically functional: it justifies the Mousetrap.'
             },
             {
               quote: '"To be or not to be—that is the question"',
+              scene: 'Act 3, Scene 1',
               technique: 'Antithesis / philosophical register',
               effect: 'The most famous articulation of doubt in English literature. The binary structure suggests a choice, but the soliloquy spirals into irresolution. Form enacts content.'
             },
             {
               quote: '"Now might I do it pat, now he is praying"',
+              scene: 'Act 3, Scene 3',
               technique: 'Dramatic irony / internal debate',
               effect: 'Hamlet talks himself out of action through theological reasoning. The audience knows Claudius\'s prayer is hollow ("My words fly up, my thoughts remain below"), making Hamlet\'s doubt doubly ironic.'
             },
             {
               quote: '"The readiness is all... Let be"',
+              scene: 'Act 5, Scene 2',
               technique: 'Aphorism / acceptance register',
               effect: 'A shift from interrogative doubt to declarative calm. Whether this is resignation or genuine wisdom, it qualifies the play\'s pervasive doubt with a note of resolution.'
             }
@@ -299,21 +307,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"Tis not alone my inky cloak, good mother... These indeed \'seem\', / For they are actions that a man might play"',
+              scene: 'Act 1, Scene 2',
               technique: 'Metatheatre / appearance vs reality',
               effect: 'Hamlet distinguishes authentic grief ("that within which passeth show") from performed mourning. Ironically, his insistence sounds performed too.'
             },
             {
               quote: '"O, that this too too solid flesh would melt"',
+              scene: 'Act 1, Scene 2',
               technique: 'Hyperbole / death-wish',
               effect: 'Grief tips into suicidal ideation. The flesh/decay imagery links Hamlet\'s psychological state to the play\'s broader rot motif.'
             },
             {
               quote: '"He is dead and gone, lady, / He is dead and gone"',
+              scene: 'Act 4, Scene 5',
               technique: 'Repetition / song form',
               effect: 'Ophelia\'s fragmented songs express grief indirectly. The ballad form distances raw emotion into stylized lament—madness as the only available discourse.'
             },
             {
               quote: '"I\'ll not be juggled with. / To hell, allegiance!"',
+              scene: 'Act 4, Scene 5',
               technique: 'Exclamation / oath-breaking',
               effect: 'Laertes\' grief is active, loud, political. He threatens rebellion—grief as public, masculine, immediate action (contrast to Hamlet).'
             }
@@ -392,21 +404,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The devil take thy soul!"',
+              scene: 'Act 5, Scene 1',
               technique: 'Oath / religious invective',
               effect: 'Laertes\' curse at the grave is visceral, immediate—pure emotion without Hamlet\'s philosophical filtering.'
             },
             {
               quote: '"To cut his throat i\' th\' church"',
+              scene: 'Act 4, Scene 7',
               technique: 'Sacrilege / hyperbole',
               effect: 'Laertes would violate sacred space for revenge. This exceeds Hamlet\'s scruple at the prayer scene—Laertes has no theological hesitation.'
             },
             {
               quote: '"I am justly killed with mine own treachery"',
+              scene: 'Act 5, Scene 2',
               technique: 'Poetic justice / recognition',
               effect: 'Laertes achieves tragic recognition. The "treachery" he embraced returns; he accepts moral responsibility Hamlet never quite articulates.'
             },
             {
               quote: '"Exchange forgiveness with me, noble Hamlet"',
+              scene: 'Act 5, Scene 2',
               technique: 'Formal reconciliation / address',
               effect: 'The "noble" epithet restores Hamlet\'s honor. Laertes\' final act is generous, redeeming his earlier corruption.'
             }
@@ -491,21 +507,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"So excellent a king, that was to this / Hyperion to a satyr"',
+              scene: 'Act 1, Scene 2',
               technique: 'Classical allusion / antithesis',
               effect: 'The Hyperion/satyr contrast elevates Old Hamlet to divine status and degrades Claudius to bestial. It also sets an unreachable heroic benchmark.'
             },
             {
               quote: '"How all occasions do inform against me, / And spur my dull revenge!"',
+              scene: 'Act 4, Scene 4',
               technique: 'Self-accusation / personification',
               effect: 'Hamlet sees external events (Fortinbras\'s army) as reproaching his inaction. The soliloquy structure—public event triggering private crisis—is classic Hamlet.'
             },
             {
               quote: '"This is I, Hamlet the Dane"',
+              scene: 'Act 5, Scene 1',
               technique: 'Public declaration / identity claim',
               effect: 'A rare moment of assertive selfhood. "The Dane" claims royal identity. Whether this is heroic assertion or performative bravado remains open.'
             },
             {
               quote: '"The readiness is all... Let be"',
+              scene: 'Act 5, Scene 2',
               technique: 'Aphorism / stoic register',
               effect: 'A shift from tortured questioning to calm acceptance. This could be heroic wisdom (facing death courageously) or fatalistic surrender.'
             }
@@ -584,21 +604,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"Denmark\'s a prison"',
+              scene: 'Act 2, Scene 2',
               technique: 'Metaphor / psychological projection',
               effect: 'The setting is internalized: Denmark confines Hamlet\'s mind as much as his body. Rosencrantz\'s reply ("We think not so") shows the gap between Hamlet\'s perception and others\'.'
             },
             {
               quote: '"Something is rotten in the state of Denmark"',
+              scene: 'Act 1, Scene 4',
               technique: 'Disease imagery / metonymy',
               effect: 'Marcellus\'s line makes the setting itself symptomatic. "State" means both nation and condition; rot is both physical decay and moral corruption.'
             },
             {
               quote: '"Alas, poor Yorick! I knew him, Horatio"',
+              scene: 'Act 5, Scene 1',
               technique: 'Apostrophe / elegy',
               effect: 'The graveyard setting enables direct address to death. Yorick\'s skull is a stage prop that collapses past and present, life and death.'
             },
             {
               quote: '"There is special providence in the fall of a sparrow"',
+              scene: 'Act 5, Scene 2',
               technique: 'Biblical allusion / fatalism',
               effect: 'Spoken after his return from sea, this suggests Hamlet has accepted contingency. The sea journey (offstage) has transformed his relationship to fate.'
             }
@@ -683,21 +707,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The play\'s the thing / Wherein I\'ll catch the conscience of the King"',
+              scene: 'Act 2, Scene 2',
               technique: 'Rhyming couplet / metatheatre',
               effect: 'The couplet\'s neatness contrasts with Hamlet\'s usual uncertainty. Theatre here is weaponized—art as trap.'
             },
             {
               quote: '"Speak the speech, I pray you, as I pronounced it to you, trippingly on the tongue"',
+              scene: 'Act 3, Scene 2',
               technique: 'Imperative / dramatic theory',
               effect: 'Hamlet\'s advice to the players is Shakespeare\'s manifesto for naturalistic acting. The playwright speaks through his character about his own art.'
             },
             {
               quote: '"Hold, as \'twere, the mirror up to nature"',
+              scene: 'Act 3, Scene 2',
               technique: 'Metaphor / mimesis',
               effect: 'Theatre reflects reality. But the Mousetrap also CREATES reality—it provokes Claudius\'s confession. The mirror is also a weapon.'
             },
             {
               quote: '"I essentially am not in madness, / But mad in craft"',
+              scene: 'Act 3, Scene 4',
               technique: 'Paradox / performance',
               effect: 'Hamlet claims his madness is performed ("craft"). But can we trust this claim? The line between real and performed madness blurs.'
             }
@@ -776,21 +804,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"To thine own self be true"',
+              scene: 'Act 1, Scene 3',
               technique: 'Aphorism / dramatic irony',
               effect: 'Famous wisdom—but ironic from a man who spies, manipulates, and never shows his true self. The advice is good; the speaker doesn\'t follow it.'
             },
             {
               quote: '"Brevity is the soul of wit"',
+              scene: 'Act 2, Scene 2',
               technique: 'Irony / self-contradiction',
               effect: 'Polonius says this in a long, rambling speech. Shakespeare signals that Polonius lacks self-knowledge—he can\'t see his own wordiness.'
             },
             {
               quote: '"I\'ll silence me even here"',
+              scene: 'Act 3, Scene 4',
               technique: 'Stage direction as irony',
               effect: 'Polonius hides to spy—and is silenced permanently. His last act is concealment; his death is the consequence of a lifetime of hiding.'
             },
             {
               quote: '"Thou wretched, rash, intruding fool, farewell!"',
+              scene: 'Act 3, Scene 4',
               technique: 'Epitaph / dismissal',
               effect: 'Hamlet\'s judgment is harsh but accurate: "intruding" captures Polonius\'s fatal habit. The lack of mourning contrasts with later grief for Ophelia.'
             }
@@ -875,21 +907,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"Though yet of Hamlet our dear brother\'s death / The memory be green"',
+              scene: 'Act 1, Scene 2',
               technique: 'Antithesis / rhetorical management',
               effect: 'Claudius juxtaposes mourning and marriage, death and celebration. His rhetoric smooths over contradictions—a politician\'s skill.'
             },
             {
               quote: '"O, my offence is rank, it smells to heaven"',
+              scene: 'Act 3, Scene 3',
               technique: 'Olfactory imagery / confession',
               effect: 'The stench of sin reaches God. Claudius\'s private language is visceral where his public speech is polished—the gap between selves.'
             },
             {
               quote: '"My words fly up, my thoughts remain below. / Words without thoughts never to heaven go"',
+              scene: 'Act 3, Scene 3',
               technique: 'Rhyming couplet / failed prayer',
               effect: 'Claudius knows his prayer fails. The couplet\'s closure is ironic—there\'s no spiritual closure, only self-knowledge of damnation.'
             },
             {
               quote: '"The serpent that did sting thy father\'s life / Now wears his crown"',
+              scene: 'Act 1, Scene 5',
               technique: 'Biblical allusion / animal imagery',
               effect: 'The Ghost\'s description links Claudius to the serpent in Eden—tempter, deceiver, bringer of death. Claudius is Satanic.'
             }
@@ -968,21 +1004,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The undiscovered country from whose bourn / No traveller returns"',
+              scene: 'Act 3, Scene 1',
               technique: 'Metaphor / exploration imagery',
               effect: 'Death as foreign land emphasizes the unknown. Ironically, the Ghost HAS returned—but this doesn\'t comfort Hamlet; it terrifies him.'
             },
             {
               quote: '"Alas, poor Yorick! I knew him, Horatio"',
+              scene: 'Act 5, Scene 1',
               technique: 'Apostrophe / elegy',
               effect: 'Hamlet addresses the skull directly—intimacy with death. The past tense ("knew") underlines loss; memory confronts mortality.'
             },
             {
               quote: '"Imperious Caesar, dead and turned to clay, / Might stop a hole to keep the wind away"',
+              scene: 'Act 5, Scene 1',
               technique: 'Bathos / democratizing imagery',
               effect: 'Emperors become clay plugs. Death is the great leveler—worldly glory is meaningless. Hamlet moves from fear to philosophical detachment.'
             },
             {
               quote: '"The readiness is all... Let be"',
+              scene: 'Act 5, Scene 2',
               technique: 'Aphorism / acceptance',
               effect: 'Simple, declarative, calm. The tortured questioning stops. Whether this is wisdom, resignation, or grace, it marks Hamlet\'s transformation.'
             }
@@ -1067,21 +1107,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The spirit that I have seen / May be the devil"',
+              scene: 'Act 2, Scene 2',
               technique: 'Modal verb / epistemological doubt',
               effect: 'The "may be" is crucial: Hamlet cannot know if the Ghost deceives. This uncertainty is the play\'s engine.'
             },
             {
               quote: '"One may smile, and smile, and be a villain"',
+              scene: 'Act 1, Scene 5',
               technique: 'Repetition / appearance-reality gap',
               effect: 'Claudius\'s smiles are masks. The line articulates the play\'s central concern: surfaces deceive, and truth is hidden.'
             },
             {
               quote: '"I essentially am not in madness, / But mad in craft"',
+              scene: 'Act 3, Scene 4',
               technique: 'Paradox / self-assertion',
               effect: 'Hamlet claims control over his performance. But can we trust this claim? The audience is left uncertain—as intended.'
             },
             {
               quote: '"The play\'s the thing / Wherein I\'ll catch the conscience of the King"',
+              scene: 'Act 2, Scene 2',
               technique: 'Rhyming couplet / ironic purpose',
               effect: 'Hamlet uses fiction to trap truth. The theatre—a place of "lies"—becomes the instrument of revelation. Deception serves justice.'
             }
@@ -1160,21 +1204,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"Frailty, thy name is woman!"',
+              scene: 'Act 1, Scene 2',
               technique: 'Apostrophe / misogynistic generalization',
               effect: 'Hamlet\'s disgust at Gertrude extends to all women. The line reveals his tendency to universalize personal grievance—and his sexism.'
             },
             {
               quote: '"Nay, but to live / In the rank sweat of an enseamed bed"',
+              scene: 'Act 3, Scene 4',
               technique: 'Visceral imagery / sexual disgust',
               effect: '"Enseamed" (greasy, from cooking fat) makes Gertrude\'s sexuality repulsive. Hamlet\'s language is physically revolted—he can\'t separate his mother from her body.'
             },
             {
               quote: '"O Hamlet, thou hast cleft my heart in twain"',
+              scene: 'Act 3, Scene 4',
               technique: 'Metaphor / recognition',
               effect: 'Gertrude acknowledges pain. Whether this is guilt or just distress at Hamlet\'s attack is unclear—another ambiguity.'
             },
             {
               quote: '"The drink, the drink! I am poisoned"',
+              scene: 'Act 5, Scene 2',
               technique: 'Exclamation / final words',
               effect: 'Gertrude\'s death is ambiguous: did she know? Did she drink to save Hamlet? Her last act is warning—maternal protection at the end.'
             }
@@ -1259,21 +1307,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The spirit that I have seen / May be the devil"',
+              scene: 'Act 2, Scene 2',
               technique: 'Modal verb / epistemological doubt',
               effect: '"May be" is the play\'s signature mood. Hamlet exists in possibility, not certainty; action is deferred until proof arrives.'
             },
             {
               quote: '"To be or not to be—that is the question"',
+              scene: 'Act 3, Scene 1',
               technique: 'Antithesis / question form',
               effect: 'The most famous question in literature. Hamlet frames existence itself as uncertain—he can\'t even decide whether to live.'
             },
             {
               quote: '"Now might I do it pat, now he is praying"',
+              scene: 'Act 3, Scene 3',
               technique: 'Conditional / hesitation',
               effect: '"Might" signals uncertainty even at the moment of opportunity. Hamlet talks himself out of action through theological speculation.'
             },
             {
               quote: '"There are more things in heaven and earth, Horatio, / Than are dreamt of in your philosophy"',
+              scene: 'Act 1, Scene 5',
               technique: 'Generalization / epistemological humility',
               effect: 'Knowledge has limits. The Ghost exceeds what can be explained—uncertainty is built into the cosmos.'
             }
@@ -1352,21 +1404,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"I shall obey, my lord"',
+              scene: 'Act 1, Scene 3',
               technique: 'Simple declarative / compliance',
               effect: 'The line\'s brevity underlines Ophelia\'s lack of voice. She doesn\'t argue, negotiate, or question—she obeys. Identity is defined by submission.'
             },
             {
               quote: '"O, what a noble mind is here o\'erthrown!"',
+              scene: 'Act 3, Scene 1',
               technique: 'Apostrophe / lament',
               effect: 'Ophelia watches Hamlet\'s "madness" and mourns. Ironically, she will lose her own mind. The speech shows her intelligence—she observes, analyses—before she\'s silenced.'
             },
             {
               quote: '"There\'s rosemary, that\'s for remembrance; pray you, love, remember"',
+              scene: 'Act 4, Scene 5',
               technique: 'Symbolic distribution / fragmented syntax',
               effect: 'Ophelia\'s flowers speak in code: rosemary for memory, rue for regret, violets for faithfulness (withered). Madness allows symbolic accusation.'
             },
             {
               quote: '"Her clothes spread wide, / And mermaid-like a while they bore her up"',
+              scene: 'Act 4, Scene 7',
               technique: 'Water imagery / passive drowning',
               effect: 'Gertrude\'s account is beautiful and passive—Ophelia drifts, sings, sinks. Agency is absent even in death. The poetry aestheticizes her end—which may also obscure it.'
             }
@@ -1451,21 +1507,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"O, that this too too solid flesh would melt"',
+              scene: 'Act 1, Scene 2',
               technique: 'Hyperbole / death-wish',
               effect: 'Hamlet wants dissolution—escape from the suffering body. The flesh is a prison; death would be release. Suffering produces suicidal ideation.'
             },
             {
               quote: '"The slings and arrows of outrageous fortune"',
+              scene: 'Act 3, Scene 1',
               technique: 'Metaphor / violence imagery',
               effect: 'Fortune attacks; life is a battle. Suffering is external assault, not just internal mood. The question is whether to endure or escape.'
             },
             {
               quote: '"Sulphurous and tormenting flames"',
+              scene: 'Act 1, Scene 5',
               technique: 'Hellfire imagery / sensory detail',
               effect: 'The Ghost describes afterlife suffering—purgatorial torture. Suffering extends beyond death; there\'s no escape even in dying.'
             },
             {
               quote: '"He is dead and gone, lady, / He is dead and gone"',
+              scene: 'Act 4, Scene 5',
               technique: 'Repetition / song form',
               effect: 'Ophelia\'s song repeats loss. The form—ballad, fragmented—distances suffering into art while expressing it. Madness is suffering made audible.'
             }
@@ -1544,21 +1604,25 @@ export const HAMLET_PAST_PAPERS = {
           quotes: [
             {
               quote: '"The play\'s the thing / Wherein I\'ll catch the conscience of the King"',
+              scene: 'Act 2, Scene 2',
               technique: 'Rhyming couplet / resolve',
               effect: 'The couplet\'s closure contrasts with Hamlet\'s usual uncertainty. Theatre becomes a weapon—art serves justice. The line announces purpose after pages of dithering.'
             },
             {
               quote: '"Hold, as \'twere, the mirror up to nature"',
+              scene: 'Act 3, Scene 2',
               technique: 'Metaphor / mimesis',
               effect: 'Theatre reflects reality. But the Mousetrap also SHAPES reality—it provokes Claudius, changes the political situation. The mirror is active, not passive.'
             },
             {
               quote: '"Give me some light! Away!"',
+              scene: 'Act 3, Scene 2',
               technique: 'Imperative / flight',
               effect: 'Claudius breaks—he can\'t watch his crime re-enacted. Light (truth, exposure) is what he flees. His exit is confession through action.'
             },
             {
               quote: '"\'Tis a knavish piece of work, but what o\' that?"',
+              scene: 'Act 3, Scene 2',
               technique: 'Dismissal / dramatic irony',
               effect: 'Hamlet feigns innocence about the play\'s implications. The audience knows better—dramatic irony layers the scene\'s complexity.'
             }
