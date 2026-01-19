@@ -32,6 +32,7 @@ import EnglishAskView from './EnglishAskView';
 import { getEnglishTextURL, getEnglishChunksURL } from '../config/englishTextLinks';
 import EnglishPastPapersView from './EnglishPastPapersView';
 import HamletPastPapers from './HamletPastPapers';
+import HeartOfDarknessPastPapers from './HeartOfDarknessPastPapers';
 
 function TopicDetail({ topic, onBack }) {
   const [selectedSubTopic, setSelectedSubTopic] = useState(topic.subTopics[0]?.id || null);
@@ -44,6 +45,7 @@ function TopicDetail({ topic, onBack }) {
   const [textError, setTextError] = useState('');
   const [textContent, setTextContent] = useState('');
   const [showHamletPastPapers, setShowHamletPastPapers] = useState(false);
+  const [showHodPastPapers, setShowHodPastPapers] = useState(false);
 
   // Curriculum helpers (defined once)
   const isEngLit = (getSelectedCurriculum && getSelectedCurriculum()) === 'edexcel-englit';
@@ -694,6 +696,9 @@ function TopicDetail({ topic, onBack }) {
                 {topic.id === 'hamlet' && (
                   <button onClick={() => setShowHamletPastPapers(true)} className="px-4 py-3 rounded-xl font-semibold transition bg-purple-100 hover:bg-purple-200 text-purple-800 ring-2 ring-purple-300">📚 Past Paper Analysis</button>
                 )}
+                {topic.id === 'heart-of-darkness' && (
+                  <button onClick={() => setShowHodPastPapers(true)} className="px-4 py-3 rounded-xl font-semibold transition bg-emerald-100 hover:bg-emerald-200 text-emerald-800 ring-2 ring-emerald-300">📚 Past Paper Analysis</button>
+                )}
               </div>
             )}
 
@@ -901,6 +906,9 @@ function TopicDetail({ topic, onBack }) {
       })()}
       {showHamletPastPapers && (
         <HamletPastPapers onClose={() => setShowHamletPastPapers(false)} />
+      )}
+      {showHodPastPapers && (
+        <HeartOfDarknessPastPapers onClose={() => setShowHodPastPapers(false)} />
       )}
     </div>
   );
