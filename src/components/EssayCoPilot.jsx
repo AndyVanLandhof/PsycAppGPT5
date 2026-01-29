@@ -47,6 +47,11 @@ const EssayCoPilot = ({ onClose }) => {
   const [feedbackLoading, setFeedbackLoading] = useState(false);
   const [feedbackHistory, setFeedbackHistory] = useState({});
   
+  // Help Me Out state
+  const [helpContent, setHelpContent] = useState(null);
+  const [helpLoading, setHelpLoading] = useState(false);
+  const [showHelpModal, setShowHelpModal] = useState(false);
+  
   // UI state
   const [showExample, setShowExample] = useState(false);
   const textareaRef = useRef(null);
@@ -362,6 +367,155 @@ Be specific and constructive. Celebrate what works!`
     } finally {
       setFeedbackLoading(false);
     }
+  };
+
+  // Help Me Out function
+  const getHelp = async () => {
+    const stage = currentStageData.id;
+    const content = getCurrentContent();
+    
+    setHelpLoading(true);
+    setHelpContent(null);
+    setShowHelpModal(true);
+
+    try {
+      const helpPrompts = {
+        planning: `You are helping an A-Level student plan an OCR Religious Studies essay (40 marks: 16 AO1, 24 AO2).
+
+Question: "${questionText}"
+
+The student is stuck on planning. Give them SPECIFIC, CONCRETE suggestions they can use:
+
+1. **Suggested Thesis** (1-2 sentences they could use or adapt)
+
+2. **Key Arguments FOR** (3 bullet points with specific scholars):
+   - [Scholar]: [Their specific argument]
+   - [Scholar]: [Their specific argument]
+   - [Scholar]: [Their specific argument]
+
+3. **Key Arguments AGAINST** (3 bullet points with specific scholars):
+   - [Scholar]: [Their counter-argument]
+   - [Scholar]: [Their counter-argument]
+   - [Scholar]: [Their counter-argument]
+
+Be specific with names, concepts, and brief explanations. Make it easy to copy and use.`,
+
+        intro: `You are helping an A-Level student write their introduction for an OCR Religious Studies essay.
+
+Question: "${questionText}"
+
+Their thesis from planning: ${essayContent.planning.thesis || '(not stated yet)'}
+
+Give them a MODEL INTRODUCTION they can learn from or adapt (80-100 words):
+
+**Example Introduction:**
+[Write a strong introduction that:
+- Defines key terms
+- States a clear thesis
+- Briefly signposts the argument structure]
+
+Then explain briefly WHY this introduction works.`,
+
+        argument: `You are helping an A-Level student write their main argument section for an OCR Religious Studies essay.
+
+Question: "${questionText}"
+Their thesis: ${essayContent.planning.thesis || '(not stated)'}
+Their planned arguments FOR: ${essayContent.planning.argumentsFor || '(none listed)'}
+
+Give them a MODEL PARAGRAPH they can learn from or adapt (200-250 words):
+
+**Example Main Argument:**
+[Write a strong argument section that:
+- Uses 2-3 named scholars with their specific arguments
+- Explains WHY these arguments support the thesis
+- Weaves in analysis, not just description]
+
+Then list the KEY SCHOLARS and their arguments they should definitely mention.`,
+
+        counter: `You are helping an A-Level student write their challenge & response section.
+
+Question: "${questionText}"
+Their thesis: ${essayContent.planning.thesis || '(not stated)'}
+Challenges they planned: ${essayContent.planning.argumentsAgainst || '(none listed)'}
+
+Give them a MODEL PARAGRAPH they can learn from or adapt (200-250 words):
+
+**Example Challenge & Response:**
+[Write a strong section that:
+- Presents a genuine challenge using a named scholar
+- Explains the counter-argument fairly (steel man, not straw man)
+- Then RESPONDS to defend the thesis
+- Shows understanding of both sides]
+
+Then list the BEST COUNTER-ARGUMENTS to use with specific scholars.`,
+
+        alternative: `You are helping an A-Level student write their alternative view & critique section.
+
+Question: "${questionText}"
+Their thesis: ${essayContent.planning.thesis || '(not stated)'}
+
+Give them a MODEL PARAGRAPH they can learn from or adapt (200-250 words):
+
+**Example Alternative View & Critique:**
+[Write a strong section that:
+- Presents an alternative philosophical position fairly
+- Uses named scholars who hold that view
+- Then CRITIQUES that view effectively
+- Shows why the original thesis is stronger]
+
+Then list ALTERNATIVE POSITIONS they could discuss with scholars.`,
+
+        conclusion: `You are helping an A-Level student write their conclusion.
+
+Question: "${questionText}"
+Their thesis: ${essayContent.planning.thesis || '(not stated)'}
+Their essay so far covers: Main argument, challenge/response, alternative view
+
+Give them a MODEL CONCLUSION they can learn from or adapt (80-100 words):
+
+**Example Conclusion:**
+[Write a strong conclusion that:
+- Gives a clear VERDICT (answers the question directly)
+- Explains WHY their thesis is the stronger position
+- Acknowledges the strongest counter-point
+- Synthesizes (doesn't just repeat)]
+
+Then explain what makes this conclusion effective.`,
+
+        review: `No help needed for review stage - just click "Get Final Assessment" to see your feedback!`
+      };
+
+      const prompt = helpPrompts[stage] || 'Help is not available for this stage.';
+      
+      const response = await fetch('/ai', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          messages: [{ role: 'user', content: prompt }],
+          model: 'gpt-4o-mini'
+        })
+      });
+
+      if (!response.ok) throw new Error('Failed to get help');
+      
+      const data = await response.json();
+      const helpText = data.choices?.[0]?.message?.content || 'No help available';
+      
+      setHelpContent(helpText);
+      
+    } catch (error) {
+      console.error('Help error:', error);
+      setHelpContent('Sorry, could not load help. Please try again.');
+    } finally {
+      setHelpLoading(false);
+    }
+  };
+
+  // Copy text to clipboard
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text).then(() => {
+      // Could add a toast notification here
+    });
   };
 
   // Navigation
@@ -701,7 +855,7 @@ Be specific and constructive. Celebrate what works!`
           </div>
 
           {/* Feedback button */}
-          <div className="p-4 border-t bg-amber-100/50">
+          <div className="p-4 border-t bg-amber-100/50 space-y-2">
             <button
               onClick={getFeedback}
               disabled={feedbackLoading}
@@ -717,9 +871,76 @@ Be specific and constructive. Celebrate what works!`
                 ? '⭐ Get Final Assessment'
                 : '💬 Get Feedback'}
             </button>
+            
+            {currentStageData.id !== 'review' && (
+              <button
+                onClick={getHelp}
+                disabled={helpLoading}
+                className="w-full py-2 rounded-xl font-medium text-sm border-2 border-purple-300 text-purple-700 hover:bg-purple-50 hover:border-purple-400 transition-all"
+              >
+                {helpLoading ? '⏳ Loading help...' : '🆘 Help Me Out'}
+              </button>
+            )}
           </div>
         </div>
       </div>
+
+      {/* Help Me Out Modal */}
+      {showHelpModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[60] p-4">
+          <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden flex flex-col shadow-2xl">
+            <div className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-4 flex justify-between items-center">
+              <div>
+                <h2 className="text-xl font-bold">🆘 Help Me Out</h2>
+                <p className="text-purple-200 text-sm">Suggestions for: {currentStageData.label}</p>
+              </div>
+              <button
+                onClick={() => setShowHelpModal(false)}
+                className="text-white/80 hover:text-white text-2xl leading-none"
+              >
+                ×
+              </button>
+            </div>
+            
+            <div className="flex-1 overflow-y-auto p-6">
+              {helpLoading ? (
+                <div className="flex items-center justify-center h-48">
+                  <div className="text-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                    <p className="text-purple-700">Generating suggestions...</p>
+                  </div>
+                </div>
+              ) : helpContent ? (
+                <div className="prose prose-sm max-w-none">
+                  <div className="whitespace-pre-wrap text-gray-800 leading-relaxed">
+                    {helpContent}
+                  </div>
+                </div>
+              ) : (
+                <p className="text-gray-500">No help content available.</p>
+              )}
+            </div>
+            
+            <div className="p-4 border-t bg-gray-50 flex gap-3">
+              <button
+                onClick={() => {
+                  if (helpContent) copyToClipboard(helpContent);
+                }}
+                disabled={!helpContent}
+                className="flex-1 py-2 px-4 rounded-lg font-medium text-sm bg-purple-100 text-purple-700 hover:bg-purple-200 transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                📋 Copy All
+              </button>
+              <button
+                onClick={() => setShowHelpModal(false)}
+                className="flex-1 py-2 px-4 rounded-lg font-medium text-sm bg-gray-200 text-gray-700 hover:bg-gray-300 transition"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
