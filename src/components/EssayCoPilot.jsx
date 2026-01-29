@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import { getSelectedCurriculum } from '../config/curricula';
 
 const STAGES = [
-  { id: 'planning', label: 'Planning', icon: '📋', description: 'Brainstorm your AO1/AO2 points' },
-  { id: 'intro', label: 'Introduction', icon: '✍️', description: 'Set up your argument (~100 words)' },
-  { id: 'para1', label: 'Paragraph 1', icon: '1️⃣', description: 'First main argument' },
-  { id: 'para2', label: 'Paragraph 2', icon: '2️⃣', description: 'Second main argument' },
-  { id: 'para3', label: 'Paragraph 3', icon: '3️⃣', description: 'Third argument (optional)' },
-  { id: 'conclusion', label: 'Conclusion', icon: '🎯', description: 'Synthesize and answer (~100 words)' },
+  { id: 'planning', label: 'Planning', icon: '📋', description: 'Thesis + Arguments FOR and AGAINST' },
+  { id: 'intro', label: 'Introduction', icon: '✍️', description: 'State your thesis clearly (~80-100 words)' },
+  { id: 'argument', label: 'Your Argument', icon: '💪', description: 'Present your main case with scholars' },
+  { id: 'counter', label: 'Challenge & Response', icon: '⚔️', description: 'Counter-argument, then respond to it' },
+  { id: 'alternative', label: 'Alternative View', icon: '🔄', description: 'Present opposing position, then critique' },
+  { id: 'conclusion', label: 'Conclusion', icon: '🎯', description: 'Synthesize - clear verdict with justification (~100 words)' },
   { id: 'review', label: 'Final Review', icon: '⭐', description: 'See your complete essay' }
 ];
 
@@ -34,11 +34,11 @@ const EssayCoPilot = ({ onClose }) => {
   
   // Essay content state
   const [essayContent, setEssayContent] = useState({
-    planning: { ao1: '', ao2: '' },
+    planning: { thesis: '', argumentsFor: '', argumentsAgainst: '' },
     intro: '',
-    para1: '',
-    para2: '',
-    para3: '',
+    argument: '',
+    counter: '',
+    alternative: '',
     conclusion: ''
   });
   
@@ -88,9 +88,9 @@ const EssayCoPilot = ({ onClose }) => {
   // Calculate total word count
   const getTotalWordCount = () => {
     return getWordCount(essayContent.intro) +
-           getWordCount(essayContent.para1) +
-           getWordCount(essayContent.para2) +
-           getWordCount(essayContent.para3) +
+           getWordCount(essayContent.argument) +
+           getWordCount(essayContent.counter) +
+           getWordCount(essayContent.alternative) +
            getWordCount(essayContent.conclusion);
   };
 
@@ -100,24 +100,32 @@ const EssayCoPilot = ({ onClose }) => {
 
 Question: "${questionText}"
 
+OCR rewards DIALECTICAL essays: Thesis → Argument → Challenge → Response → Alternative → Critique → Synthesis. The examiner wants to see "a line of reasoning which is coherent, relevant and logically structured."
+
 Your role is to give SPECIFIC, ACTIONABLE feedback to help them write an A/A* essay. Be encouraging but honest. Point out what's good, what's missing, and give concrete suggestions. Keep feedback concise (3-5 bullet points max).`;
 
     const stagePrompts = {
       planning: `${baseContext}
 
-The student is brainstorming their essay plan. They've listed:
+The student is planning their dialectical essay. They've written:
 
-AO1 (Knowledge/Understanding) ideas:
-${content.ao1 || '(nothing yet)'}
+THESIS (their position on the question):
+${content.thesis || '(not yet stated)'}
 
-AO2 (Analysis/Evaluation) ideas:
-${content.ao2 || '(nothing yet)'}
+ARGUMENTS FOR their position:
+${content.argumentsFor || '(nothing yet)'}
+
+ARGUMENTS AGAINST / Counter-arguments to address:
+${content.argumentsAgainst || '(nothing yet)'}
 
 Give feedback on:
-1. Are the AO1 points sufficient? What key scholars/concepts are missing?
-2. Are the AO2 points balanced (arguments AND counter-arguments)?
-3. Is there enough material for a full 40-mark essay?
-4. Suggest 2-3 specific additions if needed
+1. Is the thesis clear and directly answering the question?
+2. Are there enough arguments FOR (aim for 2-3 with scholars)?
+3. Are there genuine counter-arguments listed (not straw men)?
+4. Do they have scholars/evidence for both sides?
+5. Is there enough material for a 40-mark dialectical essay?
+
+Suggest specific scholars or arguments they might be missing.
 
 Rate readiness: "Ready to proceed ✅" or "Needs more work ⚠️" (soft guidance - they can still continue)
 
@@ -125,103 +133,128 @@ Format your response with clear headers and bullet points.`,
 
       intro: `${baseContext}
 
-Previous planning:
-AO1: ${essayContent.planning.ao1}
-AO2: ${essayContent.planning.ao2}
+Their planning:
+- Thesis: ${essayContent.planning.thesis || '(not stated)'}
+- Arguments FOR: ${essayContent.planning.argumentsFor || '(none)'}
+- Arguments AGAINST: ${essayContent.planning.argumentsAgainst || '(none)'}
 
 The student has written this INTRODUCTION:
 "${content}"
 
-Word count: ${getWordCount(content)} (target: 80-120 words)
+Word count: ${getWordCount(content)} (target: 80-100 words)
 
-Give feedback on:
-1. Does it clearly address the question?
-2. Does it signpost the argument structure?
-3. Does it show understanding of key terms?
-4. Is the thesis/position clear?
-
-Rate: "Strong intro ✅" or "Could improve ⚠️"`,
-
-      para1: `${baseContext}
-
-Essay so far:
-- Intro: "${essayContent.intro}"
-
-The student has written PARAGRAPH 1:
-"${content}"
-
-Word count: ${getWordCount(content)} (target: 150-250 words per paragraph)
-
-Check for PEEL structure:
-- Point: Clear topic sentence?
-- Evidence: Specific scholars/quotes?
-- Explain: Analysis of the evidence?
-- Link: Connection back to question?
-
-Also check AO balance - is there both knowledge (AO1) AND evaluation (AO2)?
-
-Rate: "Solid paragraph ✅" or "Needs strengthening ⚠️"`,
-
-      para2: `${baseContext}
-
-Essay so far:
-- Intro: "${essayContent.intro}"
-- Para 1: "${essayContent.para1}"
-
-The student has written PARAGRAPH 2:
-"${content}"
-
-Word count: ${getWordCount(content)}
+For OCR, a strong intro should:
+1. Define any key terms in the question
+2. State their THESIS clearly (their answer to the question)
+3. Briefly signpost how they'll argue (what perspectives they'll examine)
 
 Check:
-1. Does it build on paragraph 1 (not repeat)?
-2. Does it present a different argument/perspective?
-3. Is there counter-argument and response?
-4. PEEL structure maintained?
+- Is the thesis statement clear and direct?
+- Does it show they understand what the question is asking?
+- Does it hint at the dialectical structure to come?
 
-Rate: "Good progression ✅" or "Could develop further ⚠️"`,
+Rate: "Strong thesis ✅" or "Could sharpen ⚠️"`,
 
-      para3: `${baseContext}
+      argument: `${baseContext}
 
 Essay so far:
 - Intro: "${essayContent.intro}"
-- Para 1: "${essayContent.para1}"
-- Para 2: "${essayContent.para2}"
 
-The student has written PARAGRAPH 3 (optional but recommended):
+The student has written their MAIN ARGUMENT section:
 "${content}"
 
-${!content || getWordCount(content) < 20 ? 'Note: This paragraph is optional. If they want to skip it, that\'s fine for a solid essay, though a third argument often distinguishes A from A*.' : ''}
+Word count: ${getWordCount(content)} (target: 200-300 words)
 
-Word count: ${getWordCount(content)}
+This section should present their STRONGEST CASE with:
+- Key scholars supporting their position (e.g., Aquinas, Kant, Hume)
+- Specific evidence/arguments from those scholars
+- Clear explanation of WHY this supports their thesis
+- Some analysis woven in (not just description)
 
-If content provided, check:
-1. Does it add new material (not padding)?
-2. Is this their strongest argument (often saved for last)?
-3. Does it demonstrate sophisticated evaluation?
+Check:
+1. Are scholars named and their arguments explained?
+2. Is there genuine AO1 (knowledge) AND AO2 (analysis)?
+3. Does it clearly support the thesis from the intro?
+4. Is it substantive enough to be convincing?
 
-Rate: "Strong addition ✅" or "Skip this is fine" or "Could strengthen ⚠️"`,
+Rate: "Strong argument ✅" or "Needs more depth ⚠️"`,
+
+      counter: `${baseContext}
+
+Essay so far:
+- Intro: "${essayContent.intro}"
+- Main argument: "${essayContent.argument}"
+
+The student has written their CHALLENGE & RESPONSE section:
+"${content}"
+
+Word count: ${getWordCount(content)} (target: 200-300 words)
+
+This section should:
+1. Present a GENUINE challenge to their argument (not a straw man)
+2. Use a scholar who disagrees (e.g., if arguing FOR God, use Hume/Russell)
+3. Then RESPOND to the challenge - defend their position
+4. Show they understand BOTH sides
+
+Check:
+- Is the counter-argument genuinely strong (steel man, not straw man)?
+- Is there a named scholar for the counter-argument?
+- Does their response actually ADDRESS the challenge?
+- Is this dialectical (not just listing views)?
+
+Rate: "Good dialectic ✅" or "Challenge/response needs work ⚠️"`,
+
+      alternative: `${baseContext}
+
+Essay so far:
+- Intro: "${essayContent.intro}"
+- Main argument: "${essayContent.argument}"
+- Challenge & response: "${essayContent.counter}"
+
+The student has written their ALTERNATIVE VIEW & CRITIQUE section:
+"${content}"
+
+Word count: ${getWordCount(content)} (target: 200-300 words)
+
+This section should:
+1. Present an ALTERNATIVE position fairly (the opposing view)
+2. Use scholars who hold that view
+3. Then CRITIQUE that alternative - show its weaknesses
+4. Explain why their original thesis is stronger
+
+This is where they show sophisticated evaluation - they understand the opposition but can explain why it fails.
+
+Check:
+- Is the alternative view presented fairly and accurately?
+- Are there named scholars for this alternative?
+- Is the critique of the alternative convincing?
+- Does this strengthen their overall thesis?
+
+Rate: "Sophisticated evaluation ✅" or "Could develop critique ⚠️"`,
 
       conclusion: `${baseContext}
 
 Full essay so far:
 - Intro: "${essayContent.intro}"
-- Para 1: "${essayContent.para1}"
-- Para 2: "${essayContent.para2}"
-- Para 3: "${essayContent.para3}"
+- Main argument: "${essayContent.argument}"
+- Challenge & response: "${essayContent.counter}"
+- Alternative & critique: "${essayContent.alternative}"
 
 The student has written this CONCLUSION:
 "${content}"
 
 Word count: ${getWordCount(content)} (target: 80-120 words)
 
-Check:
-1. Does it SYNTHESIZE (not just repeat) the arguments?
-2. Does it give a clear, justified ANSWER to the question?
-3. Does it show which argument is strongest and why?
-4. Does it avoid introducing new material?
+OCR wants conclusions that "re-assemble the pieces" - SYNTHESIZE, don't just repeat.
 
-Rate: "Strong conclusion ✅" or "Needs sharpening ⚠️"`,
+Check:
+1. Does it give a CLEAR VERDICT (answering the question directly)?
+2. Does it explain WHY their thesis is the stronger position?
+3. Does it acknowledge nuance (the strongest counter-argument)?
+4. Does it avoid introducing new material?
+5. Does it feel like a natural conclusion to the argument?
+
+Rate: "Strong synthesis ✅" or "Needs to be more decisive ⚠️"`,
 
       review: `${baseContext}
 
@@ -230,27 +263,41 @@ COMPLETE ESSAY:
 Introduction:
 "${essayContent.intro}"
 
-Paragraph 1:
-"${essayContent.para1}"
+Main Argument:
+"${essayContent.argument}"
 
-Paragraph 2:
-"${essayContent.para2}"
+Challenge & Response:
+"${essayContent.counter}"
 
-${essayContent.para3 ? `Paragraph 3:\n"${essayContent.para3}"` : '(No paragraph 3)'}
+Alternative View & Critique:
+"${essayContent.alternative}"
 
 Conclusion:
 "${essayContent.conclusion}"
 
 Total word count: ${getTotalWordCount()}
 
-Provide a FINAL ASSESSMENT:
-1. Estimated grade band (and what would push it higher)
-2. AO1 strengths and gaps
-3. AO2 strengths and gaps  
-4. Overall structure and coherence
-5. Top 3 improvements for next time
+Provide a FINAL ASSESSMENT using OCR criteria:
 
-Be specific and constructive. This is their completed essay - celebrate what works!`
+**AO1 (16 marks) - Knowledge & Understanding:**
+- Range of scholars used?
+- Accuracy of knowledge?
+- Relevant selection for the question?
+- Estimated AO1 mark: X/16
+
+**AO2 (24 marks) - Analysis & Evaluation:**
+- Clear line of reasoning?
+- Genuine dialectic (argument ↔ counter)?
+- Evaluation woven throughout (not bolted on)?
+- Coherent and logical structure?
+- Estimated AO2 mark: X/24
+
+**Overall:**
+- Estimated total: X/40 (Grade: ?)
+- What would push it to the next grade?
+- Top 3 specific improvements
+
+Be specific and constructive. Celebrate what works!`
     };
 
     return stagePrompts[stage] || baseContext;
@@ -263,8 +310,8 @@ Be specific and constructive. This is their completed essay - celebrate what wor
     
     // Don't get feedback if no content
     if (stage === 'planning') {
-      if (!content.ao1 && !content.ao2) {
-        setFeedback({ type: 'info', message: 'Start by listing some AO1 and AO2 ideas above!' });
+      if (!content.thesis && !content.argumentsFor && !content.argumentsAgainst) {
+        setFeedback({ type: 'info', message: 'Start by writing your thesis and listing arguments above!' });
         return;
       }
     } else if (stage === 'review') {
@@ -469,30 +516,42 @@ Be specific and constructive. This is their completed essay - celebrate what wor
 
           <div className="flex-1 overflow-y-auto p-4">
             {currentStageData.id === 'planning' ? (
-              /* Planning stage - two textareas */
+              /* Planning stage - thesis and arguments */
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium text-blue-700 mb-2">
-                    📘 AO1 Ideas (Knowledge & Understanding)
+                  <label className="block text-sm font-medium text-purple-700 mb-2">
+                    🎯 Your Thesis (What's your answer to the question?)
                   </label>
                   <textarea
-                    value={essayContent.planning.ao1}
-                    onChange={(e) => updateContent(e.target.value, 'ao1')}
-                    placeholder="List your key points, scholars, concepts, definitions...&#10;&#10;e.g.&#10;- Aquinas' Five Ways (motion, causation, contingency)&#10;- Leibniz's Principle of Sufficient Reason&#10;- Kalam cosmological argument"
-                    className="w-full p-3 border-2 border-blue-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none resize-none bg-blue-50/50"
-                    rows={8}
+                    value={essayContent.planning.thesis}
+                    onChange={(e) => updateContent(e.target.value, 'thesis')}
+                    placeholder="State your position clearly in 1-2 sentences...&#10;&#10;e.g. 'The cosmological argument provides a reasonable basis for belief in God, though it does not constitute definitive proof.'"
+                    className="w-full p-3 border-2 border-purple-200 rounded-xl focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none resize-none bg-purple-50/50"
+                    rows={3}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-green-700 mb-2">
-                    📗 AO2 Ideas (Analysis & Evaluation)
+                  <label className="block text-sm font-medium text-blue-700 mb-2">
+                    💪 Arguments FOR your thesis (with scholars)
                   </label>
                   <textarea
-                    value={essayContent.planning.ao2}
-                    onChange={(e) => updateContent(e.target.value, 'ao2')}
-                    placeholder="List arguments FOR and AGAINST, critiques, responses...&#10;&#10;e.g.&#10;FOR: Explains existence, intuitive&#10;AGAINST: Hume - can't apply causation beyond experience&#10;AGAINST: Russell - universe is just a brute fact&#10;RESPONSE: Copleston's radio analogy"
-                    className="w-full p-3 border-2 border-green-200 rounded-xl focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none resize-none bg-green-50/50"
-                    rows={8}
+                    value={essayContent.planning.argumentsFor}
+                    onChange={(e) => updateContent(e.target.value, 'argumentsFor')}
+                    placeholder="List 2-3 arguments supporting your position...&#10;&#10;e.g.&#10;- Aquinas' Five Ways (motion, causation, contingency)&#10;- Leibniz's Principle of Sufficient Reason&#10;- Copleston's radio analogy in BBC debate"
+                    className="w-full p-3 border-2 border-blue-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none resize-none bg-blue-50/50"
+                    rows={6}
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-red-700 mb-2">
+                    ⚔️ Arguments AGAINST / Counter-arguments (with scholars)
+                  </label>
+                  <textarea
+                    value={essayContent.planning.argumentsAgainst}
+                    onChange={(e) => updateContent(e.target.value, 'argumentsAgainst')}
+                    placeholder="List challenges you'll need to address...&#10;&#10;e.g.&#10;- Hume: can't apply causation beyond experience&#10;- Russell: universe is a 'brute fact', no explanation needed&#10;- Kant: causation only applies within the phenomenal world"
+                    className="w-full p-3 border-2 border-red-200 rounded-xl focus:border-red-500 focus:ring-2 focus:ring-red-200 outline-none resize-none bg-red-50/50"
+                    rows={6}
                   />
                 </div>
               </div>
@@ -508,27 +567,27 @@ Be specific and constructive. This is their completed essay - celebrate what wor
                         <p className="mt-1 whitespace-pre-wrap">{essayContent.intro}</p>
                       </div>
                     )}
-                    {essayContent.para1 && (
+                    {essayContent.argument && (
                       <div>
-                        <span className="text-xs font-medium text-indigo-600">Paragraph 1</span>
-                        <p className="mt-1 whitespace-pre-wrap">{essayContent.para1}</p>
+                        <span className="text-xs font-medium text-blue-600">Your Main Argument</span>
+                        <p className="mt-1 whitespace-pre-wrap">{essayContent.argument}</p>
                       </div>
                     )}
-                    {essayContent.para2 && (
+                    {essayContent.counter && (
                       <div>
-                        <span className="text-xs font-medium text-indigo-600">Paragraph 2</span>
-                        <p className="mt-1 whitespace-pre-wrap">{essayContent.para2}</p>
+                        <span className="text-xs font-medium text-orange-600">Challenge & Response</span>
+                        <p className="mt-1 whitespace-pre-wrap">{essayContent.counter}</p>
                       </div>
                     )}
-                    {essayContent.para3 && (
+                    {essayContent.alternative && (
                       <div>
-                        <span className="text-xs font-medium text-indigo-600">Paragraph 3</span>
-                        <p className="mt-1 whitespace-pre-wrap">{essayContent.para3}</p>
+                        <span className="text-xs font-medium text-purple-600">Alternative View & Critique</span>
+                        <p className="mt-1 whitespace-pre-wrap">{essayContent.alternative}</p>
                       </div>
                     )}
                     {essayContent.conclusion && (
                       <div>
-                        <span className="text-xs font-medium text-indigo-600">Conclusion</span>
+                        <span className="text-xs font-medium text-green-600">Conclusion</span>
                         <p className="mt-1 whitespace-pre-wrap">{essayContent.conclusion}</p>
                       </div>
                     )}
@@ -547,10 +606,16 @@ Be specific and constructive. This is their completed essay - celebrate what wor
                   onChange={(e) => updateContent(e.target.value)}
                   placeholder={
                     currentStageData.id === 'intro'
-                      ? "Write your introduction here...\n\nTip: Start by defining key terms, then signpost your argument structure."
+                      ? "Write your introduction here...\n\nTip: Define key terms, state your THESIS clearly, briefly signpost how you'll argue."
+                      : currentStageData.id === 'argument'
+                      ? "Present your MAIN ARGUMENT here...\n\nInclude:\n• Named scholars who support your position\n• Their specific arguments/evidence\n• Why this supports your thesis\n\nAim for 200-300 words with real depth."
+                      : currentStageData.id === 'counter'
+                      ? "Present a CHALLENGE to your argument, then RESPOND to it...\n\nStructure:\n1. 'However, [Scholar] argues that...'\n2. Explain their counter-argument fairly\n3. 'Nevertheless, this can be challenged because...'\n4. Defend your position\n\nShow you understand both sides!"
+                      : currentStageData.id === 'alternative'
+                      ? "Present the ALTERNATIVE VIEW, then CRITIQUE it...\n\nStructure:\n1. 'An alternative perspective is [Scholar's] view that...'\n2. Explain their position fairly\n3. 'However, this view fails because...'\n4. Show why your thesis is stronger\n\nThis is where you show sophisticated evaluation."
                       : currentStageData.id === 'conclusion'
-                      ? "Write your conclusion here...\n\nTip: Synthesize (don't repeat), give a clear verdict, explain why."
-                      : "Write your paragraph here...\n\nStructure: Point → Evidence → Explain → Link back to question"
+                      ? "Write your conclusion here...\n\nSYNTHESIZE (don't just repeat):\n• Give a clear VERDICT answering the question\n• Explain WHY your thesis is the stronger position\n• Acknowledge the strongest counter-point\n• No new material!"
+                      : "Write here..."
                   }
                   className="w-full h-full min-h-[400px] p-4 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none resize-none text-gray-800 leading-relaxed"
                 />
@@ -559,7 +624,7 @@ Be specific and constructive. This is their completed essay - celebrate what wor
                     {getWordCount(essayContent[currentStageData.id] || '')} words
                     {currentStageData.id === 'intro' || currentStageData.id === 'conclusion'
                       ? ' (target: 80-120)'
-                      : ' (target: 150-250)'}
+                      : ' (target: 200-300)'}
                   </span>
                 </div>
               </div>
