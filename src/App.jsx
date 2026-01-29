@@ -23,6 +23,7 @@ import VaultDirectory from './pages/VaultDirectory.jsx';
 import Planner from './pages/Planner.jsx';
 import ActualPastPapers from './pages/ActualPastPapers.jsx';
 import SyntheticPastPapers from './pages/SyntheticPastPapers.jsx';
+import EssayCoPilot from './components/EssayCoPilot.jsx';
 import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
 import { topicData as rsTopicsAll } from './topicData.js';
 import { KUsBySubTopic } from './data/knowledgeMaps';
@@ -121,6 +122,7 @@ function App() {
   // Always start on subject chooser on load/refresh; user selection sets curriculum
   const [curriculum, setCurriculum] = useState(null);
   const [showMindMapModal, setShowMindMapModal] = useState(false);
+  const [showEssayCoPilot, setShowEssayCoPilot] = useState(false);
   const mindMapUrl = `/vault/ocr-rs/vault/General/${encodeURIComponent('Mind Maps Jan 2026.pdf')}`;
 
   // Determine topics source
@@ -300,6 +302,12 @@ function App() {
               >
                 🧠 Mind Maps (Jan 2026)
               </button>
+              <button
+                onClick={() => setShowEssayCoPilot(true)}
+                className="px-5 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg font-semibold shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-600 transition"
+              >
+                ✍️ Essay Co-Pilot
+              </button>
             </div>
           </>
         ) : curriculum === 'edexcel-englit' ? (
@@ -410,6 +418,9 @@ function App() {
             </div>
           </div>
         </div>
+      )}
+      {showEssayCoPilot && (
+        <EssayCoPilot onClose={() => setShowEssayCoPilot(false)} />
       )}
     </div>
   );
