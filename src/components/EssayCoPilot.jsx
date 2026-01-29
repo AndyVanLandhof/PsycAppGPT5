@@ -56,7 +56,7 @@ const EssayCoPilot = ({ onClose }) => {
 
   // Word count helper
   const getWordCount = (text) => {
-    if (!text) return 0;
+    if (!text || typeof text !== 'string') return 0;
     return text.trim().split(/\s+/).filter(w => w.length > 0).length;
   };
 
@@ -267,7 +267,9 @@ Be specific and constructive. This is their completed essay - celebrate what wor
         setFeedback({ type: 'info', message: 'Start by listing some AO1 and AO2 ideas above!' });
         return;
       }
-    } else if (stage !== 'review' && (!content || getWordCount(content) < 10)) {
+    } else if (stage === 'review') {
+      // Review stage doesn't need content validation - it reviews the whole essay
+    } else if (!content || typeof content !== 'string' || getWordCount(content) < 10) {
       setFeedback({ type: 'info', message: 'Write a bit more before getting feedback!' });
       return;
     }
