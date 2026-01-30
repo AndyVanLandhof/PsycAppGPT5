@@ -302,12 +302,6 @@ function App() {
               >
                 🧠 Mind Maps (Jan 2026)
               </button>
-              <button
-                onClick={() => setShowEssayCoPilot(true)}
-                className="px-5 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg font-semibold shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-600 transition"
-              >
-                ✍️ Essay Co-Pilot
-              </button>
             </div>
           </>
         ) : curriculum === 'edexcel-englit' ? (
@@ -340,6 +334,14 @@ function App() {
           >
               ✨ Synthetic Past Papers
           </button>
+          {curriculum === 'ocr-rs' && (
+            <button
+              onClick={() => setShowEssayCoPilot(true)}
+              className="flex items-center gap-2 text-lg px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg font-semibold shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-600 transition-all"
+            >
+              ✍️ Essay Co-Pilot
+            </button>
+          )}
           </div>
         </div>
 

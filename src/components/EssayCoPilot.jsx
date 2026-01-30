@@ -332,7 +332,7 @@ Be specific and constructive. Celebrate what works!`
     try {
       const prompt = getStagePrompt(stage, content);
       
-      const response = await fetch('/ai', {
+      const response = await fetch('/api/ai', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -344,7 +344,8 @@ Be specific and constructive. Celebrate what works!`
       if (!response.ok) throw new Error('Failed to get feedback');
       
       const data = await response.json();
-      const feedbackText = data.choices?.[0]?.message?.content || 'No feedback available';
+      const rawFeedback = data.choices?.[0]?.message?.content || 'No feedback available';
+      const feedbackText = stripMarkdown(rawFeedback);
       
       const newFeedback = {
         type: 'success',
@@ -487,7 +488,7 @@ Then explain what makes this conclusion effective.`,
 
       const prompt = helpPrompts[stage] || 'Help is not available for this stage.';
       
-      const response = await fetch('/ai', {
+      const response = await fetch('/api/ai', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -499,7 +500,8 @@ Then explain what makes this conclusion effective.`,
       if (!response.ok) throw new Error('Failed to get help');
       
       const data = await response.json();
-      const helpText = data.choices?.[0]?.message?.content || 'No help available';
+      const rawHelp = data.choices?.[0]?.message?.content || 'No help available';
+      const helpText = stripMarkdown(rawHelp);
       
       setHelpContent(helpText);
       
@@ -516,6 +518,21 @@ Then explain what makes this conclusion effective.`,
     navigator.clipboard.writeText(text).then(() => {
       // Could add a toast notification here
     });
+  };
+
+  // Strip markdown formatting from text
+  const stripMarkdown = (text) => {
+    if (!text) return text;
+    return text
+      .replace(/#{1,6}\s*/g, '')           // Remove headers (### etc)
+      .replace(/\*\*([^*]+)\*\*/g, '$1')   // Remove bold **text**
+      .replace(/\*([^*]+)\*/g, '$1')       // Remove italic *text*
+      .replace(/__([^_]+)__/g, '$1')       // Remove bold __text__
+      .replace(/_([^_]+)_/g, '$1')         // Remove italic _text_
+      .replace(/`([^`]+)`/g, '$1')         // Remove inline code
+      .replace(/^\s*[-*+]\s+/gm, '• ')     // Convert list markers to bullets
+      .replace(/^\s*\d+\.\s+/gm, '')       // Remove numbered list markers
+      .trim();
   };
 
   // Navigation
