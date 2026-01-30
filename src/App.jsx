@@ -24,6 +24,7 @@ import Planner from './pages/Planner.jsx';
 import ActualPastPapers from './pages/ActualPastPapers.jsx';
 import SyntheticPastPapers from './pages/SyntheticPastPapers.jsx';
 import EssayCoPilot from './components/EssayCoPilot.jsx';
+import EngLitEssayCoPilot from './components/EngLitEssayCoPilot.jsx';
 import { CURRICULA, getSelectedCurriculum, setSelectedCurriculum } from './config/curricula.js';
 import { topicData as rsTopicsAll } from './topicData.js';
 import { KUsBySubTopic } from './data/knowledgeMaps';
@@ -123,6 +124,7 @@ function App() {
   const [curriculum, setCurriculum] = useState(null);
   const [showMindMapModal, setShowMindMapModal] = useState(false);
   const [showEssayCoPilot, setShowEssayCoPilot] = useState(false);
+  const [showEngLitEssayCoPilot, setShowEngLitEssayCoPilot] = useState(false);
   const mindMapUrl = `/vault/ocr-rs/vault/General/${encodeURIComponent('Mind Maps Jan 2026.pdf')}`;
 
   // Determine topics source
@@ -342,6 +344,14 @@ function App() {
               ✍️ Essay Co-Pilot
             </button>
           )}
+          {curriculum === 'edexcel-englit' && (
+            <button
+              onClick={() => setShowEngLitEssayCoPilot(true)}
+              className="flex items-center gap-2 text-lg px-6 py-3 bg-gradient-to-r from-rose-500 to-amber-500 text-white rounded-lg font-semibold shadow-md hover:shadow-lg hover:from-rose-600 hover:to-amber-600 transition-all"
+            >
+              ✍️ Essay Co-Pilot
+            </button>
+          )}
           </div>
         </div>
 
@@ -423,6 +433,9 @@ function App() {
       )}
       {showEssayCoPilot && (
         <EssayCoPilot onClose={() => setShowEssayCoPilot(false)} />
+      )}
+      {showEngLitEssayCoPilot && (
+        <EngLitEssayCoPilot onClose={() => setShowEngLitEssayCoPilot(false)} />
       )}
     </div>
   );
