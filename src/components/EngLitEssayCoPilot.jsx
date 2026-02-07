@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, ChevronRight, ChevronLeft, BookOpen, Theater, FileText, Feather } from 'lucide-react';
+import { ArrowLeft, ChevronRight, ChevronLeft, BookOpen, Crown, FileText, Feather } from 'lucide-react';
 
 /**
  * Essay Co-Pilot for Edexcel English Literature
@@ -570,7 +570,7 @@ Then explain what makes an effective Literature conclusion.`
                 onClick={() => setTextType('drama')}
                 className="p-6 bg-white rounded-2xl border-2 border-rose-200 hover:border-rose-400 hover:shadow-lg transition-all group"
               >
-                <Theater className="w-12 h-12 text-rose-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                <Crown className="w-12 h-12 text-rose-500 mx-auto mb-3 group-hover:scale-110 transition-transform" />
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Drama</h3>
                 <p className="text-gray-600 text-sm">Hamlet, Waiting for Godot, etc.</p>
                 <p className="text-rose-600 text-xs mt-2">Stagecraft • Performance • Dialogue</p>
@@ -613,7 +613,7 @@ Then explain what makes an effective Literature conclusion.`
 
           <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm mb-4">
-              {textType === 'drama' && <Theater className="w-5 h-5 text-rose-500" />}
+              {textType === 'drama' && <Crown className="w-5 h-5 text-rose-500" />}
               {textType === 'prose' && <BookOpen className="w-5 h-5 text-amber-500" />}
               {textType === 'poetry' && <Feather className="w-5 h-5 text-purple-500" />}
               <span className="font-medium text-gray-700">{getTextTypeLabel()}</span>
