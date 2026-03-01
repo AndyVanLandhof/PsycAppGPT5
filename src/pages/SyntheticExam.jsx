@@ -170,10 +170,6 @@ TEXT GUARDRAIL - WAITING FOR GODOT:
 : `
 TEXT GUARDRAIL - Stay within the text being examined. Do NOT mix texts.`}
 - Do NOT ask for theology/psychology content in literature essays`;
-- Use level descriptors for extended responses
-- Credit close textual analysis and use of quotations
-- Look for awareness of context, form, and critical perspectives
-- Credit personal response and engagement with the text`;
 
         const prompt = `You are an expert ${examBoard} examiner marking a student's exam answer to a synthetic past paper question. You must mark EXACTLY as a real examiner would, using the official mark scheme criteria and typical level descriptors for this board and paper.
 
