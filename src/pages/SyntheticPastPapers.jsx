@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Sparkles, Clock, Play, CheckCircle, Loader2 } from 'lucide-react';
+import { Sparkles, Clock, Play, CheckCircle, Loader2, Volume2, VolumeX, Pause } from 'lucide-react';
 import { getSelectedCurriculum } from '../config/curricula';
 import { useAIService } from '../hooks/useAIService';
+import { useElevenLabsTTS } from '../hooks/useElevenLabsTTS';
 import SyntheticExam from './SyntheticExam.jsx';
 
 // Paper configurations by curriculum
@@ -133,6 +134,38 @@ const [annotatedHtml, setAnnotatedHtml] = useState('');
 const [annotationNotes, setAnnotationNotes] = useState([]);
   const [levelMode, setLevelMode] = useState('alevel'); // 'alevel' | 'university'
 
+  // ElevenLabs TTS for audio feedback
+  const { speak, playPreparedAudio, audioReady, audioLoading, audioError, stop, ttsState, isConfigured } = useElevenLabsTTS();
+
+  // Compile feedback into readable text for TTS
+  const compileFeedbackForAudio = () => {
+    if (!fqResult) return '';
+    const parts = [];
+    parts.push(`You scored ${fqResult.awarded} out of ${fqMarks}. ${fqResult.levelDescriptor || ''}`);
+    if (fqResult.feedback) parts.push(fqResult.feedback);
+    if (fqResult.structureComment) parts.push(`Essay Structure: ${fqResult.structureComment}`);
+    if (Array.isArray(fqResult.structureSuggestions) && fqResult.structureSuggestions.length > 0) {
+      parts.push(`To improve your structure: ${fqResult.structureSuggestions.join('. ')}`);
+    }
+    if (fqResult.ao1Comment) parts.push(`For AO1: ${fqResult.ao1Comment}`);
+    if (fqResult.ao2Comment) parts.push(`For AO2: ${fqResult.ao2Comment}`);
+    if (fqResult.whyNotNextLevel) parts.push(`To reach the next level: ${fqResult.whyNotNextLevel}`);
+    if (Array.isArray(fqResult.strengths) && fqResult.strengths.length > 0) {
+      parts.push(`Your strengths were: ${fqResult.strengths.join('. ')}`);
+    }
+    if (Array.isArray(fqResult.improvements) && fqResult.improvements.length > 0) {
+      parts.push(`Areas to improve: ${fqResult.improvements.join('. ')}`);
+    }
+    return parts.join('\n\n');
+  };
+
+  const handleListenToFeedback = () => {
+    const text = compileFeedbackForAudio();
+    if (text) {
+      speak(text);
+    }
+  };
+
   const isEngLit = curriculum === 'edexcel-englit';
   const isPsych = curriculum === 'aqa-psych';
   const isOcrRs = curriculum === 'ocr-rs';
@@ -169,8 +202,8 @@ const [annotationNotes, setAnnotationNotes] = useState([]);
         <p style="margin: 0 0 8px 0;"><strong>Max marks:</strong> ${escapeHtml(fqMarks)}</p>
         <p style="margin: 0 0 8px 0;"><strong>Score:</strong> ${escapeHtml(fqResult.awarded)} / ${escapeHtml(fqMarks)}</p>
         ${fqResult.levelDescriptor ? `<p style="margin: 0 0 8px 0;"><strong>Level:</strong> ${escapeHtml(fqResult.levelDescriptor)}</p>` : ''}
-        ${fqResult.ao1Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO1:</strong> ${escapeHtml(fqResult.ao1Awarded)} / 16</p>` : ''}
-        ${fqResult.ao2Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Awarded)} / 24</p>` : ''}
+        ${fqResult.ao1Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO1:</strong> ${escapeHtml(fqResult.ao1Awarded)} out of 16</p>` : ''}
+        ${fqResult.ao2Awarded !== undefined ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Awarded)} out of 24</p>` : ''}
         ${fqResult.feedback ? `<p style="margin: 0 0 12px 0;"><strong>Feedback:</strong> ${escapeHtml(fqResult.feedback)}</p>` : ''}
         ${fqResult.ao1Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO1:</strong> ${escapeHtml(fqResult.ao1Comment)}</p>` : ''}
         ${fqResult.ao2Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Comment)}</p>` : ''}
@@ -854,11 +887,53 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                   >
                     Print feedback + annotation
                   </button>
+                  {/* Audio feedback buttons */}
+                  {isConfigured && (
+                    <>
+                      {!audioReady && !audioLoading && ttsState === 'idle' && (
+                        <button
+                          onClick={handleListenToFeedback}
+                          className="px-3 py-1 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded hover:from-green-600 hover:to-emerald-700 flex items-center gap-1"
+                        >
+                          <Volume2 className="w-4 h-4" /> Listen to feedback
+                        </button>
+                      )}
+                      {audioLoading && (
+                        <button disabled className="px-3 py-1 bg-gray-300 text-gray-600 rounded flex items-center gap-1">
+                          <Loader2 className="w-4 h-4 animate-spin" /> Preparing audio...
+                        </button>
+                      )}
+                      {audioReady && ttsState === 'idle' && (
+                        <button
+                          onClick={playPreparedAudio}
+                          className="px-3 py-1 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded hover:from-green-600 hover:to-emerald-700 flex items-center gap-1"
+                        >
+                          <Play className="w-4 h-4" /> Play feedback
+                        </button>
+                      )}
+                      {ttsState === 'playing' && (
+                        <button
+                          onClick={stop}
+                          className="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 flex items-center gap-1"
+                        >
+                          <VolumeX className="w-4 h-4" /> Stop
+                        </button>
+                      )}
+                      {audioError && (
+                        <span className="text-sm text-red-600 flex items-center gap-1">
+                          <VolumeX className="w-4 h-4" /> Audio error - check Settings
+                        </span>
+                      )}
+                    </>
+                  )}
+                  {!isConfigured && (
+                    <span className="text-xs text-gray-500 italic">Add ElevenLabs key in Settings for audio</span>
+                  )}
                 </div>
                 {(fqResult.ao1Awarded !== undefined || fqResult.ao2Awarded !== undefined) && (
                   <div className="flex gap-3 text-gray-700">
-                    {fqResult.ao1Awarded !== undefined && <span>AO1: {fqResult.ao1Awarded}{Number.isFinite(fqMarks) && curriculum === 'ocr-rs' ? ` / 16` : ''}</span>}
-                    {fqResult.ao2Awarded !== undefined && <span>AO2: {fqResult.ao2Awarded}{Number.isFinite(fqMarks) && curriculum === 'ocr-rs' ? ` / 24` : ''}</span>}
+                    {fqResult.ao1Awarded !== undefined && <span>AO1: {fqResult.ao1Awarded}{Number.isFinite(fqMarks) && curriculum === 'ocr-rs' ? ` out of 16` : ''}</span>}
+                    {fqResult.ao2Awarded !== undefined && <span>AO2: {fqResult.ao2Awarded}{Number.isFinite(fqMarks) && curriculum === 'ocr-rs' ? ` out of 24` : ''}</span>}
                   </div>
                 )}
                 {fqResult.feedback && <div><strong>Feedback:</strong> {fqResult.feedback}</div>}
@@ -884,6 +959,9 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                     )}
                   </div>
                 )}
+                <div className="border-t border-gray-300 pt-3 mt-3">
+                  <h4 className="font-semibold text-gray-800 mb-2">📝 Detailed Feedback</h4>
+                </div>
                 {Array.isArray(fqResult.ao1Strengths) && fqResult.ao1Strengths.length > 0 && (
                   <div>
                     <strong>AO1 – What you got right:</strong>
