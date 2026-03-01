@@ -460,6 +460,14 @@ function InteractiveExam({ paperId, onBack }) {
         const questionPattern = new RegExp(`0\\s*${q.number.replace('.', '\\s*\\.\\s*')}[\\s\\S]*?(?=0\\s*\\d|$)`, 'i');
         const markSchemeSection = markSchemeText.match(questionPattern)?.[0] || '';
         
+        // Detect OCR RS module from question text
+        const isEthicsQuestion = curriculum === 'ocr-rs' && (
+          /\b(kant|kantian|categorical imperative|duty|deontolog|utilitarian|bentham|mill|greatest good|hedonic|natural law|aquinas.*(ethics|moral)|situation ethics|fletcher|meta.?ethics|normative|applied ethics|euthanasia|business ethics|sexual ethics)\b/i.test(q.text)
+        );
+        const isPhilReligionQuestion = curriculum === 'ocr-rs' && (
+          /\b(god.*(exist|nature|attributes)|existence of god|five ways|cosmological|teleological|ontological|design argument|problem of evil|theodicy|religious experience|miracles?|natural theology|revealed theology|religious language|verificat|falsificat|via negativa|analogy|symbol|myth)\b/i.test(q.text)
+        );
+
         // Exam board specific marking guidance
         const markingGuidance = curriculum === 'aqa-psych' 
           ? `AQA Psychology marking approach:
@@ -472,7 +480,23 @@ function InteractiveExam({ paperId, onBack }) {
 - Use level descriptors for extended responses (typically 10 or 15 mark questions)
 - Credit accurate use of specialist terminology
 - Look for clear argument structure and logical progression
-- Credit valid alternative interpretations where appropriate`
+- Credit valid alternative interpretations where appropriate
+${isEthicsQuestion ? `
+MODULE GUARDRAIL - This is an ETHICS question:
+- Credit ethical theorists: Kant (duty, categorical imperative), Bentham/Mill (utilitarianism), Fletcher (situation ethics), Aquinas (natural law)
+- Do NOT penalize for missing Philosophy of Religion content (Aquinas' Five Ways, Paley, design argument)
+- Key critics for Kantian ethics: Hume, Mill, Williams (integrity), Foot
+- Key critics for utilitarianism: Nozick (experience machine), Williams, McCloskey` 
+: isPhilReligionQuestion ? `
+MODULE GUARDRAIL - This is a PHILOSOPHY OF RELIGION question:
+- Natural theology anchors ARE relevant (Aquinas' Five Ways, Paley's design)
+- Credit arguments for/against God's existence
+- Key critics: Hume, Kant, Russell, Mackie` 
+: `
+MODULE GUARDRAIL - Match content to question topic:
+- Ethics questions: expect ethical theorists, not arguments for God
+- Philosophy of Religion: expect Aquinas, Paley, problem of evil
+- Do NOT mix modules in feedback`}`
           : `Edexcel English Literature marking approach:
 - Use level descriptors for extended responses
 - Credit close textual analysis and use of quotations
