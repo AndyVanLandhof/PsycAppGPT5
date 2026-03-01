@@ -462,6 +462,7 @@ ${isPoetryQuestion ? `- POETRY: Focus on form, structure, language techniques, c
 - Level 4 (33-40 marks) = 2-3 named theorists, clear explanations, AND meaningful critique/comparison. If the essay discusses the Three Postulates (freedom, immortality, God) at any length, it HAS covered them - do NOT say "missing".
 - Level 3 (25-32 marks) = solid coverage with some evaluation but less depth or fewer critics.
 - An essay with Kant's key concepts (duty, good will, categorical imperative) + Three Postulates + comparison to utilitarianism + axe murderer example + some critique = 34-38/40 range.
+- IMPORTANT: The levelDescriptor MUST match the awarded score. If you award 33-40, say "Level 4". If you award 25-32, say "Level 3". Do NOT mismatch.
 - Do NOT penalize for missing Aquinas' Five Ways in an ethics essay.`
     : isPhilReligionQuestion
       ? `- This is a PHILOSOPHY OF RELIGION question (OCR H573). Natural/Revealed theology anchors ARE relevant here.
@@ -532,7 +533,7 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
   "feedback": "Overall comment",
   "strengths": ["...","...","..."],
   "improvements": ["...","...","..."],
-  "levelDescriptor": "Level/mark band text",
+  "levelDescriptor": "Level X (range) - must match awarded score",
   "ao1Comment": "Short AO1 note",
   "ao2Comment": "Short AO2 note (analysis/evaluation)",
   ${isOCR ? '' : '"ao3Comment": "Short AO3 note (context)",'}
