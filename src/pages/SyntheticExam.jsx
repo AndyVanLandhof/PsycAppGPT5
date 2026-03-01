@@ -93,13 +93,39 @@ function SyntheticExam({ curriculum, paperMeta, questions, onBack }) {
           /\b(god.*(exist|nature|attributes)|existence of god|five ways|cosmological|teleological|ontological|design argument|problem of evil|theodicy|religious experience|miracles?|natural theology|revealed theology|religious language|verificat|falsificat|via negativa|analogy|symbol|myth)\b/i.test(q.text)
         );
 
+        // Detect AQA Psychology topic from question text
+        const isPsychSocialInfluence = curriculum === 'aqa-psych' && /\b(conformity|obedience|milgram|asch|zimbardo|minority influence|social change|resistance|locus of control)\b/i.test(q.text);
+        const isPsychMemory = curriculum === 'aqa-psych' && /\b(memory|multi.?store|working memory|baddeley|forgetting|interference|retrieval|eyewitness|loftus|cognitive interview)\b/i.test(q.text);
+        const isPsychAttachment = curriculum === 'aqa-psych' && /\b(attachment|bowlby|ainsworth|strange situation|deprivation|privation|institutionali|romanian|monotropic|internal working)\b/i.test(q.text);
+
+        // Detect Edexcel English Literature text from question text
+        const isHamletQuestion = curriculum === 'edexcel-englit' && /\b(hamlet|claudius|gertrude|ophelia|polonius|laertes|horatio|ghost|elsinore|denmark)\b/i.test(q.text);
+        const isHeartOfDarknessQuestion = curriculum === 'edexcel-englit' && /\b(heart of darkness|marlow|kurtz|conrad|congo|africa|ivory|coloniali|imperial)\b/i.test(q.text);
+        const isGodotQuestion = curriculum === 'edexcel-englit' && /\b(godot|vladimir|estragon|pozzo|lucky|beckett|absurd|waiting)\b/i.test(q.text);
+
         // Exam board specific marking guidance (same as InteractiveExam)
         const markingGuidance = curriculum === 'aqa-psych'
           ? `AQA Psychology marking approach:
 - Use level descriptors (Level 1/2/3) for extended responses
 - Award marks for each valid point in shorter questions
 - Credit accurate terminology and named studies with dates
-- AO1 = knowledge, AO2 = application, AO3 = evaluation`
+- AO1 = knowledge, AO2 = application, AO3 = evaluation
+${isPsychSocialInfluence ? `
+TOPIC GUARDRAIL - SOCIAL INFLUENCE:
+- Key studies: Asch (conformity lines), Milgram (obedience), Zimbardo (Stanford Prison)
+- Do NOT ask for memory/attachment/biopsychology content` 
+: isPsychMemory ? `
+TOPIC GUARDRAIL - MEMORY:
+- Key models: Multi-Store Model, Working Memory Model
+- Key studies: Loftus & Palmer, Godden & Baddeley
+- Do NOT ask for social influence/attachment content` 
+: isPsychAttachment ? `
+TOPIC GUARDRAIL - ATTACHMENT:
+- Key theories: Bowlby (monotropic), Ainsworth (Strange Situation)
+- Key studies: Harlow, Romanian orphans
+- Do NOT ask for memory/social influence content` 
+: `
+TOPIC GUARDRAIL - Stay within the topic area of the question. Do NOT mix topics.`}`
           : curriculum === 'ocr-rs'
             ? `OCR Religious Studies marking approach:
 - Use level descriptors for extended responses (typically 10 or 15 mark questions)
@@ -123,6 +149,27 @@ MODULE GUARDRAIL - Match content to question topic:
 - Philosophy of Religion: expect Aquinas, Paley, problem of evil
 - Do NOT mix modules in feedback`}`
             : `Edexcel English Literature marking approach:
+- Use level descriptors for extended responses
+- Credit close textual analysis and use of quotations
+- Look for awareness of context, form, and critical perspectives
+- Credit personal response and engagement with the text
+${isHamletQuestion ? `
+TEXT GUARDRAIL - HAMLET:
+- Key critics: Bradley, Wilson Knight, Granville-Barker, Eliot, Showalter
+- Do NOT ask for Conrad/Beckett content` 
+: isHeartOfDarknessQuestion ? `
+TEXT GUARDRAIL - HEART OF DARKNESS:
+- Key critics: Achebe, Leavis, Said
+- Focus on colonialism, narrative frame, light/darkness imagery
+- Do NOT ask for Hamlet/Godot content` 
+: isGodotQuestion ? `
+TEXT GUARDRAIL - WAITING FOR GODOT:
+- Key critics: Esslin (Theatre of the Absurd)
+- Focus on absurdism, existentialism, time
+- Do NOT ask for Shakespeare/Conrad content` 
+: `
+TEXT GUARDRAIL - Stay within the text being examined. Do NOT mix texts.`}
+- Do NOT ask for theology/psychology content in literature essays`;
 - Use level descriptors for extended responses
 - Credit close textual analysis and use of quotations
 - Look for awareness of context, form, and critical perspectives

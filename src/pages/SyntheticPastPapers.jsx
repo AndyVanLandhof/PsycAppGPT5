@@ -358,6 +358,22 @@ Return STRICT JSON:
         /\b(god.*(exist|nature|attributes)|existence of god|five ways|cosmological|teleological|ontological|design argument|problem of evil|theodicy|religious experience|miracles?|natural theology|revealed theology|religious language|verificat|falsificat|via negativa|analogy|symbol|myth)\b/i.test(fqQuestion)
       );
 
+      // Detect AQA Psychology topic from question keywords
+      const isPsychSocialInfluence = isPsych && /\b(conformity|obedience|milgram|asch|zimbardo|minority influence|social change|resistance|locus of control)\b/i.test(fqQuestion);
+      const isPsychMemory = isPsych && /\b(memory|multi.?store|working memory|baddeley|forgetting|interference|retrieval|eyewitness|loftus|cognitive interview)\b/i.test(fqQuestion);
+      const isPsychAttachment = isPsych && /\b(attachment|bowlby|ainsworth|strange situation|deprivation|privation|institutionali|romanian|monotropic|internal working)\b/i.test(fqQuestion);
+      const isPsychPsychopathology = isPsych && /\b(abnormal|phobia|depression|ocd|obsessive|anxiety|cognitive.*(explanation|approach)|behavioural.*(explanation|approach)|biological.*(explanation|approach)|systematic desensiti|flooding|cbt|cognitive behavio|drug|ssri|antidepressant)\b/i.test(fqQuestion);
+      const isPsychApproaches = isPsych && /\b(behaviourist|behaviorist|classical conditioning|operant|skinner|pavlov|social learning|bandura|cognitive approach|schema|psychodynamic|freud|unconscious|humanistic|rogers|maslow|biological approach|genes|evolution|neurotransmitter)\b/i.test(fqQuestion);
+      const isPsychBiopsychology = isPsych && /\b(biopsychology|nervous system|neuron|synap|endocrine|hormone|adrenaline|cortisol|fight.?or.?flight|locali[sz]ation|broca|wernicke|hemisphere|split.?brain|plasticity|circadian|sleep|biological rhythm)\b/i.test(fqQuestion);
+      const isPsychResearchMethods = isPsych && /\b(research method|experiment|hypothesis|variable|operationali|sampling|random|stratified|opportunity|ethics|bps|deception|informed consent|validity|reliability|demand characteristic|investigator effect|correlation|observation|self.?report|questionnaire|interview|case study|content analysis)\b/i.test(fqQuestion);
+
+      // Detect Edexcel English Literature text from question keywords
+      const isHamletQuestion = isEngLit && /\b(hamlet|claudius|gertrude|ophelia|polonius|laertes|horatio|ghost|elsinore|denmark|to be or not|yorick|gravedigger|mousetrap|play.?within)\b/i.test(fqQuestion);
+      const isGodotQuestion = isEngLit && /\b(godot|vladimir|estragon|pozzo|lucky|beckett|absurd|waiting|tragicomedy|existential|meaningless|nothing to be done)\b/i.test(fqQuestion);
+      const isHeartOfDarknessQuestion = isEngLit && /\b(heart of darkness|marlow|kurtz|conrad|congo|africa|ivory|coloniali|imperial|nellie|darkness|horror|intended)\b/i.test(fqQuestion);
+      const isLonelyLondonersQuestion = isEngLit && /\b(lonely londoners|selvon|moses|galahad|windrush|caribbean|trinidad|london|immigrant|dialect|creole)\b/i.test(fqQuestion);
+      const isPoetryQuestion = isEngLit && /\b(poem|poet|stanza|verse|meter|rhyme|sonnet|anthology|compare.*poem|poem.*compare)\b/i.test(fqQuestion);
+
       let prompt = '';
 
       if (levelMode === 'university') {
@@ -416,11 +432,27 @@ Top-band sufficiency (ceiling):
 ${engLitAnchors}
 
 Scoring guardrails:
-${isEngLit
-  ? `- For Edexcel English Literature: if the answer includes at least two named critics with source titles (e.g., Bradley "Shakespearean Tragedy"; Granville-Barker Prefaces; Wilson Knight "The Embassy of Death"; Eliot "Hamlet and His Problems"), do NOT say "critical anchor missing". Evaluate how those critics are used: agree/challenge/complicate, tied to quotes.
-- Push higher when close reading of at least three quoted phrases is clear (e.g., "foul and most unnatural murder" → cosmic disorder; "inky cloak" → performative/inner grief; "Now might I do it pat" → resolve checked by scruple; Ophelia's song fragments/flowers → language breaking).
-- Keep theology out for EngLit; focus on historical/social/intellectual context (succession anxiety, gender norms, views on suicide/mental health).
-- If the above criteria are met, do NOT ask for additional anchors/detail; mark in the top appropriate band. Give at most 2 concise improvements; avoid generic "add more detail".`
+${isPsych
+  ? `- This is an AQA PSYCHOLOGY question. Stay within the SPECIFIC TOPIC area of the question.
+${isPsychSocialInfluence ? `- TOPIC: Social Influence. Key studies: Asch (conformity), Milgram (obedience), Zimbardo (Stanford Prison). Do NOT ask for memory/attachment/biopsychology content.` : ''}
+${isPsychMemory ? `- TOPIC: Memory. Key models: Multi-Store Model (Atkinson & Shiffrin), Working Memory Model (Baddeley & Hitch). Key studies: Loftus & Palmer (EWT), Godden & Baddeley. Do NOT ask for social influence/attachment content.` : ''}
+${isPsychAttachment ? `- TOPIC: Attachment. Key theories: Bowlby (monotropic, internal working model), Ainsworth (Strange Situation, types). Key studies: Harlow, Romanian orphan studies. Do NOT ask for memory/social influence content.` : ''}
+${isPsychPsychopathology ? `- TOPIC: Psychopathology. Cover definitions of abnormality, explanations (biological, cognitive, behavioural), and treatments. Do NOT ask for social influence/memory content.` : ''}
+${isPsychApproaches ? `- TOPIC: Approaches. Cover the specific approach asked (behaviourist/cognitive/biological/psychodynamic/humanistic). Do NOT mix approaches or ask for irrelevant studies.` : ''}
+${isPsychBiopsychology ? `- TOPIC: Biopsychology. Cover nervous system, neurons, endocrine system, fight-or-flight, localisation, lateralisation, plasticity, rhythms. Do NOT ask for social psychology content.` : ''}
+${isPsychResearchMethods ? `- TOPIC: Research Methods. Cover methodology, ethics, validity, reliability, sampling, experimental design. Do NOT ask for content from other topics.` : ''}
+- Credit: accurate terminology, named studies with researchers, dates, findings, evaluation points (strengths/limitations).
+- Do NOT mix topics: a memory question should not ask for attachment content, etc.`
+  : isEngLit
+  ? `- For Edexcel English Literature: stay within the SPECIFIC TEXT asked about.
+${isHamletQuestion ? `- TEXT: Hamlet. Key critics: Bradley ("Shakespearean Tragedy"), Wilson Knight ("Embassy of Death"), Granville-Barker (Prefaces), Eliot ("Hamlet and His Problems"), Showalter (on Ophelia). Do NOT ask for Conrad/Beckett/Selvon content.` : ''}
+${isHeartOfDarknessQuestion ? `- TEXT: Heart of Darkness. Key critics: Achebe ("An Image of Africa"), Leavis, Said (Orientalism). Focus on: colonialism, narrative frame, light/darkness imagery. Do NOT ask for Hamlet/Godot content.` : ''}
+${isGodotQuestion ? `- TEXT: Waiting for Godot. Key critics: Esslin (Theatre of the Absurd), Beckett's own views. Focus on: absurdism, time, existentialism, tragicomedy. Do NOT ask for Shakespeare/Conrad content.` : ''}
+${isLonelyLondonersQuestion ? `- TEXT: The Lonely Londoners. Focus on: Windrush, dialect/creole, London experience, Caribbean identity. Do NOT ask for Shakespeare/Conrad content.` : ''}
+${isPoetryQuestion ? `- POETRY: Focus on form, structure, language techniques, comparison between poems. Credit close reading of specific phrases/lines.` : ''}
+- If the answer includes at least two named critics with source titles, do NOT say "critical anchor missing". 
+- Keep theology/psychology out; focus on language/form/structure, historical/social context, and literary criticism.
+- Do NOT mix texts: a Hamlet essay should not ask for Heart of Darkness content.`
   : isEthicsQuestion
     ? `- This is an ETHICS question (OCR H573). Do NOT ask for Natural Theology anchors (Aquinas' Five Ways, Paley) - those are Philosophy of Religion, not Ethics.
 - For Kantian ethics: credit duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates, autonomy/heteronomy. Key critics: Hume (no ought from is), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
@@ -453,13 +485,15 @@ STUDENT ANSWER:
 ${fqAnswer}
 
 Subject guardrails:
-- ${isEngLit 
-    ? 'English Literature: AO2 = analysis of language/form/structure with close textual quotes; AO3 = contextual insight (e.g., Elizabethan/Jacobean court, gender norms, reception). Cite at least one critic (e.g., Bradley, Granville-Barker, Eliot) or production note where relevant. Avoid unrelated theology/psychology content.' 
+- ${isPsych 
+    ? `AQA Psychology: Stay within the topic area. ${isPsychSocialInfluence ? 'Social Influence: Asch, Milgram, Zimbardo, minority influence.' : ''} ${isPsychMemory ? 'Memory: MSM, WMM, EWT, forgetting.' : ''} ${isPsychAttachment ? 'Attachment: Bowlby, Ainsworth, deprivation/privation.' : ''} ${isPsychPsychopathology ? 'Psychopathology: definitions, explanations, treatments.' : ''} ${isPsychApproaches ? 'Approaches: focus on the specific approach asked.' : ''} ${isPsychBiopsychology ? 'Biopsychology: nervous system, localisation, rhythms.' : ''} ${isPsychResearchMethods ? 'Research Methods: validity, reliability, ethics, design.' : ''} Do NOT mix topics or ask for content from other areas.`
+    : isEngLit 
+    ? `English Literature: Stay within the TEXT asked about. ${isHamletQuestion ? 'Hamlet: Bradley, Wilson Knight, Granville-Barker, Eliot, Showalter.' : ''} ${isHeartOfDarknessQuestion ? 'Heart of Darkness: Achebe, Leavis, Said, colonialism.' : ''} ${isGodotQuestion ? 'Godot: Esslin, absurdism, existentialism.' : ''} ${isLonelyLondonersQuestion ? 'Lonely Londoners: Windrush, dialect, Caribbean identity.' : ''} ${isPoetryQuestion ? 'Poetry: form, structure, comparison.' : ''} AO2 = language/form/structure; AO3 = context. Do NOT mix texts or ask for theology/psychology.`
     : isEthicsQuestion 
       ? 'OCR Ethics: Focus on ethical theories, moral philosophers, and their critiques. Key figures for Kantian ethics: Kant, Hume, Mill, Williams, Foot. For utilitarianism: Bentham, Mill, Singer, Nozick. Do NOT ask for arguments for God\'s existence (Aquinas\' Five Ways, Paley) - those belong to Philosophy of Religion, not Ethics.'
       : isPhilReligionQuestion
         ? 'OCR Philosophy of Religion: Focus on arguments for/against God\'s existence, religious language, and religious experience. Natural theology (Aquinas, Paley) and revealed theology ARE relevant here.'
-        : 'Use subject-appropriate anchors; avoid off-topic domains. For OCR RS, keep content within the relevant module (Ethics OR Philosophy of Religion OR Christianity).'}
+        : 'Use subject-appropriate anchors; avoid off-topic domains. Keep content within the relevant module/topic/text.'}
 
 Instructions:
 - Use the board's level descriptors/banding to decide the mark.
