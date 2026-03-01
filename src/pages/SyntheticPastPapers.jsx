@@ -176,6 +176,16 @@ const [annotationNotes, setAnnotationNotes] = useState([]);
         ${fqResult.ao2Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO2:</strong> ${escapeHtml(fqResult.ao2Comment)}</p>` : ''}
         ${fqResult.ao3Comment ? `<p style="margin: 0 0 8px 0;"><strong>AO3:</strong> ${escapeHtml(fqResult.ao3Comment)}</p>` : ''}
         ${fqResult.whyNotNextLevel ? `<p style="margin: 0 0 12px 0;"><strong>${levelMode === 'university' ? 'What you need for a First:' : 'Why not next level:'}</strong> ${escapeHtml(fqResult.whyNotNextLevel)}</p>` : ''}
+        ${fqResult.structureComment ? `
+          <div style="background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 6px; padding: 12px; margin: 12px 0;">
+            <strong style="color: #4338ca;">📐 Essay Structure:</strong>
+            <p style="margin: 8px 0 0 0;">${escapeHtml(fqResult.structureComment)}</p>
+            ${Array.isArray(fqResult.structureSuggestions) && fqResult.structureSuggestions.length > 0 ? `
+              <p style="margin: 8px 0 4px 0;"><strong style="color: #4f46e5;">How to improve structure:</strong></p>
+              <ul style="margin: 0; padding-left: 20px;">${fqResult.structureSuggestions.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>
+            ` : ''}
+          </div>
+        ` : ''}
         ${listHtml('AO1 – What you got right:', fqResult.ao1Strengths)}
         ${listHtml('AO1 – What you missed / to reach next level:', fqResult.ao1Improvements)}
         ${listHtml('AO2 – What you got right:', fqResult.ao2Strengths)}
@@ -521,6 +531,7 @@ POSITIVE MARKING (as real examiners do):
 - In AO2 comment: ${isEngLit ? 'focus on analysis of language/form/structure with a quoted word/phrase and its effect' : 'focus on evaluation/argument quality; give a specific improvement'}.
 ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowledge/understanding) and AO2 (analysis/evaluation).' : `- In AO3 comment: ${isEngLit ? 'focus on context (historical/social/intellectual) with one concrete linkage to the text' : 'add a concise contextual or methodological link'}.`}
 - In whyNotNextLevel: name ONLY genuinely missing elements (not underdeveloped ones) that block the next band. If the essay covers the main content, focus on HOW it could be deeper rather than WHAT is absent.
+- In structureComment: evaluate the essay's structure - intro/conclusion quality, paragraph organization, argument/counter-argument balance, logical flow, signposting. Be specific about what works and what could improve (e.g., "intro sets up thesis clearly but conclusion is abrupt", "good use of 'however' to signal counter-arguments", "paragraphs jump between ideas - try one point per paragraph").
 - If the board is OCR RS and this is a 40-mark essay, award AO1 out of 16 and AO2 out of 24. Spell out what was right and what was missing for each AO.
 - For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like "add more detail"; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
 - If the answer shows good structure, multiple key figures, and comparative evaluation, award 34–38/40 for OCR 40-mark essays unless there are clear factual errors or missing entire sections.
@@ -537,6 +548,8 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
   "ao1Comment": "Short AO1 note",
   "ao2Comment": "Short AO2 note (analysis/evaluation)",
   ${isOCR ? '' : '"ao3Comment": "Short AO3 note (context)",'}
+  "structureComment": "Essay structure feedback - intro, conclusion, paragraph flow, argument/counter-argument balance, signposting",
+  "structureSuggestions": ["specific suggestion 1", "specific suggestion 2"],
   ${isOCR ? `"ao1Strengths": ["what AO1 did well"], "ao1Improvements": ["what AO1 missed"], "ao2Strengths": ["what AO2 did well"], "ao2Improvements": ["what AO2 missed"],` : ''}
   "whyNotNextLevel": "Why not in the next higher band"
 }`;
@@ -583,6 +596,8 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
         ao2Strengths: parsed.ao2Strengths || [],
         ao2Improvements: parsed.ao2Improvements || [],
         whyNotNextLevel: parsed.whatYouNeedForFirst || parsed.whyNotNextLevel || '',
+        structureComment: parsed.structureComment || '',
+        structureSuggestions: Array.isArray(parsed.structureSuggestions) ? parsed.structureSuggestions : [],
         annotatedEssay: parsed.annotatedEssay || ''
       });
     } catch (e) {
@@ -787,14 +802,43 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                 {/* Celebratory/Encouraging message based on score */}
                 {(() => {
                   const pct = (fqResult.awarded / fqMarks) * 100;
+                  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+                  const excellent = [
+                    "🎉 Way to go Phoebe! This is excellent work - you're smashing it!",
+                    "🌟 Brilliant Phoebe! This is top-tier stuff - keep it up!",
+                    "🔥 Phoebe, you're on fire! This is A/A* territory!",
+                    "✨ Amazing work Phoebe! You should be really proud of this!",
+                    "🏆 Phoebe, this is genuinely impressive - examiner's dream!"
+                  ];
+                  const good = [
+                    "💪 Great job Phoebe! Solid work - just a few tweaks to make it even better.",
+                    "👏 Nice one Phoebe! You're in good shape - small refinements will push this higher.",
+                    "📈 Strong effort Phoebe! You're close to the top band - keep polishing!",
+                    "💫 Well done Phoebe! This is solid B/A territory - nearly there!",
+                    "🎯 Good work Phoebe! The foundations are strong - just tighten up a few areas."
+                  ];
+                  const developing = [
+                    "👍 Hey Phoebe, good effort! You've got the foundations - let's build on them.",
+                    "📝 Phoebe, you're on the right track! Focus on the feedback to level up.",
+                    "🌱 Nice start Phoebe! With some more depth, this could really shine.",
+                    "💡 Phoebe, the ideas are there! Now let's work on expressing them more fully.",
+                    "🔧 Good attempt Phoebe! A bit more detail and structure will boost this."
+                  ];
+                  const needsWork = [
+                    "📚 Phoebe, you might want to revisit this topic before tackling more essays.",
+                    "🎒 Phoebe, let's go back to basics on this one - the knowledge needs consolidating.",
+                    "📖 Phoebe, more revision needed here - then come back and try again!",
+                    "🔄 Phoebe, this topic needs more attention - review the notes and have another go.",
+                    "💪 Phoebe, don't worry - everyone struggles sometimes! Let's build up the basics first."
+                  ];
                   if (pct >= 85) {
-                    return <div className="bg-green-100 border border-green-300 text-green-800 rounded px-3 py-2 font-medium">🎉 Way to go Phoebe! This is excellent work - you're smashing it!</div>;
+                    return <div className="bg-green-100 border border-green-300 text-green-800 rounded px-3 py-2 font-medium">{pick(excellent)}</div>;
                   } else if (pct >= 70) {
-                    return <div className="bg-blue-100 border border-blue-300 text-blue-800 rounded px-3 py-2 font-medium">💪 Great job Phoebe! Solid work - just a few tweaks to make it even better.</div>;
+                    return <div className="bg-blue-100 border border-blue-300 text-blue-800 rounded px-3 py-2 font-medium">{pick(good)}</div>;
                   } else if (pct >= 50) {
-                    return <div className="bg-yellow-100 border border-yellow-300 text-yellow-800 rounded px-3 py-2 font-medium">👍 Hey Phoebe, good effort! You've got the foundations - let's build on them.</div>;
+                    return <div className="bg-yellow-100 border border-yellow-300 text-yellow-800 rounded px-3 py-2 font-medium">{pick(developing)}</div>;
                   } else {
-                    return <div className="bg-orange-100 border border-orange-300 text-orange-800 rounded px-3 py-2 font-medium">📚 Phoebe, you might want to revisit this topic before tackling more essays. The content is there - you just need to consolidate it!</div>;
+                    return <div className="bg-orange-100 border border-orange-300 text-orange-800 rounded px-3 py-2 font-medium">{pick(needsWork)}</div>;
                   }
                 })()}
                 <div className="flex flex-wrap gap-2">
@@ -824,6 +868,20 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                 {fqResult.whyNotNextLevel && (
                   <div>
                     <strong>{levelMode === 'university' ? 'What you need for a First:' : 'Why not next level:'}</strong> {fqResult.whyNotNextLevel}
+                  </div>
+                )}
+                {fqResult.structureComment && (
+                  <div className="bg-indigo-50 border border-indigo-200 rounded p-3 mt-2">
+                    <strong className="text-indigo-800">📐 Essay Structure:</strong>
+                    <div className="text-gray-700 mt-1">{fqResult.structureComment}</div>
+                    {Array.isArray(fqResult.structureSuggestions) && fqResult.structureSuggestions.length > 0 && (
+                      <div className="mt-2">
+                        <strong className="text-indigo-700">How to improve structure:</strong>
+                        <ul className="list-disc ml-5 text-gray-700">
+                          {fqResult.structureSuggestions.map((s, i) => <li key={i}>{s}</li>)}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 )}
                 {Array.isArray(fqResult.ao1Strengths) && fqResult.ao1Strengths.length > 0 && (
