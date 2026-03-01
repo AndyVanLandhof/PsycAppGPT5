@@ -455,11 +455,14 @@ ${isPoetryQuestion ? `- POETRY: Focus on form, structure, language techniques, c
 - Do NOT mix texts: a Hamlet essay should not ask for Heart of Darkness content.`
   : isEthicsQuestion
     ? `- This is an ETHICS question (OCR H573). Do NOT ask for Natural Theology anchors (Aquinas' Five Ways, Paley) - those are Philosophy of Religion, not Ethics.
-- For Kantian ethics: credit duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates, autonomy/heteronomy. Key critics: Hume (no ought from is), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
+- For Kantian ethics: credit duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates (freedom, immortality, God), autonomy/heteronomy. Key critics: Hume (no ought from is), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
 - For utilitarianism: credit Bentham (hedonic calculus, principle of utility), Mill (higher/lower pleasures, rule utilitarianism), Singer (preference utilitarianism). Critics: Nozick (experience machine), Williams (integrity), McCloskey (sheriff scenario).
 - For natural law: credit Aquinas' primary/secondary precepts, real vs apparent goods, doctrine of double effect. Critics: Proportionalism, situation ethics.
 - For situation ethics: credit Fletcher's six propositions, agape love. Critics: legalism critique, antinomian dangers.
-- Award Level 4 when there are 2-3 named ethical theorists, clear explanation of their positions, AND meaningful critique/comparison. Do NOT penalize for missing Aquinas' Five Ways in an ethics essay.`
+- Level 4 (33-40 marks) = 2-3 named theorists, clear explanations, AND meaningful critique/comparison. If the essay discusses the Three Postulates (freedom, immortality, God) at any length, it HAS covered them - do NOT say "missing".
+- Level 3 (25-32 marks) = solid coverage with some evaluation but less depth or fewer critics.
+- An essay with Kant's key concepts (duty, good will, categorical imperative) + Three Postulates + comparison to utilitarianism + axe murderer example + some critique = 34-38/40 range.
+- Do NOT penalize for missing Aquinas' Five Ways in an ethics essay.`
     : isPhilReligionQuestion
       ? `- This is a PHILOSOPHY OF RELIGION question (OCR H573). Natural/Revealed theology anchors ARE relevant here.
 - To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas' Five Ways or Paley's design argument) AND/OR one explicit Revealed Theology anchor (e.g., revelation, accommodation, scripture authority).
@@ -499,15 +502,29 @@ Instructions:
 - Use the board's level descriptors/banding to decide the mark.
 - Do not invent content; credit only what is present.
 - Be fair but rigorous; partial credit for partial answers.
+
+CRITICAL - VERIFY BEFORE CLAIMING MISSING:
+- Before saying ANY content is "missing", RE-READ the essay to check if it's actually there.
+- If content IS present but could be stronger, say "underdeveloped" or "could be expanded" - NOT "missing".
+- Only say "missing" if the content is genuinely absent from the essay.
+- Example: If the essay mentions "Three Postulates" or discusses freedom/immortality/God as postulates, do NOT say "missing Three Postulates".
+- If in doubt, assume the student covered it and look for where they did so.
+
+POSITIVE MARKING (as real examiners do):
+- Real examiners mark POSITIVELY: they look for what IS there to credit, not hunt for gaps.
+- If key content is present (even if brief), give credit and note it could be "expanded" rather than penalizing as missing.
+- A solid essay with 3-4 key thinkers, clear structure, and some evaluation = upper Level 3 or Level 4.
+- 35-38/40 is appropriate for a well-structured essay with good coverage and some evaluation, even if not perfect.
+
 - In AO1 comment: mention at least one concrete piece of content (e.g., key term, theorist, study, date) that the student included, and one high-value item that would lift to top band. ${isEngLit ? 'If a named critic + source is present (e.g., Bradley/Granville-Barker/Wilson Knight/Eliot), say how the answer used or could better use that critic (agree/challenge/complicate).' : ''}
 - In AO2 comment: ${isEngLit ? 'focus on analysis of language/form/structure with a quoted word/phrase and its effect' : 'focus on evaluation/argument quality; give a specific improvement'}.
 - In AO3 comment: ${isEngLit ? 'focus on context (historical/social/intellectual) with one concrete linkage to the text' : 'add a concise contextual or methodological link'}.
-- In whyNotNextLevel: name the missing elements that block the next band (e.g., missing study/quote/example, thin evaluation, limited balance).
+- In whyNotNextLevel: name ONLY genuinely missing elements (not underdeveloped ones) that block the next band. If the essay covers the main content, focus on HOW it could be deeper rather than WHAT is absent.
 - If the board is OCR RS and this is a 40-mark essay, award AO1 out of 16 and AO2 out of 24. Spell out what was right and what was missing for each AO.
-- For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like “add more detail”; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
-- If the answer shows good structure, multiple key figures, and comparative evaluation, err toward higher marks (e.g., 34–38/40 for OCR 40-mark essays) unless there are clear factual gaps or minimal evaluation.
+- For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like "add more detail"; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
+- If the answer shows good structure, multiple key figures, and comparative evaluation, award 34–38/40 for OCR 40-mark essays unless there are clear factual errors or missing entire sections.
 - Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
-- For strengths and improvements, each bullet must start with a bracketed AO tag: “[AO1] ...” or “[AO2] ...” or “[AO3] ...” (choose the dominant AO for that point). Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
+- For strengths and improvements, each bullet must start with a bracketed AO tag: "[AO1] ..." or "[AO2] ..." or "[AO3] ..." (choose the dominant AO for that point). Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
 - Return STRICT JSON:
 {
   "awarded": <number 0-${fqMarks}>,
