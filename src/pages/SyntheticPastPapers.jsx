@@ -518,13 +518,13 @@ POSITIVE MARKING (as real examiners do):
 
 - In AO1 comment: mention at least one concrete piece of content (e.g., key term, theorist, study, date) that the student included, and one high-value item that would lift to top band. ${isEngLit ? 'If a named critic + source is present (e.g., Bradley/Granville-Barker/Wilson Knight/Eliot), say how the answer used or could better use that critic (agree/challenge/complicate).' : ''}
 - In AO2 comment: ${isEngLit ? 'focus on analysis of language/form/structure with a quoted word/phrase and its effect' : 'focus on evaluation/argument quality; give a specific improvement'}.
-- In AO3 comment: ${isEngLit ? 'focus on context (historical/social/intellectual) with one concrete linkage to the text' : 'add a concise contextual or methodological link'}.
+${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowledge/understanding) and AO2 (analysis/evaluation).' : `- In AO3 comment: ${isEngLit ? 'focus on context (historical/social/intellectual) with one concrete linkage to the text' : 'add a concise contextual or methodological link'}.`}
 - In whyNotNextLevel: name ONLY genuinely missing elements (not underdeveloped ones) that block the next band. If the essay covers the main content, focus on HOW it could be deeper rather than WHAT is absent.
 - If the board is OCR RS and this is a 40-mark essay, award AO1 out of 16 and AO2 out of 24. Spell out what was right and what was missing for each AO.
 - For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like "add more detail"; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
 - If the answer shows good structure, multiple key figures, and comparative evaluation, award 34–38/40 for OCR 40-mark essays unless there are clear factual errors or missing entire sections.
 - Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
-- For strengths and improvements, each bullet must start with a bracketed AO tag: "[AO1] ..." or "[AO2] ..." or "[AO3] ..." (choose the dominant AO for that point). Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
+- For strengths and improvements, each bullet must start with a bracketed AO tag: ${isOCR ? '"[AO1] ..." or "[AO2] ..." only (OCR H573 has no AO3).' : '"[AO1] ..." or "[AO2] ..." or "[AO3] ..." (choose the dominant AO for that point).'} Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
 - Return STRICT JSON:
 {
   "awarded": <number 0-${fqMarks}>,
@@ -535,7 +535,7 @@ POSITIVE MARKING (as real examiners do):
   "levelDescriptor": "Level/mark band text",
   "ao1Comment": "Short AO1 note",
   "ao2Comment": "Short AO2 note (analysis/evaluation)",
-  "ao3Comment": "Short AO3 note (context)",
+  ${isOCR ? '' : '"ao3Comment": "Short AO3 note (context)",'}
   ${isOCR ? `"ao1Strengths": ["what AO1 did well"], "ao1Improvements": ["what AO1 missed"], "ao2Strengths": ["what AO2 did well"], "ao2Improvements": ["what AO2 missed"],` : ''}
   "whyNotNextLevel": "Why not in the next higher band"
 }`;
