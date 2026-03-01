@@ -784,6 +784,19 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                   <span className="font-semibold text-gray-800">Score: {fqResult.awarded} / {fqMarks}</span>
                   {fqResult.levelDescriptor && <span className="text-gray-600">{fqResult.levelDescriptor}</span>}
                 </div>
+                {/* Celebratory/Encouraging message based on score */}
+                {(() => {
+                  const pct = (fqResult.awarded / fqMarks) * 100;
+                  if (pct >= 85) {
+                    return <div className="bg-green-100 border border-green-300 text-green-800 rounded px-3 py-2 font-medium">🎉 Way to go Phoebe! This is excellent work - you're smashing it!</div>;
+                  } else if (pct >= 70) {
+                    return <div className="bg-blue-100 border border-blue-300 text-blue-800 rounded px-3 py-2 font-medium">💪 Great job Phoebe! Solid work - just a few tweaks to make it even better.</div>;
+                  } else if (pct >= 50) {
+                    return <div className="bg-yellow-100 border border-yellow-300 text-yellow-800 rounded px-3 py-2 font-medium">👍 Hey Phoebe, good effort! You've got the foundations - let's build on them.</div>;
+                  } else {
+                    return <div className="bg-orange-100 border border-orange-300 text-orange-800 rounded px-3 py-2 font-medium">📚 Phoebe, you might want to revisit this topic before tackling more essays. The content is there - you just need to consolidate it!</div>;
+                  }
+                })()}
                 <div className="flex flex-wrap gap-2">
                   <button
                     onClick={() => printFreeQuestion(false)}
