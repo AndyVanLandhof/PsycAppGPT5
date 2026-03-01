@@ -349,6 +349,15 @@ Return STRICT JSON:
       const ao1Max = isOCR ? Math.min(16, fqMarks) : null;
       const ao2Max = isOCR ? Math.min(24, fqMarks - (ao1Max || 0)) : null;
 
+      // Detect OCR RS module from question keywords
+      const questionLower = fqQuestion.toLowerCase();
+      const isEthicsQuestion = isOCR && (
+        /\b(kant|kantian|categorical imperative|duty|deontolog|utilitarian|bentham|mill|greatest good|hedonic|natural law|aquinas.*(ethics|moral)|situation ethics|fletcher|meta.?ethics|normative|applied ethics|euthanasia|business ethics|sexual ethics)\b/i.test(fqQuestion)
+      );
+      const isPhilReligionQuestion = isOCR && (
+        /\b(god.*(exist|nature|attributes)|existence of god|five ways|cosmological|teleological|ontological|design argument|problem of evil|theodicy|religious experience|miracles?|natural theology|revealed theology|religious language|verificat|falsificat|via negativa|analogy|symbol|myth)\b/i.test(fqQuestion)
+      );
+
       let prompt = '';
 
       if (levelMode === 'university') {
@@ -409,12 +418,26 @@ ${engLitAnchors}
 Scoring guardrails:
 ${isEngLit
   ? `- For Edexcel English Literature: if the answer includes at least two named critics with source titles (e.g., Bradley "Shakespearean Tragedy"; Granville-Barker Prefaces; Wilson Knight "The Embassy of Death"; Eliot "Hamlet and His Problems"), do NOT say "critical anchor missing". Evaluate how those critics are used: agree/challenge/complicate, tied to quotes.
-- Push higher when close reading of at least three quoted phrases is clear (e.g., "foul and most unnatural murder" → cosmic disorder; "inky cloak" → performative/inner grief; "Now might I do it pat" → resolve checked by scruple; Ophelia’s song fragments/flowers → language breaking).
+- Push higher when close reading of at least three quoted phrases is clear (e.g., "foul and most unnatural murder" → cosmic disorder; "inky cloak" → performative/inner grief; "Now might I do it pat" → resolve checked by scruple; Ophelia's song fragments/flowers → language breaking).
 - Keep theology out for EngLit; focus on historical/social/intellectual context (succession anxiety, gender norms, views on suicide/mental health).
 - If the above criteria are met, do NOT ask for additional anchors/detail; mark in the top appropriate band. Give at most 2 concise improvements; avoid generic "add more detail".`
-  : `- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas’ Five Ways or Paley) AND one explicit Revealed Theology anchor (e.g., revelation/authority/Accommodation/Christ/scripture).
+  : isEthicsQuestion
+    ? `- This is an ETHICS question (OCR H573). Do NOT ask for Natural Theology anchors (Aquinas' Five Ways, Paley) - those are Philosophy of Religion, not Ethics.
+- For Kantian ethics: credit duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates, autonomy/heteronomy. Key critics: Hume (no ought from is), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
+- For utilitarianism: credit Bentham (hedonic calculus, principle of utility), Mill (higher/lower pleasures, rule utilitarianism), Singer (preference utilitarianism). Critics: Nozick (experience machine), Williams (integrity), McCloskey (sheriff scenario).
+- For natural law: credit Aquinas' primary/secondary precepts, real vs apparent goods, doctrine of double effect. Critics: Proportionalism, situation ethics.
+- For situation ethics: credit Fletcher's six propositions, agape love. Critics: legalism critique, antinomian dangers.
+- Award Level 4 when there are 2-3 named ethical theorists, clear explanation of their positions, AND meaningful critique/comparison. Do NOT penalize for missing Aquinas' Five Ways in an ethics essay.`
+    : isPhilReligionQuestion
+      ? `- This is a PHILOSOPHY OF RELIGION question (OCR H573). Natural/Revealed theology anchors ARE relevant here.
+- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas' Five Ways or Paley's design argument) AND/OR one explicit Revealed Theology anchor (e.g., revelation, accommodation, scripture authority).
 - Credit implicit references, but do NOT assume missing anchors; if absent, cap within band (e.g., mid-Level 3).
-- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin/under-determination for design; circularity/Accommodation for revelation) and ties it to the question.`}
+- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin for design; Kant for ontological; Russell for cosmological) and ties it to the question.`
+      : `- For OCR Religious Studies: use subject-appropriate anchors based on the question topic.
+- Ethics questions: expect ethical theorists (Kant, Bentham, Mill, Fletcher, Aquinas on natural law) - NOT arguments for God's existence.
+- Philosophy of Religion questions: expect arguments for/against God (Aquinas' Five Ways, Paley, problem of evil, religious experience).
+- Christianity questions: expect biblical/theological content.
+- Do NOT mix modules: an ethics essay should not be penalized for missing cosmological argument content.`}
 
 Candidate context (realism):
 - 17–18 year-old writing under ~40-minute exam pressure for a 40-mark essay.
@@ -430,7 +453,13 @@ STUDENT ANSWER:
 ${fqAnswer}
 
 Subject guardrails:
-- ${isEngLit ? 'English Literature: AO2 = analysis of language/form/structure with close textual quotes; AO3 = contextual insight (e.g., Elizabethan/Jacobean court, gender norms, reception). Cite at least one critic (e.g., Bradley, Granville-Barker, Eliot) or production note where relevant. Avoid unrelated theology/psychology content.' : 'Use subject-appropriate anchors; avoid off-topic domains.'}
+- ${isEngLit 
+    ? 'English Literature: AO2 = analysis of language/form/structure with close textual quotes; AO3 = contextual insight (e.g., Elizabethan/Jacobean court, gender norms, reception). Cite at least one critic (e.g., Bradley, Granville-Barker, Eliot) or production note where relevant. Avoid unrelated theology/psychology content.' 
+    : isEthicsQuestion 
+      ? 'OCR Ethics: Focus on ethical theories, moral philosophers, and their critiques. Key figures for Kantian ethics: Kant, Hume, Mill, Williams, Foot. For utilitarianism: Bentham, Mill, Singer, Nozick. Do NOT ask for arguments for God\'s existence (Aquinas\' Five Ways, Paley) - those belong to Philosophy of Religion, not Ethics.'
+      : isPhilReligionQuestion
+        ? 'OCR Philosophy of Religion: Focus on arguments for/against God\'s existence, religious language, and religious experience. Natural theology (Aquinas, Paley) and revealed theology ARE relevant here.'
+        : 'Use subject-appropriate anchors; avoid off-topic domains. For OCR RS, keep content within the relevant module (Ethics OR Philosophy of Religion OR Christianity).'}
 
 Instructions:
 - Use the board's level descriptors/banding to decide the mark.
