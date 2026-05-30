@@ -85,10 +85,12 @@ async function seed() {
       }
 
       for (const chunk of chunks) {
+        // Strip null bytes — Postgres UTF8 rejects 0x00
+        const clean = s => (s || '').replace(/\0/g, '');
         await client.query(
           `INSERT INTO vault_chunks (source_file, subject, section, title, content, page)
            VALUES ($1, $2, $3, $4, $5, $6)`,
-          [relPath, subject, section, chunk.title || null, chunk.content || '', chunk.page || null]
+          [relPath, subject, section, clean(chunk.title), clean(chunk.content), chunk.page || null]
         );
       }
 
