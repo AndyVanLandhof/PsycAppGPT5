@@ -54,15 +54,11 @@ export function useAIService() {
 
     try {
       if (model === "Claude") {
-        const response = await fetch("https://api.anthropic.com/v1/messages", {
+        const response = await fetch("/api/anthropic", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01"
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            model: "claude-3-sonnet-20240229",
+            model: "claude-sonnet-4-6",
             max_tokens: 1024,
             messages: [{ role: "user", content: finalPrompt }]
           })
