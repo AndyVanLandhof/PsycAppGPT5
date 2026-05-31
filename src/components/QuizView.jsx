@@ -466,7 +466,7 @@ function QuizView({ topic, onBack }) {
     return {
       ...q,
       options: shuffledOptions,
-      correctAnswer: letters[newCorrectIndex]
+      correctAnswer: newCorrectIndex
     };
   };
 
