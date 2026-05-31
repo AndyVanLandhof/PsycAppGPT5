@@ -17,4 +17,3 @@ export function setSelectedCurriculum(id) {
     localStorage.setItem('curriculum', id);
   } catch (_) {}
 }
-

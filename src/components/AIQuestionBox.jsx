@@ -16,20 +16,10 @@ function AIQuestionBox({ topic }) {
 
     const endpoint =
       model === 'gpt'
-        ? 'https://api.openai.com/v1/chat/completions'
-        : 'https://api.anthropic.com/v1/messages';
+        ? '/api/ai'
+        : '/api/anthropic';
 
-    const headers =
-      model === 'gpt'
-        ? {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${key}`,
-          }
-        : {
-            'Content-Type': 'application/json',
-            'x-api-key': key,
-            'anthropic-version': '2023-06-01',
-          };
+    const headers = { 'Content-Type': 'application/json' };
 
     const body =
       model === 'gpt'
@@ -42,7 +32,7 @@ function AIQuestionBox({ topic }) {
             temperature: 0.7,
           }
         : {
-            model: 'claude-3-opus-20240229',
+            model: 'claude-sonnet-4-6',
             messages: [
               { role: 'user', content: question },
             ],

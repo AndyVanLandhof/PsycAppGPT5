@@ -29,7 +29,7 @@ export class VaultLoader {
     this.currentBase = null; // '/vault/aqa-psych' or '/vault/ocr-rs' or '/vault'
   }
 
-  // Load all vault data dynamically via manifest
+  // Load all vault data dynamically via manifest, or from Neon API if local files unavailable
   async loadVault() {
     try {
       console.log('[Vault] Loading vault data via manifest...');
@@ -51,6 +51,22 @@ export class VaultLoader {
         manifestRes = await fetch('/vault/manifest.json');
       }
       if (!manifestRes.ok) {
+        // No local vault — try Neon API (Vercel deployment)
+        console.log('[Vault] No local manifest found. Fetching from /api/vault-chunks ...');
+        try {
+          const apiRes = await fetch('/api/vault-chunks');
+          if (apiRes.ok) {
+            const allChunks = await apiRes.json();
+            const pastPapers = allChunks.filter(c => (c.metadata?.type || '').includes('past'));
+            const textbooks = allChunks.filter(c => !(c.metadata?.type || '').includes('past'));
+            this.vaultData = { all: allChunks, textbooks, pastPapers };
+            this.isLoaded = true;
+            console.log('[Vault] Loaded from Neon API:', allChunks.length, 'chunks');
+            return this.vaultData;
+          }
+        } catch (apiErr) {
+          console.error('[Vault] Neon API fetch failed:', apiErr);
+        }
         console.warn('[Vault] No manifest.json found. Falling back to previous static loader.');
         // Back-compat: use old static structure as a last resort
         const fallback = await this.loadFolder('General');

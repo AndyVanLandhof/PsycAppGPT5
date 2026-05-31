@@ -163,7 +163,7 @@ function App() {
 
   if (!curriculum) {
     return (
-      <div className={`min-h-screen bg-gradient-to-br ${curriculum==='ocr-rs' ? 'from-blue-100 via-blue-50 to-blue-200' : 'from-pink-200 via-pink-100 to-pink-300'} flex items-center justify-center p-6`}>
+      <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-100 to-pink-300 flex items-center justify-center p-6">
         <div className="bg-white rounded-2xl shadow-xl p-10 w-full max-w-xl space-y-6 text-center">
           <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Choose your subject</h1>
           <p className="text-gray-600">Pick a curriculum to continue. You can change this later in Settings.</p>
