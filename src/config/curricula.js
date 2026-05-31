@@ -1,10 +1,19 @@
 export const CURRICULA = {
-  'ocr-rs': { id: 'ocr-rs', label: 'OCR Religious Studies H573' }
+  'aqa-psych': { id: 'aqa-psych', label: 'AQA Psychology 7182' },
+  'ocr-rs': { id: 'ocr-rs', label: 'OCR Religious Studies H573' },
+  'edexcel-englit': { id: 'edexcel-englit', label: 'Edexcel English Literature 9ET0' }
 };
 
 export function getSelectedCurriculum() {
-  return 'ocr-rs';
+  try {
+    return localStorage.getItem('curriculum');
+  } catch (_) {
+    return null;
+  }
 }
 
-export function setSelectedCurriculum(_id) {}
-
+export function setSelectedCurriculum(id) {
+  try {
+    localStorage.setItem('curriculum', id);
+  } catch (_) {}
+}

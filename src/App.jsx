@@ -120,7 +120,8 @@ function Section({ title, topics, setTopic }) {
 function App() {
   const [view, setView] = useState('home');
   const [selectedTopicId, setSelectedTopicId] = useState(null);
-  const [curriculum, setCurriculum] = useState('ocr-rs');
+  // Always start on subject chooser on load/refresh; user selection sets curriculum
+  const [curriculum, setCurriculum] = useState(null);
   const [showMindMapModal, setShowMindMapModal] = useState(false);
   const [showEssayCoPilot, setShowEssayCoPilot] = useState(false);
   const [showEngLitEssayCoPilot, setShowEngLitEssayCoPilot] = useState(false);
@@ -155,6 +156,26 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [curriculum]);
 
+  const chooseCurriculum = (id) => {
+    setCurriculum(id);
+    setSelectedCurriculum(id);
+  };
+
+  if (!curriculum) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-100 to-pink-300 flex items-center justify-center p-6">
+        <div className="bg-white rounded-2xl shadow-xl p-10 w-full max-w-xl space-y-6 text-center">
+          <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Choose your subject</h1>
+          <p className="text-gray-600">Pick a curriculum to continue. You can change this later in Settings.</p>
+          <div className="grid grid-cols-1 gap-4">
+            <button onClick={() => chooseCurriculum('aqa-psych')} className="w-full px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold">AQA Psychology 7182</button>
+            <button onClick={() => chooseCurriculum('ocr-rs')} className="w-full px-6 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold">OCR Religious Studies H573</button>
+            <button onClick={() => chooseCurriculum('edexcel-englit')} className="w-full px-6 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 font-semibold">Edexcel English Literature 9ET0</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (view === 'vault-tester') {
     return (
@@ -179,6 +200,14 @@ function App() {
         >
           ← Back to Home
         </button>
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Curriculum</label>
+          <div className="flex gap-2">
+            <button onClick={() => chooseCurriculum('aqa-psych')} className={`px-3 py-1 rounded border ${curriculum==='aqa-psych'?'bg-blue-600 text-white border-blue-600':'bg-white'}`}>AQA Psychology</button>
+            <button onClick={() => chooseCurriculum('ocr-rs')} className={`px-3 py-1 rounded border ${curriculum==='ocr-rs'?'bg-purple-600 text-white border-purple-600':'bg-white'}`}>OCR RS</button>
+            <button onClick={() => chooseCurriculum('edexcel-englit')} className={`px-3 py-1 rounded border ${curriculum==='edexcel-englit'?'bg-emerald-600 text-white border-emerald-600':'bg-white'}`}>Edexcel Eng Lit</button>
+          </div>
+        </div>
         <SettingsPanel onOpenTaught={() => setView('taught-content')} />
       </div>
     );
@@ -252,6 +281,15 @@ function App() {
           </h1>
           </div>
           <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
+        </div>
+        {/* Top-left quick switch */}
+        <div className="flex justify-start items-center">
+          <button
+            onClick={() => { setSelectedCurriculum(null); setCurriculum(null); setView('home'); }}
+            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
+          >
+            ↩︎ Switch Subject
+          </button>
         </div>
         {/* Sections: Compulsory and Options */}
         {curriculum === 'ocr-rs' ? (
