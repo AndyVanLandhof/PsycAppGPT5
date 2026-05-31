@@ -134,7 +134,7 @@ function App() {
   const selectedTopic = topicsSrc[selectedTopicId] || null;
 
   useEffect(() => {
-    document.title = "Psyc Tutor";
+    document.title = "A-Level Tutor";
   }, []);
 
   // Dev helper: warn when a sub-topic has no KU map
