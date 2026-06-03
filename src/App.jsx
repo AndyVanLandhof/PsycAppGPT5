@@ -249,7 +249,7 @@ function App() {
               {curriculum === 'ocr-rs' ? 'OCR Religious Studies H573' : (curriculum === 'edexcel-englit' ? 'Edexcel English Literature 9ET0' : 'AQA Psychology 7182')}
           </h1>
           </div>
-          <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
+          <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">Your AI-powered revision companion</p>
         </div>
         {/* Sections: Compulsory and Options */}
         {curriculum === 'ocr-rs' ? (
