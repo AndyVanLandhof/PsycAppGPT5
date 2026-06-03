@@ -120,12 +120,9 @@ function Section({ title, topics, setTopic }) {
 function App() {
   const [view, setView] = useState('home');
   const [selectedTopicId, setSelectedTopicId] = useState(null);
-  // Always start on subject chooser on load/refresh; user selection sets curriculum
-  const [curriculum, setCurriculum] = useState(null);
-  const [showMindMapModal, setShowMindMapModal] = useState(false);
+  const [curriculum, setCurriculum] = useState('ocr-rs');
   const [showEssayCoPilot, setShowEssayCoPilot] = useState(false);
   const [showEngLitEssayCoPilot, setShowEngLitEssayCoPilot] = useState(false);
-  const mindMapUrl = `/vault/ocr-rs/vault/General/${encodeURIComponent('Mind Maps Jan 2026.pdf')}`;
 
   // Determine topics source
   const psychTopicsAll = psychologyTopics;
@@ -156,26 +153,6 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [curriculum]);
 
-  const chooseCurriculum = (id) => {
-    setCurriculum(id);
-    setSelectedCurriculum(id);
-  };
-
-  if (!curriculum) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-100 to-pink-300 flex items-center justify-center p-6">
-        <div className="bg-white rounded-2xl shadow-xl p-10 w-full max-w-xl space-y-6 text-center">
-          <h1 className="text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Choose your subject</h1>
-          <p className="text-gray-600">Pick a curriculum to continue. You can change this later in Settings.</p>
-          <div className="grid grid-cols-1 gap-4">
-            <button onClick={() => chooseCurriculum('aqa-psych')} className="w-full px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-semibold">AQA Psychology 7182</button>
-            <button onClick={() => chooseCurriculum('ocr-rs')} className="w-full px-6 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 font-semibold">OCR Religious Studies H573</button>
-            <button onClick={() => chooseCurriculum('edexcel-englit')} className="w-full px-6 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 font-semibold">Edexcel English Literature 9ET0</button>
-          </div>
-        </div>
-      </div>
-    );
-  }
 
   if (view === 'vault-tester') {
     return (
@@ -200,14 +177,6 @@ function App() {
         >
           ← Back to Home
         </button>
-        <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 mb-2">Curriculum</label>
-          <div className="flex gap-2">
-            <button onClick={() => chooseCurriculum('aqa-psych')} className={`px-3 py-1 rounded border ${curriculum==='aqa-psych'?'bg-blue-600 text-white border-blue-600':'bg-white'}`}>AQA Psychology</button>
-            <button onClick={() => chooseCurriculum('ocr-rs')} className={`px-3 py-1 rounded border ${curriculum==='ocr-rs'?'bg-purple-600 text-white border-purple-600':'bg-white'}`}>OCR RS</button>
-            <button onClick={() => chooseCurriculum('edexcel-englit')} className={`px-3 py-1 rounded border ${curriculum==='edexcel-englit'?'bg-emerald-600 text-white border-emerald-600':'bg-white'}`}>Edexcel Eng Lit</button>
-          </div>
-        </div>
         <SettingsPanel onOpenTaught={() => setView('taught-content')} />
       </div>
     );
@@ -282,29 +251,12 @@ function App() {
           </div>
           <p className="text-lg text-gray-700 max-w-xl mx-auto font-medium">You got this Phoebs!</p>
         </div>
-        {/* Top-left quick switch */}
-        <div className="flex justify-start items-center">
-          <button
-            onClick={() => { setSelectedCurriculum(null); setCurriculum(null); setView('home'); }}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
-          >
-            ↩︎ Switch Subject
-          </button>
-        </div>
         {/* Sections: Compulsory and Options */}
         {curriculum === 'ocr-rs' ? (
           <>
             <Section title="Philosophy" topics={getTopicsByComponent('Philosophy', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Ethics" topics={getTopicsByComponent('Ethics', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
             <Section title="Christianity" topics={getTopicsByComponent('Christianity', topicsSrc)} setTopic={id => { setSelectedTopicId(id); setView('topic-detail'); }} />
-            <div className="flex justify-center mt-4">
-              <button
-                onClick={() => setShowMindMapModal(true)}
-                className="px-5 py-2 bg-white border-2 border-purple-400 text-purple-700 rounded-lg font-semibold shadow-sm hover:shadow hover:bg-purple-50 transition"
-              >
-                🧠 Mind Maps (Jan 2026)
-              </button>
-            </div>
           </>
         ) : curriculum === 'edexcel-englit' ? (
           <>
@@ -355,82 +307,17 @@ function App() {
           </div>
         </div>
 
-        {/* Tools & Setup */}
-        <div className="mt-12">
-          <div className="text-center text-purple-700 font-semibold text-2xl mb-3">Tools & Setup</div>
-          <div className="flex flex-wrap justify-center items-center gap-3">
+        {/* Settings */}
+        <div className="mt-12 flex justify-center">
           <button
-              onClick={() => setView('settings')}
+            onClick={() => setView('settings')}
             className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold"
           >
-              <Settings className="w-5 h-5" />
-              Settings
-            </button>
-            {curriculum !== 'ocr-rs' ? (
-              <button onClick={() => setView('progress-dashboard')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">
-                <TrendingUp className="w-5 h-5" /> Progress Dashboard
-              </button>
-            ) : (
-              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">
-                <TrendingUp className="w-5 h-5" /> Progress Dashboard (soon)
-              </button>
-            )}
-            {curriculum !== 'ocr-rs' ? (
-              <button onClick={() => setView('srs-dashboard')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">
-                <RefreshCw className="w-5 h-5" /> SRS Dashboard
+            <Settings className="w-5 h-5" />
+            Settings
           </button>
-            ) : (
-              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">
-                <RefreshCw className="w-5 h-5" /> SRS Dashboard (soon)
-          </button>
-            )}
-            {curriculum !== 'ocr-rs' ? (
-              <button onClick={() => setView('topic-progress-demo')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧭 Topic Progress Demo</button>
-            ) : (
-              <button disabled title="Coming soon for OCR RS" className="flex items-center gap-1 text-base px-3 py-1 border border-gray-200 bg-gray-100 rounded font-semibold text-gray-400 cursor-not-allowed">🧭 Topic Progress Demo (soon)</button>
-            )}
-            <button onClick={() => setView('examine-demo')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Examine Demo</button>
-            <button onClick={() => setView('planner')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🗓️ Planner</button>
-            <button onClick={() => setView('vault-tester')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Vault Tester</button>
-            <button onClick={() => setView('bank-generator')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧰 Bank Generator</button>
-            <button onClick={() => setView('quiz-lab')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">🧪 Quiz Lab</button>
-            <button onClick={() => setView('quiz-review')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📋 Quiz Bank Review</button>
-            <button onClick={() => setView('vault-directory')} className="flex items-center gap-1 text-base px-3 py-1 border border-gray-300 bg-white rounded hover:bg-gray-50 font-semibold">📂 Vault Directory</button>
-          <button
-              onClick={() => { if (confirm('Reset ALL progress for all topics? This cannot be undone.')) { resetAllProgressStorage(); } }}
-            className="flex items-center gap-1 text-base px-3 py-1 border border-red-300 bg-white rounded hover:bg-red-50 font-semibold text-red-700"
-            title="Clears all progressive tracking data"
-          >
-            ♻️ Reset All Progress
-          </button>
-        </div>
         </div>
       </div>
-      {showMindMapModal && (
-        <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center px-4">
-          <div className="bg-white rounded-lg shadow-2xl max-w-5xl w-full h-[80vh] flex flex-col">
-            <div className="flex items-center justify-between px-4 py-3 border-b">
-              <h2 className="text-lg font-semibold text-gray-800">Mind Maps (Jan 2026)</h2>
-              <button
-                onClick={() => setShowMindMapModal(false)}
-                className="text-gray-600 hover:text-gray-800 font-semibold"
-              >
-                ✕
-              </button>
-            </div>
-            <div className="flex-1">
-              <iframe
-                title="Mind Maps Jan 2026"
-                src={mindMapUrl}
-                className="w-full h-full"
-              />
-              <div className="px-4 py-2 text-sm text-gray-600 border-t">
-                Having trouble? <a className="text-purple-700 underline" href={mindMapUrl} target="_blank" rel="noreferrer">Open in a new tab</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
       {showEssayCoPilot && (
         <EssayCoPilot onClose={() => setShowEssayCoPilot(false)} />
       )}

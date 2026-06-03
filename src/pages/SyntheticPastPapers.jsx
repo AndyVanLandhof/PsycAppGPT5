@@ -395,10 +395,13 @@ Return STRICT JSON:
       // Detect OCR RS module from question keywords
       const questionLower = fqQuestion.toLowerCase();
       const isEthicsQuestion = isOCR && (
-        /\b(kant|kantian|categorical imperative|duty|deontolog|utilitarian|bentham|mill|greatest good|hedonic|natural law|aquinas.*(ethics|moral)|situation ethics|fletcher|meta.?ethics|normative|applied ethics|euthanasia|business ethics|sexual ethics)\b/i.test(fqQuestion)
+        /\b(kant|kantian|categorical imperative|duty|deontolog|utilitarian|bentham|mill|greatest good|hedonic|natural law|aquinas.*(ethics|moral)|situation ethics|fletcher|meta.?ethics|normative|applied ethics|euthanasia|business ethics|sexual ethics|conscience|freud.*(ethics|moral|conscience)|aquinas.*freud|freud.*aquinas|superego|synderesis|conscientia|abortion|capital punishment|just war|genetic engineer|cloning|embryo|stem cell|animal rights|environmental ethics|poverty|wealth|global ethics|whistleblow|corporate|csr)\b/i.test(fqQuestion)
       );
       const isPhilReligionQuestion = isOCR && (
         /\b(god.*(exist|nature|attributes)|existence of god|five ways|cosmological|teleological|ontological|design argument|problem of evil|theodicy|religious experience|miracles?|natural theology|revealed theology|religious language|verificat|falsificat|via negativa|analogy|symbol|myth)\b/i.test(fqQuestion)
+      );
+      const isChristianityQuestion = isOCR && !isEthicsQuestion && !isPhilReligionQuestion && (
+        /\b(jesus|christ|christian|church|trinity|incarnation|atonement|salvation|grace|scripture|bible|gospel|augustine|pelagius|luther|calvin|original sin|human nature|afterlife|life after death|heaven|hell|purgatory|soul|dualism|monism|pluralism|hick.*religion|rahner|exclusiv|inclusiv|feminist theolog|ruether|hampson|liberation theolog|gutierrez|political theolog|omnipoten|omniscien|omnibenevolent|boethius|eternity|immutab|process theolog|christolog|predestination|resurrection.*body|replica theory|anonymous christian)\b/i.test(fqQuestion)
       );
 
       // Detect AQA Psychology topic from question keywords
@@ -470,53 +473,112 @@ Top-band sufficiency (ceiling):
 - Limit "Improvements" to at most 2 concise, specific items when sufficiency is met; otherwise, give up to 3 as needed. Avoid generic "add more detail".`
           : '';
 
-        prompt = `You are an expert ${examBoard} examiner. ${subjectGuard} Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2/AO3 would look like. Use best-fit but be fair-strict: stay at the middle of a band unless you see clear core anchors and evaluation.
+        // Universal OCR H573 level descriptors — always injected, never conditional
+        const ocrLevelDescriptors = isOCR ? `OCR H573 Level Descriptors (40-mark essays — AO1 out of 16, AO2 out of 24):
+- Level 4 (33–40 marks): Excellent and thorough knowledge of the topic; insightful, well-sustained critical analysis and evaluation; scholars and their positions explained accurately and in depth; coherent, well-signposted argument throughout; precise use of specialist vocabulary. AO1 14–16: multiple scholars/concepts explained with detail and accuracy. AO2 20–24: genuine comparative evaluation; counter-arguments engaged and assessed rather than merely listed; sustained and developed argument.
+- Level 3 (25–32 marks): Good knowledge and understanding; good analysis and evaluation, generally well-developed; mostly accurate use of technical terms; evaluation may be less sustained or precise than Level 4. AO1 10–13: good coverage with minor gaps or imprecision. AO2 15–19: evaluation present but may lack depth or be one-sided.
+- Level 2 (15–24 marks): Adequate knowledge; some analysis but largely descriptive; argument only partly developed; some accurate technical terms. AO1 6–9: key scholars mentioned but explanations superficial. AO2 9–14: evaluative language present but reasoning often thin.
+- Level 1 (0–14 marks): Limited, fragmented, or inaccurate knowledge; little or no genuine analysis; unclear or incoherent argument.
+Best-fit principle: place the essay at the point within the band that best reflects the quality present. Award the TOP of a band when all criteria are clearly met — do not default to the middle. Award 36–40 when knowledge, evaluation, and argument are all clearly excellent and sustained.` : '';
+
+        // Topic-specific scholar/concept hints — additive on top of level descriptors
+        const ocrTopicHints = isOCR ? (
+          isEthicsQuestion
+            ? `Ethics topic guidance (OCR H573 Component 2 — do NOT penalize for missing Natural Theology content):
+- Kantian ethics: duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates (freedom, immortality, God), autonomy/heteronomy. Critics: Hume (is/ought gap), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
+- Utilitarianism: Bentham (hedonic calculus, principle of utility), Mill (higher/lower pleasures, rule utilitarianism), Singer (preference utilitarianism). Critics: Nozick (experience machine), Williams (integrity), McCloskey (sheriff scenario).
+- Natural law: Aquinas' primary precepts (BRILL: life, reproduction, knowledge, society, worship), secondary precepts, real vs apparent goods, doctrine of double effect, synderesis rule. Critics: proportionalism (Hoose), situation ethics, Vardy.
+- Situation ethics: Fletcher's six propositions, agape love, four working principles (pragmatism, relativism, positivism, personalism). Critics: legalism, antinomianism, Barclay.
+- Conscience: Aquinas (synderesis, conscientia, imago dei, ratio, real/apparent goods, vincible/invincible ignorance), Freud (Id/Ego/Superego, Oedipus/Electra complex, phallic stage ages 3–6), Butler (supreme moral authority, principle of reflection), Newman ("I shall drink to the Pope, but to Conscience first"), Fromm (authoritarian vs humanistic conscience).
+- Sexual ethics: Christian/natural law views (sex for procreation, within marriage), Kantian duty vs consequentialist accounts, feminist perspectives, LGBT+ inclusion debates (Church of England, Vatican), virtue ethics approach.
+- Euthanasia/death and dying: sanctity of life (Aquinas, Christian teaching), quality of life (Singer), voluntary/non-voluntary/involuntary euthanasia, doctrine of double effect (terminal sedation), hospice movement (Saunders), Kant on autonomy vs duty to live.
+- Business ethics: whistleblowing (loyalty vs honesty), CSR (Friedman vs stakeholder theory), Kant on using people as means, Singer on global poverty and corporate exploitation, virtue ethics in business.
+- Meta-ethics: cognitivism vs non-cognitivism; naturalism (defining good in natural terms); intuitionism (Moore — naturalistic fallacy, Ross — prima facie duties); emotivism (Ayer — "boo/hurrah", Stevenson); prescriptivism (Hare — universalisability); error theory (Mackie — no objective moral facts).
+- Level 4 sufficiency: 2+ named scholars accurately explained + sustained comparative evaluation + counter-arguments addressed = 33–40. Award 36–40 when knowledge, evaluation, and argument are all clearly strong.`
+            : isPhilReligionQuestion
+              ? `Philosophy of Religion topic guidance (OCR H573 Component 1):
+- Natural theology anchors ARE relevant: Aquinas' Five Ways (motion, causation, contingency, gradation, teleology), Paley's design argument (watch analogy, Hume's objections), Anselm's ontological argument ("that than which nothing greater can be conceived"), Descartes' ontological argument.
+- Revealed theology: propositional vs non-propositional revelation, accommodation (Calvin), scripture authority, religious experience (Swinburne's four criteria: public/private; Otto's numinous; William James' four marks: noetic, ineffable, transient, passive).
+- Problem of evil: logical problem (Mackie), evidential problem (Rowe); Augustinian theodicy (original perfection, Fall, natural/moral evil, hell); Irenean/Hick soul-making theodicy (humans as immature, epistemic distance); free will defence (Plantinga); process theology response.
+- Religious language: verification principle (Ayer — strong/weak, logical positivism); falsification (Flew — death by a thousand qualifications, Hare — blick, Mitchell — partisan); via negativa (apophatic — Maimonides); analogy (Aquinas — attribution and proportion); symbol (Tillich — participates in what it points to); myth (Bultmann — demythologisation).
+- Level 4 sufficiency: named argument + named objection + evaluative response that goes beyond restating views = 33–40. Award 36–40 when scholars are named precisely and evaluation is sustained and genuinely critical.`
+              : isChristianityQuestion
+                ? `Developments in Christian Thought topic guidance (OCR H573 Component 3):
+- Nature of God: omnipotence (Aquinas — can do all that is logically possible; Descartes — absolute omnipotence), omniscience (open theism vs classical theism), omnibenevolence, eternity (Boethius — eternal now/atemporal; Swinburne — everlasting/temporal), immutability, impassibility. Process theology (Whitehead, Hartshorne) as critique of classical attributes.
+- Jesus Christ: Christology — fully human/fully divine (Chalcedonian definition 451 CE); liberal theology (Schleiermacher, Harnack — Jesus as supreme moral teacher, not divine); liberation theology (Gutierrez — Jesus as liberator of the poor, preferential option); Son of God, incarnation, atonement theories (substitutionary — Anselm; moral influence — Abelard).
+- Human nature: Augustine (original sin, Fall, total depravity, need for grace, predestination); Pelagius (humans have free will and capacity for good without grace); Luther (justification by faith alone, bondage of the will, simul justus et peccator); Calvin (double predestination, TULIP). Key debate: can humans achieve goodness without divine grace?
+- Death and afterlife: resurrection of the body (Aquinas — bodily resurrection; Hick — replica theory, eschatological verification); immortality of the soul (Platonic dualism — soul survives death); near-death experiences and their evidential value (Swinburne); physicalism (no soul separate from body; resurrection as recreation). Christian vs secular philosophical accounts.
+- Religious pluralism: Hick (pluralist — all religions are culturally conditioned responses to the same transcendent Real; "Copernican revolution"); Rahner (inclusivist — anonymous Christians; grace available beyond the Church); Barth (exclusivist — salvation only through explicit faith in Christ); Knitter. Credit critiques of each position.
+- Liberation theology / political theology: Gutierrez ("preferential option for the poor", base communities); political reading of Jesus as social revolutionary; Marxist influence and Vatican critique; Christian duty to social justice and structural sin.
+- Feminist theology / gender and sexuality: Ruether (sexism in traditional Christianity, feminine divine, need for reform); Hampson (post-Christian feminism — Christianity irredeemably patriarchal); Mary Daly (radical feminist); debates on women's ordination (Church of England vs Roman Catholic); LGBTQ+ inclusion (Vines, liberal vs traditional interpretations of Scripture).
+- Level 4 sufficiency: 2+ named theologians/scholars accurately explained + sustained evaluative engagement + counter-argument addressed = 33–40. Award 36–40 when all three are clearly strong and the argument is sustained throughout.`
+                : `OCR H573 topic guidance:
+- Credit named scholars and accurate explanation of their views (AO1).
+- Credit genuine evaluation: counter-arguments, limitations of views, comparative judgements (AO2).
+- Do NOT penalize for missing content from other OCR H573 modules.
+- Use the level descriptors above to determine the band; award based on what IS present, not what is absent.`
+        ) : '';
+
+        // AQA Psychology universal level descriptors (scaled to fqMarks)
+        const psychLevelDescriptors = isPsych ? (() => {
+          const m = fqMarks;
+          const l4 = m <= 6 ? `${Math.ceil(m*0.8)}–${m}` : m <= 12 ? `${Math.ceil(m*0.75)}–${m}` : `13–${m}`;
+          const l3 = m <= 6 ? `${Math.ceil(m*0.5)}–${Math.ceil(m*0.8)-1}` : m <= 12 ? `${Math.ceil(m*0.5)}–${Math.ceil(m*0.75)-1}` : `9–12`;
+          const l2 = m <= 6 ? `${Math.ceil(m*0.25)}–${Math.ceil(m*0.5)-1}` : m <= 12 ? `${Math.ceil(m*0.25)}–${Math.ceil(m*0.5)-1}` : `5–8`;
+          const l1 = `1–${m <= 6 ? Math.ceil(m*0.25)-1 : m <= 12 ? Math.ceil(m*0.25)-1 : 4}`;
+          return `AQA Psychology Level Descriptors (${m}-mark question):
+- Level 4 (${l4}): Thorough and accurate knowledge and understanding; effective and relevant application to the context; clear and coherent evaluation with a well-developed line of argument; accurate use of psychological terminology throughout.
+- Level 3 (${l3}): Mostly accurate knowledge and understanding; some application to context though may be limited; some evaluation though argument may lack full development; generally accurate use of terminology.
+- Level 2 (${l2}): Some relevant psychological knowledge, some inaccuracies; limited or partial application; some evaluation though limited in scope or depth; some appropriate terminology.
+- Level 1 (${l1}): Minimal relevant knowledge; limited or no meaningful application; minimal or no evaluation; many inaccuracies; limited use of appropriate terminology.
+Best-fit: place the answer at the point in the band that best matches the quality present. Award the top of the band when AO1 knowledge is accurate and AO3 evaluation is clearly developed with a line of argument.`;
+        })() : '';
+
+        // AQA Psychology topic hints (additive)
+        const psychTopicHints = isPsych ? `Psychology topic guidance — stay within the SPECIFIC TOPIC asked. Do NOT import content from other topics.
+${isPsychSocialInfluence ? `TOPIC: Social Influence. Credit: types of conformity (compliance, identification, internalisation); Asch (conformity, 75% conformed at least once, variables: unanimity, group size, task difficulty); Milgram (obedience, 65% to 450V, situational variables: proximity, location, uniform; agentic state, legitimacy of authority); Zimbardo/SPE (social roles, dehumanisation — note ethical issues); minority influence (Moscovici — consistency, commitment, flexibility); social change (role of dissenter, snowball effect).` : ''}
+${isPsychMemory ? `TOPIC: Memory. Credit: Multi-Store Model (Atkinson & Shiffrin — sensory, STM, LTM; encoding, capacity, duration; evaluation: case studies HM, Clive Wearing but oversimplified); Working Memory Model (Baddeley & Hitch — central executive, phonological loop, visuospatial sketchpad, episodic buffer; evaluation: dual-task studies but CE vague); types of LTM (episodic, semantic, procedural — Tulving); EWT (Loftus & Palmer — leading questions, post-event information, anxiety/weapon focus effect, cognitive interview); forgetting (interference — proactive/retroactive; retrieval failure — Godden & Baddeley, context-dependent).` : ''}
+${isPsychAttachment ? `TOPIC: Attachment. Credit: Bowlby (monotropic theory — one primary caregiver, critical period, internal working model, continuity hypothesis); Ainsworth (Strange Situation — secure, insecure-avoidant, insecure-resistant; cultural variations — Van IJzendoorn); learning theory (Dollard & Miller — cupboard love, association with food); Harlow (rhesus monkeys — contact comfort over food); deprivation (Bowlby's 44 juvenile thieves, Rutter — separation vs deprivation) vs privation (Koluchova twins, Romanian orphan studies — Rutter); effects of institutionalisation; day care research (NICHD study).` : ''}
+${isPsychPsychopathology ? `TOPIC: Psychopathology. Credit: definitions of abnormality (statistical infrequency, deviation from social norms, failure to function adequately — Rosenhan & Seligman, deviation from ideal mental health — Jahoda); phobias (two-process model — Watson & Raynor Little Albert; systematic desensitisation, flooding); depression (Beck's cognitive triad, Ellis ABC model; CBT, drug therapy — SSRIs); OCD (biological — genetic, neural; drug therapy — SSRIs, CBT).` : ''}
+${isPsychApproaches ? `TOPIC: Approaches. Credit: behaviourism (classical conditioning — Pavlov, Watson; operant conditioning — Skinner, reinforcement/punishment; social learning theory — Bandura, Bobo doll, vicarious reinforcement, identification, self-efficacy); cognitive approach (schemas, cognitive neuroscience, models of memory); psychodynamic (Freud — id/ego/superego, unconscious, psychosexual stages, defence mechanisms; evaluation: lack of falsifiability, case study method); humanistic (Rogers — self-concept, congruence, UPR; Maslow — hierarchy of needs; evaluation: cultural bias, idiographic); biological (genes, neurochemistry, brain structure, evolution; evaluation: reductionism, nature-nurture).` : ''}
+${isPsychBiopsychology ? `TOPIC: Biopsychology. Credit: nervous system (CNS — brain/spinal cord; PNS — somatic/autonomic — sympathetic/parasympathetic); neurons (sensory, relay, motor; structure — dendrites, cell body, axon, myelin); synaptic transmission (neurotransmitters, excitatory/inhibitory); endocrine system (hormones, pituitary gland); fight-or-flight (adrenaline, sympathetic NS); localisation of function (Broca's area — speech production, Wernicke's area — speech comprehension, motor/somatosensory cortex); lateralisation (split-brain research — Sperry); plasticity and functional recovery (Maguire taxi drivers); sleep/biological rhythms (circadian — sleep-wake; infradian — menstrual; ultradian — sleep stages; endogenous pacemakers — SCN; exogenous zeitgebers — light).` : ''}
+${isPsychResearchMethods ? `TOPIC: Research Methods. Credit: experimental methods (lab, field, natural, quasi; IV/DV; operationalisation; control of extraneous variables); experimental design (independent groups, repeated measures, matched pairs; order effects, counterbalancing); sampling (random, stratified, opportunity, volunteer; bias); ethics (BPS guidelines — informed consent, deception, right to withdraw, confidentiality, protection from harm, debriefing); validity (internal — controls; external — ecological/population; mundane realism); reliability (inter-rater, test-retest; improving reliability); non-experimental methods (observations — covert/overt, participant/non-participant, structured/unstructured; self-report — questionnaires, interviews; correlational analysis; case studies; content analysis); statistical testing (significance p<0.05; chi-square, Mann-Whitney, Wilcoxon, Spearman's rho, Pearson's r; type I/II errors).` : ''}
+General AQA Psychology credits: named researcher + study/finding + evaluation point (strength or limitation). AO1 = knowledge; AO2 = application to scenario; AO3 = evaluation with clear reasoning.` : '';
+
+        // Edexcel English Literature universal level descriptors
+        const engLitLevelDescriptors = isEngLit ? `Edexcel English Literature Level Descriptors (${fqMarks}-mark question — AO1: informed personal response/argument; AO2: language/form/structure analysis; AO3: context):
+- Level 5 (${Math.ceil(fqMarks*0.83)}–${fqMarks}): Convincing, sophisticated personal response with a well-sustained argument; insightful, precise analysis of language/form/structure with well-chosen textual detail; confident, specific connections to context that illuminate meaning; assured use of critical terminology.
+- Level 4 (${Math.ceil(fqMarks*0.63)}–${Math.ceil(fqMarks*0.83)-1}): Perceptive personal response with a well-developed argument; detailed analysis of language/form/structure; clear and relevant contextual connections; accurate critical terminology.
+- Level 3 (${Math.ceil(fqMarks*0.43)}–${Math.ceil(fqMarks*0.63)-1}): Explained personal response with some argument development; some analysis of language/form/structure (may describe rather than analyse at times); some contextual awareness; generally appropriate terminology.
+- Level 2 (${Math.ceil(fqMarks*0.23)}–${Math.ceil(fqMarks*0.43)-1}): Some relevant points but largely descriptive; limited analysis; limited contextual reference; some use of terminology.
+- Level 1 (1–${Math.ceil(fqMarks*0.23)-1}): Minimal response; asserts rather than argues; little or no analysis; no meaningful contextual reference.
+Best-fit: award the top of a band when AO1 argument, AO2 analysis, and AO3 context are all clearly demonstrated at that level. Do not default to the middle.` : '';
+
+        // Edexcel English Literature topic hints (additive)
+        const engLitTopicHints = isEngLit ? `English Literature topic guidance — stay within the TEXT asked about:
+${isHamletQuestion ? `TEXT: Hamlet (Shakespeare). AO2: soliloquy form (direct address to audience, psychological revelation), imagery (corruption/decay — "rank and gross", "unweeded garden"), dramatic irony, prose vs verse (Hamlet's feigned madness), stichomythia, metatheatre ("The play's the thing"). AO3: revenge tragedy conventions; Elizabethan/Jacobean court politics and surveillance; Protestant theology and the ghost's purgatory; gender and early modern femininity (Ophelia's silence/madness). Key critics (AO5): A.C. Bradley ("Shakespearean Tragedy" — Hamlet's delay as tragic flaw); G. Wilson Knight ("The Embassy of Death" — Hamlet as death-bringer); Harvey Granville-Barker (Prefaces — performance and structure); T.S. Eliot ("Hamlet and His Problems" — Hamlet as aesthetic failure, objective correlative); Elaine Showalter (on Ophelia — feminine madness as culturally constructed). If 2+ critics are named with source titles, do NOT say "critical anchor missing".` : ''}
+${isHeartOfDarknessQuestion ? `TEXT: Heart of Darkness (Conrad). AO2: frame narrative (Marlow as unreliable narrator, Chinese-box structure), darkness/light imagery (ironic inversion), repetition of "horror", impressionistic style, symbolic geography (river as journey into self/past), ellipsis and reticence. AO3: Belgian colonialism in Congo Free State (1890s), rubber trade, Leopold II; Conrad's own 1890 Congo journey; late-Victorian attitudes to race and empire; Modernist narrative experimentation. Key critics (AO5): Chinua Achebe ("An Image of Africa" — Conrad as "thoroughgoing racist", dehumanisation of Africans); F.R. Leavis (Conrad's adjectival insistence, "heart of darkness" as moral core); Edward Said (Orientalism framework — othering); Ian Watt (impressionism and delayed decoding). If Achebe is named with source, do NOT say "critical anchor missing".` : ''}
+${isGodotQuestion ? `TEXT: Waiting for Godot (Beckett). AO2: cyclical structure (each act ends as it began — nothing happens twice), repetition and contradiction ("Let's go." / "They do not move."), vaudeville/music hall routines (comic doubling), stage directions as meaning, sparse language and pauses (silence as speech), hat-swapping routine, metatheatre. AO3: post-WWII existential crisis; Holocaust and human suffering; Beckett's own experience of the French Resistance; Theatre of the Absurd (rejection of realist conventions). Key critics (AO5): Martin Esslin ("The Theatre of the Absurd" — Godot as paradigm of absurdism); Beckett's own refusal to explain Godot; Ruby Cohn on language and repetition; Vivian Mercier ("nothing happens, twice"). If Esslin named with source, do NOT say "critical anchor missing".` : ''}
+${isLonelyLondonersQuestion ? `TEXT: The Lonely Londoners (Selvon). AO2: free indirect discourse blending narrator/character voice, Caribbean creole/dialect (syntactic and lexical — "ballad", "old talk"), stream-of-consciousness passages (the "summer" episode), absence of chapters (episodic structure mirroring dislocation), humour as resistance. AO3: Windrush generation (1948–1971) and post-war Commonwealth immigration; racism and housing discrimination in 1950s London; Caribbean identity and colonial legacy; nostalgia and belonging. Key critics: Ken Ramchand (West Indian novel tradition); Sandra Pouchet Paquet (Caribbean autobiography and diaspora identity); Victor Ramraj (humour and survival). Credit awareness of dialect as political and aesthetic choice.` : ''}
+${isPoetryQuestion ? `POETRY: AO2 = close reading of specific words/phrases and their effects (imagery, sound, rhythm, form, stanza structure, enjambment/caesura). AO3 = historical/social/biographical context linked to specific poems. Credit comparison of at least two poems with sustained argument. Do NOT just list techniques — analyse the effect on meaning.` : ''}
+General EngLit credits: AO1 = sustained personal argument with a clear interpretive stance; AO2 = analysis of specific language/form/structure (quote a word or phrase and explain its effect); AO3 = context linked specifically to the text's meaning; AO5 = named critic with source title and engagement with their argument. Do NOT mix texts. Keep theology/psychology out of EngLit responses.` : '';
+
+        prompt = `You are an expert ${examBoard} examiner. ${subjectGuard} Mark the student's answer to a single question using typical A-Level mark scheme criteria for this board. Give concise but specific feedback, with concrete examples/quotes (from the specification or typical sources) of what stronger AO1/AO2/AO3 would look like. Use best-fit judgement: place the essay at the point within the band that best reflects the quality present. Award the top of a band when core anchors, accuracy, and evaluation are clearly demonstrated — do not default to the middle.
 
 ${engLitAnchors}
 
-Scoring guardrails:
 ${isPsych
-  ? `- This is an AQA PSYCHOLOGY question. Stay within the SPECIFIC TOPIC area of the question.
-${isPsychSocialInfluence ? `- TOPIC: Social Influence. Key studies: Asch (conformity), Milgram (obedience), Zimbardo (Stanford Prison). Do NOT ask for memory/attachment/biopsychology content.` : ''}
-${isPsychMemory ? `- TOPIC: Memory. Key models: Multi-Store Model (Atkinson & Shiffrin), Working Memory Model (Baddeley & Hitch). Key studies: Loftus & Palmer (EWT), Godden & Baddeley. Do NOT ask for social influence/attachment content.` : ''}
-${isPsychAttachment ? `- TOPIC: Attachment. Key theories: Bowlby (monotropic, internal working model), Ainsworth (Strange Situation, types). Key studies: Harlow, Romanian orphan studies. Do NOT ask for memory/social influence content.` : ''}
-${isPsychPsychopathology ? `- TOPIC: Psychopathology. Cover definitions of abnormality, explanations (biological, cognitive, behavioural), and treatments. Do NOT ask for social influence/memory content.` : ''}
-${isPsychApproaches ? `- TOPIC: Approaches. Cover the specific approach asked (behaviourist/cognitive/biological/psychodynamic/humanistic). Do NOT mix approaches or ask for irrelevant studies.` : ''}
-${isPsychBiopsychology ? `- TOPIC: Biopsychology. Cover nervous system, neurons, endocrine system, fight-or-flight, localisation, lateralisation, plasticity, rhythms. Do NOT ask for social psychology content.` : ''}
-${isPsychResearchMethods ? `- TOPIC: Research Methods. Cover methodology, ethics, validity, reliability, sampling, experimental design. Do NOT ask for content from other topics.` : ''}
-- Credit: accurate terminology, named studies with researchers, dates, findings, evaluation points (strengths/limitations).
-- Do NOT mix topics: a memory question should not ask for attachment content, etc.`
+  ? `${psychLevelDescriptors}
+
+${psychTopicHints}`
   : isEngLit
-  ? `- For Edexcel English Literature: stay within the SPECIFIC TEXT asked about.
-${isHamletQuestion ? `- TEXT: Hamlet. Key critics: Bradley ("Shakespearean Tragedy"), Wilson Knight ("Embassy of Death"), Granville-Barker (Prefaces), Eliot ("Hamlet and His Problems"), Showalter (on Ophelia). Do NOT ask for Conrad/Beckett/Selvon content.` : ''}
-${isHeartOfDarknessQuestion ? `- TEXT: Heart of Darkness. Key critics: Achebe ("An Image of Africa"), Leavis, Said (Orientalism). Focus on: colonialism, narrative frame, light/darkness imagery. Do NOT ask for Hamlet/Godot content.` : ''}
-${isGodotQuestion ? `- TEXT: Waiting for Godot. Key critics: Esslin (Theatre of the Absurd), Beckett's own views. Focus on: absurdism, time, existentialism, tragicomedy. Do NOT ask for Shakespeare/Conrad content.` : ''}
-${isLonelyLondonersQuestion ? `- TEXT: The Lonely Londoners. Focus on: Windrush, dialect/creole, London experience, Caribbean identity. Do NOT ask for Shakespeare/Conrad content.` : ''}
-${isPoetryQuestion ? `- POETRY: Focus on form, structure, language techniques, comparison between poems. Credit close reading of specific phrases/lines.` : ''}
-- If the answer includes at least two named critics with source titles, do NOT say "critical anchor missing". 
-- Keep theology/psychology out; focus on language/form/structure, historical/social context, and literary criticism.
-- Do NOT mix texts: a Hamlet essay should not ask for Heart of Darkness content.`
-  : isEthicsQuestion
-    ? `- This is an ETHICS question (OCR H573). Do NOT ask for Natural Theology anchors (Aquinas' Five Ways, Paley) - those are Philosophy of Religion, not Ethics.
-- For Kantian ethics: credit duty, good will, categorical imperative (universal law, humanity formula, kingdom of ends), Three Postulates (freedom, immortality, God), autonomy/heteronomy. Key critics: Hume (no ought from is), Mill (consequences matter), Bernard Williams (integrity objection), Philippa Foot (trolley problem), W.D. Ross (prima facie duties).
-- For utilitarianism: credit Bentham (hedonic calculus, principle of utility), Mill (higher/lower pleasures, rule utilitarianism), Singer (preference utilitarianism). Critics: Nozick (experience machine), Williams (integrity), McCloskey (sheriff scenario).
-- For natural law: credit Aquinas' primary/secondary precepts, real vs apparent goods, doctrine of double effect. Critics: Proportionalism, situation ethics.
-- For situation ethics: credit Fletcher's six propositions, agape love. Critics: legalism critique, antinomian dangers.
-- Level 4 (33-40 marks) = 2-3 named theorists, clear explanations, AND meaningful critique/comparison. If the essay discusses the Three Postulates (freedom, immortality, God) at any length, it HAS covered them - do NOT say "missing".
-- Level 3 (25-32 marks) = solid coverage with some evaluation but less depth or fewer critics.
-- An essay with Kant's key concepts (duty, good will, categorical imperative) + Three Postulates + comparison to utilitarianism + axe murderer example + some critique = 34-38/40 range.
-- IMPORTANT: The levelDescriptor MUST match the awarded score. If you award 33-40, say "Level 4". If you award 25-32, say "Level 3". Do NOT mismatch.
-- Do NOT penalize for missing Aquinas' Five Ways in an ethics essay.`
-    : isPhilReligionQuestion
-      ? `- This is a PHILOSOPHY OF RELIGION question (OCR H573). Natural/Revealed theology anchors ARE relevant here.
-- To reach the top of Level 3 / into Level 4, expect at least one explicit Natural Theology anchor (e.g., Aquinas' Five Ways or Paley's design argument) AND/OR one explicit Revealed Theology anchor (e.g., revelation, accommodation, scripture authority).
-- Credit implicit references, but do NOT assume missing anchors; if absent, cap within band (e.g., mid-Level 3).
-- Award higher marks only when evaluation names a specific counter (e.g., Hume/Darwin for design; Kant for ontological; Russell for cosmological) and ties it to the question.`
-      : `- For OCR Religious Studies: use subject-appropriate anchors based on the question topic.
-- Ethics questions: expect ethical theorists (Kant, Bentham, Mill, Fletcher, Aquinas on natural law) - NOT arguments for God's existence.
-- Philosophy of Religion questions: expect arguments for/against God (Aquinas' Five Ways, Paley, problem of evil, religious experience).
-- Christianity questions: expect biblical/theological content.
-- Do NOT mix modules: an ethics essay should not be penalized for missing cosmological argument content.`}
+  ? `${engLitLevelDescriptors}
+
+${engLitTopicHints}`
+  : `${ocrLevelDescriptors}
+
+${ocrTopicHints}
+- IMPORTANT: The levelDescriptor in your JSON response MUST match the awarded score. If you award 33–40, say "Level 4". If you award 25–32, say "Level 3". Do NOT mismatch.`}
 
 Candidate context (realism):
 - 17–18 year-old writing under ~40-minute exam pressure for a 40-mark essay.
@@ -531,16 +593,12 @@ ${fqQuestion}
 STUDENT ANSWER:
 ${fqAnswer}
 
-Subject guardrails:
-- ${isPsych 
-    ? `AQA Psychology: Stay within the topic area. ${isPsychSocialInfluence ? 'Social Influence: Asch, Milgram, Zimbardo, minority influence.' : ''} ${isPsychMemory ? 'Memory: MSM, WMM, EWT, forgetting.' : ''} ${isPsychAttachment ? 'Attachment: Bowlby, Ainsworth, deprivation/privation.' : ''} ${isPsychPsychopathology ? 'Psychopathology: definitions, explanations, treatments.' : ''} ${isPsychApproaches ? 'Approaches: focus on the specific approach asked.' : ''} ${isPsychBiopsychology ? 'Biopsychology: nervous system, localisation, rhythms.' : ''} ${isPsychResearchMethods ? 'Research Methods: validity, reliability, ethics, design.' : ''} Do NOT mix topics or ask for content from other areas.`
-    : isEngLit 
-    ? `English Literature: Stay within the TEXT asked about. ${isHamletQuestion ? 'Hamlet: Bradley, Wilson Knight, Granville-Barker, Eliot, Showalter.' : ''} ${isHeartOfDarknessQuestion ? 'Heart of Darkness: Achebe, Leavis, Said, colonialism.' : ''} ${isGodotQuestion ? 'Godot: Esslin, absurdism, existentialism.' : ''} ${isLonelyLondonersQuestion ? 'Lonely Londoners: Windrush, dialect, Caribbean identity.' : ''} ${isPoetryQuestion ? 'Poetry: form, structure, comparison.' : ''} AO2 = language/form/structure; AO3 = context. Do NOT mix texts or ask for theology/psychology.`
-    : isEthicsQuestion 
-      ? 'OCR Ethics: Focus on ethical theories, moral philosophers, and their critiques. Key figures for Kantian ethics: Kant, Hume, Mill, Williams, Foot. For utilitarianism: Bentham, Mill, Singer, Nozick. Do NOT ask for arguments for God\'s existence (Aquinas\' Five Ways, Paley) - those belong to Philosophy of Religion, not Ethics.'
-      : isPhilReligionQuestion
-        ? 'OCR Philosophy of Religion: Focus on arguments for/against God\'s existence, religious language, and religious experience. Natural theology (Aquinas, Paley) and revealed theology ARE relevant here.'
-        : 'Use subject-appropriate anchors; avoid off-topic domains. Keep content within the relevant module/topic/text.'}
+Subject reminder:
+- ${isPsych
+    ? `AQA Psychology: Stay within the topic area. Do NOT mix topics or ask for content from other areas.`
+    : isEngLit
+    ? `English Literature: Stay within the TEXT asked about. AO2 = language/form/structure; AO3 = context. Do NOT mix texts or ask for theology/psychology.`
+    : `OCR Religious Studies H573: Topic guidance and level descriptors are already provided above. Do NOT penalize for missing content from other OCR modules.`}
 
 Instructions:
 - Use the board's level descriptors/banding to decide the mark.
@@ -558,7 +616,7 @@ POSITIVE MARKING (as real examiners do):
 - Real examiners mark POSITIVELY: they look for what IS there to credit, not hunt for gaps.
 - If key content is present (even if brief), give credit and note it could be "expanded" rather than penalizing as missing.
 - A solid essay with 3-4 key thinkers, clear structure, and some evaluation = upper Level 3 or Level 4.
-- 35-38/40 is appropriate for a well-structured essay with good coverage and some evaluation, even if not perfect.
+- 35-40/40 is appropriate for a well-structured essay with strong coverage, named scholars, and genuine evaluation; award 39-40 when the essay shows exceptional analytical depth.
 
 - In AO1 comment: mention at least one concrete piece of content (e.g., key term, theorist, study, date) that the student included, and one high-value item that would lift to top band. ${isEngLit ? 'If a named critic + source is present (e.g., Bradley/Granville-Barker/Wilson Knight/Eliot), say how the answer used or could better use that critic (agree/challenge/complicate).' : ''}
 - In AO2 comment: ${isEngLit ? 'focus on analysis of language/form/structure with a quoted word/phrase and its effect' : 'focus on evaluation/argument quality; give a specific improvement'}.
@@ -567,7 +625,7 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
 - In structureComment: evaluate the essay's structure - intro/conclusion quality, paragraph organization, argument/counter-argument balance, logical flow, signposting. Be specific about what works and what could improve (e.g., "intro sets up thesis clearly but conclusion is abrupt", "good use of 'however' to signal counter-arguments", "paragraphs jump between ideas - try one point per paragraph").
 - If the board is OCR RS and this is a 40-mark essay, award AO1 out of 16 and AO2 out of 24. Spell out what was right and what was missing for each AO.
 - For strengths/improvements, be concrete: cite at least 1–2 specific examples/quotes/critics or studies that were present or missing. Avoid vague phrases like "add more detail"; say exactly what content or critique would raise the band. If the EngLit top-band criteria are already met (critics + quotes + context), give at most 2 concise improvements.
-- If the answer shows good structure, multiple key figures, and comparative evaluation, award 34–38/40 for OCR 40-mark essays unless there are clear factual errors or missing entire sections.
+- If the answer shows good structure, multiple key figures, and comparative evaluation, award in the 35–40/40 range for OCR 40-mark essays; reserve 39–40 for essays with exceptional depth, precision, and evaluative sophistication. Only cap below 35 if there are clear factual errors or missing entire sections.
 - Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
 - For strengths and improvements, each bullet must start with a bracketed AO tag: ${isOCR ? '"[AO1] ..." or "[AO2] ..." only (OCR H573 has no AO3).' : '"[AO1] ..." or "[AO2] ..." or "[AO3] ..." (choose the dominant AO for that point).'} Always return exactly 3 strengths and exactly 3 improvements (truncate or combine if needed).
 - Return STRICT JSON:
@@ -837,32 +895,32 @@ ${isOCR ? '- OCR H573 has NO AO3. Do NOT mention AO3 at all. Only use AO1 (knowl
                   const pct = (fqResult.awarded / fqMarks) * 100;
                   const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
                   const excellent = [
-                    "🎉 Way to go Phoebe! This is excellent work - you're smashing it!",
-                    "🌟 Brilliant Phoebe! This is top-tier stuff - keep it up!",
-                    "🔥 Phoebe, you're on fire! This is A/A* territory!",
-                    "✨ Amazing work Phoebe! You should be really proud of this!",
-                    "🏆 Phoebe, this is genuinely impressive - examiner's dream!"
+                    "🎉 Excellent work - you're smashing it!",
+                    "🌟 Brilliant! This is top-tier stuff - keep it up!",
+                    "🔥 You're on fire! This is A/A* territory!",
+                    "✨ Amazing work! You should be really proud of this!",
+                    "🏆 This is genuinely impressive - examiner's dream!"
                   ];
                   const good = [
-                    "💪 Great job Phoebe! Solid work - just a few tweaks to make it even better.",
-                    "👏 Nice one Phoebe! You're in good shape - small refinements will push this higher.",
-                    "📈 Strong effort Phoebe! You're close to the top band - keep polishing!",
-                    "💫 Well done Phoebe! This is solid B/A territory - nearly there!",
-                    "🎯 Good work Phoebe! The foundations are strong - just tighten up a few areas."
+                    "💪 Great job! Solid work - just a few tweaks to make it even better.",
+                    "👏 Nice one! You're in good shape - small refinements will push this higher.",
+                    "📈 Strong effort! You're close to the top band - keep polishing!",
+                    "💫 Well done! This is solid B/A territory - nearly there!",
+                    "🎯 Good work! The foundations are strong - just tighten up a few areas."
                   ];
                   const developing = [
-                    "👍 Hey Phoebe, good effort! You've got the foundations - let's build on them.",
-                    "📝 Phoebe, you're on the right track! Focus on the feedback to level up.",
-                    "🌱 Nice start Phoebe! With some more depth, this could really shine.",
-                    "💡 Phoebe, the ideas are there! Now let's work on expressing them more fully.",
-                    "🔧 Good attempt Phoebe! A bit more detail and structure will boost this."
+                    "👍 Good effort! You've got the foundations - let's build on them.",
+                    "📝 You're on the right track! Focus on the feedback to level up.",
+                    "🌱 Nice start! With some more depth, this could really shine.",
+                    "💡 The ideas are there! Now let's work on expressing them more fully.",
+                    "🔧 Good attempt! A bit more detail and structure will boost this."
                   ];
                   const needsWork = [
-                    "📚 Phoebe, you might want to revisit this topic before tackling more essays.",
-                    "🎒 Phoebe, let's go back to basics on this one - the knowledge needs consolidating.",
-                    "📖 Phoebe, more revision needed here - then come back and try again!",
-                    "🔄 Phoebe, this topic needs more attention - review the notes and have another go.",
-                    "💪 Phoebe, don't worry - everyone struggles sometimes! Let's build up the basics first."
+                    "📚 You might want to revisit this topic before tackling more essays.",
+                    "🎒 Let's go back to basics on this one - the knowledge needs consolidating.",
+                    "📖 More revision needed here - then come back and try again!",
+                    "🔄 This topic needs more attention - review the notes and have another go.",
+                    "💪 Don't worry - everyone struggles sometimes! Let's build up the basics first."
                   ];
                   if (pct >= 85) {
                     return <div className="bg-green-100 border border-green-300 text-green-800 rounded px-3 py-2 font-medium">{pick(excellent)}</div>;

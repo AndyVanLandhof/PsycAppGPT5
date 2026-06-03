@@ -851,17 +851,6 @@ function TopicDetail({ topic, onBack }) {
                   <div className="text-xs text-gray-600 mt-1">Discuss this topic</div>
                 </div>
               </button>
-              {/* Concept Map */}
-              <button
-                onClick={() => setActiveView("conceptmap")}
-                className="border border-pink-200 rounded-lg shadow-sm p-4 hover:shadow-md transition hover:bg-pink-50 bg-gray-50"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">🗺️</div>
-                  <div className="font-semibold text-pink-800">Concept Map</div>
-                  <div className="text-xs text-gray-600 mt-1">Visualise this sub-topic</div>
-                </div>
-              </button>
               {/* Quotations - English Lit only */}
               {isEngLit && (
                 <button
